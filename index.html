@@ -121,6 +121,9 @@ header p {
   gap: 1.5rem;
   min-height: 600px;
 }
+.list-view { display: none; }
+.bottom-sheet { display: none; }
+
 /* --- Mobile shared --- */
 @media (max-width: 800px) {
   header { padding: 1rem 1rem 0.8rem; }
@@ -159,7 +162,6 @@ header p {
 }
 
 /* --- Bottom sheet (landscape mobile only) --- */
-.bottom-sheet { display: none; }
 @media (max-width: 800px) and (orientation: landscape) {
   .bottom-sheet {
     display: block;
@@ -183,7 +185,6 @@ header p {
 }
 
 /* --- List view styles --- */
-.list-view { display: none; }
 .list-group { margin-bottom: 1rem; }
 .list-group-title {
   font-size: 0.65rem;
