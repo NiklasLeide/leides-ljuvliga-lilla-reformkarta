@@ -6,24 +6,9 @@
 
 ---
 
-## Current Sprint: Sprint 1 – Grundfunktion live
+## Completed: Sprint 1 – Grundfunktion live
 
-**Mål:** Reformkartan fungerar på reformer.leide.se och kan delas.
-
-| # | Task | Status | Notes |
-|---|------|--------|-------|
-| 1.1 | GitHub-repo + Pages | ✅ Done | |
-| 1.2 | DNS: reformer.leide.se → GitHub Pages | ⏸️ Väntar | CNAME konfigurerad i Loopia, väntar på propagering |
-| 1.3 | Faktakontroll mot originaldokument | ✅ Done | 13/16 verifierade, 3 rättade |
-| 1.4 | Rätta betygssystem: status, datum, länkar | ✅ Done | Prop. 2025/26:197, ikraft 1 juli 2028 |
-| 1.5 | Rätta yrkesutbildning: fyll på innehåll | ✅ Done | Entreprenad, yrkesprov, PDF-länk |
-| 1.6 | Nyansera studiero: ikraftträdande | ✅ Done | Merparten 1 aug 2026, delar 1 juli 2028 |
-| 1.7 | ~Mobilanpassning v1~ | ⬜ Ersatt | Zoom/pan testat — för trångt. Ersatt av v2 |
-| 1.8 | Mobil v2: listvy i portrait | ✅ Done | Accordion-kort per kategori, kopplingar som klickbara länkar, filter stöds |
-| 1.9 | Mobil v2: kartvy i landscape | ✅ Done | Kompakta noder (96px), zoom/pan, sidopanel (20% bredd) |
-| 1.10 | Dela med 3–5 kollegor för första feedback | ⬜ Todo | Kan göras när DNS fungerar |
-
-**Status legend:** ⬜ Todo | 🔄 In Progress | ✅ Done | 🚫 Blocked | ⏸️ Paused
+9/10 uppgifter klara. Kvar: 1.2 DNS (väntar propagering), 1.10 dela med kollegor.
 
 ---
 
@@ -69,6 +54,7 @@ open index.html
 ## Osäkert — kontrollera vid tillfälle
 - Budgetsiffran 95 Mkr för trygghet/studiero — hämtad från budgetproposition, inte Prop. 193
 - Ändrade timplaner (Prop. 2023/24:20) — begränsade detaljer
+- Uppdragsfulltext för betyg och standardiserade tester refererar till RB 2025 som inte laddats ner — nuvarande text baserad på Skolverkets sidor och pressmeddelanden
 
 ---
 > Update this at the **end** of each Claude Code session, not the beginning.
