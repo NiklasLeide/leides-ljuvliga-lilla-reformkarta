@@ -166,6 +166,8 @@ header p {
   cursor: pointer;
   z-index: 1;
   transition: all 0.25s;
+  touch-action: none;
+  user-select: none;
   box-shadow: 0 1px 3px rgba(0,0,0,0.04);
 }
 .node:hover {
@@ -173,15 +175,22 @@ header p {
   transform: translateY(-1px);
 }
 .node.active {
-  border-color: var(--connection-active);
-  box-shadow: 0 3px 16px rgba(29,78,216,0.15);
+  border-width: 2.5px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  transform: scale(1.03);
   z-index: 2;
 }
 .node.connected {
-  border-color: var(--connection-active);
+  border: 1.5px dashed var(--connection-active);
+  background: rgba(219, 234, 254, 0.3);
   opacity: 1 !important;
 }
 .node.dimmed { opacity: 0.2; }
+.node.dragging {
+  transition: none;
+  cursor: grabbing;
+  z-index: 10;
+}
 .node.hidden { display: none; }
 .node-dot {
   width: 8px; height: 8px;
@@ -668,11 +677,77 @@ function init() {
     `;
     node.style.left = r.x + "%";
     node.style.top = r.y + "%";
-    node.addEventListener("click", () => selectNode(r.id));
     area.appendChild(node);
   });
 
   drawConnections();
+
+  // --- Drag-and-drop ---
+  let dragState = null;
+  let rafPending = false;
+
+  area.addEventListener("pointerdown", e => {
+    const node = e.target.closest(".node");
+    if (!node) return;
+    e.preventDefault();
+    const rect = area.getBoundingClientRect();
+    dragState = {
+      node: node,
+      id: node.dataset.id,
+      startX: e.clientX,
+      startY: e.clientY,
+      origLeft: node.offsetLeft,
+      origTop: node.offsetTop,
+      areaW: rect.width,
+      areaH: rect.height,
+      moved: false
+    };
+  });
+
+  document.addEventListener("pointermove", e => {
+    if (!dragState) return;
+    const dx = e.clientX - dragState.startX;
+    const dy = e.clientY - dragState.startY;
+    if (!dragState.moved && Math.abs(dx) < 5 && Math.abs(dy) < 5) return;
+    dragState.moved = true;
+    e.preventDefault();
+
+    dragState.node.classList.add("dragging");
+    document.body.style.cursor = "grabbing";
+
+    const newLeft = dragState.origLeft + dx;
+    const newTop = dragState.origTop + dy;
+    const pctX = (newLeft / dragState.areaW) * 100;
+    const pctY = (newTop / dragState.areaH) * 100;
+
+    dragState.node.style.left = pctX + "%";
+    dragState.node.style.top = pctY + "%";
+
+    if (!rafPending) {
+      rafPending = true;
+      requestAnimationFrame(() => {
+        drawConnections();
+        rafPending = false;
+      });
+    }
+  });
+
+  document.addEventListener("pointerup", e => {
+    if (!dragState) return;
+    dragState.node.classList.remove("dragging");
+    document.body.style.cursor = "";
+    if (!dragState.moved) {
+      selectNode(dragState.id);
+    } else {
+      const r = reforms.find(x => x.id === dragState.id);
+      if (r) {
+        r.x = parseFloat(dragState.node.style.left);
+        r.y = parseFloat(dragState.node.style.top);
+      }
+      drawConnections();
+    }
+    dragState = null;
+  });
 
   document.querySelectorAll(".filter-btn").forEach(btn => {
     btn.addEventListener("click", () => {
@@ -722,9 +797,14 @@ function selectNode(id) {
   document.querySelectorAll(".node").forEach(n => {
     const nid = n.dataset.id;
     n.classList.remove("active","connected","dimmed");
-    if (nid === id) n.classList.add("active");
-    else if (connectedIds.has(nid)) n.classList.add("connected");
-    else n.classList.add("dimmed");
+    if (nid === id) {
+      n.classList.add("active");
+      n.style.borderColor = catColors[r.cat].color;
+    } else {
+      n.style.borderColor = "";
+      if (connectedIds.has(nid)) n.classList.add("connected");
+      else n.classList.add("dimmed");
+    }
   });
 
   document.querySelectorAll(".map-svg line").forEach(l => {
@@ -738,7 +818,10 @@ function selectNode(id) {
 }
 
 function clearSelection() {
-  document.querySelectorAll(".node").forEach(n => n.classList.remove("active","connected","dimmed"));
+  document.querySelectorAll(".node").forEach(n => {
+    n.classList.remove("active","connected","dimmed");
+    n.style.borderColor = "";
+  });
   document.querySelectorAll(".map-svg line").forEach(l => l.classList.remove("active","dimmed"));
   document.getElementById("detailPanel").innerHTML = `
     <div class="detail-empty"><div class="detail-empty-icon">◉</div>Klicka på en reform i kartan<br>för att se detaljer och kopplingar.</div>`;
