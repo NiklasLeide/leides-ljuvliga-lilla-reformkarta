@@ -20,7 +20,7 @@
 | 1.6 | Nyansera studiero: ikraftträdande | ✅ Done | Merparten 1 aug 2026, delar 1 juli 2028 |
 | 1.7 | ~Mobilanpassning v1~ | ⬜ Ersatt | Zoom/pan testat — för trångt. Ersatt av v2 |
 | 1.8 | Mobil v2: listvy i portrait | ⬜ Todo | Scrollbar lista, accordion, kopplingar som klickbara länkar |
-| 1.9 | Mobil v2: kartvy i landscape | ⬜ Todo | Orientation-switch, glesare nodlayout (max ~10% överlapp) |
+| 1.9 | Mobil v2: kartvy i landscape | ⬜ Todo | Orientation-switch, glesare nodlayout (max ~10% överlapp), behåll zoom/pan |
 | 1.10 | Dela med 3–5 kollegor för första feedback | ⬜ Todo | Kan göras när DNS fungerar |
 
 **Status legend:** ⬜ Todo | 🔄 In Progress | ✅ Done | 🚫 Blocked | ⏸️ Paused

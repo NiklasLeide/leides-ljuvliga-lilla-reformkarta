@@ -21,8 +21,8 @@ Record of key decisions made during the project. **Newest first.**
 ### DEC-003: Mobil listvy (portrait) + kartvy (landscape)
 **Date:** 2026-03-23
 **Decision:** Portrait (<800px): scrollbar listvy med accordion-expandering, grupperad per kategori. Kopplingar som klickbara länkar. Landscape (mobil): växla till kartvyn med glesare nodlayout (max ~10% överlapp). Desktop: oförändrad kartvy.
-**Reasoning:** 16 noder med linjer är för tätt för portrait-mobil oavsett zoom. En lista är det naturliga mobilmönstret. Landscape ger tillräckligt med yta för kartan om noderna separeras. Ersätter DEC-002 (zoom/pan) som testades men var för trångt i praktiken.
-**Alternatives considered:** Behålla zoom/pan (testat, för trångt och dålig UX), enbart listvy utan kartväxling (tappar kopplingarna visuellt i landscape)
+**Reasoning:** 16 noder med linjer är för tätt för portrait-mobil oavsett zoom. En lista är det naturliga mobilmönstret. Landscape ger tillräckligt med yta för kartan om noderna separeras. Zoom/pan behålls i landscape för att navigera den glesare kartan.
+**Alternatives considered:** Enbart zoom/pan utan listvy (testat i portrait, för trångt), enbart listvy utan kartväxling (tappar kopplingarna visuellt i landscape)
 
 ---
 
