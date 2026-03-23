@@ -182,7 +182,7 @@ header p {
 }
 .node.connected {
   border: 1.5px dashed var(--connection-active);
-  background: rgba(219, 234, 254, 0.3);
+  background: #f4f9ff;
   opacity: 1 !important;
 }
 .node.dimmed { opacity: 0.2; }
@@ -783,6 +783,14 @@ function drawConnections() {
     line.id = `conn-${c.from}-${c.to}`;
     svg.appendChild(line);
   });
+
+  if (activeNode) {
+    const related = connections.filter(c => c.from === activeNode || c.to === activeNode);
+    document.querySelectorAll(".map-svg line").forEach(l => {
+      const isRelated = related.some(c => l.id === `conn-${c.from}-${c.to}`);
+      l.classList.add(isRelated ? "active" : "dimmed");
+    });
+  }
 }
 
 function selectNode(id) {
