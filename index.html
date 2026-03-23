@@ -123,6 +123,77 @@ header p {
 }
 @media (max-width: 800px) {
   .main-layout { grid-template-columns: 1fr; }
+  .detail-panel { display: none; }
+}
+
+/* --- Mobile bottom sheet --- */
+.bottom-sheet {
+  display: none;
+}
+@media (max-width: 800px) {
+  .bottom-sheet {
+    display: block;
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    z-index: 100;
+    background: var(--card);
+    border-top: 1px solid var(--border);
+    border-radius: 14px 14px 0 0;
+    box-shadow: 0 -4px 24px rgba(0,0,0,0.12);
+    max-height: 60vh;
+    overflow-y: auto;
+    padding: 0.6rem 1rem 1.2rem;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+    -webkit-overflow-scrolling: touch;
+  }
+  .bottom-sheet.open {
+    transform: translateY(0);
+  }
+  .bottom-sheet-handle {
+    width: 36px; height: 4px;
+    background: #ccc;
+    border-radius: 2px;
+    margin: 0 auto 0.6rem;
+  }
+  .bottom-sheet-close {
+    position: absolute;
+    top: 0.5rem; right: 0.8rem;
+    background: none; border: none;
+    font-size: 1.2rem; color: var(--muted);
+    cursor: pointer;
+    padding: 0.3rem;
+  }
+}
+
+/* --- Mobile: smaller nodes, compact layout --- */
+@media (max-width: 600px) {
+  header { padding: 1rem 1rem 0.8rem; }
+  header h1 { font-size: 1.2rem; }
+  header p { font-size: 0.72rem; }
+  .container { padding: 0 0.8rem; }
+  .filter-bar { gap: 0.3rem; padding: 0.6rem 0; margin-bottom: 0.8rem; }
+  .filter-btn { padding: 0.2rem 0.45rem; font-size: 0.6rem; }
+  .filter-label { font-size: 0.55rem; }
+  .filter-sep { display: none; }
+  .map-area { min-height: 420px; padding: 0.8rem; }
+  .node { width: 96px; padding: 0.35rem 0.4rem; border-radius: 6px; }
+  .node-dot { width: 6px; height: 6px; margin-bottom: 0.2rem; }
+  .node-title { font-size: 0.56rem; }
+  .node-date { font-size: 0.48rem; }
+  .node-status { font-size: 0.42rem; padding: 0.04rem 0.22rem; }
+  .legend { gap: 0.5rem; }
+  .legend-item { font-size: 0.52rem; }
+  .legend-dot { width: 6px; height: 6px; }
+  footer { font-size: 0.52rem; padding: 1rem 0 1.2rem; }
+}
+
+/* --- Zoom/pan wrapper --- */
+.map-transform {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  transform-origin: 0 0;
 }
 
 /* Map area */
@@ -141,6 +212,7 @@ header p {
   width: 100%; height: 100%;
   pointer-events: none;
   z-index: 0;
+  overflow: visible;
 }
 .map-svg line {
   stroke: var(--connection);
@@ -433,8 +505,10 @@ footer {
 
   <div class="main-layout">
     <div class="map-area" id="mapArea">
-      <svg class="map-svg" id="mapSvg"></svg>
-      <!-- Nodes injected by JS -->
+      <div class="map-transform" id="mapTransform">
+        <svg class="map-svg" id="mapSvg"></svg>
+        <!-- Nodes injected by JS -->
+      </div>
     </div>
     <div class="detail-panel" id="detailPanel">
       <div class="detail-empty">
@@ -450,6 +524,12 @@ footer {
     <div class="legend-item"><div class="legend-dot" style="background:var(--larare)"></div> Lärarvillkor</div>
     <div class="legend-item"><div class="legend-dot" style="background:var(--styrning)"></div> Styrning & organisation</div>
     <div class="legend-item"><div class="legend-line"></div> Koppling mellan reformer</div>
+  </div>
+
+  <div class="bottom-sheet" id="bottomSheet">
+    <div class="bottom-sheet-handle"></div>
+    <button class="bottom-sheet-close" id="bottomSheetClose" aria-label="Stäng">×</button>
+    <div id="bottomSheetContent"></div>
   </div>
 
   <footer>
@@ -657,10 +737,25 @@ const statusStyles = {
 let activeNode = null;
 let filters = { cat:"all", time:"all", role:"all" };
 
+// --- Zoom/pan state ---
+let zoomScale = 1;
+let panX = 0, panY = 0;
+let isPanning = false;
+let pinchStartDist = 0;
+let pinchStartScale = 1;
+let panStartX = 0, panStartY = 0;
+let panStartPanX = 0, panStartPanY = 0;
+
+function isMobile() { return window.innerWidth <= 800; }
+
+function applyTransform() {
+  const el = document.getElementById("mapTransform");
+  el.style.transform = `translate(${panX}px, ${panY}px) scale(${zoomScale})`;
+}
+
 function init() {
   const area = document.getElementById("mapArea");
-  const w = area.offsetWidth;
-  const h = area.offsetHeight;
+  const transform = document.getElementById("mapTransform");
 
   reforms.forEach(r => {
     const node = document.createElement("div");
@@ -677,20 +772,22 @@ function init() {
     `;
     node.style.left = r.x + "%";
     node.style.top = r.y + "%";
-    area.appendChild(node);
+    transform.appendChild(node);
   });
 
   drawConnections();
 
-  // --- Drag-and-drop ---
+  // --- Drag-and-drop (desktop) + tap (mobile) ---
   let dragState = null;
   let rafPending = false;
 
   area.addEventListener("pointerdown", e => {
     const node = e.target.closest(".node");
     if (!node) return;
+    // On mobile, don't enable drag — only tap to select
+    if (isMobile()) return;
     e.preventDefault();
-    const rect = area.getBoundingClientRect();
+    const rect = transform.getBoundingClientRect();
     dragState = {
       node: node,
       id: node.dataset.id,
@@ -698,10 +795,17 @@ function init() {
       startY: e.clientY,
       origLeft: node.offsetLeft,
       origTop: node.offsetTop,
-      areaW: rect.width,
-      areaH: rect.height,
+      areaW: transform.offsetWidth,
+      areaH: transform.offsetHeight,
       moved: false
     };
+  });
+
+  // Node tap on mobile
+  area.addEventListener("click", e => {
+    if (!isMobile()) return;
+    const node = e.target.closest(".node");
+    if (node) selectNode(node.dataset.id);
   });
 
   document.addEventListener("pointermove", e => {
@@ -749,6 +853,70 @@ function init() {
     dragState = null;
   });
 
+  // --- Pinch-to-zoom + pan (touch, mobile) ---
+  area.addEventListener("touchstart", e => {
+    if (e.target.closest(".node")) return; // let node taps through
+    if (e.touches.length === 2) {
+      e.preventDefault();
+      const dx = e.touches[0].clientX - e.touches[1].clientX;
+      const dy = e.touches[0].clientY - e.touches[1].clientY;
+      pinchStartDist = Math.hypot(dx, dy);
+      pinchStartScale = zoomScale;
+    } else if (e.touches.length === 1) {
+      isPanning = true;
+      panStartX = e.touches[0].clientX;
+      panStartY = e.touches[0].clientY;
+      panStartPanX = panX;
+      panStartPanY = panY;
+    }
+  }, { passive: false });
+
+  area.addEventListener("touchmove", e => {
+    if (e.touches.length === 2) {
+      e.preventDefault();
+      const dx = e.touches[0].clientX - e.touches[1].clientX;
+      const dy = e.touches[0].clientY - e.touches[1].clientY;
+      const dist = Math.hypot(dx, dy);
+      zoomScale = Math.min(3, Math.max(0.4, pinchStartScale * (dist / pinchStartDist)));
+      applyTransform();
+      drawConnections();
+    } else if (e.touches.length === 1 && isPanning) {
+      e.preventDefault();
+      panX = panStartPanX + (e.touches[0].clientX - panStartX);
+      panY = panStartPanY + (e.touches[0].clientY - panStartY);
+      applyTransform();
+    }
+  }, { passive: false });
+
+  area.addEventListener("touchend", e => {
+    isPanning = false;
+    // Double-tap to reset zoom
+    if (e.touches.length === 0) {
+      clearTimeout(area._doubleTapTimer);
+      if (area._lastTap && Date.now() - area._lastTap < 300 && !e.target.closest(".node")) {
+        zoomScale = 1; panX = 0; panY = 0;
+        applyTransform();
+        drawConnections();
+      }
+      area._lastTap = Date.now();
+    }
+  });
+
+  // --- Bottom sheet close ---
+  document.getElementById("bottomSheetClose").addEventListener("click", closeBottomSheet);
+
+  // --- Bottom sheet swipe-down to close ---
+  const sheet = document.getElementById("bottomSheet");
+  let sheetTouchStartY = 0;
+  sheet.addEventListener("touchstart", e => {
+    sheetTouchStartY = e.touches[0].clientY;
+  });
+  sheet.addEventListener("touchmove", e => {
+    const dy = e.touches[0].clientY - sheetTouchStartY;
+    if (dy > 60) closeBottomSheet();
+  });
+
+  // --- Filters ---
   document.querySelectorAll(".filter-btn").forEach(btn => {
     btn.addEventListener("click", () => {
       const group = btn.dataset.filter;
@@ -760,11 +928,20 @@ function init() {
   });
 }
 
+function openBottomSheet(html) {
+  const sheet = document.getElementById("bottomSheet");
+  document.getElementById("bottomSheetContent").innerHTML = html;
+  sheet.classList.add("open");
+}
+
+function closeBottomSheet() {
+  document.getElementById("bottomSheet").classList.remove("open");
+}
+
 function drawConnections() {
   const svg = document.getElementById("mapSvg");
-  const area = document.getElementById("mapArea");
-  const rect = area.getBoundingClientRect();
-  svg.setAttribute("viewBox", `0 0 ${rect.width} ${rect.height}`);
+  const transform = document.getElementById("mapTransform");
+  svg.setAttribute("viewBox", `0 0 ${transform.offsetWidth} ${transform.offsetHeight}`);
   svg.innerHTML = "";
 
   connections.forEach(c => {
@@ -823,6 +1000,11 @@ function selectNode(id) {
   });
 
   renderDetail(r, related);
+
+  // On mobile, show detail in bottom sheet
+  if (isMobile()) {
+    openBottomSheet(document.getElementById("detailPanel").innerHTML);
+  }
 }
 
 function clearSelection() {
@@ -833,6 +1015,7 @@ function clearSelection() {
   document.querySelectorAll(".map-svg line").forEach(l => l.classList.remove("active","dimmed"));
   document.getElementById("detailPanel").innerHTML = `
     <div class="detail-empty"><div class="detail-empty-icon">◉</div>Klicka på en reform i kartan<br>för att se detaljer och kopplingar.</div>`;
+  closeBottomSheet();
 }
 
 function renderDetail(r, related) {
