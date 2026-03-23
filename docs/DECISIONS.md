@@ -18,11 +18,20 @@ Record of key decisions made during the project. **Newest first.**
 
 ---
 
-### DEC-002: Mobilanpassning via zoom/pan + bottom sheet
+### DEC-003: Mobil listvy (portrait) + kartvy (landscape)
+**Date:** 2026-03-23
+**Decision:** Portrait (<800px): scrollbar listvy med accordion-expandering, grupperad per kategori. Kopplingar som klickbara länkar. Landscape (mobil): växla till kartvyn med glesare nodlayout (max ~10% överlapp). Desktop: oförändrad kartvy.
+**Reasoning:** 16 noder med linjer är för tätt för portrait-mobil oavsett zoom. En lista är det naturliga mobilmönstret. Landscape ger tillräckligt med yta för kartan om noderna separeras. Ersätter DEC-002 (zoom/pan) som testades men var för trångt i praktiken.
+**Alternatives considered:** Behålla zoom/pan (testat, för trångt och dålig UX), enbart listvy utan kartväxling (tappar kopplingarna visuellt i landscape)
+
+---
+
+### DEC-002: ~~Mobilanpassning via zoom/pan + bottom sheet~~ (ERSATT av DEC-003)
 **Date:** 2026-03-23
 **Decision:** Pinch-to-zoom/pan på kartområdet, bottom sheet för detaljpanel, kompakta noder under 600px
 **Reasoning:** Kartan har 16 noder med kopplingslinjer — för tät för en liten skärm utan zoom. Bottom sheet behåller kartan synlig medan detaljer visas. Ingen extern lib behövs.
 **Alternatives considered:** Separat listvy för mobil (tappar det visuella), viewport-skalning via meta-tag (för grovt), extern lib som Panzoom (onödig dependency för ~50 rader JS)
+**Utfall:** Testat — för trångt, dålig navigering. Ersatt av DEC-003.
 
 ---
 

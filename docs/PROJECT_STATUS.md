@@ -18,8 +18,10 @@
 | 1.4 | Rätta betygssystem: status, datum, länkar | ✅ Done | Prop. 2025/26:197, ikraft 1 juli 2028 |
 | 1.5 | Rätta yrkesutbildning: fyll på innehåll | ✅ Done | Entreprenad, yrkesprov, PDF-länk |
 | 1.6 | Nyansera studiero: ikraftträdande | ✅ Done | Merparten 1 aug 2026, delar 1 juli 2028 |
-| 1.7 | Mobilanpassning | ✅ Done | Pinch-to-zoom/pan, bottom sheet, kompakta noder |
-| 1.8 | Dela med 3–5 kollegor för första feedback | ⬜ Todo | Kan göras när DNS fungerar |
+| 1.7 | ~Mobilanpassning v1~ | ⬜ Ersatt | Zoom/pan testat — för trångt. Ersatt av v2 |
+| 1.8 | Mobil v2: listvy i portrait | ⬜ Todo | Scrollbar lista, accordion, kopplingar som klickbara länkar |
+| 1.9 | Mobil v2: kartvy i landscape | ⬜ Todo | Orientation-switch, glesare nodlayout (max ~10% överlapp) |
+| 1.10 | Dela med 3–5 kollegor för första feedback | ⬜ Todo | Kan göras när DNS fungerar |
 
 **Status legend:** ⬜ Todo | 🔄 In Progress | ✅ Done | 🚫 Blocked | ⏸️ Paused
 
@@ -30,7 +32,7 @@ Reformkartan finns som `index.html` i roten. GitHub Pages serverar sidan.
 - 16 reformnoder med status, ikraftträdande och kategori
 - Aktiv nod visas med tjock border i kategorifärg + scale, länkade noder med streckad blå border
 - Noder kan dras runt (drag-and-drop), SVG-linjer ritas om i realtid
-- Mobilanpassad: pinch-to-zoom/pan, kompakta noder (<600px), bottom sheet för detaljer
+- Mobil v1 (zoom/pan) finns men ersätts av v2 (listvy portrait + kartvy landscape)
 - Filter: område, tid, roll
 
 ```bash

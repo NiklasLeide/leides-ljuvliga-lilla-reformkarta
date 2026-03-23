@@ -8,7 +8,9 @@
 - [x] Rätta betygssystem: status → proposition, ikraft 1 juli 2028, komplettera beskrivning med slutprovsdatum
 - [x] Rätta yrkesutbildning: ny beskrivning (entreprenad, yrkesprov), PDF-länk
 - [x] Nyansera studiero: ikraftträdande (merparten 1 aug 2026, stödundervisning 1 juli 2028)
-- [x] Mobilanpassning (pinch-to-zoom/pan, bottom sheet, kompakta noder)
+- [x] ~Mobilanpassning v1 (pinch-to-zoom/pan, bottom sheet)~ — ersatt av v2
+- [ ] Mobil v2: listvy i portrait — scrollbar lista, accordion-expandering, kopplingar som klickbara länkar
+- [ ] Mobil v2: kartvy i landscape — orientation-switch, glesare nodlayout (max ~10% överlapp)
 - [ ] DNS: reformer.leide.se (väntar propagering)
 - [ ] Dela med 3–5 kollegor för feedback
 
