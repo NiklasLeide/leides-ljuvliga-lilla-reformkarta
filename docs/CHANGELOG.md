@@ -5,6 +5,7 @@ Types: `feat` | `fix` | `refactor` | `docs` | `chore` | `perf`
 
 ---
 
+[2026-03-23] feat: mobil v2 — listvy med accordion i portrait, kartvy med zoom/pan i landscape
 [2026-03-23] docs: planera mobil v2 — listvy (portrait) + kartvy med gles layout (landscape), ersätter zoom/pan
 [2026-03-23] docs: lägg till felrättningar i roadmap sprint 1
 [2026-03-23] docs: uppdatera PROJECT_STATUS och ROADMAP med sprintplan (sprint 1–3)

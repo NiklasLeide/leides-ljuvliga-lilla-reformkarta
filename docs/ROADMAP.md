@@ -9,8 +9,8 @@
 - [x] Rätta yrkesutbildning: ny beskrivning (entreprenad, yrkesprov), PDF-länk
 - [x] Nyansera studiero: ikraftträdande (merparten 1 aug 2026, stödundervisning 1 juli 2028)
 - [x] ~Mobilanpassning v1 (pinch-to-zoom/pan, bottom sheet)~ — ersatt av v2
-- [ ] Mobil v2: listvy i portrait — scrollbar lista, accordion-expandering, kopplingar som klickbara länkar
-- [ ] Mobil v2: kartvy i landscape — orientation-switch, glesare nodlayout (max ~10% överlapp), behåll zoom/pan
+- [x] Mobil v2: listvy i portrait — accordion-kort per kategori, kopplingar som klickbara länkar
+- [x] Mobil v2: kartvy i landscape — kompakta noder, zoom/pan, bottom sheet
 - [ ] DNS: reformer.leide.se (väntar propagering)
 - [ ] Dela med 3–5 kollegor för feedback
 
