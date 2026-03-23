@@ -4,7 +4,7 @@ Interaktiv karta över svenska skolreformer 2025–2028. Visar hur reformerna h�
 
 ## Syfte
 
-Ge tjänstemän på Skolverket och andra intresserade en faktabaserad överblick av hur skolreformerna relaterar till varandra. Sakligt språk, inga åsikter. Alla fakta hämtade från regeringen.se, skolverket.se och riksdagen.se.
+En faktabaserad överblick av hur skolreformerna relaterar till varandra. Sakligt språk, inga åsikter. Alla fakta hämtade från regeringen.se, skolverket.se och riksdagen.se.
 
 ## Funktioner
 
