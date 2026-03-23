@@ -5,6 +5,7 @@ Types: `feat` | `fix` | `refactor` | `docs` | `chore` | `perf`
 
 ---
 
+[2026-03-23] fix: faktakontroll — betyg: komplettera beskrivning med slutprovsdatum; yrkesutbildning: ny beskrivning + PDF-länk; studiero: nyanserat ikraftträdande
 [2026-03-23] feat: mobile-responsive layout — pinch-to-zoom/pan, bottom sheet detail panel, compact nodes under 600px
 [2026-03-23] fix: connected nodes opaque background so SVG lines don't bleed through
 [2026-03-23] fix: preserve active/dimmed line state when drawConnections redraws during drag
