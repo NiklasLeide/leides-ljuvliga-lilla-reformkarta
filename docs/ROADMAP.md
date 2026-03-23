@@ -2,15 +2,25 @@
 
 > Keep this honest. If something's not happening, move it to Deferred — don't leave it rotting in Next.
 
-## Now (Sprint 0 — Setup)
-- [ ] Define first feature
-- [ ] Get to a working "hello world" end-to-end
+## Now (Sprint 1 — Grundfunktion live)
+- [x] GitHub-repo + Pages
+- [x] Faktakontroll mot originaldokument
+- [x] Mobilanpassning
+- [ ] DNS: reformer.leide.se (väntar propagering)
+- [ ] Dela med 3–5 kollegor för feedback
 
-## Sprint 1 — [Name]
-- [ ] [Feature]
+## Sprint 2 — Innehåll och kopplingar
+- [ ] Granska alla 15 kopplingar — saknas/fel?
+- [ ] Verifiera rollfilter (rektor/lärare/skolchef) per reform
+- [ ] Uppdatera efter riksdagsbeslut (vårens voteringar)
+- [ ] Komplettera ändrade timplaner (Prop. 2023/24:20)
+- [ ] Feedback-runda #2 — bredare grupp
 
-## Sprint 2 — [Name]
-- [ ] [Feature]
+## Sprint 3 — Fördjupning
+- [ ] Besluta format utbildningsguide (parkerat — behöver diskuteras)
+- [ ] NotebookLM: dokumentlista + guide (parkerat)
+- [ ] Underhållsrutin: hur/när uppdaterar vi?
+- [ ] Eventuell "vad händer när"-vy (tidsscenarier via filter)
 
 ## Later / Stretch
 _TBD_
