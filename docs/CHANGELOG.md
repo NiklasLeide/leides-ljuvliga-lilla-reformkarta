@@ -5,6 +5,7 @@ Types: `feat` | `fix` | `refactor` | `docs` | `chore` | `perf`
 
 ---
 
+[2026-03-23] feat: Skolverkets uppdragsstatus per reform — indikator på noder, detaljsektion med klickbar fulltext, modal med källa
 [2026-03-23] fix: sidopanel stängs inte längre vid vertikal scroll (bara horisontell svep höger)
 [2026-03-23] feat: landscape sidopanel (20% bredd) ersätter bottom sheet, kompakt text, svep höger stänger
 [2026-03-23] fix: landscape zoom/pan hoppar inte längre vid start; visa kopplingstext i portrait-listvy

@@ -14,7 +14,8 @@
 - [ ] DNS: reformer.leide.se (väntar propagering)
 - [ ] Dela med 3–5 kollegor för feedback
 
-## Sprint 2 — Innehåll och kopplingar
+## Now (Sprint 2 — Innehåll och kopplingar)
+- [x] Skolverkets uppdragsstatus per reform — data från RB 2025/2026, klickbar fulltext med modal
 - [ ] Granska alla 15 kopplingar — saknas/fel?
 - [ ] Verifiera rollfilter (rektor/lärare/skolchef) per reform
 - [ ] Uppdatera efter riksdagsbeslut (vårens voteringar)

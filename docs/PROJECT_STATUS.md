@@ -1,7 +1,7 @@
 # Project Status — leides-ljuvliga-lilla-reformkarta
 
 > **Last updated:** 2026-03-23
-> **Current sprint:** Sprint 1 – Grundfunktion live
+> **Current sprint:** Sprint 2 – Innehåll och kopplingar
 > **Sprint dates:** 2026-03-23 → TBD
 
 ---
@@ -27,6 +27,21 @@
 
 ---
 
+## Current Sprint: Sprint 2 – Innehåll och kopplingar
+
+**Mål:** Kopplingarna är korrekta och kartan tillför värde. Skolverkets uppdragsstatus synlig.
+
+| # | Task | Status | Notes |
+|---|------|--------|-------|
+| 2.1 | Skolverkets uppdragsstatus per reform | ✅ Done | Data från RB 2025/2026, indikator på noder, detaljsektion + modal |
+| 2.2 | Granska alla 15 kopplingar | ⬜ Todo | Saknas kopplingar? Fel? |
+| 2.3 | Verifiera rollfilter | ⬜ Todo | Stämmer rollerna per reform? |
+| 2.4 | Uppdatera efter riksdagsbeslut | ⬜ Todo | Bevaka vårens voteringar |
+| 2.5 | Komplettera ändrade timplaner | ⬜ Todo | Prop. 2023/24:20, begränsade detaljer |
+| 2.6 | Feedback-runda #2 | ⬜ Todo | Bredare grupp |
+
+---
+
 ## What's Working Now
 Reformkartan finns som `index.html` i roten. GitHub Pages serverar sidan.
 - 16 reformnoder med status, ikraftträdande och kategori
@@ -35,6 +50,7 @@ Reformkartan finns som `index.html` i roten. GitHub Pages serverar sidan.
 - Mobil portrait: listvy med accordion-kort, kopplingstext, klickbara länkar
 - Mobil landscape: kartvy med zoom/pan, sidopanel (20% bredd) för detaljer
 - Filter: område, tid, roll
+- Skolverkets uppdragsstatus: indikator på noder (grön/gul/grå), detaljsektion med klickbar fulltext + modal
 
 ```bash
 # Öppna lokalt:
