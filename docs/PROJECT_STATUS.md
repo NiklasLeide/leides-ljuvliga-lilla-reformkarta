@@ -10,19 +10,21 @@
 
 | # | Task | Status | Notes |
 |---|------|--------|-------|
-| 0.1 | Define first feature | ⬜ Todo | |
-| 0.2 | Create first GitHub issue | ⬜ Todo | |
+| 0.1 | Add reformkarta.html as index.html | ✅ Done | |
+| 0.2 | Set up GitHub Pages | ✅ Done | From master branch |
+| 0.3 | Create README.md | ✅ Done | |
 
 **Status legend:** ⬜ Todo | 🔄 In Progress | ✅ Done | 🚫 Blocked | ⏸️ Paused
 
 ---
 
 ## What's Working Now
-_Nothing yet — fill this in as components come online._
+Reformkartan finns som `index.html` i roten. GitHub Pages serverar sidan.
 
 ```bash
-# Add runnable commands here as they become available
-# e.g.: python main.py    ← starts the app
+# Öppna lokalt:
+open index.html
+# Live: https://niklasleide.github.io/leides-ljuvliga-lilla-reformkarta/
 ```
 
 ---

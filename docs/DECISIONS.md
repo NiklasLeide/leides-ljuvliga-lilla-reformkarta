@@ -18,10 +18,10 @@ Record of key decisions made during the project. **Newest first.**
 
 ---
 
-### DEC-001: Initial Stack Choice
+### DEC-001: Single-file HTML with no build step
 **Date:** 2026-03-23
-**Decision:** TBD
-**Reasoning:** [Fill in — why this stack for this project?]
-**Alternatives considered:** [Fill in — what did you rule out and why?]
+**Decision:** Enkel HTML/CSS/JS i en fil (index.html), hostad via GitHub Pages
+**Reasoning:** Projektet är en statisk informationsvisualisering utan backend. Inget byggsystem behövs. En fil är enklast att underhålla och dela.
+**Alternatives considered:** React/Vite (onödig komplexitet för en sida), SSG som Astro (onödigt för en fil)
 
 ---
