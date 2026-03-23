@@ -5,7 +5,10 @@
 ## Now (Sprint 1 — Grundfunktion live)
 - [x] GitHub-repo + Pages
 - [x] Faktakontroll mot originaldokument
-- [x] Mobilanpassning
+- [x] Rätta betygssystem: status → proposition, ikraft 1 juli 2028, komplettera beskrivning med slutprovsdatum
+- [x] Rätta yrkesutbildning: ny beskrivning (entreprenad, yrkesprov), PDF-länk
+- [x] Nyansera studiero: ikraftträdande (merparten 1 aug 2026, stödundervisning 1 juli 2028)
+- [x] Mobilanpassning (pinch-to-zoom/pan, bottom sheet, kompakta noder)
 - [ ] DNS: reformer.leide.se (väntar propagering)
 - [ ] Dela med 3–5 kollegor för feedback
 
