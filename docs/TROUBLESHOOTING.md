@@ -64,6 +64,11 @@ or git hooks that check documentation is updated before pushing.
 **Cause:** Skriptet kör `git add docs/ src/ .claude/` och `git add *.json *.ts *.js *.sh *.md` — men glob-mönster i bash matchar bara redan stagade eller trackade filer om de inte redan finns i index. Ibland behöver filer stagas manuellt först.
 **Solution:** Kör `git add <fil>` innan `./commit.sh "msg"`.
 
+### CSS media query ordning: generella regler skriver över media queries
+**Symptom:** Mobil listvy (`display: block` i portrait media query) syntes inte.
+**Cause:** `.list-view { display: none; }` definierades *efter* portrait-mediaqueryns `.list-view { display: block }`. Samma specificitet → sista regeln vinner.
+**Solution:** Flytta generella `display: none`-regler till *före* alla media queries. Media queries som sätter `display: block` måste komma efteråt för att få företräde.
+
 ---
 ## TBD / App
 

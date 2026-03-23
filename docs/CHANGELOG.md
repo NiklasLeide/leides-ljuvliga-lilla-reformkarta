@@ -5,7 +5,10 @@ Types: `feat` | `fix` | `refactor` | `docs` | `chore` | `perf`
 
 ---
 
+[2026-03-23] fix: listvy synlig i portrait — CSS-ordning korrigerad (display:none före media queries)
 [2026-03-23] feat: mobil v2 — listvy med accordion i portrait, kartvy med zoom/pan i landscape
+[2026-03-23] docs: behåll zoom/pan i landscape-kartvy (DEC-003 uppdaterad)
+[2026-03-23] docs: komplettera changelog, lägg till DEC-002 mobilanpassning, dokumentera commit.sh-quirk
 [2026-03-23] docs: planera mobil v2 — listvy (portrait) + kartvy med gles layout (landscape), ersätter zoom/pan
 [2026-03-23] docs: lägg till felrättningar i roadmap sprint 1
 [2026-03-23] docs: uppdatera PROJECT_STATUS och ROADMAP med sprintplan (sprint 1–3)

@@ -45,7 +45,7 @@ open index.html
 ---
 
 ## Blockers
-- DNS-propagering för reformer.leide.se (sprint 1.8 beror på detta)
+- DNS-propagering för reformer.leide.se (sprint 1.10 beror på detta)
 
 ---
 
