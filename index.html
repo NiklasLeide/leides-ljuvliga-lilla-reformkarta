@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Skolreformer 2025–2028 — Reformkarta</title>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --ink: #1c1c1c;
+  --bg: #f7f6f3;
+  --card: #ffffff;
+  --border: #e5e2dc;
+  --muted: #999;
+  --kunskap: #1d4ed8;
+  --kunskap-bg: #dbeafe;
+  --trygghet: #b91c1c;
+  --trygghet-bg: #fee2e2;
+  --larare: #15803d;
+  --larare-bg: #dcfce7;
+  --styrning: #6d28d9;
+  --styrning-bg: #ede9fe;
+  --connection: #cbd5e1;
+  --connection-active: #1d4ed8;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'DM Sans', system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+header {
+  background: var(--ink);
+  color: #fff;
+  padding: 1.8rem 1.5rem 1.5rem;
+}
+.header-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.header-badge {
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.35);
+  margin-bottom: 0.4rem;
+}
+header h1 {
+  font-family: 'Source Serif 4', serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 0.3rem;
+}
+header p {
+  font-size: 0.82rem;
+  color: rgba(255,255,255,0.5);
+  max-width: 500px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* Filters */
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 1.2rem;
+}
+.filter-group {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.filter-label {
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  margin-right: 0.2rem;
+}
+.filter-btn {
+  padding: 0.28rem 0.6rem;
+  border: 1px solid var(--border);
+  border-radius: 100px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  cursor: pointer;
+  background: #fff;
+  color: #666;
+  font-family: inherit;
+  transition: all 0.15s;
+}
+.filter-btn:hover { border-color: var(--ink); }
+.filter-btn.active { background: var(--ink); color: #fff; border-color: var(--ink); }
+.filter-sep {
+  width: 1px;
+  height: 20px;
+  background: var(--border);
+  margin: 0 0.3rem;
+}
+
+/* Main layout */
+.main-layout {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: 1.5rem;
+  min-height: 600px;
+}
+@media (max-width: 800px) {
+  .main-layout { grid-template-columns: 1fr; }
+}
+
+/* Map area */
+.map-area {
+  position: relative;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1.5rem;
+  min-height: 580px;
+  overflow: hidden;
+}
+.map-svg {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+.map-svg line {
+  stroke: var(--connection);
+  stroke-width: 1.5;
+  opacity: 0.4;
+  transition: all 0.3s;
+}
+.map-svg line.active {
+  stroke: var(--connection-active);
+  stroke-width: 2.5;
+  opacity: 0.8;
+}
+.map-svg line.dimmed { opacity: 0.08; }
+
+/* Nodes */
+.node {
+  position: absolute;
+  width: 130px;
+  padding: 0.55rem 0.6rem;
+  background: var(--card);
+  border: 1.5px solid var(--border);
+  border-radius: 8px;
+  cursor: pointer;
+  z-index: 1;
+  transition: all 0.25s;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+.node:hover {
+  box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+  transform: translateY(-1px);
+}
+.node.active {
+  border-color: var(--connection-active);
+  box-shadow: 0 3px 16px rgba(29,78,216,0.15);
+  z-index: 2;
+}
+.node.connected {
+  border-color: var(--connection-active);
+  opacity: 1 !important;
+}
+.node.dimmed { opacity: 0.2; }
+.node.hidden { display: none; }
+.node-dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  margin-bottom: 0.3rem;
+}
+.node-title {
+  font-size: 0.68rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--ink);
+  margin-bottom: 0.15rem;
+}
+.node-date {
+  font-size: 0.58rem;
+  color: var(--muted);
+}
+.node-status {
+  display: inline-block;
+  font-size: 0.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  padding: 0.06rem 0.3rem;
+  border-radius: 3px;
+  margin-top: 0.2rem;
+}
+
+/* Detail panel */
+.detail-panel {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1.2rem;
+  overflow-y: auto;
+  max-height: 600px;
+}
+.detail-empty {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+.detail-empty-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  opacity: 0.3;
+}
+.detail-cat {
+  display: inline-block;
+  font-size: 0.55rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.1rem 0.4rem;
+  border-radius: 3px;
+  margin-bottom: 0.4rem;
+}
+.detail-title {
+  font-family: 'Source Serif 4', serif;
+  font-size: 1.15rem;
+  font-weight: 600;
+  line-height: 1.25;
+  margin-bottom: 0.15rem;
+}
+.detail-ref {
+  font-size: 0.7rem;
+  color: var(--muted);
+  margin-bottom: 0.8rem;
+}
+.detail-section {
+  margin-bottom: 0.8rem;
+}
+.detail-label {
+  font-size: 0.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  margin-bottom: 0.2rem;
+}
+.detail-text {
+  font-size: 0.76rem;
+  line-height: 1.55;
+  color: #444;
+}
+.detail-list {
+  list-style: none;
+  padding: 0;
+}
+.detail-list li {
+  font-size: 0.74rem;
+  line-height: 1.45;
+  color: #444;
+  padding-left: 0.9rem;
+  position: relative;
+  margin-bottom: 0.15rem;
+}
+.detail-list li::before {
+  content: '—';
+  position: absolute;
+  left: 0;
+  color: var(--muted);
+}
+.detail-box {
+  background: #f8f7f4;
+  border-radius: 6px;
+  padding: 0.55rem 0.7rem;
+  margin-bottom: 0.4rem;
+}
+.detail-box-val {
+  font-size: 0.74rem;
+  color: #444;
+  line-height: 1.45;
+}
+.detail-connections {
+  margin-top: 0.8rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid var(--border);
+}
+.conn-item {
+  display: flex;
+  gap: 0.4rem;
+  align-items: flex-start;
+  padding: 0.35rem 0;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.15s;
+}
+.conn-item:hover { background: #f8f7f4; }
+.conn-dot {
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  margin-top: 0.35rem;
+  flex-shrink: 0;
+}
+.conn-text {
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: var(--ink);
+}
+.conn-reason {
+  font-size: 0.66rem;
+  color: var(--muted);
+  line-height: 1.4;
+}
+.detail-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-top: 0.6rem;
+}
+.detail-link {
+  font-size: 0.66rem;
+  font-weight: 500;
+  color: var(--kunskap);
+  text-decoration: none;
+  padding: 0.2rem 0.45rem;
+  border: 1px solid var(--kunskap-bg);
+  border-radius: 4px;
+  background: #f0f7ff;
+}
+.detail-link:hover { background: var(--kunskap-bg); }
+
+/* Legend */
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  padding: 0.8rem 0;
+  margin-top: 0.5rem;
+  border-top: 1px solid var(--border);
+}
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.62rem;
+  color: var(--muted);
+}
+.legend-dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+}
+.legend-line {
+  width: 20px;
+  height: 2px;
+  background: var(--connection);
+  border-radius: 1px;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem 0 2rem;
+  font-size: 0.62rem;
+  color: #ccc;
+  line-height: 1.7;
+  margin-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="header-badge">Kunskapsyta · mars 2026 · Privatprojekt av Leide.se</div>
+    <h1>Reformkarta — Skolreformer 2025–2028</h1>
+    <p>Hur reformerna hänger ihop. Klicka på en reform för att se kopplingar och detaljer.</p>
+  </div>
+</header>
+
+<div class="container">
+  <div class="filter-bar">
+    <div class="filter-group">
+      <span class="filter-label">Område</span>
+      <button class="filter-btn active" data-filter="cat" data-value="all">Alla</button>
+      <button class="filter-btn" data-filter="cat" data-value="kunskap" style="--c:#1d4ed8">Kunskap</button>
+      <button class="filter-btn" data-filter="cat" data-value="trygghet">Trygghet</button>
+      <button class="filter-btn" data-filter="cat" data-value="larare">Lärarvillkor</button>
+      <button class="filter-btn" data-filter="cat" data-value="styrning">Styrning</button>
+    </div>
+    <div class="filter-sep"></div>
+    <div class="filter-group">
+      <span class="filter-label">Tid</span>
+      <button class="filter-btn active" data-filter="time" data-value="all">Alla</button>
+      <button class="filter-btn" data-filter="time" data-value="2026s">Sommar 2026</button>
+      <button class="filter-btn" data-filter="time" data-value="2027">2027</button>
+      <button class="filter-btn" data-filter="time" data-value="2028">HT 2028</button>
+    </div>
+    <div class="filter-sep"></div>
+    <div class="filter-group">
+      <span class="filter-label">Roll</span>
+      <button class="filter-btn active" data-filter="role" data-value="all">Alla</button>
+      <button class="filter-btn" data-filter="role" data-value="rektor">Rektor</button>
+      <button class="filter-btn" data-filter="role" data-value="larare_r">Lärare</button>
+      <button class="filter-btn" data-filter="role" data-value="chef">Skolchef</button>
+    </div>
+  </div>
+
+  <div class="main-layout">
+    <div class="map-area" id="mapArea">
+      <svg class="map-svg" id="mapSvg"></svg>
+      <!-- Nodes injected by JS -->
+    </div>
+    <div class="detail-panel" id="detailPanel">
+      <div class="detail-empty">
+        <div class="detail-empty-icon">◉</div>
+        Klicka på en reform i kartan<br>för att se detaljer och kopplingar.
+      </div>
+    </div>
+  </div>
+
+  <div class="legend">
+    <div class="legend-item"><div class="legend-dot" style="background:var(--kunskap)"></div> Kunskap & bedömning</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--trygghet)"></div> Trygghet & säkerhet</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--larare)"></div> Lärarvillkor</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--styrning)"></div> Styrning & organisation</div>
+    <div class="legend-item"><div class="legend-line"></div> Koppling mellan reformer</div>
+  </div>
+
+  <footer>
+    Källor: regeringen.se, skolverket.se, riksdagen.se · Sammanställd mars 2026<br>
+    Kontrollera datum mot originaldokumenten. Dela gärna med kollegor.
+  </footer>
+</div>
+
+<script>
+const reforms = [
+  { id:"laroplaner", short:"Nya läroplaner", ref:"Prop. 2025/26:194", cat:"kunskap", ikraft:"1 juli 2028", status:"proposition", time:["2028"], roles:["rektor","larare_r","chef"],
+    x: 8, y: 8,
+    what:"Skollagen ändras så att utbildningens syfte anges vara att förmedla och förankra kunskaper och värden. Kursplanerna får ny struktur: syfte, mål, innehåll, undervisningsstrategier och bedömningskriterier. Sammantagen bedömning gäller alla betygssteg, även E.",
+    changes:["Undervisningen bestäms och leds av lärare","Ny kursplanestruktur med fem delar","Sammantagen bedömning gäller alla betygssteg","Kursplaner utan betyg för nybörjare i svenska"],
+    transition:"Merparten 1 juli 2028. Komvux-ändringar 1 jan 2031.",
+    budget:"40 Mkr till Skolverket 2026.",
+    links:[{t:"Proposition",u:"https://www.regeringen.se/rattsliga-dokument/proposition/2026/03/prop.-202526194"},{t:"Skolverket",u:"https://www.skolverket.se/styrning-och-ansvar/forandringar-inom-skolomradet/tioarig-grundskola-och-nya-laroplaner"}]
+  },
+  { id:"betyg", short:"Betygssystem 1–10", ref:"Prop. 2025/26:197", cat:"kunskap", ikraft:"1 juli 2028", status:"proposition", time:["2028"], roles:["rektor","larare_r","chef"],
+    x: 30, y: 5,
+    what:"Numerisk betygsskala 1–10 utan skarp gräns för godkänt. Nationella slutprov kalibrerar lärarsatta betyg — proven rättas centralt. Meritvärdet kombinerar betygspoäng (70 %) och slutprovsresultat (30 %). Vid slutlig betygssättning ska lärare ha bedömningssamråd. Meritvärde ersätter betyg som urvalsgrund till högskolan. Behörighetskrav till gymnasiet: meritvärde minst 4.",
+    changes:["Betygsskala 1–10 ersätter A–F i alla skolformer","Ingen skarp gräns för godkänt i skalan","Nationella slutprov — centralt rättade — kalibrerar meritvärden","Meritvärde = betygspoäng (70 %) + slutprovsresultat (30 %)","Behörighet till gymnasiet: meritvärde minst 4 (ersätter krav på godkänt i enskilda ämnen)","Gymnasieexamen: genomsnitt minst 4 på minst 2 250 poäng","Bedömningssamråd vid slutlig betygssättning","Gäller även gymnasial nivå — påverkar Gy25:s betygsskala"],
+    transition:"Skollagen: 1 juli 2028. Ny betygsskala stegvis fr.o.m. HT 2027 (gymnasiet) resp. HT 2028 (grundskolan). Slutprov fr.o.m. VT 2029 (gymnasiet), VT 2031 (grundskolan). Komvux: 1 jan 2031. Synkroniserat med tioårig grundskola.",
+    budget:"24,9 Mkr till Skolverket 2026. Medel till UHR 2027–28 för antagningsförändringar.",
+    links:[{t:"Proposition",u:"https://www.regeringen.se/rattsliga-dokument/proposition/2026/03/prop.-202526197"},{t:"Skolverket: förberedelser",u:"https://www.skolverket.se/styrning-och-ansvar/forandringar-inom-skolomradet/forberedelser-for-inforande-av-nytt-betygssystem"},{t:"SOU 2025:18",u:"https://www.regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2025/03/sou-202518/"}]
+  },
+  { id:"tioarig", short:"Tioårig grundskola", ref:"Prop. 2024/25:143", cat:"kunskap", ikraft:"HT 2028", status:"beslutad", time:["2028"], roles:["rektor","chef"],
+    x: 8, y: 30,
+    what:"Förskoleklassen upphör som skolform och ersätts av en ny årskurs 1. Barnen börjar åk 1 det år de fyller 6. Grundskolan blir tioårig.",
+    changes:["Förskoleklassen ersätts av ny årskurs 1","Barnen börjar åk 1 det år de fyller 6","Anpassade grundskolan, specialskolan och sameskolan utökas","Behörighetsregler anpassas (Prop. 2025/26:149)"],
+    transition:"Riksdagen har beslutat. Tillämpas fr.o.m. HT 2028.",
+    budget:"Ingår i reformpaketet.",
+    links:[{t:"Proposition",u:"https://www.regeringen.se/rattsliga-dokument/proposition/2025/03/prop.-202425143"},{t:"Skolverket",u:"https://www.skolverket.se/styrning-och-ansvar/forandringar-inom-skolomradet/tioarig-grundskola-och-nya-laroplaner"}]
+  },
+  { id:"stod", short:"Förbättrat stöd", ref:"Prop. 2025/26:195", cat:"kunskap", ikraft:"1 juli 2028", status:"proposition", time:["2028"], roles:["rektor","larare_r","chef"],
+    x: 30, y: 28,
+    what:"Ny stödundervisning i svenska, sva och matematik. Extra anpassningar och läsa-skriva-räkna-garantin avskaffas. Standardiserade tester varje hösttermin ersätter nationella prov i åk 3.",
+    changes:["Extra anpassningar slopas","Läsa-skriva-räkna-garantin avskaffas","Stödundervisning sätts in när lärare flaggar","Standardiserade tester varje hösttermin"],
+    transition:"Ikraftträdande 1 juli 2028.",
+    budget:"~3,7 mdr kr/år fr.o.m. 2029 (delat med undervisningstidsreformen).",
+    links:[{t:"Proposition",u:"https://www.regeringen.se/rattsliga-dokument/proposition/2026/03/prop.-202526195"}]
+  },
+  { id:"timplan", short:"Ändrade timplaner", ref:"Prop. 2023/24:20", cat:"kunskap", ikraft:"Stegvis", status:"beslutad", time:[], roles:["rektor","larare_r"],
+    x: 8, y: 52,
+    what:"Omfördelning av undervisningstid i grundskolan. Fler timmar i svenska och matematik. Mer tid för praktisk-estetiska ämnen.",
+    changes:["Fler timmar i svenska och matematik","Mer tid för praktisk-estetiska ämnen","Omfördelning från SO/NO-block"],
+    transition:"Beslutad. Tillämpas stegvis.",
+    budget:"Ej specificerat.",
+    links:[{t:"Proposition",u:"https://www.regeringen.se/rattsliga-dokument/proposition/2023/10/prop.-20232420"}]
+  },
+  { id:"gy25", short:"Gy25 — ämnesbetyg", ref:"Lag (2022:147)", cat:"kunskap", ikraft:"1 juli 2025", status:"beslutad", time:[], roles:["rektor","larare_r","chef"],
+    x: 52, y: 5,
+    what:"Kursbetyg ersätts av ämnesbetyg i gymnasieskolan, anpassade gymnasieskolan och komvux. Ämnesplanerna utformas som sammanhållna ämnen med nivåer. Godkänt betyg på högre nivå ersätter lägre nivåers betyg.",
+    changes:["Ämnesplaner med nivåer ersätter kursplaner","Betyg sätts vid slutet av varje nivå","Godkänt betyg på högre nivå ersätter lägre","Över 700 nya ämnesplaner"],
+    transition:"Tillämpas för utbildning påbörjad efter 30 juni 2025. Övergång t.o.m. 30 juni 2030.",
+    budget:"Ej specificerat.",
+    links:[{t:"Skolverket: Gy25",u:"https://www.skolverket.se/styrning-och-ansvar/forandringar-inom-skolomradet/gy25----amnesbetyg-pa-gymnasial-niva"}]
+  },
+  { id:"studiero", short:"Trygghet & studiero", ref:"Prop. 2025/26:193", cat:"trygghet", ikraft:"1 aug 2026", status:"proposition", time:["2026s"], roles:["rektor","larare_r","chef"],
+    x: 58, y: 30,
+    what:"Mobilförbud under hela skoldagen. Ordningsregler ersätts av skolregler med konsekvensplan. Förväntansdokument. Utökade möjligheter att avvisa elever. Akutskola på entreprenad.",
+    changes:["Mobilförbud — telefoner samlas in","Skolregler med konsekvensplan","Förväntansdokument","Avvisning behöver inte dokumenteras skriftligt","Akutskola kan bedrivas på entreprenad"],
+    transition:"Ikraftträdande 1 augusti 2026.",
+    budget:"95 Mkr 2026, 100 Mkr/år fr.o.m. 2027. 300 Mkr statsbidrag säkerhet.",
+    links:[{t:"Pressmeddelande",u:"https://www.regeringen.se/pressmeddelanden/2026/01/battre-forutsattningar-for-studiero-och-tidigt-stod-till-elever-i-skolan/"}]
+  },
+  { id:"brott", short:"Brottsförebyggande", ref:"Prop. 2025/26:192", cat:"trygghet", ikraft:"30 juni 2026", status:"proposition", time:["2026s"], roles:["rektor","chef"],
+    x: 75, y: 22,
+    what:"Skyldighet att lämna uppgifter till mottagande skolenhet vid skolbyte — om konkreta omständigheter tyder på risk att eleven begår eller utsätts för brott.",
+    changes:["Skyldighet att lämna brottsförebyggande info vid skolbyten","Gäller vid konkreta omständigheter","Fler skolformer omfattas"],
+    transition:"Ikraftträdande 30 juni 2026. Tillämpas efter årsskiftet 2026/2027.",
+    budget:"Ej specificerat.",
+    links:[{t:"Lagrådsremiss (PDF)",u:"https://www.regeringen.se/contentassets/2d23d7f42b20462b8ee5e9565c8d5282/overlamnande-av-uppgifter-mellan-skolor-i-brottsforebyggande-syfte.pdf"}]
+  },
+  { id:"register", short:"Registerkontroller", ref:"Prop. 2025/26:174", cat:"trygghet", ikraft:"15 juli 2026", status:"proposition", time:["2026s"], roles:["rektor","chef"],
+    x: 75, y: 40,
+    what:"Registerkontroller utökas till misstankeregistret. Registerutdrag max sex månader gammalt. Ny kontroll efter sex månader hos samma arbetsgivare. Gäller även komvux.",
+    changes:["Misstankeregistret inkluderas","Max 6 mån giltighetstid (tidigare 12)","Ny kontroll efter 6 mån hos samma arbetsgivare","Gäller även komvux"],
+    transition:"Ikraftträdande 15 juli 2026.",
+    budget:"Ej specificerat.",
+    links:[{t:"Lagrådsremiss (PDF)",u:"https://www.regeringen.se/contentassets/82e42e8c30f8488ca82f450c57539c1e/utokade-registerkontroller-i-skolvasendet.pdf"}]
+  },
+  { id:"tid", short:"Reglerad undervisningstid", ref:"Prop. 2025/26:196", cat:"larare", ikraft:"Ej fastställt", status:"proposition", time:[], roles:["rektor","larare_r","chef"],
+    x: 35, y: 50,
+    what:"Maxtak för undervisningstimmar och lägsta gräns för planeringstid regleras genom förordning. Administrativ börda ska minska. Läraren bestämmer informationen till vårdnadshavare.",
+    changes:["Maxtak för undervisningstimmar","Lägsta gräns för planeringstid","Färre utvecklingssamtal","Läraren styr information till vårdnadshavare"],
+    transition:"Proposition överlämnad 17 mars 2026.",
+    budget:"Ingår i ~3,7 mdr kr/år fr.o.m. 2029 (delat med stödreformen).",
+    links:[{t:"Lagrådsremiss",u:"https://www.regeringen.se/rattsliga-dokument/lagradsremiss/2026/02/tid-for-undervisningsuppdraget/"}]
+  },
+  { id:"profession", short:"Professionsprogrammet", ref:"Prop. 2022/23:54", cat:"larare", ikraft:"1 sep 2025", status:"beslutad", time:[], roles:["rektor","larare_r","chef"],
+    x: 52, y: 55,
+    what:"Nationellt professionsprogram: struktur för kompetensutveckling och meriteringssystem med fyra nivåer. Skolverket ansvarar med stöd av Rådet för professioner i skolväsendet.",
+    changes:["Nationell struktur för kompetensutveckling","Meriteringssystem med fyra nivåer","En nivå förutsätter examen på forskarnivå","Karriärtjänster kopplas till meritering"],
+    transition:"I kraft 1 sep 2025.",
+    budget:"234,5 Mkr från 2023 och framåt.",
+    links:[{t:"Proposition",u:"https://www.regeringen.se/rattsliga-dokument/proposition/2023/01/prop.-20222354"},{t:"Pressmeddelande",u:"https://www.regeringen.se/pressmeddelanden/2025/04/nytt-professionsprogram-for-larare-forskollarare-och-rektorer-ska-gora-yrkena-mer-attraktiva/"}]
+  },
+  { id:"offentlighet", short:"Offentlighetsprincipen", ref:"Prop. 2025/26:191", cat:"styrning", ikraft:"1 jan 2027", status:"proposition", time:["2027"], roles:["chef"],
+    x: 58, y: 72,
+    what:"Rätten att ta del av allmänna handlingar utsträcks till enskilda huvudmän inom skolväsendet. Lättnadsregler för huvudmän med upp till 450 elever. Tvåårig övergångsperiod.",
+    changes:["Offentlighetsprincipen gäller fristående skolor","Lättnadsregler för mindre huvudmän (≤450 elever)","Tvåårig övergångsperiod","Krav på dokumenthantering och diarieföring"],
+    transition:"Ikraftträdande 1 jan 2027.",
+    budget:"Ej specificerat.",
+    links:[{t:"Lagrådsremiss (PDF)",u:"https://www.regeringen.se/contentassets/ab81a15b284441b0afc868ea4c862a19/offentlighetsprincipen-med-lattnadsregler-for-mindre-enskilda-huvudman-i-skolvasendet.pdf"}]
+  },
+  { id:"skolpeng", short:"Skolpengsnorm", ref:"SOU 2025:72", cat:"styrning", ikraft:"Föreslaget 2027/2028", status:"utredning", time:["2027"], roles:["chef"],
+    x: 78, y: 65,
+    what:"Vägledande (ej bindande) norm för resursfördelning till förskoleklass och grundskola. Avdrag från ersättning till enskilda huvudmän: 3 % 2028, 6 % 2029. Villkorade belopp.",
+    changes:["Vägledande norm (ej bindande)","Avdrag från ersättning till enskilda huvudmän","Möjlighet att frångå lika villkor vid synnerliga skäl","Villkorade belopp"],
+    transition:"Föreslaget ikraftträdande 1 jan 2027, tillämpas 2028. Slutbetänkande (gymnasiet) väntas nov 2026.",
+    budget:"Ej specificerat.",
+    links:[{t:"SOU 2025:72",u:"https://www.regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2025/06/sou-202572/"}]
+  },
+  { id:"vinst", short:"Vinst i skolan", ref:"SOU 2025:123", cat:"styrning", ikraft:"Ej fastställt", status:"utredning", time:[], roles:["chef"],
+    x: 78, y: 80,
+    what:"Slutbetänkande om skärpta villkor för friskolesektorn. Ute på remiss.",
+    changes:["Skärpta villkor för friskolesektorn"],
+    transition:"Slutbetänkande på remiss. Ingen proposition ännu.",
+    budget:"Ej specificerat.",
+    links:[{t:"Pressmeddelande",u:"https://www.regeringen.se/pressmeddelanden/2026/01/simona-mohamsson-tar-emot-utredning-om-vinst-i-skolan/"}]
+  },
+  { id:"sprak", short:"Språkförskola", ref:"Dir. 2024:113", cat:"styrning", ikraft:"Ej fastställt", status:"utredning", time:[], roles:["chef"],
+    x: 8, y: 75,
+    what:"Utredning om obligatorisk språkförskola för barn med påtagliga brister i svenska. Ser över barngruppsstorlekar, personaltäthet och språkkrav för personal. Tilläggsdirektiv om svenskans ställning i skollagen.",
+    changes:["Obligatorisk språkförskola","Språkkrav för förskolepersonal","Reglering av barngruppsstorlekar","Förtydligande av svenskans ställning"],
+    transition:"Utredning pågår. Redovisning senast 11 juni 2026.",
+    budget:"Ej specificerat.",
+    links:[{t:"Kommittédirektiv",u:"https://regeringen.se/rattsliga-dokument/kommittedirektiv/2024/11/dir.-2024113"},{t:"Tilläggsdirektiv",u:"https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2025/12/dir.-2025102"}]
+  },
+  { id:"ai", short:"EU:s AI-förordning", ref:"EU 2024/1689", cat:"styrning", ikraft:"Stegvis 2024–27", status:"beslutad", time:["2026s"], roles:["rektor","chef"],
+    x: 35, y: 80,
+    what:"AI-system inom utbildning kan klassificeras som högrisk. Krav på mänsklig tillsyn, transparens och AI-litteracitet för personal. Regler för högrisk-AI tillämpas från aug 2026.",
+    changes:["Högrisk-klassificering för AI i utbildning","Mänsklig tillsyn av AI-beslut","Transparenskrav mot elever och vårdnadshavare","AI-litteracitet för personal"],
+    transition:"Förbud mot vissa AI sedan feb 2025. Högrisk-regler aug 2026. Fullständig tillämpning aug 2027.",
+    budget:"Ej specificerat för utbildning.",
+    links:[{t:"EU:s AI-förordning",u:"https://digital-strategy.ec.europa.eu/sv/policies/regulatory-framework-ai"},{t:"Skolverkets AI-råd",u:"https://www.skolverket.se/kompetensutveckling/stod-i-arbetet/rad-om-ai-chattbottar-och-liknande-verktyg"}]
+  },
+  { id:"yrkes", short:"Yrkesutbildning", ref:"Prop. 2025/26:198", cat:"styrning", ikraft:"1 juli 2026 / 2 juli 2028", status:"proposition", time:["2026s","2028"], roles:["rektor","chef"],
+    x: 55, y: 88,
+    what:"Yrkesprov införs och ersätter gymnasiearbete på yrkesprogram (där sådant prov finns). Utökade möjligheter till entreprenad för undervisning i yrkesinriktade ämnen. Stärkt samarbete mellan skola och arbetsliv. Yrkesprov även inom komvux.",
+    changes:["Yrkesprov ersätter gymnasiearbete på yrkesprogram","Utökade möjligheter till entreprenad för yrkesinriktade ämnen","Yrkesprov även inom komvux","Rätt att fullfölja utbildning i anpassade gymnasieskolan"],
+    transition:"Entreprenad och rätt att fullfölja: 1 juli 2026. Övriga ändringar: 2 juli 2028.",
+    budget:"Ej specificerat.",
+    links:[{t:"Proposition",u:"https://www.regeringen.se/rattsliga-dokument/proposition/2026/03/prop.-202526198"},{t:"Pressmeddelande",u:"https://www.regeringen.se/pressmeddelanden/2026/03/nu-lagger-regeringen-fram-flera-reformer-for-skolan/"}]
+  }
+];
+
+const connections = [
+  // === Kunskap-klustret HT 2028 ===
+  { from:"laroplaner", to:"tioarig", reason:"Båda tillämpas HT 2028. Kursplanerna utformas för den tioåriga strukturen. Kan inte implementeras oberoende." },
+  { from:"laroplaner", to:"betyg", reason:"Kursplanerna innehåller nya bedömningskriterier kopplade till betygsskala 1–10. Sammantagen bedömning gäller i båda. Träder i kraft samma datum." },
+  { from:"laroplaner", to:"tid", reason:"Nya kursplaner kräver planeringstid och kompetensutveckling. Det sker inom ramen för den reglerade undervisningstiden." },
+  { from:"laroplaner", to:"stod", reason:"Delar utredningsunderlag (SOU 2025:19). Läroplanens syn på lärarrollen och stödreformens slopande av extra anpassningar bygger på samma analys av individualisering kontra lärarledd undervisning." },
+  { from:"laroplaner", to:"profession", reason:"Läroplanen förtydligar att läraren leder undervisningen. Professionsprogrammets kompetensutveckling behöver anpassas till de nya kursplanernas struktur." },
+  { from:"betyg", to:"tioarig", reason:"Medvetet synkroniserade till HT 2028. Den nya betygsskalan införs parallellt med att grundskolan blir tioårig." },
+  { from:"betyg", to:"stod", reason:"Propositionerna hänvisar till varandra. Behörighetskravet ändras från godkänt i enskilda ämnen till meritvärde minst 4 — förändrar vad det innebär att identifiera stödbehov. Standardiserade tester (stöd) och slutprov (betyg) är olika instrument med delad logik." },
+  { from:"betyg", to:"gy25", reason:"Betygsskala 1–10 ska gälla även på gymnasial nivå — påverkar Gy25:s nuvarande A–F-skala. Elever som gått grundskolan med 1–10 söker till gymnasiet. Meritvärdesberäkningen behöver fungera över gränsen." },
+  { from:"tioarig", to:"timplan", reason:"Timplanerna behöver anpassas till den nya tioåriga strukturen med ett nytt lågstadium om fyra år." },
+  { from:"tioarig", to:"sprak", reason:"Obligatorisk språkförskola riktar sig till barn före skolstart. Tioårig grundskola innebär att sexåringar börjar åk 1 med läroplansstyrd undervisning. Båda rör vad som händer vid och före skolstart." },
+
+  // === Stöd och resurser ===
+  { from:"stod", to:"tid", reason:"Stödundervisning kräver lärartid. Budgeten är gemensam (~3,7 mdr kr/år fr.o.m. 2029). Båda träder i kraft parallellt." },
+  { from:"stod", to:"sprak", reason:"Båda handlar om tidiga insatser i svenska, men i olika skolformer (förskola resp. grundskola). Språkförskola före skolstart, stödundervisning efter." },
+  { from:"stod", to:"profession", reason:"Stödundervisning kräver utbildade lärare och speciallärare. Professionsprogrammets meritering och kompetensutveckling är en väg att bygga den kompetensen." },
+  { from:"stod", to:"skolpeng", reason:"Stödundervisning kräver resurser. Skolpengsnormen påverkar hur mycket resurser en skola får — direkt koppling till kapaciteten att organisera stöd." },
+
+  // === Trygghet sommaren 2026 ===
+  { from:"studiero", to:"brott", reason:"Båda rör säkerhet, träder i kraft sommaren 2026. Studiero hanterar daglig ordning och disciplin, brottsförebyggande hanterar informationsflöde vid skolbyten." },
+  { from:"studiero", to:"register", reason:"Tre trygghetsreformer som alla träder i kraft sommaren 2026 med olika mekanismer: disciplin, informationsdelning, personalkontroller." },
+  { from:"studiero", to:"yrkes", reason:"Båda öppnar för entreprenad — studiero för akutskola, yrkesutbildning för undervisning i yrkesinriktade ämnen. Olika syften, samma juridiska mekanism." },
+  { from:"brott", to:"register", reason:"Båda rör säkerhet i skolan. Träder i kraft inom veckor från varandra sommaren 2026." },
+  { from:"brott", to:"offentlighet", reason:"Brottsförebyggande informationsdelning och offentlighetsprincipen rör båda gränsdragningen mellan sekretess och informationsdelning — men i motsatta riktningar." },
+
+  // === Lärarvillkor ===
+  { from:"tid", to:"profession", reason:"Reglerad undervisningstid och kompetensutveckling genom professionsprogrammet ska rymmas inom lärares arbetstid." },
+
+  // === Styrning / friskolor ===
+  { from:"offentlighet", to:"skolpeng", reason:"Båda rör villkoren för fristående huvudmän. Offentlighet ger insyn, skolpengsnormen påverkar ersättningen." },
+  { from:"offentlighet", to:"vinst", reason:"Offentlighetsprincipen, skolpengsnorm och vinstreglering rör alla friskolesektorns villkor." },
+  { from:"skolpeng", to:"vinst", reason:"Skolpengsnormen och vinstregleringen påverkar båda fristående huvudmäns ekonomiska förutsättningar." },
+
+  // === Gy25 + yrkesutbildning ===
+  { from:"gy25", to:"yrkes", reason:"Yrkesprov ersätter gymnasiearbete på yrkesprogram. Yrkesutbildningspropositionen bygger vidare på Gy25:s nya ämnesstruktur." },
+
+  // === AI-förordningen ===
+  { from:"ai", to:"betyg", reason:"Nationella slutprov ska rättas centralt, eventuellt med digitala verktyg. AI-förordningens krav på högrisk-klassificering och mänsklig tillsyn kan bli relevant om AI-system används i provbedömning." },
+  { from:"ai", to:"laroplaner", reason:"Nya kursplaner ska anpassas efter teknikutveckling. AI-förordningen kräver AI-litteracitet för personal — berör hur AI behandlas i undervisning och styrdokument." }
+];
+
+const catColors = {
+  kunskap: { color:"#1d4ed8", bg:"#dbeafe" },
+  trygghet: { color:"#b91c1c", bg:"#fee2e2" },
+  larare: { color:"#15803d", bg:"#dcfce7" },
+  styrning: { color:"#6d28d9", bg:"#ede9fe" }
+};
+const catLabels = { kunskap:"Kunskap & bedömning", trygghet:"Trygghet & säkerhet", larare:"Lärarvillkor", styrning:"Styrning & organisation" };
+const statusStyles = {
+  beslutad: { bg:"#dcfce7", color:"#15803d", label:"Beslutad" },
+  proposition: { bg:"#fef3c7", color:"#92400e", label:"Proposition" },
+  "lagrådsremiss": { bg:"#f1f5f9", color:"#475569", label:"Lagrådsremiss" },
+  utredning: { bg:"#f3f4f6", color:"#6b7280", label:"Utredning" }
+};
+
+let activeNode = null;
+let filters = { cat:"all", time:"all", role:"all" };
+
+function init() {
+  const area = document.getElementById("mapArea");
+  const w = area.offsetWidth;
+  const h = area.offsetHeight;
+
+  reforms.forEach(r => {
+    const node = document.createElement("div");
+    node.className = "node";
+    node.id = "node-" + r.id;
+    node.dataset.id = r.id;
+    const cc = catColors[r.cat];
+    const ss = statusStyles[r.status];
+    node.innerHTML = `
+      <div class="node-dot" style="background:${cc.color}"></div>
+      <div class="node-title">${r.short}</div>
+      <div class="node-date">${r.ikraft}</div>
+      <div class="node-status" style="background:${ss.bg};color:${ss.color}">${ss.label}</div>
+    `;
+    node.style.left = r.x + "%";
+    node.style.top = r.y + "%";
+    node.addEventListener("click", () => selectNode(r.id));
+    area.appendChild(node);
+  });
+
+  drawConnections();
+
+  document.querySelectorAll(".filter-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const group = btn.dataset.filter;
+      document.querySelectorAll(`.filter-btn[data-filter="${group}"]`).forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      filters[group] = btn.dataset.value;
+      applyFilters();
+    });
+  });
+}
+
+function drawConnections() {
+  const svg = document.getElementById("mapSvg");
+  const area = document.getElementById("mapArea");
+  const rect = area.getBoundingClientRect();
+  svg.setAttribute("viewBox", `0 0 ${rect.width} ${rect.height}`);
+  svg.innerHTML = "";
+
+  connections.forEach(c => {
+    const fromEl = document.getElementById("node-" + c.from);
+    const toEl = document.getElementById("node-" + c.to);
+    if (!fromEl || !toEl) return;
+    const fx = fromEl.offsetLeft + fromEl.offsetWidth / 2;
+    const fy = fromEl.offsetTop + fromEl.offsetHeight / 2;
+    const tx = toEl.offsetLeft + toEl.offsetWidth / 2;
+    const ty = toEl.offsetTop + toEl.offsetHeight / 2;
+    const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
+    line.setAttribute("x1", fx);
+    line.setAttribute("y1", fy);
+    line.setAttribute("x2", tx);
+    line.setAttribute("y2", ty);
+    line.id = `conn-${c.from}-${c.to}`;
+    svg.appendChild(line);
+  });
+}
+
+function selectNode(id) {
+  if (activeNode === id) { activeNode = null; clearSelection(); return; }
+  activeNode = id;
+
+  const r = reforms.find(x => x.id === id);
+  const related = connections.filter(c => c.from === id || c.to === id);
+  const connectedIds = new Set();
+  related.forEach(c => { connectedIds.add(c.from); connectedIds.add(c.to); });
+
+  document.querySelectorAll(".node").forEach(n => {
+    const nid = n.dataset.id;
+    n.classList.remove("active","connected","dimmed");
+    if (nid === id) n.classList.add("active");
+    else if (connectedIds.has(nid)) n.classList.add("connected");
+    else n.classList.add("dimmed");
+  });
+
+  document.querySelectorAll(".map-svg line").forEach(l => {
+    l.classList.remove("active","dimmed");
+    const lid = l.id;
+    const isRelated = related.some(c => lid === `conn-${c.from}-${c.to}`);
+    l.classList.add(isRelated ? "active" : "dimmed");
+  });
+
+  renderDetail(r, related);
+}
+
+function clearSelection() {
+  document.querySelectorAll(".node").forEach(n => n.classList.remove("active","connected","dimmed"));
+  document.querySelectorAll(".map-svg line").forEach(l => l.classList.remove("active","dimmed"));
+  document.getElementById("detailPanel").innerHTML = `
+    <div class="detail-empty"><div class="detail-empty-icon">◉</div>Klicka på en reform i kartan<br>för att se detaljer och kopplingar.</div>`;
+}
+
+function renderDetail(r, related) {
+  const cc = catColors[r.cat];
+  const panel = document.getElementById("detailPanel");
+
+  let html = `
+    <div class="detail-cat" style="background:${cc.bg};color:${cc.color}">${catLabels[r.cat]}</div>
+    <div class="detail-title">${r.short}</div>
+    <div class="detail-ref">${r.ref} · ${r.ikraft}</div>
+    <div class="detail-section">
+      <div class="detail-text">${r.what}</div>
+    </div>
+    <div class="detail-section">
+      <div class="detail-label">Nyckelförändringar</div>
+      <ul class="detail-list">${r.changes.map(c => `<li>${c}</li>`).join("")}</ul>
+    </div>
+    <div class="detail-box">
+      <div class="detail-label">Övergångsbestämmelser</div>
+      <div class="detail-box-val">${r.transition}</div>
+    </div>
+    <div class="detail-box">
+      <div class="detail-label">Budget</div>
+      <div class="detail-box-val">${r.budget}</div>
+    </div>
+    <div class="detail-links">
+      ${r.links.map(l => `<a class="detail-link" href="${l.u}" target="_blank" rel="noopener">↗ ${l.t}</a>`).join("")}
+    </div>`;
+
+  if (related.length > 0) {
+    html += `<div class="detail-connections"><div class="detail-label">Kopplingar (${related.length})</div>`;
+    related.forEach(c => {
+      const otherId = c.from === r.id ? c.to : c.from;
+      const other = reforms.find(x => x.id === otherId);
+      const oc = catColors[other.cat];
+      html += `
+        <div class="conn-item" onclick="selectNode('${otherId}')">
+          <div class="conn-dot" style="background:${oc.color}"></div>
+          <div>
+            <div class="conn-text">${other.short}</div>
+            <div class="conn-reason">${c.reason}</div>
+          </div>
+        </div>`;
+    });
+    html += `</div>`;
+  }
+
+  panel.innerHTML = html;
+}
+
+function applyFilters() {
+  activeNode = null;
+  clearSelection();
+
+  reforms.forEach(r => {
+    const node = document.getElementById("node-" + r.id);
+    let show = true;
+    if (filters.cat !== "all" && r.cat !== filters.cat) show = false;
+    if (filters.time !== "all" && !r.time.includes(filters.time)) show = false;
+    if (filters.role !== "all" && !r.roles.includes(filters.role)) show = false;
+
+    node.classList.toggle("hidden", !show);
+  });
+
+  document.querySelectorAll(".map-svg line").forEach(l => {
+    const parts = l.id.replace("conn-","").split("-");
+    // Parse connection id properly
+    const connId = l.id.replace("conn-","");
+    const match = connections.find(c => l.id === `conn-${c.from}-${c.to}`);
+    if (!match) { l.style.display = "none"; return; }
+    const fromNode = document.getElementById("node-" + match.from);
+    const toNode = document.getElementById("node-" + match.to);
+    const show = fromNode && toNode && !fromNode.classList.contains("hidden") && !toNode.classList.contains("hidden");
+    l.style.display = show ? "" : "none";
+  });
+}
+
+window.addEventListener("load", init);
+window.addEventListener("resize", () => { drawConnections(); });
+</script>
+
+</body>
+</html>
