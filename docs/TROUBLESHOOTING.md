@@ -57,6 +57,14 @@ or git hooks that check documentation is updated before pushing.
 **Solution:** `sudo npm install -g <package>`
 
 ---
+## Build / Deploy
+
+### commit.sh kräver manuell git add för rotfiler
+**Symptom:** `./commit.sh` säger "no changes added to commit" trots att filer ändrats.
+**Cause:** Skriptet kör `git add docs/ src/ .claude/` och `git add *.json *.ts *.js *.sh *.md` — men glob-mönster i bash matchar bara redan stagade eller trackade filer om de inte redan finns i index. Ibland behöver filer stagas manuellt först.
+**Solution:** Kör `git add <fil>` innan `./commit.sh "msg"`.
+
+---
 ## TBD / App
 
 _Add issues here as you encounter them._
