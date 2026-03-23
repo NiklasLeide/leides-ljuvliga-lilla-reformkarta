@@ -69,6 +69,16 @@ or git hooks that check documentation is updated before pushing.
 **Cause:** `.list-view { display: none; }` definierades *efter* portrait-mediaqueryns `.list-view { display: block }`. Samma specificitet → sista regeln vinner.
 **Solution:** Flytta generella `display: none`-regler till *före* alla media queries. Media queries som sätter `display: block` måste komma efteråt för att få företräde.
 
+### Touch swipe-to-close triggas av scroll i panel
+**Symptom:** Sidopanelen stängs när man scrollar uppåt i den och når toppen.
+**Cause:** Swipe-hanteraren kollade `dy > 60` (vertikalt) utöver `dx > 60` (horisontellt). Scroll som nådde toppen registrerades som vertikal svep.
+**Solution:** Stäng bara vid horisontell svep: `dx > 60 && Math.abs(dx) > Math.abs(dy) * 2`.
+
+### Zoom/pan hoppar vid start på touch
+**Symptom:** Kartan hoppar till en annan position när man börjar zooma eller panorera.
+**Cause:** Första fingret startade pan, sedan landade andra fingret (pinch) med en offset. Pan-state överfördes inte korrekt till pinch.
+**Solution:** Dead zone (5px) innan pan startar. Vid pinch: nollställ pan-state med pinch-mittpunkt. Vid finger-release från 2→1: starta inte ny pan.
+
 ---
 ## TBD / App
 

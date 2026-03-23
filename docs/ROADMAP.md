@@ -10,7 +10,7 @@
 - [x] Nyansera studiero: ikraftträdande (merparten 1 aug 2026, stödundervisning 1 juli 2028)
 - [x] ~Mobilanpassning v1 (pinch-to-zoom/pan, bottom sheet)~ — ersatt av v2
 - [x] Mobil v2: listvy i portrait — accordion-kort per kategori, kopplingar som klickbara länkar
-- [x] Mobil v2: kartvy i landscape — kompakta noder, zoom/pan, bottom sheet
+- [x] Mobil v2: kartvy i landscape — kompakta noder, zoom/pan, sidopanel 20% bredd
 - [ ] DNS: reformer.leide.se (väntar propagering)
 - [ ] Dela med 3–5 kollegor för feedback
 

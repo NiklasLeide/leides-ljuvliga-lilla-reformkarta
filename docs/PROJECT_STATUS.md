@@ -20,7 +20,7 @@
 | 1.6 | Nyansera studiero: ikraftträdande | ✅ Done | Merparten 1 aug 2026, delar 1 juli 2028 |
 | 1.7 | ~Mobilanpassning v1~ | ⬜ Ersatt | Zoom/pan testat — för trångt. Ersatt av v2 |
 | 1.8 | Mobil v2: listvy i portrait | ✅ Done | Accordion-kort per kategori, kopplingar som klickbara länkar, filter stöds |
-| 1.9 | Mobil v2: kartvy i landscape | ✅ Done | Kompakta noder (96px), zoom/pan, bottom sheet för detaljer |
+| 1.9 | Mobil v2: kartvy i landscape | ✅ Done | Kompakta noder (96px), zoom/pan, sidopanel (20% bredd) |
 | 1.10 | Dela med 3–5 kollegor för första feedback | ⬜ Todo | Kan göras när DNS fungerar |
 
 **Status legend:** ⬜ Todo | 🔄 In Progress | ✅ Done | 🚫 Blocked | ⏸️ Paused
@@ -32,7 +32,8 @@ Reformkartan finns som `index.html` i roten. GitHub Pages serverar sidan.
 - 16 reformnoder med status, ikraftträdande och kategori
 - Aktiv nod visas med tjock border i kategorifärg + scale, länkade noder med streckad blå border
 - Noder kan dras runt (drag-and-drop), SVG-linjer ritas om i realtid
-- Mobil: listvy med accordion i portrait, kartvy med zoom/pan i landscape
+- Mobil portrait: listvy med accordion-kort, kopplingstext, klickbara länkar
+- Mobil landscape: kartvy med zoom/pan, sidopanel (20% bredd) för detaljer
 - Filter: område, tid, roll
 
 ```bash
