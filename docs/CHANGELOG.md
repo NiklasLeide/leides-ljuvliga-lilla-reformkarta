@@ -5,6 +5,7 @@ Types: `feat` | `fix` | `refactor` | `docs` | `chore` | `perf`
 
 ---
 
+[2026-03-23] fix: landscape zoom/pan hoppar inte längre vid start; visa kopplingstext i portrait-listvy
 [2026-03-23] fix: listvy synlig i portrait — CSS-ordning korrigerad (display:none före media queries)
 [2026-03-23] feat: mobil v2 — listvy med accordion i portrait, kartvy med zoom/pan i landscape
 [2026-03-23] docs: behåll zoom/pan i landscape-kartvy (DEC-003 uppdaterad)
