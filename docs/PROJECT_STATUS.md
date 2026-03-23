@@ -20,6 +20,8 @@
 
 ## What's Working Now
 Reformkartan finns som `index.html` i roten. GitHub Pages serverar sidan.
+- Aktiv nod visas med tjock border i kategorifärg + scale, länkade noder med streckad blå border
+- Noder kan dras runt (drag-and-drop), SVG-linjer ritas om i realtid. Touch-stöd via Pointer Events.
 
 ```bash
 # Öppna lokalt:
