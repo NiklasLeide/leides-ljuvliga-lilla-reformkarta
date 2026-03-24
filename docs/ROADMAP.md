@@ -14,12 +14,17 @@
 - [ ] DNS: reformer.leide.se (väntar propagering)
 - [ ] Dela med 3–5 kollegor för feedback
 
-## Now (Sprint 2 — Innehåll och kopplingar)
+## Now (Sprint 2 — Innehåll, struktur och kopplingar)
 - [x] Skolverkets uppdragsstatus per reform — data från RB 2025/2026, klickbar fulltext med modal
+- [x] Större kartyta på desktop — container 1400px, karta 700px
+- [ ] Sätt upp dev/master-branching med commit.sh (bara dev) och deploy.sh (manuell bekräftelse för master)
+- [ ] Separera innehåll från gränssnitt — flytta reformdata, kopplingar och uppdrag till JSON-filer
+- [ ] Gör reformkartan responsiv — utnyttja full skärmbredd, sprid ut noder, mer luft mellan kopplingar
 - [ ] Granska alla 15 kopplingar — saknas/fel?
 - [ ] Verifiera rollfilter (rektor/lärare/skolchef) per reform
 - [ ] Uppdatera efter riksdagsbeslut (vårens voteringar)
 - [ ] Komplettera ändrade timplaner (Prop. 2023/24:20)
+- [ ] Verifiera budgetsiffra 95 Mkr för studiero (källa: budgetprop, inte Prop. 193)
 - [ ] Feedback-runda #2 — bredare grupp
 
 ## Sprint 3 — Fördjupning

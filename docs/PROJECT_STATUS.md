@@ -1,7 +1,7 @@
 # Project Status — leides-ljuvliga-lilla-reformkarta
 
-> **Last updated:** 2026-03-23
-> **Current sprint:** Sprint 2 – Innehåll och kopplingar
+> **Last updated:** 2026-03-24
+> **Current sprint:** Sprint 2 – Innehåll, struktur och kopplingar
 > **Sprint dates:** 2026-03-23 → TBD
 
 ---
@@ -12,18 +12,23 @@
 
 ---
 
-## Current Sprint: Sprint 2 – Innehåll och kopplingar
+## Current Sprint: Sprint 2 – Innehåll, struktur och kopplingar
 
-**Mål:** Kopplingarna är korrekta och kartan tillför värde. Skolverkets uppdragsstatus synlig.
+**Mål:** Separera data från gränssnitt, förbättra layout, verifiera innehåll.
 
 | # | Task | Status | Notes |
 |---|------|--------|-------|
-| 2.1 | Skolverkets uppdragsstatus per reform | ✅ Done | Data från RB 2025/2026, indikator på noder, detaljsektion + modal |
-| 2.2 | Granska alla 15 kopplingar | ⬜ Todo | Saknas kopplingar? Fel? |
-| 2.3 | Verifiera rollfilter | ⬜ Todo | Stämmer rollerna per reform? |
-| 2.4 | Uppdatera efter riksdagsbeslut | ⬜ Todo | Bevaka vårens voteringar |
-| 2.5 | Komplettera ändrade timplaner | ⬜ Todo | Prop. 2023/24:20, begränsade detaljer |
-| 2.6 | Feedback-runda #2 | ⬜ Todo | Bredare grupp |
+| 2.1 | Skolverkets uppdragsstatus per reform | ✅ Done | Data från RB 2025/2026, indikator + modal |
+| 2.2 | Större kartyta på desktop | ✅ Done | Container 1400px, karta 700px, panel 360px |
+| 2.3 | dev/master-branching + deploy.sh | ⬜ Todo | commit.sh bara dev, deploy.sh manuell bekräftelse |
+| 2.4 | Separera data till JSON-filer | ⬜ Todo | reforms.json, connections.json, uppdrag.json |
+| 2.5 | Responsiv kartlayout | ⬜ Todo | Full bredd, sprid ut noder, mer luft |
+| 2.6 | Granska alla 15 kopplingar | ⬜ Todo | Saknas/fel? |
+| 2.7 | Verifiera rollfilter | ⬜ Todo | Stämmer rollerna per reform? |
+| 2.8 | Uppdatera efter riksdagsbeslut | ⬜ Todo | Bevaka vårens voteringar |
+| 2.9 | Komplettera ändrade timplaner | ⬜ Todo | Prop. 2023/24:20 |
+| 2.10 | Verifiera budgetsiffra 95 Mkr studiero | ⬜ Todo | Källa: budgetprop, inte Prop. 193 |
+| 2.11 | Feedback-runda #2 | ⬜ Todo | Bredare grupp |
 
 ---
 
