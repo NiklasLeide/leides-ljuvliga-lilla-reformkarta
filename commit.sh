@@ -1,12 +1,20 @@
 #!/bin/bash
-# commit.sh — enforced commit workflow
+# commit.sh — enforced commit workflow (always pushes to dev)
 # Usage: ./commit.sh "your commit message"
 # Auto-stages docs/, src/, config files. Blocks commit if CHANGELOG not updated with src/ changes.
+# NEVER pushes to master — use deploy.sh for that.
 
 set -e
 
 if [ -z "$1" ]; then
   echo 'Usage: ./commit.sh "commit message"' && exit 1
+fi
+
+# Safety: refuse to run on master
+CURRENT_BRANCH=$(git branch --show-current)
+if [ "$CURRENT_BRANCH" = "master" ]; then
+  echo "ERROR: Du är på master. Byt till dev först: git checkout dev"
+  exit 1
 fi
 
 git add docs/ src/ .claude/ 2>/dev/null || true
@@ -20,4 +28,4 @@ if [ -n "$SRC_CHANGED" ] && [ -z "$CHANGELOG_CHANGED" ]; then
   exit 1
 fi
 
-git commit -m "$1" && git push
+git commit -m "$1" && git push -u origin dev

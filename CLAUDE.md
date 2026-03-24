@@ -40,8 +40,12 @@ leides-ljuvliga-lilla-reformkarta/
 
 ## Commit Rule (non-negotiable)
 **Always use `./commit.sh "message"` — never bare `git commit`.**
+Använd commit.sh för att committa och pusha — det går alltid till dev.
+**Använd ALDRIG git push till master direkt.**
+Deploy till produktion görs av Niklas via `./deploy.sh`.
+
 The script auto-stages docs/, src/, config files and blocks commits if CHANGELOG.md
-isn't updated when src/ changed.
+isn't updated when src/ changed. It refuses to run on master.
 
 Before every commit, update:
 - `docs/CHANGELOG.md` — always, for every code change
