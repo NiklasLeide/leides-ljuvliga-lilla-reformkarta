@@ -42,6 +42,7 @@ leides-ljuvliga-lilla-reformkarta/
 **Always use `./commit.sh "message"` — never bare `git commit`.**
 Använd commit.sh för att committa och pusha — det går alltid till dev.
 **Använd ALDRIG git push till master direkt.**
+Dev-versionen testas på reformer.leide.se/dev/ — commit.sh synkar dit automatiskt.
 Deploy till produktion görs av Niklas via `./deploy.sh`.
 
 The script auto-stages docs/, src/, config files and blocks commits if CHANGELOG.md
