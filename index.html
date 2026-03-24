@@ -1171,7 +1171,12 @@ function renderUppdragSection(id) {
       const relKallor = rel.kallor && rel.kallor.length > 0
         ? `<div class="uppdrag-kallor">${rel.kallor.map(k => `<a class="uppdrag-kalla" href="${k.url}" target="_blank" rel="noopener">↗ ${k.text}</a>`).join("")}</div>`
         : "";
+      const relUs = rel.typ ? uppdragStyles[rel.typ] : uppdragStyles.ej;
       return `<div style="margin-top:0.4rem;padding-top:0.4rem;border-top:1px solid var(--border)">
+        <div class="uppdrag-header">
+          <div class="uppdrag-dot" style="background:${relUs.color}"></div>
+          <div class="uppdrag-type" style="color:${relUs.color}">${relUs.label}</div>
+        </div>
         <div class="uppdrag-kort">${rel.kort}</div>
         ${relExpandBtn}
         ${relKallor}
