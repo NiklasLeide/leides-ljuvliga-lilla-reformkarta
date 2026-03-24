@@ -1161,6 +1161,29 @@ function renderUppdragSection(id) {
   if (u.kallor && u.kallor.length > 0) {
     kallorHtml = `<div class="uppdrag-kallor">${u.kallor.map(k => `<a class="uppdrag-kalla" href="${k.url}" target="_blank" rel="noopener">↗ ${k.text}</a>`).join("")}</div>`;
   }
+  // Render relaterade uppdrag if any
+  let relateratHtml = "";
+  if (u.relaterade && u.relaterade.length > 0) {
+    relateratHtml = u.relaterade.map((rel, i) => {
+      const relExpandBtn = rel.fulltext
+        ? `<button class="uppdrag-expand" onclick="openRelateratModal('${id}', ${i})">Läs hela uppdraget ▸</button>`
+        : "";
+      const relKallor = rel.kallor && rel.kallor.length > 0
+        ? `<div class="uppdrag-kallor">${rel.kallor.map(k => `<a class="uppdrag-kalla" href="${k.url}" target="_blank" rel="noopener">↗ ${k.text}</a>`).join("")}</div>`
+        : "";
+      const relUs = rel.typ ? uppdragStyles[rel.typ] : uppdragStyles.ej;
+      return `<div style="margin-top:0.4rem;padding-top:0.4rem;border-top:1px solid var(--border)">
+        <div class="uppdrag-header">
+          <div class="uppdrag-dot" style="background:${relUs.color}"></div>
+          <div class="uppdrag-type" style="color:${relUs.color}">${relUs.label}</div>
+        </div>
+        <div class="uppdrag-kort">${rel.kort}</div>
+        ${relExpandBtn}
+        ${relKallor}
+      </div>`;
+    }).join("");
+  }
+
   return `<div class="uppdrag-section">
     <div class="uppdrag-header">
       <div class="uppdrag-dot" style="background:${us.color}"></div>
@@ -1169,6 +1192,7 @@ function renderUppdragSection(id) {
     <div class="uppdrag-kort">${u.kort}</div>
     ${expandBtn}
     ${kallorHtml}
+    ${relateratHtml}
   </div>`;
 }
 
@@ -1179,6 +1203,19 @@ function openUppdragModal(id) {
   document.getElementById("modalTitle").textContent = r.short + " — Skolverkets uppdrag";
   document.getElementById("modalText").textContent = u.fulltext;
   document.getElementById("modalKallor").innerHTML = u.kallor.map(k =>
+    `<a class="uppdrag-kalla" href="${k.url}" target="_blank" rel="noopener">↗ ${k.text}</a>`
+  ).join("");
+  document.getElementById("modalOverlay").classList.add("open");
+}
+
+function openRelateratModal(id, index) {
+  const u = skolverketUppdrag[id];
+  const r = reforms.find(x => x.id === id);
+  if (!u || !u.relaterade || !u.relaterade[index]) return;
+  const rel = u.relaterade[index];
+  document.getElementById("modalTitle").textContent = r.short + " — Relaterat uppdrag";
+  document.getElementById("modalText").textContent = rel.fulltext;
+  document.getElementById("modalKallor").innerHTML = rel.kallor.map(k =>
     `<a class="uppdrag-kalla" href="${k.url}" target="_blank" rel="noopener">↗ ${k.text}</a>`
   ).join("");
   document.getElementById("modalOverlay").classList.add("open");

@@ -42,6 +42,19 @@
         "text": "Regleringsbrev 2026 (PDF)",
         "url": "https://www.statskontoret.se/regleringsbrev/25940/pdf?Version=HelaBrevet"
       }
+    ],
+    "relaterade": [
+      {
+        "kort": "Genomförandeplan för digitaliserade och centralt rättade nationella slutprov (U2026/00283). Digitala prov senarelagda, pappersprov tills vidare. Central rättning fortgår — gymnasiet HT 2026, grundskolan VT 2028. Redovisas 8 maj 2026.",
+        "fulltext": "Ändring av uppdraget att digitalisera de nationella proven m.m. (U2026/00283, feb 2026). Skolverket ska senarelägga införandet av digitala prov och tills vidare ska nationella prov genomföras i pappersform. Arbetet med att införa central rättning av digitala prov ska fortgå, men genomförandet behöver anpassas. Skolverket ska föreslå en genomförandeplan, inklusive en tidsplan, för att införa digitaliserade och centralt rättade nationella slutprov vid den tidpunkt som krävs för att möjliggöra det planerade införandet av ett nytt betygssystem. Genomförandeplanen ska innehålla en beskrivning av de förändringar av arbetet med digitalisering av proven och central rättning som krävs för att åstadkomma ett kvalitetssäkrat införande. Skolverket ska redovisa uppdraget senast den 8 maj 2026. Central rättning HT 2026: uppsatsdelarna i svenska/sva kurs 3 samt engelska kurs 6 i gymnasieskolan. Central rättning VT 2028: uppsatsdelarna i svenska/sva och engelska i årskurs 9.",
+        "kallor": [
+          {
+            "text": "Regeringsuppdrag (U2026/00283)",
+            "url": "https://www.regeringen.se/regeringsuppdrag/2026/02/andring-av-uppdraget-till-statens-skolverk-att-digitalisera-de-nationella-proven-m.m"
+          }
+        ],
+        "typ": "forberedande"
+      }
     ]
   },
   "stod": {
@@ -67,6 +80,19 @@
       {
         "text": "Regleringsbrev 2026 (PDF)",
         "url": "https://www.statskontoret.se/regleringsbrev/25940/pdf?Version=HelaBrevet"
+      }
+    ],
+    "relaterade": [
+      {
+        "kort": "Stödmaterial för att förebygga sexualbrott och andra grova brott (RB 2025). Redovisas 18 feb 2026.",
+        "fulltext": "Stödmaterial för att förebygga sexualbrott och andra grova brott. Uppdraget återges i regleringsbrevet för 2025 och ska redovisas senast den 18 februari 2026.",
+        "kallor": [
+          {
+            "text": "Regleringsbrev 2026 (PDF)",
+            "url": "https://www.statskontoret.se/regleringsbrev/25940/pdf?Version=HelaBrevet"
+          }
+        ],
+        "typ": "uppdrag"
       }
     ]
   },
