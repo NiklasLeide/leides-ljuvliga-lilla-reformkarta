@@ -1360,13 +1360,9 @@ function applyFilters() {
   });
 }
 
-// Determine base path for data files (works from root and dev/ subfolder)
-const dataBase = document.querySelector('script[data-base]')?.dataset.base || '';
 function dataPath(file) {
-  // If loaded from dev/ subfolder, data/ is at ../data/
-  // If loaded from root, data/ is at data/
-  const base = location.pathname.includes('/dev/') ? '../' : '';
-  return base + 'data/' + file;
+  // data/ sits next to index.html in both root and dev/ subfolder
+  return 'data/' + file;
 }
 
 async function loadData() {
