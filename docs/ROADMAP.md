@@ -16,9 +16,9 @@
 
 ## Now (Sprint 2 — Innehåll, struktur och kopplingar)
 - [x] Skolverkets uppdragsstatus per reform — data från RB 2025/2026, klickbar fulltext med modal
-- [ ] Responsiv kartyta på desktop — utnyttja full skärmbredd, sprid ut noder, mer luft mellan kopplingar (container 1400px satt)
-- [ ] Sätt upp dev/master-branching med commit.sh (bara dev) och deploy.sh (manuell bekräftelse för master)
-- [ ] Separera innehåll från gränssnitt — flytta reformdata, kopplingar och uppdrag till JSON-filer
+- [x] Responsiv kartyta på desktop — full bredd, omplacerade noder med min 15% avstånd
+- [x] Sätt upp dev/master-branching med commit.sh (bara dev) och deploy.sh (manuell bekräftelse för master)
+- [x] Separera innehåll från gränssnitt — flytta reformdata, kopplingar och uppdrag till JSON-filer
 - [ ] Granska alla 15 kopplingar — saknas/fel?
 - [ ] Verifiera rollfilter (rektor/lärare/skolchef) per reform
 - [ ] Uppdatera efter riksdagsbeslut (vårens voteringar)

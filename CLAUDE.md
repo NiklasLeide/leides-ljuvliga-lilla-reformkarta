@@ -29,6 +29,10 @@ See `@docs/DECISIONS.md` for all architectural decisions and reasoning.
 ```
 leides-ljuvliga-lilla-reformkarta/
 ├── CLAUDE.md              ← you are here (keep under 150 lines)
+├── data/
+│   ├── reforms.json       ← reformdata (namn, status, kategorier, länkar)
+│   ├── connections.json   ← kopplingar mellan reformer
+│   └── uppdrag.json       ← Skolverkets uppdragsstatus per reform
 ├── docs/
 │   ├── DECISIONS.md       ← decision log — WHY choices were made
 │   ├── PROJECT_STATUS.md  ← sprint tasks, blockers, what's working
@@ -40,8 +44,13 @@ leides-ljuvliga-lilla-reformkarta/
 
 ## Commit Rule (non-negotiable)
 **Always use `./commit.sh "message"` — never bare `git commit`.**
+Använd commit.sh för att committa och pusha — det går alltid till dev.
+**Använd ALDRIG git push till master direkt.**
+Dev-versionen testas på reformer.leide.se/dev/ — commit.sh synkar dit automatiskt.
+Deploy till produktion görs av Niklas via `./deploy.sh`.
+
 The script auto-stages docs/, src/, config files and blocks commits if CHANGELOG.md
-isn't updated when src/ changed.
+isn't updated when src/ changed. It refuses to run on master.
 
 Before every commit, update:
 - `docs/CHANGELOG.md` — always, for every code change

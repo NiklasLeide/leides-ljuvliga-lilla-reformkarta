@@ -1,0 +1,576 @@
+[
+  {
+    "id": "laroplaner",
+    "short": "Nya läroplaner",
+    "ref": "Prop. 2025/26:194",
+    "cat": "kunskap",
+    "ikraft": "1 juli 2028",
+    "status": "proposition",
+    "time": [
+      "2028"
+    ],
+    "roles": [
+      "rektor",
+      "larare_r",
+      "chef"
+    ],
+    "x": 2,
+    "y": 5,
+    "what": "Skollagen ändras så att utbildningens syfte anges vara att förmedla och förankra kunskaper och värden. Kursplanerna får ny struktur: syfte, mål, innehåll, undervisningsstrategier och bedömningskriterier. Sammantagen bedömning gäller alla betygssteg, även E.",
+    "changes": [
+      "Undervisningen bestäms och leds av lärare",
+      "Ny kursplanestruktur med fem delar",
+      "Sammantagen bedömning gäller alla betygssteg",
+      "Kursplaner utan betyg för nybörjare i svenska"
+    ],
+    "transition": "Merparten 1 juli 2028. Komvux-ändringar 1 jan 2031.",
+    "budget": "40 Mkr till Skolverket 2026.",
+    "links": [
+      {
+        "t": "Proposition",
+        "u": "https://www.regeringen.se/rattsliga-dokument/proposition/2026/03/prop.-202526194"
+      },
+      {
+        "t": "Skolverket",
+        "u": "https://www.skolverket.se/styrning-och-ansvar/forandringar-inom-skolomradet/tioarig-grundskola-och-nya-laroplaner"
+      }
+    ]
+  },
+  {
+    "id": "betyg",
+    "short": "Betygssystem 1–10",
+    "ref": "Prop. 2025/26:197",
+    "cat": "kunskap",
+    "ikraft": "1 juli 2028",
+    "status": "proposition",
+    "time": [
+      "2028"
+    ],
+    "roles": [
+      "rektor",
+      "larare_r",
+      "chef"
+    ],
+    "x": 22,
+    "y": 3,
+    "what": "Numerisk betygsskala 1–10 utan skarp gräns för godkänt. Nationella slutprov kalibrerar lärarsatta betyg — proven rättas centralt. Meritvärdet kombinerar betygspoäng (70 %) och slutprovsresultat (30 %). Vid slutlig betygssättning ska lärare ha bedömningssamråd. Meritvärde ersätter betyg som urvalsgrund till högskolan. Behörighetskrav till gymnasiet: meritvärde minst 4. Nationella slutprov från våren 2029 i gymnasieskolan och våren 2031 i grundskolan. Nya meritvärden för elever som går ut grundskolan och gymnasieskolan 2031. Komvux: 1 januari 2031.",
+    "changes": [
+      "Betygsskala 1–10 ersätter A–F i alla skolformer",
+      "Ingen skarp gräns för godkänt i skalan",
+      "Nationella slutprov — centralt rättade — kalibrerar meritvärden",
+      "Meritvärde = betygspoäng (70 %) + slutprovsresultat (30 %)",
+      "Behörighet till gymnasiet: meritvärde minst 4 (ersätter krav på godkänt i enskilda ämnen)",
+      "Gymnasieexamen: genomsnitt minst 4 på minst 2 250 poäng",
+      "Bedömningssamråd vid slutlig betygssättning",
+      "Gäller även gymnasial nivå — påverkar Gy25:s betygsskala"
+    ],
+    "transition": "Skollagen: 1 juli 2028. Ny betygsskala stegvis fr.o.m. HT 2027 (gymnasiet) resp. HT 2028 (grundskolan). Slutprov fr.o.m. VT 2029 (gymnasiet), VT 2031 (grundskolan). Komvux: 1 jan 2031. Synkroniserat med tioårig grundskola.",
+    "budget": "24,9 Mkr till Skolverket 2026. Medel till UHR 2027–28 för antagningsförändringar.",
+    "links": [
+      {
+        "t": "Proposition",
+        "u": "https://www.regeringen.se/rattsliga-dokument/proposition/2026/03/prop.-202526197"
+      },
+      {
+        "t": "Skolverket: förberedelser",
+        "u": "https://www.skolverket.se/styrning-och-ansvar/forandringar-inom-skolomradet/forberedelser-for-inforande-av-nytt-betygssystem"
+      },
+      {
+        "t": "SOU 2025:18",
+        "u": "https://www.regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2025/03/sou-202518/"
+      }
+    ]
+  },
+  {
+    "id": "tioarig",
+    "short": "Tioårig grundskola",
+    "ref": "Prop. 2024/25:143",
+    "cat": "kunskap",
+    "ikraft": "HT 2028",
+    "status": "beslutad",
+    "time": [
+      "2028"
+    ],
+    "roles": [
+      "rektor",
+      "chef"
+    ],
+    "x": 2,
+    "y": 28,
+    "what": "Förskoleklassen upphör som skolform och ersätts av en ny årskurs 1. Barnen börjar åk 1 det år de fyller 6. Grundskolan blir tioårig.",
+    "changes": [
+      "Förskoleklassen ersätts av ny årskurs 1",
+      "Barnen börjar åk 1 det år de fyller 6",
+      "Anpassade grundskolan, specialskolan och sameskolan utökas",
+      "Behörighetsregler anpassas (Prop. 2025/26:149)"
+    ],
+    "transition": "Riksdagen har beslutat. Tillämpas fr.o.m. HT 2028.",
+    "budget": "Ingår i reformpaketet.",
+    "links": [
+      {
+        "t": "Proposition",
+        "u": "https://www.regeringen.se/rattsliga-dokument/proposition/2025/03/prop.-202425143"
+      },
+      {
+        "t": "Skolverket",
+        "u": "https://www.skolverket.se/styrning-och-ansvar/forandringar-inom-skolomradet/tioarig-grundskola-och-nya-laroplaner"
+      }
+    ]
+  },
+  {
+    "id": "stod",
+    "short": "Förbättrat stöd",
+    "ref": "Prop. 2025/26:195",
+    "cat": "kunskap",
+    "ikraft": "1 juli 2028",
+    "status": "proposition",
+    "time": [
+      "2028"
+    ],
+    "roles": [
+      "rektor",
+      "larare_r",
+      "chef"
+    ],
+    "x": 22,
+    "y": 26,
+    "what": "Ny stödundervisning i svenska, sva och matematik. Extra anpassningar och läsa-skriva-räkna-garantin avskaffas. Standardiserade tester varje hösttermin ersätter nationella prov i åk 3.",
+    "changes": [
+      "Extra anpassningar slopas",
+      "Läsa-skriva-räkna-garantin avskaffas",
+      "Stödundervisning sätts in när lärare flaggar",
+      "Standardiserade tester varje hösttermin"
+    ],
+    "transition": "Ikraftträdande 1 juli 2028.",
+    "budget": "~3,7 mdr kr/år fr.o.m. 2029 (delat med undervisningstidsreformen).",
+    "links": [
+      {
+        "t": "Proposition",
+        "u": "https://www.regeringen.se/rattsliga-dokument/proposition/2026/03/prop.-202526195"
+      }
+    ]
+  },
+  {
+    "id": "timplan",
+    "short": "Ändrade timplaner",
+    "ref": "Prop. 2023/24:20",
+    "cat": "kunskap",
+    "ikraft": "Stegvis",
+    "status": "beslutad",
+    "time": [],
+    "roles": [
+      "rektor",
+      "larare_r"
+    ],
+    "x": 2,
+    "y": 50,
+    "what": "Omfördelning av undervisningstid i grundskolan. Fler timmar i svenska och matematik. Mer tid för praktisk-estetiska ämnen.",
+    "changes": [
+      "Fler timmar i svenska och matematik",
+      "Mer tid för praktisk-estetiska ämnen",
+      "Omfördelning från SO/NO-block"
+    ],
+    "transition": "Beslutad. Tillämpas stegvis.",
+    "budget": "Ej specificerat.",
+    "links": [
+      {
+        "t": "Proposition",
+        "u": "https://www.regeringen.se/rattsliga-dokument/proposition/2023/10/prop.-20232420"
+      }
+    ]
+  },
+  {
+    "id": "gy25",
+    "short": "Gy25 — ämnesbetyg",
+    "ref": "Lag (2022:147)",
+    "cat": "kunskap",
+    "ikraft": "1 juli 2025",
+    "status": "beslutad",
+    "time": [],
+    "roles": [
+      "rektor",
+      "larare_r",
+      "chef"
+    ],
+    "x": 42,
+    "y": 3,
+    "what": "Kursbetyg ersätts av ämnesbetyg i gymnasieskolan, anpassade gymnasieskolan och komvux. Ämnesplanerna utformas som sammanhållna ämnen med nivåer. Godkänt betyg på högre nivå ersätter lägre nivåers betyg.",
+    "changes": [
+      "Ämnesplaner med nivåer ersätter kursplaner",
+      "Betyg sätts vid slutet av varje nivå",
+      "Godkänt betyg på högre nivå ersätter lägre",
+      "Över 700 nya ämnesplaner"
+    ],
+    "transition": "Tillämpas för utbildning påbörjad efter 30 juni 2025. Övergång t.o.m. 30 juni 2030.",
+    "budget": "Ej specificerat.",
+    "links": [
+      {
+        "t": "Skolverket: Gy25",
+        "u": "https://www.skolverket.se/styrning-och-ansvar/forandringar-inom-skolomradet/gy25----amnesbetyg-pa-gymnasial-niva"
+      }
+    ]
+  },
+  {
+    "id": "studiero",
+    "short": "Trygghet & studiero",
+    "ref": "Prop. 2025/26:193",
+    "cat": "trygghet",
+    "ikraft": "1 aug 2026",
+    "status": "proposition",
+    "time": [
+      "2026s"
+    ],
+    "roles": [
+      "rektor",
+      "larare_r",
+      "chef"
+    ],
+    "x": 62,
+    "y": 18,
+    "what": "Mobilförbud under hela skoldagen. Ordningsregler ersätts av skolregler med konsekvensplan. Förväntansdokument. Utökade möjligheter att avvisa elever. Akutskola på entreprenad.",
+    "changes": [
+      "Mobilförbud — telefoner samlas in",
+      "Skolregler med konsekvensplan",
+      "Förväntansdokument",
+      "Avvisning behöver inte dokumenteras skriftligt",
+      "Akutskola kan bedrivas på entreprenad"
+    ],
+    "transition": "Merparten träder i kraft 1 augusti 2026. Vissa bestämmelser om stödundervisning träder i kraft 1 juli 2028.",
+    "budget": "95 Mkr 2026, 100 Mkr/år fr.o.m. 2027. 300 Mkr statsbidrag säkerhet.",
+    "links": [
+      {
+        "t": "Pressmeddelande",
+        "u": "https://www.regeringen.se/pressmeddelanden/2026/01/battre-forutsattningar-for-studiero-och-tidigt-stod-till-elever-i-skolan/"
+      }
+    ]
+  },
+  {
+    "id": "brott",
+    "short": "Brottsförebyggande",
+    "ref": "Prop. 2025/26:192",
+    "cat": "trygghet",
+    "ikraft": "30 juni 2026",
+    "status": "proposition",
+    "time": [
+      "2026s"
+    ],
+    "roles": [
+      "rektor",
+      "chef"
+    ],
+    "x": 82,
+    "y": 8,
+    "what": "Skyldighet att lämna uppgifter till mottagande skolenhet vid skolbyte — om konkreta omständigheter tyder på risk att eleven begår eller utsätts för brott.",
+    "changes": [
+      "Skyldighet att lämna brottsförebyggande info vid skolbyten",
+      "Gäller vid konkreta omständigheter",
+      "Fler skolformer omfattas"
+    ],
+    "transition": "Ikraftträdande 30 juni 2026. Tillämpas efter årsskiftet 2026/2027.",
+    "budget": "Ej specificerat.",
+    "links": [
+      {
+        "t": "Lagrådsremiss (PDF)",
+        "u": "https://www.regeringen.se/contentassets/2d23d7f42b20462b8ee5e9565c8d5282/overlamnande-av-uppgifter-mellan-skolor-i-brottsforebyggande-syfte.pdf"
+      }
+    ]
+  },
+  {
+    "id": "register",
+    "short": "Registerkontroller",
+    "ref": "Prop. 2025/26:174",
+    "cat": "trygghet",
+    "ikraft": "15 juli 2026",
+    "status": "proposition",
+    "time": [
+      "2026s"
+    ],
+    "roles": [
+      "rektor",
+      "chef"
+    ],
+    "x": 82,
+    "y": 32,
+    "what": "Registerkontroller utökas till misstankeregistret. Registerutdrag max sex månader gammalt. Ny kontroll efter sex månader hos samma arbetsgivare. Gäller även komvux.",
+    "changes": [
+      "Misstankeregistret inkluderas",
+      "Max 6 mån giltighetstid (tidigare 12)",
+      "Ny kontroll efter 6 mån hos samma arbetsgivare",
+      "Gäller även komvux"
+    ],
+    "transition": "Ikraftträdande 15 juli 2026.",
+    "budget": "Ej specificerat.",
+    "links": [
+      {
+        "t": "Lagrådsremiss (PDF)",
+        "u": "https://www.regeringen.se/contentassets/82e42e8c30f8488ca82f450c57539c1e/utokade-registerkontroller-i-skolvasendet.pdf"
+      }
+    ]
+  },
+  {
+    "id": "tid",
+    "short": "Reglerad undervisningstid",
+    "ref": "Prop. 2025/26:196",
+    "cat": "larare",
+    "ikraft": "Ej fastställt",
+    "status": "proposition",
+    "time": [],
+    "roles": [
+      "rektor",
+      "larare_r",
+      "chef"
+    ],
+    "x": 28,
+    "y": 48,
+    "what": "Maxtak för undervisningstimmar och lägsta gräns för planeringstid regleras genom förordning. Administrativ börda ska minska. Läraren bestämmer informationen till vårdnadshavare.",
+    "changes": [
+      "Maxtak för undervisningstimmar",
+      "Lägsta gräns för planeringstid",
+      "Färre utvecklingssamtal",
+      "Läraren styr information till vårdnadshavare"
+    ],
+    "transition": "Proposition överlämnad 17 mars 2026.",
+    "budget": "Ingår i ~3,7 mdr kr/år fr.o.m. 2029 (delat med stödreformen).",
+    "links": [
+      {
+        "t": "Lagrådsremiss",
+        "u": "https://www.regeringen.se/rattsliga-dokument/lagradsremiss/2026/02/tid-for-undervisningsuppdraget/"
+      }
+    ]
+  },
+  {
+    "id": "profession",
+    "short": "Professionsprogrammet",
+    "ref": "Prop. 2022/23:54",
+    "cat": "larare",
+    "ikraft": "1 sep 2025",
+    "status": "beslutad",
+    "time": [],
+    "roles": [
+      "rektor",
+      "larare_r",
+      "chef"
+    ],
+    "x": 48,
+    "y": 46,
+    "what": "Nationellt professionsprogram: struktur för kompetensutveckling och meriteringssystem med fyra nivåer. Skolverket ansvarar med stöd av Rådet för professioner i skolväsendet.",
+    "changes": [
+      "Nationell struktur för kompetensutveckling",
+      "Meriteringssystem med fyra nivåer",
+      "En nivå förutsätter examen på forskarnivå",
+      "Karriärtjänster kopplas till meritering"
+    ],
+    "transition": "I kraft 1 sep 2025.",
+    "budget": "234,5 Mkr från 2023 och framåt.",
+    "links": [
+      {
+        "t": "Proposition",
+        "u": "https://www.regeringen.se/rattsliga-dokument/proposition/2023/01/prop.-20222354"
+      },
+      {
+        "t": "Pressmeddelande",
+        "u": "https://www.regeringen.se/pressmeddelanden/2025/04/nytt-professionsprogram-for-larare-forskollarare-och-rektorer-ska-gora-yrkena-mer-attraktiva/"
+      }
+    ]
+  },
+  {
+    "id": "offentlighet",
+    "short": "Offentlighetsprincipen",
+    "ref": "Prop. 2025/26:191",
+    "cat": "styrning",
+    "ikraft": "1 jan 2027",
+    "status": "proposition",
+    "time": [
+      "2027"
+    ],
+    "roles": [
+      "chef"
+    ],
+    "x": 65,
+    "y": 62,
+    "what": "Rätten att ta del av allmänna handlingar utsträcks till enskilda huvudmän inom skolväsendet. Lättnadsregler för huvudmän med upp till 450 elever. Tvåårig övergångsperiod.",
+    "changes": [
+      "Offentlighetsprincipen gäller fristående skolor",
+      "Lättnadsregler för mindre huvudmän (≤450 elever)",
+      "Tvåårig övergångsperiod",
+      "Krav på dokumenthantering och diarieföring"
+    ],
+    "transition": "Ikraftträdande 1 jan 2027.",
+    "budget": "Ej specificerat.",
+    "links": [
+      {
+        "t": "Lagrådsremiss (PDF)",
+        "u": "https://www.regeringen.se/contentassets/ab81a15b284441b0afc868ea4c862a19/offentlighetsprincipen-med-lattnadsregler-for-mindre-enskilda-huvudman-i-skolvasendet.pdf"
+      }
+    ]
+  },
+  {
+    "id": "skolpeng",
+    "short": "Skolpengsnorm",
+    "ref": "SOU 2025:72",
+    "cat": "styrning",
+    "ikraft": "Föreslaget 2027/2028",
+    "status": "utredning",
+    "time": [
+      "2027"
+    ],
+    "roles": [
+      "chef"
+    ],
+    "x": 82,
+    "y": 55,
+    "what": "Vägledande (ej bindande) norm för resursfördelning till förskoleklass och grundskola. Avdrag från ersättning till enskilda huvudmän: 3 % 2028, 6 % 2029. Villkorade belopp.",
+    "changes": [
+      "Vägledande norm (ej bindande)",
+      "Avdrag från ersättning till enskilda huvudmän",
+      "Möjlighet att frångå lika villkor vid synnerliga skäl",
+      "Villkorade belopp"
+    ],
+    "transition": "Föreslaget ikraftträdande 1 jan 2027, tillämpas 2028. Slutbetänkande (gymnasiet) väntas nov 2026.",
+    "budget": "Ej specificerat.",
+    "links": [
+      {
+        "t": "SOU 2025:72",
+        "u": "https://www.regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2025/06/sou-202572/"
+      }
+    ]
+  },
+  {
+    "id": "vinst",
+    "short": "Vinst i skolan",
+    "ref": "SOU 2025:123",
+    "cat": "styrning",
+    "ikraft": "Ej fastställt",
+    "status": "utredning",
+    "time": [],
+    "roles": [
+      "chef"
+    ],
+    "x": 82,
+    "y": 76,
+    "what": "Slutbetänkande om skärpta villkor för friskolesektorn. Ute på remiss.",
+    "changes": [
+      "Skärpta villkor för friskolesektorn"
+    ],
+    "transition": "Slutbetänkande på remiss. Ingen proposition ännu.",
+    "budget": "Ej specificerat.",
+    "links": [
+      {
+        "t": "Pressmeddelande",
+        "u": "https://www.regeringen.se/pressmeddelanden/2026/01/simona-mohamsson-tar-emot-utredning-om-vinst-i-skolan/"
+      }
+    ]
+  },
+  {
+    "id": "sprak",
+    "short": "Språkförskola",
+    "ref": "Dir. 2024:113",
+    "cat": "styrning",
+    "ikraft": "Ej fastställt",
+    "status": "utredning",
+    "time": [],
+    "roles": [
+      "chef"
+    ],
+    "x": 2,
+    "y": 74,
+    "what": "Utredning om obligatorisk språkförskola för barn med påtagliga brister i svenska. Ser över barngruppsstorlekar, personaltäthet och språkkrav för personal. Tilläggsdirektiv om svenskans ställning i skollagen.",
+    "changes": [
+      "Obligatorisk språkförskola",
+      "Språkkrav för förskolepersonal",
+      "Reglering av barngruppsstorlekar",
+      "Förtydligande av svenskans ställning"
+    ],
+    "transition": "Utredning pågår. Redovisning senast 11 juni 2026.",
+    "budget": "Ej specificerat.",
+    "links": [
+      {
+        "t": "Kommittédirektiv",
+        "u": "https://regeringen.se/rattsliga-dokument/kommittedirektiv/2024/11/dir.-2024113"
+      },
+      {
+        "t": "Tilläggsdirektiv",
+        "u": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2025/12/dir.-2025102"
+      }
+    ]
+  },
+  {
+    "id": "ai",
+    "short": "EU:s AI-förordning",
+    "ref": "EU 2024/1689",
+    "cat": "styrning",
+    "ikraft": "Stegvis 2024–27",
+    "status": "beslutad",
+    "time": [
+      "2026s"
+    ],
+    "roles": [
+      "rektor",
+      "chef"
+    ],
+    "x": 28,
+    "y": 72,
+    "what": "AI-system inom utbildning kan klassificeras som högrisk. Krav på mänsklig tillsyn, transparens och AI-litteracitet för personal. Regler för högrisk-AI tillämpas från aug 2026.",
+    "changes": [
+      "Högrisk-klassificering för AI i utbildning",
+      "Mänsklig tillsyn av AI-beslut",
+      "Transparenskrav mot elever och vårdnadshavare",
+      "AI-litteracitet för personal"
+    ],
+    "transition": "Förbud mot vissa AI sedan feb 2025. Högrisk-regler aug 2026. Fullständig tillämpning aug 2027.",
+    "budget": "Ej specificerat för utbildning.",
+    "links": [
+      {
+        "t": "EU:s AI-förordning",
+        "u": "https://digital-strategy.ec.europa.eu/sv/policies/regulatory-framework-ai"
+      },
+      {
+        "t": "Skolverkets AI-råd",
+        "u": "https://www.skolverket.se/kompetensutveckling/stod-i-arbetet/rad-om-ai-chattbottar-och-liknande-verktyg"
+      }
+    ]
+  },
+  {
+    "id": "yrkes",
+    "short": "Yrkesutbildning",
+    "ref": "Prop. 2025/26:198",
+    "cat": "styrning",
+    "ikraft": "1 juli 2026 / 2 juli 2028",
+    "status": "proposition",
+    "time": [
+      "2026s",
+      "2028"
+    ],
+    "roles": [
+      "rektor",
+      "chef"
+    ],
+    "x": 50,
+    "y": 82,
+    "what": "Förslag om att göra det lättare att bedriva yrkesutbildning på entreprenad. Betyg ska sättas efter genomfört yrkesprov. Syftar till att möta bristen på gymnasialt yrkesutbildad arbetskraft.",
+    "changes": [
+      "Lättare att bedriva yrkesutbildning på entreprenad",
+      "Betyg sätts efter genomfört yrkesprov",
+      "Yrkesprov ersätter gymnasiearbete på yrkesprogram",
+      "Utökade möjligheter till entreprenad för yrkesinriktade ämnen",
+      "Yrkesprov även inom komvux",
+      "Rätt att fullfölja utbildning i anpassade gymnasieskolan"
+    ],
+    "transition": "Entreprenad och rätt att fullfölja: 1 juli 2026. Övriga ändringar: 2 juli 2028.",
+    "budget": "Ej specificerat.",
+    "links": [
+      {
+        "t": "Proposition",
+        "u": "https://www.regeringen.se/rattsliga-dokument/proposition/2026/03/prop.-202526198"
+      },
+      {
+        "t": "Proposition (PDF)",
+        "u": "https://www.regeringen.se/contentassets/b8374cc61a2f44ef8d65696d69715f20/battre-forutsattningar-for-yrkesutbildning-prop.-202526198.pdf"
+      },
+      {
+        "t": "Pressmeddelande",
+        "u": "https://www.regeringen.se/pressmeddelanden/2026/03/nu-lagger-regeringen-fram-flera-reformer-for-skolan/"
+      }
+    ]
+  }
+]

@@ -5,6 +5,10 @@ Types: `feat` | `fix` | `refactor` | `docs` | `chore` | `perf`
 
 ---
 
+[2026-03-24] feat: responsiv kartlayout — full bredd, omplacerade noder med mer luft, min 15% avstånd
+[2026-03-24] refactor: separera reformdata, kopplingar och uppdrag till JSON-filer (data/), index.html hämtar med fetch()
+[2026-03-24] chore: commit.sh synkar automatiskt dev-sidfiler till master:dev/ för preview på reformer.leide.se/dev/
+[2026-03-24] chore: dev/deploy-flöde — commit.sh pushar bara till dev, deploy.sh mergar till master med manuell bekräftelse
 [2026-03-24] feat: större kartyta på desktop — container 1400px, karta min-height 700px, panel 360px
 [2026-03-23] feat: Skolverkets uppdragsstatus per reform — indikator på noder, detaljsektion med klickbar fulltext, modal med källa
 [2026-03-23] fix: sidopanel stängs inte längre vid vertikal scroll (bara horisontell svep höger)

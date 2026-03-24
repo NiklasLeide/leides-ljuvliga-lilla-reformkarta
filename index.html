@@ -40,8 +40,9 @@ header {
   padding: 1.8rem 1.5rem 1.5rem;
 }
 .header-inner {
-  max-width: 1400px;
+  max-width: 100%;
   margin: 0 auto;
+  padding: 0 1.5rem;
 }
 .header-badge {
   font-size: 0.6rem;
@@ -65,7 +66,7 @@ header p {
 }
 
 .container {
-  max-width: 1400px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 0 1.5rem;
 }
@@ -782,186 +783,10 @@ footer {
 </div>
 
 <script>
-const reforms = [
-  { id:"laroplaner", short:"Nya läroplaner", ref:"Prop. 2025/26:194", cat:"kunskap", ikraft:"1 juli 2028", status:"proposition", time:["2028"], roles:["rektor","larare_r","chef"],
-    x: 8, y: 8,
-    what:"Skollagen ändras så att utbildningens syfte anges vara att förmedla och förankra kunskaper och värden. Kursplanerna får ny struktur: syfte, mål, innehåll, undervisningsstrategier och bedömningskriterier. Sammantagen bedömning gäller alla betygssteg, även E.",
-    changes:["Undervisningen bestäms och leds av lärare","Ny kursplanestruktur med fem delar","Sammantagen bedömning gäller alla betygssteg","Kursplaner utan betyg för nybörjare i svenska"],
-    transition:"Merparten 1 juli 2028. Komvux-ändringar 1 jan 2031.",
-    budget:"40 Mkr till Skolverket 2026.",
-    links:[{t:"Proposition",u:"https://www.regeringen.se/rattsliga-dokument/proposition/2026/03/prop.-202526194"},{t:"Skolverket",u:"https://www.skolverket.se/styrning-och-ansvar/forandringar-inom-skolomradet/tioarig-grundskola-och-nya-laroplaner"}]
-  },
-  { id:"betyg", short:"Betygssystem 1–10", ref:"Prop. 2025/26:197", cat:"kunskap", ikraft:"1 juli 2028", status:"proposition", time:["2028"], roles:["rektor","larare_r","chef"],
-    x: 30, y: 5,
-    what:"Numerisk betygsskala 1–10 utan skarp gräns för godkänt. Nationella slutprov kalibrerar lärarsatta betyg — proven rättas centralt. Meritvärdet kombinerar betygspoäng (70 %) och slutprovsresultat (30 %). Vid slutlig betygssättning ska lärare ha bedömningssamråd. Meritvärde ersätter betyg som urvalsgrund till högskolan. Behörighetskrav till gymnasiet: meritvärde minst 4. Nationella slutprov från våren 2029 i gymnasieskolan och våren 2031 i grundskolan. Nya meritvärden för elever som går ut grundskolan och gymnasieskolan 2031. Komvux: 1 januari 2031.",
-    changes:["Betygsskala 1–10 ersätter A–F i alla skolformer","Ingen skarp gräns för godkänt i skalan","Nationella slutprov — centralt rättade — kalibrerar meritvärden","Meritvärde = betygspoäng (70 %) + slutprovsresultat (30 %)","Behörighet till gymnasiet: meritvärde minst 4 (ersätter krav på godkänt i enskilda ämnen)","Gymnasieexamen: genomsnitt minst 4 på minst 2 250 poäng","Bedömningssamråd vid slutlig betygssättning","Gäller även gymnasial nivå — påverkar Gy25:s betygsskala"],
-    transition:"Skollagen: 1 juli 2028. Ny betygsskala stegvis fr.o.m. HT 2027 (gymnasiet) resp. HT 2028 (grundskolan). Slutprov fr.o.m. VT 2029 (gymnasiet), VT 2031 (grundskolan). Komvux: 1 jan 2031. Synkroniserat med tioårig grundskola.",
-    budget:"24,9 Mkr till Skolverket 2026. Medel till UHR 2027–28 för antagningsförändringar.",
-    links:[{t:"Proposition",u:"https://www.regeringen.se/rattsliga-dokument/proposition/2026/03/prop.-202526197"},{t:"Skolverket: förberedelser",u:"https://www.skolverket.se/styrning-och-ansvar/forandringar-inom-skolomradet/forberedelser-for-inforande-av-nytt-betygssystem"},{t:"SOU 2025:18",u:"https://www.regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2025/03/sou-202518/"}]
-  },
-  { id:"tioarig", short:"Tioårig grundskola", ref:"Prop. 2024/25:143", cat:"kunskap", ikraft:"HT 2028", status:"beslutad", time:["2028"], roles:["rektor","chef"],
-    x: 8, y: 30,
-    what:"Förskoleklassen upphör som skolform och ersätts av en ny årskurs 1. Barnen börjar åk 1 det år de fyller 6. Grundskolan blir tioårig.",
-    changes:["Förskoleklassen ersätts av ny årskurs 1","Barnen börjar åk 1 det år de fyller 6","Anpassade grundskolan, specialskolan och sameskolan utökas","Behörighetsregler anpassas (Prop. 2025/26:149)"],
-    transition:"Riksdagen har beslutat. Tillämpas fr.o.m. HT 2028.",
-    budget:"Ingår i reformpaketet.",
-    links:[{t:"Proposition",u:"https://www.regeringen.se/rattsliga-dokument/proposition/2025/03/prop.-202425143"},{t:"Skolverket",u:"https://www.skolverket.se/styrning-och-ansvar/forandringar-inom-skolomradet/tioarig-grundskola-och-nya-laroplaner"}]
-  },
-  { id:"stod", short:"Förbättrat stöd", ref:"Prop. 2025/26:195", cat:"kunskap", ikraft:"1 juli 2028", status:"proposition", time:["2028"], roles:["rektor","larare_r","chef"],
-    x: 30, y: 28,
-    what:"Ny stödundervisning i svenska, sva och matematik. Extra anpassningar och läsa-skriva-räkna-garantin avskaffas. Standardiserade tester varje hösttermin ersätter nationella prov i åk 3.",
-    changes:["Extra anpassningar slopas","Läsa-skriva-räkna-garantin avskaffas","Stödundervisning sätts in när lärare flaggar","Standardiserade tester varje hösttermin"],
-    transition:"Ikraftträdande 1 juli 2028.",
-    budget:"~3,7 mdr kr/år fr.o.m. 2029 (delat med undervisningstidsreformen).",
-    links:[{t:"Proposition",u:"https://www.regeringen.se/rattsliga-dokument/proposition/2026/03/prop.-202526195"}]
-  },
-  { id:"timplan", short:"Ändrade timplaner", ref:"Prop. 2023/24:20", cat:"kunskap", ikraft:"Stegvis", status:"beslutad", time:[], roles:["rektor","larare_r"],
-    x: 8, y: 52,
-    what:"Omfördelning av undervisningstid i grundskolan. Fler timmar i svenska och matematik. Mer tid för praktisk-estetiska ämnen.",
-    changes:["Fler timmar i svenska och matematik","Mer tid för praktisk-estetiska ämnen","Omfördelning från SO/NO-block"],
-    transition:"Beslutad. Tillämpas stegvis.",
-    budget:"Ej specificerat.",
-    links:[{t:"Proposition",u:"https://www.regeringen.se/rattsliga-dokument/proposition/2023/10/prop.-20232420"}]
-  },
-  { id:"gy25", short:"Gy25 — ämnesbetyg", ref:"Lag (2022:147)", cat:"kunskap", ikraft:"1 juli 2025", status:"beslutad", time:[], roles:["rektor","larare_r","chef"],
-    x: 52, y: 5,
-    what:"Kursbetyg ersätts av ämnesbetyg i gymnasieskolan, anpassade gymnasieskolan och komvux. Ämnesplanerna utformas som sammanhållna ämnen med nivåer. Godkänt betyg på högre nivå ersätter lägre nivåers betyg.",
-    changes:["Ämnesplaner med nivåer ersätter kursplaner","Betyg sätts vid slutet av varje nivå","Godkänt betyg på högre nivå ersätter lägre","Över 700 nya ämnesplaner"],
-    transition:"Tillämpas för utbildning påbörjad efter 30 juni 2025. Övergång t.o.m. 30 juni 2030.",
-    budget:"Ej specificerat.",
-    links:[{t:"Skolverket: Gy25",u:"https://www.skolverket.se/styrning-och-ansvar/forandringar-inom-skolomradet/gy25----amnesbetyg-pa-gymnasial-niva"}]
-  },
-  { id:"studiero", short:"Trygghet & studiero", ref:"Prop. 2025/26:193", cat:"trygghet", ikraft:"1 aug 2026", status:"proposition", time:["2026s"], roles:["rektor","larare_r","chef"],
-    x: 58, y: 30,
-    what:"Mobilförbud under hela skoldagen. Ordningsregler ersätts av skolregler med konsekvensplan. Förväntansdokument. Utökade möjligheter att avvisa elever. Akutskola på entreprenad.",
-    changes:["Mobilförbud — telefoner samlas in","Skolregler med konsekvensplan","Förväntansdokument","Avvisning behöver inte dokumenteras skriftligt","Akutskola kan bedrivas på entreprenad"],
-    transition:"Merparten träder i kraft 1 augusti 2026. Vissa bestämmelser om stödundervisning träder i kraft 1 juli 2028.",
-    budget:"95 Mkr 2026, 100 Mkr/år fr.o.m. 2027. 300 Mkr statsbidrag säkerhet.",
-    links:[{t:"Pressmeddelande",u:"https://www.regeringen.se/pressmeddelanden/2026/01/battre-forutsattningar-for-studiero-och-tidigt-stod-till-elever-i-skolan/"}]
-  },
-  { id:"brott", short:"Brottsförebyggande", ref:"Prop. 2025/26:192", cat:"trygghet", ikraft:"30 juni 2026", status:"proposition", time:["2026s"], roles:["rektor","chef"],
-    x: 75, y: 22,
-    what:"Skyldighet att lämna uppgifter till mottagande skolenhet vid skolbyte — om konkreta omständigheter tyder på risk att eleven begår eller utsätts för brott.",
-    changes:["Skyldighet att lämna brottsförebyggande info vid skolbyten","Gäller vid konkreta omständigheter","Fler skolformer omfattas"],
-    transition:"Ikraftträdande 30 juni 2026. Tillämpas efter årsskiftet 2026/2027.",
-    budget:"Ej specificerat.",
-    links:[{t:"Lagrådsremiss (PDF)",u:"https://www.regeringen.se/contentassets/2d23d7f42b20462b8ee5e9565c8d5282/overlamnande-av-uppgifter-mellan-skolor-i-brottsforebyggande-syfte.pdf"}]
-  },
-  { id:"register", short:"Registerkontroller", ref:"Prop. 2025/26:174", cat:"trygghet", ikraft:"15 juli 2026", status:"proposition", time:["2026s"], roles:["rektor","chef"],
-    x: 75, y: 40,
-    what:"Registerkontroller utökas till misstankeregistret. Registerutdrag max sex månader gammalt. Ny kontroll efter sex månader hos samma arbetsgivare. Gäller även komvux.",
-    changes:["Misstankeregistret inkluderas","Max 6 mån giltighetstid (tidigare 12)","Ny kontroll efter 6 mån hos samma arbetsgivare","Gäller även komvux"],
-    transition:"Ikraftträdande 15 juli 2026.",
-    budget:"Ej specificerat.",
-    links:[{t:"Lagrådsremiss (PDF)",u:"https://www.regeringen.se/contentassets/82e42e8c30f8488ca82f450c57539c1e/utokade-registerkontroller-i-skolvasendet.pdf"}]
-  },
-  { id:"tid", short:"Reglerad undervisningstid", ref:"Prop. 2025/26:196", cat:"larare", ikraft:"Ej fastställt", status:"proposition", time:[], roles:["rektor","larare_r","chef"],
-    x: 35, y: 50,
-    what:"Maxtak för undervisningstimmar och lägsta gräns för planeringstid regleras genom förordning. Administrativ börda ska minska. Läraren bestämmer informationen till vårdnadshavare.",
-    changes:["Maxtak för undervisningstimmar","Lägsta gräns för planeringstid","Färre utvecklingssamtal","Läraren styr information till vårdnadshavare"],
-    transition:"Proposition överlämnad 17 mars 2026.",
-    budget:"Ingår i ~3,7 mdr kr/år fr.o.m. 2029 (delat med stödreformen).",
-    links:[{t:"Lagrådsremiss",u:"https://www.regeringen.se/rattsliga-dokument/lagradsremiss/2026/02/tid-for-undervisningsuppdraget/"}]
-  },
-  { id:"profession", short:"Professionsprogrammet", ref:"Prop. 2022/23:54", cat:"larare", ikraft:"1 sep 2025", status:"beslutad", time:[], roles:["rektor","larare_r","chef"],
-    x: 52, y: 55,
-    what:"Nationellt professionsprogram: struktur för kompetensutveckling och meriteringssystem med fyra nivåer. Skolverket ansvarar med stöd av Rådet för professioner i skolväsendet.",
-    changes:["Nationell struktur för kompetensutveckling","Meriteringssystem med fyra nivåer","En nivå förutsätter examen på forskarnivå","Karriärtjänster kopplas till meritering"],
-    transition:"I kraft 1 sep 2025.",
-    budget:"234,5 Mkr från 2023 och framåt.",
-    links:[{t:"Proposition",u:"https://www.regeringen.se/rattsliga-dokument/proposition/2023/01/prop.-20222354"},{t:"Pressmeddelande",u:"https://www.regeringen.se/pressmeddelanden/2025/04/nytt-professionsprogram-for-larare-forskollarare-och-rektorer-ska-gora-yrkena-mer-attraktiva/"}]
-  },
-  { id:"offentlighet", short:"Offentlighetsprincipen", ref:"Prop. 2025/26:191", cat:"styrning", ikraft:"1 jan 2027", status:"proposition", time:["2027"], roles:["chef"],
-    x: 58, y: 72,
-    what:"Rätten att ta del av allmänna handlingar utsträcks till enskilda huvudmän inom skolväsendet. Lättnadsregler för huvudmän med upp till 450 elever. Tvåårig övergångsperiod.",
-    changes:["Offentlighetsprincipen gäller fristående skolor","Lättnadsregler för mindre huvudmän (≤450 elever)","Tvåårig övergångsperiod","Krav på dokumenthantering och diarieföring"],
-    transition:"Ikraftträdande 1 jan 2027.",
-    budget:"Ej specificerat.",
-    links:[{t:"Lagrådsremiss (PDF)",u:"https://www.regeringen.se/contentassets/ab81a15b284441b0afc868ea4c862a19/offentlighetsprincipen-med-lattnadsregler-for-mindre-enskilda-huvudman-i-skolvasendet.pdf"}]
-  },
-  { id:"skolpeng", short:"Skolpengsnorm", ref:"SOU 2025:72", cat:"styrning", ikraft:"Föreslaget 2027/2028", status:"utredning", time:["2027"], roles:["chef"],
-    x: 78, y: 65,
-    what:"Vägledande (ej bindande) norm för resursfördelning till förskoleklass och grundskola. Avdrag från ersättning till enskilda huvudmän: 3 % 2028, 6 % 2029. Villkorade belopp.",
-    changes:["Vägledande norm (ej bindande)","Avdrag från ersättning till enskilda huvudmän","Möjlighet att frångå lika villkor vid synnerliga skäl","Villkorade belopp"],
-    transition:"Föreslaget ikraftträdande 1 jan 2027, tillämpas 2028. Slutbetänkande (gymnasiet) väntas nov 2026.",
-    budget:"Ej specificerat.",
-    links:[{t:"SOU 2025:72",u:"https://www.regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2025/06/sou-202572/"}]
-  },
-  { id:"vinst", short:"Vinst i skolan", ref:"SOU 2025:123", cat:"styrning", ikraft:"Ej fastställt", status:"utredning", time:[], roles:["chef"],
-    x: 78, y: 80,
-    what:"Slutbetänkande om skärpta villkor för friskolesektorn. Ute på remiss.",
-    changes:["Skärpta villkor för friskolesektorn"],
-    transition:"Slutbetänkande på remiss. Ingen proposition ännu.",
-    budget:"Ej specificerat.",
-    links:[{t:"Pressmeddelande",u:"https://www.regeringen.se/pressmeddelanden/2026/01/simona-mohamsson-tar-emot-utredning-om-vinst-i-skolan/"}]
-  },
-  { id:"sprak", short:"Språkförskola", ref:"Dir. 2024:113", cat:"styrning", ikraft:"Ej fastställt", status:"utredning", time:[], roles:["chef"],
-    x: 8, y: 75,
-    what:"Utredning om obligatorisk språkförskola för barn med påtagliga brister i svenska. Ser över barngruppsstorlekar, personaltäthet och språkkrav för personal. Tilläggsdirektiv om svenskans ställning i skollagen.",
-    changes:["Obligatorisk språkförskola","Språkkrav för förskolepersonal","Reglering av barngruppsstorlekar","Förtydligande av svenskans ställning"],
-    transition:"Utredning pågår. Redovisning senast 11 juni 2026.",
-    budget:"Ej specificerat.",
-    links:[{t:"Kommittédirektiv",u:"https://regeringen.se/rattsliga-dokument/kommittedirektiv/2024/11/dir.-2024113"},{t:"Tilläggsdirektiv",u:"https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2025/12/dir.-2025102"}]
-  },
-  { id:"ai", short:"EU:s AI-förordning", ref:"EU 2024/1689", cat:"styrning", ikraft:"Stegvis 2024–27", status:"beslutad", time:["2026s"], roles:["rektor","chef"],
-    x: 35, y: 80,
-    what:"AI-system inom utbildning kan klassificeras som högrisk. Krav på mänsklig tillsyn, transparens och AI-litteracitet för personal. Regler för högrisk-AI tillämpas från aug 2026.",
-    changes:["Högrisk-klassificering för AI i utbildning","Mänsklig tillsyn av AI-beslut","Transparenskrav mot elever och vårdnadshavare","AI-litteracitet för personal"],
-    transition:"Förbud mot vissa AI sedan feb 2025. Högrisk-regler aug 2026. Fullständig tillämpning aug 2027.",
-    budget:"Ej specificerat för utbildning.",
-    links:[{t:"EU:s AI-förordning",u:"https://digital-strategy.ec.europa.eu/sv/policies/regulatory-framework-ai"},{t:"Skolverkets AI-råd",u:"https://www.skolverket.se/kompetensutveckling/stod-i-arbetet/rad-om-ai-chattbottar-och-liknande-verktyg"}]
-  },
-  { id:"yrkes", short:"Yrkesutbildning", ref:"Prop. 2025/26:198", cat:"styrning", ikraft:"1 juli 2026 / 2 juli 2028", status:"proposition", time:["2026s","2028"], roles:["rektor","chef"],
-    x: 55, y: 88,
-    what:"Förslag om att göra det lättare att bedriva yrkesutbildning på entreprenad. Betyg ska sättas efter genomfört yrkesprov. Syftar till att möta bristen på gymnasialt yrkesutbildad arbetskraft.",
-    changes:["Lättare att bedriva yrkesutbildning på entreprenad","Betyg sätts efter genomfört yrkesprov","Yrkesprov ersätter gymnasiearbete på yrkesprogram","Utökade möjligheter till entreprenad för yrkesinriktade ämnen","Yrkesprov även inom komvux","Rätt att fullfölja utbildning i anpassade gymnasieskolan"],
-    transition:"Entreprenad och rätt att fullfölja: 1 juli 2026. Övriga ändringar: 2 juli 2028.",
-    budget:"Ej specificerat.",
-    links:[{t:"Proposition",u:"https://www.regeringen.se/rattsliga-dokument/proposition/2026/03/prop.-202526198"},{t:"Proposition (PDF)",u:"https://www.regeringen.se/contentassets/b8374cc61a2f44ef8d65696d69715f20/battre-forutsattningar-for-yrkesutbildning-prop.-202526198.pdf"},{t:"Pressmeddelande",u:"https://www.regeringen.se/pressmeddelanden/2026/03/nu-lagger-regeringen-fram-flera-reformer-for-skolan/"}]
-  }
-];
-
-const connections = [
-  // === Kunskap-klustret HT 2028 ===
-  { from:"laroplaner", to:"tioarig", reason:"Båda tillämpas HT 2028. Kursplanerna utformas för den tioåriga strukturen. Kan inte implementeras oberoende." },
-  { from:"laroplaner", to:"betyg", reason:"Kursplanerna innehåller nya bedömningskriterier kopplade till betygsskala 1–10. Sammantagen bedömning gäller i båda. Träder i kraft samma datum." },
-  { from:"laroplaner", to:"tid", reason:"Nya kursplaner kräver planeringstid och kompetensutveckling. Det sker inom ramen för den reglerade undervisningstiden." },
-  { from:"laroplaner", to:"stod", reason:"Delar utredningsunderlag (SOU 2025:19). Läroplanens syn på lärarrollen och stödreformens slopande av extra anpassningar bygger på samma analys av individualisering kontra lärarledd undervisning." },
-  { from:"laroplaner", to:"profession", reason:"Läroplanen förtydligar att läraren leder undervisningen. Professionsprogrammets kompetensutveckling behöver anpassas till de nya kursplanernas struktur." },
-  { from:"betyg", to:"tioarig", reason:"Medvetet synkroniserade till HT 2028. Den nya betygsskalan införs parallellt med att grundskolan blir tioårig." },
-  { from:"betyg", to:"stod", reason:"Propositionerna hänvisar till varandra. Behörighetskravet ändras från godkänt i enskilda ämnen till meritvärde minst 4 — förändrar vad det innebär att identifiera stödbehov. Standardiserade tester (stöd) och slutprov (betyg) är olika instrument med delad logik." },
-  { from:"betyg", to:"gy25", reason:"Betygsskala 1–10 ska gälla även på gymnasial nivå — påverkar Gy25:s nuvarande A–F-skala. Elever som gått grundskolan med 1–10 söker till gymnasiet. Meritvärdesberäkningen behöver fungera över gränsen." },
-  { from:"tioarig", to:"timplan", reason:"Timplanerna behöver anpassas till den nya tioåriga strukturen med ett nytt lågstadium om fyra år." },
-  { from:"tioarig", to:"sprak", reason:"Obligatorisk språkförskola riktar sig till barn före skolstart. Tioårig grundskola innebär att sexåringar börjar åk 1 med läroplansstyrd undervisning. Båda rör vad som händer vid och före skolstart." },
-
-  // === Stöd och resurser ===
-  { from:"stod", to:"tid", reason:"Stödundervisning kräver lärartid. Budgeten är gemensam (~3,7 mdr kr/år fr.o.m. 2029). Båda träder i kraft parallellt." },
-  { from:"stod", to:"sprak", reason:"Båda handlar om tidiga insatser i svenska, men i olika skolformer (förskola resp. grundskola). Språkförskola före skolstart, stödundervisning efter." },
-  { from:"stod", to:"profession", reason:"Stödundervisning kräver utbildade lärare och speciallärare. Professionsprogrammets meritering och kompetensutveckling är en väg att bygga den kompetensen." },
-  { from:"stod", to:"skolpeng", reason:"Stödundervisning kräver resurser. Skolpengsnormen påverkar hur mycket resurser en skola får — direkt koppling till kapaciteten att organisera stöd." },
-
-  // === Trygghet sommaren 2026 ===
-  { from:"studiero", to:"brott", reason:"Båda rör säkerhet, träder i kraft sommaren 2026. Studiero hanterar daglig ordning och disciplin, brottsförebyggande hanterar informationsflöde vid skolbyten." },
-  { from:"studiero", to:"register", reason:"Tre trygghetsreformer som alla träder i kraft sommaren 2026 med olika mekanismer: disciplin, informationsdelning, personalkontroller." },
-  { from:"studiero", to:"yrkes", reason:"Båda öppnar för entreprenad — studiero för akutskola, yrkesutbildning för undervisning i yrkesinriktade ämnen. Olika syften, samma juridiska mekanism." },
-  { from:"brott", to:"register", reason:"Båda rör säkerhet i skolan. Träder i kraft inom veckor från varandra sommaren 2026." },
-  { from:"brott", to:"offentlighet", reason:"Brottsförebyggande informationsdelning och offentlighetsprincipen rör båda gränsdragningen mellan sekretess och informationsdelning — men i motsatta riktningar." },
-
-  // === Lärarvillkor ===
-  { from:"tid", to:"profession", reason:"Reglerad undervisningstid och kompetensutveckling genom professionsprogrammet ska rymmas inom lärares arbetstid." },
-
-  // === Styrning / friskolor ===
-  { from:"offentlighet", to:"skolpeng", reason:"Båda rör villkoren för fristående huvudmän. Offentlighet ger insyn, skolpengsnormen påverkar ersättningen." },
-  { from:"offentlighet", to:"vinst", reason:"Offentlighetsprincipen, skolpengsnorm och vinstreglering rör alla friskolesektorns villkor." },
-  { from:"skolpeng", to:"vinst", reason:"Skolpengsnormen och vinstregleringen påverkar båda fristående huvudmäns ekonomiska förutsättningar." },
-
-  // === Gy25 + yrkesutbildning ===
-  { from:"gy25", to:"yrkes", reason:"Yrkesprov ersätter gymnasiearbete på yrkesprogram. Yrkesutbildningspropositionen bygger vidare på Gy25:s nya ämnesstruktur." },
-
-  // === AI-förordningen ===
-  { from:"ai", to:"betyg", reason:"Nationella slutprov ska rättas centralt, eventuellt med digitala verktyg. AI-förordningens krav på högrisk-klassificering och mänsklig tillsyn kan bli relevant om AI-system används i provbedömning." },
-  { from:"ai", to:"laroplaner", reason:"Nya kursplaner ska anpassas efter teknikutveckling. AI-förordningen kräver AI-litteracitet för personal — berör hur AI behandlas i undervisning och styrdokument." }
-];
+// Data loaded from JSON files
+let reforms = [];
+let connections = [];
+let skolverketUppdrag = {};
 
 const catColors = {
   kunskap: { color:"#1d4ed8", bg:"#dbeafe" },
@@ -976,189 +801,10 @@ const statusStyles = {
   "lagrådsremiss": { bg:"#f1f5f9", color:"#475569", label:"Lagrådsremiss" },
   utredning: { bg:"#f3f4f6", color:"#6b7280", label:"Utredning" }
 };
-
 const uppdragStyles = {
   uppdrag: { color:"#15803d", label:"Uppdrag" },
   forberedande: { color:"#d97706", label:"Förberedande uppdrag" },
   ej: { color:"#9ca3af", label:"Ej fått uppdrag" }
-};
-
-const skolverketUppdrag = {
-  laroplaner: {
-    typ: "uppdrag",
-    kort: "Uppdrag att ta fram förslag till nya kursplaner (U2025/02427). 40 Mkr 2026. Förslag till regeringen mars 2027.",
-    fulltext: `Uppdrag till Statens skolverk att förbereda införandet av en tioårig grundskola och ta fram förslag på nya läroplaner (U2025/02427, dec 2025).
-
-Arbetet ska utgå från förslagen och bedömningarna i propositionen En tioårig grundskola (prop. 2024/25:143) samt betänkandet Kunskap för alla – nya läroplaner med fokus på undervisning och lärande (SOU 2025:19).
-
-Skolverket ska ta fram förslag till läroplaner som innehåller:
-- Skolans värdegrund (del 1)
-- Skolans uppdrag (del 2)
-- Skolans mål (del 3)
-- Skolans riktlinjer (del 4)
-- Fritidshemmet (del 5)
-- Timplanen (del 6)
-- Kursplanerna (del 7)
-
-Skolverket ska även omhänderta förslaget från betänkandet Tid för undervisningsuppdraget (SOU 2025:26), om att det i samtliga läroplaner ska regleras att rektorn ansvarar för att förskollärare och lärare ges förutsättningar för att planera, genomföra och följa upp sin undervisning.
-
-Uppdraget omfattar även att ta fram förslag på revidering av befintliga läroplaner för förskolan, gymnasieskolan, anpassade gymnasieskolan och kommunal vuxenutbildning (i den del som rör rektors ansvar).
-
-Myndigheten ska ta fram kommentarer till samtliga delar av de nya läroplanerna. Skolverket ska också förbereda — och efter riksdagens och regeringens beslut — genomföra implementeringsinsatser.
-
-Skolverket ska senast den 31 mars 2027 redovisa förslagen till nya och reviderade läroplaner. Uppdraget i sin helhet ska redovisas senast den 15 juni 2029.`,
-    kallor: [
-      { text: "Regeringsuppdrag (U2025/02427)", url: "https://www.regeringen.se/regeringsuppdrag/2025/12/uppdrag-till-statens-skolverk-att-forbereda-inforandet-av-en-tioarig-grundskola-och-ta-fram-forslag-pa-nya-laroplaner/" },
-      { text: "Regleringsbrev 2026 (PDF)", url: "https://www.statskontoret.se/regleringsbrev/25940/pdf?Version=HelaBrevet" }
-    ]
-  },
-  tioarig: {
-    typ: "uppdrag",
-    kort: "Förbereda införandet (RB 2025) + nytt uppdrag om fortbildning (RB 2026 uppdrag 6). Redovisas 29 jan 2027.",
-    fulltext: `Två uppdrag:
-
-1. FÖRBEREDANDE UPPDRAG (RB 2025, punkt 7):
-Förbereda införandet av en tioårig grundskola. Ingår i det samlade uppdraget U2025/02427 om att förbereda införandet av en tioårig grundskola och ta fram förslag på nya läroplaner.
-
-Skolverket ska bl.a. anpassa föreskrifter och beslut som berörs av ändringen. Myndigheten ska även ta fram förslag på hur de 534 utökade timmarna i lågstadiet ska fördelas mellan olika ämnen och ämnesområden i respektive skolform.
-
-2. FORTBILDNING OCH KOMPETENSUTVECKLING (RB 2026, nytt uppdrag 6):
-Statens skolverk ska förbereda för fortbildning i form av uppdragsutbildning för lärare som i dag arbetar i förskoleklassen eller i grundskolans årskurs 1–3. Fortbildningen ska syfta till att ge de lärare som ska arbeta i blivande årskurs 1 kompetens att integrera förskolans pedagogik och arbetssätt på lämpligt sätt i undervisningen.
-
-Vid behov av särskilt anpassad fortbildning för lärare inom anpassade grundskolan, specialskolan och sameskolan bör tillgången till skolformsspecifik fortbildning säkerställas.
-
-Skolverket ska även ta fram andra kompetensutvecklingsinsatser för lärare och andra berörda personalgrupper med samma syften som för fortbildningen.
-
-Fortbildningen och kompetensutvecklingsinsatserna ska kunna erbjudas från och med vårterminen 2027.
-
-Uppdraget ska genomföras med utgångspunkt i förslagen i betänkandet En tioårig grundskola – Införandet av en ny årskurs 1 (SOU 2021:33 avsnitt 6.5).
-
-Uppdraget ska redovisas till Regeringskansliet (Utbildningsdepartementet) senast den 29 januari 2027.
-
-Högst 4 000 000 kronor ska användas för utgifter med anledning av den del av uppdraget som avser framtagande av andra kompetensutvecklingsinsatser.`,
-    kallor: [
-      { text: "Regleringsbrev 2026 (PDF)", url: "https://www.statskontoret.se/regleringsbrev/25940/pdf?Version=HelaBrevet" },
-      { text: "Regeringsuppdrag (U2025/02427)", url: "https://www.regeringen.se/regeringsuppdrag/2025/12/uppdrag-till-statens-skolverk-att-forbereda-inforandet-av-en-tioarig-grundskola-och-ta-fram-forslag-pa-nya-laroplaner/" }
-    ]
-  },
-  betyg: {
-    typ: "forberedande",
-    kort: "Förbereda för ändringar i betygssystemet (RB 2025). 24,9 Mkr 2026.",
-    fulltext: `Förbereda för ändringar i betygssystemet. Uppdraget återges i regleringsbrevet för 2025.
-
-Skolverket fick i oktober 2025 i uppdrag av regeringen att förbereda införandet av ett nytt betygssystem.
-
-Syftet med det nya betygssystemet är att meritvärdena som används vid ansökan till gymnasieskolan och högre utbildning ska bli mer likvärdiga. En ny modell för att beräkna elevernas meritvärden ska tas fram. Meritvärdet ska bestå dels av den sökandes betygsvärde, dels av resultatet från nationella slutprov.
-
-En betygsskala med tio betygssteg (1–10), utan en skarp godkäntgräns, ska införas i de obligatoriska skolformerna och i de frivilliga skolformerna på gymnasial nivå.
-
-Budget: 24,9 Mkr till Skolverket 2026.
-
-Tidplan enligt Skolverket:
-- 1 juli 2028: Ändringar i skollagen träder i kraft. Elever börjar få betyg enligt det nya betygssystemet.
-- 2031: De första årskullarna med nya meritvärden lämnar grundskolan och gymnasieskolan.
-- 1 januari 2031: Det nya betygssystemet börjar tillämpas inom kommunal vuxenutbildning.
-
-Not: Fullständig uppdragstext finns i regleringsbrevet för 2025.`,
-    kallor: [
-      { text: "Skolverket: förberedelser betygssystem", url: "https://www.skolverket.se/styrning-och-ansvar/forandringar-inom-skolomradet/forberedelser-for-inforande-av-nytt-betygssystem" },
-      { text: "Regleringsbrev 2026 (PDF)", url: "https://www.statskontoret.se/regleringsbrev/25940/pdf?Version=HelaBrevet" }
-    ]
-  },
-  stod: {
-    typ: "forberedande",
-    kort: "Förbereda framtagande av standardiserade tester (RB 2025). Beräknat 28,4 Mkr 2027.",
-    fulltext: `Förbereda framtagande av standardiserade tester. Uppdraget återges i regleringsbrevet för 2025.
-
-Regeringen beräknar att Skolverket ska få 28,4 miljoner kronor 2027 och 14,2 miljoner kronor 2028 för att utveckla och ta fram obligatoriska standardiserade tester och stödmaterial. För att skolhuvudmännen ska genomföra standardiserade tester beräknar regeringen 9,5 miljoner kronor för 2028 och 19 miljoner kronor från och med 2029.
-
-Not: Fullständig uppdragstext finns i regleringsbrevet för 2025.`,
-    kallor: [
-      { text: "Regleringsbrev 2026 (PDF)", url: "https://www.statskontoret.se/regleringsbrev/25940/pdf?Version=HelaBrevet" },
-      { text: "Pressmeddelande sep 2025", url: "https://www.regeringen.se/pressmeddelanden/2025/09/reglering-av-larares-undervisningstid-stodundervisning-och-standardiserade-tester/" }
-    ]
-  },
-  studiero: {
-    typ: "ej",
-    kort: "Inget specifikt uppdrag om mobilfri skola eller skolregler. Relaterade uppdrag om brottsprevention och tillbudshantering.",
-    fulltext: `Inget specifikt uppdrag kopplat till propositionen om trygghet och studiero.
-
-Relaterade uppdrag i regleringsbrevet:
-
-1. Situationell brottsprevention i skolväsendet (RB 2025, punkt 19):
-Nationell kartläggning och internationell lägesbild ska redovisas senast 29 maj 2026. Kunskaps- och metodstöd ska delredovisas senast 30 december 2026. Slutredovisas senast 30 juni 2027.
-
-2. Kartläggning och stöd gällande arbetet med att hantera tillbud i skolverksamheter (RB 2026, nytt uppdrag 4):
-Statens skolverk och Arbetsmiljöverket ska tillsammans kartlägga eventuella hinder i skolhuvudmännens arbete med incidentrapportering internt och anmälan av tillbud till ansvariga myndigheter. Utifrån kartläggningen ska de se över och komplettera befintligt stöd när det gäller arbetsmiljön i verksamheter inom skolväsendet. I detta ingår stöd till huvudmännen och rektorerna i arbetet med att systematiskt hantera tillbud i verksamheten för att öka förutsättningarna att förebygga risker för hot och våld mot lärare, förskollärare eller annan personal och, i förekommande fall, elever. Redovisas senast 30 december 2026.
-
-Relaterade statsbidrag:
-- 300 Mkr: statsbidrag till säkerhetshöjande åtgärder i skolväsendet (förordning 2025:718)
-- 200 Mkr: statsbidrag för personalkostnader i akutskolor (förordning 2024:1340)`,
-    kallor: [{ text: "Regleringsbrev 2026 (PDF)", url: "https://www.statskontoret.se/regleringsbrev/25940/pdf?Version=HelaBrevet" }]
-  },
-  brott: { typ: "ej", kort: "Inget uppdrag i regleringsbrevet för 2026.", fulltext: null, kallor: [{ text: "Regleringsbrev 2026 (PDF)", url: "https://www.statskontoret.se/regleringsbrev/25940/pdf?Version=HelaBrevet" }] },
-  register: { typ: "ej", kort: "Inget uppdrag i regleringsbrevet för 2026.", fulltext: null, kallor: [{ text: "Regleringsbrev 2026 (PDF)", url: "https://www.statskontoret.se/regleringsbrev/25940/pdf?Version=HelaBrevet" }] },
-  tid: { typ: "ej", kort: "Inget uppdrag i regleringsbrevet för 2026.", fulltext: null, kallor: [{ text: "Regleringsbrev 2026 (PDF)", url: "https://www.statskontoret.se/regleringsbrev/25940/pdf?Version=HelaBrevet" }] },
-  profession: {
-    typ: "uppdrag",
-    kort: "Skolverket ansvarar för professionsprogrammet. 220 Mkr för kompetensutveckling. Prövning av meriteringsnivå.",
-    fulltext: `Skolverket ansvarar för det nationella professionsprogrammet för rektorer, lärare och förskollärare.
-
-Från regleringsbrevet 2026 (anslag 1:10):
-Högst 220 000 000 kronor ska användas för utgifter för kompetensutveckling för rektorer, lärare och förskollärare med anledning av Skolverkets ansvar för det nationella professionsprogrammet för rektorer, lärare och förskollärare.
-
-Avgiftsbelagd verksamhet:
-Prövning av meriteringsnivå: beräknade intäkter 21 000 000 kronor.
-Utfärda och komplettera lärarlegitimationer: beräknade intäkter 26 000 000 kronor.`,
-    kallor: [
-      { text: "Regleringsbrev 2026 (PDF)", url: "https://www.statskontoret.se/regleringsbrev/25940/pdf?Version=HelaBrevet" },
-      { text: "Pressmeddelande", url: "https://www.regeringen.se/pressmeddelanden/2025/04/nytt-professionsprogram-for-larare-forskollarare-och-rektorer-ska-gora-yrkena-mer-attraktiva/" }
-    ]
-  },
-  offentlighet: {
-    typ: "uppdrag",
-    kort: "Uppdrag att erbjuda stöd och utbildning till enskilda huvudmän. 6 Mkr 2026.",
-    fulltext: `Från budgetpropositionen 2026:
-Skolverket får 6 miljoner kronor för 2026 för att kunna erbjuda stöd i form av utbildning och generell rådgivning om regelverket.
-
-88 miljoner kronor avsätts som införandebidrag för mindre enskilda huvudmän.
-
-19 miljoner kronor till kommunerna 2026 för att förbereda utökad tillsyn över fristående förskolor och fritidshem.`,
-    kallor: [
-      { text: "Budgetsatsningar 2026", url: "https://www.regeringen.se/regeringens-politik/utbildningsdepartementets-samlade-budgetsatsningar/utbildningsdepartementets-samlade-budgetsatsningar-2026/" },
-      { text: "Regleringsbrev 2026 (PDF)", url: "https://www.statskontoret.se/regleringsbrev/25940/pdf?Version=HelaBrevet" }
-    ]
-  },
-  gy25: {
-    typ: "uppdrag",
-    kort: "Genomfört. Statsbidrag för införande: 40 Mkr.",
-    fulltext: `Genomfört uppdrag. Samtliga ämnesplaner, examensmål, programmål och programstrukturer beslutade.
-
-Från regleringsbrevet 2026 (anslag 1:5):
-Högst 40 000 000 kronor ska användas för utgifter i enlighet med förordningen (2023:889) om statsbidrag för införande av ämnesbetyg.
-
-Pågående övergångsperiod t.o.m. 30 juni 2030.`,
-    kallor: [
-      { text: "Skolverket: Gy25", url: "https://www.skolverket.se/styrning-och-ansvar/forandringar-inom-skolomradet/gy25----amnesbetyg-pa-gymnasial-niva" },
-      { text: "Regleringsbrev 2026 (PDF)", url: "https://www.statskontoret.se/regleringsbrev/25940/pdf?Version=HelaBrevet" }
-    ]
-  },
-  skolpeng: { typ: "ej", kort: "Utredning pågår. Inget uppdrag till Skolverket.", fulltext: null, kallor: [{ text: "Regleringsbrev 2026 (PDF)", url: "https://www.statskontoret.se/regleringsbrev/25940/pdf?Version=HelaBrevet" }] },
-  vinst: { typ: "ej", kort: "Utredning på remiss. Inget uppdrag till Skolverket.", fulltext: null, kallor: [{ text: "Regleringsbrev 2026 (PDF)", url: "https://www.statskontoret.se/regleringsbrev/25940/pdf?Version=HelaBrevet" }] },
-  sprak: {
-    typ: "ej",
-    kort: "Utredning pågår. Relaterat: uppdrag om stöd för uppföljning av barns språkutveckling (RB 2025).",
-    fulltext: `Inget uppdrag kopplat till utredningen om obligatorisk språkförskola.
-
-Relaterade uppdrag:
-- Stöd för uppföljning av barns språkutveckling i förskolan (RB 2025, punkt 12). Redovisas senast 5 juni 2026.
-- Språkträning för anställda inom välfärden (RB 2023, ändrat 2024). Högst 40 Mkr. Slutredovisas senast 31 mars 2027.
-- Nationellt kartläggningsmaterial för svenska som andraspråk (RB 2026, nytt uppdrag 3). Redovisas senast 1 september 2027.`,
-    kallor: [{ text: "Regleringsbrev 2026 (PDF)", url: "https://www.statskontoret.se/regleringsbrev/25940/pdf?Version=HelaBrevet" }]
-  },
-  ai: { typ: "ej", kort: "Inget uppdrag i regleringsbrevet för 2026.", fulltext: null, kallor: [{ text: "Regleringsbrev 2026 (PDF)", url: "https://www.statskontoret.se/regleringsbrev/25940/pdf?Version=HelaBrevet" }] },
-  yrkes: { typ: "ej", kort: "Inget uppdrag i regleringsbrevet för 2026.", fulltext: null, kallor: [{ text: "Regleringsbrev 2026 (PDF)", url: "https://www.statskontoret.se/regleringsbrev/25940/pdf?Version=HelaBrevet" }] },
-  timplan: { typ: "ej", kort: "Inget separat uppdrag.", fulltext: null, kallor: [{ text: "Regleringsbrev 2026 (PDF)", url: "https://www.statskontoret.se/regleringsbrev/25940/pdf?Version=HelaBrevet" }] }
 };
 
 let activeNode = null;
@@ -1715,7 +1361,29 @@ function applyFilters() {
   });
 }
 
-window.addEventListener("load", init);
+function dataPath(file) {
+  // data/ sits next to index.html in both root and dev/ subfolder
+  return 'data/' + file;
+}
+
+async function loadData() {
+  try {
+    const [r, c, u] = await Promise.all([
+      fetch(dataPath('reforms.json')).then(res => res.json()),
+      fetch(dataPath('connections.json')).then(res => res.json()),
+      fetch(dataPath('uppdrag.json')).then(res => res.json())
+    ]);
+    reforms = r;
+    connections = c;
+    skolverketUppdrag = u;
+    init();
+  } catch (err) {
+    console.error('Kunde inte ladda data:', err);
+    document.getElementById('mapArea').innerHTML = '<p style="padding:2rem;color:#b91c1c;">Kunde inte ladda reformdata. Kontrollera att data/-filerna finns.</p>';
+  }
+}
+
+window.addEventListener("load", loadData);
 window.addEventListener("resize", () => { drawConnections(); });
 </script>
 
