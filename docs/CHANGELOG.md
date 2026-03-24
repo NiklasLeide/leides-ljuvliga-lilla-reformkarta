@@ -5,6 +5,7 @@ Types: `feat` | `fix` | `refactor` | `docs` | `chore` | `perf`
 
 ---
 
+[2026-03-24] refactor: separera reformdata, kopplingar och uppdrag till JSON-filer (data/), index.html hämtar med fetch()
 [2026-03-24] chore: commit.sh synkar automatiskt dev-sidfiler till master:dev/ för preview på reformer.leide.se/dev/
 [2026-03-24] chore: dev/deploy-flöde — commit.sh pushar bara till dev, deploy.sh mergar till master med manuell bekräftelse
 [2026-03-24] feat: större kartyta på desktop — container 1400px, karta min-height 700px, panel 360px

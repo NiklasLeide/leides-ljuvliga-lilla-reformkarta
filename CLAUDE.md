@@ -29,6 +29,10 @@ See `@docs/DECISIONS.md` for all architectural decisions and reasoning.
 ```
 leides-ljuvliga-lilla-reformkarta/
 ├── CLAUDE.md              ← you are here (keep under 150 lines)
+├── data/
+│   ├── reforms.json       ← reformdata (namn, status, kategorier, länkar)
+│   ├── connections.json   ← kopplingar mellan reformer
+│   └── uppdrag.json       ← Skolverkets uppdragsstatus per reform
 ├── docs/
 │   ├── DECISIONS.md       ← decision log — WHY choices were made
 │   ├── PROJECT_STATUS.md  ← sprint tasks, blockers, what's working

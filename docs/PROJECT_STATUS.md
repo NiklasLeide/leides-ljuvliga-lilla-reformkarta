@@ -21,7 +21,7 @@
 | 2.1 | Skolverkets uppdragsstatus per reform | ✅ Done | Data från RB 2025/2026, indikator + modal |
 | 2.2 | Responsiv kartyta på desktop | 🔄 In Progress | Container 1400px satt, men behöver utnyttja full bredd och sprida ut noder |
 | 2.3 | dev/master-branching + deploy.sh | ✅ Done | commit.sh → dev, deploy.sh mergar till master |
-| 2.4 | Separera data till JSON-filer | ⬜ Todo | reforms.json, connections.json, uppdrag.json |
+| 2.4 | Separera data till JSON-filer | ✅ Done | data/reforms.json, connections.json, uppdrag.json — fetch() vid laddning |
 | 2.5 | Granska alla 15 kopplingar | ⬜ Todo | Saknas/fel? |
 | 2.6 | Verifiera rollfilter | ⬜ Todo | Stämmer rollerna per reform? |
 | 2.7 | Uppdatera efter riksdagsbeslut | ⬜ Todo | Bevaka vårens voteringar |

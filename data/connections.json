@@ -1,0 +1,132 @@
+[
+  {
+    "from": "laroplaner",
+    "to": "tioarig",
+    "reason": "Båda tillämpas HT 2028. Kursplanerna utformas för den tioåriga strukturen. Kan inte implementeras oberoende."
+  },
+  {
+    "from": "laroplaner",
+    "to": "betyg",
+    "reason": "Kursplanerna innehåller nya bedömningskriterier kopplade till betygsskala 1–10. Sammantagen bedömning gäller i båda. Träder i kraft samma datum."
+  },
+  {
+    "from": "laroplaner",
+    "to": "tid",
+    "reason": "Nya kursplaner kräver planeringstid och kompetensutveckling. Det sker inom ramen för den reglerade undervisningstiden."
+  },
+  {
+    "from": "laroplaner",
+    "to": "stod",
+    "reason": "Delar utredningsunderlag (SOU 2025:19). Läroplanens syn på lärarrollen och stödreformens slopande av extra anpassningar bygger på samma analys av individualisering kontra lärarledd undervisning."
+  },
+  {
+    "from": "laroplaner",
+    "to": "profession",
+    "reason": "Läroplanen förtydligar att läraren leder undervisningen. Professionsprogrammets kompetensutveckling behöver anpassas till de nya kursplanernas struktur."
+  },
+  {
+    "from": "betyg",
+    "to": "tioarig",
+    "reason": "Medvetet synkroniserade till HT 2028. Den nya betygsskalan införs parallellt med att grundskolan blir tioårig."
+  },
+  {
+    "from": "betyg",
+    "to": "stod",
+    "reason": "Propositionerna hänvisar till varandra. Behörighetskravet ändras från godkänt i enskilda ämnen till meritvärde minst 4 — förändrar vad det innebär att identifiera stödbehov. Standardiserade tester (stöd) och slutprov (betyg) är olika instrument med delad logik."
+  },
+  {
+    "from": "betyg",
+    "to": "gy25",
+    "reason": "Betygsskala 1–10 ska gälla även på gymnasial nivå — påverkar Gy25:s nuvarande A–F-skala. Elever som gått grundskolan med 1–10 söker till gymnasiet. Meritvärdesberäkningen behöver fungera över gränsen."
+  },
+  {
+    "from": "tioarig",
+    "to": "timplan",
+    "reason": "Timplanerna behöver anpassas till den nya tioåriga strukturen med ett nytt lågstadium om fyra år."
+  },
+  {
+    "from": "tioarig",
+    "to": "sprak",
+    "reason": "Obligatorisk språkförskola riktar sig till barn före skolstart. Tioårig grundskola innebär att sexåringar börjar åk 1 med läroplansstyrd undervisning. Båda rör vad som händer vid och före skolstart."
+  },
+  {
+    "from": "stod",
+    "to": "tid",
+    "reason": "Stödundervisning kräver lärartid. Budgeten är gemensam (~3,7 mdr kr/år fr.o.m. 2029). Båda träder i kraft parallellt."
+  },
+  {
+    "from": "stod",
+    "to": "sprak",
+    "reason": "Båda handlar om tidiga insatser i svenska, men i olika skolformer (förskola resp. grundskola). Språkförskola före skolstart, stödundervisning efter."
+  },
+  {
+    "from": "stod",
+    "to": "profession",
+    "reason": "Stödundervisning kräver utbildade lärare och speciallärare. Professionsprogrammets meritering och kompetensutveckling är en väg att bygga den kompetensen."
+  },
+  {
+    "from": "stod",
+    "to": "skolpeng",
+    "reason": "Stödundervisning kräver resurser. Skolpengsnormen påverkar hur mycket resurser en skola får — direkt koppling till kapaciteten att organisera stöd."
+  },
+  {
+    "from": "studiero",
+    "to": "brott",
+    "reason": "Båda rör säkerhet, träder i kraft sommaren 2026. Studiero hanterar daglig ordning och disciplin, brottsförebyggande hanterar informationsflöde vid skolbyten."
+  },
+  {
+    "from": "studiero",
+    "to": "register",
+    "reason": "Tre trygghetsreformer som alla träder i kraft sommaren 2026 med olika mekanismer: disciplin, informationsdelning, personalkontroller."
+  },
+  {
+    "from": "studiero",
+    "to": "yrkes",
+    "reason": "Båda öppnar för entreprenad — studiero för akutskola, yrkesutbildning för undervisning i yrkesinriktade ämnen. Olika syften, samma juridiska mekanism."
+  },
+  {
+    "from": "brott",
+    "to": "register",
+    "reason": "Båda rör säkerhet i skolan. Träder i kraft inom veckor från varandra sommaren 2026."
+  },
+  {
+    "from": "brott",
+    "to": "offentlighet",
+    "reason": "Brottsförebyggande informationsdelning och offentlighetsprincipen rör båda gränsdragningen mellan sekretess och informationsdelning — men i motsatta riktningar."
+  },
+  {
+    "from": "tid",
+    "to": "profession",
+    "reason": "Reglerad undervisningstid och kompetensutveckling genom professionsprogrammet ska rymmas inom lärares arbetstid."
+  },
+  {
+    "from": "offentlighet",
+    "to": "skolpeng",
+    "reason": "Båda rör villkoren för fristående huvudmän. Offentlighet ger insyn, skolpengsnormen påverkar ersättningen."
+  },
+  {
+    "from": "offentlighet",
+    "to": "vinst",
+    "reason": "Offentlighetsprincipen, skolpengsnorm och vinstreglering rör alla friskolesektorns villkor."
+  },
+  {
+    "from": "skolpeng",
+    "to": "vinst",
+    "reason": "Skolpengsnormen och vinstregleringen påverkar båda fristående huvudmäns ekonomiska förutsättningar."
+  },
+  {
+    "from": "gy25",
+    "to": "yrkes",
+    "reason": "Yrkesprov ersätter gymnasiearbete på yrkesprogram. Yrkesutbildningspropositionen bygger vidare på Gy25:s nya ämnesstruktur."
+  },
+  {
+    "from": "ai",
+    "to": "betyg",
+    "reason": "Nationella slutprov ska rättas centralt, eventuellt med digitala verktyg. AI-förordningens krav på högrisk-klassificering och mänsklig tillsyn kan bli relevant om AI-system används i provbedömning."
+  },
+  {
+    "from": "ai",
+    "to": "laroplaner",
+    "reason": "Nya kursplaner ska anpassas efter teknikutveckling. AI-förordningen kräver AI-litteracitet för personal — berör hur AI behandlas i undervisning och styrdokument."
+  }
+]

@@ -50,17 +50,19 @@ git checkout master --quiet
 mkdir -p dev
 
 # Copy site files from dev branch into dev/ folder
-git checkout dev -- index.html 2>/dev/null && mv index.html dev/index.html || true
-git checkout dev -- reformkarta.html 2>/dev/null && mv reformkarta.html dev/reformkarta.html || true
-# Copy data/ folder if it exists
-if git ls-tree dev --name-only | grep -q "^data/$"; then
-  git checkout dev -- data/ 2>/dev/null && cp -r data/ dev/data/ || true
-  git checkout master -- data/ 2>/dev/null || true
-fi
+# Use a temp dir to avoid overwriting master root files
+TMPDIR=$(mktemp -d)
+git show dev:index.html > "$TMPDIR/index.html" 2>/dev/null || true
+git show dev:reformkarta.html > "$TMPDIR/reformkarta.html" 2>/dev/null || true
+cp "$TMPDIR/index.html" dev/index.html 2>/dev/null || true
+cp "$TMPDIR/reformkarta.html" dev/reformkarta.html 2>/dev/null || true
+rm -rf "$TMPDIR"
 
-# Restore root files that got overwritten
-git checkout master -- index.html 2>/dev/null || true
-git checkout master -- reformkarta.html 2>/dev/null || true
+# Copy data/ folder from dev
+mkdir -p dev/data
+for f in $(git ls-tree --name-only dev:data/ 2>/dev/null); do
+  git show "dev:data/$f" > "dev/data/$f" 2>/dev/null || true
+done
 
 # Stage and commit dev/ changes
 git add dev/ 2>/dev/null || true
