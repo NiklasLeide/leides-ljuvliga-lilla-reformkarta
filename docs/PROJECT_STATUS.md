@@ -19,7 +19,7 @@
 | # | Task | Status | Notes |
 |---|------|--------|-------|
 | 2.1 | Skolverkets uppdragsstatus per reform | ✅ Done | Data från RB 2025/2026, indikator + modal |
-| 2.2 | Responsiv kartyta på desktop | 🔄 In Progress | Container 1400px satt, men behöver utnyttja full bredd och sprida ut noder |
+| 2.2 | Responsiv kartyta på desktop | ✅ Done | Full bredd, noder omplacerade med min 15% avstånd |
 | 2.3 | dev/master-branching + deploy.sh | ✅ Done | commit.sh → dev, deploy.sh mergar till master |
 | 2.4 | Separera data till JSON-filer | ✅ Done | data/reforms.json, connections.json, uppdrag.json — fetch() vid laddning |
 | 2.5 | Granska alla 15 kopplingar | ⬜ Todo | Saknas/fel? |
