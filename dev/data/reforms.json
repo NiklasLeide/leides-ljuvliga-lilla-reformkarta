@@ -14,8 +14,8 @@
       "larare_r",
       "chef"
     ],
-    "x": 8,
-    "y": 8,
+    "x": 2,
+    "y": 5,
     "what": "Skollagen ändras så att utbildningens syfte anges vara att förmedla och förankra kunskaper och värden. Kursplanerna får ny struktur: syfte, mål, innehåll, undervisningsstrategier och bedömningskriterier. Sammantagen bedömning gäller alla betygssteg, även E.",
     "changes": [
       "Undervisningen bestäms och leds av lärare",
@@ -51,8 +51,8 @@
       "larare_r",
       "chef"
     ],
-    "x": 30,
-    "y": 5,
+    "x": 22,
+    "y": 3,
     "what": "Numerisk betygsskala 1–10 utan skarp gräns för godkänt. Nationella slutprov kalibrerar lärarsatta betyg — proven rättas centralt. Meritvärdet kombinerar betygspoäng (70 %) och slutprovsresultat (30 %). Vid slutlig betygssättning ska lärare ha bedömningssamråd. Meritvärde ersätter betyg som urvalsgrund till högskolan. Behörighetskrav till gymnasiet: meritvärde minst 4. Nationella slutprov från våren 2029 i gymnasieskolan och våren 2031 i grundskolan. Nya meritvärden för elever som går ut grundskolan och gymnasieskolan 2031. Komvux: 1 januari 2031.",
     "changes": [
       "Betygsskala 1–10 ersätter A–F i alla skolformer",
@@ -95,8 +95,8 @@
       "rektor",
       "chef"
     ],
-    "x": 8,
-    "y": 30,
+    "x": 2,
+    "y": 28,
     "what": "Förskoleklassen upphör som skolform och ersätts av en ny årskurs 1. Barnen börjar åk 1 det år de fyller 6. Grundskolan blir tioårig.",
     "changes": [
       "Förskoleklassen ersätts av ny årskurs 1",
@@ -132,8 +132,8 @@
       "larare_r",
       "chef"
     ],
-    "x": 30,
-    "y": 28,
+    "x": 22,
+    "y": 26,
     "what": "Ny stödundervisning i svenska, sva och matematik. Extra anpassningar och läsa-skriva-räkna-garantin avskaffas. Standardiserade tester varje hösttermin ersätter nationella prov i åk 3.",
     "changes": [
       "Extra anpassningar slopas",
@@ -162,8 +162,8 @@
       "rektor",
       "larare_r"
     ],
-    "x": 8,
-    "y": 52,
+    "x": 2,
+    "y": 50,
     "what": "Omfördelning av undervisningstid i grundskolan. Fler timmar i svenska och matematik. Mer tid för praktisk-estetiska ämnen.",
     "changes": [
       "Fler timmar i svenska och matematik",
@@ -192,8 +192,8 @@
       "larare_r",
       "chef"
     ],
-    "x": 52,
-    "y": 5,
+    "x": 42,
+    "y": 3,
     "what": "Kursbetyg ersätts av ämnesbetyg i gymnasieskolan, anpassade gymnasieskolan och komvux. Ämnesplanerna utformas som sammanhållna ämnen med nivåer. Godkänt betyg på högre nivå ersätter lägre nivåers betyg.",
     "changes": [
       "Ämnesplaner med nivåer ersätter kursplaner",
@@ -225,8 +225,8 @@
       "larare_r",
       "chef"
     ],
-    "x": 58,
-    "y": 30,
+    "x": 62,
+    "y": 18,
     "what": "Mobilförbud under hela skoldagen. Ordningsregler ersätts av skolregler med konsekvensplan. Förväntansdokument. Utökade möjligheter att avvisa elever. Akutskola på entreprenad.",
     "changes": [
       "Mobilförbud — telefoner samlas in",
@@ -258,8 +258,8 @@
       "rektor",
       "chef"
     ],
-    "x": 75,
-    "y": 22,
+    "x": 82,
+    "y": 8,
     "what": "Skyldighet att lämna uppgifter till mottagande skolenhet vid skolbyte — om konkreta omständigheter tyder på risk att eleven begår eller utsätts för brott.",
     "changes": [
       "Skyldighet att lämna brottsförebyggande info vid skolbyten",
@@ -289,8 +289,8 @@
       "rektor",
       "chef"
     ],
-    "x": 75,
-    "y": 40,
+    "x": 82,
+    "y": 32,
     "what": "Registerkontroller utökas till misstankeregistret. Registerutdrag max sex månader gammalt. Ny kontroll efter sex månader hos samma arbetsgivare. Gäller även komvux.",
     "changes": [
       "Misstankeregistret inkluderas",
@@ -320,8 +320,8 @@
       "larare_r",
       "chef"
     ],
-    "x": 35,
-    "y": 50,
+    "x": 28,
+    "y": 48,
     "what": "Maxtak för undervisningstimmar och lägsta gräns för planeringstid regleras genom förordning. Administrativ börda ska minska. Läraren bestämmer informationen till vårdnadshavare.",
     "changes": [
       "Maxtak för undervisningstimmar",
@@ -351,8 +351,8 @@
       "larare_r",
       "chef"
     ],
-    "x": 52,
-    "y": 55,
+    "x": 48,
+    "y": 46,
     "what": "Nationellt professionsprogram: struktur för kompetensutveckling och meriteringssystem med fyra nivåer. Skolverket ansvarar med stöd av Rådet för professioner i skolväsendet.",
     "changes": [
       "Nationell struktur för kompetensutveckling",
@@ -386,8 +386,8 @@
     "roles": [
       "chef"
     ],
-    "x": 58,
-    "y": 72,
+    "x": 65,
+    "y": 62,
     "what": "Rätten att ta del av allmänna handlingar utsträcks till enskilda huvudmän inom skolväsendet. Lättnadsregler för huvudmän med upp till 450 elever. Tvåårig övergångsperiod.",
     "changes": [
       "Offentlighetsprincipen gäller fristående skolor",
@@ -417,8 +417,8 @@
     "roles": [
       "chef"
     ],
-    "x": 78,
-    "y": 65,
+    "x": 82,
+    "y": 55,
     "what": "Vägledande (ej bindande) norm för resursfördelning till förskoleklass och grundskola. Avdrag från ersättning till enskilda huvudmän: 3 % 2028, 6 % 2029. Villkorade belopp.",
     "changes": [
       "Vägledande norm (ej bindande)",
@@ -446,8 +446,8 @@
     "roles": [
       "chef"
     ],
-    "x": 78,
-    "y": 80,
+    "x": 82,
+    "y": 76,
     "what": "Slutbetänkande om skärpta villkor för friskolesektorn. Ute på remiss.",
     "changes": [
       "Skärpta villkor för friskolesektorn"
@@ -472,8 +472,8 @@
     "roles": [
       "chef"
     ],
-    "x": 8,
-    "y": 75,
+    "x": 2,
+    "y": 74,
     "what": "Utredning om obligatorisk språkförskola för barn med påtagliga brister i svenska. Ser över barngruppsstorlekar, personaltäthet och språkkrav för personal. Tilläggsdirektiv om svenskans ställning i skollagen.",
     "changes": [
       "Obligatorisk språkförskola",
@@ -508,8 +508,8 @@
       "rektor",
       "chef"
     ],
-    "x": 35,
-    "y": 80,
+    "x": 28,
+    "y": 72,
     "what": "AI-system inom utbildning kan klassificeras som högrisk. Krav på mänsklig tillsyn, transparens och AI-litteracitet för personal. Regler för högrisk-AI tillämpas från aug 2026.",
     "changes": [
       "Högrisk-klassificering för AI i utbildning",
@@ -545,8 +545,8 @@
       "rektor",
       "chef"
     ],
-    "x": 55,
-    "y": 88,
+    "x": 50,
+    "y": 82,
     "what": "Förslag om att göra det lättare att bedriva yrkesutbildning på entreprenad. Betyg ska sättas efter genomfört yrkesprov. Syftar till att möta bristen på gymnasialt yrkesutbildad arbetskraft.",
     "changes": [
       "Lättare att bedriva yrkesutbildning på entreprenad",
