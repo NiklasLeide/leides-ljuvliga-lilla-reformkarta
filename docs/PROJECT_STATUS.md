@@ -19,16 +19,15 @@
 | # | Task | Status | Notes |
 |---|------|--------|-------|
 | 2.1 | Skolverkets uppdragsstatus per reform | ✅ Done | Data från RB 2025/2026, indikator + modal |
-| 2.2 | Större kartyta på desktop | ✅ Done | Container 1400px, karta 700px, panel 360px |
+| 2.2 | Responsiv kartyta på desktop | 🔄 In Progress | Container 1400px satt, men behöver utnyttja full bredd och sprida ut noder |
 | 2.3 | dev/master-branching + deploy.sh | ⬜ Todo | commit.sh bara dev, deploy.sh manuell bekräftelse |
 | 2.4 | Separera data till JSON-filer | ⬜ Todo | reforms.json, connections.json, uppdrag.json |
-| 2.5 | Responsiv kartlayout | ⬜ Todo | Full bredd, sprid ut noder, mer luft |
-| 2.6 | Granska alla 15 kopplingar | ⬜ Todo | Saknas/fel? |
-| 2.7 | Verifiera rollfilter | ⬜ Todo | Stämmer rollerna per reform? |
-| 2.8 | Uppdatera efter riksdagsbeslut | ⬜ Todo | Bevaka vårens voteringar |
-| 2.9 | Komplettera ändrade timplaner | ⬜ Todo | Prop. 2023/24:20 |
-| 2.10 | Verifiera budgetsiffra 95 Mkr studiero | ⬜ Todo | Källa: budgetprop, inte Prop. 193 |
-| 2.11 | Feedback-runda #2 | ⬜ Todo | Bredare grupp |
+| 2.5 | Granska alla 15 kopplingar | ⬜ Todo | Saknas/fel? |
+| 2.6 | Verifiera rollfilter | ⬜ Todo | Stämmer rollerna per reform? |
+| 2.7 | Uppdatera efter riksdagsbeslut | ⬜ Todo | Bevaka vårens voteringar |
+| 2.8 | Komplettera ändrade timplaner | ⬜ Todo | Prop. 2023/24:20 |
+| 2.9 | Verifiera budgetsiffra 95 Mkr studiero | ⬜ Todo | Källa: budgetprop, inte Prop. 193 |
+| 2.10 | Feedback-runda #2 | ⬜ Todo | Bredare grupp |
 
 ---
 
