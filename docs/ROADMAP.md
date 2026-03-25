@@ -27,7 +27,8 @@
 - [ ] Feedback-runda #2 — bredare grupp
 
 ## Sprint 3 — Underhållsrutin
-- [ ] Definiera hur och när innehållet uppdateras (efter riksdagsbeslut, regleringsbrev, propositioner)
+- [x] Definiera hur och när innehållet uppdateras (efter riksdagsbeslut, regleringsbrev, propositioner)
+- [x] Skapa bevakningslista med URL:er per reform (docs/BEVAKNING.md)
 - [ ] Dokumentera uppdateringsflöde i CLAUDE.md (vem gör vad, vilka källor kollas)
 - [ ] Bevaka vårens riksdagsbeslut — uppdatera reformstatus när propositioner antas
 - [ ] Sätt upp en checklista för kvartalsvis genomgång av reformdata
