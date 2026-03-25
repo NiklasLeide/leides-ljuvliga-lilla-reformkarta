@@ -26,16 +26,34 @@
 - [ ] Verifiera budgetsiffra 95 Mkr för studiero (källa: budgetprop, inte Prop. 193)
 - [ ] Feedback-runda #2 — bredare grupp
 
-## Sprint 3 — Fördjupning
-- [ ] Besluta format utbildningsguide (parkerat — behöver diskuteras)
-- [ ] NotebookLM: dokumentlista + guide (parkerat)
-- [ ] Underhållsrutin: hur/när uppdaterar vi?
-- [ ] Eventuell "vad händer när"-vy (tidsscenarier via filter)
+## Sprint 3 — Underhållsrutin
+- [ ] Definiera hur och när innehållet uppdateras (efter riksdagsbeslut, regleringsbrev, propositioner)
+- [ ] Dokumentera uppdateringsflöde i CLAUDE.md (vem gör vad, vilka källor kollas)
+- [ ] Bevaka vårens riksdagsbeslut — uppdatera reformstatus när propositioner antas
+- [ ] Sätt upp en checklista för kvartalsvis genomgång av reformdata
+
+## Sprint 4 — Listvy
+- [ ] Listvy på desktop: tabell med alla reformer (namn, kategori, status, ikraftträdande, uppdragsstatus)
+- [ ] Sorterbar på kolumner
+- [ ] Filterbar med samma filter som kartan
+- [ ] Klick på reform öppnar samma detaljpanel som kartvy
+- [ ] Separat vy för alla Skolverket-uppdrag samlade, sorterat på typ
+- [ ] Toggle mellan kartvy och listvy
+
+## Sprint 5 — Tidslinje
+- [ ] Visuell horisontell tidslinje (2025–2031)
+- [ ] Reformer som block/markörer längs tidsaxeln, färgkodade efter kategori
+- [ ] Uppdragsdeadlines synliga (redovisningsdatum)
+- [ ] Klick på reform öppnar samma detaljpanel
+- [ ] Responsiv för bred skärm
 
 ## Later / Stretch
 _TBD_
 
 ## Deferred / Won't Do
-_Decisions against features — include a one-line reason so you don't revisit them_
+- Bygga egna sammanfattningar per reform — kollegorna är tjänstemän, originalhandlingarna tillför mer
+- Använda Reformverkstaden som källa — inspiration, inte faktakälla
+- Utbildningsguide — format ej bestämt, parkerat tills behov bekräftas
+- NotebookLM som format — ifrågasatt om det räcker, parkerat
 
 ---
