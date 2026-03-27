@@ -5,6 +5,7 @@ Types: `feat` | `fix` | `refactor` | `docs` | `chore` | `perf`
 
 ---
 
+[2026-03-27] docs: roadmap — ny sprint 3 (målbild/infrastrukturberoenden), underhåll→sprint 4, listvy→sprint 5, tidslinje→sprint 6
 [2026-03-24] feat: responsiv kartlayout — full bredd, omplacerade noder med mer luft, min 15% avstånd
 [2026-03-24] refactor: separera reformdata, kopplingar och uppdrag till JSON-filer (data/), index.html hämtar med fetch()
 [2026-03-24] chore: commit.sh synkar automatiskt dev-sidfiler till master:dev/ för preview på reformer.leide.se/dev/

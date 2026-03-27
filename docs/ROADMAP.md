@@ -26,14 +26,24 @@
 - [ ] Verifiera budgetsiffra 95 Mkr för studiero (källa: budgetprop, inte Prop. 193)
 - [ ] Feedback-runda #2 — bredare grupp
 
-## Sprint 3 — Underhållsrutin
+## Sprint 3 — Målbild och infrastrukturberoenden
+- [ ] Skapa data/malbild.json med pelardefinitioner och kopplingar reform→pelare
+- [ ] Bygga malbild.html med samma designspråk som reformkartan (header, navigation, sidebar)
+- [ ] Fliknavigation mellan reformkartan och målbildsvyn
+- [ ] Visa reformer och pelare med klickbara kopplingar (linjer)
+- [ ] Sidebar med detaljer vid klick (samma mönster som reformkartan)
+- [ ] Sammanhållen visiontext överst, fällbar
+- [ ] Statistikrad (antal reformer med beroenden, antal pelare, etc.)
+- [ ] Responsiv
+
+## Sprint 4 — Underhållsrutin
 - [x] Definiera hur och när innehållet uppdateras (efter riksdagsbeslut, regleringsbrev, propositioner)
 - [x] Skapa bevakningslista med URL:er per reform (docs/BEVAKNING.md)
 - [ ] Dokumentera uppdateringsflöde i CLAUDE.md (vem gör vad, vilka källor kollas)
 - [ ] Bevaka vårens riksdagsbeslut — uppdatera reformstatus när propositioner antas
 - [ ] Sätt upp en checklista för kvartalsvis genomgång av reformdata
 
-## Sprint 4 — Listvy
+## Sprint 5 — Listvy
 - [ ] Listvy på desktop: tabell med alla reformer (namn, kategori, status, ikraftträdande, uppdragsstatus)
 - [ ] Sorterbar på kolumner
 - [ ] Filterbar med samma filter som kartan
@@ -41,7 +51,7 @@
 - [ ] Separat vy för alla Skolverket-uppdrag samlade, sorterat på typ
 - [ ] Toggle mellan kartvy och listvy
 
-## Sprint 5 — Tidslinje
+## Sprint 6 — Tidslinje
 - [ ] Visuell horisontell tidslinje (2025–2031)
 - [ ] Reformer som block/markörer längs tidsaxeln, färgkodade efter kategori
 - [ ] Uppdragsdeadlines synliga (redovisningsdatum)
