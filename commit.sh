@@ -54,8 +54,10 @@ mkdir -p dev
 TMPDIR=$(mktemp -d)
 git show dev:index.html > "$TMPDIR/index.html" 2>/dev/null || true
 git show dev:reformkarta.html > "$TMPDIR/reformkarta.html" 2>/dev/null || true
+git show dev:malbild.html > "$TMPDIR/malbild.html" 2>/dev/null || true
 cp "$TMPDIR/index.html" dev/index.html 2>/dev/null || true
 cp "$TMPDIR/reformkarta.html" dev/reformkarta.html 2>/dev/null || true
+cp "$TMPDIR/malbild.html" dev/malbild.html 2>/dev/null || true
 rm -rf "$TMPDIR"
 
 # Copy data/ folder from dev

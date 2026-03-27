@@ -5,6 +5,7 @@ Types: `feat` | `fix` | `refactor` | `docs` | `chore` | `perf`
 
 ---
 
+[2026-03-27] fix: commit.sh synkar nu malbild.html till dev-preview
 [2026-03-27] feat: skapa malbild.html — infrastrukturberoendevy med chips, pelare, SVG-linjer, sidebar och fliknavigation
 [2026-03-27] feat: lägg till fliknavigation i index.html och malbild.html (Reformkarta / Målbild & infrastruktur)
 [2026-03-27] feat: skapa data/malbild.json med pelardefinitioner, visiontext och reformberoenden (sprint 3)
