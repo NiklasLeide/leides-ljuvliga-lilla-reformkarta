@@ -65,6 +65,29 @@ header p {
   max-width: 500px;
 }
 
+/* Tab navigation */
+.tab-nav {
+  display: flex;
+  gap: 0;
+  background: var(--card);
+  border-bottom: 1px solid var(--border);
+}
+.tab-nav a {
+  padding: 0.65rem 1.2rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--muted);
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: all 0.15s;
+}
+.tab-nav a:hover { color: var(--ink); }
+.tab-nav a.active {
+  color: var(--ink);
+  font-weight: 600;
+  border-bottom-color: var(--ink);
+}
+
 .container {
   max-width: 100%;
   margin: 0 auto;
@@ -135,6 +158,7 @@ header p {
   .filter-btn { padding: 0.22rem 0.45rem; font-size: 0.62rem; }
   .filter-label { font-size: 0.55rem; }
   .filter-sep { display: none; }
+  .tab-nav a { padding: 0.5rem 0.8rem; font-size: 0.68rem; }
   .legend { gap: 0.5rem; }
   .legend-item { font-size: 0.55rem; }
   .legend-dot { width: 6px; height: 6px; }
@@ -706,6 +730,11 @@ footer {
     <p>Hur reformerna hänger ihop. Klicka på en reform för att se kopplingar och detaljer.</p>
   </div>
 </header>
+
+<div class="tab-nav">
+  <a href="index.html" class="active">Reformkarta</a>
+  <a href="malbild.html">Målbild & infrastruktur</a>
+</div>
 
 <div class="container">
   <div class="filter-bar">
