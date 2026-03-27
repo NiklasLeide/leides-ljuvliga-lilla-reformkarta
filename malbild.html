@@ -629,13 +629,18 @@ let reforms = [];
 let activeSelection = null; // { type: 'reform'|'pelare', id: string }
 
 async function loadData() {
-  const [malbildRes, reformsRes] = await Promise.all([
-    fetch('data/malbild.json'),
-    fetch('data/reforms.json')
-  ]);
-  malbild = await malbildRes.json();
-  reforms = await reformsRes.json();
-  render();
+  try {
+    const v = Date.now();
+    const [malbildRes, reformsRes] = await Promise.all([
+      fetch('data/malbild.json?v=' + v),
+      fetch('data/reforms.json?v=' + v)
+    ]);
+    malbild = await malbildRes.json();
+    reforms = await reformsRes.json();
+    render();
+  } catch (e) {
+    console.error('Kunde inte ladda data:', e);
+  }
 }
 
 function render() {

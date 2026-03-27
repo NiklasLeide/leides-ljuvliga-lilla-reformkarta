@@ -5,6 +5,7 @@ Types: `feat` | `fix` | `refactor` | `docs` | `chore` | `perf`
 
 ---
 
+[2026-03-27] fix: cache-busting på fetch i malbild.html för att undvika gammal data
 [2026-03-27] feat: specifik motivering per reform-pelare-koppling i malbild.json och sidebar
 [2026-03-27] fix: malbild.html — bezier-kurvor istället för raka linjer, större runda badges, spridda ankarpunkter sorterade för minimala korsningar
 [2026-03-27] fix: malbild.html — SVG-linjer bakom kort, rundade badges, spridda ankarpunkter, höjd dimmed-opacity, mer spacing
