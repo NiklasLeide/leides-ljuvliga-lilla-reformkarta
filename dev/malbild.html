@@ -215,16 +215,17 @@ header p {
   flex-shrink: 0;
 }
 .reform-chip .chip-count {
-  font-size: 0.52rem;
-  font-weight: 600;
-  background: rgba(13,148,136,0.1);
+  font-size: 0.5rem;
+  font-weight: 700;
+  background: rgba(13,148,136,0.12);
   color: var(--infra);
   border-radius: 50%;
-  width: 18px; height: 18px;
-  display: flex;
+  min-width: 20px; height: 20px;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 0.1rem;
+  line-height: 1;
+  flex-shrink: 0;
 }
 .reform-chip.active {
   border-color: var(--ink);
@@ -275,16 +276,17 @@ header p {
   z-index: 0;
   overflow: visible;
 }
-.beroende-svg line {
+.beroende-svg path {
+  fill: none;
   stroke: var(--connection);
   stroke-width: 1.5;
   opacity: 0;
   transition: all 0.3s;
 }
-.beroende-svg line.active {
+.beroende-svg path.active {
   stroke: var(--connection-active);
-  stroke-width: 2;
-  opacity: 0.6;
+  stroke-width: 1.8;
+  opacity: 0.5;
 }
 
 /* Content layers above SVG */
@@ -803,55 +805,50 @@ function drawLines(selectedId, type) {
     pairs = reformIds.map(rId => ({ reformId: rId, pelareId: selectedId }));
   }
 
-  // Group pairs by pelare to spread anchor points along top edge
+  // Compute raw positions for each pair
+  const pairData = pairs.map(({ reformId, pelareId }) => {
+    const chip = document.querySelector(`.reform-chip[data-id="${reformId}"]`);
+    const card = document.querySelector(`.pelare-card[data-id="${pelareId}"]`);
+    if (!chip || !card) return null;
+    const chipRect = chip.getBoundingClientRect();
+    const cardRect = card.getBoundingClientRect();
+    const x1 = chipRect.left + chipRect.width / 2 - areaRect.left;
+    const y1 = chipRect.bottom - areaRect.top;
+    const x2 = cardRect.left + cardRect.width / 2 - areaRect.left;
+    const y2 = cardRect.top - areaRect.top;
+    return { reformId, pelareId, x1, y1, x2, y2, cardRect, chipRect };
+  }).filter(Boolean);
+
+  // Sort by target x position to reduce crossings
+  pairData.sort((a, b) => a.x2 - b.x2);
+
+  // Spread anchor points on pelare cards that receive multiple lines
   const byPelare = {};
-  pairs.forEach(p => {
+  pairData.forEach(p => {
     if (!byPelare[p.pelareId]) byPelare[p.pelareId] = [];
     byPelare[p.pelareId].push(p);
   });
-  // Group pairs by reform chip to spread anchor points along bottom edge
-  const byReform = {};
-  pairs.forEach(p => {
-    if (!byReform[p.reformId]) byReform[p.reformId] = [];
-    byReform[p.reformId].push(p);
+  Object.values(byPelare).forEach(group => {
+    // Sort incoming lines by their chip x position for clean ordering
+    group.sort((a, b) => a.x1 - b.x1);
+    const n = group.length;
+    const cardRect = group[0].cardRect;
+    const pad = cardRect.width * 0.15;
+    const span = cardRect.width - pad * 2;
+    const baseX = cardRect.left - areaRect.left + pad;
+    group.forEach((p, i) => {
+      p.x2 = n === 1 ? cardRect.left + cardRect.width / 2 - areaRect.left : baseX + (i / (n - 1)) * span;
+    });
   });
 
-  pairs.forEach(({ reformId, pelareId }) => {
-    const chip = document.querySelector(`.reform-chip[data-id="${reformId}"]`);
-    const card = document.querySelector(`.pelare-card[data-id="${pelareId}"]`);
-    if (!chip || !card) return;
-
-    const chipRect = chip.getBoundingClientRect();
-    const cardRect = card.getBoundingClientRect();
-
-    // Spread chip exit points along bottom edge
-    const chipGroup = byReform[reformId];
-    const chipIdx = chipGroup.indexOf(chipGroup.find(p => p.pelareId === pelareId));
-    const chipTotal = chipGroup.length;
-    const chipPad = chipRect.width * 0.2;
-    const chipSpan = chipRect.width - chipPad * 2;
-    const chipOffsetX = chipTotal === 1 ? chipRect.width / 2 : chipPad + (chipIdx / (chipTotal - 1)) * chipSpan;
-
-    // Spread pelare entry points along top edge
-    const pelGroup = byPelare[pelareId];
-    const pelIdx = pelGroup.indexOf(pelGroup.find(p => p.reformId === reformId));
-    const pelTotal = pelGroup.length;
-    const pelPad = cardRect.width * 0.15;
-    const pelSpan = cardRect.width - pelPad * 2;
-    const pelOffsetX = pelTotal === 1 ? cardRect.width / 2 : pelPad + (pelIdx / (pelTotal - 1)) * pelSpan;
-
-    const x1 = chipRect.left + chipOffsetX - areaRect.left;
-    const y1 = chipRect.bottom - areaRect.top;
-    const x2 = cardRect.left + pelOffsetX - areaRect.left;
-    const y2 = cardRect.top - areaRect.top;
-
-    const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
-    line.setAttribute('x1', x1);
-    line.setAttribute('y1', y1);
-    line.setAttribute('x2', x2);
-    line.setAttribute('y2', y2);
-    line.classList.add('active');
-    svg.appendChild(line);
+  // Draw smooth bezier curves
+  pairData.forEach(({ x1, y1, x2, y2 }) => {
+    const midY = y1 + (y2 - y1) * 0.45;
+    const d = `M ${x1} ${y1} C ${x1} ${midY}, ${x2} ${midY}, ${x2} ${y2}`;
+    const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+    path.setAttribute('d', d);
+    path.classList.add('active');
+    svg.appendChild(path);
   });
 }
 
