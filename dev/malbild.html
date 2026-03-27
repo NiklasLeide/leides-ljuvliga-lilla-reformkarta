@@ -663,10 +663,11 @@ function toggleVision() {
 
 function renderStats() {
   const beroenden = malbild.reformBeroenden;
-  const reformerMedBeroenden = Object.values(beroenden).filter(b => b.pelare.length > 0).length;
+  const pelareKeys = b => Object.keys(b.pelare);
+  const reformerMedBeroenden = Object.values(beroenden).filter(b => pelareKeys(b).length > 0).length;
   const totaltReformer = Object.keys(beroenden).length;
   const antalPelare = malbild.pelare.length;
-  const totaltBeroenden = Object.values(beroenden).reduce((sum, b) => sum + b.pelare.length, 0);
+  const totaltBeroenden = Object.values(beroenden).reduce((sum, b) => sum + pelareKeys(b).length, 0);
 
   document.getElementById('statsRow').innerHTML = `
     <div class="stat-card">
@@ -688,13 +689,13 @@ function renderChips() {
   const grid = document.getElementById('chipGrid');
   const beroenden = malbild.reformBeroenden;
   // Sort: most dependencies first
-  const reformIds = Object.keys(beroenden).sort((a, b) => beroenden[b].pelare.length - beroenden[a].pelare.length);
+  const reformIds = Object.keys(beroenden).sort((a, b) => Object.keys(beroenden[b].pelare).length - Object.keys(beroenden[a].pelare).length);
 
   grid.innerHTML = reformIds.map(id => {
     const reform = reforms.find(r => r.id === id);
     if (!reform) return '';
     const cc = catColors[reform.cat];
-    const count = beroenden[id].pelare.length;
+    const count = Object.keys(beroenden[id].pelare).length;
     return `<div class="reform-chip" data-id="${id}" onclick="selectReform('${id}')">
       <span class="chip-dot" style="background:${cc.color}"></span>
       <span>${reform.short}</span>
@@ -721,7 +722,7 @@ function selectReform(id) {
   }
   activeSelection = { type: 'reform', id };
   const beroende = malbild.reformBeroenden[id];
-  const pelareIds = beroende ? beroende.pelare : [];
+  const pelareIds = beroende ? Object.keys(beroende.pelare) : [];
 
   // Highlight chips
   document.querySelectorAll('.reform-chip').forEach(el => {
@@ -748,7 +749,7 @@ function selectPelare(id) {
   }
   activeSelection = { type: 'pelare', id };
   const beroenden = malbild.reformBeroenden;
-  const reformIds = Object.keys(beroenden).filter(rId => beroenden[rId].pelare.includes(id));
+  const reformIds = Object.keys(beroenden).filter(rId => id in beroenden[rId].pelare);
 
   // Highlight chips
   document.querySelectorAll('.reform-chip').forEach(el => {
@@ -798,10 +799,10 @@ function drawLines(selectedId, type) {
   let pairs = [];
 
   if (type === 'reform') {
-    const pelareIds = beroenden[selectedId] ? beroenden[selectedId].pelare : [];
+    const pelareIds = beroenden[selectedId] ? Object.keys(beroenden[selectedId].pelare) : [];
     pairs = pelareIds.map(pId => ({ reformId: selectedId, pelareId: pId }));
   } else {
-    const reformIds = Object.keys(beroenden).filter(rId => beroenden[rId].pelare.includes(selectedId));
+    const reformIds = Object.keys(beroenden).filter(rId => selectedId in beroenden[rId].pelare);
     pairs = reformIds.map(rId => ({ reformId: rId, pelareId: selectedId }));
   }
 
@@ -858,11 +859,15 @@ function showReformDetail(id) {
   if (!reform || !beroende) return;
 
   const cc = catColors[reform.cat];
-  const pelareList = beroende.pelare.map(pId => {
+  const pelareEntries = Object.entries(beroende.pelare);
+  const pelareList = pelareEntries.map(([pId, motivering]) => {
     const p = malbild.pelare.find(x => x.id === pId);
     return p ? `<div class="conn-item" onclick="selectPelare('${p.id}')">
       <div class="conn-dot" style="background:var(--infra)"></div>
-      <div><div class="conn-text">${p.icon} ${p.titel}</div></div>
+      <div>
+        <div class="conn-text">${p.icon} ${p.titel}</div>
+        <div class="conn-reason">${motivering}</div>
+      </div>
     </div>` : '';
   }).join('');
 
@@ -870,13 +875,9 @@ function showReformDetail(id) {
     <div class="detail-cat" style="background:${cc.bg};color:${cc.color}">${catLabels[reform.cat]}</div>
     <div class="detail-title">${reform.short}</div>
     <div class="detail-ref">${reform.ref} · ${reform.ikraft}</div>
-    <div class="detail-section">
-      <div class="detail-label">Infrastrukturmotivering</div>
-      <div class="detail-text">${beroende.motivering}</div>
-    </div>
-    ${beroende.pelare.length > 0 ? `
+    ${pelareEntries.length > 0 ? `
     <div class="detail-connections">
-      <div class="detail-label">Beroende pelare (${beroende.pelare.length})</div>
+      <div class="detail-label">Infrastrukturberoenden (${pelareEntries.length})</div>
       ${pelareList}
     </div>` : `
     <div class="detail-section">
@@ -893,14 +894,18 @@ function showPelareDetail(id) {
   if (!pelare) return;
 
   const beroenden = malbild.reformBeroenden;
-  const reformIds = Object.keys(beroenden).filter(rId => beroenden[rId].pelare.includes(id));
+  const reformIds = Object.keys(beroenden).filter(rId => id in beroenden[rId].pelare);
   const reformList = reformIds.map(rId => {
     const r = reforms.find(x => x.id === rId);
     if (!r) return '';
     const cc = catColors[r.cat];
+    const motivering = beroenden[rId].pelare[id];
     return `<div class="conn-item" onclick="selectReform('${r.id}')">
       <div class="conn-dot" style="background:${cc.color}"></div>
-      <div><div class="conn-text">${r.short}</div></div>
+      <div>
+        <div class="conn-text">${r.short}</div>
+        <div class="conn-reason">${motivering}</div>
+      </div>
     </div>`;
   }).join('');
 

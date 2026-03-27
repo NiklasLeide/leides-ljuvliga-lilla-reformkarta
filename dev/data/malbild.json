@@ -47,72 +47,113 @@
   ],
   "reformBeroenden": {
     "betyg": {
-      "pelare": ["standarder", "datafloden", "likvardig-miljo", "entydig-data"],
-      "motivering": "Nationella slutprov som rättas centralt kräver en standardiserad digital provplattform med säkra dataflöden. Meritvärdesberäkningen förutsätter att data från olika system kan kombineras automatiskt. Likvärdig digital miljö krävs för att alla elever ska kunna genomföra proven under rättvisa förhållanden."
+      "pelare": {
+        "standarder": "Centralt rättade slutprov kräver standardiserad provplattform och enhetliga bedömningsformat.",
+        "datafloden": "Meritvärdesberäkning (betyg + provresultat) kräver automatisk datakombination från flera system.",
+        "likvardig-miljo": "Alla elever ska genomföra slutprov under rättvisa digitala förhållanden oavsett skola.",
+        "entydig-data": "Betygsvärden från olika skolor måste vara entydigt definierade för att kunna kalibreras nationellt."
+      }
     },
     "stod": {
-      "pelare": ["standarder", "datafloden", "entydig-data", "likvardig-miljo"],
-      "motivering": "Standardiserade tester kräver digital testinfrastruktur med enhetliga format. Automatisk flaggning och uppföljning av stödbehov förutsätter att elevdata flödar mellan system. Entydiga definitioner behövs för att stödbeslut ska vara jämförbara mellan skolor."
+      "pelare": {
+        "standarder": "Standardiserade tester varje hösttermin kräver enhetliga testformat och bedömningskriterier.",
+        "datafloden": "Automatisk identifiering av stödbehov förutsätter att testresultat flödar till rätt beslutsfattare.",
+        "entydig-data": "Stödbeslut måste vara jämförbara mellan skolor — kräver gemensamma definitioner av stödnivåer.",
+        "likvardig-miljo": "Alla elever ska ha samma förutsättningar att genomföra de standardiserade testerna digitalt."
+      }
     },
     "laroplaner": {
-      "pelare": ["standarder", "entydig-data"],
-      "motivering": "Den nya kursplanestrukturen behöver digitala system som är uppdaterade och enhetliga. Bedömningskriterier kopplade till 1–10-skalan kräver gemensamma standarder i lärplattformarna."
+      "pelare": {
+        "standarder": "Nya kursplaner med bedömningskriterier kopplade till 1–10-skalan kräver gemensamma standarder i lärplattformar.",
+        "entydig-data": "Ämnesinnehåll och kunskapsmål måste definieras entydigt för nationell jämförbarhet."
+      }
     },
     "tioarig": {
-      "pelare": ["entydig-data", "standarder", "datafloden"],
-      "motivering": "En ny årskursstruktur kräver att alla administrativa system uppdateras enhetligt. Elevdata, timplaner och behörighetsregler måste spegla den nya strukturen i samtliga digitala system."
+      "pelare": {
+        "entydig-data": "Ny årskursstruktur kräver att alla system använder samma definition av årskurser och stadier.",
+        "standarder": "Administrativa system och lärplattformar måste uppdateras enhetligt för den nya strukturen.",
+        "datafloden": "534 nya timmar och ändrad timplan kräver automatiserad uppdatering i schemaläggnings- och rapporteringssystem."
+      }
     },
     "gy25": {
-      "pelare": ["standarder", "datafloden"],
-      "motivering": "Över 700 nya ämnesplaner måste hanteras digitalt. Betygsöverföring mellan nivåer kräver automatiserade flöden. Övergångsperioden med parallella system förutsätter standardiserad datahantering."
+      "pelare": {
+        "standarder": "Över 700 nya ämnesplaner kräver standardiserade format i lärplattformar och betygssystem.",
+        "datafloden": "Betyg på högre nivå ersätter lägre — kräver automatiserad betygsöverföring mellan nivåer."
+      }
     },
     "timplan": {
-      "pelare": ["entydig-data", "standarder"],
-      "motivering": "Omfördelning av undervisningstid kräver att schemaläggningssystem och administrativa system delar samma tidsdefinitioner."
+      "pelare": {
+        "entydig-data": "Omfördelad undervisningstid kräver att alla system delar samma tidsdefinitioner per ämne.",
+        "standarder": "Timplaneändringar måste slå igenom enhetligt i schemaläggningssystem hos alla huvudmän."
+      }
     },
     "brott": {
-      "pelare": ["datafloden", "datakontroll", "entydig-data", "standarder"],
-      "motivering": "Skyldighet att lämna uppgifter vid skolbyten kräver säkra, automatiserade informationsflöden. Entydiga dataformat behövs för att rätt information delas. Huvudmannens datakontroll säkerställer korrekt hantering av känslig information."
+      "pelare": {
+        "datafloden": "Skyldighet att lämna uppgifter vid skolbyten kräver säkra automatiserade informationsflöden.",
+        "datakontroll": "Känslig elevdata vid skolbyten kräver att huvudmannen har full kontroll över vad som delas.",
+        "entydig-data": "Gemensamma dataformat behövs så att rätt information delas — och inget annat.",
+        "standarder": "Informationsöverföring mellan skolor kräver standardiserade format oavsett huvudman och system."
+      }
     },
     "register": {
-      "pelare": ["datafloden", "standarder"],
-      "motivering": "Utökade registerkontroller var sjätte månad kräver automatiserade flöden mot belastnings- och misstankeregistret. Gemensamma standarder behövs oavsett huvudman."
+      "pelare": {
+        "datafloden": "Kontroller var sjätte månad mot belastningsregistret kräver automatiserade flöden.",
+        "standarder": "Kontrollerna måste fungera enhetligt oavsett huvudman och personalsystem."
+      }
     },
     "studiero": {
-      "pelare": [],
-      "motivering": "Reformen handlar primärt om disciplinära åtgärder, mobilförbud och skolregler — begränsad koppling till digital infrastruktur."
+      "pelare": {}
     },
     "tid": {
-      "pelare": ["datafloden", "entydig-data"],
-      "motivering": "Maxtak för undervisningstimmar och planeringstid förutsätter att arbetstidsdata registreras entydigt och kan följas upp automatiskt."
+      "pelare": {
+        "datafloden": "Uppföljning av maxtak för undervisningstid kräver automatiserad rapportering från schemaläggningssystem.",
+        "entydig-data": "Undervisningstid och planeringstid måste registreras med gemensamma definitioner för att vara jämförbara."
+      }
     },
     "profession": {
-      "pelare": ["entydig-data", "standarder", "datafloden"],
-      "motivering": "Nationell meriteringsstruktur kräver enhetlig registrering av lärares kompetens. Automatiserade flöden möjliggör att meriteringsdata följer läraren mellan huvudmän."
+      "pelare": {
+        "entydig-data": "Fyra meriteringsnivåer kräver enhetlig registrering av lärares kompetens och meriter nationellt.",
+        "standarder": "Meriteringsdata måste följa samma format hos alla huvudmän för att Skolverket ska kunna följa utvecklingen.",
+        "datafloden": "Meriteringsdata ska följa läraren automatiskt vid byte av huvudman."
+      }
     },
     "offentlighet": {
-      "pelare": ["datakontroll", "entydig-data", "standarder"],
-      "motivering": "Fristående skolor ska hantera allmänna handlingar — det kräver standardiserade dokumenthanteringssystem. Lättnadsregler för mindre huvudmän blir meningsfulla först om systemen är standardiserade."
+      "pelare": {
+        "datakontroll": "Fristående skolor som hanterar allmänna handlingar måste ha full kontroll över dokumentflöden.",
+        "entydig-data": "Handlingar måste registreras i standardiserade format för korrekt utlämning och arkivering.",
+        "standarder": "Dokumenthanteringssystem hos enskilda huvudmän måste följa gemensamma krav oavsett storlek."
+      }
     },
     "skolpeng": {
-      "pelare": ["entydig-data", "datafloden", "standarder"],
-      "motivering": "Vägledande norm för resursfördelning kräver jämförbar ekonomi- och elevdata. Villkorade belopp förutsätter automatiserade beräkningar baserade på standardiserad data."
+      "pelare": {
+        "entydig-data": "Jämförbar resursfördelning kräver gemensamma definitioner av elevgrupper och kostnadsslag.",
+        "datafloden": "Villkorade belopp och avdrag kräver automatiserade beräkningar baserade på aktuell data.",
+        "standarder": "Ekonomi- och elevdata från olika huvudmän måste följa samma format för att normen ska kunna tillämpas."
+      }
     },
     "vinst": {
-      "pelare": ["datakontroll", "entydig-data"],
-      "motivering": "Skärpta villkor kräver transparenta och jämförbara ekonomiska data. Huvudmannens datakontroll behövs för insyn och uppföljning."
+      "pelare": {
+        "datakontroll": "Skärpta villkor kräver att huvudmän har full insyn i och kontroll över sina ekonomiska data.",
+        "entydig-data": "Transparenta och jämförbara ekonomiska data kräver gemensamma definitioner av intäkter och kostnader."
+      }
     },
     "ai": {
-      "pelare": ["standarder", "datakontroll", "likvardig-miljo"],
-      "motivering": "AI-system inom utbildning klassificeras som högrisk — det kräver standardiserade processer för transparens. Likvärdig digital miljö garanterar att AI-verktyg inte skapar ojämlika förutsättningar."
+      "pelare": {
+        "standarder": "AI-system klassificerade som högrisk kräver standardiserade processer för transparens och tillsyn.",
+        "datakontroll": "Huvudmannen måste kontrollera att AI-system inte får otillåten tillgång till elevdata.",
+        "likvardig-miljo": "AI-verktyg får inte skapa ojämlika förutsättningar beroende på huvudman eller leverantör."
+      }
     },
     "sprak": {
-      "pelare": ["entydig-data"],
-      "motivering": "Obligatorisk språkförskola kräver att uppgifter om barns språkutveckling registreras entydigt och följer barnet in i grundskolan."
+      "pelare": {
+        "entydig-data": "Barns språkutveckling måste registreras entydigt och följa barnet från förskola in i grundskolan."
+      }
     },
     "yrkes": {
-      "pelare": ["standarder", "datafloden"],
-      "motivering": "Yrkesprov kräver standardiserade bedömningsformat. Utökad entreprenad kräver dataflöden mellan skola och arbetslivspartners."
+      "pelare": {
+        "standarder": "Yrkesprov som ersätter gymnasiearbete kräver standardiserade bedömningsformat.",
+        "datafloden": "Utökad entreprenad kräver dataflöden mellan skola och arbetslivspartners."
+      }
     }
   }
 }
