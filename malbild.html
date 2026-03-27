@@ -215,15 +215,16 @@ header p {
   flex-shrink: 0;
 }
 .reform-chip .chip-count {
-  font-size: 0.55rem;
+  font-size: 0.52rem;
   font-weight: 600;
-  background: #f1f5f9;
-  color: var(--muted);
+  background: rgba(13,148,136,0.1);
+  color: var(--infra);
   border-radius: 50%;
-  width: 16px; height: 16px;
+  width: 18px; height: 18px;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0.1rem;
 }
 .reform-chip.active {
   border-color: var(--ink);
@@ -236,12 +237,13 @@ header p {
   background: var(--infra-bg);
   opacity: 1 !important;
 }
-.reform-chip.dimmed { opacity: 0.2; }
+.reform-chip.dimmed { opacity: 0.35; }
 
 /* Separator */
 .separator {
   text-align: center;
   padding: 1rem 0;
+  margin: 2.5rem 0;
   position: relative;
 }
 .separator-text {
@@ -264,7 +266,7 @@ header p {
   background: var(--border);
 }
 
-/* SVG lines */
+/* SVG lines — behind cards */
 .beroende-svg {
   position: absolute;
   top: 0; left: 0;
@@ -284,6 +286,12 @@ header p {
   stroke-width: 2;
   opacity: 0.6;
 }
+
+/* Content layers above SVG */
+.chip-section-label,
+.chip-grid,
+.separator,
+.pelare-grid { position: relative; z-index: 1; }
 
 /* Pelare grid */
 .pelare-grid {
@@ -330,7 +338,7 @@ header p {
   background: #f0fdfa;
   opacity: 1 !important;
 }
-.pelare-card.dimmed { opacity: 0.2; }
+.pelare-card.dimmed { opacity: 0.35; }
 
 /* Detail panel (sidebar) */
 .detail-panel {
@@ -795,6 +803,19 @@ function drawLines(selectedId, type) {
     pairs = reformIds.map(rId => ({ reformId: rId, pelareId: selectedId }));
   }
 
+  // Group pairs by pelare to spread anchor points along top edge
+  const byPelare = {};
+  pairs.forEach(p => {
+    if (!byPelare[p.pelareId]) byPelare[p.pelareId] = [];
+    byPelare[p.pelareId].push(p);
+  });
+  // Group pairs by reform chip to spread anchor points along bottom edge
+  const byReform = {};
+  pairs.forEach(p => {
+    if (!byReform[p.reformId]) byReform[p.reformId] = [];
+    byReform[p.reformId].push(p);
+  });
+
   pairs.forEach(({ reformId, pelareId }) => {
     const chip = document.querySelector(`.reform-chip[data-id="${reformId}"]`);
     const card = document.querySelector(`.pelare-card[data-id="${pelareId}"]`);
@@ -803,9 +824,25 @@ function drawLines(selectedId, type) {
     const chipRect = chip.getBoundingClientRect();
     const cardRect = card.getBoundingClientRect();
 
-    const x1 = chipRect.left + chipRect.width / 2 - areaRect.left;
+    // Spread chip exit points along bottom edge
+    const chipGroup = byReform[reformId];
+    const chipIdx = chipGroup.indexOf(chipGroup.find(p => p.pelareId === pelareId));
+    const chipTotal = chipGroup.length;
+    const chipPad = chipRect.width * 0.2;
+    const chipSpan = chipRect.width - chipPad * 2;
+    const chipOffsetX = chipTotal === 1 ? chipRect.width / 2 : chipPad + (chipIdx / (chipTotal - 1)) * chipSpan;
+
+    // Spread pelare entry points along top edge
+    const pelGroup = byPelare[pelareId];
+    const pelIdx = pelGroup.indexOf(pelGroup.find(p => p.reformId === reformId));
+    const pelTotal = pelGroup.length;
+    const pelPad = cardRect.width * 0.15;
+    const pelSpan = cardRect.width - pelPad * 2;
+    const pelOffsetX = pelTotal === 1 ? cardRect.width / 2 : pelPad + (pelIdx / (pelTotal - 1)) * pelSpan;
+
+    const x1 = chipRect.left + chipOffsetX - areaRect.left;
     const y1 = chipRect.bottom - areaRect.top;
-    const x2 = cardRect.left + cardRect.width / 2 - areaRect.left;
+    const x2 = cardRect.left + pelOffsetX - areaRect.left;
     const y2 = cardRect.top - areaRect.top;
 
     const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');

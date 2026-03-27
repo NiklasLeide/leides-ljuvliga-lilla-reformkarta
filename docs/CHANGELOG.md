@@ -5,6 +5,7 @@ Types: `feat` | `fix` | `refactor` | `docs` | `chore` | `perf`
 
 ---
 
+[2026-03-27] fix: malbild.html — SVG-linjer bakom kort, rundade badges, spridda ankarpunkter, höjd dimmed-opacity, mer spacing
 [2026-03-27] fix: commit.sh synkar nu malbild.html till dev-preview
 [2026-03-27] feat: skapa malbild.html — infrastrukturberoendevy med chips, pelare, SVG-linjer, sidebar och fliknavigation
 [2026-03-27] feat: lägg till fliknavigation i index.html och malbild.html (Reformkarta / Målbild & infrastruktur)
