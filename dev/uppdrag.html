@@ -103,66 +103,6 @@ header p {
 }
 .summary-bar strong { color: var(--ink); }
 
-/* Status overview - three columns */
-.status-overview {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 1rem;
-  margin-bottom: 1.5rem;
-}
-.status-col {
-  background: var(--card);
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  padding: 1rem;
-  border-top: 3px solid var(--border);
-}
-.status-col.uppdrag { border-top-color: #15803d; }
-.status-col.forberedande { border-top-color: #d97706; }
-.status-col.ej { border-top-color: #9ca3af; }
-
-.status-col-header {
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-  margin-bottom: 0.6rem;
-}
-.status-col-dot {
-  width: 8px; height: 8px;
-  border-radius: 50%;
-  flex-shrink: 0;
-}
-.status-col-title {
-  font-size: 0.7rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-}
-.status-col-count {
-  font-family: 'Source Serif 4', serif;
-  font-size: 1.8rem;
-  font-weight: 600;
-  line-height: 1;
-  margin-bottom: 0.5rem;
-}
-.status-col-list {
-  list-style: none;
-  padding: 0;
-}
-.status-col-list li {
-  font-size: 0.72rem;
-  padding: 0.2rem 0;
-  display: flex;
-  align-items: center;
-  gap: 0.35rem;
-  color: #444;
-}
-.status-col-list .cat-dot {
-  width: 6px; height: 6px;
-  border-radius: 50%;
-  flex-shrink: 0;
-}
-
 /* Main layout */
 .main-layout {
   display: grid;
@@ -231,7 +171,10 @@ header p {
   display: flex;
   align-items: center;
   gap: 0.3rem;
+  text-decoration: none;
+  transition: color 0.15s;
 }
+.uppdrag-card-reform:hover { color: var(--ink); }
 .cat-dot {
   width: 7px; height: 7px;
   border-radius: 50%;
@@ -417,10 +360,6 @@ footer {
   .tab-nav a { padding: 0.5rem 0.8rem; font-size: 0.68rem; }
   footer { font-size: 0.55rem; padding: 1rem 0 1.2rem; }
 
-  .status-overview { grid-template-columns: 1fr; gap: 0.6rem; }
-  .status-col { padding: 0.7rem; }
-  .status-col-count { font-size: 1.3rem; }
-
   .main-layout { grid-template-columns: 1fr; }
   .detail-panel { display: none; }
   .summary-bar { font-size: 0.72rem; }
@@ -445,8 +384,6 @@ footer {
 
 <div class="container">
   <div class="summary-bar" id="summaryBar"></div>
-
-  <div class="status-overview" id="statusOverview"></div>
 
   <div class="main-layout">
     <div class="timeline-area" id="timelineArea"></div>
@@ -646,35 +583,6 @@ function renderSummary(entries) {
     `<strong>${nUppdrag}</strong> reformer med uppdrag, <strong>${nForb}</strong> med förberedande uppdrag, <strong>${nEj}</strong> utan uppdrag. <strong>${entries.length}</strong> individuella uppdrag listade nedan.${nextText}`;
 }
 
-function renderStatusOverview() {
-  const groups = { uppdrag: [], forberedande: [], ej: [] };
-  reforms.forEach(r => {
-    const u = uppdrag[r.id];
-    const typ = u ? u.typ : 'ej';
-    groups[typ].push(r);
-  });
-
-  const html = ['uppdrag', 'forberedande', 'ej'].map(typ => {
-    const us = uppdragStyles[typ];
-    const list = groups[typ];
-    const label = typ === 'uppdrag' ? 'Uppdrag' : typ === 'forberedande' ? 'Förberedande uppdrag' : 'Ej fått uppdrag';
-    const items = list.map(r => {
-      const cc = catColors[r.cat];
-      return `<li><span class="cat-dot" style="background:${cc.color}"></span>${r.short}</li>`;
-    }).join('');
-    return `<div class="status-col ${typ}">
-      <div class="status-col-header">
-        <span class="status-col-dot" style="background:${us.color}"></span>
-        <span class="status-col-title" style="color:${us.color}">${label}</span>
-      </div>
-      <div class="status-col-count">${list.length}</div>
-      <ul class="status-col-list">${items}</ul>
-    </div>`;
-  }).join('');
-
-  document.getElementById('statusOverview').innerHTML = html;
-}
-
 function renderTimeline(entries) {
   // Group by period
   const grouped = {};
@@ -706,7 +614,7 @@ function renderTimeline(entries) {
       html += `<div class="uppdrag-card ${soon ? 'soon' : ''} ${isSelected ? 'selected' : ''}" data-key="${e.key}">
         <div class="uppdrag-card-top">
           <span class="uppdrag-chip ${us.chipClass}">${us.label}</span>
-          <span class="uppdrag-card-reform"><span class="cat-dot" style="background:${cc.color}"></span>${e.reform.short}</span>
+          <a class="uppdrag-card-reform" href="reformer.html?reform=${e.reformId}" onclick="event.stopPropagation()"><span class="cat-dot" style="background:${cc.color}"></span>${e.reform.short}</a>
           ${soon ? '<span class="soon-badge">Snart</span>' : ''}
         </div>
         <div class="uppdrag-card-titel">${e.titel}</div>
@@ -785,8 +693,21 @@ function closeMobileSidebar() {
 function init() {
   const entries = buildEntries();
   renderSummary(entries);
-  renderStatusOverview();
   renderTimeline(entries);
+
+  // Auto-select from URL param ?uppdrag=key
+  const urlParams = new URLSearchParams(window.location.search);
+  const uppdragParam = urlParams.get('uppdrag');
+  if (uppdragParam) {
+    const match = entries.find(e => e.key === uppdragParam);
+    if (match) {
+      selectEntry(match.key, entries);
+      setTimeout(() => {
+        const card = document.querySelector(`.uppdrag-card[data-key="${match.key}"]`);
+        if (card) card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }, 100);
+    }
+  }
 
   // Card clicks
   document.getElementById('timelineArea').addEventListener('click', e => {
