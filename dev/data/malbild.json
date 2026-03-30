@@ -51,7 +51,8 @@
         "standarder": "Centralt rättade slutprov kräver standardiserad provplattform och enhetliga bedömningsformat.",
         "datafloden": "Meritvärdesberäkning (betyg + provresultat) kräver automatisk datakombination från flera system.",
         "likvardig-miljo": "Alla elever ska genomföra slutprov under rättvisa digitala förhållanden oavsett skola.",
-        "entydig-data": "Betygsvärden från olika skolor måste vara entydigt definierade för att kunna kalibreras nationellt."
+        "entydig-data": "Betygsvärden från olika skolor måste vara entydigt definierade för att kunna kalibreras nationellt.",
+        "datakontroll": "Central rättning kräver anonymisering av elevdata — huvudmannen måste ha kontroll över vilken information som delas med centrala bedömare."
       }
     },
     "stod": {
@@ -65,7 +66,8 @@
     "laroplaner": {
       "pelare": {
         "standarder": "Nya kursplaner med bedömningskriterier kopplade till 1–10-skalan kräver gemensamma standarder i lärplattformar.",
-        "entydig-data": "Ämnesinnehåll och kunskapsmål måste definieras entydigt för nationell jämförbarhet."
+        "entydig-data": "Ämnesinnehåll och kunskapsmål måste definieras entydigt för nationell jämförbarhet.",
+        "likvardig-miljo": "Digitala läromedel anpassade till nya kursplaner kräver att alla elever har tillgång till likvärdig digital lärmiljö oavsett huvudman."
       }
     },
     "tioarig": {
@@ -102,12 +104,16 @@
       }
     },
     "studiero": {
-      "pelare": {}
+      "pelare": {
+        "datakontroll": "Konsekvensplaner och disciplinära åtgärder innehåller känsliga uppgifter som kräver att huvudmannen har kontroll över hantering och kommunikation mellan hem och skola.",
+        "likvardig-miljo": "Elever med skyddsbehov riskerar att exkluderas från digitala miljöer om infrastrukturen inte stödjer säker sekretesshantering av skyddade identiteter."
+      }
     },
     "tid": {
       "pelare": {
         "datafloden": "Uppföljning av maxtak för undervisningstid kräver automatiserad rapportering från schemaläggningssystem.",
-        "entydig-data": "Undervisningstid och planeringstid måste registreras med gemensamma definitioner för att vara jämförbara."
+        "entydig-data": "Undervisningstid och planeringstid måste registreras med gemensamma definitioner för att vara jämförbara.",
+        "standarder": "Utan interoperabilitet mellan huvudmannens system motverkas syftet att frigöra tid — läraren tvingas registrera samma information i flera system."
       }
     },
     "profession": {
