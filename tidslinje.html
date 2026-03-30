@@ -20,15 +20,11 @@
   --larare-bg: #dcfce7;
   --styrning: #6d28d9;
   --styrning-bg: #ede9fe;
+  --tl-left: 70px;
 }
 * { margin: 0; padding: 0; box-sizing: border-box; }
-body {
-  font-family: 'DM Sans', system-ui, sans-serif;
-  background: var(--bg);
-  color: var(--ink);
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-}
+body { font-family: 'DM Sans', system-ui, sans-serif; background: var(--bg); color: var(--ink); line-height: 1.5; -webkit-font-smoothing: antialiased; }
+
 header { background: var(--ink); color: #fff; padding: 1.8rem 1.5rem 1.5rem; }
 .header-inner { max-width: 100%; margin: 0 auto; padding: 0 1.5rem; }
 .header-badge { font-size: 0.6rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(255,255,255,0.35); margin-bottom: 0.4rem; }
@@ -42,8 +38,8 @@ header p { font-size: 0.82rem; color: rgba(255,255,255,0.5); max-width: 500px; }
 
 .container { max-width: 100%; margin: 0 auto; padding: 0 1.5rem; }
 
-/* Filters */
-.filter-bar { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; padding: 0.7rem 1.5rem; border-bottom: 1px solid var(--border); margin: 0 -1.5rem 1.2rem; position: sticky; top: 0; z-index: 20; background: var(--bg); }
+/* Sticky filters */
+.filter-bar { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; padding: 0.7rem 1.5rem; border-bottom: 1px solid var(--border); margin: 0 -1.5rem 1rem; position: sticky; top: 0; z-index: 20; background: var(--bg); }
 .filter-group { display: flex; align-items: center; gap: 0.3rem; }
 .filter-label { font-size: 0.65rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); margin-right: 0.2rem; }
 .filter-btn { padding: 0.28rem 0.6rem; border: 1px solid var(--border); border-radius: 100px; font-size: 0.7rem; font-weight: 500; cursor: pointer; background: #fff; color: #666; font-family: inherit; transition: all 0.15s; }
@@ -52,73 +48,92 @@ header p { font-size: 0.82rem; color: rgba(255,255,255,0.5); max-width: 500px; }
 .filter-sep { width: 1px; height: 20px; background: var(--border); margin: 0 0.3rem; }
 
 /* Main layout */
-.main-layout { display: grid; grid-template-columns: 1fr 320px; gap: 1.5rem; min-height: 600px; }
+.main-layout { display: grid; grid-template-columns: 1fr 300px; gap: 1.5rem; min-height: 600px; }
 
-/* Timeline */
-.timeline-wrap { position: relative; padding: 0 1rem; }
-.timeline-line { position: absolute; left: 50%; top: 0; bottom: 0; width: 2px; background: var(--border); transform: translateX(-50%); z-index: 0; }
+/* Timeline area */
+.timeline-wrap { position: relative; padding-left: var(--tl-left); }
 
-/* Month header */
-.month-header { position: sticky; top: 42px; z-index: 10; background: var(--bg); padding: 0.3rem 0; text-align: center; margin: 0 -1rem; }
-.month-header-inner { display: inline-block; font-size: 0.68rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); background: var(--bg); padding: 0.2rem 0.8rem; border-radius: 100px; border: 1px solid var(--border); }
-.month-header-inner.has-events { color: var(--ink); background: var(--card); }
+/* Vertical axis line */
+.tl-axis { position: absolute; left: var(--tl-left); top: 0; bottom: 0; width: 2px; background: var(--border); }
 
-/* Empty month */
-.month-empty { height: 12px; position: relative; }
-.month-empty .month-label { position: absolute; left: 50%; transform: translateX(-50%); font-size: 0.52rem; color: #ccc; letter-spacing: 0.04em; text-transform: uppercase; white-space: nowrap; }
+/* Month section */
+.tl-month { position: relative; }
+.tl-month.has-events { padding: 0.3rem 0 0.8rem; }
 
-/* Month group with events */
-.month-group { padding: 0.3rem 0 0.5rem; position: relative; }
+/* Month label — left of axis */
+.tl-month-label { position: absolute; left: calc(-1 * var(--tl-left)); width: calc(var(--tl-left) - 12px); text-align: right; top: 0; font-size: 0.58rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); line-height: 1; padding-top: 2px; }
+.tl-month.has-events .tl-month-label { color: var(--ink); font-size: 0.62rem; }
 
-/* Swim lane row */
-.swim-row { display: flex; align-items: flex-start; position: relative; margin-bottom: 0.35rem; }
-.swim-left { width: calc(50% - 16px); display: flex; justify-content: flex-end; padding-right: 1rem; }
-.swim-right { width: calc(50% - 16px); margin-left: auto; padding-left: 1rem; }
-.swim-dot { position: absolute; left: 50%; top: 12px; width: 10px; height: 10px; border-radius: 50%; transform: translateX(-50%); z-index: 2; border: 2px solid var(--card); }
+/* Year divider */
+.tl-year-label { position: absolute; left: calc(-1 * var(--tl-left)); width: calc(var(--tl-left) - 12px); text-align: right; top: -0.9rem; font-size: 0.7rem; font-weight: 700; color: var(--ink); letter-spacing: 0.02em; }
+
+/* Empty month — compressed */
+.tl-month.empty { height: 8px; }
+
+/* Dot on axis */
+.tl-dot { position: absolute; left: -1px; top: 3px; width: 10px; height: 10px; border-radius: 50%; transform: translateX(-50%); z-index: 2; border: 2px solid var(--bg); }
+.tl-dot.dense { width: 12px; height: 12px; top: 2px; }
+
+/* Events area — right of axis */
+.tl-events { margin-left: 16px; }
+
+/* Single-column card list */
+.tl-cards { display: flex; flex-direction: column; gap: 0.3rem; }
+
+/* 2-col grid for dense months */
+.tl-cards.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 0.3rem; }
+
+/* Type sub-header in dense months */
+.tl-type-header { grid-column: 1 / -1; font-size: 0.55rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); padding: 0.3rem 0 0.1rem; border-top: 1px solid var(--border); margin-top: 0.2rem; }
+.tl-type-header:first-child { border-top: none; margin-top: 0; }
 
 /* Event card */
-.event-card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 0.45rem 0.7rem; max-width: 340px; width: 100%; cursor: pointer; transition: all 0.2s; border-left: 3px solid transparent; box-shadow: 0 1px 3px rgba(0,0,0,0.04); }
-.event-card:hover { box-shadow: 0 3px 12px rgba(0,0,0,0.08); transform: translateY(-1px); }
+.event-card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 0.45rem 0.65rem; cursor: pointer; transition: all 0.2s; border-left: 3px solid transparent; box-shadow: 0 1px 3px rgba(0,0,0,0.04); }
+.event-card:hover { box-shadow: 0 3px 10px rgba(0,0,0,0.07); transform: translateY(-1px); }
 .event-card.selected { background: #eef2ff; border-color: var(--kunskap); }
-.event-card.dimmed { opacity: 0.15; }
+.event-card.dimmed { opacity: 0.15; pointer-events: none; }
 .event-card.soon { background: #fffbeb; }
-.event-card.past { opacity: 0.7; }
-.event-card.past .event-titel { color: #666; }
+.event-card.past { opacity: 0.6; }
 
-.event-top { display: flex; align-items: center; gap: 0.35rem; margin-bottom: 0.15rem; flex-wrap: wrap; }
-.event-icon { font-size: 0.7rem; flex-shrink: 0; }
-.event-typ-label { font-size: 0.52rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.03em; color: var(--muted); }
-.event-badges { display: flex; gap: 0.25rem; margin-left: auto; }
+.event-top { display: flex; align-items: center; gap: 0.3rem; margin-bottom: 0.1rem; }
+.event-typ-badge { font-size: 0.5rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.03em; padding: 0.06rem 0.3rem; border-radius: 3px; white-space: nowrap; }
+.typ-ikraftträdande { background: #dbeafe; color: #1d4ed8; }
+.typ-riksdagsbeslut { background: #ede9fe; color: #6d28d9; }
+.typ-redovisning { background: #dcfce7; color: #15803d; }
+.typ-delredovisning { background: #fef3c7; color: #92400e; }
+.typ-milstolpe { background: #fff7ed; color: #ea580c; }
+
+.event-badges { display: flex; gap: 0.2rem; margin-left: auto; }
 .soon-badge { font-size: 0.48rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; padding: 0.04rem 0.25rem; border-radius: 3px; background: #fff7ed; color: #ea580c; border: 1px solid #fed7aa; }
 .past-badge { font-size: 0.48rem; font-weight: 600; color: #15803d; }
 
-.event-datum { font-size: 0.6rem; color: var(--muted); margin-bottom: 0.1rem; }
-.event-titel { font-size: 0.74rem; font-weight: 600; color: var(--ink); line-height: 1.3; margin-bottom: 0.15rem; }
-.event-reform { font-size: 0.62rem; color: var(--muted); display: flex; align-items: center; gap: 0.25rem; }
+.event-titel { font-size: 0.72rem; font-weight: 500; color: var(--ink); line-height: 1.3; margin-bottom: 0.1rem; }
+.event-meta { font-size: 0.58rem; color: var(--muted); display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; }
+.event-reform { display: flex; align-items: center; gap: 0.2rem; }
 .cat-dot { width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; }
 
 /* Sidebar */
-.sidebar { position: sticky; top: 1rem; max-height: calc(100vh - 2rem); overflow-y: auto; display: flex; flex-direction: column; gap: 1rem; }
+.sidebar { position: sticky; top: 50px; max-height: calc(100vh - 60px); overflow-y: auto; display: flex; flex-direction: column; gap: 1rem; }
 
 /* Mini map */
 .minimap { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 0.8rem; }
 .minimap-title { font-size: 0.6rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin-bottom: 0.5rem; }
-.minimap-track { position: relative; height: 300px; width: 100%; cursor: pointer; }
-.minimap-bar { position: absolute; left: 50%; transform: translateX(-50%); width: 6px; top: 0; bottom: 0; background: #f0eeeb; border-radius: 3px; }
-.minimap-segment { position: absolute; left: 50%; transform: translateX(-50%); width: 6px; border-radius: 3px; background: var(--border); transition: background 0.15s; }
+.minimap-track { position: relative; height: 280px; width: 100%; cursor: pointer; }
+.minimap-bar { position: absolute; left: 20px; width: 6px; top: 0; bottom: 0; background: #f0eeeb; border-radius: 3px; }
+.minimap-segment { position: absolute; left: 20px; width: 6px; border-radius: 3px; background: var(--border); }
 .minimap-segment.dense { background: #999; }
 .minimap-segment.very-dense { background: var(--ink); }
-.minimap-label { position: absolute; right: calc(50% + 10px); font-size: 0.5rem; color: var(--muted); white-space: nowrap; transform: translateY(-50%); }
-.minimap-viewport { position: absolute; left: 50%; transform: translateX(-50%); width: 14px; height: 20px; border: 2px solid var(--kunskap); border-radius: 3px; background: rgba(29,78,216,0.08); pointer-events: none; transition: top 0.15s; }
-.minimap-now { position: absolute; left: 0; right: 0; height: 2px; background: var(--ink); transform: translateY(-50%); opacity: 0.6; }
-.minimap-now-label { position: absolute; left: calc(50% + 14px); font-size: 0.5rem; font-weight: 700; color: var(--card); background: var(--ink); padding: 0.05rem 0.35rem; border-radius: 3px; transform: translateY(-50%); white-space: nowrap; }
+.minimap-label { position: absolute; left: 0; font-size: 0.5rem; font-weight: 600; color: var(--muted); white-space: nowrap; transform: translateY(-50%); }
+.minimap-viewport { position: absolute; left: 17px; width: 12px; border: 2px solid var(--kunskap); border-radius: 3px; background: rgba(29,78,216,0.08); pointer-events: none; transition: top 0.15s; }
+.minimap-now { position: absolute; left: 14px; width: 24px; height: 2px; background: var(--ink); transform: translateY(-50%); opacity: 0.6; }
+.minimap-now-label { position: absolute; left: 36px; font-size: 0.5rem; font-weight: 700; color: var(--card); background: var(--ink); padding: 0.05rem 0.35rem; border-radius: 3px; transform: translateY(-50%); white-space: nowrap; }
 
 /* Detail panel */
 .detail-panel { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 1.2rem; overflow-y: auto; }
 .detail-empty { text-align: center; padding: 2rem 1rem; color: var(--muted); font-size: 0.82rem; }
 .detail-empty-icon { font-size: 2rem; margin-bottom: 0.5rem; opacity: 0.3; }
 .detail-cat { display: inline-block; font-size: 0.55rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; padding: 0.1rem 0.4rem; border-radius: 3px; margin-bottom: 0.4rem; }
-.detail-title { font-family: 'Source Serif 4', serif; font-size: 1.1rem; font-weight: 600; line-height: 1.25; margin-bottom: 0.15rem; }
+.detail-title { font-family: 'Source Serif 4', serif; font-size: 1.05rem; font-weight: 600; line-height: 1.25; margin-bottom: 0.15rem; }
 .detail-ref { font-size: 0.7rem; color: var(--muted); margin-bottom: 0.8rem; }
 .detail-section { margin-bottom: 0.8rem; }
 .detail-label { font-size: 0.6rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin-bottom: 0.2rem; }
@@ -127,7 +142,7 @@ header p { font-size: 0.82rem; color: rgba(255,255,255,0.5); max-width: 500px; }
 .detail-link { font-size: 0.66rem; font-weight: 500; color: var(--kunskap); text-decoration: none; padding: 0.2rem 0.45rem; border: 1px solid var(--kunskap-bg); border-radius: 4px; background: #f0f7ff; }
 .detail-link:hover { background: var(--kunskap-bg); }
 
-/* Mobile overlay sidebar */
+/* Mobile */
 .mobile-overlay { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.3); z-index: 150; }
 .mobile-overlay.open { display: block; }
 .mobile-sidebar { display: none; position: fixed; top: 0; right: 0; bottom: 0; width: 85%; max-width: 360px; background: var(--card); z-index: 160; overflow-y: auto; padding: 1rem; box-shadow: -4px 0 24px rgba(0,0,0,0.12); transform: translateX(100%); transition: transform 0.3s ease; }
@@ -136,8 +151,8 @@ header p { font-size: 0.82rem; color: rgba(255,255,255,0.5); max-width: 500px; }
 
 footer { text-align: center; padding: 1.5rem 0 2rem; font-size: 0.62rem; color: #ccc; line-height: 1.7; margin-top: 1rem; border-top: 1px solid var(--border); }
 
-/* Mobile */
 @media (max-width: 800px) {
+  :root { --tl-left: 50px; }
   header { padding: 1rem 1rem 0.8rem; }
   header h1 { font-size: 1.2rem; }
   header p { font-size: 0.72rem; }
@@ -150,12 +165,7 @@ footer { text-align: center; padding: 1.5rem 0 2rem; font-size: 0.62rem; color: 
   footer { font-size: 0.55rem; padding: 1rem 0 1.2rem; }
   .main-layout { grid-template-columns: 1fr; }
   .sidebar { display: none; }
-  .timeline-line { left: 16px; }
-  .swim-row { flex-direction: column; }
-  .swim-left, .swim-right { width: 100%; padding-left: 2.2rem; padding-right: 0; justify-content: flex-start; }
-  .swim-dot { left: 16px; }
-  .event-card { max-width: 100%; }
-  .month-header { text-align: left; padding-left: 2.2rem; }
+  .tl-cards.grid-2 { grid-template-columns: 1fr; }
 }
 </style>
 </head>
@@ -180,11 +190,11 @@ footer { text-align: center; padding: 1.5rem 0 2rem; font-size: 0.62rem; color: 
   <div class="filter-bar">
     <div class="filter-group">
       <span class="filter-label">Typ</span>
-      <button class="filter-btn active" data-filter="typ" data-value="ikraftträdande">🔵 Ikraftträdande</button>
-      <button class="filter-btn active" data-filter="typ" data-value="riksdagsbeslut">🏛️ Riksdagsbeslut</button>
-      <button class="filter-btn active" data-filter="typ" data-value="redovisning">📋 Redovisning</button>
-      <button class="filter-btn active" data-filter="typ" data-value="delredovisning">📝 Delredovisning</button>
-      <button class="filter-btn active" data-filter="typ" data-value="milstolpe">⭐ Milstolpe</button>
+      <button class="filter-btn active" data-filter="typ" data-value="ikraftträdande">Ikraftträdande</button>
+      <button class="filter-btn active" data-filter="typ" data-value="riksdagsbeslut">Riksdagsbeslut</button>
+      <button class="filter-btn active" data-filter="typ" data-value="redovisning">Redovisning</button>
+      <button class="filter-btn active" data-filter="typ" data-value="delredovisning">Delredovisning</button>
+      <button class="filter-btn active" data-filter="typ" data-value="milstolpe">Milstolpe</button>
     </div>
     <div class="filter-sep"></div>
     <div class="filter-group">
@@ -198,15 +208,13 @@ footer { text-align: center; padding: 1.5rem 0 2rem; font-size: 0.62rem; color: 
 
   <div class="main-layout">
     <div class="timeline-wrap" id="timelineWrap">
-      <div class="timeline-line"></div>
+      <div class="tl-axis"></div>
       <div id="timelineContent"></div>
     </div>
     <div class="sidebar" id="sidebarArea">
       <div class="minimap" id="minimap">
         <div class="minimap-title">Översikt</div>
-        <div class="minimap-track" id="minimapTrack">
-          <div class="minimap-bar"></div>
-        </div>
+        <div class="minimap-track" id="minimapTrack"></div>
       </div>
       <div class="detail-panel" id="detailPanel">
         <div class="detail-empty">
@@ -242,44 +250,24 @@ const catColors = {
   styrning: { color: '#6d28d9', bg: '#ede9fe' }
 };
 const catLabels = { kunskap: 'Kunskap & bedömning', trygghet: 'Trygghet & säkerhet', larare: 'Lärarvillkor', styrning: 'Styrning & organisation' };
+const typLabels = { 'ikraftträdande': 'Ikraftträdande', 'riksdagsbeslut': 'Riksdagsbeslut', 'redovisning': 'Redovisning', 'delredovisning': 'Delredovisning', 'milstolpe': 'Milstolpe' };
+const typDotColors = { 'ikraftträdande': '#1d4ed8', 'riksdagsbeslut': '#6d28d9', 'redovisning': '#15803d', 'delredovisning': '#d97706', 'milstolpe': '#ea580c' };
+const typCssClass = { 'ikraftträdande': 'typ-ikraftträdande', 'riksdagsbeslut': 'typ-riksdagsbeslut', 'redovisning': 'typ-redovisning', 'delredovisning': 'typ-delredovisning', 'milstolpe': 'typ-milstolpe' };
 
-const typIcons = {
-  'ikraftträdande': '🔵',
-  'riksdagsbeslut': '🏛️',
-  'redovisning': '📋',
-  'delredovisning': '📝',
-  'milstolpe': '⭐'
-};
-const typLabels = {
-  'ikraftträdande': 'Ikraftträdande',
-  'riksdagsbeslut': 'Riksdagsbeslut',
-  'redovisning': 'Redovisning',
-  'delredovisning': 'Delredovisning',
-  'milstolpe': 'Milstolpe'
-};
-const typDotColors = {
-  'ikraftträdande': '#1d4ed8',
-  'riksdagsbeslut': '#6d28d9',
-  'redovisning': '#15803d',
-  'delredovisning': '#d97706',
-  'milstolpe': '#ea580c'
-};
-
-const monthNames = ['', 'Januari', 'Februari', 'Mars', 'April', 'Maj', 'Juni', 'Juli', 'Augusti', 'September', 'Oktober', 'November', 'December'];
+const monthNames = ['', 'Jan', 'Feb', 'Mar', 'Apr', 'Maj', 'Jun', 'Jul', 'Aug', 'Sep', 'Okt', 'Nov', 'Dec'];
+const monthNamesFull = ['', 'Januari', 'Februari', 'Mars', 'April', 'Maj', 'Juni', 'Juli', 'Augusti', 'September', 'Oktober', 'November', 'December'];
 const monthNamesShort = ['', 'jan', 'feb', 'mar', 'apr', 'maj', 'jun', 'jul', 'aug', 'sep', 'okt', 'nov', 'dec'];
 
 let activeTyps = new Set(['ikraftträdande', 'riksdagsbeslut', 'redovisning', 'delredovisning', 'milstolpe']);
 let activeKats = new Set(['kunskap', 'trygghet', 'larare', 'styrning']);
-
 const NOW = new Date('2026-03-30');
 
-// Parse datum field — handles YYYY-MM-DD and YYYY-QX
 function parseDatum(d) {
   if (/^\d{4}-Q\d$/.test(d)) {
     const y = parseInt(d.substring(0, 4));
     const q = parseInt(d[6]);
-    const m = (q - 1) * 3 + 2; // middle month of quarter
-    return { year: y, month: m, day: 15, iso: `${y}-${String(m).padStart(2,'0')}-15`, approx: true, label: `${d.substring(0, 4)} Q${q}` };
+    const m = (q - 1) * 3 + 2;
+    return { year: y, month: m, day: 15, iso: `${y}-${String(m).padStart(2,'0')}-15`, approx: true, label: `${y} Q${q}` };
   }
   const [y, m, dd] = d.split('-').map(Number);
   return { year: y, month: m, day: dd, iso: d, approx: false, label: `${dd} ${monthNamesShort[m]} ${y}` };
@@ -291,18 +279,9 @@ function isMatch(h) {
   if (!h.kategori && activeKats.size === 0) return false;
   return true;
 }
+function isSoon(p) { const d = (new Date(p.iso) - NOW) / 86400000; return d >= 0 && d <= 30; }
+function isPast(p) { return new Date(p.iso) < NOW; }
 
-function isSoon(parsed) {
-  const target = new Date(parsed.iso);
-  const diff = (target - NOW) / (1000 * 60 * 60 * 24);
-  return diff >= 0 && diff <= 30;
-}
-
-function isPast(parsed) {
-  return new Date(parsed.iso) < NOW;
-}
-
-// Build month keys from all events
 function buildMonthRange() {
   let minY = 9999, minM = 12, maxY = 0, maxM = 1;
   handelser.forEach(h => {
@@ -312,131 +291,107 @@ function buildMonthRange() {
   });
   const months = [];
   for (let y = minY; y <= maxY; y++) {
-    const startM = (y === minY) ? minM : 1;
-    const endM = (y === maxY) ? maxM : 12;
-    for (let m = startM; m <= endM; m++) {
+    for (let m = (y === minY ? minM : 1); m <= (y === maxY ? maxM : 12); m++) {
       months.push({ year: y, month: m, key: `${y}-${String(m).padStart(2,'0')}` });
     }
   }
   return months;
 }
 
-function groupByMonth(events) {
+function groupByMonth() {
   const map = {};
-  events.forEach(h => {
+  handelser.forEach(h => {
     const p = parseDatum(h.datum);
     const key = `${p.year}-${String(p.month).padStart(2,'0')}`;
     if (!map[key]) map[key] = [];
     map[key].push({ ...h, parsed: p });
   });
-  // Sort within each month
   Object.values(map).forEach(arr => arr.sort((a, b) => a.parsed.iso.localeCompare(b.parsed.iso)));
   return map;
 }
 
+function renderCard(ev) {
+  const match = isMatch(ev);
+  const soon = isSoon(ev.parsed);
+  const past = isPast(ev.parsed);
+  const cc = ev.kategori ? catColors[ev.kategori] : null;
+  const reform = ev.reform ? reforms.find(r => r.id === ev.reform) : null;
+  const cls = ['event-card', !match ? 'dimmed' : '', soon && match ? 'soon' : '', past && match && !soon ? 'past' : '', ev.id === selectedId ? 'selected' : ''].filter(Boolean).join(' ');
+  const border = cc ? cc.color : 'var(--border)';
+
+  return `<div class="${cls}" data-id="${ev.id}" style="border-left-color:${border}">
+    <div class="event-top">
+      <span class="event-typ-badge ${typCssClass[ev.typ] || ''}">${typLabels[ev.typ]}</span>
+      <span class="event-badges">
+        ${soon && match ? '<span class="soon-badge">Snart</span>' : ''}
+        ${past && match && !soon ? '<span class="past-badge">✓</span>' : ''}
+      </span>
+    </div>
+    <div class="event-titel">${ev.titel}</div>
+    <div class="event-meta">
+      <span>${ev.parsed.label}${ev.parsed.approx ? ' (ca)' : ''}</span>
+      ${reform ? `<span class="event-reform"><span class="cat-dot" style="background:${cc ? cc.color : '#999'}"></span>${reform.short}</span>` : ''}
+    </div>
+  </div>`;
+}
+
 function renderTimeline() {
   const months = buildMonthRange();
-  const grouped = groupByMonth(handelser);
+  const grouped = groupByMonth();
   let html = '';
-  let side = 0; // 0=left, 1=right, alternates
+  let lastYear = null;
 
   months.forEach(mo => {
     const events = grouped[mo.key] || [];
-    const label = `${monthNames[mo.month]} ${mo.year}`;
+    const hasEvents = events.length > 0;
+    const isDense = events.length >= 3;
 
-    if (events.length === 0) {
-      html += `<div class="month-empty" data-month="${mo.key}"><span class="month-label">${monthNamesShort[mo.month]} ${mo.year}</span></div>`;
+    html += `<div class="tl-month ${hasEvents ? 'has-events' : 'empty'}" data-month="${mo.key}">`;
+
+    // Year divider
+    if (mo.year !== lastYear) {
+      html += `<div class="tl-year-label">${mo.year}</div>`;
+      lastYear = mo.year;
+    }
+
+    // Month label
+    html += `<div class="tl-month-label">${monthNames[mo.month]}</div>`;
+
+    if (!hasEvents) {
+      html += '</div>';
       return;
     }
 
-    html += `<div class="month-header" data-month="${mo.key}"><span class="month-header-inner has-events">${label}</span></div>`;
-    html += `<div class="month-group" data-month="${mo.key}">`;
+    // Dot on axis — first event's type color, larger if dense
+    const dotColor = typDotColors[events[0].typ] || '#999';
+    html += `<div class="tl-dot ${isDense ? 'dense' : ''}" style="background:${dotColor}"></div>`;
 
-    // Swim lanes: if >3 events, group by type
-    const useLanes = events.length > 3;
-    const typGroups = {};
-    if (useLanes) {
+    // Events area
+    html += '<div class="tl-events">';
+
+    if (isDense) {
+      // Group by type, render 2-col grid with type sub-headers
+      const typeOrder = ['ikraftträdande', 'riksdagsbeslut', 'redovisning', 'delredovisning', 'milstolpe'];
+      const typGroups = {};
       events.forEach(ev => {
         if (!typGroups[ev.typ]) typGroups[ev.typ] = [];
         typGroups[ev.typ].push(ev);
       });
-    }
-
-    const renderCard = (ev, sideClass) => {
-      const match = isMatch(ev);
-      const soon = isSoon(ev.parsed);
-      const past = isPast(ev.parsed);
-      const cc = ev.kategori ? catColors[ev.kategori] : null;
-      const reform = ev.reform ? reforms.find(r => r.id === ev.reform) : null;
-      const sel = ev.id === selectedId;
-
-      const classes = [
-        'event-card',
-        !match ? 'dimmed' : '',
-        soon && match ? 'soon' : '',
-        past && match ? 'past' : '',
-        sel ? 'selected' : ''
-      ].filter(Boolean).join(' ');
-
-      const borderColor = cc ? cc.color : 'var(--border)';
-
-      return `<div class="${classes}" data-id="${ev.id}" style="border-left-color:${borderColor}">
-        <div class="event-top">
-          <span class="event-icon">${typIcons[ev.typ] || ''}</span>
-          <span class="event-typ-label">${typLabels[ev.typ] || ev.typ}</span>
-          <span class="event-badges">
-            ${soon && match ? '<span class="soon-badge">Snart</span>' : ''}
-            ${past && match ? '<span class="past-badge">✓</span>' : ''}
-          </span>
-        </div>
-        <div class="event-datum">${ev.parsed.label}${ev.parsed.approx ? ' (ungefärligt)' : ''}</div>
-        <div class="event-titel">${ev.titel}</div>
-        ${reform ? `<div class="event-reform"><span class="cat-dot" style="background:${cc ? cc.color : '#999'}"></span>${reform.short}</div>` : ''}
-      </div>`;
-    };
-
-    if (useLanes) {
-      // Render by type groups, alternating sides
-      const typeOrder = ['ikraftträdande', 'riksdagsbeslut', 'redovisning', 'delredovisning', 'milstolpe'];
+      html += '<div class="tl-cards grid-2">';
       typeOrder.forEach(typ => {
         const evs = typGroups[typ];
         if (!evs) return;
-        evs.forEach(ev => {
-          const dotColor = typDotColors[ev.typ] || '#999';
-          const sideClass = side % 2 === 0 ? 'swim-left' : 'swim-right';
-          html += `<div class="swim-row">`;
-          if (side % 2 === 0) {
-            html += `<div class="swim-left">${renderCard(ev, 'left')}</div>`;
-            html += `<div class="swim-dot" style="background:${dotColor}"></div>`;
-            html += `<div class="swim-right"></div>`;
-          } else {
-            html += `<div class="swim-left"></div>`;
-            html += `<div class="swim-dot" style="background:${dotColor}"></div>`;
-            html += `<div class="swim-right">${renderCard(ev, 'right')}</div>`;
-          }
-          html += `</div>`;
-          side++;
-        });
+        html += `<div class="tl-type-header">${typLabels[typ]} (${evs.length})</div>`;
+        evs.forEach(ev => { html += renderCard(ev); });
       });
+      html += '</div>';
     } else {
-      events.forEach(ev => {
-        const dotColor = typDotColors[ev.typ] || '#999';
-        html += `<div class="swim-row">`;
-        if (side % 2 === 0) {
-          html += `<div class="swim-left">${renderCard(ev, 'left')}</div>`;
-          html += `<div class="swim-dot" style="background:${dotColor}"></div>`;
-          html += `<div class="swim-right"></div>`;
-        } else {
-          html += `<div class="swim-left"></div>`;
-          html += `<div class="swim-dot" style="background:${dotColor}"></div>`;
-          html += `<div class="swim-right">${renderCard(ev, 'right')}</div>`;
-        }
-        html += `</div>`;
-        side++;
-      });
+      html += '<div class="tl-cards">';
+      events.forEach(ev => { html += renderCard(ev); });
+      html += '</div>';
     }
 
-    html += `</div>`;
+    html += '</div></div>';
   });
 
   document.getElementById('timelineContent').innerHTML = html;
@@ -444,34 +399,30 @@ function renderTimeline() {
 
 function renderMinimap() {
   const months = buildMonthRange();
-  const grouped = groupByMonth(handelser);
+  const grouped = groupByMonth();
   const track = document.getElementById('minimapTrack');
-  const totalMonths = months.length;
-  if (totalMonths === 0) return;
+  const n = months.length;
+  if (!n) return;
 
   let inner = '<div class="minimap-bar"></div>';
-  const segH = 300 / totalMonths;
+  const segH = 280 / n;
 
   months.forEach((mo, i) => {
     const count = (grouped[mo.key] || []).length;
-    const top = (i / totalMonths) * 300;
+    const top = (i / n) * 280;
     const h = Math.max(segH - 1, 2);
-
     if (count > 0) {
       const cls = count >= 4 ? 'very-dense' : count >= 2 ? 'dense' : '';
-      inner += `<div class="minimap-segment ${cls}" style="top:${top}px;height:${h}px" data-month="${mo.key}"></div>`;
+      inner += `<div class="minimap-segment ${cls}" style="top:${top}px;height:${h}px"></div>`;
     }
-
-    // Year labels
     if (mo.month === 1 || i === 0) {
       inner += `<div class="minimap-label" style="top:${top}px">${mo.year}</div>`;
     }
   });
 
-  // "Now" marker
-  const nowMonthIdx = months.findIndex(m => m.year === 2026 && m.month === 3);
-  if (nowMonthIdx >= 0) {
-    const nowTop = ((nowMonthIdx + 0.5) / totalMonths) * 300;
+  const nowIdx = months.findIndex(m => m.year === 2026 && m.month === 3);
+  if (nowIdx >= 0) {
+    const nowTop = ((nowIdx + 0.5) / n) * 280;
     inner += `<div class="minimap-now" style="top:${nowTop}px"></div>`;
     inner += `<div class="minimap-now-label" style="top:${nowTop}px">Nu</div>`;
   }
@@ -479,35 +430,30 @@ function renderMinimap() {
   inner += '<div class="minimap-viewport" id="minimapViewport"></div>';
   track.innerHTML = inner;
 
-  // Click to scroll — find the month-header or month-group element
   track.addEventListener('click', e => {
     const rect = track.getBoundingClientRect();
-    const ratio = (e.clientY - rect.top) / rect.height;
-    const idx = Math.min(Math.floor(ratio * totalMonths), totalMonths - 1);
+    const idx = Math.min(Math.floor(((e.clientY - rect.top) / rect.height) * n), n - 1);
     const mo = months[idx];
-    // Prefer month-header, fall back to month-group or month-empty
-    const el = document.querySelector(`.month-header[data-month="${mo.key}"]`)
-            || document.querySelector(`.month-group[data-month="${mo.key}"]`)
-            || document.querySelector(`[data-month="${mo.key}"]`);
+    const el = document.querySelector(`.tl-month[data-month="${mo.key}"]`);
     if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
   });
 
-  updateMinimapViewport(months);
+  updateMinimapViewport();
 }
 
-function updateMinimapViewport(months) {
-  const viewport = document.getElementById('minimapViewport');
-  if (!viewport || !months || months.length === 0) return;
+function updateMinimapViewport() {
+  const vp = document.getElementById('minimapViewport');
+  if (!vp) return;
   const wrap = document.getElementById('timelineWrap');
-  const wrapRect = wrap.getBoundingClientRect();
+  const rect = wrap.getBoundingClientRect();
   const totalH = wrap.scrollHeight;
   const viewH = window.innerHeight;
-  // How far the top of the timeline is scrolled past the top of the viewport
-  const scrolled = -wrapRect.top;
-  const ratio = Math.max(0, Math.min(1, scrolled / (totalH - viewH)));
+  const scrolled = -rect.top;
+  const maxScroll = totalH - viewH;
+  const ratio = maxScroll > 0 ? Math.max(0, Math.min(1, scrolled / maxScroll)) : 0;
   const viewRatio = Math.min(1, viewH / totalH);
-  viewport.style.top = (ratio * (1 - viewRatio) * 300) + 'px';
-  viewport.style.height = Math.max(10, viewRatio * 300) + 'px';
+  vp.style.top = (ratio * (1 - viewRatio) * 280) + 'px';
+  vp.style.height = Math.max(8, viewRatio * 280) + 'px';
 }
 
 function selectEvent(id) {
@@ -524,7 +470,7 @@ function selectEvent(id) {
   let html = '';
   if (cc) html += `<div class="detail-cat" style="background:${cc.bg};color:${cc.color}">${catLabels[h.kategori]}</div>`;
   html += `<div class="detail-title">${h.titel}</div>`;
-  html += `<div class="detail-ref">${typIcons[h.typ]} ${typLabels[h.typ]} · ${p.label}</div>`;
+  html += `<div class="detail-ref"><span class="event-typ-badge ${typCssClass[h.typ]}" style="font-size:0.55rem">${typLabels[h.typ]}</span> · ${p.label}</div>`;
 
   if (reform) {
     const rc = catColors[reform.cat];
@@ -532,19 +478,15 @@ function selectEvent(id) {
       <div class="detail-label">Kopplad reform</div>
       <div class="detail-text"><span class="cat-dot" style="background:${rc.color};display:inline-block;vertical-align:middle;margin-right:4px"></span>${reform.short} (${reform.ref})</div>
       <div class="detail-links" style="margin-top:0.4rem">
-        <a class="detail-link" href="reformer.html?reform=${reform.id}">→ Visa i reformtabellen</a>
-        <a class="detail-link" href="uppdrag.html?uppdrag=${reform.id}">→ Visa uppdrag</a>
+        <a class="detail-link" href="reformer.html?reform=${reform.id}">→ Reformtabellen</a>
+        <a class="detail-link" href="uppdrag.html?uppdrag=${reform.id}">→ Uppdrag</a>
       </div>
     </div>`;
   }
 
-  html += `<div class="detail-section">
-    <div class="detail-label">Källa</div>
-    <div class="detail-text">${h.kalla}</div>
-  </div>`;
+  html += `<div class="detail-section"><div class="detail-label">Källa</div><div class="detail-text">${h.kalla}</div></div>`;
 
   document.getElementById('detailPanel').innerHTML = html;
-
   if (window.innerWidth <= 800) {
     document.getElementById('mobileSidebarContent').innerHTML = html;
     document.getElementById('mobileSidebar').classList.add('open');
@@ -556,7 +498,6 @@ function clearDetail() {
   document.getElementById('detailPanel').innerHTML = '<div class="detail-empty"><div class="detail-empty-icon">◉</div>Klicka på en händelse<br>för att se detaljer.</div>';
   closeMobileSidebar();
 }
-
 function closeMobileSidebar() {
   document.getElementById('mobileSidebar').classList.remove('open');
   document.getElementById('mobileOverlay').classList.remove('open');
@@ -565,42 +506,30 @@ function closeMobileSidebar() {
 function init() {
   renderTimeline();
   renderMinimap();
-  const months = buildMonthRange();
 
-  // Card clicks
   document.getElementById('timelineContent').addEventListener('click', e => {
     const card = e.target.closest('.event-card[data-id]');
     if (card) selectEvent(card.dataset.id);
   });
 
-  // Filter toggles
   document.querySelectorAll('.filter-btn[data-filter]').forEach(btn => {
     btn.addEventListener('click', () => {
       btn.classList.toggle('active');
-      const filter = btn.dataset.filter;
-      const value = btn.dataset.value;
-      if (filter === 'typ') {
-        if (btn.classList.contains('active')) activeTyps.add(value);
-        else activeTyps.delete(value);
-      } else {
-        if (btn.classList.contains('active')) activeKats.add(value);
-        else activeKats.delete(value);
-      }
+      const f = btn.dataset.filter, v = btn.dataset.value;
+      const set = f === 'typ' ? activeTyps : activeKats;
+      btn.classList.contains('active') ? set.add(v) : set.delete(v);
       renderTimeline();
     });
   });
 
-  // Scroll tracking for minimap
-  window.addEventListener('scroll', () => updateMinimapViewport(months), { passive: true });
+  window.addEventListener('scroll', updateMinimapViewport, { passive: true });
 
-  // Mobile sidebar close
   document.getElementById('mobileSidebarClose').addEventListener('click', closeMobileSidebar);
   document.getElementById('mobileOverlay').addEventListener('click', closeMobileSidebar);
   document.addEventListener('keydown', e => { if (e.key === 'Escape') closeMobileSidebar(); });
 }
 
 function dataPath(f) { return 'data/' + f; }
-
 async function loadData() {
   try {
     const cb = '?v=' + Date.now();
@@ -616,7 +545,6 @@ async function loadData() {
     document.getElementById('timelineContent').innerHTML = '<p style="padding:2rem;color:#b91c1c;">Kunde inte ladda data.</p>';
   }
 }
-
 window.addEventListener('load', loadData);
 </script>
 
