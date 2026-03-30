@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Uppdrag — Skolreformer 2025–2028</title>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --ink: #1c1c1c;
+  --bg: #f7f6f3;
+  --card: #ffffff;
+  --border: #e5e2dc;
+  --muted: #999;
+  --kunskap: #1d4ed8;
+  --kunskap-bg: #dbeafe;
+  --trygghet: #b91c1c;
+  --trygghet-bg: #fee2e2;
+  --larare: #15803d;
+  --larare-bg: #dcfce7;
+  --styrning: #6d28d9;
+  --styrning-bg: #ede9fe;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'DM Sans', system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+header {
+  background: var(--ink);
+  color: #fff;
+  padding: 1.8rem 1.5rem 1.5rem;
+}
+.header-inner {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+.header-badge {
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.35);
+  margin-bottom: 0.4rem;
+}
+header h1 {
+  font-family: 'Source Serif 4', serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 0.3rem;
+}
+header p {
+  font-size: 0.82rem;
+  color: rgba(255,255,255,0.5);
+  max-width: 500px;
+}
+
+/* Tab navigation */
+.tab-nav {
+  display: flex;
+  gap: 0;
+  background: var(--card);
+  border-bottom: 1px solid var(--border);
+}
+.tab-nav a {
+  padding: 0.65rem 1.2rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--muted);
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: all 0.15s;
+}
+.tab-nav a:hover { color: var(--ink); }
+.tab-nav a.active {
+  color: var(--ink);
+  font-weight: 600;
+  border-bottom-color: var(--ink);
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* Summary bar */
+.summary-bar {
+  padding: 1rem 0;
+  font-size: 0.78rem;
+  color: #444;
+  line-height: 1.6;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 1.2rem;
+}
+.summary-bar strong { color: var(--ink); }
+
+/* Status overview - three columns */
+.status-overview {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+.status-col {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1rem;
+  border-top: 3px solid var(--border);
+}
+.status-col.uppdrag { border-top-color: #15803d; }
+.status-col.forberedande { border-top-color: #d97706; }
+.status-col.ej { border-top-color: #9ca3af; }
+
+.status-col-header {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 0.6rem;
+}
+.status-col-dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.status-col-title {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.status-col-count {
+  font-family: 'Source Serif 4', serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+.status-col-list {
+  list-style: none;
+  padding: 0;
+}
+.status-col-list li {
+  font-size: 0.72rem;
+  padding: 0.2rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: #444;
+}
+.status-col-list .cat-dot {
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* Main layout */
+.main-layout {
+  display: grid;
+  grid-template-columns: 1fr 360px;
+  gap: 1.5rem;
+  min-height: 400px;
+}
+
+/* Timeline groups */
+.timeline-area { }
+.time-group {
+  margin-bottom: 1.5rem;
+}
+.time-group-header {
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  padding: 0.4rem 0;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 0.5rem;
+}
+.time-group-count {
+  font-weight: 400;
+  color: #bbb;
+  margin-left: 0.3rem;
+}
+
+/* Uppdrag card */
+.uppdrag-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.8rem 1rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  transition: all 0.15s;
+  border-left: 3px solid transparent;
+}
+.uppdrag-card:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+.uppdrag-card.selected { background: #eef2ff; border-color: var(--kunskap); }
+.uppdrag-card.soon {
+  border-left-color: #ea580c;
+}
+
+.uppdrag-card-top {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.3rem;
+  flex-wrap: wrap;
+}
+.uppdrag-card-name {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+.cat-dot {
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.uppdrag-chip {
+  display: inline-block;
+  font-size: 0.55rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  padding: 0.08rem 0.35rem;
+  border-radius: 3px;
+}
+.uppdrag-chip.typ-uppdrag { background: #dcfce7; color: #15803d; }
+.uppdrag-chip.typ-forberedande { background: #fef3c7; color: #92400e; }
+.uppdrag-chip.typ-ej { background: #f3f4f6; color: #6b7280; }
+
+.soon-badge {
+  display: inline-block;
+  font-size: 0.52rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.06rem 0.3rem;
+  border-radius: 3px;
+  background: #fff7ed;
+  color: #ea580c;
+  border: 1px solid #fed7aa;
+}
+
+.uppdrag-card-date {
+  font-size: 0.66rem;
+  color: var(--muted);
+  margin-bottom: 0.2rem;
+}
+.uppdrag-card-kort {
+  font-size: 0.72rem;
+  color: #555;
+  line-height: 1.45;
+}
+
+/* Detail panel */
+.detail-panel {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1.2rem;
+  overflow-y: auto;
+  max-height: 750px;
+  position: sticky;
+  top: 1rem;
+}
+.detail-empty {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+.detail-empty-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  opacity: 0.3;
+}
+.detail-cat {
+  display: inline-block;
+  font-size: 0.55rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.1rem 0.4rem;
+  border-radius: 3px;
+  margin-bottom: 0.4rem;
+}
+.detail-title {
+  font-family: 'Source Serif 4', serif;
+  font-size: 1.15rem;
+  font-weight: 600;
+  line-height: 1.25;
+  margin-bottom: 0.15rem;
+}
+.detail-ref {
+  font-size: 0.7rem;
+  color: var(--muted);
+  margin-bottom: 0.8rem;
+}
+.detail-section { margin-bottom: 0.8rem; }
+.detail-label {
+  font-size: 0.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  margin-bottom: 0.2rem;
+}
+.detail-text {
+  font-size: 0.76rem;
+  line-height: 1.55;
+  color: #444;
+  white-space: pre-wrap;
+}
+.detail-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-top: 0.6rem;
+}
+.detail-link {
+  font-size: 0.66rem;
+  font-weight: 500;
+  color: var(--kunskap);
+  text-decoration: none;
+  padding: 0.2rem 0.45rem;
+  border: 1px solid var(--kunskap-bg);
+  border-radius: 4px;
+  background: #f0f7ff;
+}
+.detail-link:hover { background: var(--kunskap-bg); }
+
+/* Mobile sidebar overlay */
+.mobile-overlay {
+  display: none;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.3);
+  z-index: 150;
+}
+.mobile-overlay.open { display: block; }
+.mobile-sidebar {
+  display: none;
+  position: fixed;
+  top: 0; right: 0; bottom: 0;
+  width: 85%;
+  max-width: 360px;
+  background: var(--card);
+  z-index: 160;
+  overflow-y: auto;
+  padding: 1rem;
+  box-shadow: -4px 0 24px rgba(0,0,0,0.12);
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+}
+.mobile-sidebar.open {
+  display: block;
+  transform: translateX(0);
+}
+.mobile-sidebar-close {
+  position: sticky;
+  top: 0;
+  text-align: right;
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  color: var(--muted);
+  cursor: pointer;
+  padding: 0.2rem;
+  z-index: 1;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem 0 2rem;
+  font-size: 0.62rem;
+  color: #ccc;
+  line-height: 1.7;
+  margin-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+
+/* Mobile */
+@media (max-width: 800px) {
+  header { padding: 1rem 1rem 0.8rem; }
+  header h1 { font-size: 1.2rem; }
+  header p { font-size: 0.72rem; }
+  .container { padding: 0 0.8rem; }
+  .tab-nav a { padding: 0.5rem 0.8rem; font-size: 0.68rem; }
+  footer { font-size: 0.55rem; padding: 1rem 0 1.2rem; }
+
+  .status-overview { grid-template-columns: 1fr; gap: 0.6rem; }
+  .status-col { padding: 0.7rem; }
+  .status-col-count { font-size: 1.3rem; }
+
+  .main-layout { grid-template-columns: 1fr; }
+  .detail-panel { display: none; }
+  .summary-bar { font-size: 0.72rem; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="header-badge">Kunskapsyta · mars 2026 · Privatprojekt av Niklas Leide</div>
+    <h1>Skolverkets uppdrag — Skolreformer 2025–2028</h1>
+    <p>Vilka reformer har Skolverket fått i uppdrag att förbereda, och när ska de redovisas?</p>
+  </div>
+</header>
+
+<div class="tab-nav">
+  <a href="index.html">Reformkarta</a>
+  <a href="reformer.html">Reformer</a>
+  <a href="uppdrag.html" class="active">Uppdrag</a>
+</div>
+
+<div class="container">
+  <div class="summary-bar" id="summaryBar"></div>
+
+  <div class="status-overview" id="statusOverview"></div>
+
+  <div class="main-layout">
+    <div class="timeline-area" id="timelineArea"></div>
+    <div class="detail-panel" id="detailPanel">
+      <div class="detail-empty">
+        <div class="detail-empty-icon">◉</div>
+        Klicka på ett uppdrag<br>för att se detaljer.
+      </div>
+    </div>
+  </div>
+
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+  <div class="mobile-sidebar" id="mobileSidebar">
+    <button class="mobile-sidebar-close" id="mobileSidebarClose" aria-label="Stäng">×</button>
+    <div id="mobileSidebarContent"></div>
+  </div>
+
+  <footer>
+    Källor: regeringen.se, skolverket.se, riksdagen.se · Sammanställd mars 2026<br>
+    Kontrollera datum mot originaldokumenten. Dela gärna med kollegor.<br>
+    © 2026 Niklas Leide
+  </footer>
+</div>
+
+<script>
+let reforms = [];
+let uppdrag = {};
+let selectedId = null;
+
+const catColors = {
+  kunskap: { color: '#1d4ed8', bg: '#dbeafe' },
+  trygghet: { color: '#b91c1c', bg: '#fee2e2' },
+  larare: { color: '#15803d', bg: '#dcfce7' },
+  styrning: { color: '#6d28d9', bg: '#ede9fe' }
+};
+const catLabels = {
+  kunskap: 'Kunskap & bedömning',
+  trygghet: 'Trygghet & säkerhet',
+  larare: 'Lärarvillkor',
+  styrning: 'Styrning & organisation'
+};
+
+const uppdragStyles = {
+  uppdrag: { color: '#15803d', label: 'Uppdrag', chipClass: 'typ-uppdrag' },
+  forberedande: { color: '#d97706', label: 'Förberedande', chipClass: 'typ-forberedande' },
+  ej: { color: '#9ca3af', label: 'Ej uppdrag', chipClass: 'typ-ej' }
+};
+
+// Swedish month names for date parsing
+const monthMap = {
+  'januari': '01', 'februari': '02', 'mars': '03', 'april': '04',
+  'maj': '05', 'juni': '06', 'juli': '07', 'augusti': '08',
+  'september': '09', 'oktober': '10', 'november': '11', 'december': '12',
+  'jan': '01', 'feb': '02', 'mar': '03', 'apr': '04',
+  'jun': '06', 'jul': '07', 'aug': '08', 'sep': '09',
+  'sept': '09', 'okt': '10', 'nov': '11', 'dec': '12'
+};
+
+// Extract the earliest redovisning date from kort/fulltext
+function extractRedovisningsDatum(u) {
+  if (!u) return null;
+  // Look for patterns like "Redovisas X Y ZZZZ", "redovisas senast den X Y ZZZZ", "X Y ZZZZ"
+  const text = (u.kort || '') + ' ' + (u.fulltext || '');
+  const patterns = [
+    /[Rr]edovisas?\s+(?:senast\s+)?(?:den\s+)?(\d{1,2})\s+(januari|februari|mars|april|maj|juni|juli|augusti|september|oktober|november|december|jan|feb|mar|apr|jun|jul|aug|sep|sept|okt|nov|dec)\s+(\d{4})/gi,
+  ];
+  let earliest = null;
+  for (const pat of patterns) {
+    let m;
+    while ((m = pat.exec(text)) !== null) {
+      const day = m[1].padStart(2, '0');
+      const month = monthMap[m[2].toLowerCase()];
+      const year = m[3];
+      if (month) {
+        const d = `${year}-${month}-${day}`;
+        if (!earliest || d < earliest) earliest = d;
+      }
+    }
+  }
+  return earliest;
+}
+
+// Parse ikraft date like "1 juli 2028" to ISO-ish string
+function parseIkraft(ikraft) {
+  const m = ikraft.match(/(\d{1,2})\s+(\w+)\s+(\d{4})/);
+  if (!m) {
+    // Try just year
+    const y = ikraft.match(/(\d{4})/);
+    return y ? y[1] + '-07-01' : '2028-01-01';
+  }
+  const month = monthMap[m[2].toLowerCase()];
+  if (!month) return m[3] + '-07-01';
+  return `${m[3]}-${month}-${m[1].padStart(2, '0')}`;
+}
+
+// Assign each reform to a time period based on redovisning or ikraft
+function getTimePeriod(dateStr) {
+  if (!dateStr) return '2028+';
+  const year = parseInt(dateStr.substring(0, 4));
+  const month = parseInt(dateStr.substring(5, 7));
+  if (year < 2026) return 'Q2 2026';
+  if (year === 2026) {
+    if (month <= 3) return 'Q2 2026'; // already past, group with nearest
+    if (month <= 6) return 'Q2 2026';
+    if (month <= 9) return 'Q3 2026';
+    return 'Q4 2026';
+  }
+  if (year === 2027) return '2027';
+  return '2028+';
+}
+
+const periodLabels = {
+  'Q2 2026': 'Q2 2026 (april–juni)',
+  'Q3 2026': 'Q3 2026 (juli–sept)',
+  'Q4 2026': 'Q4 2026 (okt–dec)',
+  '2027': '2027',
+  '2028+': '2028+'
+};
+const periodOrder = ['Q2 2026', 'Q3 2026', 'Q4 2026', '2027', '2028+'];
+
+function formatDate(dateStr) {
+  if (!dateStr) return '';
+  const [y, m, d] = dateStr.split('-');
+  const monthNames = ['', 'jan', 'feb', 'mars', 'april', 'maj', 'juni', 'juli', 'aug', 'sep', 'okt', 'nov', 'dec'];
+  return `${parseInt(d)} ${monthNames[parseInt(m)]} ${y}`;
+}
+
+function isSoon(dateStr) {
+  if (!dateStr) return false;
+  const now = new Date();
+  const target = new Date(dateStr);
+  const diff = (target - now) / (1000 * 60 * 60 * 24);
+  return diff >= 0 && diff <= 30;
+}
+
+// Find next upcoming redovisning
+function findNextRedovisning() {
+  const now = new Date();
+  let next = null;
+  let nextId = null;
+  for (const r of reforms) {
+    const u = uppdrag[r.id];
+    const d = extractRedovisningsDatum(u);
+    if (d) {
+      const target = new Date(d);
+      if (target >= now && (!next || target < next)) {
+        next = target;
+        nextId = r.id;
+      }
+    }
+  }
+  return nextId ? { id: nextId, date: next } : null;
+}
+
+function renderSummary() {
+  let nUppdrag = 0, nForb = 0, nEj = 0;
+  reforms.forEach(r => {
+    const u = uppdrag[r.id];
+    const typ = u ? u.typ : 'ej';
+    if (typ === 'uppdrag') nUppdrag++;
+    else if (typ === 'forberedande') nForb++;
+    else nEj++;
+  });
+
+  const nextR = findNextRedovisning();
+  let nextText = '';
+  if (nextR) {
+    const reform = reforms.find(x => x.id === nextR.id);
+    const opts = { day: 'numeric', month: 'long', year: 'numeric' };
+    nextText = ` Nästa redovisning: <strong>${nextR.date.toLocaleDateString('sv-SE', opts)}</strong> (${reform.short}).`;
+  }
+
+  document.getElementById('summaryBar').innerHTML =
+    `<strong>${nUppdrag}</strong> reformer med uppdrag, <strong>${nForb}</strong> med förberedande uppdrag, <strong>${nEj}</strong> utan uppdrag.${nextText}`;
+}
+
+function renderStatusOverview() {
+  const groups = { uppdrag: [], forberedande: [], ej: [] };
+  reforms.forEach(r => {
+    const u = uppdrag[r.id];
+    const typ = u ? u.typ : 'ej';
+    groups[typ].push(r);
+  });
+
+  const html = ['uppdrag', 'forberedande', 'ej'].map(typ => {
+    const us = uppdragStyles[typ];
+    const list = groups[typ];
+    const label = typ === 'uppdrag' ? 'Uppdrag' : typ === 'forberedande' ? 'Förberedande uppdrag' : 'Ej fått uppdrag';
+    const items = list.map(r => {
+      const cc = catColors[r.cat];
+      return `<li><span class="cat-dot" style="background:${cc.color}"></span>${r.short}</li>`;
+    }).join('');
+    return `<div class="status-col ${typ}">
+      <div class="status-col-header">
+        <span class="status-col-dot" style="background:${us.color}"></span>
+        <span class="status-col-title" style="color:${us.color}">${label}</span>
+      </div>
+      <div class="status-col-count">${list.length}</div>
+      <ul class="status-col-list">${items}</ul>
+    </div>`;
+  }).join('');
+
+  document.getElementById('statusOverview').innerHTML = html;
+}
+
+function renderTimeline() {
+  // Build entries: one per reform
+  const entries = reforms.map(r => {
+    const u = uppdrag[r.id];
+    const redovisning = extractRedovisningsDatum(u);
+    const dateForPeriod = redovisning || parseIkraft(r.ikraft);
+    const period = getTimePeriod(dateForPeriod);
+    return { reform: r, uppdrag: u, redovisning, period };
+  });
+
+  // Group by period
+  const grouped = {};
+  periodOrder.forEach(p => grouped[p] = []);
+  entries.forEach(e => {
+    if (grouped[e.period]) grouped[e.period].push(e);
+    else grouped['2028+'].push(e);
+  });
+
+  // Sort within each group: uppdrag first, then forberedande, then ej; then by date
+  Object.values(grouped).forEach(group => {
+    const typOrder = { uppdrag: 0, forberedande: 1, ej: 2 };
+    group.sort((a, b) => {
+      const ta = typOrder[a.uppdrag?.typ || 'ej'] ?? 2;
+      const tb = typOrder[b.uppdrag?.typ || 'ej'] ?? 2;
+      if (ta !== tb) return ta - tb;
+      return (a.redovisning || 'z') < (b.redovisning || 'z') ? -1 : 1;
+    });
+  });
+
+  let html = '';
+  periodOrder.forEach(period => {
+    const group = grouped[period];
+    if (group.length === 0) return;
+
+    html += `<div class="time-group">
+      <div class="time-group-header">${periodLabels[period]} <span class="time-group-count">(${group.length})</span></div>`;
+
+    group.forEach(e => {
+      const r = e.reform;
+      const u = e.uppdrag;
+      const cc = catColors[r.cat];
+      const typ = u ? u.typ : 'ej';
+      const us = uppdragStyles[typ];
+      const kort = u ? u.kort : 'Inget uppdrag.';
+      const soon = e.redovisning && isSoon(e.redovisning);
+      const isSelected = r.id === selectedId;
+
+      html += `<div class="uppdrag-card ${soon ? 'soon' : ''} ${isSelected ? 'selected' : ''}" data-id="${r.id}">
+        <div class="uppdrag-card-top">
+          <span class="uppdrag-card-name"><span class="cat-dot" style="background:${cc.color}"></span>${r.short}</span>
+          <span class="uppdrag-chip ${us.chipClass}">${us.label}</span>
+          ${soon ? '<span class="soon-badge">Snart</span>' : ''}
+        </div>
+        ${e.redovisning ? `<div class="uppdrag-card-date">Redovisas ${formatDate(e.redovisning)}</div>` : ''}
+        <div class="uppdrag-card-kort">${kort}</div>
+      </div>`;
+    });
+
+    html += '</div>';
+  });
+
+  document.getElementById('timelineArea').innerHTML = html;
+}
+
+function selectUppdrag(id) {
+  if (selectedId === id) {
+    selectedId = null;
+    clearDetail();
+    renderTimeline();
+    return;
+  }
+  selectedId = id;
+  renderTimeline();
+
+  const r = reforms.find(x => x.id === id);
+  const u = uppdrag[id];
+  if (!r) return;
+
+  const cc = catColors[r.cat];
+  const typ = u ? u.typ : 'ej';
+  const us = uppdragStyles[typ];
+
+  let html = `
+    <div class="detail-cat" style="background:${cc.bg};color:${cc.color}">${catLabels[r.cat]}</div>
+    <div class="detail-title">${r.short}</div>
+    <div class="detail-ref">${r.ref} · ${r.ikraft}</div>`;
+
+  // Uppdrag info
+  html += `<div class="detail-section">
+    <div class="detail-label">${us.label}</div>
+    <div class="detail-text" style="white-space:normal">${u ? u.kort : 'Inget uppdrag kopplat till denna reform.'}</div>
+  </div>`;
+
+  // Fulltext
+  if (u && u.fulltext) {
+    html += `<div class="detail-section">
+      <div class="detail-label">Fullständig uppdragstext</div>
+      <div class="detail-text">${u.fulltext}</div>
+    </div>`;
+  }
+
+  // Relaterade
+  if (u && u.relaterade && u.relaterade.length > 0) {
+    u.relaterade.forEach(rel => {
+      const relUs = rel.typ ? uppdragStyles[rel.typ] : uppdragStyles.ej;
+      html += `<div class="detail-section" style="padding:0.6rem;background:#f8f7f4;border-radius:6px;margin-bottom:0.6rem">
+        <div class="detail-label" style="color:${relUs.color}">${relUs.label} — relaterat</div>
+        <div class="detail-text" style="white-space:normal;margin-bottom:0.3rem">${rel.kort}</div>
+        ${rel.fulltext ? `<div class="detail-text">${rel.fulltext}</div>` : ''}
+        ${rel.kallor ? `<div class="detail-links">${rel.kallor.map(k => `<a class="detail-link" href="${k.url}" target="_blank" rel="noopener">↗ ${k.text}</a>`).join('')}</div>` : ''}
+      </div>`;
+    });
+  }
+
+  // Sources
+  if (u && u.kallor && u.kallor.length > 0) {
+    html += `<div class="detail-links">
+      ${u.kallor.map(k => `<a class="detail-link" href="${k.url}" target="_blank" rel="noopener">↗ ${k.text}</a>`).join('')}
+    </div>`;
+  }
+
+  const panel = document.getElementById('detailPanel');
+  panel.innerHTML = html;
+
+  if (window.innerWidth <= 800) {
+    document.getElementById('mobileSidebarContent').innerHTML = html;
+    document.getElementById('mobileSidebar').classList.add('open');
+    document.getElementById('mobileOverlay').classList.add('open');
+  }
+}
+
+function clearDetail() {
+  document.getElementById('detailPanel').innerHTML =
+    '<div class="detail-empty"><div class="detail-empty-icon">◉</div>Klicka på ett uppdrag<br>för att se detaljer.</div>';
+  closeMobileSidebar();
+}
+
+function closeMobileSidebar() {
+  document.getElementById('mobileSidebar').classList.remove('open');
+  document.getElementById('mobileOverlay').classList.remove('open');
+}
+
+function init() {
+  renderSummary();
+  renderStatusOverview();
+  renderTimeline();
+
+  // Card clicks
+  document.getElementById('timelineArea').addEventListener('click', e => {
+    const card = e.target.closest('.uppdrag-card[data-id]');
+    if (card) selectUppdrag(card.dataset.id);
+  });
+
+  // Mobile sidebar close
+  document.getElementById('mobileSidebarClose').addEventListener('click', closeMobileSidebar);
+  document.getElementById('mobileOverlay').addEventListener('click', closeMobileSidebar);
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') closeMobileSidebar();
+  });
+}
+
+function dataPath(file) {
+  return 'data/' + file;
+}
+
+async function loadData() {
+  try {
+    const cacheBust = '?v=' + Date.now();
+    const [r, u] = await Promise.all([
+      fetch(dataPath('reforms.json') + cacheBust).then(res => res.json()),
+      fetch(dataPath('uppdrag.json') + cacheBust).then(res => res.json())
+    ]);
+    reforms = r;
+    uppdrag = u;
+    init();
+  } catch (err) {
+    console.error('Kunde inte ladda data:', err);
+    document.getElementById('timelineArea').innerHTML = '<p style="padding:2rem;color:#b91c1c;">Kunde inte ladda data.</p>';
+  }
+}
+
+window.addEventListener('load', loadData);
+</script>
+
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9d66c8f5b9da46078ca71ab819946f62"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>
