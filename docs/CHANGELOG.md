@@ -5,6 +5,7 @@ Types: `feat` | `fix` | `refactor` | `docs` | `chore` | `perf`
 
 ---
 
+[2026-03-30] refactor: ändra uppdrag.html till att lista individuella uppdrag (inkl. relaterade) istället för reformer — typ=ej exkluderas
 [2026-03-30] feat: skapa uppdrag.html — uppdragsöversikt med statuskolumner, tidsgruppering, snart-markering och sidebar
 [2026-03-30] fix: ta bort infra-kolumn från reformer.html
 [2026-03-30] fix: commit.sh synkar nu alla HTML-filer dynamiskt istället för hårdkodade filnamn

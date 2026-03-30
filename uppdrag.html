@@ -224,6 +224,14 @@ header p {
   align-items: center;
   gap: 0.35rem;
 }
+.uppdrag-card-reform {
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: var(--muted);
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
 .cat-dot {
   width: 7px; height: 7px;
   border-radius: 50%;
@@ -459,7 +467,7 @@ footer {
 <script>
 let reforms = [];
 let uppdrag = {};
-let selectedId = null;
+let selectedKey = null; // unique key for selected uppdrag card
 
 const catColors = {
   kunskap: { color: '#1d4ed8', bg: '#dbeafe' },
@@ -490,55 +498,34 @@ const monthMap = {
   'sept': '09', 'okt': '10', 'nov': '11', 'dec': '12'
 };
 
-// Extract the earliest redovisning date from kort/fulltext
-function extractRedovisningsDatum(u) {
-  if (!u) return null;
-  // Look for patterns like "Redovisas X Y ZZZZ", "redovisas senast den X Y ZZZZ", "X Y ZZZZ"
-  const text = (u.kort || '') + ' ' + (u.fulltext || '');
-  const patterns = [
-    /[Rr]edovisas?\s+(?:senast\s+)?(?:den\s+)?(\d{1,2})\s+(januari|februari|mars|april|maj|juni|juli|augusti|september|oktober|november|december|jan|feb|mar|apr|jun|jul|aug|sep|sept|okt|nov|dec)\s+(\d{4})/gi,
-  ];
-  let earliest = null;
-  for (const pat of patterns) {
-    let m;
-    while ((m = pat.exec(text)) !== null) {
-      const day = m[1].padStart(2, '0');
-      const month = monthMap[m[2].toLowerCase()];
-      const year = m[3];
-      if (month) {
-        const d = `${year}-${month}-${day}`;
-        if (!earliest || d < earliest) earliest = d;
-      }
-    }
+// Extract ALL redovisning dates from a text block
+function extractDates(text) {
+  if (!text) return [];
+  const pat = /[Rr]edovisas?\s+(?:senast\s+)?(?:den\s+)?(\d{1,2})\s+(januari|februari|mars|april|maj|juni|juli|augusti|september|oktober|november|december|jan|feb|mar|apr|jun|jul|aug|sep|sept|okt|nov|dec)\s+(\d{4})/gi;
+  const dates = [];
+  let m;
+  while ((m = pat.exec(text)) !== null) {
+    const month = monthMap[m[2].toLowerCase()];
+    if (month) dates.push(`${m[3]}-${month}-${m[1].padStart(2, '0')}`);
   }
-  return earliest;
+  return dates;
 }
 
-// Parse ikraft date like "1 juli 2028" to ISO-ish string
-function parseIkraft(ikraft) {
-  const m = ikraft.match(/(\d{1,2})\s+(\w+)\s+(\d{4})/);
-  if (!m) {
-    // Try just year
-    const y = ikraft.match(/(\d{4})/);
-    return y ? y[1] + '-07-01' : '2028-01-01';
-  }
-  const month = monthMap[m[2].toLowerCase()];
-  if (!month) return m[3] + '-07-01';
-  return `${m[3]}-${month}-${m[1].padStart(2, '0')}`;
+// Extract the earliest redovisning date from an uppdrag object
+function extractRedovisningsDatum(obj) {
+  const text = (obj.kort || '') + ' ' + (obj.fulltext || '');
+  const dates = extractDates(text);
+  return dates.length > 0 ? dates.sort()[0] : null;
 }
 
-// Assign each reform to a time period based on redovisning or ikraft
 function getTimePeriod(dateStr) {
-  if (!dateStr) return '2028+';
+  if (!dateStr) return 'Utan datum';
   const year = parseInt(dateStr.substring(0, 4));
   const month = parseInt(dateStr.substring(5, 7));
-  if (year < 2026) return 'Q2 2026';
-  if (year === 2026) {
-    if (month <= 3) return 'Q2 2026'; // already past, group with nearest
-    if (month <= 6) return 'Q2 2026';
-    if (month <= 9) return 'Q3 2026';
-    return 'Q4 2026';
-  }
+  if (year < 2026 || (year === 2026 && month <= 3)) return 'Q2 2026';
+  if (year === 2026 && month <= 6) return 'Q2 2026';
+  if (year === 2026 && month <= 9) return 'Q3 2026';
+  if (year === 2026) return 'Q4 2026';
   if (year === 2027) return '2027';
   return '2028+';
 }
@@ -548,9 +535,10 @@ const periodLabels = {
   'Q3 2026': 'Q3 2026 (juli–sept)',
   'Q4 2026': 'Q4 2026 (okt–dec)',
   '2027': '2027',
-  '2028+': '2028+'
+  '2028+': '2028+',
+  'Utan datum': 'Utan specifikt redovisningsdatum'
 };
-const periodOrder = ['Q2 2026', 'Q3 2026', 'Q4 2026', '2027', '2028+'];
+const periodOrder = ['Q2 2026', 'Q3 2026', 'Q4 2026', '2027', '2028+', 'Utan datum'];
 
 function formatDate(dateStr) {
   if (!dateStr) return '';
@@ -567,26 +555,68 @@ function isSoon(dateStr) {
   return diff >= 0 && diff <= 30;
 }
 
-// Find next upcoming redovisning
-function findNextRedovisning() {
-  const now = new Date();
-  let next = null;
-  let nextId = null;
+// Build flat list of individual uppdrag entries (main + relaterade), skipping typ=ej
+function buildEntries() {
+  const entries = [];
   for (const r of reforms) {
     const u = uppdrag[r.id];
-    const d = extractRedovisningsDatum(u);
-    if (d) {
-      const target = new Date(d);
+    if (!u || u.typ === 'ej') continue;
+
+    // Main uppdrag
+    const redov = extractRedovisningsDatum(u);
+    entries.push({
+      key: r.id,
+      reformId: r.id,
+      reform: r,
+      typ: u.typ,
+      kort: u.kort,
+      fulltext: u.fulltext,
+      kallor: u.kallor,
+      redovisning: redov,
+      period: getTimePeriod(redov),
+      isRelaterat: false
+    });
+
+    // Relaterade uppdrag as separate entries
+    if (u.relaterade) {
+      u.relaterade.forEach((rel, i) => {
+        if (rel.typ === 'ej') return;
+        const relRedov = extractRedovisningsDatum(rel);
+        entries.push({
+          key: `${r.id}_rel${i}`,
+          reformId: r.id,
+          reform: r,
+          typ: rel.typ || u.typ,
+          kort: rel.kort,
+          fulltext: rel.fulltext,
+          kallor: rel.kallor,
+          redovisning: relRedov,
+          period: getTimePeriod(relRedov),
+          isRelaterat: true
+        });
+      });
+    }
+  }
+  return entries;
+}
+
+function findNextRedovisning(entries) {
+  const now = new Date();
+  let next = null;
+  let nextEntry = null;
+  for (const e of entries) {
+    if (e.redovisning) {
+      const target = new Date(e.redovisning);
       if (target >= now && (!next || target < next)) {
         next = target;
-        nextId = r.id;
+        nextEntry = e;
       }
     }
   }
-  return nextId ? { id: nextId, date: next } : null;
+  return nextEntry ? { entry: nextEntry, date: next } : null;
 }
 
-function renderSummary() {
+function renderSummary(entries) {
   let nUppdrag = 0, nForb = 0, nEj = 0;
   reforms.forEach(r => {
     const u = uppdrag[r.id];
@@ -596,16 +626,15 @@ function renderSummary() {
     else nEj++;
   });
 
-  const nextR = findNextRedovisning();
+  const nextR = findNextRedovisning(entries);
   let nextText = '';
   if (nextR) {
-    const reform = reforms.find(x => x.id === nextR.id);
     const opts = { day: 'numeric', month: 'long', year: 'numeric' };
-    nextText = ` Nästa redovisning: <strong>${nextR.date.toLocaleDateString('sv-SE', opts)}</strong> (${reform.short}).`;
+    nextText = ` Nästa redovisning: <strong>${nextR.date.toLocaleDateString('sv-SE', opts)}</strong> (${nextR.entry.reform.short}).`;
   }
 
   document.getElementById('summaryBar').innerHTML =
-    `<strong>${nUppdrag}</strong> reformer med uppdrag, <strong>${nForb}</strong> med förberedande uppdrag, <strong>${nEj}</strong> utan uppdrag.${nextText}`;
+    `<strong>${nUppdrag}</strong> reformer med uppdrag, <strong>${nForb}</strong> med förberedande uppdrag, <strong>${nEj}</strong> utan uppdrag. <strong>${entries.length}</strong> individuella uppdrag listade nedan.${nextText}`;
 }
 
 function renderStatusOverview() {
@@ -637,33 +666,18 @@ function renderStatusOverview() {
   document.getElementById('statusOverview').innerHTML = html;
 }
 
-function renderTimeline() {
-  // Build entries: one per reform
-  const entries = reforms.map(r => {
-    const u = uppdrag[r.id];
-    const redovisning = extractRedovisningsDatum(u);
-    const dateForPeriod = redovisning || parseIkraft(r.ikraft);
-    const period = getTimePeriod(dateForPeriod);
-    return { reform: r, uppdrag: u, redovisning, period };
-  });
-
+function renderTimeline(entries) {
   // Group by period
   const grouped = {};
   periodOrder.forEach(p => grouped[p] = []);
   entries.forEach(e => {
     if (grouped[e.period]) grouped[e.period].push(e);
-    else grouped['2028+'].push(e);
+    else grouped['Utan datum'].push(e);
   });
 
-  // Sort within each group: uppdrag first, then forberedande, then ej; then by date
+  // Sort within each group by date
   Object.values(grouped).forEach(group => {
-    const typOrder = { uppdrag: 0, forberedande: 1, ej: 2 };
-    group.sort((a, b) => {
-      const ta = typOrder[a.uppdrag?.typ || 'ej'] ?? 2;
-      const tb = typOrder[b.uppdrag?.typ || 'ej'] ?? 2;
-      if (ta !== tb) return ta - tb;
-      return (a.redovisning || 'z') < (b.redovisning || 'z') ? -1 : 1;
-    });
+    group.sort((a, b) => (a.redovisning || 'z').localeCompare(b.redovisning || 'z'));
   });
 
   let html = '';
@@ -675,23 +689,22 @@ function renderTimeline() {
       <div class="time-group-header">${periodLabels[period]} <span class="time-group-count">(${group.length})</span></div>`;
 
     group.forEach(e => {
-      const r = e.reform;
-      const u = e.uppdrag;
-      const cc = catColors[r.cat];
-      const typ = u ? u.typ : 'ej';
-      const us = uppdragStyles[typ];
-      const kort = u ? u.kort : 'Inget uppdrag.';
+      const cc = catColors[e.reform.cat];
+      const us = uppdragStyles[e.typ] || uppdragStyles.ej;
       const soon = e.redovisning && isSoon(e.redovisning);
-      const isSelected = r.id === selectedId;
+      const isSelected = e.key === selectedKey;
 
-      html += `<div class="uppdrag-card ${soon ? 'soon' : ''} ${isSelected ? 'selected' : ''}" data-id="${r.id}">
+      // Truncate kort for card display
+      const kortDisplay = e.kort.length > 160 ? e.kort.substring(0, 157) + '…' : e.kort;
+
+      html += `<div class="uppdrag-card ${soon ? 'soon' : ''} ${isSelected ? 'selected' : ''}" data-key="${e.key}">
         <div class="uppdrag-card-top">
-          <span class="uppdrag-card-name"><span class="cat-dot" style="background:${cc.color}"></span>${r.short}</span>
           <span class="uppdrag-chip ${us.chipClass}">${us.label}</span>
+          <span class="uppdrag-card-reform"><span class="cat-dot" style="background:${cc.color}"></span>${e.reform.short}</span>
           ${soon ? '<span class="soon-badge">Snart</span>' : ''}
         </div>
         ${e.redovisning ? `<div class="uppdrag-card-date">Redovisas ${formatDate(e.redovisning)}</div>` : ''}
-        <div class="uppdrag-card-kort">${kort}</div>
+        <div class="uppdrag-card-kort">${kortDisplay}</div>
       </div>`;
     });
 
@@ -701,60 +714,43 @@ function renderTimeline() {
   document.getElementById('timelineArea').innerHTML = html;
 }
 
-function selectUppdrag(id) {
-  if (selectedId === id) {
-    selectedId = null;
+function selectEntry(key, entries) {
+  if (selectedKey === key) {
+    selectedKey = null;
     clearDetail();
-    renderTimeline();
+    renderTimeline(entries);
     return;
   }
-  selectedId = id;
-  renderTimeline();
+  selectedKey = key;
+  renderTimeline(entries);
 
-  const r = reforms.find(x => x.id === id);
-  const u = uppdrag[id];
-  if (!r) return;
+  const entry = entries.find(e => e.key === key);
+  if (!entry) return;
 
+  const r = entry.reform;
   const cc = catColors[r.cat];
-  const typ = u ? u.typ : 'ej';
-  const us = uppdragStyles[typ];
+  const us = uppdragStyles[entry.typ] || uppdragStyles.ej;
 
   let html = `
     <div class="detail-cat" style="background:${cc.bg};color:${cc.color}">${catLabels[r.cat]}</div>
     <div class="detail-title">${r.short}</div>
     <div class="detail-ref">${r.ref} · ${r.ikraft}</div>`;
 
-  // Uppdrag info
   html += `<div class="detail-section">
     <div class="detail-label">${us.label}</div>
-    <div class="detail-text" style="white-space:normal">${u ? u.kort : 'Inget uppdrag kopplat till denna reform.'}</div>
+    <div class="detail-text" style="white-space:normal">${entry.kort}</div>
   </div>`;
 
-  // Fulltext
-  if (u && u.fulltext) {
+  if (entry.fulltext) {
     html += `<div class="detail-section">
       <div class="detail-label">Fullständig uppdragstext</div>
-      <div class="detail-text">${u.fulltext}</div>
+      <div class="detail-text">${entry.fulltext}</div>
     </div>`;
   }
 
-  // Relaterade
-  if (u && u.relaterade && u.relaterade.length > 0) {
-    u.relaterade.forEach(rel => {
-      const relUs = rel.typ ? uppdragStyles[rel.typ] : uppdragStyles.ej;
-      html += `<div class="detail-section" style="padding:0.6rem;background:#f8f7f4;border-radius:6px;margin-bottom:0.6rem">
-        <div class="detail-label" style="color:${relUs.color}">${relUs.label} — relaterat</div>
-        <div class="detail-text" style="white-space:normal;margin-bottom:0.3rem">${rel.kort}</div>
-        ${rel.fulltext ? `<div class="detail-text">${rel.fulltext}</div>` : ''}
-        ${rel.kallor ? `<div class="detail-links">${rel.kallor.map(k => `<a class="detail-link" href="${k.url}" target="_blank" rel="noopener">↗ ${k.text}</a>`).join('')}</div>` : ''}
-      </div>`;
-    });
-  }
-
-  // Sources
-  if (u && u.kallor && u.kallor.length > 0) {
+  if (entry.kallor && entry.kallor.length > 0) {
     html += `<div class="detail-links">
-      ${u.kallor.map(k => `<a class="detail-link" href="${k.url}" target="_blank" rel="noopener">↗ ${k.text}</a>`).join('')}
+      ${entry.kallor.map(k => `<a class="detail-link" href="${k.url}" target="_blank" rel="noopener">↗ ${k.text}</a>`).join('')}
     </div>`;
   }
 
@@ -780,14 +776,15 @@ function closeMobileSidebar() {
 }
 
 function init() {
-  renderSummary();
+  const entries = buildEntries();
+  renderSummary(entries);
   renderStatusOverview();
-  renderTimeline();
+  renderTimeline(entries);
 
   // Card clicks
   document.getElementById('timelineArea').addEventListener('click', e => {
-    const card = e.target.closest('.uppdrag-card[data-id]');
-    if (card) selectUppdrag(card.dataset.id);
+    const card = e.target.closest('.uppdrag-card[data-key]');
+    if (card) selectEntry(card.dataset.key, entries);
   });
 
   // Mobile sidebar close
