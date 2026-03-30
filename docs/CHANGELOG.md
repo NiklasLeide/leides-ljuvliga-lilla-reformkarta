@@ -5,6 +5,7 @@ Types: `feat` | `fix` | `refactor` | `docs` | `chore` | `perf`
 
 ---
 
+[2026-03-30] refactor: bygg om tidslinje till Gantt-layout — horisontella reformbars, uppdragsbars, händelsemarkörer med tooltips, Nu-linje, legend, minimap
 [2026-03-30] refactor: bygg om tidslinje till ensidigt höger-layout — tidsaxel vänster med månadsetiketter, 2-kolumns grid för täta månader, typ-badges, komprimerade tomma månader
 [2026-03-30] fix: tidslinje — sticky filterrad, fixad minimap-scroll och klick, tydligare Nu-markör (mörk pill), tätare spacing mellan kort
 [2026-03-30] feat: skapa tidslinje.html — vertikal tidslinje med swim lanes, mini-karta, filter (dämpar), snart/passerat-markeringar, deeplinks, fliknavigation uppdaterad på alla sidor
