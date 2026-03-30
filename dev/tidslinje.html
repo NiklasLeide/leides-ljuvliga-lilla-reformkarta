@@ -43,7 +43,7 @@ header p { font-size: 0.82rem; color: rgba(255,255,255,0.5); max-width: 500px; }
 .container { max-width: 100%; margin: 0 auto; padding: 0 1.5rem; }
 
 /* Filters */
-.filter-bar { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; padding: 1rem 0; border-bottom: 1px solid var(--border); margin-bottom: 1.2rem; }
+.filter-bar { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; padding: 0.7rem 1.5rem; border-bottom: 1px solid var(--border); margin: 0 -1.5rem 1.2rem; position: sticky; top: 0; z-index: 20; background: var(--bg); }
 .filter-group { display: flex; align-items: center; gap: 0.3rem; }
 .filter-label { font-size: 0.65rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); margin-right: 0.2rem; }
 .filter-btn { padding: 0.28rem 0.6rem; border: 1px solid var(--border); border-radius: 100px; font-size: 0.7rem; font-weight: 500; cursor: pointer; background: #fff; color: #666; font-family: inherit; transition: all 0.15s; }
@@ -59,7 +59,7 @@ header p { font-size: 0.82rem; color: rgba(255,255,255,0.5); max-width: 500px; }
 .timeline-line { position: absolute; left: 50%; top: 0; bottom: 0; width: 2px; background: var(--border); transform: translateX(-50%); z-index: 0; }
 
 /* Month header */
-.month-header { position: sticky; top: 0; z-index: 10; background: var(--bg); padding: 0.5rem 0; text-align: center; margin: 0 -1rem; }
+.month-header { position: sticky; top: 42px; z-index: 10; background: var(--bg); padding: 0.3rem 0; text-align: center; margin: 0 -1rem; }
 .month-header-inner { display: inline-block; font-size: 0.68rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); background: var(--bg); padding: 0.2rem 0.8rem; border-radius: 100px; border: 1px solid var(--border); }
 .month-header-inner.has-events { color: var(--ink); background: var(--card); }
 
@@ -68,16 +68,16 @@ header p { font-size: 0.82rem; color: rgba(255,255,255,0.5); max-width: 500px; }
 .month-empty .month-label { position: absolute; left: 50%; transform: translateX(-50%); font-size: 0.52rem; color: #ccc; letter-spacing: 0.04em; text-transform: uppercase; white-space: nowrap; }
 
 /* Month group with events */
-.month-group { padding: 0.5rem 0 1rem; position: relative; }
+.month-group { padding: 0.3rem 0 0.5rem; position: relative; }
 
 /* Swim lane row */
-.swim-row { display: flex; align-items: flex-start; position: relative; margin-bottom: 0.6rem; }
+.swim-row { display: flex; align-items: flex-start; position: relative; margin-bottom: 0.35rem; }
 .swim-left { width: calc(50% - 16px); display: flex; justify-content: flex-end; padding-right: 1rem; }
 .swim-right { width: calc(50% - 16px); margin-left: auto; padding-left: 1rem; }
 .swim-dot { position: absolute; left: 50%; top: 12px; width: 10px; height: 10px; border-radius: 50%; transform: translateX(-50%); z-index: 2; border: 2px solid var(--card); }
 
 /* Event card */
-.event-card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 0.6rem 0.8rem; max-width: 340px; width: 100%; cursor: pointer; transition: all 0.2s; border-left: 3px solid transparent; box-shadow: 0 1px 3px rgba(0,0,0,0.04); }
+.event-card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 0.45rem 0.7rem; max-width: 340px; width: 100%; cursor: pointer; transition: all 0.2s; border-left: 3px solid transparent; box-shadow: 0 1px 3px rgba(0,0,0,0.04); }
 .event-card:hover { box-shadow: 0 3px 12px rgba(0,0,0,0.08); transform: translateY(-1px); }
 .event-card.selected { background: #eef2ff; border-color: var(--kunskap); }
 .event-card.dimmed { opacity: 0.15; }
@@ -110,8 +110,8 @@ header p { font-size: 0.82rem; color: rgba(255,255,255,0.5); max-width: 500px; }
 .minimap-segment.very-dense { background: var(--ink); }
 .minimap-label { position: absolute; right: calc(50% + 10px); font-size: 0.5rem; color: var(--muted); white-space: nowrap; transform: translateY(-50%); }
 .minimap-viewport { position: absolute; left: 50%; transform: translateX(-50%); width: 14px; height: 20px; border: 2px solid var(--kunskap); border-radius: 3px; background: rgba(29,78,216,0.08); pointer-events: none; transition: top 0.15s; }
-.minimap-now { position: absolute; left: calc(50% + 10px); width: 20px; height: 2px; background: #ea580c; transform: translateY(-50%); }
-.minimap-now-label { position: absolute; left: calc(50% + 14px); font-size: 0.48rem; font-weight: 600; color: #ea580c; transform: translateY(-50%); white-space: nowrap; }
+.minimap-now { position: absolute; left: 0; right: 0; height: 2px; background: var(--ink); transform: translateY(-50%); opacity: 0.6; }
+.minimap-now-label { position: absolute; left: calc(50% + 14px); font-size: 0.5rem; font-weight: 700; color: var(--card); background: var(--ink); padding: 0.05rem 0.35rem; border-radius: 3px; transform: translateY(-50%); white-space: nowrap; }
 
 /* Detail panel */
 .detail-panel { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 1.2rem; overflow-y: auto; }
@@ -142,7 +142,7 @@ footer { text-align: center; padding: 1.5rem 0 2rem; font-size: 0.62rem; color: 
   header h1 { font-size: 1.2rem; }
   header p { font-size: 0.72rem; }
   .container { padding: 0 0.8rem; }
-  .filter-bar { gap: 0.3rem; padding: 0.6rem 0; margin-bottom: 0.8rem; }
+  .filter-bar { gap: 0.3rem; padding: 0.5rem 0.8rem; margin: 0 -0.8rem 0.8rem; }
   .filter-btn { padding: 0.22rem 0.45rem; font-size: 0.62rem; }
   .filter-label { font-size: 0.55rem; }
   .filter-sep { display: none; }
@@ -479,13 +479,16 @@ function renderMinimap() {
   inner += '<div class="minimap-viewport" id="minimapViewport"></div>';
   track.innerHTML = inner;
 
-  // Click to scroll
+  // Click to scroll — find the month-header or month-group element
   track.addEventListener('click', e => {
     const rect = track.getBoundingClientRect();
     const ratio = (e.clientY - rect.top) / rect.height;
     const idx = Math.min(Math.floor(ratio * totalMonths), totalMonths - 1);
     const mo = months[idx];
-    const el = document.querySelector(`[data-month="${mo.key}"]`);
+    // Prefer month-header, fall back to month-group or month-empty
+    const el = document.querySelector(`.month-header[data-month="${mo.key}"]`)
+            || document.querySelector(`.month-group[data-month="${mo.key}"]`)
+            || document.querySelector(`[data-month="${mo.key}"]`);
     if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
   });
 
@@ -494,15 +497,16 @@ function renderMinimap() {
 
 function updateMinimapViewport(months) {
   const viewport = document.getElementById('minimapViewport');
-  if (!viewport || !months) return;
+  if (!viewport || !months || months.length === 0) return;
   const wrap = document.getElementById('timelineWrap');
-  const scrollParent = document.documentElement;
+  const wrapRect = wrap.getBoundingClientRect();
   const totalH = wrap.scrollHeight;
   const viewH = window.innerHeight;
-  const scrollTop = window.scrollY - wrap.offsetTop;
-  const ratio = Math.max(0, Math.min(1, scrollTop / totalH));
-  const viewRatio = viewH / totalH;
-  viewport.style.top = (ratio * 300) + 'px';
+  // How far the top of the timeline is scrolled past the top of the viewport
+  const scrolled = -wrapRect.top;
+  const ratio = Math.max(0, Math.min(1, scrolled / (totalH - viewH)));
+  const viewRatio = Math.min(1, viewH / totalH);
+  viewport.style.top = (ratio * (1 - viewRatio) * 300) + 'px';
   viewport.style.height = Math.max(10, viewRatio * 300) + 'px';
 }
 
