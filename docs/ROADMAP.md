@@ -26,15 +26,16 @@
 - [ ] Verifiera budgetsiffra 95 Mkr för studiero (källa: budgetprop, inte Prop. 193)
 - [ ] Feedback-runda #2 — bredare grupp
 
-## Sprint 3 — Målbild och infrastrukturberoenden
-- [ ] Skapa data/malbild.json med pelardefinitioner och kopplingar reform→pelare
-- [ ] Bygga malbild.html med samma designspråk som reformkartan (header, navigation, sidebar)
-- [ ] Fliknavigation mellan reformkartan och målbildsvyn
-- [ ] Visa reformer och pelare med klickbara kopplingar (linjer)
-- [ ] Sidebar med detaljer vid klick (samma mönster som reformkartan)
-- [ ] Sammanhållen visiontext överst, fällbar
-- [ ] Statistikrad (antal reformer med beroenden, antal pelare, etc.)
-- [ ] Responsiv
+## Completed: Sprint 3 — Målbild och infrastrukturberoenden
+- [x] Skapa data/malbild.json med pelardefinitioner och kopplingar reform→pelare
+- [x] Bygga malbild.html med samma designspråk som reformkartan (header, navigation, sidebar)
+- [x] Fliknavigation mellan reformkartan och målbildsvyn
+- [x] Visa reformer och pelare med klickbara kopplingar (linjer)
+- [x] Sidebar med detaljer vid klick (samma mönster som reformkartan)
+- [x] Sammanhållen visiontext överst, fällbar
+- [x] Statistikrad (antal reformer med beroenden, antal pelare, etc.)
+- [x] Responsiv
+- [x] Uppdatera infrastrukturberoenden efter strategisk analys (betyg, läroplaner, tid, studiero)
 
 ## Sprint 4 — Underhållsrutin
 - [x] Definiera hur och när innehållet uppdateras (efter riksdagsbeslut, regleringsbrev, propositioner)
