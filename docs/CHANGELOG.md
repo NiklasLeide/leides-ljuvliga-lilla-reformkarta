@@ -5,6 +5,7 @@ Types: `feat` | `fix` | `refactor` | `docs` | `chore` | `perf`
 
 ---
 
+[2026-03-30] fix: tidslinje — sticky filterrad, fixad minimap-scroll och klick, tydligare Nu-markör (mörk pill), tätare spacing mellan kort
 [2026-03-30] feat: skapa tidslinje.html — vertikal tidslinje med swim lanes, mini-karta, filter (dämpar), snart/passerat-markeringar, deeplinks, fliknavigation uppdaterad på alla sidor
 [2026-03-30] feat: skapa data/tidslinje.json med 30 händelser (2025–2031) — ikraftträdanden, redovisningar, milstolpar, riksdagsbeslut
 [2026-03-30] docs: uppdatera roadmap med sprint 6 tidslinje — vertikal tidslinje, swim lanes, mini-karta, adaptiv spacing
