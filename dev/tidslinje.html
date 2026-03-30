@@ -6,166 +6,156 @@
 <title>Tidslinje — Skolreformer 2025–2028</title>
 <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
-:root {
-  --ink: #1c1c1c;
-  --bg: #f7f6f3;
-  --card: #ffffff;
-  --border: #e5e2dc;
-  --muted: #999;
-  --kunskap: #1d4ed8;
-  --kunskap-bg: #dbeafe;
-  --trygghet: #b91c1c;
-  --trygghet-bg: #fee2e2;
-  --larare: #15803d;
-  --larare-bg: #dcfce7;
-  --styrning: #6d28d9;
-  --styrning-bg: #ede9fe;
-  --label-w: 200px;
-  --chart-w: 1200px;
-}
-* { margin: 0; padding: 0; box-sizing: border-box; }
-body { font-family: 'DM Sans', system-ui, sans-serif; background: var(--bg); color: var(--ink); line-height: 1.5; -webkit-font-smoothing: antialiased; }
+:root{--ink:#1c1c1c;--bg:#f7f6f3;--card:#fff;--border:#e5e2dc;--muted:#999;--kunskap:#1d4ed8;--kunskap-bg:#dbeafe;--trygghet:#b91c1c;--trygghet-bg:#fee2e2;--larare:#15803d;--larare-bg:#dcfce7;--styrning:#6d28d9;--styrning-bg:#ede9fe;--label-w:200px;--chart-w:1200px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'DM Sans',system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.5;-webkit-font-smoothing:antialiased}
 
-header { background: var(--ink); color: #fff; padding: 1.8rem 1.5rem 1.5rem; }
-.header-inner { max-width: 100%; margin: 0 auto; padding: 0 1.5rem; }
-.header-badge { font-size: 0.6rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(255,255,255,0.35); margin-bottom: 0.4rem; }
-header h1 { font-family: 'Source Serif 4', serif; font-size: 1.6rem; font-weight: 600; line-height: 1.2; margin-bottom: 0.3rem; }
-header p { font-size: 0.82rem; color: rgba(255,255,255,0.5); max-width: 500px; }
+header{background:var(--ink);color:#fff;padding:1.8rem 1.5rem 1.5rem}
+.header-inner{max-width:100%;margin:0 auto;padding:0 1.5rem}
+.header-badge{font-size:.6rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,.35);margin-bottom:.4rem}
+header h1{font-family:'Source Serif 4',serif;font-size:1.6rem;font-weight:600;line-height:1.2;margin-bottom:.3rem}
+header p{font-size:.82rem;color:rgba(255,255,255,.5);max-width:500px}
 
-.tab-nav { display: flex; gap: 0; background: var(--card); border-bottom: 1px solid var(--border); }
-.tab-nav a { padding: 0.65rem 1.2rem; font-size: 0.75rem; font-weight: 500; color: var(--muted); text-decoration: none; border-bottom: 2px solid transparent; transition: all 0.15s; }
-.tab-nav a:hover { color: var(--ink); }
-.tab-nav a.active { color: var(--ink); font-weight: 600; border-bottom-color: var(--ink); }
+.tab-nav{display:flex;gap:0;background:var(--card);border-bottom:1px solid var(--border)}
+.tab-nav a{padding:.65rem 1.2rem;font-size:.75rem;font-weight:500;color:var(--muted);text-decoration:none;border-bottom:2px solid transparent;transition:all .15s}
+.tab-nav a:hover{color:var(--ink)}
+.tab-nav a.active{color:var(--ink);font-weight:600;border-bottom-color:var(--ink)}
 
-.container { max-width: 100%; margin: 0 auto; padding: 0 1.5rem; }
+.container{max-width:100%;margin:0 auto;padding:0 1.5rem}
 
-.filter-bar { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; padding: 0.7rem 1.5rem; border-bottom: 1px solid var(--border); margin: 0 -1.5rem 1rem; position: sticky; top: 0; z-index: 20; background: var(--bg); }
-.filter-group { display: flex; align-items: center; gap: 0.3rem; }
-.filter-label { font-size: 0.65rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); margin-right: 0.2rem; }
-.filter-btn { padding: 0.28rem 0.6rem; border: 1px solid var(--border); border-radius: 100px; font-size: 0.7rem; font-weight: 500; cursor: pointer; background: #fff; color: #666; font-family: inherit; transition: all 0.15s; }
-.filter-btn:hover { border-color: var(--ink); }
-.filter-btn.active { background: var(--ink); color: #fff; border-color: var(--ink); }
-.filter-sep { width: 1px; height: 20px; background: var(--border); margin: 0 0.3rem; }
+.filter-bar{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;padding:.7rem 1.5rem;border-bottom:1px solid var(--border);margin:0 -1.5rem 1rem;position:sticky;top:0;z-index:20;background:var(--bg)}
+.filter-group{display:flex;align-items:center;gap:.3rem}
+.filter-label{font-size:.65rem;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-right:.2rem}
+.filter-btn{padding:.28rem .6rem;border:1px solid var(--border);border-radius:100px;font-size:.7rem;font-weight:500;cursor:pointer;background:#fff;color:#666;font-family:inherit;transition:all .15s}
+.filter-btn:hover{border-color:var(--ink)}
+.filter-btn.active{background:var(--ink);color:#fff;border-color:var(--ink)}
+.filter-sep{width:1px;height:20px;background:var(--border);margin:0 .3rem}
 
-.main-layout { display: grid; grid-template-columns: 1fr 300px; gap: 1.5rem; }
+.toolbar{display:flex;align-items:center;gap:.6rem;margin-bottom:.6rem}
+.toolbar-btn{padding:.3rem .7rem;border:1px solid var(--border);border-radius:6px;font-size:.68rem;font-weight:500;cursor:pointer;background:var(--card);color:var(--ink);font-family:inherit;transition:all .15s}
+.toolbar-btn:hover{border-color:var(--ink);background:#f8f7f4}
+
+.main-layout{display:grid;grid-template-columns:1fr 300px;gap:1.5rem}
 
 /* Gantt */
-.gantt-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
-.gantt { position: relative; min-width: calc(var(--label-w) + var(--chart-w)); }
+.gantt-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.gantt{position:relative;min-width:calc(var(--label-w) + var(--chart-w))}
 
-.gantt-header { display: flex; position: sticky; top: 42px; z-index: 15; background: var(--bg); border-bottom: 1px solid var(--border); }
-.gantt-header-label { width: var(--label-w); flex-shrink: 0; }
-.gantt-header-chart { width: var(--chart-w); position: relative; height: 32px; }
-.gantt-year-tick { position: absolute; top: 0; height: 100%; border-left: 1px solid var(--border); }
-.gantt-year-text { position: absolute; top: 4px; font-size: 0.65rem; font-weight: 600; color: var(--muted); padding-left: 6px; }
-.gantt-now-line { position: absolute; top: 0; bottom: 0; width: 2px; background: var(--ink); z-index: 5; opacity: 0.5; }
-.gantt-now-pip { position: absolute; top: -2px; width: 8px; height: 8px; background: var(--ink); border-radius: 50%; transform: translateX(-3px); }
-.gantt-now-label { position: absolute; top: -16px; font-size: 0.5rem; font-weight: 700; color: var(--card); background: var(--ink); padding: 0.05rem 0.35rem; border-radius: 3px; transform: translateX(-50%); white-space: nowrap; }
+.gantt-header{display:flex;position:sticky;top:42px;z-index:15;background:var(--bg);border-bottom:1px solid var(--border)}
+.gantt-header-label{width:var(--label-w);flex-shrink:0}
+.gantt-header-chart{width:var(--chart-w);position:relative;height:32px}
+.gantt-year-tick{position:absolute;top:0;height:100%;border-left:1px solid var(--border)}
+.gantt-year-text{position:absolute;top:4px;font-size:.65rem;font-weight:600;color:var(--muted);padding-left:6px}
+.gantt-now-line{position:absolute;top:0;bottom:0;width:2px;background:var(--ink);z-index:5;opacity:.5}
+.gantt-now-pip{position:absolute;top:-2px;width:8px;height:8px;background:var(--ink);border-radius:50%;transform:translateX(-3px)}
+.gantt-now-label{position:absolute;top:-16px;font-size:.5rem;font-weight:700;color:var(--card);background:var(--ink);padding:.05rem .35rem;border-radius:3px;transform:translateX(-50%);white-space:nowrap}
 
-.gantt-body { position: relative; }
-.gantt-grid-line { position: absolute; top: 0; bottom: 0; width: 1px; background: var(--border); opacity: 0.4; pointer-events: none; z-index: 0; }
-.gantt-now-body { position: absolute; top: 0; bottom: 0; width: 2px; background: var(--ink); opacity: 0.3; pointer-events: none; z-index: 1; }
+.gantt-body{position:relative}
+.gantt-grid-line{position:absolute;top:0;bottom:0;width:1px;background:var(--border);opacity:.4;pointer-events:none;z-index:0}
+.gantt-now-body{position:absolute;top:0;bottom:0;width:2px;background:var(--ink);opacity:.25;pointer-events:none;z-index:1}
 
-.gantt-cat-header { display: flex; align-items: center; gap: 0.4rem; padding: 0.6rem 0 0.3rem; }
-.gantt-cat-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
-.gantt-cat-title { font-size: 0.68rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; }
+.gantt-cat-header{display:flex;align-items:center;gap:.4rem;padding:.6rem 0 .25rem}
+.gantt-cat-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+.gantt-cat-title{font-size:.68rem;font-weight:600;text-transform:uppercase;letter-spacing:.04em}
 
-.gantt-row { display: flex; align-items: center; min-height: 28px; position: relative; }
-.gantt-row.dimmed { opacity: 0.15; }
-.gantt-row.past-reform { opacity: 0.5; }
-.gantt-row-label { width: var(--label-w); flex-shrink: 0; padding-right: 0.8rem; }
-.gantt-row-name { font-size: 0.7rem; font-weight: 500; color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.gantt-row-ref { font-size: 0.52rem; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.gantt-row-name .past-check { color: #15803d; font-size: 0.6rem; margin-right: 2px; }
+/* Reform row */
+.gantt-row{display:flex;align-items:center;min-height:28px;position:relative}
+.gantt-row.dimmed{opacity:.15}
+.gantt-row.past-reform{opacity:.5}
+.gantt-row-label{width:var(--label-w);flex-shrink:0;padding-right:.6rem;display:flex;align-items:center;gap:.3rem}
+.gantt-row-chevron{width:14px;flex-shrink:0;font-size:.6rem;color:var(--muted);cursor:pointer;transition:transform .3s;user-select:none;text-align:center}
+.gantt-row-chevron.open{transform:rotate(90deg)}
+.gantt-row-chevron.hidden{visibility:hidden}
+.gantt-row-info{min-width:0}
+.gantt-row-name{font-size:.7rem;font-weight:500;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.gantt-row-ref{font-size:.5rem;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.past-check{color:#15803d;font-size:.6rem;margin-right:2px}
+.gantt-row-chart{width:var(--chart-w);position:relative;height:100%}
 
-.gantt-row.uppdrag-row { min-height: 18px; }
-.gantt-row.uppdrag-row .gantt-row-label { padding-left: 1rem; }
-.gantt-row.uppdrag-row .gantt-row-name { font-size: 0.6rem; font-weight: 400; color: var(--muted); }
+/* Bar */
+.gantt-bar{position:absolute;top:50%;transform:translateY(-50%);height:14px;border-radius:4px;border:1px solid;opacity:.85}
 
-.gantt-row-chart { width: var(--chart-w); position: relative; height: 100%; }
+/* Expandable detail */
+.gantt-detail{overflow:hidden;max-height:0;transition:max-height .3s ease}
+.gantt-detail.open{max-height:600px}
+.gantt-detail-inner{padding:2px 0 6px}
+.gantt-sub-row{display:flex;align-items:center;min-height:18px;position:relative}
+.gantt-sub-label{width:var(--label-w);flex-shrink:0;padding-left:1.4rem;padding-right:.6rem}
+.gantt-sub-name{font-size:.58rem;font-weight:400;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.gantt-sub-chart{width:var(--chart-w);position:relative;height:100%}
+.gantt-sub-bar{position:absolute;top:50%;transform:translateY(-50%);height:7px;border-radius:3px;border:1px dashed;opacity:.7}
+.gantt-sub-bar-arrow{position:absolute;right:-7px;top:50%;transform:translateY(-50%);font-size:.5rem;color:var(--muted)}
 
-.gantt-bar { position: absolute; top: 50%; transform: translateY(-50%); height: 14px; border-radius: 4px; border: 1px solid; opacity: 0.85; }
-.gantt-bar.uppdrag-bar { height: 8px; border-style: dashed; opacity: 0.7; }
-.gantt-bar-arrow { position: absolute; right: -8px; top: 50%; transform: translateY(-50%); font-size: 0.55rem; color: var(--muted); }
+/* Markers */
+.gantt-marker{position:absolute;top:50%;transform:translate(-50%,-50%);z-index:3;cursor:pointer;transition:transform .15s}
+.gantt-marker:hover{transform:translate(-50%,-50%) scale(1.5);z-index:10}
+.gantt-marker.selected{transform:translate(-50%,-50%) scale(1.6);z-index:10}
+.gantt-marker.dimmed{opacity:.15;pointer-events:none}
+.m-ikraft{width:10px;height:10px;border-radius:50%;background:#dc2626;border:2px solid #fff;box-shadow:0 1px 3px rgba(0,0,0,.2)}
+.m-milstolpe{width:5px;height:5px;border-radius:50%;background:#15803d;border:1px solid #fff}
+.m-redovisning{width:5px;height:5px;border-radius:50%;background:#d97706;border:1px solid #fff}
+.m-delredovisning{width:5px;height:5px;border-radius:1px;background:#ec4899;border:1px solid #fff}
+.m-riksdag{width:7px;height:7px;border-radius:50%;background:rgba(109,40,217,.4);border:1px solid rgba(109,40,217,.6)}
 
-.gantt-marker { position: absolute; top: 50%; transform: translate(-50%, -50%); z-index: 3; cursor: pointer; transition: transform 0.15s; }
-.gantt-marker:hover { transform: translate(-50%, -50%) scale(1.4); z-index: 10; }
-.gantt-marker.selected { transform: translate(-50%, -50%) scale(1.5); z-index: 10; }
-.gantt-marker.dimmed { opacity: 0.15; pointer-events: none; }
-
-.marker-ikraft { width: 12px; height: 12px; border-radius: 50%; background: #dc2626; border: 2px solid #fff; box-shadow: 0 1px 3px rgba(0,0,0,0.2); }
-.marker-riksdag { width: 8px; height: 8px; border-radius: 50%; background: rgba(109,40,217,0.4); border: 1px solid rgba(109,40,217,0.6); }
-.marker-milstolpe { width: 8px; height: 8px; border-radius: 50%; background: #15803d; border: 1px solid #fff; }
-.marker-redovisning { width: 8px; height: 8px; border-radius: 50%; background: #d97706; border: 1px solid #fff; }
-.marker-delredovisning { width: 6px; height: 6px; border-radius: 1px; background: #ec4899; border: 1px solid #fff; }
-
-.gantt-tooltip { display: none; position: fixed; z-index: 100; background: var(--card); border: 1px solid var(--border); border-radius: 6px; padding: 0.4rem 0.6rem; box-shadow: 0 4px 16px rgba(0,0,0,0.12); max-width: 280px; pointer-events: none; }
-.gantt-tooltip.visible { display: block; }
-.gantt-tooltip-typ { font-size: 0.5rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.03em; color: var(--muted); margin-bottom: 0.1rem; }
-.gantt-tooltip-title { font-size: 0.72rem; font-weight: 600; color: var(--ink); line-height: 1.3; margin-bottom: 0.1rem; }
-.gantt-tooltip-date { font-size: 0.6rem; color: var(--muted); }
-.gantt-tooltip-reform { font-size: 0.58rem; color: var(--muted); margin-top: 0.1rem; }
+/* Tooltip */
+.gantt-tooltip{display:none;position:fixed;z-index:100;background:var(--card);border:1px solid var(--border);border-radius:6px;padding:.4rem .6rem;box-shadow:0 4px 12px rgba(0,0,0,.1);max-width:280px;pointer-events:none}
+.gantt-tooltip.visible{display:block}
+.tt-typ{font-size:.48rem;font-weight:600;text-transform:uppercase;letter-spacing:.03em;color:var(--muted);margin-bottom:.05rem}
+.tt-title{font-size:.7rem;font-weight:600;color:var(--ink);line-height:1.3}
+.tt-date{font-size:.58rem;color:var(--muted)}
 
 /* Legend */
-.gantt-legend { display: flex; flex-wrap: wrap; gap: 0.8rem; padding: 0.6rem 0; margin-top: 0.3rem; border-top: 1px solid var(--border); }
-.gantt-legend-item { display: flex; align-items: center; gap: 0.25rem; font-size: 0.58rem; color: var(--muted); }
+.gantt-legend{display:flex;flex-wrap:wrap;gap:.7rem;padding:.5rem 0;margin-top:.3rem;border-top:1px solid var(--border)}
+.gantt-legend-item{display:flex;align-items:center;gap:.2rem;font-size:.56rem;color:var(--muted)}
+.legend-dot{flex-shrink:0;display:inline-block}
 
 /* Sidebar */
-.sidebar { position: sticky; top: 50px; max-height: calc(100vh - 60px); overflow-y: auto; display: flex; flex-direction: column; gap: 1rem; }
-.minimap { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 0.8rem; }
-.minimap-title { font-size: 0.6rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin-bottom: 0.5rem; }
-.minimap-track { position: relative; height: 200px; width: 100%; cursor: pointer; overflow: hidden; }
-.minimap-row { position: absolute; height: 3px; border-radius: 1px; }
-.minimap-viewport { position: absolute; left: 0; right: 0; border: 2px solid var(--kunskap); border-radius: 3px; background: rgba(29,78,216,0.06); pointer-events: none; transition: top 0.15s; }
+.sidebar{position:sticky;top:50px;max-height:calc(100vh - 60px);overflow-y:auto;display:flex;flex-direction:column;gap:1rem}
+.minimap{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:.8rem}
+.minimap-title{font-size:.6rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);margin-bottom:.5rem}
+.minimap-track{position:relative;height:200px;width:100%;cursor:pointer;overflow:hidden}
+.minimap-row{position:absolute;height:3px;border-radius:1px}
+.minimap-vp{position:absolute;left:0;right:0;border:2px solid var(--kunskap);border-radius:3px;background:rgba(29,78,216,.06);pointer-events:none;transition:top .15s}
 
-.detail-panel { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 1.2rem; overflow-y: auto; }
-.detail-empty { text-align: center; padding: 2rem 1rem; color: var(--muted); font-size: 0.82rem; }
-.detail-empty-icon { font-size: 2rem; margin-bottom: 0.5rem; opacity: 0.3; }
-.detail-cat { display: inline-block; font-size: 0.55rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; padding: 0.1rem 0.4rem; border-radius: 3px; margin-bottom: 0.4rem; }
-.detail-title { font-family: 'Source Serif 4', serif; font-size: 1.05rem; font-weight: 600; line-height: 1.25; margin-bottom: 0.15rem; }
-.detail-ref { font-size: 0.7rem; color: var(--muted); margin-bottom: 0.8rem; }
-.detail-section { margin-bottom: 0.8rem; }
-.detail-label { font-size: 0.6rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin-bottom: 0.2rem; }
-.detail-text { font-size: 0.76rem; line-height: 1.55; color: #444; }
-.detail-links { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-top: 0.6rem; }
-.detail-link { font-size: 0.66rem; font-weight: 500; color: var(--kunskap); text-decoration: none; padding: 0.2rem 0.45rem; border: 1px solid var(--kunskap-bg); border-radius: 4px; background: #f0f7ff; }
-.detail-link:hover { background: var(--kunskap-bg); }
-.cat-dot { width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; display: inline-block; }
+.detail-panel{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:1.2rem;overflow-y:auto}
+.detail-empty{text-align:center;padding:2rem 1rem;color:var(--muted);font-size:.82rem}
+.detail-empty-icon{font-size:2rem;margin-bottom:.5rem;opacity:.3}
+.detail-cat{display:inline-block;font-size:.55rem;font-weight:600;text-transform:uppercase;letter-spacing:.04em;padding:.1rem .4rem;border-radius:3px;margin-bottom:.4rem}
+.detail-title{font-family:'Source Serif 4',serif;font-size:1.05rem;font-weight:600;line-height:1.25;margin-bottom:.15rem}
+.detail-ref{font-size:.7rem;color:var(--muted);margin-bottom:.8rem}
+.detail-section{margin-bottom:.8rem}
+.detail-label{font-size:.6rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);margin-bottom:.2rem}
+.detail-text{font-size:.76rem;line-height:1.55;color:#444}
+.detail-links{display:flex;flex-wrap:wrap;gap:.3rem;margin-top:.6rem}
+.detail-link{font-size:.66rem;font-weight:500;color:var(--kunskap);text-decoration:none;padding:.2rem .45rem;border:1px solid var(--kunskap-bg);border-radius:4px;background:#f0f7ff}
+.detail-link:hover{background:var(--kunskap-bg)}
+.cat-dot{width:6px;height:6px;border-radius:50%;flex-shrink:0;display:inline-block}
 
-.mobile-overlay { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.3); z-index: 150; }
-.mobile-overlay.open { display: block; }
-.mobile-sidebar { display: none; position: fixed; top: 0; right: 0; bottom: 0; width: 85%; max-width: 360px; background: var(--card); z-index: 160; overflow-y: auto; padding: 1rem; box-shadow: -4px 0 24px rgba(0,0,0,0.12); transform: translateX(100%); transition: transform 0.3s ease; }
-.mobile-sidebar.open { display: block; transform: translateX(0); }
-.mobile-sidebar-close { position: sticky; top: 0; text-align: right; background: none; border: none; font-size: 1.2rem; color: var(--muted); cursor: pointer; padding: 0.2rem; z-index: 1; }
+.mobile-overlay{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.3);z-index:150}
+.mobile-overlay.open{display:block}
+.mobile-sidebar{display:none;position:fixed;top:0;right:0;bottom:0;width:85%;max-width:360px;background:var(--card);z-index:160;overflow-y:auto;padding:1rem;box-shadow:-4px 0 24px rgba(0,0,0,.12);transform:translateX(100%);transition:transform .3s ease}
+.mobile-sidebar.open{display:block;transform:translateX(0)}
+.mobile-sidebar-close{position:sticky;top:0;text-align:right;background:none;border:none;font-size:1.2rem;color:var(--muted);cursor:pointer;padding:.2rem;z-index:1}
 
-footer { text-align: center; padding: 1.5rem 0 2rem; font-size: 0.62rem; color: #ccc; line-height: 1.7; margin-top: 1rem; border-top: 1px solid var(--border); }
+footer{text-align:center;padding:1.5rem 0 2rem;font-size:.62rem;color:#ccc;line-height:1.7;margin-top:1rem;border-top:1px solid var(--border)}
 
-@media (max-width: 800px) {
-  :root { --label-w: 140px; --chart-w: 900px; }
-  header { padding: 1rem 1rem 0.8rem; }
-  header h1 { font-size: 1.2rem; }
-  header p { font-size: 0.72rem; }
-  .container { padding: 0 0.8rem; }
-  .filter-bar { gap: 0.3rem; padding: 0.5rem 0.8rem; margin: 0 -0.8rem 0.8rem; }
-  .filter-btn { padding: 0.22rem 0.45rem; font-size: 0.62rem; }
-  .filter-label { font-size: 0.55rem; }
-  .filter-sep { display: none; }
-  .tab-nav a { padding: 0.5rem 0.8rem; font-size: 0.68rem; }
-  footer { font-size: 0.55rem; }
-  .main-layout { grid-template-columns: 1fr; }
-  .sidebar { display: none; }
+@media(max-width:800px){
+  :root{--label-w:140px;--chart-w:900px}
+  header{padding:1rem 1rem .8rem}header h1{font-size:1.2rem}header p{font-size:.72rem}
+  .container{padding:0 .8rem}
+  .filter-bar{gap:.3rem;padding:.5rem .8rem;margin:0 -.8rem .8rem}
+  .filter-btn{padding:.22rem .45rem;font-size:.62rem}.filter-label{font-size:.55rem}.filter-sep{display:none}
+  .tab-nav a{padding:.5rem .8rem;font-size:.68rem}footer{font-size:.55rem}
+  .main-layout{grid-template-columns:1fr}.sidebar{display:none}
 }
 </style>
 </head>
 <body>
-
-<header>
-  <div class="header-inner">
-    <div class="header-badge">Kunskapsyta · mars 2026 · Privatprojekt av Niklas Leide</div>
-    <h1>Tidslinje — Skolreformer 2025–2031</h1>
-    <p>Gantt-vy: reformer som tidsspann med händelsemarkörer. Hovra för detaljer.</p>
-  </div>
-</header>
+<header><div class="header-inner">
+  <div class="header-badge">Kunskapsyta · mars 2026 · Privatprojekt av Niklas Leide</div>
+  <h1>Tidslinje — Skolreformer 2025–2031</h1>
+  <p>Gantt-vy: reformer som tidsspann. Klicka ▶ för att visa uppdrag och milstolpar.</p>
+</div></header>
 
 <div class="tab-nav">
   <a href="index.html">Reformkarta</a>
@@ -195,289 +185,286 @@ footer { text-align: center; padding: 1.5rem 0 2rem; font-size: 0.62rem; color: 
   </div>
 
   <div class="main-layout">
-    <div class="gantt-scroll">
-      <div class="gantt" id="ganttArea"></div>
-      <div class="gantt-legend">
-        <div class="gantt-legend-item"><div class="marker-ikraft" style="width:10px;height:10px;position:static;transform:none"></div> Ikraftträdande</div>
-        <div class="gantt-legend-item"><div class="marker-riksdag" style="position:static;transform:none"></div> Riksdagsbeslut</div>
-        <div class="gantt-legend-item"><div class="marker-milstolpe" style="position:static;transform:none"></div> Milstolpe</div>
-        <div class="gantt-legend-item"><div class="marker-redovisning" style="position:static;transform:none"></div> Redovisning</div>
-        <div class="gantt-legend-item"><div class="marker-delredovisning" style="position:static;transform:none"></div> Delredovisning</div>
+    <div>
+      <div class="toolbar">
+        <button class="toolbar-btn" id="toggleAll">Visa alla detaljer</button>
+      </div>
+      <div class="gantt-scroll">
+        <div class="gantt" id="ganttArea"></div>
+        <div class="gantt-legend">
+          <div class="gantt-legend-item"><div class="legend-dot m-ikraft" style="position:static;transform:none"></div> Ikraftträdande</div>
+          <div class="gantt-legend-item"><div class="legend-dot m-riksdag" style="position:static;transform:none"></div> Riksdagsbeslut</div>
+          <div class="gantt-legend-item"><div class="legend-dot m-milstolpe" style="position:static;transform:none"></div> Milstolpe</div>
+          <div class="gantt-legend-item"><div class="legend-dot m-redovisning" style="position:static;transform:none"></div> Redovisning</div>
+          <div class="gantt-legend-item"><div class="legend-dot m-delredovisning" style="position:static;transform:none"></div> Delredovisning</div>
+        </div>
       </div>
     </div>
     <div class="sidebar">
-      <div class="minimap">
-        <div class="minimap-title">Översikt</div>
-        <div class="minimap-track" id="minimapTrack"></div>
-      </div>
-      <div class="detail-panel" id="detailPanel">
-        <div class="detail-empty"><div class="detail-empty-icon">◉</div>Klicka på en markör<br>för att se detaljer.</div>
-      </div>
+      <div class="minimap"><div class="minimap-title">Översikt</div><div class="minimap-track" id="minimapTrack"></div></div>
+      <div class="detail-panel" id="detailPanel"><div class="detail-empty"><div class="detail-empty-icon">◉</div>Klicka på en markör<br>för att se detaljer.</div></div>
     </div>
   </div>
 
   <div class="gantt-tooltip" id="tooltip"></div>
   <div class="mobile-overlay" id="mobileOverlay"></div>
-  <div class="mobile-sidebar" id="mobileSidebar">
-    <button class="mobile-sidebar-close" id="mobileSidebarClose" aria-label="Stäng">×</button>
-    <div id="mobileSidebarContent"></div>
-  </div>
+  <div class="mobile-sidebar" id="mobileSidebar"><button class="mobile-sidebar-close" id="mobileSidebarClose" aria-label="Stäng">×</button><div id="mobileSidebarContent"></div></div>
 
-  <footer>
-    Källor: regeringen.se, skolverket.se, riksdagen.se · Sammanställd mars 2026<br>
-    Kontrollera datum mot originaldokumenten. Dela gärna med kollegor.<br>
-    © 2026 Niklas Leide
-  </footer>
+  <footer>Källor: regeringen.se, skolverket.se, riksdagen.se · Sammanställd mars 2026<br>Kontrollera datum mot originaldokumenten. Dela gärna med kollegor.<br>© 2026 Niklas Leide</footer>
 </div>
 
 <script>
-let handelser = [], reforms = [], uppdragData = {};
-let selectedId = null;
+let handelser=[],reforms=[],uppdragData={},selectedId=null,expandedReforms=new Set();
 
-const catColors = { kunskap:{color:'#1d4ed8',bg:'#dbeafe'}, trygghet:{color:'#b91c1c',bg:'#fee2e2'}, larare:{color:'#15803d',bg:'#dcfce7'}, styrning:{color:'#6d28d9',bg:'#ede9fe'} };
-const catLabels = { kunskap:'Kunskap & bedömning', trygghet:'Trygghet & säkerhet', larare:'Lärarvillkor', styrning:'Styrning & organisation' };
-const catOrder = ['kunskap','trygghet','larare','styrning'];
-const typLabels = { 'ikraftträdande':'Ikraftträdande', 'riksdagsbeslut':'Riksdagsbeslut', 'redovisning':'Redovisning', 'delredovisning':'Delredovisning', 'milstolpe':'Milstolpe' };
-const markerClass = { 'ikraftträdande':'marker-ikraft', 'riksdagsbeslut':'marker-riksdag', 'milstolpe':'marker-milstolpe', 'redovisning':'marker-redovisning', 'delredovisning':'marker-delredovisning' };
-const monthShort = ['','jan','feb','mar','apr','maj','jun','jul','aug','sep','okt','nov','dec'];
+const catColors={kunskap:{color:'#1d4ed8',bg:'#dbeafe'},trygghet:{color:'#b91c1c',bg:'#fee2e2'},larare:{color:'#15803d',bg:'#dcfce7'},styrning:{color:'#6d28d9',bg:'#ede9fe'}};
+const catLabels={kunskap:'Kunskap & bedömning',trygghet:'Trygghet & säkerhet',larare:'Lärarvillkor',styrning:'Styrning & organisation'};
+const catOrder=['kunskap','trygghet','larare','styrning'];
+const typLabels={'ikraftträdande':'Ikraftträdande','riksdagsbeslut':'Riksdagsbeslut','redovisning':'Redovisning','delredovisning':'Delredovisning','milstolpe':'Milstolpe'};
+const mCls={'ikraftträdande':'m-ikraft','riksdagsbeslut':'m-riksdag','milstolpe':'m-milstolpe','redovisning':'m-redovisning','delredovisning':'m-delredovisning'};
+const monthShort=['','jan','feb','mar','apr','maj','jun','jul','aug','sep','okt','nov','dec'];
 
-let activeTyps = new Set(['ikraftträdande','riksdagsbeslut','redovisning','delredovisning','milstolpe']);
-let activeKats = new Set(['kunskap','trygghet','larare','styrning']);
+let activeTyps=new Set(['ikraftträdande','riksdagsbeslut','redovisning','delredovisning','milstolpe']);
+let activeKats=new Set(['kunskap','trygghet','larare','styrning']);
 
-const T_START = new Date('2025-01-01').getTime();
-const T_END = new Date('2032-01-01').getTime();
-const T_RANGE = T_END - T_START;
-const NOW = new Date('2026-03-30');
+const T0=new Date('2025-01-01').getTime(),T1=new Date('2032-01-01').getTime(),TR=T1-T0;
+const NOW=new Date('2026-03-30');
 
-function toPercent(dateStr) {
-  let d;
-  if (/^\d{4}-Q\d$/.test(dateStr)) {
-    const y = parseInt(dateStr.substring(0,4)), q = parseInt(dateStr[6]);
-    d = new Date(y, (q-1)*3+1, 15);
-  } else { d = new Date(dateStr); }
-  return Math.max(0, Math.min(100, ((d.getTime() - T_START) / T_RANGE) * 100));
-}
+function pct(ds){let d;if(/^\d{4}-Q\d$/.test(ds)){const y=+ds.substring(0,4),q=+ds[6];d=new Date(y,(q-1)*3+1,15)}else d=new Date(ds);return Math.max(0,Math.min(100,((d.getTime()-T0)/TR)*100))}
+function pd(d){if(/^\d{4}-Q\d$/.test(d)){const y=+d.substring(0,4),q=+d[6];return{iso:`${y}-${String((q-1)*3+2).padStart(2,'0')}-15`,label:`${y} Q${q}`}}const[y,m,dd]=d.split('-').map(Number);return{iso:d,label:`${dd} ${monthShort[m]} ${y}`}}
+function exDates(t){if(!t)return[];const p=/(\d{1,2})\s+(januari|februari|mars|april|maj|juni|juli|augusti|september|oktober|november|december)\s+(\d{4})/gi,mm={januari:'01',februari:'02',mars:'03',april:'04',maj:'05',juni:'06',juli:'07',augusti:'08',september:'09',oktober:'10',november:'11',december:'12'},r=[];let m;while((m=p.exec(t))!==null){const mo=mm[m[2].toLowerCase()];if(mo)r.push(`${m[3]}-${mo}-${m[1].padStart(2,'0')}`)}return r}
+function isPast(d){return new Date(d)<NOW}
+function np(){return((NOW.getTime()-T0)/TR)*100}
 
-function parseDatum(d) {
-  if (/^\d{4}-Q\d$/.test(d)) {
-    const y=parseInt(d.substring(0,4)), q=parseInt(d[6]), m=(q-1)*3+2;
-    return { iso:`${y}-${String(m).padStart(2,'0')}-15`, label:`${y} Q${q}` };
-  }
-  const [y,m,dd]=d.split('-').map(Number);
-  return { iso:d, label:`${dd} ${monthShort[m]} ${y}` };
-}
-
-function extractDates(text) {
-  if (!text) return [];
-  const pat = /(\d{1,2})\s+(januari|februari|mars|april|maj|juni|juli|augusti|september|oktober|november|december)\s+(\d{4})/gi;
-  const mm = {januari:'01',februari:'02',mars:'03',april:'04',maj:'05',juni:'06',juli:'07',augusti:'08',september:'09',oktober:'10',november:'11',december:'12'};
-  const dates = []; let m;
-  while ((m = pat.exec(text)) !== null) { const mo = mm[m[2].toLowerCase()]; if (mo) dates.push(`${m[3]}-${mo}-${m[1].padStart(2,'0')}`); }
-  return dates;
-}
-
-function isPast(dateStr) { return new Date(dateStr) < NOW; }
-function nowPct() { return ((NOW.getTime() - T_START) / T_RANGE) * 100; }
-
-function buildReformRows() {
-  const evByReform = {};
-  handelser.forEach(h => { if (h.reform) { if (!evByReform[h.reform]) evByReform[h.reform] = []; evByReform[h.reform].push(h); }});
-  const rows = [];
-  reforms.forEach(r => {
-    const evs = evByReform[r.id];
-    if (!evs || evs.length === 0) return;
-    const dates = evs.map(e => parseDatum(e.datum).iso).sort();
-    const startPct = toPercent(dates[0]);
-    const endPct = toPercent(dates[dates.length - 1]);
-    const ikraftEvs = evs.filter(e => e.typ === 'ikraftträdande');
-    const allPast = ikraftEvs.length > 0 && ikraftEvs.every(e => isPast(parseDatum(e.datum).iso));
-    rows.push({ reform: r, events: evs, startPct, endPct: Math.max(endPct, startPct + 0.5), allPast });
+function buildRows(){
+  const evBy={};
+  handelser.forEach(h=>{if(h.reform){if(!evBy[h.reform])evBy[h.reform]=[];evBy[h.reform].push(h)}});
+  const rows=[];
+  reforms.forEach(r=>{
+    const evs=evBy[r.id];if(!evs||!evs.length)return;
+    const dates=evs.map(e=>pd(e.datum).iso).sort();
+    const s=pct(dates[0]),e=pct(dates[dates.length-1]);
+    const ikEvs=evs.filter(e=>e.typ==='ikraftträdande');
+    const allPast=ikEvs.length>0&&ikEvs.every(e=>isPast(pd(e.datum).iso));
+    // Check if has expandable detail (non-ikraftträdande events or uppdrag)
+    const detailEvs=evs.filter(e=>e.typ!=='ikraftträdande');
+    const u=uppdragData[r.id];
+    const hasUppdrag=u&&u.typ!=='ej';
+    const hasDetail=detailEvs.length>0||hasUppdrag;
+    rows.push({reform:r,events:evs,startPct:s,endPct:Math.max(e,s+.5),allPast,hasDetail});
   });
   return rows;
 }
 
-function buildUppdragRows(reformId) {
-  const u = uppdragData[reformId];
-  if (!u || u.typ === 'ej') return [];
-  const rows = [];
-  const addRow = (obj, key) => {
-    const dates = extractDates((obj.kort||'') + ' ' + (obj.fulltext||''));
-    const sorted = dates.sort();
-    const endDate = sorted.length > 0 ? sorted[sorted.length - 1] : null;
-    const tlEvs = handelser.filter(h => h.reform === reformId && (h.typ === 'redovisning' || h.typ === 'delredovisning'));
-    rows.push({ titel: obj.titel || obj.kort.split('.')[0], startPct: toPercent('2025-12-01'), endPct: endDate ? toPercent(endDate) : null, events: key === 'main' ? tlEvs : [], reformId });
-  };
-  addRow(u, 'main');
-  if (u.relaterade) u.relaterade.forEach((rel, i) => { if (rel.typ !== 'ej') addRow(rel, `rel${i}`); });
-  return rows;
+function buildSubRows(rid){
+  const subs=[];
+  // Uppdrag bars
+  const u=uppdragData[rid];
+  if(u&&u.typ!=='ej'){
+    const addU=(obj)=>{
+      const ds=exDates((obj.kort||'')+' '+(obj.fulltext||'')).sort();
+      const end=ds.length?ds[ds.length-1]:null;
+      subs.push({type:'uppdrag',titel:obj.titel||obj.kort.split('.')[0],startPct:pct('2025-12-01'),endPct:end?pct(end):null});
+    };
+    addU(u);
+    if(u.relaterade)u.relaterade.forEach(rel=>{if(rel.typ!=='ej')addU(rel)});
+  }
+  // Milstolpe/redovisning/delredovisning events as markers
+  const evs=handelser.filter(h=>h.reform===rid&&h.typ!=='ikraftträdande');
+  evs.forEach(ev=>{subs.push({type:'event',event:ev})});
+  return subs;
 }
 
-function renderGantt() {
-  const reformRows = buildReformRows();
-  const np = nowPct();
+function renderGantt(){
+  const rows=buildRows();
+  const n=np();
 
-  let html = '<div class="gantt-header"><div class="gantt-header-label"></div><div class="gantt-header-chart">';
-  for (let y = 2025; y <= 2031; y++) {
-    const pct = toPercent(`${y}-01-01`);
-    html += `<div class="gantt-year-tick" style="left:${pct}%"></div><div class="gantt-year-text" style="left:${pct}%">${y}</div>`;
-  }
-  html += `<div class="gantt-now-line" style="left:${np}%"><div class="gantt-now-pip"></div><div class="gantt-now-label">Nu</div></div>`;
-  html += '</div></div>';
+  let h='<div class="gantt-header"><div class="gantt-header-label"></div><div class="gantt-header-chart">';
+  for(let y=2025;y<=2031;y++){const p=pct(`${y}-01-01`);h+=`<div class="gantt-year-tick" style="left:${p}%"></div><div class="gantt-year-text" style="left:${p}%">${y}</div>`}
+  h+=`<div class="gantt-now-line" style="left:${n}%"><div class="gantt-now-pip"></div><div class="gantt-now-label">Nu</div></div>`;
+  h+='</div></div>';
 
-  html += '<div class="gantt-body" id="ganttBody">';
-  for (let y = 2025; y <= 2031; y++) {
-    html += `<div class="gantt-grid-line" style="left:calc(var(--label-w) + var(--chart-w) * ${toPercent(`${y}-01-01`)} / 100)"></div>`;
-  }
-  html += `<div class="gantt-now-body" style="left:calc(var(--label-w) + var(--chart-w) * ${np} / 100)"></div>`;
+  h+='<div class="gantt-body" id="ganttBody">';
+  // Grid lines
+  for(let y=2025;y<=2031;y++)h+=`<div class="gantt-grid-line" style="left:calc(var(--label-w) + var(--chart-w) * ${pct(`${y}-01-01`)} / 100)"></div>`;
+  h+=`<div class="gantt-now-body" style="left:calc(var(--label-w) + var(--chart-w) * ${n} / 100)"></div>`;
 
-  catOrder.forEach(cat => {
-    const catRows = reformRows.filter(r => r.reform.cat === cat);
-    if (catRows.length === 0) return;
-    const cc = catColors[cat];
-    const dimCat = !activeKats.has(cat);
-    html += `<div class="gantt-cat-header"><div class="gantt-cat-dot" style="background:${cc.color}"></div><div class="gantt-cat-title" style="color:${cc.color}">${catLabels[cat]}</div></div>`;
+  catOrder.forEach(cat=>{
+    const cr=rows.filter(r=>r.reform.cat===cat);if(!cr.length)return;
+    const cc=catColors[cat],dim=!activeKats.has(cat);
+    h+=`<div class="gantt-cat-header"><div class="gantt-cat-dot" style="background:${cc.color}"></div><div class="gantt-cat-title" style="color:${cc.color}">${catLabels[cat]}</div></div>`;
 
-    catRows.forEach(row => {
-      const r = row.reform, c = catColors[r.cat], dim = dimCat;
-      html += `<div class="gantt-row ${dim?'dimmed':''} ${row.allPast?'past-reform':''}">`;
-      html += `<div class="gantt-row-label"><div class="gantt-row-name">${row.allPast?'<span class="past-check">✓</span>':''}${r.short}</div><div class="gantt-row-ref">${r.ref}</div></div>`;
-      html += `<div class="gantt-row-chart">`;
-      html += `<div class="gantt-bar" style="left:${row.startPct}%;width:${row.endPct-row.startPct}%;background:${c.bg};border-color:${c.color}"></div>`;
-      row.events.forEach(ev => {
-        const pct = toPercent(ev.datum), p = parseDatum(ev.datum);
-        const cls = markerClass[ev.typ]||'marker-milstolpe';
-        const dimEv = !activeTyps.has(ev.typ)?'dimmed':'';
-        const sel = ev.id===selectedId?'selected':'';
-        html += `<div class="gantt-marker ${cls} ${dimEv} ${sel}" style="left:${pct}%" data-id="${ev.id}" data-titel="${ev.titel.replace(/"/g,'&quot;')}" data-datum="${p.label}" data-typ="${typLabels[ev.typ]}" data-reform="${r.short}"></div>`;
+    cr.forEach(row=>{
+      const r=row.reform,c=catColors[r.cat],isExp=expandedReforms.has(r.id);
+
+      // Main row
+      h+=`<div class="gantt-row ${dim?'dimmed':''} ${row.allPast?'past-reform':''}">`;
+      h+=`<div class="gantt-row-label">`;
+      h+=`<div class="gantt-row-chevron ${row.hasDetail?'':'hidden'} ${isExp?'open':''}" data-expand="${r.id}">▶</div>`;
+      h+=`<div class="gantt-row-info"><div class="gantt-row-name">${row.allPast?'<span class="past-check">✓</span>':''}${r.short}</div><div class="gantt-row-ref">${r.ref}</div></div>`;
+      h+=`</div><div class="gantt-row-chart">`;
+      h+=`<div class="gantt-bar" style="left:${row.startPct}%;width:${row.endPct-row.startPct}%;background:${c.bg};border-color:${c.color}"></div>`;
+      // Only ikraftträdande markers on main row
+      row.events.filter(e=>e.typ==='ikraftträdande').forEach(ev=>{
+        const p=pd(ev.datum),pc=pct(ev.datum),dimE=!activeTyps.has(ev.typ),sel=ev.id===selectedId;
+        h+=`<div class="gantt-marker m-ikraft ${dimE?'dimmed':''} ${sel?'selected':''}" style="left:${pc}%" data-id="${ev.id}" data-t="${ev.titel.replace(/"/g,'&quot;')}" data-d="${p.label}" data-tp="${typLabels[ev.typ]}"></div>`;
       });
-      html += '</div></div>';
+      h+=`</div></div>`;
 
-      buildUppdragRows(r.id).forEach(ur => {
-        const shortT = ur.titel.length > 30 ? ur.titel.substring(0,28)+'…' : ur.titel;
-        html += `<div class="gantt-row uppdrag-row ${dim?'dimmed':''}"><div class="gantt-row-label"><div class="gantt-row-name">↳ ${shortT}</div></div><div class="gantt-row-chart">`;
-        if (ur.endPct !== null) {
-          html += `<div class="gantt-bar uppdrag-bar" style="left:${ur.startPct}%;width:${ur.endPct-ur.startPct}%;background:${c.bg};border-color:${c.color}"></div>`;
-        } else {
-          const ep = Math.max(np, ur.startPct+1);
-          html += `<div class="gantt-bar uppdrag-bar" style="left:${ur.startPct}%;width:${ep-ur.startPct}%;background:${c.bg};border-color:${c.color}"><span class="gantt-bar-arrow">→</span></div>`;
-        }
-        ur.events.forEach(ev => {
-          const pct = toPercent(ev.datum), p = parseDatum(ev.datum);
-          html += `<div class="gantt-marker ${markerClass[ev.typ]||'marker-redovisning'}" style="left:${pct}%" data-id="${ev.id}" data-titel="${ev.titel.replace(/"/g,'&quot;')}" data-datum="${p.label}" data-typ="${typLabels[ev.typ]}" data-reform="${reforms.find(x=>x.id===ur.reformId)?.short||''}"></div>`;
+      // Expandable detail
+      if(row.hasDetail){
+        h+=`<div class="gantt-detail ${isExp?'open':''}" data-detail="${r.id}"><div class="gantt-detail-inner">`;
+        const subs=buildSubRows(r.id);
+        // Render uppdrag bars
+        subs.filter(s=>s.type==='uppdrag').forEach(ur=>{
+          const short=ur.titel.length>32?ur.titel.substring(0,30)+'…':ur.titel;
+          h+=`<div class="gantt-sub-row"><div class="gantt-sub-label"><div class="gantt-sub-name">↳ ${short}</div></div><div class="gantt-sub-chart">`;
+          if(ur.endPct!==null){
+            h+=`<div class="gantt-sub-bar" style="left:${ur.startPct}%;width:${ur.endPct-ur.startPct}%;background:${c.bg};border-color:${c.color}"></div>`;
+          }else{
+            const ep=Math.max(n,ur.startPct+1);
+            h+=`<div class="gantt-sub-bar" style="left:${ur.startPct}%;width:${ep-ur.startPct}%;background:${c.bg};border-color:${c.color}"><span class="gantt-sub-bar-arrow">→</span></div>`;
+          }
+          h+=`</div></div>`;
         });
-        html += '</div></div>';
-      });
+        // Render event markers in a single sub-row
+        const detailEvs=subs.filter(s=>s.type==='event');
+        if(detailEvs.length){
+          h+=`<div class="gantt-sub-row"><div class="gantt-sub-label"><div class="gantt-sub-name" style="color:#bbb;font-size:.5rem">Händelser</div></div><div class="gantt-sub-chart">`;
+          detailEvs.forEach(s=>{
+            const ev=s.event,p=pd(ev.datum),pc=pct(ev.datum);
+            const cls=mCls[ev.typ]||'m-milstolpe',dimE=!activeTyps.has(ev.typ),sel=ev.id===selectedId;
+            h+=`<div class="gantt-marker ${cls} ${dimE?'dimmed':''} ${sel?'selected':''}" style="left:${pc}%" data-id="${ev.id}" data-t="${ev.titel.replace(/"/g,'&quot;')}" data-d="${p.label}" data-tp="${typLabels[ev.typ]}"></div>`;
+          });
+          h+=`</div></div>`;
+        }
+        h+=`</div></div>`;
+      }
     });
   });
 
-  const orphans = handelser.filter(h => !h.reform);
-  if (orphans.length > 0) {
-    html += '<div class="gantt-cat-header"><div class="gantt-cat-dot" style="background:var(--muted)"></div><div class="gantt-cat-title" style="color:var(--muted)">Övergripande</div></div>';
-    orphans.forEach(ev => {
-      const pct = toPercent(ev.datum), p = parseDatum(ev.datum), dim = !activeTyps.has(ev.typ);
-      html += `<div class="gantt-row ${dim?'dimmed':''}"><div class="gantt-row-label"><div class="gantt-row-name" style="font-size:0.62rem">${ev.titel.length>40?ev.titel.substring(0,38)+'…':ev.titel}</div></div><div class="gantt-row-chart"><div class="gantt-marker ${markerClass[ev.typ]||'marker-riksdag'}" style="left:${pct}%" data-id="${ev.id}" data-titel="${ev.titel.replace(/"/g,'&quot;')}" data-datum="${p.label}" data-typ="${typLabels[ev.typ]}" data-reform=""></div></div></div>`;
+  // Orphan events
+  const orphans=handelser.filter(h=>!h.reform);
+  if(orphans.length){
+    h+='<div class="gantt-cat-header"><div class="gantt-cat-dot" style="background:var(--muted)"></div><div class="gantt-cat-title" style="color:var(--muted)">Övergripande</div></div>';
+    orphans.forEach(ev=>{
+      const p=pd(ev.datum),pc=pct(ev.datum),dim=!activeTyps.has(ev.typ);
+      h+=`<div class="gantt-row ${dim?'dimmed':''}"><div class="gantt-row-label"><div class="gantt-row-chevron hidden">▶</div><div class="gantt-row-info"><div class="gantt-row-name" style="font-size:.6rem">${ev.titel.length>42?ev.titel.substring(0,40)+'…':ev.titel}</div></div></div><div class="gantt-row-chart"><div class="gantt-marker ${mCls[ev.typ]||'m-riksdag'}" style="left:${pc}%" data-id="${ev.id}" data-t="${ev.titel.replace(/"/g,'&quot;')}" data-d="${p.label}" data-tp="${typLabels[ev.typ]}"></div></div></div>`;
     });
   }
 
-  html += '</div>';
-  document.getElementById('ganttArea').innerHTML = html;
+  h+='</div>';
+  document.getElementById('ganttArea').innerHTML=h;
 }
 
-function renderMinimap() {
-  const rows = buildReformRows();
-  const track = document.getElementById('minimapTrack');
-  const n = rows.length; if (!n) return;
-  const rh = Math.min(4, 200/n);
-  let inner = '';
-  rows.forEach((row, i) => {
-    const cc = catColors[row.reform.cat];
-    inner += `<div class="minimap-row" style="top:${(i/n)*200}px;left:${10+row.startPct*0.8}%;width:${(row.endPct-row.startPct)*0.8}%;height:${rh}px;background:${cc.color};opacity:${row.allPast?0.3:0.7}"></div>`;
+// Minimap
+function renderMinimap(){
+  const rows=buildRows(),track=document.getElementById('minimapTrack'),n=rows.length;if(!n)return;
+  let inner='';
+  rows.forEach((row,i)=>{
+    const cc=catColors[row.reform.cat];
+    inner+=`<div class="minimap-row" style="top:${(i/n)*200}px;left:${10+row.startPct*.8}%;width:${(row.endPct-row.startPct)*.8}%;height:${Math.min(4,200/n)}px;background:${cc.color};opacity:${row.allPast?.3:.7}"></div>`;
   });
-  inner += '<div class="minimap-viewport" id="minimapViewport" style="top:0;height:40px"></div>';
-  track.innerHTML = inner;
-  track.addEventListener('click', e => {
-    const rect = track.getBoundingClientRect();
-    const body = document.getElementById('ganttBody');
-    window.scrollTo({ top: body.offsetTop + (e.clientY-rect.top)/rect.height*body.scrollHeight - 100, behavior: 'smooth' });
+  inner+='<div class="minimap-vp" id="minimapVp" style="top:0;height:40px"></div>';
+  track.innerHTML=inner;
+  track.addEventListener('click',e=>{
+    const rect=track.getBoundingClientRect(),body=document.getElementById('ganttBody');
+    window.scrollTo({top:body.offsetTop+((e.clientY-rect.top)/rect.height)*body.scrollHeight-100,behavior:'smooth'});
   });
 }
-
-function updateMinimap() {
-  const vp = document.getElementById('minimapViewport'), body = document.getElementById('ganttBody');
-  if (!vp || !body) return;
-  const rect = body.getBoundingClientRect(), totalH = body.scrollHeight, viewH = window.innerHeight;
-  const maxS = totalH - viewH;
-  const ratio = maxS > 0 ? Math.max(0, Math.min(1, -rect.top / maxS)) : 0;
-  const vr = Math.min(1, viewH / totalH);
-  vp.style.top = (ratio*(1-vr)*200)+'px';
-  vp.style.height = Math.max(8, vr*200)+'px';
+function updateMinimap(){
+  const vp=document.getElementById('minimapVp'),body=document.getElementById('ganttBody');
+  if(!vp||!body)return;
+  const rect=body.getBoundingClientRect(),th=body.scrollHeight,vh=window.innerHeight,ms=th-vh;
+  const r=ms>0?Math.max(0,Math.min(1,-rect.top/ms)):0;
+  const vr=Math.min(1,vh/th);
+  vp.style.top=(r*(1-vr)*200)+'px';vp.style.height=Math.max(8,vr*200)+'px';
 }
 
-function setupTooltip() {
-  const tip = document.getElementById('tooltip');
-  document.getElementById('ganttArea').addEventListener('mouseover', e => {
-    const m = e.target.closest('.gantt-marker');
-    if (!m || m.classList.contains('dimmed')) return;
-    tip.innerHTML = `<div class="gantt-tooltip-typ">${m.dataset.typ}</div><div class="gantt-tooltip-title">${m.dataset.titel}</div><div class="gantt-tooltip-date">${m.dataset.datum}</div>${m.dataset.reform?`<div class="gantt-tooltip-reform">${m.dataset.reform}</div>`:''}`;
+// Tooltip
+function setupTooltip(){
+  const tip=document.getElementById('tooltip');
+  document.addEventListener('mouseover',e=>{
+    const m=e.target.closest('.gantt-marker');
+    if(!m||m.classList.contains('dimmed')){tip.classList.remove('visible');return}
+    tip.innerHTML=`<div class="tt-typ">${m.dataset.tp}</div><div class="tt-title">${m.dataset.t}</div><div class="tt-date">${m.dataset.d}</div>`;
     tip.classList.add('visible');
-    const r = m.getBoundingClientRect();
-    tip.style.left = Math.max(4, r.left + r.width/2 - tip.offsetWidth/2) + 'px';
-    tip.style.top = (r.top - tip.offsetHeight - 6) + 'px';
+    const r=m.getBoundingClientRect();
+    tip.style.left=Math.max(4,r.left+r.width/2-tip.offsetWidth/2)+'px';
+    tip.style.top=(r.top-tip.offsetHeight-6)+'px';
   });
-  document.getElementById('ganttArea').addEventListener('mouseout', e => {
-    if (e.target.closest('.gantt-marker')) tip.classList.remove('visible');
-  });
+  document.addEventListener('mouseout',e=>{if(e.target.closest('.gantt-marker'))tip.classList.remove('visible')});
 }
 
-function selectEvent(id) {
-  if (selectedId === id) { selectedId = null; clearDetail(); renderGantt(); return; }
-  selectedId = id; renderGantt();
-  const h = handelser.find(x => x.id === id); if (!h) return;
-  const p = parseDatum(h.datum), cc = h.kategori ? catColors[h.kategori] : null;
-  const reform = h.reform ? reforms.find(r => r.id === h.reform) : null;
-  let html = '';
-  if (cc) html += `<div class="detail-cat" style="background:${cc.bg};color:${cc.color}">${catLabels[h.kategori]}</div>`;
-  html += `<div class="detail-title">${h.titel}</div><div class="detail-ref">${typLabels[h.typ]} · ${p.label}</div>`;
-  if (reform) {
-    const rc = catColors[reform.cat];
-    html += `<div class="detail-section"><div class="detail-label">Kopplad reform</div><div class="detail-text"><span class="cat-dot" style="background:${rc.color};vertical-align:middle;margin-right:4px"></span>${reform.short} (${reform.ref})</div><div class="detail-links" style="margin-top:0.4rem"><a class="detail-link" href="reformer.html?reform=${reform.id}">→ Reformtabellen</a><a class="detail-link" href="uppdrag.html?uppdrag=${reform.id}">→ Uppdrag</a></div></div>`;
+// Select
+function selectEvent(id){
+  if(selectedId===id){selectedId=null;clearDetail();renderGantt();return}
+  selectedId=id;renderGantt();
+  const ev=handelser.find(x=>x.id===id);if(!ev)return;
+  const p=pd(ev.datum),cc=ev.kategori?catColors[ev.kategori]:null;
+  const reform=ev.reform?reforms.find(r=>r.id===ev.reform):null;
+  let html='';
+  if(cc)html+=`<div class="detail-cat" style="background:${cc.bg};color:${cc.color}">${catLabels[ev.kategori]}</div>`;
+  html+=`<div class="detail-title">${ev.titel}</div><div class="detail-ref">${typLabels[ev.typ]} · ${p.label}</div>`;
+  if(reform){
+    const rc=catColors[reform.cat];
+    html+=`<div class="detail-section"><div class="detail-label">Kopplad reform</div><div class="detail-text"><span class="cat-dot" style="background:${rc.color};vertical-align:middle;margin-right:4px"></span>${reform.short} (${reform.ref})</div><div class="detail-links" style="margin-top:.4rem"><a class="detail-link" href="reformer.html?reform=${reform.id}">→ Reformtabellen</a><a class="detail-link" href="uppdrag.html?uppdrag=${reform.id}">→ Uppdrag</a></div></div>`;
   }
-  html += `<div class="detail-section"><div class="detail-label">Källa</div><div class="detail-text">${h.kalla}</div></div>`;
-  document.getElementById('detailPanel').innerHTML = html;
-  if (window.innerWidth <= 800) { document.getElementById('mobileSidebarContent').innerHTML = html; document.getElementById('mobileSidebar').classList.add('open'); document.getElementById('mobileOverlay').classList.add('open'); }
+  html+=`<div class="detail-section"><div class="detail-label">Källa</div><div class="detail-text">${ev.kalla}</div></div>`;
+  document.getElementById('detailPanel').innerHTML=html;
+  if(window.innerWidth<=800){document.getElementById('mobileSidebarContent').innerHTML=html;document.getElementById('mobileSidebar').classList.add('open');document.getElementById('mobileOverlay').classList.add('open')}
+}
+function clearDetail(){
+  document.getElementById('detailPanel').innerHTML='<div class="detail-empty"><div class="detail-empty-icon">◉</div>Klicka på en markör<br>för att se detaljer.</div>';
+  document.getElementById('mobileSidebar').classList.remove('open');document.getElementById('mobileOverlay').classList.remove('open');
 }
 
-function clearDetail() {
-  document.getElementById('detailPanel').innerHTML = '<div class="detail-empty"><div class="detail-empty-icon">◉</div>Klicka på en markör<br>för att se detaljer.</div>';
-  document.getElementById('mobileSidebar').classList.remove('open'); document.getElementById('mobileOverlay').classList.remove('open');
-}
+let allExpanded=false;
+function init(){
+  renderGantt();renderMinimap();setupTooltip();
 
-function init() {
-  renderGantt(); renderMinimap(); setupTooltip();
-  document.getElementById('ganttArea').addEventListener('click', e => { const m = e.target.closest('.gantt-marker[data-id]'); if (m) selectEvent(m.dataset.id); });
-  document.querySelectorAll('.filter-btn[data-filter]').forEach(btn => {
-    btn.addEventListener('click', () => {
+  // Expand/collapse
+  document.getElementById('ganttArea').addEventListener('click',e=>{
+    const chev=e.target.closest('.gantt-row-chevron[data-expand]');
+    if(chev){
+      const rid=chev.dataset.expand;
+      if(expandedReforms.has(rid))expandedReforms.delete(rid);else expandedReforms.add(rid);
+      renderGantt();return;
+    }
+    const m=e.target.closest('.gantt-marker[data-id]');
+    if(m)selectEvent(m.dataset.id);
+  });
+
+  document.getElementById('toggleAll').addEventListener('click',()=>{
+    const rows=buildRows();
+    if(allExpanded){expandedReforms.clear();allExpanded=false;document.getElementById('toggleAll').textContent='Visa alla detaljer'}
+    else{rows.forEach(r=>{if(r.hasDetail)expandedReforms.add(r.reform.id)});allExpanded=true;document.getElementById('toggleAll').textContent='Dölj alla detaljer'}
+    renderGantt();
+  });
+
+  document.querySelectorAll('.filter-btn[data-filter]').forEach(btn=>{
+    btn.addEventListener('click',()=>{
       btn.classList.toggle('active');
-      const set = btn.dataset.filter === 'typ' ? activeTyps : activeKats;
-      btn.classList.contains('active') ? set.add(btn.dataset.value) : set.delete(btn.dataset.value);
+      const set=btn.dataset.filter==='typ'?activeTyps:activeKats;
+      btn.classList.contains('active')?set.add(btn.dataset.value):set.delete(btn.dataset.value);
       renderGantt();
     });
   });
-  window.addEventListener('scroll', updateMinimap, { passive: true });
-  document.getElementById('mobileSidebarClose').addEventListener('click', clearDetail);
-  document.getElementById('mobileOverlay').addEventListener('click', clearDetail);
-  document.addEventListener('keydown', e => { if (e.key === 'Escape') clearDetail(); });
+
+  window.addEventListener('scroll',updateMinimap,{passive:true});
+  document.getElementById('mobileSidebarClose').addEventListener('click',clearDetail);
+  document.getElementById('mobileOverlay').addEventListener('click',clearDetail);
+  document.addEventListener('keydown',e=>{if(e.key==='Escape')clearDetail()});
 }
 
-function dataPath(f) { return 'data/' + f; }
-async function loadData() {
-  try {
-    const cb = '?v=' + Date.now();
-    const [t, r, u] = await Promise.all([fetch(dataPath('tidslinje.json')+cb).then(r=>r.json()), fetch(dataPath('reforms.json')+cb).then(r=>r.json()), fetch(dataPath('uppdrag.json')+cb).then(r=>r.json())]);
-    handelser = t.handelser; reforms = r; uppdragData = u; init();
-  } catch (err) { console.error('Kunde inte ladda data:', err); document.getElementById('ganttArea').innerHTML = '<p style="padding:2rem;color:#b91c1c;">Kunde inte ladda data.</p>'; }
+function dataPath(f){return'data/'+f}
+async function loadData(){
+  try{
+    const cb='?v='+Date.now();
+    const[t,r,u]=await Promise.all([fetch(dataPath('tidslinje.json')+cb).then(r=>r.json()),fetch(dataPath('reforms.json')+cb).then(r=>r.json()),fetch(dataPath('uppdrag.json')+cb).then(r=>r.json())]);
+    handelser=t.handelser;reforms=r;uppdragData=u;init();
+  }catch(err){console.error('Kunde inte ladda data:',err);document.getElementById('ganttArea').innerHTML='<p style="padding:2rem;color:#b91c1c;">Kunde inte ladda data.</p>'}
 }
-window.addEventListener('load', loadData);
+window.addEventListener('load',loadData);
 </script>
 
 <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9d66c8f5b9da46078ca71ab819946f62"}'></script><!-- End Cloudflare Web Analytics -->
