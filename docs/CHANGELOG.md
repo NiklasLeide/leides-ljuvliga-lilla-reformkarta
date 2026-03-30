@@ -5,6 +5,7 @@ Types: `feat` | `fix` | `refactor` | `docs` | `chore` | `perf`
 
 ---
 
+[2026-03-30] feat: skapa reformer.html — tabellvy med filter, sortering, sidebar och fliknavigation (Reformkarta/Reformer/Uppdrag)
 [2026-03-30] docs: uppdatera roadmap med sprint 5 listvy — reformtabell, uppdragsöversikt, fliknavigation
 [2026-03-30] feat: lägg till Cloudflare Web Analytics i index.html och malbild.html
 [2026-03-30] fix: dölj fliknavigation till målbilden — sidan nås bara via direkt URL tills den är redo
