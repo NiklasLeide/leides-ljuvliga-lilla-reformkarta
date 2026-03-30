@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reformer — Skolreformer 2025–2028</title>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --ink: #1c1c1c;
+  --bg: #f7f6f3;
+  --card: #ffffff;
+  --border: #e5e2dc;
+  --muted: #999;
+  --kunskap: #1d4ed8;
+  --kunskap-bg: #dbeafe;
+  --trygghet: #b91c1c;
+  --trygghet-bg: #fee2e2;
+  --larare: #15803d;
+  --larare-bg: #dcfce7;
+  --styrning: #6d28d9;
+  --styrning-bg: #ede9fe;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'DM Sans', system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+header {
+  background: var(--ink);
+  color: #fff;
+  padding: 1.8rem 1.5rem 1.5rem;
+}
+.header-inner {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+.header-badge {
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.35);
+  margin-bottom: 0.4rem;
+}
+header h1 {
+  font-family: 'Source Serif 4', serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 0.3rem;
+}
+header p {
+  font-size: 0.82rem;
+  color: rgba(255,255,255,0.5);
+  max-width: 500px;
+}
+
+/* Tab navigation */
+.tab-nav {
+  display: flex;
+  gap: 0;
+  background: var(--card);
+  border-bottom: 1px solid var(--border);
+}
+.tab-nav a {
+  padding: 0.65rem 1.2rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--muted);
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: all 0.15s;
+}
+.tab-nav a:hover { color: var(--ink); }
+.tab-nav a.active {
+  color: var(--ink);
+  font-weight: 600;
+  border-bottom-color: var(--ink);
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* Filters */
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 1.2rem;
+}
+.filter-group {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.filter-label {
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  margin-right: 0.2rem;
+}
+.filter-btn {
+  padding: 0.28rem 0.6rem;
+  border: 1px solid var(--border);
+  border-radius: 100px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  cursor: pointer;
+  background: #fff;
+  color: #666;
+  font-family: inherit;
+  transition: all 0.15s;
+}
+.filter-btn:hover { border-color: var(--ink); }
+.filter-btn.active { background: var(--ink); color: #fff; border-color: var(--ink); }
+.filter-sep {
+  width: 1px;
+  height: 20px;
+  background: var(--border);
+  margin: 0 0.3rem;
+}
+
+/* Main layout */
+.main-layout {
+  display: grid;
+  grid-template-columns: 1fr 360px;
+  gap: 1.5rem;
+  min-height: 500px;
+}
+
+/* Table */
+.table-area {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.reform-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.78rem;
+}
+.reform-table th {
+  text-align: left;
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  padding: 0.5rem 0.7rem;
+  border-bottom: 2px solid var(--border);
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+  transition: color 0.15s;
+}
+.reform-table th:hover { color: var(--ink); }
+.reform-table th.sorted { color: var(--ink); }
+.reform-table th .sort-arrow {
+  display: inline-block;
+  margin-left: 0.25rem;
+  font-size: 0.55rem;
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.reform-table th.sorted .sort-arrow { opacity: 1; }
+
+.reform-table td {
+  padding: 0.6rem 0.7rem;
+  border-bottom: 1px solid var(--border);
+  vertical-align: middle;
+}
+.reform-table tbody tr {
+  cursor: pointer;
+  transition: background 0.12s;
+}
+.reform-table tbody tr:hover { background: #f8f7f4; }
+.reform-table tbody tr.selected { background: #eef2ff; }
+
+/* Category chip */
+.cat-chip {
+  display: inline-block;
+  font-size: 0.6rem;
+  font-weight: 600;
+  padding: 0.1rem 0.4rem;
+  border-radius: 3px;
+  white-space: nowrap;
+}
+
+/* Status badge */
+.status-badge {
+  display: inline-block;
+  font-size: 0.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  padding: 0.1rem 0.35rem;
+  border-radius: 3px;
+  white-space: nowrap;
+}
+
+/* Uppdrag cell */
+.uppdrag-cell {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+.uppdrag-dot {
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.uppdrag-text {
+  font-size: 0.68rem;
+  color: #555;
+}
+
+/* Beroenden count */
+.beroende-count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px; height: 22px;
+  border-radius: 50%;
+  font-size: 0.65rem;
+  font-weight: 600;
+  background: rgba(13,148,136,0.1);
+  color: #0d9488;
+}
+.beroende-count.zero {
+  background: #f3f4f6;
+  color: #9ca3af;
+}
+
+/* Detail panel */
+.detail-panel {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1.2rem;
+  overflow-y: auto;
+  max-height: 750px;
+}
+.detail-empty {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+.detail-empty-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  opacity: 0.3;
+}
+.detail-cat {
+  display: inline-block;
+  font-size: 0.55rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.1rem 0.4rem;
+  border-radius: 3px;
+  margin-bottom: 0.4rem;
+}
+.detail-title {
+  font-family: 'Source Serif 4', serif;
+  font-size: 1.15rem;
+  font-weight: 600;
+  line-height: 1.25;
+  margin-bottom: 0.15rem;
+}
+.detail-ref {
+  font-size: 0.7rem;
+  color: var(--muted);
+  margin-bottom: 0.8rem;
+}
+.detail-section { margin-bottom: 0.8rem; }
+.detail-label {
+  font-size: 0.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  margin-bottom: 0.2rem;
+}
+.detail-text {
+  font-size: 0.76rem;
+  line-height: 1.55;
+  color: #444;
+}
+.detail-list {
+  list-style: none;
+  padding: 0;
+}
+.detail-list li {
+  font-size: 0.74rem;
+  line-height: 1.45;
+  color: #444;
+  padding-left: 0.9rem;
+  position: relative;
+  margin-bottom: 0.15rem;
+}
+.detail-list li::before {
+  content: '—';
+  position: absolute;
+  left: 0;
+  color: var(--muted);
+}
+.detail-box {
+  background: #f8f7f4;
+  border-radius: 6px;
+  padding: 0.55rem 0.7rem;
+  margin-bottom: 0.4rem;
+}
+.detail-box-val {
+  font-size: 0.74rem;
+  color: #444;
+  line-height: 1.45;
+}
+.detail-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-top: 0.6rem;
+}
+.detail-link {
+  font-size: 0.66rem;
+  font-weight: 500;
+  color: var(--kunskap);
+  text-decoration: none;
+  padding: 0.2rem 0.45rem;
+  border: 1px solid var(--kunskap-bg);
+  border-radius: 4px;
+  background: #f0f7ff;
+}
+.detail-link:hover { background: var(--kunskap-bg); }
+
+/* Uppdrag section in detail */
+.uppdrag-section {
+  margin-bottom: 0.8rem;
+  padding: 0.5rem 0.6rem;
+  background: #f8f7f4;
+  border-radius: 6px;
+}
+.uppdrag-header {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-bottom: 0.2rem;
+}
+.uppdrag-type {
+  font-size: 0.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.uppdrag-kort {
+  font-size: 0.72rem;
+  color: #444;
+  line-height: 1.45;
+}
+.uppdrag-expand {
+  display: inline-block;
+  margin-top: 0.25rem;
+  font-size: 0.66rem;
+  font-weight: 500;
+  color: var(--kunskap);
+  cursor: pointer;
+  border: none;
+  background: none;
+  padding: 0;
+  font-family: inherit;
+}
+.uppdrag-expand:hover { text-decoration: underline; }
+.uppdrag-kallor {
+  margin-top: 0.3rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem;
+}
+.uppdrag-kalla {
+  font-size: 0.6rem;
+  color: var(--kunskap);
+  text-decoration: none;
+  padding: 0.1rem 0.3rem;
+  border: 1px solid var(--kunskap-bg);
+  border-radius: 3px;
+  background: #f0f7ff;
+}
+.uppdrag-kalla:hover { background: var(--kunskap-bg); }
+
+/* Modal */
+.modal-overlay {
+  display: none;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.5);
+  z-index: 200;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.modal-overlay.open { display: flex; }
+.modal {
+  background: var(--card);
+  border-radius: 10px;
+  max-width: 600px;
+  width: 100%;
+  max-height: 80vh;
+  overflow-y: auto;
+  padding: 1.2rem 1.4rem;
+  position: relative;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.2);
+}
+.modal-close {
+  position: absolute;
+  top: 0.6rem; right: 0.8rem;
+  background: none; border: none;
+  font-size: 1.3rem; color: var(--muted);
+  cursor: pointer;
+  padding: 0.2rem;
+  line-height: 1;
+}
+.modal-close:hover { color: var(--ink); }
+.modal-title {
+  font-family: 'Source Serif 4', serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+  padding-right: 1.5rem;
+}
+.modal-text {
+  font-size: 0.78rem;
+  line-height: 1.6;
+  color: #333;
+  white-space: pre-wrap;
+  margin-bottom: 0.8rem;
+}
+.modal-kallor {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  padding-top: 0.6rem;
+  border-top: 1px solid var(--border);
+}
+
+/* Mobile sidebar overlay */
+.mobile-overlay {
+  display: none;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.3);
+  z-index: 150;
+}
+.mobile-overlay.open { display: block; }
+
+.mobile-sidebar {
+  display: none;
+  position: fixed;
+  top: 0; right: 0; bottom: 0;
+  width: 85%;
+  max-width: 360px;
+  background: var(--card);
+  z-index: 160;
+  overflow-y: auto;
+  padding: 1rem;
+  box-shadow: -4px 0 24px rgba(0,0,0,0.12);
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+}
+.mobile-sidebar.open {
+  display: block;
+  transform: translateX(0);
+}
+.mobile-sidebar-close {
+  position: sticky;
+  top: 0;
+  text-align: right;
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  color: var(--muted);
+  cursor: pointer;
+  padding: 0.2rem;
+  z-index: 1;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem 0 2rem;
+  font-size: 0.62rem;
+  color: #ccc;
+  line-height: 1.7;
+  margin-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+
+/* Mobile */
+@media (max-width: 800px) {
+  header { padding: 1rem 1rem 0.8rem; }
+  header h1 { font-size: 1.2rem; }
+  header p { font-size: 0.72rem; }
+  .container { padding: 0 0.8rem; }
+  .filter-bar { gap: 0.3rem; padding: 0.6rem 0; margin-bottom: 0.8rem; }
+  .filter-btn { padding: 0.22rem 0.45rem; font-size: 0.62rem; }
+  .filter-label { font-size: 0.55rem; }
+  .filter-sep { display: none; }
+  .tab-nav a { padding: 0.5rem 0.8rem; font-size: 0.68rem; }
+  footer { font-size: 0.55rem; padding: 1rem 0 1.2rem; }
+
+  .main-layout {
+    grid-template-columns: 1fr;
+  }
+  .detail-panel { display: none; }
+
+  .reform-table { font-size: 0.7rem; min-width: 600px; }
+  .reform-table th { font-size: 0.58rem; padding: 0.4rem 0.5rem; }
+  .reform-table td { padding: 0.45rem 0.5rem; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="header-badge">Kunskapsyta · mars 2026 · Privatprojekt av Niklas Leide</div>
+    <h1>Reformer — Skolreformer 2025–2028</h1>
+    <p>Alla reformer i tabellform. Klicka på en rad för detaljer.</p>
+  </div>
+</header>
+
+<div class="tab-nav">
+  <a href="index.html">Reformkarta</a>
+  <a href="reformer.html" class="active">Reformer</a>
+  <a href="uppdrag.html">Uppdrag</a>
+</div>
+
+<div class="container">
+  <div class="filter-bar">
+    <div class="filter-group">
+      <span class="filter-label">Kategori</span>
+      <button class="filter-btn active" data-filter="cat" data-value="all">Alla</button>
+      <button class="filter-btn" data-filter="cat" data-value="kunskap">Kunskap</button>
+      <button class="filter-btn" data-filter="cat" data-value="trygghet">Trygghet</button>
+      <button class="filter-btn" data-filter="cat" data-value="larare">Lärarvillkor</button>
+      <button class="filter-btn" data-filter="cat" data-value="styrning">Styrning</button>
+    </div>
+    <div class="filter-sep"></div>
+    <div class="filter-group">
+      <span class="filter-label">Status</span>
+      <button class="filter-btn active" data-filter="status" data-value="all">Alla</button>
+      <button class="filter-btn" data-filter="status" data-value="beslutad">Beslutad</button>
+      <button class="filter-btn" data-filter="status" data-value="proposition">Proposition</button>
+      <button class="filter-btn" data-filter="status" data-value="utredning">Utredning</button>
+    </div>
+    <div class="filter-sep"></div>
+    <div class="filter-group">
+      <span class="filter-label">Uppdrag</span>
+      <button class="filter-btn active" data-filter="uppdrag" data-value="all">Alla</button>
+      <button class="filter-btn" data-filter="uppdrag" data-value="uppdrag">Uppdrag</button>
+      <button class="filter-btn" data-filter="uppdrag" data-value="forberedande">Förberedande</button>
+      <button class="filter-btn" data-filter="uppdrag" data-value="ej">Ej fått uppdrag</button>
+    </div>
+  </div>
+
+  <div class="main-layout">
+    <div class="table-area">
+      <table class="reform-table">
+        <thead>
+          <tr>
+            <th data-col="short" class="sorted">Reform <span class="sort-arrow">▼</span></th>
+            <th data-col="cat">Kategori <span class="sort-arrow">▼</span></th>
+            <th data-col="status">Status <span class="sort-arrow">▼</span></th>
+            <th data-col="ikraft">Ikraftträdande <span class="sort-arrow">▼</span></th>
+            <th data-col="uppdrag">Skolverkets uppdrag <span class="sort-arrow">▼</span></th>
+            <th data-col="beroenden">Infra <span class="sort-arrow">▼</span></th>
+          </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+      </table>
+    </div>
+
+    <div class="detail-panel" id="detailPanel">
+      <div class="detail-empty">
+        <div class="detail-empty-icon">◉</div>
+        Klicka på en reform i tabellen<br>för att se detaljer.
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal" id="modal">
+      <button class="modal-close" id="modalClose" aria-label="Stäng">×</button>
+      <div class="modal-title" id="modalTitle"></div>
+      <div class="modal-text" id="modalText"></div>
+      <div class="modal-kallor" id="modalKallor"></div>
+    </div>
+  </div>
+
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+  <div class="mobile-sidebar" id="mobileSidebar">
+    <button class="mobile-sidebar-close" id="mobileSidebarClose" aria-label="Stäng">×</button>
+    <div id="mobileSidebarContent"></div>
+  </div>
+
+  <footer>
+    Källor: regeringen.se, skolverket.se, riksdagen.se · Sammanställd mars 2026<br>
+    Kontrollera datum mot originaldokumenten. Dela gärna med kollegor.<br>
+    © 2026 Niklas Leide
+  </footer>
+</div>
+
+<script>
+let reforms = [];
+let skolverketUppdrag = {};
+let malbild = {};
+let selectedId = null;
+
+const catColors = {
+  kunskap: { color: '#1d4ed8', bg: '#dbeafe' },
+  trygghet: { color: '#b91c1c', bg: '#fee2e2' },
+  larare: { color: '#15803d', bg: '#dcfce7' },
+  styrning: { color: '#6d28d9', bg: '#ede9fe' }
+};
+const catLabels = {
+  kunskap: 'Kunskap & bedömning',
+  trygghet: 'Trygghet & säkerhet',
+  larare: 'Lärarvillkor',
+  styrning: 'Styrning & organisation'
+};
+const catOrder = { kunskap: 0, trygghet: 1, larare: 2, styrning: 3 };
+
+const statusStyles = {
+  beslutad: { bg: '#dcfce7', color: '#15803d', label: 'Beslutad' },
+  proposition: { bg: '#fef3c7', color: '#92400e', label: 'Proposition' },
+  lagrådsremiss: { bg: '#f1f5f9', color: '#475569', label: 'Lagrådsremiss' },
+  utredning: { bg: '#f3f4f6', color: '#6b7280', label: 'Utredning' }
+};
+const statusOrder = { beslutad: 0, proposition: 1, lagrådsremiss: 2, utredning: 3 };
+
+const uppdragStyles = {
+  uppdrag: { color: '#15803d', label: 'Uppdrag' },
+  forberedande: { color: '#d97706', label: 'Förberedande' },
+  ej: { color: '#9ca3af', label: 'Ej fått uppdrag' }
+};
+const uppdragOrder = { uppdrag: 0, forberedande: 1, ej: 2 };
+
+let filters = { cat: 'all', status: 'all', uppdrag: 'all' };
+let sortCol = 'cat';
+let sortAsc = true;
+
+function getUppdragTyp(id) {
+  const u = skolverketUppdrag[id];
+  return u ? u.typ : 'ej';
+}
+
+function getBeroendeCount(id) {
+  const b = malbild.reformBeroenden && malbild.reformBeroenden[id];
+  return b ? Object.keys(b.pelare).length : 0;
+}
+
+function sortReforms(arr) {
+  return arr.slice().sort((a, b) => {
+    let va, vb;
+    switch (sortCol) {
+      case 'short':
+        va = a.short.toLowerCase();
+        vb = b.short.toLowerCase();
+        return sortAsc ? va.localeCompare(vb, 'sv') : vb.localeCompare(va, 'sv');
+      case 'cat':
+        va = catOrder[a.cat] ?? 99;
+        vb = catOrder[b.cat] ?? 99;
+        break;
+      case 'status':
+        va = statusOrder[a.status] ?? 99;
+        vb = statusOrder[b.status] ?? 99;
+        break;
+      case 'ikraft':
+        va = a.ikraft;
+        vb = b.ikraft;
+        return sortAsc ? va.localeCompare(vb) : vb.localeCompare(va);
+      case 'uppdrag':
+        va = uppdragOrder[getUppdragTyp(a.id)] ?? 99;
+        vb = uppdragOrder[getUppdragTyp(b.id)] ?? 99;
+        break;
+      case 'beroenden':
+        va = getBeroendeCount(a.id);
+        vb = getBeroendeCount(b.id);
+        break;
+      default:
+        va = 0; vb = 0;
+    }
+    if (va !== vb) return sortAsc ? va - vb : vb - va;
+    // Secondary sort by name
+    return a.short.localeCompare(b.short, 'sv');
+  });
+}
+
+function matchesFilters(r) {
+  if (filters.cat !== 'all' && r.cat !== filters.cat) return false;
+  if (filters.status !== 'all' && r.status !== filters.status) return false;
+  if (filters.uppdrag !== 'all' && getUppdragTyp(r.id) !== filters.uppdrag) return false;
+  return true;
+}
+
+function renderTable() {
+  const tbody = document.getElementById('tableBody');
+  const sorted = sortReforms(reforms);
+
+  tbody.innerHTML = sorted.map(r => {
+    if (!matchesFilters(r)) return '';
+    const cc = catColors[r.cat];
+    const ss = statusStyles[r.status] || statusStyles.utredning;
+    const ut = getUppdragTyp(r.id);
+    const us = uppdragStyles[ut];
+    const uShort = skolverketUppdrag[r.id] ? us.label : 'Ej fått uppdrag';
+    const bc = getBeroendeCount(r.id);
+    const isSelected = r.id === selectedId;
+
+    return `<tr data-id="${r.id}" class="${isSelected ? 'selected' : ''}">
+      <td><strong>${r.short}</strong></td>
+      <td><span class="cat-chip" style="background:${cc.bg};color:${cc.color}">${catLabels[r.cat]}</span></td>
+      <td><span class="status-badge" style="background:${ss.bg};color:${ss.color}">${ss.label}</span></td>
+      <td>${r.ikraft}</td>
+      <td><div class="uppdrag-cell"><span class="uppdrag-dot" style="background:${us.color}"></span><span class="uppdrag-text">${uShort}</span></div></td>
+      <td><span class="beroende-count ${bc === 0 ? 'zero' : ''}">${bc}</span></td>
+    </tr>`;
+  }).join('');
+
+  // Update sort headers
+  document.querySelectorAll('.reform-table th').forEach(th => {
+    const col = th.dataset.col;
+    th.classList.toggle('sorted', col === sortCol);
+    const arrow = th.querySelector('.sort-arrow');
+    if (arrow) arrow.textContent = (col === sortCol && !sortAsc) ? '▲' : '▼';
+  });
+}
+
+function selectReform(id) {
+  if (selectedId === id) {
+    selectedId = null;
+    clearDetail();
+    renderTable();
+    return;
+  }
+  selectedId = id;
+  renderTable();
+  renderDetail(id);
+}
+
+function clearDetail() {
+  const panel = document.getElementById('detailPanel');
+  panel.innerHTML = `<div class="detail-empty"><div class="detail-empty-icon">◉</div>Klicka på en reform i tabellen<br>för att se detaljer.</div>`;
+  closeMobileSidebar();
+}
+
+function renderDetail(id) {
+  const r = reforms.find(x => x.id === id);
+  if (!r) return;
+  const cc = catColors[r.cat];
+
+  let html = `
+    <div class="detail-cat" style="background:${cc.bg};color:${cc.color}">${catLabels[r.cat]}</div>
+    <div class="detail-title">${r.short}</div>
+    <div class="detail-ref">${r.ref} · ${r.ikraft}</div>
+    <div class="detail-section">
+      <div class="detail-text">${r.what}</div>
+    </div>
+    <div class="detail-section">
+      <div class="detail-label">Nyckelförändringar</div>
+      <ul class="detail-list">${r.changes.map(c => `<li>${c}</li>`).join('')}</ul>
+    </div>
+    <div class="detail-box">
+      <div class="detail-label">Övergångsbestämmelser</div>
+      <div class="detail-box-val">${r.transition}</div>
+    </div>
+    <div class="detail-box">
+      <div class="detail-label">Budget</div>
+      <div class="detail-box-val">${r.budget}</div>
+    </div>
+    ${renderUppdragSection(r.id)}
+    <div class="detail-links">
+      ${r.links.map(l => `<a class="detail-link" href="${l.u}" target="_blank" rel="noopener">↗ ${l.t}</a>`).join('')}
+    </div>`;
+
+  const panel = document.getElementById('detailPanel');
+  panel.innerHTML = html;
+
+  // On mobile, show in sidebar overlay
+  if (window.innerWidth <= 800) {
+    document.getElementById('mobileSidebarContent').innerHTML = html;
+    document.getElementById('mobileSidebar').classList.add('open');
+    document.getElementById('mobileOverlay').classList.add('open');
+  }
+}
+
+function renderUppdragSection(id) {
+  const u = skolverketUppdrag[id];
+  if (!u) return '';
+  const us = uppdragStyles[u.typ];
+  let expandBtn = '';
+  if (u.fulltext) {
+    expandBtn = `<button class="uppdrag-expand" onclick="event.stopPropagation();openModal('${id}')">Läs hela uppdraget ▸</button>`;
+  }
+  let kallorHtml = '';
+  if (u.kallor && u.kallor.length > 0) {
+    kallorHtml = `<div class="uppdrag-kallor">${u.kallor.map(k => `<a class="uppdrag-kalla" href="${k.url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">↗ ${k.text}</a>`).join('')}</div>`;
+  }
+  let relateratHtml = '';
+  if (u.relaterade && u.relaterade.length > 0) {
+    relateratHtml = u.relaterade.map((rel, i) => {
+      const relExpandBtn = rel.fulltext
+        ? `<button class="uppdrag-expand" onclick="event.stopPropagation();openRelateratModal('${id}', ${i})">Läs hela uppdraget ▸</button>`
+        : '';
+      const relKallor = rel.kallor && rel.kallor.length > 0
+        ? `<div class="uppdrag-kallor">${rel.kallor.map(k => `<a class="uppdrag-kalla" href="${k.url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">↗ ${k.text}</a>`).join('')}</div>`
+        : '';
+      const relUs = rel.typ ? uppdragStyles[rel.typ] : uppdragStyles.ej;
+      return `<div style="margin-top:0.4rem;padding-top:0.4rem;border-top:1px solid var(--border)">
+        <div class="uppdrag-header">
+          <span class="uppdrag-dot" style="background:${relUs.color}"></span>
+          <span class="uppdrag-type" style="color:${relUs.color}">${relUs.label}</span>
+        </div>
+        <div class="uppdrag-kort">${rel.kort}</div>
+        ${relExpandBtn}
+        ${relKallor}
+      </div>`;
+    }).join('');
+  }
+
+  return `<div class="uppdrag-section">
+    <div class="uppdrag-header">
+      <span class="uppdrag-dot" style="background:${us.color}"></span>
+      <span class="uppdrag-type" style="color:${us.color}">${us.label}</span>
+    </div>
+    <div class="uppdrag-kort">${u.kort}</div>
+    ${expandBtn}
+    ${kallorHtml}
+    ${relateratHtml}
+  </div>`;
+}
+
+function openModal(id) {
+  const u = skolverketUppdrag[id];
+  const r = reforms.find(x => x.id === id);
+  if (!u || !u.fulltext) return;
+  document.getElementById('modalTitle').textContent = r.short + ' — Skolverkets uppdrag';
+  document.getElementById('modalText').textContent = u.fulltext;
+  document.getElementById('modalKallor').innerHTML = u.kallor.map(k =>
+    `<a class="uppdrag-kalla" href="${k.url}" target="_blank" rel="noopener">↗ ${k.text}</a>`
+  ).join('');
+  document.getElementById('modalOverlay').classList.add('open');
+}
+
+function openRelateratModal(id, index) {
+  const u = skolverketUppdrag[id];
+  const r = reforms.find(x => x.id === id);
+  if (!u || !u.relaterade || !u.relaterade[index]) return;
+  const rel = u.relaterade[index];
+  document.getElementById('modalTitle').textContent = r.short + ' — Relaterat uppdrag';
+  document.getElementById('modalText').textContent = rel.fulltext;
+  document.getElementById('modalKallor').innerHTML = rel.kallor.map(k =>
+    `<a class="uppdrag-kalla" href="${k.url}" target="_blank" rel="noopener">↗ ${k.text}</a>`
+  ).join('');
+  document.getElementById('modalOverlay').classList.add('open');
+}
+
+function closeModal() {
+  document.getElementById('modalOverlay').classList.remove('open');
+}
+
+function closeMobileSidebar() {
+  document.getElementById('mobileSidebar').classList.remove('open');
+  document.getElementById('mobileOverlay').classList.remove('open');
+}
+
+function init() {
+  renderTable();
+
+  // Row clicks
+  document.getElementById('tableBody').addEventListener('click', e => {
+    const row = e.target.closest('tr[data-id]');
+    if (row) selectReform(row.dataset.id);
+  });
+
+  // Sort clicks
+  document.querySelectorAll('.reform-table th[data-col]').forEach(th => {
+    th.addEventListener('click', () => {
+      const col = th.dataset.col;
+      if (sortCol === col) {
+        sortAsc = !sortAsc;
+      } else {
+        sortCol = col;
+        sortAsc = true;
+      }
+      renderTable();
+    });
+  });
+
+  // Filter clicks
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const group = btn.dataset.filter;
+      document.querySelectorAll(`.filter-btn[data-filter="${group}"]`).forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      filters[group] = btn.dataset.value;
+      renderTable();
+    });
+  });
+
+  // Modal close
+  document.getElementById('modalClose').addEventListener('click', closeModal);
+  document.getElementById('modalOverlay').addEventListener('click', e => {
+    if (e.target === document.getElementById('modalOverlay')) closeModal();
+  });
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') { closeModal(); closeMobileSidebar(); }
+  });
+
+  // Mobile sidebar close
+  document.getElementById('mobileSidebarClose').addEventListener('click', closeMobileSidebar);
+  document.getElementById('mobileOverlay').addEventListener('click', closeMobileSidebar);
+}
+
+function dataPath(file) {
+  return 'data/' + file;
+}
+
+async function loadData() {
+  try {
+    const cacheBust = '?v=' + Date.now();
+    const [r, u, m] = await Promise.all([
+      fetch(dataPath('reforms.json') + cacheBust).then(res => res.json()),
+      fetch(dataPath('uppdrag.json') + cacheBust).then(res => res.json()),
+      fetch(dataPath('malbild.json') + cacheBust).then(res => res.json())
+    ]);
+    reforms = r;
+    skolverketUppdrag = u;
+    malbild = m;
+    init();
+  } catch (err) {
+    console.error('Kunde inte ladda data:', err);
+    document.getElementById('tableBody').innerHTML = '<tr><td colspan="6" style="padding:2rem;color:#b91c1c;">Kunde inte ladda reformdata.</td></tr>';
+  }
+}
+
+window.addEventListener('load', loadData);
+</script>
+
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9d66c8f5b9da46078ca71ab819946f62"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>
