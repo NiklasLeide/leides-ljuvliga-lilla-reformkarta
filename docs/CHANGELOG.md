@@ -5,6 +5,7 @@ Types: `feat` | `fix` | `refactor` | `docs` | `chore` | `perf`
 
 ---
 
+[2026-03-30] feat: lägg till Cloudflare Web Analytics i index.html och malbild.html
 [2026-03-30] fix: dölj fliknavigation till målbilden — sidan nås bara via direkt URL tills den är redo
 [2026-03-30] docs: uppdatera PROJECT_STATUS, ROADMAP och CHANGELOG — sprint 3 klar, deploy till produktion
 [2026-03-30] feat: uppdatera infrastrukturberoenden i malbild.json — nya kopplingar för betyg (datakontroll), läroplaner (likvärdig-miljö), undervisningstid (standarder) och studiero (datakontroll + likvärdig-miljö)
