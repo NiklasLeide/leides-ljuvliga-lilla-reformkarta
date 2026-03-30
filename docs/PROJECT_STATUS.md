@@ -1,8 +1,8 @@
 # Project Status — leides-ljuvliga-lilla-reformkarta
 
 > **Last updated:** 2026-03-30
-> **Current sprint:** Sprint 4 – Underhållsrutin
-> **Sprint dates:** 2026-03-30 → TBD
+> **Current sprint:** Sprint 6 – Tidslinje
+> **Sprint dates:** TBD
 
 ---
 
@@ -47,6 +47,22 @@
 
 ---
 
+## Completed: Sprint 5 – Listvy och uppdragsöversikt
+
+| # | Task | Status | Notes |
+|---|------|--------|-------|
+| 5.1 | Fliknavigation (Reformkarta/Reformer/Uppdrag) | ✅ Done | Målbild dold från nav, nås via direkt URL |
+| 5.2 | Reformtabell (reformer.html) | ✅ Done | Sorterings- och filterbar, sidebar med detaljer |
+| 5.3 | Filter: kategori, status, uppdragsstatus | ✅ Done | |
+| 5.4 | Uppdragsöversikt (uppdrag.html) | ✅ Done | Individuella uppdrag, inkl. relaterade |
+| 5.5 | Tidsgruppering per kvartal/år | ✅ Done | Q2–Q4 2026, 2027, 2028+ |
+| 5.6 | Snart-markering (30 dagar) | ✅ Done | Orange kant + badge |
+| 5.7 | Uppdragstitlar från regleringsbrevet | ✅ Done | Formella namn, visas som rubrik |
+| 5.8 | Tvåvägslänkning reformer↔uppdrag | ✅ Done | Deeplinks med URL-parametrar |
+| 5.9 | Responsiv | ✅ Done | Mobilanpassad med sidebar-overlay |
+
+---
+
 ## What's Working Now
 Reformkartan finns som `index.html` i roten. GitHub Pages serverar sidan.
 - 16 reformnoder med status, ikraftträdande och kategori
@@ -56,7 +72,11 @@ Reformkartan finns som `index.html` i roten. GitHub Pages serverar sidan.
 - Mobil landscape: kartvy med zoom/pan, sidopanel (20% bredd) för detaljer
 - Filter: område, tid, roll
 - Skolverkets uppdragsstatus: indikator på noder (grön/gul/grå), detaljsektion med klickbar fulltext + modal
-- **Målbildsvy** (malbild.html): 6 infrastrukturpelare, 16 reformer med beroendekopplingar, SVG-bezierlinjer, sidebar med motiveringstext, statistikrad, responsiv
+- **Målbildsvy** (malbild.html): 6 infrastrukturpelare, 16 reformer med beroendekopplingar, SVG-bezierlinjer, sidebar med motiveringstext, statistikrad, responsiv (dold från navigation, nås via direkt URL)
+- **Reformtabell** (reformer.html): sorterings- och filterbar tabell, sidebar med detaljer, deeplinks till uppdragsvy
+- **Uppdragsöversikt** (uppdrag.html): individuella uppdrag grupperade per tidsperiod, snart-markering, sidebar med fulltext, deeplinks till reformtabell
+- Fliknavigation: Reformkarta / Reformer / Uppdrag
+- Cloudflare Web Analytics på alla sidor
 
 ```bash
 # Öppna lokalt:

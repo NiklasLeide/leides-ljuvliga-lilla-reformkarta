@@ -49,16 +49,10 @@ git checkout master --quiet
 # Create dev/ folder if needed
 mkdir -p dev
 
-# Copy site files from dev branch into dev/ folder
-# Use a temp dir to avoid overwriting master root files
-TMPDIR=$(mktemp -d)
-git show dev:index.html > "$TMPDIR/index.html" 2>/dev/null || true
-git show dev:reformkarta.html > "$TMPDIR/reformkarta.html" 2>/dev/null || true
-git show dev:malbild.html > "$TMPDIR/malbild.html" 2>/dev/null || true
-cp "$TMPDIR/index.html" dev/index.html 2>/dev/null || true
-cp "$TMPDIR/reformkarta.html" dev/reformkarta.html 2>/dev/null || true
-cp "$TMPDIR/malbild.html" dev/malbild.html 2>/dev/null || true
-rm -rf "$TMPDIR"
+# Copy all HTML files from dev branch into dev/ folder
+for f in $(git ls-tree --name-only dev: 2>/dev/null | grep '\.html$'); do
+  git show "dev:$f" > "dev/$f" 2>/dev/null || true
+done
 
 # Copy data/ folder from dev
 mkdir -p dev/data
