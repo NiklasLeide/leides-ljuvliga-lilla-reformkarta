@@ -5,6 +5,7 @@ Types: `feat` | `fix` | `refactor` | `docs` | `chore` | `perf`
 
 ---
 
+[2026-03-30] docs: sprint 5 klar — uppdatera PROJECT_STATUS, ROADMAP och CHANGELOG inför deploy
 [2026-03-30] feat: tvåvägslänkning mellan uppdrag.html och reformer.html — klickbara reformnamn, uppdragstitlar som länkar, URL-parametrar för deeplinks
 [2026-03-30] fix: korrigera uppdragstitlar till formella namn från regleringsbrevet
 [2026-03-30] feat: lägg till uppdragstitlar i uppdrag.json och visa som rubriker i uppdrag.html — nya relaterade uppdrag (brottsprevention, tillbud, kartläggningsmaterial SVA)

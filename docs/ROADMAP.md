@@ -44,15 +44,16 @@
 - [ ] Bevaka vårens riksdagsbeslut — uppdatera reformstatus när propositioner antas
 - [ ] Sätt upp en checklista för kvartalsvis genomgång av reformdata
 
-## Sprint 5 — Listvy
-- [ ] Fliknavigation: lägg till 'Reformer' och 'Uppdrag' som nya flikar (Målbild & infrastruktur ska INTE synas i navigationen)
-- [ ] Reformtabell (reformer.html): sorterings- och filterbar tabell med kolumnerna reform, kategori, status, ikraftträdande, uppdragsstatus, antal infrastrukturberoenden
-- [ ] Filter överst: kategori, status, uppdragsstatus
-- [ ] Klick på rad öppnar sidebar med samma detaljpanel som reformkartan
-- [ ] Uppdragsöversikt (uppdrag.html): lista med alla Skolverket-uppdrag grupperade per tidsperiod (Q2 2026, Q3 2026, Q4 2026, 2027, 2028+)
-- [ ] Varje uppdrag visar: reformnamn, uppdragstyp (uppdrag/förberedande/ej), redovisningsdatum, kort beskrivning
-- [ ] Visuell markering av vad som är snart (närmaste 30 dagarna)
-- [ ] Responsiv
+## Completed: Sprint 5 — Listvy och uppdragsöversikt
+- [x] Fliknavigation: Reformkarta / Reformer / Uppdrag (Målbild dold)
+- [x] Reformtabell (reformer.html): sorterings- och filterbar tabell med sidebar
+- [x] Filter överst: kategori, status, uppdragsstatus
+- [x] Klick på rad öppnar sidebar med detaljpanel
+- [x] Uppdragsöversikt (uppdrag.html): individuella uppdrag (inkl. relaterade) grupperade per tidsperiod
+- [x] Uppdragstitlar från regleringsbrevet som rubriker
+- [x] Tvåvägslänkning: reformer.html ↔ uppdrag.html med deeplinks
+- [x] Visuell markering av snart (närmaste 30 dagarna)
+- [x] Responsiv
 
 ## Sprint 6 — Tidslinje
 - [ ] Visuell horisontell tidslinje (2025–2031)
