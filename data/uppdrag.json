@@ -1,6 +1,7 @@
 {
   "laroplaner": {
     "typ": "uppdrag",
+    "titel": "Ta fram förslag till nya kursplaner",
     "kort": "Uppdrag att ta fram förslag till nya kursplaner (U2025/02427). 40 Mkr 2026. Förslag till regeringen mars 2027.",
     "fulltext": "Uppdrag till Statens skolverk att förbereda införandet av en tioårig grundskola och ta fram förslag på nya läroplaner (U2025/02427, dec 2025).\n\nArbetet ska utgå från förslagen och bedömningarna i propositionen En tioårig grundskola (prop. 2024/25:143) samt betänkandet Kunskap för alla – nya läroplaner med fokus på undervisning och lärande (SOU 2025:19).\n\nSkolverket ska ta fram förslag till läroplaner som innehåller:\n- Skolans värdegrund (del 1)\n- Skolans uppdrag (del 2)\n- Skolans mål (del 3)\n- Skolans riktlinjer (del 4)\n- Fritidshemmet (del 5)\n- Timplanen (del 6)\n- Kursplanerna (del 7)\n\nSkolverket ska även omhänderta förslaget från betänkandet Tid för undervisningsuppdraget (SOU 2025:26), om att det i samtliga läroplaner ska regleras att rektorn ansvarar för att förskollärare och lärare ges förutsättningar för att planera, genomföra och följa upp sin undervisning.\n\nUppdraget omfattar även att ta fram förslag på revidering av befintliga läroplaner för förskolan, gymnasieskolan, anpassade gymnasieskolan och kommunal vuxenutbildning (i den del som rör rektors ansvar).\n\nMyndigheten ska ta fram kommentarer till samtliga delar av de nya läroplanerna. Skolverket ska också förbereda — och efter riksdagens och regeringens beslut — genomföra implementeringsinsatser.\n\nSkolverket ska senast den 31 mars 2027 redovisa förslagen till nya och reviderade läroplaner. Uppdraget i sin helhet ska redovisas senast den 15 juni 2029.",
     "kallor": [
@@ -16,6 +17,7 @@
   },
   "tioarig": {
     "typ": "uppdrag",
+    "titel": "Förbereda tioårig grundskola och fortbildning",
     "kort": "Förbereda införandet (RB 2025) + nytt uppdrag om fortbildning (RB 2026 uppdrag 6). Redovisas 29 jan 2027.",
     "fulltext": "Två uppdrag:\n\n1. FÖRBEREDANDE UPPDRAG (RB 2025, punkt 7):\nFörbereda införandet av en tioårig grundskola. Ingår i det samlade uppdraget U2025/02427 om att förbereda införandet av en tioårig grundskola och ta fram förslag på nya läroplaner.\n\nSkolverket ska bl.a. anpassa föreskrifter och beslut som berörs av ändringen. Myndigheten ska även ta fram förslag på hur de 534 utökade timmarna i lågstadiet ska fördelas mellan olika ämnen och ämnesområden i respektive skolform.\n\n2. FORTBILDNING OCH KOMPETENSUTVECKLING (RB 2026, nytt uppdrag 6):\nStatens skolverk ska förbereda för fortbildning i form av uppdragsutbildning för lärare som i dag arbetar i förskoleklassen eller i grundskolans årskurs 1–3. Fortbildningen ska syfta till att ge de lärare som ska arbeta i blivande årskurs 1 kompetens att integrera förskolans pedagogik och arbetssätt på lämpligt sätt i undervisningen.\n\nVid behov av särskilt anpassad fortbildning för lärare inom anpassade grundskolan, specialskolan och sameskolan bör tillgången till skolformsspecifik fortbildning säkerställas.\n\nSkolverket ska även ta fram andra kompetensutvecklingsinsatser för lärare och andra berörda personalgrupper med samma syften som för fortbildningen.\n\nFortbildningen och kompetensutvecklingsinsatserna ska kunna erbjudas från och med vårterminen 2027.\n\nUppdraget ska genomföras med utgångspunkt i förslagen i betänkandet En tioårig grundskola – Införandet av en ny årskurs 1 (SOU 2021:33 avsnitt 6.5).\n\nUppdraget ska redovisas till Regeringskansliet (Utbildningsdepartementet) senast den 29 januari 2027.\n\nHögst 4 000 000 kronor ska användas för utgifter med anledning av den del av uppdraget som avser framtagande av andra kompetensutvecklingsinsatser.",
     "kallor": [
@@ -31,6 +33,7 @@
   },
   "betyg": {
     "typ": "forberedande",
+    "titel": "Förbereda nytt betygssystem",
     "kort": "Förbereda för ändringar i betygssystemet (RB 2025). 24,9 Mkr 2026.",
     "fulltext": "Förbereda för ändringar i betygssystemet. Uppdraget återges i regleringsbrevet för 2025.\n\nSkolverket fick i oktober 2025 i uppdrag av regeringen att förbereda införandet av ett nytt betygssystem.\n\nSyftet med det nya betygssystemet är att meritvärdena som används vid ansökan till gymnasieskolan och högre utbildning ska bli mer likvärdiga. En ny modell för att beräkna elevernas meritvärden ska tas fram. Meritvärdet ska bestå dels av den sökandes betygsvärde, dels av resultatet från nationella slutprov.\n\nEn betygsskala med tio betygssteg (1–10), utan en skarp godkäntgräns, ska införas i de obligatoriska skolformerna och i de frivilliga skolformerna på gymnasial nivå.\n\nBudget: 24,9 Mkr till Skolverket 2026.\n\nTidplan enligt Skolverket:\n- 1 juli 2028: Ändringar i skollagen träder i kraft. Elever börjar få betyg enligt det nya betygssystemet.\n- 2031: De första årskullarna med nya meritvärden lämnar grundskolan och gymnasieskolan.\n- 1 januari 2031: Det nya betygssystemet börjar tillämpas inom kommunal vuxenutbildning.\n\nNot: Fullständig uppdragstext finns i regleringsbrevet för 2025.",
     "kallor": [
@@ -45,6 +48,7 @@
     ],
     "relaterade": [
       {
+        "titel": "Genomförandeplan digitala slutprov",
         "kort": "Genomförandeplan för digitaliserade och centralt rättade nationella slutprov (U2026/00283). Digitala prov senarelagda, pappersprov tills vidare. Central rättning fortgår — gymnasiet HT 2026, grundskolan VT 2028. Redovisas 8 maj 2026.",
         "fulltext": "Ändring av uppdraget att digitalisera de nationella proven m.m. (U2026/00283, feb 2026). Skolverket ska senarelägga införandet av digitala prov och tills vidare ska nationella prov genomföras i pappersform. Arbetet med att införa central rättning av digitala prov ska fortgå, men genomförandet behöver anpassas. Skolverket ska föreslå en genomförandeplan, inklusive en tidsplan, för att införa digitaliserade och centralt rättade nationella slutprov vid den tidpunkt som krävs för att möjliggöra det planerade införandet av ett nytt betygssystem. Genomförandeplanen ska innehålla en beskrivning av de förändringar av arbetet med digitalisering av proven och central rättning som krävs för att åstadkomma ett kvalitetssäkrat införande. Skolverket ska redovisa uppdraget senast den 8 maj 2026. Central rättning HT 2026: uppsatsdelarna i svenska/sva kurs 3 samt engelska kurs 6 i gymnasieskolan. Central rättning VT 2028: uppsatsdelarna i svenska/sva och engelska i årskurs 9.",
         "kallor": [
@@ -59,6 +63,7 @@
   },
   "stod": {
     "typ": "forberedande",
+    "titel": "Förbereda standardiserade tester",
     "kort": "Förbereda framtagande av standardiserade tester (RB 2025). Beräknat 28,4 Mkr 2027.",
     "fulltext": "Förbereda framtagande av standardiserade tester. Uppdraget återges i regleringsbrevet för 2025.\n\nRegeringen beräknar att Skolverket ska få 28,4 miljoner kronor 2027 och 14,2 miljoner kronor 2028 för att utveckla och ta fram obligatoriska standardiserade tester och stödmaterial. För att skolhuvudmännen ska genomföra standardiserade tester beräknar regeringen 9,5 miljoner kronor för 2028 och 19 miljoner kronor från och med 2029.\n\nNot: Fullständig uppdragstext finns i regleringsbrevet för 2025.",
     "kallor": [
@@ -84,6 +89,31 @@
     ],
     "relaterade": [
       {
+        "titel": "Situationell brottsprevention i skolväsendet",
+        "kort": "Nationell kartläggning och internationell lägesbild av situationell brottsprevention i skolväsendet (RB 2025, punkt 19). Kunskaps- och metodstöd ska delredovisas senast 30 december 2026. Slutredovisas senast 30 juni 2027.",
+        "fulltext": "Situationell brottsprevention i skolväsendet (RB 2025, punkt 19).\n\nNationell kartläggning och internationell lägesbild ska redovisas senast 29 maj 2026. Kunskaps- och metodstöd ska delredovisas senast 30 december 2026. Slutredovisas senast 30 juni 2027.",
+        "kallor": [
+          {
+            "text": "Regleringsbrev 2026 (PDF)",
+            "url": "https://www.statskontoret.se/regleringsbrev/25940/pdf?Version=HelaBrevet"
+          }
+        ],
+        "typ": "uppdrag"
+      },
+      {
+        "titel": "Kartläggning tillbudshantering i skolor",
+        "kort": "Kartlägga hinder i skolhuvudmännens arbete med incidentrapportering och anmälan av tillbud (RB 2026, nytt uppdrag 4). Tillsammans med Arbetsmiljöverket. Redovisas senast 30 december 2026.",
+        "fulltext": "Kartläggning och stöd gällande arbetet med att hantera tillbud i skolverksamheter (RB 2026, nytt uppdrag 4).\n\nStatens skolverk och Arbetsmiljöverket ska tillsammans kartlägga eventuella hinder i skolhuvudmännens arbete med incidentrapportering internt och anmälan av tillbud till ansvariga myndigheter. Utifrån kartläggningen ska de se över och komplettera befintligt stöd när det gäller arbetsmiljön i verksamheter inom skolväsendet.\n\nI detta ingår stöd till huvudmännen och rektorerna i arbetet med att systematiskt hantera tillbud i verksamheten för att öka förutsättningarna att förebygga risker för hot och våld mot lärare, förskollärare eller annan personal och, i förekommande fall, elever.\n\nRedovisas senast 30 december 2026.",
+        "kallor": [
+          {
+            "text": "Regleringsbrev 2026 (PDF)",
+            "url": "https://www.statskontoret.se/regleringsbrev/25940/pdf?Version=HelaBrevet"
+          }
+        ],
+        "typ": "uppdrag"
+      },
+      {
+        "titel": "Stödmaterial förebygga sexualbrott",
         "kort": "Stödmaterial för att förebygga sexualbrott och andra grova brott (RB 2025). Redovisas 18 feb 2026.",
         "fulltext": "Stödmaterial för att förebygga sexualbrott och andra grova brott. Uppdraget återges i regleringsbrevet för 2025 och ska redovisas senast den 18 februari 2026.",
         "kallor": [
@@ -131,6 +161,7 @@
   },
   "profession": {
     "typ": "uppdrag",
+    "titel": "Nationella professionsprogrammet",
     "kort": "Skolverket ansvarar för professionsprogrammet. 220 Mkr för kompetensutveckling. Prövning av meriteringsnivå.",
     "fulltext": "Skolverket ansvarar för det nationella professionsprogrammet för rektorer, lärare och förskollärare.\n\nFrån regleringsbrevet 2026 (anslag 1:10):\nHögst 220 000 000 kronor ska användas för utgifter för kompetensutveckling för rektorer, lärare och förskollärare med anledning av Skolverkets ansvar för det nationella professionsprogrammet för rektorer, lärare och förskollärare.\n\nAvgiftsbelagd verksamhet:\nPrövning av meriteringsnivå: beräknade intäkter 21 000 000 kronor.\nUtfärda och komplettera lärarlegitimationer: beräknade intäkter 26 000 000 kronor.",
     "kallor": [
@@ -146,6 +177,7 @@
   },
   "offentlighet": {
     "typ": "uppdrag",
+    "titel": "Stöd till enskilda huvudmän",
     "kort": "Uppdrag att erbjuda stöd och utbildning till enskilda huvudmän. 6 Mkr 2026.",
     "fulltext": "Från budgetpropositionen 2026:\nSkolverket får 6 miljoner kronor för 2026 för att kunna erbjuda stöd i form av utbildning och generell rådgivning om regelverket.\n\n88 miljoner kronor avsätts som införandebidrag för mindre enskilda huvudmän.\n\n19 miljoner kronor till kommunerna 2026 för att förbereda utökad tillsyn över fristående förskolor och fritidshem.",
     "kallor": [
@@ -161,6 +193,7 @@
   },
   "gy25": {
     "typ": "uppdrag",
+    "titel": "Införande av ämnesbetyg",
     "kort": "Genomfört. Statsbidrag för införande: 40 Mkr.",
     "fulltext": "Genomfört uppdrag. Samtliga ämnesplaner, examensmål, programmål och programstrukturer beslutade.\n\nFrån regleringsbrevet 2026 (anslag 1:5):\nHögst 40 000 000 kronor ska användas för utgifter i enlighet med förordningen (2023:889) om statsbidrag för införande av ämnesbetyg.\n\nPågående övergångsperiod t.o.m. 30 juni 2030.",
     "kallor": [
@@ -204,6 +237,20 @@
       {
         "text": "Regleringsbrev 2026 (PDF)",
         "url": "https://www.statskontoret.se/regleringsbrev/25940/pdf?Version=HelaBrevet"
+      }
+    ],
+    "relaterade": [
+      {
+        "titel": "Kartläggningsmaterial svenska som andraspråk",
+        "kort": "Nationellt kartläggningsmaterial för svenska som andraspråk (RB 2026, nytt uppdrag 3). Redovisas senast 1 september 2027.",
+        "fulltext": "Nationellt kartläggningsmaterial för svenska som andraspråk (RB 2026, nytt uppdrag 3).\n\nSkolverket ska ta fram nationellt kartläggningsmaterial för svenska som andraspråk.\n\nRedovisas senast 1 september 2027.",
+        "kallor": [
+          {
+            "text": "Regleringsbrev 2026 (PDF)",
+            "url": "https://www.statskontoret.se/regleringsbrev/25940/pdf?Version=HelaBrevet"
+          }
+        ],
+        "typ": "uppdrag"
       }
     ]
   },
