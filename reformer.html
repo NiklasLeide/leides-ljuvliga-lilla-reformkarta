@@ -229,23 +229,6 @@ header p {
   color: #555;
 }
 
-/* Beroenden count */
-.beroende-count {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 22px; height: 22px;
-  border-radius: 50%;
-  font-size: 0.65rem;
-  font-weight: 600;
-  background: rgba(13,148,136,0.1);
-  color: #0d9488;
-}
-.beroende-count.zero {
-  background: #f3f4f6;
-  color: #9ca3af;
-}
-
 /* Detail panel */
 .detail-panel {
   background: var(--card);
@@ -587,7 +570,6 @@ footer {
             <th data-col="status">Status <span class="sort-arrow">▼</span></th>
             <th data-col="ikraft">Ikraftträdande <span class="sort-arrow">▼</span></th>
             <th data-col="uppdrag">Skolverkets uppdrag <span class="sort-arrow">▼</span></th>
-            <th data-col="beroenden">Infra <span class="sort-arrow">▼</span></th>
           </tr>
         </thead>
         <tbody id="tableBody"></tbody>
@@ -627,7 +609,6 @@ footer {
 <script>
 let reforms = [];
 let skolverketUppdrag = {};
-let malbild = {};
 let selectedId = null;
 
 const catColors = {
@@ -668,11 +649,6 @@ function getUppdragTyp(id) {
   return u ? u.typ : 'ej';
 }
 
-function getBeroendeCount(id) {
-  const b = malbild.reformBeroenden && malbild.reformBeroenden[id];
-  return b ? Object.keys(b.pelare).length : 0;
-}
-
 function sortReforms(arr) {
   return arr.slice().sort((a, b) => {
     let va, vb;
@@ -696,10 +672,6 @@ function sortReforms(arr) {
       case 'uppdrag':
         va = uppdragOrder[getUppdragTyp(a.id)] ?? 99;
         vb = uppdragOrder[getUppdragTyp(b.id)] ?? 99;
-        break;
-      case 'beroenden':
-        va = getBeroendeCount(a.id);
-        vb = getBeroendeCount(b.id);
         break;
       default:
         va = 0; vb = 0;
@@ -728,7 +700,6 @@ function renderTable() {
     const ut = getUppdragTyp(r.id);
     const us = uppdragStyles[ut];
     const uShort = skolverketUppdrag[r.id] ? us.label : 'Ej fått uppdrag';
-    const bc = getBeroendeCount(r.id);
     const isSelected = r.id === selectedId;
 
     return `<tr data-id="${r.id}" class="${isSelected ? 'selected' : ''}">
@@ -737,7 +708,6 @@ function renderTable() {
       <td><span class="status-badge" style="background:${ss.bg};color:${ss.color}">${ss.label}</span></td>
       <td>${r.ikraft}</td>
       <td><div class="uppdrag-cell"><span class="uppdrag-dot" style="background:${us.color}"></span><span class="uppdrag-text">${uShort}</span></div></td>
-      <td><span class="beroende-count ${bc === 0 ? 'zero' : ''}">${bc}</span></td>
     </tr>`;
   }).join('');
 
@@ -943,18 +913,16 @@ function dataPath(file) {
 async function loadData() {
   try {
     const cacheBust = '?v=' + Date.now();
-    const [r, u, m] = await Promise.all([
+    const [r, u] = await Promise.all([
       fetch(dataPath('reforms.json') + cacheBust).then(res => res.json()),
-      fetch(dataPath('uppdrag.json') + cacheBust).then(res => res.json()),
-      fetch(dataPath('malbild.json') + cacheBust).then(res => res.json())
+      fetch(dataPath('uppdrag.json') + cacheBust).then(res => res.json())
     ]);
     reforms = r;
     skolverketUppdrag = u;
-    malbild = m;
     init();
   } catch (err) {
     console.error('Kunde inte ladda data:', err);
-    document.getElementById('tableBody').innerHTML = '<tr><td colspan="6" style="padding:2rem;color:#b91c1c;">Kunde inte ladda reformdata.</td></tr>';
+    document.getElementById('tableBody').innerHTML = '<tr><td colspan="5" style="padding:2rem;color:#b91c1c;">Kunde inte ladda reformdata.</td></tr>';
   }
 }
 
