@@ -5,6 +5,7 @@ Types: `feat` | `fix` | `refactor` | `docs` | `chore` | `perf`
 
 ---
 
+[2026-03-30] docs: uppdatera roadmap med sprint 6 tidslinje — vertikal tidslinje, swim lanes, mini-karta, adaptiv spacing
 [2026-03-30] docs: sprint 5 klar — uppdatera PROJECT_STATUS, ROADMAP och CHANGELOG inför deploy
 [2026-03-30] feat: tvåvägslänkning mellan uppdrag.html och reformer.html — klickbara reformnamn, uppdragstitlar som länkar, URL-parametrar för deeplinks
 [2026-03-30] fix: korrigera uppdragstitlar till formella namn från regleringsbrevet

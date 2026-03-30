@@ -56,11 +56,16 @@
 - [x] Responsiv
 
 ## Sprint 6 — Tidslinje
-- [ ] Visuell horisontell tidslinje (2025–2031)
-- [ ] Reformer som block/markörer längs tidsaxeln, färgkodade efter kategori
-- [ ] Uppdragsdeadlines synliga (redovisningsdatum)
-- [ ] Klick på reform öppnar samma detaljpanel
-- [ ] Responsiv för bred skärm
+- [ ] Skapa tidslinje.html med vertikal tidslinje (2025–2031)
+- [ ] Adaptiv spacing: tomma månader komprimerade, täta perioder expanderade
+- [ ] Fem händelsetyper: ikraftträdande, riksdagsbeslut, uppdragsredovisningar, delredovisningar, milstolpar
+- [ ] Swim lanes per händelsetyp inom varje tidsperiod
+- [ ] Färgkodning per reformkategori
+- [ ] Filter: togglea händelsetyper och kategorier — filtrering dämpar icke-matchande händelser (opacity 0.15) istället för att dölja dem
+- [ ] Mini-karta i sidebar med densitetsindikatorer och klickbar navigation
+- [ ] Klick på händelse öppnar detalj med länk till reformvy/uppdragsvy
+- [ ] Responsiv
+- [ ] Fliknavigation: lägg till 'Tidslinje' som ny flik
 
 ## Later / Stretch
 _TBD_
