@@ -263,6 +263,13 @@ header p {
   border: 1px solid #fed7aa;
 }
 
+.uppdrag-card-titel {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--ink);
+  line-height: 1.3;
+  margin-bottom: 0.15rem;
+}
 .uppdrag-card-date {
   font-size: 0.66rem;
   color: var(--muted);
@@ -568,6 +575,7 @@ function buildEntries() {
       key: r.id,
       reformId: r.id,
       reform: r,
+      titel: u.titel || u.kort.split('.')[0],
       typ: u.typ,
       kort: u.kort,
       fulltext: u.fulltext,
@@ -586,6 +594,7 @@ function buildEntries() {
           key: `${r.id}_rel${i}`,
           reformId: r.id,
           reform: r,
+          titel: rel.titel || rel.kort.split('.')[0],
           typ: rel.typ || u.typ,
           kort: rel.kort,
           fulltext: rel.fulltext,
@@ -694,17 +703,15 @@ function renderTimeline(entries) {
       const soon = e.redovisning && isSoon(e.redovisning);
       const isSelected = e.key === selectedKey;
 
-      // Truncate kort for card display
-      const kortDisplay = e.kort.length > 160 ? e.kort.substring(0, 157) + '…' : e.kort;
-
       html += `<div class="uppdrag-card ${soon ? 'soon' : ''} ${isSelected ? 'selected' : ''}" data-key="${e.key}">
         <div class="uppdrag-card-top">
           <span class="uppdrag-chip ${us.chipClass}">${us.label}</span>
           <span class="uppdrag-card-reform"><span class="cat-dot" style="background:${cc.color}"></span>${e.reform.short}</span>
           ${soon ? '<span class="soon-badge">Snart</span>' : ''}
         </div>
+        <div class="uppdrag-card-titel">${e.titel}</div>
         ${e.redovisning ? `<div class="uppdrag-card-date">Redovisas ${formatDate(e.redovisning)}</div>` : ''}
-        <div class="uppdrag-card-kort">${kortDisplay}</div>
+        <div class="uppdrag-card-kort">${e.kort}</div>
       </div>`;
     });
 
@@ -733,8 +740,8 @@ function selectEntry(key, entries) {
 
   let html = `
     <div class="detail-cat" style="background:${cc.bg};color:${cc.color}">${catLabels[r.cat]}</div>
-    <div class="detail-title">${r.short}</div>
-    <div class="detail-ref">${r.ref} · ${r.ikraft}</div>`;
+    <div class="detail-title">${entry.titel}</div>
+    <div class="detail-ref">${r.short} · ${r.ref} · ${r.ikraft}</div>`;
 
   html += `<div class="detail-section">
     <div class="detail-label">${us.label}</div>
