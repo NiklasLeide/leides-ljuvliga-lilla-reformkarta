@@ -5,6 +5,7 @@ Types: `feat` | `fix` | `refactor` | `docs` | `chore` | `perf`
 
 ---
 
+[2026-03-30] feat: skapa data/tidslinje.json med 30 händelser (2025–2031) — ikraftträdanden, redovisningar, milstolpar, riksdagsbeslut
 [2026-03-30] docs: uppdatera roadmap med sprint 6 tidslinje — vertikal tidslinje, swim lanes, mini-karta, adaptiv spacing
 [2026-03-30] docs: sprint 5 klar — uppdatera PROJECT_STATUS, ROADMAP och CHANGELOG inför deploy
 [2026-03-30] feat: tvåvägslänkning mellan uppdrag.html och reformer.html — klickbara reformnamn, uppdragstitlar som länkar, URL-parametrar för deeplinks

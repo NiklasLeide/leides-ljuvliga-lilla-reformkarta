@@ -1,0 +1,274 @@
+{
+  "handelser": [
+    {
+      "id": "gy25-ikraft",
+      "typ": "ikraftträdande",
+      "datum": "2025-07-01",
+      "titel": "Gy25 — ämnesbetyg tillämpas",
+      "reform": "gy25",
+      "kategori": "kunskap",
+      "kalla": "Lag (2022:147)"
+    },
+    {
+      "id": "profession-ikraft",
+      "typ": "ikraftträdande",
+      "datum": "2025-09-01",
+      "titel": "Nationella professionsprogrammet träder i kraft",
+      "reform": "profession",
+      "kategori": "larare",
+      "kalla": "Prop. 2022/23:54"
+    },
+    {
+      "id": "riksdag-q2-2026",
+      "typ": "riksdagsbeslut",
+      "datum": "2026-Q2",
+      "titel": "Riksdagsbeslut väntas för åtta propositioner (191–198)",
+      "reform": null,
+      "kategori": null,
+      "kalla": "riksdagen.se"
+    },
+    {
+      "id": "prov-genomforandeplan",
+      "typ": "redovisning",
+      "datum": "2026-05-08",
+      "titel": "Genomförandeplan digitaliserade och centralt rättade nationella slutprov",
+      "reform": "betyg",
+      "kategori": "kunskap",
+      "kalla": "U2026/00283"
+    },
+    {
+      "id": "brottsprevention-kartlaggning",
+      "typ": "delredovisning",
+      "datum": "2026-05-29",
+      "titel": "Situationell brottsprevention — nationell kartläggning och internationell lägesbild",
+      "reform": "studiero",
+      "kategori": "trygghet",
+      "kalla": "RB 2025"
+    },
+    {
+      "id": "laroplaner-samrad",
+      "typ": "milstolpe",
+      "datum": "2026-Q2",
+      "titel": "Samråd med lärare, forskare och organisationer om nya kursplaner",
+      "reform": "laroplaner",
+      "kategori": "kunskap",
+      "kalla": "skolverket.se"
+    },
+    {
+      "id": "brott-ikraft",
+      "typ": "ikraftträdande",
+      "datum": "2026-06-30",
+      "titel": "Brottsförebyggande informationsdelning träder i kraft",
+      "reform": "brott",
+      "kategori": "trygghet",
+      "kalla": "Prop. 2025/26:192"
+    },
+    {
+      "id": "register-ikraft",
+      "typ": "ikraftträdande",
+      "datum": "2026-07-15",
+      "titel": "Utökade registerkontroller träder i kraft",
+      "reform": "register",
+      "kategori": "trygghet",
+      "kalla": "Prop. 2025/26:174"
+    },
+    {
+      "id": "studiero-ikraft",
+      "typ": "ikraftträdande",
+      "datum": "2026-08-01",
+      "titel": "Trygghet och studiero — merparten träder i kraft",
+      "reform": "studiero",
+      "kategori": "trygghet",
+      "kalla": "Prop. 2025/26:193"
+    },
+    {
+      "id": "central-rattning-gy",
+      "typ": "milstolpe",
+      "datum": "2026-Q3",
+      "titel": "Central rättning införs i gymnasieskolan (sv/sva kurs 3, eng kurs 6)",
+      "reform": "betyg",
+      "kategori": "kunskap",
+      "kalla": "RB 2024"
+    },
+    {
+      "id": "laroplaner-remiss",
+      "typ": "milstolpe",
+      "datum": "2026-10-09",
+      "titel": "Kursplaneremiss — öppen för synpunkter t.o.m. 11 december 2026",
+      "reform": "laroplaner",
+      "kategori": "kunskap",
+      "kalla": "skolverket.se"
+    },
+    {
+      "id": "brottsprevention-metodstod",
+      "typ": "delredovisning",
+      "datum": "2026-12-30",
+      "titel": "Situationell brottsprevention — kunskaps- och metodstöd",
+      "reform": "studiero",
+      "kategori": "trygghet",
+      "kalla": "RB 2025"
+    },
+    {
+      "id": "tillbud-redovisning",
+      "typ": "redovisning",
+      "datum": "2026-12-30",
+      "titel": "Kartläggning och stöd gällande arbetet med att hantera tillbud i skolverksamheter",
+      "reform": "studiero",
+      "kategori": "trygghet",
+      "kalla": "RB 2026 uppdrag 4"
+    },
+    {
+      "id": "offentlighet-ikraft",
+      "typ": "ikraftträdande",
+      "datum": "2027-01-01",
+      "titel": "Offentlighetsprincipen för fristående skolor träder i kraft",
+      "reform": "offentlighet",
+      "kategori": "styrning",
+      "kalla": "Prop. 2025/26:191"
+    },
+    {
+      "id": "tioarig-fortbildning-redovisning",
+      "typ": "redovisning",
+      "datum": "2027-01-29",
+      "titel": "Fortbildning och kompetensutveckling med anledning av införandet av en tioårig grundskola",
+      "reform": "tioarig",
+      "kategori": "kunskap",
+      "kalla": "RB 2026 uppdrag 6"
+    },
+    {
+      "id": "laroplaner-forslag",
+      "typ": "redovisning",
+      "datum": "2027-03-31",
+      "titel": "Förslag till nya kursplaner lämnas till regeringen",
+      "reform": "laroplaner",
+      "kategori": "kunskap",
+      "kalla": "U2025/02427"
+    },
+    {
+      "id": "tioarig-fortbildning-start",
+      "typ": "milstolpe",
+      "datum": "2027-Q1",
+      "titel": "Fortbildning för lärare i blivande årskurs 1 börjar erbjudas",
+      "reform": "tioarig",
+      "kategori": "kunskap",
+      "kalla": "RB 2026 uppdrag 6"
+    },
+    {
+      "id": "brottsprevention-slut",
+      "typ": "redovisning",
+      "datum": "2027-06-30",
+      "titel": "Situationell brottsprevention i skolväsendet — slutredovisning",
+      "reform": "studiero",
+      "kategori": "trygghet",
+      "kalla": "RB 2025"
+    },
+    {
+      "id": "undervisningstid-ikraft",
+      "typ": "ikraftträdande",
+      "datum": "2027-07-01",
+      "titel": "Reglerad undervisningstid träder i kraft",
+      "reform": "tid",
+      "kategori": "larare",
+      "kalla": "Prop. 2025/26:196"
+    },
+    {
+      "id": "sva-kartlaggning",
+      "typ": "redovisning",
+      "datum": "2027-09-01",
+      "titel": "Nationellt kartläggningsmaterial för svenska som andraspråk",
+      "reform": "laroplaner",
+      "kategori": "kunskap",
+      "kalla": "RB 2026 uppdrag 3"
+    },
+    {
+      "id": "central-rattning-grundskola",
+      "typ": "milstolpe",
+      "datum": "2028-Q1",
+      "titel": "Central rättning införs i grundskolan årskurs 9",
+      "reform": "betyg",
+      "kategori": "kunskap",
+      "kalla": "RB 2024"
+    },
+    {
+      "id": "laroplaner-ikraft",
+      "typ": "ikraftträdande",
+      "datum": "2028-07-01",
+      "titel": "Nya läroplaner träder i kraft",
+      "reform": "laroplaner",
+      "kategori": "kunskap",
+      "kalla": "Prop. 2025/26:194"
+    },
+    {
+      "id": "betyg-ikraft",
+      "typ": "ikraftträdande",
+      "datum": "2028-07-01",
+      "titel": "Betygssystem 1–10 träder i kraft",
+      "reform": "betyg",
+      "kategori": "kunskap",
+      "kalla": "Prop. 2025/26:197"
+    },
+    {
+      "id": "tioarig-tillampas",
+      "typ": "ikraftträdande",
+      "datum": "2028-07-01",
+      "titel": "Tioårig grundskola tillämpas från höstterminen 2028",
+      "reform": "tioarig",
+      "kategori": "kunskap",
+      "kalla": "Prop. 2024/25:143"
+    },
+    {
+      "id": "stod-ikraft",
+      "typ": "ikraftträdande",
+      "datum": "2028-07-01",
+      "titel": "Förbättrat stöd i skolan — stödundervisning träder i kraft",
+      "reform": "stod",
+      "kategori": "kunskap",
+      "kalla": "Prop. 2025/26:195"
+    },
+    {
+      "id": "studiero-delar-ikraft",
+      "typ": "ikraftträdande",
+      "datum": "2028-07-01",
+      "titel": "Trygghet och studiero — resterande delar träder i kraft",
+      "reform": "studiero",
+      "kategori": "trygghet",
+      "kalla": "Prop. 2025/26:193"
+    },
+    {
+      "id": "laroplaner-slutredovisning",
+      "typ": "redovisning",
+      "datum": "2029-06-15",
+      "titel": "Läroplansuppdraget slutredovisas",
+      "reform": "laroplaner",
+      "kategori": "kunskap",
+      "kalla": "U2025/02427"
+    },
+    {
+      "id": "gy25-overgang-slut",
+      "typ": "milstolpe",
+      "datum": "2030-06-30",
+      "titel": "Gy25 övergångsperiod avslutas",
+      "reform": "gy25",
+      "kategori": "kunskap",
+      "kalla": "Lag (2022:147)"
+    },
+    {
+      "id": "betyg-komvux-ikraft",
+      "typ": "ikraftträdande",
+      "datum": "2031-01-01",
+      "titel": "Betygssystem 1–10 tillämpas inom kommunal vuxenutbildning",
+      "reform": "betyg",
+      "kategori": "kunskap",
+      "kalla": "Prop. 2025/26:197"
+    },
+    {
+      "id": "betyg-forsta-kullen",
+      "typ": "milstolpe",
+      "datum": "2031-06-01",
+      "titel": "Första årskullarna med nya meritvärden lämnar grundskolan och gymnasieskolan",
+      "reform": "betyg",
+      "kategori": "kunskap",
+      "kalla": "skolverket.se"
+    }
+  ]
+}
