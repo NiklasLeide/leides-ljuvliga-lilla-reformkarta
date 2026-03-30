@@ -5,6 +5,7 @@ Types: `feat` | `fix` | `refactor` | `docs` | `chore` | `perf`
 
 ---
 
+[2026-03-30] feat: tvåvägslänkning mellan uppdrag.html och reformer.html — klickbara reformnamn, uppdragstitlar som länkar, URL-parametrar för deeplinks
 [2026-03-30] fix: korrigera uppdragstitlar till formella namn från regleringsbrevet
 [2026-03-30] feat: lägg till uppdragstitlar i uppdrag.json och visa som rubriker i uppdrag.html — nya relaterade uppdrag (brottsprevention, tillbud, kartläggningsmaterial SVA)
 [2026-03-30] refactor: ändra uppdrag.html till att lista individuella uppdrag (inkl. relaterade) istället för reformer — typ=ej exkluderas

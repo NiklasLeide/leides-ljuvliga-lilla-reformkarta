@@ -369,6 +369,16 @@ header p {
   font-family: inherit;
 }
 .uppdrag-expand:hover { text-decoration: underline; }
+.uppdrag-titel-link {
+  display: block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--kunskap);
+  text-decoration: none;
+  margin-bottom: 0.2rem;
+  transition: color 0.15s;
+}
+.uppdrag-titel-link:hover { text-decoration: underline; }
 .uppdrag-kallor {
   margin-top: 0.3rem;
   display: flex;
@@ -800,11 +810,15 @@ function renderUppdragSection(id) {
         ? `<div class="uppdrag-kallor">${rel.kallor.map(k => `<a class="uppdrag-kalla" href="${k.url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">↗ ${k.text}</a>`).join('')}</div>`
         : '';
       const relUs = rel.typ ? uppdragStyles[rel.typ] : uppdragStyles.ej;
+      const relTitelLink = rel.titel
+        ? `<a class="uppdrag-titel-link" href="uppdrag.html?uppdrag=${id}_rel${i}" onclick="event.stopPropagation()">${rel.titel} →</a>`
+        : '';
       return `<div style="margin-top:0.4rem;padding-top:0.4rem;border-top:1px solid var(--border)">
         <div class="uppdrag-header">
           <span class="uppdrag-dot" style="background:${relUs.color}"></span>
           <span class="uppdrag-type" style="color:${relUs.color}">${relUs.label}</span>
         </div>
+        ${relTitelLink}
         <div class="uppdrag-kort">${rel.kort}</div>
         ${relExpandBtn}
         ${relKallor}
@@ -812,11 +826,16 @@ function renderUppdragSection(id) {
     }).join('');
   }
 
+  const titelLink = u.titel
+    ? `<a class="uppdrag-titel-link" href="uppdrag.html?uppdrag=${id}" onclick="event.stopPropagation()">${u.titel} →</a>`
+    : '';
+
   return `<div class="uppdrag-section">
     <div class="uppdrag-header">
       <span class="uppdrag-dot" style="background:${us.color}"></span>
       <span class="uppdrag-type" style="color:${us.color}">${us.label}</span>
     </div>
+    ${titelLink}
     <div class="uppdrag-kort">${u.kort}</div>
     ${expandBtn}
     ${kallorHtml}
@@ -904,6 +923,17 @@ function init() {
   // Mobile sidebar close
   document.getElementById('mobileSidebarClose').addEventListener('click', closeMobileSidebar);
   document.getElementById('mobileOverlay').addEventListener('click', closeMobileSidebar);
+
+  // Auto-select from URL param ?reform=id
+  const urlParams = new URLSearchParams(window.location.search);
+  const reformParam = urlParams.get('reform');
+  if (reformParam && reforms.find(r => r.id === reformParam)) {
+    selectReform(reformParam);
+    setTimeout(() => {
+      const row = document.querySelector(`tr[data-id="${reformParam}"]`);
+      if (row) row.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }, 100);
+  }
 }
 
 function dataPath(file) {
