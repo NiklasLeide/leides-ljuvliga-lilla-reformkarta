@@ -5,6 +5,7 @@ Types: `feat` | `fix` | `refactor` | `docs` | `chore` | `perf`
 
 ---
 
+[2026-03-30] refactor: bygg om tidslinje till expanderbar Gantt — ren default-vy med chevron-expand för uppdrag/milstolpar, visa/dölj alla, tooltips, animerad expand/collapse
 [2026-03-30] refactor: bygg om tidslinje till Gantt-layout — horisontella reformbars, uppdragsbars, händelsemarkörer med tooltips, Nu-linje, legend, minimap
 [2026-03-30] refactor: bygg om tidslinje till ensidigt höger-layout — tidsaxel vänster med månadsetiketter, 2-kolumns grid för täta månader, typ-badges, komprimerade tomma månader
 [2026-03-30] fix: tidslinje — sticky filterrad, fixad minimap-scroll och klick, tydligare Nu-markör (mörk pill), tätare spacing mellan kort
