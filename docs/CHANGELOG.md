@@ -5,6 +5,17 @@ Types: `feat` | `fix` | `refactor` | `docs` | `chore` | `perf`
 
 ---
 
+[2026-03-30] docs: uppdatera PROJECT_STATUS, ROADMAP och CHANGELOG — sprint 3 klar, deploy till produktion
+[2026-03-30] feat: uppdatera infrastrukturberoenden i malbild.json — nya kopplingar för betyg (datakontroll), läroplaner (likvärdig-miljö), undervisningstid (standarder) och studiero (datakontroll + likvärdig-miljö)
+[2026-03-27] fix: cache-busting på fetch i malbild.html för att undvika gammal data
+[2026-03-27] feat: specifik motivering per reform-pelare-koppling i malbild.json och sidebar
+[2026-03-27] fix: malbild.html — bezier-kurvor istället för raka linjer, större runda badges, spridda ankarpunkter sorterade för minimala korsningar
+[2026-03-27] fix: malbild.html — SVG-linjer bakom kort, rundade badges, spridda ankarpunkter, höjd dimmed-opacity, mer spacing
+[2026-03-27] fix: commit.sh synkar nu malbild.html till dev-preview
+[2026-03-27] feat: skapa malbild.html — infrastrukturberoendevy med chips, pelare, SVG-linjer, sidebar och fliknavigation
+[2026-03-27] feat: lägg till fliknavigation i index.html och malbild.html (Reformkarta / Målbild & infrastruktur)
+[2026-03-27] feat: skapa data/malbild.json med pelardefinitioner, visiontext och reformberoenden (sprint 3)
+[2026-03-27] docs: roadmap — ny sprint 3 (målbild/infrastrukturberoenden), underhåll→sprint 4, listvy→sprint 5, tidslinje→sprint 6
 [2026-03-24] feat: responsiv kartlayout — full bredd, omplacerade noder med mer luft, min 15% avstånd
 [2026-03-24] refactor: separera reformdata, kopplingar och uppdrag till JSON-filer (data/), index.html hämtar med fetch()
 [2026-03-24] chore: commit.sh synkar automatiskt dev-sidfiler till master:dev/ för preview på reformer.leide.se/dev/

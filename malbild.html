@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Målbild & infrastruktur — Reformkarta</title>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --ink: #1c1c1c;
+  --bg: #f7f6f3;
+  --card: #ffffff;
+  --border: #e5e2dc;
+  --muted: #999;
+  --kunskap: #1d4ed8;
+  --kunskap-bg: #dbeafe;
+  --trygghet: #b91c1c;
+  --trygghet-bg: #fee2e2;
+  --larare: #15803d;
+  --larare-bg: #dcfce7;
+  --styrning: #6d28d9;
+  --styrning-bg: #ede9fe;
+  --infra: #0d9488;
+  --infra-bg: #ccfbf1;
+  --connection: #cbd5e1;
+  --connection-active: #0d9488;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'DM Sans', system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+header {
+  background: var(--ink);
+  color: #fff;
+  padding: 1.8rem 1.5rem 1.5rem;
+}
+.header-inner {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+.header-badge {
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.35);
+  margin-bottom: 0.4rem;
+}
+header h1 {
+  font-family: 'Source Serif 4', serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 0.3rem;
+}
+header p {
+  font-size: 0.82rem;
+  color: rgba(255,255,255,0.5);
+  max-width: 500px;
+}
+
+/* Tab navigation */
+.tab-nav {
+  display: flex;
+  gap: 0;
+  background: var(--card);
+  border-bottom: 1px solid var(--border);
+}
+.tab-nav a {
+  padding: 0.65rem 1.2rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--muted);
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: all 0.15s;
+}
+.tab-nav a:hover { color: var(--ink); }
+.tab-nav a.active {
+  color: var(--ink);
+  font-weight: 600;
+  border-bottom-color: var(--ink);
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* Vision block */
+.vision-block {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1rem 1.2rem;
+  margin-top: 1.2rem;
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+}
+.vision-block:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.04); }
+.vision-label {
+  font-size: 0.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  margin-bottom: 0.3rem;
+}
+.vision-text {
+  font-family: 'Source Serif 4', serif;
+  font-size: 0.88rem;
+  line-height: 1.6;
+  color: #333;
+}
+.vision-text .full { display: none; }
+.vision-block.expanded .vision-text .full { display: inline; }
+.vision-toggle {
+  font-size: 0.66rem;
+  color: var(--infra);
+  font-weight: 500;
+  margin-top: 0.3rem;
+  display: inline-block;
+}
+
+/* Stats row */
+.stats-row {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.8rem;
+  flex-wrap: wrap;
+}
+.stat-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.5rem 0.8rem;
+  flex: 1;
+  min-width: 120px;
+}
+.stat-val {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+.stat-label {
+  font-size: 0.6rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+}
+
+/* Main layout */
+.main-layout {
+  display: grid;
+  grid-template-columns: 1fr 360px;
+  gap: 1.5rem;
+  margin-top: 1.2rem;
+}
+
+/* Beroende area */
+.beroende-area {
+  position: relative;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1.2rem;
+  min-height: 500px;
+}
+
+/* Reform chips */
+.chip-section-label {
+  font-size: 0.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  margin-bottom: 0.5rem;
+}
+.chip-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+.reform-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.3rem 0.55rem;
+  border: 1.5px solid var(--border);
+  border-radius: 100px;
+  font-size: 0.68rem;
+  font-weight: 500;
+  cursor: pointer;
+  background: var(--card);
+  transition: all 0.2s;
+  color: var(--ink);
+}
+.reform-chip:hover {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transform: translateY(-1px);
+}
+.reform-chip .chip-dot {
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.reform-chip .chip-count {
+  font-size: 0.5rem;
+  font-weight: 700;
+  background: rgba(13,148,136,0.12);
+  color: var(--infra);
+  border-radius: 50%;
+  min-width: 20px; height: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  flex-shrink: 0;
+}
+.reform-chip.active {
+  border-color: var(--ink);
+  box-shadow: 0 3px 12px rgba(0,0,0,0.12);
+  transform: scale(1.04);
+}
+.reform-chip.highlighted {
+  border-style: dashed;
+  border-color: var(--infra);
+  background: var(--infra-bg);
+  opacity: 1 !important;
+}
+.reform-chip.dimmed { opacity: 0.35; }
+
+/* Separator */
+.separator {
+  text-align: center;
+  padding: 1rem 0;
+  margin: 2.5rem 0;
+  position: relative;
+}
+.separator-text {
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  background: var(--card);
+  padding: 0 0.8rem;
+  position: relative;
+  z-index: 1;
+}
+.separator::before {
+  content: '';
+  position: absolute;
+  left: 0; right: 0;
+  top: 50%;
+  height: 1px;
+  background: var(--border);
+}
+
+/* SVG lines — behind cards */
+.beroende-svg {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  pointer-events: none;
+  z-index: 0;
+  overflow: visible;
+}
+.beroende-svg path {
+  fill: none;
+  stroke: var(--connection);
+  stroke-width: 1.5;
+  opacity: 0;
+  transition: all 0.3s;
+}
+.beroende-svg path.active {
+  stroke: var(--connection-active);
+  stroke-width: 1.8;
+  opacity: 0.5;
+}
+
+/* Content layers above SVG */
+.chip-section-label,
+.chip-grid,
+.separator,
+.pelare-grid { position: relative; z-index: 1; }
+
+/* Pelare grid */
+.pelare-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.6rem;
+}
+.pelare-card {
+  background: var(--infra-bg);
+  border: 1.5px solid transparent;
+  border-radius: 8px;
+  padding: 0.7rem 0.8rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.pelare-card:hover {
+  box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+  transform: translateY(-1px);
+}
+.pelare-card .pelare-icon {
+  font-size: 1.1rem;
+  margin-bottom: 0.2rem;
+}
+.pelare-card .pelare-titel {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--ink);
+  line-height: 1.3;
+  margin-bottom: 0.15rem;
+}
+.pelare-card .pelare-kort {
+  font-size: 0.62rem;
+  color: #666;
+  line-height: 1.4;
+}
+.pelare-card.active {
+  border-color: var(--infra);
+  box-shadow: 0 4px 20px rgba(13,148,136,0.2);
+  transform: scale(1.02);
+}
+.pelare-card.highlighted {
+  border-color: var(--infra);
+  border-style: dashed;
+  background: #f0fdfa;
+  opacity: 1 !important;
+}
+.pelare-card.dimmed { opacity: 0.35; }
+
+/* Detail panel (sidebar) */
+.detail-panel {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1.2rem;
+  overflow-y: auto;
+  max-height: 750px;
+}
+.detail-empty {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+.detail-empty-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  opacity: 0.3;
+}
+.detail-cat {
+  display: inline-block;
+  font-size: 0.55rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.1rem 0.4rem;
+  border-radius: 3px;
+  margin-bottom: 0.4rem;
+}
+.detail-title {
+  font-family: 'Source Serif 4', serif;
+  font-size: 1.15rem;
+  font-weight: 600;
+  line-height: 1.25;
+  margin-bottom: 0.15rem;
+}
+.detail-ref {
+  font-size: 0.7rem;
+  color: var(--muted);
+  margin-bottom: 0.8rem;
+}
+.detail-section {
+  margin-bottom: 0.8rem;
+}
+.detail-label {
+  font-size: 0.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  margin-bottom: 0.2rem;
+}
+.detail-text {
+  font-size: 0.76rem;
+  line-height: 1.55;
+  color: #444;
+}
+.detail-list {
+  list-style: none;
+  padding: 0;
+}
+.detail-list li {
+  font-size: 0.74rem;
+  line-height: 1.45;
+  color: #444;
+  padding-left: 0.9rem;
+  position: relative;
+  margin-bottom: 0.15rem;
+}
+.detail-list li::before {
+  content: '—';
+  position: absolute;
+  left: 0;
+  color: var(--muted);
+}
+.detail-connections {
+  margin-top: 0.8rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid var(--border);
+}
+.conn-item {
+  display: flex;
+  gap: 0.4rem;
+  align-items: flex-start;
+  padding: 0.35rem 0;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.15s;
+}
+.conn-item:hover { background: #f8f7f4; }
+.conn-dot {
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  margin-top: 0.35rem;
+  flex-shrink: 0;
+}
+.conn-text {
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: var(--ink);
+}
+
+/* Legend */
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  padding: 0.8rem 0;
+  margin-top: 0.5rem;
+  border-top: 1px solid var(--border);
+}
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.62rem;
+  color: var(--muted);
+}
+.legend-dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+}
+.legend-line {
+  width: 20px;
+  height: 2px;
+  border-radius: 1px;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem 0 2rem;
+  font-size: 0.62rem;
+  color: #ccc;
+  line-height: 1.7;
+  margin-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+
+/* Mobile overlay sidebar */
+.mobile-sidebar {
+  display: none;
+  position: fixed;
+  top: 0; right: 0; bottom: 0;
+  width: 85%;
+  max-width: 360px;
+  background: var(--card);
+  border-left: 1px solid var(--border);
+  box-shadow: -4px 0 24px rgba(0,0,0,0.12);
+  z-index: 200;
+  overflow-y: auto;
+  padding: 1rem;
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+}
+.mobile-sidebar.open {
+  transform: translateX(0);
+}
+.mobile-sidebar-close {
+  display: block;
+  text-align: right;
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  color: var(--muted);
+  cursor: pointer;
+  padding: 0.1rem 0.2rem;
+  margin-bottom: 0.5rem;
+}
+.mobile-overlay {
+  display: none;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.3);
+  z-index: 199;
+}
+.mobile-overlay.open { display: block; }
+
+/* Mobile */
+@media (max-width: 800px) {
+  header { padding: 1rem 1rem 0.8rem; }
+  header h1 { font-size: 1.2rem; }
+  header p { font-size: 0.72rem; }
+  .container { padding: 0 0.8rem; }
+  .tab-nav a { padding: 0.5rem 0.8rem; font-size: 0.68rem; }
+  .main-layout { grid-template-columns: 1fr; }
+  .detail-panel { display: none; }
+  .mobile-sidebar { display: block; }
+  .pelare-grid { grid-template-columns: 1fr; }
+  .stats-row { gap: 0.5rem; }
+  .stat-card { min-width: 80px; padding: 0.4rem 0.6rem; }
+  .stat-val { font-size: 1rem; }
+  .stat-label { font-size: 0.52rem; }
+  .vision-block { padding: 0.7rem 0.9rem; margin-top: 0.8rem; }
+  .vision-text { font-size: 0.78rem; }
+  .beroende-area { padding: 0.8rem; min-height: auto; }
+  .reform-chip { font-size: 0.6rem; padding: 0.25rem 0.45rem; }
+  .chip-count { width: 14px !important; height: 14px !important; font-size: 0.5rem !important; }
+  .pelare-card { padding: 0.5rem 0.6rem; }
+  .pelare-titel { font-size: 0.68rem !important; }
+  .pelare-kort { font-size: 0.58rem !important; }
+  .legend { gap: 0.5rem; }
+  .legend-item { font-size: 0.55rem; }
+  .legend-dot { width: 6px; height: 6px; }
+  footer { font-size: 0.55rem; padding: 1rem 0 1.2rem; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="header-badge">Kunskapsyta · mars 2026 · Privatprojekt av Niklas Leide</div>
+    <h1>Reformkarta — Skolreformer 2025–2028</h1>
+    <p>Hur reformerna hänger ihop. Klicka på en reform för att se kopplingar och detaljer.</p>
+  </div>
+</header>
+
+<div class="tab-nav">
+  <a href="index.html">Reformkarta</a>
+  <a href="malbild.html" class="active">Målbild & infrastruktur</a>
+</div>
+
+<div class="container">
+  <div class="vision-block" id="visionBlock" onclick="toggleVision()">
+    <div class="vision-label">Vision</div>
+    <div class="vision-text" id="visionText"></div>
+    <div class="vision-toggle" id="visionToggle">Visa mer</div>
+  </div>
+
+  <div class="stats-row" id="statsRow"></div>
+
+  <div class="main-layout">
+    <div class="beroende-area" id="berocendeArea">
+      <svg class="beroende-svg" id="berocendeSvg"></svg>
+      <div class="chip-section-label">Reformer</div>
+      <div class="chip-grid" id="chipGrid"></div>
+      <div class="separator"><span class="separator-text" id="separatorText"></span></div>
+      <div class="chip-section-label">Infrastrukturpelare</div>
+      <div class="pelare-grid" id="pelareGrid"></div>
+    </div>
+
+    <div class="detail-panel" id="detailPanel">
+      <div class="detail-empty">
+        <div class="detail-empty-icon">◉</div>
+        Klicka på en reform eller pelare<br>för att se beroenden och detaljer.
+      </div>
+    </div>
+  </div>
+
+  <div class="legend">
+    <div class="legend-item"><div class="legend-dot" style="background:var(--kunskap)"></div> Kunskap & bedömning</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--trygghet)"></div> Trygghet & säkerhet</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--larare)"></div> Lärarvillkor</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--styrning)"></div> Styrning & organisation</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--infra)"></div> Digital infrastruktur</div>
+    <div class="legend-item"><div class="legend-line" style="background:var(--infra)"></div> Infrastrukturberoende</div>
+  </div>
+
+  <!-- Mobile sidebar overlay -->
+  <div class="mobile-overlay" id="mobileOverlay" onclick="clearSelection()"></div>
+  <div class="mobile-sidebar" id="mobileSidebar">
+    <button class="mobile-sidebar-close" onclick="clearSelection()" aria-label="Stäng">×</button>
+    <div id="mobileSidebarContent"></div>
+  </div>
+
+  <footer>
+    Källor: regeringen.se, skolverket.se, riksdagen.se · Sammanställd mars 2026<br>
+    Kontrollera datum mot originaldokumenten. Dela gärna med kollegor.<br>
+    © 2026 Niklas Leide
+  </footer>
+</div>
+
+<script>
+const catColors = {
+  kunskap: { color:"#1d4ed8", bg:"#dbeafe" },
+  trygghet: { color:"#b91c1c", bg:"#fee2e2" },
+  larare: { color:"#15803d", bg:"#dcfce7" },
+  styrning: { color:"#6d28d9", bg:"#ede9fe" }
+};
+const catLabels = { kunskap:"Kunskap & bedömning", trygghet:"Trygghet & säkerhet", larare:"Lärarvillkor", styrning:"Styrning & organisation" };
+
+let malbild = null;
+let reforms = [];
+let activeSelection = null; // { type: 'reform'|'pelare', id: string }
+
+async function loadData() {
+  try {
+    const v = Date.now();
+    const [malbildRes, reformsRes] = await Promise.all([
+      fetch('data/malbild.json?v=' + v),
+      fetch('data/reforms.json?v=' + v)
+    ]);
+    malbild = await malbildRes.json();
+    reforms = await reformsRes.json();
+    render();
+  } catch (e) {
+    console.error('Kunde inte ladda data:', e);
+  }
+}
+
+function render() {
+  renderVision();
+  renderStats();
+  renderChips();
+  renderPelare();
+  document.getElementById('separatorText').textContent = malbild.separator;
+}
+
+function renderVision() {
+  const text = malbild.vision;
+  const firstSentence = text.match(/^[^.]+\./)[0];
+  const rest = text.slice(firstSentence.length);
+  document.getElementById('visionText').innerHTML =
+    `${firstSentence}<span class="full">${rest}</span>`;
+}
+
+function toggleVision() {
+  const block = document.getElementById('visionBlock');
+  const toggle = document.getElementById('visionToggle');
+  block.classList.toggle('expanded');
+  toggle.textContent = block.classList.contains('expanded') ? 'Visa mindre' : 'Visa mer';
+}
+
+function renderStats() {
+  const beroenden = malbild.reformBeroenden;
+  const pelareKeys = b => Object.keys(b.pelare);
+  const reformerMedBeroenden = Object.values(beroenden).filter(b => pelareKeys(b).length > 0).length;
+  const totaltReformer = Object.keys(beroenden).length;
+  const antalPelare = malbild.pelare.length;
+  const totaltBeroenden = Object.values(beroenden).reduce((sum, b) => sum + pelareKeys(b).length, 0);
+
+  document.getElementById('statsRow').innerHTML = `
+    <div class="stat-card">
+      <div class="stat-val">${reformerMedBeroenden}/${totaltReformer}</div>
+      <div class="stat-label">Reformer med beroenden</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-val">${antalPelare}</div>
+      <div class="stat-label">Infrastrukturpelare</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-val">${totaltBeroenden}</div>
+      <div class="stat-label">Totala beroenden</div>
+    </div>
+  `;
+}
+
+function renderChips() {
+  const grid = document.getElementById('chipGrid');
+  const beroenden = malbild.reformBeroenden;
+  // Sort: most dependencies first
+  const reformIds = Object.keys(beroenden).sort((a, b) => Object.keys(beroenden[b].pelare).length - Object.keys(beroenden[a].pelare).length);
+
+  grid.innerHTML = reformIds.map(id => {
+    const reform = reforms.find(r => r.id === id);
+    if (!reform) return '';
+    const cc = catColors[reform.cat];
+    const count = Object.keys(beroenden[id].pelare).length;
+    return `<div class="reform-chip" data-id="${id}" onclick="selectReform('${id}')">
+      <span class="chip-dot" style="background:${cc.color}"></span>
+      <span>${reform.short}</span>
+      <span class="chip-count">${count}</span>
+    </div>`;
+  }).join('');
+}
+
+function renderPelare() {
+  const grid = document.getElementById('pelareGrid');
+  grid.innerHTML = malbild.pelare.map(p => `
+    <div class="pelare-card" data-id="${p.id}" onclick="selectPelare('${p.id}')">
+      <div class="pelare-icon">${p.icon}</div>
+      <div class="pelare-titel">${p.titel}</div>
+      <div class="pelare-kort">${p.kort}</div>
+    </div>
+  `).join('');
+}
+
+function selectReform(id) {
+  if (activeSelection && activeSelection.type === 'reform' && activeSelection.id === id) {
+    clearSelection();
+    return;
+  }
+  activeSelection = { type: 'reform', id };
+  const beroende = malbild.reformBeroenden[id];
+  const pelareIds = beroende ? Object.keys(beroende.pelare) : [];
+
+  // Highlight chips
+  document.querySelectorAll('.reform-chip').forEach(el => {
+    el.classList.remove('active', 'dimmed', 'highlighted');
+    if (el.dataset.id === id) el.classList.add('active');
+    else el.classList.add('dimmed');
+  });
+
+  // Highlight pelare
+  document.querySelectorAll('.pelare-card').forEach(el => {
+    el.classList.remove('active', 'dimmed', 'highlighted');
+    if (pelareIds.includes(el.dataset.id)) el.classList.add('highlighted');
+    else el.classList.add('dimmed');
+  });
+
+  drawLines(id, 'reform');
+  showReformDetail(id);
+}
+
+function selectPelare(id) {
+  if (activeSelection && activeSelection.type === 'pelare' && activeSelection.id === id) {
+    clearSelection();
+    return;
+  }
+  activeSelection = { type: 'pelare', id };
+  const beroenden = malbild.reformBeroenden;
+  const reformIds = Object.keys(beroenden).filter(rId => id in beroenden[rId].pelare);
+
+  // Highlight chips
+  document.querySelectorAll('.reform-chip').forEach(el => {
+    el.classList.remove('active', 'dimmed', 'highlighted');
+    if (reformIds.includes(el.dataset.id)) el.classList.add('highlighted');
+    else el.classList.add('dimmed');
+  });
+
+  // Highlight pelare
+  document.querySelectorAll('.pelare-card').forEach(el => {
+    el.classList.remove('active', 'dimmed', 'highlighted');
+    if (el.dataset.id === id) el.classList.add('active');
+    else el.classList.add('dimmed');
+  });
+
+  drawLines(id, 'pelare');
+  showPelareDetail(id);
+}
+
+function clearSelection() {
+  activeSelection = null;
+  document.querySelectorAll('.reform-chip').forEach(el => {
+    el.classList.remove('active', 'dimmed', 'highlighted');
+  });
+  document.querySelectorAll('.pelare-card').forEach(el => {
+    el.classList.remove('active', 'dimmed', 'highlighted');
+  });
+  document.getElementById('berocendeSvg').innerHTML = '';
+  document.getElementById('detailPanel').innerHTML = `
+    <div class="detail-empty">
+      <div class="detail-empty-icon">◉</div>
+      Klicka på en reform eller pelare<br>för att se beroenden och detaljer.
+    </div>`;
+
+  // Close mobile sidebar
+  document.getElementById('mobileSidebar').classList.remove('open');
+  document.getElementById('mobileOverlay').classList.remove('open');
+}
+
+function drawLines(selectedId, type) {
+  const svg = document.getElementById('berocendeSvg');
+  const area = document.getElementById('berocendeArea');
+  const areaRect = area.getBoundingClientRect();
+  svg.innerHTML = '';
+
+  const beroenden = malbild.reformBeroenden;
+  let pairs = [];
+
+  if (type === 'reform') {
+    const pelareIds = beroenden[selectedId] ? Object.keys(beroenden[selectedId].pelare) : [];
+    pairs = pelareIds.map(pId => ({ reformId: selectedId, pelareId: pId }));
+  } else {
+    const reformIds = Object.keys(beroenden).filter(rId => selectedId in beroenden[rId].pelare);
+    pairs = reformIds.map(rId => ({ reformId: rId, pelareId: selectedId }));
+  }
+
+  // Compute raw positions for each pair
+  const pairData = pairs.map(({ reformId, pelareId }) => {
+    const chip = document.querySelector(`.reform-chip[data-id="${reformId}"]`);
+    const card = document.querySelector(`.pelare-card[data-id="${pelareId}"]`);
+    if (!chip || !card) return null;
+    const chipRect = chip.getBoundingClientRect();
+    const cardRect = card.getBoundingClientRect();
+    const x1 = chipRect.left + chipRect.width / 2 - areaRect.left;
+    const y1 = chipRect.bottom - areaRect.top;
+    const x2 = cardRect.left + cardRect.width / 2 - areaRect.left;
+    const y2 = cardRect.top - areaRect.top;
+    return { reformId, pelareId, x1, y1, x2, y2, cardRect, chipRect };
+  }).filter(Boolean);
+
+  // Sort by target x position to reduce crossings
+  pairData.sort((a, b) => a.x2 - b.x2);
+
+  // Spread anchor points on pelare cards that receive multiple lines
+  const byPelare = {};
+  pairData.forEach(p => {
+    if (!byPelare[p.pelareId]) byPelare[p.pelareId] = [];
+    byPelare[p.pelareId].push(p);
+  });
+  Object.values(byPelare).forEach(group => {
+    // Sort incoming lines by their chip x position for clean ordering
+    group.sort((a, b) => a.x1 - b.x1);
+    const n = group.length;
+    const cardRect = group[0].cardRect;
+    const pad = cardRect.width * 0.15;
+    const span = cardRect.width - pad * 2;
+    const baseX = cardRect.left - areaRect.left + pad;
+    group.forEach((p, i) => {
+      p.x2 = n === 1 ? cardRect.left + cardRect.width / 2 - areaRect.left : baseX + (i / (n - 1)) * span;
+    });
+  });
+
+  // Draw smooth bezier curves
+  pairData.forEach(({ x1, y1, x2, y2 }) => {
+    const midY = y1 + (y2 - y1) * 0.45;
+    const d = `M ${x1} ${y1} C ${x1} ${midY}, ${x2} ${midY}, ${x2} ${y2}`;
+    const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+    path.setAttribute('d', d);
+    path.classList.add('active');
+    svg.appendChild(path);
+  });
+}
+
+function showReformDetail(id) {
+  const reform = reforms.find(r => r.id === id);
+  const beroende = malbild.reformBeroenden[id];
+  if (!reform || !beroende) return;
+
+  const cc = catColors[reform.cat];
+  const pelareEntries = Object.entries(beroende.pelare);
+  const pelareList = pelareEntries.map(([pId, motivering]) => {
+    const p = malbild.pelare.find(x => x.id === pId);
+    return p ? `<div class="conn-item" onclick="selectPelare('${p.id}')">
+      <div class="conn-dot" style="background:var(--infra)"></div>
+      <div>
+        <div class="conn-text">${p.icon} ${p.titel}</div>
+        <div class="conn-reason">${motivering}</div>
+      </div>
+    </div>` : '';
+  }).join('');
+
+  const html = `
+    <div class="detail-cat" style="background:${cc.bg};color:${cc.color}">${catLabels[reform.cat]}</div>
+    <div class="detail-title">${reform.short}</div>
+    <div class="detail-ref">${reform.ref} · ${reform.ikraft}</div>
+    ${pelareEntries.length > 0 ? `
+    <div class="detail-connections">
+      <div class="detail-label">Infrastrukturberoenden (${pelareEntries.length})</div>
+      ${pelareList}
+    </div>` : `
+    <div class="detail-section">
+      <div class="detail-text" style="color:var(--muted);font-style:italic;">Ingen koppling till digital infrastruktur.</div>
+    </div>`}
+  `;
+
+  document.getElementById('detailPanel').innerHTML = html;
+  showMobileSidebar(html);
+}
+
+function showPelareDetail(id) {
+  const pelare = malbild.pelare.find(p => p.id === id);
+  if (!pelare) return;
+
+  const beroenden = malbild.reformBeroenden;
+  const reformIds = Object.keys(beroenden).filter(rId => id in beroenden[rId].pelare);
+  const reformList = reformIds.map(rId => {
+    const r = reforms.find(x => x.id === rId);
+    if (!r) return '';
+    const cc = catColors[r.cat];
+    const motivering = beroenden[rId].pelare[id];
+    return `<div class="conn-item" onclick="selectReform('${r.id}')">
+      <div class="conn-dot" style="background:${cc.color}"></div>
+      <div>
+        <div class="conn-text">${r.short}</div>
+        <div class="conn-reason">${motivering}</div>
+      </div>
+    </div>`;
+  }).join('');
+
+  const html = `
+    <div class="detail-cat" style="background:var(--infra-bg);color:var(--infra)">Digital infrastruktur</div>
+    <div class="detail-title">${pelare.icon} ${pelare.titel}</div>
+    <div class="detail-section">
+      <div class="detail-label">Kort</div>
+      <div class="detail-text">${pelare.kort}</div>
+    </div>
+    <div class="detail-section">
+      <div class="detail-label">Detalj</div>
+      <div class="detail-text">${pelare.detalj}</div>
+    </div>
+    <div class="detail-connections">
+      <div class="detail-label">Beroende reformer (${reformIds.length})</div>
+      ${reformList}
+    </div>
+  `;
+
+  document.getElementById('detailPanel').innerHTML = html;
+  showMobileSidebar(html);
+}
+
+function showMobileSidebar(html) {
+  if (window.innerWidth > 800) return;
+  document.getElementById('mobileSidebarContent').innerHTML = html;
+  document.getElementById('mobileSidebar').classList.add('open');
+  document.getElementById('mobileOverlay').classList.add('open');
+}
+
+function isMobile() { return window.innerWidth <= 800; }
+
+// Click outside to clear
+document.addEventListener('click', function(e) {
+  if (!activeSelection) return;
+  const area = document.getElementById('berocendeArea');
+  const panel = document.getElementById('detailPanel');
+  const sidebar = document.getElementById('mobileSidebar');
+  if (!area.contains(e.target) && !panel.contains(e.target) && !sidebar.contains(e.target)) {
+    clearSelection();
+  }
+});
+
+// Redraw lines on resize
+window.addEventListener('resize', () => {
+  if (activeSelection) {
+    drawLines(activeSelection.id, activeSelection.type);
+  }
+});
+
+loadData();
+</script>
+</body>
+</html>

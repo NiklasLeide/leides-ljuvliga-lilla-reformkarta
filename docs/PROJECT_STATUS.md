@@ -1,8 +1,8 @@
 # Project Status — leides-ljuvliga-lilla-reformkarta
 
-> **Last updated:** 2026-03-24
-> **Current sprint:** Sprint 2 – Innehåll, struktur och kopplingar
-> **Sprint dates:** 2026-03-23 → TBD
+> **Last updated:** 2026-03-30
+> **Current sprint:** Sprint 4 – Underhållsrutin
+> **Sprint dates:** 2026-03-30 → TBD
 
 ---
 
@@ -12,7 +12,7 @@
 
 ---
 
-## Current Sprint: Sprint 2 – Innehåll, struktur och kopplingar
+## Completed: Sprint 2 – Innehåll, struktur och kopplingar
 
 **Mål:** Separera data från gränssnitt, förbättra layout, verifiera innehåll.
 
@@ -31,6 +31,22 @@
 
 ---
 
+## Completed: Sprint 3 – Målbild och infrastrukturberoenden
+
+| # | Task | Status | Notes |
+|---|------|--------|-------|
+| 3.1 | data/malbild.json med pelardefinitioner och kopplingar | ✅ Done | 6 pelare, 16 reformer, motiveringstext per koppling |
+| 3.2 | malbild.html med chips, pelare, SVG-linjer, sidebar | ✅ Done | Samma designspråk som reformkartan |
+| 3.3 | Fliknavigation mellan reformkarta och målbild | ✅ Done | Header-navigation i index.html och malbild.html |
+| 3.4 | Klickbara kopplingar med bezier-kurvor | ✅ Done | Sorterade ankarpunkter, minimala korsningar |
+| 3.5 | Sidebar med detaljer vid klick | ✅ Done | Reform- och pelardetaljer med motiveringstext |
+| 3.6 | Sammanhållen visiontext | ✅ Done | Fällbar, första meningen synlig |
+| 3.7 | Statistikrad | ✅ Done | Antal reformer med beroenden, pelare, totala kopplingar |
+| 3.8 | Responsiv | ✅ Done | Mobilanpassad |
+| 3.9 | Uppdatera infrastrukturberoenden | ✅ Done | Strategisk analys: betyg, läroplaner, tid, studiero |
+
+---
+
 ## What's Working Now
 Reformkartan finns som `index.html` i roten. GitHub Pages serverar sidan.
 - 16 reformnoder med status, ikraftträdande och kategori
@@ -40,6 +56,7 @@ Reformkartan finns som `index.html` i roten. GitHub Pages serverar sidan.
 - Mobil landscape: kartvy med zoom/pan, sidopanel (20% bredd) för detaljer
 - Filter: område, tid, roll
 - Skolverkets uppdragsstatus: indikator på noder (grön/gul/grå), detaljsektion med klickbar fulltext + modal
+- **Målbildsvy** (malbild.html): 6 infrastrukturpelare, 16 reformer med beroendekopplingar, SVG-bezierlinjer, sidebar med motiveringstext, statistikrad, responsiv
 
 ```bash
 # Öppna lokalt:
