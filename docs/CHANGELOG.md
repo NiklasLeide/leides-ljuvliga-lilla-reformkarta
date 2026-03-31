@@ -5,6 +5,11 @@ Types: `feat` | `fix` | `refactor` | `docs` | `chore` | `perf`
 
 ---
 
+[2026-03-31] docs: sprint 7 klar — uppdatera PROJECT_STATUS, ROADMAP inför deploy
+[2026-03-31] fix: bekräfta kopplingslinjer bakom korten — SVG z-index:0, noder z-index:1, opaka kategoribakgrunder täcker linjer under kort
+[2026-03-31] feat: kategorifärgade kort — tonad bakgrund + border per kategori, starkare kopplingslinjer (2px, 0.5 opacity), mjukare val-markering (starkare bg + solid border, ej röd ram), dimmed 0.3
+[2026-03-31] feat: polera kartan — 4px vänsterkant i kategorifärg, uppdragsstatus som textchip, klick på tom yta återställer, multi-select filter (Set-baserat), prick och uppdragsdot borttagna
+[2026-03-31] docs: lägg till sprint 7 polering i roadmap — opacity, klick-reset, multi-filter, vänsterkant, textchip
 [2026-03-31] docs: markera sprint 5 och 6 som klara i roadmap, lägg till kommande bevakningspunkter
 [2026-03-31] feat: tidslinje — smalare bars (16px reform, 8px uppdrag), tooltip på trunkerade uppdragsnamn (title-attribut), klick på uppdragsnamn/bar öppnar sidebar med titel, kort, redovisningsdatum, källor och deeplinks
 [2026-03-31] feat: tidslinje — tjockare bars (24px reform, 12px uppdrag), alla markörer på bars (10px cirklar, 12px diamanter, 2px vit border), händelseraden borttagen, markörer på uppdragsbars

@@ -80,8 +80,21 @@ or git hooks that check documentation is updated before pushing.
 **Solution:** Dead zone (5px) innan pan startar. Vid pinch: nollställ pan-state med pinch-mittpunkt. Vid finger-release från 2→1: starta inte ny pan.
 
 ---
-## TBD / App
+## CSS / Layout
 
-_Add issues here as you encounter them._
+### overflow-x:auto tvingar overflow-y:auto (CSS-spec)
+**Symptom:** Gantt-tidslinjen klippte vertikalt — rader försvann och gick inte att scrolla till.
+**Cause:** CSS-specen säger att om en overflow-axel sätts till något annat än `visible`, sätts den andra axeln automatiskt till `auto`. Så `overflow-x:auto; overflow-y:visible` renderar som `overflow-x:auto; overflow-y:auto` — en scroll-container som fångar vertikal scroll.
+**Solution:** Ta bort all overflow från scroll-containern. Låt sidans body hantera all scroll (vertikal + horisontell). Bröt tidslinjen tre gånger innan orsaken hittades.
+
+### height:100% på flex-child med absolut-positionerade barn → 0px
+**Symptom:** Gantt-bars och markörer osynliga trots korrekt HTML.
+**Cause:** `.gantt-row-chart { height: 100% }` i en flex-container med `align-items: center` resolvar till 0px. Absolut-positionerade barn (bars, markörer med `top:50%`) renderas utanför synligt område.
+**Solution:** Använd alltid explicit pixelhöjd (t.ex. `height: 30px`) på element som har absolut-positionerade barn.
+
+### innerHTML-byte förstör DOM-element som andra funktioner förväntar sig
+**Symptom:** `clearDetail()` kraschade tyst — mobile sidebar stängdes aldrig.
+**Cause:** `selectEvent()` bytte ut `detailPanel.innerHTML` helt. `clearDetail()` kallade `renderDefaultSidebar()` som letade efter `#detailDefault` — ett element som inte längre fanns i DOM.
+**Solution:** Återskapa elementet innan: `detailPanel.innerHTML='<div id="detailDefault"></div>'` före `renderDefaultSidebar()`.
 
 ---

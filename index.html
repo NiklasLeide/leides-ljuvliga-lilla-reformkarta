@@ -320,12 +320,18 @@ header p {
 .list-conn-name { font-size: 0.72rem; font-weight: 500; color: var(--ink); }
 .list-conn-reason { font-size: 0.64rem; color: var(--muted); line-height: 1.4; margin-top: 0.1rem; }
 
-/* --- Uppdragsstatus indicator on nodes --- */
-.node-uppdrag-dot {
-  position: absolute;
-  top: 4px; right: 4px;
-  width: 6px; height: 6px;
-  border-radius: 50%;
+/* --- Uppdragsstatus chip on nodes --- */
+.node-uppdrag-dot { display: none; }
+.node-uppdrag-chip {
+  display: inline-block;
+  font-size: 0.42rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  padding: 0.04rem 0.25rem;
+  border-radius: 3px;
+  margin-top: 0.2rem;
+  line-height: 1.3;
 }
 
 /* --- Uppdrag section in detail panel --- */
@@ -450,6 +456,7 @@ header p {
   top: 0; left: 0;
   width: 100%; height: 100%;
   transform-origin: 0 0;
+  isolation: isolate;
 }
 
 /* Map area */
@@ -472,24 +479,23 @@ header p {
 }
 .map-svg line {
   stroke: var(--connection);
-  stroke-width: 1.5;
-  opacity: 0.4;
+  stroke-width: 2;
+  opacity: 0.5;
   transition: all 0.3s;
 }
 .map-svg line.active {
   stroke: var(--connection-active);
   stroke-width: 2.5;
-  opacity: 0.8;
+  opacity: 0.85;
 }
-.map-svg line.dimmed { opacity: 0.08; }
+.map-svg line.dimmed { opacity: 0.06; }
 
 /* Nodes */
 .node {
   position: absolute;
   width: 130px;
   padding: 0.55rem 0.6rem;
-  background: var(--card);
-  border: 1.5px solid var(--border);
+  border: 1.5px solid;
   border-radius: 8px;
   cursor: pointer;
   z-index: 1;
@@ -503,28 +509,22 @@ header p {
   transform: translateY(-1px);
 }
 .node.active {
-  border-width: 2.5px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  border-width: 2px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
   transform: scale(1.03);
   z-index: 2;
 }
 .node.connected {
-  border: 1.5px dashed var(--connection-active);
-  background: #f4f9ff;
   opacity: 1 !important;
 }
-.node.dimmed { opacity: 0.2; }
+.node.dimmed { opacity: 0.3; }
 .node.dragging {
   transition: none;
   cursor: grabbing;
   z-index: 10;
 }
 .node.hidden { display: none; }
-.node-dot {
-  width: 8px; height: 8px;
-  border-radius: 50%;
-  margin-bottom: 0.3rem;
-}
+.node-dot { display: none; }
 .node-title {
   font-size: 0.68rem;
   font-weight: 600;
@@ -821,10 +821,10 @@ let connections = [];
 let skolverketUppdrag = {};
 
 const catColors = {
-  kunskap: { color:"#1d4ed8", bg:"#dbeafe" },
-  trygghet: { color:"#b91c1c", bg:"#fee2e2" },
-  larare: { color:"#15803d", bg:"#dcfce7" },
-  styrning: { color:"#6d28d9", bg:"#ede9fe" }
+  kunskap: { color:"#1d4ed8", bg:"#dbeafe", activeBg:"#c0d4f8" },
+  trygghet: { color:"#b91c1c", bg:"#fee2e2", activeBg:"#f8c4c4" },
+  larare: { color:"#15803d", bg:"#dcfce7", activeBg:"#b8e8ca" },
+  styrning: { color:"#6d28d9", bg:"#ede9fe", activeBg:"#d4c8f6" }
 };
 const catLabels = { kunskap:"Kunskap & bedömning", trygghet:"Trygghet & säkerhet", larare:"Lärarvillkor", styrning:"Styrning & organisation" };
 const statusStyles = {
@@ -840,7 +840,11 @@ const uppdragStyles = {
 };
 
 let activeNode = null;
-let filters = { cat:"all", time:"all", role:"all" };
+let filters = {
+  cat: new Set(),
+  time: new Set(),
+  role: new Set()
+};
 
 // --- Zoom/pan state ---
 let zoomScale = 1;
@@ -971,12 +975,19 @@ function init() {
     const ss = statusStyles[r.status];
     const uppdrag = skolverketUppdrag[r.id];
     const us = uppdrag ? uppdragStyles[uppdrag.typ] : uppdragStyles.ej;
+    const uChipBg = uppdrag && uppdrag.typ === 'uppdrag' ? '#dcfce7' : uppdrag && uppdrag.typ === 'forberedande' ? '#fef3c7' : '#f3f4f6';
+    const uChipColor = uppdrag && uppdrag.typ === 'uppdrag' ? '#15803d' : uppdrag && uppdrag.typ === 'forberedande' ? '#92400e' : '#6b7280';
+    const uChipLabel = uppdrag && uppdrag.typ === 'uppdrag' ? 'Uppdrag' : uppdrag && uppdrag.typ === 'forberedande' ? 'Förberedande' : 'Ej uppdrag';
+    // Category-tinted background and border
+    node.style.background = cc.bg;
+    node.style.borderColor = cc.color + '40'; // ~25% opacity via hex alpha
+    node.dataset.catColor = cc.color;
+    node.dataset.catBg = cc.bg;
     node.innerHTML = `
-      <div class="node-dot" style="background:${cc.color}"></div>
-      <div class="node-uppdrag-dot" style="background:${us.color}" title="${us.label}"></div>
       <div class="node-title">${r.short}</div>
       <div class="node-date">${r.ikraft}</div>
       <div class="node-status" style="background:${ss.bg};color:${ss.color}">${ss.label}</div>
+      <div class="node-uppdrag-chip" style="background:${uChipBg};color:${uChipColor}">${uChipLabel}</div>
     `;
     node.style.left = r.x + "%";
     node.style.top = r.y + "%";
@@ -1010,11 +1021,17 @@ function init() {
     };
   });
 
-  // Node tap on mobile (landscape — map is visible)
+  // Click on map area: tap node or click empty space to deselect
   area.addEventListener("click", e => {
-    if (!isMobile()) return;
     const node = e.target.closest(".node");
-    if (node) selectNode(node.dataset.id);
+    if (node) {
+      if (isMobile()) selectNode(node.dataset.id);
+      // Desktop nodes handled by pointerup (drag-or-click)
+    } else if (activeNode) {
+      // Clicked empty space — clear selection
+      activeNode = null;
+      clearSelection();
+    }
   });
 
   document.addEventListener("pointermove", e => {
@@ -1168,13 +1185,34 @@ function init() {
     setTimeout(() => { drawConnections(); }, 200);
   });
 
-  // --- Filters ---
+  // --- Filters (multi-select) ---
   document.querySelectorAll(".filter-btn").forEach(btn => {
     btn.addEventListener("click", () => {
       const group = btn.dataset.filter;
-      document.querySelectorAll(`.filter-btn[data-filter="${group}"]`).forEach(b => b.classList.remove("active"));
-      btn.classList.add("active");
-      filters[group] = btn.dataset.value;
+      const value = btn.dataset.value;
+      if (value === "all") {
+        // Toggle all: if any are selected, clear all; if none, this is a no-op (already showing all)
+        const others = document.querySelectorAll(`.filter-btn[data-filter="${group}"]:not([data-value="all"])`);
+        const anyActive = [...others].some(b => b.classList.contains("active"));
+        others.forEach(b => b.classList.remove("active"));
+        filters[group].clear();
+        if (!anyActive) {
+          // Nothing was active — no change needed
+        }
+        btn.classList.add("active");
+      } else {
+        // Toggle this value
+        const allBtn = document.querySelector(`.filter-btn[data-filter="${group}"][data-value="all"]`);
+        if (btn.classList.contains("active")) {
+          btn.classList.remove("active");
+          filters[group].delete(value);
+        } else {
+          btn.classList.add("active");
+          filters[group].add(value);
+        }
+        // Update "Alla" button state
+        if (allBtn) allBtn.classList.toggle("active", filters[group].size === 0);
+      }
       applyFilters();
     });
   });
@@ -1312,9 +1350,13 @@ function selectNode(id) {
     n.classList.remove("active","connected","dimmed");
     if (nid === id) {
       n.classList.add("active");
+      // Stronger opaque category bg + solid category border
       n.style.borderColor = catColors[r.cat].color;
+      n.style.background = catColors[r.cat].activeBg;
     } else {
-      n.style.borderColor = "";
+      // Restore default category styling
+      n.style.borderColor = (n.dataset.catColor || '') + '40';
+      n.style.background = n.dataset.catBg || '';
       if (connectedIds.has(nid)) n.classList.add("connected");
       else n.classList.add("dimmed");
     }
@@ -1338,7 +1380,9 @@ function selectNode(id) {
 function clearSelection() {
   document.querySelectorAll(".node").forEach(n => {
     n.classList.remove("active","connected","dimmed");
-    n.style.borderColor = "";
+    // Restore default category styling
+    n.style.borderColor = (n.dataset.catColor || '') + '40';
+    n.style.background = n.dataset.catBg || '';
   });
   document.querySelectorAll(".map-svg line").forEach(l => l.classList.remove("active","dimmed"));
   document.getElementById("detailPanel").innerHTML = `
@@ -1401,9 +1445,9 @@ function applyFilters() {
 
   reforms.forEach(r => {
     let show = true;
-    if (filters.cat !== "all" && r.cat !== filters.cat) show = false;
-    if (filters.time !== "all" && !r.time.includes(filters.time)) show = false;
-    if (filters.role !== "all" && !r.roles.includes(filters.role)) show = false;
+    if (filters.cat.size > 0 && !filters.cat.has(r.cat)) show = false;
+    if (filters.time.size > 0 && !r.time.some(t => filters.time.has(t))) show = false;
+    if (filters.role.size > 0 && !r.roles.some(ro => filters.role.has(ro))) show = false;
 
     // Filter map nodes
     const node = document.getElementById("node-" + r.id);

@@ -1,8 +1,8 @@
 # Project Status — leides-ljuvliga-lilla-reformkarta
 
-> **Last updated:** 2026-03-30
-> **Current sprint:** Sprint 6 – Tidslinje
-> **Sprint dates:** TBD
+> **Last updated:** 2026-03-31
+> **Current sprint:** Underhåll — alla sprints (1–7) klara
+> **Sprint dates:** —
 
 ---
 
@@ -63,19 +63,32 @@
 
 ---
 
+## Completed: Sprint 6 – Tidslinje
+
+| # | Task | Status | Notes |
+|---|------|--------|-------|
+| 6.1 | data/tidslinje.json (30 händelser) | ✅ Done | Ikraftträdanden, redovisningar, milstolpar, riksdagsbeslut |
+| 6.2 | Expanderbar Gantt-layout | ✅ Done | Reformbars med chevron expand/collapse |
+| 6.3 | Händelsemarkörer på bars | ✅ Done | Diamant, cirklar, fyrkant — 10px med vit border |
+| 6.4 | Filter (dämpar, döljer inte) | ✅ Done | Typ + kategori |
+| 6.5 | Hoppa-till-knappar | ✅ Done | Ersätter minikarta |
+| 6.6 | Klickbar sidebar (händelser + uppdrag) | ✅ Done | Deeplinks till reformer/uppdrag |
+| 6.7 | Responsiv + mobil touch-targets | ✅ Done | 44px touch-areas, sidebar overlay |
+
+---
+
 ## What's Working Now
 Reformkartan finns som `index.html` i roten. GitHub Pages serverar sidan.
-- 16 reformnoder med status, ikraftträdande och kategori
-- Aktiv nod visas med tjock border i kategorifärg + scale, länkade noder med streckad blå border
-- Noder kan dras runt (drag-and-drop), SVG-linjer ritas om i realtid
-- Mobil portrait: listvy med accordion-kort, kopplingstext, klickbara länkar
-- Mobil landscape: kartvy med zoom/pan, sidopanel (20% bredd) för detaljer
-- Filter: område, tid, roll
-- Skolverkets uppdragsstatus: indikator på noder (grön/gul/grå), detaljsektion med klickbar fulltext + modal
+- 16 reformnoder med kategorifärgad bakgrund, uppdragsstatus-chip, drag-and-drop
+- Kopplingslinjer bakom kort (2px, 0.5 opacity), aktiva linjer framhävda
+- Multi-select filter (område, tid, roll) — checkbox-logik, inga valda = visa alla
+- Klick på tom yta återställer vald reform
+- Mobil portrait: listvy med accordion-kort; landscape: kartvy med zoom/pan
 - **Målbildsvy** (malbild.html): 6 infrastrukturpelare, 16 reformer med beroendekopplingar, SVG-bezierlinjer, sidebar med motiveringstext, statistikrad, responsiv (dold från navigation, nås via direkt URL)
 - **Reformtabell** (reformer.html): sorterings- och filterbar tabell, sidebar med detaljer, deeplinks till uppdragsvy
 - **Uppdragsöversikt** (uppdrag.html): individuella uppdrag grupperade per tidsperiod, snart-markering, sidebar med fulltext, deeplinks till reformtabell
-- Fliknavigation: Reformkarta / Reformer / Uppdrag
+- **Tidslinje** (tidslinje.html): expanderbar Gantt med reformbars, uppdragsbars, händelsemarkörer, tooltips, klickbar sidebar, hoppa-knappar
+- Fliknavigation: Reformkarta / Reformer / Uppdrag / Tidslinje
 - Cloudflare Web Analytics på alla sidor
 
 ```bash
