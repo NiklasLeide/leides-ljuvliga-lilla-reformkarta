@@ -5,6 +5,7 @@ Types: `feat` | `fix` | `refactor` | `docs` | `chore` | `perf`
 
 ---
 
+[2026-03-31] docs: sprint 7 klar — uppdatera PROJECT_STATUS, ROADMAP inför deploy
 [2026-03-31] fix: bekräfta kopplingslinjer bakom korten — SVG z-index:0, noder z-index:1, opaka kategoribakgrunder täcker linjer under kort
 [2026-03-31] feat: kategorifärgade kort — tonad bakgrund + border per kategori, starkare kopplingslinjer (2px, 0.5 opacity), mjukare val-markering (starkare bg + solid border, ej röd ram), dimmed 0.3
 [2026-03-31] feat: polera kartan — 4px vänsterkant i kategorifärg, uppdragsstatus som textchip, klick på tom yta återställer, multi-select filter (Set-baserat), prick och uppdragsdot borttagna

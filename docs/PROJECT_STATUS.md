@@ -1,7 +1,7 @@
 # Project Status — leides-ljuvliga-lilla-reformkarta
 
 > **Last updated:** 2026-03-31
-> **Current sprint:** Underhåll — alla sprints (1–6) klara
+> **Current sprint:** Underhåll — alla sprints (1–7) klara
 > **Sprint dates:** —
 
 ---
@@ -79,13 +79,11 @@
 
 ## What's Working Now
 Reformkartan finns som `index.html` i roten. GitHub Pages serverar sidan.
-- 16 reformnoder med status, ikraftträdande och kategori
-- Aktiv nod visas med tjock border i kategorifärg + scale, länkade noder med streckad blå border
-- Noder kan dras runt (drag-and-drop), SVG-linjer ritas om i realtid
-- Mobil portrait: listvy med accordion-kort, kopplingstext, klickbara länkar
-- Mobil landscape: kartvy med zoom/pan, sidopanel (20% bredd) för detaljer
-- Filter: område, tid, roll
-- Skolverkets uppdragsstatus: indikator på noder (grön/gul/grå), detaljsektion med klickbar fulltext + modal
+- 16 reformnoder med kategorifärgad bakgrund, uppdragsstatus-chip, drag-and-drop
+- Kopplingslinjer bakom kort (2px, 0.5 opacity), aktiva linjer framhävda
+- Multi-select filter (område, tid, roll) — checkbox-logik, inga valda = visa alla
+- Klick på tom yta återställer vald reform
+- Mobil portrait: listvy med accordion-kort; landscape: kartvy med zoom/pan
 - **Målbildsvy** (malbild.html): 6 infrastrukturpelare, 16 reformer med beroendekopplingar, SVG-bezierlinjer, sidebar med motiveringstext, statistikrad, responsiv (dold från navigation, nås via direkt URL)
 - **Reformtabell** (reformer.html): sorterings- och filterbar tabell, sidebar med detaljer, deeplinks till uppdragsvy
 - **Uppdragsöversikt** (uppdrag.html): individuella uppdrag grupperade per tidsperiod, snart-markering, sidebar med fulltext, deeplinks till reformtabell
