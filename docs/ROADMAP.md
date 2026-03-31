@@ -55,20 +55,26 @@
 - [x] Visuell markering av snart (närmaste 30 dagarna)
 - [x] Responsiv
 
-## Sprint 6 — Tidslinje
-- [ ] Skapa tidslinje.html med vertikal tidslinje (2025–2031)
-- [ ] Adaptiv spacing: tomma månader komprimerade, täta perioder expanderade
-- [ ] Fem händelsetyper: ikraftträdande, riksdagsbeslut, uppdragsredovisningar, delredovisningar, milstolpar
-- [ ] Swim lanes per händelsetyp inom varje tidsperiod
-- [ ] Färgkodning per reformkategori
-- [ ] Filter: togglea händelsetyper och kategorier — filtrering dämpar icke-matchande händelser (opacity 0.15) istället för att dölja dem
-- [ ] Mini-karta i sidebar med densitetsindikatorer och klickbar navigation
-- [ ] Klick på händelse öppnar detalj med länk till reformvy/uppdragsvy
-- [ ] Responsiv
-- [ ] Fliknavigation: lägg till 'Tidslinje' som ny flik
+## Completed: Sprint 6 — Tidslinje
+- [x] Skapa data/tidslinje.json med 30 händelser (2025–2031)
+- [x] Expanderbar Gantt-layout: reformbars med händelsemarkörer, uppdragsbars med chevron expand/collapse
+- [x] Fem händelsetyper med visuella markörer: diamant (ikraftträdande), cirklar (milstolpe, redovisning, riksdagsbeslut), fyrkant (delredovisning)
+- [x] Färgkodning per reformkategori — solida bars med border
+- [x] Filter: togglea händelsetyper och kategorier — dämpar icke-matchande (opacity 0.15)
+- [x] Hoppa-till-knappar (2025–2029+) ersätter minikarta
+- [x] Klick på händelsemarkörer öppnar sidebar med detalj + deeplinks
+- [x] Klick på uppdragsnamn/bar öppnar sidebar med uppdragsinfo
+- [x] Tooltip på trunkerade uppdragsnamn
+- [x] Visa alla / Dölj alla detaljer-knapp
+- [x] Responsiv — mobil touch-targets 44px, sidebar som overlay
+- [x] Fliknavigation: Tidslinje tillagd på alla sidor
+
+## Kommande
+- Nästa bevakningspunkt: 8 maj 2026 (Skolverkets genomförandeplan digitala slutprov)
+- Riksdagsbeslut väntas april–juni 2026 — bevaka varannan vecka
+- Autonom bevakningsagent — parkerad, tooling räcker inte ännu
 
 ## Later / Stretch
-_TBD_
 
 ## Deferred / Won't Do
 - Bygga egna sammanfattningar per reform — kollegorna är tjänstemän, originalhandlingarna tillför mer
