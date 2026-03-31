@@ -5,6 +5,7 @@ Types: `feat` | `fix` | `refactor` | `docs` | `chore` | `perf`
 
 ---
 
+[2026-03-31] feat: tidslinje — smalare bars (16px reform, 8px uppdrag), tooltip på trunkerade uppdragsnamn (title-attribut), klick på uppdragsnamn/bar öppnar sidebar med titel, kort, redovisningsdatum, källor och deeplinks
 [2026-03-31] feat: tidslinje — tjockare bars (24px reform, 12px uppdrag), alla markörer på bars (10px cirklar, 12px diamanter, 2px vit border), händelseraden borttagen, markörer på uppdragsbars
 [2026-03-31] docs: uppdatera CLAUDE.md — stack, kommandon, katalogstruktur, designsystem, projektspecifika misstag
 [2026-03-31] fix: mobilproblem i tidslinje — chevron touch-target 36px med active-state, markörer 44px touch-area via pseudo-element, dubbel stängknapp i sidebar fixad, clearDetail kraschar inte längre (#detailDefault återskapas), filter/knappar min-height 32px, sidebar-close 44px

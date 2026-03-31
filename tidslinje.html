@@ -72,7 +72,7 @@ header p{font-size:.82rem;color:rgba(255,255,255,.5);max-width:500px}
 .gantt-cat-title{font-size:.68rem;font-weight:600;text-transform:uppercase;letter-spacing:.04em}
 
 /* Reform row */
-.gantt-row{display:flex;align-items:center;min-height:36px;position:relative;transition:background .15s}
+.gantt-row{display:flex;align-items:center;min-height:30px;position:relative;transition:background .15s}
 .gantt-row:hover{background:rgba(0,0,0,.02)}
 .gantt-row.zebra{background:rgba(0,0,0,.018)}
 .gantt-row.zebra:hover{background:rgba(0,0,0,.035)}
@@ -89,22 +89,23 @@ header p{font-size:.82rem;color:rgba(255,255,255,.5);max-width:500px}
 .gantt-row-ref{font-size:.5rem;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .past-check{color:#15803d;font-size:.6rem;margin-right:2px}
 
-.gantt-row-chart{width:var(--chart-w);position:relative;height:36px;flex-shrink:0}
+.gantt-row-chart{width:var(--chart-w);position:relative;height:30px;flex-shrink:0}
 
 /* Bar — solid colored fill */
-.gantt-bar{position:absolute;top:50%;transform:translateY(-50%);height:24px;border-radius:6px;border:1px solid;transition:box-shadow .2s,filter .2s;cursor:default}
+.gantt-bar{position:absolute;top:50%;transform:translateY(-50%);height:16px;border-radius:6px;border:1px solid;transition:box-shadow .2s,filter .2s;cursor:default}
 .gantt-row:hover .gantt-bar{box-shadow:0 1px 4px rgba(0,0,0,.1);filter:brightness(1.04)}
 
 /* Expandable detail */
 .gantt-detail{overflow:hidden;max-height:0;transition:max-height .3s ease}
 .gantt-detail.open{max-height:800px}
 .gantt-detail-inner{padding:2px 0 8px;border-left:3px solid var(--border);margin-left:8px}
-.gantt-sub-row{display:flex;align-items:center;min-height:22px;position:relative;padding-left:1rem}
+.gantt-sub-row{display:flex;align-items:center;min-height:20px;position:relative;padding-left:1rem}
 .gantt-sub-row:hover .gantt-sub-bar{box-shadow:0 1px 3px rgba(0,0,0,.08);filter:brightness(1.03)}
 .gantt-sub-label{width:calc(var(--label-w) - 1.4rem);flex-shrink:0;padding-right:.6rem}
-.gantt-sub-name{font-size:.58rem;font-weight:400;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.gantt-sub-chart{width:var(--chart-w);position:relative;height:22px;flex-shrink:0}
-.gantt-sub-bar{position:absolute;top:50%;transform:translateY(-50%);height:12px;border-radius:4px;border:1px dashed;opacity:.8;transition:box-shadow .2s,filter .2s}
+.gantt-sub-name{font-size:.58rem;font-weight:400;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.gantt-sub-name:hover{color:var(--ink)}
+.gantt-sub-chart{width:var(--chart-w);position:relative;height:20px;flex-shrink:0}
+.gantt-sub-bar{position:absolute;top:50%;transform:translateY(-50%);height:8px;border-radius:4px;border:1px dashed;opacity:.8;transition:box-shadow .2s,filter .2s;cursor:pointer}
 .gantt-sub-bar-arrow{position:absolute;right:-8px;top:50%;transform:translateY(-50%);font-size:.5rem;color:var(--muted)}
 
 /* Markers */
@@ -310,14 +311,12 @@ function buildSubRows(rid){
   const subs=[];
   const u=uppdragData[rid];
   if(u&&u.typ!=='ej'){
-    // Collect all redovisning/delredovisning events for this reform to place on uppdrag bars
     const reformEvs=handelser.filter(h=>h.reform===rid&&(h.typ==='redovisning'||h.typ==='delredovisning'));
     const addU=(obj,isMain)=>{
       const ds=exDates((obj.kort||'')+' '+(obj.fulltext||'')).sort();
       const end=ds.length?ds[ds.length-1]:null;
-      // Attach matching events to this uppdrag bar (events whose dates fall within its range)
       const barEvs=isMain?reformEvs:[];
-      subs.push({type:'uppdrag',titel:obj.titel||obj.kort.split('.')[0],startPct:pct('2025-12-01'),endPct:end?pct(end):null,events:barEvs});
+      subs.push({type:'uppdrag',titel:obj.titel||obj.kort.split('.')[0],kort:obj.kort,kallor:obj.kallor||[],typ:obj.typ||u.typ,startPct:pct('2025-12-01'),endPct:end?pct(end):null,events:barEvs,reformId:rid,endDate:end});
     };
     addU(u,true);
     if(u.relaterade)u.relaterade.forEach(rel=>{if(rel.typ!=='ej')addU(rel,false)});
@@ -382,16 +381,16 @@ function renderGantt(){
       if(row.hasDetail){
         h+=`<div class="gantt-detail ${isExp?'open':''}" data-detail="${r.id}"><div class="gantt-detail-inner" style="border-left-color:${c.bdr}">`;
         const subs=buildSubRows(r.id);
-        subs.filter(s=>s.type==='uppdrag').forEach(ur=>{
+        subs.filter(s=>s.type==='uppdrag').forEach((ur,ui)=>{
           const short=ur.titel.length>35?ur.titel.substring(0,33)+'…':ur.titel;
-          h+=`<div class="gantt-sub-row"><div class="gantt-sub-label"><div class="gantt-sub-name">↳ ${short}</div></div><div class="gantt-sub-chart">`;
+          const escaped=ur.titel.replace(/"/g,'&quot;');
+          h+=`<div class="gantt-sub-row" data-uppdrag-reform="${r.id}" data-uppdrag-idx="${ui}"><div class="gantt-sub-label"><div class="gantt-sub-name" title="${escaped}">↳ ${short}</div></div><div class="gantt-sub-chart">`;
           if(ur.endPct!==null){
             h+=`<div class="gantt-sub-bar" style="left:${ur.startPct}%;width:${ur.endPct-ur.startPct}%;background:${c.bar};border-color:${c.bdr}"></div>`;
           }else{
             const ep=Math.max(n,ur.startPct+1);
             h+=`<div class="gantt-sub-bar" style="left:${ur.startPct}%;width:${ep-ur.startPct}%;background:${c.bar};border-color:${c.bdr}"><span class="gantt-sub-bar-arrow">→</span></div>`;
           }
-          // Markers on the uppdrag bar
           if(ur.events)ur.events.forEach(ev=>{
             const p=pd(ev.datum),pc=pct(ev.datum);
             const cls=mCls[ev.typ]||'m-redovisning',dimE=!activeTyps.has(ev.typ),sel=ev.id===selectedId;
@@ -472,6 +471,32 @@ function selectEvent(id){
   // Mobile sidebar: content only (mobile-sidebar-close already exists)
   if(window.innerWidth<=800){document.getElementById('mobileSidebarContent').innerHTML=detailHtml;document.getElementById('mobileSidebar').classList.add('open');document.getElementById('mobileOverlay').classList.add('open')}
 }
+function selectUppdrag(reformId,idx){
+  const subs=buildSubRows(reformId);
+  const ur=subs.filter(s=>s.type==='uppdrag')[idx];
+  if(!ur)return;
+  const reform=reforms.find(r=>r.id===reformId);
+  const cc=reform?catColors[reform.cat]:null;
+  const typLabel=ur.typ==='uppdrag'?'Uppdrag':ur.typ==='forberedande'?'Förberedande uppdrag':'Ej uppdrag';
+  const endLabel=ur.endDate?pd(ur.endDate).label:'Pågående';
+
+  let detailHtml='';
+  if(cc)detailHtml+=`<div class="detail-cat" style="background:${cc.bg};color:${cc.color}">${catLabels[reform.cat]}</div>`;
+  detailHtml+=`<div class="detail-title">${ur.titel}</div>`;
+  detailHtml+=`<div class="detail-ref">${typLabel} · Redovisas ${endLabel}</div>`;
+  detailHtml+=`<div class="detail-section"><div class="detail-text">${ur.kort}</div></div>`;
+  if(reform){
+    const rc=catColors[reform.cat];
+    detailHtml+=`<div class="detail-section"><div class="detail-label">Kopplad reform</div><div class="detail-text"><span class="cat-dot" style="background:${rc.color};vertical-align:middle;margin-right:4px"></span>${reform.short} (${reform.ref})</div><div class="detail-links" style="margin-top:.4rem"><a class="detail-link" href="reformer.html?reform=${reform.id}">→ Reformtabellen</a><a class="detail-link" href="uppdrag.html?uppdrag=${reform.id}">→ Uppdrag</a></div></div>`;
+  }
+  if(ur.kallor&&ur.kallor.length){
+    detailHtml+=`<div class="detail-section"><div class="detail-label">Källor</div><div class="detail-links">${ur.kallor.map(k=>`<a class="detail-link" href="${k.url}" target="_blank" rel="noopener">↗ ${k.text}</a>`).join('')}</div></div>`;
+  }
+  document.getElementById('detailPanel').innerHTML='<button class="detail-close" id="detailClose" aria-label="Stäng">×</button>'+detailHtml;
+  document.getElementById('detailClose').addEventListener('click',()=>{clearDetail()});
+  if(window.innerWidth<=800){document.getElementById('mobileSidebarContent').innerHTML=detailHtml;document.getElementById('mobileSidebar').classList.add('open');document.getElementById('mobileOverlay').classList.add('open')}
+}
+
 function clearDetail(){
   // Restore the default sidebar structure first (selectEvent replaces innerHTML)
   document.getElementById('detailPanel').innerHTML='<div class="detail-empty" id="detailDefault"></div>';
@@ -488,7 +513,10 @@ function init(){
     const chev=e.target.closest('.gantt-row-chevron[data-expand]');
     if(chev){const rid=chev.dataset.expand;expandedReforms.has(rid)?expandedReforms.delete(rid):expandedReforms.add(rid);renderGantt();return}
     const m=e.target.closest('.gantt-marker[data-id]');
-    if(m)selectEvent(m.dataset.id);
+    if(m){selectEvent(m.dataset.id);return}
+    // Click on uppdrag sub-row (name or bar)
+    const subRow=e.target.closest('.gantt-sub-row[data-uppdrag-reform]');
+    if(subRow){selectUppdrag(subRow.dataset.uppdragReform,+subRow.dataset.uppdragIdx);return}
   });
 
   document.getElementById('toggleAll').addEventListener('click',()=>{
