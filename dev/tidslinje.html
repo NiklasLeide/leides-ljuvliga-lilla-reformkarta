@@ -72,7 +72,7 @@ header p{font-size:.82rem;color:rgba(255,255,255,.5);max-width:500px}
 .gantt-cat-title{font-size:.68rem;font-weight:600;text-transform:uppercase;letter-spacing:.04em}
 
 /* Reform row */
-.gantt-row{display:flex;align-items:center;min-height:30px;position:relative;transition:background .15s}
+.gantt-row{display:flex;align-items:center;min-height:36px;position:relative;transition:background .15s}
 .gantt-row:hover{background:rgba(0,0,0,.02)}
 .gantt-row.zebra{background:rgba(0,0,0,.018)}
 .gantt-row.zebra:hover{background:rgba(0,0,0,.035)}
@@ -89,22 +89,22 @@ header p{font-size:.82rem;color:rgba(255,255,255,.5);max-width:500px}
 .gantt-row-ref{font-size:.5rem;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .past-check{color:#15803d;font-size:.6rem;margin-right:2px}
 
-.gantt-row-chart{width:var(--chart-w);position:relative;height:30px;flex-shrink:0}
+.gantt-row-chart{width:var(--chart-w);position:relative;height:36px;flex-shrink:0}
 
 /* Bar — solid colored fill */
-.gantt-bar{position:absolute;top:50%;transform:translateY(-50%);height:16px;border-radius:6px;border:1px solid;transition:box-shadow .2s,filter .2s;cursor:default}
+.gantt-bar{position:absolute;top:50%;transform:translateY(-50%);height:24px;border-radius:6px;border:1px solid;transition:box-shadow .2s,filter .2s;cursor:default}
 .gantt-row:hover .gantt-bar{box-shadow:0 1px 4px rgba(0,0,0,.1);filter:brightness(1.04)}
 
 /* Expandable detail */
 .gantt-detail{overflow:hidden;max-height:0;transition:max-height .3s ease}
 .gantt-detail.open{max-height:800px}
 .gantt-detail-inner{padding:2px 0 8px;border-left:3px solid var(--border);margin-left:8px}
-.gantt-sub-row{display:flex;align-items:center;min-height:20px;position:relative;padding-left:1rem}
+.gantt-sub-row{display:flex;align-items:center;min-height:22px;position:relative;padding-left:1rem}
 .gantt-sub-row:hover .gantt-sub-bar{box-shadow:0 1px 3px rgba(0,0,0,.08);filter:brightness(1.03)}
 .gantt-sub-label{width:calc(var(--label-w) - 1.4rem);flex-shrink:0;padding-right:.6rem}
 .gantt-sub-name{font-size:.58rem;font-weight:400;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.gantt-sub-chart{width:var(--chart-w);position:relative;height:20px;flex-shrink:0}
-.gantt-sub-bar{position:absolute;top:50%;transform:translateY(-50%);height:8px;border-radius:4px;border:1px dashed;opacity:.8;transition:box-shadow .2s,filter .2s}
+.gantt-sub-chart{width:var(--chart-w);position:relative;height:22px;flex-shrink:0}
+.gantt-sub-bar{position:absolute;top:50%;transform:translateY(-50%);height:12px;border-radius:4px;border:1px dashed;opacity:.8;transition:box-shadow .2s,filter .2s}
 .gantt-sub-bar-arrow{position:absolute;right:-8px;top:50%;transform:translateY(-50%);font-size:.5rem;color:var(--muted)}
 
 /* Markers */
@@ -115,15 +115,19 @@ header p{font-size:.82rem;color:rgba(255,255,255,.5);max-width:500px}
 .gantt-marker.dimmed{opacity:.15;pointer-events:none}
 
 /* Diamond for ikraftträdande */
-.m-ikraft{width:10px;height:10px;background:#dc2626;border:2px solid #fff;box-shadow:0 1px 3px rgba(0,0,0,.25);transform:translate(-50%,-50%) rotate(45deg);border-radius:2px}
+.m-ikraft{width:12px;height:12px;background:#dc2626;border:2px solid #fff;box-shadow:0 1px 3px rgba(0,0,0,.3);transform:translate(-50%,-50%) rotate(45deg);border-radius:2px}
 .m-ikraft:hover{transform:translate(-50%,-50%) rotate(45deg) scale(1.4)}
 .m-ikraft.selected{transform:translate(-50%,-50%) rotate(45deg) scale(1.5)}
 
-/* Larger, higher contrast markers */
-.m-milstolpe{width:7px;height:7px;border-radius:50%;background:#0f9d58;border:1.5px solid #fff;box-shadow:0 1px 2px rgba(0,0,0,.15)}
-.m-redovisning{width:7px;height:7px;border-radius:50%;background:#e8a000;border:1.5px solid #fff;box-shadow:0 1px 2px rgba(0,0,0,.15)}
-.m-delredovisning{width:6px;height:6px;border-radius:1px;background:#d946a8;border:1.5px solid #fff;box-shadow:0 1px 2px rgba(0,0,0,.15)}
-.m-riksdag{width:8px;height:8px;border-radius:50%;background:rgba(109,40,217,.5);border:1.5px solid rgba(109,40,217,.7)}
+/* Markers on bars — 10px with white border */
+.m-milstolpe{width:10px;height:10px;border-radius:50%;background:#0f9d58;border:2px solid #fff;box-shadow:0 1px 2px rgba(0,0,0,.2)}
+.m-redovisning{width:10px;height:10px;border-radius:50%;background:#e8a000;border:2px solid #fff;box-shadow:0 1px 2px rgba(0,0,0,.2)}
+.m-delredovisning{width:10px;height:10px;border-radius:2px;background:#d946a8;border:2px solid #fff;box-shadow:0 1px 2px rgba(0,0,0,.2)}
+.m-riksdag{width:10px;height:10px;border-radius:50%;background:rgba(109,40,217,.6);border:2px solid #fff;box-shadow:0 1px 2px rgba(0,0,0,.2)}
+
+/* Smaller markers for sub-bars */
+.gantt-sub-chart .m-milstolpe,.gantt-sub-chart .m-redovisning,.gantt-sub-chart .m-delredovisning,.gantt-sub-chart .m-riksdag{width:8px;height:8px}
+.gantt-sub-chart .m-ikraft{width:9px;height:9px}
 
 /* Tooltip */
 .gantt-tooltip{display:none;position:fixed;z-index:100;background:var(--card);border:1px solid var(--border);border-radius:6px;padding:.4rem .6rem;box-shadow:0 4px 12px rgba(0,0,0,.1);max-width:280px;pointer-events:none}
@@ -236,7 +240,7 @@ footer{text-align:center;padding:1.5rem 0 2rem;font-size:.62rem;color:#ccc;line-
       <div class="gantt-scroll" id="ganttScroll">
         <div class="gantt" id="ganttArea"></div>
         <div class="gantt-legend">
-          <div class="gantt-legend-item"><div class="legend-dot m-ikraft" style="position:static;transform:rotate(45deg)"></div> Ikraftträdande</div>
+          <div class="gantt-legend-item"><div class="legend-dot m-ikraft" style="position:static;transform:rotate(45deg);width:10px;height:10px"></div> Ikraftträdande</div>
           <div class="gantt-legend-item"><div class="legend-dot m-riksdag" style="position:static;transform:none"></div> Riksdagsbeslut</div>
           <div class="gantt-legend-item"><div class="legend-dot m-milstolpe" style="position:static;transform:none"></div> Milstolpe</div>
           <div class="gantt-legend-item"><div class="legend-dot m-redovisning" style="position:static;transform:none"></div> Redovisning</div>
@@ -306,16 +310,18 @@ function buildSubRows(rid){
   const subs=[];
   const u=uppdragData[rid];
   if(u&&u.typ!=='ej'){
-    const addU=(obj)=>{
+    // Collect all redovisning/delredovisning events for this reform to place on uppdrag bars
+    const reformEvs=handelser.filter(h=>h.reform===rid&&(h.typ==='redovisning'||h.typ==='delredovisning'));
+    const addU=(obj,isMain)=>{
       const ds=exDates((obj.kort||'')+' '+(obj.fulltext||'')).sort();
       const end=ds.length?ds[ds.length-1]:null;
-      subs.push({type:'uppdrag',titel:obj.titel||obj.kort.split('.')[0],startPct:pct('2025-12-01'),endPct:end?pct(end):null});
+      // Attach matching events to this uppdrag bar (events whose dates fall within its range)
+      const barEvs=isMain?reformEvs:[];
+      subs.push({type:'uppdrag',titel:obj.titel||obj.kort.split('.')[0],startPct:pct('2025-12-01'),endPct:end?pct(end):null,events:barEvs});
     };
-    addU(u);
-    if(u.relaterade)u.relaterade.forEach(rel=>{if(rel.typ!=='ej')addU(rel)});
+    addU(u,true);
+    if(u.relaterade)u.relaterade.forEach(rel=>{if(rel.typ!=='ej')addU(rel,false)});
   }
-  const evs=handelser.filter(h=>h.reform===rid&&h.typ!=='ikraftträdande');
-  evs.forEach(ev=>{subs.push({type:'event',event:ev})});
   return subs;
 }
 
@@ -364,10 +370,11 @@ function renderGantt(){
       h+=`</div><div class="gantt-row-chart">`;
       // Solid colored bar
       h+=`<div class="gantt-bar" style="left:${row.startPct}%;width:${row.endPct-row.startPct}%;background:${c.bar};border-color:${c.bdr}"></div>`;
-      // Ikraftträdande markers only on main row
-      row.events.filter(e=>e.typ==='ikraftträdande').forEach(ev=>{
-        const p=pd(ev.datum),pc=pct(ev.datum),dimE=!activeTyps.has(ev.typ),sel=ev.id===selectedId;
-        h+=`<div class="gantt-marker m-ikraft ${dimE?'dimmed':''} ${sel?'selected':''}" style="left:${pc}%" data-id="${ev.id}" data-t="${ev.titel.replace(/"/g,'&quot;')}" data-d="${p.label}" data-tp="Ikraftträdande"></div>`;
+      // ALL event markers on the reform bar
+      row.events.forEach(ev=>{
+        const p=pd(ev.datum),pc=pct(ev.datum),cls=mCls[ev.typ]||'m-milstolpe';
+        const dimE=!activeTyps.has(ev.typ),sel=ev.id===selectedId;
+        h+=`<div class="gantt-marker ${cls} ${dimE?'dimmed':''} ${sel?'selected':''}" style="left:${pc}%" data-id="${ev.id}" data-t="${ev.titel.replace(/"/g,'&quot;')}" data-d="${p.label}" data-tp="${typLabels[ev.typ]}"></div>`;
       });
       h+=`</div></div>`;
 
@@ -384,18 +391,14 @@ function renderGantt(){
             const ep=Math.max(n,ur.startPct+1);
             h+=`<div class="gantt-sub-bar" style="left:${ur.startPct}%;width:${ep-ur.startPct}%;background:${c.bar};border-color:${c.bdr}"><span class="gantt-sub-bar-arrow">→</span></div>`;
           }
-          h+=`</div></div>`;
-        });
-        const detailEvs=subs.filter(s=>s.type==='event');
-        if(detailEvs.length){
-          h+=`<div class="gantt-sub-row"><div class="gantt-sub-label"><div class="gantt-sub-name" style="color:#bbb;font-size:.5rem">Händelser</div></div><div class="gantt-sub-chart">`;
-          detailEvs.forEach(s=>{
-            const ev=s.event,p=pd(ev.datum),pc=pct(ev.datum);
-            const cls=mCls[ev.typ]||'m-milstolpe',dimE=!activeTyps.has(ev.typ),sel=ev.id===selectedId;
+          // Markers on the uppdrag bar
+          if(ur.events)ur.events.forEach(ev=>{
+            const p=pd(ev.datum),pc=pct(ev.datum);
+            const cls=mCls[ev.typ]||'m-redovisning',dimE=!activeTyps.has(ev.typ),sel=ev.id===selectedId;
             h+=`<div class="gantt-marker ${cls} ${dimE?'dimmed':''} ${sel?'selected':''}" style="left:${pc}%" data-id="${ev.id}" data-t="${ev.titel.replace(/"/g,'&quot;')}" data-d="${p.label}" data-tp="${typLabels[ev.typ]}"></div>`;
           });
           h+=`</div></div>`;
-        }
+        });
         h+=`</div></div>`;
       }
     });
