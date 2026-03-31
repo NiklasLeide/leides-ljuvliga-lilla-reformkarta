@@ -5,6 +5,7 @@ Types: `feat` | `fix` | `refactor` | `docs` | `chore` | `perf`
 
 ---
 
+[2026-03-31] fix: mobilproblem i tidslinje — chevron touch-target 36px med active-state, markörer 44px touch-area via pseudo-element, dubbel stängknapp i sidebar fixad, clearDetail kraschar inte längre (#detailDefault återskapas), filter/knappar min-height 32px, sidebar-close 44px
 [2026-03-31] fix: tidslinje — ta bort overflow från gantt-scroll (CSS-spec tvingar overflow-y:auto vid overflow-x:auto → klippte vertikalt), sidan hanterar nu all scroll, hoppa-knappar scrollar via getBoundingClientRect
 [2026-03-31] fix: tidslinje — vertikal scrollning (overflow-y visible, align-items start), sidebar X-knapp för att återställa sammanfattning, hoppa-knappar hittar rätt position via tick-element
 [2026-03-31] feat: förbättra tidslinjens design — solida färgade bars, diamant-ikraftträdande, zebraränder, streckade gridlinjer, kvartalmarkeringar, hoppa-till-knappar, kategorirubriker med bakgrundsfärg, hover-effekter, expanderat sidebar-default med sammanfattning
