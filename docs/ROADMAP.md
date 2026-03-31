@@ -69,6 +69,13 @@
 - [x] Responsiv — mobil touch-targets 44px, sidebar som overlay
 - [x] Fliknavigation: Tidslinje tillagd på alla sidor
 
+## Sprint 7 — Polering
+- [ ] Kartan: starkare opacity på kopplingar och kortramar i defaultläge
+- [ ] Kartan: klick på tom yta återställer vald reform
+- [ ] Kartan: multi-select filter (checkbox istället för radio)
+- [ ] Kartan: kategori-färg som bred vänsterkant på kort istället för prick
+- [ ] Kartan: uppdragsstatus som textchip (Uppdrag/Förberedande/Ej uppdrag) istället för färgprick
+
 ## Kommande
 - Nästa bevakningspunkt: 8 maj 2026 (Skolverkets genomförandeplan digitala slutprov)
 - Riksdagsbeslut väntas april–juni 2026 — bevaka varannan vecka
