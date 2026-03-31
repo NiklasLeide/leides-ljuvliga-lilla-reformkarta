@@ -6,7 +6,12 @@
 <title>Tidslinje — Skolreformer 2025–2028</title>
 <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
-:root{--ink:#1c1c1c;--bg:#f7f6f3;--card:#fff;--border:#e5e2dc;--muted:#999;--kunskap:#1d4ed8;--kunskap-bg:#dbeafe;--trygghet:#b91c1c;--trygghet-bg:#fee2e2;--larare:#15803d;--larare-bg:#dcfce7;--styrning:#6d28d9;--styrning-bg:#ede9fe;--label-w:200px;--chart-w:1200px}
+:root{--ink:#1c1c1c;--bg:#f7f6f3;--card:#fff;--border:#e5e2dc;--muted:#999;
+  --kunskap:#1d4ed8;--kunskap-bg:#dbeafe;--kunskap-bar:#c7d9f7;--kunskap-bdr:#93b4ed;
+  --trygghet:#b91c1c;--trygghet-bg:#fee2e2;--trygghet-bar:#f9caca;--trygghet-bdr:#e88;
+  --larare:#15803d;--larare-bg:#dcfce7;--larare-bar:#b6ecc8;--larare-bdr:#6dc690;
+  --styrning:#6d28d9;--styrning-bg:#ede9fe;--styrning-bar:#d4c9f7;--styrning-bdr:#a78be0;
+  --label-w:200px;--chart-w:1200px}
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:'DM Sans',system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.5;-webkit-font-smoothing:antialiased}
 
@@ -23,15 +28,18 @@ header p{font-size:.82rem;color:rgba(255,255,255,.5);max-width:500px}
 
 .container{max-width:100%;margin:0 auto;padding:0 1.5rem}
 
-.filter-bar{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;padding:.7rem 1.5rem;border-bottom:1px solid var(--border);margin:0 -1.5rem 1rem;position:sticky;top:0;z-index:20;background:var(--bg)}
+/* Filter + jump buttons */
+.filter-bar{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;padding:.7rem 1.5rem;border-bottom:1px solid var(--border);margin:0 -1.5rem 0;position:sticky;top:0;z-index:20;background:var(--bg)}
 .filter-group{display:flex;align-items:center;gap:.3rem}
 .filter-label{font-size:.65rem;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-right:.2rem}
 .filter-btn{padding:.28rem .6rem;border:1px solid var(--border);border-radius:100px;font-size:.7rem;font-weight:500;cursor:pointer;background:#fff;color:#666;font-family:inherit;transition:all .15s}
 .filter-btn:hover{border-color:var(--ink)}
 .filter-btn.active{background:var(--ink);color:#fff;border-color:var(--ink)}
 .filter-sep{width:1px;height:20px;background:var(--border);margin:0 .3rem}
+.jump-btn{padding:.28rem .55rem;border:1px solid var(--border);border-radius:6px;font-size:.65rem;font-weight:600;cursor:pointer;background:var(--card);color:var(--muted);font-family:inherit;transition:all .15s}
+.jump-btn:hover{border-color:var(--ink);color:var(--ink);background:#f8f7f4}
 
-.toolbar{display:flex;align-items:center;gap:.6rem;margin-bottom:.6rem}
+.toolbar{display:flex;align-items:center;gap:.6rem;padding:.5rem 0}
 .toolbar-btn{padding:.3rem .7rem;border:1px solid var(--border);border-radius:6px;font-size:.68rem;font-weight:500;cursor:pointer;background:var(--card);color:var(--ink);font-family:inherit;transition:all .15s}
 .toolbar-btn:hover{border-color:var(--ink);background:#f8f7f4}
 
@@ -41,61 +49,79 @@ header p{font-size:.82rem;color:rgba(255,255,255,.5);max-width:500px}
 .gantt-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;min-width:0}
 .gantt{position:relative;min-width:calc(var(--label-w) + var(--chart-w))}
 
+/* Header with years + quarters */
 .gantt-header{display:flex;position:sticky;top:42px;z-index:15;background:var(--bg);border-bottom:1px solid var(--border)}
 .gantt-header-label{width:var(--label-w);flex-shrink:0}
-.gantt-header-chart{width:var(--chart-w);position:relative;height:32px}
+.gantt-header-chart{width:var(--chart-w);position:relative;height:40px}
 .gantt-year-tick{position:absolute;top:0;height:100%;border-left:1px solid var(--border)}
-.gantt-year-text{position:absolute;top:4px;font-size:.65rem;font-weight:600;color:var(--muted);padding-left:6px}
+.gantt-year-text{position:absolute;top:3px;font-size:.68rem;font-weight:700;color:var(--ink);padding-left:6px}
+.gantt-q-text{position:absolute;top:18px;font-size:.48rem;font-weight:500;color:#bbb;letter-spacing:.02em}
 .gantt-now-line{position:absolute;top:0;bottom:0;width:2px;background:var(--ink);z-index:5;opacity:.5}
 .gantt-now-pip{position:absolute;top:-2px;width:8px;height:8px;background:var(--ink);border-radius:50%;transform:translateX(-3px)}
-.gantt-now-label{position:absolute;top:-16px;font-size:.5rem;font-weight:700;color:var(--card);background:var(--ink);padding:.05rem .35rem;border-radius:3px;transform:translateX(-50%);white-space:nowrap}
+.gantt-now-label{position:absolute;top:-14px;font-size:.5rem;font-weight:700;color:var(--card);background:var(--ink);padding:.05rem .35rem;border-radius:3px;transform:translateX(-50%);white-space:nowrap}
 
 .gantt-body{position:relative}
-.gantt-grid-line{position:absolute;top:0;bottom:0;width:1px;background:var(--border);opacity:.4;pointer-events:none;z-index:0}
-.gantt-now-body{position:absolute;top:0;bottom:0;width:2px;background:var(--ink);opacity:.25;pointer-events:none;z-index:1}
+.gantt-grid-line{position:absolute;top:0;bottom:0;width:0;border-left:1px dashed rgba(0,0,0,.08);pointer-events:none;z-index:0}
+.gantt-now-body{position:absolute;top:0;bottom:0;width:2px;background:var(--ink);opacity:.2;pointer-events:none;z-index:1}
 
-.gantt-cat-header{display:flex;align-items:center;gap:.4rem;padding:.6rem 0 .25rem}
+/* Category header */
+.gantt-cat-header{display:flex;align-items:center;min-height:28px;position:relative;padding:0;border-radius:0}
+.gantt-cat-header-bg{position:absolute;left:0;right:0;top:0;bottom:0;border-radius:0;opacity:.35;pointer-events:none}
+.gantt-cat-inner{display:flex;align-items:center;gap:.4rem;padding:.5rem .4rem;position:relative;z-index:1}
 .gantt-cat-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
 .gantt-cat-title{font-size:.68rem;font-weight:600;text-transform:uppercase;letter-spacing:.04em}
 
 /* Reform row */
-.gantt-row{display:flex;align-items:center;min-height:28px;position:relative}
+.gantt-row{display:flex;align-items:center;min-height:30px;position:relative;transition:background .15s}
+.gantt-row:hover{background:rgba(0,0,0,.02)}
+.gantt-row.zebra{background:rgba(0,0,0,.018)}
+.gantt-row.zebra:hover{background:rgba(0,0,0,.035)}
 .gantt-row.dimmed{opacity:.15}
 .gantt-row.past-reform{opacity:.5}
+
 .gantt-row-label{width:var(--label-w);flex-shrink:0;padding-right:.6rem;display:flex;align-items:center;gap:.3rem}
-.gantt-row-chevron{width:14px;flex-shrink:0;font-size:.6rem;color:var(--muted);cursor:pointer;transition:transform .3s;user-select:none;text-align:center}
-.gantt-row-chevron.open{transform:rotate(90deg)}
-.gantt-row-chevron.hidden{visibility:hidden}
+.gantt-row-chevron{width:16px;flex-shrink:0;font-size:.7rem;color:#666;cursor:pointer;transition:transform .3s;user-select:none;text-align:center}
+.gantt-row-chevron.open{transform:rotate(90deg);color:var(--ink)}
+.gantt-row-chevron.hidden{visibility:hidden;width:16px}
 .gantt-row-info{min-width:0}
 .gantt-row-name{font-size:.7rem;font-weight:500;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .gantt-row-ref{font-size:.5rem;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .past-check{color:#15803d;font-size:.6rem;margin-right:2px}
-.gantt-row-chart{width:var(--chart-w);position:relative;height:28px;flex-shrink:0}
 
-/* Bar */
-.gantt-bar{position:absolute;top:50%;transform:translateY(-50%);height:14px;border-radius:4px;border:1px solid;opacity:.85}
+.gantt-row-chart{width:var(--chart-w);position:relative;height:30px;flex-shrink:0}
+
+/* Bar — solid colored fill */
+.gantt-bar{position:absolute;top:50%;transform:translateY(-50%);height:16px;border-radius:6px;border:1px solid;transition:box-shadow .2s,filter .2s;cursor:default}
+.gantt-row:hover .gantt-bar{box-shadow:0 1px 4px rgba(0,0,0,.1);filter:brightness(1.04)}
 
 /* Expandable detail */
 .gantt-detail{overflow:hidden;max-height:0;transition:max-height .3s ease}
-.gantt-detail.open{max-height:600px}
-.gantt-detail-inner{padding:2px 0 6px}
-.gantt-sub-row{display:flex;align-items:center;min-height:18px;position:relative}
-.gantt-sub-label{width:var(--label-w);flex-shrink:0;padding-left:1.4rem;padding-right:.6rem}
+.gantt-detail.open{max-height:800px}
+.gantt-detail-inner{padding:2px 0 8px;border-left:3px solid var(--border);margin-left:8px}
+.gantt-sub-row{display:flex;align-items:center;min-height:20px;position:relative;padding-left:1rem}
+.gantt-sub-row:hover .gantt-sub-bar{box-shadow:0 1px 3px rgba(0,0,0,.08);filter:brightness(1.03)}
+.gantt-sub-label{width:calc(var(--label-w) - 1.4rem);flex-shrink:0;padding-right:.6rem}
 .gantt-sub-name{font-size:.58rem;font-weight:400;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.gantt-sub-chart{width:var(--chart-w);position:relative;height:18px;flex-shrink:0}
-.gantt-sub-bar{position:absolute;top:50%;transform:translateY(-50%);height:7px;border-radius:3px;border:1px dashed;opacity:.7}
-.gantt-sub-bar-arrow{position:absolute;right:-7px;top:50%;transform:translateY(-50%);font-size:.5rem;color:var(--muted)}
+.gantt-sub-chart{width:var(--chart-w);position:relative;height:20px;flex-shrink:0}
+.gantt-sub-bar{position:absolute;top:50%;transform:translateY(-50%);height:8px;border-radius:4px;border:1px dashed;opacity:.8;transition:box-shadow .2s,filter .2s}
+.gantt-sub-bar-arrow{position:absolute;right:-8px;top:50%;transform:translateY(-50%);font-size:.5rem;color:var(--muted)}
 
 /* Markers */
 .gantt-marker{position:absolute;top:50%;transform:translate(-50%,-50%);z-index:3;cursor:pointer;transition:transform .15s}
 .gantt-marker:hover{transform:translate(-50%,-50%) scale(1.5);z-index:10}
 .gantt-marker.selected{transform:translate(-50%,-50%) scale(1.6);z-index:10}
 .gantt-marker.dimmed{opacity:.15;pointer-events:none}
-.m-ikraft{width:10px;height:10px;border-radius:50%;background:#dc2626;border:2px solid #fff;box-shadow:0 1px 3px rgba(0,0,0,.2)}
-.m-milstolpe{width:5px;height:5px;border-radius:50%;background:#15803d;border:1px solid #fff}
-.m-redovisning{width:5px;height:5px;border-radius:50%;background:#d97706;border:1px solid #fff}
-.m-delredovisning{width:5px;height:5px;border-radius:1px;background:#ec4899;border:1px solid #fff}
-.m-riksdag{width:7px;height:7px;border-radius:50%;background:rgba(109,40,217,.4);border:1px solid rgba(109,40,217,.6)}
+
+/* Diamond for ikraftträdande */
+.m-ikraft{width:10px;height:10px;background:#dc2626;border:2px solid #fff;box-shadow:0 1px 3px rgba(0,0,0,.25);transform:translate(-50%,-50%) rotate(45deg);border-radius:2px}
+.m-ikraft:hover{transform:translate(-50%,-50%) rotate(45deg) scale(1.4)}
+.m-ikraft.selected{transform:translate(-50%,-50%) rotate(45deg) scale(1.5)}
+
+/* Larger, higher contrast markers */
+.m-milstolpe{width:7px;height:7px;border-radius:50%;background:#0f9d58;border:1.5px solid #fff;box-shadow:0 1px 2px rgba(0,0,0,.15)}
+.m-redovisning{width:7px;height:7px;border-radius:50%;background:#e8a000;border:1.5px solid #fff;box-shadow:0 1px 2px rgba(0,0,0,.15)}
+.m-delredovisning{width:6px;height:6px;border-radius:1px;background:#d946a8;border:1.5px solid #fff;box-shadow:0 1px 2px rgba(0,0,0,.15)}
+.m-riksdag{width:8px;height:8px;border-radius:50%;background:rgba(109,40,217,.5);border:1.5px solid rgba(109,40,217,.7)}
 
 /* Tooltip */
 .gantt-tooltip{display:none;position:fixed;z-index:100;background:var(--card);border:1px solid var(--border);border-radius:6px;padding:.4rem .6rem;box-shadow:0 4px 12px rgba(0,0,0,.1);max-width:280px;pointer-events:none}
@@ -106,20 +132,16 @@ header p{font-size:.82rem;color:rgba(255,255,255,.5);max-width:500px}
 
 /* Legend */
 .gantt-legend{display:flex;flex-wrap:wrap;gap:.7rem;padding:.5rem 0;margin-top:.3rem;border-top:1px solid var(--border)}
-.gantt-legend-item{display:flex;align-items:center;gap:.2rem;font-size:.56rem;color:var(--muted)}
+.gantt-legend-item{display:flex;align-items:center;gap:.25rem;font-size:.56rem;color:var(--muted)}
 .legend-dot{flex-shrink:0;display:inline-block}
 
 /* Sidebar */
-.sidebar{position:sticky;top:50px;max-height:calc(100vh - 60px);overflow-y:auto;display:flex;flex-direction:column;gap:1rem}
-.minimap{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:.8rem}
-.minimap-title{font-size:.6rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);margin-bottom:.5rem}
-.minimap-track{position:relative;height:200px;width:100%;cursor:pointer;overflow:hidden}
-.minimap-row{position:absolute;height:3px;border-radius:1px}
-.minimap-vp{position:absolute;left:0;right:0;border:2px solid var(--kunskap);border-radius:3px;background:rgba(29,78,216,.06);pointer-events:none;transition:top .15s}
-
+.sidebar{position:sticky;top:50px;max-height:calc(100vh - 60px);overflow-y:auto}
 .detail-panel{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:1.2rem;overflow-y:auto}
 .detail-empty{text-align:center;padding:2rem 1rem;color:var(--muted);font-size:.82rem}
 .detail-empty-icon{font-size:2rem;margin-bottom:.5rem;opacity:.3}
+.detail-summary{font-size:.74rem;color:#444;line-height:1.6}
+.detail-summary strong{color:var(--ink)}
 .detail-cat{display:inline-block;font-size:.55rem;font-weight:600;text-transform:uppercase;letter-spacing:.04em;padding:.1rem .4rem;border-radius:3px;margin-bottom:.4rem}
 .detail-title{font-family:'Source Serif 4',serif;font-size:1.05rem;font-weight:600;line-height:1.25;margin-bottom:.15rem}
 .detail-ref{font-size:.7rem;color:var(--muted);margin-bottom:.8rem}
@@ -143,7 +165,7 @@ footer{text-align:center;padding:1.5rem 0 2rem;font-size:.62rem;color:#ccc;line-
   :root{--label-w:140px;--chart-w:900px}
   header{padding:1rem 1rem .8rem}header h1{font-size:1.2rem}header p{font-size:.72rem}
   .container{padding:0 .8rem}
-  .filter-bar{gap:.3rem;padding:.5rem .8rem;margin:0 -.8rem .8rem}
+  .filter-bar{gap:.3rem;padding:.5rem .8rem;margin:0 -.8rem 0}
   .filter-btn{padding:.22rem .45rem;font-size:.62rem}.filter-label{font-size:.55rem}.filter-sep{display:none}
   .tab-nav a{padding:.5rem .8rem;font-size:.68rem}footer{font-size:.55rem}
   .main-layout{grid-template-columns:1fr}.sidebar{display:none}
@@ -182,6 +204,15 @@ footer{text-align:center;padding:1.5rem 0 2rem;font-size:.62rem;color:#ccc;line-
       <button class="filter-btn active" data-filter="kat" data-value="larare">Lärarvillkor</button>
       <button class="filter-btn active" data-filter="kat" data-value="styrning">Styrning</button>
     </div>
+    <div class="filter-sep"></div>
+    <div class="filter-group">
+      <span class="filter-label">Hoppa</span>
+      <button class="jump-btn" data-year="2025">2025</button>
+      <button class="jump-btn" data-year="2026">2026</button>
+      <button class="jump-btn" data-year="2027">2027</button>
+      <button class="jump-btn" data-year="2028">2028</button>
+      <button class="jump-btn" data-year="2029">2029+</button>
+    </div>
   </div>
 
   <div class="main-layout">
@@ -189,10 +220,10 @@ footer{text-align:center;padding:1.5rem 0 2rem;font-size:.62rem;color:#ccc;line-
       <div class="toolbar">
         <button class="toolbar-btn" id="toggleAll">Visa alla detaljer</button>
       </div>
-      <div class="gantt-scroll">
+      <div class="gantt-scroll" id="ganttScroll">
         <div class="gantt" id="ganttArea"></div>
         <div class="gantt-legend">
-          <div class="gantt-legend-item"><div class="legend-dot m-ikraft" style="position:static;transform:none"></div> Ikraftträdande</div>
+          <div class="gantt-legend-item"><div class="legend-dot m-ikraft" style="position:static;transform:rotate(45deg)"></div> Ikraftträdande</div>
           <div class="gantt-legend-item"><div class="legend-dot m-riksdag" style="position:static;transform:none"></div> Riksdagsbeslut</div>
           <div class="gantt-legend-item"><div class="legend-dot m-milstolpe" style="position:static;transform:none"></div> Milstolpe</div>
           <div class="gantt-legend-item"><div class="legend-dot m-redovisning" style="position:static;transform:none"></div> Redovisning</div>
@@ -201,8 +232,7 @@ footer{text-align:center;padding:1.5rem 0 2rem;font-size:.62rem;color:#ccc;line-
       </div>
     </div>
     <div class="sidebar">
-      <div class="minimap"><div class="minimap-title">Översikt</div><div class="minimap-track" id="minimapTrack"></div></div>
-      <div class="detail-panel" id="detailPanel"><div class="detail-empty"><div class="detail-empty-icon">◉</div>Klicka på en markör<br>för att se detaljer.</div></div>
+      <div class="detail-panel" id="detailPanel"><div class="detail-empty" id="detailDefault"></div></div>
     </div>
   </div>
 
@@ -216,7 +246,12 @@ footer{text-align:center;padding:1.5rem 0 2rem;font-size:.62rem;color:#ccc;line-
 <script>
 let handelser=[],reforms=[],uppdragData={},selectedId=null,expandedReforms=new Set();
 
-const catColors={kunskap:{color:'#1d4ed8',bg:'#dbeafe'},trygghet:{color:'#b91c1c',bg:'#fee2e2'},larare:{color:'#15803d',bg:'#dcfce7'},styrning:{color:'#6d28d9',bg:'#ede9fe'}};
+const catColors={
+  kunskap:{color:'#1d4ed8',bg:'#dbeafe',bar:'#c7d9f7',bdr:'#93b4ed'},
+  trygghet:{color:'#b91c1c',bg:'#fee2e2',bar:'#f9caca',bdr:'#e88888'},
+  larare:{color:'#15803d',bg:'#dcfce7',bar:'#b6ecc8',bdr:'#6dc690'},
+  styrning:{color:'#6d28d9',bg:'#ede9fe',bar:'#d4c9f7',bdr:'#a78be0'}
+};
 const catLabels={kunskap:'Kunskap & bedömning',trygghet:'Trygghet & säkerhet',larare:'Lärarvillkor',styrning:'Styrning & organisation'};
 const catOrder=['kunskap','trygghet','larare','styrning'];
 const typLabels={'ikraftträdande':'Ikraftträdande','riksdagsbeslut':'Riksdagsbeslut','redovisning':'Redovisning','delredovisning':'Delredovisning','milstolpe':'Milstolpe'};
@@ -245,7 +280,6 @@ function buildRows(){
     const s=pct(dates[0]),e=pct(dates[dates.length-1]);
     const ikEvs=evs.filter(e=>e.typ==='ikraftträdande');
     const allPast=ikEvs.length>0&&ikEvs.every(e=>isPast(pd(e.datum).iso));
-    // Check if has expandable detail (non-ikraftträdande events or uppdrag)
     const detailEvs=evs.filter(e=>e.typ!=='ikraftträdande');
     const u=uppdragData[r.id];
     const hasUppdrag=u&&u.typ!=='ej';
@@ -257,7 +291,6 @@ function buildRows(){
 
 function buildSubRows(rid){
   const subs=[];
-  // Uppdrag bars
   const u=uppdragData[rid];
   if(u&&u.typ!=='ej'){
     const addU=(obj)=>{
@@ -268,7 +301,6 @@ function buildSubRows(rid){
     addU(u);
     if(u.relaterade)u.relaterade.forEach(rel=>{if(rel.typ!=='ej')addU(rel)});
   }
-  // Milstolpe/redovisning/delredovisning events as markers
   const evs=handelser.filter(h=>h.reform===rid&&h.typ!=='ikraftträdande');
   evs.forEach(ev=>{subs.push({type:'event',event:ev})});
   return subs;
@@ -278,55 +310,69 @@ function renderGantt(){
   const rows=buildRows();
   const n=np();
 
+  // Header with years + quarter markers
   let h='<div class="gantt-header"><div class="gantt-header-label"></div><div class="gantt-header-chart">';
-  for(let y=2025;y<=2031;y++){const p=pct(`${y}-01-01`);h+=`<div class="gantt-year-tick" style="left:${p}%"></div><div class="gantt-year-text" style="left:${p}%">${y}</div>`}
+  for(let y=2025;y<=2031;y++){
+    const yp=pct(`${y}-01-01`);
+    h+=`<div class="gantt-year-tick" style="left:${yp}%"></div>`;
+    h+=`<div class="gantt-year-text" style="left:${yp}%">${y}</div>`;
+    // Quarter markers
+    for(let q=1;q<=4;q++){
+      const qp=pct(`${y}-${String((q-1)*3+1).padStart(2,'0')}-01`);
+      if(qp>0&&qp<100)h+=`<div class="gantt-q-text" style="left:${qp}%;padding-left:3px">Q${q}</div>`;
+    }
+  }
   h+=`<div class="gantt-now-line" style="left:${n}%"><div class="gantt-now-pip"></div><div class="gantt-now-label">Nu</div></div>`;
   h+='</div></div>';
 
   h+='<div class="gantt-body" id="ganttBody">';
-  // Grid lines
-  for(let y=2025;y<=2031;y++)h+=`<div class="gantt-grid-line" style="left:calc(var(--label-w) + var(--chart-w) * ${pct(`${y}-01-01`)} / 100)"></div>`;
+  // Grid lines at each year
+  for(let y=2025;y<=2031;y++){
+    h+=`<div class="gantt-grid-line" style="left:calc(var(--label-w) + var(--chart-w) * ${pct(`${y}-01-01`)} / 100)"></div>`;
+  }
   h+=`<div class="gantt-now-body" style="left:calc(var(--label-w) + var(--chart-w) * ${n} / 100)"></div>`;
 
+  let rowIdx=0;
   catOrder.forEach(cat=>{
     const cr=rows.filter(r=>r.reform.cat===cat);if(!cr.length)return;
     const cc=catColors[cat],dim=!activeKats.has(cat);
-    h+=`<div class="gantt-cat-header"><div class="gantt-cat-dot" style="background:${cc.color}"></div><div class="gantt-cat-title" style="color:${cc.color}">${catLabels[cat]}</div></div>`;
+
+    // Category header with full-width colored background
+    h+=`<div class="gantt-cat-header"><div class="gantt-cat-header-bg" style="background:${cc.bg}"></div><div class="gantt-cat-inner"><div class="gantt-cat-dot" style="background:${cc.color}"></div><div class="gantt-cat-title" style="color:${cc.color}">${catLabels[cat]}</div></div></div>`;
 
     cr.forEach(row=>{
       const r=row.reform,c=catColors[r.cat],isExp=expandedReforms.has(r.id);
+      const zebra=rowIdx%2===1?'zebra':'';rowIdx++;
 
-      // Main row
-      h+=`<div class="gantt-row ${dim?'dimmed':''} ${row.allPast?'past-reform':''}">`;
+      h+=`<div class="gantt-row ${zebra} ${dim?'dimmed':''} ${row.allPast?'past-reform':''}">`;
       h+=`<div class="gantt-row-label">`;
       h+=`<div class="gantt-row-chevron ${row.hasDetail?'':'hidden'} ${isExp?'open':''}" data-expand="${r.id}">▶</div>`;
       h+=`<div class="gantt-row-info"><div class="gantt-row-name">${row.allPast?'<span class="past-check">✓</span>':''}${r.short}</div><div class="gantt-row-ref">${r.ref}</div></div>`;
       h+=`</div><div class="gantt-row-chart">`;
-      h+=`<div class="gantt-bar" style="left:${row.startPct}%;width:${row.endPct-row.startPct}%;background:${c.bg};border-color:${c.color}"></div>`;
-      // Only ikraftträdande markers on main row
+      // Solid colored bar
+      h+=`<div class="gantt-bar" style="left:${row.startPct}%;width:${row.endPct-row.startPct}%;background:${c.bar};border-color:${c.bdr}"></div>`;
+      // Ikraftträdande markers only on main row
       row.events.filter(e=>e.typ==='ikraftträdande').forEach(ev=>{
         const p=pd(ev.datum),pc=pct(ev.datum),dimE=!activeTyps.has(ev.typ),sel=ev.id===selectedId;
-        h+=`<div class="gantt-marker m-ikraft ${dimE?'dimmed':''} ${sel?'selected':''}" style="left:${pc}%" data-id="${ev.id}" data-t="${ev.titel.replace(/"/g,'&quot;')}" data-d="${p.label}" data-tp="${typLabels[ev.typ]}"></div>`;
+        h+=`<div class="gantt-marker m-ikraft ${dimE?'dimmed':''} ${sel?'selected':''}" style="left:${pc}%" data-id="${ev.id}" data-t="${ev.titel.replace(/"/g,'&quot;')}" data-d="${p.label}" data-tp="Ikraftträdande"></div>`;
       });
       h+=`</div></div>`;
 
-      // Expandable detail
+      // Expandable detail with left border in category color
       if(row.hasDetail){
-        h+=`<div class="gantt-detail ${isExp?'open':''}" data-detail="${r.id}"><div class="gantt-detail-inner">`;
+        h+=`<div class="gantt-detail ${isExp?'open':''}" data-detail="${r.id}"><div class="gantt-detail-inner" style="border-left-color:${c.bdr}">`;
         const subs=buildSubRows(r.id);
-        // Render uppdrag bars
         subs.filter(s=>s.type==='uppdrag').forEach(ur=>{
-          const short=ur.titel.length>32?ur.titel.substring(0,30)+'…':ur.titel;
+          const short=ur.titel.length>35?ur.titel.substring(0,33)+'…':ur.titel;
           h+=`<div class="gantt-sub-row"><div class="gantt-sub-label"><div class="gantt-sub-name">↳ ${short}</div></div><div class="gantt-sub-chart">`;
           if(ur.endPct!==null){
-            h+=`<div class="gantt-sub-bar" style="left:${ur.startPct}%;width:${ur.endPct-ur.startPct}%;background:${c.bg};border-color:${c.color}"></div>`;
+            h+=`<div class="gantt-sub-bar" style="left:${ur.startPct}%;width:${ur.endPct-ur.startPct}%;background:${c.bar};border-color:${c.bdr}"></div>`;
           }else{
             const ep=Math.max(n,ur.startPct+1);
-            h+=`<div class="gantt-sub-bar" style="left:${ur.startPct}%;width:${ep-ur.startPct}%;background:${c.bg};border-color:${c.color}"><span class="gantt-sub-bar-arrow">→</span></div>`;
+            h+=`<div class="gantt-sub-bar" style="left:${ur.startPct}%;width:${ep-ur.startPct}%;background:${c.bar};border-color:${c.bdr}"><span class="gantt-sub-bar-arrow">→</span></div>`;
           }
           h+=`</div></div>`;
         });
-        // Render event markers in a single sub-row
         const detailEvs=subs.filter(s=>s.type==='event');
         if(detailEvs.length){
           h+=`<div class="gantt-sub-row"><div class="gantt-sub-label"><div class="gantt-sub-name" style="color:#bbb;font-size:.5rem">Händelser</div></div><div class="gantt-sub-chart">`;
@@ -342,13 +388,12 @@ function renderGantt(){
     });
   });
 
-  // Orphan events
   const orphans=handelser.filter(h=>!h.reform);
   if(orphans.length){
-    h+='<div class="gantt-cat-header"><div class="gantt-cat-dot" style="background:var(--muted)"></div><div class="gantt-cat-title" style="color:var(--muted)">Övergripande</div></div>';
+    h+='<div class="gantt-cat-header"><div class="gantt-cat-header-bg" style="background:#f3f4f6"></div><div class="gantt-cat-inner"><div class="gantt-cat-dot" style="background:var(--muted)"></div><div class="gantt-cat-title" style="color:var(--muted)">Övergripande</div></div></div>';
     orphans.forEach(ev=>{
       const p=pd(ev.datum),pc=pct(ev.datum),dim=!activeTyps.has(ev.typ);
-      h+=`<div class="gantt-row ${dim?'dimmed':''}"><div class="gantt-row-label"><div class="gantt-row-chevron hidden">▶</div><div class="gantt-row-info"><div class="gantt-row-name" style="font-size:.6rem">${ev.titel.length>42?ev.titel.substring(0,40)+'…':ev.titel}</div></div></div><div class="gantt-row-chart"><div class="gantt-marker ${mCls[ev.typ]||'m-riksdag'}" style="left:${pc}%" data-id="${ev.id}" data-t="${ev.titel.replace(/"/g,'&quot;')}" data-d="${p.label}" data-tp="${typLabels[ev.typ]}"></div></div></div>`;
+      h+=`<div class="gantt-row ${dim?'dimmed':''}"><div class="gantt-row-label"><div class="gantt-row-chevron hidden">▶</div><div class="gantt-row-info"><div class="gantt-row-name" style="font-size:.62rem">${ev.titel.length>42?ev.titel.substring(0,40)+'…':ev.titel}</div></div></div><div class="gantt-row-chart"><div class="gantt-marker ${mCls[ev.typ]||'m-riksdag'}" style="left:${pc}%" data-id="${ev.id}" data-t="${ev.titel.replace(/"/g,'&quot;')}" data-d="${p.label}" data-tp="${typLabels[ev.typ]}"></div></div></div>`;
     });
   }
 
@@ -356,31 +401,27 @@ function renderGantt(){
   document.getElementById('ganttArea').innerHTML=h;
 }
 
-// Minimap
-function renderMinimap(){
-  const rows=buildRows(),track=document.getElementById('minimapTrack'),n=rows.length;if(!n)return;
-  let inner='';
-  rows.forEach((row,i)=>{
-    const cc=catColors[row.reform.cat];
-    inner+=`<div class="minimap-row" style="top:${(i/n)*200}px;left:${10+row.startPct*.8}%;width:${(row.endPct-row.startPct)*.8}%;height:${Math.min(4,200/n)}px;background:${cc.color};opacity:${row.allPast?.3:.7}"></div>`;
+function renderDefaultSidebar(){
+  const rows=buildRows();
+  const totalReforms=rows.length;
+  const uppdragCount=Object.values(uppdragData).filter(u=>u.typ!=='ej').length;
+  // Find next deadline
+  let nextEv=null,nextDate=null;
+  handelser.forEach(ev=>{
+    if(ev.typ==='redovisning'||ev.typ==='delredovisning'){
+      const d=new Date(pd(ev.datum).iso);
+      if(d>=NOW&&(!nextDate||d<nextDate)){nextDate=d;nextEv=ev}
+    }
   });
-  inner+='<div class="minimap-vp" id="minimapVp" style="top:0;height:40px"></div>';
-  track.innerHTML=inner;
-  track.addEventListener('click',e=>{
-    const rect=track.getBoundingClientRect(),body=document.getElementById('ganttBody');
-    window.scrollTo({top:body.offsetTop+((e.clientY-rect.top)/rect.height)*body.scrollHeight-100,behavior:'smooth'});
-  });
-}
-function updateMinimap(){
-  const vp=document.getElementById('minimapVp'),body=document.getElementById('ganttBody');
-  if(!vp||!body)return;
-  const rect=body.getBoundingClientRect(),th=body.scrollHeight,vh=window.innerHeight,ms=th-vh;
-  const r=ms>0?Math.max(0,Math.min(1,-rect.top/ms)):0;
-  const vr=Math.min(1,vh/th);
-  vp.style.top=(r*(1-vr)*200)+'px';vp.style.height=Math.max(8,vr*200)+'px';
+  let nextText='';
+  if(nextEv){
+    const p=pd(nextEv.datum);
+    const r=nextEv.reform?reforms.find(x=>x.id===nextEv.reform):null;
+    nextText=`<br><br><strong>Nästa deadline:</strong><br>${p.label} — ${nextEv.titel}${r?' ('+r.short+')':''}`;
+  }
+  document.getElementById('detailDefault').innerHTML=`<div class="detail-summary"><strong>${totalReforms}</strong> reformer med kända datum<br><strong>${uppdragCount}</strong> aktiva uppdrag<br><strong>${handelser.length}</strong> händelser i tidslinjen${nextText}</div>`;
 }
 
-// Tooltip
 function setupTooltip(){
   const tip=document.getElementById('tooltip');
   document.addEventListener('mouseover',e=>{
@@ -390,12 +431,11 @@ function setupTooltip(){
     tip.classList.add('visible');
     const r=m.getBoundingClientRect();
     tip.style.left=Math.max(4,r.left+r.width/2-tip.offsetWidth/2)+'px';
-    tip.style.top=(r.top-tip.offsetHeight-6)+'px';
+    tip.style.top=(r.top-tip.offsetHeight-8)+'px';
   });
   document.addEventListener('mouseout',e=>{if(e.target.closest('.gantt-marker'))tip.classList.remove('visible')});
 }
 
-// Select
 function selectEvent(id){
   if(selectedId===id){selectedId=null;clearDetail();renderGantt();return}
   selectedId=id;renderGantt();
@@ -414,22 +454,17 @@ function selectEvent(id){
   if(window.innerWidth<=800){document.getElementById('mobileSidebarContent').innerHTML=html;document.getElementById('mobileSidebar').classList.add('open');document.getElementById('mobileOverlay').classList.add('open')}
 }
 function clearDetail(){
-  document.getElementById('detailPanel').innerHTML='<div class="detail-empty"><div class="detail-empty-icon">◉</div>Klicka på en markör<br>för att se detaljer.</div>';
+  renderDefaultSidebar();
   document.getElementById('mobileSidebar').classList.remove('open');document.getElementById('mobileOverlay').classList.remove('open');
 }
 
 let allExpanded=false;
 function init(){
-  renderGantt();renderMinimap();setupTooltip();
+  renderGantt();renderDefaultSidebar();setupTooltip();
 
-  // Expand/collapse
   document.getElementById('ganttArea').addEventListener('click',e=>{
     const chev=e.target.closest('.gantt-row-chevron[data-expand]');
-    if(chev){
-      const rid=chev.dataset.expand;
-      if(expandedReforms.has(rid))expandedReforms.delete(rid);else expandedReforms.add(rid);
-      renderGantt();return;
-    }
+    if(chev){const rid=chev.dataset.expand;expandedReforms.has(rid)?expandedReforms.delete(rid):expandedReforms.add(rid);renderGantt();return}
     const m=e.target.closest('.gantt-marker[data-id]');
     if(m)selectEvent(m.dataset.id);
   });
@@ -450,7 +485,19 @@ function init(){
     });
   });
 
-  window.addEventListener('scroll',updateMinimap,{passive:true});
+  // Jump buttons — scroll gantt horizontally to the year
+  document.querySelectorAll('.jump-btn[data-year]').forEach(btn=>{
+    btn.addEventListener('click',()=>{
+      const y=+btn.dataset.year;
+      const scroll=document.getElementById('ganttScroll');
+      const chartW=scroll.querySelector('.gantt-header-chart');
+      if(!chartW)return;
+      const cw=chartW.offsetWidth;
+      const targetPct=pct(`${y}-01-01`)/100;
+      scroll.scrollTo({left:targetPct*cw - 40,behavior:'smooth'});
+    });
+  });
+
   document.getElementById('mobileSidebarClose').addEventListener('click',clearDetail);
   document.getElementById('mobileOverlay').addEventListener('click',clearDetail);
   document.addEventListener('keydown',e=>{if(e.key==='Escape')clearDetail()});

@@ -5,6 +5,7 @@ Types: `feat` | `fix` | `refactor` | `docs` | `chore` | `perf`
 
 ---
 
+[2026-03-31] feat: förbättra tidslinjens design — solida färgade bars, diamant-ikraftträdande, zebraränder, streckade gridlinjer, kvartalmarkeringar, hoppa-till-knappar, kategorirubriker med bakgrundsfärg, hover-effekter, expanderat sidebar-default med sammanfattning
 [2026-03-31] fix: tidslinje — bars och markörer synliga (explicit höjd på chart-celler), horisontell scroll fungerar (minmax grid + min-width:0)
 [2026-03-30] refactor: bygg om tidslinje till expanderbar Gantt — ren default-vy med chevron-expand för uppdrag/milstolpar, visa/dölj alla, tooltips, animerad expand/collapse
 [2026-03-30] refactor: bygg om tidslinje till Gantt-layout — horisontella reformbars, uppdragsbars, händelsemarkörer med tooltips, Nu-linje, legend, minimap
