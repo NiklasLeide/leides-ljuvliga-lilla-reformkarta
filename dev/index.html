@@ -478,14 +478,14 @@ header p {
 }
 .map-svg line {
   stroke: var(--connection);
-  stroke-width: 1.5;
-  opacity: 0.4;
+  stroke-width: 2;
+  opacity: 0.5;
   transition: all 0.3s;
 }
 .map-svg line.active {
   stroke: var(--connection-active);
   stroke-width: 2.5;
-  opacity: 0.8;
+  opacity: 0.85;
 }
 .map-svg line.dimmed { opacity: 0.06; }
 
@@ -493,10 +493,8 @@ header p {
 .node {
   position: absolute;
   width: 130px;
-  padding: 0.55rem 0.6rem 0.55rem 0.7rem;
-  background: var(--card);
-  border: 1.5px solid var(--border);
-  border-left: 4px solid var(--border);
+  padding: 0.55rem 0.6rem;
+  border: 1.5px solid;
   border-radius: 8px;
   cursor: pointer;
   z-index: 1;
@@ -510,17 +508,15 @@ header p {
   transform: translateY(-1px);
 }
 .node.active {
-  border-width: 2.5px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  border-width: 2px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
   transform: scale(1.03);
   z-index: 2;
 }
 .node.connected {
-  border: 1.5px dashed var(--connection-active);
-  background: #f4f9ff;
   opacity: 1 !important;
 }
-.node.dimmed { opacity: 0.2; }
+.node.dimmed { opacity: 0.3; }
 .node.dragging {
   transition: none;
   cursor: grabbing;
@@ -981,7 +977,11 @@ function init() {
     const uChipBg = uppdrag && uppdrag.typ === 'uppdrag' ? '#dcfce7' : uppdrag && uppdrag.typ === 'forberedande' ? '#fef3c7' : '#f3f4f6';
     const uChipColor = uppdrag && uppdrag.typ === 'uppdrag' ? '#15803d' : uppdrag && uppdrag.typ === 'forberedande' ? '#92400e' : '#6b7280';
     const uChipLabel = uppdrag && uppdrag.typ === 'uppdrag' ? 'Uppdrag' : uppdrag && uppdrag.typ === 'forberedande' ? 'Förberedande' : 'Ej uppdrag';
-    node.style.borderLeftColor = cc.color;
+    // Category-tinted background and border
+    node.style.background = cc.bg;
+    node.style.borderColor = cc.color + '40'; // ~25% opacity via hex alpha
+    node.dataset.catColor = cc.color;
+    node.dataset.catBg = cc.bg;
     node.innerHTML = `
       <div class="node-title">${r.short}</div>
       <div class="node-date">${r.ikraft}</div>
@@ -1349,9 +1349,13 @@ function selectNode(id) {
     n.classList.remove("active","connected","dimmed");
     if (nid === id) {
       n.classList.add("active");
+      // Stronger category bg + solid category border
       n.style.borderColor = catColors[r.cat].color;
+      n.style.background = catColors[r.cat].color + '18'; // ~15% opacity
     } else {
-      n.style.borderColor = "";
+      // Restore default category styling
+      n.style.borderColor = (n.dataset.catColor || '') + '40';
+      n.style.background = n.dataset.catBg || '';
       if (connectedIds.has(nid)) n.classList.add("connected");
       else n.classList.add("dimmed");
     }
@@ -1375,7 +1379,9 @@ function selectNode(id) {
 function clearSelection() {
   document.querySelectorAll(".node").forEach(n => {
     n.classList.remove("active","connected","dimmed");
-    n.style.borderColor = "";
+    // Restore default category styling
+    n.style.borderColor = (n.dataset.catColor || '') + '40';
+    n.style.background = n.dataset.catBg || '';
   });
   document.querySelectorAll(".map-svg line").forEach(l => l.classList.remove("active","dimmed"));
   document.getElementById("detailPanel").innerHTML = `
