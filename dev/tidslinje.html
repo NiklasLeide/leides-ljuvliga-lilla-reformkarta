@@ -46,7 +46,7 @@ header p{font-size:.82rem;color:rgba(255,255,255,.5);max-width:500px}
 .main-layout{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:1.5rem;align-items:start}
 
 /* Gantt */
-.gantt-scroll{overflow-x:auto;overflow-y:visible;-webkit-overflow-scrolling:touch;min-width:0}
+.gantt-scroll{min-width:0}
 .gantt{position:relative;min-width:calc(var(--label-w) + var(--chart-w))}
 
 /* Header with years + quarters */
@@ -60,7 +60,7 @@ header p{font-size:.82rem;color:rgba(255,255,255,.5);max-width:500px}
 .gantt-now-pip{position:absolute;top:-2px;width:8px;height:8px;background:var(--ink);border-radius:50%;transform:translateX(-3px)}
 .gantt-now-label{position:absolute;top:-14px;font-size:.5rem;font-weight:700;color:var(--card);background:var(--ink);padding:.05rem .35rem;border-radius:3px;transform:translateX(-50%);white-space:nowrap}
 
-.gantt-body{position:relative;overflow:visible}
+.gantt-body{position:relative}
 .gantt-grid-line{position:absolute;top:0;bottom:0;width:0;border-left:1px dashed rgba(0,0,0,.08);pointer-events:none;z-index:0}
 .gantt-now-body{position:absolute;top:0;bottom:0;width:2px;background:var(--ink);opacity:.2;pointer-events:none;z-index:1}
 
@@ -488,21 +488,16 @@ function init(){
     });
   });
 
-  // Jump buttons — scroll gantt horizontally to the year
+  // Jump buttons — scroll page horizontally to the year
   document.querySelectorAll('.jump-btn[data-year]').forEach(btn=>{
     btn.addEventListener('click',()=>{
       const y=+btn.dataset.year;
-      const scroll=document.getElementById('ganttScroll');
-      // Find the year tick element in the header
-      const ticks=scroll.querySelectorAll('.gantt-year-tick');
+      const ticks=document.querySelectorAll('.gantt-year-tick');
       const years=[2025,2026,2027,2028,2029,2030,2031];
       const idx=years.indexOf(y);
       if(idx>=0&&ticks[idx]){
-        // offsetLeft of the tick relative to its parent (.gantt-header-chart),
-        // plus the label width gives us the absolute position in the gantt
-        const labelW=scroll.querySelector('.gantt-header-label');
-        const tickLeft=ticks[idx].offsetLeft+(labelW?labelW.offsetWidth:0);
-        scroll.scrollTo({left:tickLeft-20,behavior:'smooth'});
+        const rect=ticks[idx].getBoundingClientRect();
+        window.scrollTo({left:window.scrollX+rect.left-20,behavior:'smooth'});
       }
     });
   });
