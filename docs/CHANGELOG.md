@@ -5,6 +5,7 @@ Types: `feat` | `fix` | `refactor` | `docs` | `chore` | `perf`
 
 ---
 
+[2026-03-31] feat: kategorifärgade kort — tonad bakgrund + border per kategori, starkare kopplingslinjer (2px, 0.5 opacity), mjukare val-markering (starkare bg + solid border, ej röd ram), dimmed 0.3
 [2026-03-31] feat: polera kartan — 4px vänsterkant i kategorifärg, uppdragsstatus som textchip, klick på tom yta återställer, multi-select filter (Set-baserat), prick och uppdragsdot borttagna
 [2026-03-31] docs: lägg till sprint 7 polering i roadmap — opacity, klick-reset, multi-filter, vänsterkant, textchip
 [2026-03-31] docs: markera sprint 5 och 6 som klara i roadmap, lägg till kommande bevakningspunkter
