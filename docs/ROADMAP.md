@@ -55,15 +55,26 @@
 - [x] Visuell markering av snart (närmaste 30 dagarna)
 - [x] Responsiv
 
-## Sprint 6 — Tidslinje
-- [ ] Visuell horisontell tidslinje (2025–2031)
-- [ ] Reformer som block/markörer längs tidsaxeln, färgkodade efter kategori
-- [ ] Uppdragsdeadlines synliga (redovisningsdatum)
-- [ ] Klick på reform öppnar samma detaljpanel
-- [ ] Responsiv för bred skärm
+## Completed: Sprint 6 — Tidslinje
+- [x] Skapa data/tidslinje.json med 30 händelser (2025–2031)
+- [x] Expanderbar Gantt-layout: reformbars med händelsemarkörer, uppdragsbars med chevron expand/collapse
+- [x] Fem händelsetyper med visuella markörer: diamant (ikraftträdande), cirklar (milstolpe, redovisning, riksdagsbeslut), fyrkant (delredovisning)
+- [x] Färgkodning per reformkategori — solida bars med border
+- [x] Filter: togglea händelsetyper och kategorier — dämpar icke-matchande (opacity 0.15)
+- [x] Hoppa-till-knappar (2025–2029+) ersätter minikarta
+- [x] Klick på händelsemarkörer öppnar sidebar med detalj + deeplinks
+- [x] Klick på uppdragsnamn/bar öppnar sidebar med uppdragsinfo
+- [x] Tooltip på trunkerade uppdragsnamn
+- [x] Visa alla / Dölj alla detaljer-knapp
+- [x] Responsiv — mobil touch-targets 44px, sidebar som overlay
+- [x] Fliknavigation: Tidslinje tillagd på alla sidor
+
+## Kommande
+- Nästa bevakningspunkt: 8 maj 2026 (Skolverkets genomförandeplan digitala slutprov)
+- Riksdagsbeslut väntas april–juni 2026 — bevaka varannan vecka
+- Autonom bevakningsagent — parkerad, tooling räcker inte ännu
 
 ## Later / Stretch
-_TBD_
 
 ## Deferred / Won't Do
 - Bygga egna sammanfattningar per reform — kollegorna är tjänstemän, originalhandlingarna tillför mer

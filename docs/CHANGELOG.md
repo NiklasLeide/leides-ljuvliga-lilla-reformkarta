@@ -5,6 +5,22 @@ Types: `feat` | `fix` | `refactor` | `docs` | `chore` | `perf`
 
 ---
 
+[2026-03-31] docs: markera sprint 5 och 6 som klara i roadmap, lägg till kommande bevakningspunkter
+[2026-03-31] feat: tidslinje — smalare bars (16px reform, 8px uppdrag), tooltip på trunkerade uppdragsnamn (title-attribut), klick på uppdragsnamn/bar öppnar sidebar med titel, kort, redovisningsdatum, källor och deeplinks
+[2026-03-31] feat: tidslinje — tjockare bars (24px reform, 12px uppdrag), alla markörer på bars (10px cirklar, 12px diamanter, 2px vit border), händelseraden borttagen, markörer på uppdragsbars
+[2026-03-31] docs: uppdatera CLAUDE.md — stack, kommandon, katalogstruktur, designsystem, projektspecifika misstag
+[2026-03-31] fix: mobilproblem i tidslinje — chevron touch-target 36px med active-state, markörer 44px touch-area via pseudo-element, dubbel stängknapp i sidebar fixad, clearDetail kraschar inte längre (#detailDefault återskapas), filter/knappar min-height 32px, sidebar-close 44px
+[2026-03-31] fix: tidslinje — ta bort overflow från gantt-scroll (CSS-spec tvingar overflow-y:auto vid overflow-x:auto → klippte vertikalt), sidan hanterar nu all scroll, hoppa-knappar scrollar via getBoundingClientRect
+[2026-03-31] fix: tidslinje — vertikal scrollning (overflow-y visible, align-items start), sidebar X-knapp för att återställa sammanfattning, hoppa-knappar hittar rätt position via tick-element
+[2026-03-31] feat: förbättra tidslinjens design — solida färgade bars, diamant-ikraftträdande, zebraränder, streckade gridlinjer, kvartalmarkeringar, hoppa-till-knappar, kategorirubriker med bakgrundsfärg, hover-effekter, expanderat sidebar-default med sammanfattning
+[2026-03-31] fix: tidslinje — bars och markörer synliga (explicit höjd på chart-celler), horisontell scroll fungerar (minmax grid + min-width:0)
+[2026-03-30] refactor: bygg om tidslinje till expanderbar Gantt — ren default-vy med chevron-expand för uppdrag/milstolpar, visa/dölj alla, tooltips, animerad expand/collapse
+[2026-03-30] refactor: bygg om tidslinje till Gantt-layout — horisontella reformbars, uppdragsbars, händelsemarkörer med tooltips, Nu-linje, legend, minimap
+[2026-03-30] refactor: bygg om tidslinje till ensidigt höger-layout — tidsaxel vänster med månadsetiketter, 2-kolumns grid för täta månader, typ-badges, komprimerade tomma månader
+[2026-03-30] fix: tidslinje — sticky filterrad, fixad minimap-scroll och klick, tydligare Nu-markör (mörk pill), tätare spacing mellan kort
+[2026-03-30] feat: skapa tidslinje.html — vertikal tidslinje med swim lanes, mini-karta, filter (dämpar), snart/passerat-markeringar, deeplinks, fliknavigation uppdaterad på alla sidor
+[2026-03-30] feat: skapa data/tidslinje.json med 30 händelser (2025–2031) — ikraftträdanden, redovisningar, milstolpar, riksdagsbeslut
+[2026-03-30] docs: uppdatera roadmap med sprint 6 tidslinje — vertikal tidslinje, swim lanes, mini-karta, adaptiv spacing
 [2026-03-30] docs: sprint 5 klar — uppdatera PROJECT_STATUS, ROADMAP och CHANGELOG inför deploy
 [2026-03-30] feat: tvåvägslänkning mellan uppdrag.html och reformer.html — klickbara reformnamn, uppdragstitlar som länkar, URL-parametrar för deeplinks
 [2026-03-30] fix: korrigera uppdragstitlar till formella namn från regleringsbrevet
