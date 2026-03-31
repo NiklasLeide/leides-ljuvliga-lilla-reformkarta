@@ -5,6 +5,7 @@ Types: `feat` | `fix` | `refactor` | `docs` | `chore` | `perf`
 
 ---
 
+[2026-03-31] feat: polera kartan — 4px vänsterkant i kategorifärg, uppdragsstatus som textchip, klick på tom yta återställer, multi-select filter (Set-baserat), prick och uppdragsdot borttagna
 [2026-03-31] docs: lägg till sprint 7 polering i roadmap — opacity, klick-reset, multi-filter, vänsterkant, textchip
 [2026-03-31] docs: markera sprint 5 och 6 som klara i roadmap, lägg till kommande bevakningspunkter
 [2026-03-31] feat: tidslinje — smalare bars (16px reform, 8px uppdrag), tooltip på trunkerade uppdragsnamn (title-attribut), klick på uppdragsnamn/bar öppnar sidebar med titel, kort, redovisningsdatum, källor och deeplinks
