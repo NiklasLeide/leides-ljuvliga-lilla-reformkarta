@@ -5,6 +5,7 @@ Types: `feat` | `fix` | `refactor` | `docs` | `chore` | `perf`
 
 ---
 
+[2026-03-31] fix: tidslinje — ta bort overflow från gantt-scroll (CSS-spec tvingar overflow-y:auto vid overflow-x:auto → klippte vertikalt), sidan hanterar nu all scroll, hoppa-knappar scrollar via getBoundingClientRect
 [2026-03-31] fix: tidslinje — vertikal scrollning (overflow-y visible, align-items start), sidebar X-knapp för att återställa sammanfattning, hoppa-knappar hittar rätt position via tick-element
 [2026-03-31] feat: förbättra tidslinjens design — solida färgade bars, diamant-ikraftträdande, zebraränder, streckade gridlinjer, kvartalmarkeringar, hoppa-till-knappar, kategorirubriker med bakgrundsfärg, hover-effekter, expanderat sidebar-default med sammanfattning
 [2026-03-31] fix: tidslinje — bars och markörer synliga (explicit höjd på chart-celler), horisontell scroll fungerar (minmax grid + min-width:0)
