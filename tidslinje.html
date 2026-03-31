@@ -35,10 +35,10 @@ header p{font-size:.82rem;color:rgba(255,255,255,.5);max-width:500px}
 .toolbar-btn{padding:.3rem .7rem;border:1px solid var(--border);border-radius:6px;font-size:.68rem;font-weight:500;cursor:pointer;background:var(--card);color:var(--ink);font-family:inherit;transition:all .15s}
 .toolbar-btn:hover{border-color:var(--ink);background:#f8f7f4}
 
-.main-layout{display:grid;grid-template-columns:1fr 300px;gap:1.5rem}
+.main-layout{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:1.5rem}
 
 /* Gantt */
-.gantt-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.gantt-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;min-width:0}
 .gantt{position:relative;min-width:calc(var(--label-w) + var(--chart-w))}
 
 .gantt-header{display:flex;position:sticky;top:42px;z-index:15;background:var(--bg);border-bottom:1px solid var(--border)}
@@ -70,7 +70,7 @@ header p{font-size:.82rem;color:rgba(255,255,255,.5);max-width:500px}
 .gantt-row-name{font-size:.7rem;font-weight:500;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .gantt-row-ref{font-size:.5rem;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .past-check{color:#15803d;font-size:.6rem;margin-right:2px}
-.gantt-row-chart{width:var(--chart-w);position:relative;height:100%}
+.gantt-row-chart{width:var(--chart-w);position:relative;height:28px;flex-shrink:0}
 
 /* Bar */
 .gantt-bar{position:absolute;top:50%;transform:translateY(-50%);height:14px;border-radius:4px;border:1px solid;opacity:.85}
@@ -82,7 +82,7 @@ header p{font-size:.82rem;color:rgba(255,255,255,.5);max-width:500px}
 .gantt-sub-row{display:flex;align-items:center;min-height:18px;position:relative}
 .gantt-sub-label{width:var(--label-w);flex-shrink:0;padding-left:1.4rem;padding-right:.6rem}
 .gantt-sub-name{font-size:.58rem;font-weight:400;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.gantt-sub-chart{width:var(--chart-w);position:relative;height:100%}
+.gantt-sub-chart{width:var(--chart-w);position:relative;height:18px;flex-shrink:0}
 .gantt-sub-bar{position:absolute;top:50%;transform:translateY(-50%);height:7px;border-radius:3px;border:1px dashed;opacity:.7}
 .gantt-sub-bar-arrow{position:absolute;right:-7px;top:50%;transform:translateY(-50%);font-size:.5rem;color:var(--muted)}
 
