@@ -5,6 +5,7 @@ Types: `feat` | `fix` | `refactor` | `docs` | `chore` | `perf`
 
 ---
 
+[2026-04-01] docs: lägg till RESEARCH_AGENT.md — instruktioner för research-agenten (källor, arbetsflöde, bevakningsprocess, faktakontroll)
 [2026-03-31] docs: sprint 7 klar — uppdatera PROJECT_STATUS, ROADMAP inför deploy
 [2026-03-31] fix: bekräfta kopplingslinjer bakom korten — SVG z-index:0, noder z-index:1, opaka kategoribakgrunder täcker linjer under kort
 [2026-03-31] feat: kategorifärgade kort — tonad bakgrund + border per kategori, starkare kopplingslinjer (2px, 0.5 opacity), mjukare val-markering (starkare bg + solid border, ej röd ram), dimmed 0.3
