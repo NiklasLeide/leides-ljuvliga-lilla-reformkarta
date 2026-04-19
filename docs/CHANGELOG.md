@@ -5,6 +5,7 @@ Types: `feat` | `fix` | `refactor` | `docs` | `chore` | `perf`
 
 ---
 
+[2026-04-19] infra: migrated to project plugin (niklas-marketplace) — shared conventions, sub-agents, slash commands, SessionStart hook, and MCPs (Context7 + GitHub) now provided by plugin; delete local .claude/commands/; add .github/workflows/changelog-check.yml
 [2026-04-01] docs: lägg till RESEARCH_AGENT.md — instruktioner för research-agenten (källor, arbetsflöde, bevakningsprocess, faktakontroll)
 [2026-03-31] docs: sprint 7 klar — uppdatera PROJECT_STATUS, ROADMAP inför deploy
 [2026-03-31] fix: bekräfta kopplingslinjer bakom korten — SVG z-index:0, noder z-index:1, opaka kategoribakgrunder täcker linjer under kort
