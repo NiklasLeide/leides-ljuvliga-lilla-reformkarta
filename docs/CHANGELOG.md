@@ -5,6 +5,7 @@ Types: `feat` | `fix` | `refactor` | `docs` | `chore` | `perf`
 
 ---
 
+[2026-06-04] feat: lägg till Utredningar-tab i navigationen i index, reformer, uppdrag och tidslinje — mellan Uppdrag och Tidslinje (sprint 8 T3)
 [2026-06-04] feat: utredningar.html — listvy över 29 utredningar med status/kategori/departement-filter, fritextsök, expanderbara kort med direktivhistorik, betänkanden, prop, källor och deep-link till kopplad reform; kollapsbar filterrad på mobil (sprint 8 T2)
 [2026-06-04] refactor: utredningar.json kallor som {text, url} i linje med uppdrag.json (sprint 8 T1-fix)
 [2026-06-04] feat: lägg till data/utredningar.json — 29 verifierade utredningar (avslutade, pågående, aviserade) med direktiv, betänkanden, prop-koppling och kopplad_reform mot befintliga reformer (sprint 8 T1)
