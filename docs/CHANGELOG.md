@@ -5,6 +5,11 @@ Types: `feat` | `fix` | `refactor` | `docs` | `chore` | `perf`
 
 ---
 
+[2026-06-04] feat: lägg till Utredningar-tab i navigationen i index, reformer, uppdrag och tidslinje — mellan Uppdrag och Tidslinje (sprint 8 T3)
+[2026-06-04] feat: utredningar.html — listvy över 29 utredningar med status/kategori/departement-filter, fritextsök, expanderbara kort med direktivhistorik, betänkanden, prop, källor och deep-link till kopplad reform; kollapsbar filterrad på mobil (sprint 8 T2)
+[2026-06-04] refactor: utredningar.json kallor som {text, url} i linje med uppdrag.json (sprint 8 T1-fix)
+[2026-06-04] feat: lägg till data/utredningar.json — 29 verifierade utredningar (avslutade, pågående, aviserade) med direktiv, betänkanden, prop-koppling och kopplad_reform mot befintliga reformer (sprint 8 T1)
+[2026-04-19] infra: migrated to project plugin (niklas-marketplace) — shared conventions, sub-agents, slash commands, SessionStart hook, and MCPs (Context7 + GitHub) now provided by plugin; delete local .claude/commands/; add .github/workflows/changelog-check.yml
 [2026-04-01] docs: lägg till RESEARCH_AGENT.md — instruktioner för research-agenten (källor, arbetsflöde, bevakningsprocess, faktakontroll)
 [2026-03-31] docs: sprint 7 klar — uppdatera PROJECT_STATUS, ROADMAP inför deploy
 [2026-03-31] fix: bekräfta kopplingslinjer bakom korten — SVG z-index:0, noder z-index:1, opaka kategoribakgrunder täcker linjer under kort

@@ -1,0 +1,13 @@
+{
+  "extraKnownMarketplaces": {
+    "niklas-marketplace": {
+      "source": {
+        "source": "github",
+        "repo": "NiklasLeide/niklas-marketplace"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "project@niklas-marketplace": true
+  }
+}
