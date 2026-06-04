@@ -21,7 +21,7 @@
     ],
     "prop": "Prop. 2025/26:195",
     "kopplad_reform": "stod",
-    "kallor": [ "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2024/03/dir.-202430" ],
+    "kallor": [ { "text": "Dir. 2024:30", "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2024/03/dir.-202430" } ],
     "noteringar": "Prop. 2025/26:195 bygger på delbetänkandet (SOU 2025:44). Slutbetänkandet (SOU 2025:113) bereds, ingen prop ännu."
   },
   {
@@ -42,7 +42,7 @@
     ],
     "prop": "Prop. 2025/26:197",
     "kopplad_reform": "betyg",
-    "kallor": [ "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2023/06/dir.-202395" ],
+    "kallor": [ { "text": "Dir. 2023:95", "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2023/06/dir.-202395" } ],
     "noteringar": null
   },
   {
@@ -63,7 +63,7 @@
     ],
     "prop": "Prop. 2025/26:194",
     "kopplad_reform": "laroplaner",
-    "kallor": [ "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2023/12/dir.-2023173" ],
+    "kallor": [ { "text": "Dir. 2023:173", "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2023/12/dir.-2023173" } ],
     "noteringar": "Skolverket fick i april 2026 ett ändringsuppdrag som ger utredningens experter en aktiv roll i framtagandet av läroplanerna (U2026/02123)."
   },
   {
@@ -85,7 +85,7 @@
     ],
     "prop": "Prop. 2025/26:196",
     "kopplad_reform": "tid",
-    "kallor": [ "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2023/06/dir.-202372" ],
+    "kallor": [ { "text": "Dir. 2023:72", "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2023/06/dir.-202372" } ],
     "noteringar": "Dir. 2024:64 utökade uppdraget till reglering av undervisningstid; utredningen antog samtidigt sitt nuvarande namn."
   },
   {
@@ -107,7 +107,7 @@
     ],
     "prop": "Prop. 2025/26:193",
     "kopplad_reform": "studiero",
-    "kallor": [ "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2023/11/dir.-2023154" ],
+    "kallor": [ { "text": "Dir. 2023:154", "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2023/11/dir.-2023154" } ],
     "noteringar": null
   },
   {
@@ -133,7 +133,7 @@
     ],
     "prop": "Prop. 2025/26:192",
     "kopplad_reform": "brott",
-    "kallor": [ "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2022/06/dir.-202286" ],
+    "kallor": [ { "text": "Dir. 2022:86", "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2022/06/dir.-202286" } ],
     "noteringar": "Prop. 2025/26:192 bygger på SOU 2024:87. Tidigare Prop. 2024/25:160 byggde på SOU 2024:17 (lag 2025:170)."
   },
   {
@@ -158,7 +158,7 @@
     ],
     "prop": "Prop. 2025/26:191",
     "kopplad_reform": "offentlighet",
-    "kallor": [ "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2021/10/dir.-202189" ],
+    "kallor": [ { "text": "Dir. 2021:89", "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2021/10/dir.-202189" } ],
     "noteringar": "Utredarnamn ej verifierat mot SOU 2024:28 missiv."
   },
   {
@@ -181,7 +181,7 @@
     ],
     "prop": "Prop. 2025/26:198",
     "kopplad_reform": "yrkes",
-    "kallor": [ "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2022/06/dir.-202274" ],
+    "kallor": [ { "text": "Dir. 2022:74", "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2022/06/dir.-202274" } ],
     "noteringar": "Slutbetänkandet överlämnades i juni 2024; exakt datum ej verifierat. Prop. 2025/26:198 förväntad (lagrådsremiss 2026-01-20)."
   },
   {
@@ -203,7 +203,7 @@
     ],
     "prop": null,
     "kopplad_reform": "yrkes",
-    "kallor": [ "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2022/06/dir.-202284" ],
+    "kallor": [ { "text": "Dir. 2022:84", "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2022/06/dir.-202284" } ],
     "noteringar": "Komplement till U 2022:03. Förslagen bedöms sannolikt ingå i Prop. 2025/26:198, ej bekräftat."
   },
   {
@@ -227,7 +227,7 @@
     ],
     "prop": null,
     "kopplad_reform": "vinst",
-    "kallor": [ "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2022/06/dir.-2022102" ],
+    "kallor": [ { "text": "Dir. 2022:102", "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2022/06/dir.-2022102" } ],
     "noteringar": "Utredare: Johan Ernestam 2022-07-03 till 2023-07-05, därefter Joakim Stymne till 2026-01-09. Huvuddirektivets titel och delbetänkandets SOU-nummer/titel (2025-03-28) ej verifierade. SOU 2025:123 bereds, ingen prop ännu."
   },
   {
@@ -248,7 +248,7 @@
     ],
     "prop": null,
     "kopplad_reform": "ai",
-    "kallor": [ "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2024/09/dir.-202483" ],
+    "kallor": [ { "text": "Dir. 2024:83", "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2024/09/dir.-202483" } ],
     "noteringar": "Bred AI-utredning under Finansdepartementet. AI-system för utbildning klassificeras som högrisk i AI-förordningens bilaga III."
   },
   {
@@ -270,7 +270,7 @@
     ],
     "prop": null,
     "kopplad_reform": "skolpeng",
-    "kallor": [ "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2023/11/dir.-2023153" ],
+    "kallor": [ { "text": "Dir. 2023:153", "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2023/11/dir.-2023153" } ],
     "noteringar": "Dir. 2025:23 beslutades i mars 2025 (exakt datum ej verifierat). Delbetänkandet SOU 2025:72 utgör skolpeng-reformens nuvarande status. Slutbetänkande (gymnasiet) väntas nov 2026."
   },
   {
@@ -290,7 +290,7 @@
     "betankanden": [],
     "prop": null,
     "kopplad_reform": "sprak",
-    "kallor": [ "https://regeringen.se/rattsliga-dokument/kommittedirektiv/2024/11/dir.-2024113" ],
+    "kallor": [ { "text": "Dir. 2024:113", "url": "https://regeringen.se/rattsliga-dokument/kommittedirektiv/2024/11/dir.-2024113" } ],
     "noteringar": "Dir. 2024:113 beslutades i november 2024 (exakt datum ej verifierat)."
   },
   {
@@ -309,7 +309,7 @@
     "betankanden": [],
     "prop": null,
     "kopplad_reform": null,
-    "kallor": [ "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2025/11/dir.-2025103" ],
+    "kallor": [ { "text": "Dir. 2025:103", "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2025/11/dir.-2025103" } ],
     "noteringar": "Potentiell framtida reform. cat satt redaktionellt (ej ärvd via kopplad_reform)."
   },
   {
@@ -328,7 +328,7 @@
     "betankanden": [],
     "prop": null,
     "kopplad_reform": null,
-    "kallor": [ "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2025/11/dir.-202598" ],
+    "kallor": [ { "text": "Dir. 2025:98", "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2025/11/dir.-202598" } ],
     "noteringar": "Samma utredare som U 2023:02. Bygger vidare på Gy25. Potentiell framtida reform. cat satt redaktionellt."
   },
   {
@@ -348,7 +348,7 @@
     "betankanden": [],
     "prop": null,
     "kopplad_reform": null,
-    "kallor": [ "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2025/10/dir.-202593" ],
+    "kallor": [ { "text": "Dir. 2025:93", "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2025/10/dir.-202593" } ],
     "noteringar": "Potentiell koppling till profession/stod. cat satt redaktionellt."
   },
   {
@@ -368,7 +368,7 @@
     "betankanden": [],
     "prop": null,
     "kopplad_reform": null,
-    "kallor": [ "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2025/07/dir.-202577" ],
+    "kallor": [ { "text": "Dir. 2025:77", "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2025/07/dir.-202577" } ],
     "noteringar": "Dir. 2025:77 beslutades i juli 2025 (exakt datum ej verifierat). cat satt redaktionellt."
   },
   {
@@ -387,7 +387,7 @@
     "betankanden": [],
     "prop": null,
     "kopplad_reform": null,
-    "kallor": [ "https://regeringen.se/rattsliga-dokument/kommittedirektiv/2025/03/dir.-202531" ],
+    "kallor": [ { "text": "Dir. 2025:31", "url": "https://regeringen.se/rattsliga-dokument/kommittedirektiv/2025/03/dir.-202531" } ],
     "noteringar": "Dir. 2025:31 beslutades i mars 2025 (exakt datum ej verifierat). cat satt redaktionellt."
   },
   {
@@ -406,7 +406,7 @@
     "betankanden": [],
     "prop": null,
     "kopplad_reform": null,
-    "kallor": [ "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2025/02/dir.-202511" ],
+    "kallor": [ { "text": "Dir. 2025:11", "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2025/02/dir.-202511" } ],
     "noteringar": "Insats/delegation snarare än reform. Pia Sandvik är ordförande. cat satt redaktionellt."
   },
   {
@@ -427,7 +427,7 @@
     ],
     "prop": null,
     "kopplad_reform": null,
-    "kallor": [ "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2025/10/dir.-202591" ],
+    "kallor": [ { "text": "Dir. 2025:91", "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2025/10/dir.-202591" } ],
     "noteringar": "Indirekt påverkan. Delredovisning 2026-06-12, slutredovisning 2026-11-14. SOU 2026:35 lämnad (datum ej verifierat). cat satt redaktionellt."
   },
   {
@@ -446,7 +446,7 @@
     "betankanden": [],
     "prop": null,
     "kopplad_reform": null,
-    "kallor": [ "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2025/07/dir.-202574" ],
+    "kallor": [ { "text": "Dir. 2025:74", "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2025/07/dir.-202574" } ],
     "noteringar": "Indirekt påverkan via samverkan socialtjänst–skola. Utredare ej verifierad (sammanställningens uppgift föreföll felaktig). cat satt redaktionellt."
   },
   {
@@ -466,7 +466,7 @@
     "betankanden": [],
     "prop": null,
     "kopplad_reform": null,
-    "kallor": [ "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2024/02/dir.-202413" ],
+    "kallor": [ { "text": "Dir. 2024:13", "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2024/02/dir.-202413" } ],
     "noteringar": "Indirekt påverkan via SiS och placerade barns skolgång. Dir. 2025:39 förlängde, delredovisning 2025-11-06. cat satt redaktionellt."
   },
   {
@@ -485,7 +485,7 @@
     "betankanden": [],
     "prop": null,
     "kopplad_reform": null,
-    "kallor": [ "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2025/06/dir.-202564" ],
+    "kallor": [ { "text": "Dir. 2025:64", "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2025/06/dir.-202564" } ],
     "noteringar": "Indirekt koppling till ai-reformen. cat satt redaktionellt."
   },
   {
@@ -507,7 +507,7 @@
     ],
     "prop": null,
     "kopplad_reform": null,
-    "kallor": [ "https://www.regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2026/01/sou-20264/" ],
+    "kallor": [ { "text": "SOU 2026:4", "url": "https://www.regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2026/01/sou-20264/" } ],
     "noteringar": "Maria Hahne var utredare 2024-05-23 till 2025-04-22, ersatt av Marie-Hélène Ahnborg. Dir. 2025:50 förlängde utredningstiden till 2026-01-14. Huvuddirektivets exakta titel ej verifierad. Möjlig framtida reform. cat satt redaktionellt."
   },
   {
@@ -528,7 +528,7 @@
     ],
     "prop": null,
     "kopplad_reform": null,
-    "kallor": [ "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2023/12/dir.-2023175" ],
+    "kallor": [ { "text": "Dir. 2023:175", "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2023/12/dir.-2023175" } ],
     "noteringar": "Svag möjlig koppling till sprak/laroplaner. Utredare och betänkandedatum ej verifierade. cat satt redaktionellt."
   },
   {
@@ -549,7 +549,7 @@
     ],
     "prop": null,
     "kopplad_reform": null,
-    "kallor": [ "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2023/12/dir.-2023174" ],
+    "kallor": [ { "text": "Dir. 2023:174", "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2023/12/dir.-2023174" } ],
     "noteringar": "Svag möjlig koppling till stod. Utredare och betänkandedatum ej verifierade. cat satt redaktionellt."
   },
   {
@@ -570,7 +570,7 @@
     ],
     "prop": null,
     "kopplad_reform": null,
-    "kallor": [ "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2023/07/dir.-2023111" ],
+    "kallor": [ { "text": "Dir. 2023:111", "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2023/07/dir.-2023111" } ],
     "noteringar": "Möjlig koppling till profession. Huvuddirektivets beslutsdatum ej verifierat. cat satt redaktionellt."
   },
   {
