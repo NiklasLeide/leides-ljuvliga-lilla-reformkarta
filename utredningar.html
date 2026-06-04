@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Utredningar — Skolreformer 2025–2028</title>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --ink: #1c1c1c;
+  --bg: #f7f6f3;
+  --card: #ffffff;
+  --border: #e5e2dc;
+  --muted: #999;
+  --kunskap: #1d4ed8;
+  --kunskap-bg: #dbeafe;
+  --trygghet: #b91c1c;
+  --trygghet-bg: #fee2e2;
+  --larare: #15803d;
+  --larare-bg: #dcfce7;
+  --styrning: #6d28d9;
+  --styrning-bg: #ede9fe;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'DM Sans', system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+header {
+  background: var(--ink);
+  color: #fff;
+  padding: 1.8rem 1.5rem 1.5rem;
+}
+.header-inner {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+.header-badge {
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.35);
+  margin-bottom: 0.4rem;
+}
+header h1 {
+  font-family: 'Source Serif 4', serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 0.3rem;
+}
+header p {
+  font-size: 0.82rem;
+  color: rgba(255,255,255,0.5);
+  max-width: 500px;
+}
+
+/* Tab navigation */
+.tab-nav {
+  display: flex;
+  gap: 0;
+  background: var(--card);
+  border-bottom: 1px solid var(--border);
+  overflow-x: auto;
+}
+.tab-nav a {
+  padding: 0.65rem 1.2rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--muted);
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: all 0.15s;
+  white-space: nowrap;
+}
+.tab-nav a:hover { color: var(--ink); }
+.tab-nav a.active {
+  color: var(--ink);
+  font-weight: 600;
+  border-bottom-color: var(--ink);
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* Summary bar */
+.summary-bar {
+  padding: 1rem 0;
+  font-size: 0.78rem;
+  color: #444;
+  line-height: 1.6;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 1rem;
+}
+.summary-bar strong { color: var(--ink); }
+
+/* Filters */
+.filter-toggle {
+  display: none;
+  width: 100%;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid var(--border);
+  border-radius: 100px;
+  background: #fff;
+  font-family: inherit;
+  font-size: 0.74rem;
+  font-weight: 600;
+  color: var(--ink);
+  cursor: pointer;
+  min-height: 44px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+.filter-toggle .filter-toggle-chevron {
+  transition: transform 0.2s;
+  font-size: 0.7rem;
+  color: var(--muted);
+}
+.filter-toggle.open .filter-toggle-chevron { transform: rotate(180deg); }
+.filter-toggle-count {
+  font-size: 0.62rem;
+  font-weight: 600;
+  color: var(--muted);
+  margin-left: auto;
+  margin-right: 0.4rem;
+}
+
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  padding: 0.6rem 0 1rem;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 1.2rem;
+}
+.filter-content {
+  display: contents;
+}
+.filter-group {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  flex-wrap: wrap;
+}
+.filter-label {
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  margin-right: 0.2rem;
+}
+.filter-btn {
+  padding: 0.28rem 0.6rem;
+  border: 1px solid var(--border);
+  border-radius: 100px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  cursor: pointer;
+  background: #fff;
+  color: #666;
+  font-family: inherit;
+  transition: all 0.15s;
+}
+.filter-btn:hover { border-color: var(--ink); }
+.filter-btn.active { background: var(--ink); color: #fff; border-color: var(--ink); }
+.filter-sep {
+  width: 1px;
+  height: 20px;
+  background: var(--border);
+  margin: 0 0.3rem;
+}
+.filter-select {
+  padding: 0.28rem 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: 100px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  background: #fff;
+  color: #666;
+  font-family: inherit;
+  cursor: pointer;
+}
+.filter-select:hover { border-color: var(--ink); }
+.filter-input {
+  padding: 0.32rem 0.7rem;
+  border: 1px solid var(--border);
+  border-radius: 100px;
+  font-size: 0.72rem;
+  font-family: inherit;
+  background: #fff;
+  color: var(--ink);
+  min-width: 180px;
+}
+.filter-input:focus {
+  outline: none;
+  border-color: var(--ink);
+}
+
+/* Cards list */
+.cards-area { padding-bottom: 2rem; }
+
+.utr-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+  transition: box-shadow 0.15s;
+  border-left: 3px solid transparent;
+}
+.utr-card:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+.utr-card.expanded { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+
+.utr-card-header {
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.6rem;
+  align-items: start;
+  min-height: 44px;
+}
+
+.utr-card-main { min-width: 0; }
+.utr-card-top {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.25rem;
+  flex-wrap: wrap;
+}
+.utr-beteckning {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--muted);
+  letter-spacing: 0.02em;
+}
+.utr-card-titel {
+  font-size: 0.86rem;
+  font-weight: 600;
+  color: var(--ink);
+  line-height: 1.3;
+  margin-bottom: 0.3rem;
+}
+.utr-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.9rem;
+  font-size: 0.7rem;
+  color: #555;
+}
+.utr-meta-item {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+.utr-meta-label {
+  font-size: 0.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+.utr-reform-link {
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: var(--ink);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.1rem 0.3rem;
+  border-radius: 3px;
+  transition: background 0.15s;
+}
+.utr-reform-link:hover { background: #eef2ff; }
+.cat-dot {
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.utr-card-right {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+
+/* Chips */
+.cat-chip {
+  display: inline-block;
+  font-size: 0.55rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.1rem 0.4rem;
+  border-radius: 3px;
+  white-space: nowrap;
+}
+.status-chip {
+  display: inline-block;
+  font-size: 0.55rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.1rem 0.4rem;
+  border-radius: 3px;
+  white-space: nowrap;
+}
+
+.chevron {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--muted);
+  font-size: 0.8rem;
+  transition: transform 0.2s;
+  flex-shrink: 0;
+}
+.utr-card.expanded .chevron { transform: rotate(90deg); }
+
+/* Expanded body */
+.utr-body {
+  display: none;
+  padding: 0 1rem 1rem;
+  border-top: 1px solid var(--border);
+  margin-top: 0;
+  padding-top: 0.9rem;
+  max-height: 70vh;
+  overflow-y: auto;
+}
+.utr-card.expanded .utr-body { display: block; }
+
+.utr-section { margin-bottom: 0.9rem; }
+.utr-section-label {
+  font-size: 0.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  margin-bottom: 0.3rem;
+}
+.utr-section-text {
+  font-size: 0.76rem;
+  line-height: 1.55;
+  color: #444;
+}
+.utr-section-text.italic { font-style: italic; }
+
+.utr-list {
+  list-style: none;
+  padding: 0;
+}
+.utr-list li {
+  font-size: 0.72rem;
+  line-height: 1.45;
+  color: #444;
+  padding: 0.25rem 0 0.25rem 1rem;
+  position: relative;
+  border-bottom: 1px dashed var(--border);
+}
+.utr-list li:last-child { border-bottom: none; }
+.utr-list li::before {
+  content: '·';
+  position: absolute;
+  left: 0.3rem;
+  color: var(--muted);
+  font-weight: 700;
+}
+.utr-list-nr {
+  font-weight: 600;
+  color: var(--ink);
+  margin-right: 0.3rem;
+}
+.utr-list-typ {
+  display: inline-block;
+  font-size: 0.55rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.05rem 0.3rem;
+  border-radius: 3px;
+  background: #f3f4f6;
+  color: #6b7280;
+  margin-right: 0.3rem;
+  vertical-align: middle;
+}
+.utr-list-typ.huvud { background: #ede9fe; color: #6d28d9; }
+.utr-list-typ.tillaggs { background: #f3f4f6; color: #6b7280; }
+.utr-list-typ.slut { background: #dcfce7; color: #15803d; }
+.utr-list-typ.del { background: #fef3c7; color: #92400e; }
+.utr-list-date {
+  font-size: 0.66rem;
+  color: var(--muted);
+  margin-left: 0.3rem;
+}
+
+.utr-detail-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+.detail-link {
+  font-size: 0.66rem;
+  font-weight: 500;
+  color: var(--kunskap);
+  text-decoration: none;
+  padding: 0.2rem 0.45rem;
+  border: 1px solid var(--kunskap-bg);
+  border-radius: 4px;
+  background: #f0f7ff;
+}
+.detail-link:hover { background: var(--kunskap-bg); }
+
+.utr-prop-box {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: var(--ink);
+  padding: 0.25rem 0.55rem;
+  border-radius: 4px;
+  background: #f8f7f4;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem 0 2rem;
+  font-size: 0.62rem;
+  color: #ccc;
+  line-height: 1.7;
+  margin-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+
+/* Mobile */
+@media (max-width: 800px) {
+  header { padding: 1rem 1rem 0.8rem; }
+  header h1 { font-size: 1.2rem; }
+  header p { font-size: 0.72rem; }
+  .container { padding: 0 0.8rem; }
+  .tab-nav a { padding: 0.7rem 0.9rem; font-size: 0.68rem; min-height: 44px; display: flex; align-items: center; }
+  footer { font-size: 0.55rem; padding: 1rem 0 1.2rem; }
+
+  .filter-toggle { display: flex; }
+  .filter-bar {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.5rem;
+    padding: 0.6rem 0 0.8rem;
+    margin-bottom: 0.8rem;
+    border-bottom: none;
+  }
+  .filter-content {
+    display: none;
+    flex-direction: column;
+    gap: 0.6rem;
+    padding-top: 0.4rem;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.8rem;
+  }
+  .filter-content.open { display: flex; }
+  .filter-btn { padding: 0.55rem 0.8rem; font-size: 0.7rem; min-height: 44px; }
+  .filter-label { font-size: 0.6rem; width: 100%; margin-right: 0; margin-bottom: 0.15rem; }
+  .filter-sep { display: none; }
+  .filter-input { min-width: 0; width: 100%; padding: 0.65rem 0.8rem; font-size: 0.78rem; min-height: 44px; }
+  .filter-select { padding: 0.65rem 0.8rem; font-size: 0.75rem; min-height: 44px; width: 100%; }
+  .filter-group { width: 100%; align-items: flex-start; }
+
+  .summary-bar { font-size: 0.72rem; padding: 0.8rem 0; margin-bottom: 0.6rem; }
+
+  .utr-card-header { padding: 0.7rem 0.8rem; }
+  .utr-card-titel { font-size: 0.8rem; }
+  .utr-meta { font-size: 0.66rem; gap: 0.3rem 0.7rem; }
+  .chevron { width: 44px; height: 44px; }
+  .utr-body { padding: 0.8rem 0.8rem 0.9rem; max-height: 60vh; }
+  .utr-section-text, .utr-list li { font-size: 0.72rem; }
+  .detail-link { padding: 0.35rem 0.55rem; min-height: 28px; display: inline-flex; align-items: center; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="header-badge">Kunskapsyta · 2026 · Privatprojekt av Niklas Leide</div>
+    <h1>Utredningar — Skolreformer 2025–2028</h1>
+    <p>Statliga utredningar som ligger bakom, pågår eller är aviserade — kopplade till reformerna när de finns.</p>
+  </div>
+</header>
+
+<div class="tab-nav">
+  <a href="index.html">Reformkarta</a>
+  <a href="reformer.html">Reformer</a>
+  <a href="uppdrag.html">Uppdrag</a>
+  <a href="utredningar.html" class="active">Utredningar</a>
+  <a href="tidslinje.html">Tidslinje</a>
+</div>
+
+<div class="container">
+  <div class="summary-bar" id="summaryBar"></div>
+
+  <div class="filter-bar">
+    <button class="filter-toggle" id="filterToggle" type="button" aria-expanded="false" aria-controls="filterContent">
+      <span>Filter</span>
+      <span class="filter-toggle-count" id="filterCount"></span>
+      <span class="filter-toggle-chevron">▾</span>
+    </button>
+    <div class="filter-content" id="filterContent">
+      <div class="filter-group">
+        <span class="filter-label">Status</span>
+        <button class="filter-btn active" data-filter="status" data-value="all">Alla</button>
+        <button class="filter-btn" data-filter="status" data-value="pagaende">Pågående</button>
+        <button class="filter-btn" data-filter="status" data-value="avslutad">Avslutad</button>
+        <button class="filter-btn" data-filter="status" data-value="aviserad">Aviserad</button>
+      </div>
+      <div class="filter-sep"></div>
+      <div class="filter-group">
+        <span class="filter-label">Kategori</span>
+        <button class="filter-btn active" data-filter="cat" data-value="all">Alla</button>
+        <button class="filter-btn" data-filter="cat" data-value="kunskap">Kunskap</button>
+        <button class="filter-btn" data-filter="cat" data-value="trygghet">Trygghet</button>
+        <button class="filter-btn" data-filter="cat" data-value="larare">Lärarvillkor</button>
+        <button class="filter-btn" data-filter="cat" data-value="styrning">Styrning</button>
+      </div>
+      <div class="filter-sep"></div>
+      <div class="filter-group">
+        <span class="filter-label">Departement</span>
+        <select class="filter-select" id="depFilter">
+          <option value="all">Alla</option>
+        </select>
+      </div>
+      <div class="filter-sep"></div>
+      <div class="filter-group">
+        <input type="search" class="filter-input" id="searchInput" placeholder="Sök titel eller beteckning…" aria-label="Sök">
+      </div>
+    </div>
+  </div>
+
+  <div class="cards-area" id="cardsArea"></div>
+
+  <footer>
+    Källor: regeringen.se, sou.gov.se · Sammanställd 2026<br>
+    Kontrollera datum mot originaldokumenten. Dela gärna med kollegor.<br>
+    © 2026 Niklas Leide
+  </footer>
+</div>
+
+<script>
+let utredningar = [];
+let reforms = [];
+let reformById = {};
+let expandedIds = new Set();
+let filters = { status: 'all', cat: 'all', dep: 'all', q: '' };
+
+const catColors = {
+  kunskap: { color: '#1d4ed8', bg: '#dbeafe' },
+  trygghet: { color: '#b91c1c', bg: '#fee2e2' },
+  larare: { color: '#15803d', bg: '#dcfce7' },
+  styrning: { color: '#6d28d9', bg: '#ede9fe' }
+};
+const catLabels = {
+  kunskap: 'Kunskap & bedömning',
+  trygghet: 'Trygghet & säkerhet',
+  larare: 'Lärarvillkor',
+  styrning: 'Styrning & organisation'
+};
+const catOrder = { kunskap: 0, trygghet: 1, larare: 2, styrning: 3 };
+
+const statusStyles = {
+  pagaende: { bg: '#fef3c7', color: '#92400e', label: 'Pågående' },
+  avslutad: { bg: '#dcfce7', color: '#15803d', label: 'Avslutad' },
+  aviserad: { bg: '#f3f4f6', color: '#6b7280', label: 'Aviserad' }
+};
+const statusOrder = { pagaende: 0, avslutad: 1, aviserad: 2 };
+
+const direktivTypLabel = { huvud: 'Huvud', 'tilläggs': 'Tilläggs' };
+const direktivTypClass = { huvud: 'huvud', 'tilläggs': 'tillaggs' };
+const betankandeTypLabel = { del: 'Delbetänkande', slut: 'Slutbetänkande' };
+
+const monthNames = ['', 'jan', 'feb', 'mars', 'april', 'maj', 'juni', 'juli', 'aug', 'sep', 'okt', 'nov', 'dec'];
+function formatDate(d) {
+  if (!d) return '–';
+  const parts = d.split('-');
+  if (parts.length !== 3) return d;
+  const [y, m, day] = parts;
+  const mi = parseInt(m, 10);
+  if (!monthNames[mi]) return d;
+  return `${parseInt(day, 10)} ${monthNames[mi]} ${y}`;
+}
+
+function esc(s) {
+  if (s === null || s === undefined) return '';
+  return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+function sortUtredningar(arr) {
+  return arr.slice().sort((a, b) => {
+    // Status: pagaende, avslutad, aviserad
+    const sa = statusOrder[a.status] ?? 99;
+    const sb = statusOrder[b.status] ?? 99;
+    if (sa !== sb) return sa - sb;
+    // Then: earliest redovisning first within group (nulls last)
+    const ra = a.redovisning || 'z';
+    const rb = b.redovisning || 'z';
+    if (ra !== rb) return ra.localeCompare(rb);
+    // Fallback: titel
+    return (a.titel || '').localeCompare(b.titel || '', 'sv');
+  });
+}
+
+function matchesFilters(u) {
+  if (filters.status !== 'all' && u.status !== filters.status) return false;
+  if (filters.cat !== 'all' && u.cat !== filters.cat) return false;
+  if (filters.dep !== 'all' && u.dep !== filters.dep) return false;
+  if (filters.q) {
+    const q = filters.q.toLowerCase();
+    const hay = ((u.titel || '') + ' ' + (u.beteckning || '')).toLowerCase();
+    if (!hay.includes(q)) return false;
+  }
+  return true;
+}
+
+function renderSummary() {
+  const total = utredningar.length;
+  const nPag = utredningar.filter(u => u.status === 'pagaende').length;
+  const nAvs = utredningar.filter(u => u.status === 'avslutad').length;
+  const nAvi = utredningar.filter(u => u.status === 'aviserad').length;
+  document.getElementById('summaryBar').innerHTML =
+    `<strong>${total}</strong> utredningar: <strong>${nPag}</strong> pågående, <strong>${nAvs}</strong> avslutade, <strong>${nAvi}</strong> aviserade. Klicka på ett kort för att se direktiv, betänkanden och källor.`;
+}
+
+function renderDepartmentFilter() {
+  const deps = [...new Set(utredningar.map(u => u.dep))].sort((a, b) => a.localeCompare(b, 'sv'));
+  const sel = document.getElementById('depFilter');
+  for (const d of deps) {
+    const opt = document.createElement('option');
+    opt.value = d;
+    opt.textContent = d;
+    sel.appendChild(opt);
+  }
+}
+
+function renderCards() {
+  const matched = sortUtredningar(utredningar.filter(matchesFilters));
+  const area = document.getElementById('cardsArea');
+
+  if (matched.length === 0) {
+    area.innerHTML = '<div class="empty-state">Inga utredningar matchar filtren.</div>';
+    return;
+  }
+
+  area.innerHTML = matched.map(u => renderCard(u)).join('');
+}
+
+function renderCard(u) {
+  const cc = catColors[u.cat];
+  const ss = statusStyles[u.status] || statusStyles.aviserad;
+  const isExpanded = expandedIds.has(u.id);
+
+  // Top row: beteckning (if any) + title
+  const beteckningHtml = u.beteckning
+    ? `<span class="utr-beteckning">${esc(u.beteckning)}</span>`
+    : '';
+  const catChipHtml = `<span class="cat-chip" style="background:${cc.bg};color:${cc.color}">${catLabels[u.cat]}</span>`;
+
+  // Meta row: dep, utredare, redovisning (or "Aviserad")
+  const metaParts = [];
+  metaParts.push(`<span class="utr-meta-item"><span class="utr-meta-label">Dep</span>${esc(u.dep)}</span>`);
+  if (u.utredare) {
+    metaParts.push(`<span class="utr-meta-item"><span class="utr-meta-label">Utredare</span>${esc(u.utredare)}</span>`);
+  }
+  if (u.status === 'aviserad') {
+    metaParts.push(`<span class="utr-meta-item"><span class="utr-meta-label">Status</span>Aviserad</span>`);
+  } else {
+    metaParts.push(`<span class="utr-meta-item"><span class="utr-meta-label">Redovisas</span>${formatDate(u.redovisning)}</span>`);
+  }
+
+  // Kopplad reform link
+  let reformLinkHtml = '';
+  if (u.kopplad_reform) {
+    const r = reformById[u.kopplad_reform];
+    const rcc = r ? catColors[r.cat] : cc;
+    const reformLabel = r ? r.short : u.kopplad_reform;
+    reformLinkHtml = `<a class="utr-reform-link" href="reformer.html?reform=${encodeURIComponent(u.kopplad_reform)}" onclick="event.stopPropagation()" title="Gå till reform i Reformer-vyn"><span class="cat-dot" style="background:${rcc.color}"></span>${esc(reformLabel)} →</a>`;
+  }
+
+  return `<div class="utr-card ${isExpanded ? 'expanded' : ''}" data-id="${esc(u.id)}">
+    <div class="utr-card-header">
+      <div class="utr-card-main">
+        <div class="utr-card-top">
+          ${beteckningHtml}
+          ${catChipHtml}
+          <span class="status-chip" style="background:${ss.bg};color:${ss.color}">${ss.label}</span>
+        </div>
+        <div class="utr-card-titel">${esc(u.titel)}</div>
+        <div class="utr-meta">
+          ${metaParts.join('')}
+          ${reformLinkHtml}
+        </div>
+      </div>
+      <div class="utr-card-right">
+        <div class="chevron" aria-hidden="true">▸</div>
+      </div>
+    </div>
+    ${renderBody(u)}
+  </div>`;
+}
+
+function renderBody(u) {
+  const sections = [];
+
+  // Aviserad: show aviseringskalla instead of direktiv
+  if (u.status === 'aviserad') {
+    if (u.aviseringskalla) {
+      sections.push(`<div class="utr-section">
+        <div class="utr-section-label">Aviseringskälla</div>
+        <div class="utr-section-text italic">${esc(u.aviseringskalla)}</div>
+      </div>`);
+    }
+  } else if (u.direktiv && u.direktiv.length > 0) {
+    const items = u.direktiv.map(d => {
+      const typCls = direktivTypClass[d.typ] || 'tillaggs';
+      const typLbl = direktivTypLabel[d.typ] || d.typ;
+      const titlePart = d.titel ? ` — ${esc(d.titel)}` : '';
+      const datePart = d.datum ? `<span class="utr-list-date">${formatDate(d.datum)}</span>` : '';
+      return `<li><span class="utr-list-typ ${typCls}">${typLbl}</span><span class="utr-list-nr">${esc(d.nr)}</span>${titlePart}${datePart}</li>`;
+    }).join('');
+    sections.push(`<div class="utr-section">
+      <div class="utr-section-label">Direktiv (${u.direktiv.length})</div>
+      <ul class="utr-list">${items}</ul>
+    </div>`);
+  }
+
+  // Betänkanden
+  if (u.betankanden && u.betankanden.length > 0) {
+    const items = u.betankanden.map(b => {
+      const typLbl = betankandeTypLabel[b.typ] || b.typ;
+      const typCls = b.typ === 'slut' ? 'slut' : 'del';
+      const nrPart = b.nr ? `<span class="utr-list-nr">${esc(b.nr)}</span>` : '';
+      const titlePart = b.titel ? `${nrPart ? ' — ' : ''}${esc(b.titel)}` : '';
+      const datePart = b.datum ? `<span class="utr-list-date">${formatDate(b.datum)}</span>` : '';
+      return `<li><span class="utr-list-typ ${typCls}">${typLbl}</span>${nrPart}${titlePart}${datePart}</li>`;
+    }).join('');
+    sections.push(`<div class="utr-section">
+      <div class="utr-section-label">Betänkanden (${u.betankanden.length})</div>
+      <ul class="utr-list">${items}</ul>
+    </div>`);
+  }
+
+  // Proposition
+  if (u.prop) {
+    sections.push(`<div class="utr-section">
+      <div class="utr-section-label">Proposition</div>
+      <div class="utr-prop-box">${esc(u.prop)}</div>
+    </div>`);
+  }
+
+  // Noteringar
+  if (u.noteringar) {
+    sections.push(`<div class="utr-section">
+      <div class="utr-section-label">Noteringar</div>
+      <div class="utr-section-text">${esc(u.noteringar)}</div>
+    </div>`);
+  }
+
+  // Källor
+  if (u.kallor && u.kallor.length > 0) {
+    const links = u.kallor.map(k =>
+      `<a class="detail-link" href="${esc(k.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">↗ ${esc(k.text)}</a>`
+    ).join('');
+    sections.push(`<div class="utr-section">
+      <div class="utr-section-label">Källor</div>
+      <div class="utr-detail-links">${links}</div>
+    </div>`);
+  }
+
+  return `<div class="utr-body">${sections.join('')}</div>`;
+}
+
+function toggleCard(id) {
+  if (expandedIds.has(id)) expandedIds.delete(id);
+  else expandedIds.add(id);
+  renderCards();
+}
+
+function init() {
+  // Build reform lookup
+  reformById = Object.fromEntries(reforms.map(r => [r.id, r]));
+
+  renderSummary();
+  renderDepartmentFilter();
+  renderCards();
+
+  // Card clicks
+  document.getElementById('cardsArea').addEventListener('click', e => {
+    // Don't toggle when clicking a link or its descendants
+    if (e.target.closest('a')) return;
+    const card = e.target.closest('.utr-card[data-id]');
+    if (card) toggleCard(card.dataset.id);
+  });
+
+  // Status + cat filter pill clicks
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const group = btn.dataset.filter;
+      document.querySelectorAll(`.filter-btn[data-filter="${group}"]`).forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      filters[group] = btn.dataset.value;
+      renderCards();
+    });
+  });
+
+  // Departement dropdown
+  document.getElementById('depFilter').addEventListener('change', e => {
+    filters.dep = e.target.value;
+    renderCards();
+  });
+
+  // Search input
+  document.getElementById('searchInput').addEventListener('input', e => {
+    filters.q = e.target.value.trim();
+    renderCards();
+    updateFilterCount();
+  });
+
+  // Mobile filter toggle
+  document.getElementById('filterToggle').addEventListener('click', () => {
+    const content = document.getElementById('filterContent');
+    const toggle = document.getElementById('filterToggle');
+    const open = content.classList.toggle('open');
+    toggle.classList.toggle('open', open);
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+
+  // Update active-filter count after every filter change
+  document.querySelectorAll('.filter-btn, #depFilter').forEach(el => {
+    el.addEventListener('change', updateFilterCount);
+    el.addEventListener('click', updateFilterCount);
+  });
+  updateFilterCount();
+}
+
+function updateFilterCount() {
+  let n = 0;
+  if (filters.status !== 'all') n++;
+  if (filters.cat !== 'all') n++;
+  if (filters.dep !== 'all') n++;
+  if (filters.q) n++;
+  const el = document.getElementById('filterCount');
+  if (el) el.textContent = n > 0 ? `${n} aktiv${n > 1 ? 'a' : ''}` : '';
+}
+
+function dataPath(file) { return 'data/' + file; }
+
+async function loadData() {
+  try {
+    const cacheBust = '?v=' + Date.now();
+    const [u, r] = await Promise.all([
+      fetch(dataPath('utredningar.json') + cacheBust).then(res => res.json()),
+      fetch(dataPath('reforms.json') + cacheBust).then(res => res.json())
+    ]);
+    utredningar = u;
+    reforms = r;
+    init();
+  } catch (err) {
+    console.error('Kunde inte ladda data:', err);
+    document.getElementById('cardsArea').innerHTML =
+      '<div class="empty-state" style="color:#b91c1c">Kunde inte ladda utredningsdata.</div>';
+  }
+}
+
+window.addEventListener('load', loadData);
+</script>
+
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9d66c8f5b9da46078ca71ab819946f62"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>
