@@ -89,6 +89,28 @@ ett externt format du inte har sett — fånga ett riktigt svar och frys det som
 ---
 ## Build / Deploy
 
+### commit.sh: preview-sync mot master avvisas (non-fast-forward), tappar arbetsträdet på master
+**Symptom:** `./commit.sh` committar och pushar dev OK, men preview-sync-steget
+("Synkar dev-version till master:dev/...") slutar med `! [rejected] master ->
+master (non-fast-forward)`. Arbetsträdet lämnas kvar på master med gamla rotfiler.
+**Cause:** Lokala master driver isär från origin/master — commit.sh committar bara
+preview-sync-commits lokalt och `deploy.sh` mergar dev→master, så lokala master
+blir aldrig uppdaterad mot origin. Sync-commiten byggs då på en föråldrad bas och
+push:en avvisas. `set -e` avbryter scriptet vid den misslyckade push:en innan
+`git checkout dev` (sista raden), så man blir kvar på master.
+**Solution:** T2-fix-2 (2026-06-10): commit.sh kör nu `git fetch origin` och
+`git reset --hard origin/master` FÖRE sync. Skyddsräcken: (1) abort med tydligt
+fel om `git rev-list origin/master..master` är icke-tom (lokala master har
+opushade commits = potentiellt arbete — reset skulle kasta det); (2) abort om
+arbetsträdet inte faktiskt landade på master efter checkout (en misslyckad
+checkout får aldrig leda till `reset --hard` på fel gren). Manuell upprensning av
+en redan drivande lokal master: `git checkout master && git reset --hard
+origin/master && git checkout dev`.
+**Fälla (lärdom):** Kör ALDRIG `git reset --hard origin/master` i ett scriptflöde
+utan att först bekräfta `git branch --show-current` = master. Om checkout
+misslyckats tyst körs reset på dev och kastar lokalt arbete (origin/dev räddar dig
+— `git reset --hard origin/dev`).
+
 ### commit.sh kräver manuell git add för rotfiler
 **Symptom:** `./commit.sh` säger "no changes added to commit" trots att filer ändrats.
 **Cause:** Skriptet kör `git add docs/ src/ .claude/` och `git add *.json *.ts *.js *.sh *.md` — men glob-mönster i bash matchar bara redan stagade eller trackade filer om de inte redan finns i index. Ibland behöver filer stagas manuellt först.
