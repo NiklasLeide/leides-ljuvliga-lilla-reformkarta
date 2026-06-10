@@ -2,11 +2,13 @@
 // riksdagen.js — riksdags-API-watcher för bevakningsautomatiseringen (Sprint 10 T2).
 // CJS, zero-dependency, Node 20+ inbyggd fetch.
 //
-// Producerar en delta-rapport som JSON till stdout. Tre detekteringsjobb:
-//   A) prop-status: för varje Prop. i manifestet — vad säger API:t vs datafilen?
-//   B) nytt-direktiv: nya direktiv (7d) från Utbildningsdepartementet
-//   C) tillaggsdir-till-tracked-utredning: tilläggsdir vars titel refererar en
-//      tracked U-beteckning, oavsett departement
+// Producerar en delta-rapport som JSON till stdout. Fyra detekteringsjobb:
+//   A)  prop-status: för varje Prop. i manifestet — vad säger API:t vs datafilen?
+//   B)  nytt-direktiv: nya direktiv (7d) från Utbildningsdepartementet
+//   B2) ny-proposition: nya props i fönstret från Utbildningsdepartementet
+//       som inte redan finns i manifestet (T2-fix-4)
+//   C)  tillaggsdir-till-tracked-utredning: tilläggsdir vars titel refererar en
+//       tracked U-beteckning, oavsett departement
 //
 // Inga statusmappningar — skriptet tolkar inte, det rapporterar beskrivande
 // faktapar. Människan triagar via veckorapportens triage-kryssrutor (T4).
@@ -318,6 +320,19 @@ async function fetchDirektivWindow({ from, tom, fetcher, delayMs = REQUEST_DELAY
   return Array.isArray(docs) ? docs : [docs];
 }
 
+async function fetchPropWindow({ from, tom, fetcher, delayMs = REQUEST_DELAY_MS_DEFAULT }) {
+  const params = new URLSearchParams({
+    doktyp: 'prop', sort: 'datum', sortorder: 'desc',
+    sz: '50', utformat: 'json',
+    from, tom,
+  });
+  const url = `${API_BASE}/dokumentlista/?${params}`;
+  const data = await fetcher(url);
+  await sleep(delayMs);
+  const docs = (data && data.dokumentlista && data.dokumentlista.dokument) || [];
+  return Array.isArray(docs) ? docs : [docs];
+}
+
 const DIR_BET_RE = /^Dir\.\s*(\d{4}:\d+)$/;
 // Kommittébeteckning i tilläggsdir-titlar, t.ex. "(U 2023:05)". Löpnumret kan
 // vara 2–3 siffror (verifierat: zero-paddat till minst 2, men kan vara 3).
@@ -392,6 +407,59 @@ async function jobB_nyttDirektivUtbildningsdep({ direktivLista, manifest, fetche
   return deltan;
 }
 
+// Bygg full prop-beteckning från ett list-entry. Prop-listans `rm` har
+// snedstrecksform ("2025/26") till skillnad från dir ("2024"); löpnumret står
+// i `nummer`/`beteckning` som bart nummer ("260").
+function propBetFromEntry(entry) {
+  if (!entry) return null;
+  const rm = entry.rm != null ? String(entry.rm) : null;
+  const nr = entry.nummer != null ? String(entry.nummer)
+    : (entry.beteckning != null ? String(entry.beteckning) : null);
+  if (rm && nr && /^\d{4}\/\d{2}$/.test(rm) && /^\d+$/.test(nr)) {
+    return `Prop. ${rm}:${nr}`;
+  }
+  return null;
+}
+
+// Jobb B2 (T2-fix-4): nya propositioner från Utbildningsdepartementet i
+// fönstret som inte redan finns i manifestet. Till skillnad från dir bär
+// prop-list-entries `organ` som FULLT NAMN ("Utbildningsdepartementet") —
+// verifierat i T2-fix; isUtbildningsdepOrgan matchar båda formerna.
+async function jobB2_nyaPropositioner({ propLista, manifest, fetcher, verbose, delayMs }) {
+  const kandaProps = new Set(manifest.props.map(p => p.id));
+  const deltan = [];
+
+  for (const entry of propLista) {
+    const bet = propBetFromEntry(entry);
+    if (bet && kandaProps.has(bet)) continue; // redan i manifestet → inte ny för oss
+
+    // Fullt departementsnamn finns på list-entryt; detalj-fetch bara som
+    // fallback om organ saknas (samma mönster som jobb B).
+    let organ = entry.organ || null;
+    if (!organ) {
+      try {
+        const ds = await fetchDokumentstatus(entry.dok_id, { fetcher, delayMs });
+        organ = extractDepartement(entry, ds);
+      } catch (err) {
+        if (verbose) process.stderr.write(`[jobB2] dokumentstatus-fetch misslyckades för ${entry.dok_id}: ${err.message}\n`);
+      }
+    }
+
+    if (!isUtbildningsdepOrgan(organ)) continue;
+
+    // dokument_url_html är protokoll-relativ ("//data.riksdagen.se/...")
+    const rawUrl = entry.dokument_url_html || `${API_BASE}/dokument/${entry.dok_id}`;
+    deltan.push({
+      typ: 'ny-proposition',
+      beteckning: bet || entry.beteckning,
+      titel: entry.titel || null,
+      datum: typeof entry.datum === 'string' ? entry.datum.slice(0, 10) : null,
+      url: rawUrl.startsWith('//') ? `https:${rawUrl}` : rawUrl,
+    });
+  }
+  return deltan;
+}
+
 function jobC_tillaggsdirToTracked({ direktivLista, manifest }) {
   const kandaUtr = new Set(manifest.utredningar.map(u => u.id));
   const deltan = [];
@@ -438,12 +506,18 @@ async function buildReport({ from, tom, dataDir, fetcher, verbose = false, delay
   const cDeltan = jobC_tillaggsdirToTracked({ direktivLista, manifest });
   deltan.push(...bDeltan, ...cDeltan);
 
+  // Jobb B2: nya propositioner i samma fönster
+  const propLista = await fetchPropWindow({ from, tom, fetcher, delayMs });
+  const b2Deltan = await jobB2_nyaPropositioner({ propLista, manifest, fetcher, verbose, delayMs });
+  deltan.push(...b2Deltan);
+
   return {
     korning: new Date().toISOString(),
     fonster: { from, tom },
     antal_kontrollerade: {
       props: manifest.props.length,
       props_terminala_skippade: jobA.terminalaSkippade,
+      props_i_fonster: propLista.length,
       dir_i_fonster: direktivLista.length,
       utredningar_sparade: manifest.utredningar.length,
     },
@@ -478,11 +552,14 @@ module.exports = {
   // exporterade för test
   jobA_props,
   jobB_nyttDirektivUtbildningsdep,
+  jobB2_nyaPropositioner,
   jobC_tillaggsdirToTracked,
   fetchDirektivWindow,
+  fetchPropWindow,
   lookupProp,
   normalizeDirBet,
   dirBetFromEntry,
+  propBetFromEntry,
   isUtbildningsdepOrgan,
   buildDataIndex,
   extractStatusOgRelaterade,

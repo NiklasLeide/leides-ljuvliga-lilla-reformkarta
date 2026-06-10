@@ -19,10 +19,12 @@ const os = require('node:os');
 const {
   buildReport,
   jobB_nyttDirektivUtbildningsdep,
+  jobB2_nyaPropositioner,
   jobC_tillaggsdirToTracked,
   lookupProp,
   normalizeDirBet,
   dirBetFromEntry,
+  propBetFromEntry,
   isUtbildningsdepOrgan,
   extractStatusOgRelaterade,
   extractBetBeslut,
@@ -38,6 +40,7 @@ function loadFixture(name) {
 const PROP_LIST = loadFixture('prop-dokumentlista-HB0320.json');       // Prop. 2023/24:20
 const PROP_STATUS = loadFixture('prop-dokumentstatus-HB0320.json');    // HB0320, dokreferens behandlas_i
 const DIR_WINDOW = loadFixture('dir-dokumentlista-window.json');       // 25 riktiga dir, organ-kortkoder
+const PROP_WINDOW = loadFixture('prop-dokumentlista-window.json');     // 31 riktiga props (T2-fix-4), 1 U-dep: HD03260
 // Bet-dokumentstatus (T2-fix-3, fångade 2026-06-10):
 const BET_BESLUTAD = loadFixture('bet-dokumentstatus-HB01UbU5.json');  // beslut 2023-12-20, rskr 2023/24:106
 const BET_BESLUTAD_NY = loadFixture('bet-dokumentstatus-HD01UbU29.json'); // beslut 2026-05-27, rskr 2025/26:300
@@ -88,6 +91,8 @@ function makeMockFetcher(routes) {
 test('integration mot riktiga fixtures: A/B/C-deltan med korrekta fältformer', async () => {
   const dataDir = writeDataset();
   const fetcher = makeMockFetcher([
+    // Fönsterrutten FÖRE lookup-rutten — bara fönster-URL:en bär &from=.
+    [/doktyp=prop.*&from=/, PROP_WINDOW],
     [/dokumentlista.*doktyp=prop/, PROP_LIST],
     [/dokumentstatus\/HB0320/, PROP_STATUS],
     [/dokumentstatus\/HB01UbU5/, BET_BESLUTAD],
@@ -130,7 +135,19 @@ test('integration mot riktiga fixtures: A/B/C-deltan med korrekta fältformer', 
   assert.equal(tillagg[0].kopplad_utredning, 'U 2022:04');
   assert.equal(tillagg[0].direktiv_beteckning, 'Dir. 2024:7');
 
+  // --- Jobb B2: ny U-dep-prop som inte finns i manifestet (T2-fix-4) ---
+  const nyaProp = report.deltan.filter(d => d.typ === 'ny-proposition');
+  assert.equal(nyaProp.length, 1, `förväntade 1 ny prop, fick ${nyaProp.length}: ${nyaProp.map(d => d.beteckning)}`);
+  assert.deepEqual(nyaProp[0], {
+    typ: 'ny-proposition',
+    beteckning: 'Prop. 2025/26:260',
+    titel: 'En mer ändamålsenlig reglering av etikprövning av forskning som avser människor',
+    datum: '2026-04-30',
+    url: 'https://data.riksdagen.se/dokument/HD03260.html', // protokoll-relativ url normaliserad
+  });
+
   assert.equal(report.antal_kontrollerade.props, 2);
+  assert.equal(report.antal_kontrollerade.props_i_fonster, 31);
   assert.equal(report.antal_kontrollerade.dir_i_fonster, 25);
 });
 
@@ -188,9 +205,11 @@ test('signalregel 1: terminal datafil-status → ingen API-fetch alls', async ()
   ]));
   fs.writeFileSync(path.join(dataDir, 'uppdrag.json'), '{}');
   fs.writeFileSync(path.join(dataDir, 'utredningar.json'), '[]');
-  // Throwing fetcher för allt utom dir-fönstret: varje prop-fetch fäller testet.
+  // Throwing fetcher för allt utom fönstren: varje prop-LOOKUP fäller testet.
+  // (B2:s fönster-fetch är legitim — det är jobb A:s uppslag som inte får ske.)
   const fetcher = makeMockFetcher([
     [/dokumentlista.*doktyp=dir/, { dokumentlista: { dokument: [] } }],
+    [/doktyp=prop.*&from=/, { dokumentlista: { dokument: [] } }],
   ]);
   const report = await buildReport({ from: '2024-01-01', tom: '2024-02-15', dataDir, fetcher });
   assert.equal(report.deltan.length, 0);
@@ -222,6 +241,37 @@ test('Bug 2: jobb B plockar bara U-dep ur riktig dir-lista utan detalj-fetch', a
   assert.equal(deltan[0].beteckning, 'Dir. 2024:7');
   assert.equal(deltan[0].departement, 'U-dep');
   assert.equal(deltan[0].detail_fetched, false);
+});
+
+// ============================================================================
+// Jobb B2 (T2-fix-4): nya propositioner från U-dep
+// ============================================================================
+test('jobb B2: plockar bara U-dep-prop ur riktig prop-lista utan detalj-fetch', async () => {
+  const propLista = PROP_WINDOW.dokumentlista.dokument;
+  // Throwing fetcher: organ (fullnamn) finns på alla entries → ingen detalj-fetch.
+  const fetcher = async (url) => { throw new Error(`oväntad detalj-fetch: ${url}`); };
+  const manifest = { props: [] };
+  const deltan = await jobB2_nyaPropositioner({ propLista, manifest, fetcher, verbose: false, delayMs: 0 });
+  assert.equal(deltan.length, 1, `30 icke-U-dep-props ska filtreras bort, fick ${deltan.length}`);
+  assert.equal(deltan[0].beteckning, 'Prop. 2025/26:260');
+  assert.equal(deltan[0].typ, 'ny-proposition');
+  assert.match(deltan[0].url, /^https:\/\//); // protokoll-relativ url normaliserad
+});
+
+test('jobb B2: prop som redan finns i manifestet dedupas bort', async () => {
+  const propLista = PROP_WINDOW.dokumentlista.dokument;
+  const fetcher = async (url) => { throw new Error(`oväntad fetch: ${url}`); };
+  const manifest = { props: [{ id: 'Prop. 2025/26:260' }] };
+  const deltan = await jobB2_nyaPropositioner({ propLista, manifest, fetcher, verbose: false, delayMs: 0 });
+  assert.equal(deltan.length, 0, 'känd prop skulle dedupas bort');
+});
+
+test('propBetFromEntry: bygger full beteckning ur rm (snedstrecksform) + nummer', () => {
+  assert.equal(propBetFromEntry({ rm: '2025/26', nummer: '260' }), 'Prop. 2025/26:260');
+  assert.equal(propBetFromEntry({ rm: '2025/26', beteckning: '260' }), 'Prop. 2025/26:260');
+  assert.equal(propBetFromEntry({ rm: '2024', nummer: '7' }), null);  // dir-form utan snedstreck
+  assert.equal(propBetFromEntry({ rm: '2025/26' }), null);
+  assert.equal(propBetFromEntry(null), null);
 });
 
 // ============================================================================
@@ -267,10 +317,12 @@ test('tomt fönster ger inga B/C-deltan; prop-paren rapporteras (tomma utan prop
   fs.writeFileSync(path.join(dir, 'utredningar.json'), '[]');
   const fetcher = makeMockFetcher([
     [/dokumentlista.*doktyp=dir/, { dokumentlista: { dokument: [] } }],
+    [/doktyp=prop.*&from=/, { dokumentlista: { dokument: [] } }],
   ]);
   const report = await buildReport({ from: '2099-01-01', tom: '2099-01-08', dataDir: dir, fetcher });
   assert.equal(report.deltan.length, 0);
   assert.equal(report.antal_kontrollerade.props, 0);
+  assert.equal(report.antal_kontrollerade.props_i_fonster, 0);
   assert.equal(report.antal_kontrollerade.dir_i_fonster, 0);
 });
 
