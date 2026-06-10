@@ -18,6 +18,22 @@ Record of key decisions made during the project. **Newest first.**
 
 ---
 
+### DEC-006: SVG-overlay för kopplingslinjer i tidslinjen
+**Date:** 2026-06-10
+**Decision:** Kopplingslinjer utredning↔reform ritas i en enda SVG-overlay (`#ganttConnections`) inuti gantt-body, `pointer-events:none`, bezierkurvor beräknade från `getBoundingClientRect()`. Linjer ritas endast vid hover (tillfälligt) eller markering (pinned); aldrig vid load. Hover uppdaterar bara SVG-innehållet — ingen re-render av Gantt:en.
+**Reasoning:** Gantt-body har variabel höjd (expanderbara rader) och staplar positionerade i procent. SVG ger exakta pixelkoordinater, rena diagonaler och skalar till multi-linjer (en reform → N utredningar) i ett enda lager som följer horisontell scroll automatiskt.
+**Alternatives considered:** CSS-roterade divs (krångligt vid diagonaler, en div per linje, skalar dåligt), alltid-på-linjer (visuellt brus med 27 utredningar), Canvas (overkill för enstaka linjer)
+
+---
+
+### DEC-005: Utredningar på gemensam tidsaxel (Modell A)
+**Date:** 2026-06-10
+**Decision:** Tidslinjens axel förlängdes bakåt till 2021-01-01 och utredningar renderas som staplar på samma axel som reformerna, grupperade inom befintliga kategoriblock (kunskap/trygghet/larare/styrning) efter reformraderna. Visuell åtskillnad via dashed border + diagonalt stripe-mönster i samma kategoripalett. Poster utan verifierbart start/slutdatum skippas med console.warn — datum fabriceras aldrig. Reverse-links reform→utredningar beräknas vid render-tid från `kopplad_reform` (reforms.json modifieras inte).
+**Reasoning:** En gemensam axel visar det kausala flödet utredning→reform direkt — utredningens slut ligger ofta nära reformens start. Separat vy eller fil hade dubblerat renderingslogik och tappat den visuella kopplingen.
+**Alternatives considered:** Separat spatial fil/vy för utredningar (tappar tidssambandet med reformerna, mer kod att underhålla), egen sektion under Gantt:en (samma problem), datum i reforms.json (bryter mot principen att utredningsdata ägs av utredningar.json)
+
+---
+
 ### DEC-004: Skolverkets uppdragsstatus som eget datalager
 **Date:** 2026-03-23
 **Decision:** Separat `skolverketUppdrag`-objekt med typ/kort/fulltext/kallor per reform. Visas som indikator (6px dot) på noder, detaljsektion i panelen, och modal för fulltext. Data från RB 2025/2026 och regeringsuppdrag.
