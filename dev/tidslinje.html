@@ -97,6 +97,11 @@ header p{font-size:.82rem;color:rgba(255,255,255,.5);max-width:500px}
 .gantt-bar.selected{box-shadow:0 0 0 2px var(--ink);filter:brightness(1.08);z-index:2}
 .gantt-row[data-reform] .gantt-row-info{cursor:pointer}
 
+/* Connections overlay — visas vid hover/markering, döljs annars */
+.gantt-connections{position:absolute;top:0;left:0;pointer-events:none;z-index:4;overflow:visible}
+.gantt-connection{stroke:#1c1c1c;stroke-width:1.5;fill:none;opacity:.55;stroke-dasharray:5 3;stroke-linecap:round}
+.gantt-connection-dot{fill:#1c1c1c;opacity:.7}
+
 /* Utredning row + bar — diagonal stripe pattern, dashed border to distinguish from reforms */
 .gantt-row.utr{cursor:pointer;min-height:28px}
 .gantt-row.utr .gantt-row-name{font-weight:400;color:#444}
@@ -284,6 +289,8 @@ footer{text-align:center;padding:1.5rem 0 2rem;font-size:.62rem;color:#ccc;line-
 
 <script>
 let handelser=[],reforms=[],uppdragData={},utredningar=[],utrByReform={},selectedId=null,selectedUtrId=null,selectedReformId=null,expandedReforms=new Set();
+// Kopplingslinjer: hover-state och pinned-state. Pinned vinner över hover.
+let connectedHover=null,connectedPinned=null;
 
 const catColors={
   kunskap:{color:'#1d4ed8',bg:'#dbeafe',bar:'#c7d9f7',bdr:'#93b4ed'},
@@ -407,7 +414,7 @@ function renderGantt(){
   h+=`<div class="gantt-now-line" style="left:${n}%"><div class="gantt-now-pip"></div><div class="gantt-now-label">Nu</div></div>`;
   h+='</div></div>';
 
-  h+='<div class="gantt-body" id="ganttBody">';
+  h+='<div class="gantt-body" id="ganttBody"><svg class="gantt-connections" id="ganttConnections" xmlns="http://www.w3.org/2000/svg"></svg>';
   // Grid lines at each year
   YEARS.forEach(y=>{
     h+=`<div class="gantt-grid-line" style="left:calc(var(--label-w) + var(--chart-w) * ${pct(`${y}-01-01`)} / 100)"></div>`;
@@ -501,6 +508,73 @@ function renderGantt(){
 
   h+='</div>';
   document.getElementById('ganttArea').innerHTML=h;
+  sizeConnectionsSvg();
+  redrawConnections();
+}
+
+const SVG_NS='http://www.w3.org/2000/svg';
+function sizeConnectionsSvg(){
+  const svg=document.getElementById('ganttConnections');
+  const body=document.getElementById('ganttBody');
+  if(!svg||!body)return;
+  svg.setAttribute('width',body.scrollWidth);
+  svg.setAttribute('height',body.scrollHeight);
+}
+
+function activeConnection(){return connectedPinned||connectedHover}
+
+function clearConnections(){
+  const svg=document.getElementById('ganttConnections');
+  if(svg)while(svg.firstChild)svg.removeChild(svg.firstChild);
+}
+
+function drawConnection(svg,bodyRect,utrBar,refBar){
+  if(!utrBar||!refBar)return;
+  const ub=utrBar.getBoundingClientRect(),rb=refBar.getBoundingClientRect();
+  // Anchor: utredningens slut (höger kant) → reformens start (vänster kant).
+  // Vid överlapp i tid: använd närmaste kanter så linjen inte korsar staplarna.
+  let ux=ub.right-bodyRect.left,uy=ub.top-bodyRect.top+ub.height/2;
+  let rx=rb.left-bodyRect.left,ry=rb.top-bodyRect.top+rb.height/2;
+  if(rx<ux){
+    if(ub.left>rb.right){ux=ub.left-bodyRect.left;rx=rb.right-bodyRect.left}
+    else{ux=ub.left-bodyRect.left+ub.width/2;rx=rb.left-bodyRect.left+rb.width/2}
+  }
+  const dy=ry-uy,c1y=uy+dy*0.5,c2y=ry-dy*0.5;
+  const path=document.createElementNS(SVG_NS,'path');
+  path.setAttribute('d',`M${ux},${uy} C${ux},${c1y} ${rx},${c2y} ${rx},${ry}`);
+  path.setAttribute('class','gantt-connection');
+  svg.appendChild(path);
+  // Små punkter vid båda ändar för tydlighet
+  [['ux',ux,uy],['rx',rx,ry]].forEach(([,x,y])=>{
+    const c=document.createElementNS(SVG_NS,'circle');
+    c.setAttribute('cx',x);c.setAttribute('cy',y);c.setAttribute('r',2.5);
+    c.setAttribute('class','gantt-connection-dot');
+    svg.appendChild(c);
+  });
+}
+
+function redrawConnections(){
+  clearConnections();
+  const c=activeConnection();
+  if(!c)return;
+  const svg=document.getElementById('ganttConnections');
+  const body=document.getElementById('ganttBody');
+  if(!svg||!body)return;
+  const bodyRect=body.getBoundingClientRect();
+  // Bestäm vilka par (utredning↔reform) som ska linjeras
+  const pairs=[];
+  if(c.type==='utr'){
+    const u=utredningar.find(x=>x.id===c.id);
+    if(u&&u.kopplad_reform)pairs.push({utrId:u.id,reformId:u.kopplad_reform});
+  }else if(c.type==='reform'){
+    (utrByReform[c.id]||[]).forEach(u=>pairs.push({utrId:u.id,reformId:c.id}));
+  }
+  pairs.forEach(p=>{
+    const utrRow=document.querySelector(`.gantt-row.utr[data-utr="${p.utrId}"]`);
+    const refRow=document.querySelector(`.gantt-row[data-reform="${p.reformId}"]`);
+    if(!utrRow||!refRow)return;
+    drawConnection(svg,bodyRect,utrRow.querySelector('.gantt-utr-bar'),refRow.querySelector('.gantt-bar'));
+  });
 }
 
 function renderDefaultSidebar(){
@@ -540,8 +614,8 @@ function setupTooltip(){
 }
 
 function selectEvent(id){
-  if(selectedId===id){selectedId=null;clearDetail();renderGantt();return}
-  selectedId=id;selectedUtrId=null;selectedReformId=null;renderGantt();
+  if(selectedId===id){selectedId=null;clearDetail();return}
+  selectedId=id;selectedUtrId=null;selectedReformId=null;connectedPinned=null;renderGantt();
   const ev=handelser.find(x=>x.id===id);if(!ev)return;
   const p=pd(ev.datum),cc=ev.kategori?catColors[ev.kategori]:null;
   const reform=ev.reform?reforms.find(r=>r.id===ev.reform):null;
@@ -555,12 +629,12 @@ function selectEvent(id){
   detailHtml+=`<div class="detail-section"><div class="detail-label">Källa</div><div class="detail-text">${ev.kalla}</div></div>`;
   // Desktop sidebar: with close button
   document.getElementById('detailPanel').innerHTML='<button class="detail-close" id="detailClose" aria-label="Stäng">×</button>'+detailHtml;
-  document.getElementById('detailClose').addEventListener('click',()=>{selectedId=null;clearDetail();renderGantt()});
+  document.getElementById('detailClose').addEventListener('click',()=>{selectedId=null;clearDetail()});
   // Mobile sidebar: content only (mobile-sidebar-close already exists)
   if(window.innerWidth<=800){document.getElementById('mobileSidebarContent').innerHTML=detailHtml;document.getElementById('mobileSidebar').classList.add('open');document.getElementById('mobileOverlay').classList.add('open')}
 }
 function selectUppdrag(reformId,idx){
-  selectedUtrId=null;selectedReformId=null;
+  selectedUtrId=null;selectedReformId=null;connectedPinned=null;
   const subs=buildSubRows(reformId);
   const ur=subs.filter(s=>s.type==='uppdrag')[idx];
   if(!ur)return;
@@ -608,8 +682,11 @@ function scrollRowIntoView(selector){
 }
 
 function selectReform(rid){
-  if(selectedReformId===rid){selectedReformId=null;clearDetail();renderGantt();return}
-  selectedReformId=rid;selectedId=null;selectedUtrId=null;renderGantt();
+  if(selectedReformId===rid){selectedReformId=null;connectedPinned=null;clearDetail();return}
+  selectedReformId=rid;selectedId=null;selectedUtrId=null;
+  // Pinned-koppling visas bara om reformen faktiskt har kopplade utredningar
+  connectedPinned=(utrByReform[rid]&&utrByReform[rid].length)?{type:'reform',id:rid}:null;
+  renderGantt();
   const r=reforms.find(x=>x.id===rid);if(!r)return;
   const c=catColors[r.cat];
   let html='';
@@ -631,14 +708,17 @@ function selectReform(rid){
   }
   html+=`<div class="detail-section"><div class="detail-links"><a class="detail-link" href="reformer.html?reform=${r.id}">→ Reformtabellen</a><a class="detail-link" href="uppdrag.html?uppdrag=${r.id}">→ Uppdrag</a></div></div>`;
   document.getElementById('detailPanel').innerHTML='<button class="detail-close" id="detailClose" aria-label="Stäng">×</button>'+html;
-  document.getElementById('detailClose').addEventListener('click',()=>{selectedReformId=null;clearDetail();renderGantt()});
+  document.getElementById('detailClose').addEventListener('click',()=>{selectedReformId=null;clearDetail()});
   if(window.innerWidth<=800){document.getElementById('mobileSidebarContent').innerHTML=html;document.getElementById('mobileSidebar').classList.add('open');document.getElementById('mobileOverlay').classList.add('open')}
   scrollRowIntoView(`.gantt-row[data-reform="${rid}"]`);
 }
 
 function selectUtredning(id){
-  if(selectedUtrId===id){selectedUtrId=null;clearDetail();renderGantt();return}
-  selectedUtrId=id;selectedId=null;selectedReformId=null;renderGantt();
+  if(selectedUtrId===id){selectedUtrId=null;connectedPinned=null;clearDetail();return}
+  selectedUtrId=id;selectedId=null;selectedReformId=null;
+  const uTmp=utredningar.find(x=>x.id===id);
+  connectedPinned=(uTmp&&uTmp.kopplad_reform)?{type:'utr',id}:null;
+  renderGantt();
   const u=utredningar.find(x=>x.id===id);if(!u)return;
   const cc=u.cat?catColors[u.cat]:null;
   const startStr=((u.direktiv||[]).find(d=>d.typ==='huvud')||{}).datum||u.tillsatt||((u.direktiv||[]).find(d=>d.datum)||{}).datum;
@@ -682,18 +762,20 @@ function selectUtredning(id){
   }
   if(u.noteringar)html+=`<div class="detail-section"><div class="detail-label">Noteringar</div><div class="detail-text" style="font-style:italic;color:#666">${u.noteringar}</div></div>`;
   document.getElementById('detailPanel').innerHTML='<button class="detail-close" id="detailClose" aria-label="Stäng">×</button>'+html;
-  document.getElementById('detailClose').addEventListener('click',()=>{selectedUtrId=null;clearDetail();renderGantt()});
+  document.getElementById('detailClose').addEventListener('click',()=>{selectedUtrId=null;clearDetail()});
   if(window.innerWidth<=800){document.getElementById('mobileSidebarContent').innerHTML=html;document.getElementById('mobileSidebar').classList.add('open');document.getElementById('mobileOverlay').classList.add('open')}
   scrollRowIntoView(`.gantt-row.utr[data-utr="${id}"]`);
 }
 
 function clearDetail(){
-  selectedUtrId=null;selectedReformId=null;
+  selectedId=null;selectedUtrId=null;selectedReformId=null;connectedPinned=null;connectedHover=null;
   // Restore the default sidebar structure first (selectEvent replaces innerHTML)
   document.getElementById('detailPanel').innerHTML='<div class="detail-empty" id="detailDefault"></div>';
   renderDefaultSidebar();
   document.getElementById('mobileSidebar').classList.remove('open');
   document.getElementById('mobileOverlay').classList.remove('open');
+  // Re-rendera Gantt:en så .selected-ringar/markörer rensas och linjerna uppdateras
+  renderGantt();
 }
 
 let allExpanded=false;
@@ -723,6 +805,42 @@ function init(){
     if(utrLink){e.preventDefault();selectUtredning(utrLink.dataset.selectUtr);return}
     const reformLink=e.target.closest('a[data-select-reform]');
     if(reformLink){e.preventDefault();selectReform(reformLink.dataset.selectReform);return}
+  });
+
+  // Hover på reform-/utredningsrad ritar kopplingslinje utan att re-rendera Gantt:en
+  const gantt=document.getElementById('ganttArea');
+  gantt.addEventListener('mouseover',e=>{
+    const utrRow=e.target.closest('.gantt-row.utr[data-utr]');
+    if(utrRow){
+      const u=utredningar.find(x=>x.id===utrRow.dataset.utr);
+      if(u&&u.kopplad_reform){connectedHover={type:'utr',id:u.id};redrawConnections()}
+      return;
+    }
+    const refRow=e.target.closest('.gantt-row[data-reform]');
+    if(refRow){
+      const rid=refRow.dataset.reform;
+      if(utrByReform[rid]&&utrByReform[rid].length){connectedHover={type:'reform',id:rid};redrawConnections()}
+    }
+  });
+  gantt.addEventListener('mouseout',e=>{
+    const fromRow=e.target.closest('.gantt-row.utr[data-utr],.gantt-row[data-reform]');
+    if(!fromRow)return;
+    // Ignorera om muspekaren fortfarande är inom samma rad
+    const to=e.relatedTarget;
+    if(to&&fromRow.contains(to))return;
+    if(connectedHover){connectedHover=null;redrawConnections()}
+  });
+
+  // Resize → SVG måste re-storlekssättas och linjerna omberäknas
+  let resizeTimer=null;
+  window.addEventListener('resize',()=>{
+    clearTimeout(resizeTimer);
+    resizeTimer=setTimeout(()=>{sizeConnectionsSvg();redrawConnections()},80);
+  });
+
+  // Expand/collapse av uppdragsdetaljer ändrar radernas y-position → omberäkna linjerna
+  gantt.addEventListener('transitionend',e=>{
+    if(e.target.classList&&e.target.classList.contains('gantt-detail')){sizeConnectionsSvg();redrawConnections()}
   });
 
   document.getElementById('toggleAll').addEventListener('click',()=>{
