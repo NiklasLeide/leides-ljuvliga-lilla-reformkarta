@@ -18,7 +18,13 @@ if [ "$CURRENT_BRANCH" = "master" ]; then
   exit 1
 fi
 
-git add docs/ src/ .claude/ data/ 2>/dev/null || true
+# Stagea varje katalog för sig — git add aborterar hela kommandot vid första
+# saknade pathspec, så en saknad katalog (t.ex. src/) skulle annars hindra
+# senare i listan från att fångas.
+for d in docs/ src/ .claude/ data/ scripts/ .github/; do
+  [ -d "$d" ] || continue
+  git add "$d" 2>/dev/null || true
+done
 git add *.json *.ts *.js *.sh *.md *.toml *.py *.html 2>/dev/null || true
 
 SRC_CHANGED=$(git diff --cached --name-only | grep "^src/" || true)

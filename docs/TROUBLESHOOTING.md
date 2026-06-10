@@ -64,6 +64,11 @@ or git hooks that check documentation is updated before pushing.
 **Cause:** Skriptet kör `git add docs/ src/ .claude/` och `git add *.json *.ts *.js *.sh *.md` — men glob-mönster i bash matchar bara redan stagade eller trackade filer om de inte redan finns i index. Ibland behöver filer stagas manuellt först.
 **Solution:** Kör `git add <fil>` innan `./commit.sh "msg"`.
 
+### commit.sh stagear inte allt vid saknad katalog i listan
+**Symptom:** `./commit.sh` rapporterar inte allt staged trots att flera kataloger ändrats. Tidigare: `data/` och allt efter `src/` (som inte finns i repot) ignorerades tyst pga `|| true`-suppression.
+**Cause:** `git add docs/ src/ .claude/ data/ ...` aborterar HELA kommandot vid första saknade pathspec — efterföljande kataloger nås aldrig.
+**Solution:** Sprint 10 T1-fix: stage-listan kör nu en loop som hoppar över saknade kataloger individuellt (`for d in ...; do [ -d "$d" ] || continue; git add "$d"; done`). Verifierat med dry-run att `scripts/` och `.github/` fångas.
+
 ### CSS media query ordning: generella regler skriver över media queries
 **Symptom:** Mobil listvy (`display: block` i portrait media query) syntes inte.
 **Cause:** `.list-view { display: none; }` definierades *efter* portrait-mediaqueryns `.list-view { display: block }`. Samma specificitet → sista regeln vinner.
