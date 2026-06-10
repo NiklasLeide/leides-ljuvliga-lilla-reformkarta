@@ -1,19 +1,33 @@
 # Project Status — leides-ljuvliga-lilla-reformkarta
 
 > **Last updated:** 2026-06-10
-> **Current sprint:** Sprint 9 — utredningar på tidslinjen
-> **Sprint dates:** juni 2026
+> **Current sprint:** Underhåll — Sprint 9 stängd
+> **Sprint dates:** —
 
 ---
 
-## Sprint 9 — Utredningar på tidslinjen
+## Completed: Sprint 9 — Utredningar på tidslinjen
+
+DoD-granskad och GODKÄND (T5, 2026-06-10).
 
 | # | Task | Status | Notes |
 |---|------|--------|-------|
 | 9.T2 | Bakåtförlängd axel (2021) + utredningsstaplar | ✅ Done | Modell A — gemensam axel. 21 av 27 daterade utredningar renderas; 6 skips loggas i konsolen (saknad start/slut, fabriceras inte) |
-| 9.T2-followup | Komplettera saknade datum för 6 utredningar | ⬜ Todo | utr-fler-vagar (slut), utr-komvux (start), utr-heder (start), utr-grundlaggande-svenska (slut), utr-undervisningstid (slut), utr-lararutbildning (start) |
 | 9.T3 | Bidirektionell navigering utredning↔reform | ✅ Done | Lookup utrByReform vid render. Reformdetaljvy med Utredningar-sektion (visas bara vid kopplingar); utredningsvyn länkar tillbaka. reforms.json oförändrad. |
 | 9.T4 | Kopplingslinjer vid hover/markering | ✅ Done | SVG-overlay i gantt-body. Bezierlinje från utredningens slut till reformens start. Hover visar tillfälligt, klick pin:ar. Ingen full re-render vid hover. |
+| 9.T5 | DoD-granskning + sprintstängning | ✅ Done | Alla T1–T4 maskinella kriterier uppfyllda. Inga fixar behövdes. |
+
+### Kvarvarande databrist (T2-followup — manuell research, fabriceras inte)
+6 utredningar saknar härledbart start- eller slutdatum och renderas inte på tidslinjen:
+
+| id | saknar |
+|---|---|
+| utr-fler-vagar | slut (slutbetänkande/redovisning) |
+| utr-komvux | start (huvud-direktiv-datum) |
+| utr-heder | start |
+| utr-grundlaggande-svenska | slut |
+| utr-undervisningstid | slut |
+| utr-lararutbildning | start |
 
 ---
 

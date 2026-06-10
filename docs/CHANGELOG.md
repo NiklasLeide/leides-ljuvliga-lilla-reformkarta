@@ -5,6 +5,7 @@ Types: `feat` | `fix` | `refactor` | `docs` | `chore` | `perf`
 
 ---
 
+[2026-06-10] docs: Sprint 9 stängd — DoD-granskning godkänd (T5). T1–T4 uppfyller alla maskinella kriterier; 6 utredningar förblir oritade pga T1-databrist (utr-fler-vagar, utr-komvux, utr-heder, utr-grundlaggande-svenska, utr-undervisningstid, utr-lararutbildning) — separat follow-up för manuell datakomplettering.
 [2026-06-10] feat: tidslinje — kopplingslinjer mellan utredning och kopplad reform vid hover/markering. SVG-overlay i gantt-body (pointer-events:none), bezierkurva från utredningens slut till reformens start. Hover ritar tillfälligt, klick pin:ar; pinned vinner över hover. Ingen re-render av Gantt vid hover. Konsoliderade clearDetail att även re-rendera så .selected-ringar släcks vid ESC/mobile-close. (sprint 9 T4)
 [2026-06-10] feat: tidslinje — bidirektionell navigering utredning↔reform via render-tids-lookup (kopplad_reform → reverse-link). Klick på reform öppnar detaljpanel med Utredningar-sektion (visas bara om kopplingar finns); klick på utredning har "Markera på tidslinjen"-länk till reform. Båda riktningarna scrollar och markerar målet. reforms.json oförändrad. (sprint 9 T3)
 [2026-06-10] feat: tidslinje — bakåtförlängd axel till 2021, utredningar renderas som staplar på gemensam axel (Modell A), grupperade per kategori, dashed border + diagonal stripe pattern för visuell åtskillnad, klick öppnar sidebar med direktiv/betänkanden/källor; 21 av 27 daterade utredningar renderas (6 saknar verifierad start/slut — loggas i konsolen, fabriceras inte) (sprint 9 T2)
