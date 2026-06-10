@@ -29,7 +29,8 @@ issues:write; BEVAKNING.md följbar utan chatkontext; DoD passerad.
 | ID | Task | Filer | Status | Acceptance |
 |----|------|-------|--------|------------|
 | T1 | Sprintregistrering + identifierar-extraktion | PROJECT_STATUS.md, scripts/bevakning/extract.js | ✅ Done | Plan i PROJECT_STATUS; komplett manifest (12 props, 21 SOU, 49 dir, 27 utredningar), inga hårdkodade id:n, 8 tester med facit passerar |
-| T2 | Riksdagen-watcher: status-diff API vs datafiler | scripts/bevakning/riksdagen.js | ⬜ Todo | Korrekt delta för testfall; 0 falska positiva; nätverksfel ger fel, inte tom rapport |
+| T1-fix | commit.sh stagear scripts/ och .github/ | commit.sh | ✅ Done | Loop över stage-listan; verifierad med dry-run |
+| T2 | Riksdagen-watcher: status-diff API vs datafiler | scripts/bevakning/riksdagen.js | ✅ Done | 8 tester (synteiskt testfall + jobb B/C-filtrering + nätverksfel-säkerhet) passerar. Skarp körning mot live API kräver att Niklas verifierar empiriska antaganden (prop-uppslag-parameter, departementsfält) — sandboxen blockerar Riksdagens API (HTTP 403). Se kodkommentar och --verbose. |
 | T3 | RSS-watcher: regeringen.se, Utbildningsdep., 7-dagarsfönster | scripts/bevakning/rss.js | ⬜ Todo | Poster flaggas med titel+datum+URL; feed-URL:er ur verifierad mikrorunda |
 | T4 | GitHub Action: veckocron + dispatch + Issue "Bevakningsrapport v.X" | .github/workflows/bevakning.yml | ⬜ Todo | Issue med deltan+länkar+triage-kryssrutor; tom körning = ingen issue |
 | T5 | BEVAKNING.md: flöde och hanteringsrutin | BEVAKNING.md | ⬜ Todo | Följbar utan chatkontext; Dir. 2023:175 som exempel |
