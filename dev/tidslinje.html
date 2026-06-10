@@ -92,8 +92,10 @@ header p{font-size:.82rem;color:rgba(255,255,255,.5);max-width:500px}
 .gantt-row-chart{width:var(--chart-w);position:relative;height:30px;flex-shrink:0}
 
 /* Bar — solid colored fill */
-.gantt-bar{position:absolute;top:50%;transform:translateY(-50%);height:16px;border-radius:6px;border:1px solid;transition:box-shadow .2s,filter .2s;cursor:default}
+.gantt-bar{position:absolute;top:50%;transform:translateY(-50%);height:16px;border-radius:6px;border:1px solid;transition:box-shadow .2s,filter .2s;cursor:pointer}
 .gantt-row:hover .gantt-bar{box-shadow:0 1px 4px rgba(0,0,0,.1);filter:brightness(1.04)}
+.gantt-bar.selected{box-shadow:0 0 0 2px var(--ink);filter:brightness(1.08);z-index:2}
+.gantt-row[data-reform] .gantt-row-info{cursor:pointer}
 
 /* Utredning row + bar — diagonal stripe pattern, dashed border to distinguish from reforms */
 .gantt-row.utr{cursor:pointer;min-height:28px}
@@ -281,7 +283,7 @@ footer{text-align:center;padding:1.5rem 0 2rem;font-size:.62rem;color:#ccc;line-
 </div>
 
 <script>
-let handelser=[],reforms=[],uppdragData={},utredningar=[],selectedId=null,selectedUtrId=null,expandedReforms=new Set();
+let handelser=[],reforms=[],uppdragData={},utredningar=[],utrByReform={},selectedId=null,selectedUtrId=null,selectedReformId=null,expandedReforms=new Set();
 
 const catColors={
   kunskap:{color:'#1d4ed8',bg:'#dbeafe',bar:'#c7d9f7',bdr:'#93b4ed'},
@@ -426,13 +428,14 @@ function renderGantt(){
       const r=row.reform,c=catColors[r.cat],isExp=expandedReforms.has(r.id);
       const zebra=rowIdx%2===1?'zebra':'';rowIdx++;
 
-      h+=`<div class="gantt-row ${zebra} ${dim?'dimmed':''} ${row.allPast?'past-reform':''}">`;
+      const rSel=r.id===selectedReformId;
+      h+=`<div class="gantt-row ${zebra} ${dim?'dimmed':''} ${row.allPast?'past-reform':''}" data-reform="${r.id}">`;
       h+=`<div class="gantt-row-label">`;
       h+=`<div class="gantt-row-chevron ${row.hasDetail?'':'hidden'} ${isExp?'open':''}" data-expand="${r.id}">▶</div>`;
       h+=`<div class="gantt-row-info"><div class="gantt-row-name">${row.allPast?'<span class="past-check">✓</span>':''}${r.short}</div><div class="gantt-row-ref">${r.ref}</div></div>`;
       h+=`</div><div class="gantt-row-chart">`;
       // Solid colored bar
-      h+=`<div class="gantt-bar" style="left:${row.startPct}%;width:${row.endPct-row.startPct}%;background:${c.bar};border-color:${c.bdr}"></div>`;
+      h+=`<div class="gantt-bar ${rSel?'selected':''}" style="left:${row.startPct}%;width:${row.endPct-row.startPct}%;background:${c.bar};border-color:${c.bdr}"></div>`;
       // ALL event markers on the reform bar
       row.events.forEach(ev=>{
         const p=pd(ev.datum),pc=pct(ev.datum),cls=mCls[ev.typ]||'m-milstolpe';
@@ -538,7 +541,7 @@ function setupTooltip(){
 
 function selectEvent(id){
   if(selectedId===id){selectedId=null;clearDetail();renderGantt();return}
-  selectedId=id;selectedUtrId=null;renderGantt();
+  selectedId=id;selectedUtrId=null;selectedReformId=null;renderGantt();
   const ev=handelser.find(x=>x.id===id);if(!ev)return;
   const p=pd(ev.datum),cc=ev.kategori?catColors[ev.kategori]:null;
   const reform=ev.reform?reforms.find(r=>r.id===ev.reform):null;
@@ -557,7 +560,7 @@ function selectEvent(id){
   if(window.innerWidth<=800){document.getElementById('mobileSidebarContent').innerHTML=detailHtml;document.getElementById('mobileSidebar').classList.add('open');document.getElementById('mobileOverlay').classList.add('open')}
 }
 function selectUppdrag(reformId,idx){
-  selectedUtrId=null;
+  selectedUtrId=null;selectedReformId=null;
   const subs=buildSubRows(reformId);
   const ur=subs.filter(s=>s.type==='uppdrag')[idx];
   if(!ur)return;
@@ -583,9 +586,59 @@ function selectUppdrag(reformId,idx){
   if(window.innerWidth<=800){document.getElementById('mobileSidebarContent').innerHTML=detailHtml;document.getElementById('mobileSidebar').classList.add('open');document.getElementById('mobileOverlay').classList.add('open')}
 }
 
+// Lookup: reform-id → utredningar som pekar på den (via kopplad_reform).
+// Beräknas vid datalast; reforms.json modifieras inte.
+function buildUtrByReform(){
+  utrByReform={};
+  utredningar.forEach(u=>{
+    if(u.kopplad_reform){
+      (utrByReform[u.kopplad_reform]=utrByReform[u.kopplad_reform]||[]).push(u);
+    }
+  });
+}
+
+function scrollRowIntoView(selector){
+  const el=document.querySelector(selector);
+  if(!el)return;
+  const r=el.getBoundingClientRect();
+  // Sticky filter-bar (~42px) + gantt-header (~40px) = ~82px ovanför
+  if(r.top<100||r.bottom>window.innerHeight-20){
+    window.scrollTo({top:window.scrollY+r.top-120,behavior:'smooth'});
+  }
+}
+
+function selectReform(rid){
+  if(selectedReformId===rid){selectedReformId=null;clearDetail();renderGantt();return}
+  selectedReformId=rid;selectedId=null;selectedUtrId=null;renderGantt();
+  const r=reforms.find(x=>x.id===rid);if(!r)return;
+  const c=catColors[r.cat];
+  let html='';
+  html+=`<div class="detail-cat" style="background:${c.bg};color:${c.color}">${catLabels[r.cat]}</div>`;
+  html+=`<div class="detail-title">${r.short}</div>`;
+  html+=`<div class="detail-ref">Reform · ${r.ref}</div>`;
+  if(r.what)html+=`<div class="detail-section"><div class="detail-text">${r.what}</div></div>`;
+  if(r.ikraft)html+=`<div class="detail-section"><div class="detail-label">Ikraftträdande</div><div class="detail-text">${r.ikraft}</div></div>`;
+  if(r.changes&&r.changes.length)html+=`<div class="detail-section"><div class="detail-label">Ändringar</div><div class="detail-text"><ul style="margin:0;padding-left:1.1rem">${r.changes.map(x=>`<li>${x}</li>`).join('')}</ul></div></div>`;
+  // Utredningar pekande på denna reform — sektion visas bara om det finns kopplingar
+  const utrs=utrByReform[rid]||[];
+  if(utrs.length){
+    html+=`<div class="detail-section"><div class="detail-label">Utredningar (${utrs.length})</div><div class="detail-links">`;
+    utrs.forEach(u=>{
+      const label=u.beteckning?`${u.beteckning} — ${utrShort(u)}`:utrShort(u);
+      html+=`<a class="detail-link" href="#" data-select-utr="${u.id}">↳ ${label}</a>`;
+    });
+    html+=`</div></div>`;
+  }
+  html+=`<div class="detail-section"><div class="detail-links"><a class="detail-link" href="reformer.html?reform=${r.id}">→ Reformtabellen</a><a class="detail-link" href="uppdrag.html?uppdrag=${r.id}">→ Uppdrag</a></div></div>`;
+  document.getElementById('detailPanel').innerHTML='<button class="detail-close" id="detailClose" aria-label="Stäng">×</button>'+html;
+  document.getElementById('detailClose').addEventListener('click',()=>{selectedReformId=null;clearDetail();renderGantt()});
+  if(window.innerWidth<=800){document.getElementById('mobileSidebarContent').innerHTML=html;document.getElementById('mobileSidebar').classList.add('open');document.getElementById('mobileOverlay').classList.add('open')}
+  scrollRowIntoView(`.gantt-row[data-reform="${rid}"]`);
+}
+
 function selectUtredning(id){
   if(selectedUtrId===id){selectedUtrId=null;clearDetail();renderGantt();return}
-  selectedUtrId=id;selectedId=null;renderGantt();
+  selectedUtrId=id;selectedId=null;selectedReformId=null;renderGantt();
   const u=utredningar.find(x=>x.id===id);if(!u)return;
   const cc=u.cat?catColors[u.cat]:null;
   const startStr=((u.direktiv||[]).find(d=>d.typ==='huvud')||{}).datum||u.tillsatt||((u.direktiv||[]).find(d=>d.datum)||{}).datum;
@@ -620,7 +673,7 @@ function selectUtredning(id){
     const r=reforms.find(x=>x.id===u.kopplad_reform);
     if(r){
       const rc=catColors[r.cat];
-      html+=`<div class="detail-section"><div class="detail-label">Kopplad reform</div><div class="detail-text"><span class="cat-dot" style="background:${rc.color};vertical-align:middle;margin-right:4px"></span>${r.short} (${r.ref})</div><div class="detail-links" style="margin-top:.4rem"><a class="detail-link" href="reformer.html?reform=${r.id}">→ Reformtabellen</a><a class="detail-link" href="uppdrag.html?uppdrag=${r.id}">→ Uppdrag</a></div></div>`;
+      html+=`<div class="detail-section"><div class="detail-label">Kopplad reform</div><div class="detail-text"><span class="cat-dot" style="background:${rc.color};vertical-align:middle;margin-right:4px"></span>${r.short} (${r.ref})</div><div class="detail-links" style="margin-top:.4rem"><a class="detail-link" href="#" data-select-reform="${r.id}">↑ Markera på tidslinjen</a><a class="detail-link" href="reformer.html?reform=${r.id}">→ Reformtabellen</a><a class="detail-link" href="uppdrag.html?uppdrag=${r.id}">→ Uppdrag</a></div></div>`;
     }
   }
   if(u.prop)html+=`<div class="detail-section"><div class="detail-label">Proposition</div><div class="detail-text">${u.prop}</div></div>`;
@@ -631,10 +684,11 @@ function selectUtredning(id){
   document.getElementById('detailPanel').innerHTML='<button class="detail-close" id="detailClose" aria-label="Stäng">×</button>'+html;
   document.getElementById('detailClose').addEventListener('click',()=>{selectedUtrId=null;clearDetail();renderGantt()});
   if(window.innerWidth<=800){document.getElementById('mobileSidebarContent').innerHTML=html;document.getElementById('mobileSidebar').classList.add('open');document.getElementById('mobileOverlay').classList.add('open')}
+  scrollRowIntoView(`.gantt-row.utr[data-utr="${id}"]`);
 }
 
 function clearDetail(){
-  selectedUtrId=null;
+  selectedUtrId=null;selectedReformId=null;
   // Restore the default sidebar structure first (selectEvent replaces innerHTML)
   document.getElementById('detailPanel').innerHTML='<div class="detail-empty" id="detailDefault"></div>';
   renderDefaultSidebar();
@@ -644,6 +698,7 @@ function clearDetail(){
 
 let allExpanded=false;
 function init(){
+  buildUtrByReform();
   renderGantt();renderDefaultSidebar();setupTooltip();
 
   document.getElementById('ganttArea').addEventListener('click',e=>{
@@ -657,6 +712,17 @@ function init(){
     // Click on utredningsstapel
     const utrRow=e.target.closest('.gantt-row.utr[data-utr]');
     if(utrRow){selectUtredning(utrRow.dataset.utr);return}
+    // Click on reformrad (label eller bar) — exklusive chevron som hanteras ovan
+    const reformRow=e.target.closest('.gantt-row[data-reform]');
+    if(reformRow){selectReform(reformRow.dataset.reform);return}
+  });
+
+  // Delegerade länkar inuti detaljpanelerna (desktop + mobil) för intern navigering
+  document.addEventListener('click',e=>{
+    const utrLink=e.target.closest('a[data-select-utr]');
+    if(utrLink){e.preventDefault();selectUtredning(utrLink.dataset.selectUtr);return}
+    const reformLink=e.target.closest('a[data-select-reform]');
+    if(reformLink){e.preventDefault();selectReform(reformLink.dataset.selectReform);return}
   });
 
   document.getElementById('toggleAll').addEventListener('click',()=>{
