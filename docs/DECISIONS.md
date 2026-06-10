@@ -18,6 +18,14 @@ Record of key decisions made during the project. **Newest first.**
 
 ---
 
+### DEC-007: Riksdagen-watchern matchar på organ-kortkod + testas mot fångade API-svar
+**Date:** 2026-06-10
+**Decision:** Jobb B identifierar Utbildningsdepartementets direktiv via list-entryts `organ`-kortkod (`"U-dep"`), inte via fullständigt departementsnamn — och gör ingen detalj-fetch när `organ` redan finns på list-entryt. Full dir-beteckning byggs som `Dir. <rm>:<nummer>` (riksdagens list-API ger löpnumret och årtalet i skilda fält). Relaterade bet/rskr läses ur `dokumentstatus.dokreferens.referens` (referenstyp `behandlas_i`). Enhetstesterna drivs av RIKTIGA API-svar sparade som fixtures i `scripts/bevakning/fixtures/`.
+**Reasoning:** Live-verifiering (T2-fix) visade att `dokument.departement` är `undefined` för direktiv även i detalj-svaret — bara `organ`-kortkoden finns. De tidigare mockarna antog fel format (fullt namn, beteckning med årtal, relaterade i dokuppgift) och gav 8/8 grönt medan jobb B i praktiken aldrig hittade något. Fixtures av skarpa svar gör att testerna fångar verkliga formatändringar istället för att cementera antaganden.
+**Alternatives considered:** Matcha på fullt departementsnamn via detalj-fetch (omöjligt — fältet saknas för dir, och 1 extra anrop per dir/vecka i onödan); mappa organ-kortkod → fullt namn i rapporten (lätt tolkning, bryter mot principen att rapporten bara återger beskrivande faktapar); behålla syntetiska mockar (gav falskt grönsken — hela orsaken till T2-fix)
+
+---
+
 ### DEC-006: SVG-overlay för kopplingslinjer i tidslinjen
 **Date:** 2026-06-10
 **Decision:** Kopplingslinjer utredning↔reform ritas i en enda SVG-overlay (`#ganttConnections`) inuti gantt-body, `pointer-events:none`, bezierkurvor beräknade från `getBoundingClientRect()`. Linjer ritas endast vid hover (tillfälligt) eller markering (pinned); aldrig vid load. Hover uppdaterar bara SVG-innehållet — ingen re-render av Gantt:en.

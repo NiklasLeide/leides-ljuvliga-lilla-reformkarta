@@ -57,6 +57,36 @@ or git hooks that check documentation is updated before pushing.
 **Solution:** `sudo npm install -g <package>`
 
 ---
+## Bevakning (scripts/bevakning/)
+
+### Mockar mot ANTAGNA API-format gav 8/8 grönt medan jobb B var dött
+**Symptom:** Riksdagen-watchern (T2) hade 8 gröna enhetstester men jobb B (nya
+Utbildningsdep.-direktiv) hittade aldrig något mot live API. Jobb A:s `relaterade`
+var alltid tom, och rapporterade dir-beteckningar var oanvändbara ("7" utan årtal).
+**Cause:** Testmockarna fabricerade svarsformer ur antaganden istället för riktiga
+svar. De antog: dir-`departement` = fullt namn (i verkligheten `undefined`; bara
+`organ`-kortkod "U-dep" finns, även i detalj-svaret), dir-`beteckning` = "Dir.
+2099:100" (i verkligheten bart löpnummer "100" + årtal i `rm`), relaterade bet/rskr
+i `dokuppgift.uppgift` (i verkligheten i `dokreferens.referens` med referenstyp
+`behandlas_i`). Mockarna validerade koden mot sina egna fel → grönt på dött jobb.
+**Solution:** T2-fix (2026-06-10): spara skarpa API-svar som fixtures i
+`scripts/bevakning/fixtures/` och driv testerna från dem. Lärdom inbakad i
+kodkommentarer (riksdagen.js "VERIFIERAT MOT LIVE API"). **Princip:** mocka aldrig
+ett externt format du inte har sett — fånga ett riktigt svar och frys det som fixture.
+
+### Riksdagens API: fältformer som lätt antas fel
+**Symptom:** Felaktiga slutsatser om data.riksdagen.se-svaren.
+**Cause/fakta (verifierat 2026-06-10):**
+- Prop-list: `beteckning` = bart löpnummer ("20"), årtal i `rm` ("2023/24"); `organ`
+  = fullt departementsnamn; `dokument.departement` saknas.
+- Dir-list: `beteckning`/`nummer` = bart löpnummer; `organ` = KORTKOD ("U-dep",
+  "Ju-dep", "UD-dep"=Utrikes); `dokument.departement` saknas även i detalj-svaret.
+- Relaterade bet/rskr: `dokumentstatus.dokreferens.referens`, referenstyp `behandlas_i`.
+- `dokument_url_html` kan vara protokoll-relativ ("//data.riksdagen.se/..."). Måste
+  prefixas med `https:` innan den används som klickbar länk (T4-rapporten).
+**Solution:** Se fixtures + DEC-007. Bygg full beteckning via `dirBetFromEntry`.
+
+---
 ## Build / Deploy
 
 ### commit.sh kräver manuell git add för rotfiler

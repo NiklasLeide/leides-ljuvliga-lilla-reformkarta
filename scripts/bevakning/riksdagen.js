@@ -17,18 +17,29 @@
 //   node riksdagen.js --data /annan/data    # alternativ datakatalog
 //   node riksdagen.js --verbose             # logga API-svar till stderr
 //
-// EMPIRISKA ANTAGANDEN (sandboxen kunde inte verifiera mot live API —
-// Riksdagens API gated User-Agent, 403):
+// VERIFIERAT MOT LIVE API 2026-06-10 (Sprint 10 T2-fix). Fångade svar ligger
+// som fixtures i fixtures/ och driver enhetstesterna. Tidigare mockar antog fel
+// fältformer och gav 8/8 grönt MEDAN jobb B var dött — lärdomen är inbakad här:
 //
-//   1. Prop-uppslag: doktyp=prop&rm=<RM>&bet=<NR>. Vid 0 träffar faller koden
-//      tillbaka på sok=<full beteckning>. Verifieras vid första skarpa körning;
-//      --verbose dumpar list-svaret så att Niklas kan justera om fältnamn
-//      skiljer från docs.
+//   1. Prop-uppslag: doktyp=prop&rm=<RM>&bet=<NR> ger exakt en träff. API:t
+//      returnerar beteckning som bart löpnummer ("20") + rm ("2023/24") — matchas
+//      av d.beteckning === nr. sok=-fallbacken behövs inte i praktiken men behålls.
 //
-//   2. Departement: kollas i denna ordning på list-entry: `departement`,
-//      `dokumentstatus.dokument.departement` (via detalj-fetch), `organ`.
-//      För doktyp=dir är `organ` ofta "Kommittédirektiv" och inte avsändande
-//      departement — därför detalj-fetchen.
+//   2. Departement: skiljer sig mellan doktyper!
+//      - prop: list-entry `organ` = fullt namn ("Utbildningsdepartementet"),
+//        `dokument.departement` saknas (undefined).
+//      - dir:  list-entry `organ` = KORTKOD ("U-dep"), och `dokument.departement`
+//        är undefined ÄVEN i detalj-svaret. Därför matchar jobb B på organ-koden
+//        "U-dep" och gör INGEN detalj-fetch när organ finns på list-entryt.
+//
+//   3. Dir-beteckning: list-API:t ger `beteckning`/`nummer` som bart löpnummer
+//      ("7") med årtalet i `rm` ("2024"). Full beteckning byggs som
+//      "Dir. <rm>:<nummer>" (se dirBetFromEntry) — annars fallerar dedup mot
+//      manifestet och rapporterad beteckning blir oanvändbar.
+//
+//   4. Relaterade bet/rskr finns i `dokumentstatus.dokreferens.referens` med
+//      referenstyp "behandlas_i" — INTE i dokuppgift.uppgift (vars koder är
+//      inlamnatav/statustext/tilldelat).
 
 'use strict';
 
@@ -120,18 +131,23 @@ function extractDepartement(listEntry, dokstatus) {
 
 function extractStatusOgRelaterade(dokstatus) {
   const dok = dokstatus && dokstatus.dokumentstatus && dokstatus.dokumentstatus.dokument;
-  const uppgifter = (dokstatus && dokstatus.dokumentstatus && dokstatus.dokumentstatus.dokuppgift
-    && dokstatus.dokumentstatus.dokuppgift.uppgift) || [];
   const aktiviteter = (dokstatus && dokstatus.dokumentstatus && dokstatus.dokumentstatus.dokaktivitet
     && dokstatus.dokumentstatus.dokaktivitet.aktivitet) || [];
+  // Relaterade betänkanden/riksdagsskrivelser ligger i dokreferens.referens med
+  // referenstyp "behandlas_i" (verifierat 2026-06-10) — INTE i dokuppgift.uppgift.
+  const referenser = (dokstatus && dokstatus.dokumentstatus && dokstatus.dokumentstatus.dokreferens
+    && dokstatus.dokumentstatus.dokreferens.referens) || [];
 
-  const uppgArr = Array.isArray(uppgifter) ? uppgifter : [uppgifter];
   const aktArr = Array.isArray(aktiviteter) ? aktiviteter : [aktiviteter];
+  const refArr = Array.isArray(referenser) ? referenser : [referenser];
 
   const status = (dok && dok.status) || (aktArr[0] && (aktArr[0].aktivitet || aktArr[0].beslutstext)) || null;
-  const relaterade = uppgArr
-    .filter(u => u && ['rskr', 'bet', 'utskottsforslag', 'lagrum'].includes(u.kod))
-    .map(u => ({ kod: u.kod, text: u.text || u.value || u.dok_id || null }));
+  const relaterade = refArr
+    .filter(r => r && r.referenstyp === 'behandlas_i')
+    .map(r => ({
+      kod: r.ref_dok_typ || r.referenstyp || null,           // t.ex. "bet" / "rskr"
+      text: r.uppgift || r.ref_dok_bet || r.ref_dok_titel || null, // t.ex. "2023/24:UbU5"
+    }));
 
   return { status, relaterade };
 }
@@ -209,7 +225,12 @@ async function fetchDirektivWindow({ from, tom, fetcher, delayMs = REQUEST_DELAY
 }
 
 const DIR_BET_RE = /^Dir\.\s*(\d{4}:\d+)$/;
-const UTRBET_IN_TITEL_RE = /\(((?:U|Fi|S|Ju|A|Ku|N|M|Fö|UD)\s+\d{4}:\d{2})\)/;
+// Kommittébeteckning i tilläggsdir-titlar, t.ex. "(U 2023:05)". Löpnumret kan
+// vara 2–3 siffror (verifierat: zero-paddat till minst 2, men kan vara 3).
+const UTRBET_IN_TITEL_RE = /\(((?:U|Fi|S|Ju|A|Ku|N|M|Fö|UD)\s+\d{4}:\d{2,3})\)/;
+
+// Organ-kortkod för Utbildningsdepartementet på dir-list-entries.
+const UTBILDNINGSDEP_ORGAN = 'U-dep';
 
 function normalizeDirBet(raw) {
   if (typeof raw !== 'string') return null;
@@ -218,34 +239,58 @@ function normalizeDirBet(raw) {
   return `Dir. ${m[1] || m[0]}`;
 }
 
+// Bygg full dir-beteckning från ett list-entry. Riksdagens list-API ger
+// `beteckning`/`nummer` som bart löpnummer ("7") med årtalet i `rm` ("2024").
+// Faller tillbaka på normalizeDirBet om entryt redan bär full beteckning.
+function dirBetFromEntry(entry) {
+  if (!entry) return null;
+  const rm = entry.rm != null ? String(entry.rm) : null;
+  const nr = entry.nummer != null ? String(entry.nummer)
+    : (entry.beteckning != null ? String(entry.beteckning) : null);
+  if (rm && nr && /^\d{4}$/.test(rm) && /^\d+$/.test(nr)) {
+    return `Dir. ${rm}:${nr}`;
+  }
+  return normalizeDirBet(entry.beteckning);
+}
+
+// Matchar Utbildningsdepartementet oavsett om vi har kortkod (dir-list) eller
+// fullt namn (prop-list / vissa detalj-svar).
+function isUtbildningsdepOrgan(organ) {
+  if (!organ) return false;
+  return organ === UTBILDNINGSDEP_ORGAN || /utbildningsdepartementet/i.test(organ);
+}
+
 async function jobB_nyttDirektivUtbildningsdep({ direktivLista, manifest, fetcher, verbose, delayMs }) {
   const kandaDir = new Set(manifest.dir.map(d => d.id));
   const deltan = [];
 
   for (const entry of direktivLista) {
-    const bet = normalizeDirBet(entry.beteckning);
+    const bet = dirBetFromEntry(entry);
     if (bet && kandaDir.has(bet)) continue; // redan i manifestet → inte nytt för oss
 
-    let departement = entry.departement || null;
+    // Avsändande departement står i list-entryts `organ` som kortkod ("U-dep").
+    // Det fullständiga namnet saknas även i detalj-svaret för dir, så vi matchar
+    // på organ-koden och gör ingen detalj-fetch när organ redan finns.
+    let organ = entry.organ || null;
     let detailFetched = false;
-    if (!departement || /kommitt[eé]direktiv/i.test(departement)) {
+    if (!organ) {
       try {
         const ds = await fetchDokumentstatus(entry.dok_id, { fetcher, delayMs });
-        departement = extractDepartement(entry, ds);
+        organ = extractDepartement(entry, ds);
         detailFetched = true;
       } catch (err) {
         if (verbose) process.stderr.write(`[jobB] dokumentstatus-fetch misslyckades för ${entry.dok_id}: ${err.message}\n`);
       }
     }
 
-    if (!departement || !/utbildningsdepartementet/i.test(departement)) continue;
+    if (!isUtbildningsdepOrgan(organ)) continue;
 
     deltan.push({
       typ: 'nytt-direktiv',
       beteckning: bet || entry.beteckning,
       titel: entry.titel || null,
       datum: entry.datum || null,
-      departement,
+      departement: organ, // kortkod som API:t ger, t.ex. "U-dep"
       url: entry.dokument_url_html || `${API_BASE}/dokument/${entry.dok_id}`,
       detail_fetched: detailFetched,
     });
@@ -264,7 +309,7 @@ function jobC_tillaggsdirToTracked({ direktivLista, manifest }) {
 
     deltan.push({
       typ: 'tillaggsdir-till-tracked-utredning',
-      direktiv_beteckning: normalizeDirBet(entry.beteckning) || entry.beteckning,
+      direktiv_beteckning: dirBetFromEntry(entry) || entry.beteckning,
       kopplad_utredning: m[1],
       titel,
       datum: entry.datum || null,
@@ -342,6 +387,8 @@ module.exports = {
   fetchDirektivWindow,
   lookupProp,
   normalizeDirBet,
+  dirBetFromEntry,
+  isUtbildningsdepOrgan,
   buildDataIndex,
   extractStatusOgRelaterade,
   extractDepartement,
