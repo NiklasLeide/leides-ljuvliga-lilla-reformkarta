@@ -12,6 +12,7 @@
 |---|------|--------|-------|
 | 9.T2 | Bakåtförlängd axel (2021) + utredningsstaplar | ✅ Done | Modell A — gemensam axel. 21 av 27 daterade utredningar renderas; 6 skips loggas i konsolen (saknad start/slut, fabriceras inte) |
 | 9.T2-followup | Komplettera saknade datum för 6 utredningar | ⬜ Todo | utr-fler-vagar (slut), utr-komvux (start), utr-heder (start), utr-grundlaggande-svenska (slut), utr-undervisningstid (slut), utr-lararutbildning (start) |
+| 9.T3 | Bidirektionell navigering utredning↔reform | ✅ Done | Lookup utrByReform vid render. Reformdetaljvy med Utredningar-sektion (visas bara vid kopplingar); utredningsvyn länkar tillbaka. reforms.json oförändrad. |
 
 ---
 

@@ -5,6 +5,7 @@ Types: `feat` | `fix` | `refactor` | `docs` | `chore` | `perf`
 
 ---
 
+[2026-06-10] feat: tidslinje — bidirektionell navigering utredning↔reform via render-tids-lookup (kopplad_reform → reverse-link). Klick på reform öppnar detaljpanel med Utredningar-sektion (visas bara om kopplingar finns); klick på utredning har "Markera på tidslinjen"-länk till reform. Båda riktningarna scrollar och markerar målet. reforms.json oförändrad. (sprint 9 T3)
 [2026-06-10] feat: tidslinje — bakåtförlängd axel till 2021, utredningar renderas som staplar på gemensam axel (Modell A), grupperade per kategori, dashed border + diagonal stripe pattern för visuell åtskillnad, klick öppnar sidebar med direktiv/betänkanden/källor; 21 av 27 daterade utredningar renderas (6 saknar verifierad start/slut — loggas i konsolen, fabriceras inte) (sprint 9 T2)
 [2026-06-04] feat: lägg till Utredningar-tab i navigationen i index, reformer, uppdrag och tidslinje — mellan Uppdrag och Tidslinje (sprint 8 T3)
 [2026-06-04] feat: utredningar.html — listvy över 29 utredningar med status/kategori/departement-filter, fritextsök, expanderbara kort med direktivhistorik, betänkanden, prop, källor och deep-link till kopplad reform; kollapsbar filterrad på mobil (sprint 8 T2)
