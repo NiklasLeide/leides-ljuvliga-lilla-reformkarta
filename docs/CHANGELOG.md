@@ -5,6 +5,7 @@ Types: `feat` | `fix` | `refactor` | `docs` | `chore` | `perf`
 
 ---
 
+[2026-06-10] feat: tidslinje — bakåtförlängd axel till 2021, utredningar renderas som staplar på gemensam axel (Modell A), grupperade per kategori, dashed border + diagonal stripe pattern för visuell åtskillnad, klick öppnar sidebar med direktiv/betänkanden/källor; 21 av 27 daterade utredningar renderas (6 saknar verifierad start/slut — loggas i konsolen, fabriceras inte) (sprint 9 T2)
 [2026-06-04] feat: lägg till Utredningar-tab i navigationen i index, reformer, uppdrag och tidslinje — mellan Uppdrag och Tidslinje (sprint 8 T3)
 [2026-06-04] feat: utredningar.html — listvy över 29 utredningar med status/kategori/departement-filter, fritextsök, expanderbara kort med direktivhistorik, betänkanden, prop, källor och deep-link till kopplad reform; kollapsbar filterrad på mobil (sprint 8 T2)
 [2026-06-04] refactor: utredningar.json kallor som {text, url} i linje med uppdrag.json (sprint 8 T1-fix)
