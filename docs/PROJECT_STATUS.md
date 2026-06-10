@@ -1,8 +1,43 @@
 # Project Status — leides-ljuvliga-lilla-reformkarta
 
 > **Last updated:** 2026-06-10
-> **Current sprint:** Underhåll — Sprint 9 stängd
-> **Sprint dates:** —
+> **Current sprint:** Sprint 10 — Bevakningsautomatisering
+> **Sprint dates:** juni 2026
+
+---
+
+## Sprint 10 — Bevakningsautomatisering
+
+**Mål:** Detektering av dataändringar flyttas till en schemalagd GitHub Action som
+producerar en veckorapport som GitHub Issue. Människan verifierar, maskinen bevakar.
+Noll automatiska skrivningar till datafiler.
+
+**Designbeslut:**
+- Runtime-manifest — ingen committad bevakningsfil; manifestet beräknas vid varje körning
+- Stateless diff mot datafilerna (inga state-filer mellan körningar)
+- Zero-dependency Node (inga npm-paket, node:test för tester)
+- Tom vecka = ingen issue skapas
+- Cron måndagar 06:00 UTC + workflow_dispatch för manuell körning
+
+**Out of scope:** automatisk skrivning till datafiler; HTML-scraping av regeringen.se;
+bevakning av val26; notifiering utanför GitHub; AI-anrop.
+
+**Stop condition:** Action körs på schema och manuellt; korrekt rapport mot känt
+testfall; tom vecka ger ingen issue; workflow-permissions contents:read +
+issues:write; BEVAKNING.md följbar utan chatkontext; DoD passerad.
+
+| ID | Task | Filer | Status | Acceptance |
+|----|------|-------|--------|------------|
+| T1 | Sprintregistrering + identifierar-extraktion | PROJECT_STATUS.md, scripts/bevakning/extract.js | ✅ Done | Plan i PROJECT_STATUS; komplett manifest (12 props, 21 SOU, 49 dir, 27 utredningar), inga hårdkodade id:n, 8 tester med facit passerar |
+| T2 | Riksdagen-watcher: status-diff API vs datafiler | scripts/bevakning/riksdagen.js | ⬜ Todo | Korrekt delta för testfall; 0 falska positiva; nätverksfel ger fel, inte tom rapport |
+| T3 | RSS-watcher: regeringen.se, Utbildningsdep., 7-dagarsfönster | scripts/bevakning/rss.js | ⬜ Todo | Poster flaggas med titel+datum+URL; feed-URL:er ur verifierad mikrorunda |
+| T4 | GitHub Action: veckocron + dispatch + Issue "Bevakningsrapport v.X" | .github/workflows/bevakning.yml | ⬜ Todo | Issue med deltan+länkar+triage-kryssrutor; tom körning = ingen issue |
+| T5 | BEVAKNING.md: flöde och hanteringsrutin | BEVAKNING.md | ⬜ Todo | Följbar utan chatkontext; Dir. 2023:175 som exempel |
+| T6 | Run DoD review for this sprint | (dod-reviewer) | ⬜ Todo | Sprint godkänd |
+
+**Testkommando T1:** `node --test scripts/bevakning/extract.test.js` (OBS: inte
+katalogformen `node --test scripts/bevakning/` — den snubblar på extract.js CLI-stdout).
+CLI: `node scripts/bevakning/extract.js [dataDir]` skriver manifest som JSON till stdout.
 
 ---
 
