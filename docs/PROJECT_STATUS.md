@@ -8,26 +8,15 @@
 
 ## Completed: Sprint 9 — Utredningar på tidslinjen
 
-DoD-granskad och GODKÄND (T5, 2026-06-10).
+DoD-granskad och GODKÄND (T5, 2026-06-10). T2-followup levererad samma dag — alla 27 icke-aviserade utredningar renderas nu.
 
 | # | Task | Status | Notes |
 |---|------|--------|-------|
-| 9.T2 | Bakåtförlängd axel (2021) + utredningsstaplar | ✅ Done | Modell A — gemensam axel. 21 av 27 daterade utredningar renderas; 6 skips loggas i konsolen (saknad start/slut, fabriceras inte) |
+| 9.T2 | Bakåtförlängd axel (2021) + utredningsstaplar | ✅ Done | Modell A — gemensam axel. Efter T2-followup: 27/27 utredningar renderas. |
 | 9.T3 | Bidirektionell navigering utredning↔reform | ✅ Done | Lookup utrByReform vid render. Reformdetaljvy med Utredningar-sektion (visas bara vid kopplingar); utredningsvyn länkar tillbaka. reforms.json oförändrad. |
 | 9.T4 | Kopplingslinjer vid hover/markering | ✅ Done | SVG-overlay i gantt-body. Bezierlinje från utredningens slut till reformens start. Hover visar tillfälligt, klick pin:ar. Ingen full re-render vid hover. |
-| 9.T5 | DoD-granskning + sprintstängning | ✅ Done | Alla T1–T4 maskinella kriterier uppfyllda. Inga fixar behövdes. |
-
-### Kvarvarande databrist (T2-followup — manuell research, fabriceras inte)
-6 utredningar saknar härledbart start- eller slutdatum och renderas inte på tidslinjen:
-
-| id | saknar |
-|---|---|
-| utr-fler-vagar | slut (slutbetänkande/redovisning) |
-| utr-komvux | start (huvud-direktiv-datum) |
-| utr-heder | start |
-| utr-grundlaggande-svenska | slut |
-| utr-undervisningstid | slut |
-| utr-lararutbildning | start |
+| 9.T5 | DoD-granskning + sprintstängning | ✅ Done | Alla T1–T4 maskinella kriterier uppfyllda. |
+| 9.T2-followup | Datumkomplettering 6 utredningar | ✅ Done | utr-fler-vagar, utr-komvux, utr-heder, utr-grundlaggande-svenska, utr-undervisningstid, utr-lararutbildning — primärkällsverifierade datum. 0 skips. |
 
 ---
 

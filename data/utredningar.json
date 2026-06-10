@@ -177,12 +177,12 @@
       { "nr": "Dir. 2023:114", "datum": "2023-07-06", "typ": "tilläggs", "titel": null }
     ],
     "betankanden": [
-      { "nr": "SOU 2024:74", "titel": "Fler vägar till arbetslivet", "typ": "slut", "datum": null }
+      { "nr": "SOU 2024:74", "titel": "Fler vägar till arbetslivet", "typ": "slut", "datum": "2024-11-20" }
     ],
     "prop": "Prop. 2025/26:198",
     "kopplad_reform": "yrkes",
     "kallor": [ { "text": "Dir. 2022:74", "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2022/06/dir.-202274" } ],
-    "noteringar": "Slutbetänkandet överlämnades i juni 2024; exakt datum ej verifierat. Prop. 2025/26:198 förväntad (lagrådsremiss 2026-01-20)."
+    "noteringar": "SOU 2024:74 publicerad 2024-11-20. Tilläggsdir. 2023:114 förlängde utredningstiden till 2024-11-04. Prop. 2025/26:198 förväntad (lagrådsremiss 2026-01-20)."
   },
   {
     "id": "utr-yrkesvux",
@@ -301,10 +301,10 @@
     "status": "pagaende",
     "cat": "styrning",
     "utredare": "Jan Rehnstam",
-    "tillsatt": null,
+    "tillsatt": "2025-11-27",
     "redovisning": "2027-06-15",
     "direktiv": [
-      { "nr": "Dir. 2025:103", "datum": null, "typ": "huvud", "titel": "Tydligare ansvar och högre kvalitet i komvux" }
+      { "nr": "Dir. 2025:103", "datum": "2025-11-27", "typ": "huvud", "titel": "Tydligare ansvar och högre kvalitet i komvux" }
     ],
     "betankanden": [],
     "prop": null,
@@ -379,16 +379,16 @@
     "status": "pagaende",
     "cat": "trygghet",
     "utredare": "Rebecca Lagh",
-    "tillsatt": null,
+    "tillsatt": "2025-03-20",
     "redovisning": "2026-08-12",
     "direktiv": [
-      { "nr": "Dir. 2025:31", "datum": null, "typ": "huvud", "titel": "Ökade insatser för att motverka hedersrelaterat våld och förtryck i förskolan, skolan och fritidshemmet" }
+      { "nr": "Dir. 2025:31", "datum": "2025-03-20", "typ": "huvud", "titel": "Ökade insatser för att motverka hedersrelaterat våld och förtryck i förskolan, skolan och fritidshemmet" }
     ],
     "betankanden": [],
     "prop": null,
     "kopplad_reform": null,
     "kallor": [ { "text": "Dir. 2025:31", "url": "https://regeringen.se/rattsliga-dokument/kommittedirektiv/2025/03/dir.-202531" } ],
-    "noteringar": "Dir. 2025:31 beslutades i mars 2025 (exakt datum ej verifierat). cat satt redaktionellt."
+    "noteringar": "cat satt redaktionellt (ej ärvd via kopplad_reform)."
   },
   {
     "id": "utr-stem",
@@ -524,12 +524,12 @@
       { "nr": "Dir. 2023:175", "datum": "2023-12-18", "typ": "huvud", "titel": "Införande av grundläggande svenska och översyn av modersmålsundervisningen" }
     ],
     "betankanden": [
-      { "nr": "SOU 2025:9", "titel": "På språklig grund", "typ": "slut", "datum": null }
+      { "nr": "SOU 2025:9", "titel": "På språklig grund", "typ": "slut", "datum": "2025-01-31" }
     ],
     "prop": null,
     "kopplad_reform": null,
     "kallor": [ { "text": "Dir. 2023:175", "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2023/12/dir.-2023175" } ],
-    "noteringar": "Svag möjlig koppling till sprak/laroplaner. Utredare och betänkandedatum ej verifierade. cat satt redaktionellt."
+    "noteringar": "Svag möjlig koppling till sprak/laroplaner. Utredare ej verifierad. cat satt redaktionellt. OBS: Dir. 2023:175 datum (2023-12-18) är publiceringsdatum, beslutsdatum ej verifierat — bevakas."
   },
   {
     "id": "utr-undervisningstid",
@@ -539,18 +539,18 @@
     "status": "avslutad",
     "cat": "kunskap",
     "utredare": null,
-    "tillsatt": null,
+    "tillsatt": "2023-12-14",
     "redovisning": null,
     "direktiv": [
-      { "nr": "Dir. 2023:174", "datum": "2023-12-19", "typ": "huvud", "titel": "Mer obligatorisk undervisningstid för elever som behöver det" }
+      { "nr": "Dir. 2023:174", "datum": "2023-12-14", "typ": "huvud", "titel": "Mer obligatorisk undervisningstid för elever som behöver det" }
     ],
     "betankanden": [
-      { "nr": "SOU 2024:94", "titel": "Förstärkningsundervisning i skolan – En försöksverksamhet för fler behöriga elever", "typ": "slut", "datum": null }
+      { "nr": "SOU 2024:94", "titel": "Förstärkningsundervisning i skolan – En försöksverksamhet för fler behöriga elever", "typ": "slut", "datum": "2024-12-20" }
     ],
     "prop": null,
     "kopplad_reform": null,
     "kallor": [ { "text": "Dir. 2023:174", "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2023/12/dir.-2023174" } ],
-    "noteringar": "Svag möjlig koppling till stod. Utredare och betänkandedatum ej verifierade. cat satt redaktionellt."
+    "noteringar": "Svag möjlig koppling till stod. Utredare ej verifierad i datafält. SOU-datum avser publicering på regeringen.se; exakt överlämnandedatum ej offentliggjort. cat satt redaktionellt."
   },
   {
     "id": "utr-lararutbildning",
@@ -560,10 +560,10 @@
     "status": "avslutad",
     "cat": "larare",
     "utredare": "Peter Honeth",
-    "tillsatt": null,
+    "tillsatt": "2023-07-06",
     "redovisning": "2024-12-03",
     "direktiv": [
-      { "nr": "Dir. 2023:111", "datum": null, "typ": "huvud", "titel": "Utveckla lärar- och förskollärarutbildningarna" }
+      { "nr": "Dir. 2023:111", "datum": "2023-07-06", "typ": "huvud", "titel": "Utveckla lärar- och förskollärarutbildningarna" }
     ],
     "betankanden": [
       { "nr": "SOU 2024:81", "titel": "Ämneskunskaper och lärarskicklighet – en reformerad lärarutbildning", "typ": "slut", "datum": "2024-12-03" }
@@ -571,7 +571,7 @@
     "prop": null,
     "kopplad_reform": null,
     "kallor": [ { "text": "Dir. 2023:111", "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2023/07/dir.-2023111" } ],
-    "noteringar": "Möjlig koppling till profession. Huvuddirektivets beslutsdatum ej verifierat. cat satt redaktionellt."
+    "noteringar": "Möjlig koppling till profession. cat satt redaktionellt."
   },
   {
     "id": "utr-aviserad-skolval",
