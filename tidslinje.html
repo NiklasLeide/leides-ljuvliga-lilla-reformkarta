@@ -11,7 +11,7 @@
   --trygghet:#b91c1c;--trygghet-bg:#fee2e2;--trygghet-bar:#f9caca;--trygghet-bdr:#e88;
   --larare:#15803d;--larare-bg:#dcfce7;--larare-bar:#b6ecc8;--larare-bdr:#6dc690;
   --styrning:#6d28d9;--styrning-bg:#ede9fe;--styrning-bar:#d4c9f7;--styrning-bdr:#a78be0;
-  --label-w:200px;--chart-w:1200px}
+  --label-w:200px;--chart-w:1900px}
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:'DM Sans',system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.5;-webkit-font-smoothing:antialiased}
 
@@ -95,6 +95,17 @@ header p{font-size:.82rem;color:rgba(255,255,255,.5);max-width:500px}
 .gantt-bar{position:absolute;top:50%;transform:translateY(-50%);height:16px;border-radius:6px;border:1px solid;transition:box-shadow .2s,filter .2s;cursor:default}
 .gantt-row:hover .gantt-bar{box-shadow:0 1px 4px rgba(0,0,0,.1);filter:brightness(1.04)}
 
+/* Utredning row + bar — diagonal stripe pattern, dashed border to distinguish from reforms */
+.gantt-row.utr{cursor:pointer;min-height:28px}
+.gantt-row.utr .gantt-row-name{font-weight:400;color:#444}
+.gantt-row.utr .gantt-row-ref{font-style:italic}
+.gantt-utr-bar{position:absolute;top:50%;transform:translateY(-50%);height:12px;border-radius:5px;border:1px dashed;transition:box-shadow .2s,filter .2s;background-image:repeating-linear-gradient(45deg,rgba(255,255,255,.55) 0,rgba(255,255,255,.55) 3px,transparent 3px,transparent 7px)}
+.gantt-row.utr:hover .gantt-utr-bar{box-shadow:0 1px 4px rgba(0,0,0,.12);filter:brightness(1.05)}
+.gantt-utr-bar.selected{box-shadow:0 0 0 2px var(--ink);filter:brightness(1.05)}
+.gantt-utr-bar.past{opacity:.55}
+.gantt-utr-bar-arrow{position:absolute;right:-8px;top:50%;transform:translateY(-50%);font-size:.55rem;color:var(--muted);line-height:1}
+.gantt-utr-subheader{display:flex;align-items:center;min-height:18px;padding:.25rem 0 .1rem calc(var(--label-w) - 90px);font-size:.52rem;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+
 /* Expandable detail */
 .gantt-detail{overflow:hidden;max-height:0;transition:max-height .3s ease}
 .gantt-detail.open{max-height:800px}
@@ -171,7 +182,10 @@ header p{font-size:.82rem;color:rgba(255,255,255,.5);max-width:500px}
 footer{text-align:center;padding:1.5rem 0 2rem;font-size:.62rem;color:#ccc;line-height:1.7;margin-top:1rem;border-top:1px solid var(--border)}
 
 @media(max-width:800px){
-  :root{--label-w:120px;--chart-w:800px}
+  :root{--label-w:120px;--chart-w:1300px}
+  .gantt-q-text{display:none}
+  .gantt-row.utr{min-height:34px}
+  .gantt-utr-bar{height:14px}
   header{padding:1rem 1rem .8rem}header h1{font-size:1.2rem}header p{font-size:.72rem}
   .container{padding:0 .5rem}
   .filter-bar{gap:.3rem;padding:.5rem .5rem;margin:0 -.5rem 0}
@@ -193,8 +207,8 @@ footer{text-align:center;padding:1.5rem 0 2rem;font-size:.62rem;color:#ccc;line-
 <body>
 <header><div class="header-inner">
   <div class="header-badge">Kunskapsyta · mars 2026 · Privatprojekt av Niklas Leide</div>
-  <h1>Tidslinje — Skolreformer 2025–2031</h1>
-  <p>Gantt-vy: reformer som tidsspann. Klicka ▶ för att visa uppdrag och milstolpar.</p>
+  <h1>Tidslinje — Skolreformer 2021–2031</h1>
+  <p>Gantt-vy: utredningar och reformer som tidsspann. Klicka ▶ för uppdrag och milstolpar, eller en utredning för detaljer.</p>
 </div></header>
 
 <div class="tab-nav">
@@ -226,6 +240,8 @@ footer{text-align:center;padding:1.5rem 0 2rem;font-size:.62rem;color:#ccc;line-
     <div class="filter-sep"></div>
     <div class="filter-group">
       <span class="filter-label">Hoppa</span>
+      <button class="jump-btn" data-year="2021">2021</button>
+      <button class="jump-btn" data-year="2023">2023</button>
       <button class="jump-btn" data-year="2025">2025</button>
       <button class="jump-btn" data-year="2026">2026</button>
       <button class="jump-btn" data-year="2027">2027</button>
@@ -242,6 +258,8 @@ footer{text-align:center;padding:1.5rem 0 2rem;font-size:.62rem;color:#ccc;line-
       <div class="gantt-scroll" id="ganttScroll">
         <div class="gantt" id="ganttArea"></div>
         <div class="gantt-legend">
+          <div class="gantt-legend-item"><div class="legend-dot" style="position:static;width:18px;height:8px;border-radius:3px;border:1px solid #93b4ed;background:#c7d9f7"></div> Reform (spann)</div>
+          <div class="gantt-legend-item"><div class="legend-dot" style="position:static;width:18px;height:8px;border-radius:3px;border:1px dashed #93b4ed;background:#c7d9f7;background-image:repeating-linear-gradient(45deg,rgba(255,255,255,.55) 0,rgba(255,255,255,.55) 3px,transparent 3px,transparent 7px)"></div> Utredning (spann)</div>
           <div class="gantt-legend-item"><div class="legend-dot m-ikraft" style="position:static;transform:rotate(45deg);width:10px;height:10px"></div> Ikraftträdande</div>
           <div class="gantt-legend-item"><div class="legend-dot m-riksdag" style="position:static;transform:none"></div> Riksdagsbeslut</div>
           <div class="gantt-legend-item"><div class="legend-dot m-milstolpe" style="position:static;transform:none"></div> Milstolpe</div>
@@ -263,7 +281,7 @@ footer{text-align:center;padding:1.5rem 0 2rem;font-size:.62rem;color:#ccc;line-
 </div>
 
 <script>
-let handelser=[],reforms=[],uppdragData={},selectedId=null,expandedReforms=new Set();
+let handelser=[],reforms=[],uppdragData={},utredningar=[],selectedId=null,selectedUtrId=null,expandedReforms=new Set();
 
 const catColors={
   kunskap:{color:'#1d4ed8',bg:'#dbeafe',bar:'#c7d9f7',bdr:'#93b4ed'},
@@ -280,8 +298,10 @@ const monthShort=['','jan','feb','mar','apr','maj','jun','jul','aug','sep','okt'
 let activeTyps=new Set(['ikraftträdande','riksdagsbeslut','redovisning','delredovisning','milstolpe']);
 let activeKats=new Set(['kunskap','trygghet','larare','styrning']);
 
-const T0=new Date('2025-01-01').getTime(),T1=new Date('2032-01-01').getTime(),TR=T1-T0;
+const T0=new Date('2021-01-01').getTime(),T1=new Date('2032-01-01').getTime(),TR=T1-T0;
 const NOW=new Date('2026-03-30');
+const YEARS=[2021,2022,2023,2024,2025,2026,2027,2028,2029,2030,2031];
+const utrStatusLabels={avslutad:'Avslutad',pagaende:'Pågående',aviserad:'Aviserad'};
 
 function pct(ds){let d;if(/^\d{4}-Q\d$/.test(ds)){const y=+ds.substring(0,4),q=+ds[6];d=new Date(y,(q-1)*3+1,15)}else d=new Date(ds);return Math.max(0,Math.min(100,((d.getTime()-T0)/TR)*100))}
 function pd(d){if(/^\d{4}-Q\d$/.test(d)){const y=+d.substring(0,4),q=+d[6];return{iso:`${y}-${String((q-1)*3+2).padStart(2,'0')}-15`,label:`${y} Q${q}`}}const[y,m,dd]=d.split('-').map(Number);return{iso:d,label:`${dd} ${monthShort[m]} ${y}`}}
@@ -308,6 +328,46 @@ function buildRows(){
   return rows;
 }
 
+// Display-name shortener for utredningar (strip common prefixes, keep title-case)
+function utrShort(u){
+  let s=u.titel||'';
+  s=s.replace(/^Utredningen om (?:en |ett |)/i,'').replace(/^Utredning om (?:en |ett |)/i,'');
+  if(s.length>0)s=s.charAt(0).toUpperCase()+s.slice(1);
+  return s;
+}
+
+// Build utredningar rows. Validate that we have start + end date; skip + warn otherwise.
+// Status 'aviserad' is excluded — those have no dates and live in utredningar.html only.
+function buildUtrRows(){
+  const out=[];
+  utredningar.forEach(u=>{
+    if(u.status==='aviserad')return;
+    // start: prefer huvuddirektivets datum; fall back to tillsatt; then any direktiv with datum
+    const huvud=(u.direktiv||[]).find(d=>d.typ==='huvud');
+    let start=(huvud&&huvud.datum)||u.tillsatt||null;
+    if(!start){
+      const anyD=(u.direktiv||[]).find(d=>d.datum);
+      if(anyD)start=anyD.datum;
+    }
+    // end: slutbetänkande datum if finns; annars planerad redovisning
+    const slut=(u.betankanden||[]).find(b=>b.typ==='slut'&&b.datum);
+    let end=(slut&&slut.datum)||u.redovisning||null;
+    if(!start||!end){
+      console.warn(`[utredning] ${u.id} (${u.beteckning||'–'}) saknar start=${start} eller slut=${end} — hoppas över`);
+      return;
+    }
+    const sp=pct(start),ep=pct(end);
+    out.push({
+      utr:u,
+      start,end,
+      startPct:sp,
+      endPct:Math.max(ep,sp+.5),
+      isPast:new Date(end)<NOW
+    });
+  });
+  return out;
+}
+
 function buildSubRows(rid){
   const subs=[];
   const u=uppdragData[rid];
@@ -327,11 +387,12 @@ function buildSubRows(rid){
 
 function renderGantt(){
   const rows=buildRows();
+  const utrRows=buildUtrRows();
   const n=np();
 
   // Header with years + quarter markers
   let h='<div class="gantt-header"><div class="gantt-header-label"></div><div class="gantt-header-chart">';
-  for(let y=2025;y<=2031;y++){
+  YEARS.forEach(y=>{
     const yp=pct(`${y}-01-01`);
     h+=`<div class="gantt-year-tick" style="left:${yp}%"></div>`;
     h+=`<div class="gantt-year-text" style="left:${yp}%">${y}</div>`;
@@ -340,20 +401,22 @@ function renderGantt(){
       const qp=pct(`${y}-${String((q-1)*3+1).padStart(2,'0')}-01`);
       if(qp>0&&qp<100)h+=`<div class="gantt-q-text" style="left:${qp}%;padding-left:3px">Q${q}</div>`;
     }
-  }
+  });
   h+=`<div class="gantt-now-line" style="left:${n}%"><div class="gantt-now-pip"></div><div class="gantt-now-label">Nu</div></div>`;
   h+='</div></div>';
 
   h+='<div class="gantt-body" id="ganttBody">';
   // Grid lines at each year
-  for(let y=2025;y<=2031;y++){
+  YEARS.forEach(y=>{
     h+=`<div class="gantt-grid-line" style="left:calc(var(--label-w) + var(--chart-w) * ${pct(`${y}-01-01`)} / 100)"></div>`;
-  }
+  });
   h+=`<div class="gantt-now-body" style="left:calc(var(--label-w) + var(--chart-w) * ${n} / 100)"></div>`;
 
   let rowIdx=0;
   catOrder.forEach(cat=>{
-    const cr=rows.filter(r=>r.reform.cat===cat);if(!cr.length)return;
+    const cr=rows.filter(r=>r.reform.cat===cat);
+    const cu=utrRows.filter(u=>u.utr.cat===cat);
+    if(!cr.length&&!cu.length)return;
     const cc=catColors[cat],dim=!activeKats.has(cat);
 
     // Category header with full-width colored background
@@ -402,6 +465,26 @@ function renderGantt(){
         h+=`</div></div>`;
       }
     });
+
+    // Utredningar inom samma kategori — renderas efter reformerna
+    if(cu.length){
+      h+=`<div class="gantt-utr-subheader">Utredningar (${cu.length})</div>`;
+      cu.forEach(ur=>{
+        const u=ur.utr,c=catColors[cat];
+        const zebra=rowIdx%2===1?'zebra':'';rowIdx++;
+        const sel=u.id===selectedUtrId;
+        const ongoing=u.status==='pagaende';
+        const display=utrShort(u);
+        const refLine=`${u.beteckning||''}${u.beteckning?' · ':''}Utredning · ${utrStatusLabels[u.status]||u.status}`;
+        h+=`<div class="gantt-row utr ${zebra} ${dim?'dimmed':''}" data-utr="${u.id}">`;
+        h+=`<div class="gantt-row-label">`;
+        h+=`<div class="gantt-row-chevron hidden">▶</div>`;
+        h+=`<div class="gantt-row-info"><div class="gantt-row-name">${ur.isPast?'<span class="past-check">✓</span>':''}${display}</div><div class="gantt-row-ref">${refLine}</div></div>`;
+        h+=`</div><div class="gantt-row-chart">`;
+        h+=`<div class="gantt-utr-bar ${ur.isPast?'past':''} ${sel?'selected':''}" style="left:${ur.startPct}%;width:${ur.endPct-ur.startPct}%;background-color:${c.bar};border-color:${c.bdr}">${ongoing?'<span class="gantt-utr-bar-arrow">→</span>':''}</div>`;
+        h+=`</div></div>`;
+      });
+    }
   });
 
   const orphans=handelser.filter(h=>!h.reform);
@@ -435,7 +518,8 @@ function renderDefaultSidebar(){
     const r=nextEv.reform?reforms.find(x=>x.id===nextEv.reform):null;
     nextText=`<br><br><strong>Nästa deadline:</strong><br>${p.label} — ${nextEv.titel}${r?' ('+r.short+')':''}`;
   }
-  document.getElementById('detailDefault').innerHTML=`<div class="detail-summary"><strong>${totalReforms}</strong> reformer med kända datum<br><strong>${uppdragCount}</strong> aktiva uppdrag<br><strong>${handelser.length}</strong> händelser i tidslinjen${nextText}</div>`;
+  const utrRendered=buildUtrRows().length;
+  document.getElementById('detailDefault').innerHTML=`<div class="detail-summary"><strong>${totalReforms}</strong> reformer med kända datum<br><strong>${utrRendered}</strong> utredningar i tidslinjen<br><strong>${uppdragCount}</strong> aktiva uppdrag<br><strong>${handelser.length}</strong> händelser${nextText}</div>`;
 }
 
 function setupTooltip(){
@@ -454,7 +538,7 @@ function setupTooltip(){
 
 function selectEvent(id){
   if(selectedId===id){selectedId=null;clearDetail();renderGantt();return}
-  selectedId=id;renderGantt();
+  selectedId=id;selectedUtrId=null;renderGantt();
   const ev=handelser.find(x=>x.id===id);if(!ev)return;
   const p=pd(ev.datum),cc=ev.kategori?catColors[ev.kategori]:null;
   const reform=ev.reform?reforms.find(r=>r.id===ev.reform):null;
@@ -473,6 +557,7 @@ function selectEvent(id){
   if(window.innerWidth<=800){document.getElementById('mobileSidebarContent').innerHTML=detailHtml;document.getElementById('mobileSidebar').classList.add('open');document.getElementById('mobileOverlay').classList.add('open')}
 }
 function selectUppdrag(reformId,idx){
+  selectedUtrId=null;
   const subs=buildSubRows(reformId);
   const ur=subs.filter(s=>s.type==='uppdrag')[idx];
   if(!ur)return;
@@ -498,7 +583,58 @@ function selectUppdrag(reformId,idx){
   if(window.innerWidth<=800){document.getElementById('mobileSidebarContent').innerHTML=detailHtml;document.getElementById('mobileSidebar').classList.add('open');document.getElementById('mobileOverlay').classList.add('open')}
 }
 
+function selectUtredning(id){
+  if(selectedUtrId===id){selectedUtrId=null;clearDetail();renderGantt();return}
+  selectedUtrId=id;selectedId=null;renderGantt();
+  const u=utredningar.find(x=>x.id===id);if(!u)return;
+  const cc=u.cat?catColors[u.cat]:null;
+  const startStr=((u.direktiv||[]).find(d=>d.typ==='huvud')||{}).datum||u.tillsatt||((u.direktiv||[]).find(d=>d.datum)||{}).datum;
+  const slutB=(u.betankanden||[]).find(b=>b.typ==='slut'&&b.datum);
+  const endStr=(slutB&&slutB.datum)||u.redovisning;
+  let html='';
+  if(cc)html+=`<div class="detail-cat" style="background:${cc.bg};color:${cc.color}">${catLabels[u.cat]}</div>`;
+  html+=`<div class="detail-title">${u.titel}</div>`;
+  html+=`<div class="detail-ref">${u.beteckning?u.beteckning+' · ':''}Utredning · ${utrStatusLabels[u.status]||u.status}</div>`;
+  if(u.utredare)html+=`<div class="detail-section"><div class="detail-label">Utredare</div><div class="detail-text">${u.utredare}</div></div>`;
+  if(u.dep)html+=`<div class="detail-section"><div class="detail-label">Departement</div><div class="detail-text">${u.dep}</div></div>`;
+  html+=`<div class="detail-section"><div class="detail-label">Tidsperiod</div><div class="detail-text">${startStr?pd(startStr).label:'okänt'} → ${endStr?pd(endStr).label:'okänt'}${u.status==='pagaende'?' (planerat)':''}</div></div>`;
+  if(u.direktiv&&u.direktiv.length){
+    const lines=u.direktiv.map(d=>{
+      const dt=d.datum?' ('+pd(d.datum).label+')':'';
+      const tt=d.titel?' — '+d.titel:'';
+      const typ=d.typ==='tilläggs'?' tilläggsdirektiv':'';
+      return `<strong>${d.nr}</strong>${typ}${dt}${tt}`;
+    });
+    html+=`<div class="detail-section"><div class="detail-label">Direktiv</div><div class="detail-text">${lines.join('<br>')}</div></div>`;
+  }
+  if(u.betankanden&&u.betankanden.length){
+    const lines=u.betankanden.map(b=>{
+      const dt=b.datum?' ('+pd(b.datum).label+')':'';
+      const tt=b.titel?' — '+b.titel:'';
+      const typ=b.typ==='del'?' delbetänkande':b.typ==='slut'?' slutbetänkande':'';
+      return `<strong>${b.nr||'(SOU okänt)'}</strong>${typ}${dt}${tt}`;
+    });
+    html+=`<div class="detail-section"><div class="detail-label">Betänkanden</div><div class="detail-text">${lines.join('<br>')}</div></div>`;
+  }
+  if(u.kopplad_reform){
+    const r=reforms.find(x=>x.id===u.kopplad_reform);
+    if(r){
+      const rc=catColors[r.cat];
+      html+=`<div class="detail-section"><div class="detail-label">Kopplad reform</div><div class="detail-text"><span class="cat-dot" style="background:${rc.color};vertical-align:middle;margin-right:4px"></span>${r.short} (${r.ref})</div><div class="detail-links" style="margin-top:.4rem"><a class="detail-link" href="reformer.html?reform=${r.id}">→ Reformtabellen</a><a class="detail-link" href="uppdrag.html?uppdrag=${r.id}">→ Uppdrag</a></div></div>`;
+    }
+  }
+  if(u.prop)html+=`<div class="detail-section"><div class="detail-label">Proposition</div><div class="detail-text">${u.prop}</div></div>`;
+  if(u.kallor&&u.kallor.length){
+    html+=`<div class="detail-section"><div class="detail-label">Källor</div><div class="detail-links">${u.kallor.map(k=>`<a class="detail-link" href="${k.url}" target="_blank" rel="noopener">↗ ${k.text}</a>`).join('')}</div></div>`;
+  }
+  if(u.noteringar)html+=`<div class="detail-section"><div class="detail-label">Noteringar</div><div class="detail-text" style="font-style:italic;color:#666">${u.noteringar}</div></div>`;
+  document.getElementById('detailPanel').innerHTML='<button class="detail-close" id="detailClose" aria-label="Stäng">×</button>'+html;
+  document.getElementById('detailClose').addEventListener('click',()=>{selectedUtrId=null;clearDetail();renderGantt()});
+  if(window.innerWidth<=800){document.getElementById('mobileSidebarContent').innerHTML=html;document.getElementById('mobileSidebar').classList.add('open');document.getElementById('mobileOverlay').classList.add('open')}
+}
+
 function clearDetail(){
+  selectedUtrId=null;
   // Restore the default sidebar structure first (selectEvent replaces innerHTML)
   document.getElementById('detailPanel').innerHTML='<div class="detail-empty" id="detailDefault"></div>';
   renderDefaultSidebar();
@@ -518,6 +654,9 @@ function init(){
     // Click on uppdrag sub-row (name or bar)
     const subRow=e.target.closest('.gantt-sub-row[data-uppdrag-reform]');
     if(subRow){selectUppdrag(subRow.dataset.uppdragReform,+subRow.dataset.uppdragIdx);return}
+    // Click on utredningsstapel
+    const utrRow=e.target.closest('.gantt-row.utr[data-utr]');
+    if(utrRow){selectUtredning(utrRow.dataset.utr);return}
   });
 
   document.getElementById('toggleAll').addEventListener('click',()=>{
@@ -541,8 +680,7 @@ function init(){
     btn.addEventListener('click',()=>{
       const y=+btn.dataset.year;
       const ticks=document.querySelectorAll('.gantt-year-tick');
-      const years=[2025,2026,2027,2028,2029,2030,2031];
-      const idx=years.indexOf(y);
+      const idx=YEARS.indexOf(y);
       if(idx>=0&&ticks[idx]){
         const rect=ticks[idx].getBoundingClientRect();
         window.scrollTo({left:window.scrollX+rect.left-20,behavior:'smooth'});
@@ -559,8 +697,13 @@ function dataPath(f){return'data/'+f}
 async function loadData(){
   try{
     const cb='?v='+Date.now();
-    const[t,r,u]=await Promise.all([fetch(dataPath('tidslinje.json')+cb).then(r=>r.json()),fetch(dataPath('reforms.json')+cb).then(r=>r.json()),fetch(dataPath('uppdrag.json')+cb).then(r=>r.json())]);
-    handelser=t.handelser;reforms=r;uppdragData=u;init();
+    const[t,r,u,ut]=await Promise.all([
+      fetch(dataPath('tidslinje.json')+cb).then(r=>r.json()),
+      fetch(dataPath('reforms.json')+cb).then(r=>r.json()),
+      fetch(dataPath('uppdrag.json')+cb).then(r=>r.json()),
+      fetch(dataPath('utredningar.json')+cb).then(r=>r.json())
+    ]);
+    handelser=t.handelser;reforms=r;uppdragData=u;utredningar=ut;init();
   }catch(err){console.error('Kunde inte ladda data:',err);document.getElementById('ganttArea').innerHTML='<p style="padding:2rem;color:#b91c1c;">Kunde inte ladda data.</p>'}
 }
 window.addEventListener('load',loadData);

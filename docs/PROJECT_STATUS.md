@@ -1,8 +1,17 @@
 # Project Status — leides-ljuvliga-lilla-reformkarta
 
-> **Last updated:** 2026-03-31
-> **Current sprint:** Underhåll — alla sprints (1–7) klara
-> **Sprint dates:** —
+> **Last updated:** 2026-06-10
+> **Current sprint:** Sprint 9 — utredningar på tidslinjen
+> **Sprint dates:** juni 2026
+
+---
+
+## Sprint 9 — Utredningar på tidslinjen
+
+| # | Task | Status | Notes |
+|---|------|--------|-------|
+| 9.T2 | Bakåtförlängd axel (2021) + utredningsstaplar | ✅ Done | Modell A — gemensam axel. 21 av 27 daterade utredningar renderas; 6 skips loggas i konsolen (saknad start/slut, fabriceras inte) |
+| 9.T2-followup | Komplettera saknade datum för 6 utredningar | ⬜ Todo | utr-fler-vagar (slut), utr-komvux (start), utr-heder (start), utr-grundlaggande-svenska (slut), utr-undervisningstid (slut), utr-lararutbildning (start) |
 
 ---
 
