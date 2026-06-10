@@ -25,7 +25,9 @@ const {
   dirBetFromEntry,
   isUtbildningsdepOrgan,
   extractStatusOgRelaterade,
+  extractBetBeslut,
   buildDataIndex,
+  TERMINAL_DATAFIL_STATUS,
 } = require('./riksdagen.js');
 
 // ---- Riktiga API-svar fångade 2026-06-10 -----------------------------------
@@ -36,6 +38,10 @@ function loadFixture(name) {
 const PROP_LIST = loadFixture('prop-dokumentlista-HB0320.json');       // Prop. 2023/24:20
 const PROP_STATUS = loadFixture('prop-dokumentstatus-HB0320.json');    // HB0320, dokreferens behandlas_i
 const DIR_WINDOW = loadFixture('dir-dokumentlista-window.json');       // 25 riktiga dir, organ-kortkoder
+// Bet-dokumentstatus (T2-fix-3, fångade 2026-06-10):
+const BET_BESLUTAD = loadFixture('bet-dokumentstatus-HB01UbU5.json');  // beslut 2023-12-20, rskr 2023/24:106
+const BET_BESLUTAD_NY = loadFixture('bet-dokumentstatus-HD01UbU29.json'); // beslut 2026-05-27, rskr 2025/26:300
+const BET_PLANERAD = loadFixture('bet-dokumentstatus-HD01UbU30.json'); // ALLA aktiviteter "planerat" (aug 2026)
 
 // ---- Fixture-dataset på disk (våra egna datafiler) -------------------------
 // Använder den RIKTIGA propen 2023/24:20 så manifestet matchar prop-fixturen,
@@ -43,7 +49,12 @@ const DIR_WINDOW = loadFixture('dir-dokumentlista-window.json');       // 25 rik
 function writeDataset() {
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'bevakning-data-'));
   fs.writeFileSync(path.join(dir, 'reforms.json'), JSON.stringify([
-    { id: 'reform-timplaner', short: 'Anpassad undervisningstid', ref: 'Prop. 2023/24:20', cat: 'kunskap', status: 'beslutad' },
+    // Icke-terminal status → jobb A ska kontrollera den (regel 2).
+    { id: 'reform-timplaner', short: 'Anpassad undervisningstid', ref: 'Prop. 2023/24:20', cat: 'kunskap', status: 'proposition' },
+    // Terminal status → jobb A ska INTE röra den (regel 1). Mocken saknar
+    // användbar rutt för denna prop — en felaktig fetch ger found:false-delta
+    // och fäller integrationstestets antal.
+    { id: 'reform-terminal', short: 'Redan beslutad reform', ref: 'Prop. 2022/23:54', cat: 'kunskap', status: 'beslutad' },
   ]));
   fs.writeFileSync(path.join(dir, 'uppdrag.json'), JSON.stringify({}));
   fs.writeFileSync(path.join(dir, 'utredningar.json'), JSON.stringify([
@@ -79,6 +90,7 @@ test('integration mot riktiga fixtures: A/B/C-deltan med korrekta fältformer', 
   const fetcher = makeMockFetcher([
     [/dokumentlista.*doktyp=prop/, PROP_LIST],
     [/dokumentstatus\/HB0320/, PROP_STATUS],
+    [/dokumentstatus\/HB01UbU5/, BET_BESLUTAD],
     [/dokumentlista.*doktyp=dir/, DIR_WINDOW],
     // Medvetet INGEN rutt för dir-dokumentstatus: om jobb B försöker detalj-
     // fetcha (organ finns ju på list-entryt) kastar mocken och testet faller.
@@ -86,14 +98,24 @@ test('integration mot riktiga fixtures: A/B/C-deltan med korrekta fältformer', 
 
   const report = await buildReport({ from: '2024-01-01', tom: '2024-02-15', dataDir, fetcher });
 
-  // --- Jobb A: prop-status med relaterade ur dokreferens (Bug 1) ---
+  // --- Jobb A: signalregel — terminal prop skippad, icke-terminal rapporteras
+  // med betänkandets beslutsläge (T2-fix-3) ---
   const propD = report.deltan.filter(d => d.typ === 'prop-status');
-  assert.equal(propD.length, 1);
+  assert.equal(propD.length, 1, `förväntade 1 prop-delta, fick ${propD.length}: ${propD.map(d => d.beteckning)}`);
   assert.equal(propD[0].beteckning, 'Prop. 2023/24:20');
   assert.equal(propD[0].api_sager.found, true);
   assert.equal(propD[0].api_sager.dok_id, 'HB0320');
-  assert.equal(propD[0].api_sager.status, 'Klar');
-  assert.deepEqual(propD[0].api_sager.relaterade, [{ kod: 'bet', text: '2023/24:UbU5' }]);
+  assert.equal(propD[0].api_sager.status, undefined); // publiceringsstatus "Klar" rapporteras inte längre
+  assert.deepEqual(propD[0].api_sager.betankanden, [{
+    bet: '2023/24:UbU5',
+    dok_id: 'HB01UbU5',
+    beslut_fattat: true,
+    statustext: 'Ärendet är avslutat',
+    beslutsdatum: '2023-12-20',
+    rdbeslut: 'Kammaren biföll utskottets förslag.',
+    rskr: '2023/24:106',
+  }]);
+  assert.equal(report.antal_kontrollerade.props_terminala_skippade, 1);
 
   // --- Jobb B: ett U-dep-direktiv, övriga departement bortfiltrerade (Bug 2+3) ---
   const nyaDir = report.deltan.filter(d => d.typ === 'nytt-direktiv');
@@ -108,7 +130,7 @@ test('integration mot riktiga fixtures: A/B/C-deltan med korrekta fältformer', 
   assert.equal(tillagg[0].kopplad_utredning, 'U 2022:04');
   assert.equal(tillagg[0].direktiv_beteckning, 'Dir. 2024:7');
 
-  assert.equal(report.antal_kontrollerade.props, 1);
+  assert.equal(report.antal_kontrollerade.props, 2);
   assert.equal(report.antal_kontrollerade.dir_i_fonster, 25);
 });
 
@@ -118,7 +140,61 @@ test('integration mot riktiga fixtures: A/B/C-deltan med korrekta fältformer', 
 test('Bug 1: relaterade läses ur dokreferens.referens (behandlas_i), ej dokuppgift', () => {
   const { status, relaterade } = extractStatusOgRelaterade(PROP_STATUS);
   assert.equal(status, 'Klar');
-  assert.deepEqual(relaterade, [{ kod: 'bet', text: '2023/24:UbU5' }]);
+  assert.deepEqual(relaterade, [{ kod: 'bet', text: '2023/24:UbU5', dok_id: 'HB01UbU5' }]);
+});
+
+// ============================================================================
+// SIGNALREGEL (T2-fix-3): beslutsläge ur betänkandets dokumentstatus
+// ============================================================================
+test('extractBetBeslut: beslutat betänkande → fattat, riksdagens text, datum, rskr', () => {
+  const beslut = extractBetBeslut(BET_BESLUTAD_NY); // HD01UbU29, riktigt svar
+  assert.deepEqual(beslut, {
+    beslut_fattat: true,
+    statustext: 'Ärendet är avslutat',
+    beslutsdatum: '2026-05-27',
+    rdbeslut: 'Kammaren biföll utskottets förslag.',
+    rskr: '2025/26:300',
+  });
+});
+
+test('extractBetBeslut: BES-aktivitet med status "planerat" är INTE fattat beslut', () => {
+  // HD01UbU30 (riktigt svar): obeslutade betänkanden HAR en BES-aktivitet,
+  // men med status "planerat" och framtida datum — kriteriet är "inträffat".
+  const beslut = extractBetBeslut(BET_PLANERAD);
+  assert.equal(beslut.beslut_fattat, false);
+  assert.equal(beslut.beslutsdatum, null);
+  assert.equal(beslut.rdbeslut, null);
+});
+
+test('signalregel 2: betänkande under behandling → inget prop-delta', async () => {
+  const dataDir = writeDataset();
+  const fetcher = makeMockFetcher([
+    [/dokumentlista.*doktyp=prop/, PROP_LIST],
+    [/dokumentstatus\/HB0320/, PROP_STATUS],
+    // Samma prop, men betänkandet svarar med det riktiga "planerat"-svaret:
+    [/dokumentstatus\/HB01UbU5/, BET_PLANERAD],
+    [/dokumentlista.*doktyp=dir/, { dokumentlista: { dokument: [] } }],
+  ]);
+  const report = await buildReport({ from: '2024-01-01', tom: '2024-02-15', dataDir, fetcher });
+  const propD = report.deltan.filter(d => d.typ === 'prop-status');
+  assert.equal(propD.length, 0, 'utskottsbehandling pågår → datafilen är korrekt → inget delta');
+});
+
+test('signalregel 1: terminal datafil-status → ingen API-fetch alls', async () => {
+  assert.ok(TERMINAL_DATAFIL_STATUS.has('beslutad'));
+  const dataDir = fs.mkdtempSync(path.join(os.tmpdir(), 'bevakning-terminal-'));
+  fs.writeFileSync(path.join(dataDir, 'reforms.json'), JSON.stringify([
+    { id: 'r1', short: 'X', ref: 'Prop. 2023/24:20', cat: 'kunskap', status: 'beslutad' },
+  ]));
+  fs.writeFileSync(path.join(dataDir, 'uppdrag.json'), '{}');
+  fs.writeFileSync(path.join(dataDir, 'utredningar.json'), '[]');
+  // Throwing fetcher för allt utom dir-fönstret: varje prop-fetch fäller testet.
+  const fetcher = makeMockFetcher([
+    [/dokumentlista.*doktyp=dir/, { dokumentlista: { dokument: [] } }],
+  ]);
+  const report = await buildReport({ from: '2024-01-01', tom: '2024-02-15', dataDir, fetcher });
+  assert.equal(report.deltan.length, 0);
+  assert.equal(report.antal_kontrollerade.props_terminala_skippade, 1);
 });
 
 // ============================================================================

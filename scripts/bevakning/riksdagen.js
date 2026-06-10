@@ -40,6 +40,21 @@
 //   4. Relaterade bet/rskr finns i `dokumentstatus.dokreferens.referens` med
 //      referenstyp "behandlas_i" — INTE i dokuppgift.uppgift (vars koder är
 //      inlamnatav/statustext/tilldelat).
+//
+// SIGNALREGEL JOBB A (T2-fix-3, 2026-06-10): propens dokument.status ("Klar")
+// är PUBLICERINGSSTATUS och bär ingen beslutsinformation — alla props
+// rapporterar "Klar" för evigt. Beslutssignalen finns i stället i det kopplade
+// BETÄNKANDETS dokumentstatus:
+//   - dokuppgift: statustext ("Ärendet är avslutat"), beslutdatumtid, rdbeslut
+//   - dokaktivitet: kod "BES"/"Beslut" — OBS att även OBESLUTADE betänkanden
+//     har en BES-aktivitet, men med status "planerat" och framtida datum
+//     (verifierat mot HD01UbU30 2026-06-10). Kriteriet är status "inträffat".
+//   - rskr i betänkandets dokreferens (referenstyp "rskr")
+// Regler: (1) props med terminal status i datafilen rapporteras inte alls
+// (ingen API-fetch); (2) övriga rapporteras ENDAST när minst ett kopplat
+// betänkande har fattat beslut — under utskottsbehandling är datafilen
+// fortfarande korrekt. Undantag: prop som inte hittas i API:t rapporteras
+// alltid (anomali — alla manifest-props ska finnas).
 
 'use strict';
 
@@ -147,9 +162,55 @@ function extractStatusOgRelaterade(dokstatus) {
     .map(r => ({
       kod: r.ref_dok_typ || r.referenstyp || null,           // t.ex. "bet" / "rskr"
       text: r.uppgift || r.ref_dok_bet || r.ref_dok_titel || null, // t.ex. "2023/24:UbU5"
+      dok_id: r.ref_dok_id || null,                          // för bet-dokumentstatus-uppslag
     }));
 
   return { status, relaterade };
+}
+
+// Terminal status i datafilen = riksdagsbehandlingen är redan avklarad enligt
+// oss; betänkandebeslut tillför inget. Faktiska statusvärden i reforms.json
+// idag: "proposition", "beslutad", "utredning" — endast "beslutad" är terminal.
+// Nya terminala värden ("i kraft" o.likn.) måste läggas till här när de
+// introduceras i datafilen.
+const TERMINAL_DATAFIL_STATUS = new Set(['beslutad']);
+
+// Beslutsläge ur ett BETÄNKANDES dokumentstatus-svar. Beskrivande — riksdagens
+// egna texter rapporteras, ingen tolkning. Se huvudkommentaren (SIGNALREGEL).
+function extractBetBeslut(betDokstatus) {
+  const ds = betDokstatus && betDokstatus.dokumentstatus;
+
+  const upgRaw = (ds && ds.dokuppgift && ds.dokuppgift.uppgift) || [];
+  const upg = {};
+  for (const u of (Array.isArray(upgRaw) ? upgRaw : [upgRaw])) {
+    if (u && u.kod) upg[u.kod] = u.text;
+  }
+
+  const aktRaw = (ds && ds.dokaktivitet && ds.dokaktivitet.aktivitet) || [];
+  const bes = (Array.isArray(aktRaw) ? aktRaw : [aktRaw]).find(a => a && a.kod === 'BES');
+
+  // Även obeslutade betänkanden HAR en BES-aktivitet (status "planerat",
+  // framtida datum) — kriteriet är status "inträffat", inte att BES finns.
+  // Fallback på beslutdatumtid om aktivitetslistan saknas helt.
+  const beslutFattat = bes ? bes.status === 'inträffat' : !!upg.beslutdatumtid;
+
+  const refRaw = (ds && ds.dokreferens && ds.dokreferens.referens) || [];
+  const rskrRef = (Array.isArray(refRaw) ? refRaw : [refRaw]).find(r => r && r.referenstyp === 'rskr');
+  const rskr = rskrRef
+    ? (rskrRef.ref_dok_rm && rskrRef.ref_dok_bet
+        ? `${rskrRef.ref_dok_rm}:${rskrRef.ref_dok_bet}`
+        : (rskrRef.uppgift || rskrRef.ref_dok_id || null))
+    : null;
+
+  const datum = s => (typeof s === 'string' && s.length >= 10 ? s.slice(0, 10) : null);
+
+  return {
+    beslut_fattat: beslutFattat,
+    statustext: upg.statustext || null,   // riksdagens egen text, t.ex. "Ärendet är avslutat"
+    beslutsdatum: datum(upg.beslutdatumtid) || (beslutFattat && bes ? datum(bes.datum) : null),
+    rdbeslut: upg.rdbeslut || null,       // t.ex. "Kammaren biföll utskottets förslag."
+    rskr,                                  // t.ex. "2023/24:106"
+  };
 }
 
 // ----------------------------- Datafil-index ---------------------------------
@@ -178,37 +239,70 @@ function buildDataIndex(dataDir) {
 
 async function jobA_props({ manifest, dataIndex, fetcher, verbose, delayMs }) {
   const deltan = [];
-  for (const entry of manifest.props) {
-    const resultat = await lookupProp(entry.id, { fetcher, verbose, delayMs });
-    let api_sager;
-    let dokstatusUrl = null;
+  let terminalaSkippade = 0;
 
+  for (const entry of manifest.props) {
+    const datafilenSager = dataIndex.props[entry.id] || null;
+    const kallaFil = (entry.referenser[0] && entry.referenser[0].kalla_fil) || null;
+
+    // Regel 1: terminal status i datafilen → riksdagsbehandlingen är redan
+    // registrerad hos oss, dokumentstatus "Klar" tillför inget. Ingen fetch.
+    if (datafilenSager && TERMINAL_DATAFIL_STATUS.has(datafilenSager.status)) {
+      terminalaSkippade++;
+      if (verbose) process.stderr.write(`[jobA] ${entry.id}: terminal datafil-status "${datafilenSager.status}" — skippas\n`);
+      continue;
+    }
+
+    const resultat = await lookupProp(entry.id, { fetcher, verbose, delayMs });
+
+    // Prop som inte hittas i API:t är en anomali (alla manifest-props ska
+    // finnas) — rapporteras alltid, signalregeln gäller bara funna props.
     if (!resultat.found) {
-      api_sager = { found: false };
-    } else {
-      const dokstatus = await fetchDokumentstatus(resultat.list_entry.dok_id, { fetcher, delayMs });
-      const sr = extractStatusOgRelaterade(dokstatus);
-      const dokument = (dokstatus && dokstatus.dokumentstatus && dokstatus.dokumentstatus.dokument) || {};
-      dokstatusUrl = dokument.dokument_url_html || `${API_BASE}/dokumentstatus/${resultat.list_entry.dok_id}.json`;
-      api_sager = {
-        found: true,
-        dok_id: resultat.list_entry.dok_id,
-        status: sr.status,
-        datum: dokument.datum || resultat.list_entry.datum || null,
-        relaterade: sr.relaterade,
-      };
+      deltan.push({
+        typ: 'prop-status',
+        beteckning: entry.id,
+        api_sager: { found: false },
+        datafilen_sager: datafilenSager,
+        kalla_fil: kallaFil,
+        url: resultat.query_url,
+      });
+      continue;
+    }
+
+    const dokstatus = await fetchDokumentstatus(resultat.list_entry.dok_id, { fetcher, delayMs });
+    const sr = extractStatusOgRelaterade(dokstatus);
+    const dokument = (dokstatus && dokstatus.dokumentstatus && dokstatus.dokumentstatus.dokument) || {};
+
+    // Regel 2: hämta beslutsläget för varje kopplat betänkande.
+    const betankanden = [];
+    for (const ref of sr.relaterade) {
+      if (ref.kod !== 'bet' || !ref.dok_id) continue;
+      const betStatus = await fetchDokumentstatus(ref.dok_id, { fetcher, delayMs });
+      betankanden.push({ bet: ref.text, dok_id: ref.dok_id, ...extractBetBeslut(betStatus) });
+    }
+
+    // Delta ENDAST när minst ett betänkande fattat beslut. Under utskotts-
+    // behandling (eller innan bet finns) är datafilens läge fortfarande korrekt.
+    if (!betankanden.some(b => b.beslut_fattat)) {
+      if (verbose) process.stderr.write(`[jobA] ${entry.id}: inget betänkandebeslut ännu — inget delta\n`);
+      continue;
     }
 
     deltan.push({
       typ: 'prop-status',
       beteckning: entry.id,
-      api_sager,
-      datafilen_sager: dataIndex.props[entry.id] || null,
-      kalla_fil: (entry.referenser[0] && entry.referenser[0].kalla_fil) || null,
-      url: dokstatusUrl || resultat.query_url,
+      api_sager: {
+        found: true,
+        dok_id: resultat.list_entry.dok_id,
+        datum: dokument.datum || resultat.list_entry.datum || null,
+        betankanden,
+      },
+      datafilen_sager: datafilenSager,
+      kalla_fil: kallaFil,
+      url: dokument.dokument_url_html || `${API_BASE}/dokumentstatus/${resultat.list_entry.dok_id}.json`,
     });
   }
-  return deltan;
+  return { deltan, terminalaSkippade };
 }
 
 async function fetchDirektivWindow({ from, tom, fetcher, delayMs = REQUEST_DELAY_MS_DEFAULT }) {
@@ -334,9 +428,9 @@ async function buildReport({ from, tom, dataDir, fetcher, verbose = false, delay
   const dataIndex = buildDataIndex(dataDir);
 
   const deltan = [];
-  // Jobb A: prop-status (alltid alla manifest-props)
-  const aDeltan = await jobA_props({ manifest, dataIndex, fetcher, verbose, delayMs });
-  deltan.push(...aDeltan);
+  // Jobb A: prop-status för icke-terminala manifest-props (se SIGNALREGEL)
+  const jobA = await jobA_props({ manifest, dataIndex, fetcher, verbose, delayMs });
+  deltan.push(...jobA.deltan);
 
   // Jobb B + C delar en list-fetch
   const direktivLista = await fetchDirektivWindow({ from, tom, fetcher, delayMs });
@@ -349,6 +443,7 @@ async function buildReport({ from, tom, dataDir, fetcher, verbose = false, delay
     fonster: { from, tom },
     antal_kontrollerade: {
       props: manifest.props.length,
+      props_terminala_skippade: jobA.terminalaSkippade,
       dir_i_fonster: direktivLista.length,
       utredningar_sparade: manifest.utredningar.length,
     },
@@ -391,8 +486,10 @@ module.exports = {
   isUtbildningsdepOrgan,
   buildDataIndex,
   extractStatusOgRelaterade,
+  extractBetBeslut,
   extractDepartement,
   defaultWindow,
+  TERMINAL_DATAFIL_STATUS,
 };
 
 if (require.main === module) {
