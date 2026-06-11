@@ -47,6 +47,7 @@ tills dess.
 | `krav` | lista av `{text, kalla:{text,url}}` | `text` = officiell formulering av kravet; källa till primärkälla (regeringen.se/riksdagen.se/SFS) |
 | `sfs` | sträng eller null | SFS-nummer; null tills kungörelse skett (kungörelsen släpar efter färska beslut — null betyder "ej kungjord ännu", aldrig gissad) |
 | `senast_andrad` | ISO-datum | Sätts/uppdateras av samma rutin som /bevakning-datapatcharna |
+| `noteringar` | sträng eller null | Tillagd i T2 (krävs av regeln "overifierbart → null + notering"; precedens utredningar.json): redovisar null-orsaker, representationsbeslut och vad som medvetet lämnats i källan |
 
 **Exempel-post — FIKTIV, illustrerar enbart formen (committas INTE i data/);
 «…» markerar platshållare där researchen ska sätta verifierad officiell text:**
@@ -82,7 +83,7 @@ tills dess.
 | ID | Task | Filer | Status | Acceptance |
 |----|------|-------|--------|------------|
 | T1 | Sprintregistrering + datamodell guidelagret | PROJECT_STATUS.md, DECISIONS.md | ✅ Done | Modell dokumenterad med fiktiv exempel-post (ej i data/); fil-vs-utökning avgjort och motiverat (DEC-009); språkregeln inbakad i kontraktet; inga datavärden (7bfc805) |
-| T2 | Ingestion batch 1+2 (9 reformer) + ordagrann extraktion övergångsbestämmelser | data/guide.json | ⬜ Todo | Diff godkänns före commit; allt källsatt; ingen /goal |
+| T2 | Ingestion batch 1+2 (9 reformer) + ordagrann extraktion övergångsbestämmelser | data/guide.json | ✅ Done | 9 poster, 40 krav samtliga källsatta {text,url} mot data.riksdagen.se; övergångsbestämmelser ordagrant ur prop-texterna (bilagornas utredningsförslag exkluderade); mobilfri-datum dubbelverifierat (lagförslag + UbU22 beslut i korthet); "mindre huvudman"-def + meritvärde-lägst-4 ordagrant; berors=null+notering där skolformslista ej verifierad (tid, brott, register-skolformer); noteringar-fält tillagt i kontraktet; språkregel-grep: 2 "bör"-träffar = citerad riksdagstext (citat-undantagsregel behövs i T6-granskningen). Diff godkänd av Niklas före commit. |
 | T3 | Ingestion batch 3 (genomförda reformer) | data/guide.json | ⬜ Todo | Samma regler som T2 |
 | T4 | Guidevyn (körs som /goal) | guide.html | ⬜ Todo | Testsviter gröna, inga konsolfel, språkregel i UI |
 | T5 | Korslänkning karta↔guide + 375px | guide.html, övriga .html | ⬜ Todo | Navigering åt båda håll |
