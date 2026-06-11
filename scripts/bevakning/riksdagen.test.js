@@ -20,11 +20,13 @@ const {
   buildReport,
   jobB_nyttDirektivUtbildningsdep,
   jobB2_nyaPropositioner,
+  jobB3_souPubliceringar,
   jobC_tillaggsdirToTracked,
   lookupProp,
   normalizeDirBet,
   dirBetFromEntry,
   propBetFromEntry,
+  souBetFromEntry,
   isUtbildningsdepOrgan,
   extractStatusOgRelaterade,
   extractBetBeslut,
@@ -41,6 +43,7 @@ const PROP_LIST = loadFixture('prop-dokumentlista-HB0320.json');       // Prop. 
 const PROP_STATUS = loadFixture('prop-dokumentstatus-HB0320.json');    // HB0320, dokreferens behandlas_i
 const DIR_WINDOW = loadFixture('dir-dokumentlista-window.json');       // 25 riktiga dir, organ-kortkoder
 const PROP_WINDOW = loadFixture('prop-dokumentlista-window.json');     // 31 riktiga props (T2-fix-4), 1 U-dep: HD03260
+const SOU_WINDOW = loadFixture('sou-dokumentlista-window.json');       // 5 riktiga SOU runt 2025-01-31 (T7), bl.a. SOU 2025:9
 // Bet-dokumentstatus (T2-fix-3, fångade 2026-06-10):
 const BET_BESLUTAD = loadFixture('bet-dokumentstatus-HB01UbU5.json');  // beslut 2023-12-20, rskr 2023/24:106
 const BET_BESLUTAD_NY = loadFixture('bet-dokumentstatus-HD01UbU29.json'); // beslut 2026-05-27, rskr 2025/26:300
@@ -65,7 +68,9 @@ function writeDataset() {
       id: 'utr-skolsakerhet', beteckning: 'U 2022:04', titel: 'Skolsäkerhetsutredningen',
       status: 'pagaende', cat: 'trygghet', tillsatt: '2022-06-01', redovisning: '2024-12-31',
       direktiv: [{ nr: 'Dir. 2022:86', datum: '2022-06-01', typ: 'huvud', titel: null }],
-      betankanden: [], prop: null, kopplad_reform: null, kallor: [], noteringar: null,
+      // Matchar SOU 2025:9 i SOU_WINDOW-fixturen → jobb B3 ska ge sou-levererad.
+      betankanden: [{ nr: 'SOU 2025:9', titel: 'På språklig grund', typ: 'slut', datum: '2025-01-31' }],
+      prop: null, kopplad_reform: null, kallor: [], noteringar: null,
     },
   ]));
   return dir;
@@ -91,8 +96,9 @@ function makeMockFetcher(routes) {
 test('integration mot riktiga fixtures: A/B/C-deltan med korrekta fältformer', async () => {
   const dataDir = writeDataset();
   const fetcher = makeMockFetcher([
-    // Fönsterrutten FÖRE lookup-rutten — bara fönster-URL:en bär &from=.
+    // Fönsterrutterna FÖRE lookup-rutten — bara fönster-URL:erna bär &from=.
     [/doktyp=prop.*&from=/, PROP_WINDOW],
+    [/doktyp=sou.*&from=/, SOU_WINDOW],
     [/dokumentlista.*doktyp=prop/, PROP_LIST],
     [/dokumentstatus\/HB0320/, PROP_STATUS],
     [/dokumentstatus\/HB01UbU5/, BET_BESLUTAD],
@@ -146,9 +152,26 @@ test('integration mot riktiga fixtures: A/B/C-deltan med korrekta fältformer', 
     url: 'https://data.riksdagen.se/dokument/HD03260.html', // protokoll-relativ url normaliserad
   });
 
+  // --- Jobb B3: SOU-publiceringar — båda varianterna (T7) ---
+  const souLev = report.deltan.filter(d => d.typ === 'sou-levererad');
+  assert.equal(souLev.length, 1);
+  assert.deepEqual(souLev[0], {
+    typ: 'sou-levererad',
+    beteckning: 'SOU 2025:9',
+    titel: 'På språklig grund',
+    datum: '2025-01-31',
+    utredning: 'utr-skolsakerhet', // testdatasetets utredning bär betänkandet
+    url: 'https://data.riksdagen.se/dokument/HDB39.html',
+  });
+  const nyaSou = report.deltan.filter(d => d.typ === 'ny-sou');
+  assert.equal(nyaSou.length, 4, 'övriga 4 SOU i fönstret är okända → ny-sou (ingen dep-filtrering möjlig)');
+  const spraklig = nyaSou.find(d => d.beteckning === 'SOU 2025:12');
+  assert.ok(spraklig, 'SOU 2025:12 (AI-kommissionen) ska vara ny-sou');
+
   assert.equal(report.antal_kontrollerade.props, 2);
   assert.equal(report.antal_kontrollerade.props_i_fonster, 31);
   assert.equal(report.antal_kontrollerade.dir_i_fonster, 25);
+  assert.equal(report.antal_kontrollerade.sou_i_fonster, 5);
 });
 
 // ============================================================================
@@ -191,6 +214,7 @@ test('signalregel 2: betänkande under behandling → inget prop-delta', async (
     // Samma prop, men betänkandet svarar med det riktiga "planerat"-svaret:
     [/dokumentstatus\/HB01UbU5/, BET_PLANERAD],
     [/dokumentlista.*doktyp=dir/, { dokumentlista: { dokument: [] } }],
+    [/doktyp=sou.*&from=/, { dokumentlista: { dokument: [] } }],
   ]);
   const report = await buildReport({ from: '2024-01-01', tom: '2024-02-15', dataDir, fetcher });
   const propD = report.deltan.filter(d => d.typ === 'prop-status');
@@ -210,6 +234,7 @@ test('signalregel 1: terminal datafil-status → ingen API-fetch alls', async ()
   const fetcher = makeMockFetcher([
     [/dokumentlista.*doktyp=dir/, { dokumentlista: { dokument: [] } }],
     [/doktyp=prop.*&from=/, { dokumentlista: { dokument: [] } }],
+    [/doktyp=sou.*&from=/, { dokumentlista: { dokument: [] } }],
   ]);
   const report = await buildReport({ from: '2024-01-01', tom: '2024-02-15', dataDir, fetcher });
   assert.equal(report.deltan.length, 0);
@@ -276,6 +301,48 @@ test('propBetFromEntry: bygger full beteckning ur rm (snedstrecksform) + nummer'
 });
 
 // ============================================================================
+// Jobb B3 (T7): SOU-publiceringar — sou-levererad vs ny-sou
+// ============================================================================
+test('jobb B3: betankanden-match → sou-levererad; okänd → ny-sou med ledtråd', () => {
+  const souLista = SOU_WINDOW.dokumentlista.dokument;
+  const manifest = {
+    sou: [
+      { id: 'SOU 2025:9', referenser: [{ kalla_fil: 'utredningar.json', kalla_post: 'utr-grundlaggande-svenska', falt: 'betankanden[0].nr' }] },
+      // Känd via reform-ref (inte betankanden) → ska INTE ge delta.
+      { id: 'SOU 2025:8', referenser: [{ kalla_fil: 'reforms.json', kalla_post: 'reform-x', falt: 'ref' }] },
+    ],
+  };
+  const deltan = jobB3_souPubliceringar({ souLista, manifest, verbose: false });
+
+  const lev = deltan.filter(d => d.typ === 'sou-levererad');
+  assert.equal(lev.length, 1);
+  assert.equal(lev[0].beteckning, 'SOU 2025:9');
+  assert.equal(lev[0].utredning, 'utr-grundlaggande-svenska');
+  assert.match(lev[0].url, /^https:\/\//);
+
+  const nya = deltan.filter(d => d.typ === 'ny-sou');
+  assert.equal(nya.length, 3, '2025:8 är känd (reform-ref) → inget delta; 10/11/12 → ny-sou');
+  assert.deepEqual(nya.map(d => d.beteckning).sort(), ['SOU 2025:10', 'SOU 2025:11', 'SOU 2025:12']);
+  // Triage-ledtråden ur summary ("Betänkande av ...") — riktiga fältvärden
+  for (const d of nya) assert.notEqual(d.betankande_av, undefined);
+});
+
+test('jobb B3: triage-ledtråden extraheras ur riktig summary', () => {
+  const souLista = SOU_WINDOW.dokumentlista.dokument;
+  const deltan = jobB3_souPubliceringar({ souLista, manifest: { sou: [] }, verbose: false });
+  const spraklig = deltan.find(d => d.beteckning === 'SOU 2025:9');
+  assert.equal(spraklig.typ, 'ny-sou'); // tomt manifest → allt okänt
+  assert.match(spraklig.betankande_av, /^Utredningen om införande av grundläggande svenska/);
+});
+
+test('souBetFromEntry: bygger beteckning ur rm (bart årtal) + nummer', () => {
+  assert.equal(souBetFromEntry({ rm: '2025', nummer: '9' }), 'SOU 2025:9');
+  assert.equal(souBetFromEntry({ rm: '2025', beteckning: '9' }), 'SOU 2025:9');
+  assert.equal(souBetFromEntry({ rm: '2025/26', nummer: '9' }), null); // prop-form
+  assert.equal(souBetFromEntry(null), null);
+});
+
+// ============================================================================
 // Bug 3 / dedup: känd dir i manifestet rapporteras INTE som ny
 // ============================================================================
 test('Bug 3: dir som redan finns i manifestet (byggd beteckning) dedupas bort', async () => {
@@ -320,12 +387,14 @@ test('tomt fönster ger inga B/C-deltan; prop-paren rapporteras (tomma utan prop
   const fetcher = makeMockFetcher([
     [/dokumentlista.*doktyp=dir/, { dokumentlista: { dokument: [] } }],
     [/doktyp=prop.*&from=/, { dokumentlista: { dokument: [] } }],
+    [/doktyp=sou.*&from=/, { dokumentlista: { dokument: [] } }],
   ]);
   const report = await buildReport({ from: '2099-01-01', tom: '2099-01-08', dataDir: dir, fetcher });
   assert.equal(report.deltan.length, 0);
   assert.equal(report.antal_kontrollerade.props, 0);
   assert.equal(report.antal_kontrollerade.props_i_fonster, 0);
   assert.equal(report.antal_kontrollerade.dir_i_fonster, 0);
+  assert.equal(report.antal_kontrollerade.sou_i_fonster, 0);
 });
 
 // ============================================================================

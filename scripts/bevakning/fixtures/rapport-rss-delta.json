@@ -1,19 +1,57 @@
 {
-  "korning": "2026-06-10T23:37:31.230Z",
+  "korning": "2026-06-11T09:01:59.324Z",
   "fonster": {
     "from": "2026-05-01",
     "tom": "2026-06-01"
   },
-  "kalla": "https://www.regeringen.se/Filter/RssFeed?filterType=Taxonomy&filterByType=FilterablePageBase&preFilteredCategories=2085&rootPageReference=0&filteredContentCategories=1294&displayLimited=true",
-  "antal_i_flodet": 100,
-  "aldsta_post_i_flodet": "2012-12-11",
-  "fonster_fullt_tackt": true,
+  "floden": [
+    {
+      "namn": "lagradsremiss",
+      "kalla": "https://www.regeringen.se/Filter/RssFeed?filterType=Taxonomy&filterByType=FilterablePageBase&preFilteredCategories=2085&rootPageReference=0&filteredContentCategories=1294&displayLimited=true",
+      "antal_i_flodet": 100,
+      "aldsta_post_i_flodet": "2012-12-11",
+      "fonster_fullt_tackt": true
+    },
+    {
+      "namn": "regeringsuppdrag",
+      "kalla": "https://www.regeringen.se/Filter/RssFeed?filterType=Taxonomy&filterByType=FilterablePageBase&preFilteredCategories=1342&rootPageReference=0&filteredContentCategories=1294&displayLimited=true",
+      "antal_i_flodet": 100,
+      "aldsta_post_i_flodet": "2019-05-22",
+      "fonster_fullt_tackt": true
+    },
+    {
+      "namn": "regleringsbrev",
+      "kalla": "https://www.statskontoret.se/specialsidor/rss/esv--regleringsbrev/",
+      "antal_i_flodet": 86,
+      "aldsta_post_i_flodet": "2026-03-16",
+      "fonster_fullt_tackt": true
+    }
+  ],
   "deltan": [
     {
       "typ": "lagradsremiss",
       "titel": "Skärpta villkor för friskolesektorn",
       "datum": "2026-05-13",
       "url": "https://www.regeringen.se/rattsliga-dokument/lagradsremiss/2026/05/skarpta-villkor-for-friskolesektorn/"
+    },
+    {
+      "typ": "regeringsuppdrag",
+      "titel": "Uppdrag till Vetenskapsrådet om nationell stödfunktion för ansvarsfull internationalisering vid utbildnings-, forsknings- och innovationssamarbeten",
+      "datum": "2026-05-25",
+      "url": "https://www.regeringen.se/regeringsuppdrag/2026/05/uppdrag-till-vetenskapsradet-om-nationell-stodfunktion-for-ansvarsfull-internationalisering-vid-utbildnings--forsknings--och-innovationssamarbeten/"
+    },
+    {
+      "typ": "regeringsuppdrag",
+      "titel": "Uppdrag till Statens skolverk om stöd i tillämpningen av nya regler om informationsutbyte",
+      "datum": "2026-05-21",
+      "url": "https://www.regeringen.se/regeringsuppdrag/2026/05/uppdrag-till-statens-skolverk-om-stod-i-tillampningen-av-nya-regler-om-informationsutbyte/"
+    },
+    {
+      "typ": "regleringsbrev",
+      "titel": "Ändringsbeslut Myndighet Statens skolverk (beslutsdatum 2026-05-25)",
+      "datum": "2026-05-25",
+      "url": "https://www.statskontoret.se/statsliggaren/regleringsbrev/?rbid=26371",
+      "myndighet": "Statens skolverk"
     }
   ]
 }
