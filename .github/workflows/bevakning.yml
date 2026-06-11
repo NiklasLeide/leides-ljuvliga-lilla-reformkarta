@@ -37,9 +37,11 @@ jobs:
   bevakning:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      # v5/v6: v4-actions deprecerades med Node 20-runnern (tvingas till
+      # Node 24 från 2026-06-16 — varning i testkörningarna 2026-06-11).
+      - uses: actions/checkout@v6
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
           node-version: '20'
 

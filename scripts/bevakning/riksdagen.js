@@ -94,6 +94,13 @@ function makeHttpFetcher({ verbose = false } = {}) {
 
 const sleep = (ms) => new Promise(r => setTimeout(r, ms));
 
+// API:ts dokument_url_html är protokoll-relativ ("//data.riksdagen.se/...") —
+// normalisera till https så länkarna fungerar överallt (issue-body, terminal).
+function absUrl(raw) {
+  if (typeof raw !== 'string' || raw === '') return raw;
+  return raw.startsWith('//') ? `https:${raw}` : raw;
+}
+
 // Default-delay för skarpa API-anrop. Tests kan sänka via buildReport({ delayMs: 0 }).
 const REQUEST_DELAY_MS_DEFAULT = 600;
 
@@ -301,7 +308,7 @@ async function jobA_props({ manifest, dataIndex, fetcher, verbose, delayMs }) {
       },
       datafilen_sager: datafilenSager,
       kalla_fil: kallaFil,
-      url: dokument.dokument_url_html || `${API_BASE}/dokumentstatus/${resultat.list_entry.dok_id}.json`,
+      url: absUrl(dokument.dokument_url_html) || `${API_BASE}/dokumentstatus/${resultat.list_entry.dok_id}.json`,
     });
   }
   return { deltan, terminalaSkippade };
@@ -400,7 +407,7 @@ async function jobB_nyttDirektivUtbildningsdep({ direktivLista, manifest, fetche
       titel: entry.titel || null,
       datum: entry.datum || null,
       departement: organ, // kortkod som API:t ger, t.ex. "U-dep"
-      url: entry.dokument_url_html || `${API_BASE}/dokument/${entry.dok_id}`,
+      url: absUrl(entry.dokument_url_html) || `${API_BASE}/dokument/${entry.dok_id}`,
       detail_fetched: detailFetched,
     });
   }
@@ -447,14 +454,12 @@ async function jobB2_nyaPropositioner({ propLista, manifest, fetcher, verbose, d
 
     if (!isUtbildningsdepOrgan(organ)) continue;
 
-    // dokument_url_html är protokoll-relativ ("//data.riksdagen.se/...")
-    const rawUrl = entry.dokument_url_html || `${API_BASE}/dokument/${entry.dok_id}`;
     deltan.push({
       typ: 'ny-proposition',
       beteckning: bet || entry.beteckning,
       titel: entry.titel || null,
       datum: typeof entry.datum === 'string' ? entry.datum.slice(0, 10) : null,
-      url: rawUrl.startsWith('//') ? `https:${rawUrl}` : rawUrl,
+      url: absUrl(entry.dokument_url_html) || `${API_BASE}/dokument/${entry.dok_id}`,
     });
   }
   return deltan;
@@ -475,7 +480,7 @@ function jobC_tillaggsdirToTracked({ direktivLista, manifest }) {
       kopplad_utredning: m[1],
       titel,
       datum: entry.datum || null,
-      url: entry.dokument_url_html || `${API_BASE}/dokument/${entry.dok_id}`,
+      url: absUrl(entry.dokument_url_html) || `${API_BASE}/dokument/${entry.dok_id}`,
     });
   }
   return deltan;

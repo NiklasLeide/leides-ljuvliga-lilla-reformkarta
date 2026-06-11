@@ -241,6 +241,7 @@ test('Bug 2: jobb B plockar bara U-dep ur riktig dir-lista utan detalj-fetch', a
   assert.equal(deltan[0].beteckning, 'Dir. 2024:7');
   assert.equal(deltan[0].departement, 'U-dep');
   assert.equal(deltan[0].detail_fetched, false);
+  assert.match(deltan[0].url, /^https?:\/\//, 'protokoll-relativ url ska normaliseras');
 });
 
 // ============================================================================
@@ -305,6 +306,7 @@ test('jobb C: tilläggsdir vars titel refererar tracked U-beteckning (2 och 3 si
   assert.deepEqual(koppl, ['U 2023:05', 'U 2025:101']);
   const tresiffrig = deltan.find(d => d.kopplad_utredning === 'U 2025:101');
   assert.equal(tresiffrig.direktiv_beteckning, 'Dir. 2099:201'); // byggd ur rm+nummer
+  for (const d of deltan) assert.match(d.url, /^https?:\/\//, 'protokoll-relativ url ska normaliseras');
 });
 
 // ============================================================================
