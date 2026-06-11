@@ -106,6 +106,12 @@ You are a **critical friend**, not a yes-machine.
 - If context window is >70% full, say so and suggest /compact before continuing
 - Scope each session to ONE feature or ONE bug — push back if asked to do more
 
+## Rapporteringsregel (alla tasks)
+Innan du rapporterar utfall: granska varje påstående mot ett faktiskt
+verktygsresultat från denna session. Rapportera endast det du kan peka
+på belägg för. Om något inte är verifierat eller hoppades över — säg det
+uttryckligen. Misslyckade tester rapporteras med output, inte omskrivning.
+
 ## What Claude Gets Wrong on This Project
 <!-- Update this as you discover patterns — highest-value section -->
 - **overflow-x/overflow-y-fällan**: CSS-specen tvingar overflow-y till auto om overflow-x sätts till auto. Använd ALDRIG overflow-x:auto på ett element som ska scrolla vertikalt med sidan. Tidslinjen bröts tre gånger av detta.
