@@ -72,7 +72,7 @@ samma commit.
 | `tillaggsdir-till-tracked-utredning` | C | data.riksdagen.se | Tilläggsdir till spårade utredningar, alla departement |
 | `lagradsremiss` | rss.js | regeringen.se RSS | Nya U-dep-lagrådsremisser i fönstret |
 | `regeringsuppdrag` | rss.js | regeringen.se RSS | Nya U-dep-regeringsuppdrag i fönstret (alla myndigheter, inte bara Skolverket — även ändringsbeslut flödar här) |
-| `regleringsbrev` | rss.js | statsliggaren RSS (statskontoret.se) | Regleringsbrev + ändringsbeslut för skolmyndigheterna (REGLERINGSBREV_MYNDIGHETER-konfig; lärosäten bortfiltrerade — fast scopegräns). OBS grunt flöde ~3 mån; delta-datum = beslutsdatum ur titeln |
+| `regleringsbrev` | rss.js | statsliggaren RSS (statskontoret.se) | Regleringsbrev + ändringsbeslut för skolmyndigheterna (REGLERINGSBREV_MYNDIGHETER-konfig; lärosäten bortfiltrerade — fast scopegräns). OBS grunt flöde ~3 mån; delta-datum = beslutsdatum ur titeln. **CI-LUCKA: statskontoret.se blockerar GitHub-runners (DEC-008) — i veckorapporten syns flödet som 🔴 feed_fel; täckningen kräver lokal körning tills blockeringen löses** |
 
 ---
 
@@ -138,6 +138,11 @@ den har formatet ändrats och koden ska anpassas, inte testerna luckras upp.
 - **workflow_dispatch 404** → filen finns inte på master ännu (deploya).
 - **Feed-URL:en slutar svara** → discovery-metoden står i rss.js
   huvudkommentar (filter-UI:ts data-attribut → /Filter/RssFeed-parametrar).
+- **🔴 feed_fel i rapporten** → flödet gick inte att hämta från runnern;
+  övriga flöden levererade ändå (DEC-008). Känt fall: statskontoret.se
+  blockerar GitHub Actions-runners (fungerar lokalt — kör
+  `node scripts/bevakning/rss.js` från egen maskin för att täcka luckan).
+  Faller ALLA flöden blir körningen röd som vanligt.
 
 ---
 

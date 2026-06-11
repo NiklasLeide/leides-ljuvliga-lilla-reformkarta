@@ -133,6 +133,20 @@ test('regleringsbrev-typen renderas med myndighet och statsliggarlänk (T9)', ()
   assert.doesNotMatch(r.body, /## Övrigt/);
 });
 
+test('feed_fel renderas som 🔴-varning och FEL i footern (DEC-008)', () => {
+  const rss = {
+    ...RSS,
+    deltan: [],
+    floden: [
+      { namn: 'lagradsremiss', antal_i_flodet: 100, aldsta_post_i_flodet: '2012-12-11', fonster_fullt_tackt: true },
+      { namn: 'regleringsbrev', kalla: 'https://www.statskontoret.se/...', feed_fel: 'Nätverksfel mot ...: fetch failed' },
+    ],
+  };
+  const r = buildRapport({ riksdagen: { ...RIKSDAGEN, deltan: [] }, rss, nu: NU });
+  assert.match(r.body, /🔴 RSS-flödet \*\*regleringsbrev\*\* kunde INTE hämtas \(Nätverksfel mot \.\.\.: fetch failed\)/);
+  assert.match(r.body, /RSS: lagradsremiss 100 poster, regleringsbrev FEL/);
+});
+
 test('rss-varning "ej fullt täckt" tas med per flöde (multi-feed)', () => {
   const rss = {
     ...RSS,
