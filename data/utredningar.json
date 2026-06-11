@@ -521,7 +521,7 @@
     "tillsatt": null,
     "redovisning": null,
     "direktiv": [
-      { "nr": "Dir. 2023:175", "datum": "2023-12-18", "typ": "huvud", "titel": "Införande av grundläggande svenska och översyn av modersmålsundervisningen" }
+      { "nr": "Dir. 2023:175", "datum": "2023-12-14", "typ": "huvud", "titel": "Införande av grundläggande svenska och översyn av modersmålsundervisningen" }
     ],
     "betankanden": [
       { "nr": "SOU 2025:9", "titel": "På språklig grund", "typ": "slut", "datum": "2025-01-31" }
@@ -529,7 +529,7 @@
     "prop": null,
     "kopplad_reform": null,
     "kallor": [ { "text": "Dir. 2023:175", "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2023/12/dir.-2023175" } ],
-    "noteringar": "Svag möjlig koppling till sprak/laroplaner. Utredare ej verifierad. cat satt redaktionellt. OBS: Dir. 2023:175 datum (2023-12-18) är publiceringsdatum, beslutsdatum ej verifierat — bevakas."
+    "noteringar": "Svag möjlig koppling till sprak/laroplaner. Utredare ej verifierad. cat satt redaktionellt. Dir. 2023:175 beslutsdatum 2023-12-14 verifierat 2026-06-11 mot dir-textens beslutsformel (\"Beslut vid regeringssammanträde den 14 december 2023\", data.riksdagen.se/dokument/HBB1175)."
   },
   {
     "id": "utr-undervisningstid",
