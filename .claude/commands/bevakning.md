@@ -51,6 +51,12 @@ och följ dem; de upprepas inte här.
      Skolverket rapporteras också — scope är din bedömning; utanför →
      ignorera med motivering. Ändringsbeslut av spårade uppdrag flödar
      genom samma feed: uppdatera befintlig post, skapa inte dubblett.
+   - `regleringsbrev` — verifiera mot rbid-sidan i statsliggaren
+     (källänken, statskontoret.se). Delta-datum är beslutsdatum (ur
+     titeln), inte publiceringsdatum — använd det. Ändringsbeslut
+     ("Ändringsbeslut Myndighet ..." i titeln) uppdaterar befintliga
+     uppdragsposter i uppdrag.json, skapar inte dubbletter; läs på
+     rbid-sidan VAD som ändrats innan du rör datafilen.
 
 4. **Bygg datapatchen** för alla åtgärda-deltan enligt reglerna i
    BEVAKNING.md. Rör bara fält som källorna styrker. Uppdatera även

@@ -1,5 +1,5 @@
 {
-  "korning": "2026-06-11T07:02:19.929Z",
+  "korning": "2026-06-11T09:01:59.324Z",
   "fonster": {
     "from": "2026-05-01",
     "tom": "2026-06-01"
@@ -17,6 +17,13 @@
       "kalla": "https://www.regeringen.se/Filter/RssFeed?filterType=Taxonomy&filterByType=FilterablePageBase&preFilteredCategories=1342&rootPageReference=0&filteredContentCategories=1294&displayLimited=true",
       "antal_i_flodet": 100,
       "aldsta_post_i_flodet": "2019-05-22",
+      "fonster_fullt_tackt": true
+    },
+    {
+      "namn": "regleringsbrev",
+      "kalla": "https://www.statskontoret.se/specialsidor/rss/esv--regleringsbrev/",
+      "antal_i_flodet": 86,
+      "aldsta_post_i_flodet": "2026-03-16",
       "fonster_fullt_tackt": true
     }
   ],
@@ -38,6 +45,13 @@
       "titel": "Uppdrag till Statens skolverk om stöd i tillämpningen av nya regler om informationsutbyte",
       "datum": "2026-05-21",
       "url": "https://www.regeringen.se/regeringsuppdrag/2026/05/uppdrag-till-statens-skolverk-om-stod-i-tillampningen-av-nya-regler-om-informationsutbyte/"
+    },
+    {
+      "typ": "regleringsbrev",
+      "titel": "Ändringsbeslut Myndighet Statens skolverk (beslutsdatum 2026-05-25)",
+      "datum": "2026-05-25",
+      "url": "https://www.statskontoret.se/statsliggaren/regleringsbrev/?rbid=26371",
+      "myndighet": "Statens skolverk"
     }
   ]
 }

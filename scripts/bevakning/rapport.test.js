@@ -4,8 +4,8 @@
 // Indatafixtures är RIKTIGA rapporter från skarpa körningar 2026-06-11:
 //   rapport-riksdagen-delta.json — fönster 2026-04-25→2026-06-10: 9 prop-status,
 //     1 nytt-direktiv, 1 ny-proposition, 5 ny-sou, 1 tilläggsdir (17 deltan)
-//   rapport-rss-delta.json — fönster 2026-05-01→2026-06-01, multi-feed (T8):
-//     friskole-lagrådsremissen + 2 regeringsuppdrag (3 deltan)
+//   rapport-rss-delta.json — fönster 2026-05-01→2026-06-01, multi-feed (T8+T9):
+//     friskole-lagrådsremissen + 2 regeringsuppdrag + 1 regleringsbrev (4 deltan)
 
 'use strict';
 
@@ -20,7 +20,7 @@ function loadFixture(name) {
   return JSON.parse(fs.readFileSync(path.join(FIXTURE_DIR, name), 'utf8'));
 }
 const RIKSDAGEN = loadFixture('rapport-riksdagen-delta.json'); // 17 deltan, alla riksdagen-typer
-const RSS = loadFixture('rapport-rss-delta.json');             // 3 deltan: 1 lagrådsremiss + 2 uppdrag
+const RSS = loadFixture('rapport-rss-delta.json');             // 4 deltan: 1 lagrådsremiss + 2 uppdrag + 1 regleringsbrev
 
 const NU = new Date('2026-06-11T07:00:00Z');
 
@@ -28,12 +28,12 @@ test('full rapport: alla sektioner, kryssrutor, källänkar och footer', () => {
   const r = buildRapport({ riksdagen: RIKSDAGEN, rss: RSS, nu: NU });
 
   assert.equal(r.harDeltan, true);
-  assert.equal(r.antalDeltan, 20); // 17 riksdagen + 3 rss
+  assert.equal(r.antalDeltan, 21); // 17 riksdagen + 4 rss
   assert.equal(r.titel, 'Bevakningsrapport v.24 2026');
 
   // En tom triage-kryssruta per delta — varken fler eller färre.
   const kryssrutor = (r.body.match(/^- \[ \] /gm) || []).length;
-  assert.equal(kryssrutor, 20);
+  assert.equal(kryssrutor, 21);
 
   // Sektionsrubriker med antal
   assert.match(r.body, /## A\. Propositionsstatus — betänkandebeslut att triagera \(9\)/);
@@ -43,6 +43,7 @@ test('full rapport: alla sektioner, kryssrutor, källänkar och footer', () => {
   assert.match(r.body, /## C\. Tilläggsdirektiv till spårade utredningar \(1\)/);
   assert.match(r.body, /## Lagrådsremisser \(Utbildningsdep\.\) \(1\)/);
   assert.match(r.body, /## Regeringsuppdrag \(Utbildningsdep\.\) \(2\)/);
+  assert.match(r.body, /## Regleringsbrev & ändringsbeslut \(skolmyndigheterna\) \(1\)/);
 
   // Regeringsuppdrag med primärkällänk (T8)
   assert.match(r.body, /\*\*Uppdrag till Statens skolverk om stöd i tillämpningen[^*]*\*\* \(2026-05-21\) — \[uppdrag\]\(https:\/\/www\.regeringen\.se\/regeringsuppdrag\//);
@@ -56,7 +57,7 @@ test('full rapport: alla sektioner, kryssrutor, källänkar och footer', () => {
   assert.match(r.body, /\*\*Skärpta villkor för friskolesektorn\*\* \(2026-05-13\) — \[lagrådsremiss\]\(https:\/\/www\.regeringen\.se\//);
 
   // Footer: antal_kontrollerade per kategori + körningsdatum
-  assert.match(r.body, /\*\*Kontrollerat:\*\* 12 props i manifestet \(3 terminala skippade\) · 31 props i fönstret · 16 direktiv i fönstret · 5 SOU i fönstret · 27 spårade utredningar · RSS: lagradsremiss 100 poster, regeringsuppdrag 100 poster/);
+  assert.match(r.body, /\*\*Kontrollerat:\*\* 12 props i manifestet \(3 terminala skippade\) · 31 props i fönstret · 16 direktiv i fönstret · 5 SOU i fönstret · 27 spårade utredningar · RSS: lagradsremiss 100 poster, regeringsuppdrag 100 poster, regleringsbrev 86 poster/);
   assert.match(r.body, /\*\*Körningar:\*\* riksdagen 2026-06-11T.*· RSS /);
   assert.match(r.body, /\*\*Fönster:\*\* 2026-04-25 → 2026-06-10/);
 });
@@ -117,6 +118,19 @@ test('B3-typerna renderas med egna sektioner (T7)', () => {
   assert.doesNotMatch(r.body, /\*\*SOU 2025:11\*\*.*betänkande av/); // null-ledtråd renderas inte
   assert.doesNotMatch(r.body, /## Övrigt/); // typerna är kända, hamnar inte i Övrigt
   assert.equal((r.body.match(/^- \[ \] /gm) || []).length, 3);
+});
+
+test('regleringsbrev-typen renderas med myndighet och statsliggarlänk (T9)', () => {
+  const rss = {
+    ...RSS,
+    deltan: [
+      { typ: 'regleringsbrev', titel: 'Ändringsbeslut Myndighet Statens skolverk (beslutsdatum 2026-05-25)', myndighet: 'Statens skolverk', datum: '2026-05-25', url: 'https://www.statskontoret.se/statsliggaren/regleringsbrev/?rbid=26371' },
+    ],
+  };
+  const r = buildRapport({ riksdagen: { ...RIKSDAGEN, deltan: [] }, rss, nu: NU });
+  assert.match(r.body, /## Regleringsbrev & ändringsbeslut \(skolmyndigheterna\) \(1\)/);
+  assert.match(r.body, /\*\*Statens skolverk\*\* — Ändringsbeslut Myndighet Statens skolverk \(beslutsdatum 2026-05-25\) — \[statsliggaren\]\(https:\/\/www\.statskontoret\.se\/statsliggaren\/regleringsbrev\/\?rbid=26371\)/);
+  assert.doesNotMatch(r.body, /## Övrigt/);
 });
 
 test('rss-varning "ej fullt täckt" tas med per flöde (multi-feed)', () => {

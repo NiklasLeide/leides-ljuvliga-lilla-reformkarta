@@ -31,10 +31,14 @@ följer rutinen härifrån — reglerna definieras HÄR och dupliceras inte.
   signalvärde, BES-aktivitet "planerat" vs "inträffat", organ-kortkoder,
   SOU helt utan departementsdata → ny-sou listar alla departement)
   dokumenteras i filens huvudkommentar — läs den innan du ändrar något.
-- `rss.js` — multi-feed mot regeringen.se:s RSS (U-dep-filtrerade flöden;
-  riksdagens API täcker inte dessa dokumenttyper): lagrådsremisser +
-  regeringsuppdrag. Feed-konfigen FEEDS driver samma parser/fönsterlogik per
-  flöde; täckningsflaggan ("fönster ej fullt täckt") sätts per flöde.
+- `rss.js` — multi-feed-RSS (dokumenttyper riksdagens API inte täcker):
+  lagrådsremisser + regeringsuppdrag (regeringen.se, U-dep-filtrerade
+  server-side) och regleringsbrev/ändringsbeslut (statsliggaren hos
+  Statskontoret, tvåstegsfiltrerade i kod: U-dep + skolmyndighetslistan
+  REGLERINGSBREV_MYNDIGHETER). Feed-konfigen FEEDS driver samma
+  parser/fönsterlogik per flöde; täckningsflaggan ("fönster ej fullt
+  täckt") sätts per flöde — extra viktig för statsliggaren vars flöde
+  bara når ~3 månader bakåt.
 - `rapport.js` — bygger issue-bodyn ur de två rapporterna. Okända delta-typer
   hamnar i "Övrigt", aldrig tyst tappade.
 - Tester: `node --test scripts/bevakning/<fil>.test.js` (en fil i taget).
@@ -68,6 +72,7 @@ samma commit.
 | `tillaggsdir-till-tracked-utredning` | C | data.riksdagen.se | Tilläggsdir till spårade utredningar, alla departement |
 | `lagradsremiss` | rss.js | regeringen.se RSS | Nya U-dep-lagrådsremisser i fönstret |
 | `regeringsuppdrag` | rss.js | regeringen.se RSS | Nya U-dep-regeringsuppdrag i fönstret (alla myndigheter, inte bara Skolverket — även ändringsbeslut flödar här) |
+| `regleringsbrev` | rss.js | statsliggaren RSS (statskontoret.se) | Regleringsbrev + ändringsbeslut för skolmyndigheterna (REGLERINGSBREV_MYNDIGHETER-konfig; lärosäten bortfiltrerade — fast scopegräns). OBS grunt flöde ~3 mån; delta-datum = beslutsdatum ur titeln |
 
 ---
 
@@ -138,9 +143,11 @@ den har formatet ändrats och koden ska anpassas, inte testerna luckras upp.
 
 ## Manuell bevakning — täcks INTE av automationen
 
-Automationen täcker riksdagsdokument (prop/dir/bet/SOU), lagrådsremisser och
-regeringsuppdrag — se Täckningskartan. Följande källor kräver fortfarande
-manuell koll (månadsvis, eller veckovis under voteringsperioden april–juni):
+Automationen täcker riksdagsdokument (prop/dir/bet/SOU), lagrådsremisser,
+regeringsuppdrag och regleringsbrev — se Täckningskartan. Kvar för manuell
+koll är ENBART Skolverkets egna sidor (myndighetens genomförandearbete har
+ingen strukturerad källa) plus de lösa trådarna under Övrigt. Månadsvis,
+eller veckovis under voteringsperioden april–juni:
 
 ### Skolverket
 - [ ] Aktuella regeländringar: https://www.skolverket.se/styrning-och-ansvar/forandringar-inom-skolomradet/aktuella-regelandringar
@@ -151,12 +158,7 @@ manuell koll (månadsvis, eller veckovis under voteringsperioden april–juni):
 - [ ] Gy25 (i drift, övergång t.o.m. 2030): https://www.skolverket.se/styrning-och-ansvar/forandringar-inom-skolomradet/gy25----amnesbetyg-pa-gymnasial-niva
 - [ ] Professionsprogrammet (i drift): https://www.skolverket.se/skolutveckling/professionsutveckling/professionsprogrammet
 
-### Regeringen (politik — ej rättsliga dokument)
-- [ ] Skolprioriteringen: https://www.regeringen.se/regeringens-politik/regeringens-prioriteringar/skola/
-
-### Regleringsbrev
-- [ ] RB 2026: https://www.statskontoret.se/regleringsbrev/25940/pdf?Version=HelaBrevet
-
 ### Övrigt
+- [ ] Skolprioriteringen (politiksida, ingen feed): https://www.regeringen.se/regeringens-politik/regeringens-prioriteringar/skola/
 - [ ] EU:s AI-förordning — bevaka om Skolverket får uppdrag (inget uppdrag ännu)
 - [ ] Ändrade timplaner (Prop. 2023/24:20) — källa för detaljer saknas fortfarande

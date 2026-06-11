@@ -93,6 +93,11 @@ function renderUppdrag(d) {
   return [`- [ ] **${mdEscape(d.titel)}** (${d.datum}) — [uppdrag](${d.url})`];
 }
 
+function renderRegleringsbrev(d) {
+  // Titeln bär redan beslutsform + beslutsdatum ("Ändringsbeslut Myndighet ...")
+  return [`- [ ] **${d.myndighet}** — ${mdEscape(d.titel)} — [statsliggaren](${d.url})`];
+}
+
 const SEKTIONER = [
   { typ: 'prop-status', rubrik: 'A. Propositionsstatus — betänkandebeslut att triagera', render: renderPropStatus },
   { typ: 'nytt-direktiv', rubrik: 'B. Nya direktiv (Utbildningsdep.)', render: renderEnkel },
@@ -104,6 +109,7 @@ const SEKTIONER = [
   { typ: 'tillaggsdir-till-tracked-utredning', rubrik: 'C. Tilläggsdirektiv till spårade utredningar', render: renderTillaggsdir },
   { typ: 'lagradsremiss', rubrik: 'Lagrådsremisser (Utbildningsdep.)', render: renderLagradsremiss },
   { typ: 'regeringsuppdrag', rubrik: 'Regeringsuppdrag (Utbildningsdep.)', render: renderUppdrag },
+  { typ: 'regleringsbrev', rubrik: 'Regleringsbrev & ändringsbeslut (skolmyndigheterna)', render: renderRegleringsbrev },
 ];
 
 // ----------------------------- Toppfunktion ----------------------------------
