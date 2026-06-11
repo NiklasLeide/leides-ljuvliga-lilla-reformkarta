@@ -1,9 +1,11 @@
 // rapport.test.js — enhetstest för veckorapport-byggaren (Sprint 10 T4).
 // Inga ramverk: node:test + node:assert. Kör: node --test scripts/bevakning/rapport.test.js
 //
-// Indatafixtures är RIKTIGA rapporter från skarpa körningar 2026-06-10/11:
-//   rapport-riksdagen-delta.json — fönster 2026-04-25→2026-06-10, alla 4 typer
-//   rapport-rss-delta.json      — fönster 2026-05-01→2026-06-01, friskole-remissen
+// Indatafixtures är RIKTIGA rapporter från skarpa körningar 2026-06-11:
+//   rapport-riksdagen-delta.json — fönster 2026-04-25→2026-06-10: 9 prop-status,
+//     1 nytt-direktiv, 1 ny-proposition, 5 ny-sou, 1 tilläggsdir (17 deltan)
+//   rapport-rss-delta.json — fönster 2026-05-01→2026-06-01, multi-feed (T8):
+//     friskole-lagrådsremissen + 2 regeringsuppdrag (3 deltan)
 
 'use strict';
 
@@ -17,8 +19,8 @@ const FIXTURE_DIR = path.join(__dirname, 'fixtures');
 function loadFixture(name) {
   return JSON.parse(fs.readFileSync(path.join(FIXTURE_DIR, name), 'utf8'));
 }
-const RIKSDAGEN = loadFixture('rapport-riksdagen-delta.json'); // 12 deltan: 9 prop-status, 1 dir, 1 tilläggsdir, 1 ny prop
-const RSS = loadFixture('rapport-rss-delta.json');             // 1 delta: friskole-lagrådsremissen
+const RIKSDAGEN = loadFixture('rapport-riksdagen-delta.json'); // 17 deltan, alla riksdagen-typer
+const RSS = loadFixture('rapport-rss-delta.json');             // 3 deltan: 1 lagrådsremiss + 2 uppdrag
 
 const NU = new Date('2026-06-11T07:00:00Z');
 
@@ -26,19 +28,24 @@ test('full rapport: alla sektioner, kryssrutor, källänkar och footer', () => {
   const r = buildRapport({ riksdagen: RIKSDAGEN, rss: RSS, nu: NU });
 
   assert.equal(r.harDeltan, true);
-  assert.equal(r.antalDeltan, 13); // 12 riksdagen + 1 rss
+  assert.equal(r.antalDeltan, 20); // 17 riksdagen + 3 rss
   assert.equal(r.titel, 'Bevakningsrapport v.24 2026');
 
   // En tom triage-kryssruta per delta — varken fler eller färre.
   const kryssrutor = (r.body.match(/^- \[ \] /gm) || []).length;
-  assert.equal(kryssrutor, 13);
+  assert.equal(kryssrutor, 20);
 
   // Sektionsrubriker med antal
   assert.match(r.body, /## A\. Propositionsstatus — betänkandebeslut att triagera \(9\)/);
   assert.match(r.body, /## B\. Nya direktiv \(Utbildningsdep\.\) \(1\)/);
   assert.match(r.body, /## B2\. Nya propositioner \(Utbildningsdep\.\) \(1\)/);
+  assert.match(r.body, /## B3\. Nya SOU \(alla departement — SOU saknar departementsdata\) \(5\)/);
   assert.match(r.body, /## C\. Tilläggsdirektiv till spårade utredningar \(1\)/);
   assert.match(r.body, /## Lagrådsremisser \(Utbildningsdep\.\) \(1\)/);
+  assert.match(r.body, /## Regeringsuppdrag \(Utbildningsdep\.\) \(2\)/);
+
+  // Regeringsuppdrag med primärkällänk (T8)
+  assert.match(r.body, /\*\*Uppdrag till Statens skolverk om stöd i tillämpningen[^*]*\*\* \(2026-05-21\) — \[uppdrag\]\(https:\/\/www\.regeringen\.se\/regeringsuppdrag\//);
 
   // Faktapar prop-status: datafilens läge + betänkandebeslut + rskr + länk
   assert.match(r.body, /\*\*Prop\. 2025\/26:174\*\* — datafilen säger: `proposition`/);
@@ -49,8 +56,8 @@ test('full rapport: alla sektioner, kryssrutor, källänkar och footer', () => {
   assert.match(r.body, /\*\*Skärpta villkor för friskolesektorn\*\* \(2026-05-13\) — \[lagrådsremiss\]\(https:\/\/www\.regeringen\.se\//);
 
   // Footer: antal_kontrollerade per kategori + körningsdatum
-  assert.match(r.body, /\*\*Kontrollerat:\*\* 12 props i manifestet \(3 terminala skippade\) · 31 props i fönstret · 16 direktiv i fönstret · 27 spårade utredningar · 100 poster i RSS-flödet/);
-  assert.match(r.body, /\*\*Körningar:\*\* riksdagen 2026-06-10T.*· RSS /);
+  assert.match(r.body, /\*\*Kontrollerat:\*\* 12 props i manifestet \(3 terminala skippade\) · 31 props i fönstret · 16 direktiv i fönstret · 5 SOU i fönstret · 27 spårade utredningar · RSS: lagradsremiss 100 poster, regeringsuppdrag 100 poster/);
+  assert.match(r.body, /\*\*Körningar:\*\* riksdagen 2026-06-11T.*· RSS /);
   assert.match(r.body, /\*\*Fönster:\*\* 2026-04-25 → 2026-06-10/);
 });
 
@@ -112,10 +119,18 @@ test('B3-typerna renderas med egna sektioner (T7)', () => {
   assert.equal((r.body.match(/^- \[ \] /gm) || []).length, 3);
 });
 
-test('rss-varning "ej fullt täckt" tas med i rapporten', () => {
-  const rss = { ...RSS, deltan: [], fonster_fullt_tackt: false, aldsta_post_i_flodet: '2012-12-11' };
+test('rss-varning "ej fullt täckt" tas med per flöde (multi-feed)', () => {
+  const rss = {
+    ...RSS,
+    deltan: [],
+    floden: [
+      { namn: 'lagradsremiss', antal_i_flodet: 100, aldsta_post_i_flodet: '2012-12-11', fonster_fullt_tackt: true },
+      { namn: 'regeringsuppdrag', antal_i_flodet: 100, aldsta_post_i_flodet: '2019-05-23', fonster_fullt_tackt: false, varning: 'fönster ej fullt täckt av flödet' },
+    ],
+  };
   const r = buildRapport({ riksdagen: { ...RIKSDAGEN, deltan: [] }, rss, nu: NU });
-  assert.match(r.body, /⚠️ RSS-fönstret är inte fullt täckt av flödet \(äldsta post: 2012-12-11\)/);
+  assert.match(r.body, /⚠️ RSS-flödet regeringsuppdrag är inte fullt täckt av fönstret \(äldsta post: 2019-05-23\)/);
+  assert.doesNotMatch(r.body, /⚠️ RSS-flödet lagradsremiss/); // täckt flöde varnar inte
 });
 
 test('isoWeek: ISO 8601-vecka och veckoår, inkl. årsskifteskantfall', () => {

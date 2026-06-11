@@ -1,5 +1,5 @@
 {
-  "korning": "2026-06-10T20:45:57.960Z",
+  "korning": "2026-06-11T07:02:19.136Z",
   "fonster": {
     "from": "2026-04-25",
     "tom": "2026-06-10"
@@ -9,6 +9,7 @@
     "props_terminala_skippade": 3,
     "props_i_fonster": 31,
     "dir_i_fonster": 16,
+    "sou_i_fonster": 5,
     "utredningar_sparade": 27
   },
   "deltan": [
@@ -315,7 +316,7 @@
       "titel": "Tilläggsdirektiv till Utredningen om stärkt skydd av den akademiska friheten (U 2025:03)",
       "datum": "2026-06-04",
       "departement": "U-dep",
-      "url": "//data.riksdagen.se/dokument/HEB143.html",
+      "url": "https://data.riksdagen.se/dokument/HEB143.html",
       "detail_fetched": false
     },
     {
@@ -324,7 +325,7 @@
       "kopplad_utredning": "U 2025:05",
       "titel": "Tilläggsdirektiv till Utredningen om speciallärar- och specialpedagogutbildningarna (U 2025:05)",
       "datum": "2026-05-28",
-      "url": "//data.riksdagen.se/dokument/HEB139.html"
+      "url": "https://data.riksdagen.se/dokument/HEB139.html"
     },
     {
       "typ": "ny-proposition",
@@ -332,6 +333,46 @@
       "titel": "En mer ändamålsenlig reglering av etikprövning av forskning som avser människor",
       "datum": "2026-04-30",
       "url": "https://data.riksdagen.se/dokument/HD03260.html"
+    },
+    {
+      "typ": "ny-sou",
+      "beteckning": "SOU 2026:32",
+      "titel": "Att säga ja! Kommunernas förutsättningar att ta emot stora företagsetableringar och företagsexpansioner",
+      "datum": "2026-06-02",
+      "betankande_av": null,
+      "url": "https://data.riksdagen.se/dokument/HEB332.html"
+    },
+    {
+      "typ": "ny-sou",
+      "beteckning": "SOU 2026:33",
+      "titel": "Vägen mot utfasning",
+      "datum": "2026-05-28",
+      "betankande_av": "Utredningen om styrmedel för ett fossilfritt samhälle",
+      "url": "https://data.riksdagen.se/dokument/HEB333.html"
+    },
+    {
+      "typ": "ny-sou",
+      "beteckning": "SOU 2026:31",
+      "titel": "Ett investeringsprogram för kultur",
+      "datum": "2026-05-18",
+      "betankande_av": "Utredningen om breddad kulturfinansiering",
+      "url": "https://data.riksdagen.se/dokument/HEB331.html"
+    },
+    {
+      "typ": "ny-sou",
+      "beteckning": "SOU 2026:29",
+      "titel": "Förbud mot uppfödning av djur för pälsproduktion",
+      "datum": "2026-05-04",
+      "betankande_av": "Utredningen om förbud mot uppfödning av djur för pälsproduktion",
+      "url": "https://data.riksdagen.se/dokument/HEB329.html"
+    },
+    {
+      "typ": "ny-sou",
+      "beteckning": "SOU 2026:28",
+      "titel": "Tillgång till passageraruppgifter  i brottsbekämpningen",
+      "datum": "2026-04-28",
+      "betankande_av": "Utredningen om passageraruppgifter i brottsbekämpningen",
+      "url": "https://data.riksdagen.se/dokument/HEB328.html"
     }
   ]
 }

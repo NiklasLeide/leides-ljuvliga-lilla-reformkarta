@@ -45,6 +45,12 @@ och följ dem; de upprepas inte här.
      motivering; inom scope → åtgärda (registrera utredning/betänkande i
      utredningar.json) eller eskalera om utredningskopplingen inte kan
      verifieras direkt.
+   - `regeringsuppdrag` — verifiera mot uppdragssidan på regeringen.se
+     (källänken). Uppdrag med dnr och myndighet hör hemma i uppdrag.json
+     enligt befintligt format. U-dep-uppdrag till andra myndigheter än
+     Skolverket rapporteras också — scope är din bedömning; utanför →
+     ignorera med motivering. Ändringsbeslut av spårade uppdrag flödar
+     genom samma feed: uppdatera befintlig post, skapa inte dubblett.
 
 4. **Bygg datapatchen** för alla åtgärda-deltan enligt reglerna i
    BEVAKNING.md. Rör bara fält som källorna styrker. Uppdatera även

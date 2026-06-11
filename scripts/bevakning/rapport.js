@@ -89,6 +89,10 @@ function renderLagradsremiss(d) {
   return [`- [ ] **${mdEscape(d.titel)}** (${d.datum}) — [lagrådsremiss](${d.url})`];
 }
 
+function renderUppdrag(d) {
+  return [`- [ ] **${mdEscape(d.titel)}** (${d.datum}) — [uppdrag](${d.url})`];
+}
+
 const SEKTIONER = [
   { typ: 'prop-status', rubrik: 'A. Propositionsstatus — betänkandebeslut att triagera', render: renderPropStatus },
   { typ: 'nytt-direktiv', rubrik: 'B. Nya direktiv (Utbildningsdep.)', render: renderEnkel },
@@ -99,6 +103,7 @@ const SEKTIONER = [
   { typ: 'ny-sou', rubrik: 'B3. Nya SOU (alla departement — SOU saknar departementsdata)', render: renderNySou },
   { typ: 'tillaggsdir-till-tracked-utredning', rubrik: 'C. Tilläggsdirektiv till spårade utredningar', render: renderTillaggsdir },
   { typ: 'lagradsremiss', rubrik: 'Lagrådsremisser (Utbildningsdep.)', render: renderLagradsremiss },
+  { typ: 'regeringsuppdrag', rubrik: 'Regeringsuppdrag (Utbildningsdep.)', render: renderUppdrag },
 ];
 
 // ----------------------------- Toppfunktion ----------------------------------
@@ -115,9 +120,12 @@ function buildRapport({ riksdagen, rss, nu = new Date() } = {}) {
   rader.push(`**Fönster:** ${riksdagen.fonster.from} → ${riksdagen.fonster.tom}`);
   rader.push('');
 
-  if (rss.fonster_fullt_tackt === false) {
-    rader.push(`> ⚠️ RSS-fönstret är inte fullt täckt av flödet (äldsta post: ${rss.aldsta_post_i_flodet}). En tom lagrådsremiss-sektion kan bero på flödesdjupet, inte på att inget publicerats.`);
-    rader.push('');
+  // Täckningsvarningar per RSS-flöde (multi-feed sedan T8).
+  for (const flode of rss.floden || []) {
+    if (flode.fonster_fullt_tackt === false) {
+      rader.push(`> ⚠️ RSS-flödet ${flode.namn} är inte fullt täckt av fönstret (äldsta post: ${flode.aldsta_post_i_flodet}). En tom sektion kan bero på flödesdjupet, inte på att inget publicerats.`);
+      rader.push('');
+    }
   }
 
   const renderade = new Set();
@@ -147,7 +155,9 @@ function buildRapport({ riksdagen, rss, nu = new Date() } = {}) {
 
   const k = riksdagen.antal_kontrollerade || {};
   rader.push('---');
-  rader.push(`**Kontrollerat:** ${k.props ?? '?'} props i manifestet (${k.props_terminala_skippade ?? '?'} terminala skippade) · ${k.props_i_fonster ?? '?'} props i fönstret · ${k.dir_i_fonster ?? '?'} direktiv i fönstret · ${k.utredningar_sparade ?? '?'} spårade utredningar · ${rss.antal_i_flodet ?? '?'} poster i RSS-flödet`);
+  const rssSammanfattning = (rss.floden || [])
+    .map(f => `${f.namn} ${f.antal_i_flodet} poster`).join(', ') || '?';
+  rader.push(`**Kontrollerat:** ${k.props ?? '?'} props i manifestet (${k.props_terminala_skippade ?? '?'} terminala skippade) · ${k.props_i_fonster ?? '?'} props i fönstret · ${k.dir_i_fonster ?? '?'} direktiv i fönstret · ${k.sou_i_fonster ?? '?'} SOU i fönstret · ${k.utredningar_sparade ?? '?'} spårade utredningar · RSS: ${rssSammanfattning}`);
   rader.push(`**Körningar:** riksdagen ${riksdagen.korning} · RSS ${rss.korning}`);
   rader.push('');
   rader.push('_Bocka av varje punkt när den är triagerad. Rutinen finns i docs/BEVAKNING.md._');

@@ -1,35 +1,40 @@
 #!/usr/bin/env node
-// rss.js — RSS-watcher för lagrådsremisser (Sprint 10 T3).
+// rss.js — RSS-watcher mot regeringen.se (Sprint 10 T3 + T8 multi-feed).
 // CJS, zero-dependency, Node 20+ inbyggd fetch.
 //
-// Riksdagens API täcker INTE lagrådsremisser — detta skript bevakar dem via
-// regeringen.se:s RSS-flöde, filtrerat på Utbildningsdepartementet. Det är
-// RSS:ens enda jobb; allt annat sköts av riksdagen.js.
+// Bevakar dokumenttyper som riksdagens API INTE täcker, via regeringen.se:s
+// RSS-flöden filtrerade på Utbildningsdepartementet:
+//   - lagrådsremisser (T3)
+//   - regeringsuppdrag (T8) — uppdrag.json var tidigare helt obevakad
+// Allt riksdagsmaterial (prop/dir/bet/SOU) sköts av riksdagen.js.
 //
-// FEED-DISCOVERY (utförd 2026-06-10, Sprint 10 T3):
-// Feed-URL:erna genereras klient-side av filter-UI:t på
-// https://www.regeringen.se/rattsliga-dokument/lagradsremiss/.
-// Metod: hämtade sidan + /dist/js/rk-main.js. JS:et bygger länken som
+// FEED-DISCOVERY (T3 2026-06-10, T8 2026-06-11 — samma metod):
+// Feed-URL:erna genereras klient-side av filter-UI:t på respektive listsida.
+// Metod: hämta sidan + /dist/js/rk-main.js. JS:et bygger länken som
 // "/Filter/RssFeed?" + querystring från filter-modulens data-attribut:
-//   - data-categories="2085"        → preFilteredCategories=2085 (taxonomi: Lagrådsremiss)
+//   - data-categories="<id>"        → preFilteredCategories (dokumenttypens taxonomi-id)
 //   - data-rootpage="0"             → rootPageReference=0
 //   - data-filtertype="Taxonomy"    → filterType=Taxonomy
 //   - data-filterbytype="FilterablePageBase" → filterByType=FilterablePageBase
 //   - data-displaylimited="True"    → displayLimited=true
 // plus valda filterkryssrutor: Utbildningsdepartementet har data-cid="1294"
 // → filteredContentCategories=1294.
-// Verifierad 2026-06-10: flödet svarar med 100 poster (maj 2026 → dec 2012),
-// varje item bär <category domain="1294">Utbildningsdepartementet</category>
-// och <category domain="2085">Lagrådsremiss</category> — filtret biter alltså
-// server-side, ingen departementsfiltrering behövs i kod.
-// Fångat svar: fixtures/regeringen-lagradsremiss-udep.rss.xml
+// Taxonomi-id per dokumenttyp (ur data-categories på respektive sida):
+//   - Lagrådsremiss = 2085 (https://www.regeringen.se/rattsliga-dokument/lagradsremiss/)
+//   - Regeringsuppdrag = 1342 (https://www.regeringen.se/regeringsuppdrag/)
+// Båda flödena verifierade: 100 poster vardera, varje item bär
+// <category domain="1294">Utbildningsdepartementet</category> + sin
+// dokumenttypskategori — filtren biter server-side, ingen departements-
+// filtrering behövs i kod. Djup vid verifiering: lagrådsremiss → dec 2012,
+// uppdrag → maj 2019. Fångade svar: fixtures/regeringen-*-udep.rss.xml
 //
-// Delta-format (samma stil som riksdagen.js):
-//   { typ: "lagradsremiss", titel, datum, url }
+// Delta-format (samma stil som riksdagen.js), typ per feed-konfig:
+//   { typ: "lagradsremiss"|"regeringsuppdrag", titel, datum, url }
 //
 // OBS fönstertäckning: RSS innehåller bara senaste N poster. Om --from ligger
-// längre bak än äldsta posten i flödet kan vi inte skilja "tom vecka" från
-// "för kort flöde" — rapporten flaggar då fonster_fullt_tackt: false.
+// längre bak än äldsta posten i ett flöde kan vi inte skilja "tom vecka" från
+// "för kort flöde" — rapporten flaggar då fonster_fullt_tackt: false för det
+// flödet (per feed i floden[]).
 //
 // CLI:
 //   node rss.js                          # default: tom=idag, from=idag-7d
@@ -38,13 +43,23 @@
 
 'use strict';
 
-const FEED_URL = 'https://www.regeringen.se/Filter/RssFeed'
-  + '?filterType=Taxonomy'
-  + '&filterByType=FilterablePageBase'
-  + '&preFilteredCategories=2085'   // taxonomi-id: Lagrådsremiss
-  + '&rootPageReference=0'
-  + '&filteredContentCategories=1294' // taxonomi-id: Utbildningsdepartementet
-  + '&displayLimited=true';
+function feedUrl(preFilteredCategories) {
+  return 'https://www.regeringen.se/Filter/RssFeed'
+    + '?filterType=Taxonomy'
+    + '&filterByType=FilterablePageBase'
+    + `&preFilteredCategories=${preFilteredCategories}`
+    + '&rootPageReference=0'
+    + '&filteredContentCategories=1294' // taxonomi-id: Utbildningsdepartementet
+    + '&displayLimited=true';
+}
+
+// Feed-konfigen driver hela kedjan: samma parser, fönsterlogik och
+// täckningsflaggning per feed. Ny bevakning = ny rad här (+ taxonomi-id i
+// huvudkommentaren, sektion i rapport.js och täckningskartan i BEVAKNING.md).
+const FEEDS = [
+  { namn: 'lagradsremiss', deltatyp: 'lagradsremiss', url: feedUrl(2085) },
+  { namn: 'regeringsuppdrag', deltatyp: 'regeringsuppdrag', url: feedUrl(1342) },
+];
 
 const USER_AGENT = 'reformkartan-bevakning (reformer.leide.se)';
 
@@ -129,11 +144,9 @@ function parseFeed(xml) {
 
 // ----------------------------- Toppfunktion ----------------------------------
 
-async function buildReport({ from, tom, fetcher, verbose = false } = {}) {
-  if (!from || !tom) throw new Error('buildReport: from och tom krävs (YYYY-MM-DD)');
-  if (typeof fetcher !== 'function') fetcher = makeHttpFetcher({ verbose });
-
-  const xml = await fetcher(FEED_URL);
+// Kör en feed genom hela kedjan: fetch → parse → fönsterfilter → täckning.
+async function buildFeedResult(feed, { from, tom, fetcher }) {
+  const xml = await fetcher(feed.url);
   const items = parseFeed(xml);
 
   // ISO-datum jämförs lexikografiskt — inklusivt fönster.
@@ -146,14 +159,35 @@ async function buildReport({ from, tom, fetcher, verbose = false } = {}) {
   const fonsterFulltTackt = from >= aldsta;
 
   return {
+    meta: {
+      namn: feed.namn,
+      kalla: feed.url,
+      antal_i_flodet: items.length,
+      aldsta_post_i_flodet: aldsta,
+      fonster_fullt_tackt: fonsterFulltTackt,
+      ...(fonsterFulltTackt ? {} : { varning: 'fönster ej fullt täckt av flödet' }),
+    },
+    deltan: iFonster.map(it => ({ typ: feed.deltatyp, titel: it.titel, datum: it.datum, url: it.url })),
+  };
+}
+
+async function buildReport({ from, tom, fetcher, verbose = false, feeds = FEEDS } = {}) {
+  if (!from || !tom) throw new Error('buildReport: from och tom krävs (YYYY-MM-DD)');
+  if (typeof fetcher !== 'function') fetcher = makeHttpFetcher({ verbose });
+
+  const floden = [];
+  const deltan = [];
+  for (const feed of feeds) {
+    const resultat = await buildFeedResult(feed, { from, tom, fetcher });
+    floden.push(resultat.meta);
+    deltan.push(...resultat.deltan);
+  }
+
+  return {
     korning: new Date().toISOString(),
     fonster: { from, tom },
-    kalla: FEED_URL,
-    antal_i_flodet: items.length,
-    aldsta_post_i_flodet: aldsta,
-    fonster_fullt_tackt: fonsterFulltTackt,
-    ...(fonsterFulltTackt ? {} : { varning: 'fönster ej fullt täckt av flödet' }),
-    deltan: iFonster.map(it => ({ typ: 'lagradsremiss', titel: it.titel, datum: it.datum, url: it.url })),
+    floden,
+    deltan,
   };
 }
 
@@ -179,9 +213,10 @@ function defaultWindow() {
 }
 
 module.exports = {
-  FEED_URL,
+  FEEDS,
   buildReport,
   // exporterade för test
+  buildFeedResult,
   parseFeed,
   extractTag,
   decodeEntities,

@@ -31,9 +31,10 @@ följer rutinen härifrån — reglerna definieras HÄR och dupliceras inte.
   signalvärde, BES-aktivitet "planerat" vs "inträffat", organ-kortkoder,
   SOU helt utan departementsdata → ny-sou listar alla departement)
   dokumenteras i filens huvudkommentar — läs den innan du ändrar något.
-- `rss.js` — lagrådsremisser via regeringen.se:s RSS (U-dep-filtrerad feed;
-  riksdagens API täcker inte lagrådsremisser). Flaggar när fönstret sträcker
-  sig bakom flödets äldsta post.
+- `rss.js` — multi-feed mot regeringen.se:s RSS (U-dep-filtrerade flöden;
+  riksdagens API täcker inte dessa dokumenttyper): lagrådsremisser +
+  regeringsuppdrag. Feed-konfigen FEEDS driver samma parser/fönsterlogik per
+  flöde; täckningsflaggan ("fönster ej fullt täckt") sätts per flöde.
 - `rapport.js` — bygger issue-bodyn ur de två rapporterna. Okända delta-typer
   hamnar i "Övrigt", aldrig tyst tappade.
 - Tester: `node --test scripts/bevakning/<fil>.test.js` (en fil i taget).
@@ -66,6 +67,7 @@ samma commit.
 | `ny-sou` | B3 | data.riksdagen.se | Okända SOU i fönstret — ALLA departement (SOU saknar departementsdata) |
 | `tillaggsdir-till-tracked-utredning` | C | data.riksdagen.se | Tilläggsdir till spårade utredningar, alla departement |
 | `lagradsremiss` | rss.js | regeringen.se RSS | Nya U-dep-lagrådsremisser i fönstret |
+| `regeringsuppdrag` | rss.js | regeringen.se RSS | Nya U-dep-regeringsuppdrag i fönstret (alla myndigheter, inte bara Skolverket — även ändringsbeslut flödar här) |
 
 ---
 
@@ -136,9 +138,9 @@ den har formatet ändrats och koden ska anpassas, inte testerna luckras upp.
 
 ## Manuell bevakning — täcks INTE av automationen
 
-Automationen täcker riksdagsdokument (prop/dir/bet/SOU) och lagrådsremisser
-— se Täckningskartan. Följande källor kräver fortfarande manuell koll
-(månadsvis, eller veckovis under voteringsperioden april–juni):
+Automationen täcker riksdagsdokument (prop/dir/bet/SOU), lagrådsremisser och
+regeringsuppdrag — se Täckningskartan. Följande källor kräver fortfarande
+manuell koll (månadsvis, eller veckovis under voteringsperioden april–juni):
 
 ### Skolverket
 - [ ] Aktuella regeländringar: https://www.skolverket.se/styrning-och-ansvar/forandringar-inom-skolomradet/aktuella-regelandringar
@@ -149,9 +151,8 @@ Automationen täcker riksdagsdokument (prop/dir/bet/SOU) och lagrådsremisser
 - [ ] Gy25 (i drift, övergång t.o.m. 2030): https://www.skolverket.se/styrning-och-ansvar/forandringar-inom-skolomradet/gy25----amnesbetyg-pa-gymnasial-niva
 - [ ] Professionsprogrammet (i drift): https://www.skolverket.se/skolutveckling/professionsutveckling/professionsprogrammet
 
-### Regeringen (politik/uppdrag — ej rättsliga dokument)
+### Regeringen (politik — ej rättsliga dokument)
 - [ ] Skolprioriteringen: https://www.regeringen.se/regeringens-politik/regeringens-prioriteringar/skola/
-- [ ] Nya regeringsuppdrag: https://www.regeringen.se/regeringsuppdrag/ (filtrera Utbildningsdepartementet)
 
 ### Regleringsbrev
 - [ ] RB 2026: https://www.statskontoret.se/regleringsbrev/25940/pdf?Version=HelaBrevet
