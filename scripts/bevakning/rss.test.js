@@ -190,6 +190,28 @@ test('REGLERINGSBREV_MYNDIGHETER: konfiglistan innehåller skolmyndigheterna', (
   ]);
 });
 
+// ============================================================================
+// Per-feed-degradering (DEC-008): ett fallet flöde nollar inte övriga
+// ============================================================================
+test('per-feed-degradering: fallet flöde ger feed_fel, övriga levererar', async () => {
+  const fetcher = async (url) => {
+    if (url.includes('statskontoret.se')) throw new Error('Nätverksfel mot https://www.statskontoret.se/...: fetch failed');
+    return fixtureFetcher(url);
+  };
+  const rapport = await buildReport({ from: '2025-12-20', tom: '2025-12-31', fetcher });
+  const rb = rapport.floden.find(f => f.namn === 'regleringsbrev');
+  assert.match(rb.feed_fel, /fetch failed/);
+  // Övriga flöden opåverkade — uppdrags-deltat finns kvar
+  assert.ok(rapport.deltan.some(d => d.typ === 'regeringsuppdrag'));
+  assert.equal(rapport.floden.length, 3);
+});
+
+test('per-feed-degradering: ALLA flöden fallna → throw (aldrig tom rapport)', async () => {
+  const fetcher = async () => { throw new Error('Nätverksfel: ECONNRESET'); };
+  await assert.rejects(() => buildReport({ from: '2026-06-01', tom: '2026-06-10', fetcher }),
+    /Alla 3 RSS-flöden föll/);
+});
+
 test('uppdrag-fixturen: 100 poster, alla parsas med titel/datum/url', () => {
   const items = parseFeed(FIXTURE_UPPDRAG);
   assert.equal(items.length, 100);

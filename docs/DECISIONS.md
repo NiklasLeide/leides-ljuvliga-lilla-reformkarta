@@ -18,6 +18,14 @@ Record of key decisions made during the project. **Newest first.**
 
 ---
 
+### DEC-008: Per-feed-degradering i RSS-watchern
+**Date:** 2026-06-11
+**Decision:** Ett RSS-flöde som inte går att hämta nollar inte övriga flödens täckning: felet fångas per feed och landar som `feed_fel` i rapportens floden[] → 🔴-varning i veckorapportens issue + "FEL" i footern. Exit 1 endast när ALLA flöden faller (då finns ingen RSS-täckning alls att rapportera).
+**Reasoning:** statskontoret.se blockerar GitHub Actions-runners på nätverksnivå (fetch failed, persistent över flera körningar; lokalt fungerar flödet — trolig WAF/datacenter-IP-blockering, inte IPv6: domänen saknar AAAA). Med hård fail-loud per feed skulle ett permanent oåtkomligt externt värdskap göra HELA veckorapporten röd och utebliven — sämre än en rapport med explicit flaggad lucka. Fail loud-principen behålls i sak: felet är högljutt synligt i issuet, aldrig tyst.
+**Alternatives considered:** Hård fail på första feed-felet (ursprungsdesign — ger permanent död veckorapport så länge statskontoret blockerar); retry/backoff (hjälper inte mot IP-blockering); proxy/spegel för statsliggaren (out of scope, ny infrastruktur). Regleringsbrev-deltan uteblir i CI tills blockeringen löses — fångas lokalt vid /bevakning-triage i stället.
+
+---
+
 ### DEC-007: Riksdagen-watchern matchar på organ-kortkod + testas mot fångade API-svar
 **Date:** 2026-06-10
 **Decision:** Jobb B identifierar Utbildningsdepartementets direktiv via list-entryts `organ`-kortkod (`"U-dep"`), inte via fullständigt departementsnamn — och gör ingen detalj-fetch när `organ` redan finns på list-entryt. Full dir-beteckning byggs som `Dir. <rm>:<nummer>` (riksdagens list-API ger löpnumret och årtalet i skilda fält). Relaterade bet/rskr läses ur `dokumentstatus.dokreferens.referens` (referenstyp `behandlas_i`). Enhetstesterna drivs av RIKTIGA API-svar sparade som fixtures i `scripts/bevakning/fixtures/`.

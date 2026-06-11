@@ -128,6 +128,11 @@ function buildRapport({ riksdagen, rss, nu = new Date() } = {}) {
 
   // Täckningsvarningar per RSS-flöde (multi-feed sedan T8).
   for (const flode of rss.floden || []) {
+    if (flode.feed_fel) {
+      rader.push(`> 🔴 RSS-flödet **${flode.namn}** kunde INTE hämtas (${flode.feed_fel}). Deltatypen saknar täckning i denna rapport — kontrollera källan manuellt.`);
+      rader.push('');
+      continue;
+    }
     if (flode.fonster_fullt_tackt === false) {
       rader.push(`> ⚠️ RSS-flödet ${flode.namn} är inte fullt täckt av fönstret (äldsta post: ${flode.aldsta_post_i_flodet}). En tom sektion kan bero på flödesdjupet, inte på att inget publicerats.`);
       rader.push('');
@@ -162,7 +167,7 @@ function buildRapport({ riksdagen, rss, nu = new Date() } = {}) {
   const k = riksdagen.antal_kontrollerade || {};
   rader.push('---');
   const rssSammanfattning = (rss.floden || [])
-    .map(f => `${f.namn} ${f.antal_i_flodet} poster`).join(', ') || '?';
+    .map(f => f.feed_fel ? `${f.namn} FEL` : `${f.namn} ${f.antal_i_flodet} poster`).join(', ') || '?';
   rader.push(`**Kontrollerat:** ${k.props ?? '?'} props i manifestet (${k.props_terminala_skippade ?? '?'} terminala skippade) · ${k.props_i_fonster ?? '?'} props i fönstret · ${k.dir_i_fonster ?? '?'} direktiv i fönstret · ${k.sou_i_fonster ?? '?'} SOU i fönstret · ${k.utredningar_sparade ?? '?'} spårade utredningar · RSS: ${rssSammanfattning}`);
   rader.push(`**Körningar:** riksdagen ${riksdagen.korning} · RSS ${rss.korning}`);
   rader.push('');

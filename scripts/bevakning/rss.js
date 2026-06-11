@@ -251,9 +251,21 @@ async function buildReport({ from, tom, fetcher, verbose = false, feeds = FEEDS 
   const floden = [];
   const deltan = [];
   for (const feed of feeds) {
-    const resultat = await buildFeedResult(feed, { from, tom, fetcher });
-    floden.push(resultat.meta);
-    deltan.push(...resultat.deltan);
+    try {
+      const resultat = await buildFeedResult(feed, { from, tom, fetcher });
+      floden.push(resultat.meta);
+      deltan.push(...resultat.deltan);
+    } catch (err) {
+      // Per-feed-degradering (DEC-008): ett onåbart flöde får inte nolla
+      // övriga flödens täckning (statskontoret.se blockerar t.ex. GitHub-
+      // runners). Felet tystas INTE — feed_fel landar som 🔴-varning i
+      // veckorapporten. Faller ALLA flöden är RSS-bevakningen död → throw.
+      floden.push({ namn: feed.namn, kalla: feed.url, feed_fel: err.message });
+      if (verbose) process.stderr.write(`[feed:${feed.namn}] FEL: ${err.message}\n`);
+    }
+  }
+  if (floden.length > 0 && floden.every(f => f.feed_fel)) {
+    throw new Error(`Alla ${floden.length} RSS-flöden föll: ${floden.map(f => `${f.namn}: ${f.feed_fel}`).join(' | ')}`);
   }
 
   return {
