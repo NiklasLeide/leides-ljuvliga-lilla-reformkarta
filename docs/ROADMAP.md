@@ -77,6 +77,18 @@
 - [x] Kartan: uppdragsstatus som textchip (Uppdrag/Förberedande/Ej uppdrag)
 - [x] Kartan: kopplingslinjer bakom kort (isolation:isolate + z-index)
 
+## Completed: Sprint 8 — Utredningar (data + listvy)
+- [x] data/utredningar.json — 29 verifierade utredningar med direktiv, betänkanden, prop-koppling och kopplad_reform
+- [x] utredningar.html — listvy med status/kategori/departement-filter, fritextsök, expanderbara kort
+- [x] Utredningar-tab i navigationen på alla sidor
+
+## Completed: Sprint 9 — Utredningar på tidslinjen
+- [x] T2: Bakåtförlängd axel till 2021 + utredningsstaplar på gemensam axel (Modell A, se DEC-005)
+- [x] T3: Bidirektionell navigering utredning↔reform via render-tids-lookup (reforms.json orörd)
+- [x] T4: Kopplingslinjer vid hover/markering — SVG-overlay (se DEC-006)
+- [x] T5: DoD-granskning godkänd, sprint stängd
+- [x] T2-followup: Datumkomplettering 6 utredningar — 27/27 staplar renderas
+
 ## Kommande
 - Nästa bevakningspunkt: 8 maj 2026 (Skolverkets genomförandeplan digitala slutprov)
 - Riksdagsbeslut väntas april–juni 2026 — bevaka varannan vecka

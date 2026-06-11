@@ -1,8 +1,52 @@
 # Project Status — leides-ljuvliga-lilla-reformkarta
 
 > **Last updated:** 2026-06-10
-> **Current sprint:** Underhåll — Sprint 9 stängd
-> **Sprint dates:** —
+> **Current sprint:** Sprint 10 — Bevakningsautomatisering
+> **Sprint dates:** juni 2026
+
+---
+
+## Sprint 10 — Bevakningsautomatisering
+
+**Mål:** Detektering av dataändringar flyttas till en schemalagd GitHub Action som
+producerar en veckorapport som GitHub Issue. Människan verifierar, maskinen bevakar.
+Noll automatiska skrivningar till datafiler.
+
+**Designbeslut:**
+- Runtime-manifest — ingen committad bevakningsfil; manifestet beräknas vid varje körning
+- Stateless diff mot datafilerna (inga state-filer mellan körningar)
+- Zero-dependency Node (inga npm-paket, node:test för tester)
+- Tom vecka = ingen issue skapas
+- Cron måndagar 06:00 UTC + workflow_dispatch för manuell körning
+
+**Out of scope:** automatisk skrivning till datafiler; HTML-scraping av regeringen.se;
+bevakning av val26; notifiering utanför GitHub; AI-anrop.
+
+**Stop condition:** Action körs på schema och manuellt; korrekt rapport mot känt
+testfall; tom vecka ger ingen issue; workflow-permissions contents:read +
+issues:write; BEVAKNING.md följbar utan chatkontext; DoD passerad.
+
+| ID | Task | Filer | Status | Acceptance |
+|----|------|-------|--------|------------|
+| T1 | Sprintregistrering + identifierar-extraktion | PROJECT_STATUS.md, scripts/bevakning/extract.js | ✅ Done | Plan i PROJECT_STATUS; komplett manifest (12 props, 21 SOU, 49 dir, 27 utredningar), inga hårdkodade id:n, 8 tester med facit passerar |
+| T1-fix | commit.sh stagear scripts/ och .github/ | commit.sh | ✅ Done | Loop över stage-listan; verifierad med dry-run |
+| T2 | Riksdagen-watcher: status-diff API vs datafiler | scripts/bevakning/riksdagen.js | ✅ Done | 8 tester med mockad fetcher (omarbetade i T2-fix). |
+| T2-fix | Live-verifiering + API-fältkorrigeringar | riksdagen.js, riksdagen.test.js, fixtures/ | ✅ Done | Live-verifiering avslöjade 3 buggar som mockarna dolde: (1) relaterade i fel fält (dokuppgift→dokreferens.behandlas_i), (2) jobb B matchade fullt dept-namn som inte finns för dir → organ-kortkod "U-dep", (3) dir-beteckning byggd fel → `Dir. <rm>:<nummer>`. Jobb C-regex \d{2}→\d{2,3}. Testerna drivs nu av fångade riktiga API-svar (scripts/bevakning/fixtures/). 20/20 gröna. Skarp körning verifierad: 12 prop-deltan med relaterade bet, 1 U-dep-direktiv (Dir. 2026:43). Se DEC-007. **OBS triage (T2 rapporterar bara, ej åtgärdat):** 8 av 12 props (2025/26:174,191–198) säger api=Klar medan reforms.json säger "proposition" — datafilen kan vara föråldrad. |
+| T2-fix-3 | Signalregel jobb A: betänkandebeslut, inte dokumentstatus | riksdagen.js, riksdagen.test.js, fixtures/ | ✅ Done | Dokumentstatus "Klar"=publiceringsstatus, bär ingen signal. Regel 1: terminal datafil-status (beslutad) → ingen rapport, ingen fetch. Regel 2: delta endast när ≥1 kopplat betänkande fattat beslut; faktapar med statustext/beslutsdatum/rdbeslut/rskr ur bet-dokumentstatus. API-fynd: obeslutade bet HAR BES-aktivitet med status "planerat" → kriteriet är "inträffat" (fixture HD01UbU30). 16/16 tester; skarp körning = exakt 9 deltan (174, 191–198), 3 terminala skippade. Ej-funnen prop rapporteras fortfarande (anomali). |
+| T2-fix-4 | Jobb B2: nya propositioner från U-dep | riksdagen.js, riksdagen.test.js, fixtures/ | ✅ Done | doktyp=prop i B-fönstret, organ-fullnamnsfilter, manifest-dedup. Delta typ "ny-proposition". 19/19 tester (fixture: 31 riktiga props, 1 U-dep). Skarp körning: Prop. 2025/26:260 (etikprövning) fångad — saknas i manifestet, triagepunkt. Fynd: friskole-propositionen efter lagrådsremissen 13 maj finns INTE i API:t ännu (bet UbU30 = placeholder, beredning planerad aug 2026). **T4-krav: rapport.js behöver sektion för typ ny-proposition.** |
+| T3 | RSS-watcher: regeringen.se, Utbildningsdep., 7-dagarsfönster | scripts/bevakning/rss.js | ✅ Done | Feed-discovery verifierad (rk-main.js bygger /Filter/RssFeed?, taxonomi 2085=lagrådsremiss + 1294=U-dep, filtret biter server-side). Delta `{typ:"lagradsremiss",titel,datum,url}`; fonster_fullt_tackt-flagga; fail loud. 12 tester mot fångad riktig fixture (100 poster, djup till 2012-12-11). Live smoke OK: friskole-lagrådsremissen 2026-05-13 fångas. |
+| T4 | GitHub Action: veckocron + dispatch + Issue "Bevakningsrapport v.X" | bevakning.yml, rapport.js | 🔶 Kod klar — dispatch blockerad | rapport.js: sektioner A/B/B2/C/lagrådsremisser, triage-kryssrutor, Övrigt-sektion för okända typer, GITHUB_OUTPUT-kontrakt, 7/7 tester. **Blockerare: GitHub registrerar workflow_dispatch först när filen finns på MASTER** — dispatch från dev gick inte (404), kräver deploy. Scenario 1 verifierad lokalt (exakt workflow-stegen): fönster 2026-05-01→06-01 ger 11 deltan inkl. friskole-lagrådsremissen 2026-05-13, har_deltan=true. **OBS scenario 2: "tom körning" är omöjlig live just nu** — jobb A är fönsteroberoende och rapporterar samma 9 otriagerade props varje körning tills reforms.json uppdateras (by design); ingen-issue-vägen är verifierad via tester + workflow-villkor. Dispatch-scenarierna körs efter nästa deploy. |
+| T5 | BEVAKNING.md: flöde och hanteringsrutin | BEVAKNING.md | ⬜ Todo | Följbar utan chatkontext; Dir. 2023:175 som exempel |
+| T6 | Run DoD review for this sprint | (dod-reviewer) | ⬜ Todo | Sprint godkänd |
+
+**Testkommando:** `node --test scripts/bevakning/extract.test.js`,
+`node --test scripts/bevakning/riksdagen.test.js` och
+`node --test scripts/bevakning/rss.test.js` (kör filerna var för sig — inte
+katalogformen `node --test scripts/bevakning/`, den snubblar på CLI-stdout).
+CLI: `node scripts/bevakning/extract.js [dataDir]` skriver manifest som JSON till stdout;
+`node scripts/bevakning/riksdagen.js --from YYYY-MM-DD --tom YYYY-MM-DD` kör skarp watcher;
+`node scripts/bevakning/rss.js --from YYYY-MM-DD --tom YYYY-MM-DD` kör RSS-watchern skarpt.
+riksdagen.test.js och rss.test.js använder fångade riktiga svar i `scripts/bevakning/fixtures/`.
 
 ---
 

@@ -1,0 +1,84 @@
+# Bevakningsautomatisering (Sprint 10 T4)
+#
+# Veckorapport som GitHub Issue: riksdagen-watchern (prop-status, nya direktiv,
+# nya propositioner, tilläggsdir) + RSS-watchern (lagrådsremisser, U-dep).
+# Människan verifierar via triage-kryssrutor i issuet, maskinen bevakar.
+# Noll automatiska skrivningar till datafiler.
+#
+# OBS: schedule-triggern körs ENDAST på default branch (master) — cronen
+# aktiveras alltså först när den här filen når master via ./deploy.sh.
+# workflow_dispatch fungerar från valfri branch (välj branch i Actions-UI:t)
+# och tar valfria from/tom för backdaterade testkörningar.
+#
+# Fail loud: skriptfel → rött workflow, ingen issue. Tom körning → grönt,
+# ingen issue, sammanfattning i job-loggen.
+
+name: Bevakning
+
+on:
+  schedule:
+    - cron: '0 6 * * 1' # måndagar 06:00 UTC
+  workflow_dispatch:
+    inputs:
+      from:
+        description: 'Fönsterstart YYYY-MM-DD (default: 7 dagar bakåt)'
+        required: false
+        type: string
+      tom:
+        description: 'Fönsterslut YYYY-MM-DD (default: idag)'
+        required: false
+        type: string
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  bevakning:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # Samma fönster till båda watchers — skriptens egna defaults används
+      # inte, så riksdagen och RSS aldrig kan glida isär.
+      - name: Beräkna fönster
+        id: fonster
+        run: |
+          FROM='${{ inputs.from }}'
+          TOM='${{ inputs.tom }}'
+          echo "from=${FROM:-$(date -u -d '7 days ago' +%F)}" >> "$GITHUB_OUTPUT"
+          echo "tom=${TOM:-$(date -u +%F)}" >> "$GITHUB_OUTPUT"
+
+      # Manifestet beräknas vid körning inne i riksdagen.js (extract.js är
+      # ett bibliotek, ingen separat körning behövs).
+      - name: Riksdagen-watcher
+        run: node scripts/bevakning/riksdagen.js --from '${{ steps.fonster.outputs.from }}' --tom '${{ steps.fonster.outputs.tom }}' > riksdagen-delta.json
+
+      - name: RSS-watcher (lagrådsremisser)
+        run: node scripts/bevakning/rss.js --from '${{ steps.fonster.outputs.from }}' --tom '${{ steps.fonster.outputs.tom }}' > rss-delta.json
+
+      - name: Bygg rapport
+        id: rapport
+        run: node scripts/bevakning/rapport.js --riksdagen riksdagen-delta.json --rss rss-delta.json --out rapport.md
+
+      - name: Skapa issue
+        if: steps.rapport.outputs.har_deltan == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # --force gör skapandet idempotent (uppdaterar om labeln redan finns)
+          gh label create bevakning --color '0E8A16' --description 'Automatisk bevakningsrapport' --force
+          gh issue create \
+            --title '${{ steps.rapport.outputs.titel }}' \
+            --body-file rapport.md \
+            --label bevakning
+
+      - name: Tom körning
+        if: steps.rapport.outputs.har_deltan != 'true'
+        run: |
+          echo "Inga deltan i fönstret ${{ steps.fonster.outputs.from }} → ${{ steps.fonster.outputs.tom }} — ingen issue skapas."
+          cat rapport.md

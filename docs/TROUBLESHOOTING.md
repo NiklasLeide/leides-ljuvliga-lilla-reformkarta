@@ -57,12 +57,69 @@ or git hooks that check documentation is updated before pushing.
 **Solution:** `sudo npm install -g <package>`
 
 ---
+## Bevakning (scripts/bevakning/)
+
+### Mockar mot ANTAGNA API-format gav 8/8 grönt medan jobb B var dött
+**Symptom:** Riksdagen-watchern (T2) hade 8 gröna enhetstester men jobb B (nya
+Utbildningsdep.-direktiv) hittade aldrig något mot live API. Jobb A:s `relaterade`
+var alltid tom, och rapporterade dir-beteckningar var oanvändbara ("7" utan årtal).
+**Cause:** Testmockarna fabricerade svarsformer ur antaganden istället för riktiga
+svar. De antog: dir-`departement` = fullt namn (i verkligheten `undefined`; bara
+`organ`-kortkod "U-dep" finns, även i detalj-svaret), dir-`beteckning` = "Dir.
+2099:100" (i verkligheten bart löpnummer "100" + årtal i `rm`), relaterade bet/rskr
+i `dokuppgift.uppgift` (i verkligheten i `dokreferens.referens` med referenstyp
+`behandlas_i`). Mockarna validerade koden mot sina egna fel → grönt på dött jobb.
+**Solution:** T2-fix (2026-06-10): spara skarpa API-svar som fixtures i
+`scripts/bevakning/fixtures/` och driv testerna från dem. Lärdom inbakad i
+kodkommentarer (riksdagen.js "VERIFIERAT MOT LIVE API"). **Princip:** mocka aldrig
+ett externt format du inte har sett — fånga ett riktigt svar och frys det som fixture.
+
+### Riksdagens API: fältformer som lätt antas fel
+**Symptom:** Felaktiga slutsatser om data.riksdagen.se-svaren.
+**Cause/fakta (verifierat 2026-06-10):**
+- Prop-list: `beteckning` = bart löpnummer ("20"), årtal i `rm` ("2023/24"); `organ`
+  = fullt departementsnamn; `dokument.departement` saknas.
+- Dir-list: `beteckning`/`nummer` = bart löpnummer; `organ` = KORTKOD ("U-dep",
+  "Ju-dep", "UD-dep"=Utrikes); `dokument.departement` saknas även i detalj-svaret.
+- Relaterade bet/rskr: `dokumentstatus.dokreferens.referens`, referenstyp `behandlas_i`.
+- `dokument_url_html` kan vara protokoll-relativ ("//data.riksdagen.se/..."). Måste
+  prefixas med `https:` innan den används som klickbar länk (T4-rapporten).
+**Solution:** Se fixtures + DEC-007. Bygg full beteckning via `dirBetFromEntry`.
+
+---
 ## Build / Deploy
+
+### commit.sh: preview-sync mot master avvisas (non-fast-forward), tappar arbetsträdet på master
+**Symptom:** `./commit.sh` committar och pushar dev OK, men preview-sync-steget
+("Synkar dev-version till master:dev/...") slutar med `! [rejected] master ->
+master (non-fast-forward)`. Arbetsträdet lämnas kvar på master med gamla rotfiler.
+**Cause:** Lokala master driver isär från origin/master — commit.sh committar bara
+preview-sync-commits lokalt och `deploy.sh` mergar dev→master, så lokala master
+blir aldrig uppdaterad mot origin. Sync-commiten byggs då på en föråldrad bas och
+push:en avvisas. `set -e` avbryter scriptet vid den misslyckade push:en innan
+`git checkout dev` (sista raden), så man blir kvar på master.
+**Solution:** T2-fix-2 (2026-06-10): commit.sh kör nu `git fetch origin` och
+`git reset --hard origin/master` FÖRE sync. Skyddsräcken: (1) abort med tydligt
+fel om `git rev-list origin/master..master` är icke-tom (lokala master har
+opushade commits = potentiellt arbete — reset skulle kasta det); (2) abort om
+arbetsträdet inte faktiskt landade på master efter checkout (en misslyckad
+checkout får aldrig leda till `reset --hard` på fel gren). Manuell upprensning av
+en redan drivande lokal master: `git checkout master && git reset --hard
+origin/master && git checkout dev`.
+**Fälla (lärdom):** Kör ALDRIG `git reset --hard origin/master` i ett scriptflöde
+utan att först bekräfta `git branch --show-current` = master. Om checkout
+misslyckats tyst körs reset på dev och kastar lokalt arbete (origin/dev räddar dig
+— `git reset --hard origin/dev`).
 
 ### commit.sh kräver manuell git add för rotfiler
 **Symptom:** `./commit.sh` säger "no changes added to commit" trots att filer ändrats.
 **Cause:** Skriptet kör `git add docs/ src/ .claude/` och `git add *.json *.ts *.js *.sh *.md` — men glob-mönster i bash matchar bara redan stagade eller trackade filer om de inte redan finns i index. Ibland behöver filer stagas manuellt först.
 **Solution:** Kör `git add <fil>` innan `./commit.sh "msg"`.
+
+### commit.sh stagear inte allt vid saknad katalog i listan
+**Symptom:** `./commit.sh` rapporterar inte allt staged trots att flera kataloger ändrats. Tidigare: `data/` och allt efter `src/` (som inte finns i repot) ignorerades tyst pga `|| true`-suppression.
+**Cause:** `git add docs/ src/ .claude/ data/ ...` aborterar HELA kommandot vid första saknade pathspec — efterföljande kataloger nås aldrig.
+**Solution:** Sprint 10 T1-fix: stage-listan kör nu en loop som hoppar över saknade kataloger individuellt (`for d in ...; do [ -d "$d" ] || continue; git add "$d"; done`). Verifierat med dry-run att `scripts/` och `.github/` fångas.
 
 ### CSS media query ordning: generella regler skriver över media queries
 **Symptom:** Mobil listvy (`display: block` i portrait media query) syntes inte.

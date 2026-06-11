@@ -1,0 +1,337 @@
+{
+  "korning": "2026-06-10T20:45:57.960Z",
+  "fonster": {
+    "from": "2026-04-25",
+    "tom": "2026-06-10"
+  },
+  "antal_kontrollerade": {
+    "props": 12,
+    "props_terminala_skippade": 3,
+    "props_i_fonster": 31,
+    "dir_i_fonster": 16,
+    "utredningar_sparade": 27
+  },
+  "deltan": [
+    {
+      "typ": "prop-status",
+      "beteckning": "Prop. 2025/26:174",
+      "api_sager": {
+        "found": true,
+        "dok_id": "HD03174",
+        "datum": "2026-03-10 00:00:00",
+        "betankanden": [
+          {
+            "bet": "2025/26:UbU29",
+            "dok_id": "HD01UbU29",
+            "beslut_fattat": true,
+            "statustext": "Ärendet är avslutat",
+            "beslutsdatum": "2026-05-27",
+            "rdbeslut": "Kammaren biföll utskottets förslag.",
+            "rskr": "2025/26:300"
+          }
+        ]
+      },
+      "datafilen_sager": {
+        "status": "proposition",
+        "kalla_fil": "reforms.json",
+        "kalla_post": "register"
+      },
+      "kalla_fil": "reforms.json",
+      "url": "https://data.riksdagen.se/dokument/HD03174"
+    },
+    {
+      "typ": "prop-status",
+      "beteckning": "Prop. 2025/26:191",
+      "api_sager": {
+        "found": true,
+        "dok_id": "HD03191",
+        "datum": "2026-03-17 00:00:00",
+        "betankanden": [
+          {
+            "bet": "2025/26:UbU20",
+            "dok_id": "HD01UbU20",
+            "beslut_fattat": true,
+            "statustext": "Ärendet är avslutat",
+            "beslutsdatum": "2026-05-26",
+            "rdbeslut": "Kammaren biföll utskottets förslag.",
+            "rskr": "2025/26:277"
+          }
+        ]
+      },
+      "datafilen_sager": {
+        "status": "proposition",
+        "kalla_fil": "reforms.json",
+        "kalla_post": "offentlighet"
+      },
+      "kalla_fil": "reforms.json",
+      "url": "https://data.riksdagen.se/dokument/HD03191"
+    },
+    {
+      "typ": "prop-status",
+      "beteckning": "Prop. 2025/26:192",
+      "api_sager": {
+        "found": true,
+        "dok_id": "HD03192",
+        "datum": "2026-03-17 00:00:00",
+        "betankanden": [
+          {
+            "bet": "2025/26:UbU21",
+            "dok_id": "HD01UbU21",
+            "beslut_fattat": true,
+            "statustext": "Ärendet är avslutat",
+            "beslutsdatum": "2026-05-27",
+            "rdbeslut": "Kammaren biföll utskottets förslag.",
+            "rskr": "2025/26:299"
+          }
+        ]
+      },
+      "datafilen_sager": {
+        "status": "proposition",
+        "kalla_fil": "reforms.json",
+        "kalla_post": "brott"
+      },
+      "kalla_fil": "reforms.json",
+      "url": "https://data.riksdagen.se/dokument/HD03192"
+    },
+    {
+      "typ": "prop-status",
+      "beteckning": "Prop. 2025/26:193",
+      "api_sager": {
+        "found": true,
+        "dok_id": "HD03193",
+        "datum": "2026-03-17 00:00:00",
+        "betankanden": [
+          {
+            "bet": "2025/26:UbU22",
+            "dok_id": "HD01UbU22",
+            "beslut_fattat": true,
+            "statustext": "Ärendet är avslutat",
+            "beslutsdatum": "2026-06-03",
+            "rdbeslut": "Kammaren biföll utskottets förslag.",
+            "rskr": "2025/26:308"
+          }
+        ]
+      },
+      "datafilen_sager": {
+        "status": "proposition",
+        "kalla_fil": "reforms.json",
+        "kalla_post": "studiero"
+      },
+      "kalla_fil": "reforms.json",
+      "url": "https://data.riksdagen.se/dokument/HD03193"
+    },
+    {
+      "typ": "prop-status",
+      "beteckning": "Prop. 2025/26:194",
+      "api_sager": {
+        "found": true,
+        "dok_id": "HD03194",
+        "datum": "2026-03-17 00:00:00",
+        "betankanden": [
+          {
+            "bet": "2025/26:UbU23",
+            "dok_id": "HD01UbU23",
+            "beslut_fattat": true,
+            "statustext": "Ärendet är avslutat",
+            "beslutsdatum": "2026-06-03",
+            "rdbeslut": "Kammaren biföll utskottets förslag.",
+            "rskr": "2025/26:327"
+          },
+          {
+            "bet": "2025/26:UbU24",
+            "dok_id": "HD01UbU24",
+            "beslut_fattat": true,
+            "statustext": "Ärendet är avslutat",
+            "beslutsdatum": "2026-06-03",
+            "rdbeslut": "Kammaren biföll utskottets förslag.",
+            "rskr": "2025/26:328"
+          },
+          {
+            "bet": "2025/26:UbU25",
+            "dok_id": "HD01UbU25",
+            "beslut_fattat": true,
+            "statustext": "Ärendet är avslutat",
+            "beslutsdatum": "2026-06-09",
+            "rdbeslut": "Kammaren biföll utskottets förslag.",
+            "rskr": "2025/26:332"
+          },
+          {
+            "bet": "2025/26:UbU26",
+            "dok_id": "HD01UbU26",
+            "beslut_fattat": true,
+            "statustext": "Ärendet är avslutat",
+            "beslutsdatum": "2026-06-09",
+            "rdbeslut": "Kammaren biföll utskottets förslag.",
+            "rskr": "2025/26:335"
+          }
+        ]
+      },
+      "datafilen_sager": {
+        "status": "proposition",
+        "kalla_fil": "reforms.json",
+        "kalla_post": "laroplaner"
+      },
+      "kalla_fil": "reforms.json",
+      "url": "https://data.riksdagen.se/dokument/HD03194"
+    },
+    {
+      "typ": "prop-status",
+      "beteckning": "Prop. 2025/26:195",
+      "api_sager": {
+        "found": true,
+        "dok_id": "HD03195",
+        "datum": "2026-03-17 00:00:00",
+        "betankanden": [
+          {
+            "bet": "2025/26:UbU24",
+            "dok_id": "HD01UbU24",
+            "beslut_fattat": true,
+            "statustext": "Ärendet är avslutat",
+            "beslutsdatum": "2026-06-03",
+            "rdbeslut": "Kammaren biföll utskottets förslag.",
+            "rskr": "2025/26:328"
+          },
+          {
+            "bet": "2025/26:UbU26",
+            "dok_id": "HD01UbU26",
+            "beslut_fattat": true,
+            "statustext": "Ärendet är avslutat",
+            "beslutsdatum": "2026-06-09",
+            "rdbeslut": "Kammaren biföll utskottets förslag.",
+            "rskr": "2025/26:335"
+          }
+        ]
+      },
+      "datafilen_sager": {
+        "status": "proposition",
+        "kalla_fil": "reforms.json",
+        "kalla_post": "stod"
+      },
+      "kalla_fil": "reforms.json",
+      "url": "https://data.riksdagen.se/dokument/HD03195"
+    },
+    {
+      "typ": "prop-status",
+      "beteckning": "Prop. 2025/26:196",
+      "api_sager": {
+        "found": true,
+        "dok_id": "HD03196",
+        "datum": "2026-03-17 00:00:00",
+        "betankanden": [
+          {
+            "bet": "2025/26:UbU25",
+            "dok_id": "HD01UbU25",
+            "beslut_fattat": true,
+            "statustext": "Ärendet är avslutat",
+            "beslutsdatum": "2026-06-09",
+            "rdbeslut": "Kammaren biföll utskottets förslag.",
+            "rskr": "2025/26:332"
+          },
+          {
+            "bet": "2025/26:UbU26",
+            "dok_id": "HD01UbU26",
+            "beslut_fattat": true,
+            "statustext": "Ärendet är avslutat",
+            "beslutsdatum": "2026-06-09",
+            "rdbeslut": "Kammaren biföll utskottets förslag.",
+            "rskr": "2025/26:335"
+          }
+        ]
+      },
+      "datafilen_sager": {
+        "status": "proposition",
+        "kalla_fil": "reforms.json",
+        "kalla_post": "tid"
+      },
+      "kalla_fil": "reforms.json",
+      "url": "https://data.riksdagen.se/dokument/HD03196"
+    },
+    {
+      "typ": "prop-status",
+      "beteckning": "Prop. 2025/26:197",
+      "api_sager": {
+        "found": true,
+        "dok_id": "HD03197",
+        "datum": "2026-03-17 00:00:00",
+        "betankanden": [
+          {
+            "bet": "2025/26:UbU26",
+            "dok_id": "HD01UbU26",
+            "beslut_fattat": true,
+            "statustext": "Ärendet är avslutat",
+            "beslutsdatum": "2026-06-09",
+            "rdbeslut": "Kammaren biföll utskottets förslag.",
+            "rskr": "2025/26:335"
+          }
+        ]
+      },
+      "datafilen_sager": {
+        "status": "proposition",
+        "kalla_fil": "reforms.json",
+        "kalla_post": "betyg"
+      },
+      "kalla_fil": "reforms.json",
+      "url": "https://data.riksdagen.se/dokument/HD03197"
+    },
+    {
+      "typ": "prop-status",
+      "beteckning": "Prop. 2025/26:198",
+      "api_sager": {
+        "found": true,
+        "dok_id": "HD03198",
+        "datum": "2026-03-17 00:00:00",
+        "betankanden": [
+          {
+            "bet": "2025/26:UbU26",
+            "dok_id": "HD01UbU26",
+            "beslut_fattat": true,
+            "statustext": "Ärendet är avslutat",
+            "beslutsdatum": "2026-06-09",
+            "rdbeslut": "Kammaren biföll utskottets förslag.",
+            "rskr": "2025/26:335"
+          },
+          {
+            "bet": "2025/26:UbU27",
+            "dok_id": "HD01UbU27",
+            "beslut_fattat": true,
+            "statustext": "Ärendet är avslutat",
+            "beslutsdatum": "2026-05-27",
+            "rdbeslut": "Kammaren biföll utskottets förslag.",
+            "rskr": "2025/26:307"
+          }
+        ]
+      },
+      "datafilen_sager": {
+        "status": "proposition",
+        "kalla_fil": "reforms.json",
+        "kalla_post": "yrkes"
+      },
+      "kalla_fil": "reforms.json",
+      "url": "https://data.riksdagen.se/dokument/HD03198"
+    },
+    {
+      "typ": "nytt-direktiv",
+      "beteckning": "Dir. 2026:43",
+      "titel": "Tilläggsdirektiv till Utredningen om stärkt skydd av den akademiska friheten (U 2025:03)",
+      "datum": "2026-06-04",
+      "departement": "U-dep",
+      "url": "//data.riksdagen.se/dokument/HEB143.html",
+      "detail_fetched": false
+    },
+    {
+      "typ": "tillaggsdir-till-tracked-utredning",
+      "direktiv_beteckning": "Dir. 2026:39",
+      "kopplad_utredning": "U 2025:05",
+      "titel": "Tilläggsdirektiv till Utredningen om speciallärar- och specialpedagogutbildningarna (U 2025:05)",
+      "datum": "2026-05-28",
+      "url": "//data.riksdagen.se/dokument/HEB139.html"
+    },
+    {
+      "typ": "ny-proposition",
+      "beteckning": "Prop. 2025/26:260",
+      "titel": "En mer ändamålsenlig reglering av etikprövning av forskning som avser människor",
+      "datum": "2026-04-30",
+      "url": "https://data.riksdagen.se/dokument/HD03260.html"
+    }
+  ]
+}
