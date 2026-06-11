@@ -18,6 +18,14 @@ Record of key decisions made during the project. **Newest first.**
 
 ---
 
+### DEC-009: Guidelagret som separat data/guide.json, inte utökning av reforms.json
+**Date:** 2026-06-11
+**Decision:** Huvudmannaguidens data (Sprint 11) ligger i en egen fil `data/guide.json` — en post per reform, nycklad på `reform_id` mot reforms.json. Synk-risken mellan filerna hanteras med runtime-validering: guide-vyn loggar reform-id utan guidepost och guideposter utan reform till konsolen (fail loud, aldrig tyst), och bevakningsautomatiseringens extract.js kan utökas att inkludera guide-id:n i manifestet.
+**Reasoning:** (1) Etablerat mönster — varje datadimension är redan en egen fil (connections, uppdrag, malbild, tidslinje, utredningar; se DEC-004 med samma resonemang: separata data uppdateras utan att röra reformdatan). (2) reforms.json laddas av ALLA fem sidor vid varje sidvisning; guide-innehållet är textmassivt (ordagranna övergångsbestämmelser, kravlistor med källor) och behövs bara i guide-vyn — inbakat skulle det blåsa upp varje sidladdning och varje render-loop som itererar reformer. (3) /bevakning-patchar rör reforms.json-statusar ofta; en separat guide-fil ger mindre diffar och lägre konfliktyta per patch.
+**Alternatives considered:** Utökning av reformposterna i reforms.json (noll synk-risk men filstorlek/rendering enligt ovan, och varje guide-uppdatering skulle diffa mot kartans kärndata); separat fil per reform (överdriven granularitet för ~16 poster, fler fetch:ar).
+
+---
+
 ### DEC-008: Per-feed-degradering i RSS-watchern
 **Date:** 2026-06-11
 **Decision:** Ett RSS-flöde som inte går att hämta nollar inte övriga flödens täckning: felet fångas per feed och landar som `feed_fel` i rapportens floden[] → 🔴-varning i veckorapportens issue + "FEL" i footern. Exit 1 endast när ALLA flöden faller (då finns ingen RSS-täckning alls att rapportera).

@@ -1,8 +1,83 @@
 # Project Status — leides-ljuvliga-lilla-reformkarta
 
-> **Last updated:** 2026-06-10
-> **Current sprint:** Sprint 10 — Bevakningsautomatisering
+> **Last updated:** 2026-06-11
+> **Current sprint:** Sprint 11 — Huvudmannaguiden (Sprint 10 öppen parallellt, stängs med T6 2026-06-16)
 > **Sprint dates:** juni 2026
+
+---
+
+## Sprint 11 — Huvudmannaguiden
+
+> ⚠️ **OFULLSTÄNDIG REGISTRERING:** Sprintens mål, out of scope, stop condition
+> och fullständiga task-tabell skulle lämnas i Niklas T1-paste men saknades i
+> meddelandet. Skelettet nedan registrerar T1; komplettera resten vid nästa paste.
+
+**Mål:** _Inväntar Niklas._
+**Out of scope:** _Inväntar Niklas._
+**Stop condition:** _Inväntar Niklas._
+
+**Överlappning:** Sprint 10 stängs med T6 (DoD-review) 2026-06-16 — körs parallellt
+tills dess.
+
+**Designbeslut (T1):**
+- **Guidelagret = separat `data/guide.json`**, en post per reform nycklad på
+  `reform_id` — INTE utökning av reforms.json. Fullt resonemang i **DEC-009**;
+  kort: etablerat en-fil-per-dimension-mönster (DEC-004), reforms.json laddas av
+  alla fem sidor medan guide-texten (ordagranna övergångsbestämmelser, kravlistor)
+  bara behövs i guide-vyn, och /bevakning-patchar får mindre diffar. Synk-risken
+  hanteras med runtime-validering i guide-vyn (id-mismatchar loggas, fail loud).
+- **Språkregeln gäller modellen:** fältnamn och värden bär "gäller/berör/innebär"-
+  semantik (ikrafttradanden, berors, krav = författningens krav), aldrig
+  rekommendationssemantik (inga "bör"-fält, checklistor eller råd). Alla
+  textvärden är officiella formuleringar ur författning/prop med källa.
+
+**Datamodell per guidepost** (datakontrakt för researchen — inga datavärden ännu):
+
+| Fält | Typ | Kontrakt |
+|---|---|---|
+| `reform_id` | sträng | Måste matcha `id` i reforms.json (runtime-validerad) |
+| `ikrafttradanden` | lista av `{datum, omfattning}` | FLERA per reform förekommer (tid-reformen har tre steg: 2026-08-01, 2027-07-01, 2028-07-01). `datum` ISO; `omfattning` = officiell formulering av vad som träder i kraft det datumet |
+| `overgangsbestammelser` | lista av `{text, kalla:{text,url}}` | `text` = ORDAGRANN författnings-/proptext, ingen parafras |
+| `berors` | `{skolformer:[], huvudmannatyper:[]}` | Officiella skolformsbeteckningar; huvudmannatyper som explicit lista (kommunal/enskild/statlig — inget "alla"-specialvärde, det officiella beslutet anger vilka) |
+| `krav` | lista av `{text, kalla:{text,url}}` | `text` = officiell formulering av kravet; källa till primärkälla (regeringen.se/riksdagen.se/SFS) |
+| `sfs` | sträng eller null | SFS-nummer; null tills kungörelse skett (kungörelsen släpar efter färska beslut — null betyder "ej kungjord ännu", aldrig gissad) |
+| `senast_andrad` | ISO-datum | Sätts/uppdateras av samma rutin som /bevakning-datapatcharna |
+
+**Exempel-post — FIKTIV, illustrerar enbart formen (committas INTE i data/);
+«…» markerar platshållare där researchen ska sätta verifierad officiell text:**
+
+```json
+{
+  "reform_id": "exempel-reform",
+  "ikrafttradanden": [
+    { "datum": "2026-08-01", "omfattning": "«officiell formulering: vilka bestämmelser som träder i kraft detta datum»" },
+    { "datum": "2028-07-01", "omfattning": "«officiell formulering för steg två»" }
+  ],
+  "overgangsbestammelser": [
+    {
+      "text": "«ordagrann övergångsbestämmelse ur författningen eller propositionens lagförslag»",
+      "kalla": { "text": "Prop. 20XX/XX:NNN s. NN", "url": "https://www.regeringen.se/…" }
+    }
+  ],
+  "berors": {
+    "skolformer": ["grundskola", "anpassad grundskola"],
+    "huvudmannatyper": ["kommunal", "enskild"]
+  },
+  "krav": [
+    {
+      "text": "«officiell formulering av vad huvudmannen ska göra enligt författningen»",
+      "kalla": { "text": "Bet. 20XX/XX:UbUNN", "url": "https://www.riksdagen.se/…" }
+    }
+  ],
+  "sfs": null,
+  "senast_andrad": "2026-06-11"
+}
+```
+
+| ID | Task | Filer | Status | Acceptance |
+|----|------|-------|--------|------------|
+| T1 | Sprintregistrering + datamodell guidelagret | PROJECT_STATUS.md, DECISIONS.md | ✅ Done (registrering ofullständig — inväntar Niklas mål/oos/stop/tabell) | Modell dokumenterad med fiktiv exempel-post (ej i data/); fil-vs-utökning avgjort och motiverat (DEC-009); språkregeln inbakad i kontraktet; inga datavärden |
+| — | _Resterande task-tabell inväntar Niklas paste_ | | ⬜ | |
 
 ---
 
