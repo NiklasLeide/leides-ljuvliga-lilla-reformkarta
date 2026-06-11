@@ -34,6 +34,18 @@ och följ dem; de upprepas inte här.
    - `eskalera` — allt overifierbart; listas för research-flödet
      (RESEARCH_AGENT.md), ingår INTE i datapatchen
 
+   Typspecifikt (utöver de allmänna reglerna):
+   - `sou-levererad` — betänkandet är redan registrerat i utredningar.json
+     (det är så matchningen sker); verifiera nr/titel/datum mot källan och
+     bocka av. Om datafilen INTE har betänkandet trots deltat är något fel
+     i kedjan → eskalera.
+   - `ny-sou` — riksdagens SOU-data saknar departement, därför listas alla
+     departement (det är inte en bugg). Avgör scope ur källan, med
+     "betänkande av"-ledtråden som start: utanför skolscope → ignorera med
+     motivering; inom scope → åtgärda (registrera utredning/betänkande i
+     utredningar.json) eller eskalera om utredningskopplingen inte kan
+     verifieras direkt.
+
 4. **Bygg datapatchen** för alla åtgärda-deltan enligt reglerna i
    BEVAKNING.md. Rör bara fält som källorna styrker. Uppdatera även
    docs/CHANGELOG.md (en rad per logisk ändring).

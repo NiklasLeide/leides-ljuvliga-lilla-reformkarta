@@ -72,6 +72,15 @@ function renderEnkel(d) {
   return [`- [ ] **${d.beteckning}** ${mdEscape(d.titel || '(titel saknas)')} (${d.datum || 'datum saknas'}) — [källa](${d.url})`];
 }
 
+function renderSouLevererad(d) {
+  return [`- [ ] **${d.beteckning}** ${mdEscape(d.titel || '(titel saknas)')} (${d.datum || 'datum saknas'}) — spårad utredning **${d.utredning}** har publicerat — [källa](${d.url})`];
+}
+
+function renderNySou(d) {
+  const ledtrad = d.betankande_av ? ` — betänkande av ${mdEscape(d.betankande_av)}` : '';
+  return [`- [ ] **${d.beteckning}** ${mdEscape(d.titel || '(titel saknas)')} (${d.datum || 'datum saknas'})${ledtrad} — [källa](${d.url})`];
+}
+
 function renderTillaggsdir(d) {
   return [`- [ ] **${d.direktiv_beteckning}** → spårad utredning **${d.kopplad_utredning}**: ${mdEscape(d.titel || '')} (${d.datum || 'datum saknas'}) — [källa](${d.url})`];
 }
@@ -84,6 +93,10 @@ const SEKTIONER = [
   { typ: 'prop-status', rubrik: 'A. Propositionsstatus — betänkandebeslut att triagera', render: renderPropStatus },
   { typ: 'nytt-direktiv', rubrik: 'B. Nya direktiv (Utbildningsdep.)', render: renderEnkel },
   { typ: 'ny-proposition', rubrik: 'B2. Nya propositioner (Utbildningsdep.)', render: renderEnkel },
+  // SOU bär inget departement i riksdagens data (se riksdagen.js EMPIRI SOU)
+  // — ny-sou listar därför alla departement och människan avgör scope.
+  { typ: 'sou-levererad', rubrik: 'B3. Betänkanden från spårade utredningar', render: renderSouLevererad },
+  { typ: 'ny-sou', rubrik: 'B3. Nya SOU (alla departement — SOU saknar departementsdata)', render: renderNySou },
   { typ: 'tillaggsdir-till-tracked-utredning', rubrik: 'C. Tilläggsdirektiv till spårade utredningar', render: renderTillaggsdir },
   { typ: 'lagradsremiss', rubrik: 'Lagrådsremisser (Utbildningsdep.)', render: renderLagradsremiss },
 ];

@@ -19,12 +19,20 @@ Noll automatiska skrivningar till datafiler.
 - Tom vecka = ingen issue skapas
 - Cron måndagar 06:00 UTC + workflow_dispatch för manuell körning
 
-**Out of scope:** automatisk skrivning till datafiler; HTML-scraping av regeringen.se;
-bevakning av val26; notifiering utanför GitHub; AI-anrop.
+**Out of scope:** automatisk skrivning till datafiler; HTML-scraping av regeringen.se
+— **undantag (T7-scopejustering): T9 får hämta regleringsbrevssidan/PDF:en eftersom
+ingen strukturerad källa finns**; bevakning av val26; notifiering utanför GitHub; AI-anrop.
 
-**Stop condition:** Action körs på schema och manuellt; korrekt rapport mot känt
-testfall; tom vecka ger ingen issue; workflow-permissions contents:read +
-issues:write; BEVAKNING.md följbar utan chatkontext; DoD passerad.
+**Stop condition (utökad i T7):** Action körs på schema och manuellt; korrekt rapport
+mot känt testfall; tom vecka ger ingen issue; workflow-permissions contents:read +
+issues:write; BEVAKNING.md följbar utan chatkontext; **täckningskartan i BEVAKNING.md
+matchar deltatyperna rapport.js kan rendera (kontrolleras i T6-DoD); automationen
+täcker SOU-publiceringar (T7), regeringsuppdrag (T8) och regleringsbrevet (T9) så att
+manuella listan i BEVAKNING.md bara innehåller Skolverkets sidor**; DoD passerad.
+
+**Dokumentregel (fr.o.m. T7):** varje task uppdaterar PROJECT_STATUS.md och
+docs/BEVAKNING.md (täckningskarta + manuella listan) i samma commit som koden;
+.claude/commands/bevakning.md endast när nya deltatyper kräver ny triage-instruktion.
 
 | ID | Task | Filer | Status | Acceptance |
 |----|------|-------|--------|------------|
@@ -37,7 +45,10 @@ issues:write; BEVAKNING.md följbar utan chatkontext; DoD passerad.
 | T3 | RSS-watcher: regeringen.se, Utbildningsdep., 7-dagarsfönster | scripts/bevakning/rss.js | ✅ Done | Feed-discovery verifierad (rk-main.js bygger /Filter/RssFeed?, taxonomi 2085=lagrådsremiss + 1294=U-dep, filtret biter server-side). Delta `{typ:"lagradsremiss",titel,datum,url}`; fonster_fullt_tackt-flagga; fail loud. 12 tester mot fångad riktig fixture (100 poster, djup till 2012-12-11). Live smoke OK: friskole-lagrådsremissen 2026-05-13 fångas. |
 | T4 | GitHub Action: veckocron + dispatch + Issue "Bevakningsrapport v.X" | bevakning.yml, rapport.js | ✅ Done | rapport.js: sektioner A/B/B2/C/lagrådsremisser, triage-kryssrutor, Övrigt-sektion för okända typer, GITHUB_OUTPUT-kontrakt, 7/7 tester. Permissions exakt contents:read+issues:write. Live-verifierat efter deploy 2026-06-11 (workflow_dispatch registreras först när filen finns på master — dispatch från dev 404:ar innan dess): scenario 1 (maj-fönster) → issue #1 med friskole-lagrådsremissen 2026-05-13 + Dir. 2026:39; scenario 2 (jan-fönster) → grön körning, alla fönsterberoende sektioner tomma, MEN issue #2 skapades med de 9 fönsteroberoende A-deltana — äkta tom körning kräver att A-backloggen triagerats i reforms.json (by design). Test-issues stängda ("testkörning T4"). T4-fix: absUrl i alla jobb + actions v5/v6 (Node 24-deprecation före cron 22 juni). **Cronen är LIVE på master (deploy 2026-06-11, inkl. T4-fix) — första schemalagda körning måndag 15 juni 06:00 UTC.** |
 | T5 | Bevakningsrutin som kommando (reviderad) | docs/BEVAKNING.md, .claude/commands/bevakning.md | ✅ Done | BEVAKNING.md omskriven: arkitektur (Action/skript/människa, jobb A-backlog-caveat), verifieringsregler i full form, triage-klassning (åtgärda/ignorera/eskalera, Prop. 260-exemplet), felsökning med fixture-förnyelse som första steg; manuella listan behållen för det automationen inte täcker (Skolverket, RB, SOU-publicering). /bevakning-kommandot kodifierar 6-stegsrutinen (gh-hämtning → källverifiering → klassning → datapatch → diff-godkännande FÖRE commit → issue-kommentar+stängning); hårda regler: overifierbart=eskalera, BEVAKNING.md är regelkällan (ingen duplicering). End-to-end-verifiering mot riktiga backlogg-issuet sker i nästa steg. |
-| T6 | Run DoD review for this sprint | (dod-reviewer) | ⬜ Todo | Sprint godkänd |
+| T7 | Jobb B3: SOU-publiceringar | riksdagen.js, rapport.js, fixtures/ | ✅ Done | **Empiri: SOU bär INGET departement i riksdagens data** (organ tom i list, departement+dokuppgift saknas i detalj — verifierat mot HDB39) → ingen dep-filtrering möjlig; alla okända SOU rapporteras (~0–3/vecka) med "Betänkande av..."-ledtråd ur summary. sou-levererad vid betankanden[].nr-match (faktapar med utrednings-id), annars ny-sou. 22/22 + 8/8 tester; skarp körning 2025-01-25→02-05: SOU 2025:9 → sou-levererad via utr-grundlaggande-svenska (facit) + SOU 2025:8 via utr-studiero; 3 ny-sou. Fönster-fetcharna konsoliderade till fetchDokumentWindow. |
+| T8 | Uppdrag-watcher: nya regeringsuppdrag (U-dep) | scripts/bevakning/ | ⬜ Todo | Deltatyp "uppdrag"; täckningskarta + manuella listan uppdateras i samma commit |
+| T9 | Regleringsbrev-watcher | scripts/bevakning/ | ⬜ Todo | Deltatyp regleringsbrev/ändringsbeslut; scraping-undantaget gäller (se Out of scope); manuella listan ska därefter bara innehålla Skolverkets sidor |
+| T6 | Run DoD review for this sprint (sist) | (dod-reviewer) | ⬜ Todo | Sprint godkänd; kontrollerar även att täckningskartan i BEVAKNING.md matchar deltatyperna rapport.js renderar |
 
 **Testkommando:** `node --test scripts/bevakning/extract.test.js`,
 `node --test scripts/bevakning/riksdagen.test.js` och

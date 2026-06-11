@@ -22,13 +22,15 @@ följer rutinen härifrån — reglerna definieras HÄR och dupliceras inte.
 **Skripten** (`scripts/bevakning/`, zero-dependency Node 20, CJS)
 - `extract.js` — runtime-manifest ur datafilerna (props/SOU/dir/utredningar).
   Ingen committad bevakningslista; manifestet beräknas vid varje körning.
-- `riksdagen.js` — fyra jobb mot data.riksdagen.se:
+- `riksdagen.js` — fem jobb mot data.riksdagen.se:
   **A** prop-status (betänkandebeslut för icke-terminala manifest-props),
   **B** nya U-dep-direktiv i fönstret, **B2** nya U-dep-propositioner i
-  fönstret, **C** tilläggsdir till spårade utredningar (alla departement).
-  Kända API-beteenden (publiceringsstatus "Klar" utan signalvärde,
-  BES-aktivitet "planerat" vs "inträffat", organ-kortkoder) dokumenteras i
-  filens huvudkommentar — läs den innan du ändrar något.
+  fönstret, **B3** SOU-publiceringar i fönstret (spårade → sou-levererad,
+  okända → ny-sou), **C** tilläggsdir till spårade utredningar (alla
+  departement). Kända API-beteenden (publiceringsstatus "Klar" utan
+  signalvärde, BES-aktivitet "planerat" vs "inträffat", organ-kortkoder,
+  SOU helt utan departementsdata → ny-sou listar alla departement)
+  dokumenteras i filens huvudkommentar — läs den innan du ändrar något.
 - `rss.js` — lagrådsremisser via regeringen.se:s RSS (U-dep-filtrerad feed;
   riksdagens API täcker inte lagrådsremisser). Flaggar när fönstret sträcker
   sig bakom flödets äldsta post.
@@ -45,6 +47,25 @@ följer rutinen härifrån — reglerna definieras HÄR och dupliceras inte.
 **Viktigt om jobb A:** A diffar API mot datafil oavsett datumfönster — samma
 deltan återkommer varje vecka tills reforms.json är uppdaterad. En "tom
 vecka" (ingen issue) kräver alltså både tomt fönster OCH triagerad A-backlog.
+
+---
+
+## Täckningskarta — vad bevakas automatiskt
+
+Denna tabell ska matcha deltatyperna i rapport.js SEKTIONER exakt —
+kontrolleras vid sprintens DoD. Lägger du till ett jobb: uppdatera tabellen,
+rapport.js och (vid behov) /bevakning-kommandots triage-instruktioner i
+samma commit.
+
+| Deltatyp | Jobb | Källa | Täckning |
+|---|---|---|---|
+| `prop-status` | A | data.riksdagen.se | Betänkandebeslut för manifest-props (fönsteroberoende) |
+| `nytt-direktiv` | B | data.riksdagen.se | Nya U-dep-direktiv i fönstret |
+| `ny-proposition` | B2 | data.riksdagen.se | Nya U-dep-props i fönstret, ej i manifestet |
+| `sou-levererad` | B3 | data.riksdagen.se | SOU i fönstret som matchar spårat betankanden[].nr |
+| `ny-sou` | B3 | data.riksdagen.se | Okända SOU i fönstret — ALLA departement (SOU saknar departementsdata) |
+| `tillaggsdir-till-tracked-utredning` | C | data.riksdagen.se | Tilläggsdir till spårade utredningar, alla departement |
+| `lagradsremiss` | rss.js | regeringen.se RSS | Nya U-dep-lagrådsremisser i fönstret |
 
 ---
 
@@ -115,9 +136,9 @@ den har formatet ändrats och koden ska anpassas, inte testerna luckras upp.
 
 ## Manuell bevakning — täcks INTE av automationen
 
-Automationen täcker riksdagsdokument (prop/dir/bet) och lagrådsremisser.
-Följande källor kräver fortfarande manuell koll (månadsvis, eller veckovis
-under voteringsperioden april–juni):
+Automationen täcker riksdagsdokument (prop/dir/bet/SOU) och lagrådsremisser
+— se Täckningskartan. Följande källor kräver fortfarande manuell koll
+(månadsvis, eller veckovis under voteringsperioden april–juni):
 
 ### Skolverket
 - [ ] Aktuella regeländringar: https://www.skolverket.se/styrning-och-ansvar/forandringar-inom-skolomradet/aktuella-regelandringar
@@ -134,12 +155,6 @@ under voteringsperioden april–juni):
 
 ### Regleringsbrev
 - [ ] RB 2026: https://www.statskontoret.se/regleringsbrev/25940/pdf?Version=HelaBrevet
-
-### Utredningar — SOU-publicering bevakas inte av automationen
-(Jobb C fångar tilläggsdirektiv, men ingen watcher ser när ett betänkande publiceras.)
-- [ ] Skolpengsnorm: https://www.regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2025/06/sou-202572 (slutbetänkande nov 2026)
-- [ ] Vinst i skolan (på remiss): https://www.regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2026/01/sou-2025123
-- [ ] Obligatorisk språkförskola (utredning pågår): https://www.regeringen.se/kommittedirektiv/2024/10/dir.-2024113
 
 ### Övrigt
 - [ ] EU:s AI-förordning — bevaka om Skolverket får uppdrag (inget uppdrag ännu)

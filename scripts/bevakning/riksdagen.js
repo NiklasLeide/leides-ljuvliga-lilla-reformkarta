@@ -2,13 +2,25 @@
 // riksdagen.js — riksdags-API-watcher för bevakningsautomatiseringen (Sprint 10 T2).
 // CJS, zero-dependency, Node 20+ inbyggd fetch.
 //
-// Producerar en delta-rapport som JSON till stdout. Fyra detekteringsjobb:
+// Producerar en delta-rapport som JSON till stdout. Fem detekteringsjobb:
 //   A)  prop-status: för varje Prop. i manifestet — vad säger API:t vs datafilen?
 //   B)  nytt-direktiv: nya direktiv (7d) från Utbildningsdepartementet
 //   B2) ny-proposition: nya props i fönstret från Utbildningsdepartementet
 //       som inte redan finns i manifestet (T2-fix-4)
+//   B3) sou-publiceringar: SOU i fönstret — "sou-levererad" när numret matchar
+//       ett betankanden[].nr i manifestet (spårad utredning har publicerat),
+//       annars "ny-sou" som triagepunkt (T7). OBS: INGEN departementsfiltrering
+//       — se EMPIRI SOU nedan.
 //   C)  tillaggsdir-till-tracked-utredning: tilläggsdir vars titel refererar en
 //       tracked U-beteckning, oavsett departement
+//
+// EMPIRI SOU (T7, verifierat 2026-06-11 mot SOU 2025:9/HDB39): SOU bär INGET
+// departement någonstans i riksdagens data — list-entryts `organ` är tom
+// sträng, och detalj-svaret (dokumentstatus) saknar både `dokument.departement`
+// och dokuppgift helt. U-dep-filtrering är alltså omöjlig för SOU; alla okända
+// SOU i fönstret rapporteras (volym ~0–3/vecka) och människan avgör scope.
+// List-entryts `summary` inleds dock med betänkandets titelsida — "Betänkande
+// av <utredningsnamn>" extraheras därifrån som triage-ledtråd (betankande_av).
 //
 // Inga statusmappningar — skriptet tolkar inte, det rapporterar beskrivande
 // faktapar. Människan triagar via veckorapportens triage-kryssrutor (T4).
@@ -314,22 +326,10 @@ async function jobA_props({ manifest, dataIndex, fetcher, verbose, delayMs }) {
   return { deltan, terminalaSkippade };
 }
 
-async function fetchDirektivWindow({ from, tom, fetcher, delayMs = REQUEST_DELAY_MS_DEFAULT }) {
+// Gemensam fönster-fetch för list-API:t (dir/prop/sou använder samma form).
+async function fetchDokumentWindow({ doktyp, from, tom, fetcher, delayMs = REQUEST_DELAY_MS_DEFAULT }) {
   const params = new URLSearchParams({
-    doktyp: 'dir', sort: 'datum', sortorder: 'desc',
-    sz: '50', utformat: 'json',
-    from, tom,
-  });
-  const url = `${API_BASE}/dokumentlista/?${params}`;
-  const data = await fetcher(url);
-  await sleep(delayMs);
-  const docs = (data && data.dokumentlista && data.dokumentlista.dokument) || [];
-  return Array.isArray(docs) ? docs : [docs];
-}
-
-async function fetchPropWindow({ from, tom, fetcher, delayMs = REQUEST_DELAY_MS_DEFAULT }) {
-  const params = new URLSearchParams({
-    doktyp: 'prop', sort: 'datum', sortorder: 'desc',
+    doktyp, sort: 'datum', sortorder: 'desc',
     sz: '50', utformat: 'json',
     from, tom,
   });
@@ -465,6 +465,75 @@ async function jobB2_nyaPropositioner({ propLista, manifest, fetcher, verbose, d
   return deltan;
 }
 
+// Bygg full SOU-beteckning från ett list-entry. SOU-listans `rm` är bart
+// årtal ("2025", som dir) med löpnumret i `nummer`/`beteckning` ("9").
+function souBetFromEntry(entry) {
+  if (!entry) return null;
+  const rm = entry.rm != null ? String(entry.rm) : null;
+  const nr = entry.nummer != null ? String(entry.nummer)
+    : (entry.beteckning != null ? String(entry.beteckning) : null);
+  if (rm && nr && /^\d{4}$/.test(rm) && /^\d+$/.test(nr)) {
+    return `SOU ${rm}:${nr}`;
+  }
+  return null;
+}
+
+// Triage-ledtråd ur SOU-entryts summary/notis (betänkandets titelsida):
+// "Betänkande av <utredningsnamn>". Whitespace normaliseras; null om mönstret
+// saknas. Enda avsändarinfo som finns för SOU (se EMPIRI SOU i huvudkommentar).
+function betankandeAvFromEntry(entry) {
+  const text = (entry && (entry.summary || entry.notis)) || '';
+  const m = /Betänkande av ([\s\S]*?)(?:\n\s*Stockholm|\nSOU |$)/.exec(text);
+  if (!m) return null;
+  const namn = m[1].replace(/\s+/g, ' ').trim();
+  return namn || null;
+}
+
+// Jobb B3 (T7): SOU-publiceringar i fönstret. Två varianter:
+//   - numret matchar manifest.sou via en betankanden-referens → "sou-levererad"
+//     (spårad utredning har publicerat; faktapar med utrednings-id)
+//   - okänd SOU → "ny-sou" (triagepunkt — departementsfiltrering är omöjlig
+//     för SOU, människan avgör scope; se EMPIRI SOU i huvudkommentaren)
+// SOU som är känd i manifestet via annan referens än betankanden (t.ex. en
+// reform-ref) är redan registrerad → inget delta.
+function jobB3_souPubliceringar({ souLista, manifest, verbose = false }) {
+  const souIndex = new Map(manifest.sou.map(s => [s.id, s]));
+  const deltan = [];
+
+  for (const entry of souLista) {
+    const bet = souBetFromEntry(entry);
+    const kand = bet ? souIndex.get(bet) : undefined;
+    const url = absUrl(entry.dokument_url_html) || `${API_BASE}/dokument/${entry.dok_id}`;
+    const datum = typeof entry.datum === 'string' ? entry.datum.slice(0, 10) : null;
+
+    if (kand) {
+      const utrRef = kand.referenser.find(r => r.falt && r.falt.startsWith('betankanden'));
+      if (!utrRef) {
+        if (verbose) process.stderr.write(`[jobB3] ${bet}: känd i manifestet utan betankanden-referens — inget delta\n`);
+        continue;
+      }
+      deltan.push({
+        typ: 'sou-levererad',
+        beteckning: bet,
+        titel: (entry.titel || '').trim() || null,
+        datum,
+        utredning: utrRef.kalla_post, // t.ex. "utr-grundlaggande-svenska"
+        url,
+      });
+    } else {
+      deltan.push({
+        typ: 'ny-sou',
+        beteckning: bet || entry.beteckning,
+        titel: (entry.titel || '').trim() || null,
+        datum,
+        betankande_av: betankandeAvFromEntry(entry), // triage-ledtråd, kan vara null
+        url,
+      });
+    }
+  }
+  return deltan;
+}
+
 function jobC_tillaggsdirToTracked({ direktivLista, manifest }) {
   const kandaUtr = new Set(manifest.utredningar.map(u => u.id));
   const deltan = [];
@@ -506,15 +575,20 @@ async function buildReport({ from, tom, dataDir, fetcher, verbose = false, delay
   deltan.push(...jobA.deltan);
 
   // Jobb B + C delar en list-fetch
-  const direktivLista = await fetchDirektivWindow({ from, tom, fetcher, delayMs });
+  const direktivLista = await fetchDokumentWindow({ doktyp: 'dir', from, tom, fetcher, delayMs });
   const bDeltan = await jobB_nyttDirektivUtbildningsdep({ direktivLista, manifest, fetcher, verbose, delayMs });
   const cDeltan = jobC_tillaggsdirToTracked({ direktivLista, manifest });
   deltan.push(...bDeltan, ...cDeltan);
 
   // Jobb B2: nya propositioner i samma fönster
-  const propLista = await fetchPropWindow({ from, tom, fetcher, delayMs });
+  const propLista = await fetchDokumentWindow({ doktyp: 'prop', from, tom, fetcher, delayMs });
   const b2Deltan = await jobB2_nyaPropositioner({ propLista, manifest, fetcher, verbose, delayMs });
   deltan.push(...b2Deltan);
+
+  // Jobb B3: SOU-publiceringar i samma fönster
+  const souLista = await fetchDokumentWindow({ doktyp: 'sou', from, tom, fetcher, delayMs });
+  const b3Deltan = jobB3_souPubliceringar({ souLista, manifest, verbose });
+  deltan.push(...b3Deltan);
 
   return {
     korning: new Date().toISOString(),
@@ -524,6 +598,7 @@ async function buildReport({ from, tom, dataDir, fetcher, verbose = false, delay
       props_terminala_skippade: jobA.terminalaSkippade,
       props_i_fonster: propLista.length,
       dir_i_fonster: direktivLista.length,
+      sou_i_fonster: souLista.length,
       utredningar_sparade: manifest.utredningar.length,
     },
     deltan,
@@ -558,13 +633,15 @@ module.exports = {
   jobA_props,
   jobB_nyttDirektivUtbildningsdep,
   jobB2_nyaPropositioner,
+  jobB3_souPubliceringar,
   jobC_tillaggsdirToTracked,
-  fetchDirektivWindow,
-  fetchPropWindow,
+  fetchDokumentWindow,
   lookupProp,
   normalizeDirBet,
   dirBetFromEntry,
   propBetFromEntry,
+  souBetFromEntry,
+  betankandeAvFromEntry,
   isUtbildningsdepOrgan,
   buildDataIndex,
   extractStatusOgRelaterade,

@@ -92,6 +92,26 @@ test('okänd delta-typ hamnar i Övrigt med rå JSON — aldrig tyst tappad', ()
   assert.equal((r.body.match(/^- \[ \] /gm) || []).length, 1); // kryssruta även för okänd
 });
 
+test('B3-typerna renderas med egna sektioner (T7)', () => {
+  const riksdagen = {
+    ...RIKSDAGEN,
+    deltan: [
+      { typ: 'sou-levererad', beteckning: 'SOU 2025:9', titel: 'På språklig grund', datum: '2025-01-31', utredning: 'utr-grundlaggande-svenska', url: 'https://data.riksdagen.se/dokument/HDB39.html' },
+      { typ: 'ny-sou', beteckning: 'SOU 2025:12', titel: 'AI-kommissionens Färdplan för Sverige', datum: '2025-02-03', betankande_av: 'AI-kommissionen', url: 'https://data.riksdagen.se/dokument/HDB312.html' },
+      { typ: 'ny-sou', beteckning: 'SOU 2025:11', titel: 'Straffbarhetsåldern', datum: '2025-02-03', betankande_av: null, url: 'https://data.riksdagen.se/dokument/HDB311.html' },
+    ],
+  };
+  const r = buildRapport({ riksdagen, rss: { ...RSS, deltan: [] }, nu: NU });
+  assert.equal(r.antalDeltan, 3);
+  assert.match(r.body, /## B3\. Betänkanden från spårade utredningar \(1\)/);
+  assert.match(r.body, /\*\*SOU 2025:9\*\* På språklig grund \(2025-01-31\) — spårad utredning \*\*utr-grundlaggande-svenska\*\* har publicerat — \[källa\]/);
+  assert.match(r.body, /## B3\. Nya SOU \(alla departement — SOU saknar departementsdata\) \(2\)/);
+  assert.match(r.body, /\*\*SOU 2025:12\*\*.*— betänkande av AI-kommissionen — \[källa\]/);
+  assert.doesNotMatch(r.body, /\*\*SOU 2025:11\*\*.*betänkande av/); // null-ledtråd renderas inte
+  assert.doesNotMatch(r.body, /## Övrigt/); // typerna är kända, hamnar inte i Övrigt
+  assert.equal((r.body.match(/^- \[ \] /gm) || []).length, 3);
+});
+
 test('rss-varning "ej fullt täckt" tas med i rapporten', () => {
   const rss = { ...RSS, deltan: [], fonster_fullt_tackt: false, aldsta_post_i_flodet: '2012-12-11' };
   const r = buildRapport({ riksdagen: { ...RIKSDAGEN, deltan: [] }, rss, nu: NU });
