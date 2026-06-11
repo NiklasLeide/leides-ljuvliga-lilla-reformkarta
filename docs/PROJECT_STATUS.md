@@ -8,13 +8,18 @@
 
 ## Sprint 11 — Huvudmannaguiden
 
-> ⚠️ **OFULLSTÄNDIG REGISTRERING:** Sprintens mål, out of scope, stop condition
-> och fullständiga task-tabell skulle lämnas i Niklas T1-paste men saknades i
-> meddelandet. Skelettet nedan registrerar T1; komplettera resten vid nästa paste.
+**Mål:** guide.html — skyldighetscentrerad tidslinje för enskilda huvudmän:
+vad gäller, vem berörs, från när. Varje rad spårbar till författning/beslut.
+Överblick, aldrig rådgivning.
 
-**Mål:** _Inväntar Niklas._
-**Out of scope:** _Inväntar Niklas._
-**Stop condition:** _Inväntar Niklas._
+**Out of scope:** prenumeration/notiser; rådgivande formuleringar; kommunala
+huvudmän som egen anpassning; automatgenerering av guideposter ur bevakningen
+(manuell pipeline i v1); val26-koppling.
+
+**Stop condition:** guide.html på dev med batch 1–3-data; varje krav har källa
+i {text, url}; språkregeln maskingranskad (inga bör/rekommenderar/råder i
+guidetext); 375px manuellt verifierad; "på väg"-sektion skiljer beslutat från
+kommande; DoD passerad.
 
 **Överlappning:** Sprint 10 stängs med T6 (DoD-review) 2026-06-16 — körs parallellt
 tills dess.
@@ -76,8 +81,12 @@ tills dess.
 
 | ID | Task | Filer | Status | Acceptance |
 |----|------|-------|--------|------------|
-| T1 | Sprintregistrering + datamodell guidelagret | PROJECT_STATUS.md, DECISIONS.md | ✅ Done (registrering ofullständig — inväntar Niklas mål/oos/stop/tabell) | Modell dokumenterad med fiktiv exempel-post (ej i data/); fil-vs-utökning avgjort och motiverat (DEC-009); språkregeln inbakad i kontraktet; inga datavärden |
-| — | _Resterande task-tabell inväntar Niklas paste_ | | ⬜ | |
+| T1 | Sprintregistrering + datamodell guidelagret | PROJECT_STATUS.md, DECISIONS.md | ✅ Done | Modell dokumenterad med fiktiv exempel-post (ej i data/); fil-vs-utökning avgjort och motiverat (DEC-009); språkregeln inbakad i kontraktet; inga datavärden (7bfc805) |
+| T2 | Ingestion batch 1+2 (9 reformer) + ordagrann extraktion övergångsbestämmelser | data/guide.json | ⬜ Todo | Diff godkänns före commit; allt källsatt; ingen /goal |
+| T3 | Ingestion batch 3 (genomförda reformer) | data/guide.json | ⬜ Todo | Samma regler som T2 |
+| T4 | Guidevyn (körs som /goal) | guide.html | ⬜ Todo | Testsviter gröna, inga konsolfel, språkregel i UI |
+| T5 | Korslänkning karta↔guide + 375px | guide.html, övriga .html | ⬜ Todo | Navigering åt båda håll |
+| T6 | Run DoD review for this sprint (sist) | (dod-reviewer) | ⬜ Todo | Språkregel-grep, källspårbarhet, täckning |
 
 ---
 
