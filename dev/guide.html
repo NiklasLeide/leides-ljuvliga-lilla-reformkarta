@@ -35,8 +35,8 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-header { background: var(--ink); color: #fff; padding: 1.4rem 1.5rem 1.2rem; }
-.header-inner { max-width: 640px; margin: 0 auto; }
+header { background: var(--ink); color: #fff; padding: 1.3rem 1.5rem 1.1rem; }
+.header-inner { max-width: 1080px; margin: 0 auto; }
 .header-badge {
   font-size: 0.6rem; font-weight: 600; letter-spacing: 0.08em;
   text-transform: uppercase; color: rgba(255,255,255,0.35); margin-bottom: 0.3rem;
@@ -52,14 +52,14 @@ header h1 { font-family: 'Source Serif 4', serif; font-size: 1.4rem; font-weight
 .tab-nav a:hover { color: var(--ink); }
 .tab-nav a.active { color: var(--ink); font-weight: 600; border-bottom-color: var(--ink); }
 
-.container { max-width: 640px; margin: 0 auto; padding: 0 1.5rem 3rem; }
+.container { max-width: 1080px; margin: 0 auto; padding: 0 1.5rem 2.2rem; }
 
-/* ── Verksamhetsval: alltid synlig chiprad, samma mönster mobil/desktop ── */
-.val-rad { margin-top: 1rem; }
-.val-etikett { font-size: 0.65rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.35rem; }
-.chips { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+/* ── Kurerad verksamhetsväljare: en kompakt synlig rad ────── */
+.val-rad { margin-top: 0.9rem; }
+.val-etikett { font-size: 0.62rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.3rem; }
+.chips { display: flex; flex-wrap: wrap; gap: 0.35rem; }
 .chip {
-  font-family: inherit; font-size: 0.74rem; padding: 0.4rem 0.8rem; min-height: 44px;
+  font-family: inherit; font-size: 0.74rem; padding: 0.35rem 0.8rem; min-height: 44px;
   background: var(--card); border: 1px solid var(--border); border-radius: 999px;
   cursor: pointer; color: var(--ink); transition: all 0.15s; display: inline-flex; align-items: center;
 }
@@ -68,14 +68,26 @@ header h1 { font-family: 'Source Serif 4', serif; font-size: 1.4rem; font-weight
 .chip-rensa { border-style: dashed; color: var(--muted); display: none; }
 .chip-rensa.synlig { display: inline-flex; }
 
-/* ── Hjulhuvud + hjul ─────────────────────────────────────── */
-.hjulhuvud { text-align: center; margin: 1.2rem 0 0.2rem; }
-.hjulhuvud .ar { font-family: 'Source Serif 4', serif; font-size: 1.3rem; font-weight: 600; }
-.hjulhuvud .sub { font-size: 0.78rem; color: var(--muted); }
+/* ── Kärnvyn: enspalt mobil, tvåspalt ≥1100px ─────────────── */
+.karna { margin-top: 0.6rem; }
+.detalj-hallare { margin-top: 0.9rem; }
+@media (min-width: 1100px) {
+  .karna { display: grid; grid-template-columns: minmax(0, 1fr) 420px; gap: 2rem; align-items: start; }
+  .detalj-hallare { position: sticky; top: 1rem; margin-top: 1.2rem; }
+}
 
-.hjul { display: block; margin: 0 auto; max-width: 360px; width: 100%; }
+/* ── Hjulhuvud + hjul ─────────────────────────────────────── */
+.hjulhuvud { text-align: center; margin: 0.7rem 0 0.1rem; }
+.hjulhuvud .ar { font-family: 'Source Serif 4', serif; font-size: 1.25rem; font-weight: 600; }
+.hjulhuvud .sub { font-size: 0.76rem; color: var(--muted); }
+.hjulhuvud .nu-lank {
+  font-family: inherit; font-size: 0.72rem; color: var(--kunskap); background: none;
+  border: none; cursor: pointer; text-decoration: underline; min-height: 32px; display: none;
+}
+.hjulhuvud .nu-lank.synlig { display: inline-block; }
+
+.hjul { display: block; margin: 0 auto; max-width: 380px; width: 100%; }
 .seg { fill: var(--hjul); stroke: var(--bg); stroke-width: 2; }
-/* Månader med datum är KNAPPAR — tydlig affordance; tomma månader är inerta */
 g[data-test=manad] { cursor: pointer; }
 g[data-test=manad] .seg { fill: var(--hjul-het); transition: fill 0.15s; }
 g[data-test=manad]:hover .seg { fill: var(--hjul-vald); }
@@ -83,20 +95,20 @@ g[data-test=manad]:focus { outline: none; }
 g[data-test=manad]:focus-visible .seg { stroke: var(--kunskap); stroke-width: 3; }
 g[data-test=manad].vald .seg { fill: var(--hjul-vald); stroke: var(--ink); stroke-width: 2.5; }
 g[data-test=manad] .mlabel { fill: var(--ink); font-weight: 700; }
-.mlabel { font: 600 9.5px 'DM Sans', sans-serif; fill: var(--muted); letter-spacing: 0.05em; pointer-events: none; }
-/* Punkterna är visuella markörer — ingen klickbarhet */
+.mlabel { font: 600 9px 'DM Sans', sans-serif; fill: var(--muted); letter-spacing: 0.04em; pointer-events: none; }
+.mlabel .antal { font-weight: 400; fill: #555; }
+/* Punkter: små rena markörer utan text */
 .punkt { pointer-events: none; }
-.punkt circle { fill: var(--ink); stroke: #fff; stroke-width: 2; }
+.punkt circle { fill: var(--ink); stroke: #fff; stroke-width: 1.5; }
 .punkt.vald circle { fill: var(--kunskap); }
 .punkt.passerad circle { fill: var(--muted); }
-.punkt text { font: 700 8.5px 'DM Sans', sans-serif; fill: #fff; text-anchor: middle; }
 .mitt-t { font-family: 'Source Serif 4', serif; font-size: 15px; font-weight: 700; text-anchor: middle; fill: var(--ink); }
 .mitt-s { font: 400 9.5px 'DM Sans', sans-serif; fill: var(--muted); text-anchor: middle; }
 
 /* ── Detaljkort med navigering ────────────────────────────── */
 .detalj {
   background: var(--card); border: 1.5px solid var(--ink); border-radius: 12px;
-  padding: 0.85rem 0.9rem; margin-top: 0.9rem;
+  padding: 0.85rem 0.9rem; overflow: hidden;
 }
 .detalj-topp { display: flex; align-items: center; gap: 0.5rem; }
 .detalj-nav-knapp {
@@ -122,16 +134,23 @@ g[data-test=manad] .mlabel { fill: var(--ink); font-weight: 700; }
 .pag-lista { list-style: none; margin-top: 0.4rem; }
 .pag-lista li { font-size: 0.8rem; padding: 0.15rem 0; }
 .pag-lista li.vald { font-weight: 700; }
-.prickar { text-align: center; margin-top: 0.35rem; }
+.detalj-fot { display: flex; justify-content: space-between; align-items: center; gap: 0.5rem; flex-wrap: wrap; }
+.prickar { text-align: center; flex: 1; }
 .prick {
   font-family: inherit; font-size: 0.8rem; background: none; border: none;
   cursor: pointer; color: var(--muted); min-width: 30px; min-height: 44px;
 }
 .prick[aria-current="true"] { color: var(--ink); }
+.kontext-rad { font-size: 0.7rem; color: var(--muted); display: flex; align-items: center; gap: 0.3rem; }
+.kontext-tillbaka {
+  font-family: inherit; font-size: 0.72rem; color: var(--kunskap); background: none;
+  border: none; cursor: pointer; text-decoration: underline; min-height: 44px; display: none;
+}
+.kontext-tillbaka.synlig { display: inline-block; }
 
-/* ── Horisontcirklar med utskrivna etiketter ──────────────── */
-.horisont { margin-top: 1.5rem; }
-.horisont h2 { font-family: 'Source Serif 4', serif; font-size: 1rem; margin-bottom: 0.6rem; }
+/* ── Horisontcirklar ──────────────────────────────────────── */
+.horisont { margin-top: 1.2rem; }
+.horisont h2 { font-family: 'Source Serif 4', serif; font-size: 1rem; margin-bottom: 0.5rem; text-align: center; }
 .cirklar { display: flex; gap: 0.6rem; justify-content: center; flex-wrap: wrap; }
 .mini {
   width: 104px; height: 104px; border: 1.5px solid var(--ink); border-radius: 50%;
@@ -146,14 +165,14 @@ g[data-test=manad] .mlabel { fill: var(--ink); font-weight: 700; }
 .mini.pag { border-style: dashed; }
 .mini.pag .mini-nar { color: var(--muted); }
 
-footer { max-width: 640px; margin: 0 auto; padding: 1.6rem 1.5rem 2rem; text-align: center; }
+footer { max-width: 1080px; margin: 0 auto; padding: 1.2rem 1.5rem 2rem; text-align: center; }
 .alla {
   display: inline-block; font-family: 'Source Serif 4', serif; font-size: 0.95rem;
   border-bottom: 2px solid var(--ink); color: var(--ink); text-decoration: none;
   padding-bottom: 2px; min-height: 44px;
 }
 .alla:hover { border-bottom-color: var(--kunskap); color: var(--kunskap); }
-.caveat-fot { font-size: 0.72rem; color: var(--muted); margin-top: 0.7rem; }
+.caveat-fot { font-size: 0.72rem; color: var(--muted); margin-top: 0.6rem; }
 .caveat-fot a { color: var(--muted); }
 
 .sr-only {
@@ -163,7 +182,7 @@ footer { max-width: 640px; margin: 0 auto; padding: 1.6rem 1.5rem 2rem; text-ali
 
 @media (max-width: 600px) {
   header h1 { font-size: 1.15rem; }
-  .container { padding: 0 1rem 2.5rem; }
+  .container { padding: 0 1rem 2.2rem; }
   .mini { width: 92px; height: 92px; }
 }
 </style>
@@ -173,7 +192,7 @@ footer { max-width: 640px; margin: 0 auto; padding: 1.6rem 1.5rem 2rem; text-ali
 <header>
   <div class="header-inner">
     <div class="header-badge">Kunskapsyta · juni 2026 · Privatprojekt av Niklas Leide</div>
-    <h1>Ditt läsårshjul</h1>
+    <h1>Läsårshjul</h1>
     <div class="header-under">nya regler för din verksamhet — ur officiella beslut, inte rådgivning</div>
   </div>
 </header>
@@ -197,25 +216,33 @@ footer { max-width: 640px; margin: 0 auto; padding: 1.6rem 1.5rem 2rem; text-ali
   Samtliga datum och fullständiga underlag finns i listform på sidan
   "Alla datum och fullständiga underlag" — länk längst ned.</p>
 
-  <div class="hjulhuvud">
-    <div class="ar" id="hjulAr"></div>
-    <div class="sub" id="hjulSub"></div>
-  </div>
-
-  <svg class="hjul" viewBox="0 0 320 320" id="hjul" data-test="lasarshjul" role="group" aria-label="Läsårshjul — månader med reformdatum är knappar"></svg>
-
-  <div class="detalj" id="detaljYta">
-    <div class="detalj-topp">
-      <button class="detalj-nav-knapp" id="navFore" type="button" data-test="detalj-nav" aria-label="Föregående datum">‹</button>
-      <div class="detalj-innehall" id="detalj" data-test="hjul-detalj" aria-live="polite"></div>
-      <button class="detalj-nav-knapp" id="navNasta" type="button" data-test="detalj-nav" aria-label="Nästa datum">›</button>
+  <div class="karna" data-test="layout-tvaspalt">
+    <div class="karna-vanster">
+      <div class="hjulhuvud">
+        <div class="ar" id="hjulAr"></div>
+        <div class="sub" id="hjulSub"></div>
+        <button class="nu-lank" id="nuLank" type="button"></button>
+      </div>
+      <svg class="hjul" viewBox="0 0 320 320" id="hjul" data-test="lasarshjul" role="group" aria-label="Läsårshjul — månader med reformdatum är knappar"></svg>
+      <div class="horisont">
+        <h2>Längre fram</h2>
+        <div class="cirklar" id="cirklar" data-test="horisont-cirklar"></div>
+      </div>
     </div>
-    <div class="prickar" id="prickar"></div>
-  </div>
 
-  <div class="horisont">
-    <h2>Längre fram</h2>
-    <div class="cirklar" id="cirklar" data-test="horisont-cirklar"></div>
+    <div class="detalj-hallare">
+      <div class="detalj" id="detaljYta">
+        <div class="detalj-topp">
+          <button class="detalj-nav-knapp" id="navFore" type="button" data-test="detalj-nav" aria-label="Föregående datum">‹</button>
+          <div class="detalj-innehall" id="detalj" data-test="hjul-detalj" aria-live="polite"></div>
+          <button class="detalj-nav-knapp" id="navNasta" type="button" data-test="detalj-nav" aria-label="Nästa datum">›</button>
+        </div>
+        <div class="detalj-fot">
+          <button class="kontext-tillbaka" id="kontextTillbaka" type="button">Visa hela läsåret</button>
+          <div class="prickar" id="prickar"></div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -235,7 +262,6 @@ function dataPath(file) {
 
 const IDAG = new Date().toISOString().slice(0, 10);
 const LAGRINGSNYCKEL = 'guide-skolformer';
-const EJ_SPEC = 'ej specificerat i beslutet';
 
 function esc(s) {
   return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -274,10 +300,33 @@ function byggEvents(post) {
   return { events: post.ikrafttradanden, sekundara: [] };
 }
 
+// ── Kurerat väljarlager (T5.6/DEC-015): mappning kurerat val → berors-råvärden.
+// Bedömningar dokumenterade i DEC-015: "fristående skolor" träffar alla fyra
+// skol-valen (fristående skolor finns i alla skolformer); specialskolan och
+// sameskolan ingår i Grundskola (posternas reglering är gemensam med
+// grundskolans — hellre överinkludering än tyst filtermiss); förskoleklassen
+// ingår i Grundskola (upphör som skolform 2028 och följer grundskoleposterna).
+// Poster med berors=null ("ej specificerat i beslutet") visas ALLTID.
+const KURERADE_VAL = [
+  { namn: 'Förskola', ravarden: ['fristående förskolor'] },
+  { namn: 'Grundskola', ravarden: ['grundskolan', 'fristående skolor', 'förskoleklassen', 'sameskolan', 'specialskolan'] },
+  { namn: 'Anpassad grundskola', ravarden: ['anpassade grundskolan', 'fristående skolor'] },
+  { namn: 'Gymnasieskola', ravarden: ['gymnasieskolan', 'fristående skolor'] },
+  { namn: 'Anpassad gymnasieskola', ravarden: ['anpassade gymnasieskolan', 'fristående skolor'] },
+  { namn: 'Fritidshem', ravarden: ['fritidshemmet', 'fristående fritidshem', 'öppen fritidsverksamhet'] },
+  { namn: 'Komvux', ravarden: ['kommunal vuxenutbildning'] },
+];
+const RAVARDEN_PER_VAL = Object.fromEntries(KURERADE_VAL.map(v => [v.namn, new Set(v.ravarden)]));
+
 function traffasAvVal(post, valda) {
-  if (valda.size === 0) return true;
   const egna = (post.berors && post.berors.skolformer) || [];
-  return egna.some(s => valda.has(s)) || (egna.length === 0 && valda.has(EJ_SPEC));
+  if (egna.length === 0) return true; // ej specificerat → visas alltid
+  if (valda.size === 0) return true;
+  for (const val of valda) {
+    const ravarden = RAVARDEN_PER_VAL[val];
+    if (ravarden && egna.some(s => ravarden.has(s))) return true;
+  }
+  return false;
 }
 
 // Läsår: aug–jul, strikt kalendarisk placering. "2026/27" = 2026-08-01 … 2027-07-31.
@@ -291,7 +340,7 @@ function lasarsSlot(datum) {
   const m = Number(datum.slice(5, 7));
   return m >= 8 ? m - 8 : m + 4; // aug=0 … jul=11
 }
-function slotTillManad(slot) { return slot <= 4 ? slot + 8 : slot - 4; } // → 1-indexerad kalendermånad
+function slotTillManad(slot) { return slot <= 4 ? slot + 8 : slot - 4; }
 
 async function init() {
   let guide, reforms;
@@ -310,6 +359,11 @@ async function init() {
   const guideIds = new Set(guide.map(g => g.reform_id));
   for (const g of guide) if (!reformById[g.reform_id]) console.error(`Guide: guidepost "${g.reform_id}" saknar reform i reforms.json`);
   for (const r of reforms) if (r.status === 'beslutad' && !guideIds.has(r.id)) console.warn(`Guide: beslutad reform "${r.id}" saknar guidepost`);
+  // Validera mappningstabellen mot datat — okända råvärden i datat loggas högljutt
+  const kandaRavarden = new Set(KURERADE_VAL.flatMap(v => v.ravarden));
+  for (const ravarde of new Set(guide.flatMap(g => (g.berors && g.berors.skolformer) || []))) {
+    if (!kandaRavarden.has(ravarde)) console.warn(`Guide: berors-värdet "${ravarde}" täcks inte av kurerade väljarlagret`);
+  }
 
   function skolverketLank(reform) {
     const l = (reform.links || []).find(x => /skolverket/i.test(x.t || '') && /skolverket\.se/.test(x.u || ''));
@@ -328,10 +382,12 @@ async function init() {
   const ejBeslutade = reforms.filter(r => r.status !== 'beslutad');
   const allaLasar = [...new Set(events.map(e => lasarFor(e.datum)))].sort();
   const nastaEvent = events.find(e => e.datum > IDAG);
+  const INNEVARANDE = lasarFor(IDAG);
 
-  // Läge: antingen ett läsår (poster = läsårets events) eller 'pag'
+  // Läge: läsår, månad inom läsåret, eller på g
   let visatLasar = nastaEvent ? lasarFor(nastaEvent.datum) : allaLasar[allaLasar.length - 1];
-  let lage = 'lasar'; // 'lasar' | 'pag'
+  let kontext = 'lasar'; // 'lasar' | 'manad' | 'pag'
+  let kontextSlot = -1;
   let pos = 0;
   const valda = new Set();
 
@@ -339,10 +395,12 @@ async function init() {
     return events.filter(e => lasarFor(e.datum) === visatLasar && traffasAvVal(e.post, valda));
   }
   function aktuellaPoster() {
-    return lage === 'pag' ? ejBeslutade : lasarEvents();
+    if (kontext === 'pag') return ejBeslutade;
+    if (kontext === 'manad') return lasarEvents().filter(e => lasarsSlot(e.datum) === kontextSlot);
+    return lasarEvents();
   }
 
-  // ── Hjulet: månader med datum är knappar, punkter är markörer
+  // ── Hjulet
   const C = 160, R1 = 70, R2 = 132;
   function pol(r, a) { a = (a - 90) * Math.PI / 180; return [C + r * Math.cos(a), C + r * Math.sin(a)]; }
 
@@ -360,59 +418,64 @@ async function init() {
       const [x0, y0] = pol(R2, a0), [x1, y1] = pol(R2, a1), [x2, y2] = pol(R1, a1), [x3, y3] = pol(R1, a0);
       const d = `M${x0} ${y0} A${R2} ${R2} 0 0 1 ${x1} ${y1} L${x2} ${y2} A${R1} ${R1} 0 0 0 ${x3} ${y3} Z`;
       const [lx, ly] = pol((R1 + R2) / 2, i * 30 + 15);
-      const label = `<text class="mlabel" x="${lx}" y="${ly + 3}" text-anchor="middle">${LASARSMANADER[i]}</text>`;
       if (perSlot.has(i)) {
         const antal = perSlot.get(i).length;
         const namn = MANADER_LANG[slotTillManad(i) - 1];
+        // Månadsetikett med antalsbadge: "JULI · 2"
+        const label = `<text class="mlabel" x="${lx}" y="${ly + 3}" text-anchor="middle">${LASARSMANADER[i]}<tspan class="antal" data-test="manad-antal"> · ${antal}</tspan></text>`;
         svg += `<g data-test="manad" data-slot="${i}" role="button" tabindex="0"
           aria-label="${esc(`${namn} — ${antal} ${antal === 1 ? 'nytt datum' : 'nya datum'}`)}">
           <path class="seg" d="${d}"/>${label}</g>`;
       } else {
-        svg += `<path class="seg" d="${d}"/>${label}`;
+        svg += `<path class="seg" d="${d}"/><text class="mlabel" x="${lx}" y="${ly + 3}" text-anchor="middle">${LASARSMANADER[i]}</text>`;
       }
     }
-    // Punkter — rena markörer (aria-hidden, pointer-events:none via CSS)
+    // Punkter: små rena markörer utan text, kollisionsförskjutna (min 6° separation)
+    const MIN_SEP = 6;
+    let forraVinkel = -Infinity;
     ev.forEach((e, i) => {
       const dag = Number(e.datum.slice(8, 10));
-      const ang = lasarsSlot(e.datum) * 30 + (dag / 31) * 30;
+      let ang = lasarsSlot(e.datum) * 30 + (dag / 31) * 30;
+      if (ang - forraVinkel < MIN_SEP) ang = forraVinkel + MIN_SEP;
+      forraVinkel = ang;
       const [x, y] = pol(R2, ang);
-      const et = `${Number(e.datum.slice(8, 10))}/${Number(e.datum.slice(5, 7))}`;
-      svg += `<g class="punkt${e.datum <= IDAG ? ' passerad' : ''}" data-i="${i}" aria-hidden="true">
-        <circle cx="${x}" cy="${y}" r="11"/><text x="${x}" y="${y + 3}">${et}</text></g>`;
+      svg += `<g class="punkt${e.datum <= IDAG ? ' passerad' : ''}" data-i="${i}" aria-hidden="true"><circle cx="${x}" cy="${y}" r="6"/></g>`;
     });
     const kommande = ev.filter(e => e.datum > IDAG).length;
     const mittS = ev.length === 0 ? 'inga för valet detta läsår' : (kommande > 0 ? `${kommande} kommande` : 'alla har passerat');
     svg += `<text class="mitt-t" x="160" y="156">${ev.length} datum</text><text class="mitt-s" x="160" y="172">${mittS}</text>`;
     document.getElementById('hjul').innerHTML = svg;
 
-    // Läsårsspannet uttalat i rubriken
     document.getElementById('hjulAr').textContent = `Läsåret ${visatLasar} · augusti–juli`;
     document.getElementById('hjulSub').textContent = ev.length > 0
       ? `${ev.length} ${ev.length === 1 ? 'nytt datum' : 'nya datum'} · tryck på en månad`
       : 'inga datum för valet detta läsår — byt läsår nedan eller rensa valet';
+    const nu = document.getElementById('nuLank');
+    nu.classList.toggle('synlig', visatLasar !== INNEVARANDE && allaLasar.includes(INNEVARANDE));
+    nu.textContent = `‹ tillbaka till läsåret ${INNEVARANDE}`;
   }
 
   function markeraHjul() {
-    if (lage === 'pag') {
+    if (kontext === 'pag') {
       document.querySelectorAll('#hjul [data-test=manad]').forEach(g => g.classList.remove('vald'));
       document.querySelectorAll('#hjul .punkt').forEach(p => p.classList.remove('vald'));
       return;
     }
-    const ev = lasarEvents();
-    const e = ev[pos];
-    const slot = e ? lasarsSlot(e.datum) : -1;
+    const poster = aktuellaPoster();
+    const e = poster[pos];
+    const slot = kontext === 'manad' ? kontextSlot : (e ? lasarsSlot(e.datum) : -1);
     document.querySelectorAll('#hjul [data-test=manad]').forEach(g =>
       g.classList.toggle('vald', Number(g.dataset.slot) === slot));
-    // Vald månads ALLA punkter highlightas
+    const ev = lasarEvents();
     document.querySelectorAll('#hjul .punkt').forEach(p => {
       const i = Number(p.dataset.i);
-      p.classList.toggle('vald', e ? lasarsSlot(ev[i].datum) === slot : false);
+      p.classList.toggle('vald', ev[i] ? lasarsSlot(ev[i].datum) === slot : false);
     });
   }
 
-  // ── Detaljkortet med navigering
+  // ── Detaljkortet
   function kortHtml(item) {
-    if (lage === 'pag') {
+    if (kontext === 'pag') {
       const r = item;
       const lista = ejBeslutade.map((x, j) => `<li class="${j === pos ? 'vald' : ''}">${esc(x.short)}${x.ref ? ' · ' + esc(x.ref) : ''}</li>`).join('');
       return `
@@ -435,62 +498,63 @@ async function init() {
       </div>`;
   }
 
-  function visaPos(i) {
-    const poster = aktuellaPoster();
-    if (poster.length === 0) {
-      document.getElementById('detalj').innerHTML =
-        `<p>Inga datum för din valda verksamhet läsåret ${esc(visatLasar)}. Byt läsår under "Längre fram" eller rensa valet — hela listan finns under "Alla datum och fullständiga underlag".</p>`;
-      document.getElementById('prickar').innerHTML = '';
-      document.getElementById('navFore').disabled = true;
-      document.getElementById('navNasta').disabled = true;
-      markeraHjul();
-      return;
-    }
-    pos = Math.max(0, Math.min(i, poster.length - 1));
-    document.getElementById('detalj').innerHTML = kortHtml(poster[pos]);
-    document.getElementById('navFore').disabled = pos === 0;
-    document.getElementById('navNasta').disabled = pos === poster.length - 1;
-    document.getElementById('prickar').innerHTML = poster.length > 1
-      ? poster.map((_, j) =>
-          `<button class="prick" type="button" data-j="${j}" aria-current="${j === pos}" aria-label="Visa post ${j + 1} av ${poster.length}">${j === pos ? '●' : '○'}</button>`).join('')
-      : '';
-    markeraHjul();
-  }
-
-  // Stabil min-höjd per visat läge: dimensionera detaljytan efter största kortet
-  function stabiliseraHojd() {
-    const poster = aktuellaPoster();
+  // Mjuk höjdtransition på kortet — inget reserverat tomrum (T5.6 C)
+  function bytInnehall(uppdatera) {
     const yta = document.getElementById('detaljYta');
-    yta.style.minHeight = '';
-    if (poster.length === 0) return;
-    const inre = document.getElementById('detalj');
-    const matare = document.createElement('div');
-    matare.style.cssText = `position:absolute;visibility:hidden;width:${inre.clientWidth}px;`;
-    matare.className = 'detalj-innehall';
-    document.body.appendChild(matare);
-    let max = 0;
-    for (let j = 0; j < poster.length; j++) {
-      matare.innerHTML = kortHtml(poster[j]);
-      max = Math.max(max, matare.offsetHeight);
-    }
-    matare.remove();
-    // + topp/bottenpadding + prickrad
-    yta.style.minHeight = `${max + 44 + 36}px`;
+    const h0 = yta.offsetHeight;
+    uppdatera();
+    const h1 = yta.offsetHeight;
+    if (h0 === h1) return;
+    yta.style.height = h0 + 'px';
+    yta.style.transition = 'none';
+    void yta.offsetHeight; // reflow
+    yta.style.transition = 'height 0.18s ease';
+    yta.style.height = h1 + 'px';
+    yta.addEventListener('transitionend', function klar() {
+      yta.style.height = '';
+      yta.style.transition = '';
+      yta.removeEventListener('transitionend', klar);
+    });
   }
 
-  // ── Horisontcirklar med utskrivna etiketter
+  function visaPos(i) {
+    bytInnehall(() => {
+      const poster = aktuellaPoster();
+      const tillbaka = document.getElementById('kontextTillbaka');
+      tillbaka.classList.toggle('synlig', kontext === 'manad');
+      if (poster.length === 0) {
+        document.getElementById('detalj').innerHTML =
+          `<p>Inga datum för din valda verksamhet läsåret ${esc(visatLasar)}. Byt läsår under "Längre fram" eller rensa valet — hela listan finns under "Alla datum och fullständiga underlag".</p>`;
+        document.getElementById('prickar').innerHTML = '';
+        document.getElementById('navFore').disabled = true;
+        document.getElementById('navNasta').disabled = true;
+        markeraHjul();
+        return;
+      }
+      pos = Math.max(0, Math.min(i, poster.length - 1));
+      document.getElementById('detalj').innerHTML = kortHtml(poster[pos]);
+      document.getElementById('navFore').disabled = pos === 0;
+      document.getElementById('navNasta').disabled = pos === poster.length - 1;
+      document.getElementById('prickar').innerHTML = poster.length > 1
+        ? poster.map((_, j) =>
+            `<button class="prick" type="button" data-j="${j}" aria-current="${j === pos}" aria-label="Visa post ${j + 1} av ${poster.length}">${j === pos ? '●' : '○'}</button>`).join('')
+        : '';
+      markeraHjul();
+    });
+  }
+
+  // ── Horisontcirklar: innevarande läsår utelämnas (hjulet ÄR det)
   function ritaCirklar() {
-    const relevanta = allaLasar.filter(l =>
-      events.some(e => lasarFor(e.datum) === l && e.datum > IDAG) || l >= lasarFor(IDAG));
-    const html = relevanta.map(l => {
+    const framtida = allaLasar.filter(l => l > INNEVARANDE);
+    const html = framtida.map(l => {
       const antal = events.filter(e => lasarFor(e.datum) === l && traffasAvVal(e.post, valda)).length;
-      return `<button class="mini${lage === 'lasar' && l === visatLasar ? ' aktiv' : ''}" type="button" data-lasar="${esc(l)}"
-        aria-label="${esc(`Läsåret ${l} — ${antal} nya datum`)}">
-        <b>${antal}</b><span class="mini-vad">nya datum</span><span class="mini-nar">läsåret<br>${esc(l)}</span></button>`;
+      return `<button class="mini${kontext !== 'pag' && l === visatLasar ? ' aktiv' : ''}" type="button" data-lasar="${esc(l)}"
+        aria-label="${esc(`Läsåret ${l} — ${antal} ändringar`)}">
+        <b>${antal}</b><span class="mini-vad">ändringar</span><span class="mini-nar">läsåret<br>${esc(l)}</span></button>`;
     }).join('');
     const pagHtml = ejBeslutade.length > 0
-      ? `<button class="mini pag${lage === 'pag' ? ' aktiv' : ''}" type="button" data-lasar="pag"
-          aria-label="${esc(`${ejBeslutade.length} på väg — ej beslutat`)}">
+      ? `<button class="mini pag${kontext === 'pag' ? ' aktiv' : ''}" type="button" data-lasar="pag"
+          aria-label="${esc(`Ej beslutat — ${ejBeslutade.length} på g`)}">
           <b>${ejBeslutade.length}</b><span class="mini-vad">på g</span><span class="mini-nar">ej beslutat</span></button>`
       : '';
     document.getElementById('cirklar').innerHTML = html + pagHtml;
@@ -499,23 +563,22 @@ async function init() {
   function uppdateraAllt() {
     ritaHjul();
     ritaCirklar();
-    stabiliseraHojd();
-    // default-position: nästa kommande i läsåret, annars första
     const poster = aktuellaPoster();
-    const start = lage === 'lasar' ? Math.max(0, poster.findIndex(e => e.datum > IDAG)) : 0;
+    const start = kontext === 'lasar' ? Math.max(0, poster.findIndex(e => e.datum > IDAG)) : 0;
     visaPos(start === -1 ? 0 : start);
   }
 
-  // ── Verksamhetsval: synlig chiprad, persistens som tidigare
-  const allaSkolformer = [...new Set(guide.flatMap(g => (g.berors && g.berors.skolformer) || []))].sort((a, b) => a.localeCompare(b, 'sv'));
-  document.getElementById('skolformChips').innerHTML = [...allaSkolformer, EJ_SPEC].map(s =>
-    `<button class="chip" type="button" aria-pressed="false" data-skolform="${esc(s)}">${esc(s)}</button>`).join('')
+  // ── Kurerad väljare: synlig chiprad, persistens som tidigare
+  document.getElementById('skolformChips').innerHTML = KURERADE_VAL.map(v =>
+    `<button class="chip" type="button" aria-pressed="false" data-val="${esc(v.namn)}">${esc(v.namn)}</button>`).join('')
     + `<button class="chip chip-rensa" type="button" id="valRensa">Rensa val ✕</button>`;
 
   function tillampaVal() {
-    document.querySelectorAll('#skolformChips .chip[data-skolform]').forEach(c =>
-      c.setAttribute('aria-pressed', String(valda.has(c.dataset.skolform))));
+    document.querySelectorAll('#skolformChips .chip[data-val]').forEach(c =>
+      c.setAttribute('aria-pressed', String(valda.has(c.dataset.val))));
     document.getElementById('valRensa').classList.toggle('synlig', valda.size > 0);
+    kontext = kontext === 'pag' ? 'pag' : 'lasar';
+    kontextSlot = -1;
     pos = 0;
     uppdateraAllt();
     const url = new URL(window.location);
@@ -529,17 +592,18 @@ async function init() {
     const chip = e.target.closest('.chip');
     if (!chip) return;
     if (chip.id === 'valRensa') { valda.clear(); tillampaVal(); return; }
-    const s = chip.dataset.skolform;
-    if (valda.has(s)) valda.delete(s); else valda.add(s);
+    const v = chip.dataset.val;
+    if (valda.has(v)) valda.delete(v); else valda.add(v);
     tillampaVal();
   });
 
-  // ── Interaktion: månadsknappar (klick + tangentbord)
+  // ── Månadsknappar: klick bläddrar SAMTLIGA månadens poster (kontext = månad)
   function manadsklick(slot) {
-    if (lage === 'pag') { lage = 'lasar'; ritaCirklar(); }
-    const poster = lasarEvents();
-    const i = poster.findIndex(e => lasarsSlot(e.datum) === slot);
-    if (i >= 0) visaPos(i);
+    kontext = 'manad';
+    kontextSlot = slot;
+    pos = 0;
+    ritaCirklar();
+    visaPos(0);
   }
   document.getElementById('hjul').addEventListener('click', e => {
     const manad = e.target.closest('[data-test=manad]');
@@ -553,7 +617,16 @@ async function init() {
     }
   });
 
-  // ── Detaljnavigering: pilar (primär), piltangenter, klickbara prickar, svep
+  // Väg tillbaka till hela läsåret från månadskontexten
+  document.getElementById('kontextTillbaka').addEventListener('click', () => {
+    const aktuell = aktuellaPoster()[pos];
+    kontext = 'lasar';
+    kontextSlot = -1;
+    const alla = lasarEvents();
+    visaPos(aktuell ? Math.max(0, alla.indexOf(aktuell)) : 0);
+  });
+
+  // ── Detaljnavigering
   document.getElementById('navFore').addEventListener('click', () => visaPos(pos - 1));
   document.getElementById('navNasta').addEventListener('click', () => visaPos(pos + 1));
   document.getElementById('prickar').addEventListener('click', e => {
@@ -580,26 +653,33 @@ async function init() {
     }
   }, { passive: true });
 
-  // ── Cirklar: byt läsår / på g-läge
+  // ── Cirklar + tillbaka till innevarande läsår
   document.getElementById('cirklar').addEventListener('click', e => {
     const mini = e.target.closest('.mini');
     if (!mini) return;
     if (mini.dataset.lasar === 'pag') {
-      lage = 'pag';
+      kontext = 'pag';
       pos = 0;
       ritaCirklar();
-      stabiliseraHojd();
       visaPos(0);
       return;
     }
-    lage = 'lasar';
+    kontext = 'lasar';
+    kontextSlot = -1;
     visatLasar = mini.dataset.lasar;
     pos = 0;
     uppdateraAllt();
   });
+  document.getElementById('nuLank').addEventListener('click', () => {
+    kontext = 'lasar';
+    kontextSlot = -1;
+    visatLasar = INNEVARANDE;
+    pos = 0;
+    uppdateraAllt();
+  });
 
-  // Återställ val: URL-param vinner över localStorage
-  const giltiga = new Set([...allaSkolformer, EJ_SPEC]);
+  // Återställ val: URL-param vinner över localStorage (kurerade namn)
+  const giltiga = new Set(KURERADE_VAL.map(v => v.namn));
   const urlVal = new URLSearchParams(window.location.search).get('skolformer');
   let sparade = [];
   if (urlVal) sparade = urlVal.split(',');
