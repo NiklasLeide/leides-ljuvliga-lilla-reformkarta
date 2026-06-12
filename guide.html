@@ -102,6 +102,18 @@ header h1 { font-family: 'Source Serif 4', serif; font-size: 1.55rem; font-weigh
 .start-tidslinje { font-size: 0.8rem; font-weight: 500; color: var(--kunskap); text-decoration: none; min-height: 44px; display: inline-flex; align-items: center; }
 .start-tidslinje:hover { text-decoration: underline; }
 
+/* Tidsgruppsöversikt: räknare per period, följer verksamhetsvalet */
+.oversikt { display: flex; flex-wrap: wrap; gap: 0.45rem; padding-top: 0.3rem; }
+.oversikt-grupp {
+  font-family: inherit; font-size: 0.74rem; cursor: pointer; min-height: 44px;
+  display: inline-flex; align-items: center; gap: 0.35rem; padding: 0 0.8rem;
+  background: var(--card); border: 1px solid var(--border); border-radius: 999px;
+  color: var(--ink); transition: border-color 0.15s;
+}
+.oversikt-grupp:hover { border-color: var(--ink); }
+.oversikt-grupp strong { font-family: 'Source Serif 4', serif; font-size: 0.9rem; }
+.oversikt-grupp.tom { opacity: 0.4; }
+
 /* ── Datumlistan ──────────────────────────────────────────── */
 .lista { margin-top: 1.8rem; }
 .ar-avdelare {
@@ -257,6 +269,7 @@ footer { max-width: 860px; margin: 0 auto; padding: 1rem 1.5rem 2rem; font-size:
       <span id="startAntal"></span>
       <a class="start-tidslinje" href="#lista">Visa hela tidslinjen ↓</a>
     </div>
+    <div class="oversikt" data-test="oversikt" id="oversikt"></div>
   </div>
 
   <div class="lista" id="lista"></div>
@@ -469,6 +482,30 @@ async function init() {
       `<strong>${antal12}</strong> kommande ${antal12 === 1 ? 'datum' : 'datum'} de närmaste 12 månaderna${harVal ? ' för din valda verksamhet' : ''}`;
   }
 
+  // ── Tidsgruppsöversikt: räknare per period (gäller redan + årtal), följer
+  // verksamhetsvalet. Grupper med 0 träffar dämpas men döljs aldrig — antalet
+  // grupper är stabilt och varje periods läge syns ärligt.
+  const tidsgrupper = [...new Set(events.map(e => e.datum <= IDAG ? 'Gäller redan' : e.datum.slice(0, 4)))];
+  function uppdateraOversikt(valda) {
+    const raknare = Object.fromEntries(tidsgrupper.map(g => [g, 0]));
+    for (const e of events.filter(e => traffasAvVal(e.post, valda, EJ_SPEC))) {
+      raknare[e.datum <= IDAG ? 'Gäller redan' : e.datum.slice(0, 4)]++;
+    }
+    document.getElementById('oversikt').innerHTML = tidsgrupper.map(g => `
+      <button class="oversikt-grupp${raknare[g] === 0 ? ' tom' : ''}" type="button" data-grupp="${esc(g)}">
+        <strong>${raknare[g]}</strong> ${esc(g === 'Gäller redan' ? 'gäller redan' : g)}
+      </button>`).join('');
+  }
+  document.getElementById('oversikt').addEventListener('click', e => {
+    const knapp = e.target.closest('.oversikt-grupp');
+    if (!knapp) return;
+    const g = knapp.dataset.grupp;
+    // Scrolla till periodens första synliga rad i listan
+    const mal = [...document.querySelectorAll('#lista .rad:not(.doljd)')].find(rad =>
+      g === 'Gäller redan' ? rad.dataset.datum <= IDAG : rad.dataset.datum.slice(0, 4) === g && rad.dataset.datum > IDAG);
+    if (mal) mal.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+
   // ── Datumlistan med årsavdelare
   let listaHtml = '';
   let aktuelltAr = '';
@@ -522,6 +559,7 @@ async function init() {
     // Aldrig tom yta: 0 träffar visar rensningsrad; startkortet räknas om
     document.getElementById('tomRad').classList.toggle('doljd', synliga > 0);
     uppdateraStart(valda);
+    uppdateraOversikt(valda);
     document.getElementById('valToggleInfo').textContent =
       valda.size > 0 ? `(${valda.size} ${valda.size === 1 ? 'vald' : 'valda'})` : '(alla visas)';
     // Spara: URL-param + localStorage
