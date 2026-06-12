@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guide — Skolreformer 2025–2028</title>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --ink: #1c1c1c;
+  --bg: #f7f6f3;
+  --card: #ffffff;
+  --border: #e5e2dc;
+  --muted: #999;
+  --kunskap: #1d4ed8;
+  --kunskap-bg: #dbeafe;
+  --trygghet: #b91c1c;
+  --trygghet-bg: #fee2e2;
+  --larare: #15803d;
+  --larare-bg: #dcfce7;
+  --styrning: #6d28d9;
+  --styrning-bg: #ede9fe;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'DM Sans', system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+header { background: var(--ink); color: #fff; padding: 1.8rem 1.5rem 1.5rem; }
+.header-inner { max-width: 900px; margin: 0 auto; }
+.header-badge {
+  font-size: 0.6rem; font-weight: 600; letter-spacing: 0.08em;
+  text-transform: uppercase; color: rgba(255,255,255,0.35); margin-bottom: 0.4rem;
+}
+header h1 { font-family: 'Source Serif 4', serif; font-size: 1.6rem; font-weight: 600; line-height: 1.2; margin-bottom: 0.3rem; }
+header p { font-size: 0.85rem; color: rgba(255,255,255,0.75); max-width: 60ch; }
+header p a { color: rgba(255,255,255,0.9); }
+
+.tab-nav { display: flex; gap: 0; background: var(--card); border-bottom: 1px solid var(--border); overflow-x: auto; }
+.tab-nav a {
+  padding: 0.65rem 1.2rem; font-size: 0.75rem; font-weight: 500; color: var(--muted);
+  text-decoration: none; border-bottom: 2px solid transparent; transition: all 0.15s; white-space: nowrap;
+}
+.tab-nav a:hover { color: var(--ink); }
+.tab-nav a.active { color: var(--ink); font-weight: 600; border-bottom-color: var(--ink); }
+
+.container { max-width: 900px; margin: 0 auto; padding: 0 1.5rem 3rem; }
+
+/* Filter */
+.filter-row { padding: 1rem 0 0.4rem; }
+.filter-label { font-size: 0.65rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.4rem; }
+.chips { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.chip {
+  font-family: inherit; font-size: 0.75rem; padding: 0.45rem 0.85rem; min-height: 36px;
+  background: var(--card); border: 1px solid var(--border); border-radius: 999px;
+  cursor: pointer; color: var(--ink); transition: all 0.15s;
+}
+.chip:hover { border-color: var(--ink); }
+.chip[aria-pressed="true"] { background: var(--ink); color: #fff; border-color: var(--ink); }
+
+/* Ändrat nyligen */
+.recent {
+  margin: 1rem 0 0; padding: 0.8rem 1rem; background: var(--card);
+  border: 1px solid var(--border); border-radius: 8px; font-size: 0.8rem;
+}
+.recent summary { cursor: pointer; font-weight: 600; font-size: 0.75rem; min-height: 28px; display: flex; align-items: center; }
+.recent ul { list-style: none; margin-top: 0.5rem; }
+.recent li { padding: 0.25rem 0; display: flex; gap: 0.5rem; align-items: baseline; flex-wrap: wrap; }
+.recent .datum { color: var(--muted); font-variant-numeric: tabular-nums; }
+.recent .nyligen-badge {
+  font-size: 0.6rem; font-weight: 600; background: var(--larare-bg); color: var(--larare);
+  border-radius: 4px; padding: 0.05rem 0.35rem;
+}
+
+/* Tidslinjegrupper */
+.grupp { margin-top: 2rem; }
+.grupp-rubrik {
+  font-family: 'Source Serif 4', serif; font-size: 1.25rem; font-weight: 600;
+  padding-bottom: 0.4rem; border-bottom: 2px solid var(--ink); margin-bottom: 1rem;
+}
+.grupp-rubrik .antal { font-family: 'DM Sans', sans-serif; font-size: 0.75rem; font-weight: 500; color: var(--muted); margin-left: 0.5rem; }
+
+/* Eventkort */
+.kort {
+  background: var(--card); border: 1px solid var(--border); border-left-width: 4px;
+  border-radius: 8px; padding: 1rem 1.1rem; margin-bottom: 1rem;
+}
+.kort.doljd { display: none; }
+.kort-topp { display: flex; gap: 0.6rem; align-items: baseline; flex-wrap: wrap; margin-bottom: 0.3rem; }
+.kort-namn { font-family: 'Source Serif 4', serif; font-size: 1.05rem; font-weight: 600; }
+.typ-badge {
+  font-size: 0.6rem; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase;
+  padding: 0.1rem 0.45rem; border-radius: 4px; background: var(--bg); border: 1px solid var(--border); color: var(--muted);
+}
+.typ-badge.tillampning { background: var(--kunskap-bg); color: var(--kunskap); border-color: transparent; }
+.sfs-badge {
+  font-size: 0.65rem; font-weight: 600; padding: 0.1rem 0.45rem; border-radius: 4px;
+  background: var(--ink); color: #fff;
+}
+.kort-omfattning { font-size: 0.85rem; margin-bottom: 0.6rem; }
+.kort-sekundart { font-size: 0.75rem; color: var(--muted); margin-bottom: 0.6rem; }
+.kort-ref { font-size: 0.7rem; color: var(--muted); }
+
+.sektion { margin-top: 0.7rem; }
+.sektion-label { font-size: 0.65rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.3rem; }
+.krav-lista { list-style: none; }
+.krav-lista li {
+  font-size: 0.8rem; padding: 0.35rem 0 0.35rem 1rem; position: relative;
+  border-bottom: 1px dashed var(--border);
+}
+.krav-lista li:last-child { border-bottom: none; }
+.krav-lista li::before { content: '§'; position: absolute; left: 0; color: var(--muted); font-size: 0.7rem; top: 0.45rem; }
+.kall-lank { font-size: 0.7rem; margin-left: 0.4rem; color: var(--kunskap); text-decoration: none; }
+.kall-lank:hover { text-decoration: underline; }
+
+.berors-chips { display: flex; flex-wrap: wrap; gap: 0.3rem; }
+.berors-chip {
+  font-size: 0.68rem; padding: 0.15rem 0.5rem; background: var(--bg);
+  border: 1px solid var(--border); border-radius: 999px;
+}
+.berors-tom { font-size: 0.75rem; color: var(--muted); font-style: italic; }
+
+details.overgang { margin-top: 0.7rem; border-top: 1px solid var(--border); padding-top: 0.5rem; }
+details.overgang summary {
+  cursor: pointer; font-size: 0.72rem; font-weight: 600; color: var(--muted);
+  letter-spacing: 0.04em; text-transform: uppercase; min-height: 32px; display: flex; align-items: center;
+}
+details.overgang summary:hover { color: var(--ink); }
+.overgang-post { margin-top: 0.5rem; }
+.overgang-text {
+  font-size: 0.78rem; background: var(--bg); border-left: 3px solid var(--border);
+  padding: 0.5rem 0.7rem; border-radius: 0 6px 6px 0; font-style: italic;
+}
+.overgang-kalla { font-size: 0.68rem; margin-top: 0.2rem; }
+
+.kort-fot {
+  display: flex; justify-content: space-between; align-items: center; gap: 0.6rem;
+  flex-wrap: wrap; margin-top: 0.8rem; padding-top: 0.6rem; border-top: 1px solid var(--border);
+}
+.kort-lankar { display: flex; gap: 0.8rem; flex-wrap: wrap; }
+.kort-lank { font-size: 0.72rem; font-weight: 500; color: var(--kunskap); text-decoration: none; min-height: 30px; display: inline-flex; align-items: center; }
+.kort-lank:hover { text-decoration: underline; }
+.uppdaterad { font-size: 0.65rem; color: var(--muted); }
+
+.kort.markerad { outline: 2px solid var(--kunskap); outline-offset: 2px; }
+
+/* På väg */
+.pavag { margin-top: 2.5rem; }
+.pavag-kort {
+  background: var(--card); border: 1px dashed var(--border); border-radius: 8px;
+  padding: 0.8rem 1rem; margin-bottom: 0.6rem; opacity: 0.85;
+}
+.pavag-kort .kort-namn { font-size: 0.95rem; }
+.pavag-status { font-size: 0.75rem; color: var(--muted); margin-top: 0.15rem; }
+
+.tom-grupp { font-size: 0.8rem; color: var(--muted); font-style: italic; padding: 0.5rem 0; }
+
+footer { max-width: 900px; margin: 0 auto; padding: 1rem 1.5rem 2rem; font-size: 0.7rem; color: var(--muted); }
+
+@media (max-width: 600px) {
+  header h1 { font-size: 1.3rem; }
+  .container { padding: 0 1rem 2.5rem; }
+  .chip { min-height: 44px; display: inline-flex; align-items: center; }
+  .kort-lank { min-height: 44px; }
+  details.overgang summary { min-height: 44px; }
+  .recent summary { min-height: 44px; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="header-badge">Kunskapsyta · juni 2026 · Privatprojekt av Niklas Leide</div>
+    <h1>Guide — vad gäller, vem berörs, från när</h1>
+    <p>Överblick över beslutade skolreformer för enskilda huvudmän, hämtad ur officiella beslut — inte rådgivning. Komplettera med
+    <a href="https://www.skolverket.se/styrning-och-ansvar/forandringar-inom-skolomradet/aktuella-regelandringar" target="_blank" rel="noopener">Skolverkets Aktuella regeländringar</a>.</p>
+  </div>
+</header>
+
+<div class="tab-nav">
+  <a href="index.html">Reformkarta</a>
+  <a href="reformer.html">Reformer</a>
+  <a href="uppdrag.html">Uppdrag</a>
+  <a href="utredningar.html">Utredningar</a>
+  <a href="tidslinje.html">Tidslinje</a>
+  <a href="guide.html" class="active">Guide</a>
+</div>
+
+<div class="container">
+  <div class="filter-row">
+    <div class="filter-label">Filtrera på skolform <span style="font-weight:400;text-transform:none;letter-spacing:0">(inga valda = visa alla)</span></div>
+    <div class="chips" id="skolformChips"></div>
+  </div>
+
+  <details class="recent" id="recentBox">
+    <summary>Ändrat nyligen</summary>
+    <ul id="recentList"></ul>
+  </details>
+
+  <div id="tidslinje"></div>
+
+  <div class="pavag" id="pavag"></div>
+</div>
+
+<footer>Datakälla: data/guide.json — varje uppgift spårbar till riksdagens/regeringens dokument via källänkarna. Datum av typen "tillämpas" är det som träffar verksamheten.</footer>
+
+<script>
+'use strict';
+
+function dataPath(file) {
+  // data/ sits next to guide.html in both root and dev/ subfolder
+  return 'data/' + file;
+}
+
+const catColors = {
+  kunskap: 'var(--kunskap)', trygghet: 'var(--trygghet)',
+  larare: 'var(--larare)', styrning: 'var(--styrning)',
+};
+
+const IDAG = new Date().toISOString().slice(0, 10);
+
+function esc(s) {
+  return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+const MANADER = ['januari','februari','mars','april','maj','juni','juli','augusti','september','oktober','november','december'];
+function datumSv(iso) {
+  const [y, m, d] = iso.split('-').map(Number);
+  return `${d} ${MANADER[m-1]} ${y}`;
+}
+
+// Gruppering av tidslinjen. Etiketterna härleds ur datum — inga reformnamn.
+function gruppNyckel(datum) {
+  if (datum <= IDAG) return { sort: '0000-' + datum, label: 'Gäller redan' };
+  const y = Number(datum.slice(0, 4));
+  const m = Number(datum.slice(5, 7));
+  if (y === 2026 && m >= 6 && m <= 8) return { sort: '2026-06', label: 'Sommaren 2026' };
+  if (datum === '2028-07-01' || datum === '2028-07-02') return { sort: '2028-07', label: 'Läsåret 2028/29' };
+  if (y >= 2031) return { sort: String(y), label: String(y) };
+  return { sort: datum, label: datumSv(datum) };
+}
+
+// Pivotregel (T1-kontraktet + T4-precisering, se DEC-010): en reform pivoterar
+// på sina tillampning-poster när verksamhetsträffen ligger långt efter det
+// formella ikraftträdandet (>365 dagar — tioarig-mönstret). Då blir ikraft-
+// posterna sekundärtext på korten i stället för egna tidslinjehändelser.
+function byggEvents(post) {
+  const tillampningar = post.ikrafttradanden.filter(e => e.typ === 'tillampning');
+  const ikraft = post.ikrafttradanden.filter(e => e.typ === 'ikraft');
+  if (tillampningar.length > 0 && ikraft.length > 0) {
+    const maxTill = tillampningar.map(e => e.datum).sort().slice(-1)[0];
+    const minIkraft = ikraft.map(e => e.datum).sort()[0];
+    const dagar = (new Date(maxTill) - new Date(minIkraft)) / 86400000;
+    if (dagar > 365) {
+      return { events: tillampningar, sekundara: ikraft };
+    }
+  }
+  return { events: post.ikrafttradanden, sekundara: [] };
+}
+
+function renderKort(post, reform, event, sekundara, guideIndex) {
+  const farg = catColors[reform.cat] || 'var(--border)';
+  const typBadge = event.typ === 'tillampning'
+    ? '<span class="typ-badge tillampning">Tillämpas</span>'
+    : '<span class="typ-badge">Träder i kraft</span>';
+  const sfsBadge = post.sfs ? `<span class="sfs-badge">SFS ${esc(post.sfs)}</span>` : '';
+
+  const sekundartHtml = sekundara.length > 0
+    ? `<div class="kort-sekundart">Formellt ikraftträdande: ${sekundara.map(s => `${datumSv(s.datum)} — ${esc(s.omfattning)}`).join('; ')}</div>`
+    : '';
+
+  const kravHtml = post.krav.map(k =>
+    `<li>${esc(k.text)}<a class="kall-lank" href="${esc(k.kalla.url)}" target="_blank" rel="noopener">↗ ${esc(k.kalla.text)}</a></li>`
+  ).join('');
+
+  const b = post.berors || {};
+  const skolformerHtml = Array.isArray(b.skolformer) && b.skolformer.length > 0
+    ? `<div class="berors-chips">${b.skolformer.map(s => `<span class="berors-chip">${esc(s)}</span>`).join('')}</div>`
+    : '<span class="berors-tom">Ej specificerat i beslutet</span>';
+  const huvudmanHtml = Array.isArray(b.huvudmannatyper) && b.huvudmannatyper.length > 0
+    ? `<div class="berors-chips">${b.huvudmannatyper.map(s => `<span class="berors-chip">${esc(s)}</span>`).join('')}</div>`
+    : '<span class="berors-tom">Ej specificerat i beslutet</span>';
+
+  const overgangHtml = post.overgangsbestammelser.map(o => `
+    <div class="overgang-post">
+      <div class="overgang-text">${esc(o.text)}</div>
+      <div class="overgang-kalla"><a class="kall-lank" href="${esc(o.kalla.url)}" target="_blank" rel="noopener">↗ ${esc(o.kalla.text)}</a></div>
+    </div>`).join('');
+
+  return `
+  <div class="kort" style="border-left-color:${farg}" data-reform="${esc(post.reform_id)}" data-skolformer="${esc((b.skolformer || []).join('|'))}">
+    <div class="kort-topp">
+      <span class="kort-namn">${esc(reform.short)}</span>
+      ${typBadge}
+      ${sfsBadge}
+      <span class="kort-ref">${esc(reform.ref)}</span>
+    </div>
+    <div class="kort-omfattning">${esc(event.omfattning)}.</div>
+    ${sekundartHtml}
+    <div class="sektion">
+      <div class="sektion-label">Vad som gäller</div>
+      <ul class="krav-lista">${kravHtml}</ul>
+    </div>
+    <div class="sektion">
+      <div class="sektion-label">Berörda skolformer</div>
+      ${skolformerHtml}
+    </div>
+    <div class="sektion">
+      <div class="sektion-label">Huvudmannatyper</div>
+      ${huvudmanHtml}
+    </div>
+    <details class="overgang">
+      <summary>Ikraftträdande- och övergångsbestämmelser (ordagrant)</summary>
+      ${overgangHtml}
+    </details>
+    <div class="kort-fot">
+      <div class="kort-lankar">
+        <a class="kort-lank" href="tidslinje.html?reform=${esc(post.reform_id)}">→ Tidslinjen</a>
+        <a class="kort-lank" href="index.html?reform=${esc(post.reform_id)}">→ Reformkartan</a>
+        <a class="kort-lank" href="reformer.html?reform=${esc(post.reform_id)}">→ Reformtabellen</a>
+      </div>
+      <span class="uppdaterad">Uppdaterad ${esc(post.senast_andrad)}</span>
+    </div>
+  </div>`;
+}
+
+function renderPavag(reforms, guideIds) {
+  const ejBeslutade = reforms.filter(r => r.status !== 'beslutad');
+  if (ejBeslutade.length === 0) return '';
+  const kort = ejBeslutade.map(r => {
+    const farg = catColors[r.cat] || 'var(--border)';
+    return `
+    <div class="pavag-kort" style="border-left:4px dashed ${farg}">
+      <div class="kort-namn">${esc(r.short)}</div>
+      <div class="pavag-status">Status: ${esc(r.status)}${r.ref ? ' · ' + esc(r.ref) : ''}</div>
+      <div class="pavag-status">Ännu inte beslutad — medför inga skyldigheter.</div>
+    </div>`;
+  }).join('');
+  return `<div class="grupp-rubrik">På väg<span class="antal">${ejBeslutade.length} — ej beslutade</span></div>${kort}`;
+}
+
+async function init() {
+  let guide, reforms;
+  try {
+    [guide, reforms] = await Promise.all([
+      fetch(dataPath('guide.json')).then(r => { if (!r.ok) throw new Error('guide.json: HTTP ' + r.status); return r.json(); }),
+      fetch(dataPath('reforms.json')).then(r => { if (!r.ok) throw new Error('reforms.json: HTTP ' + r.status); return r.json(); }),
+    ]);
+  } catch (err) {
+    console.error('Guide: datainläsning misslyckades —', err);
+    document.getElementById('tidslinje').innerHTML = '<p class="tom-grupp">Kunde inte läsa guidedata. Se konsolen.</p>';
+    return;
+  }
+
+  const reformById = Object.fromEntries(reforms.map(r => [r.id, r]));
+  const guideIds = new Set(guide.map(g => g.reform_id));
+
+  // Runtime-validering (DEC-009): id-mismatchar loggas högljutt, aldrig tyst.
+  for (const g of guide) {
+    if (!reformById[g.reform_id]) console.error(`Guide: guidepost "${g.reform_id}" saknar reform i reforms.json`);
+  }
+  for (const r of reforms) {
+    if (r.status === 'beslutad' && !guideIds.has(r.id)) console.warn(`Guide: beslutad reform "${r.id}" saknar guidepost`);
+  }
+
+  // Events per post → grupperade
+  const grupper = new Map();
+  for (const post of guide) {
+    const reform = reformById[post.reform_id];
+    if (!reform) continue;
+    const { events, sekundara } = byggEvents(post);
+    for (const event of events) {
+      const g = gruppNyckel(event.datum);
+      if (!grupper.has(g.label)) grupper.set(g.label, { sort: g.sort, label: g.label, kort: [] });
+      grupper.get(g.label).kort.push({ datum: event.datum, html: renderKort(post, reform, event, sekundara) });
+    }
+  }
+  const sorterade = [...grupper.values()].sort((a, b) => a.sort.localeCompare(b.sort));
+  document.getElementById('tidslinje').innerHTML = sorterade.map(g => `
+    <div class="grupp">
+      <div class="grupp-rubrik">${esc(g.label)}<span class="antal">${g.kort.length} ${g.kort.length === 1 ? 'händelse' : 'händelser'}</span></div>
+      ${g.kort.sort((a, b) => a.datum.localeCompare(b.datum)).map(k => k.html).join('')}
+    </div>`).join('');
+
+  // Skolformsfilter — påverkar bara synlighet, aldrig innehåll.
+  const allaSkolformer = [...new Set(guide.flatMap(g => (g.berors && g.berors.skolformer) || []))].sort((a, b) => a.localeCompare(b, 'sv'));
+  const EJ_SPEC = 'ej specificerat i beslutet';
+  const chipsEl = document.getElementById('skolformChips');
+  chipsEl.innerHTML = [...allaSkolformer, EJ_SPEC].map(s =>
+    `<button class="chip" type="button" aria-pressed="false" data-skolform="${esc(s)}">${esc(s)}</button>`
+  ).join('');
+  const valda = new Set();
+  chipsEl.addEventListener('click', e => {
+    const chip = e.target.closest('.chip');
+    if (!chip) return;
+    const s = chip.dataset.skolform;
+    if (valda.has(s)) { valda.delete(s); chip.setAttribute('aria-pressed', 'false'); }
+    else { valda.add(s); chip.setAttribute('aria-pressed', 'true'); }
+    document.querySelectorAll('#tidslinje .kort').forEach(kort => {
+      if (valda.size === 0) { kort.classList.remove('doljd'); return; }
+      const egna = kort.dataset.skolformer ? kort.dataset.skolformer.split('|') : [];
+      const traff = egna.some(s2 => valda.has(s2)) || (egna.length === 0 && valda.has(EJ_SPEC));
+      kort.classList.toggle('doljd', !traff);
+    });
+    // Tomma grupper döljs när alla kort i dem är dolda
+    document.querySelectorAll('#tidslinje .grupp').forEach(grupp => {
+      const synliga = grupp.querySelectorAll('.kort:not(.doljd)').length;
+      grupp.style.display = synliga === 0 ? 'none' : '';
+    });
+  });
+
+  // Ändrat nyligen — sorterad på senast_andrad, ≤30 dagar markeras.
+  const trettioDagar = new Date(Date.now() - 30 * 86400000).toISOString().slice(0, 10);
+  const recent = [...guide].sort((a, b) => b.senast_andrad.localeCompare(a.senast_andrad));
+  document.getElementById('recentList').innerHTML = recent.map(p => {
+    const reform = reformById[p.reform_id];
+    const nyligen = p.senast_andrad >= trettioDagar;
+    return `<li><span class="datum">${esc(p.senast_andrad)}</span> ${esc(reform ? reform.short : p.reform_id)}${nyligen ? ' <span class="nyligen-badge">senaste 30 dagarna</span>' : ''}</li>`;
+  }).join('');
+
+  // På väg — härleds ur reforms.json-status, inga hårdkodade namn.
+  document.getElementById('pavag').innerHTML = renderPavag(reforms, guideIds);
+
+  // Inkommande deeplink ?reform=<id> → scrolla till och markera första kortet.
+  const reformParam = new URLSearchParams(window.location.search).get('reform');
+  if (reformParam) {
+    const kort = document.querySelector(`.kort[data-reform="${CSS.escape(reformParam)}"]`);
+    if (kort) {
+      kort.classList.add('markerad');
+      setTimeout(() => kort.scrollIntoView({ behavior: 'smooth', block: 'center' }), 100);
+    } else {
+      console.warn(`Guide: deeplink till okänd guidepost "${reformParam}"`);
+    }
+  }
+}
+
+init();
+// På smala skärmar scrollar naven horisontellt — se till att aktiva fliken syns.
+document.querySelector('.tab-nav a.active')?.scrollIntoView({ inline: 'center', block: 'nearest' });
+</script>
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9d66c8f5b9da46078ca71ab819946f62"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>

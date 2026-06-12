@@ -18,6 +18,14 @@ Record of key decisions made during the project. **Newest first.**
 
 ---
 
+### DEC-010: Guidevyns händelsemodell och gap-regel för tillämpningspivot
+**Date:** 2026-06-12
+**Decision:** Guidens tidslinje är händelsebaserad: varje post i `ikrafttradanden` blir en egen tidslinjehändelse (flerstegsreformer som tid syns i flera grupper). Pivotregeln preciseras med en gap-regel: en reform pivoterar på sina tillampning-poster — och dess ikraft-poster degraderas till sekundärtext på korten — ENDAST när största tillampning ligger >365 dagar efter första ikraft (tioarig: ikraft 2026-07-01, verksamhetsträff läsåret 2028/29). Vid kortare gap (brott: 6 månader, delbestämmelser) är ikraftträdandet en verklig verksamhetshändelse och båda stegen visas som händelser. Gruppetiketter härleds ur datum (Sommaren 2026, Läsåret 2028/29, …) — inga reformnamn i logiken.
+**Reasoning:** T1-kontraktets enkla regel ("pivotera på tillampning när sådan finns") ger fel resultat för brott — sprintspecen placerar brott uttryckligen på sitt ikraftdatum 30/6 i Sommaren 2026, eftersom lagen då gäller och bara vissa bestämmelser har en senare tillämpningströskel. Gap-regeln skiljer maskinellt "hela lagen träffar verksamheten långt senare" (tioarig) från "delbestämmelser med kort tröskel" (brott) utan hårdkodade reformnamn.
+**Alternatives considered:** Flagga i datat (per-post `pivot: true`) — mer explicit men kräver dataändring och en redaktionell bedömning per reform som gap-regeln ger gratis; textmatchning på "I övrigt tillämpas lagen" (skört mot formuleringsvariation); hårdkodade reform-id:n (förbjudet av sprintspecen).
+
+---
+
 ### DEC-009: Guidelagret som separat data/guide.json, inte utökning av reforms.json
 **Date:** 2026-06-11
 **Decision:** Huvudmannaguidens data (Sprint 11) ligger i en egen fil `data/guide.json` — en post per reform, nycklad på `reform_id` mot reforms.json. Synk-risken mellan filerna hanteras med runtime-validering: guide-vyn loggar reform-id utan guidepost och guideposter utan reform till konsolen (fail loud, aldrig tyst), och bevakningsautomatiseringens extract.js kan utökas att inkludera guide-id:n i manifestet.
