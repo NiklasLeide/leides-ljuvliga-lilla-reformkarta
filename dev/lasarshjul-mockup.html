@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mockup v2 — Läsårshjulet</title>
+<style>
+  :root{--paper:#FBFAF7;--ink:#1C1C1C;--mut:#6A675F;--line:#E5E2D8;
+    --accent:#1F4E5F;--soon:#9A3B14;--soonbg:#F6E5DC;--wheel:#F1EFE7}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--paper);color:var(--ink);
+    font:16px/1.5 -apple-system,"Segoe UI",Roboto,sans-serif}
+  .wrap{max-width:480px;margin:0 auto;padding:18px 16px 56px}
+  header{display:flex;justify-content:space-between;align-items:center;gap:10px;
+    padding-bottom:14px;border-bottom:3px solid var(--ink)}
+  h1{font-family:Georgia,serif;font-size:20px;line-height:1.25}
+  .valknapp{font-size:12.5px;border:1.5px solid var(--ink);border-radius:999px;
+    padding:7px 12px;background:#fff;white-space:nowrap}
+
+  .hjulhuvud{text-align:center;margin:20px 0 4px}
+  .hjulhuvud .ar{font-family:Georgia,serif;font-size:22px;font-weight:700}
+  .hjulhuvud .sub{font-size:13px;color:var(--mut)}
+
+  .hjul{display:block;margin:0 auto;max-width:340px;width:100%}
+  .seg{fill:var(--wheel);stroke:var(--paper);stroke-width:2}
+  .seg.het{fill:#E9DFD2}
+  .mlabel{font:600 9.5px sans-serif;fill:var(--mut);letter-spacing:.05em}
+  .punkt circle{fill:var(--accent);stroke:#fff;stroke-width:2;cursor:pointer}
+  .punkt.vald circle{fill:var(--soon);r:11}
+  .punkt text{font:700 8.5px sans-serif;fill:#fff;text-anchor:middle;pointer-events:none}
+  .mitt-t{font-family:Georgia,serif;font-size:15px;font-weight:700;text-anchor:middle}
+  .mitt-s{font-size:9.5px;fill:var(--mut);text-anchor:middle}
+
+  .detalj{background:#fff;border:1.5px solid var(--accent);border-radius:12px;
+    padding:14px 16px;margin-top:14px;min-height:128px}
+  .detalj .dat{display:flex;gap:10px;align-items:baseline}
+  .detalj .d{font-family:Georgia,serif;font-weight:700;font-size:17px}
+  .snart{font-size:12px;font-weight:600;color:var(--soon);background:var(--soonbg);
+    padding:2px 9px;border-radius:999px}
+  .detalj h3{font-size:15.5px;margin-top:5px;line-height:1.35}
+  .detalj p{font-size:13.5px;color:var(--mut);margin-top:5px}
+  .vidare{margin-top:9px;font-size:12.5px;display:flex;gap:14px}
+  .vidare a{color:var(--accent)}
+  .bladdra{text-align:center;font-size:12px;color:var(--mut);margin-top:6px}
+
+  .horisont{margin-top:26px}
+  .horisont h2{font-family:Georgia,serif;font-size:16px;margin-bottom:10px}
+  .cirklar{display:flex;gap:10px;justify-content:space-between}
+  .mini{flex:1;aspect-ratio:1;border:1.5px solid var(--ink);border-radius:50%;
+    display:flex;flex-direction:column;align-items:center;justify-content:center;
+    background:#fff;text-decoration:none;color:var(--ink)}
+  .mini b{font-family:Georgia,serif;font-size:19px}
+  .mini span{font-size:10px;color:var(--mut);text-align:center;line-height:1.2}
+  .mini.pag{border-style:dashed;color:var(--mut)}
+
+  footer{margin-top:28px;text-align:center}
+  .alla{display:inline-block;font-family:Georgia,serif;font-size:15px;
+    border-bottom:2px solid var(--ink);color:var(--ink);text-decoration:none;padding-bottom:2px}
+  .caveat{font-size:11.5px;color:var(--mut);margin-top:12px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>Ditt läsårshjul<br><span style="font-size:13px;color:var(--mut);font-family:sans-serif;font-weight:400">nya regler för din skola</span></h1>
+    <button class="valknapp">Fristående grundskola ▾</button>
+  </header>
+
+  <div class="hjulhuvud">
+    <div class="ar">Läsåret 2026/27</div>
+    <div class="sub">5 nya regler · tryck på punkterna</div>
+  </div>
+
+  <svg class="hjul" viewBox="0 0 320 320" id="hjul"></svg>
+
+  <div class="detalj" id="detalj">
+    <div class="dat"><span class="d">1 augusti 2026</span><span class="snart">om 7 veckor</span></div>
+    <h3>Mobiltelefoner samlas in under hela skoldagen</h3>
+    <p>Omfattar grundskolan, fritidshemmet och öppen fritidsverksamhet.</p>
+    <div class="vidare"><a href="#">Beslutet</a><a href="#">Mer hos Skolverket</a></div>
+  </div>
+  <div class="bladdra">● ● ● ○ ○ — eller svep mellan punkterna</div>
+
+  <div class="horisont">
+    <h2>Längre fram</h2>
+    <div class="cirklar">
+      <a class="mini" href="#"><b>1</b><span>läsåret<br>27/28</span></a>
+      <a class="mini" href="#"><b>6</b><span>läsåret<br>28/29</span></a>
+      <a class="mini" href="#"><b>1</b><span>2031</span></a>
+      <a class="mini pag" href="#"><b>3</b><span>på g — ej<br>beslutat</span></a>
+    </div>
+  </div>
+
+  <footer>
+    <a class="alla" href="#">Alla datum och fullständiga underlag →</a>
+    <p class="caveat">Överblick ur riksdagens och regeringens beslut — ingen rådgivning.
+    Kontrollera alltid källan. Fördjupning hos Skolverket och SPSM.</p>
+  </footer>
+
+</div>
+
+<script>
+const M=["AUG","SEP","OKT","NOV","DEC","JAN","FEB","MAR","APR","MAJ","JUN","JUL"];
+const heta=[0,5,10,11]; // månader med händelser (läsårsordning)
+const C=160,R1=70,R2=132;
+function pol(r,a){a=(a-90)*Math.PI/180;return[C+r*Math.cos(a),C+r*Math.sin(a)]}
+let svg='';
+for(let i=0;i<12;i++){
+  const a0=i*30+1.5,a1=(i+1)*30-1.5;
+  const[x0,y0]=pol(R2,a0),[x1,y1]=pol(R2,a1),[x2,y2]=pol(R1,a1),[x3,y3]=pol(R1,a0);
+  svg+=`<path class="seg ${heta.includes(i)?'het':''}" d="M${x0} ${y0} A${R2} ${R2} 0 0 1 ${x1} ${y1} L${x2} ${y2} A${R1} ${R1} 0 0 0 ${x3} ${y3} Z"/>`;
+  const[lx,ly]=pol((R1+R2)/2,i*30+15);
+  svg+=`<text class="mlabel" x="${lx}" y="${ly+3}" text-anchor="middle">${M[i]}</text>`;
+}
+const ev=[
+ {m:10,d:28,et:"30/6",dat:"30 juni 2026",sn:"om 2 veckor",
+  r:"Skolor blir skyldiga att informera om elever i risk vid skolbyte",
+  p:"Gäller mellan skolor och mellan stadier. Tillämpas i verksamheten efter 31 december 2026."},
+ {m:11,d:15,et:"15/7",dat:"15 juli 2026",sn:"om 5 veckor",
+  r:"Utökad registerkontroll vid alla anställningar",
+  p:"Gäller även annat mottagande i verksamheten, till exempel praktikanter."},
+ {m:0,d:3,et:"1/8",dat:"1 augusti 2026",sn:"om 7 veckor",
+  r:"Mobiltelefoner samlas in under hela skoldagen",
+  p:"Omfattar grundskolan, fritidshemmet och öppen fritidsverksamhet."},
+ {m:0,d:10,et:"1/8",dat:"1 augusti 2026",sn:"om 7 veckor",
+  r:"Nya regler om kränkande behandling",
+  p:"Första steget i reformen om lärares undervisningsuppdrag."},
+ {m:5,d:3,et:"1/1",dat:"1 januari 2027",sn:"om 6 månader",
+  r:"Offentlighetsprincipen införs hos fristående skolor",
+  p:"Arkivkrav börjar gälla. Lättnadsregler för enskilda huvudmän de två första åren."}
+];
+ev.forEach((e,i)=>{
+  const ang=e.m*30+(e.d/31)*30;
+  const[x,y]=pol(R2,ang);
+  svg+=`<g class="punkt" data-i="${i}"><circle cx="${x}" cy="${y}" r="10"/>
+        <text x="${x}" y="${y+3}">${e.et}</text></g>`;
+});
+svg+=`<text class="mitt-t" x="160" y="156">4 nya regler</text>
+      <text class="mitt-s" x="160" y="172">före terminsstart i höst</text>`;
+document.getElementById('hjul').innerHTML=svg;
+const det=document.getElementById('detalj');
+function visa(i){
+  const e=ev[i];
+  det.innerHTML=`<div class="dat"><span class="d">${e.dat}</span><span class="snart">${e.sn}</span></div>
+   <h3>${e.r}</h3><p>${e.p}</p>
+   <div class="vidare"><a href="#">Beslutet</a><a href="#">Mer hos Skolverket</a></div>`;
+  document.querySelectorAll('.punkt').forEach(p=>p.classList.toggle('vald',p.dataset.i==i));
+}
+document.querySelectorAll('.punkt').forEach(p=>p.addEventListener('click',()=>visa(+p.dataset.i)));
+visa(2);
+</script>
+</body>
+</html>
