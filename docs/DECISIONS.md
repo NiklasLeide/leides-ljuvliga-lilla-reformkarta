@@ -18,6 +18,14 @@ Record of key decisions made during the project. **Newest first.**
 
 ---
 
+### DEC-013: Guidens startnivå — konkret nästa deadline, klartext som ansikte, hopfällt val på mobil
+**Date:** 2026-06-12
+**Decision:** (T5.2b-omtag) Startöverblicken är ETT konkret kort: nästa verksamhetsdatum för vald verksamhet (utan val: alla) med absolut datum + klientberäknad relativ tid, klartext som rubrik och påverkan som enda stycke — plus 12-månadersräknare och en tydlig väg till hela tidslinjen. Aldrig grind, aldrig tomt: utan kommande datum för valet visas nästa datum över alla verksamheter med ärlig etikett. Klartext leder överallt: nivå 1-raderna bär klartext som rubrik (utan kicker); officiell beslutsrubrik + omfattning + påverkan utgör nivå 2:s topp; krav + ordagranna övergångsbestämmelser + SFS + korslänkar ligger i nivå 3. All citerad beslutstext får enhetlig citatstil (markerad vänsterkant + indrag + §) så klarspråk och författningstext aldrig kan förväxlas (DEC-012-villkoret). På mobil komprimeras skolformsvalet till en hopfälld "Välj verksamhet"-knapp så startkortet ligger ovanför fold (uppmätt: topp 315px/botten 637px vid 375×812).
+**Reasoning:** T5.2b:s första utförande lade tre herokort + räknarrad överst — informativt men abstrakt; målgruppen behöver se ETT verkligt datum med en verklig mening om verklig påverkan inom en sekund. Valet före hero åt upp mobilens första skärm (~700px chips) — hopfällningen löser foldproblemet utan att gömma funktionen.
+**Alternatives considered:** Tre herokort (första T5.2b — splittrar fokus, abstrakt); räknarrad som primärt element (siffror utan konkretion); skolformsval som egen sida/steg (grindning — förbjudet); auto-öppnad chips-panel vid första besök (trycker startkortet under fold igen).
+
+---
+
 ### DEC-012: Klarspråkslager i guiden tillåtet — på Niklas villkor
 **Date:** 2026-06-12
 **Decision:** Principbeslut av Niklas (T5.2a): guideposterna får ett egenförfattat klarspråkslager — fälten `klartext` {text, kalla} (1–2 deskriptiva meningar om vad som ändras) och `paverkan` {text, kalla}|null (vad ändringen innebär för huvudmannen i drift, extraherad ur propositionens konsekvensavsnitt med källhänvisning till avsnittet). Villkor: strikt deskriptivt, varje mening spårbar till källa, visuellt åtskilt från citerad beslutstext i UI:t (T5.2b). Utökad språkregel för just dessa fält: bör/rekommenderar/råder/måste ni/se till att är förbjudna. Saknar propen huvudmannakonsekvenser sätts paverkan till null med notering — aldrig fabricerat. Befintliga krav/övergångsbestämmelser orörda (blir nivå 3).
