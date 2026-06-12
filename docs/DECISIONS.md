@@ -18,6 +18,14 @@ Record of key decisions made during the project. **Newest first.**
 
 ---
 
+### DEC-015: Läsårshjulet ersätter listan som guidens förstasida
+**Date:** 2026-06-12
+**Decision:** (T5.4) guide.html är ett läsårshjul: SVG med månaderna aug–jul i läsårsordning, händelsemånader tonade, verksamhetsdatum som klickbara punkter på fälgen, centrum med antal + kort deskriptiv mening; detaljkort under hjulet (datum + relativ tid + klartext + påverkan + länkrad där "Mer hos Skolverket" bara visas när en verifierad Skolverket-länk finns i reforms.json — inga fabricerade länkar); horisontcirklar (mini-hjul per framtida läsår + streckad "på g") byter visat läsår. Mockupen lasarshjul-mockup.html är specen — konceptet återskapat med repots designtokens, datadrivet ur guide.json (DEC-010-händelsemodellen oförändrad). Den fullständiga listan (nivå 1–3, sammanfattning, piller, deeplinks) FLYTTAD i sin helhet till undersidan guide-alla.html, länkad "Alla datum och fullständiga underlag →"; ?reform=-deeplinks till guide.html vidarebefordras dit. Tillgänglighet: hjulets punkter är tabbara (tabindex, role=button, aria-label med datum/status/klartext, synlig fokusring, Enter/Space), detaljkortet aria-live, och en skärmläsarnotis hänvisar till undersidan som fullvärdigt listalternativ.
+**Reasoning:** Niklas mockup definierar formen: hjulet är överblicken (startkortet utgick), målgruppen tänker i läsår, och en graf med max ~7 punkter per läsår skannas snabbare än 19 listrader. Listan försvinner inte — den blir fördjupningssidan och det tillgängliga alternativet, vilket löser SVG-grafikens skärmläsarproblem utan parallell DOM.
+**Alternatives considered:** Hjul + lista på samma sida (dubblerad kognitiv last, mobilen oändligt lång); kalenderår i hjulet (målgruppen planerar per läsår — mockupen är explicit); tillgänglighet via osynlig parallellista i guide.html (underhållsdubblering — undersidan finns redan och är komplett).
+
+---
+
 ### DEC-014: T5.3-avvikelsen — målvillkor är golv, briefen är specifikationen
 **Date:** 2026-06-12
 **Decision:** T5.3:s första leverans uppfyllde /goal-villkoret ("[data-test=oversikt] med minst fyra tidsgrupper som uppdateras vid verksamhetsval") med enbart räknarpiller — men briefens kärna var en skummbar textsammanfattning: grupperade en-radare per reform (datum + klartextens första mening + berörda-chips, radlänk till posten) och en "På g"-grupp för ej beslutade reformer. Kompletterat i T5.3-fix. Processlärdom inskriven: ett maskinverifierbart målvillkor är ett GOLV (minsta verifierbara bevis), inte hela leveransen — när brief och målvillkor skiljer sig i omfattning är briefen specifikationen, och tolkningar som "minsta uppfyllande" ska flaggas innan leverans, inte upptäckas efteråt.
