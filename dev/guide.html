@@ -74,8 +74,13 @@ header h1 { font-family: 'Source Serif 4', serif; font-size: 1.55rem; font-weigh
 .chip:hover { border-color: var(--ink); }
 .chip[aria-pressed="true"] { background: var(--ink); color: #fff; border-color: var(--ink); }
 
-/* ── Hero: närmast i tid ──────────────────────────────────── */
+/* ── Hero: startöverblick + närmast i tid ─────────────────── */
 .hero { margin-top: 1.4rem; }
+.overblick {
+  display: flex; gap: 1.4rem; flex-wrap: wrap; align-items: baseline;
+  padding: 0.55rem 0 0.9rem; font-size: 0.8rem; color: #555;
+}
+.overblick strong { font-family: 'Source Serif 4', serif; font-size: 1.05rem; color: var(--ink); margin-right: 0.25rem; }
 .sektion-rubrik {
   font-size: 0.68rem; font-weight: 600; letter-spacing: 0.07em; text-transform: uppercase;
   color: var(--muted); margin-bottom: 0.5rem;
@@ -107,7 +112,11 @@ header h1 { font-family: 'Source Serif 4', serif; font-size: 1.55rem; font-weigh
 .rad-knapp:hover { background: rgba(0,0,0,0.025); }
 .rad-datum { font-family: 'Source Serif 4', serif; font-size: 1.02rem; font-weight: 600; white-space: nowrap; }
 .rad-mitt { min-width: 0; }
-.rad-titel { display: block; font-size: 0.88rem; font-weight: 600; }
+.rad-kicker {
+  display: block; font-size: 0.62rem; font-weight: 600; letter-spacing: 0.05em;
+  text-transform: uppercase; color: var(--muted); margin-bottom: 0.1rem;
+}
+.rad-titel { display: block; font-size: 0.85rem; font-weight: 600; line-height: 1.35; }
 .rad-stod {
   display: block; font-size: 0.75rem; color: var(--muted); margin-top: 0.1rem;
   overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
@@ -119,6 +128,15 @@ header h1 { font-family: 'Source Serif 4', serif; font-size: 1.55rem; font-weigh
 
 /* Nivå 2 */
 .niva2 { display: none; padding: 0 0.3rem 1rem calc(92px + 1.1rem); }
+/* Påverkan: egenförfattat klarspråk — RAK stil med etikett, medvetet åtskild
+   från citerad beslutstext (som renderas kursiv på grå platta, se .overgang-text) */
+.paverkan {
+  border: 1px solid var(--border); border-radius: 8px; background: var(--card);
+  padding: 0.6rem 0.8rem; margin-bottom: 0.7rem;
+}
+.paverkan-etikett { font-size: 0.62rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.2rem; }
+.paverkan-text { font-size: 0.8rem; }
+.klartext-kalla { font-size: 0.68rem; color: var(--muted); margin-bottom: 0.6rem; }
 .rad.oppen .niva2 { display: block; }
 .rad.oppen .rad-knapp { background: rgba(0,0,0,0.02); }
 .krav-lista { list-style: none; }
@@ -210,8 +228,9 @@ footer { max-width: 860px; margin: 0 auto; padding: 1rem 1.5rem 2rem; font-size:
     <div class="chips" id="skolformChips"></div>
   </div>
 
-  <div class="hero">
-    <div class="sektion-rubrik" style="margin-top:1.4rem">Närmast i tid — alla skolformer</div>
+  <div class="hero" data-test="start-overblick">
+    <div class="overblick" id="overblick"></div>
+    <div class="sektion-rubrik">Närmast i tid — alla skolformer</div>
     <div class="hero-rad" id="heroRad"></div>
   </div>
 
@@ -271,7 +290,34 @@ function statusFor(event) {
   return event.typ === 'tillampning' ? 'tillämpas' : 'träder i kraft';
 }
 
+// Relativ tid, deskriptiv: "om 18 dagar" / "om 3 månader" / "om 2 år" /
+// "för 8 månader sedan". Dygnsupplösning räcker — guiden pekar på datum.
+function relativTid(datum) {
+  const dagar = Math.round((new Date(datum) - new Date(IDAG)) / 86400000);
+  const abs = Math.abs(dagar);
+  let enhet;
+  if (abs < 60) enhet = `${abs} ${abs === 1 ? 'dag' : 'dagar'}`;
+  else if (abs < 700) enhet = `${Math.round(abs / 30.44)} månader`;
+  else enhet = `${Math.round(abs / 365.25)} år`;
+  if (dagar === 0) return 'i dag';
+  return dagar > 0 ? `om ${enhet}` : `för ${enhet} sedan`;
+}
+
 function renderNiva2(post, reform, sekundara) {
+  // Klartextens källa (rubriken i nivå 1 är egenförfattad — spårbarheten ges här)
+  const klartextKalla = post.klartext
+    ? `<div class="klartext-kalla">Sammanfattningen bygger på <a class="kall-lank" style="margin-left:0" href="${esc(post.klartext.kalla.url)}" target="_blank" rel="noopener">↗ ${esc(post.klartext.kalla.text)}</a></div>`
+    : '';
+
+  // Påverkan: klarspråkad ur propens konsekvensavsnitt — rak stil, åtskild
+  // från citerad beslutstext (DEC-012)
+  const paverkanHtml = post.paverkan
+    ? `<div class="paverkan">
+        <div class="paverkan-etikett">För huvudmannen — ur propositionens konsekvensavsnitt</div>
+        <div class="paverkan-text">${esc(post.paverkan.text)}<a class="kall-lank" href="${esc(post.paverkan.kalla.url)}" target="_blank" rel="noopener">↗ ${esc(post.paverkan.kalla.text)}</a></div>
+      </div>`
+    : '';
+
   const kravHtml = post.krav.map(k =>
     `<li>${esc(k.text)}<a class="kall-lank" href="${esc(k.kalla.url)}" target="_blank" rel="noopener">↗ ${esc(k.kalla.text)}</a></li>`
   ).join('');
@@ -288,6 +334,8 @@ function renderNiva2(post, reform, sekundara) {
 
   return `
     <div class="niva2">
+      ${klartextKalla}
+      ${paverkanHtml}
       <ul class="krav-lista">${kravHtml}</ul>
       ${sekundartHtml}
       <details class="niva3">
@@ -316,11 +364,12 @@ function renderRad(event) {
     <button class="rad-knapp" type="button" aria-expanded="false">
       <span class="rad-datum">${datumKort(event.datum)}</span>
       <span class="rad-mitt">
-        <span class="rad-titel">${esc(reform.short)}</span>
+        <span class="rad-kicker">${esc(reform.short)}</span>
+        <span class="rad-titel" data-niva1="klartext">${esc(post.klartext ? post.klartext.text : reform.short)}</span>
         <span class="rad-stod">${esc(event.omfattning)}</span>
         <span class="rad-chips">${chips}</span>
       </span>
-      <span class="rad-status">${statusFor(event)}<span class="rad-pil">▾</span></span>
+      <span class="rad-status">${statusFor(event)} · <span data-test="relativ-tid">${relativTid(event.datum)}</span><span class="rad-pil">▾</span></span>
     </button>
     ${renderNiva2(post, reform, sekundara)}
   </div>`;
@@ -360,13 +409,22 @@ async function init() {
   }
   events.sort((a, b) => a.datum.localeCompare(b.datum));
 
-  // ── Hero: tre närmaste verksamhetsdatumen, alla skolformer (filtreras aldrig)
+  // ── Startöverblick: lägesräkning + tre närmaste verksamhetsdatumen
+  // (alla skolformer — filtreras aldrig)
+  const antalGaller = events.filter(e => e.datum <= IDAG).length;
+  const antalKommande = events.filter(e => e.datum > IDAG).length;
+  const antalPavag = reforms.filter(r => r.status !== 'beslutad').length;
+  document.getElementById('overblick').innerHTML = `
+    <span><strong>${antalGaller}</strong> gäller redan</span>
+    <span><strong>${antalKommande}</strong> kommande datum</span>
+    <span><strong>${antalPavag}</strong> på väg — ej beslutade</span>`;
+
   const kommande = events.filter(e => e.datum > IDAG).slice(0, 3);
   document.getElementById('heroRad').innerHTML = kommande.map(e => `
     <button class="hero-kort" type="button" data-mal="${esc(e.post.reform_id)}|${esc(e.datum)}">
       <span class="hero-datum">${datumKort(e.datum)}</span>
       <div class="hero-titel">${esc(e.reform.short)}</div>
-      <div class="hero-status">${statusFor(e)}</div>
+      <div class="hero-status">${statusFor(e)} · <span data-test="relativ-tid">${relativTid(e.datum)}</span></div>
     </button>`).join('');
 
   // ── Datumlistan med årsavdelare
