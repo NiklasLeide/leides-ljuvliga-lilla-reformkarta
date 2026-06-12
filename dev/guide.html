@@ -102,8 +102,9 @@ header h1 { font-family: 'Source Serif 4', serif; font-size: 1.55rem; font-weigh
 .start-tidslinje { font-size: 0.8rem; font-weight: 500; color: var(--kunskap); text-decoration: none; min-height: 44px; display: inline-flex; align-items: center; }
 .start-tidslinje:hover { text-decoration: underline; }
 
-/* Tidsgruppsöversikt: räknare per period, följer verksamhetsvalet */
-.oversikt { display: flex; flex-wrap: wrap; gap: 0.45rem; padding-top: 0.3rem; }
+/* Tidsgruppsöversikt: räknarpiller (navigering) + grupperade en-radare */
+.oversikt { padding-top: 0.3rem; }
+.oversikt-piller { display: flex; flex-wrap: wrap; gap: 0.45rem; }
 .oversikt-grupp {
   font-family: inherit; font-size: 0.74rem; cursor: pointer; min-height: 44px;
   display: inline-flex; align-items: center; gap: 0.35rem; padding: 0 0.8rem;
@@ -113,6 +114,31 @@ header h1 { font-family: 'Source Serif 4', serif; font-size: 1.55rem; font-weigh
 .oversikt-grupp:hover { border-color: var(--ink); }
 .oversikt-grupp strong { font-family: 'Source Serif 4', serif; font-size: 0.9rem; }
 .oversikt-grupp.tom { opacity: 0.4; }
+
+.o-grupp { margin-top: 0.9rem; }
+.o-grupp.tom { opacity: 0.45; }
+.o-grupp-rubrik {
+  font-size: 0.68rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--muted); padding-bottom: 0.25rem; border-bottom: 1px solid var(--border);
+}
+.o-rad {
+  display: flex; align-items: baseline; gap: 0.6rem; width: 100%; text-align: left;
+  font-family: inherit; background: none; border: none; border-bottom: 1px dashed var(--border);
+  padding: 0.45rem 0.2rem; min-height: 44px; cursor: pointer; font-size: 0.78rem;
+}
+.o-rad:hover { background: rgba(0,0,0,0.025); }
+.o-rad.doljd { display: none; }
+.o-datum { font-weight: 600; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.o-rel { font-weight: 400; color: var(--muted); }
+.o-text { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: #444; }
+.o-chips { display: inline-flex; gap: 0.25rem; flex-shrink: 0; }
+.o-chips .rad-chip { font-size: 0.58rem; }
+.o-rad-pag { cursor: default; }
+.o-rad-pag:hover { background: none; }
+.o-pag-status { color: var(--muted); white-space: nowrap; }
+@media (max-width: 600px) {
+  .o-chips { display: none; } /* en-radare på 375: datum + text räcker, chips finns i posten */
+}
 
 /* ── Datumlistan ──────────────────────────────────────────── */
 .lista { margin-top: 1.8rem; }
@@ -482,28 +508,104 @@ async function init() {
       `<strong>${antal12}</strong> kommande ${antal12 === 1 ? 'datum' : 'datum'} de närmaste 12 månaderna${harVal ? ' för din valda verksamhet' : ''}`;
   }
 
-  // ── Tidsgruppsöversikt: räknare per period (gäller redan + årtal), följer
-  // verksamhetsvalet. Grupper med 0 träffar dämpas men döljs aldrig — antalet
-  // grupper är stabilt och varje periods läge syns ärligt.
+  // ── Tidsgruppsöversikt (T5.3): räknarpiller som navigering + grupperade
+  // en-radare per reform — datum, klartextens första mening, berörda-chips.
+  // Grupper med 0 träffar dämpas men döljs aldrig. "På g" listar ej beslutade
+  // reformer (utan verksamhetskoppling — påverkas inte av valet).
   const tidsgrupper = [...new Set(events.map(e => e.datum <= IDAG ? 'Gäller redan' : e.datum.slice(0, 4)))];
+  const PAG = 'På g — ännu inte beslutat';
+  const ejBeslutadeReformer = reforms.filter(r => r.status !== 'beslutad');
+
+  function forstaMeningen(text) {
+    const m = /^.*?\.(?=\s|$)/.exec(text);
+    return m ? m[0] : text;
+  }
+
+  function grupperaEvents() {
+    const grupper = new Map(tidsgrupper.map(g => [g, []]));
+    for (const e of events) grupper.get(e.datum <= IDAG ? 'Gäller redan' : e.datum.slice(0, 4)).push(e);
+    return grupper;
+  }
+
+  function byggOversikt() {
+    const grupper = grupperaEvents();
+    const tolvMan = new Date(new Date(IDAG).getTime() + 365 * 86400000).toISOString().slice(0, 10);
+    const grupperHtml = [...grupper.entries()].map(([g, ev]) => `
+      <div class="o-grupp" data-oversikt-grupp="${esc(g)}">
+        <div class="o-grupp-rubrik">${esc(g)}</div>
+        ${ev.map(e => {
+          const rel = e.datum > IDAG && e.datum <= tolvMan ? `<span class="o-rel"> · ${relativTid(e.datum)}</span>` : '';
+          const b = (e.post.berors && e.post.berors.skolformer) || [];
+          const chips = b.slice(0, 3).map(s => `<span class="rad-chip">${esc(s)}</span>`).join('') +
+            (b.length > 3 ? `<span class="rad-chip">+${b.length - 3}</span>` : '');
+          return `
+          <button class="o-rad" type="button" data-mal="${esc(e.post.reform_id)}|${esc(e.datum)}" data-skolformer="${esc(b.join('|'))}">
+            <span class="o-datum">${datumKort(e.datum)}${rel}</span>
+            <span class="o-text">${esc(forstaMeningen(e.post.klartext ? e.post.klartext.text : e.reform.short))}</span>
+            <span class="o-chips">${chips || `<span class="rad-chip">${esc(EJ_SPEC)}</span>`}</span>
+          </button>`;
+        }).join('')}
+      </div>`).join('');
+
+    const pagHtml = ejBeslutadeReformer.length === 0 ? '' : `
+      <div class="o-grupp" data-oversikt-grupp="pag">
+        <div class="o-grupp-rubrik">${esc(PAG)}</div>
+        ${ejBeslutadeReformer.map(r => `
+          <div class="o-rad o-rad-pag">
+            <span class="o-datum">på g</span>
+            <span class="o-text">${esc(r.short)}${r.ref ? ' · ' + esc(r.ref) : ''}</span>
+            <span class="o-pag-status">inga skyldigheter gäller än</span>
+          </div>`).join('')}
+      </div>`;
+
+    document.getElementById('oversikt').innerHTML =
+      `<div class="oversikt-piller" id="oversiktPiller"></div>${grupperHtml}${pagHtml}`;
+  }
+  byggOversikt();
+
   function uppdateraOversikt(valda) {
     const raknare = Object.fromEntries(tidsgrupper.map(g => [g, 0]));
-    for (const e of events.filter(e => traffasAvVal(e.post, valda, EJ_SPEC))) {
-      raknare[e.datum <= IDAG ? 'Gäller redan' : e.datum.slice(0, 4)]++;
-    }
-    document.getElementById('oversikt').innerHTML = tidsgrupper.map(g => `
+    // En-radare filtreras synkront med verksamhetsvalet
+    document.querySelectorAll('#oversikt .o-rad[data-mal]').forEach(rad => {
+      const egna = rad.dataset.skolformer ? rad.dataset.skolformer.split('|') : [];
+      const traff = valda.size === 0 || egna.some(s => valda.has(s)) || (egna.length === 0 && valda.has(EJ_SPEC));
+      rad.classList.toggle('doljd', !traff);
+      if (traff) {
+        const grupp = rad.closest('.o-grupp').dataset.oversiktGrupp;
+        raknare[grupp]++;
+      }
+    });
+    document.querySelectorAll('#oversikt .o-grupp').forEach(g => {
+      const nyckel = g.dataset.oversiktGrupp;
+      if (nyckel === 'pag') return; // På g saknar verksamhetskoppling — dämpas aldrig av valet
+      g.classList.toggle('tom', raknare[nyckel] === 0);
+    });
+    document.getElementById('oversiktPiller').innerHTML = [
+      ...tidsgrupper.map(g => `
       <button class="oversikt-grupp${raknare[g] === 0 ? ' tom' : ''}" type="button" data-grupp="${esc(g)}">
         <strong>${raknare[g]}</strong> ${esc(g === 'Gäller redan' ? 'gäller redan' : g)}
-      </button>`).join('');
+      </button>`),
+      `<button class="oversikt-grupp" type="button" data-grupp="pag"><strong>${ejBeslutadeReformer.length}</strong> på g</button>`,
+    ].join('');
   }
+
   document.getElementById('oversikt').addEventListener('click', e => {
-    const knapp = e.target.closest('.oversikt-grupp');
-    if (!knapp) return;
-    const g = knapp.dataset.grupp;
-    // Scrolla till periodens första synliga rad i listan
-    const mal = [...document.querySelectorAll('#lista .rad:not(.doljd)')].find(rad =>
-      g === 'Gäller redan' ? rad.dataset.datum <= IDAG : rad.dataset.datum.slice(0, 4) === g && rad.dataset.datum > IDAG);
-    if (mal) mal.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    const piller = e.target.closest('.oversikt-grupp');
+    if (piller) {
+      const grupp = document.querySelector(`#oversikt .o-grupp[data-oversikt-grupp="${CSS.escape(piller.dataset.grupp)}"]`);
+      if (grupp) grupp.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      return;
+    }
+    const oRad = e.target.closest('.o-rad[data-mal]');
+    if (oRad) {
+      const [rid, datum] = oRad.dataset.mal.split('|');
+      const rad = document.querySelector(`#lista .rad[data-reform="${CSS.escape(rid)}"][data-datum="${CSS.escape(datum)}"]`);
+      if (!rad) return;
+      rad.classList.remove('doljd');
+      rad.classList.add('oppen');
+      rad.querySelector('.rad-knapp').setAttribute('aria-expanded', 'true');
+      rad.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
   });
 
   // ── Datumlistan med årsavdelare
