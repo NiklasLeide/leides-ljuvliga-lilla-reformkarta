@@ -21,7 +21,7 @@ header{background:var(--ink);color:#fff;padding:1.8rem 1.5rem 1.5rem}
 header h1{font-family:'Source Serif 4',serif;font-size:1.6rem;font-weight:600;line-height:1.2;margin-bottom:.3rem}
 header p{font-size:.82rem;color:rgba(255,255,255,.5);max-width:500px}
 
-.tab-nav{display:flex;gap:0;background:var(--card);border-bottom:1px solid var(--border)}
+.tab-nav{display:flex;gap:0;background:var(--card);border-bottom:1px solid var(--border);overflow-x:auto}
 .tab-nav a{padding:.65rem 1.2rem;font-size:.75rem;font-weight:500;color:var(--muted);text-decoration:none;border-bottom:2px solid transparent;transition:all .15s}
 .tab-nav a:hover{color:var(--ink)}
 .tab-nav a.active{color:var(--ink);font-weight:600;border-bottom-color:var(--ink)}
@@ -224,6 +224,7 @@ footer{text-align:center;padding:1.5rem 0 2rem;font-size:.62rem;color:#ccc;line-
   <a href="uppdrag.html">Uppdrag</a>
   <a href="utredningar.html">Utredningar</a>
   <a href="tidslinje.html" class="active">Tidslinje</a>
+  <a href="guide.html">Guide</a>
 </div>
 
 <div class="container">
@@ -624,7 +625,7 @@ function selectEvent(id){
   detailHtml+=`<div class="detail-title">${ev.titel}</div><div class="detail-ref">${typLabels[ev.typ]} · ${p.label}</div>`;
   if(reform){
     const rc=catColors[reform.cat];
-    detailHtml+=`<div class="detail-section"><div class="detail-label">Kopplad reform</div><div class="detail-text"><span class="cat-dot" style="background:${rc.color};vertical-align:middle;margin-right:4px"></span>${reform.short} (${reform.ref})</div><div class="detail-links" style="margin-top:.4rem"><a class="detail-link" href="reformer.html?reform=${reform.id}">→ Reformtabellen</a><a class="detail-link" href="uppdrag.html?uppdrag=${reform.id}">→ Uppdrag</a></div></div>`;
+    detailHtml+=`<div class="detail-section"><div class="detail-label">Kopplad reform</div><div class="detail-text"><span class="cat-dot" style="background:${rc.color};vertical-align:middle;margin-right:4px"></span>${reform.short} (${reform.ref})</div><div class="detail-links" style="margin-top:.4rem">${guideIds.has(reform.id)?`<a class="detail-link" href="guide.html?reform=${reform.id}">→ Guiden</a>`:""}<a class="detail-link" href="reformer.html?reform=${reform.id}">→ Reformtabellen</a><a class="detail-link" href="uppdrag.html?uppdrag=${reform.id}">→ Uppdrag</a></div></div>`;
   }
   detailHtml+=`<div class="detail-section"><div class="detail-label">Källa</div><div class="detail-text">${ev.kalla}</div></div>`;
   // Desktop sidebar: with close button
@@ -650,7 +651,7 @@ function selectUppdrag(reformId,idx){
   detailHtml+=`<div class="detail-section"><div class="detail-text">${ur.kort}</div></div>`;
   if(reform){
     const rc=catColors[reform.cat];
-    detailHtml+=`<div class="detail-section"><div class="detail-label">Kopplad reform</div><div class="detail-text"><span class="cat-dot" style="background:${rc.color};vertical-align:middle;margin-right:4px"></span>${reform.short} (${reform.ref})</div><div class="detail-links" style="margin-top:.4rem"><a class="detail-link" href="reformer.html?reform=${reform.id}">→ Reformtabellen</a><a class="detail-link" href="uppdrag.html?uppdrag=${reform.id}">→ Uppdrag</a></div></div>`;
+    detailHtml+=`<div class="detail-section"><div class="detail-label">Kopplad reform</div><div class="detail-text"><span class="cat-dot" style="background:${rc.color};vertical-align:middle;margin-right:4px"></span>${reform.short} (${reform.ref})</div><div class="detail-links" style="margin-top:.4rem">${guideIds.has(reform.id)?`<a class="detail-link" href="guide.html?reform=${reform.id}">→ Guiden</a>`:""}<a class="detail-link" href="reformer.html?reform=${reform.id}">→ Reformtabellen</a><a class="detail-link" href="uppdrag.html?uppdrag=${reform.id}">→ Uppdrag</a></div></div>`;
   }
   if(ur.kallor&&ur.kallor.length){
     detailHtml+=`<div class="detail-section"><div class="detail-label">Källor</div><div class="detail-links">${ur.kallor.map(k=>`<a class="detail-link" href="${k.url}" target="_blank" rel="noopener">↗ ${k.text}</a>`).join('')}</div></div>`;
@@ -706,7 +707,7 @@ function selectReform(rid){
     });
     html+=`</div></div>`;
   }
-  html+=`<div class="detail-section"><div class="detail-links"><a class="detail-link" href="reformer.html?reform=${r.id}">→ Reformtabellen</a><a class="detail-link" href="uppdrag.html?uppdrag=${r.id}">→ Uppdrag</a></div></div>`;
+  html+=`<div class="detail-section"><div class="detail-links">${guideIds.has(r.id)?`<a class="detail-link" href="guide.html?reform=${r.id}">→ Guiden</a>`:""}<a class="detail-link" href="reformer.html?reform=${r.id}">→ Reformtabellen</a><a class="detail-link" href="uppdrag.html?uppdrag=${r.id}">→ Uppdrag</a></div></div>`;
   document.getElementById('detailPanel').innerHTML='<button class="detail-close" id="detailClose" aria-label="Stäng">×</button>'+html;
   document.getElementById('detailClose').addEventListener('click',()=>{selectedReformId=null;clearDetail()});
   if(window.innerWidth<=800){document.getElementById('mobileSidebarContent').innerHTML=html;document.getElementById('mobileSidebar').classList.add('open');document.getElementById('mobileOverlay').classList.add('open')}
@@ -753,7 +754,7 @@ function selectUtredning(id){
     const r=reforms.find(x=>x.id===u.kopplad_reform);
     if(r){
       const rc=catColors[r.cat];
-      html+=`<div class="detail-section"><div class="detail-label">Kopplad reform</div><div class="detail-text"><span class="cat-dot" style="background:${rc.color};vertical-align:middle;margin-right:4px"></span>${r.short} (${r.ref})</div><div class="detail-links" style="margin-top:.4rem"><a class="detail-link" href="#" data-select-reform="${r.id}">↑ Markera på tidslinjen</a><a class="detail-link" href="reformer.html?reform=${r.id}">→ Reformtabellen</a><a class="detail-link" href="uppdrag.html?uppdrag=${r.id}">→ Uppdrag</a></div></div>`;
+      html+=`<div class="detail-section"><div class="detail-label">Kopplad reform</div><div class="detail-text"><span class="cat-dot" style="background:${rc.color};vertical-align:middle;margin-right:4px"></span>${r.short} (${r.ref})</div><div class="detail-links" style="margin-top:.4rem"><a class="detail-link" href="#" data-select-reform="${r.id}">↑ Markera på tidslinjen</a>${guideIds.has(r.id)?`<a class="detail-link" href="guide.html?reform=${r.id}">→ Guiden</a>`:""}<a class="detail-link" href="reformer.html?reform=${r.id}">→ Reformtabellen</a><a class="detail-link" href="uppdrag.html?uppdrag=${r.id}">→ Uppdrag</a></div></div>`;
     }
   }
   if(u.prop)html+=`<div class="detail-section"><div class="detail-label">Proposition</div><div class="detail-text">${u.prop}</div></div>`;
@@ -878,16 +879,21 @@ function init(){
 }
 
 function dataPath(f){return'data/'+f}
+let guideIds=new Set(); // reform-id:n med guidepost — driver Guiden-länken i detaljpanelerna
 async function loadData(){
   try{
     const cb='?v='+Date.now();
-    const[t,r,u,ut]=await Promise.all([
+    const[t,r,u,ut,g]=await Promise.all([
       fetch(dataPath('tidslinje.json')+cb).then(r=>r.json()),
       fetch(dataPath('reforms.json')+cb).then(r=>r.json()),
       fetch(dataPath('uppdrag.json')+cb).then(r=>r.json()),
-      fetch(dataPath('utredningar.json')+cb).then(r=>r.json())
+      fetch(dataPath('utredningar.json')+cb).then(r=>r.json()),
+      fetch(dataPath('guide.json')+cb).then(r=>r.json())
     ]);
-    handelser=t.handelser;reforms=r;uppdragData=u;utredningar=ut;init();
+    handelser=t.handelser;reforms=r;uppdragData=u;utredningar=ut;guideIds=new Set(g.map(x=>x.reform_id));init();
+    // Inkommande deeplink ?reform=<id> (bl.a. från guiden) → markera reformen
+    const rp=new URLSearchParams(window.location.search).get('reform');
+    if(rp&&reforms.find(x=>x.id===rp)){selectReform(rp)}
   }catch(err){console.error('Kunde inte ladda data:',err);document.getElementById('ganttArea').innerHTML='<p style="padding:2rem;color:#b91c1c;">Kunde inte ladda data.</p>'}
 }
 window.addEventListener('load',loadData);
