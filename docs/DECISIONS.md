@@ -18,6 +18,14 @@ Record of key decisions made during the project. **Newest first.**
 
 ---
 
+### DEC-011: Guiden följer "viktiga datum för företagare"-mönstret
+**Date:** 2026-06-12
+**Decision:** Guidevyn (T5.1) designas som genren "viktiga datum"-tjänst (Skatteverket-klassen): kronologisk datumlista med datumet visuellt primärt, hero "Närmast i tid" (tre närmaste verksamhetsdatumen, opåverkad av filter — sidan har aldrig tom yta), skolformsval överst med stora träffytor (sparas i URL-param + localStorage, URL vinner; rensas med ett tryck), GOV.UK task list-mikromönster per rad (hela raden klickbar, lugna gemena statusmarkeringar gäller redan/träder i kraft/tillämpas, max en stödtextrad), tre progressiva nivåer hopfällda som default (rad → krav med källor → ordagranna övergångsbestämmelser/SFS/korslänkar), caveat-rad i sidhuvudet enligt genrekonvention. Årsavdelare i stället för T4:s grupprubriker. Innehåll, datakontrakt och DEC-010:s händelsemodell oförändrade.
+**Reasoning:** Målgruppen (småföretagare som driver fristående verksamheter) behärskar redan mönstret från myndigheternas datumtjänster — igenkänning sänker tröskeln mer än någon ny struktur. Datumet är det huvudmannen faktiskt planerar mot; allt annat är fördjupning. Tre hopfällda nivåer ger 5-sekunders skannbarhet utan att offra spårbarheten (källänk per kravrad kvarstår från kontraktet).
+**Alternatives considered:** Step-by-step-/wizardmönster (GOV.UK "check what you need to do") — FÖRKASTAT: det guidar mot ett slutmål genom frågor, vilket är rådgivningssemantik ("vad ska jag göra?") och bryter mot sprintens grundregel överblick-aldrig-rådgivning; dessutom grindar det innehållet bakom val, vilket strider mot aldrig-grind-kravet. T4:s kortbaserade grupplayout (behölls en sprintdag) — informationstät men kändes som rapport, inte datumtjänst; allt innehåll synligt samtidigt motverkade skannbarhet.
+
+---
+
 ### DEC-010: Guidevyns händelsemodell och gap-regel för tillämpningspivot
 **Date:** 2026-06-12
 **Decision:** Guidens tidslinje är händelsebaserad: varje post i `ikrafttradanden` blir en egen tidslinjehändelse (flerstegsreformer som tid syns i flera grupper). Pivotregeln preciseras med en gap-regel: en reform pivoterar på sina tillampning-poster — och dess ikraft-poster degraderas till sekundärtext på korten — ENDAST när största tillampning ligger >365 dagar efter första ikraft (tioarig: ikraft 2026-07-01, verksamhetsträff läsåret 2028/29). Vid kortare gap (brott: 6 månader, delbestämmelser) är ikraftträdandet en verklig verksamhetshändelse och båda stegen visas som händelser. Gruppetiketter härleds ur datum (Sommaren 2026, Läsåret 2028/29, …) — inga reformnamn i logiken.
