@@ -155,3 +155,8 @@ misslyckats tyst körs reset på dev och kastar lokalt arbete (origin/dev rädda
 **Solution:** Återskapa elementet innan: `detailPanel.innerHTML='<div id="detailDefault"></div>'` före `renderDefaultSidebar()`.
 
 ---
+
+### commit.sh stageade ALDRIG rotfiler — glob-pathspec aborterar hela git add
+**Symptom:** Commits saknar tyst .html-/rotfilsändringar trots att commit.sh kördes utan synligt fel; "Dev-preview redan i synk" trots ändrade sidor. Upptäckt 2026-06-12: T4+T5/T5.1-commitarna innehöll bara docs/ + manuellt stageade filer — korslänkarna i fem sidfiler var ocommittade.
+**Cause:** `git add *.json *.ts *.js *.sh *.md *.toml *.py *.html` — git add ABORTERAR HELA anropet med "fatal: pathspec '*.ts' did not match any files" så fort EN glob saknar träffar (inga .ts-filer finns i repot → raden har aldrig stageat något). Felet doldes av `2>/dev/null || true`. Samma rotorsak som T1-fix åtgärdade för katalogerna, men glob-raden lämnades samlad.
+**Solution:** Loopa globbarna individuellt med `[ -e "$pat" ] || continue` (oexpanderad glob förblir literal i bash och filtreras av -e-testet) — fixat i commit.sh 2026-06-12. Lärdom för rapportering: verifiera commit-INNEHÅLLET (`git show --stat`), inte bara att en commit skapades.

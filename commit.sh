@@ -25,7 +25,14 @@ for d in docs/ src/ .claude/ data/ scripts/ .github/; do
   [ -d "$d" ] || continue
   git add "$d" 2>/dev/null || true
 done
-git add *.json *.ts *.js *.sh *.md *.toml *.py *.html 2>/dev/null || true
+# Stagea rotfilsglobbar individuellt: git add aborterar HELA anropet om en
+# enda pathspec inte matchar (t.ex. *.ts när inga .ts-filer finns) — den gamla
+# samlade raden stageade därför ALDRIG något, tyst, dolt av 2>/dev/null.
+# En oexpanderad glob lämnas literal av bash → -e-testet filtrerar bort den.
+for pat in *.json *.ts *.js *.sh *.md *.toml *.py *.html; do
+  [ -e "$pat" ] || continue
+  git add "$pat" 2>/dev/null || true
+done
 
 SRC_CHANGED=$(git diff --cached --name-only | grep "^src/" || true)
 CHANGELOG_CHANGED=$(git diff --cached --name-only | grep "CHANGELOG.md" || true)
