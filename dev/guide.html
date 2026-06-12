@@ -559,11 +559,15 @@ async function init() {
       </div>`;
 
     document.getElementById('oversikt').innerHTML =
+      `<div class="sektion-rubrik" id="oversiktRubrik" style="margin-top:1rem"></div>` +
       `<div class="oversikt-piller" id="oversiktPiller"></div>${grupperHtml}${pagHtml}`;
   }
   byggOversikt();
 
   function uppdateraOversikt(valda) {
+    // Lägesrubrik följer valläget synkront
+    document.getElementById('oversiktRubrik').textContent =
+      valda.size > 0 ? 'Läget för din verksamhet' : 'Läget — alla verksamheter';
     const raknare = Object.fromEntries(tidsgrupper.map(g => [g, 0]));
     // En-radare filtreras synkront med verksamhetsvalet
     document.querySelectorAll('#oversikt .o-rad[data-mal]').forEach(rad => {
