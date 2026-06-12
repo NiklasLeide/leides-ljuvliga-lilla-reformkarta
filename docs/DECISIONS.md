@@ -18,6 +18,14 @@ Record of key decisions made during the project. **Newest first.**
 
 ---
 
+### DEC-012: Klarspråkslager i guiden tillåtet — på Niklas villkor
+**Date:** 2026-06-12
+**Decision:** Principbeslut av Niklas (T5.2a): guideposterna får ett egenförfattat klarspråkslager — fälten `klartext` {text, kalla} (1–2 deskriptiva meningar om vad som ändras) och `paverkan` {text, kalla}|null (vad ändringen innebär för huvudmannen i drift, extraherad ur propositionens konsekvensavsnitt med källhänvisning till avsnittet). Villkor: strikt deskriptivt, varje mening spårbar till källa, visuellt åtskilt från citerad beslutstext i UI:t (T5.2b). Utökad språkregel för just dessa fält: bör/rekommenderar/råder/måste ni/se till att är förbjudna. Saknar propen huvudmannakonsekvenser sätts paverkan till null med notering — aldrig fabricerat. Befintliga krav/övergångsbestämmelser orörda (blir nivå 3).
+**Reasoning:** T1-kontraktets rena citatlinje gav spårbarhet men 5-sekundersskanningen (DEC-011) behöver en mening på klarspråk per rad. Avgränsningen deskriptivt-spårbart-åtskilt behåller skiljelinjen mot rådgivning: guiden säger vad som gäller och vad det innebär enligt propositionen själv, aldrig vad huvudmannen borde göra.
+**Alternatives considered:** Enbart officiella formuleringar (T1–T5-läget — skannbarhet lider, myndighetsprosa i listraderna); AI-genererad sammanfattning per sidvisning (out of scope: AI-anrop förbjudna i Sprint 10-beslutet och ospårbart); kravlistan som nivå 1-text (för lång och uppräknande för radformatet).
+
+---
+
 ### DEC-011: Guiden följer "viktiga datum för företagare"-mönstret
 **Date:** 2026-06-12
 **Decision:** Guidevyn (T5.1) designas som genren "viktiga datum"-tjänst (Skatteverket-klassen): kronologisk datumlista med datumet visuellt primärt, hero "Närmast i tid" (tre närmaste verksamhetsdatumen, opåverkad av filter — sidan har aldrig tom yta), skolformsval överst med stora träffytor (sparas i URL-param + localStorage, URL vinner; rensas med ett tryck), GOV.UK task list-mikromönster per rad (hela raden klickbar, lugna gemena statusmarkeringar gäller redan/träder i kraft/tillämpas, max en stödtextrad), tre progressiva nivåer hopfällda som default (rad → krav med källor → ordagranna övergångsbestämmelser/SFS/korslänkar), caveat-rad i sidhuvudet enligt genrekonvention. Årsavdelare i stället för T4:s grupprubriker. Innehåll, datakontrakt och DEC-010:s händelsemodell oförändrade.
