@@ -24,6 +24,13 @@ Record of key decisions made during the project. **Newest first.**
 **Reasoning:** Niklas mockup definierar formen: hjulet är överblicken (startkortet utgick), målgruppen tänker i läsår, och en graf med max ~7 punkter per läsår skannas snabbare än 19 listrader. Listan försvinner inte — den blir fördjupningssidan och det tillgängliga alternativet, vilket löser SVG-grafikens skärmläsarproblem utan parallell DOM.
 **Alternatives considered:** Hjul + lista på samma sida (dubblerad kognitiv last, mobilen oändligt lång); kalenderår i hjulet (målgruppen planerar per läsår — mockupen är explicit); tillgänglighet via osynlig parallellista i guide.html (underhållsdubblering — undersidan finns redan och är komplett).
 
+**Komplettering (T5.5, 2026-06-13 — Niklas beslut efter UX-granskning):**
+(1) MÅNADER ÄR KNAPPARNA, PUNKTER ÄR MARKÖRER. T5.4:s klickbara fälgpunkter (~22px cirklar) var för små träffytor och konkurrerade med segmentytorna om samma interaktion — punkterna avklickbarades helt (pointer-events:none, aria-hidden, inga handlers) och månadssegment MED datum blev knapparna ([data-test=manad], role=button, tabbara, aria-label "September — 1 nytt datum", hover-/fokus-/vald-affordance i fyllnad). Månader utan datum är inerta. Geometrin ger segmenten >44px träffyta. Hjulet har därmed EN interaktionsmodell.
+(2) Verksamhetsvalet är en alltid synlig chiprad under sidhuvudet, samma mönster mobil/desktop ([data-test=val-synlig]) — T5.4:s headerknapp+panel utgick (dolde valet bakom ett extra steg); rensning med ett tryck via Rensa-chip.
+(3) Detaljkortet fick föregående/nästa-pilar ([data-test=detalj-nav], 44px) som primär navigering + piltangenter + touch-svep med riktningströskel (|dx|>|dy| och |dx|>30px — vertikal scroll kapas aldrig) + klickbara bläddringsprickar.
+(4) Detaljytan har stabil min-höjd per visat läge (uppmätt mot största kortet) så bläddring/läsårsbyte inte flyttar innehållet under; horisontcirklarnas etiketter utskrivna (siffra + "nya datum" + "läsåret YYYY/YY" resp. "på g / ej beslutat" — läsårsformen vald även för 2030/31 i st.f. uppgiftsexemplets "2031", konsekvent vokabulär); på g-kortet listar samtliga poster med namn och bläddras som övriga.
+(5) Läsårsspannet uttalat i rubriken ("Läsåret 2025/26 · augusti–juli"); ordet terminsstart förekommer inte i UI (skolor startar olika); datum placeras strikt kalendariskt.
+
 ---
 
 ### DEC-014: T5.3-avvikelsen — målvillkor är golv, briefen är specifikationen
