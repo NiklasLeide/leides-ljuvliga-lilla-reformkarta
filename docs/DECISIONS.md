@@ -18,6 +18,14 @@ Record of key decisions made during the project. **Newest first.**
 
 ---
 
+### DEC-014: T5.3-avvikelsen — målvillkor är golv, briefen är specifikationen
+**Date:** 2026-06-12
+**Decision:** T5.3:s första leverans uppfyllde /goal-villkoret ("[data-test=oversikt] med minst fyra tidsgrupper som uppdateras vid verksamhetsval") med enbart räknarpiller — men briefens kärna var en skummbar textsammanfattning: grupperade en-radare per reform (datum + klartextens första mening + berörda-chips, radlänk till posten) och en "På g"-grupp för ej beslutade reformer. Kompletterat i T5.3-fix. Processlärdom inskriven: ett maskinverifierbart målvillkor är ett GOLV (minsta verifierbara bevis), inte hela leveransen — när brief och målvillkor skiljer sig i omfattning är briefen specifikationen, och tolkningar som "minsta uppfyllande" ska flaggas innan leverans, inte upptäckas efteråt.
+**Reasoning:** Målvillkor formuleras medvetet kompakta och testbara; att optimera mot dem bokstavligt producerar tekniskt gröna men innehållsligt tomma leveranser — samma felklass som rapporteringsregeln i CLAUDE.md adresserar för rapporter, här för byggval.
+**Alternatives considered:** Behandla målvillkoret som hela specen (gjordes — gav denna avvikelse); be om förtydligande före bygge (rätt när briefen saknas — här FANNS briefen i tidigare T5.2-uppgifter och mönstret "sammanfattning" var etablerat).
+
+---
+
 ### DEC-013: Guidens startnivå — konkret nästa deadline, klartext som ansikte, hopfällt val på mobil
 **Date:** 2026-06-12
 **Decision:** (T5.2b-omtag) Startöverblicken är ETT konkret kort: nästa verksamhetsdatum för vald verksamhet (utan val: alla) med absolut datum + klientberäknad relativ tid, klartext som rubrik och påverkan som enda stycke — plus 12-månadersräknare och en tydlig väg till hela tidslinjen. Aldrig grind, aldrig tomt: utan kommande datum för valet visas nästa datum över alla verksamheter med ärlig etikett. Klartext leder överallt: nivå 1-raderna bär klartext som rubrik (utan kicker); officiell beslutsrubrik + omfattning + påverkan utgör nivå 2:s topp; krav + ordagranna övergångsbestämmelser + SFS + korslänkar ligger i nivå 3. All citerad beslutstext får enhetlig citatstil (markerad vänsterkant + indrag + §) så klarspråk och författningstext aldrig kan förväxlas (DEC-012-villkoret). På mobil komprimeras skolformsvalet till en hopfälld "Välj verksamhet"-knapp så startkortet ligger ovanför fold (uppmätt: topp 315px/botten 637px vid 375×812).
