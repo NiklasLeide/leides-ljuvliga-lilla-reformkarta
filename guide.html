@@ -80,11 +80,6 @@ header h1 { font-family: 'Source Serif 4', serif; font-size: 1.4rem; font-weight
 .hjulhuvud { text-align: center; margin: 0.7rem 0 0.1rem; }
 .hjulhuvud .ar { font-family: 'Source Serif 4', serif; font-size: 1.25rem; font-weight: 600; }
 .hjulhuvud .sub { font-size: 0.76rem; color: var(--muted); }
-.hjulhuvud .nu-lank {
-  font-family: inherit; font-size: 0.72rem; color: var(--kunskap); background: none;
-  border: none; cursor: pointer; text-decoration: underline; min-height: 32px; display: none;
-}
-.hjulhuvud .nu-lank.synlig { display: inline-block; }
 
 .hjul { display: block; margin: 0 auto; max-width: 380px; width: 100%; }
 .seg { fill: var(--hjul); stroke: var(--bg); stroke-width: 2; }
@@ -221,7 +216,6 @@ footer { max-width: 1080px; margin: 0 auto; padding: 1.2rem 1.5rem 2rem; text-al
       <div class="hjulhuvud">
         <div class="ar" id="hjulAr"></div>
         <div class="sub" id="hjulSub"></div>
-        <button class="nu-lank" id="nuLank" type="button"></button>
       </div>
       <svg class="hjul" viewBox="0 0 320 320" id="hjul" data-test="lasarshjul" role="group" aria-label="Läsårshjul — månader med reformdatum är knappar"></svg>
       <div class="horisont">
@@ -450,9 +444,8 @@ async function init() {
     document.getElementById('hjulSub').textContent = ev.length > 0
       ? `${ev.length} ${ev.length === 1 ? 'nytt datum' : 'nya datum'} · tryck på en månad`
       : 'inga datum för valet detta läsår — byt läsår nedan eller rensa valet';
-    const nu = document.getElementById('nuLank');
-    nu.classList.toggle('synlig', visatLasar !== INNEVARANDE && allaLasar.includes(INNEVARANDE));
-    nu.textContent = `‹ tillbaka till läsåret ${INNEVARANDE}`;
+    // T5.7: tillbaka-till-innevarande-länken borttagen (DEC-015 T6-städning) —
+    // innevarande läsår är en cirkel i läsårsraden, knappen var fullt redundant.
   }
 
   function markeraHjul() {
@@ -675,14 +668,6 @@ async function init() {
     pos = 0;
     uppdateraAllt();
   });
-  document.getElementById('nuLank').addEventListener('click', () => {
-    kontext = 'lasar';
-    kontextSlot = -1;
-    visatLasar = INNEVARANDE;
-    pos = 0;
-    uppdateraAllt();
-  });
-
   // Återställ val: URL-param vinner över localStorage (kurerade namn)
   const giltiga = new Set(KURERADE_VAL.map(v => v.namn));
   const urlVal = new URLSearchParams(window.location.search).get('skolformer');
