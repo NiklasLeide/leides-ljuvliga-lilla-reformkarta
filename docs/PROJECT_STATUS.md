@@ -1,10 +1,23 @@
 # Project Status — leides-ljuvliga-lilla-reformkarta
 
 > **Last updated:** 2026-06-11
-> **Current sprint:** Sprint 11 — Huvudmannaguiden (Sprint 10 öppen parallellt, stängs med T6 2026-06-16)
+> **Current sprint:** Underhåll — Sprint 11 stängd 2026-06-16; Sprint 10 öppen parallellt (T6 kvar)
 > **Sprint dates:** juni 2026
 
 ---
+
+## Completed: Sprint 11 — Huvudmannaguiden
+
+DoD-granskad 2026-06-16 (T6). **Stängd** — Niklas granskning 2K + mobil godkänd.
+Deploy till produktion krävs: guide.html + guide-alla.html är live först efter `./deploy.sh` (master).
+
+### Kända avvikelser (dokumenterade, åtgärdas inte i Sprint 11)
+- **Täckning, 2 reformer utan guidepost:** `gy25` (Lag 2022:147, ikraft 1 juli 2025) och `ai` (EU 2024/1689, stegvis 2024–27) saknar guideposter i guide.json (12/14 beslutade reformer täckta). Båda kräver källverifierad klartext+paverkan-författande; datapatch utanför Sprint 11-scope. Kandidater för uppföljningssprint.
+- **Användartest med målgrupp ej genomfört.** Niklas granskning är acceptansgrind (utförd 2026-06-16, 2K + mobil).
+- **Läsårsgränsen delar sommarklustret 2026** (30/6 + 15/7 i läsåret 25/26, 1/8 i 26/27) — medvetet designval, läsårslogiken prioriterad. Spannet uttalat i hjulrubriken ("Läsåret 2025/26 · augusti–juli").
+- **"T5.2c"-commiten omdöpt till T5.3 i PROJECT_STATUS** efter att den pushats — fryst historik, dokumenterat i DEC-014.
+- **Startkortets aldrig-tomt-fallback** (numera hjulets tomläge) ej browser-triggbar med nuvarande data (alla nuvarande val ger ≥1 träff någonstans i framtida läsår). Logiken finns; bevisad endast via kodgranskning.
+- **/goal-pilotens två felkonstruktioner** dokumenterade i DECISIONS.md (DEC-014 + processnotering i T5.7).
 
 ## Sprint 11 — Huvudmannaguiden
 
@@ -101,7 +114,7 @@ tills dess.
 | T5.5 | Hjuljusteringar efter granskning | guide.html, DECISIONS.md | ✅ Done | Alla sex besluten browser-verifierade: (1) 3 månadsknappar [data-test=manad] role=button/tabbara/aria ("September — 1 nytt datum"), 9 tomma segment inerta, punkter rena markörer (pointer-events none, aria-hidden) med månadshighlight; (2) synlig chiprad [data-test=val-synlig] mobil+desktop, 15 chips à 44px, Rensa-chip, persistens orörd; (3) [data-test=detalj-nav] 2 pilar 44px + ArrowLeft/Right + klickbara prickar + svep med riktningströskel (horisontellt bläddrar, vertikalt 200px-svep rör ingenting — touch-simulerat); (4) stabil detaljyta (456px→456px vid bläddring), utskrivna cirkeletiketter ("7 nya datum läsåret 2027/28", "3 på g ej beslutat"), på g listar samtliga 3 med namn+status+formulering och bläddras; (5) rubrik "Läsåret 2025/26 · augusti–juli", 0 terminsstart-förekomster; (6) aria-live + sr-notis kvar. 0 konsolfel båda sidor, 0px 375-overflow, sviterna gröna, språkregel 0+0. DEC-015 kompletterad (inkl. varför punkterna avklickbarades). Vision: EN interaktionsmodell bekräftad i skärmdumpar. |
 | T5.6 | Hjulrevision efter desktopgranskning | guide.html, DECISIONS.md | ✅ Done | Alla fem besluten browser-verifierade: (A) kurerad väljare — 7 chips (Förskola…Komvux), mappningstabell KURERADE_VAL i kod + DEC-015 (inkl. fristående-skolor-till-alla-skolval och specialskole-/sameskole-bedömningen), ej-spec-poster visas alltid (Komvux-val → 4 datum: 1 träff + 3 ej spec), runtime-vakt för otäckta råvärden, persistens med kurerade namn; (B) punkter utan text (0 uppmätta), 6°-kollisionsseparation, månadsbadges "JULI · 2" [data-test=manad-antal], julibuggen åtgärdad — månadsklick ger månadskontex med 2 bläddringsbara juli-poster + "Visa hela läsåret" som bevarar position; (C) [data-test=layout-tvaspalt] grid 2 kolumner ≥1100px med sticky detaljkort, kärnvyn ryms på 1440p (828/654px), fasta min-höjden borta, mjuk höjdtransition i stället; (D) horisont utan innevarande läsår, etiketter "N ändringar läsåret X" + "på g ej beslutat", tillbaka-länk till innevarande läsår i hjulhuvudet; (E) rubrik "Läsårshjul". 375 staplad 0 overflow, 0 konsolfel båda sidor, sviterna gröna, språkregel 0+0. |
 | T5.7 | Komplett läsårsrad med markerat innevarande | guide.html, guide-alla.html, DECISIONS.md | ✅ Done | Horisontcirklarna (enbart framtida) ersatta av komplett läsårsrad [data-test=lasarsrad]: EN cirkel per läsår inkl. innevarande (2023/24, **2025/26**, 2026/27, 2027/28, 2030/31) + på g (streckad) sist; aktiv cirkel markerad (.aktiv fylld). Klick på annan cirkel byter hjul; klick på redan aktiv cirkel = tyst no-op (hjul + rad oförändrade, verifierat byte-för-byte i DOM). Rubrik "Längre fram" → "Läsår" (0 förekomster kvar i guide.html, inkl. tomtext). Etikettform + verksamhetsfilter orörda. Headless-verifierat (Playwright/Chromium mot lokal server, 1440p+375): 15/15 checks gröna — 6 cirklar, innevarande med, en aktiv, på g streckad sist, byte fungerar, no-op bevisad, 0px 375-overflow, 0 applikationskonsolfel båda sidor (externa CDN-cert-fel = sandbox-artefakt, exkl. som i T5.4). Språkregel-grep: 0 i guide.html/guide-alla.html-UI (bonus: avlägsnade "se till att" ur ett pre-existerande JS-kodkommentar i båda filerna — inert, ingen feature rörd), guide.json oförändrad med sina 2 dokumenterade citat-undantag. nuLank-tillbakalänken behållen (del av hjulhuvudet, utanför scope) — nu delvis redundant med innevarande-cirkeln, kandidat för städning. |
-| T6 | Run DoD review for this sprint (sist) | (dod-reviewer) | ⬜ Todo | Språkregel-grep, källspårbarhet, täckning |
+| T6 | DoD-review + sprintstängning | docs/*, CLAUDE.md, guide.html | ✅ Done | Steg 0 (commit 54e94e6): T5.1-fix-raden införd i Sprint 11-tabellen + nuLank-länken borttagen (redundant med innevarande-cirkeln efter T5.7), DEC-015 T6-städningskomplettering. Steg 1 (subagent DoD): 12 punkter granskade. **Gröna**: 61 node-tester (extract 8/riksdagen 22/rss 21/rapport 10), språkregel UI 0+0, språkregel guide.json 4 träffar inom de 2 dokumenterade citatposterna, klartext/paverkan 0 förbjudna ord, källspårbarhet 0 orphans + 0 källösa, inga fabricerade Skolverket-länkar, commits matchar PS efter steg 0, T6-städning klar, DOM-kontraktet (alla data-test-attribut på rätt sida), DEC-010–015 + lasarshjul-mockup.html som spec-referens på plats, Playwright 15/15 ALLA GRÖNA. **Avvikelser hanterade i T6**: (1) Täckning — `gy25` + `ai` saknar guideposter (12/14 beslutade); dokumenterad som känd avvikelse, datapatch utanför scope. (2) CLAUDE.md saknade /goal-reglerna och git-fetch-vid-sessionsstart-lärdomen → tillagda i denna commit (141 rader, under 150-gränsen). |
 
 ---
 
