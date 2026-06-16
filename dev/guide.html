@@ -225,8 +225,8 @@ footer { max-width: 1080px; margin: 0 auto; padding: 1.2rem 1.5rem 2rem; text-al
       </div>
       <svg class="hjul" viewBox="0 0 320 320" id="hjul" data-test="lasarshjul" role="group" aria-label="Läsårshjul — månader med reformdatum är knappar"></svg>
       <div class="horisont">
-        <h2>Längre fram</h2>
-        <div class="cirklar" id="cirklar" data-test="horisont-cirklar"></div>
+        <h2>Läsår</h2>
+        <div class="cirklar" id="cirklar" data-test="lasarsrad"></div>
       </div>
     </div>
 
@@ -524,7 +524,7 @@ async function init() {
       tillbaka.classList.toggle('synlig', kontext === 'manad');
       if (poster.length === 0) {
         document.getElementById('detalj').innerHTML =
-          `<p>Inga datum för din valda verksamhet läsåret ${esc(visatLasar)}. Byt läsår under "Längre fram" eller rensa valet — hela listan finns under "Alla datum och fullständiga underlag".</p>`;
+          `<p>Inga datum för din valda verksamhet läsåret ${esc(visatLasar)}. Byt läsår i raden nedan eller rensa valet — hela listan finns under "Alla datum och fullständiga underlag".</p>`;
         document.getElementById('prickar').innerHTML = '';
         document.getElementById('navFore').disabled = true;
         document.getElementById('navNasta').disabled = true;
@@ -543,10 +543,11 @@ async function init() {
     });
   }
 
-  // ── Horisontcirklar: innevarande läsår utelämnas (hjulet ÄR det)
+  // ── Läsårsrad: EN cirkel per läsår inklusive innevarande (T5.7/DEC-015).
+  // Innevarande tas med även om det saknar egna datum, så raden alltid är komplett.
   function ritaCirklar() {
-    const framtida = allaLasar.filter(l => l > INNEVARANDE);
-    const html = framtida.map(l => {
+    const lasarKnappar = [...new Set([...allaLasar, INNEVARANDE])].sort();
+    const html = lasarKnappar.map(l => {
       const antal = events.filter(e => lasarFor(e.datum) === l && traffasAvVal(e.post, valda)).length;
       return `<button class="mini${kontext !== 'pag' && l === visatLasar ? ' aktiv' : ''}" type="button" data-lasar="${esc(l)}"
         aria-label="${esc(`Läsåret ${l} — ${antal} ändringar`)}">
@@ -658,12 +659,16 @@ async function init() {
     const mini = e.target.closest('.mini');
     if (!mini) return;
     if (mini.dataset.lasar === 'pag') {
+      if (kontext === 'pag') return; // redan på g — tyst no-op, inget omladdat
       kontext = 'pag';
       pos = 0;
       ritaCirklar();
       visaPos(0);
       return;
     }
+    // Klick på den redan aktiva läsårscirkeln (på läsårsnivå) är en tyst no-op —
+    // ingen omritning, inget flimmer. (Från månadskontext zoomar klicket ut.)
+    if (kontext === 'lasar' && mini.dataset.lasar === visatLasar) return;
     kontext = 'lasar';
     kontextSlot = -1;
     visatLasar = mini.dataset.lasar;
@@ -694,7 +699,7 @@ async function init() {
 }
 
 init();
-// På smala skärmar scrollar naven horisontellt — se till att aktiva fliken syns.
+// På smala skärmar scrollar naven horisontellt — håll aktiva fliken synlig.
 document.querySelector('.tab-nav a.active')?.scrollIntoView({ inline: 'center', block: 'nearest' });
 </script>
 <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9d66c8f5b9da46078ca71ab819946f62"}'></script><!-- End Cloudflare Web Analytics -->
