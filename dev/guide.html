@@ -94,9 +94,12 @@ g[data-test=manad] .mlabel { fill: var(--ink); font-weight: 700; }
 .mlabel .antal { font-weight: 400; fill: #555; }
 /* Punkter: små rena markörer utan text */
 .punkt { pointer-events: none; }
-.punkt circle { fill: var(--ink); stroke: #fff; stroke-width: 1.5; }
-.punkt.vald circle { fill: var(--kunskap); }
+.punkt circle { fill: var(--ink); stroke: #fff; stroke-width: 1.5; transition: r 0.12s ease; }
 .punkt.passerad circle { fill: var(--muted); }
+/* Punkterna i den valda månaden: accent. Den AKTIVA punkten (posten i
+   detaljkortet, T5.8): accent + större (r sätts i JS) + tjockare ring. */
+.punkt.manad circle { fill: var(--kunskap); }
+.punkt.aktiv circle { fill: var(--kunskap); stroke: #fff; stroke-width: 3; }
 .mitt-t { font-family: 'Source Serif 4', serif; font-size: 15px; font-weight: 700; text-anchor: middle; fill: var(--ink); }
 .mitt-s { font: 400 9.5px 'DM Sans', sans-serif; fill: var(--muted); text-anchor: middle; }
 
@@ -136,12 +139,6 @@ g[data-test=manad] .mlabel { fill: var(--ink); font-weight: 700; }
   cursor: pointer; color: var(--muted); min-width: 30px; min-height: 44px;
 }
 .prick[aria-current="true"] { color: var(--ink); }
-.kontext-rad { font-size: 0.7rem; color: var(--muted); display: flex; align-items: center; gap: 0.3rem; }
-.kontext-tillbaka {
-  font-family: inherit; font-size: 0.72rem; color: var(--kunskap); background: none;
-  border: none; cursor: pointer; text-decoration: underline; min-height: 44px; display: none;
-}
-.kontext-tillbaka.synlig { display: inline-block; }
 
 /* ── Horisontcirklar ──────────────────────────────────────── */
 .horisont { margin-top: 1.2rem; }
@@ -232,7 +229,6 @@ footer { max-width: 1080px; margin: 0 auto; padding: 1.2rem 1.5rem 2rem; text-al
           <button class="detalj-nav-knapp" id="navNasta" type="button" data-test="detalj-nav" aria-label="Nästa datum">›</button>
         </div>
         <div class="detalj-fot">
-          <button class="kontext-tillbaka" id="kontextTillbaka" type="button">Visa hela läsåret</button>
           <div class="prickar" id="prickar"></div>
         </div>
       </div>
@@ -380,8 +376,12 @@ async function init() {
 
   // Läge: läsår, månad inom läsåret, eller på g
   let visatLasar = nastaEvent ? lasarFor(nastaEvent.datum) : allaLasar[allaLasar.length - 1];
-  let kontext = 'lasar'; // 'lasar' | 'manad' | 'pag'
-  let kontextSlot = -1;
+  // T5.8: detaljkortets karusell är ALLTID månadsavgränsad (kontext='manad')
+  // eller på-g. Inom ett läsår väljs default-månaden (nästa kommande datum) —
+  // läsårsvid navigering finns inte längre (DEC-015: pilar genom hela läsåret
+  // krockade med månadsklickets filterlogik).
+  let kontext = 'manad'; // 'manad' | 'pag'
+  let kontextSlot = -1;   // vald månads slot (0=AUG … 11=JULI), -1 = ingen/tom
   let pos = 0;
   const valda = new Set();
 
@@ -390,9 +390,15 @@ async function init() {
   }
   function aktuellaPoster() {
     if (kontext === 'pag') return ejBeslutade;
-    if (kontext === 'manad') return lasarEvents().filter(e => lasarsSlot(e.datum) === kontextSlot);
-    return lasarEvents();
+    return lasarEvents().filter(e => lasarsSlot(e.datum) === kontextSlot);
   }
+  // Default-månad i ett läsår: slot för nästa kommande datum, annars första.
+  function defaultManadSlot(ev) {
+    if (ev.length === 0) return -1;
+    const kommande = ev.find(e => e.datum > IDAG);
+    return lasarsSlot((kommande || ev[0]).datum);
+  }
+  const eventKey = e => `${e.datum}|${e.post.reform_id}`;
 
   // ── Hjulet
   const C = 160, R1 = 70, R2 = 132;
@@ -449,20 +455,32 @@ async function init() {
   }
 
   function markeraHjul() {
+    const manadKnappar = document.querySelectorAll('#hjul [data-test=manad]');
+    const punkter = document.querySelectorAll('#hjul .punkt');
+    const rensaPunkt = p => {
+      p.classList.remove('manad', 'aktiv');
+      if (p.getAttribute('data-test') === 'punkt-aktiv') p.removeAttribute('data-test');
+      const c = p.querySelector('circle'); if (c) c.setAttribute('r', 6);
+    };
     if (kontext === 'pag') {
-      document.querySelectorAll('#hjul [data-test=manad]').forEach(g => g.classList.remove('vald'));
-      document.querySelectorAll('#hjul .punkt').forEach(p => p.classList.remove('vald'));
+      manadKnappar.forEach(g => g.classList.remove('vald'));
+      punkter.forEach(rensaPunkt);
       return;
     }
-    const poster = aktuellaPoster();
-    const e = poster[pos];
-    const slot = kontext === 'manad' ? kontextSlot : (e ? lasarsSlot(e.datum) : -1);
-    document.querySelectorAll('#hjul [data-test=manad]').forEach(g =>
-      g.classList.toggle('vald', Number(g.dataset.slot) === slot));
-    const ev = lasarEvents();
-    document.querySelectorAll('#hjul .punkt').forEach(p => {
-      const i = Number(p.dataset.i);
-      p.classList.toggle('vald', ev[i] ? lasarsSlot(ev[i].datum) === slot : false);
+    const slot = kontextSlot;
+    manadKnappar.forEach(g => g.classList.toggle('vald', Number(g.dataset.slot) === slot));
+    const ev = lasarEvents();                 // hjulets ordning = data-i
+    const aktiv = aktuellaPoster()[pos];       // posten som visas i detaljkortet
+    const aktivK = aktiv ? eventKey(aktiv) : null;
+    punkter.forEach(p => {
+      const e = ev[Number(p.dataset.i)];
+      const arAktiv = e && aktivK && eventKey(e) === aktivK;
+      const iManad = e && lasarsSlot(e.datum) === slot;
+      p.classList.toggle('aktiv', !!arAktiv);
+      p.classList.toggle('manad', !!iManad && !arAktiv);
+      const c = p.querySelector('circle'); if (c) c.setAttribute('r', arAktiv ? 9 : 6);
+      if (arAktiv) p.setAttribute('data-test', 'punkt-aktiv');
+      else if (p.getAttribute('data-test') === 'punkt-aktiv') p.removeAttribute('data-test');
     });
   }
 
@@ -513,8 +531,6 @@ async function init() {
   function visaPos(i) {
     bytInnehall(() => {
       const poster = aktuellaPoster();
-      const tillbaka = document.getElementById('kontextTillbaka');
-      tillbaka.classList.toggle('synlig', kontext === 'manad');
       if (poster.length === 0) {
         document.getElementById('detalj').innerHTML =
           `<p>Inga datum för din valda verksamhet läsåret ${esc(visatLasar)}. Byt läsår i raden nedan eller rensa valet — hela listan finns under "Alla datum och fullständiga underlag".</p>`;
@@ -524,10 +540,12 @@ async function init() {
         markeraHjul();
         return;
       }
-      pos = Math.max(0, Math.min(i, poster.length - 1));
+      // Karusell med wrap (T5.8): pilar/svep/prickar tar aldrig slut mitt i.
+      const n = poster.length;
+      pos = ((i % n) + n) % n;
       document.getElementById('detalj').innerHTML = kortHtml(poster[pos]);
-      document.getElementById('navFore').disabled = pos === 0;
-      document.getElementById('navNasta').disabled = pos === poster.length - 1;
+      document.getElementById('navFore').disabled = n <= 1;
+      document.getElementById('navNasta').disabled = n <= 1;
       document.getElementById('prickar').innerHTML = poster.length > 1
         ? poster.map((_, j) =>
             `<button class="prick" type="button" data-j="${j}" aria-current="${j === pos}" aria-label="Visa post ${j + 1} av ${poster.length}">${j === pos ? '●' : '○'}</button>`).join('')
@@ -555,11 +573,11 @@ async function init() {
   }
 
   function uppdateraAllt() {
+    // Inom ett läsår: nollställ karusellen till default-månaden (nästa kommande).
+    if (kontext !== 'pag') kontextSlot = defaultManadSlot(lasarEvents());
     ritaHjul();
     ritaCirklar();
-    const poster = aktuellaPoster();
-    const start = kontext === 'lasar' ? Math.max(0, poster.findIndex(e => e.datum > IDAG)) : 0;
-    visaPos(start === -1 ? 0 : start);
+    visaPos(0);
   }
 
   // ── Kurerad väljare: synlig chiprad, persistens som tidigare
@@ -571,8 +589,7 @@ async function init() {
     document.querySelectorAll('#skolformChips .chip[data-val]').forEach(c =>
       c.setAttribute('aria-pressed', String(valda.has(c.dataset.val))));
     document.getElementById('valRensa').classList.toggle('synlig', valda.size > 0);
-    kontext = kontext === 'pag' ? 'pag' : 'lasar';
-    kontextSlot = -1;
+    kontext = kontext === 'pag' ? 'pag' : 'manad';
     pos = 0;
     uppdateraAllt();
     const url = new URL(window.location);
@@ -609,15 +626,6 @@ async function init() {
       e.preventDefault();
       manadsklick(Number(manad.dataset.slot));
     }
-  });
-
-  // Väg tillbaka till hela läsåret från månadskontexten
-  document.getElementById('kontextTillbaka').addEventListener('click', () => {
-    const aktuell = aktuellaPoster()[pos];
-    kontext = 'lasar';
-    kontextSlot = -1;
-    const alla = lasarEvents();
-    visaPos(aktuell ? Math.max(0, alla.indexOf(aktuell)) : 0);
   });
 
   // ── Detaljnavigering
@@ -659,11 +667,10 @@ async function init() {
       visaPos(0);
       return;
     }
-    // Klick på den redan aktiva läsårscirkeln (på läsårsnivå) är en tyst no-op —
-    // ingen omritning, inget flimmer. (Från månadskontext zoomar klicket ut.)
-    if (kontext === 'lasar' && mini.dataset.lasar === visatLasar) return;
-    kontext = 'lasar';
-    kontextSlot = -1;
+    // Klick på det redan visade läsåret = tyst no-op (du är redan där; byt månad
+    // via segmenten). Annars: byt läsår, uppdateraAllt nollställer till default-månaden.
+    if (kontext === 'manad' && mini.dataset.lasar === visatLasar) return;
+    kontext = 'manad';
     visatLasar = mini.dataset.lasar;
     pos = 0;
     uppdateraAllt();
