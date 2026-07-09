@@ -1,0 +1,582 @@
+[
+  {
+    "reform_id": "betyg",
+    "ikrafttradanden": [
+      { "datum": "2028-07-01", "typ": "ikraft", "omfattning": "Ändringarna i skollagen börjar i huvudsak gälla den 1 juli 2028" },
+      { "datum": "2031-01-01", "typ": "ikraft", "omfattning": "För kommunal vuxenutbildning börjar ändringarna gälla den 1 januari 2031" }
+    ],
+    "overgangsbestammelser": [
+      {
+        "text": "1. Denna lag träder i kraft den 1 juli 2028. 2. Lagen tillämpas första gången i fråga om – utbildning som påbörjas höstterminen 2028 i årskurs 1–8 i grundskolan och anpassade grundskolan, i årskurs 1–9 i specialskolan samt i sameskolan, – utbildning som påbörjas höstterminen 2028 första året i gymnasieskolan och anpassade gymnasieskolan, och – utbildning som påbörjas höstterminen 2028 på introduktionsprogram i gymnasieskolan och på vidareutbildning i form av ett fjärde tekniskt år.",
+        "kalla": { "text": "Prop. 2025/26:197, ikraftträdande- och övergångsbestämmelser", "url": "https://data.riksdagen.se/dokument/HD03197.html" }
+      },
+      {
+        "text": "3. Bestämmelserna i 15 kap. 36 §, 16 kap. 29 och 30 §§, 17 kap. 11 och 12 §§ och 22 kap. 13 § i den nya lydelsen ska tillämpas första gången vid antagning till utbildning i gymnasieskolan som påbörjas efter den 30 juni 2031.",
+        "kalla": { "text": "Prop. 2025/26:197, ikraftträdande- och övergångsbestämmelser", "url": "https://data.riksdagen.se/dokument/HD03197.html" }
+      },
+      {
+        "text": "4. Äldre bestämmelser gäller fortfarande för årskurs 9 och 10 i grundskolan och anpassade grundskolan, för årskurs 10 och 11 i specialskolan, för andra och tredje året i gymnasieskolan och för andra, tredje och fjärde året i anpassade gymnasieskolan för läsåret 2028/29, för årskurs 10 i grundskolan och anpassade grundskolan, för årskurs 11 i specialskolan, för tredje året i gymnasieskolan och för tredje och fjärde året i anpassade gymnasieskolan för läsåret 2029/30 samt för fjärde året i anpassade gymnasieskolan för läsåret 2030/31.",
+        "kalla": { "text": "Prop. 2025/26:197, ikraftträdande- och övergångsbestämmelser", "url": "https://data.riksdagen.se/dokument/HD03197.html" }
+      }
+    ],
+    "berors": {
+      "skolformer": ["grundskolan", "anpassade grundskolan", "specialskolan", "sameskolan", "gymnasieskolan", "anpassade gymnasieskolan", "kommunal vuxenutbildning"],
+      "huvudmannatyper": ["kommunal", "enskild", "statlig"]
+    },
+    "krav": [
+      {
+        "text": "Det ska införas en betygsskala med tio betygssteg från 1 till 10, utan skarp gräns för godkänt, i de obligatoriska skolformerna och de frivilliga skolformerna på gymnasial nivå.",
+        "kalla": { "text": "Bet. 2025/26:UbU26, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HD01UbU26.html" }
+      },
+      {
+        "text": "Vid slutlig betygssättning i ett ämne ska lärare ha bedömningssamråd.",
+        "kalla": { "text": "Bet. 2025/26:UbU26, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HD01UbU26.html" }
+      },
+      {
+        "text": "Huvudmän ska lämna in uppgifter om betyg till en myndighet.",
+        "kalla": { "text": "Bet. 2025/26:UbU26, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HD01UbU26.html" }
+      },
+      {
+        "text": "Nationella slutprov ska införas i grundskolan, specialskolan, gymnasieskolan och kommunal vuxenutbildning på gymnasial nivå. Proven bör rättas centralt.",
+        "kalla": { "text": "Bet. 2025/26:UbU26, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HD01UbU26.html" }
+      },
+      {
+        "text": "För behörighet till ett nationellt program i gymnasieskolan ska det krävas ett meritvärde om lägst 4 från grundskolan, specialskolan eller motsvarande utbildning i vissa särskilda utbildningsformer.",
+        "kalla": { "text": "Prop. 2025/26:197", "url": "https://data.riksdagen.se/dokument/HD03197.html" }
+      }
+    ],
+    "klartext": {
+      "text": "Betyg sätts på en tiogradig skala utan skarp godkäntgräns från läsåret 2028/29, och nationella slutprov med central rättning införs. Behörighet till gymnasieskolans nationella program utgår från ett meritvärde om lägst 4.",
+      "kalla": { "text": "Bet. 2025/26:UbU26, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HD01UbU26.html" }
+    },
+    "paverkan": {
+      "text": "Konsekvenserna för enskilda huvudmän blir desamma som för kommunala huvudmän. Bedömningssamråden innebär ökade kostnader; när kommunernas kostnader ökar höjs enligt gällande regler även ersättningen till fristående skolor.",
+      "kalla": { "text": "Prop. 2025/26:197, konsekvensavsnittet (Konsekvenserna för enskilda huvudmän och andra enskilda utbildningsanordnare blir desamma som för kommunala huvudmän)", "url": "https://data.riksdagen.se/dokument/HD03197.html" }
+    },
+    "sfs": null,
+    "senast_andrad": "2026-06-12",
+    "noteringar": "sfs: kammarbeslut 2026-06-09, författning ej kungjord vid inmatning. Övergångsbestämmelserna punkt 5–9 (fullföljande av påbörjad utbildning, föreskriftsbemyndiganden) samt komvuxlagförslagets egna ikraftträdandebestämmelser (1 januari 2031) finns i källan. 'Proven bör rättas centralt' är riksdagens egen formulering ur beslutet, inte en rekommendation i guiden."
+  },
+  {
+    "reform_id": "laroplaner",
+    "ikrafttradanden": [
+      { "datum": "2028-07-01", "typ": "ikraft", "omfattning": "Merparten av lagändringarna börjar gälla den 1 juli 2028. Nya läroplaner för grundskolan, anpassade grundskolan, specialskolan och sameskolan ska börja användas från och med höstterminen 2028" },
+      { "datum": "2031-01-01", "typ": "ikraft", "omfattning": "Lagförslaget om ändring i skollagen avseende kommunal vuxenutbildning träder i kraft den 1 januari 2031" }
+    ],
+    "overgangsbestammelser": [
+      {
+        "text": "1. Denna lag träder i kraft den 1 juli 2028. 2. Äldre bestämmelser gäller fortfarande för årskurs 9 och 10 i grundskolan och anpassade grundskolan, för årskurs 10 och 11 i specialskolan, för andra och tredje året i gymnasieskolan och för andra, tredje och fjärde året i anpassade gymnasieskolan för läsåret 2028/29, för årskurs 10 i grundskolan och anpassade grundskolan, för årskurs 11 i specialskolan, för tredje året i gymnasieskolan och för tredje och fjärde året i anpassade gymnasieskolan för läsåret 2029/30 samt för fjärde året i anpassade gymnasieskolan för läsåret 2030/31. 3. Äldre bestämmelser gäller även fortfarande för utbildning på introduktionsprogram i gymnasieskolan och på vidareutbildning i form av ett fjärde tekniskt år som har påbörjats före höstterminen 2028.",
+        "kalla": { "text": "Prop. 2025/26:194, ikraftträdande- och övergångsbestämmelser", "url": "https://data.riksdagen.se/dokument/HD03194.html" }
+      }
+    ],
+    "berors": {
+      "skolformer": ["grundskolan", "anpassade grundskolan", "specialskolan", "sameskolan", "gymnasieskolan", "anpassade gymnasieskolan", "kommunal vuxenutbildning"],
+      "huvudmannatyper": ["kommunal", "enskild", "statlig"]
+    },
+    "krav": [
+      {
+        "text": "Det ska vara tydligt att skolans viktigaste uppgift är att förmedla och förankra kunskaper och värden.",
+        "kalla": { "text": "Bet. 2025/26:UbU23, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HD01UbU23.html" }
+      },
+      {
+        "text": "Det ska vara lärarna som utifrån läroplanen bestämmer över och leder undervisningen.",
+        "kalla": { "text": "Bet. 2025/26:UbU23, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HD01UbU23.html" }
+      },
+      {
+        "text": "De nya läroplanerna för de obligatoriska skolformerna ska vara tydligt kunskapsinriktade och nivån ska anpassas till barns kognitiva utveckling.",
+        "kalla": { "text": "Bet. 2025/26:UbU23, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HD01UbU23.html" }
+      },
+      {
+        "text": "Det ska införas nya kursplaner i grundläggande svenska för elever som är nybörjare i svenska språket.",
+        "kalla": { "text": "Bet. 2025/26:UbU23, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HD01UbU23.html" }
+      },
+      {
+        "text": "Principen om sammantagen bedömning ska gälla för alla betygssteg, det vill säga även för betyget E.",
+        "kalla": { "text": "Bet. 2025/26:UbU23, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HD01UbU23.html" }
+      }
+    ],
+    "klartext": {
+      "text": "Nya kunskapsinriktade läroplaner för grundskolan, anpassade grundskolan, specialskolan och sameskolan används från och med höstterminen 2028. Principen om sammantagen bedömning gäller alla betygssteg.",
+      "kalla": { "text": "Bet. 2025/26:UbU23, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HD01UbU23.html" }
+    },
+    "paverkan": {
+      "text": "Alla huvudmän berörs på motsvarande sätt. Enskilda huvudmän genomför implementeringsinsatser för de nya läroplanerna som en del av sedvanlig pedagogisk utveckling; Skolverket erbjuder stöd, och huvudmän med pedagogisk inriktning eller profil som inverkar på undervisningen kan påverkas särskilt.",
+      "kalla": { "text": "Prop. 2025/26:194, avsnitt 9.4 Konsekvenser för enskilda huvudmän", "url": "https://data.riksdagen.se/dokument/HD03194.html" }
+    },
+    "sfs": null,
+    "senast_andrad": "2026-06-12",
+    "noteringar": "sfs: kammarbeslut 2026-06-03, författning ej kungjord vid inmatning. Representation av läroplansstarten: 'från och med höstterminen 2028' är ingen författningsdatumpunkt — den bärs i omfattningstexten på lagens ikraftträdandedatum 2028-07-01 (T2-beslut enligt T1-kontraktet). Komvuxlagförslagets övergångsbestämmelser finns i källan."
+  },
+  {
+    "reform_id": "tid",
+    "ikrafttradanden": [
+      { "datum": "2026-08-01", "typ": "ikraft", "omfattning": "Lagändringarna om kränkande behandling börjar gälla den 1 augusti 2026" },
+      { "datum": "2027-07-01", "typ": "ikraft", "omfattning": "Ändringarna om undervisningsuppdraget börjar gälla den 1 juli 2027" },
+      { "datum": "2028-07-01", "typ": "ikraft", "omfattning": "Övriga ändringar börjar gälla den 1 juli 2028" }
+    ],
+    "overgangsbestammelser": [
+      {
+        "text": "Denna lag träder i kraft den 1 augusti 2026.",
+        "kalla": { "text": "Prop. 2025/26:196, lagförslag 2.1", "url": "https://data.riksdagen.se/dokument/HD03196.html" }
+      },
+      {
+        "text": "Denna lag träder i kraft den 1 juli 2027.",
+        "kalla": { "text": "Prop. 2025/26:196, lagförslag 2.2", "url": "https://data.riksdagen.se/dokument/HD03196.html" }
+      },
+      {
+        "text": "Denna lag träder i kraft den 1 juli 2028.",
+        "kalla": { "text": "Prop. 2025/26:196, lagförslag 2.3", "url": "https://data.riksdagen.se/dokument/HD03196.html" }
+      }
+    ],
+    "berors": {
+      "skolformer": null,
+      "huvudmannatyper": null
+    },
+    "krav": [
+      {
+        "text": "Lagändring som tydliggör att lärares och förskollärares undervisningsuppdrag också inkluderar planering och uppföljning.",
+        "kalla": { "text": "Bet. 2025/26:UbU25, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HD01UbU25.html" }
+      },
+      {
+        "text": "Även omfattningen av tiden för de olika delarna ska kunna regleras genom föreskrifter.",
+        "kalla": { "text": "Bet. 2025/26:UbU25, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HD01UbU25.html" }
+      },
+      {
+        "text": "Det förtydligas att all personal ska vara skyldig att aktivt uppmärksamma och motverka kränkande behandling, trakasserier och sexuella trakasserier och se till att sådana händelser hanteras.",
+        "kalla": { "text": "Bet. 2025/26:UbU25, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HD01UbU25.html" }
+      },
+      {
+        "text": "Information till vårdnadshavare ska ges vid tillfällen som skolpersonalen bestämmer och utvecklingssamtal ska äga rum minst en gång per år, i stället för en gång per termin.",
+        "kalla": { "text": "Bet. 2025/26:UbU25, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HD01UbU25.html" }
+      }
+    ],
+    "klartext": {
+      "text": "Lärares och förskollärares undervisningsuppdrag — planering, genomförande och uppföljning — skrivs in i skollagen stegvis 2026–2028, och omfattningen av tiden för delarna kan regleras genom föreskrifter. Kraven på att aktivt uppmärksamma och motverka kränkande behandling gäller all personal från 1 augusti 2026.",
+      "kalla": { "text": "Bet. 2025/26:UbU25, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HD01UbU25.html" }
+    },
+    "paverkan": {
+      "text": "Regleringen av undervisningsuppdraget är en ambitionshöjning som leder till ökade kostnader även för enskilda huvudmän, med större konsekvenser för små huvudmän. Kompensation sker genom kommunens bidrag, som bestäms efter samma grunder som kommunen tillämpar för sin egen verksamhet.",
+      "kalla": { "text": "Prop. 2025/26:196, avsnitt 10.4 Konsekvenser för enskilda huvudmän", "url": "https://data.riksdagen.se/dokument/HD03196.html" }
+    },
+    "sfs": null,
+    "senast_andrad": "2026-06-12",
+    "noteringar": "Språkregel-undantag (citat): krav-textens 'se till att sådana händelser hanteras' är riksdagens ordagranna beslutsformulering ur UbU25 — den utökade fras-listan gäller de egenförfattade fälten klartext/paverkan, inte citerad beslutstext. sfs: kammarbeslut 2026-06-09, författning ej kungjord vid inmatning. berors: null — tillämpningsområdets skolformslista är inte extraherad ur lagtexten (undervisningsuppdraget gäller lärare och förskollärare, kränkande behandling-ändringarna all personal; exakt skolformsuppräkning verifieras vid uppföljning). De tre lagförslagen har inga övergångsbestämmelser utöver ikraftträdandena."
+  },
+  {
+    "reform_id": "stod",
+    "ikrafttradanden": [
+      { "datum": "2028-07-01", "typ": "ikraft", "omfattning": "Ändringarna i skollagen börjar gälla den 1 juli 2028" }
+    ],
+    "overgangsbestammelser": [
+      {
+        "text": "Denna lag träder i kraft den 1 juli 2028.",
+        "kalla": { "text": "Prop. 2025/26:195, ikraftträdandebestämmelse", "url": "https://data.riksdagen.se/dokument/HD03195.html" }
+      }
+    ],
+    "berors": {
+      "skolformer": ["grundskolan", "anpassade grundskolan", "specialskolan", "sameskolan", "gymnasieskolan", "anpassade gymnasieskolan", "kommunal vuxenutbildning"],
+      "huvudmannatyper": ["kommunal", "enskild", "statlig"]
+    },
+    "krav": [
+      {
+        "text": "Det förtydligas i skollagen att alla barn och elever i undervisningen ska ges ledning och stimulans i syfte att de ska kunna följa undervisningen.",
+        "kalla": { "text": "Bet. 2025/26:UbU24, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HD01UbU24.html" }
+      },
+      {
+        "text": "Regleringen av garantin för tidiga stödinsatser och extra anpassningar ska avskaffas.",
+        "kalla": { "text": "Bet. 2025/26:UbU24, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HD01UbU24.html" }
+      },
+      {
+        "text": "Det ska genomföras standardiserade tester i början av höstterminen i vissa årskurser för att kunna identifiera elever med stödbehov.",
+        "kalla": { "text": "Bet. 2025/26:UbU24, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HD01UbU24.html" }
+      },
+      {
+        "text": "Elever ska ges stödundervisning i ett tidigt skede i de obligatoriska skolformerna, gymnasieskolan och anpassade gymnasieskolan i ämnena svenska, svenska som andraspråk och matematik.",
+        "kalla": { "text": "Bet. 2025/26:UbU24, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HD01UbU24.html" }
+      },
+      {
+        "text": "Lärare inom kommunal vuxenutbildning ska ha tillgång till eller möjlighet till samråd med personal med specialpedagogisk kompetens.",
+        "kalla": { "text": "Bet. 2025/26:UbU24, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HD01UbU24.html" }
+      }
+    ],
+    "klartext": {
+      "text": "Garantin för tidiga stödinsatser och extra anpassningar avskaffas 1 juli 2028. I stället genomförs standardiserade tester i början av höstterminen i vissa årskurser, och elever får stödundervisning i ett tidigt skede i svenska, svenska som andraspråk och matematik.",
+      "kalla": { "text": "Bet. 2025/26:UbU24, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HD01UbU24.html" }
+    },
+    "paverkan": {
+      "text": "Förslagen påverkar enskilda huvudmän på samma sätt som kommunala. Ekonomisk kompensation sker via hemkommunens bidrag, som bestäms efter samma grunder som hemkommunen tillämpar vid fördelning av resurser till den egna verksamheten.",
+      "kalla": { "text": "Prop. 2025/26:195, avsnitt 9.4 Konsekvenser för enskilda huvudmän och företag", "url": "https://data.riksdagen.se/dokument/HD03195.html" }
+    },
+    "sfs": null,
+    "senast_andrad": "2026-06-12",
+    "noteringar": "sfs: kammarbeslut 2026-06-03, författning ej kungjord vid inmatning. Lagförslaget har ingen övergångsbestämmelse utöver ikraftträdandet."
+  },
+  {
+    "reform_id": "studiero",
+    "ikrafttradanden": [
+      { "datum": "2026-08-01", "typ": "ikraft", "omfattning": "Lagändringarna börjar gälla den 1 augusti 2026 — samtliga ändringar i propositionen träder i kraft samtidigt" }
+    ],
+    "overgangsbestammelser": [
+      {
+        "text": "1. Denna lag träder i kraft den 1 augusti 2026. 2. Bestämmelserna i 5 kap. 4 och 12 §§ i deras nya lydelser tillämpas även för utbildning i förskoleklassen som enligt punkt 3 i ikraftträdande- och övergångsbestämmelserna till lagen (2025:729) om ändring i skollagen (2010:800) bedrivs till och med den 30 juni 2028. 3. Bestämmelserna i 5 kap. 13 c § i den nya lydelsen tillämpas till och med den 30 juni 2028 även för elever i grundskolans och specialskolans årskurs 7.",
+        "kalla": { "text": "Prop. 2025/26:193, ikraftträdande- och övergångsbestämmelser", "url": "https://data.riksdagen.se/dokument/HD03193.html" }
+      }
+    ],
+    "berors": {
+      "skolformer": ["grundskolan", "anpassade grundskolan", "specialskolan", "sameskolan", "fritidshemmet", "öppen fritidsverksamhet"],
+      "huvudmannatyper": ["kommunal", "enskild", "statlig"]
+    },
+    "krav": [
+      {
+        "text": "I grundskolan, anpassade grundskolan, specialskolan, sameskolan, fritidshemmet och öppen fritidsverksamhet ska elevers mobiltelefoner samlas in vid elevens skoldags början och återlämnas vid elevens skoldags slut.",
+        "kalla": { "text": "Prop. 2025/26:193, 5 kap. 4 § skollagen (ny lydelse)", "url": "https://data.riksdagen.se/dokument/HD03193.html" }
+      },
+      {
+        "text": "Huvudmannens och rektorns ansvar för tryggheten och studieron på skolenheten ska förtydligas. Utöver ett förebyggande arbete ska huvudmannen och rektorn arbeta för att upprätthålla tryggheten och studieron.",
+        "kalla": { "text": "Bet. 2025/26:UbU22, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HD01UbU22.html" }
+      },
+      {
+        "text": "Dagens ordningsregler ska byta namn till skolregler, bli skolgemensamma och innehålla en plan för konsekvenser vid överträdelser av reglerna.",
+        "kalla": { "text": "Bet. 2025/26:UbU22, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HD01UbU22.html" }
+      },
+      {
+        "text": "Möjligheterna ska stärkas att använda de disciplinära åtgärderna utvisning ur undervisningslokalen, tillfällig omplacering inom den egna skolenheten och tillfällig placering utanför den egna skolenheten samt avstängning. Det ska i vissa fall bli möjligt att neka en elev tillträde till skolenheten om eleven hotar säkerheten för andra elever och personal.",
+        "kalla": { "text": "Bet. 2025/26:UbU22, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HD01UbU22.html" }
+      },
+      {
+        "text": "Skolans förväntningar på eleverna och deras vårdnadshavare ska tydliggöras genom ett förväntansdokument.",
+        "kalla": { "text": "Bet. 2025/26:UbU22, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HD01UbU22.html" }
+      }
+    ],
+    "klartext": {
+      "text": "Från 1 augusti 2026 samlas elevers mobiltelefoner in under hela skoldagen i de obligatoriska skolformerna, fritidshemmet och öppen fritidsverksamhet. Ordningsreglerna byter namn till skolregler, blir skolgemensamma och innehåller en plan för konsekvenser, och de disciplinära åtgärderna stärks.",
+      "kalla": { "text": "Bet. 2025/26:UbU22, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HD01UbU22.html" }
+    },
+    "paverkan": {
+      "text": "Konsekvenserna för enskilda huvudmän blir desamma som för kommunerna — regleringen är gemensam för alla huvudmän, och förslagen bedöms inte medföra några särskilda konsekvenser för enskilda huvudmän i förhållande till offentliga.",
+      "kalla": { "text": "Prop. 2025/26:193, avsnitt 9.3 Konsekvenserna för enskilda huvudmän blir desamma som för kommunerna", "url": "https://data.riksdagen.se/dokument/HD03193.html" }
+    },
+    "sfs": null,
+    "senast_andrad": "2026-06-12",
+    "noteringar": "sfs: kammarbeslut 2026-06-03, författning ej kungjord vid inmatning. Ikraftträdandedatumet 2026-08-01 (inkl. mobilfri skola) verifierat mot både lagförslagets ikraftträdandebestämmelse och UbU22:s beslut i korthet ('Lagändringarna börjar gälla den 1 augusti 2026'). skolformer-listan följer mobilfri-paragrafens uppräkning; förskoleklassen omfattas till och med 2028-06-30 via övergångsbestämmelse punkt 2. Övriga delar (trygghetsansvar, skolregler) har bredare tillämpning i 5 kap. skollagen."
+  },
+  {
+    "reform_id": "brott",
+    "ikrafttradanden": [
+      { "datum": "2026-06-30", "typ": "ikraft", "omfattning": "Lagändringarna börjar gälla den 30 juni 2026" },
+      { "datum": "2027-01-01", "typ": "tillampning", "omfattning": "Bestämmelserna tillämpas första gången på utbildning och annan verksamhet som bedrivs efter den 31 december 2026" }
+    ],
+    "overgangsbestammelser": [
+      {
+        "text": "1. Denna lag träder i kraft den 30 juni 2026. 2. Bestämmelserna i 3 kap. 1 och 12 j §§ och 26 a kap. 6 § i den nya lydelsen och de nya 3 kap. 12 k och 12 l §§ tillämpas första gången på utbildning och annan verksamhet som bedrivs efter den 31 december 2026.",
+        "kalla": { "text": "Prop. 2025/26:192, ikraftträdande- och övergångsbestämmelser", "url": "https://data.riksdagen.se/dokument/HD03192.html" }
+      }
+    ],
+    "berors": {
+      "skolformer": null,
+      "huvudmannatyper": null
+    },
+    "krav": [
+      {
+        "text": "Uppgifter om en elev ska överlämnas i brottsförebyggande syfte mellan skolor om en elev byter skola. Detta ska ske om det finns en konkret risk för att eleven kommer att begå eller utsättas för brott, och uppgifterna behövs i den mottagande skolan för att förebygga eller förhindra detta.",
+        "kalla": { "text": "Bet. 2025/26:UbU21, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HD01UbU21.html" }
+      },
+      {
+        "text": "Fler skolor blir skyldiga att informera om att de har tagit emot en elev i risk, eftersom förslaget gäller både mellan olika externa skolor, samt inom skolan mellan exempelvis lågstadium, mellanstadium och högstadium.",
+        "kalla": { "text": "Bet. 2025/26:UbU21, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HD01UbU21.html" }
+      }
+    ],
+    "klartext": {
+      "text": "Från 30 juni 2026 lämnar skolor uppgifter om en elev vidare i brottsförebyggande syfte vid skolbyte och mellan stadier inom skolan, när det finns en konkret risk att eleven begår eller utsätts för brott. Bestämmelserna tillämpas på utbildning och annan verksamhet efter den 31 december 2026.",
+      "kalla": { "text": "Bet. 2025/26:UbU21, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HD01UbU21.html" }
+    },
+    "paverkan": {
+      "text": "Konsekvenserna för enskilda huvudmän blir desamma som för kommunerna, och förslaget innebär försumbara kostnader.",
+      "kalla": { "text": "Prop. 2025/26:192, avsnitt 8.3 Konsekvenser för enskilda huvudmän blir desamma som för kommunerna", "url": "https://data.riksdagen.se/dokument/HD03192.html" }
+    },
+    "sfs": null,
+    "senast_andrad": "2026-06-12",
+    "noteringar": "sfs: kammarbeslut 2026-05-27, författning ej kungjord vid inmatning. Andra ikraftträdandesteget: datumet 2027-01-01 representerar övergångsbestämmelsens 'tillämpas första gången på utbildning och annan verksamhet som bedrivs efter den 31 december 2026' (första dag som omfattas); den officiella formuleringen står i omfattningsfältet. berors: null — skolformslistan är inte specificerad i beslutssammanfattningen; verifieras mot lagtextens tillämpningsområde vid uppföljning."
+  },
+  {
+    "reform_id": "offentlighet",
+    "ikrafttradanden": [
+      { "datum": "2027-01-01", "typ": "ikraft", "omfattning": "De nya reglerna börjar gälla den 1 januari 2027" }
+    ],
+    "overgangsbestammelser": [
+      {
+        "text": "1. Denna lag träder i kraft den 1 januari 2027. 2. Bestämmelserna i den nya 2 kap. 3 a § tillämpas inte på handlingar som kommit in till eller upprättats hos huvudmannen före ikraftträdandet. 3. Under 2027 och 2028 tillämpas 29 kap. 16–16 e §§ skollagen (2010:800) i stället för 2 kap. 6 § andra stycket, 15, 16 och 18 §§ tryckfrihetsförordningen och 4 kap. 1 § första stycket 1 och 2 § och 5 kap. 1 och 2 §§ denna lag på alla enskilda juridiska personer som är godkända som huvudmän inom skolväsendet enligt 2 kap. 5 § skollagen.",
+        "kalla": { "text": "Prop. 2025/26:191, ikraftträdande- och övergångsbestämmelser", "url": "https://data.riksdagen.se/dokument/HD03191.html" }
+      }
+    ],
+    "berors": {
+      "skolformer": ["fristående förskolor", "fristående skolor", "fristående fritidshem"],
+      "huvudmannatyper": ["enskild"]
+    },
+    "krav": [
+      {
+        "text": "Rätten att ta del av allmänna handlingar ska gälla hos juridiska personer som är enskilda huvudmän inom skolväsendet.",
+        "kalla": { "text": "Bet. 2025/26:UbU20, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HD01UbU20.html" }
+      },
+      {
+        "text": "Sådana huvudmän ska jämställas med myndigheter vid tillämpning av offentlighets- och sekretesslagen, och vissa sekretessbestämmelser som därmed gäller hos sådana huvudmän anpassas för att sekretessen inte ska hindra tillgången till information om skolväsendet.",
+        "kalla": { "text": "Bet. 2025/26:UbU20, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HD01UbU20.html" }
+      },
+      {
+        "text": "Det som enligt arkivlagen gäller för kommunala myndigheters arkiv ska gälla för berörda enskilda huvudmän, med undantag för mindre huvudmän som ska bevara allmänna handlingar i som huvudregel minst sju år.",
+        "kalla": { "text": "Bet. 2025/26:UbU20, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HD01UbU20.html" }
+      },
+      {
+        "text": "Mindre huvudmän ska få tillämpa regler som innebär vissa lättnader i hanteringen av allmänna handlingar. Det ska gälla huvudmän som har högst 450 barn och elever eller, om de bara har fristående förskolor, högst 100 barn, eller ingår i en koncern där koncernföretagen sammanlagt har så många barn eller elever.",
+        "kalla": { "text": "Bet. 2025/26:UbU20, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HD01UbU20.html" }
+      },
+      {
+        "text": "Under de första två åren efter införandet ska samtliga juridiska personer som är enskilda huvudmän inom skolväsendet få tillämpa lättnadsregler.",
+        "kalla": { "text": "Bet. 2025/26:UbU20, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HD01UbU20.html" }
+      }
+    ],
+    "klartext": {
+      "text": "Från 1 januari 2027 gäller offentlighetsprincipen hos enskilda huvudmän inom skolväsendet: allmänna handlingar lämnas ut på begäran och arkivlagens kommunala regler tillämpas. Mindre huvudmän omfattas av lättnadsregler, och under de första två åren gäller lättnadsreglerna samtliga enskilda huvudmän.",
+      "kalla": { "text": "Bet. 2025/26:UbU20, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HD01UbU20.html" }
+    },
+    "paverkan": {
+      "text": "Handlingsoffentligheten och offentlighets- och sekretesslagen är nya regelverk för enskilda huvudmän. Administrativa arbetsuppgifter tillkommer för löpande hantering av allmänna handlingar och vid förfrågan om utlämnande, och inledningsvis tillkommer kostnader för uppbyggnad av rutiner och inköp av exempelvis teknik.",
+      "kalla": { "text": "Prop. 2025/26:191, avsnitt 12.1 Konsekvenser för privata aktörer", "url": "https://data.riksdagen.se/dokument/HD03191.html" }
+    },
+    "sfs": null,
+    "senast_andrad": "2026-06-12",
+    "noteringar": "sfs: kammarbeslut 2026-05-26, författning ej kungjord vid inmatning. Definitionen av 'mindre huvudman' (högst 450 barn och elever / 100 barn för renodlade förskolehuvudmän / koncernregeln) står i krav-listan — central för guidens målgrupp. Propositionen ändrar även arkivlagen (1990:782); dess ikraftträdandebestämmelser finns i källan."
+  },
+  {
+    "reform_id": "register",
+    "ikrafttradanden": [
+      { "datum": "2026-07-15", "typ": "ikraft", "omfattning": "Lagändringarna börjar gälla den 15 juli 2026" }
+    ],
+    "overgangsbestammelser": [
+      {
+        "text": "Denna lag träder i kraft den 15 juli 2026.",
+        "kalla": { "text": "Prop. 2025/26:174, ikraftträdandebestämmelse (båda lagförslagen)", "url": "https://data.riksdagen.se/dokument/HD03174.html" }
+      }
+    ],
+    "berors": {
+      "skolformer": null,
+      "huvudmannatyper": ["kommunal", "enskild", "statlig"]
+    },
+    "krav": [
+      {
+        "text": "Registerkontrollen ska även omfatta vissa uppgifter i misstankeregistret och inte enbart belastningsregistret, som den gör i dag.",
+        "kalla": { "text": "Bet. 2025/26:UbU29, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HD01UbU29.html" }
+      },
+      {
+        "text": "Registerutdraget ska inte vara äldre än sex månader när det visas upp, till skillnad från dagens ett år.",
+        "kalla": { "text": "Bet. 2025/26:UbU29, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HD01UbU29.html" }
+      },
+      {
+        "text": "Tidsgränsen för när den som får anställas eller på annat sätt tas emot hos samma arbetsgivare utan att på nytt visa upp ett registerutdrag ska sänkas från ett år till sex månader.",
+        "kalla": { "text": "Bet. 2025/26:UbU29, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HD01UbU29.html" }
+      },
+      {
+        "text": "Registerkontroll ska även göras på den som ska anställas eller på annat sätt tas emot inom den kommunala vuxenutbildningen.",
+        "kalla": { "text": "Bet. 2025/26:UbU29, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HD01UbU29.html" }
+      }
+    ],
+    "klartext": {
+      "text": "Från 15 juli 2026 omfattar registerkontrollen vid anställning i skolväsendet även vissa uppgifter i misstankeregistret, registerutdraget gäller i sex månader i stället för ett år, och kontrollen utvidgas till kommunal vuxenutbildning.",
+      "kalla": { "text": "Bet. 2025/26:UbU29, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HD01UbU29.html" }
+    },
+    "paverkan": {
+      "text": "Bedömningarna för kommunala huvudmän gäller även enskilda huvudmän inom skolväsendet och annan pedagogisk verksamhet. Utvidgningen till komvux berör också enskilda utbildningsanordnare som utför uppgifter på entreprenad åt kommuner.",
+      "kalla": { "text": "Prop. 2025/26:174, avsnittet Konsekvenser för enskilda huvudmän och enskilda utbildningsanordnare inom skolväsendet och annan pedagogisk verksamhet", "url": "https://data.riksdagen.se/dokument/HD03174.html" }
+    },
+    "sfs": null,
+    "senast_andrad": "2026-06-12",
+    "noteringar": "sfs: kammarbeslut 2026-05-27, författning ej kungjord vid inmatning. berors.skolformer: null — den officiella omfattningsformuleringen är 'inom skolväsendet och annan pedagogisk verksamhet' (utan skolformsuppräkning i beslutssammanfattningen); huvudmannatyper satta utifrån att skolväsendet i dess helhet omfattas. Inga övergångsbestämmelser utöver ikraftträdandet."
+  },
+  {
+    "reform_id": "yrkes",
+    "ikrafttradanden": [
+      { "datum": "2026-07-01", "typ": "ikraft", "omfattning": "Lagändringarna om utökade möjligheter till entreprenad och rätt att fullfölja utbildning i anpassade gymnasieskolan börjar gälla 1 juli 2026" },
+      { "datum": "2028-07-02", "typ": "ikraft", "omfattning": "Övriga lagändringar 2 juli 2028" }
+    ],
+    "overgangsbestammelser": [
+      {
+        "text": "Denna lag träder i kraft den 1 juli 2026.",
+        "kalla": { "text": "Prop. 2025/26:198, lagförslag 2.1", "url": "https://data.riksdagen.se/dokument/HD03198.html" }
+      },
+      {
+        "text": "1. Denna lag träder i kraft den 2 juli 2028. 2. För gymnasieskolan och anpassade gymnasieskolan tillämpas lagen första gången i fråga om utbildning där första året påbörjas höstterminen 2028. 3. För gymnasieskolan gäller äldre bestämmelser fortfarande för – andra och tredje året på en utbildning läsåret 2028/29, och – tredje året på en utbildning läsåret 2029/30. 4. För anpassade gymnasieskolan gäller äldre bestämmelser fortfarande för – andra, tredje och fjärde året på en utbildning läsåret 2028/29, – tredje och fjärde året på en utbildning läsåret 2029/30, och – fjärde året på en utbildning läsåret 2030/31.",
+        "kalla": { "text": "Prop. 2025/26:198, lagförslag 2.2, ikraftträdande- och övergångsbestämmelser", "url": "https://data.riksdagen.se/dokument/HD03198.html" }
+      }
+    ],
+    "berors": {
+      "skolformer": ["gymnasieskolan", "anpassade gymnasieskolan", "kommunal vuxenutbildning"],
+      "huvudmannatyper": ["kommunal", "enskild"]
+    },
+    "krav": [
+      {
+        "text": "På yrkesprogram i gymnasieskolan och i anpassade gymnasieskolan ska elever göra ett yrkesprov i stället för gymnasiearbete, om ett sådant prov finns.",
+        "kalla": { "text": "Bet. 2025/26:UbU27, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HD01UbU27.html" }
+      },
+      {
+        "text": "I anpassade gymnasieskolan kan elever ändå göra ett gymnasiearbete i stället för yrkesprov om eleven och rektorn är överens.",
+        "kalla": { "text": "Bet. 2025/26:UbU27, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HD01UbU27.html" }
+      },
+      {
+        "text": "Yrkesprov ska också finnas inom vuxenutbildning.",
+        "kalla": { "text": "Bet. 2025/26:UbU27, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HD01UbU27.html" }
+      },
+      {
+        "text": "Skolornas möjligheter att överlämna undervisning i yrkesinriktade ämnen på entreprenad utökas. Det gäller både undervisning, yrkesprov och gymnasiearbete.",
+        "kalla": { "text": "Bet. 2025/26:UbU27, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HD01UbU27.html" }
+      },
+      {
+        "text": "Elever på individuella program i anpassade gymnasieskolan får rätt att fullfölja sin utbildning.",
+        "kalla": { "text": "Bet. 2025/26:UbU27, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HD01UbU27.html" }
+      }
+    ],
+    "klartext": {
+      "text": "På yrkesprogram i gymnasieskolan och anpassade gymnasieskolan gör elever yrkesprov i stället för gymnasiearbete från läsåret 2028/29, om ett sådant prov finns. Möjligheterna att överlämna undervisning i yrkesinriktade ämnen på entreprenad utökas redan från 1 juli 2026.",
+      "kalla": { "text": "Bet. 2025/26:UbU27, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HD01UbU27.html" }
+    },
+    "paverkan": {
+      "text": "Bedömningarna för kommunerna gäller också enskilda huvudmän. De utökade entreprenadmöjligheterna ger även små huvudmän fler möjligheter att erbjuda utbildning genom samarbeten med andra huvudmän, vilket gör villkoren för små och stora huvudmän mer lika.",
+      "kalla": { "text": "Prop. 2025/26:198, avsnittet Konsekvenser för enskilda huvudmän och utbildningsanordnare samt för företag i övrigt", "url": "https://data.riksdagen.se/dokument/HD03198.html" }
+    },
+    "sfs": "2026:960",
+    "senast_andrad": "2026-06-12",
+    "noteringar": "sfs 2026:960 (lag om ändring i skollagen, entreprenad-steget med ikraftträdande 2026-07-01) identifierad via Skolverkets Aktuella regeländringar och verifierad mot svenskforfattningssamling.se 2026-06-11; steg 2-lagens (2028-07-02) SFS-nummer ej verifierat. huvudmannatyper: regioner förekommer som huvudmän i gymnasieskolan men T1-kontraktets typvokabulär (kommunal/enskild/statlig) saknar 'region' — flaggas för kontraktsrevision i T4. Övergångsbestämmelsernas punkt 5 (fullföljande av påbörjad utbildning) finns i källan."
+  },
+  {
+    "reform_id": "profession",
+    "ikrafttradanden": [
+      { "datum": "2025-09-01", "typ": "ikraft", "omfattning": "Samtliga lagändringar — starttiden ändrad från den 1 januari 2025 till den 1 september 2025 genom prop. 2023/24:166" }
+    ],
+    "overgangsbestammelser": [
+      {
+        "text": "Denna lag träder i kraft den 1 januari 2025.",
+        "kalla": { "text": "Prop. 2022/23:54, ursprunglig ikraftträdandebestämmelse (senare ändrad)", "url": "https://data.riksdagen.se/dokument/HA0354.html" }
+      },
+      {
+        "text": "Denna lag träder i kraft den 1 september 2025.",
+        "kalla": { "text": "Prop. 2023/24:166, ändrad ikraftträdandebestämmelse", "url": "https://data.riksdagen.se/dokument/HB03166.html" }
+      },
+      {
+        "text": "I stället för att börja gälla den 1 januari 2025 så ändras starttiden till den 1 september 2025. Riksdagen sa ja till regeringens förslag om att senarelägga starttiden. Orsaken till förslaget är att Skolverket, som ska ansvara för professionsprogrammet, behöver mer tid för förberedelser.",
+        "kalla": { "text": "Bet. 2024/25:UbU4, beslut i korthet (senareläggningen)", "url": "https://data.riksdagen.se/dokument/HC01UbU4.html" }
+      }
+    ],
+    "berors": {
+      "skolformer": null,
+      "huvudmannatyper": null
+    },
+    "krav": [
+      {
+        "text": "Det nationella professionsprogrammet kommer att bestå av två bärande delar. Dels en nationell struktur för kompetensutveckling för rektorer, lärare och förskollärare, dels ett nationellt meriteringssystem för legitimerade lärare och legitimerade förskollärare.",
+        "kalla": { "text": "Bet. 2022/23:UbU13, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HA01UbU13.html" }
+      },
+      {
+        "text": "Den nationella strukturen för kompetensutveckling ska innehålla insatser som kan ligga till grund för meriteringsnivåer, men även andra kompetensutvecklingsinsatser för lärare och förskollärare samt för rektorer.",
+        "kalla": { "text": "Bet. 2022/23:UbU13, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HA01UbU13.html" }
+      },
+      {
+        "text": "Det nationella meriteringssystemet ska innehålla meriteringsnivåer. En av dessa nivåer ska förutsätta en examen på forskarnivå.",
+        "kalla": { "text": "Bet. 2022/23:UbU13, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HA01UbU13.html" }
+      }
+    ],
+    "klartext": {
+      "text": "Sedan 1 september 2025 finns ett nationellt professionsprogram för rektorer, lärare och förskollärare, med en nationell struktur för kompetensutveckling och ett nationellt meriteringssystem för legitimerade lärare och förskollärare.",
+      "kalla": { "text": "Bet. 2022/23:UbU13, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HA01UbU13.html" }
+    },
+    "paverkan": {
+      "text": "Huvudmannens befintliga ansvar för kompetensutveckling preciseras: legitimerade lärare och legitimerade förskollärare ges möjlighet att delta i kompetensutveckling inom professionsprogrammet som kan ligga till grund för meriteringsnivåer utan forskarexamen. Det gäller enskilda huvudmän på samma sätt som offentliga.",
+      "kalla": { "text": "Prop. 2022/23:54, avsnitt 9.5 Konsekvenser för enskilda huvudmän", "url": "https://data.riksdagen.se/dokument/HA0354.html" }
+    },
+    "sfs": "2023:393",
+    "senast_andrad": "2026-06-12",
+    "noteringar": "I kraft sedan 2025-09-01. Ikraftträdandet ÄNDRADES: ursprungligt beslut 2025-01-01 (prop. 2022/23:54, bet. 2022/23:UbU13, rskr. 2022/23:206), senarelagt till 2025-09-01 (prop. 2023/24:166, bet. 2024/25:UbU4) — ändringshistoriken bärs i overgangsbestammelser med båda källorna; guiden visar gällande datum. sfs 2023:393 = ursprungslagen (benämns 'lagen (2023:393) om ändring i skollagen' i prop. 2023/24:166), verifierad mot svenskforfattningssamling.se 2026-06-11; senareläggningslagens eget SFS-nummer ej verifierat (propen anger '2024:000'). berors: null — programmet gäller rektorer, lärare och förskollärare; skolformslista och huvudmannakrav ej specificerade i beslutssammanfattningen."
+  },
+  {
+    "reform_id": "timplan",
+    "ikrafttradanden": [
+      { "datum": "2024-07-01", "typ": "ikraft", "omfattning": "Denna lag träder i kraft den 1 juli 2024. Lagen tillämpas första gången på utbildning som påbörjas höstterminen 2024" }
+    ],
+    "overgangsbestammelser": [
+      {
+        "text": "1. Denna lag träder i kraft den 1 juli 2024. 2. Lagen tillämpas första gången på utbildning som påbörjas höstterminen 2024.",
+        "kalla": { "text": "Prop. 2023/24:20, ikraftträdande- och övergångsbestämmelser", "url": "https://data.riksdagen.se/dokument/HB0320.html" }
+      }
+    ],
+    "berors": {
+      "skolformer": ["grundskolan", "specialskolan", "sameskolan"],
+      "huvudmannatyper": ["kommunal", "enskild", "statlig"]
+    },
+    "krav": [
+      {
+        "text": "Elevens val tas bort i grundskolan, specialskolan och sameskolan.",
+        "kalla": { "text": "Bet. 2023/24:UbU5, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HB01UbU5.html" }
+      },
+      {
+        "text": "Hur den garanterade undervisningstiden fördelas mellan ämnen regleras i timplanerna för dessa skolformer, vilka finns i bilaga 1, 3 och 4 till skolförordningen (2011:185).",
+        "kalla": { "text": "Prop. 2023/24:20", "url": "https://data.riksdagen.se/dokument/HB0320.html" }
+      }
+    ],
+    "klartext": {
+      "text": "Elevens val är borttaget ur grundskolan, specialskolan och sameskolan sedan höstterminen 2024. Den frigjorda undervisningstiden fördelas mellan ämnena genom timplanerna i skolförordningen.",
+      "kalla": { "text": "Bet. 2023/24:UbU5, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HB01UbU5.html" }
+    },
+    "paverkan": {
+      "text": "Förslaget påverkar enskilda huvudmän på samma sätt som kommunala och bedöms inte medföra ökade kostnader eller några särskilda konsekvenser för enskilda huvudmän i förhållande till kommunerna.",
+      "kalla": { "text": "Prop. 2023/24:20, avsnitt 8.3 Konsekvenser för enskilda huvudmän", "url": "https://data.riksdagen.se/dokument/HB0320.html" }
+    },
+    "sfs": null,
+    "senast_andrad": "2026-06-12",
+    "noteringar": "I kraft sedan 2024-07-01, tillämpad sedan höstterminen 2024. Tillämpningsstarten 'höstterminen 2024' är inget författningsdatum och bärs därför i omfattningstexten (samma representationsbeslut som läroplansposten). Omfördelningen av den frigjorda undervisningstiden sker på förordningsnivå (skolförordningens timplaner), inte i skollagen. SFS-nummer för lagändringen ej verifierat i tillgängliga källor (finns inte på Skolverkets Aktuella regeländringar) — null tills belagt."
+  },
+  {
+    "reform_id": "tioarig",
+    "ikrafttradanden": [
+      { "datum": "2026-07-01", "typ": "ikraft", "omfattning": "Denna lag träder i kraft den 1 juli 2026" },
+      { "datum": "2028-01-01", "typ": "tillampning", "omfattning": "Bestämmelserna i 3 kap. 12 j § i den nya lydelsen tillämpas första gången på utbildning och annan verksamhet som bedrivs efter den 31 december 2027" },
+      { "datum": "2028-07-01", "typ": "tillampning", "omfattning": "I övrigt tillämpas lagen första gången på utbildning och annan verksamhet som bedrivs efter den 30 juni 2028" }
+    ],
+    "overgangsbestammelser": [
+      {
+        "text": "1. Denna lag träder i kraft den 1 juli 2026. 2. Bestämmelserna i 3 kap. 12 j § i den nya lydelsen tillämpas första gången på utbildning och annan verksamhet som bedrivs efter den 31 december 2027. I övrigt tillämpas lagen första gången på utbildning och annan verksamhet som bedrivs efter den 30 juni 2028. 3. Äldre bestämmelser gäller fortfarande för utbildning och annan verksamhet som bedrivs före den 1 juli 2028, med undantag för bestämmelserna i 3 kap. 12 j § i den äldre lydelsen som gäller för utbildning och annan verksamhet som bedrivs före den 1 januari 2028.",
+        "kalla": { "text": "Prop. 2024/25:143, ikraftträdande- och övergångsbestämmelser", "url": "https://data.riksdagen.se/dokument/HC03143.html" }
+      }
+    ],
+    "berors": {
+      "skolformer": ["förskoleklassen", "grundskolan", "anpassade grundskolan", "specialskolan", "sameskolan"],
+      "huvudmannatyper": ["kommunal", "enskild", "statlig"]
+    },
+    "krav": [
+      {
+        "text": "Förskoleklassen ersätts med en ny första årskurs i skolan. Den nya årskurs 1 blir en del av grundskolan som därmed förlängs med ett år, och årskurs 10 blir den avslutande årskursen.",
+        "kalla": { "text": "Bet. 2024/25:UbU17, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HC01UbU17.html" }
+      },
+      {
+        "text": "Även skolformerna den anpassade grundskolan, specialskolan och sameskolan ska utökas med en ny första årskurs. Detta innebär att den anpassade grundskolan blir tioårig, specialskolan elvaårig och sameskolan sjuårig.",
+        "kalla": { "text": "Bet. 2024/25:UbU17, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HC01UbU17.html" }
+      },
+      {
+        "text": "Den nya första årskursen ska anpassas efter elevernas ålder, men i övrigt ska gällande regelverk gällande ämnen och kursplaner för de olika skolformerna följas.",
+        "kalla": { "text": "Bet. 2024/25:UbU17, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HC01UbU17.html" }
+      },
+      {
+        "text": "Den garanterade undervisningstiden utökas med 534 timmar i grundskolan vid införandet av en tioårig grundskola. Detsamma gäller de motsvarande skolformerna anpassade grundskolan, specialskolan och sameskolan.",
+        "kalla": { "text": "Prop. 2024/25:143", "url": "https://data.riksdagen.se/dokument/HC03143.html" }
+      }
+    ],
+    "klartext": {
+      "text": "Förskoleklassen upphör som skolform och ersätts av en ny årskurs 1 när grundskolan blir tioårig från läsåret 2028/29. Den garanterade undervisningstiden utökas med 534 timmar per skolform.",
+      "kalla": { "text": "Bet. 2024/25:UbU17, beslut i korthet", "url": "https://data.riksdagen.se/dokument/HC01UbU17.html" }
+    },
+    "paverkan": {
+      "text": "Enskilda huvudmäns godkännanden anpassas till den nya skolstrukturen: ett befintligt godkännande för årskurs 1 gäller även för nya årskurs 1, godkännanden för årskurs 2–9 gäller som godkännanden för nya årskurs 3–10, och Skolinspektionen fattar beslut med de nya årskursbeteckningarna som ersätter befintliga beslut.",
+      "kalla": { "text": "Prop. 2024/25:143, avsnitt 11.4 Konsekvenser för enskilda huvudmän", "url": "https://data.riksdagen.se/dokument/HC03143.html" }
+    },
+    "sfs": "2025:729",
+    "senast_andrad": "2026-06-12",
+    "noteringar": "sfs 2025:729 (lag om ändring i skollagen) given i beslutsunderlaget, listad på Skolverkets Aktuella regeländringar och verifierad mot svenskforfattningssamling.se 2026-06-11. Skolverket listar även lag (2025:1312) om ändring i lagen (2025:729) — en senare ändring av denna ändringslag; ej verifierad mot SFS-kungörelsen. Guidens tidslinje pivoterar på tillampning-posterna (läsåret 2028/29 träffar verksamheten; lagens formella ikraftträdande 2026-07-01 visas sekundärt). skolformer: förskoleklassen upphör som skolform — den ingår i listan som berörd. Övergångsbestämmelsernas punkt 4 (elever som gått förskoleklass läsåret 2027/28) finns i källan."
+  }
+]

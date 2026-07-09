@@ -106,6 +106,29 @@ You are a **critical friend**, not a yes-machine.
 - If context window is >70% full, say so and suggest /compact before continuing
 - Scope each session to ONE feature or ONE bug — push back if asked to do more
 
+## Rapporteringsregel (alla tasks)
+Innan du rapporterar utfall: granska varje påstående mot ett faktiskt
+verktygsresultat från denna session. Rapportera endast det du kan peka
+på belägg för. Om något inte är verifierat eller hoppades över — säg det
+uttryckligen. Misslyckade tester rapporteras med output, inte omskrivning.
+
+## /goal-reglerna
+- **Villkor och brief skickas i samma paste.** Villkoret är ett
+  maskinverifierbart GOLV (minsta testbara bevis), inte hela leveransen.
+  Briefen är FACIT — den beskriver vad som faktiskt ska byggas. När de
+  skiljer sig i omfattning är briefen specifikationen. Tolkar du "minsta
+  uppfyllande" — flagga det FÖRE leverans, inte efteråt (DEC-014).
+- **/goal är bara för byggtasks** med flera verifierbara villkor. Inte
+  för enstegs-frågor, research eller dokuppdateringar.
+
+## Vid sessionsstart
+**Kör `git fetch origin --prune` först om någon refererar till commits eller
+filer som "redan finns".** Lokala klonen kan ligga commits efter origin —
+tidigare sessioner pushar, men din klon vet inte om det förrän du fetchar.
+Lärdom (Sprint 11 T5.7): klonen låg 34 commits efter origin/dev, vilket
+fick mig att felaktigt avbryta med "förutsättning ej uppfylld" när allt
+redan fanns på origin. Kontrollera ALDRIG existens enbart med lokala kommandon.
+
 ## What Claude Gets Wrong on This Project
 <!-- Update this as you discover patterns — highest-value section -->
 - **overflow-x/overflow-y-fällan**: CSS-specen tvingar overflow-y till auto om overflow-x sätts till auto. Använd ALDRIG overflow-x:auto på ett element som ska scrolla vertikalt med sidan. Tidslinjen bröts tre gånger av detta.

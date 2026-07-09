@@ -1,8 +1,154 @@
 # Project Status — leides-ljuvliga-lilla-reformkarta
 
-> **Last updated:** 2026-06-10
-> **Current sprint:** Sprint 10 — Bevakningsautomatisering
+> **Last updated:** 2026-06-17
+> **Current sprint:** Sprint 12 — Trovärdighetssprinten (Sprint 10 T6 kvar öppen)
 > **Sprint dates:** juni 2026
+
+---
+
+## Sprint 12 — Trovärdighetssprinten
+
+**Mål:** att en tjänsteman som landar på sajten, eller får en länk delad till sig,
+omedelbart ser att sajten är aktuell, bevakad och delbar. Sajtens största brister
+är inte innehållet utan förtroendesignalerna runt det: deploy-släp, en hårdkodad
+"mars 2026"-stämpel som ljuger, osynlig bevakning, saknad delningsmetadata och
+mockupfiler som läcker till produktion.
+
+**Out of scope:** tillgänglighetsarbete (aria/tangentbord på SVG-kartan);
+CSS-refaktor/delad stylesheet; guideposter för `gy25` och `ai` (egen researchsprint);
+lagbeslutad-vs-utredning inför val26 (kräver scope-diskussion); self-hostade fonter,
+print-CSS, notiser/prenumeration; automatgenerering av andringar-poster ur git-historik
+(manuell/kommandodriven pipeline i v1); ny kartfunktionalitet och visuell redesign.
+
+**Stop condition:** live-sajten visar komplett nav inkl. Guide och Ändringar;
+färskhetsstämpel läses ur data/meta.json och ingen hårdkodad "mars 2026" finns kvar;
+andringar.html är live med källbelagd seedad data; alla publika sidor har description
++ OG + canonical + og:image; mockupfiler är borta ur produktion; /bevakning-kommandot
+underhåller både meta.json och andringar.json; DoD passerad.
+
+| ID | Task | Filer | Status | Acceptance |
+|----|------|-------|--------|------------|
+| T1 | Sprintregistrering Sprint 12 | PROJECT_STATUS.md | ✅ Done | Mål, scope, stop condition och tasktabell registrerade |
+| T2 | Deploy Sprint 11 till produktion | (deploy) | ⬜ | Guide + Utredningar i nav live; guide-sidorna laddar i produktion |
+| T3 | Dynamisk färskhetsstämpel | data/meta.json, alla publika .html, .claude/commands/bevakning, MAINTENANCE.md | ⬜ | Noll hårdkodade stämplar; datum ur meta.json; bevakningsrutinen bumpar |
+| T4 | Sidan Senaste ändringar | andringar.html, data/andringar.json, alla publika .html (nav), .claude/commands/bevakning | ⬜ | Källbelagd seedad data; runtime-validering; nav uppdaterad; 375px ok |
+| T5 | Meta/OG/canonical + og-bild | alla publika .html, assets/ | ⬜ | Unik description per sida; komplett OG-uppsättning; og-bild med absolut URL |
+| T6 | Städa repo-roten | reformkarta.html, lasarshjul-mockup.html, malbild.html, ev. data/malbild.json, CHANGELOG.md | ⬜ | Ej nåbara i produktion; inga brutna referenser; beslut dokumenterat |
+| T7 | Deploy Sprint 12 | (deploy) | ⬜ | T3–T6 verifierade mot live-URL |
+| T8 | Run DoD review for this sprint | PROJECT_STATUS.md | ⬜ | dod-reviewer körd; avvikelser dokumenterade |
+
+---
+
+## Completed: Sprint 11 — Huvudmannaguiden
+
+DoD-granskad 2026-06-16 (T6). **Stängd** — Niklas granskning 2K + mobil godkänd.
+Deploy till produktion krävs: guide.html + guide-alla.html är live först efter `./deploy.sh` (master).
+
+### Kända avvikelser (dokumenterade, åtgärdas inte i Sprint 11)
+- **Täckning, 2 reformer utan guidepost:** `gy25` (Lag 2022:147, ikraft 1 juli 2025) och `ai` (EU 2024/1689, stegvis 2024–27) saknar guideposter i guide.json (12/14 beslutade reformer täckta). Båda kräver källverifierad klartext+paverkan-författande; datapatch utanför Sprint 11-scope. Kandidater för uppföljningssprint.
+- **Användartest med målgrupp ej genomfört.** Niklas granskning är acceptansgrind (utförd 2026-06-16, 2K + mobil).
+- **Läsårsgränsen delar sommarklustret 2026** (30/6 + 15/7 i läsåret 25/26, 1/8 i 26/27) — medvetet designval, läsårslogiken prioriterad. Spannet uttalat i hjulrubriken ("Läsåret 2025/26 · augusti–juli").
+- **"T5.2c"-commiten omdöpt till T5.3 i PROJECT_STATUS** efter att den pushats — fryst historik, dokumenterat i DEC-014.
+- **Startkortets aldrig-tomt-fallback** (numera hjulets tomläge) ej browser-triggbar med nuvarande data (alla nuvarande val ger ≥1 träff någonstans i framtida läsår). Logiken finns; bevisad endast via kodgranskning.
+- **/goal-pilotens två felkonstruktioner** dokumenterade i DECISIONS.md (DEC-014 + processnotering i T5.7).
+
+## Sprint 11 — Huvudmannaguiden
+
+**Mål:** guide.html — skyldighetscentrerad tidslinje för enskilda huvudmän:
+vad gäller, vem berörs, från när. Varje rad spårbar till författning/beslut.
+Överblick, aldrig rådgivning.
+
+**Out of scope:** prenumeration/notiser; rådgivande formuleringar; kommunala
+huvudmän som egen anpassning; automatgenerering av guideposter ur bevakningen
+(manuell pipeline i v1); val26-koppling.
+
+**Stop condition:** guide.html på dev med batch 1–3-data; varje krav har källa
+i {text, url}; språkregeln maskingranskad (inga bör/rekommenderar/råder i
+guidetext); 375px manuellt verifierad; "på väg"-sektion skiljer beslutat från
+kommande; DoD passerad.
+
+**Överlappning:** Sprint 10 stängs med T6 (DoD-review) 2026-06-16 — körs parallellt
+tills dess.
+
+**Designbeslut (T1):**
+- **Guidelagret = separat `data/guide.json`**, en post per reform nycklad på
+  `reform_id` — INTE utökning av reforms.json. Fullt resonemang i **DEC-009**;
+  kort: etablerat en-fil-per-dimension-mönster (DEC-004), reforms.json laddas av
+  alla fem sidor medan guide-texten (ordagranna övergångsbestämmelser, kravlistor)
+  bara behövs i guide-vyn, och /bevakning-patchar får mindre diffar. Synk-risken
+  hanteras med runtime-validering i guide-vyn (id-mismatchar loggas, fail loud).
+- **Språkregeln gäller modellen:** fältnamn och värden bär "gäller/berör/innebär"-
+  semantik (ikrafttradanden, berors, krav = författningens krav), aldrig
+  rekommendationssemantik (inga "bör"-fält, checklistor eller råd). Alla
+  textvärden är officiella formuleringar ur författning/prop med källa.
+
+**Datamodell per guidepost** (datakontrakt för researchen — inga datavärden ännu):
+
+| Fält | Typ | Kontrakt |
+|---|---|---|
+| `reform_id` | sträng | Måste matcha `id` i reforms.json (runtime-validerad) |
+| `ikrafttradanden` | lista av `{datum, typ, omfattning}` | FLERA per reform förekommer (tid-reformen har tre steg: 2026-08-01, 2027-07-01, 2028-07-01). `datum` ISO; `omfattning` = officiell formulering av vad som träder i kraft det datumet. `typ` (tillagd i T3): `"ikraft"` (författningens ikraftträdande) eller `"tillampning"` (författningsexakt "tillämpas första gången"-datum, t.ex. tioarig 2028-07-01). **Pivotregel för guidevyn (T4):** tidslinjen pivoterar på tillampning-posten när sådan finns — det datum som träffar verksamheten — med ikraft synligt sekundärt. Tillämpningsstart som INTE är författningsexakt ("höstterminen 2028") bärs i omfattningstexten, aldrig som eget datum |
+| `overgangsbestammelser` | lista av `{text, kalla:{text,url}}` | `text` = ORDAGRANN författnings-/proptext, ingen parafras |
+| `berors` | `{skolformer:[], huvudmannatyper:[]}` | Officiella skolformsbeteckningar; huvudmannatyper som explicit lista (kommunal/enskild/statlig — inget "alla"-specialvärde, det officiella beslutet anger vilka) |
+| `krav` | lista av `{text, kalla:{text,url}}` | `text` = officiell formulering av kravet; källa till primärkälla (regeringen.se/riksdagen.se/SFS) |
+| `sfs` | sträng eller null | SFS-nummer; null tills kungörelse skett (kungörelsen släpar efter färska beslut — null betyder "ej kungjord ännu", aldrig gissad) |
+| `senast_andrad` | ISO-datum | Sätts/uppdateras av samma rutin som /bevakning-datapatcharna |
+| `noteringar` | sträng eller null | Tillagd i T2 (krävs av regeln "overifierbart → null + notering"; precedens utredningar.json): redovisar null-orsaker, representationsbeslut och vad som medvetet lämnats i källan |
+| `klartext` | `{text, kalla}` | Tillagd i T5.2a (DEC-012): 1–2 egenförfattade deskriptiva meningar om vad som ändras; spårbar källa; utökad språkregel (även "måste ni"/"se till att" förbjudna); visas visuellt åtskild från citat |
+| `paverkan` | `{text, kalla}` eller null | Tillagd i T5.2a (DEC-012): vad ändringen innebär för huvudmannen i drift, klarspråkad ur propens konsekvensavsnitt med avsnittshänvisning; null + notering om propen saknar huvudmannakonsekvenser |
+
+**Exempel-post — FIKTIV, illustrerar enbart formen (committas INTE i data/);
+«…» markerar platshållare där researchen ska sätta verifierad officiell text:**
+
+```json
+{
+  "reform_id": "exempel-reform",
+  "ikrafttradanden": [
+    { "datum": "2026-08-01", "omfattning": "«officiell formulering: vilka bestämmelser som träder i kraft detta datum»" },
+    { "datum": "2028-07-01", "omfattning": "«officiell formulering för steg två»" }
+  ],
+  "overgangsbestammelser": [
+    {
+      "text": "«ordagrann övergångsbestämmelse ur författningen eller propositionens lagförslag»",
+      "kalla": { "text": "Prop. 20XX/XX:NNN s. NN", "url": "https://www.regeringen.se/…" }
+    }
+  ],
+  "berors": {
+    "skolformer": ["grundskola", "anpassad grundskola"],
+    "huvudmannatyper": ["kommunal", "enskild"]
+  },
+  "krav": [
+    {
+      "text": "«officiell formulering av vad huvudmannen ska göra enligt författningen»",
+      "kalla": { "text": "Bet. 20XX/XX:UbUNN", "url": "https://www.riksdagen.se/…" }
+    }
+  ],
+  "sfs": null,
+  "senast_andrad": "2026-06-11"
+}
+```
+
+| ID | Task | Filer | Status | Acceptance |
+|----|------|-------|--------|------------|
+| T1 | Sprintregistrering + datamodell guidelagret | PROJECT_STATUS.md, DECISIONS.md | ✅ Done | Modell dokumenterad med fiktiv exempel-post (ej i data/); fil-vs-utökning avgjort och motiverat (DEC-009); språkregeln inbakad i kontraktet; inga datavärden (7bfc805) |
+| T2 | Ingestion batch 1+2 (9 reformer) + ordagrann extraktion övergångsbestämmelser | data/guide.json | ✅ Done | 9 poster, 40 krav samtliga källsatta {text,url} mot data.riksdagen.se; övergångsbestämmelser ordagrant ur prop-texterna (bilagornas utredningsförslag exkluderade); mobilfri-datum dubbelverifierat (lagförslag + UbU22 beslut i korthet); "mindre huvudman"-def + meritvärde-lägst-4 ordagrant; berors=null+notering där skolformslista ej verifierad (tid, brott, register-skolformer); noteringar-fält tillagt i kontraktet; språkregel-grep: 2 "bör"-träffar = citerad riksdagstext (citat-undantagsregel behövs i T6-granskningen). Diff godkänd av Niklas före commit. |
+| T3 | Ingestion batch 3 (genomförda reformer) + SFS-komplettering | data/guide.json | ✅ Done | profession/timplan/tioarig inlagda (12 poster totalt, 49 källsatta krav). Professions ändringshistorik i overgangsbestammelser med båda källorna (2025-01-01→2025-09-01 via prop 2023/24:166/UbU4); gällande datum i ikrafttradanden. Representationsbeslut: typ-fält ikraft/tillampning infört på ALLA poster + pivotregel för T4 dokumenterad i kontraktet. SFS-komplettering via Skolverkets Aktuella regeländringar, varje nummer verifierat mot svenskforfattningssamling.se: tioarig 2025:729, profession 2023:393 (ursprungslagen, ur prop 166), yrkes 2026:960 (steg 1); timplan + T2-reformerna i övrigt ej kungjorda/ej belagda → null med notering. Diff godkänd av Niklas före commit. |
+| T4 | Guidevyn | guide.html | ✅ Done | Händelsebaserad skyldighetstidslinje (19 händelser, 8 grupper inkl. Gäller redan + På väg), gap-regel för tillämpningspivot (DEC-010). Slutvillkor verifierade med Playwright/Chromium mot lokal server: 61 node-tester gröna, 0 orphans/0 källösa i valideringen, 0 konsolfel (Cloudflare-beacon CORS-blockeras på localhost — testartefakt, exkluderad), språkregel 0 träffar i guide.html-UI:t + exakt de 2 dokumenterade citat-undantagen i guide.json ("Proven bör rättas centralt" + dess notering). Filter (multi-select skolform, synlighet enbart), Ändrat nyligen (30d), null-berors renderas "Ej specificerat i beslutet", SFS-badges, senast_andrad synligt, På väg härledd ur status (3 utredningar, fast formulering utan kravspråk). /goal visade sig vara en sessionsbunden stop-grind (aktiverades efteråt och verifierade samma slutvillkor — alla höll). |
+| T5 | Korslänkning karta↔guide + 375px | guide.html, index/tidslinje/övriga .html | ✅ Done | Guide-flik i nav på alla 6 sidor; Guiden-länk i kartans båda detaljpaneler + tidslinjens 4 detaljvyer (datadrivet via guideIds — reformer utan guidepost länkar inte); ?reform=-deeplinks åt båda håll verifierade i browser (guide→karta: selectNode+scroll; guide→tidslinje: selectReform; in till guiden: markerat kort + scroll). 375px: 0px horisontell overflow på alla sidor utom tidslinje (Gantt scrollar by design); touch-targets 44px (chips/summary/länkar uppmätta); fix: 6:e nav-fliken gav 67px overflow på uppdrag/reformer → overflow-x:auto på .tab-nav (utredningar-mönstret, säkert — naven sidscrollar inte vertikalt); aktiv flik scrollas in i synfältet. Vision-granskning utförd på viewport-skärmdumpar (375 + desktop) — Niklas gör slutlig manuell mobilkoll. |
+| T5.1 | Designpass — "viktiga datum"-mönstret | guide.html | ✅ Done | Omdesign till datumtjänst-genren (DEC-011, inkl. förkastat step-by-step): hero "Närmast i tid" (3 närmaste, filteroberoende — aldrig tom yta), skolformsval med 44px-chips sparat i URL+localStorage (URL vinner, rensas med ett tryck, verifierat över reload), kronologisk lista med årsavdelare + datum primärt + GOV.UK-radmönster (hela raden klickbar, gemena statusar gäller redan/träder i kraft/tillämpas, en stödtextrad med ellipsis), tre hopfällda nivåer (rad→krav→ordagranna övergångsbestämmelser/SFS/korslänkar), caveat i sidhuvudet. På väg + Ändrat nyligen underordnade efter listan. Innehåll/kontrakt/DEC-010 orörda. Verifierat i browser: 0 konsolfel, 0px 375-overflow i alla tre lägena (fix: rad-stöd inline→block), 19 rader/6 årsavdelare/3 hero-kort, persistens + 0-träffsläge + deeplink ?reform= fungerar; vision-granskning av a/b/c-skärmdumpar 375+desktop utförd. Språkregel UI: 0 träffar. Niklas gör slutlig mobilkoll. |
+| T5.1-fix | Sidfiler glob-buggen utelämnade + commit.sh-fix | commit.sh, guide.html | ✅ Done | Commit 1d2bd4b: glob-utelämnande i tidigare commit.sh stagade inte alla T5.1-sidfilerna; commit.sh-fix säkrar att alla guide-relaterade filer fångas (kompletterar Sprint 10 T1-fix:s glob-individuering). |
+| T5.2a | Klarspråk + påverkan i guide.json | data/guide.json, DECISIONS.md | ✅ Done | klartext {text,kalla} + paverkan {text,kalla} i alla 12 poster (DEC-012 — Niklas principbeslut: deskriptivt, spårbart per mening, visuellt åtskilt i T5.2b). paverkan extraherad ur propparnas konsekvensavsnitt — alla 12 hade huvudmannakonsekvenser (10 explicita enskilda-avsnitt med verifierade nummer, betyg/register/yrkes via rubrikhänvisning), ingen null behövdes. Utökad språkregel verifierad: 0 träffar på bör/rekommenderar/råder/måste ni/se till att i nya fälten (propens "se till att" i professionskällan medvetet omskriven). senast_andrad → 2026-06-12. krav/övergångsbestämmelser orörda. Diff (108 rader) godkänd av Niklas. UI-rendering = T5.2b. |
+| T5.2b | UI-rendering klarspråkslagret + startöverblick + relativ tid | guide.html | ✅ Done | Klartext som nivå 1-rubrik på alla 19 rader (maskinverifierat mot guide.json; reform.short som kicker, officiell omfattning som stödrad — visuellt åtskilt per DEC-012: klarspråk rak stil, citat kursiva på platta). Nivå 2 inleds med klartext-källa + paverkan-block ("För huvudmannen — ur propositionens konsekvensavsnitt", ramad rak stil). Startöverblick [data-test=start-overblick] med lägesräkning (2 gäller redan · 17 kommande · 3 på väg); relativ tid [data-test=relativ-tid] på hero + alla rader ("om 18 dagar"/"för 2 år sedan", 22 element). Verifierat: 0 konsolfel, 0px 375-overflow inkl. nivå 2 öppen, 4 testsviter gröna, vision-granskning desktop+375. **Språkregel-undantagen är nu TRE dokumenterade citat**: "Proven bör rättas centralt" (betyg, krav + notering) och "se till att sådana händelser hanteras" (tid, krav — UbU25:s ordagranna formulering, noterad i posten). |
+| T5.2b-omtag | Konkret startnivå med klartext och påverkan | guide.html, DECISIONS.md | ✅ Done | DEC-013. Startkort: nästa deadline för vald verksamhet (30 juni 2026 — om 3 veckor vid verifiering) med klartext-rubrik + påverkan som enda stycke, 12-månadersräknare, tidslinjeväg; valstyrd och aldrig tom (fallback till alla med ärlig etikett — browser-verifierad med gymnasieskolan-val: 1 juli, 1 kommande/12 mån). Nivåflytt: officiell rubrik+omfattning+påverkan = nivå 2-topp; krav+övergångsbestämmelser+SFS+korslänkar = nivå 3; enhetlig citatstil (3px ink-vänsterkant, computed-verifierad). Mobil: valet hopfällt bakom Välj verksamhet-knapp — startkortet uppmätt HELT ovanför fold (topp 315/botten 637 vid 375×812), 0px overflow alla lägen, 0 konsolfel, 19/19 klartext-rubriker, 20 relativ-tid-element, sviterna gröna. Vision-granskning 375+desktop × utan val/med val/nivå 2+3: startkortet konkret (verkligt datum, verklig påverkansmening). |
+| T5.3 | Tidsgruppsöversikt (första leverans — ofullständig mot brief) | guide.html | ✅ Done (kompletterad i T5.3-fix) | Byggde enbart räknarpillren: klickbara periodräknare som följer verksamhetsvalet, nollgrupper dämpade. **Avvikelse mot brief dokumenterad i DEC-014**: sammanfattningens en-radare och På g-gruppen utelämnades (målvillkoret formulerades som räknarbart element och jag levererade minsta uppfyllande tolkning). Beteckningen felskrevs dessutom T5.2c — rättad. |
+| T5.3-fix | En-radare och På g-grupp enligt brief | guide.html, DECISIONS.md | ✅ Done | [data-test=oversikt] är nu en faktisk sammanfattning: räknarpillren kvar som navigering (scrollar till sin grupp, + ny "på g"-pill), därunder grupperade en-radare per reform — datum (relativ tid <12 mån), klartextens FÖRSTA mening, berörda-chips (max 3 + räknare; dolda på 375 där de finns i posten) — hela raden öppnar sin post (browser-verifierat: 2027-klick öppnade brott). På g-gruppen tillagd ur ej-beslutade reforms-statusar med fast formulering "inga skyldigheter gäller än" (ingen verksamhetskoppling → dämpas aldrig av valet). Val filtrerar en-radarna synkront (19→9 med grundskolan; tom 2027 dämpad). 0 konsolfel, 0 overflow desktop+375, sviterna gröna. Vision: hela läget skummbart som text grupp för grupp. |
+| T5.3-fix-2 | Lägesrubrik per valläge | guide.html | ✅ Done | "Läget för din verksamhet" / "Läget — alla verksamheter" på översikten, synkron med valet — browser-verifierad i båda lägena + återställning vid Rensa val, inga konsolfel. |
+| T5.4 | Läsårshjulet som förstasida, listan till undersida | guide.html, guide-alla.html, DECISIONS.md | ✅ Done | DEC-015; mockup = spec (OBS: filen heter lasarshjul-mockup.html, inte mockup-lasarshjul.html som uppgiften angav — namnavvikelse, innehållet fanns). Hjulet [data-test=lasarshjul]: 12 segment, 3 heta i läsåret 2025/26, 4 punkter alla tabbara med aria-label + Enter-stöd (browser-verifierat), centrum "4 datum / 3 kommande". Detaljkortet [data-test=hjul-detalj] byter vid punktklick (verifierat); länkrad Beslutet↗ + Fullständigt underlag→ + "Mer hos Skolverket" endast vid verifierad länk i reforms.json. Horisontcirklar [data-test=horisont-cirklar]: 25/26·4, 26/27·5, 27/28·7, 30/31·2 + på g·3 (streckad; klick → inga-skyldigheter-detalj); cirkelklick byter läsår (verifierat). Kompakt valknapp i sidhuvudet styr hjul+cirklar+detalj, persistens som tidigare; tomläge för val utan datum i läsåret (gymnasieskolan i 26/27 → 0 punkter + vägledningstext, aldrig tomt). Listan flyttad intakt till guide-alla.html (19 rader, 6 piller, data-test=oversikt/relativ-tid kvar, ?reform-deeplink fungerar; guide.html?reform= vidarebefordrar dit). 375: hjul ovanför fold (topp 293), 0 overflow. 0 konsolfel båda sidor, sviterna gröna, språkregel 0+0. Vision-jämförelse mot mockup-skärmdump utförd — konceptet troget, medvetna avvikelser: repots tokens, hela klartexten som detaljrubrik (uppgiftens fältlista), "datum" i st.f. "regler". |
+| T5.5 | Hjuljusteringar efter granskning | guide.html, DECISIONS.md | ✅ Done | Alla sex besluten browser-verifierade: (1) 3 månadsknappar [data-test=manad] role=button/tabbara/aria ("September — 1 nytt datum"), 9 tomma segment inerta, punkter rena markörer (pointer-events none, aria-hidden) med månadshighlight; (2) synlig chiprad [data-test=val-synlig] mobil+desktop, 15 chips à 44px, Rensa-chip, persistens orörd; (3) [data-test=detalj-nav] 2 pilar 44px + ArrowLeft/Right + klickbara prickar + svep med riktningströskel (horisontellt bläddrar, vertikalt 200px-svep rör ingenting — touch-simulerat); (4) stabil detaljyta (456px→456px vid bläddring), utskrivna cirkeletiketter ("7 nya datum läsåret 2027/28", "3 på g ej beslutat"), på g listar samtliga 3 med namn+status+formulering och bläddras; (5) rubrik "Läsåret 2025/26 · augusti–juli", 0 terminsstart-förekomster; (6) aria-live + sr-notis kvar. 0 konsolfel båda sidor, 0px 375-overflow, sviterna gröna, språkregel 0+0. DEC-015 kompletterad (inkl. varför punkterna avklickbarades). Vision: EN interaktionsmodell bekräftad i skärmdumpar. |
+| T5.6 | Hjulrevision efter desktopgranskning | guide.html, DECISIONS.md | ✅ Done | Alla fem besluten browser-verifierade: (A) kurerad väljare — 7 chips (Förskola…Komvux), mappningstabell KURERADE_VAL i kod + DEC-015 (inkl. fristående-skolor-till-alla-skolval och specialskole-/sameskole-bedömningen), ej-spec-poster visas alltid (Komvux-val → 4 datum: 1 träff + 3 ej spec), runtime-vakt för otäckta råvärden, persistens med kurerade namn; (B) punkter utan text (0 uppmätta), 6°-kollisionsseparation, månadsbadges "JULI · 2" [data-test=manad-antal], julibuggen åtgärdad — månadsklick ger månadskontex med 2 bläddringsbara juli-poster + "Visa hela läsåret" som bevarar position; (C) [data-test=layout-tvaspalt] grid 2 kolumner ≥1100px med sticky detaljkort, kärnvyn ryms på 1440p (828/654px), fasta min-höjden borta, mjuk höjdtransition i stället; (D) horisont utan innevarande läsår, etiketter "N ändringar läsåret X" + "på g ej beslutat", tillbaka-länk till innevarande läsår i hjulhuvudet; (E) rubrik "Läsårshjul". 375 staplad 0 overflow, 0 konsolfel båda sidor, sviterna gröna, språkregel 0+0. |
+| T5.7 | Komplett läsårsrad med markerat innevarande | guide.html, guide-alla.html, DECISIONS.md | ✅ Done | Horisontcirklarna (enbart framtida) ersatta av komplett läsårsrad [data-test=lasarsrad]: EN cirkel per läsår inkl. innevarande (2023/24, **2025/26**, 2026/27, 2027/28, 2030/31) + på g (streckad) sist; aktiv cirkel markerad (.aktiv fylld). Klick på annan cirkel byter hjul; klick på redan aktiv cirkel = tyst no-op (hjul + rad oförändrade, verifierat byte-för-byte i DOM). Rubrik "Längre fram" → "Läsår" (0 förekomster kvar i guide.html, inkl. tomtext). Etikettform + verksamhetsfilter orörda. Headless-verifierat (Playwright/Chromium mot lokal server, 1440p+375): 15/15 checks gröna — 6 cirklar, innevarande med, en aktiv, på g streckad sist, byte fungerar, no-op bevisad, 0px 375-overflow, 0 applikationskonsolfel båda sidor (externa CDN-cert-fel = sandbox-artefakt, exkl. som i T5.4). Språkregel-grep: 0 i guide.html/guide-alla.html-UI (bonus: avlägsnade "se till att" ur ett pre-existerande JS-kodkommentar i båda filerna — inert, ingen feature rörd), guide.json oförändrad med sina 2 dokumenterade citat-undantag. nuLank-tillbakalänken behållen (del av hjulhuvudet, utanför scope) — nu delvis redundant med innevarande-cirkeln, kandidat för städning. |
+| T6 | DoD-review + sprintstängning | docs/*, CLAUDE.md, guide.html | ✅ Done | Steg 0 (commit 54e94e6): T5.1-fix-raden införd i Sprint 11-tabellen + nuLank-länken borttagen (redundant med innevarande-cirkeln efter T5.7), DEC-015 T6-städningskomplettering. Steg 1 (subagent DoD): 12 punkter granskade. **Gröna**: 61 node-tester (extract 8/riksdagen 22/rss 21/rapport 10), språkregel UI 0+0, språkregel guide.json 4 träffar inom de 2 dokumenterade citatposterna, klartext/paverkan 0 förbjudna ord, källspårbarhet 0 orphans + 0 källösa, inga fabricerade Skolverket-länkar, commits matchar PS efter steg 0, T6-städning klar, DOM-kontraktet (alla data-test-attribut på rätt sida), DEC-010–015 + lasarshjul-mockup.html som spec-referens på plats, Playwright 15/15 ALLA GRÖNA. **Avvikelser hanterade i T6**: (1) Täckning — `gy25` + `ai` saknar guideposter (12/14 beslutade); dokumenterad som känd avvikelse, datapatch utanför scope. (2) CLAUDE.md saknade /goal-reglerna och git-fetch-vid-sessionsstart-lärdomen → tillagda i denna commit (141 rader, under 150-gränsen). |
+| T5.8 | Aktiv punkt + månadskarusell (underhåll efter sprintstängning) | guide.html, DECISIONS.md | ✅ Done | Två granskningsbeslut (DEC-015-komplettering, 2026-06-17). (1) Aktiv punkt markerad [data-test=punkt-aktiv]: accent + r=9 (vs månadens övriga r=6) + tjock ring, synkad vid pil/svep/prick/månadsbyte. (2) Karusellen månadsavgränsad med wrap — pilar/piltangenter/svep/prickar bläddrar enbart vald månads punkter, wrap fram/bak; prickantal = månadens. Läsårsvid nav-kontext eliminerad (kontext ∈ {manad,pag}, default-månad = nästa kommande); "Visa hela läsåret"-knappen borttagen som konsekvens. Headless-verifierat (Playwright 1440p+375, ny harness test10.js): aktiv punkt distinkt (r 9 vs 6, fill rgb(29,78,216)), wrap inom JULI·2 (navNasta×2→dot0, navFore→sista), prickantal=2, månadsbyte→dot0, svep 375, tvåspalt grid orörd; 61 node-tester gröna; språkregel 0+0; 0 konsolfel båda sidor. Kurerad väljare/läsårsrad/tvåspalt/badgar/rubriker orörda. Ej deployad (master kräver ./deploy.sh). |
 
 ---
 
@@ -45,7 +191,7 @@ docs/BEVAKNING.md (täckningskarta + manuella listan) i samma commit som koden;
 | T2-fix-4 | Jobb B2: nya propositioner från U-dep | riksdagen.js, riksdagen.test.js, fixtures/ | ✅ Done | doktyp=prop i B-fönstret, organ-fullnamnsfilter, manifest-dedup. Delta typ "ny-proposition". 19/19 tester (fixture: 31 riktiga props, 1 U-dep). Skarp körning: Prop. 2025/26:260 (etikprövning) fångad — saknas i manifestet, triagepunkt. Fynd: friskole-propositionen efter lagrådsremissen 13 maj finns INTE i API:t ännu (bet UbU30 = placeholder, beredning planerad aug 2026). **T4-krav: rapport.js behöver sektion för typ ny-proposition.** |
 | T3 | RSS-watcher: regeringen.se, Utbildningsdep., 7-dagarsfönster | scripts/bevakning/rss.js | ✅ Done | Feed-discovery verifierad (rk-main.js bygger /Filter/RssFeed?, taxonomi 2085=lagrådsremiss + 1294=U-dep, filtret biter server-side). Delta `{typ:"lagradsremiss",titel,datum,url}`; fonster_fullt_tackt-flagga; fail loud. 12 tester mot fångad riktig fixture (100 poster, djup till 2012-12-11). Live smoke OK: friskole-lagrådsremissen 2026-05-13 fångas. |
 | T4 | GitHub Action: veckocron + dispatch + Issue "Bevakningsrapport v.X" | bevakning.yml, rapport.js | ✅ Done | rapport.js: sektioner A/B/B2/C/lagrådsremisser, triage-kryssrutor, Övrigt-sektion för okända typer, GITHUB_OUTPUT-kontrakt, 7/7 tester. Permissions exakt contents:read+issues:write. Live-verifierat efter deploy 2026-06-11 (workflow_dispatch registreras först när filen finns på master — dispatch från dev 404:ar innan dess): scenario 1 (maj-fönster) → issue #1 med friskole-lagrådsremissen 2026-05-13 + Dir. 2026:39; scenario 2 (jan-fönster) → grön körning, alla fönsterberoende sektioner tomma, MEN issue #2 skapades med de 9 fönsteroberoende A-deltana — äkta tom körning kräver att A-backloggen triagerats i reforms.json (by design). Test-issues stängda ("testkörning T4"). T4-fix: absUrl i alla jobb + actions v5/v6 (Node 24-deprecation före cron 22 juni). **Cronen är LIVE på master (deploy 2026-06-11, inkl. T4-fix) — första schemalagda körning måndag 15 juni 06:00 UTC.** |
-| T5 | Bevakningsrutin som kommando (reviderad) | docs/BEVAKNING.md, .claude/commands/bevakning.md | ✅ Done | BEVAKNING.md omskriven: arkitektur (Action/skript/människa, jobb A-backlog-caveat), verifieringsregler i full form, triage-klassning (åtgärda/ignorera/eskalera, Prop. 260-exemplet), felsökning med fixture-förnyelse som första steg; manuella listan behållen för det automationen inte täcker (Skolverket, RB, SOU-publicering). /bevakning-kommandot kodifierar 6-stegsrutinen (gh-hämtning → källverifiering → klassning → datapatch → diff-godkännande FÖRE commit → issue-kommentar+stängning); hårda regler: overifierbart=eskalera, BEVAKNING.md är regelkällan (ingen duplicering). End-to-end-verifiering mot riktiga backlogg-issuet sker i nästa steg. |
+| T5 | Bevakningsrutin som kommando (reviderad) | docs/BEVAKNING.md, .claude/commands/bevakning.md | ✅ Done | BEVAKNING.md omskriven: arkitektur (Action/skript/människa, jobb A-backlog-caveat), verifieringsregler i full form, triage-klassning (åtgärda/ignorera/eskalera, Prop. 260-exemplet), felsökning med fixture-förnyelse som första steg; manuella listan behållen för det automationen inte täcker (Skolverket, RB, SOU-publicering). /bevakning-kommandot kodifierar 6-stegsrutinen (gh-hämtning → källverifiering → klassning → datapatch → diff-godkännande FÖRE commit → issue-kommentar+stängning); hårda regler: overifierbart=eskalera, BEVAKNING.md är regelkällan (ingen duplicering). End-to-end-verifierad 2026-06-11 mot issue #3 (Bevakningsrapport v.24): 9 åtgärda + 1 ignorera + 1 noterat feed-fel, diff godkänd före commit, issue kommenterat och stängt. A-backloggen tömd — nästa veckorapport ska sakna A-sektion. |
 | T7 | Jobb B3: SOU-publiceringar | riksdagen.js, rapport.js, fixtures/ | ✅ Done | **Empiri: SOU bär INGET departement i riksdagens data** (organ tom i list, departement+dokuppgift saknas i detalj — verifierat mot HDB39) → ingen dep-filtrering möjlig; alla okända SOU rapporteras (~0–3/vecka) med "Betänkande av..."-ledtråd ur summary. sou-levererad vid betankanden[].nr-match (faktapar med utrednings-id), annars ny-sou. 22/22 + 8/8 tester; skarp körning 2025-01-25→02-05: SOU 2025:9 → sou-levererad via utr-grundlaggande-svenska (facit) + SOU 2025:8 via utr-studiero; 3 ny-sou. Fönster-fetcharna konsoliderade till fetchDokumentWindow. |
 | T8 | Uppdrag-RSS: regeringsuppdrag + multi-feed-refactor | rss.js, rapport.js, fixtures/ | ✅ Done | Feed-discovery (T3-metoden): Regeringsuppdrag=taxonomi 1342 + U-dep 1294, filtret biter server-side (100/100 items bär domain=1294), djup till maj 2019. rss.js refactorerad till multi-feed: FEEDS-konfig {namn, deltatyp, url} driver samma parser/fönster/täckningsflagga per feed; rapportform { floden[], deltan } — T3-testerna beteendeoförändrade via feeds-injektion. Delta typ "regeringsuppdrag" (ingen dedup behövs, 7d-fönster). 15/15 + 8/8 tester; skarp körning 2025-12-20→31: tioårig grundskola-uppdraget (2025-12-22) fångat exakt. Bonus-observation: ändringsbeslut flödar genom samma feed (Ändring av uppdraget... 2026-04-28 sedd i flödet). |
 | T9 | Regleringsbrev via statsliggarens RSS | rss.js, rapport.js, fixtures/ | ✅ Done | Statsliggaren ESV→Statskontoret verifierad (kanonisk domän statskontoret.se; "esv--" i sökvägen är legacy). Itemstruktur: media:keywords="Myndighet,Departement,År" (filtrering), beslutsdatum i titeln (delta-datum — inte pubDate), rbid-länk. Tvåstegsfilter: U-dep + REGLERINGSBREV_MYNDIGHETER-konfig (5 skolmyndigheter; lärosätena = ~50 brev/december, fast scopegräns). Ändringsbeslut särskiljs i titeln → ingen egen typ. parseFeed fick extraTaggar; FEEDS fick transform-hook. 19/19 + 9/9 tester. **Flödesdjup bara ~3 mån (äldsta 2026-03-16)** → dec-facit (Skolverkets RB 2026) onåbart retroaktivt; skarp körning fångade i stället Skolverkets BÅDA vårändringsbeslut (2026-04-28, 2026-05-25) exakt. Scraping-undantaget struket — behövdes aldrig. |
