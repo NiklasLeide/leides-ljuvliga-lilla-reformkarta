@@ -29,7 +29,7 @@ done
 # enda pathspec inte matchar (t.ex. *.ts när inga .ts-filer finns) — den gamla
 # samlade raden stageade därför ALDRIG något, tyst, dolt av 2>/dev/null.
 # En oexpanderad glob lämnas literal av bash → -e-testet filtrerar bort den.
-for pat in *.json *.ts *.js *.sh *.md *.toml *.py *.html; do
+for pat in *.json *.ts *.js *.sh *.md *.toml *.py *.html *.yml *.yaml; do
   [ -e "$pat" ] || continue
   git add "$pat" 2>/dev/null || true
 done
