@@ -213,7 +213,7 @@ footer{text-align:center;padding:1.5rem 0 2rem;font-size:.62rem;color:#ccc;line-
 </head>
 <body>
 <header><div class="header-inner">
-  <div class="header-badge">Kunskapsyta · mars 2026 · Privatprojekt av Niklas Leide</div>
+  <div class="header-badge">Kunskapsyta<span data-fresh></span> · Privatprojekt av Niklas Leide</div>
   <h1>Tidslinje — Skolreformer 2021–2031</h1>
   <p>Gantt-vy: utredningar och reformer som tidsspann. Klicka ▶ för uppdrag och milstolpar, eller en utredning för detaljer.</p>
 </div></header>
@@ -285,7 +285,7 @@ footer{text-align:center;padding:1.5rem 0 2rem;font-size:.62rem;color:#ccc;line-
   <div class="mobile-overlay" id="mobileOverlay"></div>
   <div class="mobile-sidebar" id="mobileSidebar"><button class="mobile-sidebar-close" id="mobileSidebarClose" aria-label="Stäng">×</button><div id="mobileSidebarContent"></div></div>
 
-  <footer>Källor: regeringen.se, skolverket.se, riksdagen.se · Sammanställd mars 2026<br>Kontrollera datum mot originaldokumenten. Dela gärna med kollegor.<br>© 2026 Niklas Leide</footer>
+  <footer>Källor: regeringen.se, skolverket.se, riksdagen.se<span data-fresh></span><br>Kontrollera datum mot originaldokumenten. Dela gärna med kollegor.<br>© 2026 Niklas Leide</footer>
 </div>
 
 <script>
@@ -899,6 +899,21 @@ async function loadData(){
 window.addEventListener('load',loadData);
 </script>
 
+<script>
+/* Färskhetsstämpel (Sprint 12 T3) — läser data/meta.json, renderar svenskt datum
+   utan new Date()-tidszontolkning (parsar strängen manuellt). Tyst fallback:
+   kan filen inte läsas visas ingen stämpel — hellre tyst än fel datum. */
+(function(){
+  var MM=['januari','februari','mars','april','maj','juni','juli','augusti','september','oktober','november','december'];
+  fetch('data/meta.json').then(function(r){return r.ok?r.json():null;}).then(function(m){
+    if(!m||!m.senast_uppdaterad)return;
+    var p=String(m.senast_uppdaterad).split('-'),d=+p[2],mo=+p[1];
+    if(p.length!==3||!d||mo<1||mo>12)return;
+    var s=' · Senast uppdaterad '+d+' '+MM[mo-1]+' '+p[0];
+    document.querySelectorAll('[data-fresh]').forEach(function(el){el.textContent=s;});
+  }).catch(function(){});
+})();
+</script>
 <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9d66c8f5b9da46078ca71ab819946f62"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>

@@ -262,7 +262,7 @@ footer { max-width: 860px; margin: 0 auto; padding: 1rem 1.5rem 2rem; font-size:
 
 <header>
   <div class="header-inner">
-    <div class="header-badge">Kunskapsyta · juni 2026 · Privatprojekt av Niklas Leide</div>
+    <div class="header-badge">Kunskapsyta<span data-fresh></span> · Privatprojekt av Niklas Leide</div>
     <h1>Alla datum och fullständiga underlag</h1>
     <p class="caveat">Överblick ur officiella beslut för enskilda huvudmän — inte rådgivning. Kontrollera alltid källan bakom varje rad. Myndighetskälla:
     <a href="https://www.skolverket.se/styrning-och-ansvar/forandringar-inom-skolomradet/aktuella-regelandringar" target="_blank" rel="noopener">Skolverkets Aktuella regeländringar</a>.</p>
@@ -714,6 +714,21 @@ async function init() {
 init();
 // På smala skärmar scrollar naven horisontellt — håll aktiva fliken synlig.
 document.querySelector('.tab-nav a.active')?.scrollIntoView({ inline: 'center', block: 'nearest' });
+</script>
+<script>
+/* Färskhetsstämpel (Sprint 12 T3) — läser data/meta.json, renderar svenskt datum
+   utan new Date()-tidszontolkning (parsar strängen manuellt). Tyst fallback:
+   kan filen inte läsas visas ingen stämpel — hellre tyst än fel datum. */
+(function(){
+  var MM=['januari','februari','mars','april','maj','juni','juli','augusti','september','oktober','november','december'];
+  fetch('data/meta.json').then(function(r){return r.ok?r.json():null;}).then(function(m){
+    if(!m||!m.senast_uppdaterad)return;
+    var p=String(m.senast_uppdaterad).split('-'),d=+p[2],mo=+p[1];
+    if(p.length!==3||!d||mo<1||mo>12)return;
+    var s=' · Senast uppdaterad '+d+' '+MM[mo-1]+' '+p[0];
+    document.querySelectorAll('[data-fresh]').forEach(function(el){el.textContent=s;});
+  }).catch(function(){});
+})();
 </script>
 <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9d66c8f5b9da46078ca71ab819946f62"}'></script><!-- End Cloudflare Web Analytics -->
 </body>

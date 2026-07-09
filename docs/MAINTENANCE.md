@@ -1,5 +1,25 @@
 # Maintenance — leides-ljuvliga-lilla-reformkarta
 
+> Statisk sajt: ren HTML/CSS/JS, inga byggsteg. "Kör" = öppna en .html-fil i
+> webbläsaren, eller servera repo-roten statiskt. Deploy = `./deploy.sh` (dev→master).
+> Nedanstående boilerplate-sektioner (venv/npm/API_KEY) är mallrester och gäller INTE.
+
+## Datamaintenance — färskhetsstämpel (Sprint 12 T3)
+
+Alla publika sidor visar "Senast uppdaterad <datum>" läst ur **`data/meta.json`**
+(`{ "senast_uppdaterad": "YYYY-MM-DD" }`). Sidorna parsar strängen manuellt till
+svenskt datum — ingen `new Date()`-lokaltolkning. Kan filen inte läsas visas ingen
+stämpel (tyst fallback).
+
+**Regel för VARJE datapatch (manuell eller via `/bevakning`):** ändrar du en fil
+i `data/`, sätt i samma commit `data/meta.json` `senast_uppdaterad` till patchens
+datum (beslutsdatum om ett enda styrande beslut, annars dagens patchdatum — var
+konsekvent). En datapatch utan bump gör att sajten ljuger om sin aktualitet, vilket
+är precis den förtroendebrist Sprint 12 åtgärdade. `/bevakning`-kommandot gör detta
+automatiskt; vid manuella patchar är det ditt ansvar.
+
+---
+
 > Fill this in THE MOMENT you get the project running. Not later. Now.
 > If you can't run the project from these instructions alone, they're not done yet.
 > Run /project:resume when returning — it reads this file first.
