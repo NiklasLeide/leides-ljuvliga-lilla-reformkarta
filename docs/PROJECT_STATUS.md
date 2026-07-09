@@ -1,8 +1,41 @@
 # Project Status — leides-ljuvliga-lilla-reformkarta
 
 > **Last updated:** 2026-06-17
-> **Current sprint:** Underhåll — Sprint 11 stängd 2026-06-16 (T5.8 post-close-justering 2026-06-17); Sprint 10 öppen parallellt (T6 kvar)
+> **Current sprint:** Sprint 12 — Trovärdighetssprinten (Sprint 10 T6 kvar öppen)
 > **Sprint dates:** juni 2026
+
+---
+
+## Sprint 12 — Trovärdighetssprinten
+
+**Mål:** att en tjänsteman som landar på sajten, eller får en länk delad till sig,
+omedelbart ser att sajten är aktuell, bevakad och delbar. Sajtens största brister
+är inte innehållet utan förtroendesignalerna runt det: deploy-släp, en hårdkodad
+"mars 2026"-stämpel som ljuger, osynlig bevakning, saknad delningsmetadata och
+mockupfiler som läcker till produktion.
+
+**Out of scope:** tillgänglighetsarbete (aria/tangentbord på SVG-kartan);
+CSS-refaktor/delad stylesheet; guideposter för `gy25` och `ai` (egen researchsprint);
+lagbeslutad-vs-utredning inför val26 (kräver scope-diskussion); self-hostade fonter,
+print-CSS, notiser/prenumeration; automatgenerering av andringar-poster ur git-historik
+(manuell/kommandodriven pipeline i v1); ny kartfunktionalitet och visuell redesign.
+
+**Stop condition:** live-sajten visar komplett nav inkl. Guide och Ändringar;
+färskhetsstämpel läses ur data/meta.json och ingen hårdkodad "mars 2026" finns kvar;
+andringar.html är live med källbelagd seedad data; alla publika sidor har description
++ OG + canonical + og:image; mockupfiler är borta ur produktion; /bevakning-kommandot
+underhåller både meta.json och andringar.json; DoD passerad.
+
+| ID | Task | Filer | Status | Acceptance |
+|----|------|-------|--------|------------|
+| T1 | Sprintregistrering Sprint 12 | PROJECT_STATUS.md | ✅ Done | Mål, scope, stop condition och tasktabell registrerade |
+| T2 | Deploy Sprint 11 till produktion | (deploy) | ⬜ | Guide + Utredningar i nav live; guide-sidorna laddar i produktion |
+| T3 | Dynamisk färskhetsstämpel | data/meta.json, alla publika .html, .claude/commands/bevakning, MAINTENANCE.md | ⬜ | Noll hårdkodade stämplar; datum ur meta.json; bevakningsrutinen bumpar |
+| T4 | Sidan Senaste ändringar | andringar.html, data/andringar.json, alla publika .html (nav), .claude/commands/bevakning | ⬜ | Källbelagd seedad data; runtime-validering; nav uppdaterad; 375px ok |
+| T5 | Meta/OG/canonical + og-bild | alla publika .html, assets/ | ⬜ | Unik description per sida; komplett OG-uppsättning; og-bild med absolut URL |
+| T6 | Städa repo-roten | reformkarta.html, lasarshjul-mockup.html, malbild.html, ev. data/malbild.json, CHANGELOG.md | ⬜ | Ej nåbara i produktion; inga brutna referenser; beslut dokumenterat |
+| T7 | Deploy Sprint 12 | (deploy) | ⬜ | T3–T6 verifierade mot live-URL |
+| T8 | Run DoD review for this sprint | PROJECT_STATUS.md | ⬜ | dod-reviewer körd; avvikelser dokumenterade |
 
 ---
 
