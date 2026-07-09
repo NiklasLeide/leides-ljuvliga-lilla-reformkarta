@@ -29,7 +29,7 @@ underhåller både meta.json och andringar.json; DoD passerad.
 | ID | Task | Filer | Status | Acceptance |
 |----|------|-------|--------|------------|
 | T1 | Sprintregistrering Sprint 12 | PROJECT_STATUS.md | ✅ Done | Mål, scope, stop condition och tasktabell registrerade |
-| T2 | Deploy Sprint 11 till produktion | (deploy) | ⬜ | Guide + Utredningar i nav live; guide-sidorna laddar i produktion |
+| T2 | Deploy Sprint 11 till produktion | (deploy) | ✅ Done | dev→master merge `7654f5c` pushad; guide.html/guide-alla.html/utredningar.html på master-roten; Guide+Utredningar-nav på alla 7 publika sidor; guide.html laddar guide.json. GitHub Pages "build and deployment" för 7654f5c = completed/success. **Sandboxen når ej reformer.leide.se (curl 000/WebFetch 403) — rendrerad live-sida ej hämtbar härifrån; Pages-deploysuccess + verifierat master-innehåll är beläggen. Niklas bekräftar i browser.** |
 | T3 | Dynamisk färskhetsstämpel | data/meta.json, alla publika .html, .claude/commands/bevakning, MAINTENANCE.md | ⬜ | Noll hårdkodade stämplar; datum ur meta.json; bevakningsrutinen bumpar |
 | T4 | Sidan Senaste ändringar | andringar.html, data/andringar.json, alla publika .html (nav), .claude/commands/bevakning | ⬜ | Källbelagd seedad data; runtime-validering; nav uppdaterad; 375px ok |
 | T5 | Meta/OG/canonical + og-bild | alla publika .html, assets/ | ⬜ | Unik description per sida; komplett OG-uppsättning; og-bild med absolut URL |
