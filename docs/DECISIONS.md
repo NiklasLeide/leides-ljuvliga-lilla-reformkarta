@@ -18,6 +18,30 @@ Record of key decisions made during the project. **Newest first.**
 
 ---
 
+### DEC-016: Ändringssidan (andringar.html) — datum = beslutsdatum, källbelagd seedning
+**Date:** 2026-06-17
+**Decision:** (Sprint 12 T4) Ny publik sida `andringar.html` + `data/andringar.json`
+gör bevakningen synlig: omvänt kronologisk lista över innehållsändringar. Datamodell
+per post: `{datum, text, reform_ids, kalla:{text,url}}`. **`datum` = beslutsdatum**
+(riksdagens beslutsdatum för beslut-poster), inte patchdatum — det är det datum
+användaren känner igen från nyhetsflödet, och det är redan primärkällsverifierat i
+reforms.json:s transition-fält (satt i Bevakning v.24). Seedningen (9 poster) genererades
+FAITHFULLY ur reforms.json — beslutsdatum + bet./rskr. ur transition-fälten, `kalla.url`
+mot projektets etablerade `data.riksdagen.se/dokument/HD01UbUNN.html`-schema (verifierat
+för UbU23–26 i guide.json). Inga nya sakuppgifter författade. `reform_ids` runtime-valideras
+mot reforms.json (fail-loud i konsolen, samma mönster som guide-vyn). Språkregeln gäller
+texterna (deskriptivt, aldrig rådgivande). /bevakning-kommandot lägger en post per
+åtgärda-delta framöver.
+**Reasoning:** Beslutsdatum är mer meningsfullt och mindre godtyckligt än patchdatum
+(när jag råkade köra /bevakning), och det är spårbart. Att generera seedningen ur redan
+verifierad data i stället för att författa på nytt eliminerar fabriceringsrisk.
+**Alternatives considered:** Patchdatum som `datum` (godtyckligt, speglar när triagen
+kördes snarare än när något hände); gruppera flera reformer per datum-post (färre poster
+men grövre — per-reform-text är mer informativ); automatgenerering ur git-historik
+(uttalat out of scope för v1 — manuell/kommandodriven pipeline räcker).
+
+---
+
 ### DEC-015: Läsårshjulet ersätter listan som guidens förstasida
 **Date:** 2026-06-12
 **Decision:** (T5.4) guide.html är ett läsårshjul: SVG med månaderna aug–jul i läsårsordning, händelsemånader tonade, verksamhetsdatum som klickbara punkter på fälgen, centrum med antal + kort deskriptiv mening; detaljkort under hjulet (datum + relativ tid + klartext + påverkan + länkrad där "Mer hos Skolverket" bara visas när en verifierad Skolverket-länk finns i reforms.json — inga fabricerade länkar); horisontcirklar (mini-hjul per framtida läsår + streckad "på g") byter visat läsår. Mockupen lasarshjul-mockup.html är specen — konceptet återskapat med repots designtokens, datadrivet ur guide.json (DEC-010-händelsemodellen oförändrad). Den fullständiga listan (nivå 1–3, sammanfattning, piller, deeplinks) FLYTTAD i sin helhet till undersidan guide-alla.html, länkad "Alla datum och fullständiga underlag →"; ?reform=-deeplinks till guide.html vidarebefordras dit. Tillgänglighet: hjulets punkter är tabbara (tabindex, role=button, aria-label med datum/status/klartext, synlig fokusring, Enter/Space), detaljkortet aria-live, och en skärmläsarnotis hänvisar till undersidan som fullvärdigt listalternativ.
