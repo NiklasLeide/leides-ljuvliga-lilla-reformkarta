@@ -3,6 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Skolverkets uppdrag kopplade till skolreformerna, grupperade per tidsperiod med redovisningsdatum — se vad som ska levereras och när.">
+<link rel="canonical" href="https://reformer.leide.se/uppdrag.html">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="sv_SE">
+<meta property="og:url" content="https://reformer.leide.se/uppdrag.html">
+<meta property="og:title" content="Skolverkets uppdrag — Reformkartan">
+<meta property="og:description" content="Skolverkets uppdrag kopplade till skolreformerna, grupperade per tidsperiod med redovisningsdatum — se vad som ska levereras och när.">
+<meta property="og:image" content="https://reformer.leide.se/assets/og-image.png">
 <title>Uppdrag — Skolreformer 2025–2028</title>
 <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -371,7 +379,7 @@ footer {
 
 <header>
   <div class="header-inner">
-    <div class="header-badge">Kunskapsyta · mars 2026 · Privatprojekt av Niklas Leide</div>
+    <div class="header-badge">Kunskapsyta<span data-fresh></span> · Privatprojekt av Niklas Leide</div>
     <h1>Skolverkets uppdrag — Skolreformer 2025–2028</h1>
     <p>Vilka reformer har Skolverket fått i uppdrag att förbereda, och när ska de redovisas?</p>
   </div>
@@ -384,6 +392,7 @@ footer {
   <a href="utredningar.html">Utredningar</a>
   <a href="tidslinje.html">Tidslinje</a>
   <a href="guide.html">Guide</a>
+  <a href="andringar.html">Ändringar</a>
 </div>
 
 <div class="container">
@@ -406,7 +415,7 @@ footer {
   </div>
 
   <footer>
-    Källor: regeringen.se, skolverket.se, riksdagen.se · Sammanställd mars 2026<br>
+    Källor: regeringen.se, skolverket.se, riksdagen.se<span data-fresh></span><br>
     Kontrollera datum mot originaldokumenten. Dela gärna med kollegor.<br>
     © 2026 Niklas Leide
   </footer>
@@ -750,6 +759,21 @@ async function loadData() {
 window.addEventListener('load', loadData);
 </script>
 
+<script>
+/* Färskhetsstämpel (Sprint 12 T3) — läser data/meta.json, renderar svenskt datum
+   utan new Date()-tidszontolkning (parsar strängen manuellt). Tyst fallback:
+   kan filen inte läsas visas ingen stämpel — hellre tyst än fel datum. */
+(function(){
+  var MM=['januari','februari','mars','april','maj','juni','juli','augusti','september','oktober','november','december'];
+  fetch('data/meta.json').then(function(r){return r.ok?r.json():null;}).then(function(m){
+    if(!m||!m.senast_uppdaterad)return;
+    var p=String(m.senast_uppdaterad).split('-'),d=+p[2],mo=+p[1];
+    if(p.length!==3||!d||mo<1||mo>12)return;
+    var s=' · Senast uppdaterad '+d+' '+MM[mo-1]+' '+p[0];
+    document.querySelectorAll('[data-fresh]').forEach(function(el){el.textContent=s;});
+  }).catch(function(){});
+})();
+</script>
 <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9d66c8f5b9da46078ca71ab819946f62"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>

@@ -1,0 +1,6 @@
+# GitHub Pages (Jekyll) — minimal config.
+# Enda syftet: exkludera det arkiverade mockup-materialet ur den serverade sajten
+# (Sprint 12 T6). docs/mockups/ innehåller historiska/spec-filer som ska finnas
+# kvar i repot men ALDRIG vara nåbara på reformer.leide.se.
+exclude:
+  - docs/mockups

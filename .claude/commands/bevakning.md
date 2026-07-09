@@ -61,6 +61,21 @@ och följ dem; de upprepas inte här.
 4. **Bygg datapatchen** för alla åtgärda-deltan enligt reglerna i
    BEVAKNING.md. Rör bara fält som källorna styrker. Uppdatera även
    docs/CHANGELOG.md (en rad per logisk ändring).
+   - **Bumpa färskhetsstämpeln (Sprint 12 T3):** varje datapatch som ändrar
+     en fil i `data/` ska i SAMMA commit sätta `data/meta.json`
+     `senast_uppdaterad` till patchens datum (beslutsdatum om ett enda
+     styrande beslut, annars dagens patchdatum — var konsekvent, notera valet
+     i changelog-raden). Stämpeln "Senast uppdaterad …" på alla publika sidor
+     läser detta fält; en datapatch utan bump ljuger om aktualiteten.
+   - **Logga ändringen (Sprint 12 T4):** varje åtgärda-delta som ändrar
+     innehåll ska i SAMMA commit lägga en post överst i `data/andringar.json`
+     (omvänt kronologisk — nyast först): `{datum, text, reform_ids, kalla}`.
+     `datum` = beslutsdatum (samma konvention som seedningen). `text` =
+     deskriptiv mening enligt språkregeln ("Riksdagen beslutade …",
+     "Ikraftträdande uppdaterat till …") — ALDRIG rådgivande. `reform_ids`
+     måste finnas i reforms.json (annars fail-loud i andringar.html-konsolen).
+     `kalla` = samma primärkälla som styrkte deltat. Kan posten inte
+     källbeläggas läggs den inte till.
 
 5. **Visa diffen och fråga.** Presentera hela diffen (`git diff`) plus en
    tabell delta → klassning → motivering. Vänta på explicit ja innan något

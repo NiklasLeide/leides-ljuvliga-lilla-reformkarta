@@ -45,13 +45,20 @@ leides-ljuvliga-lilla-reformkarta/
 ├── reformer.html          ← reformtabell (sorterings/filterbar, sidebar)
 ├── uppdrag.html           ← uppdragsöversikt (tidsgrupperad, deeplinks)
 ├── tidslinje.html         ← Gantt-tidslinje (expanderbara reformbars)
-├── malbild.html           ← målbild/infrastrukturberoenden (dold från nav)
+├── utredningar.html       ← utredningslistvy (filter, sök, expanderbara kort)
+├── guide.html             ← huvudmannaguide (läsårshjul); guide-alla.html = fullista
+├── andringar.html         ← senaste ändringar (bevakningen synlig; data/andringar.json)
+├── assets/og-image.png    ← delningsbild (Open Graph, 1200×630)
 ├── data/
 │   ├── reforms.json       ← reformdata (namn, status, kategorier, länkar)
 │   ├── connections.json   ← kopplingar mellan reformer
 │   ├── uppdrag.json       ← Skolverkets uppdragsstatus per reform (med titel)
-│   ├── malbild.json       ← infrastrukturpelare och reformberoenden
+│   ├── utredningar.json   ← utredningar (direktiv, betänkanden, prop-koppling)
+│   ├── guide.json         ← huvudmannaguidens per-reform-lager
+│   ├── andringar.json     ← ändringslogg (datum, text, reform_ids, kalla)
+│   ├── meta.json          ← { senast_uppdaterad } — driver färskhetsstämpeln
 │   └── tidslinje.json     ← 30 händelser (ikraftträdanden, redovisningar, milstolpar)
+├── _config.yml            ← Jekyll: exkluderar docs/mockups ur Pages-bygget
 ├── commit.sh              ← commit + push till dev + synka dev-preview
 ├── deploy.sh              ← merga dev → master (interaktiv)
 ├── docs/

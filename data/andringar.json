@@ -1,0 +1,101 @@
+[
+  {
+    "datum": "2026-06-09",
+    "text": "Riksdagen beslutade om ett nytt betygssystem med skalan 1–10 (prop. 2025/26:197). Skollagsändringarna träder i kraft 1 juli 2028; ny betygsskala införs stegvis från höstterminen 2027.",
+    "reform_ids": [
+      "betyg"
+    ],
+    "kalla": {
+      "text": "Riksdagsbeslut — bet. 2025/26:UbU26, rskr. 2025/26:335",
+      "url": "https://data.riksdagen.se/dokument/HD01UbU26.html"
+    }
+  },
+  {
+    "datum": "2026-06-09",
+    "text": "Riksdagen beslutade om reglerad undervisningstid för lärare (prop. 2025/26:196). Ikraftträdande ännu inte fastställt.",
+    "reform_ids": [
+      "tid"
+    ],
+    "kalla": {
+      "text": "Riksdagsbeslut — bet. 2025/26:UbU25, rskr. 2025/26:332",
+      "url": "https://data.riksdagen.se/dokument/HD01UbU25.html"
+    }
+  },
+  {
+    "datum": "2026-06-03",
+    "text": "Riksdagen beslutade om nya läroplaner och en tydligare kunskapsinriktning (prop. 2025/26:194). Merparten träder i kraft 1 juli 2028.",
+    "reform_ids": [
+      "laroplaner"
+    ],
+    "kalla": {
+      "text": "Riksdagsbeslut — bet. 2025/26:UbU23, rskr. 2025/26:327",
+      "url": "https://data.riksdagen.se/dokument/HD01UbU23.html"
+    }
+  },
+  {
+    "datum": "2026-06-03",
+    "text": "Riksdagen beslutade om förbättrat stöd och stärkt elevhälsa (prop. 2025/26:195). Ikraftträdande 1 juli 2028.",
+    "reform_ids": [
+      "stod"
+    ],
+    "kalla": {
+      "text": "Riksdagsbeslut — bet. 2025/26:UbU24, rskr. 2025/26:328",
+      "url": "https://data.riksdagen.se/dokument/HD01UbU24.html"
+    }
+  },
+  {
+    "datum": "2026-06-03",
+    "text": "Riksdagen beslutade om stärkt trygghet och studiero i skolan (prop. 2025/26:193). Merparten träder i kraft 1 augusti 2026.",
+    "reform_ids": [
+      "studiero"
+    ],
+    "kalla": {
+      "text": "Riksdagsbeslut — bet. 2025/26:UbU22, rskr. 2025/26:308",
+      "url": "https://data.riksdagen.se/dokument/HD01UbU22.html"
+    }
+  },
+  {
+    "datum": "2026-05-27",
+    "text": "Riksdagen beslutade om brottsförebyggande arbete i skolan (prop. 2025/26:192). Ikraftträdande 30 juni 2026.",
+    "reform_ids": [
+      "brott"
+    ],
+    "kalla": {
+      "text": "Riksdagsbeslut — bet. 2025/26:UbU21, rskr. 2025/26:299",
+      "url": "https://data.riksdagen.se/dokument/HD01UbU21.html"
+    }
+  },
+  {
+    "datum": "2026-05-27",
+    "text": "Riksdagen beslutade om utökade registerkontroller inom skolväsendet (prop. 2025/26:174). Ikraftträdande 15 juli 2026.",
+    "reform_ids": [
+      "register"
+    ],
+    "kalla": {
+      "text": "Riksdagsbeslut — bet. 2025/26:UbU29, rskr. 2025/26:300",
+      "url": "https://data.riksdagen.se/dokument/HD01UbU29.html"
+    }
+  },
+  {
+    "datum": "2026-05-27",
+    "text": "Riksdagen beslutade om en reformerad yrkesutbildning (prop. 2025/26:198). Entreprenad och rätt att fullfölja träder i kraft 1 juli 2026; övriga ändringar 2 juli 2028.",
+    "reform_ids": [
+      "yrkes"
+    ],
+    "kalla": {
+      "text": "Riksdagsbeslut — bet. 2025/26:UbU27, rskr. 2025/26:307",
+      "url": "https://data.riksdagen.se/dokument/HD01UbU27.html"
+    }
+  },
+  {
+    "datum": "2026-05-26",
+    "text": "Riksdagen beslutade om offentlighetsprincip för fristående skolor (prop. 2025/26:191). Ikraftträdande 1 januari 2027.",
+    "reform_ids": [
+      "offentlighet"
+    ],
+    "kalla": {
+      "text": "Riksdagsbeslut — bet. 2025/26:UbU20, rskr. 2025/26:277",
+      "url": "https://data.riksdagen.se/dokument/HD01UbU20.html"
+    }
+  }
+]

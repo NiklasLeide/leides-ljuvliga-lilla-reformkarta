@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Senaste ändringarna på reformkartan i omvänd kronologisk ordning — riksdagsbeslut och innehållsuppdateringar, varje post spårbar till sin källa.">
+<link rel="canonical" href="https://reformer.leide.se/andringar.html">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="sv_SE">
+<meta property="og:url" content="https://reformer.leide.se/andringar.html">
+<meta property="og:title" content="Senaste ändringar — Reformkartan">
+<meta property="og:description" content="Senaste ändringarna på reformkartan i omvänd kronologisk ordning — riksdagsbeslut och innehållsuppdateringar, varje post spårbar till sin källa.">
+<meta property="og:image" content="https://reformer.leide.se/assets/og-image.png">
+<title>Senaste ändringar — Skolreformer 2025–2028</title>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --ink: #1c1c1c;
+  --bg: #f7f6f3;
+  --card: #ffffff;
+  --border: #e5e2dc;
+  --muted: #999;
+  --kunskap: #1d4ed8;
+  --kunskap-bg: #dbeafe;
+  --trygghet: #b91c1c;
+  --trygghet-bg: #fee2e2;
+  --larare: #15803d;
+  --larare-bg: #dcfce7;
+  --styrning: #6d28d9;
+  --styrning-bg: #ede9fe;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'DM Sans', system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+header { background: var(--ink); color: #fff; padding: 1.8rem 1.5rem 1.5rem; }
+.header-inner { max-width: 100%; margin: 0 auto; padding: 0 1.5rem; }
+.header-badge {
+  font-size: 0.6rem; font-weight: 600; letter-spacing: 0.08em;
+  text-transform: uppercase; color: rgba(255,255,255,0.35); margin-bottom: 0.4rem;
+}
+header h1 { font-family: 'Source Serif 4', serif; font-size: 1.6rem; font-weight: 600; line-height: 1.2; margin-bottom: 0.3rem; }
+header p { font-size: 0.82rem; color: rgba(255,255,255,0.5); max-width: 560px; }
+
+/* Tab navigation */
+.tab-nav { display: flex; gap: 0; background: var(--card); border-bottom: 1px solid var(--border); overflow-x: auto; }
+.tab-nav a {
+  padding: 0.65rem 1.2rem; font-size: 0.75rem; font-weight: 500; color: var(--muted);
+  text-decoration: none; border-bottom: 2px solid transparent; transition: all 0.15s; white-space: nowrap;
+}
+.tab-nav a:hover { color: var(--ink); }
+.tab-nav a.active { color: var(--ink); font-weight: 600; border-bottom-color: var(--ink); }
+
+.container { max-width: 760px; margin: 0 auto; padding: 1.5rem 1.5rem 2.2rem; }
+.intro { font-size: 0.82rem; color: #555; margin-bottom: 1.3rem; line-height: 1.6; }
+
+/* Ändringslista — omvänt kronologisk */
+.andringar { list-style: none; }
+.dategroup { margin-bottom: 1.4rem; }
+.dategroup > .datehead {
+  font-family: 'Source Serif 4', serif; font-size: 0.95rem; font-weight: 600;
+  color: var(--ink); margin-bottom: 0.5rem; padding-bottom: 0.25rem; border-bottom: 1px solid var(--border);
+}
+.andring {
+  background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+  padding: 0.85rem 0.95rem; margin-bottom: 0.6rem;
+}
+.andring-text { font-size: 0.86rem; color: var(--ink); line-height: 1.55; }
+.andring-meta { display: flex; flex-wrap: wrap; gap: 0.4rem 0.7rem; align-items: center; margin-top: 0.55rem; }
+.reform-tag {
+  font-size: 0.66rem; font-weight: 500; text-decoration: none;
+  padding: 0.12rem 0.5rem; border-radius: 999px;
+  background: var(--kunskap-bg); color: var(--kunskap); border: 1px solid transparent;
+}
+.reform-tag:hover { border-color: var(--kunskap); }
+.reform-tag.cat-trygghet { background: var(--trygghet-bg); color: var(--trygghet); }
+.reform-tag.cat-trygghet:hover { border-color: var(--trygghet); }
+.reform-tag.cat-larare { background: var(--larare-bg); color: var(--larare); }
+.reform-tag.cat-larare:hover { border-color: var(--larare); }
+.reform-tag.cat-styrning { background: var(--styrning-bg); color: var(--styrning); }
+.reform-tag.cat-styrning:hover { border-color: var(--styrning); }
+.andring-kalla { font-size: 0.7rem; }
+.andring-kalla a { color: var(--muted); text-decoration: none; }
+.andring-kalla a:hover { color: var(--ink); text-decoration: underline; }
+.tom { color: var(--muted); font-size: 0.85rem; padding: 2rem 0; text-align: center; }
+
+footer {
+  text-align: center; padding: 1.5rem 0 2rem; font-size: 0.62rem; color: #ccc;
+  line-height: 1.7; margin-top: 1rem; border-top: 1px solid var(--border);
+}
+
+@media (max-width: 800px) {
+  header { padding: 1rem 1rem 0.8rem; }
+  header h1 { font-size: 1.2rem; }
+  header p { font-size: 0.72rem; }
+  .container { padding: 1.1rem 0.8rem 1.6rem; }
+  .tab-nav a { padding: 0.5rem 0.8rem; font-size: 0.68rem; }
+  footer { font-size: 0.55rem; padding: 1rem 0 1.2rem; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="header-badge">Kunskapsyta<span data-fresh></span> · Privatprojekt av Niklas Leide</div>
+    <h1>Senaste ändringar</h1>
+    <p>Vad som ändrats på sajten, nyast först — så att bevakningen syns. Varje post är spårbar till sitt beslut eller sin källa.</p>
+  </div>
+</header>
+
+<div class="tab-nav">
+  <a href="index.html">Reformkarta</a>
+  <a href="reformer.html">Reformer</a>
+  <a href="uppdrag.html">Uppdrag</a>
+  <a href="utredningar.html">Utredningar</a>
+  <a href="tidslinje.html">Tidslinje</a>
+  <a href="guide.html">Guide</a>
+  <a href="andringar.html" class="active">Ändringar</a>
+</div>
+
+<div class="container">
+  <p class="intro">Sajten bevakas löpande mot riksdagen och regeringen. Här listas innehållsändringar
+  i omvänd kronologisk ordning. Datumet är beslutsdatum (riksdagens beslut) för de poster som avser
+  riksdagsbeslut.</p>
+  <ul class="andringar" id="andringar"><li class="tom">Läser ändringar …</li></ul>
+</div>
+
+<footer>
+  Källor: regeringen.se, riksdagen.se<span data-fresh></span><br>
+  Kontrollera datum mot originaldokumenten. Dela gärna med kollegor.<br>
+  © 2026 Niklas Leide
+</footer>
+
+<script>
+'use strict';
+
+var MANADER = ['januari','februari','mars','april','maj','juni','juli','augusti','september','oktober','november','december'];
+// Manuell datumformatering — parsar YYYY-MM-DD som strängdelar, aldrig new Date()
+// (undviker tidszonsglidning där UTC-midnatt kan hamna på fel dag lokalt).
+function svensktDatum(iso) {
+  var p = String(iso).split('-');
+  if (p.length !== 3) return String(iso);
+  var d = +p[2], mo = +p[1];
+  if (!d || mo < 1 || mo > 12) return String(iso);
+  return d + ' ' + MANADER[mo - 1] + ' ' + p[0];
+}
+function esc(s) {
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+(function () {
+  Promise.all([
+    fetch('data/andringar.json').then(function (r) { if (!r.ok) throw new Error('andringar.json: HTTP ' + r.status); return r.json(); }),
+    fetch('data/reforms.json').then(function (r) { if (!r.ok) throw new Error('reforms.json: HTTP ' + r.status); return r.json(); })
+  ]).then(function (res) {
+    var poster = res[0], reforms = res[1];
+    var reformById = {};
+    reforms.forEach(function (x) { reformById[x.id] = x; });
+
+    // Runtime-validering: fail loud i konsolen vid okänt reform_id (samma mönster som guide-vyn)
+    poster.forEach(function (p, i) {
+      (p.reform_ids || []).forEach(function (id) {
+        if (!reformById[id]) console.error('Ändringar: post ' + i + ' (' + p.datum + ') refererar okänt reform_id "' + id + '" — finns inte i reforms.json');
+      });
+    });
+
+    // Omvänt kronologisk (datan är redan sorterad, men vi säkrar det)
+    poster = poster.slice().sort(function (a, b) { return String(b.datum).localeCompare(String(a.datum)); });
+
+    var el = document.getElementById('andringar');
+    if (!poster.length) { el.innerHTML = '<li class="tom">Inga ändringar registrerade ännu.</li>'; return; }
+
+    // Gruppera per datum för läsbar rubrikstruktur
+    var html = '', sisteDatum = null;
+    poster.forEach(function (p) {
+      if (p.datum !== sisteDatum) {
+        if (sisteDatum !== null) html += '</div>';
+        html += '<li class="dategroup"><div class="datehead">' + esc(svensktDatum(p.datum)) + '</div>';
+        sisteDatum = p.datum;
+      }
+      html += '<div class="andring"><div class="andring-text">' + esc(p.text) + '</div><div class="andring-meta">';
+      (p.reform_ids || []).forEach(function (id) {
+        var r = reformById[id];
+        if (!r) return;
+        var cat = r.cat ? ' cat-' + esc(r.cat) : '';
+        html += '<a class="reform-tag' + cat + '" href="reformer.html?reform=' + esc(id) + '">' + esc(r.short || id) + '</a>';
+      });
+      if (p.kalla && p.kalla.url) {
+        html += '<span class="andring-kalla"><a href="' + esc(p.kalla.url) + '" target="_blank" rel="noopener">' + esc(p.kalla.text || 'Källa') + ' ↗</a></span>';
+      }
+      html += '</div></div>';
+    });
+    html += '</div>';
+    el.innerHTML = html;
+  }).catch(function (err) {
+    console.error('Ändringar: datainläsning misslyckades —', err);
+    document.getElementById('andringar').innerHTML = '<li class="tom">Kunde inte läsa ändringsdata. Se konsolen.</li>';
+  });
+})();
+
+// På smala skärmar scrollar naven horisontellt — håll aktiva fliken synlig.
+document.querySelector('.tab-nav a.active') && document.querySelector('.tab-nav a.active').scrollIntoView({ inline: 'center', block: 'nearest' });
+</script>
+
+<script>
+/* Färskhetsstämpel (Sprint 12 T3) — läser data/meta.json, renderar svenskt datum
+   utan new Date()-tidszontolkning (parsar strängen manuellt). Tyst fallback:
+   kan filen inte läsas visas ingen stämpel — hellre tyst än fel datum. */
+(function(){
+  var MM=['januari','februari','mars','april','maj','juni','juli','augusti','september','oktober','november','december'];
+  fetch('data/meta.json').then(function(r){return r.ok?r.json():null;}).then(function(m){
+    if(!m||!m.senast_uppdaterad)return;
+    var p=String(m.senast_uppdaterad).split('-'),d=+p[2],mo=+p[1];
+    if(p.length!==3||!d||mo<1||mo>12)return;
+    var s=' · Senast uppdaterad '+d+' '+MM[mo-1]+' '+p[0];
+    document.querySelectorAll('[data-fresh]').forEach(function(el){el.textContent=s;});
+  }).catch(function(){});
+})();
+</script>
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9d66c8f5b9da46078ca71ab819946f62"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>

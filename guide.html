@@ -3,6 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Läsårshjul för huvudmän: vilka nya skolregler som gäller från när, för din verksamhet. Ur riksdagens och regeringens beslut — en överblick, inte rådgivning.">
+<link rel="canonical" href="https://reformer.leide.se/guide.html">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="sv_SE">
+<meta property="og:url" content="https://reformer.leide.se/guide.html">
+<meta property="og:title" content="Guide för huvudmän — Reformkartan">
+<meta property="og:description" content="Läsårshjul för huvudmän: vilka nya skolregler som gäller från när, för din verksamhet. Ur riksdagens och regeringens beslut — en överblick, inte rådgivning.">
+<meta property="og:image" content="https://reformer.leide.se/assets/og-image.png">
 <title>Guide — Skolreformer 2025–2028</title>
 <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -183,7 +191,7 @@ footer { max-width: 1080px; margin: 0 auto; padding: 1.2rem 1.5rem 2rem; text-al
 
 <header>
   <div class="header-inner">
-    <div class="header-badge">Kunskapsyta · juni 2026 · Privatprojekt av Niklas Leide</div>
+    <div class="header-badge">Kunskapsyta<span data-fresh></span> · Privatprojekt av Niklas Leide</div>
     <h1>Läsårshjul</h1>
     <div class="header-under">nya regler för din verksamhet — ur officiella beslut, inte rådgivning</div>
   </div>
@@ -196,6 +204,7 @@ footer { max-width: 1080px; margin: 0 auto; padding: 1.2rem 1.5rem 2rem; text-al
   <a href="utredningar.html">Utredningar</a>
   <a href="tidslinje.html">Tidslinje</a>
   <a href="guide.html" class="active">Guide</a>
+  <a href="andringar.html">Ändringar</a>
 </div>
 
 <div class="container">
@@ -693,6 +702,21 @@ async function init() {
 init();
 // På smala skärmar scrollar naven horisontellt — håll aktiva fliken synlig.
 document.querySelector('.tab-nav a.active')?.scrollIntoView({ inline: 'center', block: 'nearest' });
+</script>
+<script>
+/* Färskhetsstämpel (Sprint 12 T3) — läser data/meta.json, renderar svenskt datum
+   utan new Date()-tidszontolkning (parsar strängen manuellt). Tyst fallback:
+   kan filen inte läsas visas ingen stämpel — hellre tyst än fel datum. */
+(function(){
+  var MM=['januari','februari','mars','april','maj','juni','juli','augusti','september','oktober','november','december'];
+  fetch('data/meta.json').then(function(r){return r.ok?r.json():null;}).then(function(m){
+    if(!m||!m.senast_uppdaterad)return;
+    var p=String(m.senast_uppdaterad).split('-'),d=+p[2],mo=+p[1];
+    if(p.length!==3||!d||mo<1||mo>12)return;
+    var s=' · Senast uppdaterad '+d+' '+MM[mo-1]+' '+p[0];
+    document.querySelectorAll('[data-fresh]').forEach(function(el){el.textContent=s;});
+  }).catch(function(){});
+})();
 </script>
 <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9d66c8f5b9da46078ca71ab819946f62"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
