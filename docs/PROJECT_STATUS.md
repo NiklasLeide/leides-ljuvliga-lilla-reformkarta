@@ -1,10 +1,30 @@
 # Project Status — leides-ljuvliga-lilla-reformkarta
 
 > **Last updated:** 2026-06-17
-> **Current sprint:** Sprint 12 — Trovärdighetssprinten (Sprint 10 T6 kvar öppen)
+> **Current sprint:** Underhåll — Sprint 12 stängd 2026-06-17 (Sprint 10 T6 kvar öppen)
 > **Sprint dates:** juni 2026
 
 ---
+
+## Completed: Sprint 12 — Trovärdighetssprinten
+
+DoD-granskad och GODKÄND (T8, 2026-06-17) — alla 8 stop-condition-led verifierade
+mot verktygsresultat: nav (Guide+Ändringar) på 8 sidor, färskhetsstämpel ur meta.json
+(0 hårdkodade), andringar.html med 9 källbelagda poster, full meta/OG/canonical/og:image,
+mockups ur produktion, /bevakning underhåller meta.json+andringar.json, 61/61 node-tester,
+Pages-deploy f92b914 success. Deployad till produktion (T7).
+
+### Kända avvikelser (dokumenterade, accepterade — åtgärdas inte i Sprint 12)
+- **Live-URL-rendering + OG-delningspreview ej körd härifrån.** Sandboxen når inte
+  reformer.leide.se (curl 000 / WebFetch 403). Beläggen är GitHub Pages deploy-success
+  för exakt deploy-SHA + verifierat master-innehåll. Niklas slutkontroll i browser
+  (rendrerad sida + t.ex. OG-debugger) återstår — acceptansgrind, ej blockerande.
+- **gy25 + ai saknar guideposter** (känd sedan Sprint 11, uttalat out of scope här —
+  kräver egen researchrunda).
+- **Internt docs/ (utom docs/mockups) serveras fortfarande av GitHub Pages.**
+  Pre-existerande, utanför T6-scope (T6 exkluderade bara det arkiverade mockup-materialet).
+  Kandidat: exkludera hela docs/ ur Pages i en framtida städning (planeringsdokument
+  behöver inte vara publikt nåbara).
 
 ## Sprint 12 — Trovärdighetssprinten
 
@@ -35,7 +55,7 @@ underhåller både meta.json och andringar.json; DoD passerad.
 | T5 | Meta/OG/canonical + og-bild | alla publika .html, assets/, commit.sh | ✅ Done | Alla 8 publika sidor: unik `<meta description>` (~150 tecken, deskriptiv, 0 rådgivande ord), canonical + og:type/locale/url/title/description/image (6 og:*-taggar) med absoluta https://reformer.leide.se/-URL:er. assets/og-image.png (1200×630, giltig PNG, textbaserad i sajtens formspråk — kategoriprickar + serif-titel "Reformkartan" + reformer.leide.se, genererad via Playwright-screenshot) refererad med absolut URL från alla sidor. commit.sh stageär nu assets/ (annars tyst utebliven binärfil). Källverifiering mot live sker vid T7 (sandboxen når ej reformer.leide.se; taggar verifierade i källan, Niklas delningspreview-kontroll efter deploy). |
 | T6 | Städa repo-roten | reformkarta.html, docs/mockups/*, data/malbild.json, _config.yml, CLAUDE.md, commit.sh, CHANGELOG.md | ✅ Done | Grep: 0 skarpa sidor länkar till någon av de tre filerna. **Beslut per fil:** reformkarta.html → RADERAD (superseded prototyp, index.html är kanon, inget referensvärde utöver git). lasarshjul-mockup.html → FLYTTAD docs/mockups/ (DEC-015-spec för guide.html). malbild.html + data/malbild.json → FLYTTADE docs/mockups/ (verklig Sprint 3-feature, dold, superseded; json:en användes bara av den). docs/ serveras av GitHub Pages (default Jekyll, ingen .nojekyll) → nytt `_config.yml` med `exclude: [docs/mockups]` gör arkivet icke-serverat, så filerna är faktiskt ej nåbara på reformer.leide.se (inte bara olänkade). docs/mockups/README.md dokumenterar arkivet. CLAUDE.md-katalogstruktur uppdaterad (148 rader). commit.sh stageär nu *.yml (annars missas _config.yml). Roten har exakt de 8 publika sidorna. |
 | T7 | Deploy Sprint 12 | (deploy) | ✅ Done | dev→master merge `f92b914` pushad. GitHub Pages "build and deployment" för f92b914 (inkl. nya _config.yml) = completed/success — Jekyll-configen bröt inget. Master-roten verifierad: 0 "mars 2026" på alla 8 publika sidor, meta/OG/canonical + og-image på plats, andringar.html + meta.json med, mockupfiler borta ur roten (i docs/mockups/, exkluderade ur Pages). **Sandboxen når ej reformer.leide.se — rendrerad live-sida + delningspreview (OG-debugger) är Niklas slutkontroll; Pages-deploysuccess + verifierat master-innehåll är beläggen härifrån.** |
-| T8 | Run DoD review for this sprint | PROJECT_STATUS.md | ⬜ | dod-reviewer körd; avvikelser dokumenterade |
+| T8 | Run DoD review for this sprint | PROJECT_STATUS.md | ✅ Done | Subagent-DoD mot stop condition: alla 8 led GODKÄNDA med verktygsbelägg (nav 8 sidor, färskhetsstämpel headless-verifierad, andringar.json källbelagd + fail-loud, meta/OG/canonical/og:image komplett + unik, mockups ur master-roten, /bevakning+MAINTENANCE, 61/61 node-tester, Pages-deploy f92b914 success). Inga åtgärdskrävande avvikelser; 3 kända avvikelser accepterade och dokumenterade ovan. Sprint 12 → Completed. |
 
 ---
 
