@@ -21,7 +21,7 @@ fi
 # Stagea varje katalog för sig — git add aborterar hela kommandot vid första
 # saknade pathspec, så en saknad katalog (t.ex. src/) skulle annars hindra
 # senare i listan från att fångas.
-for d in docs/ src/ .claude/ data/ scripts/ .github/; do
+for d in docs/ src/ .claude/ data/ scripts/ .github/ assets/; do
   [ -d "$d" ] || continue
   git add "$d" 2>/dev/null || true
 done
