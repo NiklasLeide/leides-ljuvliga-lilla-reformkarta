@@ -58,6 +58,18 @@
           }
         ],
         "typ": "forberedande"
+      },
+      {
+        "titel": "Uppdrag om digitala prov",
+        "kort": "Regeringsuppdrag till Skolverket om digitala prov (24 juli 2026). Uppdragets innehåll framgår av regeringsbeslutet — se källan.",
+        "fulltext": "Regeringsuppdrag till Statens skolverk om digitala prov, daterat den 24 juli 2026. Uppdragets fullständiga innehåll och villkor framgår av regeringsbeslutet (se källan).",
+        "kallor": [
+          {
+            "text": "Regeringsuppdrag 2026-07-24",
+            "url": "https://www.regeringen.se/regeringsuppdrag/2026/07/uppdrag-till-statens-skolverk-om-digitala-prov/"
+          }
+        ],
+        "typ": "uppdrag"
       }
     ]
   },
