@@ -1,8 +1,48 @@
 # Project Status — leides-ljuvliga-lilla-reformkarta
 
-> **Last updated:** 2026-06-17
-> **Current sprint:** Underhåll — Sprint 12 stängd 2026-06-17 (Sprint 10 T6 kvar öppen)
-> **Sprint dates:** juni 2026
+> **Last updated:** 2026-08-25
+> **Current sprint:** Sprint 13 — Aktualiseringssprinten (rev B)
+> **Sprint dates:** augusti 2026
+
+---
+
+## Sprint 13 — Aktualiseringssprinten (rev B)
+
+**Mål:** Sajtens innehåll aktuellt och källbelagt per 2026-08-25 — tio veckors
+bevakningsskuld (v.25–v.35, issues #4–#11) avarbetad, friskolebeslutet infört,
+SFS-avstämning av juni-reformernas ikraftträdanden, grunden städad. Färskhetsstämpeln
+ska åter tala för sajten — 19 dagar före valet.
+
+**Miljö (T0 GODKÄND m. avvikelser):** gh CLI saknas → GitHub-ops via MCP. Sandbox-proxy
+blockerar svenska myndighetskällor (403) → alla live-uppslag lyfta ur tasklistan,
+ersatta med verifierade värden i bilaga A rev B (research gjord i Claude chat-projektet,
+se DEC-017). **Skärpt regel:** ingen task får kräva extern hämtning utanför GitHub;
+saknas ett värde i bilagan → stoppa och rapportera, patcha aldrig ur minne.
+
+**Out of scope:** guideposter gy25/ai; val26-koppling; tillgänglighet; CSS-refaktor;
+exkludering av docs/ ur Pages; ombyggnad av regleringsbrevsflödet (DEC-008 består);
+automatgenerering av andringar; ny funktionalitet/redesign.
+
+**Stop condition:** dev och master samma SHA + strö-branch borttagen; luckveckorna
+30/32/33 täckta via backdaterade dispatch; regleringsbrevskontroll dokumenterad (A.7);
+bilaga A-patchar applicerade med källor; SFS-avstämning dokumenterad + guide/reforms
+konsistenta; andringar+meta uppdaterade (stämpel=patchdatum); issues #4–#11 stängda;
+deployad till master med Pages-success; DoD passerad.
+
+| ID | Task | Filer | Status | Acceptance (rev B) |
+|----|------|-------|--------|------------|
+| T0 | Miljösmoketest desktop-appen | (ingen) | ✅ Done | GODKÄND m. avvikelser: gh saknas→MCP; proxy blockerar myndighetskällor→live-uppslag ur scope (bilaga A rev B). Repo/remote/git verifierade; testsvit 61/61; strö-branch-checkout upptäckt (→T1). |
+| T1 | Sprintregistrering + git-hygien | PROJECT_STATUS.md, DECISIONS.md, CLAUDE.md, git | 🔄 | Brief rev B + bilaga A registrerad; dev→master (T7/T8-bokföring bevarad), dev reset till master (rev-parse identiska); claude/brief-session-isyBT raderad (lokal+origin); default-branch master dokumenterad i CLAUDE.md; DEC-017. |
+| T2 | Backdaterad bevakning luckveckorna | GitHub Actions (dispatch via MCP) | ⬜ | Dispatch per fönster 07-13→07-20, 07-27→08-03, 08-03→08-10; körningar gröna; resultat dokumenterat; nya skolrelevanta deltan rapporterade till Niklas före patch. |
+| T3 | ~~Manuell regleringsbrevskontroll~~ | — | ✅ UTGÅR | Ersatt av bilaga A.7 (research-ledet). Regleringsbrevsvarningar i #4–#11 stängs i T9 m. hänvisning A.7 + Niklas okulärkontroll. |
+| T4 | Datapatch utredningar.json | data/utredningar.json | ⬜ | Fem poster per A.2 rev B — alla fält kompletta, inga uppslag. Fi 2025:07: status→avslutad, SOU 2026:44, namn→"Utredningen om integritetsfrämjande teknik i förvaltningen". JSON validerar, testsvit grön. |
+| T5 | Datapatch reforms.json — vinst | data/reforms.json | ⬜ | vinst→beslutad per A.1. Rskr null/utelämnat m. dokumenterad avvikelse (SFS ej utfärdad 2026-08-25). Inga uppslag. |
+| T6 | SFS-avstämning juni-reformerna (krympt) | data/guide.json, data/reforms.json | ⬜ | A.6: guide.json tid-posten BEHÅLLS + SFS-nr per ikrafttradande; reforms.json tid ikraft→stegvis 1 aug 2026/1 juli 2027/1 juli 2028; övriga juni-reformer oförändrade (1 juli 2028 konsistent, SFS 2026:1242). Testsvit grön. |
+| T7 | Datapatch uppdrag.json | data/uppdrag.json | ⬜ | Två uppdrag per A.3: digitala prov→betyg; införandestöd→noder per uppdragstextens egna angivelser (inga→rapportera). Triage statsbidrag AVFÖRD (A.3, statsbidragsförordning utanför reformspårning). Testsvit grön. |
+| T8 | andringar.json + meta.json + språkfix | data/andringar.json, data/meta.json | ⬜ | Post 2026-08-13 (prop 292, bet+rskr som källa); betänkandeposter per A.2 (datum=överlämning); post 2026-06-09 titel→"Tid för undervisningsuppdraget" + stegvis formulering; fail-loud grön; meta=patchdatum. |
+| T9 | Stäng issues #4–#11 | GitHub Issues (MCP) | ⬜ | Varje punkt disposition (åtgärdad i commit X / avförd A.4 / hanterad T2/A.7); åtta stängda m. commit-ref; regleringsbrevsvarningar→A.7 + Niklas okulärkontroll som acceptansgrind. |
+| T10 | Deploy Sprint 13 | (deploy) | ⬜ | dev→master; Pages-deploy success; färskhetsstämpel=patchdatum (Niklas browser-kontroll). |
+| T11 | DoD review | PROJECT_STATUS.md | ⬜ | dod-reviewer mot stop condition; avvikelser dokumenterade; Sprint 13→Completed. |
 
 ---
 
