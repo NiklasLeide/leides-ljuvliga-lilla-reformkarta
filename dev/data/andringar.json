@@ -1,5 +1,63 @@
 [
   {
+    "datum": "2026-08-18",
+    "text": "Slutbetänkandet SOU 2026:52 (En reform av den statliga barn- och ungdomsvården) överlämnades till regeringen.",
+    "reform_ids": [],
+    "kalla": {
+      "text": "SOU 2026:52",
+      "url": "https://data.riksdagen.se/dokument/HEB352.html"
+    }
+  },
+  {
+    "datum": "2026-08-17",
+    "text": "Slutbetänkandet SOU 2026:51 (Fri att lära och leva) överlämnades till regeringen.",
+    "reform_ids": [],
+    "kalla": {
+      "text": "SOU 2026:51",
+      "url": "https://data.riksdagen.se/dokument/HEB351.html"
+    }
+  },
+  {
+    "datum": "2026-08-13",
+    "text": "Riksdagen beslutade om skärpta villkor för friskolesektorn (prop. 2025/26:292). Ikraftträdande 1 juli 2027.",
+    "reform_ids": [
+      "vinst"
+    ],
+    "kalla": {
+      "text": "Riksdagsbeslut — bet. 2025/26:UbU30",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/skarpta-villkor-for-friskolesektorn_hd01ubu30/"
+    }
+  },
+  {
+    "datum": "2026-08-13",
+    "text": "Slutbetänkandet SOU 2026:50 (En ny speciallärarutbildning) överlämnades till regeringen.",
+    "reform_ids": [],
+    "kalla": {
+      "text": "SOU 2026:50",
+      "url": "https://www.regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2026/08/sou-202650/"
+    }
+  },
+  {
+    "datum": "2026-07-02",
+    "text": "Slutbetänkandet SOU 2026:44 (En stärkt förmåga till modern datadelning – integritetsfrämjande teknik i offentlig förvaltning) överlämnades till regeringen.",
+    "reform_ids": [],
+    "kalla": {
+      "text": "SOU 2026:44",
+      "url": "https://data.riksdagen.se/dokument/HEB344.html"
+    }
+  },
+  {
+    "datum": "2026-06-17",
+    "text": "Slutbetänkandet SOU 2026:37 (Förutsättningar för en likvärdig och språkutvecklande förskola) överlämnades till regeringen.",
+    "reform_ids": [
+      "sprak"
+    ],
+    "kalla": {
+      "text": "SOU 2026:37",
+      "url": "https://data.riksdagen.se/dokument/HEB337.html"
+    }
+  },
+  {
     "datum": "2026-06-09",
     "text": "Riksdagen beslutade om ett nytt betygssystem med skalan 1–10 (prop. 2025/26:197). Skollagsändringarna träder i kraft 1 juli 2028; ny betygsskala införs stegvis från höstterminen 2027.",
     "reform_ids": [
@@ -12,24 +70,13 @@
   },
   {
     "datum": "2026-06-09",
-    "text": "Riksdagen beslutade om reglerad undervisningstid för lärare (prop. 2025/26:196). Ikraftträdande ännu inte fastställt.",
+    "text": "Riksdagen beslutade om propositionen Tid för undervisningsuppdraget (prop. 2025/26:196). Ikraftträdande stegvis: 1 augusti 2026, 1 juli 2027 och 1 juli 2028 (SFS 2026:1096/1097/1243).",
     "reform_ids": [
       "tid"
     ],
     "kalla": {
       "text": "Riksdagsbeslut — bet. 2025/26:UbU25, rskr. 2025/26:332",
       "url": "https://data.riksdagen.se/dokument/HD01UbU25.html"
-    }
-  },
-  {
-    "datum": "2026-06-03",
-    "text": "Riksdagen beslutade om nya läroplaner och en tydligare kunskapsinriktning (prop. 2025/26:194). Merparten träder i kraft 1 juli 2028.",
-    "reform_ids": [
-      "laroplaner"
-    ],
-    "kalla": {
-      "text": "Riksdagsbeslut — bet. 2025/26:UbU23, rskr. 2025/26:327",
-      "url": "https://data.riksdagen.se/dokument/HD01UbU23.html"
     }
   },
   {
@@ -41,6 +88,17 @@
     "kalla": {
       "text": "Riksdagsbeslut — bet. 2025/26:UbU24, rskr. 2025/26:328",
       "url": "https://data.riksdagen.se/dokument/HD01UbU24.html"
+    }
+  },
+  {
+    "datum": "2026-06-03",
+    "text": "Riksdagen beslutade om nya läroplaner och en tydligare kunskapsinriktning (prop. 2025/26:194). Merparten träder i kraft 1 juli 2028.",
+    "reform_ids": [
+      "laroplaner"
+    ],
+    "kalla": {
+      "text": "Riksdagsbeslut — bet. 2025/26:UbU23, rskr. 2025/26:327",
+      "url": "https://data.riksdagen.se/dokument/HD01UbU23.html"
     }
   },
   {
@@ -67,17 +125,6 @@
   },
   {
     "datum": "2026-05-27",
-    "text": "Riksdagen beslutade om utökade registerkontroller inom skolväsendet (prop. 2025/26:174). Ikraftträdande 15 juli 2026.",
-    "reform_ids": [
-      "register"
-    ],
-    "kalla": {
-      "text": "Riksdagsbeslut — bet. 2025/26:UbU29, rskr. 2025/26:300",
-      "url": "https://data.riksdagen.se/dokument/HD01UbU29.html"
-    }
-  },
-  {
-    "datum": "2026-05-27",
     "text": "Riksdagen beslutade om en reformerad yrkesutbildning (prop. 2025/26:198). Entreprenad och rätt att fullfölja träder i kraft 1 juli 2026; övriga ändringar 2 juli 2028.",
     "reform_ids": [
       "yrkes"
@@ -85,6 +132,17 @@
     "kalla": {
       "text": "Riksdagsbeslut — bet. 2025/26:UbU27, rskr. 2025/26:307",
       "url": "https://data.riksdagen.se/dokument/HD01UbU27.html"
+    }
+  },
+  {
+    "datum": "2026-05-27",
+    "text": "Riksdagen beslutade om utökade registerkontroller inom skolväsendet (prop. 2025/26:174). Ikraftträdande 15 juli 2026.",
+    "reform_ids": [
+      "register"
+    ],
+    "kalla": {
+      "text": "Riksdagsbeslut — bet. 2025/26:UbU29, rskr. 2025/26:300",
+      "url": "https://data.riksdagen.se/dokument/HD01UbU29.html"
     }
   },
   {
