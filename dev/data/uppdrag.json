@@ -13,6 +13,20 @@
         "text": "Regleringsbrev 2026 (PDF)",
         "url": "https://www.statskontoret.se/regleringsbrev/25940/pdf?Version=HelaBrevet"
       }
+    ],
+    "relaterade": [
+      {
+        "titel": "Ändring av uppdraget om tioårig grundskola och nya läroplaner",
+        "kort": "Redovisningen av förslagen till nya och reviderade läroplaner senareläggs till 14 maj 2027 (U2026/00888, 24 aug 2026).",
+        "fulltext": "Ändring av uppdraget till Statens skolverk att förbereda införandet av en tioårig grundskola och ta fram förslag på nya läroplaner (U2025/02427, U2026/00888; 24 augusti 2026). Redovisningen av förslagen till nya och reviderade läroplaner senareläggs till den 14 maj 2027. Skolverket ska vid behov erbjuda en annan person en central roll om en förordnad expert från Läroplansutredningen (U 2023:09) avsäger sig deltagande.",
+        "kallor": [
+          {
+            "text": "Regeringsuppdrag (U2026/00888)",
+            "url": "https://www.regeringen.se/regeringsuppdrag/2026/08/andring-av-uppdraget-till-statens-skolverk-att-forbereda-inforandet-av-en-tioarig-grundskola-och-ta-fram-forslag-pa-nya-laroplaner/"
+          }
+        ],
+        "typ": "uppdrag"
+      }
     ]
   },
   "tioarig": {
@@ -28,6 +42,20 @@
       {
         "text": "Regeringsuppdrag (U2025/02427)",
         "url": "https://www.regeringen.se/regeringsuppdrag/2025/12/uppdrag-till-statens-skolverk-att-forbereda-inforandet-av-en-tioarig-grundskola-och-ta-fram-forslag-pa-nya-laroplaner/"
+      }
+    ],
+    "relaterade": [
+      {
+        "titel": "Ändring av uppdraget om tioårig grundskola och nya läroplaner",
+        "kort": "Redovisningen av förslagen till nya och reviderade läroplaner senareläggs till 14 maj 2027 (U2026/00888, 24 aug 2026).",
+        "fulltext": "Ändring av uppdraget till Statens skolverk att förbereda införandet av en tioårig grundskola och ta fram förslag på nya läroplaner (U2025/02427, U2026/00888; 24 augusti 2026). Redovisningen av förslagen till nya och reviderade läroplaner senareläggs till den 14 maj 2027. Skolverket ska vid behov erbjuda en annan person en central roll om en förordnad expert från Läroplansutredningen (U 2023:09) avsäger sig deltagande.",
+        "kallor": [
+          {
+            "text": "Regeringsuppdrag (U2026/00888)",
+            "url": "https://www.regeringen.se/regeringsuppdrag/2026/08/andring-av-uppdraget-till-statens-skolverk-att-forbereda-inforandet-av-en-tioarig-grundskola-och-ta-fram-forslag-pa-nya-laroplaner/"
+          }
+        ],
+        "typ": "uppdrag"
       }
     ]
   },
