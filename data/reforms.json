@@ -438,23 +438,40 @@
   {
     "id": "vinst",
     "short": "Vinst i skolan",
-    "ref": "SOU 2025:123",
+    "ref": "Prop. 2025/26:292",
     "cat": "styrning",
-    "ikraft": "Ej fastställt",
-    "status": "utredning",
-    "time": [],
+    "ikraft": "1 juli 2027",
+    "status": "beslutad",
+    "time": [
+      "2027"
+    ],
     "roles": [
       "chef"
     ],
     "x": 82,
     "y": 76,
-    "what": "Slutbetänkande om skärpta villkor för friskolesektorn. Ute på remiss.",
+    "what": "Skärpta villkor för friskolesektorn — bl.a. förbud mot värdeöverföring i tre situationer, krav på särredovisning, endast juridiska personer som enskilda huvudmän, anmälningsplikt vid nedläggning och sanktionsavgifter.",
     "changes": [
-      "Skärpta villkor för friskolesektorn"
+      "Förbud mot värdeöverföring i tre situationer (nyetablering, ägandeförändring, tillsynsföreläggande)",
+      "Krav på särredovisning",
+      "Skärpta krav på enskilda huvudmäns långsiktighet och ekonomi",
+      "Återbetalningsskyldighet för kommunbidrag i vissa fall",
+      "Endast juridiska personer som enskilda huvudmän",
+      "Anmälningsplikt vid nedläggning av skolenhet",
+      "Sanktionsavgifter",
+      "Statliga åtgärder för rättelse även för fristående skolor"
     ],
-    "transition": "Slutbetänkande på remiss. Ingen proposition ännu.",
+    "transition": "Riksdagen beslutade 2026-08-13 (bet. 2025/26:UbU30; rskr ej publicerad 2026-08-25). Prop. 2025/26:292, överlämnad 2026-06-25. Ikraftträdande 1 juli 2027.",
     "budget": "Ej specificerat.",
     "links": [
+      {
+        "t": "Proposition",
+        "u": "https://www.regeringen.se/rattsliga-dokument/proposition/2026/06/prop.-202526292"
+      },
+      {
+        "t": "Betänkande UbU30",
+        "u": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/skarpta-villkor-for-friskolesektorn_hd01ubu30/"
+      },
       {
         "t": "Pressmeddelande",
         "u": "https://www.regeringen.se/pressmeddelanden/2026/01/simona-mohamsson-tar-emot-utredning-om-vinst-i-skolan/"
