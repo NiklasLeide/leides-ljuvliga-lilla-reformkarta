@@ -18,6 +18,26 @@ Record of key decisions made during the project. **Newest first.**
 
 ---
 
+### DEC-017: Primärkällsuppslag i researchledet, källvärden inbäddade i Claude Code-tasks
+**Date:** 2026-08-25
+**Decision:** Alla primärkällsuppslag (riksdagen, regeringen.se, sou.gov.se, SFS,
+Statsliggaren) utförs i **researchledet** (Claude chat-projektet). Claude Code-tasks
+innehåller alla källvärden inbäddade (bilaga A-mönstret). Ingen Code-task får kräva
+extern hämtning utanför GitHub; saknas ett värde i bilagan → stoppa och rapportera,
+patcha aldrig ur minne eller gissning.
+**Reasoning:** Sandboxens nätpolicy (upptäckt i Sprint 13 T0) blockerar svenska
+myndighetskällor med 403 CONNECT — Claude Code kan bevisligen inte nå dem. Det gör
+research-i-chatten / patch-i-Code-uppdelningen strukturellt tvingande, inte bara en
+konvention. GitHub (via MCP) är den enda externa yta Code når, så
+bevaknings-workflowets dispatch-körningar (som exekverar på GitHubs runners) är
+undantaget som fungerar.
+**Alternatives considered:** Låta Code slå upp källor direkt (omöjligt — proxyn nekar);
+patcha ur minne/uppskattning (bryter mot projektets faktakontrollregel — null före
+gissning); köra hela sprinten i en nätöppen miljö (giltigt men inte alltid tillgängligt;
+bilaga A-mönstret gör Code-ledet miljöoberoende).
+
+---
+
 ### DEC-016: Ändringssidan (andringar.html) — datum = beslutsdatum, källbelagd seedning
 **Date:** 2026-06-17
 **Decision:** (Sprint 12 T4) Ny publik sida `andringar.html` + `data/andringar.json`

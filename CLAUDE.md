@@ -71,6 +71,15 @@ leides-ljuvliga-lilla-reformkarta/
 └── .claude/commands/      ← custom slash commands
 ```
 
+## Branch-läge (default = master)
+**Default-branch är `master`** (produktion, GitHub Pages). `dev` är arbetsbranch.
+Normalflöde: arbeta på `dev`, committa via `commit.sh`, deploya `dev→master` via
+`deploy.sh`. Efter varje sprintstädning ska `dev` och `master` peka på samma SHA
+(`git rev-parse dev master` identiska) — divergens hanteras enligt commit.sh:s
+skyddsräcken (se TROUBLESHOOTING). Sessions-strö-branchar (t.ex. `claude/brief-…`)
+raderas när deras arbete nått master; kontrollera existens mot `origin`, aldrig
+enbart lokalt (git-fetch-vid-sessionsstart-regeln).
+
 ## Commit Rule (non-negotiable)
 **Always use `./commit.sh "message"` — never bare `git commit`.**
 Använd commit.sh för att committa och pusha — det går alltid till dev.
