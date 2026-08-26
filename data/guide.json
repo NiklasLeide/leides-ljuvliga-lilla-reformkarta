@@ -110,9 +110,9 @@
   {
     "reform_id": "tid",
     "ikrafttradanden": [
-      { "datum": "2026-08-01", "typ": "ikraft", "omfattning": "Lagändringarna om kränkande behandling börjar gälla den 1 augusti 2026" },
-      { "datum": "2027-07-01", "typ": "ikraft", "omfattning": "Ändringarna om undervisningsuppdraget börjar gälla den 1 juli 2027" },
-      { "datum": "2028-07-01", "typ": "ikraft", "omfattning": "Övriga ändringar börjar gälla den 1 juli 2028" }
+      { "datum": "2026-08-01", "typ": "ikraft", "omfattning": "Lagändringarna om kränkande behandling börjar gälla den 1 augusti 2026 (SFS 2026:1096)" },
+      { "datum": "2027-07-01", "typ": "ikraft", "omfattning": "Ändringarna om undervisningsuppdraget börjar gälla den 1 juli 2027 (SFS 2026:1097)" },
+      { "datum": "2028-07-01", "typ": "ikraft", "omfattning": "Övriga ändringar börjar gälla den 1 juli 2028 (SFS 2026:1243)" }
     ],
     "overgangsbestammelser": [
       {
