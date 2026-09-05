@@ -67,6 +67,12 @@ och följ dem; de upprepas inte här.
      styrande beslut, annars dagens patchdatum — var konsekvent, notera valet
      i changelog-raden). Stämpeln "Senast uppdaterad …" på alla publika sidor
      läser detta fält; en datapatch utan bump ljuger om aktualiteten.
+   - **Konvention för vad som blir en andringar-post (Sprint 13):** riksdagsbeslut,
+     betänkanden, konkreta status-/datumändringar samt **nya spårade utredningar**
+     (en ny utredning i utredningar.json är en statushändelse) → JA. Nya
+     regeringsuppdrag → NEJ, de hör hemma i uppdragsvyn. Saknas substans i ett
+     delta (t.ex. tilläggsdirektiv utan verifierat innehåll) → ingen post förrän
+     innehållet är verifierat.
    - **Logga ändringen (Sprint 12 T4):** varje åtgärda-delta som ändrar
      innehåll ska i SAMMA commit lägga en post överst i `data/andringar.json`
      (omvänt kronologisk — nyast först): `{datum, text, reform_ids, kalla}`.
