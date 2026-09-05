@@ -1,5 +1,16 @@
 [
   {
+    "datum": "2026-08-27",
+    "text": "Regeringen tillsatte Utredningen om åtgärder för lämpliga klasstorlekar (Dir. 2026:96). Utredningen redovisas senast 28 januari 2028.",
+    "reform_ids": [
+      "tid"
+    ],
+    "kalla": {
+      "text": "Dir. 2026:96",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/kommittedirektiv/atgarder-for-lampliga-klasstorlekar_heb196/"
+    }
+  },
+  {
     "datum": "2026-08-24",
     "text": "Regeringen ändrade Skolverkets uppdrag om tioårig grundskola och nya läroplaner: redovisningen av läroplansförslagen senareläggs till 14 maj 2027.",
     "reform_ids": [
