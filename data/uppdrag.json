@@ -13,6 +13,32 @@
         "text": "Regleringsbrev 2026 (PDF)",
         "url": "https://www.statskontoret.se/regleringsbrev/25940/pdf?Version=HelaBrevet"
       }
+    ],
+    "relaterade": [
+      {
+        "titel": "Ändring av uppdraget om tioårig grundskola och nya läroplaner",
+        "kort": "Redovisningen av förslagen till nya och reviderade läroplaner senareläggs till 14 maj 2027 (U2026/00888, 24 aug 2026).",
+        "fulltext": "Ändring av uppdraget till Statens skolverk att förbereda införandet av en tioårig grundskola och ta fram förslag på nya läroplaner (U2025/02427, U2026/00888; 24 augusti 2026). Redovisningen av förslagen till nya och reviderade läroplaner senareläggs till den 14 maj 2027. Skolverket ska vid behov erbjuda en annan person en central roll om en förordnad expert från Läroplansutredningen (U 2023:09) avsäger sig deltagande.",
+        "kallor": [
+          {
+            "text": "Regeringsuppdrag (U2026/00888)",
+            "url": "https://www.regeringen.se/regeringsuppdrag/2026/08/andring-av-uppdraget-till-statens-skolverk-att-forbereda-inforandet-av-en-tioarig-grundskola-och-ta-fram-forslag-pa-nya-laroplaner/"
+          }
+        ],
+        "typ": "uppdrag"
+      },
+      {
+        "titel": "Uppdrag att genomföra insatser för att stödja införandet av skolreformer",
+        "kort": "Samlade implementeringsinsatser för de riksdagsbeslutade reformerna (U2026/01265). Avser bl.a. prop. 2025/26:194 (bet. 2025/26:UbU23, rskr. 2025/26:327). Utvärderingsförslag 2 nov 2026; delredovisas 1 juni 2027; slutredovisas 15 juni 2029.",
+        "fulltext": "Uppdrag till Statens skolverk att genomföra insatser för att stödja införandet av skolreformer (U2026/01265, 23 juni 2026). Skolverket ska genomföra samlade och målgruppsanpassade implementeringsinsatser för de riksdagsbeslutade reformerna. Insatserna ska ge stöd till huvudmän, skolchefer, rektorer, lärare och förskollärare samt information till elever och vårdnadshavare. Skolverket ska även lämna förslag på hur reformerna kan utvärderas, vilket redovisas senast den 2 november 2026. Implementeringen delredovisas den 1 juni 2027 och slutredovisas den 15 juni 2029.",
+        "kallor": [
+          {
+            "text": "Regeringsuppdrag (U2026/01265)",
+            "url": "https://www.regeringen.se/regeringsuppdrag/2026/06/uppdrag-till-statens-skolverk-att-genomfora-insatser-for-att-stodja-inforandet-av-skolreformer/"
+          }
+        ],
+        "typ": "uppdrag"
+      }
     ]
   },
   "tioarig": {
@@ -28,6 +54,20 @@
       {
         "text": "Regeringsuppdrag (U2025/02427)",
         "url": "https://www.regeringen.se/regeringsuppdrag/2025/12/uppdrag-till-statens-skolverk-att-forbereda-inforandet-av-en-tioarig-grundskola-och-ta-fram-forslag-pa-nya-laroplaner/"
+      }
+    ],
+    "relaterade": [
+      {
+        "titel": "Ändring av uppdraget om tioårig grundskola och nya läroplaner",
+        "kort": "Redovisningen av förslagen till nya och reviderade läroplaner senareläggs till 14 maj 2027 (U2026/00888, 24 aug 2026).",
+        "fulltext": "Ändring av uppdraget till Statens skolverk att förbereda införandet av en tioårig grundskola och ta fram förslag på nya läroplaner (U2025/02427, U2026/00888; 24 augusti 2026). Redovisningen av förslagen till nya och reviderade läroplaner senareläggs till den 14 maj 2027. Skolverket ska vid behov erbjuda en annan person en central roll om en förordnad expert från Läroplansutredningen (U 2023:09) avsäger sig deltagande.",
+        "kallor": [
+          {
+            "text": "Regeringsuppdrag (U2026/00888)",
+            "url": "https://www.regeringen.se/regeringsuppdrag/2026/08/andring-av-uppdraget-till-statens-skolverk-att-forbereda-inforandet-av-en-tioarig-grundskola-och-ta-fram-forslag-pa-nya-laroplaner/"
+          }
+        ],
+        "typ": "uppdrag"
       }
     ]
   },
@@ -58,6 +98,30 @@
           }
         ],
         "typ": "forberedande"
+      },
+      {
+        "titel": "Uppdrag om digitala prov",
+        "kort": "Regeringsuppdrag till Skolverket om digitala prov (24 juli 2026). Uppdragets innehåll framgår av regeringsbeslutet — se källan.",
+        "fulltext": "Regeringsuppdrag till Statens skolverk om digitala prov, daterat den 24 juli 2026. Uppdragets fullständiga innehåll och villkor framgår av regeringsbeslutet (se källan).",
+        "kallor": [
+          {
+            "text": "Regeringsuppdrag 2026-07-24",
+            "url": "https://www.regeringen.se/regeringsuppdrag/2026/07/uppdrag-till-statens-skolverk-om-digitala-prov/"
+          }
+        ],
+        "typ": "uppdrag"
+      },
+      {
+        "titel": "Uppdrag att genomföra insatser för att stödja införandet av skolreformer",
+        "kort": "Samlade implementeringsinsatser för de riksdagsbeslutade reformerna (U2026/01265). Avser bl.a. prop. 2025/26:197 (bet. 2025/26:UbU26, rskr. 2025/26:335). Utvärderingsförslag 2 nov 2026; delredovisas 1 juni 2027; slutredovisas 15 juni 2029.",
+        "fulltext": "Uppdrag till Statens skolverk att genomföra insatser för att stödja införandet av skolreformer (U2026/01265, 23 juni 2026). Skolverket ska genomföra samlade och målgruppsanpassade implementeringsinsatser för de riksdagsbeslutade reformerna. Insatserna ska ge stöd till huvudmän, skolchefer, rektorer, lärare och förskollärare samt information till elever och vårdnadshavare. Skolverket ska även lämna förslag på hur reformerna kan utvärderas, vilket redovisas senast den 2 november 2026. Implementeringen delredovisas den 1 juni 2027 och slutredovisas den 15 juni 2029.",
+        "kallor": [
+          {
+            "text": "Regeringsuppdrag (U2026/01265)",
+            "url": "https://www.regeringen.se/regeringsuppdrag/2026/06/uppdrag-till-statens-skolverk-att-genomfora-insatser-for-att-stodja-inforandet-av-skolreformer/"
+          }
+        ],
+        "typ": "uppdrag"
       }
     ]
   },
@@ -74,6 +138,20 @@
       {
         "text": "Pressmeddelande sep 2025",
         "url": "https://www.regeringen.se/pressmeddelanden/2025/09/reglering-av-larares-undervisningstid-stodundervisning-och-standardiserade-tester/"
+      }
+    ],
+    "relaterade": [
+      {
+        "titel": "Uppdrag att genomföra insatser för att stödja införandet av skolreformer",
+        "kort": "Samlade implementeringsinsatser för de riksdagsbeslutade reformerna (U2026/01265). Avser bl.a. prop. 2025/26:195 (bet. 2025/26:UbU24, rskr. 2025/26:328). Utvärderingsförslag 2 nov 2026; delredovisas 1 juni 2027; slutredovisas 15 juni 2029.",
+        "fulltext": "Uppdrag till Statens skolverk att genomföra insatser för att stödja införandet av skolreformer (U2026/01265, 23 juni 2026). Skolverket ska genomföra samlade och målgruppsanpassade implementeringsinsatser för de riksdagsbeslutade reformerna. Insatserna ska ge stöd till huvudmän, skolchefer, rektorer, lärare och förskollärare samt information till elever och vårdnadshavare. Skolverket ska även lämna förslag på hur reformerna kan utvärderas, vilket redovisas senast den 2 november 2026. Implementeringen delredovisas den 1 juni 2027 och slutredovisas den 15 juni 2029.",
+        "kallor": [
+          {
+            "text": "Regeringsuppdrag (U2026/01265)",
+            "url": "https://www.regeringen.se/regeringsuppdrag/2026/06/uppdrag-till-statens-skolverk-att-genomfora-insatser-for-att-stodja-inforandet-av-skolreformer/"
+          }
+        ],
+        "typ": "uppdrag"
       }
     ]
   },
@@ -123,6 +201,18 @@
           }
         ],
         "typ": "uppdrag"
+      },
+      {
+        "titel": "Uppdrag att genomföra insatser för att stödja införandet av skolreformer",
+        "kort": "Samlade implementeringsinsatser för de riksdagsbeslutade reformerna (U2026/01265). Avser bl.a. prop. 2025/26:193 (bet. 2025/26:UbU22, rskr. 2025/26:308). Utvärderingsförslag 2 nov 2026; delredovisas 1 juni 2027; slutredovisas 15 juni 2029.",
+        "fulltext": "Uppdrag till Statens skolverk att genomföra insatser för att stödja införandet av skolreformer (U2026/01265, 23 juni 2026). Skolverket ska genomföra samlade och målgruppsanpassade implementeringsinsatser för de riksdagsbeslutade reformerna. Insatserna ska ge stöd till huvudmän, skolchefer, rektorer, lärare och förskollärare samt information till elever och vårdnadshavare. Skolverket ska även lämna förslag på hur reformerna kan utvärderas, vilket redovisas senast den 2 november 2026. Implementeringen delredovisas den 1 juni 2027 och slutredovisas den 15 juni 2029.",
+        "kallor": [
+          {
+            "text": "Regeringsuppdrag (U2026/01265)",
+            "url": "https://www.regeringen.se/regeringsuppdrag/2026/06/uppdrag-till-statens-skolverk-att-genomfora-insatser-for-att-stodja-inforandet-av-skolreformer/"
+          }
+        ],
+        "typ": "uppdrag"
       }
     ]
   },
@@ -156,6 +246,20 @@
       {
         "text": "Regleringsbrev 2026 (PDF)",
         "url": "https://www.statskontoret.se/regleringsbrev/25940/pdf?Version=HelaBrevet"
+      }
+    ],
+    "relaterade": [
+      {
+        "titel": "Uppdrag att genomföra insatser för att stödja införandet av skolreformer",
+        "kort": "Samlade implementeringsinsatser för de riksdagsbeslutade reformerna (U2026/01265). Avser bl.a. prop. 2025/26:196 (bet. 2025/26:UbU25, rskr. 2025/26:332). Utvärderingsförslag 2 nov 2026; delredovisas 1 juni 2027; slutredovisas 15 juni 2029.",
+        "fulltext": "Uppdrag till Statens skolverk att genomföra insatser för att stödja införandet av skolreformer (U2026/01265, 23 juni 2026). Skolverket ska genomföra samlade och målgruppsanpassade implementeringsinsatser för de riksdagsbeslutade reformerna. Insatserna ska ge stöd till huvudmän, skolchefer, rektorer, lärare och förskollärare samt information till elever och vårdnadshavare. Skolverket ska även lämna förslag på hur reformerna kan utvärderas, vilket redovisas senast den 2 november 2026. Implementeringen delredovisas den 1 juni 2027 och slutredovisas den 15 juni 2029.",
+        "kallor": [
+          {
+            "text": "Regeringsuppdrag (U2026/01265)",
+            "url": "https://www.regeringen.se/regeringsuppdrag/2026/06/uppdrag-till-statens-skolverk-att-genomfora-insatser-for-att-stodja-inforandet-av-skolreformer/"
+          }
+        ],
+        "typ": "uppdrag"
       }
     ]
   },

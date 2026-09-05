@@ -278,7 +278,7 @@
     "beteckning": "U 2024:04",
     "titel": "Utredningen om en likvärdig förskola av god kvalitet med obligatorisk språkförskola",
     "dep": "Utbildningsdepartementet",
-    "status": "pagaende",
+    "status": "avslutad",
     "cat": "styrning",
     "utredare": "Eva Broström",
     "tillsatt": null,
@@ -287,10 +287,12 @@
       { "nr": "Dir. 2024:113", "datum": null, "typ": "huvud", "titel": "En likvärdig förskola av god kvalitet med obligatorisk språkförskola" },
       { "nr": "Dir. 2025:102", "datum": "2025-12-05", "typ": "tilläggs", "titel": "Tilläggsdirektiv till Utredningen om en likvärdig förskola av god kvalitet med obligatorisk språkförskola" }
     ],
-    "betankanden": [],
+    "betankanden": [
+      { "nr": "SOU 2026:37", "titel": "Förutsättningar för en likvärdig och språkutvecklande förskola", "typ": "slut", "datum": "2026-06-17" }
+    ],
     "prop": null,
     "kopplad_reform": "sprak",
-    "kallor": [ { "text": "Dir. 2024:113", "url": "https://regeringen.se/rattsliga-dokument/kommittedirektiv/2024/11/dir.-2024113" } ],
+    "kallor": [ { "text": "Dir. 2024:113", "url": "https://regeringen.se/rattsliga-dokument/kommittedirektiv/2024/11/dir.-2024113" }, { "text": "SOU 2026:37", "url": "https://data.riksdagen.se/dokument/HEB337.html" } ],
     "noteringar": "Dir. 2024:113 beslutades i november 2024 (exakt datum ej verifierat)."
   },
   {
@@ -336,7 +338,7 @@
     "beteckning": "U 2025:05",
     "titel": "Utredningen om speciallärar- och specialpedagogutbildningarna",
     "dep": "Utbildningsdepartementet",
-    "status": "pagaende",
+    "status": "avslutad",
     "cat": "larare",
     "utredare": "Eva Durhan",
     "tillsatt": "2025-10-23",
@@ -345,11 +347,13 @@
       { "nr": "Dir. 2025:93", "datum": "2025-10-23", "typ": "huvud", "titel": "Nya utbildningsvägar och fler möjligheter till behörighet att undervisa inom det specialpedagogiska området" },
       { "nr": "Dir. 2026:39", "datum": "2026-05-29", "typ": "tilläggs", "titel": "Tilläggsdirektiv till Utredningen om speciallärar- och specialpedagogutbildningarna" }
     ],
-    "betankanden": [],
+    "betankanden": [
+      { "nr": "SOU 2026:50", "titel": "En ny speciallärarutbildning", "typ": "slut", "datum": "2026-08-13" }
+    ],
     "prop": null,
     "kopplad_reform": null,
-    "kallor": [ { "text": "Dir. 2025:93", "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2025/10/dir.-202593" } ],
-    "noteringar": "Potentiell koppling till profession/stod. cat satt redaktionellt."
+    "kallor": [ { "text": "Dir. 2025:93", "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2025/10/dir.-202593" }, { "text": "SOU 2026:50", "url": "https://www.regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2026/08/sou-202650/" } ],
+    "noteringar": "Potentiell koppling till profession/stod. cat satt redaktionellt. Slutbetänkande SOU 2026:50 överlämnat 2026-08-13 (regeringen.se); riksdagens dokumentdatum anger 2026-08-14."
   },
   {
     "id": "utr-skolplikt",
@@ -376,7 +380,7 @@
     "beteckning": "U 2025:02",
     "titel": "Utredningen om ökade insatser för att motverka hedersrelaterat våld och förtryck i förskolan, skolan och fritidshemmet",
     "dep": "Utbildningsdepartementet",
-    "status": "pagaende",
+    "status": "avslutad",
     "cat": "trygghet",
     "utredare": "Rebecca Lagh",
     "tillsatt": "2025-03-20",
@@ -384,10 +388,12 @@
     "direktiv": [
       { "nr": "Dir. 2025:31", "datum": "2025-03-20", "typ": "huvud", "titel": "Ökade insatser för att motverka hedersrelaterat våld och förtryck i förskolan, skolan och fritidshemmet" }
     ],
-    "betankanden": [],
+    "betankanden": [
+      { "nr": "SOU 2026:51", "titel": "Fri att lära och leva. Insatser mot hedersrelaterat våld och förtryck i förskolan, skolan och fritidshemmet", "typ": "slut", "datum": "2026-08-17" }
+    ],
     "prop": null,
     "kopplad_reform": null,
-    "kallor": [ { "text": "Dir. 2025:31", "url": "https://regeringen.se/rattsliga-dokument/kommittedirektiv/2025/03/dir.-202531" } ],
+    "kallor": [ { "text": "Dir. 2025:31", "url": "https://regeringen.se/rattsliga-dokument/kommittedirektiv/2025/03/dir.-202531" }, { "text": "SOU 2026:51", "url": "https://data.riksdagen.se/dokument/HEB351.html" } ],
     "noteringar": "cat satt redaktionellt (ej ärvd via kopplad_reform)."
   },
   {
@@ -454,7 +460,7 @@
     "beteckning": "S 2024:01",
     "titel": "Utredningen om en reform av den statliga barn- och ungdomsvården för en trygg och kvalitativ vård",
     "dep": "Socialdepartementet",
-    "status": "pagaende",
+    "status": "avslutad",
     "cat": "trygghet",
     "utredare": "Lise Tamm",
     "tillsatt": "2024-02-01",
@@ -463,18 +469,20 @@
       { "nr": "Dir. 2024:13", "datum": "2024-02-01", "typ": "huvud", "titel": "En reform av den statliga barn- och ungdomsvården för en trygg och kvalitativ vård" },
       { "nr": "Dir. 2025:39", "datum": "2025-04-28", "typ": "tilläggs", "titel": null }
     ],
-    "betankanden": [],
+    "betankanden": [
+      { "nr": "SOU 2026:52", "titel": "En reform av den statliga barn- och ungdomsvården", "typ": "slut", "datum": "2026-08-18" }
+    ],
     "prop": null,
     "kopplad_reform": null,
-    "kallor": [ { "text": "Dir. 2024:13", "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2024/02/dir.-202413" } ],
-    "noteringar": "Indirekt påverkan via SiS och placerade barns skolgång. Dir. 2025:39 förlängde, delredovisning 2025-11-06. cat satt redaktionellt."
+    "kallor": [ { "text": "Dir. 2024:13", "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2024/02/dir.-202413" }, { "text": "SOU 2026:52", "url": "https://data.riksdagen.se/dokument/HEB352.html" } ],
+    "noteringar": "Indirekt påverkan via SiS och placerade barns skolgång. Dir. 2025:39 förlängde, delredovisning 2025-11-06. cat satt redaktionellt. Slutbetänkande SOU 2026:52 (i tre delar) överlämnat 2026-08-18."
   },
   {
     "id": "utr-integritetsbevarande",
     "beteckning": "Fi 2025:07",
-    "titel": "Utredningen om integritetsbevarande metoder för en mer datadriven och samverkande förvaltning",
+    "titel": "Utredningen om integritetsfrämjande teknik i förvaltningen",
     "dep": "Finansdepartementet",
-    "status": "pagaende",
+    "status": "avslutad",
     "cat": "styrning",
     "utredare": "Erik Janzon",
     "tillsatt": "2025-06-19",
@@ -482,10 +490,12 @@
     "direktiv": [
       { "nr": "Dir. 2025:64", "datum": "2025-06-18", "typ": "huvud", "titel": "Integritetsbevarande metoder för en mer datadriven och samverkande förvaltning" }
     ],
-    "betankanden": [],
+    "betankanden": [
+      { "nr": "SOU 2026:44", "titel": "En stärkt förmåga till modern datadelning – integritetsfrämjande teknik i offentlig förvaltning", "typ": "slut", "datum": "2026-07-02" }
+    ],
     "prop": null,
     "kopplad_reform": null,
-    "kallor": [ { "text": "Dir. 2025:64", "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2025/06/dir.-202564" } ],
+    "kallor": [ { "text": "Dir. 2025:64", "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2025/06/dir.-202564" }, { "text": "SOU 2026:44", "url": "https://data.riksdagen.se/dokument/HEB344.html" } ],
     "noteringar": "Indirekt koppling till ai-reformen. cat satt redaktionellt."
   },
   {
