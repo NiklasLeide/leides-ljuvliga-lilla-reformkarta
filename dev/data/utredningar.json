@@ -447,13 +447,14 @@
     "tillsatt": "2025-07-17",
     "redovisning": "2026-10-16",
     "direktiv": [
-      { "nr": "Dir. 2025:74", "datum": "2025-07-17", "typ": "huvud", "titel": "Förstärkt statlig styrning och stöd inom den sociala barn- och ungdomsvården" }
+      { "nr": "Dir. 2025:74", "datum": "2025-07-17", "typ": "huvud", "titel": "Förstärkt statlig styrning och stöd inom den sociala barn- och ungdomsvården" },
+      { "nr": "Dir. 2026:98", "datum": "2026-08-28", "typ": "tilläggs", "titel": "Tilläggsdirektiv till utredningen om samordning och stöd vid placering av barn och unga" }
     ],
     "betankanden": [],
     "prop": null,
     "kopplad_reform": null,
-    "kallor": [ { "text": "Dir. 2025:74", "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2025/07/dir.-202574" } ],
-    "noteringar": "Indirekt påverkan via samverkan socialtjänst–skola. Utredare ej verifierad (sammanställningens uppgift föreföll felaktig). cat satt redaktionellt."
+    "kallor": [ { "text": "Dir. 2025:74", "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2025/07/dir.-202574" }, { "text": "Dir. 2026:98", "url": "https://data.riksdagen.se/dokument/HEB198.html" } ],
+    "noteringar": "Indirekt påverkan via samverkan socialtjänst–skola. Utredare ej verifierad (sammanställningens uppgift föreföll felaktig). cat satt redaktionellt. Dir. 2026:98 (tilläggsdirektiv) registrerat 2026-08-28 per researchledet; riksdagens dokumentdatum anger 2026-08-27. Tilläggsdirektivets innehåll ej verifierat — kompletteras vid nästa /bevakning."
   },
   {
     "id": "utr-barnungdomsvard-reform",
@@ -616,5 +617,24 @@
     "kopplad_reform": null,
     "kallor": [],
     "noteringar": "Bokstavsutredning utan kommittédirektivnummer. Nils Sjöblom förordad. Indirekt påverkan. Slutredovisningsdatum och exakt pressmeddelande-URL ej verifierade. cat satt redaktionellt."
+  },
+  {
+    "id": "utr-klasstorlekar",
+    "beteckning": "U 2026:04",
+    "titel": "Utredningen om åtgärder för lämpliga klasstorlekar",
+    "dep": "Utbildningsdepartementet",
+    "status": "pagaende",
+    "cat": "larare",
+    "utredare": null,
+    "tillsatt": "2026-08-27",
+    "redovisning": "2028-01-28",
+    "direktiv": [
+      { "nr": "Dir. 2026:96", "datum": "2026-08-27", "typ": "huvud", "titel": "Åtgärder för lämpliga klasstorlekar" }
+    ],
+    "betankanden": [],
+    "prop": null,
+    "kopplad_reform": "tid",
+    "kallor": [ { "text": "Dir. 2026:96", "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/kommittedirektiv/atgarder-for-lampliga-klasstorlekar_heb196/" }, { "text": "Pressmeddelande 2026-08-27", "url": "https://www.regeringen.se/pressmeddelanden/2026/08/regeringen-tillsatter-utredning-om-reglerade-klasstorlekar/" } ],
+    "noteringar": "Uppdraget enligt direktivet: en särskild utredare ska utreda och lämna förslag för att uppnå att undervisning ges i undervisningsgrupper av lämplig storlek med lämplig lärartäthet; kartlägga vilken storlek undervisningsgrupper har idag; analysera och föreslå en reglering av storleken på undervisningsgrupper; analysera och föreslå en reglering för en lämplig lärartäthet; överväga och vid behov föreslå andra åtgärder. Tillkallad enligt regeringens bemyndigande 2026-08-27. Utredare ej verifierad. cat satt redaktionellt, ärvd via kopplad_reform tid (direktivets syfte anger att lärare ska ges goda förutsättningar för undervisningsuppdraget)."
   }
 ]
