@@ -1,12 +1,14 @@
 # Project Status — leides-ljuvliga-lilla-reformkarta
 
 > **Last updated:** 2026-08-25
-> **Current sprint:** Sprint 13 — Aktualiseringssprinten (rev B)
+> **Current sprint:** Underhåll — Sprint 13 stängd 2026-09-05 (Sprint 10 T6 kvar öppen)
 > **Sprint dates:** augusti 2026
 
 ---
 
-## Sprint 13 — Aktualiseringssprinten (rev B)
+## Completed: Sprint 13 — Aktualiseringssprinten (rev B)
+
+DoD-granskad och **GODKÄND** (T11, 2026-09-05) — alla tio stop-condition-led verifierade mot verktygsresultat. Deployad i två omgångar (T10 `10b3957`, T10b `7af7705`), båda med Pages-success. Färskhetsstämpeln live = 2026-09-05.
 
 **Mål:** Sajtens innehåll aktuellt och källbelagt per 2026-08-25 — tio veckors
 bevakningsskuld (v.25–v.35, issues #4–#11) avarbetad, friskolebeslutet infört,
@@ -44,11 +46,17 @@ deployad till master med Pages-success; DoD passerad.
 | T8c | v.36-triage (issue #12) | data/utredningar.json, data/andringar.json, data/meta.json, .claude/commands/bevakning.md | ✅ Done | Ny utredning **U 2026:04** "Utredningen om åtgärder för lämpliga klasstorlekar" (Dir. 2026:96, tillsatt 2026-08-27, redovisas 2028-01-28, kopplad_reform `tid`, utredare null); direktivets uppdragsformuleringar i noteringar. **S 2025:08** fick tilläggsdirektiv Dir. 2026:98 (2026-08-28 per researchledet; riksdagen anger 08-27 — noterat; innehåll null, kompletteras nästa /bevakning). andringar.json ny post 2026-08-27 (17 poster). meta.json→2026-09-05. Konventionen "nya spårade utredningar → andringar-post" inskriven i /bevakning. Issue #12 disponerad + stängd. JSON validerar (7 filer, 30 utredningar), språkregel 0, testsvit 61/61. |
 | T9 | Stäng issues #4–#11 | GitHub Issues (MCP) | ✅ Done | Alla 8 issues (#4 v.25 – #11 v.35) disponerade per punkt via MCP och **stängda** (state_reason=completed, 0 öppna bevakning-issues kvar). Dispositioner: prop-status-A → beslutade sedan v.24; prop 292 → T5+T8; utredningsbetänkanden (SOU 37/44/50/51/52) → T4+T8; digitala prov-uppdrag → T7; icke-skol-SOU/direktiv (34,36,38,39,41,42,43,46,47,48,54; Dir 2026:75/82) → avförda A.4; regleringsbrev → A.7. Läroplansändringen (T8b) noterad i #11 som departementsfilter-lucka. T2:s backdaterade körningar skapade inga nya issues. **Uppdatering (verifieringssteg):** A.7 regleringsbrevskontroll är GJORD i researchledet 2026-08-26 (inga ändringsbeslut för skolmyndigheterna sedan 2026-06-01) → ingen okulärkontroll krävs, issues förblir stängda. Issue-kommentarernas "okulärkontroll som acceptansgrind" är en kvarvarande överförsiktighet (issues stängda, ingen åtgärd behövs). |
 | T10 | Deploy Sprint 13 | (deploy) | ✅ Done | dev→master via ./deploy.sh (normal merge, ingen force/reset). **Merge-SHA `10b3957`; föregående master-SHA `512ff63` (rollback-punkt).** Master-egna commits före deployen var 7 st preview-syncar som bara rörde dev/ — mappen dev/ behållen. GitHub Pages "build and deployment" för 10b3957 = **completed/success** (run 124, 2026-09-05T06:25Z). Master-roten verifierad: meta.json=2026-08-26 (stämpel), 16 andringar-poster, vinst=beslutad, tid ikraft stegvis. |
-| T11 | DoD review | PROJECT_STATUS.md | ⬜ | dod-reviewer mot stop condition; avvikelser dokumenterade; Sprint 13→Completed. |
+| T10b | Deploy Sprint 13 (andra omgången, efter T8c) | (deploy) | ✅ Done | dev→master normal merge. **Merge-SHA `7af7705`; föregående master-SHA `812dc89` (rollback-punkt).** Pages build+deployment för 7af7705 = **completed/success** (run 126, 2026-09-05T06:30Z). Master-roten verifierad: meta.json=**2026-09-05** (stämpel live), 30 utredningar inkl. U 2026:04, 17 andringar-poster. |
+| T11 | DoD review | PROJECT_STATUS.md, data/reforms.json | ✅ Done | Subagent-DoD mot stop condition: **GODKÄND**, alla tio led med belägg — git-hygien (strö-branch borta), luckveckorna (3 dispatch success, 0 deltan, "Skapa issue" skipped), datapatchar (30 utredningar inkl. U 2026:04, vinst beslutad, införandestöd under 5 noder), SFS-avstämning, andringar 17 poster + meta 2026-09-05, språkregel 0+0, issues #4–#12 alla stängda med disposition, Pages-success för båda merge-SHA:erna, 61/61 node-tester + 0 app-konsolfel headless, dokumentation komplett. **En ny observation åtgärdad i samma task:** `tid.transition` sa fortfarande "Ikraftträdande ej verifierat — bevakas" och motsade `ikraft`-fältet på samma kort (live) — rättad till stegvis formulering med SFS 2026:1096/1097/1243. |
 
 ### Noteringar & avvikelser (Sprint 13, till T11)
 - **A.7 regleringsbrevskontroll** utförd i researchledet 2026-08-26: grundbeslut för budgetåret 2026 daterade 2025-12-18; inga ändringsbeslut för Skolverket, Skolinspektionen, SPSM eller Skolforskningsinstitutet sedan 2026-06-01. Issues #4–#11 förblir stängda, ingen okulärkontroll krävs.
-- **Backloggkandidater (ingen åtgärd i Sprint 13):** bevakningens departementsfilter missar (a) tvärdepartementala skoluppdrag (t.ex. Socialdep./Skolverket 2026-07-31) och (b) deltatypen "ändring av regeringsuppdrag" (t.ex. U2026/00888, 2026-08-24, T8b).
+- **Backloggkandidat (ingen åtgärd i Sprint 13):** bevakningens departementsfilter missar (a) tvärdepartementala skoluppdrag (t.ex. Socialdep./Skolverket 2026-07-31). ~~(b) deltatypen "ändring av regeringsuppdrag"~~ — **STRUKEN**: v.36 (issue #12) visade att filtret fångar den; U2026/00888-posten låg bara efter v.35-fönstret.
+- **Konvention andringar.json (inskriven i /bevakning):** riksdagsbeslut, betänkanden, konkreta status-/datumändringar samt nya spårade utredningar → post. Nya regeringsuppdrag → uppdragsvyn, ingen post. Delta utan verifierad substans → ingen post förrän innehållet finns.
+- **Cron-klockan nollställd** genom pushar 26 aug — 60-dagarsregeln (GitHub inaktiverar schemalagda workflows i inaktiva repon) är inte längre akut.
+- **Heads-up till nästa /bevakning (v.37, körs 7 sept):** (1) pressmeddelande 31 aug om ny utredning om obligatorisk förskola med språkutvecklande insatser (uppföljning av SOU 2026:37) väntas dyka upp som nytt direktiv; (2) rskr och SFS för prop. 2025/26:292 kan ha publicerats — fyll då null-fältet i `vinst` (transition-noteringen "rskr ej publicerad").
+- **Rollback-väg:** T10 merge `10b3957` (föregående master `512ff63`); T10b merge `7af7705` (föregående master `812dc89`); T11-fix deployad separat (SHA i CHANGELOG).
+- **T11-observation (åtgärdad):** `tid.transition` motsade `ikraft`-fältet ("ej verifierat — bevakas" vs tre SFS-belagda datum) och renderades i index.html + reformer.html i produktion. Rättad i T11. Lärdom: när ett `ikraft`-fält uppdateras måste `transition`-texten på samma post granskas — de renderas tillsammans.
 - **Accepterad avvikelse:** `vinst` är beslutad utan guidepost → console.warn i guide.html (samma klass som gy25/ai). Guidepost-backlogg: gy25, ai, vinst.
 - **T7 införandestöd (U2026/01265):** infört under fem noder per A.3 rev C. Ingen andringar-post (implementeringsuppdrag hör i uppdragsvyn — val rapporterat).
 - **T1 klart:** strö-branch claude/brief-session-isyBT raderad (av Niklas via GitHub UI), verifierat borta på origin.
