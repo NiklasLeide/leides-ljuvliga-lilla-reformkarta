@@ -1,0 +1,610 @@
+{
+ "_meta": {
+  "steg": "M3 tolkad koppling till utredningsförslag för utmaningar utan egen hänvisning (modellkodning, Sprint 17; två kodare, KODINSTRUKTION.md)",
+  "tolkning": true
+ },
+ "kopplingar": [
+  {
+   "uid": "U001",
+   "forslag": [
+    "F42",
+    "F43"
+   ],
+   "motivering": "Statens ansvar för fortbildning av förskollärare och statsbidrag till 2034"
+  },
+  {
+   "uid": "U002",
+   "forslag": null,
+   "motivering": "Behörighetsförslag i allmänhet, effekt på feriebemanning oklart kopplad"
+  },
+  {
+   "uid": "U003",
+   "forslag": null,
+   "motivering": "Generellt samarbete mellan fritidshem och skola"
+  },
+  {
+   "uid": "U004",
+   "forslag": [
+    "F14"
+   ],
+   "motivering": "Risk för felbedömning vid mottagande i grundsärskolans nya årskurs 1"
+  },
+  {
+   "uid": "U005",
+   "forslag": null,
+   "motivering": "Finansiering via likvärdighetsbidraget, inget enskilt förslag"
+  },
+  {
+   "uid": "U006",
+   "forslag": [
+    "F20"
+   ],
+   "motivering": "Disciplinära åtgärder ska gälla för nya årskurs 1"
+  },
+  {
+   "uid": "U007",
+   "forslag": null,
+   "motivering": "Ökade skyldigheter för huvudmännen generellt"
+  },
+  {
+   "uid": "U008",
+   "forslag": [
+    "F55"
+   ],
+   "motivering": "Vill att föreslagen reformutvärdering beaktar kommunernas kompensation"
+  },
+  {
+   "uid": "U009",
+   "forslag": [
+    "F14"
+   ],
+   "motivering": "Utredningar inför mottagande i grundsärskolan hinner inte bli klara"
+  },
+  {
+   "uid": "U010",
+   "forslag": [
+    "F44"
+   ],
+   "motivering": "Lärare i nya årskurs 1 behöver förskolepedagogisk kompetens"
+  },
+  {
+   "uid": "U011",
+   "forslag": [
+    "F41",
+    "F42"
+   ],
+   "motivering": "Tid för behörighetsgivande fortbildning av befintliga pedagoger"
+  },
+  {
+   "uid": "U014",
+   "forslag": null,
+   "motivering": "Generell kritik om kommunernas olika förutsättningar"
+  },
+  {
+   "uid": "U015",
+   "forslag": [
+    "F41",
+    "F42"
+   ],
+   "motivering": "Vidareutbildning av befintliga lärare ger begränsad effekt"
+  },
+  {
+   "uid": "U016",
+   "forslag": [
+    "F41",
+    "F42"
+   ],
+   "motivering": "Vikariebehov under behörighetsgivande vidareutbildning"
+  },
+  {
+   "uid": "U017",
+   "forslag": null,
+   "motivering": "Generell omfördelning av resurser mellan elever"
+  },
+  {
+   "uid": "U018",
+   "forslag": null,
+   "motivering": "Finansiering genom riktade statsbidrag generellt"
+  },
+  {
+   "uid": "U019",
+   "forslag": null,
+   "motivering": "Finansiering genom riktade statsbidrag generellt"
+  },
+  {
+   "uid": "U026",
+   "forslag": [
+    "F52"
+   ],
+   "motivering": "Statsbidrag för kapacitetsförstärkning i lågstadiet"
+  },
+  {
+   "uid": "U027",
+   "forslag": null,
+   "motivering": "Planerings- och ekonomiskt stöd i allmänhet"
+  },
+  {
+   "uid": "U028",
+   "forslag": [
+    "F34"
+   ],
+   "motivering": "Behörighet endast i årskurs 1–2 ger ny övergång"
+  },
+  {
+   "uid": "U029",
+   "forslag": [
+    "F43"
+   ],
+   "motivering": "Statsfinansierad fortbildning, resurser för verksamhet under utbildning"
+  },
+  {
+   "uid": "U030",
+   "forslag": [
+    "F18"
+   ],
+   "motivering": "Särskilt stöd ska gälla för nya årskurs 1"
+  },
+  {
+   "uid": "U031",
+   "forslag": [
+    "F01"
+   ],
+   "motivering": "Grundsärskolan blir tioårig med ytterligare skolår"
+  },
+  {
+   "uid": "U032",
+   "forslag": null,
+   "motivering": "Omfördelning av statsbidrag, finansiering inget enskilt förslag"
+  },
+  {
+   "uid": "U033",
+   "forslag": [
+    "F13"
+   ],
+   "motivering": "Oklarhet om när skolplikten inträder"
+  },
+  {
+   "uid": "U034",
+   "forslag": [
+    "F30",
+    "F34"
+   ],
+   "motivering": "Förskollärares behörighet i nya årskurs 1 kräver vidareutbildning"
+  },
+  {
+   "uid": "U035",
+   "forslag": [
+    "F29",
+    "F44"
+   ],
+   "motivering": "Inget krav på förskolepedagogisk kompetens för grundlärare"
+  },
+  {
+   "uid": "U036",
+   "forslag": null,
+   "motivering": "Läraryrkets attraktivitet generellt"
+  },
+  {
+   "uid": "U037",
+   "forslag": null,
+   "motivering": "Flera kostnadsposter över fler än tre förslag"
+  },
+  {
+   "uid": "U049",
+   "forslag": [
+    "F41"
+   ],
+   "motivering": "Innehåll i fortbildning för behörighet i årskurs 1 och 2"
+  },
+  {
+   "uid": "U070",
+   "forslag": [
+    "F14"
+   ],
+   "motivering": "Fler utredningar inför mottagande i grundsärskolan under förskoleåret"
+  },
+  {
+   "uid": "U071",
+   "forslag": [
+    "F41",
+    "F42"
+   ],
+   "motivering": "Omfattande behörighetsgivande fortbildning för förskoleklassens personal"
+  },
+  {
+   "uid": "U093",
+   "forslag": null,
+   "motivering": "Generell hänvisning till organisatoriska och ekonomiska insatser"
+  },
+  {
+   "uid": "U094",
+   "forslag": [
+    "F01",
+    "F14"
+   ],
+   "motivering": "Kostnader för årskurs 1 i grundsärskolan underskattade"
+  },
+  {
+   "uid": "U095",
+   "forslag": null,
+   "motivering": "Förskollärarbrist generellt, inget enskilt förslag"
+  },
+  {
+   "uid": "U096",
+   "forslag": null,
+   "motivering": "Generell bemanningsbrist i fritidshemmet"
+  },
+  {
+   "uid": "U097",
+   "forslag": null,
+   "motivering": "Generellt behov av kompetensförsörjning i fritidshemmet"
+  },
+  {
+   "uid": "U098",
+   "forslag": [
+    "F04"
+   ],
+   "motivering": "Utökad undervisningstid påverkar fritidshemmets bemanning"
+  },
+  {
+   "uid": "U099",
+   "forslag": [
+    "F14"
+   ],
+   "motivering": "Stöd till förskolan inför mottagande i grundsärskolan"
+  },
+  {
+   "uid": "U107",
+   "forslag": null,
+   "motivering": "Generell bemanningsproblematik i fritidshemmet"
+  },
+  {
+   "uid": "U108",
+   "forslag": [
+    "F29",
+    "F30"
+   ],
+   "motivering": "Nya behörighetskrav begränsar förskollärares arbete i fritidshem"
+  },
+  {
+   "uid": "U109",
+   "forslag": [
+    "F41",
+    "F42"
+   ],
+   "motivering": "Utformning av fortbildning för förskollärares behörighet i lågstadiet"
+  },
+  {
+   "uid": "U110",
+   "forslag": [
+    "F52"
+   ],
+   "motivering": "Nytt statsbidrag överlappar likvärdighetsbidraget, ansökningsarbete"
+  },
+  {
+   "uid": "U111",
+   "forslag": [
+    "F30",
+    "F34",
+    "F37"
+   ],
+   "motivering": "Krav på anställning senast 30 juni 2026"
+  },
+  {
+   "uid": "U112",
+   "forslag": null,
+   "motivering": "Finansiering via karriärtjänstbidrag, inget enskilt förslag"
+  },
+  {
+   "uid": "U113",
+   "forslag": null,
+   "motivering": "Finansiering av statsbidragen, inget enskilt förslag"
+  },
+  {
+   "uid": "U114",
+   "forslag": [
+    "F04"
+   ],
+   "motivering": "Utökad undervisningstid påverkar fritidshemmets organisering"
+  },
+  {
+   "uid": "U121",
+   "forslag": [
+    "F13"
+   ],
+   "motivering": "Gäller uppskjuten skolplikt som regleras i förslaget om skolplikt."
+  },
+  {
+   "uid": "U122",
+   "forslag": [
+    "F13"
+   ],
+   "motivering": "Gäller tidigare skolstart som regleras i förslaget om skolplikt."
+  },
+  {
+   "uid": "U123",
+   "forslag": null,
+   "motivering": "Generella organisatoriska insatser, inget enskilt förslag."
+  },
+  {
+   "uid": "U124",
+   "forslag": [
+    "F31"
+   ],
+   "motivering": "Behörig personal i grundsärskolans nya årskurs 1."
+  },
+  {
+   "uid": "U125",
+   "forslag": null,
+   "motivering": "Gäller behörighets- och fortbildningsförslagen samlat, inget enskilt förslag."
+  },
+  {
+   "uid": "U126",
+   "forslag": null,
+   "motivering": "Allmän fråga om förskolans uppdrag, inget enskilt förslag."
+  },
+  {
+   "uid": "U128",
+   "forslag": null,
+   "motivering": "Följd för fritidshem av behörighetsregler generellt."
+  },
+  {
+   "uid": "U129",
+   "forslag": [
+    "F41",
+    "F42"
+   ],
+   "motivering": "Gäller utformningen av fortbildning för behörighet i lågstadiet."
+  },
+  {
+   "uid": "U130",
+   "forslag": [
+    "F43",
+    "F52"
+   ],
+   "motivering": "Jämför de två föreslagna statsbidragens syfte och ansökningsprocess."
+  },
+  {
+   "uid": "U131",
+   "forslag": [
+    "F30",
+    "F34",
+    "F37"
+   ],
+   "motivering": "Gäller kravet på anställning senast 30 juni 2026."
+  },
+  {
+   "uid": "U137",
+   "forslag": null,
+   "motivering": "Gäller tjänsteutformning och fritidshem, inget förslag reglerar detta."
+  },
+  {
+   "uid": "U138",
+   "forslag": [
+    "F41",
+    "F34"
+   ],
+   "motivering": "Gäller den 30 högskolepoäng långa behörighetsgivande utbildningen."
+  },
+  {
+   "uid": "U139",
+   "forslag": [
+    "F34",
+    "F37"
+   ],
+   "motivering": "Gäller anställningskravet i förslagen om behörighetsgivande utbildning."
+  },
+  {
+   "uid": "U140",
+   "forslag": [
+    "F01",
+    "F12"
+   ],
+   "motivering": "Kostnader för grundsärskolans årskurs 1 och utvecklingssamtal."
+  },
+  {
+   "uid": "U141",
+   "forslag": null,
+   "motivering": "Generell finansiering via riktade statsbidrag."
+  },
+  {
+   "uid": "U142",
+   "forslag": null,
+   "motivering": "Generell följd för fritidshemmens bemanning."
+  },
+  {
+   "uid": "U144",
+   "forslag": [
+    "F06"
+   ],
+   "motivering": "Gäller implementering av nya kunskapskrav i årskurs 2."
+  },
+  {
+   "uid": "U145",
+   "forslag": [
+    "F15"
+   ],
+   "motivering": "Gäller vilka uppgifter som överlämnas vid övergång."
+  },
+  {
+   "uid": "U146",
+   "forslag": [
+    "F23"
+   ],
+   "motivering": "Gäller enskilda huvudmäns godkännande för nya årskurs 1."
+  },
+  {
+   "uid": "U147",
+   "forslag": null,
+   "motivering": "Gäller fritidshemmens kompetensförsörjning, inget enskilt förslag."
+  },
+  {
+   "uid": "U148",
+   "forslag": [
+    "F31",
+    "F35",
+    "F38"
+   ],
+   "motivering": "Gäller behörighetsregler och fortbildning för grundsärskolan."
+  },
+  {
+   "uid": "U149",
+   "forslag": [
+    "F30",
+    "F31",
+    "F32"
+   ],
+   "motivering": "Gäller anställningsdatum i övergångsreglerna för behörighet."
+  },
+  {
+   "uid": "U150",
+   "forslag": [
+    "F41",
+    "F34"
+   ],
+   "motivering": "Gäller omfattning och innehåll i 30 högskolepoängs utbildningen."
+  },
+  {
+   "uid": "U151",
+   "forslag": [
+    "F34"
+   ],
+   "motivering": "Gäller anställningskravet för behörighet efter kompletterande utbildning."
+  },
+  {
+   "uid": "U152",
+   "forslag": [
+    "F37",
+    "F38",
+    "F39"
+   ],
+   "motivering": "Gäller anställningskravet för kompletterande ämnesbehörighet."
+  },
+  {
+   "uid": "U153",
+   "forslag": [
+    "F41"
+   ],
+   "motivering": "Gäller fortbildningens studietakt och bemanning under den."
+  },
+  {
+   "uid": "U154",
+   "forslag": [
+    "F44"
+   ],
+   "motivering": "Gäller omfattningen av det förskolepedagogiska lyftet."
+  },
+  {
+   "uid": "U156",
+   "forslag": null,
+   "motivering": "Generella förutsättningar för implementering, inget enskilt förslag."
+  },
+  {
+   "uid": "U157",
+   "forslag": null,
+   "motivering": "Generell oro för överutnyttjade statsbidrag."
+  },
+  {
+   "uid": "U158",
+   "forslag": null,
+   "motivering": "Skolskjutskostnader regleras inte av något förslag."
+  },
+  {
+   "uid": "U159",
+   "forslag": [
+    "F01"
+   ],
+   "motivering": "Gäller kostnaden för grundsärskolans nya årskurs 1."
+  },
+  {
+   "uid": "U160",
+   "forslag": [
+    "F01"
+   ],
+   "motivering": "Gäller elevantalet i grundsärskolans nya årskurs 1."
+  },
+  {
+   "uid": "U161",
+   "forslag": [
+    "F01"
+   ],
+   "motivering": "Gäller utökningen av grundsärskolan med nya årskurs 1."
+  },
+  {
+   "uid": "U162",
+   "forslag": [
+    "F12"
+   ],
+   "motivering": "Gäller kostnaden för utvecklingssamtal och utvecklingsplan."
+  },
+  {
+   "uid": "U163",
+   "forslag": [
+    "F12"
+   ],
+   "motivering": "Gäller tidsåtgången för utvecklingssamtal i nya årskurs 1."
+  },
+  {
+   "uid": "U164",
+   "forslag": null,
+   "motivering": "Generell finansiering via riktade statsbidrag."
+  },
+  {
+   "uid": "U165",
+   "forslag": null,
+   "motivering": "Generell finansiering, inget enskilt förslag."
+  },
+  {
+   "uid": "U166",
+   "forslag": [
+    "F43"
+   ],
+   "motivering": "Gäller statsbidraget för fortbildning av förskollärare."
+  },
+  {
+   "uid": "U167",
+   "forslag": [
+    "F43"
+   ],
+   "motivering": "Gäller statsbidragets nivå för fortbildning av förskollärare."
+  },
+  {
+   "uid": "U168",
+   "forslag": [
+    "F43",
+    "F41"
+   ],
+   "motivering": "Gäller vilka förskollärare som omfattas av fortbildning och statsbidrag."
+  },
+  {
+   "uid": "U169",
+   "forslag": null,
+   "motivering": "Generell finansiering via befintliga statsbidrag."
+  },
+  {
+   "uid": "U170",
+   "forslag": null,
+   "motivering": "Generell följd för fritidshemmen."
+  },
+  {
+   "uid": "U171",
+   "forslag": null,
+   "motivering": "Generell följd för fritidshemmens bemanning."
+  },
+  {
+   "uid": "U172",
+   "forslag": null,
+   "motivering": "Gäller fritidshemmens kompetensinsatser, inget enskilt förslag."
+  },
+  {
+   "uid": "U173",
+   "forslag": null,
+   "motivering": "Gäller fritidshemmens rekrytering, inget enskilt förslag."
+  },
+  {
+   "uid": "U174",
+   "forslag": null,
+   "motivering": "Gäller fritidshemmens kompetensförsörjning, inget enskilt förslag."
+  }
+ ]
+}

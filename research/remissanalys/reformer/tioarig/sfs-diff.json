@@ -1,0 +1,787 @@
+{
+ "_meta": {
+  "hamtningsdatum": "2026-11-10",
+  "beslutad_lydelse_kalla": "Skollag (2010:800) konsoliderad, t.o.m. SFS 2026:1636; Offentlighets- och sekretesslag (2009:400) konsoliderad, t.o.m. SFS 2026:1648 (riksdagens öppna data, Källa: Regeringskansliet / Lagrummet). Ändrings-SFS i original (svenskforfattningssamling.se) nåddes inte från miljön.",
+  "statusregler": {
+   "oförändrad": "SOU:ns föreslagna paragraf = beslutad lydelse (normaliserad textlikhet ≥ 0,999)",
+   "ändrad": "beslutad lydelse finns men skiljer sig; ordagrann ord-diff sparas",
+   "ej med": "ingen version införd genom SFS skollagen: 2025:729; offentlighets- och sekretesslagen: 2025:737 för paragrafen",
+   "ej lagtext": "förslaget är inte författningstext (uppdrag/ansvar)",
+   "ej i SFS per 2026-11-10": "förslaget avser förordning som ännu inte finns i SFS"
+  },
+  "matchning": "Paragrafer matchas på kapitel + nummer; saknas samma nummer används högst textlikhet inom kapitlet. Likhet < 0,80 ⇒ manuell_granskning: true.",
+  "forslag_till_paragraf": "Paragrafer knyts till förslag via SOU:ns författningskommentar (\"Bestämmelsen behandlas i avsnitt …\"), dvs. på avsnittsnivå — flera förslag i samma avsnitt delar paragrafer."
+ },
+ "forslag": [
+  {
+   "forslag": "F01",
+   "sou_avsnitt": "5.1",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 269",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "SOU:ns författningskommentar (9.2, 9.1) hänvisar paragraferna 1 kap. 1 §, 1 kap. 3 §, 1 kap. 12 §, 2 kap. 2 §, 2 kap. 4 §, 2 kap. 5 §, 2 kap. 6 a §, 2 kap. 7 §, 2 kap. 25 §, 2 kap. 27 §, 2 kap. 29 §, 2 kap. 31 §, 3 kap. 3 §, 3 kap. 4 §, 3 kap. 4 a §, 3 kap. 4 b §, 3 kap. 6 §, 3 kap. 14 a §, 3 kap. 14 b §, 4 kap. 12 §, 5 kap. 9 §, 5 kap. 12 §, 7 kap. 7 §, 7 kap. 17 §, 7 kap. 21 §, 7 kap. 22 §, 7 kap. 23 §, 10 kap. 3 §, 10 kap. 13 §, 10 kap. 19 §, 10 kap. 21 §, 10 kap. 23 a §, 10 kap. 23 b §, 10 kap. 31 §, 11 kap. 4 §, 11 kap. 19 §, 11 kap. 22 §, 11 kap. 23 a §, 11 kap. 30 §, 12 kap. 3 §, 12 kap. 8 a §, 12 kap. 15 §, 12 kap. 16 §, 12 kap. 19 §, 12 kap. 21 §, 12 kap. 24 §, 13 kap. 3 §, 13 kap. 16 §, 13 kap. 17 §, 13 kap. 17 a §, 13 kap. 20 §, 13 kap. 21 b §, 14 kap. 2 §, 14 kap. 3 §, 14 kap. 10 §, 14 kap. 14 §, 21 kap. 8 §, 22 kap. 2 §, 23 kap. 10 §, 24 kap. 16 §, 26 a kap. 5 §, 28 kap. 5 §, 28 kap. 7 §, 28 kap. 8 §, 28 kap. 12 §, 28 kap. 14 §, 28 kap. 15 §, 29 kap. 3 §, 29 kap. 14 §, 29 kap. 19 §, 29 kap. 19 a §, 29 kap. 26 §, 29 kap. 27 §, 29 kap. 28 a §, 23 kap. 2 § till avsnitt 5.1 men återger inte deras föreslagna lydelse; ingen maskinell jämförelse med beslutad lydelse är gjord.",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   }
+  },
+  {
+   "forslag": "F02",
+   "sou_avsnitt": "5.2.1",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 274",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "Ingen paragraf i SOU:ns författningskommentar till skollagen eller offentlighets- och sekretesslagen (9.2, 9.1) hänvisar till avsnitt 5.2.1 — förslaget avser förordningsnivå (eller annan reglering). Ingen textmarkör är angiven, så det är inte maskinellt avgjort om förslaget har genomförts i förordningarna: Skolförordning (2011:185).",
+    "url": "https://data.riksdagen.se/dokument/sfs-2011-185.text"
+   }
+  },
+  {
+   "forslag": "F03",
+   "sou_avsnitt": "5.2.2",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 278",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "Ingen paragraf i SOU:ns författningskommentar till skollagen eller offentlighets- och sekretesslagen (9.2, 9.1) hänvisar till avsnitt 5.2.2 — förslaget avser förordningsnivå (eller annan reglering). Ingen textmarkör är angiven, så det är inte maskinellt avgjort om förslaget har genomförts i förordningarna: Skolförordning (2011:185).",
+    "url": "https://data.riksdagen.se/dokument/sfs-2011-185.text"
+   }
+  },
+  {
+   "forslag": "F04",
+   "sou_avsnitt": "5.2.3",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 281",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "SOU:ns författningskommentar (9.2, 9.1) hänvisar paragraferna 10 kap. 5 §, 11 kap. 7 §, 12 kap. 5 §, 13 kap. 5 § till avsnitt 5.2.3 men återger inte deras föreslagna lydelse; ingen maskinell jämförelse med beslutad lydelse är gjord.",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   }
+  },
+  {
+   "forslag": "F05",
+   "sou_avsnitt": "5.2.4",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 285",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": "ej lagtext",
+   "status_kalla": {
+    "text": "Förslaget gäller uppdrag/ansvar för myndighet; ingen paragraf i SOU:ns författningskommentar till skollagen eller offentlighets- och sekretesslagen (avsnitt 9.2, 9.1) hänvisar till avsnitt 5.2.4",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   }
+  },
+  {
+   "forslag": "F06",
+   "sou_avsnitt": "5.2.5",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 289",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "SOU:ns författningskommentar (9.2, 9.1) hänvisar paragraferna 29 kap. 28 a § till avsnitt 5.2.5 men återger inte deras föreslagna lydelse; ingen maskinell jämförelse med beslutad lydelse är gjord.",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   }
+  },
+  {
+   "forslag": "F07",
+   "sou_avsnitt": "5.2.6",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 293",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "Ingen paragraf i SOU:ns författningskommentar till skollagen eller offentlighets- och sekretesslagen (9.2, 9.1) hänvisar till avsnitt 5.2.6 — förslaget avser förordningsnivå (eller annan reglering). Ingen textmarkör är angiven, så det är inte maskinellt avgjort om förslaget har genomförts i förordningarna: Skolförordning (2011:185).",
+    "url": "https://data.riksdagen.se/dokument/sfs-2011-185.text"
+   }
+  },
+  {
+   "forslag": "F08",
+   "sou_avsnitt": "5.2.7",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 294",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "Ingen paragraf i SOU:ns författningskommentar till skollagen eller offentlighets- och sekretesslagen (9.2, 9.1) hänvisar till avsnitt 5.2.7 — förslaget avser förordningsnivå (eller annan reglering). Ingen textmarkör är angiven, så det är inte maskinellt avgjort om förslaget har genomförts i förordningarna: Skolförordning (2011:185).",
+    "url": "https://data.riksdagen.se/dokument/sfs-2011-185.text"
+   }
+  },
+  {
+   "forslag": "F09",
+   "sou_avsnitt": "5.2.8",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 296",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "SOU:ns författningskommentar (9.2, 9.1) hänvisar paragraferna 29 kap. 28 a § till avsnitt 5.2.8 men återger inte deras föreslagna lydelse; ingen maskinell jämförelse med beslutad lydelse är gjord.",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   }
+  },
+  {
+   "forslag": "F10",
+   "sou_avsnitt": "5.2.9",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 297",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "Ingen paragraf i SOU:ns författningskommentar till skollagen eller offentlighets- och sekretesslagen (9.2, 9.1) hänvisar till avsnitt 5.2.9 — förslaget avser förordningsnivå (eller annan reglering). Ingen textmarkör är angiven, så det är inte maskinellt avgjort om förslaget har genomförts i förordningarna: Skolförordning (2011:185).",
+    "url": "https://data.riksdagen.se/dokument/sfs-2011-185.text"
+   }
+  },
+  {
+   "forslag": "F11",
+   "sou_avsnitt": "5.2.10",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 299",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "SOU:ns författningskommentar (9.2, 9.1) hänvisar paragraferna 3 kap. 4 §, 3 kap. 4 b § till avsnitt 5.2.10 men återger inte deras föreslagna lydelse; ingen maskinell jämförelse med beslutad lydelse är gjord.",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   }
+  },
+  {
+   "forslag": "F12",
+   "sou_avsnitt": "5.2.11",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 301",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "SOU:ns författningskommentar (9.2, 9.1) hänvisar paragraferna 10 kap. 13 §, 11 kap. 16 §, 11 kap. 16 a §, 12 kap. 13 §, 12 kap. 13 a §, 13 kap. 13 § till avsnitt 5.2.11 men återger inte deras föreslagna lydelse; ingen maskinell jämförelse med beslutad lydelse är gjord.",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   }
+  },
+  {
+   "forslag": "F13",
+   "sou_avsnitt": "5.3.1",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 303",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "SOU:ns författningskommentar (9.2, 9.1) hänvisar paragraferna 7 kap. 4 §, 7 kap. 11 § till avsnitt 5.3.1 men återger inte deras föreslagna lydelse; ingen maskinell jämförelse med beslutad lydelse är gjord.",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   }
+  },
+  {
+   "forslag": "F14",
+   "sou_avsnitt": "5.3.2",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 306",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "SOU:ns författningskommentar (9.2, 9.1) hänvisar paragraferna 7 kap. 7 § till avsnitt 5.3.2 men återger inte deras föreslagna lydelse; ingen maskinell jämförelse med beslutad lydelse är gjord.",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   }
+  },
+  {
+   "forslag": "F15",
+   "sou_avsnitt": "5.4.3",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 320",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "SOU:ns författningskommentar (9.2, 9.1) hänvisar paragraferna 3 kap. 12 j § till avsnitt 5.4.3 men återger inte deras föreslagna lydelse; ingen maskinell jämförelse med beslutad lydelse är gjord.",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   }
+  },
+  {
+   "forslag": "F16",
+   "sou_avsnitt": "5.4.4",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 324",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": "ej lagtext",
+   "status_kalla": {
+    "text": "Förslaget gäller uppdrag/ansvar för myndighet; ingen paragraf i SOU:ns författningskommentar till skollagen eller offentlighets- och sekretesslagen (avsnitt 9.2, 9.1) hänvisar till avsnitt 5.4.4",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   }
+  },
+  {
+   "forslag": "F17",
+   "sou_avsnitt": "5.5.1",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 325",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "Ingen paragraf i SOU:ns författningskommentar till skollagen eller offentlighets- och sekretesslagen (9.2, 9.1) hänvisar till avsnitt 5.5.1 — förslaget avser förordningsnivå (eller annan reglering). Ingen textmarkör är angiven, så det är inte maskinellt avgjort om förslaget har genomförts i förordningarna: Skolförordning (2011:185).",
+    "url": "https://data.riksdagen.se/dokument/sfs-2011-185.text"
+   }
+  },
+  {
+   "forslag": "F18",
+   "sou_avsnitt": "5.5.2",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 328",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "SOU:ns författningskommentar (9.2, 9.1) hänvisar paragraferna 3 kap. 6 §, 22 kap. 2 § till avsnitt 5.5.2 men återger inte deras föreslagna lydelse; ingen maskinell jämförelse med beslutad lydelse är gjord.",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   }
+  },
+  {
+   "forslag": "F19",
+   "sou_avsnitt": "5.5.3",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 332",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "SOU:ns författningskommentar (9.2, 9.1) hänvisar paragraferna 3 kap. 12 a §, 3 kap. 12 c § till avsnitt 5.5.3 men återger inte deras föreslagna lydelse; ingen maskinell jämförelse med beslutad lydelse är gjord.",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   }
+  },
+  {
+   "forslag": "F20",
+   "sou_avsnitt": "5.5.4",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 333",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "SOU:ns författningskommentar (9.2, 9.1) hänvisar paragraferna 5 kap. 9 §, 5 kap. 12 § till avsnitt 5.5.4 men återger inte deras föreslagna lydelse; ingen maskinell jämförelse med beslutad lydelse är gjord.",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   }
+  },
+  {
+   "forslag": "F21",
+   "sou_avsnitt": "5.5.5",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 337",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "SOU:ns författningskommentar (9.2, 9.1) hänvisar paragraferna 21 kap. 8 § till avsnitt 5.5.5 men återger inte deras föreslagna lydelse; ingen maskinell jämförelse med beslutad lydelse är gjord.",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   }
+  },
+  {
+   "forslag": "F22",
+   "sou_avsnitt": "5.6.1",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 339",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "SOU:ns författningskommentar (9.2, 9.1) hänvisar paragraferna  till avsnitt 5.6.1 men återger inte deras föreslagna lydelse; ingen maskinell jämförelse med beslutad lydelse är gjord.",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   }
+  },
+  {
+   "forslag": "F23",
+   "sou_avsnitt": "5.6.2",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 341",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "Ingen paragraf i SOU:ns författningskommentar till skollagen eller offentlighets- och sekretesslagen (9.2, 9.1) hänvisar till avsnitt 5.6.2 — förslaget avser förordningsnivå (eller annan reglering). Ingen textmarkör är angiven, så det är inte maskinellt avgjort om förslaget har genomförts i förordningarna: Skolförordning (2011:185).",
+    "url": "https://data.riksdagen.se/dokument/sfs-2011-185.text"
+   }
+  },
+  {
+   "forslag": "F24",
+   "sou_avsnitt": "5.6.3",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 347",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "Ingen paragraf i SOU:ns författningskommentar till skollagen eller offentlighets- och sekretesslagen (9.2, 9.1) hänvisar till avsnitt 5.6.3 — förslaget avser förordningsnivå (eller annan reglering). Ingen textmarkör är angiven, så det är inte maskinellt avgjort om förslaget har genomförts i förordningarna: Skolförordning (2011:185).",
+    "url": "https://data.riksdagen.se/dokument/sfs-2011-185.text"
+   }
+  },
+  {
+   "forslag": "F25",
+   "sou_avsnitt": "5.6.4",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 348",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "Ingen paragraf i SOU:ns författningskommentar till skollagen eller offentlighets- och sekretesslagen (9.2, 9.1) hänvisar till avsnitt 5.6.4 — förslaget avser förordningsnivå (eller annan reglering). Ingen textmarkör är angiven, så det är inte maskinellt avgjort om förslaget har genomförts i förordningarna: Skolförordning (2011:185).",
+    "url": "https://data.riksdagen.se/dokument/sfs-2011-185.text"
+   }
+  },
+  {
+   "forslag": "F26",
+   "sou_avsnitt": "5.6.5",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 349",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "Ingen paragraf i SOU:ns författningskommentar till skollagen eller offentlighets- och sekretesslagen (9.2, 9.1) hänvisar till avsnitt 5.6.5 — förslaget avser förordningsnivå (eller annan reglering). Ingen textmarkör är angiven, så det är inte maskinellt avgjort om förslaget har genomförts i förordningarna: Skolförordning (2011:185).",
+    "url": "https://data.riksdagen.se/dokument/sfs-2011-185.text"
+   }
+  },
+  {
+   "forslag": "F27",
+   "sou_avsnitt": "5.6.6",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 350",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "SOU:ns författningskommentar (9.2, 9.1) hänvisar paragraferna 29 kap. 14 § till avsnitt 5.6.6 men återger inte deras föreslagna lydelse; ingen maskinell jämförelse med beslutad lydelse är gjord.",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   }
+  },
+  {
+   "forslag": "F28",
+   "sou_avsnitt": "5.6.7",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 350",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "SOU:ns författningskommentar (9.2, 9.1) hänvisar paragraferna  till avsnitt 5.6.7 men återger inte deras föreslagna lydelse; ingen maskinell jämförelse med beslutad lydelse är gjord.",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   }
+  },
+  {
+   "forslag": "F29",
+   "sou_avsnitt": "6.2.1",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 363",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "Ingen paragraf i SOU:ns författningskommentar till skollagen eller offentlighets- och sekretesslagen (9.2, 9.1) hänvisar till avsnitt 6.2.1 — förslaget avser förordningsnivå (eller annan reglering). Ingen textmarkör är angiven, så det är inte maskinellt avgjort om förslaget har genomförts i förordningarna: Skolförordning (2011:185).",
+    "url": "https://data.riksdagen.se/dokument/sfs-2011-185.text"
+   }
+  },
+  {
+   "forslag": "F30",
+   "sou_avsnitt": "6.2.2",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 365",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "Ingen paragraf i SOU:ns författningskommentar till skollagen eller offentlighets- och sekretesslagen (9.2, 9.1) hänvisar till avsnitt 6.2.2 — förslaget avser förordningsnivå (eller annan reglering). Ingen textmarkör är angiven, så det är inte maskinellt avgjort om förslaget har genomförts i förordningarna: Skolförordning (2011:185).",
+    "url": "https://data.riksdagen.se/dokument/sfs-2011-185.text"
+   }
+  },
+  {
+   "forslag": "F31",
+   "sou_avsnitt": "6.2.3",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 367",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "Ingen paragraf i SOU:ns författningskommentar till skollagen eller offentlighets- och sekretesslagen (9.2, 9.1) hänvisar till avsnitt 6.2.3 — förslaget avser förordningsnivå (eller annan reglering). Ingen textmarkör är angiven, så det är inte maskinellt avgjort om förslaget har genomförts i förordningarna: Skolförordning (2011:185).",
+    "url": "https://data.riksdagen.se/dokument/sfs-2011-185.text"
+   }
+  },
+  {
+   "forslag": "F32",
+   "sou_avsnitt": "6.2.4",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 371",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "Ingen paragraf i SOU:ns författningskommentar till skollagen eller offentlighets- och sekretesslagen (9.2, 9.1) hänvisar till avsnitt 6.2.4 — förslaget avser förordningsnivå (eller annan reglering). Ingen textmarkör är angiven, så det är inte maskinellt avgjort om förslaget har genomförts i förordningarna: Skolförordning (2011:185).",
+    "url": "https://data.riksdagen.se/dokument/sfs-2011-185.text"
+   }
+  },
+  {
+   "forslag": "F33",
+   "sou_avsnitt": "6.2.5",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 373",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "Ingen paragraf i SOU:ns författningskommentar till skollagen eller offentlighets- och sekretesslagen (9.2, 9.1) hänvisar till avsnitt 6.2.5 — förslaget avser förordningsnivå (eller annan reglering). Ingen textmarkör är angiven, så det är inte maskinellt avgjort om förslaget har genomförts i förordningarna: Skolförordning (2011:185).",
+    "url": "https://data.riksdagen.se/dokument/sfs-2011-185.text"
+   }
+  },
+  {
+   "forslag": "F34",
+   "sou_avsnitt": "6.3.1",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 376",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "Ingen paragraf i SOU:ns författningskommentar till skollagen eller offentlighets- och sekretesslagen (9.2, 9.1) hänvisar till avsnitt 6.3.1 — förslaget avser förordningsnivå (eller annan reglering). Ingen textmarkör är angiven, så det är inte maskinellt avgjort om förslaget har genomförts i förordningarna: Skolförordning (2011:185).",
+    "url": "https://data.riksdagen.se/dokument/sfs-2011-185.text"
+   }
+  },
+  {
+   "forslag": "F35",
+   "sou_avsnitt": "6.3.2",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 379",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "Ingen paragraf i SOU:ns författningskommentar till skollagen eller offentlighets- och sekretesslagen (9.2, 9.1) hänvisar till avsnitt 6.3.2 — förslaget avser förordningsnivå (eller annan reglering). Ingen textmarkör är angiven, så det är inte maskinellt avgjort om förslaget har genomförts i förordningarna: Skolförordning (2011:185).",
+    "url": "https://data.riksdagen.se/dokument/sfs-2011-185.text"
+   }
+  },
+  {
+   "forslag": "F36",
+   "sou_avsnitt": "6.3.3",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 381",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "Ingen paragraf i SOU:ns författningskommentar till skollagen eller offentlighets- och sekretesslagen (9.2, 9.1) hänvisar till avsnitt 6.3.3 — förslaget avser förordningsnivå (eller annan reglering). Ingen textmarkör är angiven, så det är inte maskinellt avgjort om förslaget har genomförts i förordningarna: Skolförordning (2011:185).",
+    "url": "https://data.riksdagen.se/dokument/sfs-2011-185.text"
+   }
+  },
+  {
+   "forslag": "F37",
+   "sou_avsnitt": "6.3.4",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 384",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "Ingen paragraf i SOU:ns författningskommentar till skollagen eller offentlighets- och sekretesslagen (9.2, 9.1) hänvisar till avsnitt 6.3.4 — förslaget avser förordningsnivå (eller annan reglering). Ingen textmarkör är angiven, så det är inte maskinellt avgjort om förslaget har genomförts i förordningarna: Skolförordning (2011:185).",
+    "url": "https://data.riksdagen.se/dokument/sfs-2011-185.text"
+   }
+  },
+  {
+   "forslag": "F38",
+   "sou_avsnitt": "6.3.5",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 387",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "Ingen paragraf i SOU:ns författningskommentar till skollagen eller offentlighets- och sekretesslagen (9.2, 9.1) hänvisar till avsnitt 6.3.5 — förslaget avser förordningsnivå (eller annan reglering). Ingen textmarkör är angiven, så det är inte maskinellt avgjort om förslaget har genomförts i förordningarna: Skolförordning (2011:185).",
+    "url": "https://data.riksdagen.se/dokument/sfs-2011-185.text"
+   }
+  },
+  {
+   "forslag": "F39",
+   "sou_avsnitt": "6.3.6",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 389",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "Ingen paragraf i SOU:ns författningskommentar till skollagen eller offentlighets- och sekretesslagen (9.2, 9.1) hänvisar till avsnitt 6.3.6 — förslaget avser förordningsnivå (eller annan reglering). Ingen textmarkör är angiven, så det är inte maskinellt avgjort om förslaget har genomförts i förordningarna: Skolförordning (2011:185).",
+    "url": "https://data.riksdagen.se/dokument/sfs-2011-185.text"
+   }
+  },
+  {
+   "forslag": "F40",
+   "sou_avsnitt": "6.3.7",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 390",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "Ingen paragraf i SOU:ns författningskommentar till skollagen eller offentlighets- och sekretesslagen (9.2, 9.1) hänvisar till avsnitt 6.3.7 — förslaget avser förordningsnivå (eller annan reglering). Ingen textmarkör är angiven, så det är inte maskinellt avgjort om förslaget har genomförts i förordningarna: Skolförordning (2011:185).",
+    "url": "https://data.riksdagen.se/dokument/sfs-2011-185.text"
+   }
+  },
+  {
+   "forslag": "F41",
+   "sou_avsnitt": "6.4.2",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 396",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": "ej lagtext",
+   "status_kalla": {
+    "text": "Förslaget gäller uppdrag/ansvar för myndighet; ingen paragraf i SOU:ns författningskommentar till skollagen eller offentlighets- och sekretesslagen (avsnitt 9.2, 9.1) hänvisar till avsnitt 6.4.2",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   }
+  },
+  {
+   "forslag": "F42",
+   "sou_avsnitt": "6.4.3",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 400",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": "ej lagtext",
+   "status_kalla": {
+    "text": "Förslaget gäller uppdrag/ansvar för myndighet; ingen paragraf i SOU:ns författningskommentar till skollagen eller offentlighets- och sekretesslagen (avsnitt 9.2, 9.1) hänvisar till avsnitt 6.4.3",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   }
+  },
+  {
+   "forslag": "F43",
+   "sou_avsnitt": "6.4.4",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 402",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "Ingen paragraf i SOU:ns författningskommentar till skollagen eller offentlighets- och sekretesslagen (9.2, 9.1) hänvisar till avsnitt 6.4.4 — förslaget avser förordningsnivå (eller annan reglering). Ingen textmarkör är angiven, så det är inte maskinellt avgjort om förslaget har genomförts i förordningarna: Skolförordning (2011:185).",
+    "url": "https://data.riksdagen.se/dokument/sfs-2011-185.text"
+   }
+  },
+  {
+   "forslag": "F44",
+   "sou_avsnitt": "6.5",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 405",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": "ej lagtext",
+   "status_kalla": {
+    "text": "Förslaget gäller uppdrag/ansvar för myndighet; ingen paragraf i SOU:ns författningskommentar till skollagen eller offentlighets- och sekretesslagen (avsnitt 9.2, 9.1) hänvisar till avsnitt 6.5",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   }
+  },
+  {
+   "forslag": "F45",
+   "sou_avsnitt": "6.6.1",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 407",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "Ingen paragraf i SOU:ns författningskommentar till skollagen eller offentlighets- och sekretesslagen (9.2, 9.1) hänvisar till avsnitt 6.6.1 — förslaget avser förordningsnivå (eller annan reglering). Ingen textmarkör är angiven, så det är inte maskinellt avgjort om förslaget har genomförts i förordningarna: Skolförordning (2011:185).",
+    "url": "https://data.riksdagen.se/dokument/sfs-2011-185.text"
+   }
+  },
+  {
+   "forslag": "F46",
+   "sou_avsnitt": "6.6.2",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 408",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "SOU:ns författningskommentar (9.2, 9.1) hänvisar paragraferna  till avsnitt 6.6.2 men återger inte deras föreslagna lydelse; ingen maskinell jämförelse med beslutad lydelse är gjord.",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   }
+  },
+  {
+   "forslag": "F47",
+   "sou_avsnitt": "6.6.3",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 409",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "Ingen paragraf i SOU:ns författningskommentar till skollagen eller offentlighets- och sekretesslagen (9.2, 9.1) hänvisar till avsnitt 6.6.3 — förslaget avser förordningsnivå (eller annan reglering). Ingen textmarkör är angiven, så det är inte maskinellt avgjort om förslaget har genomförts i förordningarna: Skolförordning (2011:185).",
+    "url": "https://data.riksdagen.se/dokument/sfs-2011-185.text"
+   }
+  },
+  {
+   "forslag": "F48",
+   "sou_avsnitt": "7.1.1",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 411",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "Ingen paragraf i SOU:ns författningskommentar till skollagen eller offentlighets- och sekretesslagen (9.2, 9.1) hänvisar till avsnitt 7.1.1 — förslaget avser förordningsnivå (eller annan reglering). Ingen textmarkör är angiven, så det är inte maskinellt avgjort om förslaget har genomförts i förordningarna: Skolförordning (2011:185).",
+    "url": "https://data.riksdagen.se/dokument/sfs-2011-185.text"
+   }
+  },
+  {
+   "forslag": "F49",
+   "sou_avsnitt": "7.1.2",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 413",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "Ingen paragraf i SOU:ns författningskommentar till skollagen eller offentlighets- och sekretesslagen (9.2, 9.1) hänvisar till avsnitt 7.1.2 — förslaget avser förordningsnivå (eller annan reglering). Ingen textmarkör är angiven, så det är inte maskinellt avgjort om förslaget har genomförts i förordningarna: Skolförordning (2011:185).",
+    "url": "https://data.riksdagen.se/dokument/sfs-2011-185.text"
+   }
+  },
+  {
+   "forslag": "F50",
+   "sou_avsnitt": "7.1.3",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 417",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": "ej lagtext",
+   "status_kalla": {
+    "text": "Förslaget gäller uppdrag/ansvar för myndighet; ingen paragraf i SOU:ns författningskommentar till skollagen eller offentlighets- och sekretesslagen (avsnitt 9.2, 9.1) hänvisar till avsnitt 7.1.3",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   }
+  },
+  {
+   "forslag": "F51",
+   "sou_avsnitt": "7.1.4",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 420",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": "ej lagtext",
+   "status_kalla": {
+    "text": "Förslaget gäller uppdrag/ansvar för myndighet; ingen paragraf i SOU:ns författningskommentar till skollagen eller offentlighets- och sekretesslagen (avsnitt 9.2, 9.1) hänvisar till avsnitt 7.1.4",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   }
+  },
+  {
+   "forslag": "F52",
+   "sou_avsnitt": "7.1.5",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 421",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "Ingen paragraf i SOU:ns författningskommentar till skollagen eller offentlighets- och sekretesslagen (9.2, 9.1) hänvisar till avsnitt 7.1.5 — förslaget avser förordningsnivå (eller annan reglering). Ingen textmarkör är angiven, så det är inte maskinellt avgjort om förslaget har genomförts i förordningarna: Skolförordning (2011:185).",
+    "url": "https://data.riksdagen.se/dokument/sfs-2011-185.text"
+   }
+  },
+  {
+   "forslag": "F53",
+   "sou_avsnitt": "7.2.2",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 432",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": "ej lagtext",
+   "status_kalla": {
+    "text": "Förslaget gäller uppdrag/ansvar för myndighet; ingen paragraf i SOU:ns författningskommentar till skollagen eller offentlighets- och sekretesslagen (avsnitt 9.2, 9.1) hänvisar till avsnitt 7.2.2",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   }
+  },
+  {
+   "forslag": "F54",
+   "sou_avsnitt": "7.2.3",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 433",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": "ej lagtext",
+   "status_kalla": {
+    "text": "Förslaget gäller uppdrag/ansvar för myndighet; ingen paragraf i SOU:ns författningskommentar till skollagen eller offentlighets- och sekretesslagen (avsnitt 9.2, 9.1) hänvisar till avsnitt 7.2.3",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   }
+  },
+  {
+   "forslag": "F55",
+   "sou_avsnitt": "7.2.4",
+   "forslag_kalla": {
+    "text": "SOU 2021:33 s. 434",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   },
+   "paragrafer": [],
+   "status": "ej lagtext",
+   "status_kalla": {
+    "text": "Förslaget gäller uppdrag/ansvar för myndighet; ingen paragraf i SOU:ns författningskommentar till skollagen eller offentlighets- och sekretesslagen (avsnitt 9.2, 9.1) hänvisar till avsnitt 7.2.4",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   }
+  }
+ ]
+}
