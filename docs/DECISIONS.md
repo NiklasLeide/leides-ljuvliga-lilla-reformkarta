@@ -18,8 +18,95 @@ Record of key decisions made during the project. **Newest first.**
 
 ---
 
+### DEC-021: Remissläge — status räknas i klienten, logiken som byte-identiskt block i fyra sidor
+**Date:** 2026-11-10
+**Decision:** (Sprint 14 T5) Ny datafil `data/remisser.json` (en post per remiss: datum, omfattning,
+nästa steg, reform_ids, länkar). Status lagras aldrig — den räknas ur `oppnar`/`svar_senast` mot
+dagens datum: "Remiss öppnar …" / "Remiss öppen till och med …" / "Remiss avslutad …" + nästa steg.
+Logiken (status, validering, inläsning, kortruta) ligger som ett `<remiss-lib>`-block som är
+**byte-identiskt** i index.html, reformer.html, tidslinje.html och guide.html.
+`scripts/revision/remiss.test.js` extraherar blocket ur alla fyra sidor och fäller om kopiorna
+skiljer sig, och testar logiken med styrbart datum. Okänt reform_id → console.error och remissen
+visas inte (fail-loud). Sajten länkar till Skolverket och återger varken svarsinstruktioner eller
+förslagens innehåll. I guidehjulet placeras remissen på öppningsdagen före öppning, annars på sista
+svarsdag; verksamhetsfiltret använder `omfattar` (samma råvärden som guidens `berors`).
+**Reasoning:** DEC-001 (self-contained sidor, ingen delad JS) gör duplicering oundviklig. Att
+låta ett test kräva identiska kopior tvingar fram synk med verktyg i stället för minne (CLAUDE.md:
+"prompts get forgotten, hooks don't"). Status ur datum gör att sajten byter läge själv 9 november
+och 21 januari utan datapatch.
+**Alternatives considered:** Delad remiss.js (bryter DEC-001); lagrat statusfält (blir inaktuellt
+utan patch); bygga in remisser i tidslinje.json/guide.json (dubbellagring av samma datum i flera filer).
+
+---
+
+### DEC-020: Relevansregel för spårade utredningar och lagstiftningsärenden
+**Date:** 2026-11-10
+**Decision:** (Niklas beslut 2026-11-10, registrerat i Sprint 14 T4) Utredningar spåras när
+**huvudämnet är skolväsendet, från förskola till komvux, oavsett departement**. Det gäller både
+numrerade kommittédirektiv och departementsuppdrag utan Dir.-nummer (t.ex. U2026/01573). Spåras
+**inte**: högskola, yrkeshögskola, studiemedel och statsbidragsförordningar. Lagstiftningsärenden
+(lagrådsremisser, propositioner) utan reformnod på kartan avförs och listas i rapporten/issue-
+dispositionen, så att avförandet syns.
+**Reasoning:** Sprint 14:s revision visade att departementsfiltret både missade skolrelevanta
+ärenden från andra departement (Dir. 2026:105, Ju-dep) och släppte in sådant som inte hör till
+kartan (yrkeshögskola, statsbidragsförordningar). En ämnesregel är stabilare än en
+departementsregel och kan tillämpas av automatik i Sprint 15 (DEC-019) med människa på
+gränsfallen.
+**Alternatives considered:** Departementsfilter (U-dep) som enda kriterium (missar
+tvärdepartementala skolärenden — känd lucka sedan Sprint 13); spåra allt som nämner skola
+(för brett, kartan tappar fokus).
+**Tillämpat i Sprint 14:** spåras: Dir. 2026:107 (laroplaner), Dir. 2026:105 (brott), U2026/01569
+(yrkes), U2026/01573 (sprak), U2026/01547 (vinst). Avförda: Dir. 2026:121 (yrkeshögskola),
+U2026/01571 (judiska studier, ingen reformnod), lagrådsremissen om utbildning i
+kriminalvårdsanstalt (ingen reformnod), förordning (2026:1751) (statsbidragsförordning).
+
+---
+
+### DEC-019: Automatnivå — rutinändringar ur riksdagens strukturerade data publiceras utan mänskligt klick
+**Date:** 2026-11-10
+**Decision:** (Niklas beslut 2026-11-10, registrerat Sprint 14 T1) Rutinändringar
+som kan läsas direkt ur riksdagens strukturerade öppna data publiceras utan
+mänskligt klick. **Införs i Sprint 15, inte i Sprint 14.** Sprint 14 bygger
+förutsättningen: revisionsskriptet (T2) och RUTIN/BEDÖMNING-klassningen i
+ändringslistan (T3). RUTIN = värdet står ordagrant i källan för en redan spårad
+post; allt annat (ny post, relevans, struken post, egen text) är BEDÖMNING och
+kräver fortsatt människa.
+**Reasoning:** Bevakningsflödet har upprepade gånger släpat veckor (Sprint 13:
+tio veckors skuld) trots att en stor del av ändringarna är mekaniska avläsningar
+av strukturerade fält (beslutsdatum, rskr, betänkande). Att kräva klick för dem
+skapar kö utan att tillföra granskning. Bedömningar behåller människan.
+**Alternatives considered:** Fortsatt klick på allt (beprövad flaskhals);
+full automatik även för nya poster och textändringar (relevansbedömning och egen
+text kan inte läsas ur data — risk för felpublicering).
+
+---
+
+### DEC-018: Research i Claude Code som egen fas med incheckad ändringslista
+**Date:** 2026-11-10
+**Decision:** (Sprint 14 T1, ersätter DEC-017 i den del som förbjöd extern
+hämtning från Code.) Molnmiljön "Reformkartan" når riksdagen.se, regeringen.se,
+sou.gov.se, skolverket.se, lagen.nu och reformer.leide.se (röktest 2026-11-10).
+Primärkällsresearch får därför göras i Claude Code, men **alltid som egen fas**:
+fynden checkas in som en ändringslista (fil, post, nuvärde, nytt värde, käll-URL,
+klass) och pushas **före första datapatch**. Datapatchar görs först i en senare
+fas, mot listan. Kvarstår från DEC-017: null före gissning, patcha aldrig ur minne.
+Regleringsbrev hanteras fortsatt i chatten (statskontoret.se nås ej — röktestet
+gav connection reset). svenskforfattningssamling.se svarar 403 (Cloudflare) — SFS
+hämtas via riksdagen.se och lagen.nu.
+**Reasoning:** Nätblocket som gjorde DEC-017 tvingande är hävt för de källor
+sajten behöver. Att research och patch fortfarande separeras med en incheckad
+lista bevarar DEC-017:s granskningspunkt (människan ser vad som ändras och varför
+innan något ändras) men tar bort handpåläggningen att flytta värden mellan chatt
+och Code.
+**Alternatives considered:** Behålla DEC-017 oförändrat (onödig manuell
+överföring nu när nätet når källorna); låta Code researcha och patcha i ett svep
+(ingen granskningspunkt före ändring, svårt att revidera i efterhand).
+
+---
+
 ### DEC-017: Primärkällsuppslag i researchledet, källvärden inbäddade i Claude Code-tasks
 **Date:** 2026-08-25
+**Status:** Delvis ersatt av DEC-018 (2026-11-10) — förbudet mot extern hämtning från Code gäller inte längre för de källor röktestet nådde. Regleringsbrev ligger kvar i chatten.
 **Decision:** Alla primärkällsuppslag (riksdagen, regeringen.se, sou.gov.se, SFS,
 Statsliggaren) utförs i **researchledet** (Claude chat-projektet). Claude Code-tasks
 innehåller alla källvärden inbäddade (bilaga A-mönstret). Ingen Code-task får kräva

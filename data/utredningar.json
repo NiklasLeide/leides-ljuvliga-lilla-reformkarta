@@ -12,8 +12,8 @@
     "direktiv": [
       { "nr": "Dir. 2024:30", "datum": "2024-03-07", "typ": "huvud", "titel": "En förbättrad elevhälsa" },
       { "nr": "Dir. 2024:93", "datum": "2024-09-26", "typ": "tilläggs", "titel": "Tilläggsdirektiv till Utredningen om en förbättrad elevhälsa" },
-      { "nr": "Dir. 2025:18", "datum": "2025-02-27", "typ": "tilläggs", "titel": null },
-      { "nr": "Dir. 2025:62", "datum": "2025-06-12", "typ": "tilläggs", "titel": null }
+      { "nr": "Dir. 2025:18", "datum": "2025-02-27", "typ": "tilläggs", "titel": "Tilläggsdirektiv till Utredningen om en förbättrad elevhälsa" },
+      { "nr": "Dir. 2025:62", "datum": "2025-06-12", "typ": "tilläggs", "titel": "Tilläggsdirektiv till Utredningen om en förbättrad elevhälsa" }
     ],
     "betankanden": [
       { "nr": "SOU 2025:44", "titel": "Förbättrat stöd i skolan", "typ": "del", "datum": "2025-04-10" },
@@ -59,7 +59,7 @@
       { "nr": "Dir. 2023:173", "datum": "2023-12-14", "typ": "huvud", "titel": "En tydligare kunskapsinriktning i läroplanerna" }
     ],
     "betankanden": [
-      { "nr": "SOU 2025:19", "titel": "Kunskap för alla – nya läroplaner med fokus på undervisning och lärande", "typ": "slut", "datum": "2024-12-20" }
+      { "nr": "SOU 2025:19", "titel": "Kunskap för alla – nya läroplaner med fokus på undervisning och lärande", "typ": "slut", "datum": "2025-02-26" }
     ],
     "prop": "Prop. 2025/26:194",
     "kopplad_reform": "laroplaner",
@@ -100,7 +100,7 @@
     "redovisning": "2025-01-31",
     "direktiv": [
       { "nr": "Dir. 2023:154", "datum": "2023-11-02", "typ": "huvud", "titel": "Varaktigt förbättrad trygghet och studiero i skolan" },
-      { "nr": "Dir. 2024:79", "datum": "2024-08-29", "typ": "tilläggs", "titel": null }
+      { "nr": "Dir. 2024:79", "datum": "2024-08-29", "typ": "tilläggs", "titel": "Tilläggsdirektiv till utredningen Stärkt trygghet och studiero i skolan" }
     ],
     "betankanden": [
       { "nr": "SOU 2025:8", "titel": "Bättre förutsättningar för trygghet och studiero i skolan", "typ": "slut", "datum": "2025-01-31" }
@@ -122,8 +122,8 @@
     "redovisning": "2024-12-20",
     "direktiv": [
       { "nr": "Dir. 2022:86", "datum": "2022-06-22", "typ": "huvud", "titel": "Säkerheten i skolan ska förbättras" },
-      { "nr": "Dir. 2023:22", "datum": "2023-02-09", "typ": "tilläggs", "titel": null },
-      { "nr": "Dir. 2023:120", "datum": "2023-08-14", "typ": "tilläggs", "titel": "Tilläggsdirektiv till Skolsäkerhetsutredningen (U 2022:04)" },
+      { "nr": "Dir. 2023:22", "datum": "2023-02-09", "typ": "tilläggs", "titel": "Tilläggsdirektiv till utredningen om att säkerheten i skolan ska förbättras" },
+      { "nr": "Dir. 2023:120", "datum": "2023-08-10", "typ": "tilläggs", "titel": "Tilläggsdirektiv till Skolsäkerhetsutredningen (U 2022:04)" },
       { "nr": "Dir. 2024:7", "datum": "2024-01-18", "typ": "tilläggs", "titel": "Tilläggsdirektiv till Skolsäkerhetsutredningen (U 2022:04)" }
     ],
     "betankanden": [
@@ -144,13 +144,13 @@
     "status": "avslutad",
     "cat": "styrning",
     "utredare": null,
-    "tillsatt": "2021-10-21",
+    "tillsatt": "2021-10-20",
     "redovisning": "2024-03-28",
     "direktiv": [
-      { "nr": "Dir. 2021:89", "datum": "2021-10-21", "typ": "huvud", "titel": "En långsiktig lösning för informationsförsörjningen på skolområdet" },
-      { "nr": "Dir. 2022:10", "datum": "2022-03-10", "typ": "tilläggs", "titel": null },
-      { "nr": "Dir. 2023:23", "datum": "2023-02-09", "typ": "tilläggs", "titel": null },
-      { "nr": "Dir. 2023:34", "datum": "2023-03-09", "typ": "tilläggs", "titel": null }
+      { "nr": "Dir. 2021:89", "datum": "2021-10-20", "typ": "huvud", "titel": "En långsiktig lösning för informationsförsörjningen på skolområdet" },
+      { "nr": "Dir. 2022:10", "datum": "2022-03-10", "typ": "tilläggs", "titel": "Tilläggsdirektiv till Skolinformationsutredningen" },
+      { "nr": "Dir. 2023:23", "datum": "2023-02-09", "typ": "tilläggs", "titel": "Tilläggsdirektiv till Skolinformationsutredningen" },
+      { "nr": "Dir. 2023:34", "datum": "2023-03-02", "typ": "tilläggs", "titel": "Tilläggsdirektiv till Skolinformationsutredningen" }
     ],
     "betankanden": [
       { "nr": "SOU 2023:21", "titel": "Informationsförsörjning på skolområdet – Skolverkets ansvar", "typ": "del", "datum": "2023-05-30" },
@@ -173,8 +173,8 @@
     "redovisning": null,
     "direktiv": [
       { "nr": "Dir. 2022:74", "datum": "2022-06-09", "typ": "huvud", "titel": "Fler vägar till arbetslivet" },
-      { "nr": "Dir. 2023:31", "datum": "2023-03-09", "typ": "tilläggs", "titel": null },
-      { "nr": "Dir. 2023:114", "datum": "2023-07-06", "typ": "tilläggs", "titel": null }
+      { "nr": "Dir. 2023:31", "datum": "2023-02-23", "typ": "tilläggs", "titel": "Tilläggsdirektiv till Utredningen om fler vägar till arbetslivet" },
+      { "nr": "Dir. 2023:114", "datum": "2023-07-13", "typ": "tilläggs", "titel": "Tilläggsdirektiv till Utredningen om fler vägar till arbetslivet" }
     ],
     "betankanden": [
       { "nr": "SOU 2024:74", "titel": "Fler vägar till arbetslivet", "typ": "slut", "datum": "2024-11-20" }
@@ -196,7 +196,7 @@
     "redovisning": "2024-02-15",
     "direktiv": [
       { "nr": "Dir. 2022:84", "datum": "2022-06-22", "typ": "huvud", "titel": "Långsiktig och behovsanpassad yrkesutbildning för vuxna" },
-      { "nr": "Dir. 2023:110", "datum": "2023-07-06", "typ": "tilläggs", "titel": null }
+      { "nr": "Dir. 2023:110", "datum": "2023-07-06", "typ": "tilläggs", "titel": "Tilläggsdirektiv till Yrkesvuxutredningen" }
     ],
     "betankanden": [
       { "nr": "SOU 2024:16", "titel": "Växla yrke som vuxen – en reformerad vuxenutbildning och en ny yrkesskola för vuxna", "typ": "slut", "datum": "2024-02-15" }
@@ -217,18 +217,18 @@
     "tillsatt": "2022-06-30",
     "redovisning": "2025-12-31",
     "direktiv": [
-      { "nr": "Dir. 2022:102", "datum": "2022-06-30", "typ": "huvud", "titel": null },
+      { "nr": "Dir. 2022:102", "datum": "2022-06-30", "typ": "huvud", "titel": "En skola utan vinstintresse" },
       { "nr": "Dir. 2023:109", "datum": "2023-07-06", "typ": "tilläggs", "titel": "Tilläggsdirektiv till Utredningen om vinst i skolan" },
-      { "nr": "Dir. 2024:85", "datum": "2024-09-26", "typ": "tilläggs", "titel": null }
+      { "nr": "Dir. 2024:85", "datum": "2024-09-19", "typ": "tilläggs", "titel": "Tilläggsdirektiv till Utredningen om vinst i skolan" }
     ],
     "betankanden": [
-      { "nr": null, "titel": null, "typ": "del", "datum": "2025-03-28" },
+      { "nr": "SOU 2025:37", "titel": "Skärpta villkor för friskolesektorn", "typ": "del", "datum": "2025-03-28" },
       { "nr": "SOU 2025:123", "titel": "Skärpta villkor för friskolesektorn – ytterligare förslag", "typ": "slut", "datum": "2025-12-31" }
     ],
     "prop": null,
     "kopplad_reform": "vinst",
-    "kallor": [ { "text": "Dir. 2022:102", "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2022/06/dir.-2022102" } ],
-    "noteringar": "Utredare: Johan Ernestam 2022-07-03 till 2023-07-05, därefter Joakim Stymne till 2026-01-09. Huvuddirektivets titel och delbetänkandets SOU-nummer/titel (2025-03-28) ej verifierade. SOU 2025:123 bereds, ingen prop ännu."
+    "kallor": [ { "text": "Dir. 2022:102", "url": "https://data.riksdagen.se/dokument/HAB1102.html" } ],
+    "noteringar": "Utredare: Johan Ernestam 2022-07-03 till 2023-07-05, därefter Joakim Stymne till 2026-01-09. Huvuddirektivets titel och delbetänkandets SOU-nummer/titel verifierade 2026-11-10 mot riksdagens öppna data (HAB1102, HDB337); riksdagen anger SOU 2025:37:s publiceringsdatum 2025-04-08, datumet 2025-03-28 är överlämningsdatum enligt tidigare research. SOU 2025:123 bereds, ingen prop ännu."
   },
   {
     "id": "utr-ai-forordningen",
@@ -256,22 +256,23 @@
     "beteckning": "U 2023:05",
     "titel": "Utredningen om en nationell skolpengsnorm för ökad likvärdighet",
     "dep": "Utbildningsdepartementet",
-    "status": "pagaende",
+    "status": "avslutad",
     "cat": "styrning",
     "utredare": "Lena Holmdahl",
-    "tillsatt": "2023-10-19",
+    "tillsatt": "2023-11-02",
     "redovisning": "2026-11-01",
     "direktiv": [
-      { "nr": "Dir. 2023:153", "datum": "2023-10-19", "typ": "huvud", "titel": "En nationell skolpengsnorm för ökad likvärdighet" },
+      { "nr": "Dir. 2023:153", "datum": "2023-11-02", "typ": "huvud", "titel": "En nationell skolpengsnorm för ökad likvärdighet" },
       { "nr": "Dir. 2025:23", "datum": null, "typ": "tilläggs", "titel": "Tilläggsdirektiv till Utredningen om en nationell skolpengsnorm för ökad likvärdighet" }
     ],
     "betankanden": [
-      { "nr": "SOU 2025:72", "titel": "Verktyg för en mer likvärdig resursfördelning till skolan", "typ": "del", "datum": "2025-06-12" }
+      { "nr": "SOU 2025:72", "titel": "Verktyg för en mer likvärdig resursfördelning till skolan", "typ": "del", "datum": "2025-06-12" },
+      { "nr": "SOU 2026:65", "titel": "Verktyg för en mer likvärdig resursfördelning", "typ": "slut", "datum": "2026-10-29" }
     ],
     "prop": null,
     "kopplad_reform": "skolpeng",
     "kallor": [ { "text": "Dir. 2023:153", "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2023/11/dir.-2023153" } ],
-    "noteringar": "Dir. 2025:23 beslutades i mars 2025 (exakt datum ej verifierat). Delbetänkandet SOU 2025:72 utgör skolpeng-reformens nuvarande status. Slutbetänkande (gymnasiet) väntas nov 2026."
+    "noteringar": "Dir. 2025:23 beslutades i mars 2025 (exakt datum ej verifierat). Delbetänkandet SOU 2025:72 utgör skolpeng-reformens nuvarande status. Slutbetänkandet SOU 2026:65 (gymnasieskolan och anpassade gymnasieskolan) lämnat 2026-10-29."
   },
   {
     "id": "utr-sprakforskola",
@@ -285,7 +286,7 @@
     "redovisning": "2026-06-11",
     "direktiv": [
       { "nr": "Dir. 2024:113", "datum": null, "typ": "huvud", "titel": "En likvärdig förskola av god kvalitet med obligatorisk språkförskola" },
-      { "nr": "Dir. 2025:102", "datum": "2025-12-05", "typ": "tilläggs", "titel": "Tilläggsdirektiv till Utredningen om en likvärdig förskola av god kvalitet med obligatorisk språkförskola" }
+      { "nr": "Dir. 2025:102", "datum": "2025-11-27", "typ": "tilläggs", "titel": "Tilläggsdirektiv till Utredningen om en likvärdig förskola av god kvalitet med obligatorisk språkförskola" }
     ],
     "betankanden": [
       { "nr": "SOU 2026:37", "titel": "Förutsättningar för en likvärdig och språkutvecklande förskola", "typ": "slut", "datum": "2026-06-17" }
@@ -325,7 +326,7 @@
     "tillsatt": null,
     "redovisning": "2027-12-09",
     "direktiv": [
-      { "nr": "Dir. 2025:98", "datum": "2025-11-17", "typ": "huvud", "titel": "En ämnesutformad gymnasieskola" }
+      { "nr": "Dir. 2025:98", "datum": "2025-11-13", "typ": "huvud", "titel": "En ämnesutformad gymnasieskola" }
     ],
     "betankanden": [],
     "prop": null,
@@ -345,7 +346,7 @@
     "redovisning": "2026-06-16",
     "direktiv": [
       { "nr": "Dir. 2025:93", "datum": "2025-10-23", "typ": "huvud", "titel": "Nya utbildningsvägar och fler möjligheter till behörighet att undervisa inom det specialpedagogiska området" },
-      { "nr": "Dir. 2026:39", "datum": "2026-05-29", "typ": "tilläggs", "titel": "Tilläggsdirektiv till Utredningen om speciallärar- och specialpedagogutbildningarna" }
+      { "nr": "Dir. 2026:39", "datum": "2026-05-28", "typ": "tilläggs", "titel": "Tilläggsdirektiv till Utredningen om speciallärar- och specialpedagogutbildningarna" }
     ],
     "betankanden": [
       { "nr": "SOU 2026:50", "titel": "En ny speciallärarutbildning", "typ": "slut", "datum": "2026-08-13" }
@@ -364,16 +365,17 @@
     "cat": "styrning",
     "utredare": "Josefin Malmqvist",
     "tillsatt": null,
-    "redovisning": "2026-11-18",
+    "redovisning": "2027-03-31",
     "direktiv": [
       { "nr": "Dir. 2025:77", "datum": null, "typ": "huvud", "titel": "Tydligare regler vid undantag från skolplikten" },
-      { "nr": "Dir. 2025:111", "datum": "2025-12-29", "typ": "tilläggs", "titel": "Tilläggsdirektiv till Utredningen om tydligare regler vid undantag från skolplikten" }
+      { "nr": "Dir. 2025:111", "datum": "2025-12-18", "typ": "tilläggs", "titel": "Tilläggsdirektiv till Utredningen om tydligare regler vid undantag från skolplikten" },
+      { "nr": "Dir. 2026:117", "datum": "2026-09-03", "typ": "tilläggs", "titel": "Tilläggsdirektiv till Utredningen om tydligare regler vid undantag från skolplikten" }
     ],
     "betankanden": [],
     "prop": null,
     "kopplad_reform": null,
     "kallor": [ { "text": "Dir. 2025:77", "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2025/07/dir.-202577" } ],
-    "noteringar": "Dir. 2025:77 beslutades i juli 2025 (exakt datum ej verifierat). cat satt redaktionellt."
+    "noteringar": "Dir. 2025:77 beslutades i juli 2025 (exakt datum ej verifierat). cat satt redaktionellt. Dir. 2026:117 (beslut 2026-09-03) förlängde utredningstiden till 2027-03-31 (data.riksdagen.se/dokument/HEB1117)."
   },
   {
     "id": "utr-heder",
@@ -424,17 +426,18 @@
     "cat": "trygghet",
     "utredare": "Lisa Englund Krafft",
     "tillsatt": "2025-10-09",
-    "redovisning": "2026-11-14",
+    "redovisning": "2026-12-31",
     "direktiv": [
-      { "nr": "Dir. 2025:91", "datum": "2025-10-09", "typ": "huvud", "titel": "En åldersgräns på sociala medier" }
+      { "nr": "Dir. 2025:91", "datum": "2025-10-09", "typ": "huvud", "titel": "En åldersgräns på sociala medier" },
+      { "nr": "Dir. 2026:123", "datum": "2026-10-22", "typ": "tilläggs", "titel": "Tilläggsdirektiv till Utredningen om en åldersgräns på sociala medier" }
     ],
     "betankanden": [
-      { "nr": "SOU 2026:35", "titel": "En åldersgräns för barns tillgång till sociala medier", "typ": "del", "datum": null }
+      { "nr": "SOU 2026:35", "titel": "En åldersgräns för barns tillgång till sociala medier", "typ": "del", "datum": "2026-06-02" }
     ],
     "prop": null,
     "kopplad_reform": null,
     "kallor": [ { "text": "Dir. 2025:91", "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2025/10/dir.-202591" } ],
-    "noteringar": "Indirekt påverkan. Delredovisning 2026-06-12, slutredovisning 2026-11-14. SOU 2026:35 lämnad (datum ej verifierat). cat satt redaktionellt."
+    "noteringar": "Indirekt påverkan. Delredovisning 2026-06-12. SOU 2026:35 publicerad 2026-06-02 (regeringen.se; saknas i riksdagens öppna data). Dir. 2026:123 (beslut 2026-10-22) förlängde slutredovisningen från 2026-11-14 till 2026-12-31. cat satt redaktionellt."
   },
   {
     "id": "utr-barnungdomsvard-styrning",
@@ -445,16 +448,16 @@
     "cat": "trygghet",
     "utredare": null,
     "tillsatt": "2025-07-17",
-    "redovisning": "2026-10-16",
+    "redovisning": "2027-11-30",
     "direktiv": [
       { "nr": "Dir. 2025:74", "datum": "2025-07-17", "typ": "huvud", "titel": "Förstärkt statlig styrning och stöd inom den sociala barn- och ungdomsvården" },
-      { "nr": "Dir. 2026:98", "datum": "2026-08-28", "typ": "tilläggs", "titel": "Tilläggsdirektiv till utredningen om samordning och stöd vid placering av barn och unga" }
+      { "nr": "Dir. 2026:98", "datum": "2026-08-27", "typ": "tilläggs", "titel": "Tilläggsdirektiv till utredningen om samordning och stöd vid placering av barn och unga" }
     ],
     "betankanden": [],
     "prop": null,
     "kopplad_reform": null,
     "kallor": [ { "text": "Dir. 2025:74", "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2025/07/dir.-202574" }, { "text": "Dir. 2026:98", "url": "https://data.riksdagen.se/dokument/HEB198.html" } ],
-    "noteringar": "Indirekt påverkan via samverkan socialtjänst–skola. Utredare ej verifierad (sammanställningens uppgift föreföll felaktig). cat satt redaktionellt. Dir. 2026:98 (tilläggsdirektiv) registrerat 2026-08-28 per researchledet; riksdagens dokumentdatum anger 2026-08-27. Tilläggsdirektivets innehåll ej verifierat — kompletteras vid nästa /bevakning."
+    "noteringar": "Indirekt påverkan via samverkan socialtjänst–skola. Utredare ej verifierad (sammanställningens uppgift föreföll felaktig). cat satt redaktionellt. Dir. 2026:98 (beslut vid regeringssammanträde 2026-08-27) utvidgar uppdraget: utredaren ska kartlägga förekomsten av hot och våld mot personal och förtroendevalda vid handläggningen av ärenden som gäller barn och unga enligt socialtjänstlagen och LVU, analysera och ta ställning till deras behov av skydd och stöd, lämna förslag på åtgärder för att minska utsattheten och lämna nödvändiga författningsförslag. Utredningstiden förlängs från 2026-10-16 till 2027-11-30. Riksdagens metadata anger kommittébeteckning S 2025:06 för Dir. 2026:98, men direktivets titel anger S 2025:08 och texten utvidgar dir. 2025:74 — källfel i metadata, kopplingen hit är korrekt."
   },
   {
     "id": "utr-barnungdomsvard-reform",
@@ -465,10 +468,11 @@
     "cat": "trygghet",
     "utredare": "Lise Tamm",
     "tillsatt": "2024-02-01",
-    "redovisning": "2026-03-02",
+    "redovisning": "2026-08-11",
     "direktiv": [
       { "nr": "Dir. 2024:13", "datum": "2024-02-01", "typ": "huvud", "titel": "En reform av den statliga barn- och ungdomsvården för en trygg och kvalitativ vård" },
-      { "nr": "Dir. 2025:39", "datum": "2025-04-28", "typ": "tilläggs", "titel": null }
+      { "nr": "Dir. 2025:39", "datum": "2025-04-16", "typ": "tilläggs", "titel": "Tilläggsdirektiv till Utredningen om en reform av den statliga barn- och ungdomsvården för en trygg och kvalitativ vård" },
+      { "nr": "Dir. 2025:95", "datum": "2025-10-30", "typ": "tilläggs", "titel": "Tilläggsdirektiv till utredningen En reform av den statliga barn- och ungdomsvården för en trygg och kvalitativ vård" }
     ],
     "betankanden": [
       { "nr": "SOU 2026:52", "titel": "En reform av den statliga barn- och ungdomsvården", "typ": "slut", "datum": "2026-08-18" }
@@ -489,7 +493,7 @@
     "tillsatt": "2025-06-19",
     "redovisning": "2026-06-30",
     "direktiv": [
-      { "nr": "Dir. 2025:64", "datum": "2025-06-18", "typ": "huvud", "titel": "Integritetsbevarande metoder för en mer datadriven och samverkande förvaltning" }
+      { "nr": "Dir. 2025:64", "datum": "2025-06-19", "typ": "huvud", "titel": "Integritetsbevarande metoder för en mer datadriven och samverkande förvaltning" }
     ],
     "betankanden": [
       { "nr": "SOU 2026:44", "titel": "En stärkt förmåga till modern datadelning – integritetsfrämjande teknik i offentlig förvaltning", "typ": "slut", "datum": "2026-07-02" }
@@ -510,8 +514,8 @@
     "tillsatt": "2024-05-23",
     "redovisning": "2026-01-14",
     "direktiv": [
-      { "nr": "Dir. 2024:48", "datum": "2024-05-23", "typ": "huvud", "titel": null },
-      { "nr": "Dir. 2025:50", "datum": "2025-05-22", "typ": "tilläggs", "titel": null }
+      { "nr": "Dir. 2024:48", "datum": "2024-05-23", "typ": "huvud", "titel": "Bättre förutsättningar för rektorerna inom skolväsendet" },
+      { "nr": "Dir. 2025:50", "datum": "2025-05-22", "typ": "tilläggs", "titel": "Tilläggsdirektiv till Utredningen om bättre förutsättningar för rektorerna inom skolväsendet" }
     ],
     "betankanden": [
       { "nr": "SOU 2026:4", "titel": "Rektor i fokus – förutsättningar för ett pedagogiskt ledarskap", "typ": "slut", "datum": "2026-01-14" }
@@ -532,7 +536,8 @@
     "tillsatt": null,
     "redovisning": null,
     "direktiv": [
-      { "nr": "Dir. 2023:175", "datum": "2023-12-14", "typ": "huvud", "titel": "Införande av grundläggande svenska och översyn av modersmålsundervisningen" }
+      { "nr": "Dir. 2023:175", "datum": "2023-12-14", "typ": "huvud", "titel": "Införande av grundläggande svenska och översyn av modersmålsundervisningen" },
+      { "nr": "Dir. 2024:72", "datum": "2024-08-22", "typ": "tilläggs", "titel": "Tilläggsdirektiv till Utredningen om införande av grundläggande svenska och översyn av modersmålsundervisningen" }
     ],
     "betankanden": [
       { "nr": "SOU 2025:9", "titel": "På språklig grund", "typ": "slut", "datum": "2025-01-31" }
@@ -636,5 +641,94 @@
     "kopplad_reform": "tid",
     "kallor": [ { "text": "Dir. 2026:96", "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/kommittedirektiv/atgarder-for-lampliga-klasstorlekar_heb196/" }, { "text": "Pressmeddelande 2026-08-27", "url": "https://www.regeringen.se/pressmeddelanden/2026/08/regeringen-tillsatter-utredning-om-reglerade-klasstorlekar/" } ],
     "noteringar": "Uppdraget enligt direktivet: en särskild utredare ska utreda och lämna förslag för att uppnå att undervisning ges i undervisningsgrupper av lämplig storlek med lämplig lärartäthet; kartlägga vilken storlek undervisningsgrupper har idag; analysera och föreslå en reglering av storleken på undervisningsgrupper; analysera och föreslå en reglering för en lämplig lärartäthet; överväga och vid behov föreslå andra åtgärder. Tillkallad enligt regeringens bemyndigande 2026-08-27. Utredare ej verifierad. cat satt redaktionellt, ärvd via kopplad_reform tid (direktivets syfte anger att lärare ska ges goda förutsättningar för undervisningsuppdraget)."
+  },
+  {
+    "id": "utr-svenskamnen",
+    "beteckning": null,
+    "titel": "Utredningen om en översyn av svenskämnenas indelning",
+    "dep": "Utbildningsdepartementet",
+    "status": "pagaende",
+    "cat": "kunskap",
+    "utredare": null,
+    "tillsatt": "2026-09-03",
+    "redovisning": "2027-12-06",
+    "direktiv": [
+      { "nr": "Dir. 2026:107", "datum": "2026-09-03", "typ": "huvud", "titel": "En översyn av svenskämnenas indelning" }
+    ],
+    "betankanden": [],
+    "prop": null,
+    "kopplad_reform": "laroplaner",
+    "kallor": [ { "text": "Dir. 2026:107", "url": "https://data.riksdagen.se/dokument/HEB1107.html" } ],
+    "noteringar": "Uppdraget enligt direktivet: en särskild utredare ska se över konstruktionen av ämnena svenska och svenska som andraspråk och lämna förslag som innebär att ämnena antingen delas in på ett annat sätt än i dag eller slås samman till ett ämne med två kursplaner, varav den ena ska avse grundläggande svenska. Kommittébeteckning ännu ej angiven i riksdagens data (2026-11-10). Utredare ej verifierad. Spåras enligt beslut 2026-11-10 (Sprint 14), kopplad till laroplaner; cat ärvd via kopplad_reform."
+  },
+  {
+    "id": "utr-forskola-sprak-obligatorisk",
+    "beteckning": null,
+    "titel": "Uppdrag att föreslå obligatorisk förskola med språkutvecklande insatser",
+    "dep": "Utbildningsdepartementet",
+    "status": "pagaende",
+    "cat": "styrning",
+    "utredare": "Camilla Mårtensen",
+    "tillsatt": "2026-09-03",
+    "redovisning": "2027-09-01",
+    "direktiv": [],
+    "betankanden": [],
+    "prop": null,
+    "kopplad_reform": "sprak",
+    "kallor": [ { "text": "Uppdrag U2026/01573", "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2026/09/u202601573/" }, { "text": "Pressmeddelande 2026-09-04", "url": "https://www.regeringen.se/pressmeddelanden/2026/09/ny-utredning-om-obligatorisk-forskola-med-sprakutvecklande-insatser-for-barn-som-inte-moter-det-svenska-spraket-hemma/" } ],
+    "noteringar": "Departementsuppdrag (regeringskanslibeslut U2026/01573, 2026-09-03), inget kommittédirektivnummer — syns därför inte i riksdagens öppna data. En utredare ges i uppdrag att lämna författningsförslag som innebär att förskola med språkutvecklande insatser ska vara obligatorisk om barnet bedöms behöva sådant stöd för att det inte exponeras i tillräcklig utsträckning för det svenska språket i hemmiljön. Kompletterar förslagen i SOU 2026:37. Utredare enligt pressmeddelandet. Detta är förskoledirektivet som aviserades 2026-08-31; cat ärvd via kopplad_reform."
+  },
+  {
+    "id": "utr-skarpta-villkor-huvudman",
+    "beteckning": null,
+    "titel": "Uppdrag att utreda vissa skärpta villkor för enskilda huvudmän inom skolväsendet",
+    "dep": "Utbildningsdepartementet",
+    "status": "pagaende",
+    "cat": "styrning",
+    "utredare": null,
+    "tillsatt": "2026-09-01",
+    "redovisning": "2027-09-30",
+    "direktiv": [],
+    "betankanden": [],
+    "prop": null,
+    "kopplad_reform": "vinst",
+    "kallor": [ { "text": "Uppdrag U2026/01547", "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2026/09/u202601547/" } ],
+    "noteringar": "Departementsuppdrag (U2026/01547, 2026-09-01): en utredare ska biträda Regeringskansliet (Utbildningsdepartementet). Utredaren ska bl.a. lämna förslag till ett generellt förbud för fysiska och juridiska personer med hemvist eller säte utanför EU eller EES att genom direkt eller indirekt ägande ha ett väsentligt inflytande över en enskild huvudman inom skolväsendet, och lämna nödvändiga författningsförslag. Utredare ej verifierad. cat ärvd via kopplad_reform."
+  },
+  {
+    "id": "utr-valdsdad-skolmiljo",
+    "beteckning": null,
+    "titel": "Utredningen om åtgärder för att förebygga och förhindra allvarliga våldsdåd i skolmiljöer",
+    "dep": "Justitiedepartementet",
+    "status": "pagaende",
+    "cat": "trygghet",
+    "utredare": null,
+    "tillsatt": "2026-09-03",
+    "redovisning": "2028-05-31",
+    "direktiv": [
+      { "nr": "Dir. 2026:105", "datum": "2026-09-03", "typ": "huvud", "titel": "Åtgärder för att förebygga och förhindra allvarliga våldsdåd i skolmiljöer" }
+    ],
+    "betankanden": [],
+    "prop": null,
+    "kopplad_reform": "brott",
+    "kallor": [ { "text": "Dir. 2026:105", "url": "https://data.riksdagen.se/dokument/HEB1105.html" } ],
+    "noteringar": "Uppdraget enligt direktivet: en särskild utredare ska kartlägga de allvarliga våldsdåd i skolmiljöer som skett i Sverige de senaste 15 åren, analysera berörda aktörers insatser före, under och efter dåden och ta ställning till om fler åtgärder behöver vidtas. Departementsöverskridande (Ju-dep) — spåras enligt relevansregeln DEC-020, kopplad till brott enligt beslut 2026-11-10. Utredare ej verifierad. cat ärvd via kopplad_reform."
+  },
+  {
+    "id": "utr-nationell-yrkesutbildning",
+    "beteckning": null,
+    "titel": "Uppdrag att utreda nationell yrkesutbildning",
+    "dep": "Utbildningsdepartementet",
+    "status": "pagaende",
+    "cat": "styrning",
+    "utredare": null,
+    "tillsatt": "2026-09-03",
+    "redovisning": "2027-03-31",
+    "direktiv": [],
+    "betankanden": [],
+    "prop": null,
+    "kopplad_reform": "yrkes",
+    "kallor": [ { "text": "Uppdrag U2026/01569", "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2026/09/u202601569/" }, { "text": "Pressmeddelande 2026-09-08", "url": "https://www.regeringen.se/pressmeddelanden/2026/09/utredning-tillsatts-for-ett-eventuellt-permanentande-av-nationell-yrkesutbildning/" } ],
+    "noteringar": "Departementsuppdrag (U2026/01569, 2026-09-03). Uppdraget: omhänderta erfarenheter från pilotverksamheten med nationell yrkesutbildning och föreslå författningsreglering som möjliggör ett eventuellt permanent införande av utbildningsformen, samt analysera hur den kan vara ett komplement till andra yrkesutbildningar på gymnasial nivå. Utredare ej verifierad. Spåras enligt beslut 2026-11-10, kopplad till yrkes; cat ärvd via kopplad_reform."
   }
 ]

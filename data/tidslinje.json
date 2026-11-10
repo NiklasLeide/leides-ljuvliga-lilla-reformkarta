@@ -19,15 +19,6 @@
       "kalla": "Prop. 2022/23:54"
     },
     {
-      "id": "riksdag-q2-2026",
-      "typ": "riksdagsbeslut",
-      "datum": "2026-Q2",
-      "titel": "Riksdagsbeslut väntas för åtta propositioner (191–198)",
-      "reform": null,
-      "kategori": null,
-      "kalla": "riksdagen.se"
-    },
-    {
       "id": "prov-genomforandeplan",
       "typ": "redovisning",
       "datum": "2026-05-08",
@@ -82,22 +73,13 @@
       "kalla": "Prop. 2025/26:193"
     },
     {
-      "id": "central-rattning-gy",
-      "typ": "milstolpe",
-      "datum": "2026-Q3",
-      "titel": "Central rättning införs i gymnasieskolan (sv/sva kurs 3, eng kurs 6)",
-      "reform": "betyg",
-      "kategori": "kunskap",
-      "kalla": "RB 2024"
-    },
-    {
-      "id": "laroplaner-remiss",
-      "typ": "milstolpe",
-      "datum": "2026-10-09",
-      "titel": "Kursplaneremiss — öppen för synpunkter t.o.m. 11 december 2026",
-      "reform": "laroplaner",
-      "kategori": "kunskap",
-      "kalla": "skolverket.se"
+      "id": "tid-krankande-ikraft",
+      "typ": "ikraftträdande",
+      "datum": "2026-08-01",
+      "titel": "Ändringarna om kränkande behandling träder i kraft",
+      "reform": "tid",
+      "kategori": "larare",
+      "kalla": "Prop. 2025/26:196, SFS 2026:1096"
     },
     {
       "id": "brottsprevention-metodstod",
@@ -139,10 +121,10 @@
       "id": "laroplaner-forslag",
       "typ": "redovisning",
       "datum": "2027-05-14",
-      "titel": "Förslag till nya kursplaner lämnas till regeringen",
+      "titel": "Omarbetade förslag till nya läro- och kursplaner lämnas till regeringen",
       "reform": "laroplaner",
       "kategori": "kunskap",
-      "kalla": "U2025/02427, senarelagt U2026/00888"
+      "kalla": "U2025/02427, senarelagt U2026/01483"
     },
     {
       "id": "tioarig-fortbildning-start",
@@ -169,7 +151,16 @@
       "titel": "Reglerad undervisningstid träder i kraft",
       "reform": "tid",
       "kategori": "larare",
-      "kalla": "Prop. 2025/26:196"
+      "kalla": "Prop. 2025/26:196, SFS 2026:1097"
+    },
+    {
+      "id": "vinst-ikraft",
+      "typ": "ikraftträdande",
+      "datum": "2027-07-01",
+      "titel": "Skärpta villkor för friskolesektorn träder i kraft",
+      "reform": "vinst",
+      "kategori": "styrning",
+      "kalla": "Prop. 2025/26:292, SFS 2026:1634"
     },
     {
       "id": "sva-kartlaggning",
@@ -181,31 +172,22 @@
       "kalla": "RB 2026 uppdrag 3"
     },
     {
-      "id": "central-rattning-grundskola",
-      "typ": "milstolpe",
-      "datum": "2028-Q1",
-      "titel": "Central rättning införs i grundskolan årskurs 9",
-      "reform": "betyg",
-      "kategori": "kunskap",
-      "kalla": "RB 2024"
-    },
-    {
       "id": "laroplaner-ikraft",
       "typ": "ikraftträdande",
       "datum": "2028-07-01",
       "titel": "Nya läroplaner träder i kraft",
       "reform": "laroplaner",
       "kategori": "kunskap",
-      "kalla": "Prop. 2025/26:194"
+      "kalla": "Prop. 2025/26:194, SFS 2026:1242"
     },
     {
       "id": "betyg-ikraft",
       "typ": "ikraftträdande",
-      "datum": "2028-07-01",
+      "datum": "2028-07-02",
       "titel": "Betygssystem 1–10 träder i kraft",
       "reform": "betyg",
       "kategori": "kunskap",
-      "kalla": "Prop. 2025/26:197"
+      "kalla": "Prop. 2025/26:197, SFS 2026:1243"
     },
     {
       "id": "tioarig-tillampas",
@@ -223,16 +205,16 @@
       "titel": "Förbättrat stöd i skolan — stödundervisning träder i kraft",
       "reform": "stod",
       "kategori": "kunskap",
-      "kalla": "Prop. 2025/26:195"
+      "kalla": "Prop. 2025/26:195, SFS 2026:1242"
     },
     {
-      "id": "studiero-delar-ikraft",
+      "id": "tid-samordning-ikraft",
       "typ": "ikraftträdande",
-      "datum": "2028-07-01",
-      "titel": "Trygghet och studiero — resterande delar träder i kraft",
-      "reform": "studiero",
-      "kategori": "trygghet",
-      "kalla": "Prop. 2025/26:193"
+      "datum": "2028-07-02",
+      "titel": "Tid för undervisningsuppdraget — övriga ändringar träder i kraft",
+      "reform": "tid",
+      "kategori": "larare",
+      "kalla": "Prop. 2025/26:196, SFS 2026:1243"
     },
     {
       "id": "laroplaner-slutredovisning",

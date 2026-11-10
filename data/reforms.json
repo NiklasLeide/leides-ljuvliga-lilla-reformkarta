@@ -4,7 +4,7 @@
     "short": "Nya läroplaner",
     "ref": "Prop. 2025/26:194",
     "cat": "kunskap",
-    "ikraft": "1 juli 2028",
+    "ikraft": "1 juli 2028 / 2 juli 2028",
     "status": "beslutad",
     "time": [
       "2028"
@@ -23,7 +23,7 @@
       "Sammantagen bedömning gäller alla betygssteg",
       "Kursplaner utan betyg för nybörjare i svenska"
     ],
-    "transition": "Riksdagen beslutade 2026-06-03 (bet. 2025/26:UbU23, rskr. 2025/26:327). Merparten 1 juli 2028. Komvux-ändringar 1 jan 2031.",
+    "transition": "Riksdagen beslutade 2026-06-03 (bet. 2025/26:UbU23, rskr. 2025/26:327). Ikraftträdande 1 juli 2028 (SFS 2026:1242) och 2 juli 2028 (SFS 2026:1243). Komvux-ändringar 1 jan 2031 (SFS 2026:1245). Riksdagens betänkande anger att ändringarna i huvudsak träder i kraft den 1 juli 2028. Samordningslagen SFS 2026:1243 träder i kraft den 2 juli 2028.",
     "budget": "40 Mkr till Skolverket 2026.",
     "links": [
       {
@@ -32,7 +32,7 @@
       },
       {
         "t": "Skolverket",
-        "u": "https://www.skolverket.se/styrning-och-ansvar/forandringar-inom-skolomradet/tioarig-grundskola-och-nya-laroplaner"
+        "u": "https://www.skolverket.se/styrning-och-ansvar/en-skola-i-forandring/nya-laroplaner-och-kursplaner"
       }
     ]
   },
@@ -41,7 +41,7 @@
     "short": "Betygssystem 1–10",
     "ref": "Prop. 2025/26:197",
     "cat": "kunskap",
-    "ikraft": "1 juli 2028",
+    "ikraft": "2 juli 2028",
     "status": "beslutad",
     "time": [
       "2028"
@@ -64,7 +64,7 @@
       "Bedömningssamråd vid slutlig betygssättning",
       "Gäller även gymnasial nivå — påverkar Gy25:s betygsskala"
     ],
-    "transition": "Riksdagen beslutade 2026-06-09 (bet. 2025/26:UbU26, rskr. 2025/26:335). Skollagen: 1 juli 2028. Ny betygsskala stegvis fr.o.m. HT 2027 (gymnasiet) resp. HT 2028 (grundskolan). Slutprov fr.o.m. VT 2029 (gymnasiet), VT 2031 (grundskolan). Komvux: 1 jan 2031. Synkroniserat med tioårig grundskola.",
+    "transition": "Riksdagen beslutade 2026-06-09 (bet. 2025/26:UbU26, rskr. 2025/26:335). Skollagen: 2 juli 2028 (SFS 2026:1243). Ny betygsskala stegvis fr.o.m. HT 2027 (gymnasiet) resp. HT 2028 (grundskolan). Slutprov fr.o.m. VT 2029 (gymnasiet), VT 2031 (grundskolan). Komvux: 1 jan 2031 (SFS 2026:1245). Synkroniserat med tioårig grundskola. Riksdagens betänkande anger att ändringarna i huvudsak träder i kraft den 1 juli 2028. Samordningslagen SFS 2026:1243 träder i kraft den 2 juli 2028.",
     "budget": "24,9 Mkr till Skolverket 2026. Medel till UHR 2027–28 för antagningsförändringar.",
     "links": [
       {
@@ -77,7 +77,7 @@
       },
       {
         "t": "SOU 2025:18",
-        "u": "https://www.regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2025/03/sou-202518/"
+        "u": "https://www.regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2025/02/sou-202518/"
       }
     ]
   },
@@ -104,7 +104,7 @@
       "Anpassade grundskolan, specialskolan och sameskolan utökas",
       "Behörighetsregler anpassas (Prop. 2025/26:149)"
     ],
-    "transition": "Riksdagen har beslutat. Tillämpas fr.o.m. HT 2028.",
+    "transition": "Riksdagen beslutade 2025-06-18 (bet. 2024/25:UbU17, rskr. 2024/25:289). Tillämpas fr.o.m. HT 2028.",
     "budget": "Ingår i reformpaketet.",
     "links": [
       {
@@ -113,7 +113,7 @@
       },
       {
         "t": "Skolverket",
-        "u": "https://www.skolverket.se/styrning-och-ansvar/forandringar-inom-skolomradet/tioarig-grundskola-och-nya-laroplaner"
+        "u": "https://www.skolverket.se/styrning-och-ansvar/en-skola-i-forandring/nya-laroplaner-och-kursplaner"
       }
     ]
   },
@@ -141,7 +141,7 @@
       "Stödundervisning sätts in när lärare flaggar",
       "Standardiserade tester varje hösttermin"
     ],
-    "transition": "Riksdagen beslutade 2026-06-03 (bet. 2025/26:UbU24, rskr. 2025/26:328). Ikraftträdande 1 juli 2028.",
+    "transition": "Riksdagen beslutade 2026-06-03 (bet. 2025/26:UbU24, rskr. 2025/26:328). Ikraftträdande 1 juli 2028 (SFS 2026:1242).",
     "budget": "~3,7 mdr kr/år fr.o.m. 2029 (delat med undervisningstidsreformen).",
     "links": [
       {
@@ -170,7 +170,7 @@
       "Mer tid för praktisk-estetiska ämnen",
       "Omfördelning från SO/NO-block"
     ],
-    "transition": "Beslutad. Tillämpas stegvis.",
+    "transition": "Riksdagen beslutade 2023-12-20 (bet. 2023/24:UbU5, rskr. 2023/24:106). Tillämpas stegvis.",
     "budget": "Ej specificerat.",
     "links": [
       {
@@ -235,7 +235,7 @@
       "Avvisning behöver inte dokumenteras skriftligt",
       "Akutskola kan bedrivas på entreprenad"
     ],
-    "transition": "Riksdagen beslutade 2026-06-03 (bet. 2025/26:UbU22, rskr. 2025/26:308). Merparten träder i kraft 1 augusti 2026. Vissa bestämmelser om stödundervisning träder i kraft 1 juli 2028.",
+    "transition": "Riksdagen beslutade 2026-06-03 (bet. 2025/26:UbU22, rskr. 2025/26:308). Lagändringarna börjar gälla 1 augusti 2026 (SFS 2026:1198).",
     "budget": "95 Mkr 2026, 100 Mkr/år fr.o.m. 2027. 300 Mkr statsbidrag säkerhet.",
     "links": [
       {
@@ -312,7 +312,7 @@
     "short": "Reglerad undervisningstid",
     "ref": "Prop. 2025/26:196",
     "cat": "larare",
-    "ikraft": "1 aug 2026 / 1 juli 2027 / 1 juli 2028",
+    "ikraft": "1 aug 2026 / 1 juli 2027 / 2 juli 2028",
     "status": "beslutad",
     "time": [],
     "roles": [
@@ -329,7 +329,7 @@
       "Färre utvecklingssamtal",
       "Läraren styr information till vårdnadshavare"
     ],
-    "transition": "Riksdagen beslutade 2026-06-09 (bet. 2025/26:UbU25, rskr. 2025/26:332). Ikraftträdande stegvis: kränkande behandling 1 augusti 2026 (SFS 2026:1096), undervisningsuppdraget 1 juli 2027 (SFS 2026:1097), övriga ändringar 1 juli 2028 (SFS 2026:1243).",
+    "transition": "Riksdagen beslutade 2026-06-09 (bet. 2025/26:UbU25, rskr. 2025/26:332). Ikraftträdande stegvis: kränkande behandling 1 augusti 2026 (SFS 2026:1096), undervisningsuppdraget 1 juli 2027 (SFS 2026:1097), övriga ändringar 2 juli 2028 (SFS 2026:1243). Riksdagens betänkande anger att ändringarna i huvudsak träder i kraft den 1 juli 2028. Samordningslagen SFS 2026:1243 träder i kraft den 2 juli 2028.",
     "budget": "Ingår i ~3,7 mdr kr/år fr.o.m. 2029 (delat med stödreformen).",
     "links": [
       {
@@ -360,7 +360,7 @@
       "En nivå förutsätter examen på forskarnivå",
       "Karriärtjänster kopplas till meritering"
     ],
-    "transition": "I kraft 1 sep 2025.",
+    "transition": "Riksdagen beslutade 2023-05-31 (bet. 2022/23:UbU13, rskr. 2022/23:206). I kraft 1 sep 2025.",
     "budget": "234,5 Mkr från 2023 och framåt.",
     "links": [
       {
@@ -426,7 +426,7 @@
       "Möjlighet att frångå lika villkor vid synnerliga skäl",
       "Villkorade belopp"
     ],
-    "transition": "Föreslaget ikraftträdande 1 jan 2027, tillämpas 2028. Slutbetänkande (gymnasiet) väntas nov 2026.",
+    "transition": "Föreslaget ikraftträdande 1 jan 2027, tillämpas 2028. Slutbetänkande (gymnasiet) SOU 2026:65 lämnat 29 oktober 2026.",
     "budget": "Ej specificerat.",
     "links": [
       {
@@ -461,7 +461,7 @@
       "Sanktionsavgifter",
       "Statliga åtgärder för rättelse även för fristående skolor"
     ],
-    "transition": "Riksdagen beslutade 2026-08-13 (bet. 2025/26:UbU30; rskr ej publicerad 2026-08-25). Prop. 2025/26:292, överlämnad 2026-06-25. Ikraftträdande 1 juli 2027.",
+    "transition": "Riksdagen beslutade 2026-08-13 (bet. 2025/26:UbU30, rskr. 2025/26:438). Prop. 2025/26:292, överlämnad 2026-06-25. Ikraftträdande 1 juli 2027 (SFS 2026:1634).",
     "budget": "Ej specificerat.",
     "links": [
       {
@@ -498,7 +498,7 @@
       "Reglering av barngruppsstorlekar",
       "Förtydligande av svenskans ställning"
     ],
-    "transition": "Utredning pågår. Redovisning senast 11 juni 2026.",
+    "transition": "Slutbetänkande SOU 2026:37 överlämnat 17 juni 2026. Ny utredning om obligatorisk förskola med språkutvecklande insatser tillsatt 3 september 2026 (U2026/01573), redovisas senast 1 september 2027.",
     "budget": "Ej specificerat.",
     "links": [
       {
@@ -552,7 +552,7 @@
     "short": "Yrkesutbildning",
     "ref": "Prop. 2025/26:198",
     "cat": "styrning",
-    "ikraft": "1 juli 2026 / 2 juli 2028",
+    "ikraft": "1 juli 2026 / 1 juli 2028 / 2 juli 2028",
     "status": "beslutad",
     "time": [
       "2026s",
@@ -573,7 +573,7 @@
       "Yrkesprov även inom komvux",
       "Rätt att fullfölja utbildning i anpassade gymnasieskolan"
     ],
-    "transition": "Riksdagen beslutade 2026-05-27 (bet. 2025/26:UbU27, rskr. 2025/26:307). Entreprenad och rätt att fullfölja: 1 juli 2026. Övriga ändringar: 2 juli 2028.",
+    "transition": "Riksdagen beslutade 2026-05-27 (bet. 2025/26:UbU27, rskr. 2025/26:307). Entreprenad och rätt att fullfölja: 1 juli 2026 (SFS 2026:960). Övriga ändringar: 1 juli 2028 (SFS 2026:1242) och 2 juli 2028 (SFS 2026:1243). Komvux: 1 jan 2031 (SFS 2026:1245). Riksdagens betänkande anger att ändringarna i huvudsak träder i kraft den 1 juli 2028. Samordningslagen SFS 2026:1243 träder i kraft den 2 juli 2028.",
     "budget": "Ej specificerat.",
     "links": [
       {

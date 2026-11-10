@@ -1,8 +1,82 @@
 # Project Status — leides-ljuvliga-lilla-reformkarta
 
-> **Last updated:** 2026-08-25
-> **Current sprint:** Underhåll — Sprint 13 stängd 2026-09-05 (Sprint 10 T6 kvar öppen)
-> **Sprint dates:** augusti 2026
+> **Last updated:** 2026-11-10
+> **Current sprint:** Sprint 14 — Revisionssprinten (startad 2026-11-10)
+> **Sprint dates:** november 2026
+
+---
+
+## Current: Sprint 14 — Revisionssprinten
+
+**Mål:** Hela sajten är genomgången mot primärkälla och aktuell per deploydatum.
+Skolverkets remiss av nya läroplaner och kursplaner syns på sajten (Remissläge).
+Revisionen av strukturerade fält är ett körbart skript som Sprint 15 bygger
+automatpublicering på.
+
+**Ny arbetsordning:** DEC-018 (research i Claude Code som egen fas med incheckad
+ändringslista före första datapatch — ersätter DEC-017 i den delen) och DEC-019
+(beslutad automatnivå: rutinändringar ur riksdagens strukturerade data publiceras
+utan mänskligt klick — införs i Sprint 15, inte nu).
+
+**Regler:**
+- Officiella namn och formuleringar. Varje ändring har käll-URL. Null före gissning. Datum = beslutsdatum.
+- Endast formella beslut ändrar status. Uttalanden, avtal och aviseringar ändrar inget. Neutralt språk, inga omdömen.
+- Riksdagsbeslut räknas först när betänkandet har rskr-referens med status inträffat. API-status "Klar" betyder bara publicerad.
+- Fält som renderas tillsammans granskas tillsammans (ikraft, transition).
+- SFS via riksdagen.se och lagen.nu. Regleringsbrev lämnas till chatten, försök inte nå statskontoret.se.
+- En task i taget. Commit "Sprint 14 TN: ...", verifiera med git show --stat. STOPP efter T3 och före T8, inga andra stopp.
+
+**Out of scope:** automatpublicering och routine (Sprint 15), guideposter för gy25,
+ai och vinst, konvertering av källformat, CSS-refaktor, tillgänglighet, val26.
+
+**Stop condition:** T0 till T9 klara, 0 öppna bevakningsissues, stämpeln live =
+deploydatum, DoD godkänd.
+
+| ID | Task | Status | Acceptance |
+|----|------|--------|------------|
+| T0 | Nät och miljö | ✅ Done | curl -L riksdagen.se → 200 (www.riksdagen.se/sv/, 350 kB; data.riksdagen.se → öppna data-sidan). Prop. 2025/26:292 via bevakningsskriptets `lookupProp` + dokumentstatus: HD03292 "Skärpta villkor för friskolesektorn", bet. 2025/26:UbU30 (HD01UbU30) beslut_fattat=true, beslutsdatum 2026-08-13, **rskr 2025/26:438** (fanns ej 2026-08-25). Lästa sidor (200 + titel): regeringen.se start, sou.gov.se start, skolverket.se remissidan 2026-11-09, lagen.nu/2010:800. Testsvit 61/61 (extract 8, rapport 10, riksdagen 22, rss 21). Röktest 2026-11-10: statskontoret.se reset (ignoreras per regel), svenskforfattningssamling.se 403 från Cloudflare (SFS via riksdagen/lagen.nu). |
+| T1 | Sprintregistrering | ✅ Done | Brief + DEC-018 + DEC-019. dev = master (5a4f662) vid sprintstart; T1-commiten rör endast docs/. |
+| T2 | Revisionsskript | ✅ Done | `scripts/revision/revision.js` (zero-dependency, Node 20): för 13 spårade propositioner + 30 utredningar hämtas läge ur data.riksdagen.se (prop → betänkanden → BES/rskr; direktiv via kommittébeteckning i undertitel + direktuppslag; SOU via "Slut-/Del-/Betänkande av <namn>" exakt mot utredningens titel) och diffrapport skrivs till `docs/revision/revision-<datum>.{json,md}`. Ändrar inga datafiler. Rskr-regeln (BES inträffat OCH rskr) i `betankandeBeslut()` med 5 egna tester (riktiga fixturer UbU30 före/efter beslut + härledda kantfall). 11/11 tester, determinism testad (två körningar = identisk rapport). Skarp körning 2026-11-10: 62 fynd, 0 fel, 96 s. Körs om med samma kommando (samma datum skriver över). |
+| T3 | Fas A: ändringslista | ✅ Done — **STOPP** | `docs/revision/2026-11-andringslista.md`: 68 RUTIN, 60 BEDÖMNING (9 "kräver beslut"), 8 info-rader, täcker a–f + separat BEDÖMNING-lista. Inga datapatchar (`git diff data/` tomt). Tvärgående fynd: (X1) augustiändringen av läroplansuppdraget är U2026/01483 daterad 2026-08-20, inte U2026/00888/08-24 (fel från S13 T8b i uppdrag/andringar/tidslinje); (X2) SFS 2026:1243 träder i kraft **2 juli 2028** (tid steg 3 + betyg); (X3) prop 292: rskr 2025/26:438, SFS 2026:1634 ikraft 1 juli 2027. Luckor e) lösta: förskoledirektivet = departementsuppdrag U2026/01573. Dir. 2026:98 utvidgar S 2025:08 och förlänger till 2027-11-30; riksdagens "S 2025:06" är källfel. Bevakningsluckor: Dir. 2026:117/123 missade, departementsuppdrag utan Dir.-nr osynliga (→ Sprint 15). Väntar på Niklas beslut om BEDÖMNING-raderna. |
+| T4 | Fas B: datapatchar | ✅ Done | Alla RUTIN + godkända BEDÖMNING enligt beslut 2026-11-10 applicerade (168 operationer, `docs/revision/2026-11-t4-patch.py`). 6 datafiler + 8 html (titel 2025–2031). DEC-020 (relevansregel). 5 nya spårade utredningar (Dir. 2026:107, Dir. 2026:105, U2026/01569, U2026/01573, U2026/01547). Datum per lag: SFS 2026:1242 = 1 juli 2028, SFS 2026:1243 = 2 juli 2028. JSON validerar (8 filer), testsvit 72/72, revisionsskriptet efter patch: 22 kvarvarande fynd, alla "lämnas"-klass (SOU-publiceringsdatum, källfel Dir. 2026:98, UbU26-info). 8 sidor headless: 0 appfel (1 extern resurs blockerad av sandboxen per sida); guide-varningarna gy25/vinst/ai kända. |
+| T5 | Remissläge | ✅ Done | `data/remisser.json` (första posten enligt spec; dnr null — inget diarienummer på remissidan; länkar per skolform till remissidans fyra avsnitt). Status räknas i klienten (DEC-021) och visas på reformkorten för laroplaner + tioarig (karta: detaljpanel + mobil listvy; reformvy: detaljpanel/mobil sidopanel), i tidslinjen (ny händelsetyp Remiss: öppnar + sista svarsdag, filter + förklaring) och i guidens läsårshjul (guidetexten medan öppen). `scripts/revision/remiss.test.js` 10/10 (tre lägen med styrbart datum, gränsdagar, okänt reform_id, identiska block i 4 sidor, inga svarsinstruktioner/bara Skolverket-länkar). `scripts/revision/remiss-e2e.js` 25/25: 3 lägen × desktop/375 × 4 sidor med låst webbläsarklocka, 0 appfel i konsolen, + okänt reform_id i webbläsaren ger exakt ett console.error och ingen ruta. 24 skärmbilder i `docs/revision/skarmbilder/`. **Rättat inom T5:** tidslinje.html hade `NOW` hårdkodat till 2026-03-30 sedan Sprint 10 (Nu-linjen stod still och motsade remisslägets status) → `new Date()`. **Observationer, ej åtgärdade (CSS out of scope):** (1) tidslinjens tidsaxel, Nu-linje och markörer ritas ovanpå detaljpanelen i desktop (fanns före T5, syns i tidslinjeskärmbilderna); (2) med äkta mobilemulering blir tidslinjens layout 1433 px bred (fanns före T5) — 375-bilderna är tagna som viewport-bredd utan isMobile. |
+| T6 | Ändringar och stämpel | ✅ Done | andringar.json 17→27 poster enligt Sprint 13-konventionen: 2026-11-09 remiss öppnad (laroplaner, tioarig); 2026-10-29 SOU 2026:65 (skolpeng); fem nya spårade utredningar (Dir. 2026:107, Dir. 2026:105, U2026/01573, U2026/01569 — 2026-09-03; U2026/01547 — 2026-09-01); tre konkreta datumändringar för spårade utredningar (Dir. 2026:123 2026-10-22, Dir. 2026:117 2026-09-03, Dir. 2026:98 2026-08-27 — den sista var vilande i S13 i väntan på verifierat innehåll). Nya regeringsuppdrag (U2026/01561, 01274, 00991) → uppdragsvyn, ingen post (konventionen). Äldre tilläggsdirektiv före loggens start (Dir. 2025:95, 2024:72) → ingen post. meta.json = 2026-11-10 (**förutsätter deploy 2026-11-10; sker deployen senare bumpas stämpeln i T8**). Språkregel 0, headless: 27 källänkar, stämpel "10 november 2026", 0 appfel. |
+| T7 | Issues | ✅ Done | #13–#20 har var sin dispositionskommentar per punkt (via GitHub MCP), alla kryssrutor avbockade i issue-bodyn och stängda med state_reason=completed. **0 öppna issues** (list_issues OPEN → totalCount 0). Dispositioner: Dir. 2026:107 → spåras (#13); SOU 2026:65 → skolpeng slutbetänkande (#19); övriga SOU (57, 56, 58×3, 59, 60, 61, 62, 53, 63, 64, 66) → avförda; regleringsbrev FEL → DEC-008, kontroll i chatten. Bevakningsluckor noterade i issues: Dir. 2026:117 (#13), Dir. 2026:123 i tom v.44 (#18), remissen 2026-11-09 (#20). |
+| T7b | Två riktade UI-rättningar | ✅ Done | (1) tidslinje.html: `.sidebar` fick z-index 18 (över gantt-huvudet 15 och markörer/Nu-linje ≤10, under filterraden 20) — endast lagerordning. e2e: elementFromPoint mitt på panelrubriken träffar `detail-title` för både remisshändelse och befintlig händelse (laroplaner-forslag); utan rättningen träffar samma kontroll `gantt-header-chart` (verifierat). Tre tidslinjebilder (desktop) ersatta. (2) reformer.html 375 px: **ingen ändring** — vid öppning överlappar inte stängknappen rubriken (knapp y 16–44, kategorietikett från y 51, rubrik från y 74). Överlappet i oppen-reformer-375.png uppstår för att e2e skrollar remissrutan in i bild (scrollTop 63) och stängknappen är sticky — avsett beteende. Testsvit 82/82, e2e 27/27, 0 appfel. |
+| ⏸ | **STOPP före T8** | — | Klartecken givet 2026-11-10, villkorat av grön T7b. |
+| T8 | Deploy (efter klartecken) | ⬜ Todo | ./deploy.sh, Pages success, meta.json från reformer.leide.se visar deploydatum, rollback-SHA noterad |
+| T9 | DoD review | ⬜ Todo | dod-reviewer mot stop condition, avvikelser dokumenterade, sprinten Completed |
+
+### Specifikation T3 (ändringslistans innehåll)
+En rad per ändring: fil, post, nuvärde, nytt värde, käll-URL, klass. RUTIN = värdet
+står ordagrant i källan för en redan spårad post. BEDÖMNING = allt annat (ny post,
+relevans, struken post, egen text). Täcker: (a) revisionsskriptets diff; (b) triage
+av issues #13–#20; (c) post för post uppdrag.json, tidslinje.json, guide.json,
+andringar.json; (d) allt efter 2026-09-05: valet, regeringsbildning,
+budgetpropositionen för 2027, nya direktiv, propositioner, lagrådsremisser och
+uppdrag från U-dep, återkallade/ändrade ärenden; (e) kända luckor: rskr för prop.
+2025/26:292, innehållet i Dir. 2026:98, förskoledirektivet aviserat 2026-08-31;
+(f) sajten: sidtitel 2025–2028 vs og-titel 2025–2031, länkar som inte svarar, vad
+Sprint 10 T6 gäller. Avslutas med separat lista över alla BEDÖMNING-rader.
+
+### Specifikation T5 (Remissläge)
+Ny fil data/remisser.json. Första post (verifierad 2026-11-10): titel "Remiss:
+Förslag på nya läroplaner och kursplaner för grundskolan, anpassade grundskolan,
+specialskolan och sameskolan"; avsandare Skolverket; oppnar 2026-11-09;
+svar_senast 2027-01-20; omfattar grundskolan, anpassade grundskolan,
+specialskolan, sameskolan inkl. läroplanens del om fritidshemmet; nasta_steg:
+Skolverket lämnar omarbetade förslag till regeringen 2027-05-14, regeringsbeslut
+null, tillämpning höstterminen 2028; reform_ids laroplaner, tioarig; dnr från
+remissidan annars null; url (Skolverkets remissida 2026-11-09) och url_oversikt
+(…/en-skola-i-forandring/nya-laroplaner-och-kursplaner). Länkar per skolform om
+remissidan har separata dokument. Rendering: status räknas ur datumen i klienten
+(lagras ej) — "Remiss öppnar {datum}" / "Remiss öppen till och med {datum}" /
+"Remiss avslutad {datum}" + nästa steg. Visas på reformkorten laroplaner + tioarig
+(karta + reformvy), i tidslinjen (öppnar, sista svarsdag) och i guidens läsårshjul
+efter datum. Guidetext: "Skolverkets förslag till nya läroplaner och kursplaner är
+på remiss till och med den 20 januari 2027. Alla som vill kan lämna synpunkter."
+Sajten länkar till Skolverket, återger varken svarsinstruktioner eller förslagens
+innehåll.
 
 ---
 

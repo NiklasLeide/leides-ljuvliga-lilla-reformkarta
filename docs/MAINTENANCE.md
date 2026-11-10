@@ -82,3 +82,21 @@ _Not yet parked_
 ---
 > Update the "How to run" section the moment you figure out the setup.
 > Do it while it's fresh — not when you're returning cold in 3 months.
+
+## Revisionsskriptet (Sprint 14 T2)
+
+```bash
+node scripts/revision/revision.js --datum YYYY-MM-DD   # diffrapport → docs/revision/revision-<datum>.{json,md}
+node --test scripts/revision/*.test.js scripts/bevakning/*.test.js   # hela testsviten
+node scripts/revision/remiss-e2e.js   # Remissläge i webbläsaren (Playwright), skärmbilder → docs/revision/skarmbilder/
+```
+Skriptet läser riksdagens öppna data och jämför mot `data/reforms.json` och
+`data/utredningar.json`. Det ändrar aldrig datafiler. Fynd klassas RUTIN/BEDÖMNING
+i en ändringslista (DEC-018) innan något patchas. Exit 2 = rapport skriven men
+minst ett API-anrop misslyckades (se avsnittet Fel i rapporten).
+
+## Remissläge (Sprint 14 T5, DEC-021)
+
+Ny remiss = ny post i `data/remisser.json` (verifiera datum och nästa steg mot remissidan).
+Status räknas i klienten och ska aldrig skrivas in i datafilen. `<remiss-lib>`-blocket finns i fyra
+sidor och måste vara byte-identiskt — `remiss.test.js` fäller annars. Ändra blocket i alla fyra.
