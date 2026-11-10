@@ -22,7 +22,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Förslagen förutsätter starkt ledarskap hos rektor",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -50,7 +55,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Behov av kompetensutveckling i ledarskap",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -78,7 +88,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": null,
+    "motivering": "Avvägning mellan studiero och stöd till elever",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -106,7 +121,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": null,
+    "motivering": "Risk för oproportionerliga åtgärder mot elever",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -134,7 +154,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Begränsat vårdnadshavarinflytande svårt att tillämpa",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -172,7 +197,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": "Kostnader och finansiering",
+    "motivering": "Brister i stödåtgärder för elever på grund av resursbrist",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -210,7 +240,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": "Personal, kompetens och arbetsbelastning",
+    "motivering": "Behov av stödmaterial för proportionerlig tillämpning",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -248,7 +283,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Omfattande dokumentationskrav tar tid från personal",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -286,7 +326,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Övrigt",
+    "sekundar": "Likvärdighet och konsekvenser för elever",
+    "motivering": "Skolor kan avstå ingripanden av rädsla för kränkningsärenden",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -324,7 +369,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": null,
+    "motivering": "Små skolor saknar lokaler och möjlighet till akutskola",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -362,7 +412,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": "Personal, kompetens och arbetsbelastning",
+    "motivering": "Fjärrundervisning svår att organisera med upptagna lärare",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -400,7 +455,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Oklart när synnerliga skäl föreligger",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -438,7 +498,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Övrigt",
+    "sekundar": null,
+    "motivering": "Integritetsfrågor kring nationellt frånvaroregister",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -476,7 +541,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Dokumentation av åtgärder behövs fortfarande",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -504,7 +574,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Efterfrågar förtydligande av synnerliga skäl",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -532,7 +607,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Fler administrativa uppgifter och utökat ansvar för rektorer",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -560,7 +640,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": "Personal, kompetens och arbetsbelastning",
+    "motivering": "Huvudmannens organisering räcker inte för verksamhetsnära ledarskap",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -588,7 +673,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": "Likvärdighet och konsekvenser för elever",
+    "motivering": "Omfördelade statsbidrag missgynnar små huvudmän",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -616,7 +706,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": "Organisation och planering",
+    "motivering": "Akutskola i egen regi ej finansierbar för små kommuner",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -644,7 +739,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": "Organisation och planering",
+    "motivering": "Långa avstånd ger höga skolskjutskostnader",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -672,7 +772,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": null,
+    "motivering": "Statlig ekonomisk kompensation avgörande för genomförandet",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -700,7 +805,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": null,
+    "motivering": "Svårigheter i genomförandet av flera förslag",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -728,7 +838,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Behov av personalförstärkning för utvisade elever",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -765,7 +880,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": "Organisation och planering",
+    "motivering": "Utvisade elevers skolplikt och undervisningstid",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -802,7 +922,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": "Organisation och planering",
+    "motivering": "Oklart vad som gäller i särskilda undervisningsgrupper",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -839,7 +964,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": "Organisation och planering",
+    "motivering": "Fler särskilda undervisningsgrupper ger dyrare skola",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -876,7 +1006,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Övrigt",
+    "sekundar": null,
+    "motivering": "Konsekvenserna riskerar att sakna effekt på beteende",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -904,7 +1039,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Övrigt",
+    "sekundar": null,
+    "motivering": "Förväntansdokument kan öka klyftan mot vårdnadshavare",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -942,7 +1082,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": null,
+    "motivering": "Regionen kan behöva utfärda fler intyg",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -980,7 +1125,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Oklart om psykologiska faktorer räknas som giltig frånvaro",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -1018,7 +1168,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Skolans sjukdomsbedömning ökar administration och konflikter",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -1056,7 +1211,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "System och teknik",
+    "sekundar": null,
+    "motivering": "Digitala anmälningssystem kanske inte klarar ändrad definition",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -1094,7 +1254,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": "System och teknik",
+    "motivering": "Telefonanmälan av frånvaro ökar arbetsbelastningen",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -1132,7 +1297,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": null,
+    "motivering": "Regionen saknar resurser för samverkan i individfall",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -1170,7 +1340,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Övrigt",
+    "sekundar": null,
+    "motivering": "Frånvaro svår att mäta jämförbart",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -1208,7 +1383,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Rektor med flera enheter hinner inte observera",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -1236,7 +1416,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Undervisningsnära ledarskap kräver bortprioritering av annat",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -1264,7 +1449,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": "Otydlighet i förslaget",
+    "motivering": "Saknar plan för resurs- och arbetsfördelning i skolledning",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -1292,7 +1482,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Ökat tryck i rektorns korsdrag av uppdrag",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -1320,7 +1515,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": "Personal, kompetens och arbetsbelastning",
+    "motivering": "Små skolor får svårare att uppfylla ökade krav",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -1348,7 +1548,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Endast rektor som observatör ger färre insatser",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -1376,7 +1581,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Orimligt att rektor följer alla lektioner",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -1404,7 +1614,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Huvudmannens förutsättningar beskrivs utan konkret lösning",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -1432,7 +1647,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": "Kostnader och finansiering",
+    "motivering": "Mer ansvar utan resurser belastar rektor",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -1460,7 +1680,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": null,
+    "motivering": "Kräver strukturella förändringar i organisationen",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -1488,7 +1713,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Behov av kompetent personal som avlastar lärare",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -1516,7 +1746,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": "Kostnader och finansiering",
+    "motivering": "Personalbrist och budget gör tidsbördan ohållbar",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -1544,7 +1779,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Frånvaroregister ger administrativ börda för personal",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -1572,7 +1812,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Kräver tydlig definition av giltig frånvaro",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -1600,7 +1845,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "System och teknik",
+    "sekundar": null,
+    "motivering": "Systemet kan inte ange sjukfrånvaro på grund av GDPR",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -1628,7 +1878,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": null,
+    "motivering": "Ändringarna måste vara fullt finansierade",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -1656,7 +1911,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": "Kostnader och finansiering",
+    "motivering": "Begränsade resurser kan skapa ojämlikhet mellan skolor",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -1684,7 +1944,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": null,
+    "motivering": "Godtycklig tillämpning drabbar vissa elever hårdare",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -1712,7 +1977,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": "Personal, kompetens och arbetsbelastning",
+    "motivering": "Skolor i utsatta områden får svårare att genomföra",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -1740,7 +2010,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": null,
+    "motivering": "Utan dokumentation saknas spårbarhet i beslut om elever",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -1768,7 +2043,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": null,
+    "motivering": "Saknat underlag försvårar rättssäker prövning",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -1796,7 +2076,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": null,
+    "motivering": "Svårt identifiera mönster utan dokumentation",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -1824,7 +2109,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": "Organisation och planering",
+    "motivering": "Merkostnader för administration och organisation",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -1852,7 +2142,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": null,
+    "motivering": "Systematisk informationsinsamling om ordningsproblem försvinner",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -1880,7 +2175,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": "Personal, kompetens och arbetsbelastning",
+    "motivering": "Egna dokumentationsrutiner ger administration utan enhetlighet",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -1908,7 +2208,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": "Organisation och planering",
+    "motivering": "Oklart hur stöd organiseras och om resursteam behövs",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -1936,7 +2241,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": "Likvärdighet och konsekvenser för elever",
+    "motivering": "Mer stödpersonal slår hårt mot resurssvaga skolor",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -1964,7 +2274,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": "Organisation och planering",
+    "motivering": "Utan avlastning kan exkludering bli enda lösningen",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -1992,7 +2307,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": "Likvärdighet och konsekvenser för elever",
+    "motivering": "Saknar strategi för att balansera trygghet och inkludering",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -2020,7 +2340,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Höga krav på relationsbyggande kompetens",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -2048,7 +2373,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Behov av tydlig definition av bestäms",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -2086,7 +2416,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": null,
+    "motivering": "Nekat tillträde saknar tidsgräns för eleven",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -2121,7 +2456,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Regleringen medför omfattande administrativ börda",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -2157,7 +2497,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Begreppet begränsad omfattning behöver definieras",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -2197,7 +2542,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": "Kostnader och finansiering",
+    "motivering": "Organisatoriska och ekonomiska utmaningar i genomförandet",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -2225,7 +2575,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": null,
+    "motivering": "Begränsade möjligheter att organisera akutskola parallellt",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -2253,7 +2608,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Fler begrepp försvårar definitioner och gränsdragningar",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -2281,7 +2641,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Tre nya dokument blir betungande administration",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -2309,7 +2674,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Begränsat inflytande kräver konkret tydlighet",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -2346,7 +2716,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Övrigt",
+    "sekundar": null,
+    "motivering": "Risk för konflikt mellan personal och vårdnadshavare",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -2383,7 +2758,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Tre dokument blir betungande administrativ uppgift",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -2418,7 +2798,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Lärares medverkan ökar administrativ börda",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -2453,7 +2838,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Formuleringen finns förutsättningar för svår att tillämpa",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -2488,7 +2878,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": null,
+    "motivering": "Kräver tillgång till akutskolor för alla huvudmän",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -2516,7 +2911,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": null,
+    "motivering": "Små fristående skolor saknar lösningar för störande elever",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -2544,7 +2944,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": "Organisation och planering",
+    "motivering": "Akutskolor kommer inte finnas i hela landet",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -2572,7 +2977,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": "Likvärdighet och konsekvenser för elever",
+    "motivering": "Oklar placering efter åtta veckor i akutskola",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -2600,7 +3010,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": null,
+    "motivering": "För kort placering kan sakna verkan för eleven",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -2628,7 +3043,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Oklart vad vecka avser vid avstängning",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -2663,7 +3083,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": "Personal, kompetens och arbetsbelastning",
+    "motivering": "Kräver nära samverkan med andra aktörer",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -2691,7 +3116,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": "Övrigt",
+    "motivering": "Frånvaroregister väcker oro för integritet och administration",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -2719,7 +3149,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": "Likvärdighet och konsekvenser för elever",
+    "motivering": "Oklar hantering av utestängda elever, risk för marginalisering",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -2747,7 +3182,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Övrigt",
+    "sekundar": null,
+    "motivering": "Förväntansdokument ses som ansvarsförskjutning",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -2775,7 +3215,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Skillnad mellan skolregler och lagstiftning otydlig",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -2803,7 +3248,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": null,
+    "motivering": "Åtgärder blir symboliska utan tillförda resurser",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -2831,7 +3281,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": "Likvärdighet och konsekvenser för elever",
+    "motivering": "Behov av tydlig finansiering och likvärdiga förutsättningar",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -2859,7 +3314,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": "Likvärdighet och konsekvenser för elever",
+    "motivering": "Strukturer behövs så elever inte lämnas utan stöd",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -2887,7 +3347,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": "Organisation och planering",
+    "motivering": "Rektor behöver tillräckliga resurser från huvudmannen",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -2927,7 +3392,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": null,
+    "motivering": "Effekterna kan variera mellan skolor",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -2967,7 +3437,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Rektor kan fortsatt kräva dokumentation av lärare",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -3007,7 +3482,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": "Personal, kompetens och arbetsbelastning",
+    "motivering": "Avlastande funktioner kräver tillräckliga resurser",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -3047,7 +3527,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": null,
+    "motivering": "Tvingande förväntansdokument passar inte gymnasieskolan",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -3088,7 +3573,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Behov av mallar för förväntansdokument per skolform",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -3126,7 +3616,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": null,
+    "motivering": "Begränsade möjligheter att omplacera i gymnasieskolan",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -3167,7 +3662,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Övrigt",
+    "sekundar": null,
+    "motivering": "Ser inget behov av krav på återgångsplan",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -3205,7 +3705,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Behov av förtydligande om synnerliga skäl och uppföljning",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -3243,7 +3748,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": "Likvärdighet och konsekvenser för elever",
+    "motivering": "Oklart hur rätten till utbildning tillgodoses vid nekat tillträde",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -3283,7 +3793,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Huvudmannens roll oklar, ansvaret läggs på rektorn",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -3311,7 +3826,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Bristande överensstämmelse mellan skollag och läroplan",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -3339,7 +3859,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Tidplan och reformtakt",
+    "sekundar": "Otydlighet i förslaget",
+    "motivering": "Många samtidiga betänkanden ger skilda styrsignaler",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -3367,7 +3892,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Läroplanen ändras inte i takt med skollagen",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -3402,7 +3932,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Oklart samspel med elevinflytande",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -3439,7 +3974,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Otydligt vad som gäller för gymnasieskolan",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -3479,7 +4019,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": null,
+    "motivering": "Elever med upprepade åtgärder kan förbli obemärkta",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -3521,7 +4066,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": "Likvärdighet och konsekvenser för elever",
+    "motivering": "Formuleringen kan uppfattas som acceptans av fysiska ingripanden",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -3558,7 +4108,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Tidplan och reformtakt",
+    "sekundar": null,
+    "motivering": "Behov av samordning med Skolor mot brott",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -3595,7 +4150,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Konsekvensplan ökar administrativ börda",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -3637,7 +4197,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": "Likvärdighet och konsekvenser för elever",
+    "motivering": "Otydliga konsekvenser kan leda till otillåtna åtgärder",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -3679,7 +4244,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Gränser för konsekvensplaner behöver klargöras",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -3716,7 +4286,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Övrigt",
+    "sekundar": null,
+    "motivering": "Stelbent hållning kan skada förtroendet för skolan",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -3753,7 +4328,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Konsekvensplaner blir betungande för lärare",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -3790,7 +4370,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Otydligt förhållande till personalens befogenheter",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -3827,7 +4412,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Nyttan av planen ifrågasätts mot administrativ börda",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -3864,7 +4454,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": "Likvärdighet och konsekvenser för elever",
+    "motivering": "Ingen definition av konsekvenser, risk för rättsosäkerhet",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -3901,7 +4496,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Övrigt",
+    "sekundar": null,
+    "motivering": "Anmälningar i konsekvensplan kan skada förtroende",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -3938,7 +4538,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": null,
+    "motivering": "Lokal anpassning av verksamheten begränsas av lagkrav",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -3980,7 +4585,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": "Organisation och planering",
+    "motivering": "Förväntansdokument ger administrativ börda, underskriftsinsamling",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -4022,7 +4632,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": "Tidplan och reformtakt",
+    "motivering": "Nya dokument ökar lärares arbetsbörda, ej samordnat med annan utredning",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -4064,7 +4679,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": "Organisation och planering",
+    "motivering": "Längre akutskoleplacering kan ge negativa följder för elevens utbildning",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -4102,7 +4722,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Oklart tillsynsansvar för elever vid åtgärden",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -4137,7 +4762,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": "Organisation och planering",
+    "motivering": "Akutskola i gymnasieskolan behöver förtydligas",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -4174,7 +4804,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Oklart vad som gäller för anpassad gymnasieskola",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -4211,7 +4846,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Tidplan och reformtakt",
+    "sekundar": null,
+    "motivering": "Behov av samordning med samtidigt betänkande SOU 2025:26",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -4249,7 +4889,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Oklar praktisk skillnad av nytt begrepp",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -4287,7 +4932,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Nytt begrepp tar personalens tid från åtgärdande arbete",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -4325,7 +4975,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": "Personal, kompetens och arbetsbelastning",
+    "motivering": "Frånvaroregister: administrativ börda och kostnader för kommuner",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -4362,7 +5017,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": "Personal, kompetens och arbetsbelastning",
+    "motivering": "Underskattad komplexitet och ekonomiska konsekvenser för huvudmän",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -4390,7 +5050,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "System och teknik",
+    "sekundar": "Kostnader och finansiering",
+    "motivering": "Frånvarosystem kräver drastiska och kostsamma förändringar",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -4418,7 +5083,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": "Likvärdighet och konsekvenser för elever",
+    "motivering": "Likvärdig rapportering kräver samordnade schematekniska upplägg",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -4446,7 +5116,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": null,
+    "motivering": "Olika rutiner och bedömningar ger otillräcklig statistik",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -4481,7 +5156,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": null,
+    "motivering": "Risk för glädjefrånvaro som snedvrider statistiken",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -4516,7 +5196,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": null,
+    "motivering": "Kommuner får olika nivåer ogiltig frånvaro beroende på rutiner",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -4551,7 +5236,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": null,
+    "motivering": "Regelföljande kommuner riskerar högre redovisad ogiltig frånvaro",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -4586,7 +5276,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": null,
+    "motivering": "Fristående huvudmän kan skriva ut elever, hemkommun rapporterar",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -4621,7 +5316,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": null,
+    "motivering": "Lagkrav begränsar huvudmannens val av arbetssätt",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -4649,7 +5349,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Övrigt",
+    "sekundar": null,
+    "motivering": "Förslag berör förskolan trots att den ej utretts",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -4677,7 +5382,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Övrigt",
+    "sekundar": null,
+    "motivering": "Förskolans särart otillräckligt beaktad i utredningen",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -4705,7 +5415,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Tidplan och reformtakt",
+    "sekundar": "Otydlighet i förslaget",
+    "motivering": "Många samtidiga betänkanden ger motstridiga styrsignaler",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -4733,7 +5448,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Läroplansändringar för överensstämmelse med skollagen saknas",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -4761,7 +5481,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Tidplan och reformtakt",
+    "sekundar": null,
+    "motivering": "Samtidiga förslag om kränkande behandling inte samordnade",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -4789,7 +5514,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": "Tidplan och reformtakt",
+    "motivering": "Nya dokument påverkar lärarnas arbetsbörda, ej samordnat",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -4817,7 +5547,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Oklart vad begränsad omfattning av vårdnadshavares inflytande innebär",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -4845,7 +5580,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Orosanmälan i konsekvensplan sänder felaktiga signaler",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -4873,7 +5613,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": "Organisation och planering",
+    "motivering": "Kvalitet och elevers förmåga vid fjärr- och distansundervisning",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -4901,7 +5646,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": null,
+    "motivering": "Åtgärden kan pågå länge i problematiska elevärenden",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -4929,7 +5679,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Oklart syfte, professioner och uppdrag för skolsociala team",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -4957,7 +5712,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Övrigt",
+    "sekundar": null,
+    "motivering": "Förslaget behöver kompletteras med andra reformer eller stödmaterial",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -4985,7 +5745,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": null,
+    "motivering": "Finansieringen omfattar inte alla kostnadsökningar",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -5013,7 +5778,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": "Likvärdighet och konsekvenser för elever",
+    "motivering": "Omfördelning av statsbidrag missgynnar små huvudmän",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -5041,7 +5811,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Övrigt",
+    "sekundar": null,
+    "motivering": "Kräver även ändringar i lagstiftning om särskilt stöd",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -5069,7 +5844,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Rektorer får fler administrativa uppgifter och utökat ansvar",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -5097,7 +5877,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Rektorers utökade ansvar kräver fler stödjande åtgärder",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -5165,7 +5950,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": null,
+    "motivering": "Minskad dokumentation ger barnrättsrisker och sämre underlag",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -5193,7 +5983,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Behov av förtydligande och stödmaterial",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -5221,7 +6016,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Vårdnadshavare vänder sig mer till redan belastad rektor",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -5249,7 +6049,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": null,
+    "motivering": "Fler delar än beräknat genererar ökade kostnader",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -5277,7 +6082,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": null,
+    "motivering": "Beräknade belopp är för lågt tilltagna",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -5305,7 +6115,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": "Personal, kompetens och arbetsbelastning",
+    "motivering": "Läraravlastande personal medför extra kostnader",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -5333,7 +6148,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": null,
+    "motivering": "Förslaget ökar behov och kan generera ökade kostnader",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -5361,7 +6181,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": null,
+    "motivering": "Omfördelning av statsbidrag räcker inte",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -5389,7 +6214,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": "Organisation och planering",
+    "motivering": "Elevpeng försvårar extra lösningar för små huvudmän",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -5417,7 +6247,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Frånvaroregistret behöver utredas närmare eller förtydligas",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -5485,7 +6320,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Ändrad skrivning kan uppfattas som accepterade fysiska ingripanden",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -5523,7 +6363,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Konsekvensplaner ökar skolornas administrativa börda",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -5561,7 +6406,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": "Likvärdighet och konsekvenser för elever",
+    "motivering": "Planerna kan tolkas som krav på konsekvens vid varje överträdelse",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -5599,7 +6449,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Oklart hur konsekvensplaner förhåller sig till disciplinära åtgärder",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -5637,7 +6492,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Övrigt",
+    "sekundar": null,
+    "motivering": "Anmälningar i konsekvensplan kan skada förtroende för myndigheter",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -5675,7 +6535,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Oklar praktisk skillnad av ny mobbningsdefinition",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -5711,7 +6576,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Gränsdragningsbedömningar tar personalens tid från åtgärdande arbete",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -5747,7 +6617,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": "Kostnader och finansiering",
+    "motivering": "Dubbla bedömningar kräver mer administration och resurser",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -5786,7 +6661,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Administrativa bördor måste hållas på rimlig nivå",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -5825,7 +6705,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": null,
+    "motivering": "Olika förutsättningar och rutiner ger missvisande frånvarodata",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -5864,7 +6749,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": null,
+    "motivering": "Varierande bedömningar av giltig frånvaro snedvrider statistiken",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -5903,7 +6793,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": null,
+    "motivering": "Skolvalsjämförelser kan påverka rapporteringen",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -5938,7 +6833,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": "System och teknik",
+    "motivering": "Obesvarade statistiska frågor om datalämning och korta vistelser",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -5973,7 +6873,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "System och teknik",
+    "sekundar": "Kostnader och finansiering",
+    "motivering": "System saknar giltig/ogiltig frånvaro, kostsamma förändringar",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -6008,7 +6913,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": "System och teknik",
+    "motivering": "Systemkostnader underskattas, krav på leverantörer behövs",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -6043,7 +6953,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": null,
+    "motivering": "Statsbidrag för skolsociala team behöver fortsätta efter 2027",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -6078,7 +6993,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": null,
+    "motivering": "Akutskola på entreprenad bör bygga på överenskommelser mellan huvudmän",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -6106,7 +7026,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": null,
+    "motivering": "Undvik upphandlade marknadslösningar för skolplaceringar",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -6134,7 +7059,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Oklar hantering när tillsvidarebeslut redan prövats av domstol",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -6162,7 +7092,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": null,
+    "motivering": "Finansieringsprincipen ska tillämpas för tillkommande kostnader",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -6230,7 +7165,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": null,
+    "motivering": "Finansieringsprincipen ska täcka ökade kostnader",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -6258,7 +7198,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": null,
+    "motivering": "Delar inte bedömningen av ekonomiska konsekvenser",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -6286,7 +7231,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": null,
+    "motivering": "Gymnasieelevers specifika behov vid disciplinära åtgärder obeaktade",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -6316,7 +7266,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Övrigt",
+    "sekundar": null,
+    "motivering": "Ordet förebyggande bör behållas i paragrafen",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -6354,7 +7309,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": null,
+    "motivering": "Utredning vid upprepade störningar kräver viss dokumentation",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -6392,7 +7352,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "System och teknik",
+    "sekundar": "Organisation och planering",
+    "motivering": "System behövs för att fånga upprepade störningar",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -6430,7 +7395,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": null,
+    "motivering": "Utvisning kopplad till funktionsnedsättning kan vara diskriminering",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -6468,7 +7438,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": null,
+    "motivering": "Gemensamma rutiner bör gälla hela trygghetsarbetet",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -6506,7 +7481,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Övrigt",
+    "sekundar": null,
+    "motivering": "Dubbelreglering av vårdnadshavares ansvar bör undvikas",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -6544,7 +7524,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": "Organisation och planering",
+    "motivering": "Obligatoriskt förväntansdokument ger ökad administration",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -6582,7 +7567,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Övrigt",
+    "sekundar": null,
+    "motivering": "Vårdnadshavares underskrift saknar juridisk betydelse",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -6620,7 +7610,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": null,
+    "motivering": "Risk att skolor tar till disciplinära åtgärder i stället för stöd",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -6658,7 +7653,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": null,
+    "motivering": "Repressiv kultur kan försämra relationer elever och personal",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -6696,7 +7696,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": null,
+    "motivering": "Svårt att hinna planera återgång vid kort omplaceringstid",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -6734,7 +7739,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": null,
+    "motivering": "Möjligheter för akutskolor i gymnasiet bör finnas kvar",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -6772,7 +7782,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": "Likvärdighet och konsekvenser för elever",
+    "motivering": "Små elevunderlag kräver samarbete med andra huvudmän",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -6810,7 +7825,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": "Organisation och planering",
+    "motivering": "Elever kan förlora sex veckors undervisning per termin",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -6838,7 +7858,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": null,
+    "motivering": "Inskränkt rätt till kompensationsundervisning för elever",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -6866,7 +7891,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": "Organisation och planering",
+    "motivering": "Praktiskt genomförande beskrivs inte, särskilt vid skolplikt",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -6896,7 +7926,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Administrativ börda med kränkande behandling behöver minskas",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -6924,7 +7959,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": "Organisation och planering",
+    "motivering": "Orimligt att utreda orsaker till varje anmäld frånvaro",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -6962,7 +8002,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": null,
+    "motivering": "Behov av synkronisering med CSN:s studiestödsregler",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -7002,7 +8047,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "System och teknik",
+    "sekundar": null,
+    "motivering": "Teknisk standard behövs för dataöverföring till registret",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -7040,7 +8090,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": null,
+    "motivering": "Utökade åtaganden ska finansieras, kostnader beräknade för lågt",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -7068,7 +8123,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": null,
+    "motivering": "Akutskolans personaltäthet ger mycket högre kostnad",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -7098,7 +8158,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": null,
+    "motivering": "Ersättningen rimmar inte med statsbidraget för akutskolor",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -7128,7 +8193,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": null,
+    "motivering": "Finansiering genom minskade riktade statsbidrag, samma bidrag flera gånger",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -7156,7 +8226,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": null,
+    "motivering": "Minskat statsbidrag tvingar huvudmän minska satsningar",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -7184,7 +8259,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Tidplan och reformtakt",
+    "sekundar": null,
+    "motivering": "Ikraftträdandet behöver synkroniseras, snäv tid till 2026",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -7212,7 +8292,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Rektor och personal behöver mer tid för samsyn",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -7240,7 +8325,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": null,
+    "motivering": "Otillräcklig statlig ekonomisk kompensation hindrar genomförandet",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -7268,7 +8358,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Rektors arbetsbelastning ökar vid regeländringar",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -7296,7 +8391,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Tidplan och reformtakt",
+    "sekundar": "Kostnader och finansiering",
+    "motivering": "Kort framförhållning, budget hinner inte beredas",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -7324,7 +8424,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": null,
+    "motivering": "Mindre kommuners huvudmän deltog inte i utredningen",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -7352,7 +8457,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Ökad arbetsbelastning för rektor vid införandet",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -7380,7 +8490,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": "Kostnader och finansiering",
+    "motivering": "Resurser för rektors verksamhetsnära ledarskap är avgörande",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -7415,7 +8530,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": "Personal, kompetens och arbetsbelastning",
+    "motivering": "Kostnadsökande för mindre huvudmän och ökad rektorsbelastning",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -7453,7 +8573,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": "Organisation och planering",
+    "motivering": "Svårt att skapa avlastande personal på mindre enheter",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -7491,7 +8616,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Utredningskrav vid kränkande behandling behöver klarläggas",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -7529,7 +8659,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Oklart vilka incidenter som ska anmälas enligt lagkrav",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -7567,7 +8702,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": null,
+    "motivering": "Finansiering via minskade statsbidrag motverkar reformens syfte",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -7595,7 +8735,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": null,
+    "motivering": "Samarbetet med hemmet får inte försvåras",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -7623,7 +8768,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": "Likvärdighet och konsekvenser för elever",
+    "motivering": "Oklart hur elever får undervisning och vem som ansvarar",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -7651,7 +8801,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": null,
+    "motivering": "Svårt säkerställa likvärdiga kriterier för akutskoleplacering",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -7679,7 +8834,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": null,
+    "motivering": "Risker med undervisning på entreprenad eller fjärrundervisning",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -7707,7 +8867,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": null,
+    "motivering": "Risk att enskilda elever identifieras i små skolor",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -7735,7 +8900,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Tidplan och reformtakt",
+    "sekundar": "Kostnader och finansiering",
+    "motivering": "Små kommuner med begränsade resurser, kort framförhållning",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -7763,7 +8933,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": "Kostnader och finansiering",
+    "motivering": "Kräver resurser och kompetensutveckling mot ökad arbetsbelastning",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -7791,7 +8966,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": "Kostnader och finansiering",
+    "motivering": "Risk för ökad administrativ börda utan resurser",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -7829,7 +9009,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Tydliga riktlinjer och stöd för praktiskt genomförande behövs",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -7866,7 +9051,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": "Personal, kompetens och arbetsbelastning",
+    "motivering": "Riktlinjer behövs och inget ytterligare administrativt krav",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -7904,7 +9094,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": "Otydlighet i förslaget",
+    "motivering": "Förväntansdokument behöver tydliga ramar mot administrativt krav",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -7942,7 +9137,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": "Likvärdighet och konsekvenser för elever",
+    "motivering": "Utan kompetens och resurser flyttas problemet",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -7980,7 +9180,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": "Kostnader och finansiering",
+    "motivering": "Flytta elever och organisera akutskolor svårt för små kommuner",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -8018,7 +9223,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": "Organisation och planering",
+    "motivering": "Återgångsplaner och uppföljning kräver tid, kompetens och samordning",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -8056,7 +9266,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": "Organisation och planering",
+    "motivering": "Elevers integritet vid frånvarorapportering samt stöd till skolor",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -8094,7 +9309,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "System och teknik",
+    "sekundar": null,
+    "motivering": "Fungerande system för inrapportering behövs, tidigare systemproblem",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -8132,7 +9352,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": null,
+    "motivering": "Risk för ökade klyftor mellan skolor",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -8168,7 +9393,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": "Organisation och planering",
+    "motivering": "Förslag behöver förtydliganden och anpassning till lokala förhållanden",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -8204,7 +9434,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": "Likvärdighet och konsekvenser för elever",
+    "motivering": "Rättvis resursfördelning och stöd för att genomföra reformerna",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -8240,7 +9475,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": null,
+    "motivering": "Minskat elevinflytande och rättsosäkerhet utan dokumentation",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -8268,7 +9508,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": "Organisation och planering",
+    "motivering": "Upprepade utvisningar och avstängningar försvårar arbetet med eleverna",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -8296,7 +9541,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Nya skolregler och konsekvensplaner ökar arbetsbelastning initialt",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -8324,7 +9574,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Oklart om utvisning utan uppmaning gäller endast allvarliga händelser",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -8352,7 +9607,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": null,
+    "motivering": "Tillsyn av utvisade elever i korridoren under lektionstid",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -8380,7 +9640,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": null,
+    "motivering": "Utebliven dokumentation kan ge rättsosäkerhet för eleven",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -8408,7 +9673,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": null,
+    "motivering": "Systematisk uppföljning och utvärdering omöjlig utan dokumentation",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -8436,7 +9706,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": null,
+    "motivering": "Distansundervisning riskerar frånvaro och kriminella miljöer för eleven",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -8464,7 +9739,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": null,
+    "motivering": "Minskat elevinflytande försvagar elevers motivation att följa regler",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -8492,7 +9772,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": null,
+    "motivering": "Statlig finansiering behöver kompensera för merkostnader",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],

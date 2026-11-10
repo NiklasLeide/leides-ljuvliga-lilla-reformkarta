@@ -1,0 +1,248 @@
+{
+ "_meta": {
+  "steg": "M2b oberoende dubbelkodning av 40 slumpvis valda utmaningar (frö 20261202) för samstämmighet",
+  "tolkning": true
+ },
+ "kodning": [
+  {
+   "id": "U086",
+   "primar": "System och teknik",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Nationellt frånvaroregister: integritet och administrativ belastning"
+  },
+  {
+   "id": "U162",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Rektors redan utökade ansvar och arbetsuppgifter ökar ytterligare"
+  },
+  {
+   "id": "U003",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Organisation och planering",
+   "motivering": "Balans mellan studiero och elevers rätt till stöd"
+  },
+  {
+   "id": "U191",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Kräver statlig finansiering enligt finansieringsprincipen"
+  },
+  {
+   "id": "U231",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Organisation och planering",
+   "motivering": "Svårt skapa avlastande personal på mindre enheter"
+  },
+  {
+   "id": "U034",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Regionen saknar tid för samverkan i individfall"
+  },
+  {
+   "id": "U238",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Risker med entreprenad och fjärrundervisning för elevers utbildning"
+  },
+  {
+   "id": "U130",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Nytt begrepp tar tid från åtgärdande arbete"
+  },
+  {
+   "id": "U061",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Organisation och planering",
+   "motivering": "Oklart hur detta ska organiseras, eventuella resursteam"
+  },
+  {
+   "id": "U140",
+   "primar": "Övrigt",
+   "sekundar": null,
+   "motivering": "Huvudmannen bör själv besluta arbetssätt, inte lagkrav"
+  },
+  {
+   "id": "U255",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Upprepade utvisningar och avstängningar försvårar arbetet med eleven"
+  },
+  {
+   "id": "U261",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Fjärrundervisning riskerar elevens deltagande och kriminell involvering"
+  },
+  {
+   "id": "U078",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Formuleringen svår att tillämpa, kräver förtydligande"
+  },
+  {
+   "id": "U122",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Förväntansdokument ger administrativ börda för skolor"
+  },
+  {
+   "id": "U143",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "Många samtidiga betänkanden ger motstridiga styrsignaler"
+  },
+  {
+   "id": "U010",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Små fristående skolor saknar lokaler för akutskola"
+  },
+  {
+   "id": "U225",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Rektors arbetsbelastning riskerar att öka"
+  },
+  {
+   "id": "U263",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Statlig finansiering ska kompensera merkostnader"
+  },
+  {
+   "id": "U172",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "Risk att fysiska ingripanden accepteras i större utsträckning"
+  },
+  {
+   "id": "U039",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Ökat tryck i rektorernas svåra uppdragsavvägning"
+  },
+  {
+   "id": "U040",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Organisation och planering",
+   "motivering": "Små skolor får svårare att uppnå ökade krav"
+  },
+  {
+   "id": "U020",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Organisation och planering",
+   "motivering": "Långa avstånd ger höga skolskjutskostnader för landsortskommun"
+  },
+  {
+   "id": "U144",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Saknade läroplansändringar för överensstämmelse med skollagen"
+  },
+  {
+   "id": "U018",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Omfördelade statsbidrag missgynnar små kommuner och huvudmän"
+  },
+  {
+   "id": "U180",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Administrativa bördor måste hållas på rimlig nivå"
+  },
+  {
+   "id": "U246",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Brist på kompetens och resurser riskerar att flytta problemet"
+  },
+  {
+   "id": "U080",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Små fristående skolor saknar lösningar för svårt störande elev"
+  },
+  {
+   "id": "U175",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Oklart vad konsekvenser får vara och relation till åtgärder"
+  },
+  {
+   "id": "U177",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Oklar praktisk skillnad av ny mobbningsdefinition"
+  },
+  {
+   "id": "U096",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Rektor behöver tillräckliga resurser för avlastande funktioner"
+  },
+  {
+   "id": "U128",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Behöver samordnas med förslag i SOU 2025:26"
+  },
+  {
+   "id": "U106",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Läroplanen motsvarar inte föreslagna skollagsändringar"
+  },
+  {
+   "id": "U058",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Organisation och planering",
+   "motivering": "Oklara merkostnader för administration och organisation av undervisning"
+  },
+  {
+   "id": "U114",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Gränser och utformning för konsekvensplaner behöver klargöras"
+  },
+  {
+   "id": "U178",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Nytt begrepp tar tid från åtgärdande arbete"
+  },
+  {
+   "id": "U137",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "System och teknik",
+   "motivering": "Olika rutiner ger kommuner olika nivåer ogiltig frånvaro"
+  },
+  {
+   "id": "U075",
+   "primar": "Övrigt",
+   "sekundar": null,
+   "motivering": "Risk för konflikt mellan personal och vårdnadshavare"
+  },
+  {
+   "id": "U110",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "Risk att fysiska ingripanden accepteras i större utsträckning"
+  },
+  {
+   "id": "U029",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Regionen kan behöva utfärda fler intyg"
+  },
+  {
+   "id": "U099",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Gymnasieskolor har begränsade möjligheter att omplacera elev"
+  }
+ ]
+}
