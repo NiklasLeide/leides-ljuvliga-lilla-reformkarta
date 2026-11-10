@@ -18,8 +18,51 @@ Record of key decisions made during the project. **Newest first.**
 
 ---
 
+### DEC-019: Automatnivå — rutinändringar ur riksdagens strukturerade data publiceras utan mänskligt klick
+**Date:** 2026-11-10
+**Decision:** (Niklas beslut 2026-11-10, registrerat Sprint 14 T1) Rutinändringar
+som kan läsas direkt ur riksdagens strukturerade öppna data publiceras utan
+mänskligt klick. **Införs i Sprint 15, inte i Sprint 14.** Sprint 14 bygger
+förutsättningen: revisionsskriptet (T2) och RUTIN/BEDÖMNING-klassningen i
+ändringslistan (T3). RUTIN = värdet står ordagrant i källan för en redan spårad
+post; allt annat (ny post, relevans, struken post, egen text) är BEDÖMNING och
+kräver fortsatt människa.
+**Reasoning:** Bevakningsflödet har upprepade gånger släpat veckor (Sprint 13:
+tio veckors skuld) trots att en stor del av ändringarna är mekaniska avläsningar
+av strukturerade fält (beslutsdatum, rskr, betänkande). Att kräva klick för dem
+skapar kö utan att tillföra granskning. Bedömningar behåller människan.
+**Alternatives considered:** Fortsatt klick på allt (beprövad flaskhals);
+full automatik även för nya poster och textändringar (relevansbedömning och egen
+text kan inte läsas ur data — risk för felpublicering).
+
+---
+
+### DEC-018: Research i Claude Code som egen fas med incheckad ändringslista
+**Date:** 2026-11-10
+**Decision:** (Sprint 14 T1, ersätter DEC-017 i den del som förbjöd extern
+hämtning från Code.) Molnmiljön "Reformkartan" når riksdagen.se, regeringen.se,
+sou.gov.se, skolverket.se, lagen.nu och reformer.leide.se (röktest 2026-11-10).
+Primärkällsresearch får därför göras i Claude Code, men **alltid som egen fas**:
+fynden checkas in som en ändringslista (fil, post, nuvärde, nytt värde, käll-URL,
+klass) och pushas **före första datapatch**. Datapatchar görs först i en senare
+fas, mot listan. Kvarstår från DEC-017: null före gissning, patcha aldrig ur minne.
+Regleringsbrev hanteras fortsatt i chatten (statskontoret.se nås ej — röktestet
+gav connection reset). svenskforfattningssamling.se svarar 403 (Cloudflare) — SFS
+hämtas via riksdagen.se och lagen.nu.
+**Reasoning:** Nätblocket som gjorde DEC-017 tvingande är hävt för de källor
+sajten behöver. Att research och patch fortfarande separeras med en incheckad
+lista bevarar DEC-017:s granskningspunkt (människan ser vad som ändras och varför
+innan något ändras) men tar bort handpåläggningen att flytta värden mellan chatt
+och Code.
+**Alternatives considered:** Behålla DEC-017 oförändrat (onödig manuell
+överföring nu när nätet når källorna); låta Code researcha och patcha i ett svep
+(ingen granskningspunkt före ändring, svårt att revidera i efterhand).
+
+---
+
 ### DEC-017: Primärkällsuppslag i researchledet, källvärden inbäddade i Claude Code-tasks
 **Date:** 2026-08-25
+**Status:** Delvis ersatt av DEC-018 (2026-11-10) — förbudet mot extern hämtning från Code gäller inte längre för de källor röktestet nådde. Regleringsbrev ligger kvar i chatten.
 **Decision:** Alla primärkällsuppslag (riksdagen, regeringen.se, sou.gov.se, SFS,
 Statsliggaren) utförs i **researchledet** (Claude chat-projektet). Claude Code-tasks
 innehåller alla källvärden inbäddade (bilaga A-mönstret). Ingen Code-task får kräva

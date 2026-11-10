@@ -1,8 +1,80 @@
 # Project Status — leides-ljuvliga-lilla-reformkarta
 
-> **Last updated:** 2026-08-25
-> **Current sprint:** Underhåll — Sprint 13 stängd 2026-09-05 (Sprint 10 T6 kvar öppen)
-> **Sprint dates:** augusti 2026
+> **Last updated:** 2026-11-10
+> **Current sprint:** Sprint 14 — Revisionssprinten (startad 2026-11-10)
+> **Sprint dates:** november 2026
+
+---
+
+## Current: Sprint 14 — Revisionssprinten
+
+**Mål:** Hela sajten är genomgången mot primärkälla och aktuell per deploydatum.
+Skolverkets remiss av nya läroplaner och kursplaner syns på sajten (Remissläge).
+Revisionen av strukturerade fält är ett körbart skript som Sprint 15 bygger
+automatpublicering på.
+
+**Ny arbetsordning:** DEC-018 (research i Claude Code som egen fas med incheckad
+ändringslista före första datapatch — ersätter DEC-017 i den delen) och DEC-019
+(beslutad automatnivå: rutinändringar ur riksdagens strukturerade data publiceras
+utan mänskligt klick — införs i Sprint 15, inte nu).
+
+**Regler:**
+- Officiella namn och formuleringar. Varje ändring har käll-URL. Null före gissning. Datum = beslutsdatum.
+- Endast formella beslut ändrar status. Uttalanden, avtal och aviseringar ändrar inget. Neutralt språk, inga omdömen.
+- Riksdagsbeslut räknas först när betänkandet har rskr-referens med status inträffat. API-status "Klar" betyder bara publicerad.
+- Fält som renderas tillsammans granskas tillsammans (ikraft, transition).
+- SFS via riksdagen.se och lagen.nu. Regleringsbrev lämnas till chatten, försök inte nå statskontoret.se.
+- En task i taget. Commit "Sprint 14 TN: ...", verifiera med git show --stat. STOPP efter T3 och före T8, inga andra stopp.
+
+**Out of scope:** automatpublicering och routine (Sprint 15), guideposter för gy25,
+ai och vinst, konvertering av källformat, CSS-refaktor, tillgänglighet, val26.
+
+**Stop condition:** T0 till T9 klara, 0 öppna bevakningsissues, stämpeln live =
+deploydatum, DoD godkänd.
+
+| ID | Task | Status | Acceptance |
+|----|------|--------|------------|
+| T0 | Nät och miljö | ✅ Done | curl -L riksdagen.se → 200 (www.riksdagen.se/sv/, 350 kB; data.riksdagen.se → öppna data-sidan). Prop. 2025/26:292 via bevakningsskriptets `lookupProp` + dokumentstatus: HD03292 "Skärpta villkor för friskolesektorn", bet. 2025/26:UbU30 (HD01UbU30) beslut_fattat=true, beslutsdatum 2026-08-13, **rskr 2025/26:438** (fanns ej 2026-08-25). Lästa sidor (200 + titel): regeringen.se start, sou.gov.se start, skolverket.se remissidan 2026-11-09, lagen.nu/2010:800. Testsvit 61/61 (extract 8, rapport 10, riksdagen 22, rss 21). Röktest 2026-11-10: statskontoret.se reset (ignoreras per regel), svenskforfattningssamling.se 403 från Cloudflare (SFS via riksdagen/lagen.nu). |
+| T1 | Sprintregistrering | ✅ Done | Brief + DEC-018 + DEC-019. dev = master (5a4f662) vid sprintstart; T1-commiten rör endast docs/. |
+| T2 | Revisionsskript | ⬜ Todo | Skript under scripts/ som för varje spårad proposition och utredning hämtar aktuellt läge ur riksdagens öppna data och skriver en diffrapport mot datafilerna. Rskr-regeln har eget test. Går att köra om |
+| T3 | Fas A: ändringslista | ⬜ Todo | docs/revision/2026-11-andringslista.md enligt specen, pushad till origin/dev. Inga datapatchar. **STOPP** |
+| T4 | Fas B: datapatchar | ⬜ Todo | Alla RUTIN-rader och godkända BEDÖMNING-rader applicerade. JSON validerar, testsvit grön |
+| T5 | Remissläge | ⬜ Todo | data/remisser.json + rendering (karta, reformvy, tidslinje, guidehjul). Test tre lägen med styrbart datum, okänt reform_id ger fel, 0 konsolfel, skärmbilder desktop + 375 px per läge i docs/revision/skarmbilder/ |
+| T6 | Ändringar och stämpel | ⬜ Todo | andringar.json enligt Sprint 13-konventionen + post 2026-11-09 remiss öppnad. meta.json = deploydatum |
+| T7 | Issues | ⬜ Todo | #13–#20 avbockade med disposition per punkt och stängda |
+| T8 | Deploy (efter klartecken) | ⬜ Todo | ./deploy.sh, Pages success, meta.json från reformer.leide.se visar deploydatum, rollback-SHA noterad |
+| T9 | DoD review | ⬜ Todo | dod-reviewer mot stop condition, avvikelser dokumenterade, sprinten Completed |
+
+### Specifikation T3 (ändringslistans innehåll)
+En rad per ändring: fil, post, nuvärde, nytt värde, käll-URL, klass. RUTIN = värdet
+står ordagrant i källan för en redan spårad post. BEDÖMNING = allt annat (ny post,
+relevans, struken post, egen text). Täcker: (a) revisionsskriptets diff; (b) triage
+av issues #13–#20; (c) post för post uppdrag.json, tidslinje.json, guide.json,
+andringar.json; (d) allt efter 2026-09-05: valet, regeringsbildning,
+budgetpropositionen för 2027, nya direktiv, propositioner, lagrådsremisser och
+uppdrag från U-dep, återkallade/ändrade ärenden; (e) kända luckor: rskr för prop.
+2025/26:292, innehållet i Dir. 2026:98, förskoledirektivet aviserat 2026-08-31;
+(f) sajten: sidtitel 2025–2028 vs og-titel 2025–2031, länkar som inte svarar, vad
+Sprint 10 T6 gäller. Avslutas med separat lista över alla BEDÖMNING-rader.
+
+### Specifikation T5 (Remissläge)
+Ny fil data/remisser.json. Första post (verifierad 2026-11-10): titel "Remiss:
+Förslag på nya läroplaner och kursplaner för grundskolan, anpassade grundskolan,
+specialskolan och sameskolan"; avsandare Skolverket; oppnar 2026-11-09;
+svar_senast 2027-01-20; omfattar grundskolan, anpassade grundskolan,
+specialskolan, sameskolan inkl. läroplanens del om fritidshemmet; nasta_steg:
+Skolverket lämnar omarbetade förslag till regeringen 2027-05-14, regeringsbeslut
+null, tillämpning höstterminen 2028; reform_ids laroplaner, tioarig; dnr från
+remissidan annars null; url (Skolverkets remissida 2026-11-09) och url_oversikt
+(…/en-skola-i-forandring/nya-laroplaner-och-kursplaner). Länkar per skolform om
+remissidan har separata dokument. Rendering: status räknas ur datumen i klienten
+(lagras ej) — "Remiss öppnar {datum}" / "Remiss öppen till och med {datum}" /
+"Remiss avslutad {datum}" + nästa steg. Visas på reformkorten laroplaner + tioarig
+(karta + reformvy), i tidslinjen (öppnar, sista svarsdag) och i guidens läsårshjul
+efter datum. Guidetext: "Skolverkets förslag till nya läroplaner och kursplaner är
+på remiss till och med den 20 januari 2027. Alla som vill kan lämna synpunkter."
+Sajten länkar till Skolverket, återger varken svarsinstruktioner eller förslagens
+innehåll.
 
 ---
 
