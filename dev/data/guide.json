@@ -2,13 +2,14 @@
   {
     "reform_id": "betyg",
     "ikrafttradanden": [
-      { "datum": "2028-07-01", "typ": "ikraft", "omfattning": "Ändringarna i skollagen börjar i huvudsak gälla den 1 juli 2028" },
-      { "datum": "2031-01-01", "typ": "ikraft", "omfattning": "För kommunal vuxenutbildning börjar ändringarna gälla den 1 januari 2031" }
+      { "datum": "2028-07-02", "typ": "ikraft", "omfattning": "Ändringarna i skollagen börjar gälla den 2 juli 2028 (SFS 2026:1243)" },
+      { "datum": "2030-07-01", "typ": "ikraft", "omfattning": "Lagändringarna i SFS 2026:1244 börjar gälla den 1 juli 2030 och tillämpas första gången på utbildning som påbörjas efter den 30 juni 2031" },
+      { "datum": "2031-01-01", "typ": "ikraft", "omfattning": "För kommunal vuxenutbildning börjar ändringarna gälla den 1 januari 2031 (SFS 2026:1245)" }
     ],
     "overgangsbestammelser": [
       {
-        "text": "1. Denna lag träder i kraft den 1 juli 2028. 2. Lagen tillämpas första gången i fråga om – utbildning som påbörjas höstterminen 2028 i årskurs 1–8 i grundskolan och anpassade grundskolan, i årskurs 1–9 i specialskolan samt i sameskolan, – utbildning som påbörjas höstterminen 2028 första året i gymnasieskolan och anpassade gymnasieskolan, och – utbildning som påbörjas höstterminen 2028 på introduktionsprogram i gymnasieskolan och på vidareutbildning i form av ett fjärde tekniskt år.",
-        "kalla": { "text": "Prop. 2025/26:197, ikraftträdande- och övergångsbestämmelser", "url": "https://data.riksdagen.se/dokument/HD03197.html" }
+        "text": "1. Denna lag träder i kraft den 2 juli 2028. 2. Lagen tillämpas första gången i fråga om – utbildning som påbörjas höstterminen 2028 i årskurs 1–8 i grundskolan och anpassade grundskolan, i årskurs 1–9 i specialskolan samt i sameskolan, – utbildning som påbörjas höstterminen 2028 första året i gymnasieskolan och anpassade gymnasieskolan, och – utbildning som påbörjas höstterminen 2028 på introduktionsprogram i gymnasieskolan och på vidareutbildning i form av ett fjärde tekniskt år.",
+        "kalla": { "text": "SFS 2026:1243 (samordningslag, bet. 2025/26:UbU26), ikraftträdande- och övergångsbestämmelser", "url": "https://data.riksdagen.se/dokument/sfs-2010-800.html" }
       },
       {
         "text": "3. Bestämmelserna i 15 kap. 36 §, 16 kap. 29 och 30 §§, 17 kap. 11 och 12 §§ och 22 kap. 13 § i den nya lydelsen ska tillämpas första gången vid antagning till utbildning i gymnasieskolan som påbörjas efter den 30 juni 2031.",
@@ -53,15 +54,16 @@
       "text": "Konsekvenserna för enskilda huvudmän blir desamma som för kommunala huvudmän. Bedömningssamråden innebär ökade kostnader; när kommunernas kostnader ökar höjs enligt gällande regler även ersättningen till fristående skolor.",
       "kalla": { "text": "Prop. 2025/26:197, konsekvensavsnittet (Konsekvenserna för enskilda huvudmän och andra enskilda utbildningsanordnare blir desamma som för kommunala huvudmän)", "url": "https://data.riksdagen.se/dokument/HD03197.html" }
     },
-    "sfs": null,
-    "senast_andrad": "2026-06-12",
-    "noteringar": "sfs: kammarbeslut 2026-06-09, författning ej kungjord vid inmatning. Övergångsbestämmelserna punkt 5–9 (fullföljande av påbörjad utbildning, föreskriftsbemyndiganden) samt komvuxlagförslagets egna ikraftträdandebestämmelser (1 januari 2031) finns i källan. 'Proven bör rättas centralt' är riksdagens egen formulering ur beslutet, inte en rekommendation i guiden."
+    "sfs": "2026:1243",
+    "senast_andrad": "2026-11-10",
+    "noteringar": "sfs: 2026:1243 (2 juli 2028); reformen ingår även i SFS 2026:1244 (1 juli 2030) och 2026:1245 (1 januari 2031) enligt lagen.nu:s förarbetesregister (verifierat 2026-11-10). Riksdagens betänkande anger att ändringarna i huvudsak träder i kraft den 1 juli 2028. Samordningslagen SFS 2026:1243 träder i kraft den 2 juli 2028. Övergångsbestämmelserna punkt 5–9 (fullföljande av påbörjad utbildning, föreskriftsbemyndiganden) samt komvuxlagförslagets egna ikraftträdandebestämmelser (1 januari 2031) finns i källan. 'Proven bör rättas centralt' är riksdagens egen formulering ur beslutet, inte en rekommendation i guiden."
   },
   {
     "reform_id": "laroplaner",
     "ikrafttradanden": [
-      { "datum": "2028-07-01", "typ": "ikraft", "omfattning": "Merparten av lagändringarna börjar gälla den 1 juli 2028. Nya läroplaner för grundskolan, anpassade grundskolan, specialskolan och sameskolan ska börja användas från och med höstterminen 2028" },
-      { "datum": "2031-01-01", "typ": "ikraft", "omfattning": "Lagförslaget om ändring i skollagen avseende kommunal vuxenutbildning träder i kraft den 1 januari 2031" }
+      { "datum": "2028-07-01", "typ": "ikraft", "omfattning": "Lagändringarna i SFS 2026:1242 börjar gälla den 1 juli 2028. Nya läroplaner för grundskolan, anpassade grundskolan, specialskolan och sameskolan ska börja användas från och med höstterminen 2028" },
+      { "datum": "2028-07-02", "typ": "ikraft", "omfattning": "Ändringarna i samordningslagen SFS 2026:1243 börjar gälla den 2 juli 2028" },
+      { "datum": "2031-01-01", "typ": "ikraft", "omfattning": "Lagförslaget om ändring i skollagen avseende kommunal vuxenutbildning träder i kraft den 1 januari 2031 (SFS 2026:1245)" }
     ],
     "overgangsbestammelser": [
       {
@@ -103,16 +105,16 @@
       "text": "Alla huvudmän berörs på motsvarande sätt. Enskilda huvudmän genomför implementeringsinsatser för de nya läroplanerna som en del av sedvanlig pedagogisk utveckling; Skolverket erbjuder stöd, och huvudmän med pedagogisk inriktning eller profil som inverkar på undervisningen kan påverkas särskilt.",
       "kalla": { "text": "Prop. 2025/26:194, avsnitt 9.4 Konsekvenser för enskilda huvudmän", "url": "https://data.riksdagen.se/dokument/HD03194.html" }
     },
-    "sfs": null,
-    "senast_andrad": "2026-06-12",
-    "noteringar": "sfs: kammarbeslut 2026-06-03, författning ej kungjord vid inmatning. Representation av läroplansstarten: 'från och med höstterminen 2028' är ingen författningsdatumpunkt — den bärs i omfattningstexten på lagens ikraftträdandedatum 2028-07-01 (T2-beslut enligt T1-kontraktet). Komvuxlagförslagets övergångsbestämmelser finns i källan."
+    "sfs": "2026:1242",
+    "senast_andrad": "2026-11-10",
+    "noteringar": "sfs: 2026:1242 (1 juli 2028); reformen ingår även i SFS 2026:1243 (2 juli 2028) och 2026:1245 (1 januari 2031) enligt lagen.nu:s förarbetesregister (verifierat 2026-11-10). Riksdagens betänkande anger att ändringarna i huvudsak träder i kraft den 1 juli 2028. Samordningslagen SFS 2026:1243 träder i kraft den 2 juli 2028. Representation av läroplansstarten: 'från och med höstterminen 2028' är ingen författningsdatumpunkt — den bärs i omfattningstexten på lagens ikraftträdandedatum 2028-07-01 (T2-beslut enligt T1-kontraktet). Komvuxlagförslagets övergångsbestämmelser finns i källan."
   },
   {
     "reform_id": "tid",
     "ikrafttradanden": [
       { "datum": "2026-08-01", "typ": "ikraft", "omfattning": "Lagändringarna om kränkande behandling börjar gälla den 1 augusti 2026 (SFS 2026:1096)" },
       { "datum": "2027-07-01", "typ": "ikraft", "omfattning": "Ändringarna om undervisningsuppdraget börjar gälla den 1 juli 2027 (SFS 2026:1097)" },
-      { "datum": "2028-07-01", "typ": "ikraft", "omfattning": "Övriga ändringar börjar gälla den 1 juli 2028 (SFS 2026:1243)" }
+      { "datum": "2028-07-02", "typ": "ikraft", "omfattning": "Övriga ändringar börjar gälla den 2 juli 2028 (SFS 2026:1243)" }
     ],
     "overgangsbestammelser": [
       {
@@ -124,8 +126,8 @@
         "kalla": { "text": "Prop. 2025/26:196, lagförslag 2.2", "url": "https://data.riksdagen.se/dokument/HD03196.html" }
       },
       {
-        "text": "Denna lag träder i kraft den 1 juli 2028.",
-        "kalla": { "text": "Prop. 2025/26:196, lagförslag 2.3", "url": "https://data.riksdagen.se/dokument/HD03196.html" }
+        "text": "1. Denna lag träder i kraft den 2 juli 2028.",
+        "kalla": { "text": "SFS 2026:1243 (samordningslag, bet. 2025/26:UbU26), ikraftträdande- och övergångsbestämmelser", "url": "https://data.riksdagen.se/dokument/sfs-2010-800.html" }
       }
     ],
     "berors": {
@@ -159,13 +161,13 @@
       "kalla": { "text": "Prop. 2025/26:196, avsnitt 10.4 Konsekvenser för enskilda huvudmän", "url": "https://data.riksdagen.se/dokument/HD03196.html" }
     },
     "sfs": null,
-    "senast_andrad": "2026-06-12",
-    "noteringar": "Språkregel-undantag (citat): krav-textens 'se till att sådana händelser hanteras' är riksdagens ordagranna beslutsformulering ur UbU25 — den utökade fras-listan gäller de egenförfattade fälten klartext/paverkan, inte citerad beslutstext. sfs: kammarbeslut 2026-06-09, författning ej kungjord vid inmatning. berors: null — tillämpningsområdets skolformslista är inte extraherad ur lagtexten (undervisningsuppdraget gäller lärare och förskollärare, kränkande behandling-ändringarna all personal; exakt skolformsuppräkning verifieras vid uppföljning). De tre lagförslagen har inga övergångsbestämmelser utöver ikraftträdandena."
+    "senast_andrad": "2026-11-10",
+    "noteringar": "Språkregel-undantag (citat): krav-textens 'se till att sådana händelser hanteras' är riksdagens ordagranna beslutsformulering ur UbU25 — den utökade fras-listan gäller de egenförfattade fälten klartext/paverkan, inte citerad beslutstext. sfs: tre lagar — SFS 2026:1096 (1 augusti 2026), 2026:1097 (1 juli 2027) och 2026:1243 (2 juli 2028); fältet är enkelvärt och lämnas null, SFS-numren står i omfattning (verifierat mot lagen.nu:s förarbetesregister 2026-11-10). Riksdagens betänkande anger att ändringarna i huvudsak träder i kraft den 1 juli 2028. Samordningslagen SFS 2026:1243 träder i kraft den 2 juli 2028. Prop. 2025/26:196 saknade övergångsbestämmelser för det tredje lagförslaget; utskottet samordnade det i SFS 2026:1243 (bet. 2025/26:UbU26). berors: null — tillämpningsområdets skolformslista är inte extraherad ur lagtexten (undervisningsuppdraget gäller lärare och förskollärare, kränkande behandling-ändringarna all personal; exakt skolformsuppräkning verifieras vid uppföljning). De tre lagförslagen har inga övergångsbestämmelser utöver ikraftträdandena."
   },
   {
     "reform_id": "stod",
     "ikrafttradanden": [
-      { "datum": "2028-07-01", "typ": "ikraft", "omfattning": "Ändringarna i skollagen börjar gälla den 1 juli 2028" }
+      { "datum": "2028-07-01", "typ": "ikraft", "omfattning": "Ändringarna i skollagen börjar gälla den 1 juli 2028 (SFS 2026:1242)" }
     ],
     "overgangsbestammelser": [
       {
@@ -207,9 +209,9 @@
       "text": "Förslagen påverkar enskilda huvudmän på samma sätt som kommunala. Ekonomisk kompensation sker via hemkommunens bidrag, som bestäms efter samma grunder som hemkommunen tillämpar vid fördelning av resurser till den egna verksamheten.",
       "kalla": { "text": "Prop. 2025/26:195, avsnitt 9.4 Konsekvenser för enskilda huvudmän och företag", "url": "https://data.riksdagen.se/dokument/HD03195.html" }
     },
-    "sfs": null,
-    "senast_andrad": "2026-06-12",
-    "noteringar": "sfs: kammarbeslut 2026-06-03, författning ej kungjord vid inmatning. Lagförslaget har ingen övergångsbestämmelse utöver ikraftträdandet."
+    "sfs": "2026:1242",
+    "senast_andrad": "2026-11-10",
+    "noteringar": "sfs: 2026:1242 (lagen.nu:s förarbetesregister, verifierat 2026-11-10). Lagförslaget har ingen övergångsbestämmelse utöver ikraftträdandet."
   },
   {
     "reform_id": "studiero",
@@ -256,15 +258,16 @@
       "text": "Konsekvenserna för enskilda huvudmän blir desamma som för kommunerna — regleringen är gemensam för alla huvudmän, och förslagen bedöms inte medföra några särskilda konsekvenser för enskilda huvudmän i förhållande till offentliga.",
       "kalla": { "text": "Prop. 2025/26:193, avsnitt 9.3 Konsekvenserna för enskilda huvudmän blir desamma som för kommunerna", "url": "https://data.riksdagen.se/dokument/HD03193.html" }
     },
-    "sfs": null,
-    "senast_andrad": "2026-06-12",
-    "noteringar": "sfs: kammarbeslut 2026-06-03, författning ej kungjord vid inmatning. Ikraftträdandedatumet 2026-08-01 (inkl. mobilfri skola) verifierat mot både lagförslagets ikraftträdandebestämmelse och UbU22:s beslut i korthet ('Lagändringarna börjar gälla den 1 augusti 2026'). skolformer-listan följer mobilfri-paragrafens uppräkning; förskoleklassen omfattas till och med 2028-06-30 via övergångsbestämmelse punkt 2. Övriga delar (trygghetsansvar, skolregler) har bredare tillämpning i 5 kap. skollagen."
+    "sfs": "2026:1198",
+    "senast_andrad": "2026-11-10",
+    "noteringar": "sfs: 2026:1198 (ikraft 2026-08-01; lagen.nu:s förarbetesregister och SFS-texten, verifierat 2026-11-10). Ikraftträdandedatumet 2026-08-01 (inkl. mobilfri skola) verifierat mot både lagförslagets ikraftträdandebestämmelse och UbU22:s beslut i korthet ('Lagändringarna börjar gälla den 1 augusti 2026'). skolformer-listan följer mobilfri-paragrafens uppräkning; förskoleklassen omfattas till och med 2028-06-30 via övergångsbestämmelse punkt 2. Övriga delar (trygghetsansvar, skolregler) har bredare tillämpning i 5 kap. skollagen."
   },
   {
     "reform_id": "brott",
     "ikrafttradanden": [
       { "datum": "2026-06-30", "typ": "ikraft", "omfattning": "Lagändringarna börjar gälla den 30 juni 2026" },
-      { "datum": "2027-01-01", "typ": "tillampning", "omfattning": "Bestämmelserna tillämpas första gången på utbildning och annan verksamhet som bedrivs efter den 31 december 2026" }
+      { "datum": "2027-01-01", "typ": "tillampning", "omfattning": "Bestämmelserna tillämpas första gången på utbildning och annan verksamhet som bedrivs efter den 31 december 2026" },
+      { "datum": "2028-01-01", "typ": "tillampning", "omfattning": "Ändringen i 3 kap. 12 k § skollagen (SFS 2026:737, i kraft 1 juli 2026) tillämpas första gången på utbildning och annan verksamhet som bedrivs efter den 31 december 2027" }
     ],
     "overgangsbestammelser": [
       {
@@ -294,9 +297,9 @@
       "text": "Konsekvenserna för enskilda huvudmän blir desamma som för kommunerna, och förslaget innebär försumbara kostnader.",
       "kalla": { "text": "Prop. 2025/26:192, avsnitt 8.3 Konsekvenser för enskilda huvudmän blir desamma som för kommunerna", "url": "https://data.riksdagen.se/dokument/HD03192.html" }
     },
-    "sfs": null,
-    "senast_andrad": "2026-06-12",
-    "noteringar": "sfs: kammarbeslut 2026-05-27, författning ej kungjord vid inmatning. Andra ikraftträdandesteget: datumet 2027-01-01 representerar övergångsbestämmelsens 'tillämpas första gången på utbildning och annan verksamhet som bedrivs efter den 31 december 2026' (första dag som omfattas); den officiella formuleringen står i omfattningsfältet. berors: null — skolformslistan är inte specificerad i beslutssammanfattningen; verifieras mot lagtextens tillämpningsområde vid uppföljning."
+    "sfs": "2026:734",
+    "senast_andrad": "2026-11-10",
+    "noteringar": "sfs: 2026:734 (guidens övergångstext är ordagrant dess); prop. 2025/26:192 gav även SFS 2026:735, 2026:736 och 2026:737 (lagen.nu, verifierat 2026-11-10). Andra ikraftträdandesteget: datumet 2027-01-01 representerar övergångsbestämmelsens 'tillämpas första gången på utbildning och annan verksamhet som bedrivs efter den 31 december 2026' (första dag som omfattas); den officiella formuleringen står i omfattningsfältet. berors: null — skolformslistan är inte specificerad i beslutssammanfattningen; verifieras mot lagtextens tillämpningsområde vid uppföljning."
   },
   {
     "reform_id": "offentlighet",
@@ -343,9 +346,9 @@
       "text": "Handlingsoffentligheten och offentlighets- och sekretesslagen är nya regelverk för enskilda huvudmän. Administrativa arbetsuppgifter tillkommer för löpande hantering av allmänna handlingar och vid förfrågan om utlämnande, och inledningsvis tillkommer kostnader för uppbyggnad av rutiner och inköp av exempelvis teknik.",
       "kalla": { "text": "Prop. 2025/26:191, avsnitt 12.1 Konsekvenser för privata aktörer", "url": "https://data.riksdagen.se/dokument/HD03191.html" }
     },
-    "sfs": null,
-    "senast_andrad": "2026-06-12",
-    "noteringar": "sfs: kammarbeslut 2026-05-26, författning ej kungjord vid inmatning. Definitionen av 'mindre huvudman' (högst 450 barn och elever / 100 barn för renodlade förskolehuvudmän / koncernregeln) står i krav-listan — central för guidens målgrupp. Propositionen ändrar även arkivlagen (1990:782); dess ikraftträdandebestämmelser finns i källan."
+    "sfs": "2026:714",
+    "senast_andrad": "2026-11-10",
+    "noteringar": "sfs: 2026:714 (offentlighets- och sekretesslagen; guidens övergångstext är ordagrant dess). Skollagsdelen är SFS 2026:716 (lagen.nu, verifierat 2026-11-10). Definitionen av 'mindre huvudman' (högst 450 barn och elever / 100 barn för renodlade förskolehuvudmän / koncernregeln) står i krav-listan — central för guidens målgrupp. Propositionen ändrar även arkivlagen (1990:782); dess ikraftträdandebestämmelser finns i källan."
   },
   {
     "reform_id": "register",
@@ -388,15 +391,17 @@
       "text": "Bedömningarna för kommunala huvudmän gäller även enskilda huvudmän inom skolväsendet och annan pedagogisk verksamhet. Utvidgningen till komvux berör också enskilda utbildningsanordnare som utför uppgifter på entreprenad åt kommuner.",
       "kalla": { "text": "Prop. 2025/26:174, avsnittet Konsekvenser för enskilda huvudmän och enskilda utbildningsanordnare inom skolväsendet och annan pedagogisk verksamhet", "url": "https://data.riksdagen.se/dokument/HD03174.html" }
     },
-    "sfs": null,
-    "senast_andrad": "2026-06-12",
-    "noteringar": "sfs: kammarbeslut 2026-05-27, författning ej kungjord vid inmatning. berors.skolformer: null — den officiella omfattningsformuleringen är 'inom skolväsendet och annan pedagogisk verksamhet' (utan skolformsuppräkning i beslutssammanfattningen); huvudmannatyper satta utifrån att skolväsendet i dess helhet omfattas. Inga övergångsbestämmelser utöver ikraftträdandet."
+    "sfs": "2026:760",
+    "senast_andrad": "2026-11-10",
+    "noteringar": "sfs: 2026:760 (skollagen; lagen.nu:s förarbetesregister, verifierat 2026-11-10). berors.skolformer: null — den officiella omfattningsformuleringen är 'inom skolväsendet och annan pedagogisk verksamhet' (utan skolformsuppräkning i beslutssammanfattningen); huvudmannatyper satta utifrån att skolväsendet i dess helhet omfattas. Inga övergångsbestämmelser utöver ikraftträdandet."
   },
   {
     "reform_id": "yrkes",
     "ikrafttradanden": [
       { "datum": "2026-07-01", "typ": "ikraft", "omfattning": "Lagändringarna om utökade möjligheter till entreprenad och rätt att fullfölja utbildning i anpassade gymnasieskolan börjar gälla 1 juli 2026" },
-      { "datum": "2028-07-02", "typ": "ikraft", "omfattning": "Övriga lagändringar 2 juli 2028" }
+      { "datum": "2028-07-01", "typ": "ikraft", "omfattning": "Lagändringarna i SFS 2026:1242 börjar gälla 1 juli 2028" },
+      { "datum": "2028-07-02", "typ": "ikraft", "omfattning": "Övriga lagändringar 2 juli 2028 (SFS 2026:1243)" },
+      { "datum": "2031-01-01", "typ": "ikraft", "omfattning": "Lagändringarna i SFS 2026:1245 börjar gälla 1 januari 2031" }
     ],
     "overgangsbestammelser": [
       {
@@ -443,8 +448,8 @@
       "kalla": { "text": "Prop. 2025/26:198, avsnittet Konsekvenser för enskilda huvudmän och utbildningsanordnare samt för företag i övrigt", "url": "https://data.riksdagen.se/dokument/HD03198.html" }
     },
     "sfs": "2026:960",
-    "senast_andrad": "2026-06-12",
-    "noteringar": "sfs 2026:960 (lag om ändring i skollagen, entreprenad-steget med ikraftträdande 2026-07-01) identifierad via Skolverkets Aktuella regeländringar och verifierad mot svenskforfattningssamling.se 2026-06-11; steg 2-lagens (2028-07-02) SFS-nummer ej verifierat. huvudmannatyper: regioner förekommer som huvudmän i gymnasieskolan men T1-kontraktets typvokabulär (kommunal/enskild/statlig) saknar 'region' — flaggas för kontraktsrevision i T4. Övergångsbestämmelsernas punkt 5 (fullföljande av påbörjad utbildning) finns i källan."
+    "senast_andrad": "2026-11-10",
+    "noteringar": "sfs 2026:960 (lag om ändring i skollagen, entreprenad-steget med ikraftträdande 2026-07-01) identifierad via Skolverkets Aktuella regeländringar och verifierad mot svenskforfattningssamling.se 2026-06-11; steg 2 = SFS 2026:1243 (2 juli 2028); prop. 2025/26:198 ingår även i SFS 2026:1242 (1 juli 2028) och 2026:1245 (1 januari 2031) enligt lagen.nu:s förarbetesregister (verifierat 2026-11-10). Riksdagens betänkande anger att ändringarna i huvudsak träder i kraft den 1 juli 2028. Samordningslagen SFS 2026:1243 träder i kraft den 2 juli 2028. huvudmannatyper: regioner förekommer som huvudmän i gymnasieskolan men T1-kontraktets typvokabulär (kommunal/enskild/statlig) saknar 'region' — flaggas för kontraktsrevision i T4. Övergångsbestämmelsernas punkt 5 (fullföljande av påbörjad utbildning) finns i källan."
   },
   {
     "reform_id": "profession",
@@ -492,8 +497,8 @@
       "kalla": { "text": "Prop. 2022/23:54, avsnitt 9.5 Konsekvenser för enskilda huvudmän", "url": "https://data.riksdagen.se/dokument/HA0354.html" }
     },
     "sfs": "2023:393",
-    "senast_andrad": "2026-06-12",
-    "noteringar": "I kraft sedan 2025-09-01. Ikraftträdandet ÄNDRADES: ursprungligt beslut 2025-01-01 (prop. 2022/23:54, bet. 2022/23:UbU13, rskr. 2022/23:206), senarelagt till 2025-09-01 (prop. 2023/24:166, bet. 2024/25:UbU4) — ändringshistoriken bärs i overgangsbestammelser med båda källorna; guiden visar gällande datum. sfs 2023:393 = ursprungslagen (benämns 'lagen (2023:393) om ändring i skollagen' i prop. 2023/24:166), verifierad mot svenskforfattningssamling.se 2026-06-11; senareläggningslagens eget SFS-nummer ej verifierat (propen anger '2024:000'). berors: null — programmet gäller rektorer, lärare och förskollärare; skolformslista och huvudmannakrav ej specificerade i beslutssammanfattningen."
+    "senast_andrad": "2026-11-10",
+    "noteringar": "I kraft sedan 2025-09-01. Ikraftträdandet ÄNDRADES: ursprungligt beslut 2025-01-01 (prop. 2022/23:54, bet. 2022/23:UbU13, rskr. 2022/23:206), senarelagt till 2025-09-01 (prop. 2023/24:166, bet. 2024/25:UbU4) — ändringshistoriken bärs i overgangsbestammelser med båda källorna; guiden visar gällande datum. sfs 2023:393 = ursprungslagen (benämns 'lagen (2023:393) om ändring i skollagen' i prop. 2023/24:166), verifierad mot svenskforfattningssamling.se 2026-06-11; senareläggningslagen är SFS 2024:1074 (prop. 2023/24:166, bet. 2024/25:UbU4, rskr. 2024/25:40; lagen.nu:s förarbetesregister, verifierat 2026-11-10). berors: null — programmet gäller rektorer, lärare och förskollärare; skolformslista och huvudmannakrav ej specificerade i beslutssammanfattningen."
   },
   {
     "reform_id": "timplan",
@@ -528,9 +533,9 @@
       "text": "Förslaget påverkar enskilda huvudmän på samma sätt som kommunala och bedöms inte medföra ökade kostnader eller några särskilda konsekvenser för enskilda huvudmän i förhållande till kommunerna.",
       "kalla": { "text": "Prop. 2023/24:20, avsnitt 8.3 Konsekvenser för enskilda huvudmän", "url": "https://data.riksdagen.se/dokument/HB0320.html" }
     },
-    "sfs": null,
-    "senast_andrad": "2026-06-12",
-    "noteringar": "I kraft sedan 2024-07-01, tillämpad sedan höstterminen 2024. Tillämpningsstarten 'höstterminen 2024' är inget författningsdatum och bärs därför i omfattningstexten (samma representationsbeslut som läroplansposten). Omfördelningen av den frigjorda undervisningstiden sker på förordningsnivå (skolförordningens timplaner), inte i skollagen. SFS-nummer för lagändringen ej verifierat i tillgängliga källor (finns inte på Skolverkets Aktuella regeländringar) — null tills belagt."
+    "sfs": "2023:943",
+    "senast_andrad": "2026-11-10",
+    "noteringar": "I kraft sedan 2024-07-01, tillämpad sedan höstterminen 2024. Tillämpningsstarten 'höstterminen 2024' är inget författningsdatum och bärs därför i omfattningstexten (samma representationsbeslut som läroplansposten). Omfördelningen av den frigjorda undervisningstiden sker på förordningsnivå (skolförordningens timplaner), inte i skollagen. SFS-nummer för lagändringen: 2023:943 (bet. 2023/24:UbU5, prop. 2023/24:20, rskr. 2023/24:106; lagen.nu:s förarbetesregister och SFS-texten, verifierat 2026-11-10)."
   },
   {
     "reform_id": "tioarig",
@@ -576,7 +581,7 @@
       "kalla": { "text": "Prop. 2024/25:143, avsnitt 11.4 Konsekvenser för enskilda huvudmän", "url": "https://data.riksdagen.se/dokument/HC03143.html" }
     },
     "sfs": "2025:729",
-    "senast_andrad": "2026-06-12",
-    "noteringar": "sfs 2025:729 (lag om ändring i skollagen) given i beslutsunderlaget, listad på Skolverkets Aktuella regeländringar och verifierad mot svenskforfattningssamling.se 2026-06-11. Skolverket listar även lag (2025:1312) om ändring i lagen (2025:729) — en senare ändring av denna ändringslag; ej verifierad mot SFS-kungörelsen. Guidens tidslinje pivoterar på tillampning-posterna (läsåret 2028/29 träffar verksamheten; lagens formella ikraftträdande 2026-07-01 visas sekundärt). skolformer: förskoleklassen upphör som skolform — den ingår i listan som berörd. Övergångsbestämmelsernas punkt 4 (elever som gått förskoleklass läsåret 2027/28) finns i källan."
+    "senast_andrad": "2026-11-10",
+    "noteringar": "sfs 2025:729 (lag om ändring i skollagen) given i beslutsunderlaget, listad på Skolverkets Aktuella regeländringar och verifierad mot svenskforfattningssamling.se 2026-06-11. Skolverket listar även lag (2025:1312) om ändring i lagen (2025:729) — en senare ändring av denna ändringslag; belagd 2026-11-10 (prop. 2025/26:10, bet. 2025/26:UbU4, rskr. 2025/26:49; lagen.nu). Övergångspunkt 3 får ny lydelse 2027-01-01 genom SFS 2026:716. Guidens tidslinje pivoterar på tillampning-posterna (läsåret 2028/29 träffar verksamheten; lagens formella ikraftträdande 2026-07-01 visas sekundärt). skolformer: förskoleklassen upphör som skolform — den ingår i listan som berörd. Övergångsbestämmelsernas punkt 4 (elever som gått förskoleklass läsåret 2027/28) finns i källan."
   }
 ]
