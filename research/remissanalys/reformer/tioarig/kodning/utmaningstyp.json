@@ -1,0 +1,1170 @@
+{
+ "_meta": {
+  "steg": "M2 utmaningstyp (modellkodning genom läsning, Sprint 17; 2 kodare med samma instruktion, KODINSTRUKTION.md)",
+  "tolkning": true
+ },
+ "kodning": [
+  {
+   "id": "U001",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Staten bör bekosta förskollärares behörighetsgivande utbildning",
+   "kodare": 1
+  },
+  {
+   "id": "U002",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Organisation och planering",
+   "motivering": "Behörighetskrav kan påverka personaltätheten på fritidshemmet",
+   "kodare": 1
+  },
+  {
+   "id": "U003",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Samarbete mellan fritidshem och skola kräver arbete",
+   "kodare": 1
+  },
+  {
+   "id": "U004",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Risk för felaktig inskrivning i grundsärskolan för yngre barn",
+   "kodare": 1
+  },
+  {
+   "id": "U005",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Omfördelat statsbidrag kan påverka kommunens ekonomi negativt",
+   "kodare": 1
+  },
+  {
+   "id": "U006",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "Svåra avvägningar om disciplinära åtgärder för yngsta eleverna",
+   "kodare": 1
+  },
+  {
+   "id": "U007",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Organisation och planering",
+   "motivering": "Ökade krav och skyldigheter för kommunala huvudmän",
+   "kodare": 1
+  },
+  {
+   "id": "U008",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Utvärderingen bör pröva om kommunerna kompenserats tillräckligt",
+   "kodare": 1
+  },
+  {
+   "id": "U009",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Ofullständiga utredningar kan ge fel skolform för barnet",
+   "kodare": 1
+  },
+  {
+   "id": "U010",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Lärare behöver kunskap i förskolans pedagogik",
+   "kodare": 1
+  },
+  {
+   "id": "U011",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Tid för kompetensutveckling behövs för att undvika behörighetsbrist",
+   "kodare": 1
+  },
+  {
+   "id": "U012",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Organisation och planering",
+   "motivering": "Tidiga utredningar behövs för att garantera rätt skolform",
+   "kodare": 1
+  },
+  {
+   "id": "U013",
+   "primar": "Organisation och planering",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Inskrivning i grundsärskola när utredningar inte är klara",
+   "kodare": 1
+  },
+  {
+   "id": "U014",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Kommunernas olika förutsättningar beaktas inte tillräckligt",
+   "kodare": 1
+  },
+  {
+   "id": "U015",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Rekryteringssvårigheter begränsar effekten av vidareutbildning",
+   "kodare": 1
+  },
+  {
+   "id": "U016",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Svårt rekrytera behöriga vikarier under vidareutbildning",
+   "kodare": 1
+  },
+  {
+   "id": "U017",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Resursomfördelning kan försämra undervisningskvalitet för andra elever",
+   "kodare": 1
+  },
+  {
+   "id": "U018",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Riktade statsbidrag ger kortsiktig och osäker finansiering",
+   "kodare": 1
+  },
+  {
+   "id": "U019",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Statsbidragsförändringar stör utvecklingssatsningar och elevers skolgång",
+   "kodare": 1
+  },
+  {
+   "id": "U020",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Begreppet strukturerad undervisning behöver definieras tydligt",
+   "kodare": 1
+  },
+  {
+   "id": "U021",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Stödmaterial kan vara otillräckligt för central samverkan",
+   "kodare": 1
+  },
+  {
+   "id": "U022",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Behörighetskrav kan försämra övergångar för enskilda barn",
+   "kodare": 1
+  },
+  {
+   "id": "U023",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Modersmålslärare ska undervisa en ny åldersgrupp",
+   "kodare": 1
+  },
+  {
+   "id": "U024",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Grundlärare behöver förskollärares kunskaper för nya årskurs 1",
+   "kodare": 1
+  },
+  {
+   "id": "U025",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Utbildning behövs för fler behöriga speciallärare i grundsärskolan",
+   "kodare": 1
+  },
+  {
+   "id": "U026",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Statsbidrag behövs för kapacitetsförstärkning under implementeringen",
+   "kodare": 1
+  },
+  {
+   "id": "U027",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Organisation och planering",
+   "motivering": "Kommunerna behöver planerings- och ekonomiskt stöd",
+   "kodare": 1
+  },
+  {
+   "id": "U028",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Risk för ytterligare stadieövergång med nya lärare",
+   "kodare": 1
+  },
+  {
+   "id": "U029",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Resurser behövs för verksamhet när lärare utbildas",
+   "kodare": 1
+  },
+  {
+   "id": "U030",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Gemensamt regelverk för särskilt stöd ger ökade kostnader",
+   "kodare": 1
+  },
+  {
+   "id": "U031",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Ytterligare skolår i grundsärskolan ger ökade kostnader",
+   "kodare": 1
+  },
+  {
+   "id": "U032",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Omfördelat bidrag från elevinsatser kan sänka kvaliteten",
+   "kodare": 1
+  },
+  {
+   "id": "U033",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Tidplan och reformtakt",
+   "motivering": "Oklart när skolplikten träder i kraft",
+   "kodare": 1
+  },
+  {
+   "id": "U034",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Förskollärare kan lämna förskoleklass för förskolan",
+   "kodare": 1
+  },
+  {
+   "id": "U035",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "Ojämna fortbildningskrav mellan förskollärare och grundlärare",
+   "kodare": 1
+  },
+  {
+   "id": "U036",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Läraryrkets attraktivitet påverkar lärarförsörjningen",
+   "kodare": 1
+  },
+  {
+   "id": "U037",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Kommunerna behöver ersättas för direkta kostnader",
+   "kodare": 1
+  },
+  {
+   "id": "U038",
+   "primar": "Organisation och planering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Förändringarna kräver omfattande insatser av huvudmännen",
+   "kodare": 1
+  },
+  {
+   "id": "U039",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Fortbildning måste vara enkel för att behålla förskollärarkompetens",
+   "kodare": 1
+  },
+  {
+   "id": "U040",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Statsbidrag bör täcka hela arbetsgivarens fortbildningskostnad",
+   "kodare": 1
+  },
+  {
+   "id": "U041",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Styrdokumentens skrivningar behöver bli tydliga",
+   "kodare": 1
+  },
+  {
+   "id": "U042",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Reviderade styrdokument behövs redan läsåret 24/25",
+   "kodare": 1
+  },
+  {
+   "id": "U043",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": "Organisation och planering",
+   "motivering": "Regelverket behöver vara klart i god tid",
+   "kodare": 1
+  },
+  {
+   "id": "U044",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Huvudmannaansvar för information riskerar olikvärdig information",
+   "kodare": 1
+  },
+  {
+   "id": "U045",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Distansutbildning för likvärdigt deltagande oavsett bostadsort",
+   "kodare": 1
+  },
+  {
+   "id": "U046",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Minskade statsbidrag skulle påverka verksamheten negativt",
+   "kodare": 1
+  },
+  {
+   "id": "U047",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Organisation och planering",
+   "motivering": "Osäkerhet kring statsbidrag försvårar framförhållning",
+   "kodare": 1
+  },
+  {
+   "id": "U048",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Tidplan och reformtakt",
+   "motivering": "Minskade statsbidrag behöver kommuniceras mer än år i förväg",
+   "kodare": 1
+  },
+  {
+   "id": "U049",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Lärarutbildningen bör förstärkas i läsning, skrivning och matematik",
+   "kodare": 1
+  },
+  {
+   "id": "U050",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Organisation och planering",
+   "motivering": "Oklart hur verksamhet för skolstartsåldern ska utformas",
+   "kodare": 1
+  },
+  {
+   "id": "U051",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Förskolepedagogiskt lyft har oklart innehåll och omfattning",
+   "kodare": 1
+  },
+  {
+   "id": "U052",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Kartläggningsarbete kan minska elevernas undervisningstid",
+   "kodare": 1
+  },
+  {
+   "id": "U053",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Informationsöverlämning mellan olika huvudmäns förskolor saknas i förslaget",
+   "kodare": 1
+  },
+  {
+   "id": "U054",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Övergångar förskola–skola svåra när barn sprids",
+   "kodare": 1
+  },
+  {
+   "id": "U055",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Organisation och planering",
+   "motivering": "Otydliga styrdokument ger olika förväntningar vid skolstart",
+   "kodare": 1
+  },
+  {
+   "id": "U056",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Merkostnad på fem miljoner kronor årligen",
+   "kodare": 1
+  },
+  {
+   "id": "U057",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Svårt att få tillräckligt legitimerade och kompetenta lärare",
+   "kodare": 1
+  },
+  {
+   "id": "U058",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Saknas förslag och finansiering för grundlärares vidareutbildning",
+   "kodare": 1
+  },
+  {
+   "id": "U059",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Tidplan och reformtakt",
+   "motivering": "Femårig övergångsperiod räcker inte för kompetensbehovet",
+   "kodare": 1
+  },
+  {
+   "id": "U060",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Organisation och planering",
+   "motivering": "Kompetensförsörjning och tjänstledighet hotar verksamhetens funktion",
+   "kodare": 1
+  },
+  {
+   "id": "U061",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Organisation och planering",
+   "motivering": "Tjänstledighet för kompetenshöjning skapar utmaningar för rektorer",
+   "kodare": 1
+  },
+  {
+   "id": "U062",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Bidraget täcker inte arbetsgivarens fortbildningskostnader",
+   "kodare": 1
+  },
+  {
+   "id": "U063",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Oklart om kompetenshöjande insatser leder till legitimation",
+   "kodare": 1
+  },
+  {
+   "id": "U064",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Omorganisation av lågstadiet riskerar stor personalbrist",
+   "kodare": 1
+  },
+  {
+   "id": "U065",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Organisation och planering",
+   "motivering": "Utbildningar får inte ta för mycket tid",
+   "kodare": 1
+  },
+  {
+   "id": "U066",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Förskollärares fortbildning kan minska personal i förskolan",
+   "kodare": 1
+  },
+  {
+   "id": "U067",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Utbildningar och statsbidrag måste träda i kraft tidigare",
+   "kodare": 1
+  },
+  {
+   "id": "U068",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Samtidiga revideringar av läroplaner och kursplaner",
+   "kodare": 1
+  },
+  {
+   "id": "U069",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "Statens ekonomiska ansvar borde tydliggöras redan i remissen",
+   "kodare": 1
+  },
+  {
+   "id": "U070",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Fler utredningar startar under förskoleåren",
+   "kodare": 1
+  },
+  {
+   "id": "U071",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Omfattande fortbildning kan behövas för förskoleklasslärare",
+   "kodare": 1
+  },
+  {
+   "id": "U072",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Kunskapskraven behöver publiceras i god tid",
+   "kodare": 1
+  },
+  {
+   "id": "U073",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "System och teknik",
+   "motivering": "Obligatoriskt bedömningsstöd för omfattande och komplicerat",
+   "kodare": 1
+  },
+  {
+   "id": "U075",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Nationella prov upplevs omfattande för professionen",
+   "kodare": 1
+  },
+  {
+   "id": "U076",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": "Organisation och planering",
+   "motivering": "Förberedelsetid behövs för bemanning och lokaler",
+   "kodare": 1
+  },
+  {
+   "id": "U077",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Brist på behörig personal ger ekonomiska konsekvenser",
+   "kodare": 1
+  },
+  {
+   "id": "U078",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Tidigare start i grundsärskolan ger ökade kostnader",
+   "kodare": 1
+  },
+  {
+   "id": "U079",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Skolskjuts och elevpeng för ytterligare årskurs kostar",
+   "kodare": 1
+  },
+  {
+   "id": "U080",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Fler kan ansöka om uppskjuten skolplikt",
+   "kodare": 1
+  },
+  {
+   "id": "U081",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Fler elever i modersmålsundervisning ger kostnader",
+   "kodare": 1
+  },
+  {
+   "id": "U082",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Fortbildning behövs för förskollärares behörighet år 1–4",
+   "kodare": 1
+  },
+  {
+   "id": "U083",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Fortbildning behövs i bedömning och läsinlärning",
+   "kodare": 1
+  },
+  {
+   "id": "U084",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Förskollärare i grundsärskolan behöver förstå målgruppen",
+   "kodare": 1
+  },
+  {
+   "id": "U085",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Kompetens om målgruppen ska tillvaratas och fortbildas",
+   "kodare": 1
+  },
+  {
+   "id": "U086",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Fortbildning behövs i bedömning, läsinlärning och matematik",
+   "kodare": 1
+  },
+  {
+   "id": "U087",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Svårnavigerat vilka förskollärare får kompetensutvecklas",
+   "kodare": 1
+  },
+  {
+   "id": "U088",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Tidplan och reformtakt",
+   "motivering": "Stöd behövs för att fortbilda medarbetare i tid",
+   "kodare": 1
+  },
+  {
+   "id": "U089",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Förståelse för förändringarna behövs i alla led",
+   "kodare": 1
+  },
+  {
+   "id": "U090",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Organisation och planering",
+   "motivering": "Tillfälliga statsbidrag kan behandlas som permanenta",
+   "kodare": 1
+  },
+  {
+   "id": "U091",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "System och teknik",
+   "motivering": "Indirekta kostnader för vikarier, system och löner",
+   "kodare": 1
+  },
+  {
+   "id": "U092",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Kostnadsökningar får inte belasta ansträngd skolekonomi",
+   "kodare": 1
+  },
+  {
+   "id": "U093",
+   "primar": "Organisation och planering",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Förslagen kräver omfattande organisatoriska och ekonomiska insatser",
+   "kodare": 1
+  },
+  {
+   "id": "U094",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Kostnader för grundsärskolans årskurs 1 underskattade",
+   "kodare": 1
+  },
+  {
+   "id": "U095",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Bristen på förskollärare får inte förstärkas",
+   "kodare": 1
+  },
+  {
+   "id": "U096",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Svårt anställa behörig personal i utsatta områden",
+   "kodare": 1
+  },
+  {
+   "id": "U097",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Ökat behov av kompetensförsörjning och resurser",
+   "kodare": 1
+  },
+  {
+   "id": "U098",
+   "primar": "Organisation och planering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Färre fritidshemstimmar påverkar bemanningen",
+   "kodare": 1
+  },
+  {
+   "id": "U099",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Organisation och planering",
+   "motivering": "Förskolan behöver stöd för pedagogiska bedömningar",
+   "kodare": 1
+  },
+  {
+   "id": "U100",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Ekonomiska konsekvenser för grundsärskolan kan bli större",
+   "kodare": 1
+  },
+  {
+   "id": "U101",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Påverkar förskolans rutiner för informationsöverföring",
+   "kodare": 1
+  },
+  {
+   "id": "U102",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Organisation och planering",
+   "motivering": "Stora skillnader i förskolors rutiner för informationsöverlämning",
+   "kodare": 1
+  },
+  {
+   "id": "U103",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Risk för ökade ansökningar om uppskjuten skolplikt",
+   "kodare": 1
+  },
+  {
+   "id": "U104",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Organisatoriskt omfattande insatser krävs av huvudmännen",
+   "kodare": 1
+  },
+  {
+   "id": "U105",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Risk för brist på förskollärare i förskolan",
+   "kodare": 1
+  },
+  {
+   "id": "U106",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Organisation och planering",
+   "motivering": "Konsekvenser för förskolans uppdrag otillräckligt belysta",
+   "kodare": 1
+  },
+  {
+   "id": "U107",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Bemanningsproblematik i fritidshemmet med låg behörighet",
+   "kodare": 1
+  },
+  {
+   "id": "U108",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Nya behörighetskrav försvårar bemanning i fritidshemmet",
+   "kodare": 1
+  },
+  {
+   "id": "U109",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Förskollärare kan återvända till förskolan",
+   "kodare": 1
+  },
+  {
+   "id": "U110",
+   "primar": "Organisation och planering",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Dubbla bidrag med omfattande ansökningsarbete och insatsplaner",
+   "kodare": 1
+  },
+  {
+   "id": "U111",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Fast slutdatum för förskollärares anställning problematiskt",
+   "kodare": 1
+  },
+  {
+   "id": "U112",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Risk för minskat statsbidrag för karriärtjänster",
+   "kodare": 1
+  },
+  {
+   "id": "U113",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Finansiering tas från befintliga statsbidrag",
+   "kodare": 1
+  },
+  {
+   "id": "U114",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Utökad undervisningstid påverkar fritidshemmets organisering",
+   "kodare": 1
+  },
+  {
+   "id": "U116",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Kostnaden kan fördubblas enligt elevprognos",
+   "kodare": 1
+  },
+  {
+   "id": "U117",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Obligatorisk överlämning påverkar förskolans rutiner",
+   "kodare": 1
+  },
+  {
+   "id": "U119",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Överlämningskrav får inte öka administrativ arbetsbörda",
+   "kodare": 1
+  },
+  {
+   "id": "U120",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Påverkar lärares arbetstid och ger ökade kostnader",
+   "kodare": 1
+  },
+  {
+   "id": "U121",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Farhåga om ökade ansökningar om uppskjuten skolplikt",
+   "kodare": 1
+  },
+  {
+   "id": "U122",
+   "primar": "Organisation och planering",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Tidig skolstart kan tränga ut skolpliktiga elever",
+   "kodare": 1
+  },
+  {
+   "id": "U123",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Organisatoriskt omfattande insatser krävs av huvudmännen",
+   "kodare": 1
+  },
+  {
+   "id": "U124",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Brist på behörig personal i grundsärskolans årskurs 1",
+   "kodare": 2
+  },
+  {
+   "id": "U125",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Risk för förskollärarbrist i förskolan",
+   "kodare": 2
+  },
+  {
+   "id": "U126",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Organisation och planering",
+   "motivering": "Frågetecken om påverkan på förskolans undervisningsuppdrag",
+   "kodare": 2
+  },
+  {
+   "id": "U128",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Försvårad bemanning i fritidshemmet",
+   "kodare": 2
+  },
+  {
+   "id": "U129",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Risk att kompetens om yngre barns lärande går förlorad",
+   "kodare": 2
+  },
+  {
+   "id": "U130",
+   "primar": "Organisation och planering",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Parallella statsbidrag med likartade, omfattande ansökningsprocesser",
+   "kodare": 2
+  },
+  {
+   "id": "U131",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Anställningskrav knutet till datum vid ikraftträdandet",
+   "kodare": 2
+  },
+  {
+   "id": "U132",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Risk för minskat statsbidrag för karriärtjänster och lärarlönelyft",
+   "kodare": 2
+  },
+  {
+   "id": "U137",
+   "primar": "Organisation och planering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Förskollärartjänster kan inte delas med fritidshem",
+   "kodare": 2
+  },
+  {
+   "id": "U138",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Tveksamt om utbildningen ger tillräcklig undervisningskompetens",
+   "kodare": 2
+  },
+  {
+   "id": "U139",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Krav på anställning visst datum ger oönskade konsekvenser",
+   "kodare": 2
+  },
+  {
+   "id": "U140",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Kostnaderna högre än betänkandet anger",
+   "kodare": 2
+  },
+  {
+   "id": "U141",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Minskade riktade statsbidrag trots finansieringsprincipen",
+   "kodare": 2
+  },
+  {
+   "id": "U142",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Personalbrist i fritidshem när förskollärare fortbildas",
+   "kodare": 2
+  },
+  {
+   "id": "U143",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Grundsärskolan saknar förskoleklass, särskilda införandeutmaningar",
+   "kodare": 2
+  },
+  {
+   "id": "U144",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Kunskapskraven behöver implementeras med stödmaterial",
+   "kodare": 2
+  },
+  {
+   "id": "U145",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Oklart vilka uppgifter om barnet som ska överlämnas",
+   "kodare": 2
+  },
+  {
+   "id": "U146",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Kommunala skolor måste ha beredskap att ta emot elever",
+   "kodare": 2
+  },
+  {
+   "id": "U147",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Fritidshemmens kompetensförsörjning behöver beaktas",
+   "kodare": 2
+  },
+  {
+   "id": "U148",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Behörighetsregler och fortbildning i grundsärskolan kräver helhetsgrepp",
+   "kodare": 2
+  },
+  {
+   "id": "U149",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Anställning ett visst datum kan utesluta tillfälligt oanställda",
+   "kodare": 2
+  },
+  {
+   "id": "U150",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Tveksamt om 30 högskolepoäng räcker för undervisning",
+   "kodare": 2
+  },
+  {
+   "id": "U151",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Anställningskrav visst datum gav oönskade konsekvenser tidigare",
+   "kodare": 2
+  },
+  {
+   "id": "U152",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Avråder från anställningskrav vid visst datum",
+   "kodare": 2
+  },
+  {
+   "id": "U153",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Bemanning av förskoleklass och fritidshem under fortbildning",
+   "kodare": 2
+  },
+  {
+   "id": "U154",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Kompetensutveckling måste prioriteras mot behörighetsgivande fortbildning",
+   "kodare": 2
+  },
+  {
+   "id": "U155",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Hinna fortbilda tillräckligt många förskollärare, räckande statsbidrag",
+   "kodare": 2
+  },
+  {
+   "id": "U156",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Rimliga förutsättningar för implementering, särskilt mindre huvudmän",
+   "kodare": 2
+  },
+  {
+   "id": "U157",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Överutnyttjade statsbidrag ger minskade bidrag till kommunerna",
+   "kodare": 2
+  },
+  {
+   "id": "U158",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Full kompensation för skolskjutskostnader saknas",
+   "kodare": 2
+  },
+  {
+   "id": "U159",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Kostnaden för grundsärskolans årskurs 1 underskattad",
+   "kodare": 2
+  },
+  {
+   "id": "U160",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Fler elever än beräknat ger högre kostnader",
+   "kodare": 2
+  },
+  {
+   "id": "U161",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Organisation och planering",
+   "motivering": "Lärarbrist i grundsärskolan försvårar rekrytering och organisering",
+   "kodare": 2
+  },
+  {
+   "id": "U162",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Kostnaden underskattad, bör vara 40 miljoner",
+   "kodare": 2
+  },
+  {
+   "id": "U163",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Utvecklingssamtal tar längre tid än beräknat",
+   "kodare": 2
+  },
+  {
+   "id": "U164",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Samma statsbidrag tas i anspråk av flera utredningar",
+   "kodare": 2
+  },
+  {
+   "id": "U165",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Fler uppgifter med samma totala resurser",
+   "kodare": 2
+  },
+  {
+   "id": "U166",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Tidplan och reformtakt",
+   "motivering": "Behov av ytterligare medel och förlängd fortbildningstid",
+   "kodare": 2
+  },
+  {
+   "id": "U167",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Statsbidraget bör täcka hela arbetsgivarens kostnad",
+   "kodare": 2
+  },
+  {
+   "id": "U168",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Lågstadieverksamma förskollärare saknas i kostnadsberäkningarna",
+   "kodare": 2
+  },
+  {
+   "id": "U169",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Kommunerna får sammantaget mindre medel",
+   "kodare": 2
+  },
+  {
+   "id": "U170",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Fritidshemmens kompetensförsörjning påverkar organisation och ekonomi",
+   "kodare": 2
+  },
+  {
+   "id": "U171",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Fritidshemmens bemanning påverkas under fortbildningen",
+   "kodare": 2
+  },
+  {
+   "id": "U172",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Kostnader och vikariebrist hindrar parallella utbildningar",
+   "kodare": 2
+  },
+  {
+   "id": "U173",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Nyrekrytering till fritidshem ger ökade personalkostnader",
+   "kodare": 2
+  },
+  {
+   "id": "U174",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Fritidshem riskerar dräneras på kompetens",
+   "kodare": 2
+  }
+ ]
+}
