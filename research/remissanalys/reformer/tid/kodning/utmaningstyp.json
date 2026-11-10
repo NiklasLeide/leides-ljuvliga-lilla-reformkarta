@@ -1,0 +1,4313 @@
+{
+ "_meta": {
+  "steg": "M2 utmaningstyp (modellkodning genom läsning, Sprint 17; 6 kodare med samma instruktion, KODINSTRUKTION.md)",
+  "tolkning": true
+ },
+ "kodning": [
+  {
+   "id": "U001",
+   "primar": "Övrigt",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Konsekvensbeskrivningen bedöms bristfällig med felberäkningar",
+   "kodare": 1
+  },
+  {
+   "id": "U002",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Kräver statlig finansiering av statliga krav",
+   "kodare": 1
+  },
+  {
+   "id": "U003",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Försämrade möjligheter för elevers kunskaper och lärares arbetsmiljö",
+   "kodare": 1
+  },
+  {
+   "id": "U004",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Risk för bristande uppföljning av kränkningsarbetet",
+   "kodare": 1
+  },
+  {
+   "id": "U005",
+   "primar": "Övrigt",
+   "sekundar": "Organisation och planering",
+   "motivering": "Principiell invändning mot statlig reglering av undervisningstid",
+   "kodare": 1
+  },
+  {
+   "id": "U006",
+   "primar": "Övrigt",
+   "sekundar": null,
+   "motivering": "Konsekvenserna behöver vara kända före genomförande",
+   "kodare": 1
+  },
+  {
+   "id": "U007",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Kommunal finansiering riskerar större grupper och sämre löner",
+   "kodare": 1
+  },
+  {
+   "id": "U008",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Underfinansiering riskerar sämre utbildningskvalitet",
+   "kodare": 1
+  },
+  {
+   "id": "U009",
+   "primar": "Övrigt",
+   "sekundar": null,
+   "motivering": "Föräldrar kan känna sig utestängda från information",
+   "kodare": 1
+  },
+  {
+   "id": "U010",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "Två olika hanteringar försvårar lärares arbete",
+   "kodare": 1
+  },
+  {
+   "id": "U011",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Risk att upprepade eller allvarliga kränkningar missas",
+   "kodare": 1
+  },
+  {
+   "id": "U012",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Omfattande dokumentationskrav vid anmälda kränkningar",
+   "kodare": 1
+  },
+  {
+   "id": "U013",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Rektors hänsyn vid tidsfördelning kan begränsas",
+   "kodare": 1
+  },
+  {
+   "id": "U014",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Nationell tidsreglering passar dåligt med lokala faktorer",
+   "kodare": 1
+  },
+  {
+   "id": "U015",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Kompetensförsörjning och finansiering behöver säkras",
+   "kodare": 1
+  },
+  {
+   "id": "U017",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Ikraftträdandet bedöms för snävt för implementering",
+   "kodare": 1
+  },
+  {
+   "id": "U018",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Samtidiga reformer motiverar senarelagt ikraftträdande",
+   "kodare": 1
+  },
+  {
+   "id": "U019",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Ekonomiska konsekvenser bedöms felberäknade",
+   "kodare": 1
+  },
+  {
+   "id": "U020",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Behov av drygt 20 000 nya lärare",
+   "kodare": 1
+  },
+  {
+   "id": "U021",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Kostnaden beräknas till 14 miljarder kronor",
+   "kodare": 1
+  },
+  {
+   "id": "U022",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Lärarbrist ger obehöriga lärare och sämre undervisning",
+   "kodare": 1
+  },
+  {
+   "id": "U023",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Kostnadsberäkning saknas för planeringstid i förskola, fritidshem",
+   "kodare": 1
+  },
+  {
+   "id": "U024",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Nya kostnadsberäkningar och rimlig finansiering krävs",
+   "kodare": 1
+  },
+  {
+   "id": "U025",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Samtidiga förslag och utredningar försvårar bedömningen",
+   "kodare": 1
+  },
+  {
+   "id": "U026",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Risk att elevers behov och stöd uppmärksammas sent",
+   "kodare": 1
+  },
+  {
+   "id": "U027",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Relationen till förvaltningslagen behöver tydliggöras",
+   "kodare": 1
+  },
+  {
+   "id": "U028",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Subjektiva bedömningar av allvarlig eller upprepad kränkning",
+   "kodare": 1
+  },
+  {
+   "id": "U029",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Trakasserier riskerar att inte synliggöras",
+   "kodare": 1
+  },
+  {
+   "id": "U030",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Administrativ börda minskar inte som utredningen beskriver",
+   "kodare": 1
+  },
+  {
+   "id": "U031",
+   "primar": "Övrigt",
+   "sekundar": null,
+   "motivering": "Inskränkning av den kommunala självstyrelsen",
+   "kodare": 1
+  },
+  {
+   "id": "U032",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Ansvar kvarligger medan styrutrymmet över lärare begränsas",
+   "kodare": 1
+  },
+  {
+   "id": "U033",
+   "primar": "Organisation och planering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Rektorers möjlighet att leda och fördela arbetet påverkas",
+   "kodare": 1
+  },
+  {
+   "id": "U034",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Lärartid räcker inte för elevers rätt till undervisning",
+   "kodare": 1
+  },
+  {
+   "id": "U035",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Modellen saknar flexibilitet för lokala behov",
+   "kodare": 1
+  },
+  {
+   "id": "U036",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Organisation och planering",
+   "motivering": "Tid krävs för att klargöra vilka uppgifter som omfattas",
+   "kodare": 1
+  },
+  {
+   "id": "U037",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Färre kontaktytor försämrar relationer med eleverna",
+   "kodare": 1
+  },
+  {
+   "id": "U038",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Förhållandet till kollektivavtal är inte belyst",
+   "kodare": 1
+  },
+  {
+   "id": "U039",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Arbetsrättslig tolkning och tillämpning är oanalyserad",
+   "kodare": 1
+  },
+  {
+   "id": "U040",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Fler medarbetare behövs och finansieringen är obelyst",
+   "kodare": 1
+  },
+  {
+   "id": "U041",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Kostnader för kommunerna behöver statlig finansiering",
+   "kodare": 1
+  },
+  {
+   "id": "U042",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Obligatorisk planeringstid bör ge statlig finansiering",
+   "kodare": 1
+  },
+  {
+   "id": "U043",
+   "primar": "Övrigt",
+   "sekundar": null,
+   "motivering": "Stora osäkerheter i förslagens effekter",
+   "kodare": 1
+  },
+  {
+   "id": "U044",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Många samtidiga reformer, olika förutsättningar för huvudmän",
+   "kodare": 1
+  },
+  {
+   "id": "U045",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Ikraftträdande 1 juli 2027 bedöms för snävt",
+   "kodare": 1
+  },
+  {
+   "id": "U046",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Kostnader för kommunerna kräver finansiering",
+   "kodare": 1
+  },
+  {
+   "id": "U047",
+   "primar": "Övrigt",
+   "sekundar": null,
+   "motivering": "Utredningen försvårar förhandlingarna mellan parterna",
+   "kodare": 1
+  },
+  {
+   "id": "U048",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Omfördelade pengar ger större klasser och sämre undervisning",
+   "kodare": 1
+  },
+  {
+   "id": "U049",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Relationsarbetet med elever kan bli lidande",
+   "kodare": 1
+  },
+  {
+   "id": "U050",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Oklart vem som ansvarar för frånvaroanalys",
+   "kodare": 1
+  },
+  {
+   "id": "U051",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "Ökade krav på rektor att avgränsa administrativa uppgifter",
+   "kodare": 1
+  },
+  {
+   "id": "U052",
+   "primar": "Organisation och planering",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Resursfördelningsmodellen måste delas upp",
+   "kodare": 1
+  },
+  {
+   "id": "U053",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Svårt dra slutsatser utan dokumentation av kränkningar",
+   "kodare": 1
+  },
+  {
+   "id": "U054",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Oklart hur nya stödfunktioner ska finansieras",
+   "kodare": 1
+  },
+  {
+   "id": "U055",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Frågor om definition av upprepad och allvarlig kränkning",
+   "kodare": 1
+  },
+  {
+   "id": "U056",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Ökat stödbehov ger ofinansierad kostnad",
+   "kodare": 1
+  },
+  {
+   "id": "U057",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Svårt skilja konflikt, kränkning, allvarlig och upprepad",
+   "kodare": 1
+  },
+  {
+   "id": "U058",
+   "primar": "Övrigt",
+   "sekundar": null,
+   "motivering": "Vårdnadshavares tillit till skolans bedömningar behöver stärkas",
+   "kodare": 1
+  },
+  {
+   "id": "U059",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Fler lärare men inte färre elever per lärare",
+   "kodare": 1
+  },
+  {
+   "id": "U060",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Svårt reglera all tid vid tjänsteplanering",
+   "kodare": 1
+  },
+  {
+   "id": "U061",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Andra yrkesgrupper ger ofinansierad kostnadsökning",
+   "kodare": 1
+  },
+  {
+   "id": "U062",
+   "primar": "Övrigt",
+   "sekundar": null,
+   "motivering": "Invändning att läraryrket bygger på relationer",
+   "kodare": 1
+  },
+  {
+   "id": "U063",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Förtydligande behövs om för- och efterarbete och förtroendetid",
+   "kodare": 1
+  },
+  {
+   "id": "U064",
+   "primar": "System och teknik",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Behov av mer likvärdiga digitala system mellan huvudmän",
+   "kodare": 1
+  },
+  {
+   "id": "U065",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Oklart vem som har mandat att besluta om stöd",
+   "kodare": 1
+  },
+  {
+   "id": "U066",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Dokumentation behöver fortfarande göras",
+   "kodare": 1
+  },
+  {
+   "id": "U067",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Svårt skilja kränkningar i och utanför verksamheten",
+   "kodare": 1
+  },
+  {
+   "id": "U068",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Oklart hur faktorerna ska viktas och bedömas",
+   "kodare": 1
+  },
+  {
+   "id": "U069",
+   "primar": "Organisation och planering",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "Förtroendetiden måste sättas i relation till förslaget",
+   "kodare": 1
+  },
+  {
+   "id": "U070",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Minskad undervisningstid ger stora kostnader för huvudmän",
+   "kodare": 1
+  },
+  {
+   "id": "U071",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Rektor får sämre förutsättningar för utvecklingsarbete",
+   "kodare": 1
+  },
+  {
+   "id": "U072",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Stöd och vägledning behövs om planeringstidens innehåll",
+   "kodare": 1
+  },
+  {
+   "id": "U073",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Förslagen medför ökade kostnader för huvudmannen",
+   "kodare": 1
+  },
+  {
+   "id": "U074",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Rektors arbetsbelastning och arbetsmiljö ökar",
+   "kodare": 1
+  },
+  {
+   "id": "U075",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Minskad attraktivitet påverkar kompetensförsörjning av skolledare",
+   "kodare": 1
+  },
+  {
+   "id": "U076",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Stärkta rektorsstödsfunktioner ger ökade kostnader",
+   "kodare": 1
+  },
+  {
+   "id": "U077",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Fler kringfunktioner ger ökade kostnader",
+   "kodare": 1
+  },
+  {
+   "id": "U078",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Skolenheternas förutsättningar för olika för nationell reglering",
+   "kodare": 1
+  },
+  {
+   "id": "U079",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Organisation och planering",
+   "motivering": "Detaljreglering försvårar mest för de minsta skolorna",
+   "kodare": 1
+  },
+  {
+   "id": "U080",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Organisation och planering",
+   "motivering": "Idéburna småskaliga skolors existens riskeras",
+   "kodare": 1
+  },
+  {
+   "id": "U081",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Rektor behöver kännedom för mönsteranalyser",
+   "kodare": 1
+  },
+  {
+   "id": "U082",
+   "primar": "Organisation och planering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Inkompatibla regler riskerar arbetsplatskonflikter",
+   "kodare": 1
+  },
+  {
+   "id": "U083",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Rekvisitens inbördes ordning blir oklar",
+   "kodare": 1
+  },
+  {
+   "id": "U084",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Reglerad tid svår att tillämpa i tjänstgöring och planering",
+   "kodare": 1
+  },
+  {
+   "id": "U085",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Hanteringen är administrativt betungande",
+   "kodare": 1
+  },
+  {
+   "id": "U086",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Nationell detaljreglering rubbar arbetsgivarens ledning och fördelning",
+   "kodare": 1
+  },
+  {
+   "id": "U087",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Balans mellan nödvändig och överflödig dokumentation",
+   "kodare": 1
+  },
+  {
+   "id": "U088",
+   "primar": "Övrigt",
+   "sekundar": null,
+   "motivering": "Minskad insyn för vårdnadshavare påverkar upplevd transparens",
+   "kodare": 1
+  },
+  {
+   "id": "U089",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Osäkerhet om vad som ska dokumenteras och anmälas",
+   "kodare": 1
+  },
+  {
+   "id": "U090",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Problematiskt att detaljstyra tid i olika verksamheter",
+   "kodare": 1
+  },
+  {
+   "id": "U091",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Förtydligande behövs om uppgifter i förtroendearbetstiden",
+   "kodare": 1
+  },
+  {
+   "id": "U092",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Individuell planeringstid kan destabilisera förskolans organisation",
+   "kodare": 1
+  },
+  {
+   "id": "U093",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Organisation och planering",
+   "motivering": "Ökat behov av andra yrkesgrupper och omfördelning",
+   "kodare": 1
+  },
+  {
+   "id": "U094",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Befattningar behöver sannolikt bytas ut",
+   "kodare": 1
+  },
+  {
+   "id": "U095",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Planeringstid skiljer mellan förskolor och påverkar likvärdigheten",
+   "kodare": 1
+  },
+  {
+   "id": "U096",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Betydande kostnadsökning för kommunen",
+   "kodare": 1
+  },
+  {
+   "id": "U097",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Lärartjänster kan ersättas med andra yrkesgrupper",
+   "kodare": 1
+  },
+  {
+   "id": "U098",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Förslagen bedöms personal- och kostnadsdrivande",
+   "kodare": 1
+  },
+  {
+   "id": "U099",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Ekonomisk kalkyl saknas, statliga krav kräver statliga resurser",
+   "kodare": 1
+  },
+  {
+   "id": "U100",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Reglering kan väcka krav på ferieanställningar",
+   "kodare": 1
+  },
+  {
+   "id": "U101",
+   "primar": "Övrigt",
+   "sekundar": null,
+   "motivering": "Begränsad information kan skada förtroendet hos vårdnadshavare",
+   "kodare": 1
+  },
+  {
+   "id": "U102",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Nedtoning riskerar att kraftigt försämra likvärdigheten",
+   "kodare": 1
+  },
+  {
+   "id": "U103",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Saknad enhetlig dokumentation försvårar elevhälsans analys",
+   "kodare": 1
+  },
+  {
+   "id": "U104",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "Regelverket skapar osäkerhet och tar tid från undervisning",
+   "kodare": 1
+  },
+  {
+   "id": "U105",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Användningen av förtroendetid är oklar",
+   "kodare": 1
+  },
+  {
+   "id": "U106",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Organisation och planering",
+   "motivering": "Kvaliteten riskeras och faktorer för planeringstid saknas",
+   "kodare": 1
+  },
+  {
+   "id": "U107",
+   "primar": "Övrigt",
+   "sekundar": null,
+   "motivering": "Risk att samverkan mellan skola och hem försämras",
+   "kodare": 1
+  },
+  {
+   "id": "U108",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Relationen mellan lärare och elever riskerar att tappas",
+   "kodare": 1
+  },
+  {
+   "id": "U109",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Vårdnadshavares rätt till information behöver tydliggöras",
+   "kodare": 1
+  },
+  {
+   "id": "U110",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Organisation och planering",
+   "motivering": "Ett samtal per år kräver bättre förarbete",
+   "kodare": 1
+  },
+  {
+   "id": "U111",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Utvecklingsarbetet kring elever kan bli tungrott",
+   "kodare": 1
+  },
+  {
+   "id": "U112",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Borttagna sociala aspekter påverkar elevens lärande",
+   "kodare": 1
+  },
+  {
+   "id": "U113",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Anpassningar kan utebli där lärare saknar kunskap",
+   "kodare": 1
+  },
+  {
+   "id": "U114",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Organisation och planering",
+   "motivering": "Svårt säkerställa anpassningar utan dokumentation",
+   "kodare": 1
+  },
+  {
+   "id": "U115",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Informationsskyldighetens innebörd behöver klargöras",
+   "kodare": 1
+  },
+  {
+   "id": "U116",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Elever kan utsättas längre innan kränkning upptäcks",
+   "kodare": 1
+  },
+  {
+   "id": "U117",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Lokala arbetssätt kan ge större skillnader i likvärdighet",
+   "kodare": 1
+  },
+  {
+   "id": "U118",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Begreppen allvarlig och upprepad kränkning behöver definieras",
+   "kodare": 1
+  },
+  {
+   "id": "U119",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Bedömning av allvarlig kränkning kan variera",
+   "kodare": 1
+  },
+  {
+   "id": "U120",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Enhetlig hantering hade underlättat arbetet",
+   "kodare": 1
+  },
+  {
+   "id": "U121",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Elevens återgång kan fördröjas utan etablerad relation",
+   "kodare": 1
+  },
+  {
+   "id": "U122",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Elevhälsans resurser går åt till närvarohantering",
+   "kodare": 2
+  },
+  {
+   "id": "U123",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Ämnens olika för- och efterarbete beaktas inte",
+   "kodare": 2
+  },
+  {
+   "id": "U124",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Lärarnas erfarenhet beaktas inte i tidsregleringen",
+   "kodare": 2
+  },
+  {
+   "id": "U125",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Rektors möjlighet att omfördela planeringstid försvinner",
+   "kodare": 2
+  },
+  {
+   "id": "U126",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Betydande statligt resurstillskott behövs",
+   "kodare": 2
+  },
+  {
+   "id": "U127",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Påtagliga kostnader för kommunerna",
+   "kodare": 2
+  },
+  {
+   "id": "U128",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Minskad lärartäthet och fler obehöriga utan tillskott",
+   "kodare": 2
+  },
+  {
+   "id": "U129",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Detaljstyrning inskränker autonomi och sänker yrkets status",
+   "kodare": 2
+  },
+  {
+   "id": "U130",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Krympt professionellt utrymme minskar yrkets attraktionskraft",
+   "kodare": 2
+  },
+  {
+   "id": "U131",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Rektors förmåga att organisera verksamheten försvagas",
+   "kodare": 2
+  },
+  {
+   "id": "U132",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Enhetligt regelverk hämmar lokalt anpassade lösningar",
+   "kodare": 2
+  },
+  {
+   "id": "U133",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Rektor kan inte anpassa organisationen efter behov",
+   "kodare": 2
+  },
+  {
+   "id": "U134",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Misstro minskar lärares motivation och engagemang",
+   "kodare": 2
+  },
+  {
+   "id": "U135",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Läraryrkets status riskerar att sjunka",
+   "kodare": 2
+  },
+  {
+   "id": "U136",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Skolledare får svårt att organisera arbetet flexibelt",
+   "kodare": 2
+  },
+  {
+   "id": "U137",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Oklart vad som räknas som undervisning",
+   "kodare": 2
+  },
+  {
+   "id": "U138",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Ökat personalbehov måste finansieras",
+   "kodare": 2
+  },
+  {
+   "id": "U139",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Svårt att rekrytera lärare och andra professioner",
+   "kodare": 2
+  },
+  {
+   "id": "U140",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Avsteg från partsmodellen och inskränkt arbetsledningsrätt",
+   "kodare": 2
+  },
+  {
+   "id": "U141",
+   "primar": "Övrigt",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "Risk för fler arbetsrättsliga tvister om arbetsskyldighet",
+   "kodare": 2
+  },
+  {
+   "id": "U142",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Organisation och planering",
+   "motivering": "Oprecis dimensionering ger fler centrala MBL-förhandlingar",
+   "kodare": 2
+  },
+  {
+   "id": "U143",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Försämrad möjlighet till stöd från hemmet",
+   "kodare": 2
+  },
+  {
+   "id": "U144",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Oklart om förslaget ger avsedd förändring",
+   "kodare": 2
+  },
+  {
+   "id": "U145",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Omfattande dokumentation vid särskilt stöd riskerar bestå",
+   "kodare": 2
+  },
+  {
+   "id": "U146",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Oklart vem som gör vad och juridiskt ansvar",
+   "kodare": 2
+  },
+  {
+   "id": "U147",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Ökade kostnader för huvudmännen behöver finansieras",
+   "kodare": 2
+  },
+  {
+   "id": "U148",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Tillsyn leder till nya dokumentationskrav",
+   "kodare": 2
+  },
+  {
+   "id": "U149",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Ansvarsförskjutning till rektor och elevhälsa utan resurser",
+   "kodare": 2
+  },
+  {
+   "id": "U150",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Otydliga förutsättningar för anmälningsnivån allvarlig",
+   "kodare": 2
+  },
+  {
+   "id": "U151",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Personalens initiala värdering av händelser blir problematisk",
+   "kodare": 2
+  },
+  {
+   "id": "U152",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Huvudmannens möjlighet att se kränkningsmönster försämras",
+   "kodare": 2
+  },
+  {
+   "id": "U153",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Svår gränsdragning ger fortsatt dokumentation för säkerhets skull",
+   "kodare": 2
+  },
+  {
+   "id": "U154",
+   "primar": "Övrigt",
+   "sekundar": null,
+   "motivering": "Olika hantering av likartade situationer om trakasserier undantas",
+   "kodare": 2
+  },
+  {
+   "id": "U155",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Kränkningar på sociala medier omfattas inte",
+   "kodare": 2
+  },
+  {
+   "id": "U156",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Barn- och elevombudets ärenden tar oproportionerliga resurser",
+   "kodare": 2
+  },
+  {
+   "id": "U157",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Statlig detaljstyrning inskränker arbetsledningsrätten",
+   "kodare": 2
+  },
+  {
+   "id": "U158",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Ingen ledning för hur faktorer ska viktas",
+   "kodare": 2
+  },
+  {
+   "id": "U159",
+   "primar": "Organisation och planering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Begränsar lokala beslut och kräver detaljerade redovisningar",
+   "kodare": 2
+  },
+  {
+   "id": "U160",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Minskad flexibilitet i schemaläggning och bemanning",
+   "kodare": 2
+  },
+  {
+   "id": "U161",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Många lärare över taket ger ökade personalkostnader",
+   "kodare": 2
+  },
+  {
+   "id": "U162",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Lärare inte utbytbara på grund av behörigheter",
+   "kodare": 2
+  },
+  {
+   "id": "U163",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "Ospecificerat för praktisk-estetiska lärare, ökade kostnader",
+   "kodare": 2
+  },
+  {
+   "id": "U164",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Organisation och planering",
+   "motivering": "Oklart hur kollegors frånvaro och vikariat hanteras",
+   "kodare": 2
+  },
+  {
+   "id": "U165",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Organisation och planering",
+   "motivering": "Oklart om taket får överskridas och ersättning",
+   "kodare": 2
+  },
+  {
+   "id": "U166",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Organisation och planering",
+   "motivering": "Ingen vägledning om ändrad gruppstorlek under året",
+   "kodare": 2
+  },
+  {
+   "id": "U167",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Försvårar arbetslagsorganisation med delat arbete",
+   "kodare": 2
+  },
+  {
+   "id": "U168",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Förskollärare får mindre tid i barngrupp",
+   "kodare": 2
+  },
+  {
+   "id": "U169",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Merkostnad cirka 17 miljoner kronor årligen",
+   "kodare": 2
+  },
+  {
+   "id": "U170",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Kostnadsökning även i andra skolformer",
+   "kodare": 2
+  },
+  {
+   "id": "U171",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Förslagen ofinansierade och svåra att bedöma ekonomiskt",
+   "kodare": 2
+  },
+  {
+   "id": "U172",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "Ingen viktningsvägledning ger omfattande redovisningskrav för rektor",
+   "kodare": 2
+  },
+  {
+   "id": "U173",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Organisation och planering",
+   "motivering": "Komplicerade förhandlingar ger merarbete och fördröjning",
+   "kodare": 2
+  },
+  {
+   "id": "U174",
+   "primar": "Övrigt",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "Risk för fler arbetsrättsliga tvister om arbetsskyldighet",
+   "kodare": 2
+  },
+  {
+   "id": "U175",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Utbyggd elevhälsa och funktioner behöver finansieras",
+   "kodare": 2
+  },
+  {
+   "id": "U176",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Komvux saknar bestämmelser om elevhälsa och stöd",
+   "kodare": 2
+  },
+  {
+   "id": "U177",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Omfördelning av administrativa uppgifter kostar",
+   "kodare": 2
+  },
+  {
+   "id": "U178",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Kort tid till ikraftträdande, samtidiga utredningar",
+   "kodare": 2
+  },
+  {
+   "id": "U179",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Risk att inskränka rätt till information om skolgång",
+   "kodare": 2
+  },
+  {
+   "id": "U180",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Oklart vilken information som efterfrågas och hanteras",
+   "kodare": 2
+  },
+  {
+   "id": "U181",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "Varierande tolkning mellan skolor påverkar likvärdigheten",
+   "kodare": 2
+  },
+  {
+   "id": "U182",
+   "primar": "System och teknik",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Olika system motverkar minskad administrativ börda",
+   "kodare": 2
+  },
+  {
+   "id": "U183",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Otillräckliga samtal kan ge lärare merarbete",
+   "kodare": 2
+  },
+  {
+   "id": "U184",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Oklart vilken nivå beslutar om samtalets förläggning",
+   "kodare": 2
+  },
+  {
+   "id": "U185",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Kunskapsutvecklingsplanen behöver samordnas med övrig dokumentation",
+   "kodare": 2
+  },
+  {
+   "id": "U186",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "Utan stödmaterial olika lösningar och ojämlikt elevstöd",
+   "kodare": 2
+  },
+  {
+   "id": "U189",
+   "primar": "System och teknik",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Osamordnat systeminförande ger stress i personalgruppen",
+   "kodare": 2
+  },
+  {
+   "id": "U190",
+   "primar": "System och teknik",
+   "sekundar": null,
+   "motivering": "Samverkan kräver digitala system för gemensam dokumentation",
+   "kodare": 2
+  },
+  {
+   "id": "U191",
+   "primar": "Övrigt",
+   "sekundar": null,
+   "motivering": "Olika hantering av likartade situationer om trakasserier undantas",
+   "kodare": 2
+  },
+  {
+   "id": "U192",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Utredningen sammanblandar anmälnings- och utredningsskyldighet",
+   "kodare": 2
+  },
+  {
+   "id": "U193",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Anmälningsplikten gör regelverket administrativt betungande",
+   "kodare": 2
+  },
+  {
+   "id": "U194",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Oklart hur allvarlig eller upprepad ska tolkas",
+   "kodare": 2
+  },
+  {
+   "id": "U195",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Syftet behöver klargöras, stor skillnad mot praxis",
+   "kodare": 2
+  },
+  {
+   "id": "U196",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Otydligheter kring begreppet allvarlig",
+   "kodare": 2
+  },
+  {
+   "id": "U197",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Vägledning behövs om allvarligt eller upprepat",
+   "kodare": 2
+  },
+  {
+   "id": "U198",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "Dokumentationen minskar lite med låg otydlig gräns",
+   "kodare": 2
+  },
+  {
+   "id": "U199",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Ansvarsförskjutning till rektor och elevhälsa utan resurser",
+   "kodare": 2
+  },
+  {
+   "id": "U200",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Rektors arbetsbörda kan öka utan resurser och stöd",
+   "kodare": 2
+  },
+  {
+   "id": "U201",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Låg anmälningströskel ger marginell minskning av börda",
+   "kodare": 2
+  },
+  {
+   "id": "U202",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Oklart när en kränkning räknas som upprepad",
+   "kodare": 2
+  },
+  {
+   "id": "U203",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Kränkningar utanför verksamheten påverkar elever i skolan",
+   "kodare": 2
+  },
+  {
+   "id": "U204",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Osäkerhet om krav och olika rollers ansvar",
+   "kodare": 2
+  },
+  {
+   "id": "U205",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Överlappande krav och begrepp svåra att särskilja",
+   "kodare": 2
+  },
+  {
+   "id": "U206",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Personalens oro för enskilt ansvar vid händelser",
+   "kodare": 2
+  },
+  {
+   "id": "U207",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Oklart undervisningsuppdrag ger olika tolkningar och ojämlikhet",
+   "kodare": 2
+  },
+  {
+   "id": "U208",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Rektors mandat för inre organisation behöver tydliggöras",
+   "kodare": 2
+  },
+  {
+   "id": "U209",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Behöver synkroniseras med andra remisser",
+   "kodare": 2
+  },
+  {
+   "id": "U210",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Huvudmän behöver tillräckliga resurser",
+   "kodare": 2
+  },
+  {
+   "id": "U211",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Oklart vem som beslutar om tiden",
+   "kodare": 2
+  },
+  {
+   "id": "U212",
+   "primar": "Organisation och planering",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "Svårt för rektorer att bemanningsplanera verksamheten",
+   "kodare": 2
+  },
+  {
+   "id": "U213",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Ojämnt fördelad tillgång till behöriga lärare",
+   "kodare": 2
+  },
+  {
+   "id": "U214",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Rektors viktning vid regeländringar behöver förtydligas",
+   "kodare": 2
+  },
+  {
+   "id": "U215",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Andra uppgifter får inte flyttas över till lärare",
+   "kodare": 2
+  },
+  {
+   "id": "U216",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Frågor om intervallens utformning, maxtak som norm",
+   "kodare": 2
+  },
+  {
+   "id": "U217",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Intervallerna minskar flexibilitet för för- och efterarbete",
+   "kodare": 2
+  },
+  {
+   "id": "U218",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Ämneslärarsystem i lågstadiet påverkar timfördelningen",
+   "kodare": 2
+  },
+  {
+   "id": "U219",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Fler legitimerade lärare krävs, särskilt i utsatta skolor",
+   "kodare": 2
+  },
+  {
+   "id": "U220",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Utan ekonomiska resurser ökar belastningen i verksamheten",
+   "kodare": 2
+  },
+  {
+   "id": "U221",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Oklart vad som räknas som undervisningstid",
+   "kodare": 2
+  },
+  {
+   "id": "U222",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Stödmaterial måste finnas i god tid före införande",
+   "kodare": 2
+  },
+  {
+   "id": "U223",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Tid för gemensam planering och fortbildning behövs",
+   "kodare": 2
+  },
+  {
+   "id": "U224",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Otydlig tidsfördelning ger varierande arbetsbelastning",
+   "kodare": 2
+  },
+  {
+   "id": "U225",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Fritidshemmets planeringstid riskerar tolkas för snävt",
+   "kodare": 2
+  },
+  {
+   "id": "U226",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Fritidshemspersonalens dubbla roller försvårar planeringstid",
+   "kodare": 2
+  },
+  {
+   "id": "U227",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Organisation och planering",
+   "motivering": "Otydligt hur fritidspedagoger får planeringstid i praktiken",
+   "kodare": 2
+  },
+  {
+   "id": "U228",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Behov av utökade resurser och risk för lärarbrist",
+   "kodare": 2
+  },
+  {
+   "id": "U229",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Rektorer behöver stöd och utbildning",
+   "kodare": 2
+  },
+  {
+   "id": "U230",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Rektors ledarskap begränsas till administration",
+   "kodare": 2
+  },
+  {
+   "id": "U231",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Rektors fördelning av tid behöver förtydligas",
+   "kodare": 2
+  },
+  {
+   "id": "U232",
+   "primar": "Organisation och planering",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Uppgifter och roller måste identifieras, finansieras och bemannas",
+   "kodare": 2
+  },
+  {
+   "id": "U233",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Organisation och planering",
+   "motivering": "Olika tolkningar av roller ger otydlig arbetsfördelning",
+   "kodare": 2
+  },
+  {
+   "id": "U234",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Kort tid och många samtidiga reformer",
+   "kodare": 2
+  },
+  {
+   "id": "U235",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Risk för lärarbrist på kort sikt",
+   "kodare": 2
+  },
+  {
+   "id": "U236",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Stora krav ger ökat behov av stödinsatser vid införandet",
+   "kodare": 2
+  },
+  {
+   "id": "U237",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Finansiering och årlig uppföljning av kostnader behövs",
+   "kodare": 2
+  },
+  {
+   "id": "U238",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Kringfunktioner måste beaktas vid finansieringen",
+   "kodare": 2
+  },
+  {
+   "id": "U239",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Administrativa uppgifter svåra att flytta utan dubbelarbete",
+   "kodare": 2
+  },
+  {
+   "id": "U240",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Små enheter får svårt att bedriva verksamheten",
+   "kodare": 2
+  },
+  {
+   "id": "U241",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Förskollärare kan ersättas av barnskötare utan medel",
+   "kodare": 2
+  },
+  {
+   "id": "U242",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Detaljstyrning drabbar små enheter med olika förutsättningar",
+   "kodare": 2
+  },
+  {
+   "id": "U243",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Planeringstid borde stå i proportion till barnantal",
+   "kodare": 2
+  },
+  {
+   "id": "U244",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Oklart vad lämplig frekvens innebär, risk för dokumentationskrav",
+   "kodare": 3
+  },
+  {
+   "id": "U245",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Stödinsatser kräver mer personal och blir kostnadsdrivande",
+   "kodare": 3
+  },
+  {
+   "id": "U246",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Tidplan och reformtakt",
+   "motivering": "Behov av material om vad som anses allvarligt",
+   "kodare": 3
+  },
+  {
+   "id": "U247",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Organisation och planering",
+   "motivering": "Merarbete för rektorer vid tjänstefördelning",
+   "kodare": 3
+  },
+  {
+   "id": "U248",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Organisation och planering",
+   "motivering": "Mer eget arbete för pedagoger motverkar ämnesövergripande undervisning",
+   "kodare": 3
+  },
+  {
+   "id": "U249",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Ökad administration för rektor",
+   "kodare": 3
+  },
+  {
+   "id": "U250",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Ökade kostnader för huvudmän, kräver riktade statsmedel",
+   "kodare": 3
+  },
+  {
+   "id": "U251",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Medel räcker inte för kringfunktioner",
+   "kodare": 3
+  },
+  {
+   "id": "U252",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Omfördelning av befintliga statsbidrag tar redan använda medel",
+   "kodare": 3
+  },
+  {
+   "id": "U253",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Kräver långsiktig statlig finansiering",
+   "kodare": 3
+  },
+  {
+   "id": "U254",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Generella statsbidrag riskerar att inte nå skolorna",
+   "kodare": 3
+  },
+  {
+   "id": "U255",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Otillräcklig finansiering tränger undan elevnära insatser",
+   "kodare": 3
+  },
+  {
+   "id": "U256",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Organisation och planering",
+   "motivering": "Genomförandet förutsätter finansiering och organisatoriska villkor",
+   "kodare": 3
+  },
+  {
+   "id": "U257",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "Formuleringen kan ge variation mellan skolor i information",
+   "kodare": 3
+  },
+  {
+   "id": "U258",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Oklart vad uppmärksamma och agera innebär i praktiken",
+   "kodare": 3
+  },
+  {
+   "id": "U259",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Oklart förhållande till gällande dokumentationskrav i skollagen",
+   "kodare": 3
+  },
+  {
+   "id": "U260",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Längre intervall riskerar att elevers behov uppmärksammas sent",
+   "kodare": 3
+  },
+  {
+   "id": "U261",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Oklart om dokumentationens innehåll förändras i praktiken",
+   "kodare": 3
+  },
+  {
+   "id": "U262",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Risk för olika tolkningar mellan skolor om innehållet",
+   "kodare": 3
+  },
+  {
+   "id": "U263",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Bemanningsutmaningar vid lärarbrist, risk för större grupper",
+   "kodare": 3
+  },
+  {
+   "id": "U264",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Kräver ökad lärartäthet i många kommuner",
+   "kodare": 3
+  },
+  {
+   "id": "U265",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Organisation och planering",
+   "motivering": "Pressad bemanning, planeringstid ökar belastning på kollegor",
+   "kodare": 3
+  },
+  {
+   "id": "U266",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Stöd riskerar att ges av personal utan rätt utbildning",
+   "kodare": 3
+  },
+  {
+   "id": "U267",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Kräver förstärkning av personalresurser",
+   "kodare": 3
+  },
+  {
+   "id": "U268",
+   "primar": "Övrigt",
+   "sekundar": null,
+   "motivering": "Flytt till diskrimineringslagen minskar kännedom och tillämpning",
+   "kodare": 3
+  },
+  {
+   "id": "U269",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Nationell reglering minskar flexibilitet att organisera arbetet",
+   "kodare": 3
+  },
+  {
+   "id": "U270",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Kräver organisatoriska förutsättningar i schemaläggning",
+   "kodare": 3
+  },
+  {
+   "id": "U271",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Nationell styrning minskar flexibilitet i rektors inre organisation",
+   "kodare": 3
+  },
+  {
+   "id": "U272",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Maxtak påverkar flexibilitet i organisatoriska förutsättningar",
+   "kodare": 3
+  },
+  {
+   "id": "U273",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Risk för obalanserad arbetsbelastning utan översyn av uppgifter",
+   "kodare": 3
+  },
+  {
+   "id": "U274",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Ökade uppgifter på huvudmannanivå kräver fler tjänster",
+   "kodare": 3
+  },
+  {
+   "id": "U275",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Organisation och planering",
+   "motivering": "Liten kommun kan inte omfördela lärare, måste anställa",
+   "kodare": 3
+  },
+  {
+   "id": "U276",
+   "primar": "Organisation och planering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Stor geografisk yta försvårar omfördelning av lärare",
+   "kodare": 3
+  },
+  {
+   "id": "U277",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Otydligt hur ekonomiska resurser ska fördelas",
+   "kodare": 3
+  },
+  {
+   "id": "U278",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Generellt statsbidrag riskerar att inte täcka kostnadsökningar",
+   "kodare": 3
+  },
+  {
+   "id": "U279",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Högre löner i regionen försvårar rekrytering av behöriga",
+   "kodare": 3
+  },
+  {
+   "id": "U280",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Behöver bli tydligare hur statsbidragen fördelas",
+   "kodare": 3
+  },
+  {
+   "id": "U281",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Ökad planeringstid bör inte genomföras utan statlig finansiering",
+   "kodare": 3
+  },
+  {
+   "id": "U282",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Förskolor med många förskollärare måste kompensera med annan personal",
+   "kodare": 3
+  },
+  {
+   "id": "U283",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Nuvarande resurser räcker inte inom utjämningssystemet",
+   "kodare": 3
+  },
+  {
+   "id": "U284",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Risk för ökad arbetsbelastning för barnskötare",
+   "kodare": 3
+  },
+  {
+   "id": "U285",
+   "primar": "Organisation och planering",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Högre krav på huvudmannens resurser och uppföljning",
+   "kodare": 3
+  },
+  {
+   "id": "U286",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Generella statsbidrag når inte fram, skapar ojämlikhet mellan kommuner",
+   "kodare": 3
+  },
+  {
+   "id": "U287",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Osäkert om finansieringen täcker kostnader och administrativ börda",
+   "kodare": 3
+  },
+  {
+   "id": "U288",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Minskade elevkullar sänker intäkter medan fasta kostnader består",
+   "kodare": 3
+  },
+  {
+   "id": "U289",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Risker för arbetet mot kränkande behandling",
+   "kodare": 3
+  },
+  {
+   "id": "U290",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Ökad risk för obehörig undervisning vid lärarbrist",
+   "kodare": 3
+  },
+  {
+   "id": "U291",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Komplicerar rektors inre organisation och resursfördelning",
+   "kodare": 3
+  },
+  {
+   "id": "U292",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "Osäker lättnad i lärares dokumentationsbörda",
+   "kodare": 3
+  },
+  {
+   "id": "U293",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Organisation och planering",
+   "motivering": "Utan dokumentationsrutiner svårt upptäcka upprepade kränkningar",
+   "kodare": 3
+  },
+  {
+   "id": "U294",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Nationella föreskrifter passar inte olika enheters förutsättningar",
+   "kodare": 3
+  },
+  {
+   "id": "U295",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Lärarbrist ger obehörig undervisning, särskilt i mindre kommuner",
+   "kodare": 3
+  },
+  {
+   "id": "U297",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Reglerad planeringstid ger komplexa avvägningar i tjänstefördelning",
+   "kodare": 3
+  },
+  {
+   "id": "U298",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Oklart om planeringstid kan förläggas under förtroendearbetstid",
+   "kodare": 3
+  },
+  {
+   "id": "U299",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Små förskolor kan inte samplanera enligt kraven",
+   "kodare": 3
+  },
+  {
+   "id": "U300",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Organisation och planering",
+   "motivering": "Ersättningen otillräcklig, förslagen behöver justeras för genomförbarhet",
+   "kodare": 3
+  },
+  {
+   "id": "U301",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Behov av vägledningar och begränsade dokumentationskrav vid granskning",
+   "kodare": 3
+  },
+  {
+   "id": "U302",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Ekonomisk kompensation motsvarar inte kostnaderna",
+   "kodare": 3
+  },
+  {
+   "id": "U303",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Utredningens kostnadsberäkningar för låga, full kompensation krävs",
+   "kodare": 3
+  },
+  {
+   "id": "U304",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Tidplan och reformtakt",
+   "motivering": "Övergångsregler behövs för att undvika lärarbrist",
+   "kodare": 3
+  },
+  {
+   "id": "U305",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Mycket kostsamt, kräver full kompensation till huvudmännen",
+   "kodare": 3
+  },
+  {
+   "id": "U306",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Permanent kostnadsökning kräver varaktigt statsbidrag",
+   "kodare": 3
+  },
+  {
+   "id": "U307",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Kostnadsökningar för vuxenutbildningen ej beaktade",
+   "kodare": 3
+  },
+  {
+   "id": "U308",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Effekter på lärarlöner av ökad efterfrågan ej analyserade",
+   "kodare": 3
+  },
+  {
+   "id": "U309",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Utan full kompensation försämras elevers trygghet och studiero",
+   "kodare": 3
+  },
+  {
+   "id": "U310",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Vuxenutbildningens förutsättningar för undervisning ej undersökta",
+   "kodare": 3
+  },
+  {
+   "id": "U311",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Kraftig lärarbrist och kostnader i komvux, utbildningar hotas",
+   "kodare": 3
+  },
+  {
+   "id": "U312",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Effekter på distansundervisning inom vuxenutbildningen ej analyserade",
+   "kodare": 3
+  },
+  {
+   "id": "U313",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Beprövat arbetssätt med mentorskap kan inte fortsätta",
+   "kodare": 3
+  },
+  {
+   "id": "U314",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Inkonsekvent och otydligt motiverad faktor för yrkesämnen",
+   "kodare": 3
+  },
+  {
+   "id": "U315",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Enskild undervisning och små grupper ej analyserade",
+   "kodare": 3
+  },
+  {
+   "id": "U316",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Effekter på lärarbristen otillräckligt redovisade",
+   "kodare": 3
+  },
+  {
+   "id": "U317",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Antalet komvuxlärare behöver öka kraftigt",
+   "kodare": 3
+  },
+  {
+   "id": "U318",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Brist på behöriga lärare sänker undervisningskvaliteten",
+   "kodare": 3
+  },
+  {
+   "id": "U319",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Tidplan och reformtakt",
+   "motivering": "Svåröverblickbara ekonomiska konsekvenser, införande med skolpengsnorm",
+   "kodare": 3
+  },
+  {
+   "id": "U320",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Obehöriga lärare och kostnader påverkar elevers lärande",
+   "kodare": 3
+  },
+  {
+   "id": "U321",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Ökade kostnader och svår rekrytering av personal",
+   "kodare": 3
+  },
+  {
+   "id": "U322",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Stor inverkan på organisering hos lärare, rektorer, huvudmän",
+   "kodare": 3
+  },
+  {
+   "id": "U323",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "Variation i tolkning mellan skolor påverkar likvärdigheten",
+   "kodare": 3
+  },
+  {
+   "id": "U324",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Otydliga begrepp stöd och särskilt stöd, oklart ansvar",
+   "kodare": 3
+  },
+  {
+   "id": "U325",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Behov att tydliggöra ansvar för dokumentation och beslut",
+   "kodare": 3
+  },
+  {
+   "id": "U326",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Begreppen allvarlig och upprepad behöver tydligare definieras",
+   "kodare": 3
+  },
+  {
+   "id": "U327",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "Bedömning av allvarlighetsgrad riskerar att bli godtycklig",
+   "kodare": 3
+  },
+  {
+   "id": "U328",
+   "primar": "Övrigt",
+   "sekundar": null,
+   "motivering": "Låg tröskel för anmälningsplikt vid upprepade händelser",
+   "kodare": 3
+  },
+  {
+   "id": "U329",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Oklart om händelser måste ha samband för upprepning",
+   "kodare": 3
+  },
+  {
+   "id": "U330",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Svårtolkad reglering riskerar rättsosäkerhet",
+   "kodare": 3
+  },
+  {
+   "id": "U331",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Definitionen av undervisningsuppdraget behöver vara tydlig",
+   "kodare": 3
+  },
+  {
+   "id": "U332",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Huvudmän behöver tillräckliga resurser",
+   "kodare": 3
+  },
+  {
+   "id": "U333",
+   "primar": "Övrigt",
+   "sekundar": null,
+   "motivering": "Stöd saknas som faktor trots påverkan på tid",
+   "kodare": 3
+  },
+  {
+   "id": "U334",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Faktor med bred definition kräver försiktighet",
+   "kodare": 3
+  },
+  {
+   "id": "U335",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Viktning försvårar rektors planering och tjänstefördelning",
+   "kodare": 3
+  },
+  {
+   "id": "U336",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Högsta undervisningsomfattning riskerar att bli norm",
+   "kodare": 3
+  },
+  {
+   "id": "U337",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Fler legitimerade lärare kräver resurser, annars ökad belastning",
+   "kodare": 3
+  },
+  {
+   "id": "U338",
+   "primar": "Organisation och planering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Intervaller minskar rektors flexibilitet och påverkar arbetsmiljö",
+   "kodare": 3
+  },
+  {
+   "id": "U339",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "Behov av nationell reglering av lärares totala arbetstid",
+   "kodare": 3
+  },
+  {
+   "id": "U340",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Strikt reglering minskar flexibilitet och samarbete mellan kollegor",
+   "kodare": 3
+  },
+  {
+   "id": "U341",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Minsta planeringsnivå riskerar att bli norm i fritidshemmet",
+   "kodare": 3
+  },
+  {
+   "id": "U342",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Utmaningar att tillgodose planeringstiden",
+   "kodare": 3
+  },
+  {
+   "id": "U344",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Behov av utökade ekonomiska resurser för huvudmän",
+   "kodare": 3
+  },
+  {
+   "id": "U345",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Behov av nationellt förtydligande av rektors tjänstefördelningsansvar",
+   "kodare": 3
+  },
+  {
+   "id": "U346",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Otydligt vilka uppgifter och funktioner som ska återta dem",
+   "kodare": 3
+  },
+  {
+   "id": "U347",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Brist på personal och ekonomi för att bemanna funktioner",
+   "kodare": 3
+  },
+  {
+   "id": "U348",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Ikraftträdandet ligger relativt snart i tid",
+   "kodare": 3
+  },
+  {
+   "id": "U349",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Samtidiga reformer innebär betydande reformarbete för kommunerna",
+   "kodare": 3
+  },
+  {
+   "id": "U350",
+   "primar": "Övrigt",
+   "sekundar": null,
+   "motivering": "Inskränkning av den kommunala självstyrelsen",
+   "kodare": 3
+  },
+  {
+   "id": "U351",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Bristfälliga kostnadsberäkningar, förslaget kraftigt underfinansierat",
+   "kodare": 3
+  },
+  {
+   "id": "U352",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Förslaget begränsar komvux möjligheter att fullgöra uppdraget",
+   "kodare": 3
+  },
+  {
+   "id": "U353",
+   "primar": "Övrigt",
+   "sekundar": null,
+   "motivering": "Oönskade effekter utifrån förskolans uppdrag",
+   "kodare": 3
+  },
+  {
+   "id": "U354",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Förslaget följer inte finansieringsprincipen",
+   "kodare": 3
+  },
+  {
+   "id": "U355",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Merkostnader via kunskapsbidraget sänker statsbidrag till grundskolan",
+   "kodare": 3
+  },
+  {
+   "id": "U356",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Underskattade kostnader riskerar större klasser och obehöriga lärare",
+   "kodare": 3
+  },
+  {
+   "id": "U357",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Otillräcklig finansiering ökar arbetsbörda för andra yrkesgrupper",
+   "kodare": 3
+  },
+  {
+   "id": "U358",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Kräver full statlig finansiering för att inte drabba personal",
+   "kodare": 3
+  },
+  {
+   "id": "U359",
+   "primar": "Övrigt",
+   "sekundar": null,
+   "motivering": "Befintliga kollektivavtal behöver anpassas",
+   "kodare": 3
+  },
+  {
+   "id": "U360",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Reglering begränsar rektors möjlighet att fördela resurser",
+   "kodare": 3
+  },
+  {
+   "id": "U361",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Schablon för planeringstid oavsett erfarenhet blir problematisk",
+   "kodare": 3
+  },
+  {
+   "id": "U362",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Behov av fler obehöriga lärare vid sjunkande resultat",
+   "kodare": 3
+  },
+  {
+   "id": "U363",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Underskattade kostnader, omfördelning bryter mot finansieringsprincipen",
+   "kodare": 3
+  },
+  {
+   "id": "U364",
+   "primar": "Organisation och planering",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Underminerar lokal styrning och riskerar sämre undervisningskvalitet",
+   "kodare": 3
+  },
+  {
+   "id": "U365",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Kostnaderna kraftigt underskattade i utredningen",
+   "kodare": 3
+  },
+  {
+   "id": "U366",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "osäkra underlag för kostnadsuppskattning",
+   "kodare": 4
+  },
+  {
+   "id": "U367",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "finansieringsprincipen åsidosätts, kostnader läggs på kommunerna",
+   "kodare": 4
+  },
+  {
+   "id": "U368",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "underskattat lärarbehov ger mer undervisning av obehöriga",
+   "kodare": 4
+  },
+  {
+   "id": "U369",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "begränsad möjlighet att fördela resurser ändamålsenligt",
+   "kodare": 4
+  },
+  {
+   "id": "U370",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "underfinansiering pressar undervisningstiden mot intervallets övre del",
+   "kodare": 4
+  },
+  {
+   "id": "U371",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Organisation och planering",
+   "motivering": "minskat utrymme att omfördela arbete vid ohälsorisk",
+   "kodare": 4
+  },
+  {
+   "id": "U372",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "förslaget inte anpassat till centrala arbetstidsavtalet",
+   "kodare": 4
+  },
+  {
+   "id": "U373",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "strikta tidsramar begränsar rektors resursfördelning",
+   "kodare": 4
+  },
+  {
+   "id": "U374",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "ekonomiska förutsättningar ger liten differentiering mellan skolor",
+   "kodare": 4
+  },
+  {
+   "id": "U375",
+   "primar": "Organisation och planering",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "mindre resurser att fördela efter elevers behov",
+   "kodare": 4
+  },
+  {
+   "id": "U376",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "arbetsbelastning knuten till elevantal beaktas otillräckligt",
+   "kodare": 4
+  },
+  {
+   "id": "U377",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Organisation och planering",
+   "motivering": "mindre undervisningsgrupper blir dyrare och ovanligare",
+   "kodare": 4
+  },
+  {
+   "id": "U378",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "för- och efterarbete måste rymmas i reglerad tid",
+   "kodare": 4
+  },
+  {
+   "id": "U379",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Organisation och planering",
+   "motivering": "för lite tid kvar för övriga uppgifter och kompetensutveckling",
+   "kodare": 4
+  },
+  {
+   "id": "U380",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Organisation och planering",
+   "motivering": "uppgifter kan behöva flyttas till andra yrkesgrupper",
+   "kodare": 4
+  },
+  {
+   "id": "U381",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "fler lärare behöver rekryteras",
+   "kodare": 4
+  },
+  {
+   "id": "U382",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "brister i beräkning av behov av lärartjänster",
+   "kodare": 4
+  },
+  {
+   "id": "U383",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "rekrytering av hundratals lärare med stora lönekostnader",
+   "kodare": 4
+  },
+  {
+   "id": "U384",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "omfördelade statsbidrag strider mot finansieringsprincipen",
+   "kodare": 4
+  },
+  {
+   "id": "U385",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "staden förlorar riktat statsbidrag",
+   "kodare": 4
+  },
+  {
+   "id": "U386",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "ofinansierad kostnad för utbildningsnämnden",
+   "kodare": 4
+  },
+  {
+   "id": "U387",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "minskande elevkullar ger svårt ekonomiskt läge",
+   "kodare": 4
+  },
+  {
+   "id": "U388",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "ökade kostnader i förskola och vuxenutbildning",
+   "kodare": 4
+  },
+  {
+   "id": "U389",
+   "primar": "Organisation och planering",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "påverkar avtal och ersättningsmodell med upphandlade leverantörer",
+   "kodare": 4
+  },
+  {
+   "id": "U390",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "saknad kostnadsberäkning för kommunal vuxenutbildning",
+   "kodare": 4
+  },
+  {
+   "id": "U391",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Organisation och planering",
+   "motivering": "informationsgivning kan skilja mellan skolor och elever",
+   "kodare": 4
+  },
+  {
+   "id": "U392",
+   "primar": "Organisation och planering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "färre planerade möten kan öka spontana kontakter",
+   "kodare": 4
+  },
+  {
+   "id": "U393",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "glesare tidpunkter minskar att överenskommelser följs",
+   "kodare": 4
+  },
+  {
+   "id": "U394",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Organisation och planering",
+   "motivering": "oklart innehåll och omfattning av informationen",
+   "kodare": 4
+  },
+  {
+   "id": "U395",
+   "primar": "Övrigt",
+   "sekundar": null,
+   "motivering": "tillsynspraxis kan driva fortsatt dokumentation av lindriga fall",
+   "kodare": 4
+  },
+  {
+   "id": "U396",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "svårt att upptäcka upprepade kränkningar utan dokumentation",
+   "kodare": 4
+  },
+  {
+   "id": "U397",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "tveksamt om tid frigörs för skolpersonalen",
+   "kodare": 4
+  },
+  {
+   "id": "U398",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "administrationen ligger hos rektor, inte pedagogisk personal",
+   "kodare": 4
+  },
+  {
+   "id": "U399",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "svårt att avgränsa undervisning från andra uppgifter",
+   "kodare": 4
+  },
+  {
+   "id": "U400",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "rektors mandat att leda och fördela arbetet begränsas",
+   "kodare": 4
+  },
+  {
+   "id": "U401",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "extra anpassningar enda verktyget för komvuxelever",
+   "kodare": 4
+  },
+  {
+   "id": "U402",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "mycket kostsamt, fler lärare måste rekryteras",
+   "kodare": 4
+  },
+  {
+   "id": "U403",
+   "primar": "Organisation och planering",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "påverkar avtal och ersättningsmodell med upphandlade leverantörer",
+   "kodare": 4
+  },
+  {
+   "id": "U404",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "saknad kostnadsberäkning för komvux",
+   "kodare": 4
+  },
+  {
+   "id": "U405",
+   "primar": "Övrigt",
+   "sekundar": null,
+   "motivering": "gemensamt stödmaterial riskerar bli irrelevant för förskolan",
+   "kodare": 4
+  },
+  {
+   "id": "U406",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "all personal behöver kompetens för bedömningarna",
+   "kodare": 4
+  },
+  {
+   "id": "U407",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "förskolan omfattas inte av skollagens femte kapitel",
+   "kodare": 4
+  },
+  {
+   "id": "U408",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "avsatt tid kan fyllas med andra arbetsuppgifter",
+   "kodare": 4
+  },
+  {
+   "id": "U409",
+   "primar": "Organisation och planering",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "planering kan inte prioriteras utan ökade resurser",
+   "kodare": 4
+  },
+  {
+   "id": "U410",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Organisation och planering",
+   "motivering": "mindre förskolor får svårt utan ökade kostnader",
+   "kodare": 4
+  },
+  {
+   "id": "U411",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "andra personalkategorier ger ökade kostnader",
+   "kodare": 4
+  },
+  {
+   "id": "U412",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Tidplan och reformtakt",
+   "motivering": "återkommande revideringar tar tid från undervisningsuppdraget",
+   "kodare": 4
+  },
+  {
+   "id": "U413",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "kompletterande personal i arbetslaget blir kostnadsdrivande",
+   "kodare": 4
+  },
+  {
+   "id": "U414",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "felräkning ger kraftigt underskattade kostnader",
+   "kodare": 4
+  },
+  {
+   "id": "U415",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "finansieringsprincipen åsidosätts, kostnader läggs på kommunerna",
+   "kodare": 4
+  },
+  {
+   "id": "U416",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "otillräckliga statliga medel kräver resurser eller omprioriteringar",
+   "kodare": 4
+  },
+  {
+   "id": "U418",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "rektor kan inte fördela resurser ändamålsenligt",
+   "kodare": 4
+  },
+  {
+   "id": "U419",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "underfinansiering pressar undervisningstiden mot intervallets övre del",
+   "kodare": 4
+  },
+  {
+   "id": "U420",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Organisation och planering",
+   "motivering": "minskat utrymme att omfördela arbete vid ohälsorisk",
+   "kodare": 4
+  },
+  {
+   "id": "U421",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "förslag eller centrala avtal måste justeras före införande",
+   "kodare": 4
+  },
+  {
+   "id": "U423",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "knappa resurser ger liten differentiering mellan skolor",
+   "kodare": 4
+  },
+  {
+   "id": "U425",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "arbetsbelastning knuten till elevantal beaktas otillräckligt",
+   "kodare": 4
+  },
+  {
+   "id": "U429",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Organisation och planering",
+   "motivering": "uppgifter kan behöva utföras av andra yrkesgrupper",
+   "kodare": 4
+  },
+  {
+   "id": "U430",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "fler lärare behöver rekryteras",
+   "kodare": 4
+  },
+  {
+   "id": "U431",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "tankefel i beräkning av behov av lärartjänster",
+   "kodare": 4
+  },
+  {
+   "id": "U433",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "omfördelade statsbidrag innebär att medel inte tillförs",
+   "kodare": 4
+  },
+  {
+   "id": "U434",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "merkostnader och förlorade riktade statsbidrag",
+   "kodare": 4
+  },
+  {
+   "id": "U435",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "schablonhöjning blir alltid dyrare än kommunalt behov",
+   "kodare": 4
+  },
+  {
+   "id": "U437",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "minskande elevkullar ger kärvt ekonomiskt läge",
+   "kodare": 4
+  },
+  {
+   "id": "U438",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Organisation och planering",
+   "motivering": "informationsgivning kan skilja mellan skolor och elever",
+   "kodare": 4
+  },
+  {
+   "id": "U445",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "ökat ansvar för rektor att utreda kränkningar",
+   "kodare": 4
+  },
+  {
+   "id": "U446",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "enskild personal ska bedöma kränkningens allvar",
+   "kodare": 4
+  },
+  {
+   "id": "U447",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "färre anmälningar kan innebära fortsatta kränkningar",
+   "kodare": 4
+  },
+  {
+   "id": "U448",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "administrationen ligger hos rektor, inte pedagogisk personal",
+   "kodare": 4
+  },
+  {
+   "id": "U449",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "planerings- och utvecklingsarbete kräver resurser",
+   "kodare": 4
+  },
+  {
+   "id": "U450",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "behov av förtydliganden om uppföljning och kvalitetsarbete",
+   "kodare": 4
+  },
+  {
+   "id": "U451",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "risk att administration bara flyttas till andra funktioner",
+   "kodare": 4
+  },
+  {
+   "id": "U452",
+   "primar": "System och teknik",
+   "sekundar": null,
+   "motivering": "administrativ börda beror på bristande systemstöd",
+   "kodare": 4
+  },
+  {
+   "id": "U453",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "försämrad möjlighet att analysera anmälningar på aggregerad nivå",
+   "kodare": 4
+  },
+  {
+   "id": "U454",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "begreppsdefinitioner behöver skiljas mellan skolformerna",
+   "kodare": 4
+  },
+  {
+   "id": "U455",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "ordet sin kan tolkas exkludera arbetslaget",
+   "kodare": 4
+  },
+  {
+   "id": "U456",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "risk för överdokumentation av incidenter",
+   "kodare": 4
+  },
+  {
+   "id": "U457",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "medarbetare måste gradera händelser, stort ansvar",
+   "kodare": 4
+  },
+  {
+   "id": "U458",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "oklart vad allvarlig kränkning innebär",
+   "kodare": 4
+  },
+  {
+   "id": "U459",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "odefinierad viktning av faktorer och vem som bedömer",
+   "kodare": 4
+  },
+  {
+   "id": "U460",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Organisation och planering",
+   "motivering": "oklar tidsbedömning med två förskollärare i arbetslaget",
+   "kodare": 4
+  },
+  {
+   "id": "U461",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Organisation och planering",
+   "motivering": "kräver full statlig finansiering och anpassade kollektivavtal",
+   "kodare": 4
+  },
+  {
+   "id": "U465",
+   "primar": "Övrigt",
+   "sekundar": null,
+   "motivering": "förslaget underminerar den lokala styrningen",
+   "kodare": 4
+  },
+  {
+   "id": "U470",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "ambitionshöjningen förutsätter full statlig finansiering",
+   "kodare": 4
+  },
+  {
+   "id": "U471",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "oklar tillämpning av tidsmåttet i arbetslag",
+   "kodare": 4
+  },
+  {
+   "id": "U472",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "underfinansierade planeringstimmar kan drabba barnen",
+   "kodare": 4
+  },
+  {
+   "id": "U473",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "svårt att överblicka hur mycket tid som frigörs",
+   "kodare": 4
+  },
+  {
+   "id": "U474",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "frigjord tid ojämnt fördelad mellan lärargrupper",
+   "kodare": 4
+  },
+  {
+   "id": "U475",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "detaljnivå försvårar lokal anpassning av organisationen",
+   "kodare": 4
+  },
+  {
+   "id": "U476",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "svårt att hantera vid mindre enheter och huvudmän",
+   "kodare": 4
+  },
+  {
+   "id": "U477",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Organisation och planering",
+   "motivering": "formulering riskerar tolkas som onödigt formaliserad",
+   "kodare": 4
+  },
+  {
+   "id": "U478",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "svårt att överblicka antalet undantag som krävs",
+   "kodare": 4
+  },
+  {
+   "id": "U479",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "oklar koppling mellan utvecklingssamtal och kunskapsutvecklingsplan",
+   "kodare": 4
+  },
+  {
+   "id": "U480",
+   "primar": "Övrigt",
+   "sekundar": null,
+   "motivering": "rättsliga hinder för att minska administrationen",
+   "kodare": 4
+  },
+  {
+   "id": "U481",
+   "primar": "System och teknik",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "svårt att styra dataflöden mellan IT-system",
+   "kodare": 4
+  },
+  {
+   "id": "U482",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "förändringar behöver jämkas med andra utredningar",
+   "kodare": 4
+  },
+  {
+   "id": "U483",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "upprepade kränkningar riskerar att inte uppmärksammas",
+   "kodare": 4
+  },
+  {
+   "id": "U484",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "risk för godtycklig bedömning av allvar",
+   "kodare": 4
+  },
+  {
+   "id": "U485",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "bedömning skiljer sig för yngsta barn och anpassad utbildning",
+   "kodare": 4
+  },
+  {
+   "id": "U486",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "orimliga krav att utreda händelser på fritiden",
+   "kodare": 4
+  },
+  {
+   "id": "U487",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "regelverket är mycket dokumentationsdrivande",
+   "kodare": 4
+  },
+  {
+   "id": "U488",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "hämmar organisering efter lokala behov",
+   "kodare": 4
+  },
+  {
+   "id": "U489",
+   "primar": "Övrigt",
+   "sekundar": null,
+   "motivering": "avsteg från att parterna reglerar arbetstid",
+   "kodare": 4
+  },
+  {
+   "id": "U490",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "detaljnivå inskränker arbetsledningsrätt och självstyre",
+   "kodare": 4
+  },
+  {
+   "id": "U491",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "svårt att hantera vid små skolor och huvudmän",
+   "kodare": 4
+  },
+  {
+   "id": "U492",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "ökat personalbehov drabbar kommuner med låg lärartillgång",
+   "kodare": 4
+  },
+  {
+   "id": "U493",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "konsekvenser för gällande kollektivavtal inte redovisade",
+   "kodare": 4
+  },
+  {
+   "id": "U494",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "oförenligt med villkoren i kollektivavtalets Bilaga M",
+   "kodare": 4
+  },
+  {
+   "id": "U495",
+   "primar": "Organisation och planering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "uppstyckning av lärares tid omöjlig att hantera",
+   "kodare": 4
+  },
+  {
+   "id": "U496",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Organisation och planering",
+   "motivering": "administrativt betungande hantering av övertid och bemanning",
+   "kodare": 4
+  },
+  {
+   "id": "U497",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "undervisningsnära uppgifter riskerar trängas ut",
+   "kodare": 4
+  },
+  {
+   "id": "U498",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "svårt bedöma fördelning av kompetensutvecklingstid",
+   "kodare": 4
+  },
+  {
+   "id": "U499",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "förslaget är underfinansierat",
+   "kodare": 4
+  },
+  {
+   "id": "U500",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "kringskuren arbetsledningsrätt svår för mindre enheter",
+   "kodare": 4
+  },
+  {
+   "id": "U501",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "undervisningstak kan kräva nyanställning för få timmar",
+   "kodare": 4
+  },
+  {
+   "id": "U502",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "försvårar halvklass och tvålärarskap",
+   "kodare": 4
+  },
+  {
+   "id": "U503",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Organisation och planering",
+   "motivering": "viktning mot undervisningstak ökar rektors arbetsbörda",
+   "kodare": 4
+  },
+  {
+   "id": "U504",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "planeringsbehov avhängigt elevantal beaktas otillräckligt",
+   "kodare": 4
+  },
+  {
+   "id": "U505",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "ej finansierat trots behov av utökad bemanning",
+   "kodare": 4
+  },
+  {
+   "id": "U506",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "ny reglering inte finansierad enligt finansieringsprincipen",
+   "kodare": 4
+  },
+  {
+   "id": "U507",
+   "primar": "Organisation och planering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Svårt att frigöra tid för uppdraget i verksamheten",
+   "kodare": 5
+  },
+  {
+   "id": "U508",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Risk för ökade skillnader mellan förskolor och huvudmän",
+   "kodare": 5
+  },
+  {
+   "id": "U509",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Oklart vad heltidstjänstgöring i fritidshem innebär",
+   "kodare": 5
+  },
+  {
+   "id": "U510",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Snabbt genomförande utan finansiering och kompetensplan",
+   "kodare": 5
+  },
+  {
+   "id": "U511",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Stort behov av fler lärare och personal",
+   "kodare": 5
+  },
+  {
+   "id": "U512",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Tidsbrist när många reformer implementeras samtidigt",
+   "kodare": 5
+  },
+  {
+   "id": "U513",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Förslagen måste samordnas med andra utredningar",
+   "kodare": 5
+  },
+  {
+   "id": "U514",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Kostnaderna underskattas, minst elva miljarder per år",
+   "kodare": 5
+  },
+  {
+   "id": "U515",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Beräknade kostnader för planeringstid i förskola och fritidshem",
+   "kodare": 5
+  },
+  {
+   "id": "U516",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Kostnaden blir ungefär tre gånger högre med taket",
+   "kodare": 5
+  },
+  {
+   "id": "U517",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Kostnadsdrivande del saknar föreslagen finansiering",
+   "kodare": 5
+  },
+  {
+   "id": "U518",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Organisation och planering",
+   "motivering": "Ökat personalbehov och påverkan på styrning och ledning",
+   "kodare": 5
+  },
+  {
+   "id": "U519",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Kostnadsökningar genom behov av fler professioner",
+   "kodare": 5
+  },
+  {
+   "id": "U520",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "Ökad arbetsbörda för skolledare genom otydliga förslag",
+   "kodare": 5
+  },
+  {
+   "id": "U521",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Svårtolkad gräns ökar rektors arbetsbörda",
+   "kodare": 5
+  },
+  {
+   "id": "U522",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Skolor och huvudmän riskerar att göra olika",
+   "kodare": 5
+  },
+  {
+   "id": "U523",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Svårtolkade faktorer kan ge olikvärdighet och rektorsbörda",
+   "kodare": 5
+  },
+  {
+   "id": "U524",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Undervisningstak kräver fler lärare och ökar kostnader",
+   "kodare": 5
+  },
+  {
+   "id": "U525",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Förslaget riskerar att bli kostnadsdrivande för huvudmannen",
+   "kodare": 5
+  },
+  {
+   "id": "U526",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Fler professioner och funktioner krävs i skolan",
+   "kodare": 5
+  },
+  {
+   "id": "U527",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "Varierande tolkning mellan skolor påverkar likvärdigheten",
+   "kodare": 5
+  },
+  {
+   "id": "U528",
+   "primar": "System och teknik",
+   "sekundar": null,
+   "motivering": "Olika system med varierande funktionalitet motverkar syftet",
+   "kodare": 5
+  },
+  {
+   "id": "U530",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Förslaget behöver synkroniseras med pågående remisser",
+   "kodare": 5
+  },
+  {
+   "id": "U531",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Ytterligare stöd omöjligt att genomföra utan finansiering",
+   "kodare": 5
+  },
+  {
+   "id": "U532",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Behov av riktlinjer om skillnader mellan stödformer",
+   "kodare": 5
+  },
+  {
+   "id": "U533",
+   "primar": "System och teknik",
+   "sekundar": null,
+   "motivering": "Nationellt ansvar för digitala stödverktyg efterfrågas",
+   "kodare": 5
+  },
+  {
+   "id": "U534",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Ansvarsförskjutning till rektor kräver finansierad bemanning",
+   "kodare": 5
+  },
+  {
+   "id": "U535",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Mer arbete för rektorer utan resurser ger ohållbar arbetsmiljö",
+   "kodare": 5
+  },
+  {
+   "id": "U536",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Informationsskyldighetens genomförande otydligt, belastar rektor",
+   "kodare": 5
+  },
+  {
+   "id": "U537",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Vaga riktlinjer riskerar att öka dokumentationen",
+   "kodare": 5
+  },
+  {
+   "id": "U538",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Svårt upprätthålla arbetet mot upprepad kränkning",
+   "kodare": 5
+  },
+  {
+   "id": "U539",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Utan tydliggörande blir skillnaden mot idag marginell",
+   "kodare": 5
+  },
+  {
+   "id": "U540",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Huvudmannens utredningar kräver kännedom på individnivå",
+   "kodare": 5
+  },
+  {
+   "id": "U541",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Externa dokumentationskrav kan fortsätta belasta verksamheten",
+   "kodare": 5
+  },
+  {
+   "id": "U543",
+   "primar": "Organisation och planering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Samordning behöver klargöras för att undvika merarbete",
+   "kodare": 5
+  },
+  {
+   "id": "U545",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Osäkerhet om regler driver fortsatt dokumentation",
+   "kodare": 5
+  },
+  {
+   "id": "U546",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "Otydlig tid skapar stress och press på lärare",
+   "kodare": 5
+  },
+  {
+   "id": "U547",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Förslaget behöver synkroniseras med andra utredningar",
+   "kodare": 5
+  },
+  {
+   "id": "U548",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Huvudmän behöver tillräckliga finansiella resurser",
+   "kodare": 5
+  },
+  {
+   "id": "U549",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "Varierande elevgruppsstorlek mellan skolor påverkar likvärdigheten",
+   "kodare": 5
+  },
+  {
+   "id": "U550",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Förslaget ofinansierat, hänvisar till befintliga statsbidrag",
+   "kodare": 5
+  },
+  {
+   "id": "U551",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Bemanning krävs av fler lärare och yrkeskategorier",
+   "kodare": 5
+  },
+  {
+   "id": "U552",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Andelen obehöriga lärare kan öka kortsiktigt",
+   "kodare": 5
+  },
+  {
+   "id": "U554",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Behov av tydliggörande om arbetstid för nationell likvärdighet",
+   "kodare": 5
+  },
+  {
+   "id": "U555",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Kommunerna behöver ersättas för tillkommande regleringar",
+   "kodare": 5
+  },
+  {
+   "id": "U556",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Utan resurser minskar barnskötares planeringstid",
+   "kodare": 5
+  },
+  {
+   "id": "U557",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Andra uppgifter som VFU-handledning kan minska",
+   "kodare": 5
+  },
+  {
+   "id": "U558",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Ingen finansiering föreslås för förskollärares planeringstid",
+   "kodare": 5
+  },
+  {
+   "id": "U559",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Kostnadsökningarna riskerar att vara underskattade",
+   "kodare": 5
+  },
+  {
+   "id": "U560",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Otydlighet ger olika tolkningar mellan huvudmän",
+   "kodare": 5
+  },
+  {
+   "id": "U561",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Behov av synkronisering med pågående förskoleutredning",
+   "kodare": 5
+  },
+  {
+   "id": "U562",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Tillräcklig bemanning behövs när förskollärare lämnar gruppen",
+   "kodare": 5
+  },
+  {
+   "id": "U565",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Arbetsplatsförlagd tid försvårar ställtider inför lektioner",
+   "kodare": 5
+  },
+  {
+   "id": "U566",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Förslaget behöver synkroniseras med pågående rektorsutredning",
+   "kodare": 5
+  },
+  {
+   "id": "U567",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Ofinansierat förslag kräver uppbyggda stödfunktioner",
+   "kodare": 5
+  },
+  {
+   "id": "U569",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Ökad reglering kräver tydlig information och vägledning",
+   "kodare": 5
+  },
+  {
+   "id": "U570",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Huvudmän behöver stöd att bygga upp stödfunktioner",
+   "kodare": 5
+  },
+  {
+   "id": "U572",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Stor osäkerhet om effekterna av regleringen",
+   "kodare": 5
+  },
+  {
+   "id": "U573",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Fler utredningar behövs och konsekvensanalyser saknas",
+   "kodare": 5
+  },
+  {
+   "id": "U574",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Ikraftträdandebeslut behövs tidigt för rekrytering och omorganisering",
+   "kodare": 5
+  },
+  {
+   "id": "U575",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Full finansiering behövs för att genomföra förslagen",
+   "kodare": 5
+  },
+  {
+   "id": "U576",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Resurstilldelning avgörande för att förverkliga intentionerna",
+   "kodare": 5
+  },
+  {
+   "id": "U577",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Omfördelning av statsbidrag tillför inga nya medel",
+   "kodare": 5
+  },
+  {
+   "id": "U578",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Ersättning för kringfunktioner bör utredas",
+   "kodare": 5
+  },
+  {
+   "id": "U579",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Andra yrkesgruppers tillkommande uppgifter beaktas inte",
+   "kodare": 5
+  },
+  {
+   "id": "U580",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Förskola och fritidshem bör också kompenseras",
+   "kodare": 5
+  },
+  {
+   "id": "U581",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Organisation och planering",
+   "motivering": "Anpassning till intervallet ger ekonomiska och organisatoriska svårigheter",
+   "kodare": 5
+  },
+  {
+   "id": "U582",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Rekryteringsbehov riskerar obehöriga lärare och lägre kvalitet",
+   "kodare": 5
+  },
+  {
+   "id": "U583",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Oklart hur omställning till nya yrkesroller finansieras",
+   "kodare": 5
+  },
+  {
+   "id": "U584",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Ansvar utan tydlig finansieringsmodell ryms inte i budget",
+   "kodare": 5
+  },
+  {
+   "id": "U585",
+   "primar": "Organisation och planering",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "Implementering svår i små inlandskommuner",
+   "kodare": 5
+  },
+  {
+   "id": "U586",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Små förändringar ger stora kostnader för små kommuner",
+   "kodare": 5
+  },
+  {
+   "id": "U587",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Rekrytering av behörig personal kräver ökade utgifter",
+   "kodare": 5
+  },
+  {
+   "id": "U588",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Kompensationen bör ta hänsyn till lokala förutsättningar",
+   "kodare": 5
+  },
+  {
+   "id": "U589",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Otydligt ansvar och kontinuitet för elever med stödbehov",
+   "kodare": 5
+  },
+  {
+   "id": "U590",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Begränsade elevhälsoresurser i glesbygd gör lärarrollen central",
+   "kodare": 5
+  },
+  {
+   "id": "U591",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Otydlig arbetsfördelning och ekonomiska påfrestningar",
+   "kodare": 5
+  },
+  {
+   "id": "U592",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Fler förfrågningar och klagomål från vårdnadshavare",
+   "kodare": 5
+  },
+  {
+   "id": "U593",
+   "primar": "Organisation och planering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Ökat behov av uppföljningsmöten och dialog",
+   "kodare": 5
+  },
+  {
+   "id": "U594",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Undervisningstaket ger cirka femton procent ökat resursbehov",
+   "kodare": 5
+  },
+  {
+   "id": "U595",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Oklart vilka uppdrag som räknas till vilken tid",
+   "kodare": 5
+  },
+  {
+   "id": "U596",
+   "primar": "Organisation och planering",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Lärares planeringstid behöver utökas med cirka hälften",
+   "kodare": 5
+  },
+  {
+   "id": "U597",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Saknade yrkesroller kräver nyrekrytering",
+   "kodare": 5
+  },
+  {
+   "id": "U598",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Otydlighet försvårar bedömning av arbetsbelastning",
+   "kodare": 5
+  },
+  {
+   "id": "U599",
+   "primar": "Organisation och planering",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "Betydande organisatoriska konsekvenser kräver analys av arbetstid",
+   "kodare": 5
+  },
+  {
+   "id": "U600",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Skolor har olika förutsättningar och behov",
+   "kodare": 5
+  },
+  {
+   "id": "U601",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Strikt tillämpning kan ge obalanser och påverka elever",
+   "kodare": 5
+  },
+  {
+   "id": "U602",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Förslaget reglerar inte lärarnas totala arbetstid",
+   "kodare": 5
+  },
+  {
+   "id": "U603",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Saknad samsyn mellan lagförslag och läraravtal",
+   "kodare": 5
+  },
+  {
+   "id": "U604",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Organisation och planering",
+   "motivering": "Borttaget arbete måste omfördelas till andra resurser",
+   "kodare": 5
+  },
+  {
+   "id": "U605",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Kostnadseffekter inom redan ansträngda budgetar",
+   "kodare": 5
+  },
+  {
+   "id": "U606",
+   "primar": "Organisation och planering",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Alla huvudmän skulle behöva välja högsta intervallet",
+   "kodare": 5
+  },
+  {
+   "id": "U607",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Fler anställda ger ökade kostnader och organisatoriska utmaningar",
+   "kodare": 5
+  },
+  {
+   "id": "U608",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Elever kan få mindre undervisningstid av ekonomiska skäl",
+   "kodare": 5
+  },
+  {
+   "id": "U609",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Administrativ börda i trygghetsarbetet minskar inte",
+   "kodare": 5
+  },
+  {
+   "id": "U610",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Organisation och planering",
+   "motivering": "Omfattande kostnadsökning och utökad överlämning mellan yrkesroller",
+   "kodare": 5
+  },
+  {
+   "id": "U611",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Organisation och planering",
+   "motivering": "Individuell planeringstid i förskolan ger merkostnader",
+   "kodare": 5
+  },
+  {
+   "id": "U612",
+   "primar": "Övrigt",
+   "sekundar": null,
+   "motivering": "Skärpt extern kontroll motverkar avlastningen",
+   "kodare": 5
+  },
+  {
+   "id": "U613",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Arbetstidsfördelning hör till rektors inre organisation",
+   "kodare": 5
+  },
+  {
+   "id": "U614",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Förslaget kan slå hårt mot små skolenheter",
+   "kodare": 5
+  },
+  {
+   "id": "U615",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Glesbygdens små enheter behöver flexibel tjänstefördelning",
+   "kodare": 5
+  },
+  {
+   "id": "U616",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Motverkar läraravlastning som svar på lärarbrist",
+   "kodare": 5
+  },
+  {
+   "id": "U617",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Reglering minskar möjligheten till lokala lösningar",
+   "kodare": 5
+  },
+  {
+   "id": "U618",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Mer undervisning kan behöva bedrivas av obehöriga",
+   "kodare": 5
+  },
+  {
+   "id": "U619",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Svårt att dra gränser mellan arbetsuppgifter",
+   "kodare": 5
+  },
+  {
+   "id": "U620",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Reglering kan försvaga gemensam planering och samverkan",
+   "kodare": 5
+  },
+  {
+   "id": "U621",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Intervall skapar otydlighet om lärarens placering",
+   "kodare": 5
+  },
+  {
+   "id": "U622",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Otydligt vad som är planeringstid och övrig tid",
+   "kodare": 5
+  },
+  {
+   "id": "U623",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Maxtak försvårar rättvisa tjänstefördelningar",
+   "kodare": 5
+  },
+  {
+   "id": "U624",
+   "primar": "Organisation och planering",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "Oklart hur förslaget passar flexibel organisation",
+   "kodare": 5
+  },
+  {
+   "id": "U625",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Oklart hur undervisningstid räknas i lägre årskurser",
+   "kodare": 5
+  },
+  {
+   "id": "U626",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Organisation och planering",
+   "motivering": "Sjukfrånvaro och vikariebehov hotar planeringstiden",
+   "kodare": 5
+  },
+  {
+   "id": "U627",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Mindre planeringstid för ej legitimerad personal",
+   "kodare": 5
+  },
+  {
+   "id": "U628",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Fast faktor orättvis vid olika arbetssituationer",
+   "kodare": 5
+  },
+  {
+   "id": "U629",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Organisation och planering",
+   "motivering": "Svårare säkerställa att extra anpassningar görs",
+   "kodare": 5
+  },
+  {
+   "id": "U630",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Fortsatt svårt att definiera vad som räknas",
+   "kodare": 5
+  },
+  {
+   "id": "U631",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Verksamheten påverkas av händelser utanför skolan",
+   "kodare": 5
+  },
+  {
+   "id": "U632",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Rekryteringsbehov och ökade kostnader",
+   "kodare": 5
+  },
+  {
+   "id": "U633",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Svårt att utläsa ekonomisk påverkan för kommunen",
+   "kodare": 5
+  },
+  {
+   "id": "U634",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Regleringen bör finansieras med statliga medel",
+   "kodare": 5
+  },
+  {
+   "id": "U635",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Svårt att rekrytera personal om lärarbehovet ökar",
+   "kodare": 6
+  },
+  {
+   "id": "U636",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Arbetstidsreglering riskerar minska andelen behörig personal",
+   "kodare": 6
+  },
+  {
+   "id": "U637",
+   "primar": "Organisation och planering",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "Reglering komplex att införa, oklara effekter",
+   "kodare": 6
+  },
+  {
+   "id": "U638",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Förtroendearbetstiden i lärares arbetstid berörs knappt",
+   "kodare": 6
+  },
+  {
+   "id": "U639",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Myndigheters dokumentationskrav belastar skolor och huvudman",
+   "kodare": 6
+  },
+  {
+   "id": "U640",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Upprepade anmälningar måste utredas varje gång, betungande",
+   "kodare": 6
+  },
+  {
+   "id": "U641",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Reglerad planeringstid kräver mer medel eller färre förskollärare",
+   "kodare": 6
+  },
+  {
+   "id": "U642",
+   "primar": "Övrigt",
+   "sekundar": null,
+   "motivering": "Risk att vårdnadshavare får för lite information",
+   "kodare": 6
+  },
+  {
+   "id": "U643",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Osäkerhet om vad som behöver dokumenteras",
+   "kodare": 6
+  },
+  {
+   "id": "U644",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Rektorers arbetsbörda ökar när uppgifter flyttas",
+   "kodare": 6
+  },
+  {
+   "id": "U645",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Organisation och planering",
+   "motivering": "Elever vid små gymnasieskolor får färre valbara kurser",
+   "kodare": 6
+  },
+  {
+   "id": "U646",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Samma faktor för yrkeslärare svår att förstå",
+   "kodare": 6
+  },
+  {
+   "id": "U647",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Organisation och planering",
+   "motivering": "Landsbygdsskolors små grupper kan urholkas av faktorn",
+   "kodare": 6
+  },
+  {
+   "id": "U648",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Oklart hur halvklassundervisning hanteras i modellen",
+   "kodare": 6
+  },
+  {
+   "id": "U649",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Kostnader stiger, halvklassundervisning kan strykas",
+   "kodare": 6
+  }
+ ]
+}
