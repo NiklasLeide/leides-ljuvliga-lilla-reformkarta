@@ -64,6 +64,13 @@ på plats, DoD godkänd. En task i taget. STOPP efter T0 om (a) är nej, och eft
 
 ---
 
+## Completed: Spike 2 — Huvudmännens utmaningar mot beslut, pilot betyg (2026-11-10, utanför sprint)
+
+✅ Avslutad. Rapport: [research/remissanalys/RAPPORT-utmaningar.md](../research/remissanalys/RAPPORT-utmaningar.md) · data: `utmaningar-betyg.json`, `sfs-diff-betyg.json`, `granskning-urval.md`. Ingen ändring i publik data eller UI.
+Kort: 440 utmaningar (efter dubbletter) ur 29 publicerade remissvar i 8 kategorier; 6 remissvar saknas (5 enskilda huvudmän + Almega utbildningsföretagen, spontana, ej publicerade); koppling 39 % förankrad / 36 % tolkad / 25 % ingen; SFS-diff 36/93 paragrafer automatiskt matchade, 92/93 status "ändrad" (mekaniskt, skiljer inte sak från redaktionellt). Beslutad lydelse ur riksdagens konsoliderade SFS — svenskforfattningssamling.se ej nåbar. **Öppet:** granskningsurvalet (25) ska bedömas manuellt.
+
+---
+
 ## Completed: Spike — Remissvar mot beslut (2026-11-10, utanför sprint)
 
 ✅ Avslutad. Rapport: [research/remissanalys/RAPPORT.md](../research/remissanalys/RAPPORT.md) · data: `research/remissanalys/kedjor.json` (Del A, 7 reformer), `pilot-betyg.json` (Del B). Ingen ändring i publik data eller UI.
