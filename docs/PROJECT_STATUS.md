@@ -18,8 +18,8 @@
 | 2 | Datagrund: omkodning med tvåaxlig taxonomi, kopplingsnivåer, avsändarräkning, propositionens avvikelsetexter | Klar |
 | 3 | Datafil för betyg i pilot/utmaningar/ med byggskript | Klar |
 | 4 | Pilotsida i pilot/utmaningar/ och pilot-sync.sh | Klar |
-| 5 | Granskningsunderlag v2: precision och missade utmaningar | Ej påbörjad |
-| 6 | Dokumentation: metodbeskrivning, CHANGELOG | Ej påbörjad |
+| 5 | Granskningsunderlag v2: precision och missade utmaningar | Klar |
+| 6 | Dokumentation: metodbeskrivning, CHANGELOG | Klar |
 | 7 | Run DoD review for this sprint | Ej påbörjad |
 
 **Notering:** Granskningsurval från förstudie 2 bedömt som godtagbart av Niklas 2026-11-10. Ingen kvantifierad träffsäkerhet noterad.

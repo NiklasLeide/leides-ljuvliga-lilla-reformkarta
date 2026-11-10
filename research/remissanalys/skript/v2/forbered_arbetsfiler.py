@@ -17,7 +17,7 @@ want={'197':None,'194':{'6.7','6.8'}}
 out={}
 for pr in ('197','194'):
     P=open(f'{S}/pdf/prop{pr}.txt').read().split('\f')
-    cur=None; lab=None; secs=[]; prev_blank=False; prev_text=''; in_sub=False
+    cur=None; lab=None; secs=[]; prev_blank=False; prev_text=''; in_sub=False; rub_fort=False
     for i,p in enumerate(P):
         pg=printed(p,i)
         rader=p.split('\n')
@@ -39,7 +39,12 @@ for pr in ('197','194'):
             if l2.strip(): prev_text=l2.strip()
             m=HEAD.match(l2)
             if m and not re.search(r'\.{4,}',l2):
-                cur={'avsnitt':m.group(1),'rubrik':m.group(2).strip(),'delar':[]}; secs.append(cur); lab=None; continue
+                cur={'avsnitt':m.group(1),'rubrik':m.group(2).strip(),'delar':[]}; secs.append(cur); lab=None; rub_fort=True; continue
+            if rub_fort:
+                # rubriken bryts över flera rader i PDF:en; fortsättningsrader fram till första tomrad hör till rubriken
+                if l2.strip() and not LAB.match(l2):
+                    cur['rubrik']=re.sub(r'(\w)- (?!och |eller |samt )(?=[a-zåäö])',r'\1',cur['rubrik']+' '+l2.strip()); continue
+                rub_fort=False
             m=LAB.match(l2)
             if m and cur is not None:
                 lab=m.group(1); cur['delar'].append({'del':lab,'sidor':{}}); continue
@@ -53,6 +58,24 @@ for pr in ('197','194'):
             sid=[{'sida':int(k),'text':re.sub(r'\s+',' ',re.sub(r'(\w)- (?!och |eller |samt )(?=[a-zåäö])',r'\1',' '.join(v))).strip()} for k,v in d['sidor'].items()]
             delar.append({'del':d['del'],'sidor':sid})
         out[f'{pr}:{s["avsnitt"]}']={'proposition':f'Prop. 2025/26:{pr}','avsnitt':s['avsnitt'],'rubrik':s['rubrik'],'url':U[pr],'delar':delar}
+inneh={}
+for pr in ('197','194'):
+    P=open(f'{S}/pdf/prop{pr}.txt').read().split('\f')
+    toc={}; buf=''
+    for p in P[:8]:
+        for l in p.split('\n'):
+            l2=re.sub(r'^\s*Prop\. 20\d\d/\d\d:\d+\s+','',l); l2=re.sub(r'\s+Prop\. 20\d\d/\d\d:\d+\s*$','',l2).strip()
+            if not l2: continue
+            if re.match(r'^(\d{1,2}(?:\.\d{1,2}){0,3})\s+\S',l2) and not buf: buf=l2
+            elif buf: buf+=' '+l2
+            else: continue
+            mm=re.match(r'^(\d{1,2}(?:\.\d{1,2}){0,3})\s+(.*?)\s*\.{3,}\s*(\d{1,3})$',buf)
+            if mm:
+                titel=re.sub(r'(\w)- (?!och |eller |samt )(?=[a-zåäö])',r'\1',re.sub(r'\s+',' ',mm.group(2)))
+                toc.setdefault(mm.group(1),{'titel':titel,'sida':int(mm.group(3))}); buf=''
+            elif len(buf)>400: buf=''
+    inneh[pr]={'proposition':f'Prop. 2025/26:{pr}','url':U[pr],'innehallsforteckning':toc}
+json.dump({'_meta':{'beskrivning':'Propositionernas innehållsförteckning (avsnittsnummer, rubrik, sida) ur pdftotext -layout; används av validera-pilot.py för att kontrollera att propositionsavsnittens rubriker är fullständiga.'},'propositioner':inneh},open(f'{OUT}/propositioner-innehall.json','w'),ensure_ascii=False,indent=1)
 toc=json.load(open(f'{S}/sou_toc.json'))
 kap={t['avsnitt']:t['rubrik'] for t in toc if '.' not in t['avsnitt'] and t['avsnitt'].isdigit()}
 avs={t['avsnitt']:{'rubrik':t['rubrik'],'sida':t['sida']} for t in toc if t['avsnitt'].split('.')[0].isdigit() and 9<=int(t['avsnitt'].split('.')[0])<=20}

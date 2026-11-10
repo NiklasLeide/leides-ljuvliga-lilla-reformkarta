@@ -10,6 +10,8 @@ Kontroller:
     utredningsförslag, SFS-status som inte är null, lagparagrafens SOU-/propositions-/beslutade lydelse,
     avsändarens remissvar, kedjans led, opublicerat remissvar
  5. inga nycklar eller strängvärden innehåller orden "löst", "kvarstår" eller "bemött tillräckligt"
+ 6. varje propositionsavsnitts rubrik återfinns, fullständig, i respektive propositions innehållsförteckning
+    (research/remissanalys/arbetsfiler/propositioner-innehall.json, extraherad oberoende av avsnittstexten)
 Avslutar med kod 0 om allt går igenom, annars 1 och en lista över fel."""
 import json, os, re, sys
 
@@ -75,6 +77,16 @@ for led, v in ked.items():
     for j, x in enumerate(v if isinstance(v, list) else [v]): kalla_ok(x.get('kalla'), f'kedja.{led}[{j}]')
 for s in d.get('meta', {}).get('korpus', {}).get('opublicerade_remissvar_som_saknas', {}).get('avsandare', []):
     kalla_ok(s.get('kalla'), f'opublicerat remissvar {s.get("avsandare")}')
+
+# 6. rubriker mot propositionernas innehållsförteckning
+INNEH = json.load(open(os.path.join(ROT, 'research/remissanalys/arbetsfiler/propositioner-innehall.json'), encoding='utf-8'))['propositioner']
+norm = lambda s: re.sub(r'\s+', ' ', s or '').strip()
+for p in d.get('propositionsavsnitt', []):
+    pr = p.get('proposition', '').split(':')[-1]
+    toc = INNEH.get(pr, {}).get('innehallsforteckning', {})
+    t = toc.get(p.get('avsnitt'), {}).get('titel')
+    if t is None: F(f'propositionsavsnitt {p.get("ref")}: avsnittet saknas i innehållsförteckningen')
+    elif norm(t) != norm(p.get('rubrik')): F(f'propositionsavsnitt {p.get("ref")}: rubriken "{p.get("rubrik")}" ≠ innehållsförteckningens "{t}"')
 
 # generellt: varje källobjekt någonstans i filen ska ha text och url
 def walk(o, path):

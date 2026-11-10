@@ -103,6 +103,16 @@ const ok = (namn, villkor, info = '') => { resultat.push(`${villkor ? 'OK ' : 'F
     }
     ok(`${v}: ingen modellskriven fritext (motiveringar, meta-texter) visas`, traffar.length === 0, traffar.slice(0, 2).join(' | '));
 
+    // Samtliga 440 utmaningar nås: unionen av citat-id över alla sakområden och "Utan koppling", utan filter.
+    const nadda = new Set(); let besok = 0;
+    for (const sak of [...D.sakomraden.map(x => x.kapitel), 'utan']) {
+      await page.goto(URL + '?v=' + (besok++) + '#sak=' + sak); await page.waitForSelector('#detaljrubrik');
+      await page.waitForFunction(() => /utmaningar från/.test(document.getElementById('detaljrubrik').textContent) || /Inga utmaningar/.test(document.getElementById('skrev').textContent));
+      (await page.$$eval('#skrev .citat', cs => cs.map(c => c.dataset.id))).forEach(i => nadda.add(i));
+    }
+    const saknas = D.utmaningar.map(u => u.id).filter(i => !nadda.has(i));
+    ok(`${v}: samtliga ${D.utmaningar.length} utmaningar nås via sakområden + "Utan koppling"`, nadda.size === D.utmaningar.length && saknas.length === 0, `${nadda.size} unika id${saknas.length ? '; saknas: ' + saknas.slice(0, 10).join(', ') : ''}`);
+
     const metod = await page.textContent('#metod');
     ok(`${v}: metodruta`, /Tolkning/.test(metod) && /Saknade remissvar/.test(metod) && /2026-11-10/.test(metod) && /inte att synpunkten har bemötts/.test(metod) && /bedömer inte om utmaningarna är lösta/.test(metod));
 

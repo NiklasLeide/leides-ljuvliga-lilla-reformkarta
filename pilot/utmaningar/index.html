@@ -363,7 +363,7 @@ function skrev(V) {
 function citat(u) {
   const t = u.utmaningstyp, nv = aktivKoppling(u), np = u.namngivning_i_propositionen;
   const namngiven = np && np.namngiven && harJamforelse(u);
-  return `<div class="citat"><blockquote>”${esc(u.citat)}”</blockquote>
+  return `<div class="citat" data-id="${esc(u.id)}"><blockquote>”${esc(u.citat)}”</blockquote>
     <div class="rad"><span class="etikett typ">${esc(t.primar)}</span>${t.sekundar ? `<span class="etikett typ2">även: ${esc(t.sekundar)}</span>` : ''}
       ${nv === 'tolkad' ? '<span class="etikett tolkad">Tolkad koppling</span>' : ''}
       ${u.ocr ? '<span class="etikett ocr">OCR-citat</span>' : ''}
