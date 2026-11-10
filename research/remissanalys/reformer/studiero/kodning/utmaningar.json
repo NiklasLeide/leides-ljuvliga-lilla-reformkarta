@@ -1,0 +1,1856 @@
+{
+ "_meta": {
+  "steg": "M1 identifiering av utmaningar (modellkodning, Sprint 17; 3 parallella kodare, en per batch av passager, instruktion research/remissanalys/kedja/KODINSTRUKTION.md)",
+  "tolkning": true,
+  "falt": {
+   "uid": "utmaningens id",
+   "id": "passage-id",
+   "citat": "ordagrann delsträng ur passagen",
+   "oppen_kod": "kodarens öppna kod (spårbarhet; visas aldrig)",
+   "beskrivning": "kodarens beskrivning (spårbarhet; visas aldrig)"
+  }
+ },
+ "utmaningar": [
+  {
+   "uid": "U001",
+   "id": "almega-utbildning#4",
+   "citat": "Dessa bygger dock ofta på att det redan finns ett starkt och tydligt ledarskap i skolan för att förslagen ska kunna fungera väl.",
+   "oppen_kod": "förutsätter starkt skolledarskap",
+   "beskrivning": "Förslagens funktion förutsätter ett starkt ledarskap som inte finns överallt i skolorna."
+  },
+  {
+   "uid": "U002",
+   "id": "almega-utbildning#5",
+   "citat": "Men det krävs också att ledarskapet i skolan stärks på andra sätt, exempelvis genom kompetensutveckling och fortbildning i ledarskap, för att de förslag utredningen lägger också ska landa och få effekt i skolan på ett bra sätt.",
+   "oppen_kod": "behov av ledarskapsfortbildning",
+   "beskrivning": "Huvudmannen behöver stärka skolledarskapet genom kompetensutveckling för att förslagen ska få effekt."
+  },
+  {
+   "uid": "U003",
+   "id": "almega-utbildning#5",
+   "citat": "För skolan innebär det därför en svår balansgång att upprätthålla studieron i klassrummet, samtidigt som elever som behöver det också måste få stöd för att kunna få sin rätt till undervisning tillgodosedd.",
+   "oppen_kod": "balans studiero och särskilt stöd",
+   "beskrivning": "Skolan måste balansera studiero mot elevers rätt till stöd, vilket är svårt i praktiken."
+  },
+  {
+   "uid": "U004",
+   "id": "almega-utbildning#5",
+   "citat": "Såsom framförts ovan, kan ett gott ledarskap också borga för en god tillämpning av bestämmelserna, medan det annars kan finnas risk att åtgärderna ”överanvänds” även i fall då det inte är proportionerligt.",
+   "oppen_kod": "risk för oproportionerlig tillämpning",
+   "beskrivning": "Utan gott ledarskap riskerar skolorna att överanvända de ingripande åtgärderna."
+  },
+  {
+   "uid": "U005",
+   "id": "almega-utbildning#8",
+   "citat": "Ytterligare en avvägning som kan bli svår i tillämpningen är att vårdnadshavares inflytande över utbildningen ska minska.",
+   "oppen_kod": "svår tillämpning minskat vårdnadshavarinflytande",
+   "beskrivning": "Det minskade vårdnadshavarinflytandet blir en svår avvägning för skolorna att tillämpa."
+  },
+  {
+   "uid": "U006",
+   "id": "almega-utbildning#8",
+   "citat": "kan vi också konstatera utifrån Skolverkets undersökningar, att det faktiskt brister rent generellt i alla skolors förmåga att sätta in adekvata stödåtgärder, ofta med hänvisning till resursbrist.",
+   "oppen_kod": "resursbrist för stödåtgärder",
+   "beskrivning": "Skolor saknar resurser för att sätta in adekvata stödåtgärder."
+  },
+  {
+   "uid": "U007",
+   "id": "almega-utbildning#9",
+   "citat": "Vi vill dock särskilt trycka på vikten av bättre stödmaterial och framför allt praxissamlingar för att underlätta skolpersonals kunskap om hur de kan agera på ett proportionerligt och lämpligt sätt.",
+   "oppen_kod": "behov av stödmaterial och praxis",
+   "beskrivning": "Skolpersonalen behöver stödmaterial och praxis för att veta hur de kan agera proportionerligt."
+  },
+  {
+   "uid": "U008",
+   "id": "almega-utbildning#10",
+   "citat": "Vid en genomgång av Barn- och elevombudets hantering av ärenden framgår att kraven på skriftlig dokumentation är oerhört omfattande och ställer krav på orimligt tidskrävande handläggning på den skola där ärendet inträffat.",
+   "oppen_kod": "tidskrävande dokumentation kränkningsärenden",
+   "beskrivning": "Kraven på dokumentation i kränkningsärenden ger skolorna orimligt tidskrävande handläggning."
+  },
+  {
+   "uid": "U009",
+   "id": "almega-utbildning#10",
+   "citat": "Men det riskerar också att föra med sig att skolorna backar i att upprätthålla trygghet och studiero för att inte riskera ett kränkningsärende.",
+   "oppen_kod": "rädsla för kränkningsärenden",
+   "beskrivning": "Risken för kränkningsärenden kan få skolorna att avstå från att ingripa."
+  },
+  {
+   "uid": "U010",
+   "id": "almega-utbildning#11",
+   "citat": "Mindre fristående skolenheter har svårigheter att själva anordna akutskola och saknar ofta lokaler för att undervisa elever enskilt.",
+   "oppen_kod": "små skolor saknar akutskolelokaler",
+   "beskrivning": "Mindre fristående skolenheter har svårt att anordna akutskola och saknar lokaler."
+  },
+  {
+   "uid": "U011",
+   "id": "almega-utbildning#12",
+   "citat": "Samtidigt ställer fjärr- och distansundervisning vid nekat tillträde till skolan krav på att det finns förutsättningar för att organisera för denna typ av undervisningsform. De lärare som finns på skolan är redan uppbundna av ordinarie undervisning och det finns därutöver litet utrymme att planera för och genomföra undervisning i digital form.",
+   "oppen_kod": "lärare saknar tid för distansundervisning",
+   "beskrivning": "Skolan har svårt att organisera fjärr- och distansundervisning eftersom lärarna redan är fullt upptagna."
+  },
+  {
+   "uid": "U012",
+   "id": "almega-utbildning#12",
+   "citat": "Här finns också ett behov av stödmaterial i någon form för att klargöra när det föreligger synnerliga skäl för att neka en elev tillträde till skolan.",
+   "oppen_kod": "oklart när synnerliga skäl föreligger",
+   "beskrivning": "Det är oklart för skolorna när synnerliga skäl för nekat tillträde föreligger."
+  },
+  {
+   "uid": "U013",
+   "id": "almega-utbildning#13",
+   "citat": "Det kan alltså finnas problem kring integritetsfrågorna i ett sådant register.",
+   "oppen_kod": "integritetsproblem i frånvaroregister",
+   "beskrivning": "Frånvaroregistret kan medföra integritetsproblem."
+  },
+  {
+   "uid": "U014",
+   "id": "bastad-kommun#2",
+   "citat": "Däremot gör Båstads kommun bedömningen att rektorer och personal fortsatt kommer att behöva dokumentera både kvarsittningar och utvisningar, dels för skolans fortsatta arbete, dels för att till exempel kunna förse socialtjänsten med information om en elevs skolsituation.",
+   "oppen_kod": "dokumentationsbehov kvarstår ändå",
+   "beskrivning": "Skolorna kommer ändå behöva dokumentera kvarsittningar och utvisningar trots att kravet tas bort."
+  },
+  {
+   "uid": "U015",
+   "id": "bastad-kommun#2",
+   "citat": "Båstads kommun kan se att en sådan disciplinär åtgärd hade kunnat fylla sitt syfte i enstaka elevsituationer men efterfrågar förtydliganden kring vad som kan anses vara synnerliga skäl i en sådan situation.",
+   "oppen_kod": "oklara synnerliga skäl nekat tillträde",
+   "beskrivning": "Det är oklart vad som utgör synnerliga skäl för att neka tillträde."
+  },
+  {
+   "uid": "U016",
+   "id": "bastad-kommun#3",
+   "citat": "Däremot befarar Båstads kommun att utredningens förslag skulle kunna innebära fler administrativa uppgifter och ett utökat ansvar som i praktiken inte nödvändigtvis är verksamhetsnära.",
+   "oppen_kod": "ökad administration för rektorer",
+   "beskrivning": "Förslagen kan ge rektorerna fler administrativa uppgifter och utökat ansvar."
+  },
+  {
+   "uid": "U017",
+   "id": "bastad-kommun#3",
+   "citat": "I motsats till vad som framförs i utredningen, anser Båstads kommun att det inte är tillräckligt att huvudmannen är noggrant organiserad utifrån en samlad strategi och styrning för att det verksamhetsnära ledarskapet ska fungera.",
+   "oppen_kod": "huvudmannens styrning räcker inte",
+   "beskrivning": "Huvudmannens organisering räcker inte för att det verksamhetsnära ledarskapet ska fungera."
+  },
+  {
+   "uid": "U018",
+   "id": "bastad-kommun#3",
+   "citat": "För det fall de riktade statsbidragen omfördelas till allmänna statsbidrag, kommer små kommuner och andra mindre enskilda huvudmän att missgynnas.",
+   "oppen_kod": "små huvudmän missgynnas finansiellt",
+   "beskrivning": "Omfördelning av statsbidrag missgynnar små kommuner och mindre enskilda huvudmän."
+  },
+  {
+   "uid": "U019",
+   "id": "bastad-kommun#3",
+   "citat": "Att som mindre kommun anordna en akutskola i egen regi menar Båstads kommun inte är möjligt med dagens finansieringssystem genom elevpeng och enbart generella statsbidrag.",
+   "oppen_kod": "akutskola ofinansierbar för småkommun",
+   "beskrivning": "En mindre kommun kan inte finansiera en egen akutskola med nuvarande system."
+  },
+  {
+   "uid": "U020",
+   "id": "bastad-kommun#3",
+   "citat": "Svårigheten för en landsortskommun kan däremot även bestå i en rent geografisk fråga där avståndet till en annan skolhuvudman är både långt och utanför kommungränsen. Det kan i sin tur generera höga kostnader för bland annat skolskjuts.",
+   "oppen_kod": "geografiska avstånd och skolskjutskostnader",
+   "beskrivning": "Långa avstånd till andra huvudmän gör akutskola på entreprenad kostsam för landsortskommuner."
+  },
+  {
+   "uid": "U021",
+   "id": "bastad-kommun#3",
+   "citat": "Den ekonomiska kompensationen från staten av yttersta vikt för kommunernas förutsättningar att fullfölja de förändringar som utredningen föreslår.",
+   "oppen_kod": "behov av statlig kompensation",
+   "beskrivning": "Kommunerna behöver ekonomisk kompensation från staten för att genomföra förändringarna."
+  },
+  {
+   "uid": "U022",
+   "id": "gnesta-kommun#2",
+   "citat": "men ser en del svårigheter i genomförandet gällande framförallt användandet av förväntansdokument, frånvarohantering och elever som utvisas ur klassrummet.",
+   "oppen_kod": "svårigheter i genomförandet",
+   "beskrivning": "Kommunen ser genomförandesvårigheter kring förväntansdokument, frånvaro och utvisning."
+  },
+  {
+   "uid": "U023",
+   "id": "gnesta-kommun#3",
+   "citat": "Skolorna kommer sannolikt behöva förstärkning i personalgruppen för att möta de elever som blir utvisade.",
+   "oppen_kod": "personalförstärkning för utvisade elever",
+   "beskrivning": "Skolorna behöver mer personal för att ta hand om utvisade elever."
+  },
+  {
+   "uid": "U024",
+   "id": "gnesta-kommun#3",
+   "citat": "Eleven har fortfarande skolplikt och rätt till undervisningstid. Om elever upprepat stör ordningen, hur tillgodoser vi skolplikt och undervisningstiden?",
+   "oppen_kod": "tillgodose undervisningstid vid utvisning",
+   "beskrivning": "Det är oklart hur skolan ska tillgodose undervisningstiden för upprepat utvisade elever."
+  },
+  {
+   "uid": "U025",
+   "id": "gnesta-kommun#3",
+   "citat": "Vad händer med elever som går i särskilda undervisningsgrupper, blir man utvisad därifrån också och vart ska man då?",
+   "oppen_kod": "utvisning från särskild undervisningsgrupp",
+   "beskrivning": "Det är oklart hur utvisning ska hanteras för elever i särskilda undervisningsgrupper."
+  },
+  {
+   "uid": "U026",
+   "id": "gnesta-kommun#3",
+   "citat": "vilket kommer innebära att fler särskilda undervisningsgrupper skapas och med det en dyrare skola.",
+   "oppen_kod": "fler särskilda grupper ökar kostnad",
+   "beskrivning": "Fler särskilda undervisningsgrupper behövs, vilket gör skolan dyrare."
+  },
+  {
+   "uid": "U027",
+   "id": "gnesta-kommun#7",
+   "citat": "Gnesta kommun anser att det är konsekvenser som riskerar att bli tandlösa då upprepade tillsägningar, samtal med vårdnadshavare, rektor osv inte får några effekter på barnets beteende",
+   "oppen_kod": "tandlösa konsekvenser i konsekvensplan",
+   "beskrivning": "Konsekvensplanens åtgärder riskerar att sakna effekt för vissa elever."
+  },
+  {
+   "uid": "U028",
+   "id": "gnesta-kommun#8",
+   "citat": "Att införa ett skriftligt dokument utan tydliga konsekvenser vid bristande efterlevnad riskerar att skapa en större klyfta mellan vårdnadshavare och skola, snarare än att främja en gemensam agenda.",
+   "oppen_kod": "förväntansdokument skapar klyfta",
+   "beskrivning": "Förväntansdokumentet riskerar att försämra relationen mellan skola och vårdnadshavare."
+  },
+  {
+   "uid": "U029",
+   "id": "gnesta-kommun#9",
+   "citat": "Om förslaget innebär att regionen kommer behöva utfärda fler intyg är det en utmaning.",
+   "oppen_kod": "behov av fler läkarintyg",
+   "beskrivning": "Fler intyg från regionen kan bli en utmaning vid frånvarohantering."
+  },
+  {
+   "uid": "U030",
+   "id": "gnesta-kommun#9",
+   "citat": "Kan psykologiska faktorer räknas som giltig frånvaro om det inte finns ett läkarutlåtande i botten, eller är det vårdnadshavare eller skola som ska tolka?",
+   "oppen_kod": "oklar definition av giltig frånvaro",
+   "beskrivning": "Det är oklart vem som avgör om psykologiskt grundad frånvaro är giltig."
+  },
+  {
+   "uid": "U031",
+   "id": "gnesta-kommun#9",
+   "citat": "Om definitionen av sjuk ska bestämmas av skola, innebär det en administrativ ökning som också skulle kunna innebära konflikter med familjer.",
+   "oppen_kod": "ökad administration och konflikter",
+   "beskrivning": "Om skolan ska bedöma sjukdom ökar administrationen och konflikterna med familjer."
+  },
+  {
+   "uid": "U032",
+   "id": "gnesta-kommun#9",
+   "citat": "Man kan också i förlängningen fråga sig huruvida våra anmälningssystem idag, där anmälan sker digitalt, kan hantera den förändringen i definitionen av sjuk, också utifrån hälsa och GDPR.",
+   "oppen_kod": "digitala frånvarosystem räcker inte",
+   "beskrivning": "Befintliga digitala anmälningssystem kanske inte klarar den nya definitionen av sjukfrånvaro."
+  },
+  {
+   "uid": "U033",
+   "id": "gnesta-kommun#9",
+   "citat": "Kommer förslaget innebära att vi kommer behöva gå tillbaka till frånvaroanmälan via telefon ökar arbetsbelastningen markant.",
+   "oppen_kod": "ökad arbetsbelastning frånvaroanmälan",
+   "beskrivning": "Telefonbaserad frånvaroanmälan skulle öka arbetsbelastningen markant."
+  },
+  {
+   "uid": "U034",
+   "id": "gnesta-kommun#9",
+   "citat": "Vår uppfattning idag är dock att regionen inte har tid och resurser att ha en nära samverkan i enskilda individfall.",
+   "oppen_kod": "bristande samverkan med regionen",
+   "beskrivning": "Regionen saknar resurser för nära samverkan med skolan kring frånvaro."
+  },
+  {
+   "uid": "U035",
+   "id": "gnesta-kommun#9",
+   "citat": "men frånvaro är svår att mäta eftersom det har mycket att göra med hur schemat utformas och hur lärarna rapporterar.",
+   "oppen_kod": "frånvaro svår att mäta",
+   "beskrivning": "Frånvaro är svår att mäta jämförbart på grund av schema och rapportering."
+  },
+  {
+   "uid": "U036",
+   "id": "gotlands-kommun#12",
+   "citat": "Om detta ansvar inte kan delegeras, så blir frågan hur en rektor med ansvar för flera enheter ska hinna genomföra handledning och meningsfulla lektionsobservationer.",
+   "oppen_kod": "rektor hinner inte observationer",
+   "beskrivning": "Rektorer med flera enheter hinner inte genomföra handledning och lektionsobservationer om ansvaret inte kan delegeras."
+  },
+  {
+   "uid": "U037",
+   "id": "gotlands-kommun#12",
+   "citat": "Om rektorn ska prioritera undervisningsnära ledarskap så blir frågan vad som behöver bortprioriteras. Administrativa krav och andra styrningsuppgifter ligger ju också kvar.",
+   "oppen_kod": "bortprioritering av andra rektorsuppgifter",
+   "beskrivning": "Undervisningsnära ledarskap tvingar fram bortprioriteringar när administrativa krav ligger kvar."
+  },
+  {
+   "uid": "U038",
+   "id": "gotlands-kommun#12",
+   "citat": "Förslaget lyfter viktiga aspekter men saknar konkreta lösningar för hur rektorer i verkligheten ska kunna utföra detta arbete utan att andra viktiga uppgifter blir påverkade. Det krävs en tydligare plan för resursfördelning och arbetsfördelning inom skolledningen.",
+   "oppen_kod": "oklar resurs- och arbetsfördelning",
+   "beskrivning": "Det saknas en plan för hur resurser och arbete ska fördelas inom skolledningen."
+  },
+  {
+   "uid": "U039",
+   "id": "gotlands-kommun#12",
+   "citat": "Förslaget kan dessutom ge ett ökat tryck i det korsdrag som rektorerna befinner sig i, dvs den svåra avvägningen mellan det statliga, det kommunala och det arbetsmiljörättsliga uppdraget.",
+   "oppen_kod": "ökat tryck i rektors korsdrag",
+   "beskrivning": "Förslaget ökar trycket i rektorns avvägning mellan statligt, kommunalt och arbetsmiljörättsligt uppdrag."
+  },
+  {
+   "uid": "U040",
+   "id": "gotlands-kommun#12",
+   "citat": "Region Gotland vill samtidigt uppmärksamma att särskilt små skolor med få elever, som redan idag inte har samma förutsättningar som större skolenheter, kan få svårigheter att kunna uppnå ökade krav på ansvar och befogenheter.",
+   "oppen_kod": "små skolor klarar inte kraven",
+   "beskrivning": "Små skolor med få elever kan få svårt att leva upp till de ökade kraven."
+  },
+  {
+   "uid": "U041",
+   "id": "gotlands-kommun#13",
+   "citat": "Att enbart rektorn ska genomföra observationer riskerar att leda till färre insatser och en sämre helhetsbild.",
+   "oppen_kod": "observationer enbart av rektor",
+   "beskrivning": "Krav på att bara rektorn observerar lektioner riskerar färre insatser och sämre helhetsbild."
+  },
+  {
+   "uid": "U042",
+   "id": "gotlands-kommun#14",
+   "citat": "skolorganisation blir det dessutom orimligt att förvänta sig att en enskild rektor själv kan hålla sig uppdaterad på alla lektioner och undervisningssituationer.",
+   "oppen_kod": "orimligt i stora organisationer",
+   "beskrivning": "I större skolorganisationer kan en enskild rektor inte hålla sig uppdaterad på all undervisning."
+  },
+  {
+   "uid": "U043",
+   "id": "gotlands-kommun#15",
+   "citat": "Förslaget konstaterar att huvudmannen måste ge bättre förutsättningar, men erbjuder samtidigt ingen konkret lösning.",
+   "oppen_kod": "huvudmannens förutsättningsansvar oklart",
+   "beskrivning": "Huvudmannen ska ge bättre förutsättningar men förslaget anger inte hur."
+  },
+  {
+   "uid": "U044",
+   "id": "gotlands-kommun#15",
+   "citat": "Om en rektor får mer ansvar men inga ökade resurser eller tid, blir det en belastning snarare än en möjlighet att förbättra studieron.",
+   "oppen_kod": "mer ansvar utan resurser",
+   "beskrivning": "Utökat rektorsansvar utan resurser eller tid blir en belastning."
+  },
+  {
+   "uid": "U045",
+   "id": "gotlands-kommun#15",
+   "citat": "Om en rektor ska kunna genomföra observationer och handledning i en stor och spridd organisation, krävs det mer än bara ”strategisk styrning”, det kräver faktiska strukturella förändringar.",
+   "oppen_kod": "kräver strukturella förändringar",
+   "beskrivning": "Observationer och handledning i spridda organisationer kräver strukturella förändringar hos huvudmannen."
+  },
+  {
+   "uid": "U046",
+   "id": "gotlands-kommun#16",
+   "citat": "Det är tydligt att det finns ett behov av skolpersonal med adekvat kompetens som tar emot eleven utanför klassrummet och att det finns behov av personal som kan avlasta lärare i arbetet med tryggheten och studieron.",
+   "oppen_kod": "behov av mottagande personal",
+   "beskrivning": "Skolorna behöver kompetent personal som tar emot utvisade elever och avlastar lärare."
+  },
+  {
+   "uid": "U047",
+   "id": "gotlands-kommun#16",
+   "citat": "Personalbrist och kompetensförsörjning är ett stort problem, liksom att försöka få en kortsiktig ekonomi och budget i balans. Här lägger förslaget ytterligare uttalad tidsbörda på rektor utan möjlighet att organisera arbetet på ett, för den enskilda skolan, hållbart sätt.",
+   "oppen_kod": "ökad tidsbörda vid personalbrist",
+   "beskrivning": "Förslaget ökar rektorns tidsbörda trots personalbrist och ansträngd budget."
+  },
+  {
+   "uid": "U048",
+   "id": "gotlands-kommun#17",
+   "citat": "Samtidigt finns en risk att den administrativa bördan som följer av ett nationellt frånvaroregister belastar skolpersonalens arbetssituation.",
+   "oppen_kod": "administrativ börda frånvaroregister",
+   "beskrivning": "Frånvaroregistret riskerar att öka skolpersonalens administrativa börda."
+  },
+  {
+   "uid": "U049",
+   "id": "gotlands-kommun#17",
+   "citat": "Detta förutsätter dock nationella riktlinjer som tydligt definierar vad som räknas som giltig respektive ogiltig frånvaro för att bli jämförbart.",
+   "oppen_kod": "behov av tydliga frånvarodefinitioner",
+   "beskrivning": "Jämförbarhet kräver nationella riktlinjer för giltig och ogiltig frånvaro."
+  },
+  {
+   "uid": "U050",
+   "id": "gotlands-kommun#17",
+   "citat": "Som systemet är utformat idag har skolan, på grund av dataskyddsförordningen (GDPR), ingen möjlighet att ange om en elev exempelvis är sjuk, vilket gör att frånvarounderlaget är svårtolkat.",
+   "oppen_kod": "GDPR hindrar frånvaroregistrering",
+   "beskrivning": "Dataskyddsregler hindrar skolan från att registrera sjukdom, vilket gör frånvarounderlaget svårtolkat."
+  },
+  {
+   "uid": "U051",
+   "id": "gotlands-kommun#19",
+   "citat": "Alla ändringar måste vara finansierade från början så att ansvaret inte läggs på redan tungt ekonomiskt belastade kommuner och regioner.",
+   "oppen_kod": "krav på full finansiering",
+   "beskrivning": "Ändringarna riskerar att belasta redan ekonomiskt pressade kommuner om de inte finansieras."
+  },
+  {
+   "uid": "U052",
+   "id": "gotlands-kommun#21",
+   "citat": "Skolor med begränsade resurser kan få svårt att leva upp till de nya kraven, vilket kan skapa ojämlikhet mellan skolor.",
+   "oppen_kod": "resurssvaga skolor klarar ej",
+   "beskrivning": "Skolor med begränsade resurser kan få svårt att leva upp till kraven, vilket ger ojämlikhet."
+  },
+  {
+   "uid": "U053",
+   "id": "gotlands-kommun#21",
+   "citat": "Det finns även en risk för godtycklig tillämpning av reglerna, där vissa elever drabbas hårdare än andra beroende på skolledningens tolkning av regelverket.",
+   "oppen_kod": "risk för godtycklig tillämpning",
+   "beskrivning": "Regelverket kan tillämpas godtyckligt beroende på skolledningens tolkning."
+  },
+  {
+   "uid": "U054",
+   "id": "gotlands-kommun#22",
+   "citat": "Skolor i socialt utsatta områden, där behovet av trygghet ofta är störst, kan få svårare att implementera förslagen på grund av hög arbetsbelastning och brist på personal med rätt kompetens utifrån skolans behov.",
+   "oppen_kod": "utsatta områden svårt implementera",
+   "beskrivning": "Skolor i utsatta områden har svårt att implementera förslagen på grund av arbetsbelastning och kompetensbrist."
+  },
+  {
+   "uid": "U055",
+   "id": "gotlands-kommun#24",
+   "citat": "Om en elev blir utvisad eller får kvarsittning utan dokumentation saknas spårbarhet och möjlighet att granska besluten i efterhand.",
+   "oppen_kod": "saknad spårbarhet utan dokumentation",
+   "beskrivning": "Utan dokumentation saknas spårbarhet och möjlighet att granska beslut."
+  },
+  {
+   "uid": "U056",
+   "id": "gotlands-kommun#24",
+   "citat": "Om vårdnadshavare eller eleven själv ifrågasätter åtgärden finns det inget skriftligt underlag att hänvisa till, vilket gör det svårt att föra en rättssäker diskussion.",
+   "oppen_kod": "inget underlag vid ifrågasättande",
+   "beskrivning": "Skolan saknar skriftligt underlag när åtgärder ifrågasätts av vårdnadshavare eller elev."
+  },
+  {
+   "uid": "U057",
+   "id": "gotlands-kommun#25",
+   "citat": "Förslaget medger att milda men frekventa störningar kan signalera djupare problem, men om dessa åtgärder inte dokumenteras, hur ska personal och rektor då kunna identifiera och analysera sådana mönster?",
+   "oppen_kod": "svårt identifiera mönster",
+   "beskrivning": "Utan dokumentation kan personal och rektor inte identifiera mönster i ordningsstörningar."
+  },
+  {
+   "uid": "U058",
+   "id": "gotlands-kommun#25",
+   "citat": "Frågan är samtidigt vilka merkostnader ett sådant förslag, särskilt kring administrationen och organisationen av undervisningen, skulle innebära för en skola.",
+   "oppen_kod": "merkostnader distansundervisning nekat tillträde",
+   "beskrivning": "Fjärr- och distansundervisning vid nekat tillträde kan ge skolan merkostnader för administration och organisation."
+  },
+  {
+   "uid": "U059",
+   "id": "gotlands-kommun#26",
+   "citat": "Förslaget lägger fortsatt ansvar på rektorn att utreda upprepade ordningsproblem men tar samtidigt bort en systematisk metod för att samla in information om dem.",
+   "oppen_kod": "utredningsansvar utan informationsmetod",
+   "beskrivning": "Rektorn ska utreda ordningsproblem men förlorar ett systematiskt sätt att samla information."
+  },
+  {
+   "uid": "U060",
+   "id": "gotlands-kommun#27",
+   "citat": "bristfälliga och subjektiva, eller införa egna dokumentationsrutiner vilket då ändå skapar administration men utan enhetlighet.",
+   "oppen_kod": "egna rutiner utan enhetlighet",
+   "beskrivning": "Rektorn måste införa egna dokumentationsrutiner som skapar administration utan enhetlighet."
+  },
+  {
+   "uid": "U061",
+   "id": "gotlands-kommun#28",
+   "citat": "Men det beskrivs inte hur detta ska organiseras och om det ska finnas särskilda resursteam.",
+   "oppen_kod": "oklar organisering av stödpersonal",
+   "beskrivning": "Det är oklart hur stödpersonal för elever utanför klassrummet ska organiseras."
+  },
+  {
+   "uid": "U062",
+   "id": "gotlands-kommun#28",
+   "citat": "Om lösningen på ordningsproblem är att skolan själv måste organisera mer stödpersonal, riskerar detta att slå hårt mot skolor som redan har knappa resurser.",
+   "oppen_kod": "stödpersonal belastar knappa resurser",
+   "beskrivning": "Krav på mer stödpersonal slår hårt mot skolor med knappa resurser."
+  },
+  {
+   "uid": "U063",
+   "id": "gotlands-kommun#28",
+   "citat": "Vad händer om en skola inte har möjlighet att ge den avlastning som föreslås, blir då exkludering eller avstängning den enda möjliga lösningen?",
+   "oppen_kod": "avsaknad avlastning leder till exkludering",
+   "beskrivning": "Skolor utan möjlighet till avlastning kan tvingas till exkludering eller avstängning."
+  },
+  {
+   "uid": "U064",
+   "id": "gotlands-kommun#28",
+   "citat": "Det är positivt att förslaget lyfter riskerna för barnen vid exkludering från klassrummet, men det saknas en tydlig strategi för hur man kan balansera trygghet och inkludering.",
+   "oppen_kod": "saknad strategi trygghet och inkludering",
+   "beskrivning": "Det saknas en strategi för hur skolan ska balansera trygghet och inkludering."
+  },
+  {
+   "uid": "U065",
+   "id": "haninge-kommun#2",
+   "citat": "Ett mer disciplinerat förhållningssätt skapar sannolikt bättre förutsättningar för studiero men ställer också höga krav på att bygga starka och förtroendefulla relationer för att elever ska känna sig trygga och motiverade att lära.",
+   "oppen_kod": "höga krav på relationsarbete",
+   "beskrivning": "Ett mer disciplinerat förhållningssätt ställer höga krav på skolornas relationsskapande arbete."
+  },
+  {
+   "uid": "U066",
+   "id": "haninge-kommun#10",
+   "citat": "Om förslaget ska genomföras är bedömningen att det blir viktigt med en tydlig definition av ”bestäms” som tydliggör distinktionen mot rektors ansvar som pedagogisk ledare.",
+   "oppen_kod": "oklart begrepp bestäms",
+   "beskrivning": "Det är oklart hur lärarens rätt att bestämma undervisningen förhåller sig till rektors pedagogiska ansvar."
+  },
+  {
+   "uid": "U067",
+   "id": "haninge-kommun#37",
+   "citat": "Avseende förslaget att en elev ska kunna nekas tillträde till skolenheten om synnerliga skäl föreligger vill Haninge kommun framhålla risken med att det inte finns någon tidsgräns för hur länge en sådan åtgärd ska kunna fortgå.",
+   "oppen_kod": "saknad tidsgräns nekat tillträde",
+   "beskrivning": "Det saknas en tidsgräns för hur länge nekat tillträde får pågå."
+  },
+  {
+   "uid": "U068",
+   "id": "haninge-kommun#41",
+   "citat": "Haninge kommun ställer sig positiv till en sådan översyn då regleringen så som den är utformad idag medför en omfattande administrativ börda för skolpersonal.",
+   "oppen_kod": "administrativ börda kränkningsreglering",
+   "beskrivning": "Dagens reglering om kränkande behandling ger skolpersonalen en omfattande administrativ börda."
+  },
+  {
+   "uid": "U069",
+   "id": "hudiksvalls-kommun#5",
+   "citat": "kan en definition av begreppet ”begränsad omfattning” vara behövlig eftersom förändringen innebär en relativt stor förändring jämfört med tidigare lydelse.",
+   "oppen_kod": "oklart begrepp begränsad omfattning",
+   "beskrivning": "Begreppet begränsad omfattning för vårdnadshavares inflytande behöver definieras."
+  },
+  {
+   "uid": "U070",
+   "id": "hudiksvalls-kommun#6",
+   "citat": "Hudiksvalls kommun har inga synpunkter på de förslag till förändringar av skollagen som anges i punkt. 4.1, men ser både organisatoriska och ekonomiska utmaningar i att genomföra dem i praktiken.",
+   "oppen_kod": "organisatoriska och ekonomiska genomförandeutmaningar",
+   "beskrivning": "Åtgärderna i avsnitt 4.1 är organisatoriskt och ekonomiskt svåra att genomföra."
+  },
+  {
+   "uid": "U071",
+   "id": "hudiksvalls-kommun#6",
+   "citat": "även om kommunens möjligheter att till exempel organisera en akutskola kan vara begränsade, särskilt parallellt med kommunens pågående arbete i resursskolan samt med BUP-skola.",
+   "oppen_kod": "begränsad möjlighet organisera akutskola",
+   "beskrivning": "Kommunen har begränsade möjligheter att organisera en akutskola parallellt med andra verksamheter."
+  },
+  {
+   "uid": "U072",
+   "id": "hudiksvalls-kommun#6",
+   "citat": "Risken med fler begrepp är att definitioner och gränsdragningar försvåras, med risk för otydlighet och osäkerhet i utredning, rapportering och uppföljning av kränkningsärenden.",
+   "oppen_kod": "mobbningsbegrepp försvårar gränsdragning",
+   "beskrivning": "Ett nytt mobbningsbegrepp kan skapa otydlighet i utredning och uppföljning av kränkningsärenden."
+  },
+  {
+   "uid": "U073",
+   "id": "ideburna-skolors-riksforbund#5",
+   "citat": "ISR ser en risk att förslagen om de tre nya dokumenten – skolregler, konsekvensplan och förväntansdokument - blir en betungande administrativ uppgift.",
+   "oppen_kod": "betungande nya styrdokument",
+   "beskrivning": "Skolregler, konsekvensplan och förväntansdokument riskerar att bli en betungande administrativ uppgift."
+  },
+  {
+   "uid": "U074",
+   "id": "ideburna-skolors-riksforbund#9",
+   "citat": "Att ge vårdnadshavare begränsat inflytande kräver därför en tydlighet i fråga om vad denna begränsning i olika sammanhang innebär rent konkret.",
+   "oppen_kod": "oklar innebörd begränsat inflytande",
+   "beskrivning": "Det är oklart vad begränsat vårdnadshavarinflytande konkret innebär i olika sammanhang."
+  },
+  {
+   "uid": "U075",
+   "id": "ideburna-skolors-riksforbund#9",
+   "citat": "ISR är dock medvetet om att en bestämmelse av detta slag kan leda till konflikt mellan skolans personal och vårdnadshavare, eftersom undervisning i skolan av föräldrar inte sällan upplevs som bristfällig.",
+   "oppen_kod": "konflikt med vårdnadshavare",
+   "beskrivning": "Begränsat inflytande kan leda till konflikter mellan skolpersonal och vårdnadshavare."
+  },
+  {
+   "uid": "U076",
+   "id": "ideburna-skolors-riksforbund#10",
+   "citat": "ISR ser en risk att dessa tre dokument blir en betungande administrativ uppgift att genomföra men vill ändå inte motsätta oss deras införande.",
+   "oppen_kod": "betungande nya styrdokument",
+   "beskrivning": "De tre nya dokumenten riskerar att bli en betungande administrativ uppgift."
+  },
+  {
+   "uid": "U077",
+   "id": "ideburna-skolors-riksforbund#10",
+   "citat": "Lärare lär komma att bli nära inblandade i framtagandet av skolplanen och konsekvensdokumentet, vilket inte lär minska den administrativa bördan.",
+   "oppen_kod": "ökad administrativ börda för lärare",
+   "beskrivning": "Lärarnas medverkan i skolregler och konsekvensplan ökar deras administrativa börda."
+  },
+  {
+   "uid": "U078",
+   "id": "ideburna-skolors-riksforbund#10",
+   "citat": "ISR är positivt till detta tillägg men vill påpeka att formuleringen ”finns förutsättningar för” är svår att konkret tillämpa. Här fordras ett förtydligande hur dessa förutsättningar i förväg ska tillskapas för att i akuta situationer kunna tillämpas.",
+   "oppen_kod": "oklar formulering finns förutsättningar",
+   "beskrivning": "Det är oklart hur rektorn konkret ska skapa förutsättningar för omedelbara åtgärder."
+  },
+  {
+   "uid": "U079",
+   "id": "ideburna-skolors-riksforbund#11",
+   "citat": "ISR vill också påpeka att detta fordrar tillgång till så kallade akutskolor för placering från såväl kommunala som fristående skolor.",
+   "oppen_kod": "kräver tillgång till akutskolor",
+   "beskrivning": "Placering i akutskola förutsätter att akutskolor finns tillgängliga för både kommunala och fristående skolor."
+  },
+  {
+   "uid": "U080",
+   "id": "ideburna-skolors-riksforbund#12",
+   "citat": "Ett tydligt problem som finns vid de små fristående skolorna är att finna lösningar när en elev så svårt stör verksamheten över tid att detta allvarligt påverkar andra elevers trygghet och studiero.",
+   "oppen_kod": "små friskolor saknar lösningar",
+   "beskrivning": "Små fristående skolor har svårt att hitta lösningar för elever som allvarligt stör över tid."
+  },
+  {
+   "uid": "U081",
+   "id": "ideburna-skolors-riksforbund#12",
+   "citat": "Men problemet är ändå att sådana akutskolor med stor sannolikhet inte kommer att finnas över hela landet.",
+   "oppen_kod": "akutskolor saknas i landet",
+   "beskrivning": "Akutskolor kommer sannolikt inte att finnas i hela landet."
+  },
+  {
+   "uid": "U082",
+   "id": "ideburna-skolors-riksforbund#13",
+   "citat": "Vad händer om andra elevers trygghet och studiero inte kan garanteras efter dessa åtta veckor? Var placeras eleven då?",
+   "oppen_kod": "för kort akutskoleplacering",
+   "beskrivning": "Det är oklart var eleven ska placeras om tryggheten inte kan garanteras efter åtta veckor."
+  },
+  {
+   "uid": "U083",
+   "id": "ideburna-skolors-riksforbund#13",
+   "citat": "Men en tillfällig placering vid en akutskola, med den särskilda pedagogiska kompetens som måste finnas där, riskerar att inte ha avsedd verkan ifall placeringstiden blir för kort.",
+   "oppen_kod": "kort placering ger otillräcklig verkan",
+   "beskrivning": "En för kort placeringstid riskerar att göra akutskolan verkningslös."
+  },
+  {
+   "uid": "U084",
+   "id": "ideburna-skolors-riksforbund#14",
+   "citat": "Ett visst problem idag är tolkningen av avstängningstiden. I skollagen sägs i nuvarande 5 kapitel 15 paragraf att en elev inte får stängas av under längre tid än en vecka och vid högst två tillfällen per kalenderhalvår. Vad som avses med ”vecka” framgår inte av lagstiftning eller förarbeten.",
+   "oppen_kod": "oklart begrepp vecka vid avstängning",
+   "beskrivning": "Det är oklart om en avstängningsvecka avser fem skoldagar eller en kalendervecka."
+  },
+  {
+   "uid": "U085",
+   "id": "jonkopings-kommun#1",
+   "citat": "I de senare fallen får skolan dagligen hantera situationer som ligger utanför skolans egentliga uppdrag och som inte sällan ställer krav på nära samverkan med andra aktörer och instanser.",
+   "oppen_kod": "situationer utanför skolans uppdrag",
+   "beskrivning": "Skolan måste hantera allvarliga situationer utanför sitt uppdrag som kräver samverkan med andra aktörer."
+  },
+  {
+   "uid": "U086",
+   "id": "knivsta-kommun#22",
+   "citat": "Nationellt frånvaroregister väcker oro kring integritet och administrativ belastning.",
+   "oppen_kod": "frånvaroregister administrativ belastning",
+   "beskrivning": "Ett nationellt frånvaroregister riskerar att ge skolorna ökad administrativ belastning och integritetsproblem."
+  },
+  {
+   "uid": "U087",
+   "id": "knivsta-kommun#23",
+   "citat": "Oklart hur skolor ska hantera elever som utestängs eller placeras i annan grupp – risk för marginalisering.",
+   "oppen_kod": "oklar hantering av omplacerade elever",
+   "beskrivning": "Det är oklart hur skolorna ska hantera elever som stängs ute eller omplaceras."
+  },
+  {
+   "uid": "U088",
+   "id": "knivsta-kommun#24",
+   "citat": "Förväntansdokument för vårdnadshavare ifrågasätts som ansvarsförskjutning från hem till skola.",
+   "oppen_kod": "ansvarsförskjutning till skolan",
+   "beskrivning": "Förväntansdokumentet kan flytta ansvar från hemmet till skolan."
+  },
+  {
+   "uid": "U089",
+   "id": "knivsta-kommun#25",
+   "citat": "Skillnaden mellan skolregler och befintlig lagstiftning är otydlig.",
+   "oppen_kod": "otydlig relation skolregler–lag",
+   "beskrivning": "Det är otydligt hur skolreglerna förhåller sig till befintlig lagstiftning."
+  },
+  {
+   "uid": "U090",
+   "id": "knivsta-kommun#26",
+   "citat": "Risk för att åtgärder blir symboliska om inte resurser tillförs i praktiken.",
+   "oppen_kod": "resurser saknas för genomförande",
+   "beskrivning": "Utan tillförda resurser riskerar åtgärderna att bli symboliska för huvudmannen."
+  },
+  {
+   "uid": "U091",
+   "id": "knivsta-kommun#28",
+   "citat": "Tydlig finansiering och likvärdiga förutsättningar för genomförande.",
+   "oppen_kod": "behov av tydlig finansiering",
+   "beskrivning": "Huvudmannen behöver tydlig finansiering och likvärdiga förutsättningar för att genomföra förslagen."
+  },
+  {
+   "uid": "U092",
+   "id": "knivsta-kommun#30",
+   "citat": "Utveckling av strukturer för omplaceringar och avstängningar så att elever inte lämnas utan stöd.",
+   "oppen_kod": "strukturer för omplacering saknas",
+   "beskrivning": "Huvudmannen behöver utveckla strukturer för omplaceringar och avstängningar så att elever får stöd."
+  },
+  {
+   "uid": "U093",
+   "id": "kungsbacka-kommun#2",
+   "citat": "För att rektor i praktiken ska få förutsättningar att kunna ta detta ansvar krävs att huvudmannen också tilldelar varje skolenhet tillräckligt med resurser och vid behov ser över de organisatoriska förutsättningarna.",
+   "oppen_kod": "resurser för rektors ansvar",
+   "beskrivning": "Rektors utökade ansvar kräver att huvudmannen tilldelar resurser och ser över organisationen."
+  },
+  {
+   "uid": "U094",
+   "id": "kungsbacka-kommun#2",
+   "citat": "Kommunen noterar dock att förslagets positiva effekter kan variera beroende på hur förslaget implementeras och den specifika skolans förutsättningar.",
+   "oppen_kod": "effekt beror på implementering",
+   "beskrivning": "Effekten av slopad dokumentation beror på hur den implementeras och skolans förutsättningar."
+  },
+  {
+   "uid": "U095",
+   "id": "kungsbacka-kommun#2",
+   "citat": "I praktiken är det också möjligt att rektor fortsatt kommer önska dokumentation av lärare för att kunna visa vad skolan har gjort.",
+   "oppen_kod": "dokumentation kvarstår i praktiken",
+   "beskrivning": "Dokumentationsbördan kan i praktiken kvarstå eftersom rektor behöver visa vad skolan gjort."
+  },
+  {
+   "uid": "U096",
+   "id": "kungsbacka-kommun#2",
+   "citat": "För att rektor ska få förutsättningar att organisera sin verksamhet så att det finns avlastande funktioner och personal och att rektorn själv ska få förutsättningar att utöva ett undervisningsnära ledarskap, krävs att rektor får tillräckligt med resurser.",
+   "oppen_kod": "resurser för avlastande personal",
+   "beskrivning": "Avlastande funktioner och undervisningsnära ledarskap kräver resurser som huvudmannen måste tillföra."
+  },
+  {
+   "uid": "U097",
+   "id": "kungsbacka-kommun#4",
+   "citat": "men instämmer inte i förslaget att det ska vara tvingande för gymnasieskolor och anpassade gymnasieskolor att använda förväntansdokument vars innehåll styrs av lagstiftning.",
+   "oppen_kod": "tvingande förväntansdokument i gymnasiet",
+   "beskrivning": "Ett lagstyrt förväntansdokument passar dåligt för gymnasieskolans äldre elever."
+  },
+  {
+   "uid": "U098",
+   "id": "kungsbacka-kommun#4",
+   "citat": "Om förslaget genomförs är det av vikt att Skolverket tar fram fler mallar för förväntansdokument för de olika skolformerna.",
+   "oppen_kod": "behov av mallar per skolform",
+   "beskrivning": "Huvudmännen behöver stöd i form av mallar för förväntansdokument för olika skolformer."
+  },
+  {
+   "uid": "U099",
+   "id": "kungsbacka-kommun#5",
+   "citat": "Detta är särskilt relevant för gymnasieskolan och anpassade gymnasieskolan som ofta har begränsade praktiska möjligheter att omplacera en elev inom skolenheten. Många gymnasieprogram har endast en klass per skolenhet.",
+   "oppen_kod": "begränsade omplaceringsmöjligheter gymnasiet",
+   "beskrivning": "Gymnasieskolor har små praktiska möjligheter att omplacera elever inom skolenheten."
+  },
+  {
+   "uid": "U100",
+   "id": "kungsbacka-kommun#5",
+   "citat": "Kommunen instämmer inte i förslaget om krav att skolenheten ska ta fram en plan för att stödja elevens återgång till ordinarie skolenhet efter en tillfällig omplacering, eftersom det saknas behov av regleringen.",
+   "oppen_kod": "onödigt krav på återgångsplan",
+   "beskrivning": "Kravet på återgångsplan uppfattas som en onödig reglering för skolenheten."
+  },
+  {
+   "uid": "U101",
+   "id": "kungsbacka-kommun#5",
+   "citat": "Kommunen vill dock lyfta att det behövs förtydliganden kring vad som anses vara ”synnerliga skäl” samt vägledning kring vad regelbunden uppföljning och utvärdering innebär.",
+   "oppen_kod": "oklart begrepp synnerliga skäl",
+   "beskrivning": "Det är oklart vad synnerliga skäl och regelbunden uppföljning innebär vid nekat tillträde."
+  },
+  {
+   "uid": "U102",
+   "id": "kungsbacka-kommun#5",
+   "citat": "Kommunen ser även att förtydliganden kring elevens rätt till utbildning i grundskolan ska tillgodoses i det fall eleven nekas tillträde till en skolenhet.",
+   "oppen_kod": "oklar utbildningsrätt vid nekat tillträde",
+   "beskrivning": "Det är oklart hur huvudmannen ska tillgodose rätten till utbildning när en elev nekas tillträde."
+  },
+  {
+   "uid": "U103",
+   "id": "malmo-kommun#4",
+   "citat": "Utredningens förslag tar inte heller hänsyn till huvudmannens roll utan ansvaret för trygghet och studiero läggs i stället direkt på rektorn.",
+   "oppen_kod": "huvudmannens roll förbisedd",
+   "beskrivning": "Förslagen beaktar inte huvudmannens roll utan lägger ansvaret direkt på rektorn."
+  },
+  {
+   "uid": "U104",
+   "id": "malmo-kommun#4",
+   "citat": "Det saknas även en stringent överensstämmelse mellan föreslagna skollagsändringar och läroplanens skrivningar.",
+   "oppen_kod": "skollag och läroplan ej samstämda",
+   "beskrivning": "Skollagsändringarna stämmer inte överens med läroplanens skrivningar."
+  },
+  {
+   "uid": "U105",
+   "id": "malmo-kommun#4",
+   "citat": "Malmö stad vill framföra att det stora antalet betänkanden som under en tid remitterats skapar skilda styrsignaler som är svåra att förhålla sig till, då det i flera förslag saknas en helhet.",
+   "oppen_kod": "skilda styrsignaler från betänkanden",
+   "beskrivning": "Många samtidiga betänkanden ger huvudmannen motstridiga styrsignaler."
+  },
+  {
+   "uid": "U106",
+   "id": "malmo-kommun#7",
+   "citat": "men anser att utredaren inte föreslagit ändringar i läroplanen som motsvarar de föreslagna ändringarna i skollagen.",
+   "oppen_kod": "läroplan ej anpassad",
+   "beskrivning": "Läroplanen ändras inte i takt med skollagen vilket ger otydlig styrning."
+  },
+  {
+   "uid": "U107",
+   "id": "malmo-kommun#11",
+   "citat": "Vidare är det oklart hur detta samspelar med elevinflytandet som beskrivs i läroplanerna.",
+   "oppen_kod": "oklart samspel med elevinflytande",
+   "beskrivning": "Det är oklart hur lärarens bestämmande samspelar med läroplanens elevinflytande."
+  },
+  {
+   "uid": "U108",
+   "id": "malmo-kommun#11",
+   "citat": "Förslaget gäller enbart grundskola, vilket skapar otydlighet för gymnasieskolan som också tar emot omyndiga elever.",
+   "oppen_kod": "otydligt för gymnasieskolan",
+   "beskrivning": "Begränsningen till grundskolan skapar otydlighet för gymnasieskolan."
+  },
+  {
+   "uid": "U109",
+   "id": "malmo-kommun#16",
+   "citat": "Malmö stad anser att det föreligger viss risk att elever som upprepat ges dessa disciplinära åtgärder inte uppmärksammas, eller att situationen inte följs upp, när",
+   "oppen_kod": "bristande uppföljning utan dokumentation",
+   "beskrivning": "Utan dokumentation riskerar skolan att inte uppmärksamma och följa upp upprepade åtgärder."
+  },
+  {
+   "uid": "U110",
+   "id": "malmo-kommun#17",
+   "citat": "Att det inte längre ska betonas att exempelvis fysiska ingripanden får vidtas endast om den står i rimlig proportion till sitt syfte, riskerar att uppfattas som att sådana ingripanden accepteras i större utsträckning.",
+   "oppen_kod": "borttaget endast feltolkas",
+   "beskrivning": "Att ordet endast tas bort riskerar att tolkas som att fysiska ingripanden accepteras mer."
+  },
+  {
+   "uid": "U111",
+   "id": "malmo-kommun#17",
+   "citat": "Malmö stad vill dock påtala att detta, och övriga förslag så som rektors ansvar, behöver samordnas med de förslag som läggs fram i delbetänkandet Skolor mot brott (SOU 2024:17).",
+   "oppen_kod": "samordning med Skolor mot brott",
+   "beskrivning": "Förslagen behöver samordnas med andra betänkanden för att huvudmannen ska få en helhet."
+  },
+  {
+   "uid": "U112",
+   "id": "malmo-kommun#20",
+   "citat": "Införandet av ett krav på en konsekvensplan riskerar att ytterligare öka skolornas administrativa börda.",
+   "oppen_kod": "konsekvensplan ökar administration",
+   "beskrivning": "Kravet på konsekvensplan ökar skolornas administrativa börda."
+  },
+  {
+   "uid": "U113",
+   "id": "malmo-kommun#20",
+   "citat": "Otydligheter gällande vad dessa ”konsekvenser” kan bestå av gör att det finns en risk att skolor tar fram konsekvensplaner där sådana otillåtna disciplinära åtgärder införs.",
+   "oppen_kod": "oklart vilka konsekvenser tillåts",
+   "beskrivning": "Otydligheten riskerar att skolor inför otillåtna disciplinära åtgärder i konsekvensplaner."
+  },
+  {
+   "uid": "U114",
+   "id": "malmo-kommun#21",
+   "citat": "För att undvika konsekvensplaner som bryter mot andra bestämmelser behöver gränserna och utformningen för sådana planer i större omfattning klargöras i förslaget.",
+   "oppen_kod": "gränser för konsekvensplaner oklara",
+   "beskrivning": "Gränser och utformning för konsekvensplaner behöver klargöras för att skolor inte ska bryta mot andra regler."
+  },
+  {
+   "uid": "U115",
+   "id": "malmo-kommun#21",
+   "citat": "Ett sådant förhållningsätt vore stelbent och riskerar att uppfattas som auktoritärt av elever och vårdnadshavare, och kan riskera att skada förtroendet till skolan.",
+   "oppen_kod": "risk för minskat förtroende",
+   "beskrivning": "Detaljerade konsekvensplaner kan skada elevers och vårdnadshavares förtroende för skolan."
+  },
+  {
+   "uid": "U116",
+   "id": "malmo-kommun#21",
+   "citat": "Konsekvensplaner kan även riskera att uppfattas som betungande ur ett lärarperspektiv då läraren kan uppleva en förväntan att memorera vilka konsekvenser alla specifika regelöverträdelser förväntas ge, samt fullfölja dessa.",
+   "oppen_kod": "betungande för lärare",
+   "beskrivning": "Konsekvensplaner kan bli betungande för lärare som måste kunna och fullfölja dem."
+  },
+  {
+   "uid": "U117",
+   "id": "malmo-kommun#21",
+   "citat": "Det är här även otydligt hur konsekvensplanen kommer att ställa sig i förhållande till bestämmelsen i 5 kap. 6 § skollagen om personalens befogenhet att vidta de omedelbara och tillfälliga åtgärder som är befogade för att tillförsäkra eleverna trygghet och studiero.",
+   "oppen_kod": "oklar relation till personalens befogenheter",
+   "beskrivning": "Det är otydligt hur konsekvensplanen förhåller sig till personalens befogenheter i 5 kap. 6 §."
+  },
+  {
+   "uid": "U118",
+   "id": "malmo-kommun#21",
+   "citat": "Malmö stad ifrågasätter dock om nyttan i en sådan allmänt hållen plan överväger den administrativa bördan som upprättandet av den innebär.",
+   "oppen_kod": "administrativ börda överväger nytta",
+   "beskrivning": "Konsekvensplanens administrativa börda riskerar att överstiga nyttan."
+  },
+  {
+   "uid": "U119",
+   "id": "malmo-kommun#21",
+   "citat": "I utredningen anges ingen närmare definition av ”konsekvenser”, vad de innefattar, och inom vilka ramar de ska finnas, vilket riskerar att bli problematiskt ur ett förutsägbarhets- och rättssäkerhetsperspektiv.",
+   "oppen_kod": "odefinierat begrepp konsekvenser",
+   "beskrivning": "Begreppet konsekvenser saknar definition vilket gör tillämpningen oförutsägbar."
+  },
+  {
+   "uid": "U120",
+   "id": "malmo-kommun#22",
+   "citat": "Det finns en uppenbar risk att allvarligt skada förtroendet till både skola, socialtjänst och polis om dessa typer av anmälningar ingår i en konsekvensplan och där framställs som åtgärder som vidtas när en elev bryter mot skolregler.",
+   "oppen_kod": "anmälan som konsekvens skadar förtroende",
+   "beskrivning": "Att anmälningar framställs som konsekvenser kan skada förtroendet för skola och socialtjänst."
+  },
+  {
+   "uid": "U121",
+   "id": "malmo-kommun#25",
+   "citat": "Skolor och huvudmän behöver ha möjlighet att anpassa verksamhet utifrån lokala behov och förutsättningar.",
+   "oppen_kod": "minskad lokal anpassning",
+   "beskrivning": "Ett lagkrav på förväntansdokument begränsar huvudmannens lokala anpassning."
+  },
+  {
+   "uid": "U122",
+   "id": "malmo-kommun#25",
+   "citat": "Ett förväntansdokument utgör ytterligare en administrativ börda som läggs på skolor och huvudmän, vilket bör beaktas. Framför allt kommer det utgöra en stor administrativ börda om skolorna förväntas samla in vårdnadshavares underskrift på dokumentet.",
+   "oppen_kod": "förväntansdokument administrativ börda",
+   "beskrivning": "Förväntansdokumentet och insamling av underskrifter ger skolor och huvudmän administrativ börda."
+  },
+  {
+   "uid": "U123",
+   "id": "malmo-kommun#25",
+   "citat": "I utredningen lämnas förslag till ytterligare dokument – konsekvensplan och förväntansdokument - som ska upprättas men som inte tas upp i utredningen Tid för undervisning trots att de kommer att påverka lärarnas arbetsbörda.",
+   "oppen_kod": "nya dokument ökar lärares arbetsbörda",
+   "beskrivning": "Konsekvensplan och förväntansdokument ökar lärarnas arbetsbörda utan samordning med andra utredningar."
+  },
+  {
+   "uid": "U124",
+   "id": "malmo-kommun#36",
+   "citat": "Det är vidare viktigt att beakta att en förlängning av tiden för tillfällig omplacering av elever i akutskola ställer höga krav på akutskolorna att ge fullgod undervisning, då det annars kan medföra negativa följder för elevens utbildning och välmående.",
+   "oppen_kod": "höga krav på akutskolor",
+   "beskrivning": "Längre placeringar ställer höga krav på att akutskolorna ger fullgod undervisning."
+  },
+  {
+   "uid": "U125",
+   "id": "malmo-kommun#37",
+   "citat": "Det är även otydligt hur tillsynsansvaret för eleverna ska hanteras vid denna åtgärd.",
+   "oppen_kod": "oklart tillsynsansvar vid nekat tillträde",
+   "beskrivning": "Det är otydligt hur tillsynsansvaret för elever som nekas tillträde ska hanteras."
+  },
+  {
+   "uid": "U126",
+   "id": "malmo-kommun#37",
+   "citat": "Malmö stad vill även att förslaget förtydligar möjligheten till akutskolor i gymnasieskolan som i nuvarande utredning inte omfattas trots att behovet finns.",
+   "oppen_kod": "akutskola saknas för gymnasiet",
+   "beskrivning": "Gymnasieskolan omfattas inte av akutskolebegreppet trots att behov finns."
+  },
+  {
+   "uid": "U127",
+   "id": "malmo-kommun#37",
+   "citat": "Malmö stad efterlyser även klargöranden vad som gäller för elever inom anpassad gymnasieskola.",
+   "oppen_kod": "oklart för anpassad gymnasieskola",
+   "beskrivning": "Det är oklart vad som gäller för elever i anpassad gymnasieskola."
+  },
+  {
+   "uid": "U128",
+   "id": "malmo-kommun#40",
+   "citat": "Detta behöver samordnas med de förslag som läggs fram gällande kränkande behandling i betänkandet Tid för undervisningsuppdraget – åtgärder för god undervisning och läraryrkenas attraktivitet (SOU 2025:26).",
+   "oppen_kod": "samordning kränkande behandling",
+   "beskrivning": "Förslagen om kränkande behandling behöver samordnas med andra betänkanden."
+  },
+  {
+   "uid": "U129",
+   "id": "malmo-kommun#40",
+   "citat": "Det är oklart vilken praktisk skillnad ytterligare ett begrepp förväntas ha på skolors arbete.",
+   "oppen_kod": "oklar nytta av mobbningsbegrepp",
+   "beskrivning": "Det är oklart vilken praktisk skillnad ett mobbningsbegrepp gör för skolornas arbete."
+  },
+  {
+   "uid": "U130",
+   "id": "malmo-kommun#40",
+   "citat": "Att införa ytterligare ett begrepp som skolpersonal ska förhålla sig till riskerar snarare att ta fokus från åtgärdande arbete, genom att skolor i stället ägnar tid åt att bedöma",
+   "oppen_kod": "gränsdragning tar tid från åtgärder",
+   "beskrivning": "Ett nytt begrepp kan få skolor att lägga tid på gränsdragningar i stället för åtgärder."
+  },
+  {
+   "uid": "U131",
+   "id": "malmo-kommun#43",
+   "citat": "När det gäller ett nationellt frånvaroregister vill Malmö stad framhålla att det är viktigt att ett sådant register inte blir en administrativ börda för personal i skolan och att kostnader för ett sådant register inte tillförs kommuner.",
+   "oppen_kod": "frånvaroregister börda och kostnad",
+   "beskrivning": "Ett frånvaroregister riskerar att ge skolpersonal administrativ börda och kommunerna kostnader."
+  },
+  {
+   "uid": "U132",
+   "id": "malmo-kommun#47",
+   "citat": "Malmö har redan erfarenhet av att hantera och analysera frånvarodata, och anser att förslaget underskattar både komplexiteten och de ekonomiska konsekvenserna för huvudmän och skolpersonal.",
+   "oppen_kod": "underskattad komplexitet och kostnad",
+   "beskrivning": "Förslaget underskattar frånvaroregistrets komplexitet och kostnader för huvudmännen."
+  },
+  {
+   "uid": "U133",
+   "id": "malmo-kommun#47",
+   "citat": "Malmö stad vill framhålla att befintliga system för frånvarorapportering måste förändras drastiskt för att kunna registrera både kategorierna anmäld/oanmäld och giltig/ogiltig frånvaro, eftersom dessa inte kan ersätta varandra. Sådana systemförändringar medför stora kostnader, och Malmö stad föreslår att nationella krav bör riktas mot systemleverantörerna, inte enbart skolhuvudmännen.",
+   "oppen_kod": "kostsamma systemförändringar",
+   "beskrivning": "Frånvarosystemen måste byggas om vilket medför stora kostnader för huvudmännen."
+  },
+  {
+   "uid": "U134",
+   "id": "malmo-kommun#47",
+   "citat": "Dessutom vill Malmö stad påpeka att likvärdighet i rapporteringen kräver samordning av schematekniska upplägg, vilket det idag finns få incitament för.",
+   "oppen_kod": "schemasamordning för likvärdig rapportering",
+   "beskrivning": "Likvärdig frånvarorapportering kräver schemasamordning som saknar incitament."
+  },
+  {
+   "uid": "U135",
+   "id": "malmo-kommun#48",
+   "citat": "Malmö stad identifierar flera risker med förslaget, som till exempel att olika rutiner och bedömningar kan skapa otillräcklig statistik.",
+   "oppen_kod": "olika rutiner ger bristfällig statistik",
+   "beskrivning": "Olika rutiner och bedömningar kan ge otillräcklig frånvarostatistik."
+  },
+  {
+   "uid": "U136",
+   "id": "malmo-kommun#48",
+   "citat": "En risk är att skolor undviker att ifrågasätta vårdnadshavares frånvaroanmälningar, vilket kan leda till \"glädjefrånvaro\" och påverka statistiken på samma sätt som fenomenet med \"glädjebetyg\".",
+   "oppen_kod": "risk för glädjefrånvaro",
+   "beskrivning": "Skolor kan undvika att ifrågasätta frånvaroanmälningar vilket snedvrider statistiken."
+  },
+  {
+   "uid": "U137",
+   "id": "malmo-kommun#48",
+   "citat": "Utöver detta finns problem med rapporteringen för elever som skolpliktsbevakas, vilket kan ge kommuner olika nivåer av ogiltig frånvaro beroende på deras rutiner.",
+   "oppen_kod": "skolpliktsbevakning ger olika nivåer",
+   "beskrivning": "Kommuner kan få olika nivåer av ogiltig frånvaro beroende på rutiner för skolpliktsbevakning."
+  },
+  {
+   "uid": "U138",
+   "id": "malmo-kommun#48",
+   "citat": "Kommuner som följer regelverket och avslår ansökningar som inte uppfyller kraven riskerar att få höga siffror av ogiltig frånvaro eftersom många familjer väljer att åka utomlands trots avslag.",
+   "oppen_kod": "regelföljande kommuner får hög frånvaro",
+   "beskrivning": "Kommuner som följer regelverket riskerar att redovisa hög ogiltig frånvaro."
+  },
+  {
+   "uid": "U139",
+   "id": "malmo-kommun#48",
+   "citat": "Fristående huvudmän kan i sin tur enkelt undvika att rapportera in frånvaro på elever som vistas tillfälligt utomlands genom att skriva ut dem, vilket gör att hemkommun sannolikt i stället behöver rapportera deras frånvaro.",
+   "oppen_kod": "hemkommun får rapportera frånvaro",
+   "beskrivning": "Hemkommunen kan få rapportera frånvaro för elever som fristående huvudmän skrivit ut."
+  },
+  {
+   "uid": "U140",
+   "id": "malmo-kommun#51",
+   "citat": "men anser att det bör vara upp till varje huvudman att besluta om sina arbetssätt. Det bör inte regleras genom lagkrav.",
+   "oppen_kod": "lagkrav begränsar arbetssätt",
+   "beskrivning": "Reglering av skolsociala team begränsar huvudmannens frihet att välja arbetssätt."
+  },
+  {
+   "uid": "U141",
+   "id": "malmo-kommun#51",
+   "citat": "Utredningen lämnar trots denna begränsning även förslag på författningsändringar som berör förskolan.",
+   "oppen_kod": "förskolan berörs utan utredning",
+   "beskrivning": "Förslagen berör förskolan trots att den inte ingått i utredningen."
+  },
+  {
+   "uid": "U142",
+   "id": "malmo-kommun#52",
+   "citat": "Malmö stad menar att utredningen inte i tillräcklig utsträckning har beaktat förskolans särart.",
+   "oppen_kod": "förskolans särart ej beaktad",
+   "beskrivning": "Förslagen tar inte hänsyn till förskolans särart."
+  },
+  {
+   "uid": "U143",
+   "id": "malmo-kommun#52",
+   "citat": "Malmö stad vill avslutningsvis påpeka att det stora antal betänkanden angående skolan, som under en tid remitterats, skapar en mängd styrsignaler där betänkandena lämnar förslag som inte stämmer överens med varandra. Det gör det svårt att bedöma hur den fortsatta beredningen kommer att väga de olika förslagen mot varandra och vad slutresultatet kommer att bli.",
+   "oppen_kod": "motstridiga betänkanden",
+   "beskrivning": "Många motstridiga betänkanden gör det svårt för huvudmannen att förutse slutresultatet."
+  },
+  {
+   "uid": "U144",
+   "id": "malmo-kommun#52",
+   "citat": "Däremot lyfts inga förslag på ändringar som behöver göras i läroplanerna för att dessa ska överensstämma med skollagen.",
+   "oppen_kod": "läroplaner ej anpassade",
+   "beskrivning": "Läroplanerna anpassas inte till de föreslagna skollagsändringarna."
+  },
+  {
+   "uid": "U145",
+   "id": "malmo-kommun#53",
+   "citat": "I betänkandet Tid för undervisningsuppdraget (SOU 2025:26) lämnas förslag till ändringar i sjätte kapitlet angående arbetet mot kränkande behandling som inte beaktas i Bättre förutsättningar för trygghet och studiero.",
+   "oppen_kod": "bristande samordning mellan betänkanden",
+   "beskrivning": "Förslagen om kränkande behandling är inte samordnade mellan betänkandena."
+  },
+  {
+   "uid": "U146",
+   "id": "malmo-kommun#53",
+   "citat": "Slutligen lämnas i föreliggande utredning förslag till ytterligare dokument – konsekvensplan och förväntansdokument - som ska upprättas men som inte tas upp i utredningen Tid för undervisning trots att de kommer att påverka lärarnas arbetsbörda.",
+   "oppen_kod": "nya dokument ökar arbetsbörda",
+   "beskrivning": "Nya dokumentkrav ökar lärarnas arbetsbörda."
+  },
+  {
+   "uid": "U147",
+   "id": "norrkopings-kommun#7",
+   "citat": "ge önskad effekt behöver det ytterligare tydliggöras vad som avses med i begränsad omfattning gällande vårdnadshavare möjligheter till inflytande i sitt barns utbildning.",
+   "oppen_kod": "oklart begränsat inflytande",
+   "beskrivning": "Det är oklart vad begränsad omfattning av vårdnadshavares inflytande innebär i tillämpningen."
+  },
+  {
+   "uid": "U148",
+   "id": "norrkopings-kommun#7",
+   "citat": "Att föra in orosanmälan som en konsekvens i skolors konsekvensplaner skulle således sända felaktiga signaler till skolpersonal, elever och vårdnadshavare att regelöverträdelser i sig skulle kunna utgöra grund eller skäl för en orosanmälan.",
+   "oppen_kod": "orosanmälan som konsekvens",
+   "beskrivning": "Orosanmälan som konsekvens ger skolpersonal och vårdnadshavare felaktiga signaler."
+  },
+  {
+   "uid": "U149",
+   "id": "norrkopings-kommun#8",
+   "citat": "Mot bakgrund av detta anser Utbildningsnämnden i Norrköpings kommun att förslaget att erbjuda elever som nekas tillträde till skolan fjärr- och/eller distansundervisning behöver utredas ytterligare och tydliggöras i frågan om hur kvaliteten på undervisningen ska säkerhetsställas och hur skolenheter ska kunna försäkra sig om att elever som erbjuds fjärr och/eller distansundervisning har möjlighet och förmågan att ta emot utbildning i dessa undervisningsformer.",
+   "oppen_kod": "kvalitet i fjärrundervisning oklar",
+   "beskrivning": "Det är oklart hur skolenheter ska säkra kvaliteten i fjärr- och distansundervisning för nekade elever."
+  },
+  {
+   "uid": "U150",
+   "id": "norrkopings-kommun#8",
+   "citat": "Om åtgärden inte används som det är tänkt ser Utbildningsnämnden i Norrköpings kommun en risk med att åtgärden kan pågå en längre tid i problematiska elevärenden där det kan vara svårt att finna långsiktiga lösningar.",
+   "oppen_kod": "nekat tillträde utan tidsgräns",
+   "beskrivning": "Nekat tillträde kan bli långvarigt i ärenden där skolan har svårt att hitta lösningar."
+  },
+  {
+   "uid": "U151",
+   "id": "norrkopings-kommun#8",
+   "citat": "För att skolsociala team ska bli ett tillämpligt samverkansverktyg för skolor att använda sig av och för att insatserna som erbjuds ska vara likvärdiga anser Utbildningsnämnden i Norrköpings kommun att det tydligt ska framgå för de skolhuvudmän som väljer att söka stadsbidrag för att inrätta skolsociala team vad syftet med skolsociala team är. Likaså tydlighet i frågor som vilka professioner som ska anställas till skolsociala team, vem som är uppdragsgivare och vilka uppdrag de skolsociala teamen ska arbeta med.",
+   "oppen_kod": "otydligt uppdrag för skolsociala team",
+   "beskrivning": "Syfte, bemanning och uppdragsgivare för skolsociala team är otydliga för huvudmännen."
+  },
+  {
+   "uid": "U152",
+   "id": "orust-kommun#2",
+   "citat": "Vi ser också att förslaget behöver kompletteras av andra reformändringar eller med stödmaterial, för att få full effekt.",
+   "oppen_kod": "behov av kompletterande stöd",
+   "beskrivning": "Förslagen behöver kompletteras med reformer eller stödmaterial för att få effekt."
+  },
+  {
+   "uid": "U153",
+   "id": "orust-kommun#2",
+   "citat": "Den brist vi ser i utredningen gäller finansieringen där vi menar att utredaren inte tagit med alla delar som vi ser, kommer att innebära kostnadsökningar.",
+   "oppen_kod": "ofullständig kostnadsberäkning",
+   "beskrivning": "Utredningen har inte räknat med alla delar som ökar huvudmannens kostnader."
+  },
+  {
+   "uid": "U154",
+   "id": "orust-kommun#2",
+   "citat": "Vi menar också att förslaget om att omfördela från riktade till allmänt statsbidrag missgynnar små huvudmän samt att detta perspektiv inte alls finns med i utredarens analys.",
+   "oppen_kod": "omfördelning missgynnar små huvudmän",
+   "beskrivning": "Omfördelningen av statsbidrag missgynnar små huvudmän."
+  },
+  {
+   "uid": "U155",
+   "id": "orust-kommun#3",
+   "citat": "Vi ser dock att detta behöver åtföljas även av ändringar i lagstiftningen kring särskilt stöd och elevhälsans arbete för att få effekt.",
+   "oppen_kod": "kräver ändringar i särskilt stöd",
+   "beskrivning": "Förslagen kräver även lagändringar om särskilt stöd och elevhälsa för att ge effekt."
+  },
+  {
+   "uid": "U156",
+   "id": "orust-kommun#3",
+   "citat": "Vi ser dock samtidigt att utredningens förslag istället ger rektorerna fler administrativa arbetsuppgifter samt utökat ansvar som inte nödvändigtvis är verksamhetsnära.",
+   "oppen_kod": "fler administrativa uppgifter för rektor",
+   "beskrivning": "Förslagen ger rektorer fler administrativa uppgifter och utökat ansvar."
+  },
+  {
+   "uid": "U157",
+   "id": "orust-kommun#3",
+   "citat": "Vi menar att utredningens förslag i så hög grad tillskriver rektorer utökat ansvar och utökade arbetsuppgifter att detta behöver åtföljas av fler åtgärder stödjande åtgärder än att huvudmän behöver ha en strategi.",
+   "oppen_kod": "rektorer behöver mer stöd",
+   "beskrivning": "Rektorernas utökade ansvar kräver fler stödjande åtgärder än en strategi från huvudmannen."
+  },
+  {
+   "uid": "U158",
+   "id": "orust-kommun#3",
+   "citat": "Den brist vi ser i utredningen gäller finansieringen där vi menar att utredaren inte tagit med alla delar som vi ser kommer att innebära kostnadsökningar.",
+   "oppen_kod": "ofullständig kostnadsberäkning",
+   "beskrivning": "Utredningen har inte räknat med alla kostnadsökningar för huvudmannen."
+  },
+  {
+   "uid": "U159",
+   "id": "orust-kommun#3",
+   "citat": "Vi menar också att förslaget om att omfördela från riktade till allmänt statsbidrag missgynnar små kommuner och andra huvudmän samt att detta perspektiv inte alls finns med i utredarens analys.",
+   "oppen_kod": "omfördelning missgynnar små kommuner",
+   "beskrivning": "Omfördelningen av statsbidrag missgynnar små kommuner och huvudmän."
+  },
+  {
+   "uid": "U160",
+   "id": "orust-kommun#4",
+   "citat": "Vi anser att minskad dokumentation för lärare är positivt men ser risker ur ett barnrättsperspektiv samt sämre förutsättningar för exempelvis socialtjänsten att få ett bra underlag för sitt eventuella arbete.",
+   "oppen_kod": "sämre underlag för socialtjänsten",
+   "beskrivning": "Slopad dokumentation ger kommunens socialtjänst sämre underlag."
+  },
+  {
+   "uid": "U161",
+   "id": "orust-kommun#4",
+   "citat": "Vi menar därför att det behövs ett förtydligande och stödmaterial.",
+   "oppen_kod": "behov av förtydligande och stöd",
+   "beskrivning": "Utökade disciplinära åtgärder kräver förtydliganden och stödmaterial för skolorna."
+  },
+  {
+   "uid": "U162",
+   "id": "orust-kommun#5",
+   "citat": "Vi ser vidare risker med att vårdnadshavare i högre grad än idag istället vänder sig till rektor vilken redan har fått både större ansvar och utökade arbetsuppgifter i utredningens förslag.",
+   "oppen_kod": "ökad belastning på rektor",
+   "beskrivning": "Vårdnadshavare kan vända sig till rektor i stället vilket ökar rektors belastning."
+  },
+  {
+   "uid": "U163",
+   "id": "orust-kommun#6",
+   "citat": "Orust kommun delar inte utredarens bedömning om att det endast är krav på konsekvensplan och förväntansdokument, förlängning av disciplinära åtgärder, plan för återgång samt inrapportering av frånvaro som genererar ökade kostnader.",
+   "oppen_kod": "fler förslag ger kostnader",
+   "beskrivning": "Fler förslag än utredningen räknat med ger kommunerna ökade kostnader."
+  },
+  {
+   "uid": "U164",
+   "id": "orust-kommun#7",
+   "citat": "Vi ser att delar av detta finns med i utredarens beräkning men att de belopp som beräknas är alltför lågt tilltagna.",
+   "oppen_kod": "för lågt beräknade kostnader",
+   "beskrivning": "Utredningens kostnadsberäkning är för lågt tilltagen."
+  },
+  {
+   "uid": "U165",
+   "id": "orust-kommun#7",
+   "citat": "Detta menar Orust kommun är förenat med extra kostnader kopplade direkt till förslaget och därför bör tas med i beaktande.",
+   "oppen_kod": "kostnad för läraravlastande personal",
+   "beskrivning": "Behovet av specialpedagoger, kuratorer och annan personal ger extra kostnader."
+  },
+  {
+   "uid": "U166",
+   "id": "orust-kommun#7",
+   "citat": "Även om sådana möjlighet finns redan idag så menar vi att förslaget ökar behovet och i viss mån kravställer detta på ett annat sätt än idag och därför också kan komma att generera ökade kostnader.",
+   "oppen_kod": "kostnad för akutskolor och smågrupper",
+   "beskrivning": "Ökat behov av mindre grupper och akutskolor kan ge ökade kostnader."
+  },
+  {
+   "uid": "U167",
+   "id": "orust-kommun#7",
+   "citat": "Orust kommun menar att förslaget om att enbart omfördela statsbidrag från några av de nuvarande riktade statsbidragen till det generella, inte är tillräckligt.",
+   "oppen_kod": "otillräcklig finansiering",
+   "beskrivning": "Omfördelning av statsbidrag räcker inte för att finansiera förslagen."
+  },
+  {
+   "uid": "U168",
+   "id": "orust-kommun#7",
+   "citat": "Skälet är att dagens finansieringssystem med elevpeng gör att det med en förhållandevis liten volym elever blir svårare eller inte ens möjligt att tillskapa extra organisatoriska lösningar eller anställa personalkategorier utöver det som skollagen kräver.",
+   "oppen_kod": "små kommuner saknar volym",
+   "beskrivning": "Små kommuner har för få elever för att finansiera extra organisation och personal."
+  },
+  {
+   "uid": "U169",
+   "id": "ronneby-kommun#1",
+   "citat": "Ronneby kommun ställer sig bakom betänkandet i stort men har funnit att förslaget gällande ett upprätta ett nationellt frånvaroregister behöver utredas närmare alternativt justeras eller förtydligas.",
+   "oppen_kod": "frånvaroregister otillräckligt utrett",
+   "beskrivning": "Förslaget om nationellt frånvaroregister är otillräckligt utrett och oklart."
+  },
+  {
+   "uid": "U170",
+   "id": "ronneby-kommun#4",
+   "citat": "Ronneby kommun ställer sig bakom betänkandet i stort men har funnit att förslaget gällande ett upprätta ett nationellt frånvaroregister behöver utredas närmare alternativt justeras eller förtydligas.",
+   "oppen_kod": "frånvaroregister otillräckligt utrett",
+   "beskrivning": "Förslaget om nationellt frånvaroregister är otillräckligt utrett och oklart."
+  },
+  {
+   "uid": "U171",
+   "id": "ronneby-kommun#6",
+   "citat": "Ronneby kommun ställer sig bakom betänkandet i stort men har funnit att förslaget gällande ett upprätta ett nationellt frånvaroregister behöver utredas närmare alternativt justeras eller förtydligas.",
+   "oppen_kod": "frånvaroregister otillräckligt utrett",
+   "beskrivning": "Förslaget om nationellt frånvaroregister är otillräckligt utrett och oklart."
+  },
+  {
+   "uid": "U172",
+   "id": "skelleftea-kommun#8",
+   "citat": "Genom den föreslagna förändringen kommer det inte längre betonas att exempelvis fysiska ingripanden endast får vidtas om den står i rimlig proportion till sitt syfte riskerar att uppfattas som att sådana ingripanden accepteras i större utsträckning.",
+   "oppen_kod": "borttaget endast feltolkas",
+   "beskrivning": "Att ordet endast tas bort riskerar att tolkas som att fysiska ingripanden accepteras mer."
+  },
+  {
+   "uid": "U173",
+   "id": "skelleftea-kommun#10",
+   "citat": "Skellefteå kommun ser dock att konsekvensplaner riskerar att öka skolornas administrativa börda, vilket bör beaktas när det formuleras som ett krav i skollagen.",
+   "oppen_kod": "konsekvensplan ökar administration",
+   "beskrivning": "Konsekvensplaner ökar skolornas administrativa börda."
+  },
+  {
+   "uid": "U174",
+   "id": "skelleftea-kommun#10",
+   "citat": "Risken är att planerna tolkas på sådant sätt att varje regelöverträdelse måste åtföljas av specifika konsekvenser. Ett sådant förfarande riskerar att skada elevers och vårdnadshavares förtroende till skolan.",
+   "oppen_kod": "risk för minskat förtroende",
+   "beskrivning": "Stelbenta konsekvensplaner kan skada förtroendet för skolan."
+  },
+  {
+   "uid": "U175",
+   "id": "skelleftea-kommun#10",
+   "citat": "Otydligheter gällande vad dessa konsekvenser kan bestå av gör att det finns en risk att skolor tar fram konsekvensplaner där sådana otillåtna disciplinära åtgärder införs. Om ett krav på konsekvensplan ska införas behöver det förtydligas hur konsekvensplanerna ska förhålla sig till de disciplinära åtgärderna.",
+   "oppen_kod": "oklart vilka konsekvenser tillåts",
+   "beskrivning": "Otydligheten kan leda till att skolor inför otillåtna disciplinära åtgärder."
+  },
+  {
+   "uid": "U176",
+   "id": "skelleftea-kommun#10",
+   "citat": "En sådant synsätt riskerar att allvarligt skada förtroendet till både skola, socialtjänst och polis om dessa typer av anmälningar ingår i en konsekvensplan, och där framställs som åtgärder som vidtas när en elev bryter mot skolregler.",
+   "oppen_kod": "anmälan som konsekvens skadar förtroende",
+   "beskrivning": "Anmälningar som konsekvens kan skada förtroendet för skola och socialtjänst."
+  },
+  {
+   "uid": "U177",
+   "id": "skelleftea-kommun#14",
+   "citat": "Det är oklart vilken praktisk skillnad ytterligare en definition av begreppet mobbning förväntas ha på skolors arbete.",
+   "oppen_kod": "oklar nytta av mobbningsbegrepp",
+   "beskrivning": "Det är oklart vad ett mobbningsbegrepp tillför skolornas arbete."
+  },
+  {
+   "uid": "U178",
+   "id": "skelleftea-kommun#14",
+   "citat": "Att införa ytterligare ett begrepp som skolpersonal ska förhålla sig till riskerar snarare att ta fokus från åtgärdande arbete, genom att skolor i stället ägnar tid åt att bedöma gränsdragningar när kränkande behandling fallit över i mobbning.",
+   "oppen_kod": "gränsdragning tar tid från åtgärder",
+   "beskrivning": "Skolor kan lägga tid på gränsdragningar i stället för åtgärdande arbete."
+  },
+  {
+   "uid": "U179",
+   "id": "skelleftea-kommun#15",
+   "citat": "begrepp kommer att medföra att två bedömningar behöver göras av en elevs situation innebär det följaktligen att ytterligare administration och resurser behöver läggas på detta.",
+   "oppen_kod": "dubbla bedömningar kräver resurser",
+   "beskrivning": "Två parallella bedömningar ger skolorna mer administration och resursbehov."
+  },
+  {
+   "uid": "U180",
+   "id": "skelleftea-kommun#15",
+   "citat": "I detta arbete måste staten samtidigt ta ansvar för att utformningen sker i dialog med skolans professioner, och att administrativa bördor hålls på en rimlig nivå.",
+   "oppen_kod": "administrativ börda frånvaroregister",
+   "beskrivning": "Frånvaroregistret riskerar att ge skolorna orimliga administrativa bördor."
+  },
+  {
+   "uid": "U181",
+   "id": "skelleftea-kommun#15",
+   "citat": "Även om ett nationellt frånvaroregister kan skapas, finns stora utmaningar då skolor har olika förutsättningar och rutiner. Det finns risk att den data som insamlas inte kommer att ge en rättvisande bild av närvaro/frånvaro.",
+   "oppen_kod": "olika rutiner ger missvisande data",
+   "beskrivning": "Skolors olika rutiner kan göra frånvarodata missvisande."
+  },
+  {
+   "uid": "U182",
+   "id": "skelleftea-kommun#15",
+   "citat": "Det finns risk för varierande bedömningar av giltig och ogiltig frånvaro, vilket kan leda till snedvriden statistik.",
+   "oppen_kod": "varierande bedömning av frånvaro",
+   "beskrivning": "Olika bedömningar av giltig och ogiltig frånvaro kan snedvrida statistiken."
+  },
+  {
+   "uid": "U183",
+   "id": "skelleftea-kommun#16",
+   "citat": "Ett allmänt frånvaroregister kan också användas för skolvalsjämförelser, vilket kan påverka rapporteringen.",
+   "oppen_kod": "skolvalsjämförelser påverkar rapportering",
+   "beskrivning": "Publicering för skolval kan påverka skolornas frånvarorapportering."
+  },
+  {
+   "uid": "U184",
+   "id": "skelleftea-kommun#16",
+   "citat": "Därutöver finns även flera statistiska utmaningar, såsom t ex hur ska datan lämnas, hur hanteras elever med väldigt kort tid vid en skola? Utredningen ger inga svar på hur dessa problem ska hanteras för att säkerställa likvärdighet och jämförbarhet.",
+   "oppen_kod": "oklar statistisk hantering",
+   "beskrivning": "Det är oklart hur data ska lämnas och hur statistiska problem ska hanteras."
+  },
+  {
+   "uid": "U185",
+   "id": "skelleftea-kommun#16",
+   "citat": "Många huvudmän använder system som rapporterar anmäld och oanmäld frånvaro, men inte giltig och ogiltig frånvaro. Detta kräver stora förändringar i systemen, vilket innebär kostnader för huvudmännen.",
+   "oppen_kod": "kostsamma systemförändringar",
+   "beskrivning": "Frånvarosystemen måste ändras vilket innebär kostnader för huvudmännen."
+  },
+  {
+   "uid": "U186",
+   "id": "skelleftea-kommun#16",
+   "citat": "Skellefteå kommun anser att dessa kostnader underskattas och att det behövs nationella krav på systemleverantörerna",
+   "oppen_kod": "underskattade systemkostnader",
+   "beskrivning": "Systemkostnaderna för huvudmännen är underskattade."
+  },
+  {
+   "uid": "U187",
+   "id": "skelleftea-kommun#16",
+   "citat": "Skolsociala team finansieras med statsbidrag i vart fall t o m 2027. Om skolhuvudmän ska uppmuntras att använda sig av skolsociala team bör denna typ av insats från staten fortsätta även därefter.",
+   "oppen_kod": "osäker finansiering skolsociala team",
+   "beskrivning": "Finansieringen av skolsociala team efter 2027 är osäker för huvudmännen."
+  },
+  {
+   "uid": "U188",
+   "id": "stockholms-kommun#4",
+   "citat": "Vad gäller förslagen om akutskola på entreprenad delar jag stadsledningskontoret och utbildningsförvaltningens synpunkt att sådana lösningar bör bygga på långsiktiga överenskommelser mellan skolhuvudmän och inte öppna upp för att skolplaceringar upphandlas genom liknande marknadslösningar som idag finns inom bland annat socialtjänsten.",
+   "oppen_kod": "risk för marknadslösningar akutskola",
+   "beskrivning": "Entreprenad för akutskola riskerar att leda till upphandlade marknadslösningar."
+  },
+  {
+   "uid": "U189",
+   "id": "stockholms-kommun#9",
+   "citat": "lösningar bör bygga på långsiktiga överenskommelser mellan skolhuvudmän och inte öppna upp för att skolplaceringar upphandlas genom liknande marknadslösningar som idag finns inom bland annat socialtjänsten.",
+   "oppen_kod": "risk för marknadslösningar akutskola",
+   "beskrivning": "Entreprenad för akutskola riskerar att leda till upphandlade marknadslösningar."
+  },
+  {
+   "uid": "U190",
+   "id": "stockholms-kommun#9",
+   "citat": "Om beslutet gäller tills vidare kan det uppkomma situationer i ett senare skede då elev och rektor inte är överens om synnerliga skäl fortfarande föreligger men domstolen redan har prövat beslutet.",
+   "oppen_kod": "tillsvidarebeslut skapar tvister",
+   "beskrivning": "Tillsvidarebeslut om nekat tillträde kan ge rektor tvister som inte kan prövas på nytt."
+  },
+  {
+   "uid": "U191",
+   "id": "stockholms-kommun#10",
+   "citat": "Stadsledningskontoret vill påpeka att det gängse sättet att finansiera denna typ av tillkommande kostnader är att staten tillför medel till kommunerna som täcker de ökade kostnaderna för ambitionshöjningen. Stadsledningskontoret anser att finansieringsprincipen ska tillämpas även i detta fall.",
+   "oppen_kod": "finansieringsprincipen tillämpas inte",
+   "beskrivning": "Kostnaderna finansieras genom omfördelning i stället för enligt finansieringsprincipen."
+  },
+  {
+   "uid": "U192",
+   "id": "stockholms-kommun#13",
+   "citat": "Förvaltningen vill dock framhålla att sådana lösningar bör bygga på långsiktiga överenskommelser mellan skolhuvudmän och inte öppna upp för att skolplaceringar upphandlas genom liknande marknadslösningar som idag finns inom bland annat socialtjänsten.",
+   "oppen_kod": "risk för marknadslösningar akutskola",
+   "beskrivning": "Entreprenad för akutskola riskerar att leda till upphandlade marknadslösningar."
+  },
+  {
+   "uid": "U193",
+   "id": "stockholms-kommun#13",
+   "citat": "Om beslutet gäller tills vidare kan det uppkomma situationer i ett senare skede då elev och rektor inte är överens om synnerliga skäl fortfarande föreligger men domstolen redan har prövat beslutet.",
+   "oppen_kod": "tillsvidarebeslut skapar tvister",
+   "beskrivning": "Tillsvidarebeslut om nekat tillträde kan ge rektor tvister som inte kan prövas på nytt."
+  },
+  {
+   "uid": "U194",
+   "id": "stockholms-kommun#14",
+   "citat": "Förvaltningen vill påpeka att det gängse sättet att finansiera denna typ av tillkommande kostnader för kommunerna är genom den så kallade finansieringsprincipen. Alltså att staten ska tillföra medel till kommunerna som täcker de ökade kostnaderna för denna ambitionshöjning.",
+   "oppen_kod": "finansieringsprincipen tillämpas inte",
+   "beskrivning": "Kostnaderna finansieras genom omfördelning i stället för enligt finansieringsprincipen."
+  },
+  {
+   "uid": "U195",
+   "id": "sveriges-kommuner-och-regioner#7",
+   "citat": "SKR delar inte utredningens bedömning av de ekonomiska konsekvenserna.",
+   "oppen_kod": "kostnader underskattade",
+   "beskrivning": "SKR menar att utredningens bedömning av de ekonomiska konsekvenserna för huvudmännen inte håller."
+  },
+  {
+   "uid": "U196",
+   "id": "sveriges-kommuner-och-regioner#8",
+   "citat": "En generell synpunkt gällande utredningens förslag är att man i utredningen inte tagit hänsyn till gymnasieskolan och de specifika behov och svårigheter som finns när det gäller disciplinära åtgärder för gymnasieelever.",
+   "oppen_kod": "gymnasieskolans behov ej beaktade",
+   "beskrivning": "Förslagen tar inte hänsyn till gymnasieskolans särskilda svårigheter med disciplinära åtgärder."
+  },
+  {
+   "uid": "U197",
+   "id": "sveriges-kommuner-och-regioner#9",
+   "citat": "SKR anser att det fortfarande är viktigt att poängtera det förebyggande arbetet och föreslår därför att ordet förebyggande behålls i paragrafen",
+   "oppen_kod": "förebyggande arbete faller bort",
+   "beskrivning": "Paragrafens formulering riskerar att tona ned huvudmannens förebyggande arbete för trygghet och studiero."
+  },
+  {
+   "uid": "U198",
+   "id": "sveriges-kommuner-och-regioner#18",
+   "citat": "För att kunna möta kravet enligt skollagen om utredning vid upprepade störningar kommer viss dokumentation att behövas. Utan sådan dokumentation blir det svårt att följa om företeelsen är upprepad.",
+   "oppen_kod": "dokumentation behövs för utredningsplikt",
+   "beskrivning": "Utan dokumentationskrav blir det svårt för skolan att uppfylla kravet på utredning vid upprepade störningar."
+  },
+  {
+   "uid": "U199",
+   "id": "sveriges-kommuner-och-regioner#18",
+   "citat": "Det är viktigt att det finns ett system för att fånga vad som är upprepade störningar till exempel om en elev har många olika ämneslärare.",
+   "oppen_kod": "system för upprepade störningar",
+   "beskrivning": "Skolan behöver ett system för att fånga upprepade störningar när eleven har många lärare."
+  },
+  {
+   "uid": "U200",
+   "id": "sveriges-kommuner-och-regioner#18",
+   "citat": "Om en utvisning föranleds av beteenden som är en del av elevens funktionsnedsättning kan detta betraktas som diskriminering, enligt utredningen.",
+   "oppen_kod": "utvisning riskerar diskriminering",
+   "beskrivning": "Utvisningar av elever med funktionsnedsättning riskerar att utgöra diskriminering som skolan måste hantera."
+  },
+  {
+   "uid": "U201",
+   "id": "sveriges-kommuner-och-regioner#21",
+   "citat": "SKR anser dock att gemensamma rutiner och förhållningssätt ska gälla arbetet med trygghet och studiero och inte begränsas till arbetet med skolreglerna.",
+   "oppen_kod": "rutinkrav för snävt avgränsat",
+   "beskrivning": "Kravet på gemensamma rutiner avgränsas för snävt till skolreglerna i stället för hela trygghetsarbetet."
+  },
+  {
+   "uid": "U202",
+   "id": "sveriges-kommuner-och-regioner#25",
+   "citat": "Vårdnadshavares ansvar regleras redan i dag i föräldrabalken och bör därför inte även regleras i skollagen. SKR anser att dubbelreglering bör undvikas.",
+   "oppen_kod": "dubbelreglering av vårdnadshavaransvar",
+   "beskrivning": "Förväntansdokumentet innebär en dubbelreglering av vårdnadshavares ansvar."
+  },
+  {
+   "uid": "U203",
+   "id": "sveriges-kommuner-och-regioner#25",
+   "citat": "Det är dock viktigt att förväntansdokument inte blir ett krav för alla skolor, vilket kan ge ökad administration för de skolor som vill lösa samverkansfrågan med vårdnadshavare på annat sätt.",
+   "oppen_kod": "förväntansdokument ökar administration",
+   "beskrivning": "Ett obligatoriskt förväntansdokument kan ge ökad administration för skolor som arbetar på annat sätt."
+  },
+  {
+   "uid": "U204",
+   "id": "sveriges-kommuner-och-regioner#25",
+   "citat": "Att vårdnadshavare skriver under ett förväntansdokument har ingen juridisk betydelse.",
+   "oppen_kod": "förväntansdokument saknar rättsverkan",
+   "beskrivning": "Förväntansdokumentet saknar juridisk betydelse och ger skolan inget verktyg."
+  },
+  {
+   "uid": "U205",
+   "id": "sveriges-kommuner-och-regioner#36",
+   "citat": "Det finns en risk att skolor, i stället för att förbättra lärmiljön, erbjuda en varierad och strukturerad undervisning samt ge eleverna det stöd och de utmaningar de behöver, tar till disciplinära åtgärder som omplacering eller avstängning.",
+   "oppen_kod": "disciplinära åtgärder ersätter stöd",
+   "beskrivning": "Skolor riskerar att använda omplacering och avstängning i stället för att förbättra lärmiljön och ge stöd."
+  },
+  {
+   "uid": "U206",
+   "id": "sveriges-kommuner-och-regioner#36",
+   "citat": "Det finns också en risk att utvidgade möjligheter för skolor att ta till disciplinära åtgärder underblåser en mer repressiv kultur där alltmer fokus ligger på att bestraffa elever. Det kan i sin tur påverka de sociala relationerna mellan elever och skolpersonal och göra dem mindre förtroendefulla.",
+   "oppen_kod": "risk för repressiv skolkultur",
+   "beskrivning": "Utvidgade disciplinära möjligheter kan skapa en repressiv kultur som försämrar relationerna mellan elever och personal."
+  },
+  {
+   "uid": "U207",
+   "id": "sveriges-kommuner-och-regioner#39",
+   "citat": "Problem kan då uppstå om en omplacering behöver ske i slutet av till exempel höstterminen. Då blir omplaceringstiden kortare än i dag och det blir svårt att hinna arbeta fram en plan för att stödja elevens återgång till undervisning.",
+   "oppen_kod": "terminsgräns förkortar omplacering",
+   "beskrivning": "Begränsningen till återstoden av terminen kan göra omplaceringen kortare än i dag och försvåra återgångsplanen."
+  },
+  {
+   "uid": "U208",
+   "id": "sveriges-kommuner-och-regioner#43",
+   "citat": "SKR pekar på att de möjligheter som i dag finns för akutskolor kopplat till gymnasiet bör finnas kvar.",
+   "oppen_kod": "akutskola gymnasiet försvinner",
+   "beskrivning": "Regleringen riskerar att ta bort dagens möjligheter till akutskola för gymnasieelever."
+  },
+  {
+   "uid": "U209",
+   "id": "sveriges-kommuner-och-regioner#43",
+   "citat": "Kommuner har idag olika förutsättningar. Många kommuner har små elevunderlag, varför vikten av samarbete med andra huvudmän är en förutsättning.",
+   "oppen_kod": "små elevunderlag kräver samarbete",
+   "beskrivning": "Kommuner med små elevunderlag är beroende av samarbete med andra huvudmän för att ordna akutskola."
+  },
+  {
+   "uid": "U210",
+   "id": "sveriges-kommuner-och-regioner#47",
+   "citat": "Den utökning som utredningen föreslår kan innebära att eleverna förlorar upp till sex veckors undervisning per termin. Det kan komma att bli svårt för skolan att kompensera för all denna uteblivna undervisning och svårt för eleven att hinna ta igen undervisningen.",
+   "oppen_kod": "svårt kompensera utebliven undervisning",
+   "beskrivning": "Längre och fler avstängningar gör det svårt för skolan att kompensera för den uteblivna undervisningen."
+  },
+  {
+   "uid": "U211",
+   "id": "sveriges-kommuner-och-regioner#47",
+   "citat": "Utredningen föreslår en inskränkning i den rätt till utbildning som eleverna har i dag då man vill ändra skrivningen i skollagen från att eleven ska erbjudas kompensationsundervisning till att eleven ska erbjudas kompensationsundervisning så långt det är möjligt.",
+   "oppen_kod": "inskränkt rätt till utbildning",
+   "beskrivning": "Ändrad skrivning om kompensationsundervisning inskränker elevernas rätt till utbildning."
+  },
+  {
+   "uid": "U212",
+   "id": "sveriges-kommuner-och-regioner#49",
+   "citat": "Utredningen beskriver inte hur detta ska gå till rent praktiskt vilket blir särskilt svårt gällande elever i grundskolan som har skolplikt.",
+   "oppen_kod": "nekat tillträde praktiskt oklart",
+   "beskrivning": "Det är oklart hur nekat tillträde ska genomföras praktiskt, särskilt för skolpliktiga grundskoleelever."
+  },
+  {
+   "uid": "U213",
+   "id": "sveriges-kommuner-och-regioner#55",
+   "citat": "För att möjliggöra det faktiska dagliga värdegrundsarbetet och främja positivt skolklimat skulle den administrativa bördan med arbetet med kränkande behandling behöva minskas. SKR anser dock att införande av begreppet mobbning inte skulle vara en lösning på detta.",
+   "oppen_kod": "administrativ börda kränkande behandling",
+   "beskrivning": "Den administrativa bördan i arbetet mot kränkande behandling är hög och minskas inte av mobbningsbegreppet."
+  },
+  {
+   "uid": "U214",
+   "id": "sveriges-kommuner-och-regioner#57",
+   "citat": "SKR anser att det är orimligt att skolan ska utreda de bakomliggande orsakerna till varje anmäld frånvaro för att se om den ska betraktas som ogiltig.",
+   "oppen_kod": "utredning av all anmäld frånvaro",
+   "beskrivning": "Skolan skulle behöva utreda orsakerna till varje anmäld frånvaro, vilket är orimligt betungande."
+  },
+  {
+   "uid": "U215",
+   "id": "sveriges-kommuner-och-regioner#57",
+   "citat": "Avseende gymnasieskolan behöver förslaget även synkroniseras med centrala studiestödsnämndens (CSNs), regelverk för studiestöd.",
+   "oppen_kod": "frånvarodefinition och CSN-regler",
+   "beskrivning": "Frånvarodefinitionen måste samordnas med CSN:s regelverk för gymnasieskolan."
+  },
+  {
+   "uid": "U216",
+   "id": "sveriges-kommuner-och-regioner#61",
+   "citat": "SKR vill betona att en tydlig standard behöver arbetas fram så att data sätts upp på ett liknande sätt hos de olika systemleverantörerna. Detta för att möjliggöra smidig dataöverföring från de lokala systemen direkt till det nationella registret.",
+   "oppen_kod": "datastandard för frånvaroregister",
+   "beskrivning": "Det behövs en gemensam datastandard hos systemleverantörerna för överföring till frånvaroregistret."
+  },
+  {
+   "uid": "U217",
+   "id": "sveriges-kommuner-och-regioner#66",
+   "citat": "Utredningen innehåller förslag på utökade åtaganden för kommunerna. Dessa behöver finansieras enligt finansieringsprincipen. Utredningen har i flera fall beräknat kostnaderna för lågt.",
+   "oppen_kod": "kostnader beräknade för lågt",
+   "beskrivning": "Utökade åtaganden för kommunerna är underfinansierade eftersom kostnaderna beräknats för lågt."
+  },
+  {
+   "uid": "U218",
+   "id": "sveriges-kommuner-och-regioner#67",
+   "citat": "Ett exempel är en akutskola som bemannas av 2 årsarbetskrafter för att kunna hålla plats för 7 elever parallellt under året. Det blir i genomsnitt 3,5 elever per årsarbetare. Personaltätheten i grundskolor i genomsnitt är 12 elever per lärare. Det skulle tala för en fyra gånger så hög kostnad i det fall eleven placeras tillfälligt i akutskola.",
+   "oppen_kod": "akutskola väsentligt dyrare",
+   "beskrivning": "Placering i akutskola kostar betydligt mer än utredningen räknat med på grund av hög personaltäthet."
+  },
+  {
+   "uid": "U219",
+   "id": "sveriges-kommuner-och-regioner#67",
+   "citat": "Ersättningen i utredningen rimmar inte heller så väl med statsbidraget för akutskolor 2025 där staten bedömer att kostnaderna för nuvarande regelverk är 200 miljoner, för fyra veckors placering per elev. I denna utredning beräknas ersättningen till grundskolan för fyra ytterligare placeringsveckor bara bli 32 miljoner.",
+   "oppen_kod": "ersättning för förlängd placering låg",
+   "beskrivning": "Ersättningen för förlängd placering är låg jämfört med statens egen kostnadsbedömning för akutskolor."
+  },
+  {
+   "uid": "U220",
+   "id": "sveriges-kommuner-och-regioner#67",
+   "citat": "SKR ser en oroväckande trend där fler utredningar föreslår att deras förslag ska finansieras genom en minskning av riktade statsbidrag. Vissa statsbidrag föreslås dessutom att tas i anspråk av flera utredningar.",
+   "oppen_kod": "finansiering via minskade statsbidrag",
+   "beskrivning": "Finansiering genom minskade riktade statsbidrag som redan tagits i anspråk av andra utredningar."
+  },
+  {
+   "uid": "U221",
+   "id": "sveriges-kommuner-och-regioner#67",
+   "citat": "Statsbidraget för stärkt kunskapsutveckling används i dag för att förstärka skolverksamheter. Om bidraget minskar medför det att huvudmän behöver minska dessa satsningar.",
+   "oppen_kod": "minskade satsningar hos huvudmän",
+   "beskrivning": "Minskat kunskapsbidrag tvingar huvudmän att dra ner på befintliga satsningar."
+  },
+  {
+   "uid": "U222",
+   "id": "sveriges-kommuner-och-regioner#68",
+   "citat": "SKR anser att ikraftträdandet behöver synkroniseras med andra ändringsförslag. Det behöver säkerställas att detta hinns med till 1 juli 2026.",
+   "oppen_kod": "ikraftträdande samordnas med reformer",
+   "beskrivning": "Ikraftträdandet 1 juli 2026 måste samordnas med andra ändringar och kan bli svårt att hinna med."
+  },
+  {
+   "uid": "U223",
+   "id": "solvesborgs-kommun#3",
+   "citat": "Ett arbete utifrån förslagen innebär att rektor och personal behöver använda mer tid för att skapa samsyn, genom gemensamma förhållningssätt och regler.",
+   "oppen_kod": "mer tid för samsyn",
+   "beskrivning": "Förslagen kräver mer tid av rektor och personal för att skapa samsyn kring förhållningssätt och regler."
+  },
+  {
+   "uid": "U224",
+   "id": "solvesborgs-kommun#3",
+   "citat": "Risk föreligger att föreslagna ändringar inte ges möjlighet till att få fäste på grund av ekonomisk kompensation från staten inte är tillräcklig eller prioriteringar av huvudman inte ger utrymme.",
+   "oppen_kod": "otillräcklig statlig kompensation",
+   "beskrivning": "Otillräcklig statlig kompensation riskerar att ändringarna inte får fäste hos huvudmannen."
+  },
+  {
+   "uid": "U225",
+   "id": "solvesborgs-kommun#3",
+   "citat": "Risk finns också för att rektors arbetsbelastning ökar när regeländringar införs som ska påverka samsyn och kulturer på arbetsplatsen.",
+   "oppen_kod": "ökad arbetsbelastning för rektor",
+   "beskrivning": "Regeländringarna riskerar att öka rektors arbetsbelastning."
+  },
+  {
+   "uid": "U226",
+   "id": "solvesborgs-kommun#3",
+   "citat": "Då ändringarna föreslås gälla från 1 juni 2026, vilket är kort framförhållning utifrån att budgetförutsättningar inte kommer att kunna beredas i tid för de flesta huvudmän, är det också av vikt att stödmaterial finns tillgängliga i god tid för att förbereda förändringsarbetet.",
+   "oppen_kod": "kort framförhållning för budget",
+   "beskrivning": "Ikraftträdandet ger för kort framförhållning för huvudmännens budgetarbete och kräver stödmaterial i god tid."
+  },
+  {
+   "uid": "U227",
+   "id": "solvesborgs-kommun#7",
+   "citat": "I genomförandet av utredningen har inga huvudmän i mindre kommuner deltagit. Detta anser nämnden vara en stor brist då dessa huvudmän utgör en majoritet i Sverige.",
+   "oppen_kod": "mindre kommuner ej representerade",
+   "beskrivning": "Mindre kommuners förutsättningar har inte beaktats i utredningen."
+  },
+  {
+   "uid": "U228",
+   "id": "solvesborgs-kommun#7",
+   "citat": "Detta främst för att risk för ökad arbetsbelastning för rektor föreligger i införandet av förändringarna enligt utredningen i sin helhet.",
+   "oppen_kod": "rektors arbetsbelastning vid införande",
+   "beskrivning": "Införandet av förändringarna riskerar att öka rektors arbetsbelastning i mindre kommuner."
+  },
+  {
+   "uid": "U229",
+   "id": "solvesborgs-kommun#8",
+   "citat": "Resurser till, och förutsättningar för, att möjliggöra rektors undervisningsnära- och verksamhetsnära ledarskap är bärande om betänkandets förslag ska realiseras.",
+   "oppen_kod": "resurser för verksamhetsnära ledarskap",
+   "beskrivning": "Det krävs resurser för att rektor ska kunna utöva det verksamhetsnära ledarskap förslagen förutsätter."
+  },
+  {
+   "uid": "U230",
+   "id": "solvesborgs-kommun#9",
+   "citat": "Nämnden anser att förslagen både är kostnadsökande för mindre huvudmän och ökar arbetsbelastning för rektorer.",
+   "oppen_kod": "kostnadsökning för mindre huvudmän",
+   "beskrivning": "Förslagen ökar kostnaderna för mindre huvudmän och rektorers arbetsbelastning."
+  },
+  {
+   "uid": "U231",
+   "id": "solvesborgs-kommun#9",
+   "citat": "Tillgång till avlastande personal att tillgå för akuta situationer på mindre enheter är mycket svårt att skapa förutsättningar för utan att ge lärare eller elevhälsapersonal mer/andra uppgifter.",
+   "oppen_kod": "avlastande personal på små enheter",
+   "beskrivning": "Små enheter har svårt att ordna avlastande personal för akuta situationer utan att belasta lärare och elevhälsa."
+  },
+  {
+   "uid": "U232",
+   "id": "solvesborgs-kommun#9",
+   "citat": "Viktigt att klarlägga utredningskraven vid kränkande behandling och trakasserier, oavsett om begreppet mobbning införs eller inte.",
+   "oppen_kod": "oklara utredningskrav kränkningar",
+   "beskrivning": "Utredningskraven vid kränkande behandling och trakasserier är oklara."
+  },
+  {
+   "uid": "U233",
+   "id": "solvesborgs-kommun#9",
+   "citat": "Detta då utredarna menar att alla incidenter inte ska anmälas, utan att huvudman kräver in dessa signaler utanför lagkravet.",
+   "oppen_kod": "oklar anmälningsplikt till huvudman",
+   "beskrivning": "Det är oklart vilka incidenter som ska anmälas till huvudmannen."
+  },
+  {
+   "uid": "U234",
+   "id": "solvesborgs-kommun#10",
+   "citat": "Att finansiera reformerna genom att minska medel som tillförs andra statsbidrag som används just för att finansiera avlastande personal, akutskolor samt andra yrkesgrupper i skolverksamheten är i sig att motverka reformens syfte",
+   "oppen_kod": "finansiering motverkar reformens syfte",
+   "beskrivning": "Finansiering via minskade statsbidrag tar bort medel för avlastande personal och akutskolor."
+  },
+  {
+   "uid": "U235",
+   "id": "uppvidinge-kommun#3",
+   "citat": "Kommunen vill dock betona vikten av att detta inte får försvåra samarbetet med hemmet, särskilt i relation till vårdnadshavares möjlighet till inﬂytande, även om det sker i begränsad omfattning.",
+   "oppen_kod": "försvårat samarbete med hemmet",
+   "beskrivning": "Förtydligat lärarmandat riskerar att försvåra skolans samarbete med vårdnadshavare."
+  },
+  {
+   "uid": "U236",
+   "id": "uppvidinge-kommun#3",
+   "citat": "Samtidigt vill kommunen understryka vikten av att lagändringen tydligt reglerar hur dessa elever fortsatt ska få tillgång till undervisning, samt vem som bär ansvaret för detta.",
+   "oppen_kod": "oklart ansvar för utvisade elever",
+   "beskrivning": "Det är oklart hur utvisade elever ska få undervisning och vem som ansvarar för det."
+  },
+  {
+   "uid": "U237",
+   "id": "uppvidinge-kommun#4",
+   "citat": "Dels ﬁnns en oro för att det blir svårt att säkerställa likvärdighet i landet vad gäller kriterier för beslut om placering i akutskola.",
+   "oppen_kod": "olika kriterier för akutskola",
+   "beskrivning": "Det blir svårt att säkerställa likvärdiga kriterier för placering i akutskola."
+  },
+  {
+   "uid": "U238",
+   "id": "uppvidinge-kommun#4",
+   "citat": "Dels ﬁnns risker kopplade till att undervisningen kan ske på entreprenad eller via fjärrundervisning.",
+   "oppen_kod": "risker med entreprenad och fjärr",
+   "beskrivning": "Undervisning på entreprenad eller via fjärrundervisning medför risker för kvaliteten."
+  },
+  {
+   "uid": "U239",
+   "id": "uppvidinge-kommun#5",
+   "citat": "Kommunen vill dock uppmärksamma behovet av att skydda elevers personliga integritet, särskilt i små skolor och kommuner där o entliggörande av frånvaroregister kan leda till att enskilda elever identiﬁeras.",
+   "oppen_kod": "integritetsrisk i små skolor",
+   "beskrivning": "Publicering av frånvarodata kan identifiera enskilda elever i små skolor och kommuner."
+  },
+  {
+   "uid": "U240",
+   "id": "uppvidinge-kommun#6",
+   "citat": "små kommuner med begränsade resurser kan få svårt att leva upp till de nya kraven med kort framförhållning, då ﬂera av åtgärderna föreslås träda i kraft redan den 1 juli 2026.",
+   "oppen_kod": "små kommuner kort framförhållning",
+   "beskrivning": "Små kommuner med begränsade resurser kan få svårt att klara kraven till ikraftträdandet."
+  },
+  {
+   "uid": "U241",
+   "id": "arjangs-kommun#3",
+   "citat": "Samtidigt understryks att dessa åtgärder måste följas av tillräckliga resurser och kompetensutveckling för att undvika ökad arbetsbelastning och administrativa krav.",
+   "oppen_kod": "resurser och kompetensutveckling krävs",
+   "beskrivning": "Åtgärderna riskerar att öka arbetsbelastning och administration utan resurser och kompetensutveckling."
+  },
+  {
+   "uid": "U242",
+   "id": "arjangs-kommun#4",
+   "citat": "Samtidigt är det viktigt att dessa åtgärder inte leder till ökad administrativ börda utan att resurser och stöd följer med.",
+   "oppen_kod": "risk för administrativ börda",
+   "beskrivning": "Åtgärderna riskerar att öka den administrativa bördan utan resurser och stöd."
+  },
+  {
+   "uid": "U243",
+   "id": "arjangs-kommun#6",
+   "citat": "Det är dock avgörande att det finns tydliga riktlinjer och stöd för hur detta ska genomföras i praktiken.",
+   "oppen_kod": "behov av riktlinjer för ordningsstörningar",
+   "beskrivning": "Det saknas tydliga riktlinjer och stöd för hur hantering av ordningsstörningar ska genomföras i praktiken."
+  },
+  {
+   "uid": "U244",
+   "id": "arjangs-kommun#7",
+   "citat": "Det är dock avgörande att det finns tydliga riktlinjer och stöd för hur detta ska genomföras i praktiken, samt att det inte innebär ett ytterligare administrativt krav.",
+   "oppen_kod": "skolregler som administrativt krav",
+   "beskrivning": "Skolreglerna kräver riktlinjer och riskerar att bli ett ytterligare administrativt krav."
+  },
+  {
+   "uid": "U245",
+   "id": "arjangs-kommun#8",
+   "citat": "Förväntansdokumenten bör dock utformas med tydliga ramar för att inte bli ett ytterligare administrativt krav utan verkligt fungera som ett stöd i vardagen.",
+   "oppen_kod": "förväntansdokument som administrativt krav",
+   "beskrivning": "Förväntansdokumenten riskerar att bli ett ytterligare administrativt krav."
+  },
+  {
+   "uid": "U246",
+   "id": "arjangs-kommun#9",
+   "citat": "Utan tillräcklig kompetens och resurser finns dock risk att åtgärderna används för att \"flytta på problemet\" istället för att arbeta med orsaken.",
+   "oppen_kod": "risk att flytta problemet",
+   "beskrivning": "Utan kompetens och resurser riskerar åtgärderna att flytta problemet i stället för att lösa orsaken."
+  },
+  {
+   "uid": "U247",
+   "id": "arjangs-kommun#10",
+   "citat": "Det är också en utmaning för mindre kommuner att kunna flytta elever mellan skolenheter och att kunna organisera akutskolor, särskilt om det inte finns möjlighet att få statsbidrag.",
+   "oppen_kod": "omplacering och akutskola i små kommuner",
+   "beskrivning": "Mindre kommuner har svårt att flytta elever mellan skolenheter och organisera akutskolor."
+  },
+  {
+   "uid": "U248",
+   "id": "arjangs-kommun#10",
+   "citat": "Att ta fram återgångsplaner, följa upp avstängningar och hantera nya organisationsformer kräver tid, kompetens och samordning.",
+   "oppen_kod": "återgångsplaner kräver tid och kompetens",
+   "beskrivning": "Återgångsplaner, uppföljning av avstängningar och nya organisationsformer kräver tid, kompetens och samordning."
+  },
+  {
+   "uid": "U249",
+   "id": "arjangs-kommun#12",
+   "citat": "Det är dock viktigt att detta görs på ett sätt som respekterar individens integritet samt att skolorna får det stöd de behöver för att hantera denna uppgift.",
+   "oppen_kod": "integritet och stöd vid rapportering",
+   "beskrivning": "Frånvarorapporteringen kräver integritetsskydd och stöd till skolorna."
+  },
+  {
+   "uid": "U250",
+   "id": "arjangs-kommun#12",
+   "citat": "Viktigt är också att det finns fungerande system som kan hantera inrapporteringen. Redan idag finns det betydande svårigheter att rapportera statsbidrag vid systemöverbelastning, samt det pågående ”debaklet” kring de Digitala nationella proven.",
+   "oppen_kod": "osäkra system för inrapportering",
+   "beskrivning": "Det finns risk att systemen för inrapportering av frånvaro inte fungerar, givet tidigare systemproblem."
+  },
+  {
+   "uid": "U251",
+   "id": "arjangs-kommun#14",
+   "citat": "anser att det är viktigt att dessa åtgärder implementeras på ett sätt som inte leder till ökade klyftor eller ojämlikheter mellan skolor.",
+   "oppen_kod": "ökade klyftor mellan skolor",
+   "beskrivning": "Genomförandet riskerar att öka skillnaderna mellan skolor."
+  },
+  {
+   "uid": "U252",
+   "id": "arjangs-kommun#15",
+   "citat": "Vi stödjer många av utredningens förslag men anser att vissa behöver ytterligare förtydliganden och anpassningar för att passa lokala förhållanden.",
+   "oppen_kod": "anpassning till lokala förhållanden",
+   "beskrivning": "Vissa förslag behöver förtydligas och anpassas för att passa lokala förhållanden."
+  },
+  {
+   "uid": "U253",
+   "id": "arjangs-kommun#16",
+   "citat": "Det är viktigt att resurser fördelas rättvist och att skolorna får det stöd de behöver för att genomföra reformerna.",
+   "oppen_kod": "resursfördelning för genomförande",
+   "beskrivning": "Skolorna behöver rättvist fördelade resurser och stöd för att kunna genomföra reformerna."
+  },
+  {
+   "uid": "U254",
+   "id": "orebro-kommun#3",
+   "citat": "Å andra sidan föreligger det en risk att skolans uppdrag att verka för elevers demokratiska fostran urholkas när elever får mindre inflytande över skolregler (och konsekvenser vid överträdelse av reglerna) samt när lärare inte ska vara skyldiga att dokumentera repressalier, som utvisning och kvarsittning.",
+   "oppen_kod": "demokratiuppdraget urholkas",
+   "beskrivning": "Skolans uppdrag om demokratisk fostran riskerar att urholkas av minskat elevinflytande och slopad dokumentation."
+  },
+  {
+   "uid": "U255",
+   "id": "orebro-kommun#3",
+   "citat": "Det är svårt att nå framgång i detta arbete om eleverna upprepat blir utvisade och avstängda.",
+   "oppen_kod": "utvisningar försvårar elevarbete",
+   "beskrivning": "Upprepade utvisningar och avstängningar försvårar skolans arbete med särskilt stöd, kränkningar och frånvaro."
+  },
+  {
+   "uid": "U256",
+   "id": "orebro-kommun#6",
+   "citat": "införandet av nya skolregler och konsekvensplaner initialt kan innebära en ökad arbetsbelastning för skolledningen och personalen, eftersom det kräver tid och resurser för effektiv implementering.",
+   "oppen_kod": "skolregler ökar arbetsbelastning",
+   "beskrivning": "Införandet av skolregler och konsekvensplaner ökar initialt arbetsbelastningen för skolledning och personal."
+  },
+  {
+   "uid": "U257",
+   "id": "orebro-kommun#7",
+   "citat": "Det behöver förtydligas om detta endast ska tillämpas vid allvarlig händelse.",
+   "oppen_kod": "oklar tillämpning av utvisning",
+   "beskrivning": "Det är oklart om utvisning utan uppmaning bara gäller vid allvarlig händelse."
+  },
+  {
+   "uid": "U258",
+   "id": "orebro-kommun#7",
+   "citat": "Till detta kvarstår frågan om hur skolorna ska hantera tillsynen och tryggheten i korridoren om utvisade elever befinner sig där när undervisning pågår.",
+   "oppen_kod": "tillsyn av utvisade elever",
+   "beskrivning": "Skolorna måste hantera tillsyn och trygghet för utvisade elever utanför klassrummet."
+  },
+  {
+   "uid": "U259",
+   "id": "orebro-kommun#7",
+   "citat": "Ej dokumentationskrav vid utvisning och kvarsittning Förslaget kan leda till en rättsosäkerhet för eleven.",
+   "oppen_kod": "rättsosäkerhet utan dokumentation",
+   "beskrivning": "Slopat dokumentationskrav kan leda till rättsosäkerhet vid disciplinära åtgärder."
+  },
+  {
+   "uid": "U260",
+   "id": "orebro-kommun#7",
+   "citat": "Det är inte heller möjligt att göra systematiska uppföljningar och utvärderingar om dokumentation saknas.",
+   "oppen_kod": "uppföljning utan dokumentation omöjlig",
+   "beskrivning": "Utan dokumentation blir systematisk uppföljning och utvärdering av utvisningar och kvarsittningar omöjlig."
+  },
+  {
+   "uid": "U261",
+   "id": "orebro-kommun#7",
+   "citat": "För den elev som har fått den disciplinära åtgärden distans- eller fjärrundervisning kan det medföra en risk att eleven inte deltar i undervisningen och lättare involveras i kriminella miljöer.",
+   "oppen_kod": "fjärrundervisning når inte eleven",
+   "beskrivning": "Elever som nekas tillträde riskerar att inte delta i fjärr- eller distansundervisningen."
+  },
+  {
+   "uid": "U262",
+   "id": "orebro-kommun#7",
+   "citat": "Med begränsat (eller obefintligt) inflytande och delaktighet riskerar elevernas motivation att följa reglerna att försvagas.",
+   "oppen_kod": "svag regelefterlevnad utan elevinflytande",
+   "beskrivning": "Utan elevinflytande riskerar skolreglerna och förväntansdokumenten att inte efterlevas."
+  },
+  {
+   "uid": "U263",
+   "id": "ornskoldsviks-kommun#5",
+   "citat": "Örnsköldsviks kommun anser att den föreslagna statliga finansieringen behöver kompensera för de eventuella merkostnader som förslagen innebär.",
+   "oppen_kod": "merkostnader måste kompenseras",
+   "beskrivning": "Förslagen kan medföra merkostnader som den statliga finansieringen behöver täcka."
+  }
+ ]
+}

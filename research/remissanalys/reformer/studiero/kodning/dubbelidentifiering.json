@@ -1,0 +1,394 @@
+{
+ "_meta": {
+  "steg": "M1b oberoende identifiering av 40 slumpvis valda passager (≥ 100 tecken, frö 20261201) med samma instruktion; kodare A = M1",
+  "matt": "överens = båda kodarna anger minst en utmaning, eller ingen av dem",
+  "overens": 37,
+  "antal": 40,
+  "tolkning": true
+ },
+ "passager": [
+  {
+   "id": "gotlands-kommun#23",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "ideburna-skolors-riksforbund#10",
+   "kodare_a_antal": 3,
+   "kodare_b_antal": 3,
+   "kodare_b": [
+    {
+     "citat": "ISR ser en risk att dessa tre dokument blir en betungande administrativ uppgift att genomföra men vill ändå inte motsätta oss deras införande.",
+     "oppen_kod": "administrativ börda nya regeldokument"
+    },
+    {
+     "citat": "Lärare lär komma att bli nära inblandade i framtagandet av skolplanen och konsekvensdokumentet, vilket inte lär minska den administrativa bördan.",
+     "oppen_kod": "ökad administration för lärare"
+    },
+    {
+     "citat": "ISR är positivt till detta tillägg men vill påpeka att formuleringen ”finns förutsättningar för” är svår att konkret tillämpa. Här fordras ett förtydligande hur dessa förutsättningar i förväg ska tillskapas för att i akuta situationer kunna tillämpas.",
+     "oppen_kod": "otydligt rektorsansvar för förutsättningar"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "gotlands-kommun#27",
+   "kodare_a_antal": 1,
+   "kodare_b_antal": 1,
+   "kodare_b": [
+    {
+     "citat": "eller införa egna dokumentationsrutiner vilket då ändå skapar administration men utan enhetlighet.",
+     "oppen_kod": "egen dokumentation utan enhetlighet"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "hudiksvalls-kommun#3",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "haninge-kommun#33",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "haninge-kommun#15",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "gnesta-kommun#9",
+   "kodare_a_antal": 7,
+   "kodare_b_antal": 6,
+   "kodare_b": [
+    {
+     "citat": "Kan psykologiska faktorer räknas som giltig frånvaro om det inte finns ett läkarutlåtande i botten, eller är det vårdnadshavare eller skola som ska tolka?",
+     "oppen_kod": "oklar definition giltig frånvaro"
+    },
+    {
+     "citat": "Om definitionen av sjuk ska bestämmas av skola, innebär det en administrativ ökning som också skulle kunna innebära konflikter med familjer.",
+     "oppen_kod": "administration och konflikter frånvarobedömning"
+    },
+    {
+     "citat": "Man kan också i förlängningen fråga sig huruvida våra anmälningssystem idag, där anmälan sker digitalt, kan hantera den förändringen i definitionen av sjuk, också utifrån hälsa och GDPR.",
+     "oppen_kod": "digitala anmälningssystem räcker inte"
+    },
+    {
+     "citat": "Kommer förslaget innebära att vi kommer behöva gå tillbaka till frånvaroanmälan via telefon ökar arbetsbelastningen markant.",
+     "oppen_kod": "ökad arbetsbelastning frånvaroanmälan"
+    },
+    {
+     "citat": "Vår uppfattning idag är dock att regionen inte har tid och resurser att ha en nära samverkan i enskilda individfall.",
+     "oppen_kod": "bristande samverkan med regionen"
+    },
+    {
+     "citat": "Vi är positiva till en nationell frånvarostatistik, men frånvaro är svår att mäta eftersom det har mycket att göra med hur schemat utformas och hur lärarna rapporterar.",
+     "oppen_kod": "svårmätt frånvaro för statistik"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "goteborgs-kommun#20",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "hudiksvalls-kommun#13",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "gotlands-kommun#22",
+   "kodare_a_antal": 1,
+   "kodare_b_antal": 1,
+   "kodare_b": [
+    {
+     "citat": "Skolor i socialt utsatta områden, där behovet av trygghet ofta är störst, kan få svårare att implementera förslagen på grund av hög arbetsbelastning och brist på personal med rätt kompetens utifrån skolans behov.",
+     "oppen_kod": "implementering i utsatta områden"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "kungsbacka-kommun#5",
+   "kodare_a_antal": 4,
+   "kodare_b_antal": 3,
+   "kodare_b": [
+    {
+     "citat": "Detta är särskilt relevant för gymnasieskolan och anpassade gymnasieskolan som ofta har begränsade praktiska möjligheter att omplacera en elev inom skolenheten. Många gymnasieprogram har endast en klass per skolenhet.",
+     "oppen_kod": "begränsade omplaceringsmöjligheter i gymnasiet"
+    },
+    {
+     "citat": "Kommunen vill dock lyfta att det behövs förtydliganden kring vad som anses vara ”synnerliga skäl” samt vägledning kring vad regelbunden uppföljning och utvärdering innebär.",
+     "oppen_kod": "oklara synnerliga skäl nekat tillträde"
+    },
+    {
+     "citat": "Kommunen ser även att förtydliganden kring elevens rätt till utbildning i grundskolan ska tillgodoses i det fall eleven nekas tillträde till en skolenhet.",
+     "oppen_kod": "oklart utbildningsansvar vid nekat tillträde"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "arjangs-kommun#4",
+   "kodare_a_antal": 1,
+   "kodare_b_antal": 1,
+   "kodare_b": [
+    {
+     "citat": "Samtidigt är det viktigt att dessa åtgärder inte leder till ökad administrativ börda utan att resurser och stöd följer med.",
+     "oppen_kod": "administrativ börda utan resurser"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "ronneby-kommun#4",
+   "kodare_a_antal": 1,
+   "kodare_b_antal": 1,
+   "kodare_b": [
+    {
+     "citat": "har funnit att förslaget gällande ett upprätta ett nationellt frånvaroregister behöver utredas närmare alternativt justeras eller förtydligas.",
+     "oppen_kod": "otydligt nationellt frånvaroregister"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "haninge-kommun#20",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "sveriges-kommuner-och-regioner#58",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "uppvidinge-kommun#5",
+   "kodare_a_antal": 1,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": false
+  },
+  {
+   "id": "goteborgs-kommun#26",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "knivsta-kommun#31",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "sveriges-kommuner-och-regioner#11",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "sveriges-kommuner-och-regioner#46",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "sveriges-kommuner-och-regioner#21",
+   "kodare_a_antal": 1,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": false
+  },
+  {
+   "id": "sveriges-kommuner-och-regioner#71",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "malmo-kommun#12",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "sveriges-kommuner-och-regioner#42",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "sveriges-kommuner-och-regioner#2",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "ideburna-skolors-riksforbund#12",
+   "kodare_a_antal": 2,
+   "kodare_b_antal": 2,
+   "kodare_b": [
+    {
+     "citat": "Ett tydligt problem som finns vid de små fristående skolorna är att finna lösningar när en elev så svårt stör verksamheten över tid att detta allvarligt påverkar andra elevers trygghet och studiero.",
+     "oppen_kod": "små skolor saknar placeringsalternativ"
+    },
+    {
+     "citat": "Men problemet är ändå att sådana akutskolor med stor sannolikhet inte kommer att finnas över hela landet.",
+     "oppen_kod": "akutskolor saknas geografiskt"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "malmo-kommun#51",
+   "kodare_a_antal": 2,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": false
+  },
+  {
+   "id": "skelleftea-kommun#12",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "sveriges-kommuner-och-regioner#49",
+   "kodare_a_antal": 1,
+   "kodare_b_antal": 1,
+   "kodare_b": [
+    {
+     "citat": "Utredningen beskriver inte hur detta ska gå till rent praktiskt vilket blir särskilt svårt gällande elever i grundskolan som har skolplikt.",
+     "oppen_kod": "oklart praktiskt genomförande nekat tillträde"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "sveriges-kommuner-och-regioner#33",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "sveriges-kommuner-och-regioner#37",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "goteborgs-kommun#31",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "stockholms-kommun#3",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "malmo-kommun#32",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "sveriges-kommuner-och-regioner#18",
+   "kodare_a_antal": 3,
+   "kodare_b_antal": 2,
+   "kodare_b": [
+    {
+     "citat": "För att kunna möta kravet enligt skollagen om utredning vid upprepade störningar kommer viss dokumentation att behövas. Utan sådan dokumentation blir det svårt att följa om företeelsen är upprepad.",
+     "oppen_kod": "utredningskrav utan dokumentation"
+    },
+    {
+     "citat": "SKR delar utredningens bild att det finns en risk att elever med funktionsnedsättning, psykisk ohälsa, svårigheter i det sociala samspelet eller koncentrationssvårigheter oftare än sina klasskamrater kommer att utvisas.",
+     "oppen_kod": "diskrimineringsrisk vid utvisning"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "orust-kommun#4",
+   "kodare_a_antal": 2,
+   "kodare_b_antal": 2,
+   "kodare_b": [
+    {
+     "citat": "Vi anser att minskad dokumentation för lärare är positivt men ser risker ur ett barnrättsperspektiv samt sämre förutsättningar för exempelvis socialtjänsten att få ett bra underlag för sitt eventuella arbete.",
+     "oppen_kod": "sämre underlag för socialtjänsten"
+    },
+    {
+     "citat": "Vi är positiva till lagförslagen om utökade möjligheter till avstängning och omplacering men ser utöver de risker som utredaren lyfter att det kan tillskapa en repressiv kultur som inte rimmar med skolans övergripande mål och uppdrag. Vi menar därför att det behövs ett förtydligande och stödmaterial.",
+     "oppen_kod": "risk för repressiv skolkultur"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "arjangs-kommun#13",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "ideburna-skolors-riksforbund#19",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "knivsta-kommun#7",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "haninge-kommun#29",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  }
+ ]
+}
