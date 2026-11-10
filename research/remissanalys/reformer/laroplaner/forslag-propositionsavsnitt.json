@@ -1,0 +1,192 @@
+{
+ "_meta": {
+  "steg": "R1 redaktionell koppling mellan utredningsförslag och propositionsavsnitt (Sprint 17, ämnesmatchning mot propositionens rutor och rubriker)",
+  "redaktionell": true,
+  "matchningstyper": [
+   "förslagsruta",
+   "avsnittsnivå",
+   "osäker ämnesmatchning",
+   "övergripande avsnitt, detalj ej behandlad",
+   "ingen"
+  ]
+ },
+ "forslag": [
+  {
+   "id": "F01",
+   "propositionsavsnitt": [
+    "194:6.1"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Prop. 194 avsnitt 6.1 behandlar en samlad läroplan per obligatorisk skolform med kursplaner och timplaner samt betoning av tillförlitliga, beständiga och grundläggande kunskaper; enligt propositionen stämmer utredningens förslag i huvudsak överens (annan utformning av 1 kap. 11 §). Riktlinjer och undervisningsstrategier har ingen egen ruta här utan återkommer i 6.3.2 och 6.4.",
+   "rubriker": [
+    "6.1 Det ska införas en samlad läroplan för varje obligatorisk skolform",
+    "Regeringens förslag",
+    "Läroplansutredningens förslag"
+   ]
+  },
+  {
+   "id": "F02",
+   "propositionsavsnitt": [
+    "194:6.1"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Regeringens bedömning i prop. 194 avsnitt 6.1 är att regeringen bör meddela föreskrifterna om läroplanerna för de obligatoriska skolformerna i deras helhet; utredningens förslag om upplysningsbestämmelsen redovisas i samma avsnitt (avsnitt 6.4 hänvisar dit).",
+   "rubriker": [
+    "6.1 Det ska införas en samlad läroplan för varje obligatorisk skolform",
+    "Regeringens bedömning",
+    "Läroplansutredningens förslag"
+   ]
+  },
+  {
+   "id": "F03",
+   "propositionsavsnitt": [
+    "194:6.2",
+    "195:6.4",
+    "196:8"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Avsnitt 4.2 är uppdelat på tre propositioner: syftesparagrafen och definitionen av undervisning i prop. 194 avsnitt 6.2 (överens), stöd och stimulans ur syftesparagrafen i prop. 195 avsnitt 6.4 (delvis överens) och 1 kap. 5 § samt flytt av kränkande behandling till 6 kap. i prop. 196 avsnitt 8 (delvis överens). Ändringarna i 3 kap. om ledning och stimulans, extra anpassningar och stödundervisning behandlas i prop. 195 i avsnitt som bygger på andra utredningar och ingår inte här.",
+   "rubriker": [
+    "6.2 Syftet med undervisningen ska tydliggöras och lärarnas roll ska stärkas",
+    "6.4 Bestämmelser om utformningen av utbildningen ska förändras för att undvika överlappningar",
+    "8 Tydligare ansvar och minskad dokumentation vid kränkande behandling",
+    "Regeringens förslag",
+    "Läroplansutredningens förslag",
+    "Läroplansutredningens förslag (SOU 2025:19)"
+   ]
+  },
+  {
+   "id": "F04",
+   "propositionsavsnitt": [
+    "194:6.3.2"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Ny struktur och nytt innehåll i de inledande delarna behandlas i regeringens förslag i prop. 194 avsnitt 6.3.2; enligt propositionen stämmer utredningens förslag i huvudsak överens (avvikelse i skrivningen om värdegrunden).",
+   "rubriker": [
+    "6.3.2 Läroplanerna i den obligatoriska skolan ska få nya inledande delar",
+    "Regeringens förslag",
+    "Läroplansutredningens förslag"
+   ]
+  },
+  {
+   "id": "F05",
+   "propositionsavsnitt": [
+    "194:6.5"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Principerna för nya kursplaner återges i regeringens förslag i prop. 194 avsnitt 6.5, och propositionen anger att utredningens förslag stämmer överens. Riktlinjerna för själva kursplanearbetet (ämnesspecifika instruktioner, kompetensprofiler, utprövningar) finns inte i rutan.",
+   "rubriker": [
+    "6.5 Kursplanernas innehåll ska utgå från principer som främjar en hög och likvärdig kvalitet",
+    "Regeringens förslag",
+    "Läroplansutredningens förslag"
+   ]
+  },
+  {
+   "id": "F06",
+   "propositionsavsnitt": [
+    "194:6.7"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Att kriterier inte ska uppfyllas utan att eleven ska tillgodogöra sig kunskaper, och omformuleringen av undantagsbestämmelsen, behandlas i regeringens förslag i prop. 194 avsnitt 6.7; enligt propositionen stämmer utredningens förslag i huvudsak överens.",
+   "rubriker": [
+    "6.7 Fokus ska vara på elevens tillgodogörande av kunskap och inte uppfyllande av kriterier",
+    "Regeringens förslag",
+    "Läroplansutredningens förslag"
+   ]
+  },
+  {
+   "id": "F07",
+   "propositionsavsnitt": [
+    "194:6.4",
+    "194:6.8"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Kursplanestrukturen i skollagen behandlas i prop. 194 avsnitt 6.4 (i huvudsak överens; utredningens krav på betygskriterier för samtliga betyg tas inte med) och sammantagen bedömning för alla betygssteg i avsnitt 6.8 (överens).",
+   "rubriker": [
+    "6.4 Kursplanerna ska få en mer ändamålsenlig struktur",
+    "6.8 Sammantagen bedömning ska användas för alla betygssteg",
+    "Regeringens förslag",
+    "Läroplansutredningens förslag"
+   ]
+  },
+  {
+   "id": "F08",
+   "propositionsavsnitt": [
+    "194:6.6"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Betoning av praktiska färdigheter i de praktisk-estetiska ämnena behandlas under rubriken Praktisk-estetiska ämnen i regeringens förslag i prop. 194 avsnitt 6.6, som enligt propositionen stämmer överens med utredningens. Skrivningen om ämnenas egenvärde i de inledande delarna har ingen motsvarighet i rutan.",
+   "rubriker": [
+    "6.6 Det ska finnas särskilda principer för vissa områden",
+    "Regeringens förslag",
+    "Praktisk-estetiska ämnen",
+    "Läroplansutredningens förslag"
+   ]
+  },
+  {
+   "id": "F09",
+   "propositionsavsnitt": [
+    "194:6.6",
+    "194:6.3.2"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Principerna för kursplanen i svenska behandlas under rubriken Läs- och skrivinlärning i prop. 194 avsnitt 6.6 (överens). Att alla elever ska lära sig läsa, skriva och räkna i de inledande delarna står i regeringens förslag om nya inledande delar i avsnitt 6.3.2.",
+   "rubriker": [
+    "6.6 Det ska finnas särskilda principer för vissa områden",
+    "6.3.2 Läroplanerna i den obligatoriska skolan ska få nya inledande delar",
+    "Regeringens förslag",
+    "Läs- och skrivinlärning",
+    "Läroplansutredningens förslag"
+   ]
+  },
+  {
+   "id": "F10",
+   "propositionsavsnitt": [
+    "194:6.6",
+    "194:6.3.2"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Konkreta mål och innehåll om digital kompetens i kursplanerna och principerna för digitala inslag behandlas under rubriken Digital kompetens och digitala verktyg i prop. 194 avsnitt 6.6 (överens). Att skrivningar om digital kompetens tas bort ur de inledande delarna står i regeringens förslag i avsnitt 6.3.2.",
+   "rubriker": [
+    "6.6 Det ska finnas särskilda principer för vissa områden",
+    "6.3.2 Läroplanerna i den obligatoriska skolan ska få nya inledande delar",
+    "Regeringens förslag",
+    "Digital kompetens och digitala verktyg",
+    "Läroplansutredningens förslag"
+   ]
+  },
+  {
+   "id": "F11",
+   "propositionsavsnitt": [
+    "194:6.6"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Totalförsvar och Nato i kursplanen i samhällskunskap behandlas under rubriken Totalförsvar och Nato i regeringens förslag i prop. 194 avsnitt 6.6, som enligt propositionen stämmer överens med utredningens.",
+   "rubriker": [
+    "6.6 Det ska finnas särskilda principer för vissa områden",
+    "Regeringens förslag",
+    "Totalförsvar och Nato",
+    "Läroplansutredningens förslag"
+   ]
+  },
+  {
+   "id": "F12",
+   "propositionsavsnitt": [
+    "194:8",
+    "195:8",
+    "196:9"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Ikraftträdandet av skollagsändringarna behandlas i respektive propositions ikraftträdandeavsnitt, där utredningens förslag (1 januari 2027, tillämpning efter 30 juni 2028) redovisas: prop. 194 avsnitt 8 (delvis överens, 1 juli 2028), prop. 195 avsnitt 8 (inte överens) och prop. 196 avsnitt 9. Läroplanernas ikraftträdande 1 juli 2028 tas upp i skälen i prop. 194 avsnitt 8.",
+   "rubriker": [
+    "8 Ikraftträdande- och övergångsbestämmelser",
+    "8 Ikraftträdande",
+    "9 Ikraftträdande",
+    "Regeringens förslag",
+    "Utredningarnas förslag",
+    "Läroplansutredningens förslag",
+    "Läroplansutredningens förslag (SOU 2025:19)"
+   ]
+  }
+ ]
+}
