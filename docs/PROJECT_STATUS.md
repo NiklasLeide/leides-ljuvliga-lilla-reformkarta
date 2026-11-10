@@ -64,6 +64,13 @@ på plats, DoD godkänd. En task i taget. STOPP efter T0 om (a) är nej, och eft
 
 ---
 
+## Completed: Spike — Remissvar mot beslut (2026-11-10, utanför sprint)
+
+✅ Avslutad. Rapport: [research/remissanalys/RAPPORT.md](../research/remissanalys/RAPPORT.md) · data: `research/remissanalys/kedjor.json` (Del A, 7 reformer), `pilot-betyg.json` (Del B). Ingen ändring i publik data eller UI.
+Kort: alla sju kedjor kompletta till rskr; pilot `betyg` (flest fokusgruppssvar, 35); `utfall_prop` sattes utan tolkning för 7/80 förslag (propositionen skriver "i huvudsak"/"delvis"); spontana yttranden — bl.a. alla enskilda huvudmän — publiceras inte på regeringen.se. **Öppet:** research/ når produktion vid nästa deploy om inte `research` läggs till i `_config.yml` exclude; "Betygsuppdraget" matchat till `betyg` på sakinnehåll — bekräfta.
+
+---
+
 ## Completed: Sprint 14 — Revisionssprinten
 
 DoD-granskad och **GODKÄND** (T9, 2026-11-10, oberoende subagent) — alla delar av stop condition med verktygsbelägg: T0–T8 klara, 0 öppna bevakningsissues, meta.json live = 2026-11-10 = deploydatum, Pages-success för merge-SHA 6468565. Rollback-punkt 37c2616.
