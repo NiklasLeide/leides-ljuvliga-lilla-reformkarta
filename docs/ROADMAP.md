@@ -97,6 +97,7 @@ byggd på `scripts/revision/revision.js`. Registrerad backlogg (ingen åtgärd i
 - Webbläsartestet (`scripts/revision/remiss-e2e.js`, Playwright) ingår inte i CI.
 - Bevakningen ser inte departementsuppdrag utan Dir.-nummer och missade tilläggsdirektiven
   Dir. 2026:117 (v.37) och Dir. 2026:123 (v.44); pressmeddelande-RSS och Skolverkets remisser bevakas inte.
+- BEVAKNING.md:s manuella Skolverket-lista: inaktuella URL:er (forandringar-inom-skolomradet) och "kursplaneremiss okt–dec 2026".
 - Regleringsbreven och budgetpropositionen för 2027 (prop. 2026/27:1 ej lämnad 2026-11-10) — via chatten.
 
 ## Kommande
