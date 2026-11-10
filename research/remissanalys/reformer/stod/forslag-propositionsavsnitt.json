@@ -1,0 +1,138 @@
+{
+ "_meta": {
+  "steg": "R1 redaktionell koppling mellan utredningsförslag och propositionsavsnitt (Sprint 17, ämnesmatchning mot propositionens rutor och rubriker)",
+  "redaktionell": true,
+  "matchningstyper": [
+   "förslagsruta",
+   "avsnittsnivå",
+   "osäker ämnesmatchning",
+   "övergripande avsnitt, detalj ej behandlad",
+   "ingen"
+  ]
+ },
+ "forslag": [
+  {
+   "id": "F01",
+   "propositionsavsnitt": [
+    "195:6.1"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Prop. 195 avsnitt 6.1: regeringens förslag att bestämmelserna om extra anpassningar ska avskaffas; enligt propositionen stämmer utredningens förslag överens.",
+   "rubriker": [
+    "6.1 Bestämmelserna om stöd i form av extra anpassningar ska avskaffas i samtliga skolformer",
+    "Regeringens förslag",
+    "Utredningen om en förbättrad elevhälsas förslag"
+   ]
+  },
+  {
+   "id": "F02",
+   "propositionsavsnitt": [
+    "195:6.2",
+    "195:6.5"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Garantin för tidiga stödinsatser behandlas i förslagsrutan i avsnitt 6.2 (utredningens förslag stämmer överens). Avskaffandet av de nationella proven i årskurs 3 (årskurs 4 i specialskolan) står inte i rutan men behandlas i skälen i avsnitt 6.5, där regeringen bedömer att proven bör avskaffas när de standardiserade testerna införs.",
+   "rubriker": [
+    "6.2 Garantin för tidiga stödinsatser ska avskaffas",
+    "Regeringens förslag",
+    "Utredningen om en förbättrad elevhälsas förslag",
+    "6.5 Standardiserade tester ska införas för att identifiera elever med stödbehov",
+    "Skälen för regeringens förslag"
+   ]
+  },
+  {
+   "id": "F03",
+   "propositionsavsnitt": [
+    "195:6.3"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Prop. 195 avsnitt 6.3: regeringens förslag om ledning och stimulans för att kunna följa undervisningen; utredningens förslag stämmer delvis överens. Utredningens anpassningar till Läroplansutredningens förslag hänvisas till prop. 2025/26:194.",
+   "rubriker": [
+    "6.3 Barn och elever ska ges ledning och stimulans i syfte att kunna följa undervisningen",
+    "Regeringens förslag",
+    "Utredningen om en förbättrad elevhälsas förslag"
+   ]
+  },
+  {
+   "id": "F04",
+   "propositionsavsnitt": [
+    "195:6.5"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Prop. 195 avsnitt 6.5: regeringens förslag om standardiserade tester; utredningens förslag stämmer i huvudsak överens (regeringen lägger till krav på stödundervisning eller anmälan efter testresultat).",
+   "rubriker": [
+    "6.5 Standardiserade tester ska införas för att identifiera elever med stödbehov",
+    "Regeringens förslag",
+    "Utredningen om en förbättrad elevhälsas förslag"
+   ]
+  },
+  {
+   "id": "F05",
+   "propositionsavsnitt": [
+    "195:6.6"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Prop. 195 avsnitt 6.6: regeringens förslag om stödundervisning; utredningens förslag stämmer i huvudsak överens (regeringen begränsar till svenska, svenska som andraspråk och matematik och stryker överföringen av utvärderingsresultat).",
+   "rubriker": [
+    "6.6 Stödundervisning ska införas för att förbättra stödet i skolan",
+    "Regeringens förslag",
+    "Utredningen om en förbättrad elevhälsas förslag"
+   ]
+  },
+  {
+   "id": "F06",
+   "propositionsavsnitt": [
+    "195:6.7",
+    "195:6.8"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Anmälan och utredning av behov av särskilt stöd behandlas i förslagsrutan i avsnitt 6.7 (i huvudsak överens). Strykningen av att särskilt stöd ska ges inom elevgruppen står i förslagsrutan i avsnitt 6.8.",
+   "rubriker": [
+    "6.7 En utredning av en elevs behov av särskilt stöd ska inledas snabbare än i dag",
+    "Regeringens förslag",
+    "Utredningen om en förbättrad elevhälsas förslag",
+    "6.8 Det ska bli enklare att ge särskilt stöd i en mindre undervisningsgrupp eller som enskild undervisning",
+    "Regeringens förslag"
+   ]
+  },
+  {
+   "id": "F07",
+   "propositionsavsnitt": [
+    "195:6.8"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Prop. 195 avsnitt 6.8: regeringens förslag att kravet på särskilda skäl för särskilt stöd enskilt eller i särskild undervisningsgrupp tas bort; utredningens förslag stämmer i huvudsak överens (regeringen tar även bort delegeringsbegränsningen).",
+   "rubriker": [
+    "6.8 Det ska bli enklare att ge särskilt stöd i en mindre undervisningsgrupp eller som enskild undervisning",
+    "Regeringens förslag",
+    "Utredningen om en förbättrad elevhälsas förslag"
+   ]
+  },
+  {
+   "id": "F08",
+   "propositionsavsnitt": [
+    "195:6.9"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Prop. 195 avsnitt 6.9: regeringens förslag att anpassad studiegång bara får ges som sista alternativ, föregånget av information; utredningens förslag stämmer i huvudsak överens.",
+   "rubriker": [
+    "6.9 Anpassad studiegång ska bara få ges som sista alternativ",
+    "Regeringens förslag",
+    "Utredningen om en förbättrad elevhälsas förslag"
+   ]
+  },
+  {
+   "id": "F09",
+   "propositionsavsnitt": [
+    "195:8"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Prop. 195 avsnitt 8: regeringens förslag om ikraftträdande den 1 juli 2028; enligt propositionen stämmer utredningens förslag (1 juli 2026, tillämpning hösten 2028) inte överens. Skolförordningen nämns inte i rutan.",
+   "rubriker": [
+    "8 Ikraftträdande",
+    "Regeringens förslag",
+    "Utredningen om en förbättrad elevhälsas förslag"
+   ]
+  }
+ ]
+}
