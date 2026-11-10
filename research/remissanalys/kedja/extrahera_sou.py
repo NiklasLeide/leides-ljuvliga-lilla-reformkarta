@@ -111,23 +111,35 @@ def paragrafer(Praw, toc, fk, sounr):
             rows.append((pg, s))
     out = []; kap = None; cur = None; mode = None
     HEAD = re.compile(r'^(\d+(?: [a-z])?) ?§$')
+    # config sou.forfattningskommentar.inline_rubriker (av som standard): kapitelrubriken står på samma rad som kapitlets namn
+    # ("3 kap. Barns och elevers utveckling mot målen") och paragrafens text börjar på rubrikraden ("1 § I detta kapitel …"),
+    # som i SOU 2025:44. Paragrafrubriken kräver versal efter "§" (annars är det en hänvisning mitt i en mening, "16 § och …").
+    INLINE = bool(fk.get('inline_rubriker'))
+    KAP_I = re.compile(r'^(\d+(?: [a-z])?) kap\.\s+[A-ZÅÄÖ][^§]*$'); HEAD_I = re.compile(r'^(\d+(?: [a-z])?) § ([A-ZÅÄÖ].*)$')
     for pg, s in rows:
         if re.fullmatch(r'\d+(?: [a-z])? kap\.', s): kap = s.replace(' kap.', ''); continue
+        if INLINE and KAP_I.match(s): kap = KAP_I.match(s).group(1); continue
         if s.startswith('Ikraftträdande och övergångsbestämmelser'):
             cur = {'kap': 'ikraft', 'par': 'övergångsbestämmelser', 'sida': pg, 'text': [], 'kommentar': []}; out.append(cur); mode = 'text'; continue
         if s == fk['slut_avsnitt']: break
         m = HEAD.match(s)
         if m and kap:
             cur = {'kap': kap, 'par': m.group(1), 'sida': pg, 'text': [], 'kommentar': []}; out.append(cur); mode = 'text'; continue
+        mi = HEAD_I.match(s) if INLINE else None
+        if mi and kap:
+            cur = {'kap': kap, 'par': mi.group(1), 'sida': pg, 'text': [mi.group(2)], 'kommentar': []}; out.append(cur); mode = 'text'; continue
         if cur is None: continue
         if mode == 'text' and re.match(r'^(Paragrafen|Bestämmelsen|Paragrafens|I paragrafen|Ändringen|Första stycket|Andra stycket|Övervägandena)\b', s):
             mode = 'komm'
         (cur['text'] if mode == 'text' else cur['kommentar']).append(s)
+    # config sou.forfattningskommentar.hanvisningsfraser (tom som standard): fler fraser som inleder hänvisningen till avsnittet
+    # med övervägandena, t.ex. "Överväganden finns i avsnitt" (SOU 2025:44, utan bestämd form)
+    FRASER = ''.join('|' + re.escape(f) for f in fk.get('hanvisningsfraser') or [])
     for c in out:
         t = ' '.join(c['text']); t = re.sub(r'(\w)-\s(?=[a-zåäö])', r'\1', t); t = re.sub(r'\s+', ' ', t).strip()
         k = re.sub(r'\s+', ' ', ' '.join(c['kommentar']))
         c['text'] = t
-        c['avsnitt'] = sorted(set(re.findall(r'(\d{1,2}(?:\.\d{1,2}){1,3})', ' '.join(re.findall(r'(?:behandlas i avsnitt|Övervägandena finns i avsnitt|övervägandena finns i avsnitt|behandlas i avsnitten)[^.]*(?:\.\d[^.]*)*', k)))))
+        c['avsnitt'] = sorted(set(re.findall(r'(\d{1,2}(?:\.\d{1,2}){1,3})', ' '.join(re.findall(r'(?:behandlas i avsnitt|Övervägandena finns i avsnitt|övervägandena finns i avsnitt|behandlas i avsnitten' + FRASER + r')[^.]*(?:\.\d[^.]*)*', k)))))
         c['upphavs'] = bool(re.search(r'upphävs|ska upphöra att gälla', k)) and not t
         c['kommentar'] = k[:400]
     return out

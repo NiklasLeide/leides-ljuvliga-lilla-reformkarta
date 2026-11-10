@@ -1,0 +1,886 @@
+{
+ "_meta": {
+  "kalla": {
+   "text": "SOU 2025:44, innehållsförteckning",
+   "url": "https://www.regeringen.se/contentassets/2cd8d2f5eb0544f3ba50d5f93087dee9/forbattrat-stod-i-skolan-sou-202544.pdf"
+  },
+  "forslagskapitel": [
+   6,
+   7
+  ]
+ },
+ "lista": [
+  {
+   "avsnitt": "1",
+   "rubrik": "Författningsförslag",
+   "sida": 27
+  },
+  {
+   "avsnitt": "1.1",
+   "rubrik": "Förslag till lag om ändring i skollagen (2010:800)",
+   "sida": 27
+  },
+  {
+   "avsnitt": "1.2",
+   "rubrik": "Förslag till förordning om ändring i skolförordningen (2011:185)",
+   "sida": 38
+  },
+  {
+   "avsnitt": "2",
+   "rubrik": "Utredningens uppdrag och genomförande",
+   "sida": 41
+  },
+  {
+   "avsnitt": "2.1",
+   "rubrik": "Utredningens direktiv",
+   "sida": 41
+  },
+  {
+   "avsnitt": "2.2",
+   "rubrik": "Hur utredningen har valt att arbeta",
+   "sida": 41
+  },
+  {
+   "avsnitt": "2.2.1",
+   "rubrik": "Expertgrupp och övriga samtal med myndigheter",
+   "sida": 42
+  },
+  {
+   "avsnitt": "2.2.2",
+   "rubrik": "Referensgrupper och övriga samtal",
+   "sida": 42
+  },
+  {
+   "avsnitt": "2.3",
+   "rubrik": "Beröringspunkter med andra utredningar",
+   "sida": 44
+  },
+  {
+   "avsnitt": "2.4",
+   "rubrik": "Betänkandets disposition",
+   "sida": 44
+  },
+  {
+   "avsnitt": "3",
+   "rubrik": "Bakgrund och nuläge",
+   "sida": 45
+  },
+  {
+   "avsnitt": "3.1",
+   "rubrik": "Stödlagstiftningens utveckling",
+   "sida": 45
+  },
+  {
+   "avsnitt": "3.1.1",
+   "rubrik": "Åtgärdsprogram och särskilt stöd",
+   "sida": 45
+  },
+  {
+   "avsnitt": "3.1.2",
+   "rubrik": "Garanti för tidiga insatser införs för att stöd ska sättas in tidigare",
+   "sida": 46
+  },
+  {
+   "avsnitt": "3.2",
+   "rubrik": "Nuvarande reglering",
+   "sida": 46
+  },
+  {
+   "avsnitt": "3.2.1",
+   "rubrik": "Bestämmelser om utbildningens syfte och uppdrag",
+   "sida": 46
+  },
+  {
+   "avsnitt": "3.2.2",
+   "rubrik": "Bestämmelser om elevers utveckling mot målen",
+   "sida": 47
+  },
+  {
+   "avsnitt": "3.2.3",
+   "rubrik": "Distansundervisning som särskilt stöd",
+   "sida": 52
+  },
+  {
+   "avsnitt": "3.2.4",
+   "rubrik": "Garanti för tidiga stödinsatser",
+   "sida": 52
+  },
+  {
+   "avsnitt": "3.2.5",
+   "rubrik": "Stöd i gymnasieskolan och i anpassade gymnasieskolan",
+   "sida": 53
+  },
+  {
+   "avsnitt": "3.2.6",
+   "rubrik": "Stöd inom kommunal vuxenutbildning",
+   "sida": 55
+  },
+  {
+   "avsnitt": "3.2.7",
+   "rubrik": "Särskilda bestämmelser om skolgång för nyanlända elever i grundskolan, anpassade grundskolan, specialskolan och sameskolan.",
+   "sida": 55
+  },
+  {
+   "avsnitt": "3.2.8",
+   "rubrik": "Särskilda bestämmelser om nyanlända elevers skolgång i gymnasieskolan",
+   "sida": 57
+  },
+  {
+   "avsnitt": "3.3",
+   "rubrik": "Tioårig grundskola",
+   "sida": 57
+  },
+  {
+   "avsnitt": "3.4",
+   "rubrik": "Ansvarsfördelning i arbetet med stöd",
+   "sida": 58
+  },
+  {
+   "avsnitt": "3.4.1",
+   "rubrik": "Kommuner ska fördela resurser efter elevernas olika förutsättningar och behov",
+   "sida": 59
+  },
+  {
+   "avsnitt": "3.4.2",
+   "rubrik": "Rektorns ansvar",
+   "sida": 60
+  },
+  {
+   "avsnitt": "3.4.3",
+   "rubrik": "Lärarens ansvar",
+   "sida": 60
+  },
+  {
+   "avsnitt": "3.4.4",
+   "rubrik": "Elevhälsans ansvar",
+   "sida": 61
+  },
+  {
+   "avsnitt": "3.5",
+   "rubrik": "Måluppfyllelse i olika skolformer",
+   "sida": 62
+  },
+  {
+   "avsnitt": "3.5.1",
+   "rubrik": "Resultat i internationella kunskapsmätningar",
+   "sida": 62
+  },
+  {
+   "avsnitt": "3.5.2",
+   "rubrik": "Resultat på nationella prov i grundskolan",
+   "sida": 64
+  },
+  {
+   "avsnitt": "3.5.3",
+   "rubrik": "Betygsresultat i grundskolan",
+   "sida": 71
+  },
+  {
+   "avsnitt": "3.5.4",
+   "rubrik": "Genomsnittligt meritvärde",
+   "sida": 72
+  },
+  {
+   "avsnitt": "3.5.5",
+   "rubrik": "Behörighet till gymnasieskolan",
+   "sida": 73
+  },
+  {
+   "avsnitt": "3.5.6",
+   "rubrik": "Sameskolan",
+   "sida": 74
+  },
+  {
+   "avsnitt": "3.5.7",
+   "rubrik": "Specialskolan",
+   "sida": 74
+  },
+  {
+   "avsnitt": "3.5.8",
+   "rubrik": "Gymnasieskolan",
+   "sida": 75
+  },
+  {
+   "avsnitt": "3.5.9",
+   "rubrik": "Kommunal vuxenutbildning",
+   "sida": 77
+  },
+  {
+   "avsnitt": "3.6",
+   "rubrik": "Arbetet med stöd – nuläge",
+   "sida": 78
+  },
+  {
+   "avsnitt": "3.6.1",
+   "rubrik": "Användning av olika stödformer",
+   "sida": 78
+  },
+  {
+   "avsnitt": "4",
+   "rubrik": "Forskning och andra studier",
+   "sida": 87
+  },
+  {
+   "avsnitt": "4.1",
+   "rubrik": "Forskning om undervisning som gynnar lärande",
+   "sida": 87
+  },
+  {
+   "avsnitt": "4.1.1",
+   "rubrik": "Betydelsen av undervisning under lärares ledning",
+   "sida": 88
+  },
+  {
+   "avsnitt": "4.1.2",
+   "rubrik": "Betydelsen av strukturerad undervisning",
+   "sida": 89
+  },
+  {
+   "avsnitt": "4.1.3",
+   "rubrik": "Betydelsen av lärarens relationskompetens",
+   "sida": 90
+  },
+  {
+   "avsnitt": "4.1.4",
+   "rubrik": "Betydelsen av metakognitiva strategier och förmågor",
+   "sida": 92
+  },
+  {
+   "avsnitt": "4.1.5",
+   "rubrik": "Undervisning som främjar elevens motivation",
+   "sida": 93
+  },
+  {
+   "avsnitt": "4.2",
+   "rubrik": "Forskning om särskilda insatser för elever i behov av stöd",
+   "sida": 95
+  },
+  {
+   "avsnitt": "4.2.1",
+   "rubrik": "Läs- och skrivutveckling",
+   "sida": 95
+  },
+  {
+   "avsnitt": "4.2.2",
+   "rubrik": "Träning av grundkunskaper i matematik",
+   "sida": 102
+  },
+  {
+   "avsnitt": "4.3",
+   "rubrik": "Undervisningens organisation i relation till elevers utveckling och lärande",
+   "sida": 103
+  },
+  {
+   "avsnitt": "4.3.1",
+   "rubrik": "Forskning om betydelsen av undervisningsgruppens storlek",
+   "sida": 103
+  },
+  {
+   "avsnitt": "5",
+   "rubrik": "Elever har behov av ett snabbt och flexibelt stöd",
+   "sida": 107
+  },
+  {
+   "avsnitt": "5.1",
+   "rubrik": "Skolors arbete med olika stödinsatser",
+   "sida": 107
+  },
+  {
+   "avsnitt": "5.1.1",
+   "rubrik": "Lärare har bristande förutsättningar att möta elevers stödbehov",
+   "sida": 107
+  },
+  {
+   "avsnitt": "5.1.2",
+   "rubrik": "Det förekommer brister i samarbetet med elevhälsans specialpedagogiska kompetenser",
+   "sida": 109
+  },
+  {
+   "avsnitt": "5.1.3",
+   "rubrik": "Det förekommer brister i arbetet med extra anpassningar",
+   "sida": 110
+  },
+  {
+   "avsnitt": "5.1.4",
+   "rubrik": "Ansvarsfördelning och arbetsprocess kring anmälan är ofta otydlig",
+   "sida": 111
+  },
+  {
+   "avsnitt": "5.1.5",
+   "rubrik": "Bristfälliga utredningar innebär svårigheter att utforma ändamålsenligt stöd",
+   "sida": 112
+  },
+  {
+   "avsnitt": "5.1.6",
+   "rubrik": "Elevers och vårdnadshavares bild av arbetet med anpassningar och stöd",
+   "sida": 113
+  },
+  {
+   "avsnitt": "5.1.7",
+   "rubrik": "Undervisningens genomförande i särskild undervisningsgrupp har brister",
+   "sida": 115
+  },
+  {
+   "avsnitt": "5.1.8",
+   "rubrik": "Bristfällig nationell bild av omfattningen av anpassad studiegång",
+   "sida": 117
+  },
+  {
+   "avsnitt": "5.1.9",
+   "rubrik": "Det förekommer brister i tillämpningen av anpassad studiegång",
+   "sida": 118
+  },
+  {
+   "avsnitt": "5.2",
+   "rubrik": "Arbetet med stödinsatser i gymnasieskolan",
+   "sida": 120
+  },
+  {
+   "avsnitt": "5.2.1",
+   "rubrik": "Arbetet med stödinsatser i gymnasieskolan är inte tillräckligt effektivt",
+   "sida": 120
+  },
+  {
+   "avsnitt": "5.2.2",
+   "rubrik": "Stödbehovet har ökat inom kommunal vuxenutbildning",
+   "sida": 122
+  },
+  {
+   "avsnitt": "5.2.4",
+   "rubrik": "Elever med funktionsnedsättning får inte tillräckligt stöd",
+   "sida": 125
+  },
+  {
+   "avsnitt": "5.3",
+   "rubrik": "Skolors insatser för elever i behov av stöd är otillräckliga",
+   "sida": 129
+  },
+  {
+   "avsnitt": "5.3.1",
+   "rubrik": "Många av de som inte når behörighet till gymnasieskolan har uppvisat svårigheter tidigt",
+   "sida": 129
+  },
+  {
+   "avsnitt": "5.3.2",
+   "rubrik": "Få av eleverna som tidigt visat svårigheter har fått stöd",
+   "sida": 130
+  },
+  {
+   "avsnitt": "5.4",
+   "rubrik": "Utformning och tillämpning av nuvarande stödlagstiftning har brister",
+   "sida": 132
+  },
+  {
+   "avsnitt": "5.4.1",
+   "rubrik": "Extra anpassningar fungerar inte enligt intentionerna",
+   "sida": 132
+  },
+  {
+   "avsnitt": "5.4.2",
+   "rubrik": "Garantin för tidiga stödinsatser har inte lett till ökade stödinsatser i lägre åldrar",
+   "sida": 136
+  },
+  {
+   "avsnitt": "5.4.3",
+   "rubrik": "Innebörden av ledning och stimulans är otydlig",
+   "sida": 137
+  },
+  {
+   "avsnitt": "5.4.4",
+   "rubrik": "Kunskapsuppföljningen är inte tillräckligt effektiv",
+   "sida": 138
+  },
+  {
+   "avsnitt": "5.4.5",
+   "rubrik": "Skolors arbete med särskilt stöd har brister",
+   "sida": 140
+  },
+  {
+   "avsnitt": "6",
+   "rubrik": "Utredningens förslag och bedömningar",
+   "sida": 145
+  },
+  {
+   "avsnitt": "6.1",
+   "rubrik": "Bestämmelserna om extra anpassningar ska avskaffas i samtliga skolformer",
+   "sida": 147
+  },
+  {
+   "avsnitt": "6.2",
+   "rubrik": "Garantin för tidiga stödinsatser och nationella prov i årskurs 3 ska avskaffas",
+   "sida": 148
+  },
+  {
+   "avsnitt": "6.3",
+   "rubrik": "Alla barn och elever ska kunna följa undervisningen",
+   "sida": 149
+  },
+  {
+   "avsnitt": "6.4",
+   "rubrik": "Standardiserade tester införs för att uppmärksamma elever med stödbehov",
+   "sida": 157
+  },
+  {
+   "avsnitt": "6.4.1",
+   "rubrik": "De standardiserade testernas syfte",
+   "sida": 158
+  },
+  {
+   "avsnitt": "6.4.2",
+   "rubrik": "De standardiserade testernas utformning",
+   "sida": 159
+  },
+  {
+   "avsnitt": "6.4.3",
+   "rubrik": "Genomförande av de standardiserade testerna",
+   "sida": 159
+  },
+  {
+   "avsnitt": "6.4.4",
+   "rubrik": "Skolverket bör få i uppdrag att utforma de standardiserade testerna",
+   "sida": 163
+  },
+  {
+   "avsnitt": "6.5",
+   "rubrik": "Stödundervisning ger ett snabbt och flexibelt stöd",
+   "sida": 164
+  },
+  {
+   "avsnitt": "6.5.1",
+   "rubrik": "Syftet med stödundervisning är ett kortvarigt och ämnesspecifikt stöd",
+   "sida": 165
+  },
+  {
+   "avsnitt": "6.5.2",
+   "rubrik": "Stödundervisning ska ges när eleven riskerar att inte kunna följa undervisningen och har svårigheter i ämnet",
+   "sida": 166
+  },
+  {
+   "avsnitt": "6.5.3",
+   "rubrik": "Läraren bedömer om en elev är i behov av stödundervisning",
+   "sida": 168
+  },
+  {
+   "avsnitt": "6.5.4",
+   "rubrik": "Rektorn är skyldig att sätta in stödundervisning skyndsamt",
+   "sida": 172
+  },
+  {
+   "avsnitt": "6.5.5",
+   "rubrik": "Stödundervisning får ges i mindre grupp eller enskilt",
+   "sida": 173
+  },
+  {
+   "avsnitt": "6.5.6",
+   "rubrik": "En eventuell reglering av klass- och gruppindelning inom skolväsendet bör utredas vidare",
+   "sida": 174
+  },
+  {
+   "avsnitt": "6.5.7",
+   "rubrik": "En elev som bedöms ha behov av stödundervisning är skyldig att delta",
+   "sida": 175
+  },
+  {
+   "avsnitt": "6.5.8",
+   "rubrik": "Stödundervisningen ska vara undervisning av hög kvalitet",
+   "sida": 176
+  },
+  {
+   "avsnitt": "6.5.9",
+   "rubrik": "Stödundervisning ska vid behov ges i ett eller flera ämnen",
+   "sida": 177
+  },
+  {
+   "avsnitt": "6.5.10",
+   "rubrik": "Utvärdering och omfattning av stödundervisning",
+   "sida": 180
+  },
+  {
+   "avsnitt": "6.5.11",
+   "rubrik": "Huvudmannens ansvar för stödundervisning",
+   "sida": 183
+  },
+  {
+   "avsnitt": "6.5.12",
+   "rubrik": "Rektorns ansvar att planera för stödundervisning",
+   "sida": 183
+  },
+  {
+   "avsnitt": "6.5.13",
+   "rubrik": "Tillämpningsområde för bestämmelserna om stödundervisning",
+   "sida": 186
+  },
+  {
+   "avsnitt": "6.5.14",
+   "rubrik": "Stödundervisningen bör efter införandet följas upp och utvärderas på nationell nivå",
+   "sida": 188
+  },
+  {
+   "avsnitt": "6.6",
+   "rubrik": "Utredning av en elevs behov av särskilt stöd och hur särskilt stöd ska ges",
+   "sida": 189
+  },
+  {
+   "avsnitt": "6.6.1",
+   "rubrik": "Skillnaden mellan särskilt stöd och stödundervisning",
+   "sida": 189
+  },
+  {
+   "avsnitt": "6.6.2",
+   "rubrik": "En utredning av en elevs behov av särskilt stöd ska inledas snabbare",
+   "sida": 191
+  },
+  {
+   "avsnitt": "6.6.3",
+   "rubrik": "Det ska förtydligas att det är ansvarig lärare eller mentor som ska anmäla att elevens behov av särskilt stöd behöver utredas",
+   "sida": 193
+  },
+  {
+   "avsnitt": "6.6.4",
+   "rubrik": "Samråd med speciallärare eller specialpedagog ska alltid ske vid utredning av behov av särskilt stöd",
+   "sida": 194
+  },
+  {
+   "avsnitt": "6.6.5",
+   "rubrik": "Elevens behov ska styra hur särskilt stöd ges",
+   "sida": 195
+  },
+  {
+   "avsnitt": "6.6.6",
+   "rubrik": "Fler elever i behov av särskilt stöd ska ges rätt stöd snabbare och nå högre måluppfyllelse",
+   "sida": 196
+  },
+  {
+   "avsnitt": "6.7",
+   "rubrik": "Elevens stödbehov ska styra om en elev ska ges undervisning enskilt eller i en särskild undervisningsgrupp",
+   "sida": 197
+  },
+  {
+   "avsnitt": "6.7.1",
+   "rubrik": "Undervisning enskilt eller i en särskild undervisningsgrupp ger ett mer omfattande och behovsanpassat stöd än stödundervisning",
+   "sida": 198
+  },
+  {
+   "avsnitt": "6.7.2",
+   "rubrik": "Det ska inte krävas särskilda skäl för ett beslut om undervisning enskilt eller i en särskild undervisningsgrupp",
+   "sida": 199
+  },
+  {
+   "avsnitt": "6.7.3",
+   "rubrik": "Särskilt stöd som ges som undervisning enskilt eller i en särskild undervisningsgrupp utgör undervisning",
+   "sida": 201
+  },
+  {
+   "avsnitt": "6.7.4",
+   "rubrik": "Eleven ska ges särskilt stöd som undervisning enskilt eller i en särskild undervisningsgrupp om sådant stödbehov finns",
+   "sida": 201
+  },
+  {
+   "avsnitt": "6.8",
+   "rubrik": "Anpassad studiegång får bara ges i sista hand",
+   "sida": 202
+  },
+  {
+   "avsnitt": "6.8.1",
+   "rubrik": "Anpassad studiegång får endast beslutas om elevens behov av särskilt stöd inte kunnat tillgodoses genom andra former av särskilt stöd",
+   "sida": 203
+  },
+  {
+   "avsnitt": "6.8.2",
+   "rubrik": "Eleven och elevens vårdnadshavare ska informeras inför beslut om anpassad studiegång",
+   "sida": 204
+  },
+  {
+   "avsnitt": "6.8.3",
+   "rubrik": "Anpassad studiegång bör följas upp och utvärderas",
+   "sida": 204
+  },
+  {
+   "avsnitt": "7",
+   "rubrik": "Ikraftträdande",
+   "sida": 207
+  },
+  {
+   "avsnitt": "8",
+   "rubrik": "Författningskommentar",
+   "sida": 209
+  },
+  {
+   "avsnitt": "8.1",
+   "rubrik": "Förslaget till lag om ändring i skollagen (2010:800)",
+   "sida": 209
+  },
+  {
+   "avsnitt": "9",
+   "rubrik": "Konsekvenser av utredningens förslag",
+   "sida": 225
+  },
+  {
+   "avsnitt": "9.1",
+   "rubrik": "Krav på konsekvensanalysen",
+   "sida": 225
+  },
+  {
+   "avsnitt": "9.2",
+   "rubrik": "Problembeskrivning i korthet",
+   "sida": 227
+  },
+  {
+   "avsnitt": "9.3",
+   "rubrik": "Utredningens förslag i korthet",
+   "sida": 228
+  },
+  {
+   "avsnitt": "9.3.1",
+   "rubrik": "Konsekvenser av införandet av stödundervisning i förhållande till förslaget om försöksverksamhet med förstärkningsundervisning",
+   "sida": 231
+  },
+  {
+   "avsnitt": "9.4",
+   "rubrik": "Vilka är berörda av utredningens förslag?",
+   "sida": 237
+  },
+  {
+   "avsnitt": "9.4.1",
+   "rubrik": "Staten",
+   "sida": 238
+  },
+  {
+   "avsnitt": "9.4.2",
+   "rubrik": "Kommuner",
+   "sida": 240
+  },
+  {
+   "avsnitt": "9.4.3",
+   "rubrik": "Regioner",
+   "sida": 242
+  },
+  {
+   "avsnitt": "9.4.4",
+   "rubrik": "Företag",
+   "sida": 243
+  },
+  {
+   "avsnitt": "9.4.5",
+   "rubrik": "Övriga",
+   "sida": 245
+  },
+  {
+   "avsnitt": "9.4.6",
+   "rubrik": "Hur yrkesverksammas arbetsförutsättningar påverkas av förslagen",
+   "sida": 245
+  },
+  {
+   "avsnitt": "9.5",
+   "rubrik": "Samhällsekonomiska konsekvenser",
+   "sida": 249
+  },
+  {
+   "avsnitt": "9.5.1",
+   "rubrik": "Kostnader för kommuner",
+   "sida": 249
+  },
+  {
+   "avsnitt": "9.5.2",
+   "rubrik": "Kostnader för staten",
+   "sida": 262
+  },
+  {
+   "avsnitt": "9.5.3",
+   "rubrik": "Finansiering",
+   "sida": 270
+  },
+  {
+   "avsnitt": "9.6",
+   "rubrik": "Konsekvenser för internationella åtaganden om mänskliga rättigheter",
+   "sida": 272
+  },
+  {
+   "avsnitt": "9.6.1",
+   "rubrik": "Barn och ungdomar",
+   "sida": 272
+  },
+  {
+   "avsnitt": "9.7",
+   "rubrik": "Konsekvenser ur dataskyddssynpunkt",
+   "sida": 284
+  }
+ ],
+ "kapitel": {
+  "1": "Författningsförslag",
+  "2": "Utredningens uppdrag och genomförande",
+  "3": "Bakgrund och nuläge",
+  "4": "Forskning och andra studier",
+  "5": "Elever har behov av ett snabbt och flexibelt stöd",
+  "6": "Utredningens förslag och bedömningar",
+  "7": "Ikraftträdande",
+  "8": "Författningskommentar",
+  "9": "Konsekvenser av utredningens förslag"
+ },
+ "avsnitt": {
+  "6": {
+   "rubrik": "Utredningens förslag och bedömningar",
+   "sida": 145
+  },
+  "6.1": {
+   "rubrik": "Bestämmelserna om extra anpassningar ska avskaffas i samtliga skolformer",
+   "sida": 147
+  },
+  "6.2": {
+   "rubrik": "Garantin för tidiga stödinsatser och nationella prov i årskurs 3 ska avskaffas",
+   "sida": 148
+  },
+  "6.3": {
+   "rubrik": "Alla barn och elever ska kunna följa undervisningen",
+   "sida": 149
+  },
+  "6.4": {
+   "rubrik": "Standardiserade tester införs för att uppmärksamma elever med stödbehov",
+   "sida": 157
+  },
+  "6.4.1": {
+   "rubrik": "De standardiserade testernas syfte",
+   "sida": 158
+  },
+  "6.4.2": {
+   "rubrik": "De standardiserade testernas utformning",
+   "sida": 159
+  },
+  "6.4.3": {
+   "rubrik": "Genomförande av de standardiserade testerna",
+   "sida": 159
+  },
+  "6.4.4": {
+   "rubrik": "Skolverket bör få i uppdrag att utforma de standardiserade testerna",
+   "sida": 163
+  },
+  "6.5": {
+   "rubrik": "Stödundervisning ger ett snabbt och flexibelt stöd",
+   "sida": 164
+  },
+  "6.5.1": {
+   "rubrik": "Syftet med stödundervisning är ett kortvarigt och ämnesspecifikt stöd",
+   "sida": 165
+  },
+  "6.5.2": {
+   "rubrik": "Stödundervisning ska ges när eleven riskerar att inte kunna följa undervisningen och har svårigheter i ämnet",
+   "sida": 166
+  },
+  "6.5.3": {
+   "rubrik": "Läraren bedömer om en elev är i behov av stödundervisning",
+   "sida": 168
+  },
+  "6.5.4": {
+   "rubrik": "Rektorn är skyldig att sätta in stödundervisning skyndsamt",
+   "sida": 172
+  },
+  "6.5.5": {
+   "rubrik": "Stödundervisning får ges i mindre grupp eller enskilt",
+   "sida": 173
+  },
+  "6.5.6": {
+   "rubrik": "En eventuell reglering av klass- och gruppindelning inom skolväsendet bör utredas vidare",
+   "sida": 174
+  },
+  "6.5.7": {
+   "rubrik": "En elev som bedöms ha behov av stödundervisning är skyldig att delta",
+   "sida": 175
+  },
+  "6.5.8": {
+   "rubrik": "Stödundervisningen ska vara undervisning av hög kvalitet",
+   "sida": 176
+  },
+  "6.5.9": {
+   "rubrik": "Stödundervisning ska vid behov ges i ett eller flera ämnen",
+   "sida": 177
+  },
+  "6.5.10": {
+   "rubrik": "Utvärdering och omfattning av stödundervisning",
+   "sida": 180
+  },
+  "6.5.11": {
+   "rubrik": "Huvudmannens ansvar för stödundervisning",
+   "sida": 183
+  },
+  "6.5.12": {
+   "rubrik": "Rektorns ansvar att planera för stödundervisning",
+   "sida": 183
+  },
+  "6.5.13": {
+   "rubrik": "Tillämpningsområde för bestämmelserna om stödundervisning",
+   "sida": 186
+  },
+  "6.5.14": {
+   "rubrik": "Stödundervisningen bör efter införandet följas upp och utvärderas på nationell nivå",
+   "sida": 188
+  },
+  "6.6": {
+   "rubrik": "Utredning av en elevs behov av särskilt stöd och hur särskilt stöd ska ges",
+   "sida": 189
+  },
+  "6.6.1": {
+   "rubrik": "Skillnaden mellan särskilt stöd och stödundervisning",
+   "sida": 189
+  },
+  "6.6.2": {
+   "rubrik": "En utredning av en elevs behov av särskilt stöd ska inledas snabbare",
+   "sida": 191
+  },
+  "6.6.3": {
+   "rubrik": "Det ska förtydligas att det är ansvarig lärare eller mentor som ska anmäla att elevens behov av särskilt stöd behöver utredas",
+   "sida": 193
+  },
+  "6.6.4": {
+   "rubrik": "Samråd med speciallärare eller specialpedagog ska alltid ske vid utredning av behov av särskilt stöd",
+   "sida": 194
+  },
+  "6.6.5": {
+   "rubrik": "Elevens behov ska styra hur särskilt stöd ges",
+   "sida": 195
+  },
+  "6.6.6": {
+   "rubrik": "Fler elever i behov av särskilt stöd ska ges rätt stöd snabbare och nå högre måluppfyllelse",
+   "sida": 196
+  },
+  "6.7": {
+   "rubrik": "Elevens stödbehov ska styra om en elev ska ges undervisning enskilt eller i en särskild undervisningsgrupp",
+   "sida": 197
+  },
+  "6.7.1": {
+   "rubrik": "Undervisning enskilt eller i en särskild undervisningsgrupp ger ett mer omfattande och behovsanpassat stöd än stödundervisning",
+   "sida": 198
+  },
+  "6.7.2": {
+   "rubrik": "Det ska inte krävas särskilda skäl för ett beslut om undervisning enskilt eller i en särskild undervisningsgrupp",
+   "sida": 199
+  },
+  "6.7.3": {
+   "rubrik": "Särskilt stöd som ges som undervisning enskilt eller i en särskild undervisningsgrupp utgör undervisning",
+   "sida": 201
+  },
+  "6.7.4": {
+   "rubrik": "Eleven ska ges särskilt stöd som undervisning enskilt eller i en särskild undervisningsgrupp om sådant stödbehov finns",
+   "sida": 201
+  },
+  "6.8": {
+   "rubrik": "Anpassad studiegång får bara ges i sista hand",
+   "sida": 202
+  },
+  "6.8.1": {
+   "rubrik": "Anpassad studiegång får endast beslutas om elevens behov av särskilt stöd inte kunnat tillgodoses genom andra former av särskilt stöd",
+   "sida": 203
+  },
+  "6.8.2": {
+   "rubrik": "Eleven och elevens vårdnadshavare ska informeras inför beslut om anpassad studiegång",
+   "sida": 204
+  },
+  "6.8.3": {
+   "rubrik": "Anpassad studiegång bör följas upp och utvärderas",
+   "sida": 204
+  },
+  "7": {
+   "rubrik": "Ikraftträdande",
+   "sida": 207
+  }
+ }
+}

@@ -1,17 +1,37 @@
 {
  "id": "stod",
- "namn": null,
+ "namn": "Förbättrat stöd i skolan",
  "namn_i_brief": "Förbättrat stöd",
  "reforms_json_id": "stod",
- "status": "mall — fylls i när reformen tas fram",
+ "status": "under arbete (Sprint 17)",
  "sou": {
   "nr": "SOU 2025:44",
   "titel": "Förbättrat stöd i skolan",
   "sida_url": "https://www.regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2025/04/sou-202544/",
-  "pdf": null,
-  "innehall_sidor": null,
-  "forslagskapitel": null,
-  "forfattningskommentar": null
+  "pdf": [
+   {
+    "vol": "betankande",
+    "url": "https://www.regeringen.se/contentassets/2cd8d2f5eb0544f3ba50d5f93087dee9/forbattrat-stod-i-skolan-sou-202544.pdf"
+   }
+  ],
+  "innehall_sidor": [
+   5,
+   11
+  ],
+  "forslagskapitel": [
+   6,
+   7
+  ],
+  "forfattningskommentar": {
+   "avsnitt": "8.1",
+   "slut_avsnitt": "9",
+   "lag": "Skollag (2010:800)",
+   "inline_rubriker": true,
+   "hanvisningsfraser": [
+    "Överväganden finns i avsnitt"
+   ],
+   "anm": "Författningskommentaren har bara avsnitt 8.1 (skollagen); den slutar där kapitel 9 börjar (s. 225). inline_rubriker: kapitelrubriken står på samma rad som kapitlets namn och paragraftexten börjar på rubrikraden (\"1 § I detta kapitel …\"). hanvisningsfraser: hänvisningen lyder oftast \"Överväganden finns i avsnitt …\" (utan bestämd form)."
+  }
  },
  "remiss": {
   "url": "https://www.regeringen.se/remisser/2025/04/remiss-av-forbattrat-stod-i-skolan-sou-202544/",
@@ -20,23 +40,75 @@
  "propositioner": [
   {
    "nr": "Prop. 2025/26:195",
+   "kort": "195",
    "sida_url": "https://www.regeringen.se/rattsliga-dokument/proposition/2026/03/prop.-202526195",
-   "pdf_url": null,
-   "avsnitt": null,
-   "utredningens_forslag_rubrik": null,
-   "remissinstanser_rubrik": null,
-   "hoppa_delar_vid_namnsokning": [],
-   "lagtext_sidor": null,
-   "forteckning_remissinstanser_sida": null
+   "pdf_url": "https://www.regeringen.se/contentassets/90deb85eeb924ac4a4b5ef087529f68a/forbattrat-stod-i-skolan-prop.-202526195.pdf",
+   "avsnitt": [
+    "6.1",
+    "6.2",
+    "6.3",
+    "6.5",
+    "6.6",
+    "6.7",
+    "6.8",
+    "6.9",
+    "8"
+   ],
+   "utredningens_forslag_rubrik": [
+    "Utredningen om en förbättrad elevhälsas förslag"
+   ],
+   "remissinstanser_rubrik": "Remissinstanserna",
+   "hoppa_delar_vid_namnsokning": [
+    "Läroplansutredningens",
+    "Yrkesvuxutredningens"
+   ],
+   "hoppade_delar_beskrivning": "delar om SOU 2025:19 och SOU 2024:16",
+   "lagtext_sidor": [
+    6,
+    18
+   ],
+   "lagforslag_rubrik": "^(?:2()\\s+)?Förslag till lag om ändring i (.*)$",
+   "forteckning_remissinstanser_sida": 177,
+   "forteckning_bilaga": 3,
+   "ovriga_delrubriker": [
+    "Läroplansutredningens förslag",
+    "Yrkesvuxutredningens förslag"
+   ],
+   "anm": "Delad proposition: behandlar enligt avsnitt 3 \"förslagen i SOU 2025:44, förslagen i avsnitt 4.2 i SOU 2025:19 och förslagen i avsnitt 8.4.3 i SOU 2024:16\". Avsnitt 6.4 (bara Läroplansutredningens förslag) och 7.2 (bara Yrkesvuxutredningens förslag) bygger inte på SOU 2025:44 och ingår inte. Avsnitt 8 (ikraftträdande) har delar för alla tre utredningarna; de andras delar och deras remissinstanser hoppas över vid namnsökning. Ingen annan proposition behandlar SOU 2025:44 (riksdagens dokumentsökning på \"SOU 2025:44\" bland propositioner 2025/26 ger bara prop. 195 och budget-/kommittépropositioner; prop. 192, 193, 194, 196, 197 och 198 nämner inte SOU 2025:44). Lagförslaget är kap. 2 utan underavsnitt (\"2 Förslag till lag om ändring i skollagen (2010:800)\", rubriken över två rader)."
   }
  ],
  "layout": {
-  "spaltforskjutning_pt": null,
-  "ord_y_intervall_pt": null
+  "spaltforskjutning_pt": 154.0,
+  "ord_y_intervall_pt": [
+   30,
+   640
+  ],
+  "anm": "Propositionens tvåspaltiga lagförslag: högerspalten börjar spaltforskjutning_pt till höger om vänstermarginalen. rensa_marginal_i_delar: \"Prop. 2025/26:195\" på samma rad som brödtext rensas även i prop-avsnitt.json (annars kontroll.hela_stycket false i 6.7, s. 99). vanstermarginal_pt: fast vänstermarginal per sidparitet (uppmätt s. 6–18: jämna 122 pt, udda 51 pt); behövs för sidor där högerspalten dominerar (s. 9, 10, 12, 15). lagtext_tolerant: paragrafrubriker utan mellanslag (\"5a§\", \"7§\").",
+  "rensa_marginal_i_delar": true,
+  "vanstermarginal_pt": {
+   "jamn": 122,
+   "udda": 51
+  },
+  "lagtext_tolerant": true
  },
- "lagar": null,
- "forordningar": null,
- "forordning_markor": null,
+ "lagar": [
+  {
+   "namn": "Skollag (2010:800)",
+   "riksdagen_id": "sfs-2010-800",
+   "andringar": [
+    "2026:1242"
+   ],
+   "bestamd_form": "skollagen",
+   "anm": "2026:1242 = prop. 2025/26:195 (i kraft 2028-07-01): de nya paragraferna 3 kap. 5 a–5 c, 8 a, 8 b och 12 m §§ har \"Lag (2026:1242)\" i den konsoliderade texten. Den konsoliderade texten har inget övergångsblock för 2026:1242."
+  }
+ ],
+ "forordningar": [
+  {
+   "namn": "Skolförordning (2011:185)",
+   "riksdagen_id": "sfs-2011-185"
+  }
+ ],
+ "forordning_markor": [],
  "fokusorganisationer": {
   "skr": "Sveriges Kommuner och Regioner",
   "almega": "Almega Utbildning",
@@ -101,10 +173,12 @@
    }
   }
  },
- "hamtningsdatum": null,
+ "hamtningsdatum": "2026-11-10",
  "korrigeringar": {
   "ocr_citat_manuellt_kontrollerade": [],
   "motivering_omformulerad": {}
  },
- "forordning_markor_beskrivning": null
+ "forordning_markor_beskrivning": null,
+ "forordning_markor_anm": "Utredningens förordningsförslag (1.2, skolförordningen) avskaffar bestämmelser (nationella prov i årskurs 3, 9 kap. 22 b–c §§ m.fl.); det finns ingen ny formulering som kan användas som markör för att förslaget har genomförts.",
+ "forteckning_korrigeringar": {}
 }
