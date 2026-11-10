@@ -170,7 +170,8 @@ header p{font-size:.82rem;color:rgba(255,255,255,.5);max-width:500px}
 .legend-dot{flex-shrink:0;display:inline-block}
 
 /* Sidebar */
-.sidebar{position:sticky;top:50px;max-height:calc(100vh - 60px);overflow-y:auto}
+/* z-index (Sprint 14 T7b): detaljpanelen ska ligga över gantt-huvudet (15), Nu-linjen och markörerna (≤10), men under den sticky filterraden (20). Endast lagerordning. */
+.sidebar{position:sticky;top:50px;max-height:calc(100vh - 60px);overflow-y:auto;z-index:18}
 .detail-panel{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:1.2rem;overflow-y:auto;position:relative}
 .detail-close{position:absolute;top:.6rem;right:.8rem;background:none;border:none;font-size:1.1rem;color:var(--muted);cursor:pointer;padding:.1rem .3rem;line-height:1;border-radius:3px;transition:all .15s}
 .detail-close:hover{color:var(--ink);background:#f3f2ef}

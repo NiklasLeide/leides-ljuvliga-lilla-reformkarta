@@ -89,6 +89,16 @@
 - [x] T5: DoD-granskning godkänd, sprint stängd
 - [x] T2-followup: Datumkomplettering 6 utredningar — 27/27 staplar renderas
 
+## Sprint 15 — Automatpublicering (backlogg registrerad 2026-11-10, Sprint 14 T7b)
+Huvudspår: automatpublicering av rutinändringar ur riksdagens strukturerade data (DEC-019),
+byggd på `scripts/revision/revision.js`. Registrerad backlogg (ingen åtgärd i Sprint 14):
+- Tidslinjen blir 1433 px bred vid äkta mobilemulering (fanns före Sprint 14).
+- guide-alla.html visar inte remissen (Remissläge finns i karta, reformvy, tidslinje och guidehjul).
+- Webbläsartestet (`scripts/revision/remiss-e2e.js`, Playwright) ingår inte i CI.
+- Bevakningen ser inte departementsuppdrag utan Dir.-nummer och missade tilläggsdirektiven
+  Dir. 2026:117 (v.37) och Dir. 2026:123 (v.44); pressmeddelande-RSS och Skolverkets remisser bevakas inte.
+- Regleringsbreven och budgetpropositionen för 2027 (prop. 2026/27:1 ej lämnad 2026-11-10) — via chatten.
+
 ## Kommande
 - Nästa bevakningspunkt: 8 maj 2026 (Skolverkets genomförandeplan digitala slutprov)
 - Riksdagsbeslut väntas april–juni 2026 — bevaka varannan vecka

@@ -110,6 +110,25 @@ const SIDOR = {
     resultat.push(`${ok ? 'OK ' : 'FEL'} ${l.lage.padEnd(8)} ${vy.namn.padEnd(7)} ${sida.padEnd(15)} konsolfel=${konsol.length} ${notis}`);
     await ctx.close();
   }
+  // T7b: tidslinjens detaljpanel ska ligga ÖVER tidsaxeln, Nu-linjen och markörerna (desktop).
+  // elementFromPoint mitt på panelens rubrik måste träffa ett element inuti panelen — både för en
+  // remisshändelse och en befintlig händelse ur tidslinje.json.
+  for (const [namn, id] of [['remisshändelse', 'remiss-skolverket-2026-11-09-laroplaner-svar-laroplaner'], ['befintlig händelse', 'laroplaner-forslag']]) {
+    const ctx = await b.newContext({ viewport: { width: 1280, height: 900 } });
+    const pg = await ctx.newPage(); pg.setDefaultTimeout(8000);
+    await pg.clock.setFixedTime(new Date('2026-11-20T12:00:00'));
+    await pg.goto(bas + 'tidslinje.html', { waitUntil: 'networkidle' });
+    await pg.evaluate(eid => selectEvent(eid), id); await pg.waitForTimeout(300);
+    const r = await pg.evaluate(() => {
+      const panel = document.getElementById('detailPanel'), t = panel.querySelector('.detail-title');
+      const b = t.getBoundingClientRect(), x = b.left + b.width / 2, y = b.top + b.height / 2;
+      const hit = document.elementFromPoint(x, y);
+      return { inne: !!hit && panel.contains(hit), traff: hit ? (hit.className || hit.tagName) : null, x: Math.round(x), y: Math.round(y) };
+    });
+    if (!r.inne) fel++;
+    resultat.push(`${r.inne ? 'OK ' : 'FEL'} tidslinje desktop: panelrubrik överst (${namn}) — elementFromPoint(${r.x},${r.y}) → ${r.traff}`);
+    await ctx.close();
+  }
   // Fail-loud i webbläsaren: remisser.json med okänt reform_id → console.error, ingen ruta visas.
   {
     const ctx = await b.newContext({ viewport: { width: 1280, height: 900 } });
