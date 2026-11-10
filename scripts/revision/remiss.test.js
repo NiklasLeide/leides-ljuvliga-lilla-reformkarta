@@ -13,7 +13,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 
 const ROOT = path.join(__dirname, '..', '..');
-const SIDOR = ['index.html', 'reformer.html', 'tidslinje.html', 'guide.html'];
+const SIDOR = ['index.html', 'reformer.html', 'tidslinje.html', 'guide.html', 'guide-alla.html'];
 const START = '// <remiss-lib>';
 const SLUT = '// </remiss-lib>';
 
@@ -38,7 +38,7 @@ const DATA = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'remisser.json')
 const REFORM_IDS = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'reforms.json'), 'utf8')).map(r => r.id);
 const R = DATA[0];
 
-test('blocket är byte-identiskt i alla fyra sidor', () => {
+test('blocket är byte-identiskt i alla fem sidor', () => {
   const ref = block(SIDOR[0]);
   for (const s of SIDOR.slice(1)) assert.equal(block(s), ref, `${s} avviker från ${SIDOR[0]}`);
 });
@@ -120,4 +120,42 @@ test('remissLadda med giltig data loggar inget', async () => {
   const L = ladda({ fetch: async () => ({ ok: true, json: async () => DATA }), console: { error: (...a) => loggat.push(a) } });
   await L.remissLadda('x', REFORM_IDS);
   assert.equal(loggat.length, 0);
+});
+
+// ---------------------------- Sprint 15 T8 punkt 3 -----------------------------
+function laddaT8() {
+  const fn = new Function(`${block('index.html')}
+    return { remissAktuella, remissTitelUtanLedord, remissAktuelltHtml, remissMarkering };`);
+  return fn();
+}
+test('aktuellt-rad: "{statusrubrik}: {titel utan ledordet Remiss:}" med länk till första reform_id, i öppnar och öppen', () => {
+  const L = laddaT8();
+  for (const [idag, lage, status] of [['2026-11-01', 'oppnar', 'Remiss öppnar 9 november 2026'], ['2026-11-20', 'oppen', 'Remiss öppen till och med 20 januari 2027']]) {
+    const html = L.remissAktuelltHtml(DATA, idag);
+    assert.match(html, new RegExp(`data-lage="${lage}"`));
+    assert.match(html, /href="reformer\.html\?reform=laroplaner"/);
+    const text = html.replace(/<[^>]+>/g, '');
+    assert.equal(text, `${status}: Förslag på nya läroplaner och kursplaner för grundskolan, anpassade grundskolan, specialskolan och sameskolan`);
+  }
+});
+test('aktuellt-rad saknas i läget avslutad', () => {
+  assert.equal(laddaT8().remissAktuelltHtml(DATA, '2027-01-21'), '');
+});
+test('flera öppna remisser: en rad per remiss, sorterade på sista svarsdag', () => {
+  const L = laddaT8();
+  const tidig = { ...R, id: 'tidig', titel: 'Remiss: Tidig', oppnar: '2026-10-01', svar_senast: '2026-12-15', reform_ids: ['betyg'] };
+  const sen = { ...R, id: 'sen', titel: 'Remiss: Sen', oppnar: '2026-10-01', svar_senast: '2027-03-01', reform_ids: ['stod'] };
+  const html = L.remissAktuelltHtml([sen, R, tidig], '2026-11-20');
+  const ordning = [...html.matchAll(/reform=([a-z]+)/g)].map(m => m[1]);
+  assert.deepEqual(ordning, ['betyg', 'laroplaner', 'stod']);
+  assert.equal((html.match(/data-test="remiss-aktuellt-rad"/g) || []).length, 3);
+});
+test('markering "Remiss" på laroplaner och tioarig i öppnar/öppen, inte i avslutad, inte på andra reformer', () => {
+  const L = laddaT8();
+  for (const id of ['laroplaner', 'tioarig']) {
+    assert.match(L.remissMarkering(DATA, id, '2026-11-01'), /data-test="remiss-markering">Remiss</);
+    assert.match(L.remissMarkering(DATA, id, '2026-11-20'), /Remiss/);
+    assert.equal(L.remissMarkering(DATA, id, '2027-01-21'), '');
+  }
+  assert.equal(L.remissMarkering(DATA, 'betyg', '2026-11-20'), '');
 });

@@ -547,7 +547,18 @@ footer {
 .remiss-skolformer{color:var(--muted);display:flex;flex-wrap:wrap;align-items:center;column-gap:.75rem}
 .remiss-skolformer span{flex-basis:100%;padding-top:.2rem}
 .remiss-skolformer a{margin-right:0}
+/* Vänsterkanten linjerar med sidhuvudets text: varje sida sätter --remiss-aktuellt-x(-mobil) och ev. --remiss-aktuellt-max utanför blocket. */
+.remiss-aktuellt{background:var(--card);border-bottom:1px solid var(--border);padding:0 var(--remiss-aktuellt-x,1.5rem)}
+.remiss-aktuellt-inner{max-width:var(--remiss-aktuellt-max,none);margin:0 auto}
+.remiss-aktuellt-rad{display:flex;align-items:center;flex-wrap:wrap;gap:.25rem .4rem;min-height:44px;padding:.35rem 0;color:var(--ink);text-decoration:none;font-size:.82rem;line-height:1.35}
+.remiss-aktuellt-rad+.remiss-aktuellt-rad{border-top:1px solid var(--border)}
+.remiss-aktuellt-rad:hover .remiss-aktuellt-status,.remiss-aktuellt-rad:focus .remiss-aktuellt-status{text-decoration:underline}
+.remiss-aktuellt-status{font-weight:600;color:var(--kunskap)}
+.remiss-markering{display:inline-block;font-size:.58rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--kunskap);border:1px solid var(--kunskap);border-radius:3px;padding:0 .3rem;margin-left:.35rem;vertical-align:middle;line-height:1.5;background:var(--card)}
+@media(max-width:800px){.remiss-aktuellt{padding:0 var(--remiss-aktuellt-x-mobil,1rem)}}
 /* </remiss-css> */
+/* Sidspecifikt (utanför det delade blocket): aktuellt-radens vänsterkant = sidhuvudets text. */
+:root{--remiss-aktuellt-x:3rem;--remiss-aktuellt-x-mobil:2.5rem}
 </style>
 </head>
 <body>
@@ -559,6 +570,7 @@ footer {
     <p>Alla reformer i tabellform. Klicka på en rad för detaljer.</p>
   </div>
 </header>
+<div id="remissAktuellt"></div><!-- Sprint 15 T8: aktuellt-rad för remisser (fylls ur remisser.json) -->
 
 <div class="tab-nav">
   <a href="index.html">Reformkarta</a>
@@ -735,6 +747,29 @@ async function remissLadda(url, reformIds) {
     return [];
   }
 }
+// Sprint 15 T8 punkt 3 — remissen ska gå att hitta utan att öppna ett kort.
+// Aktuella = lägena öppnar och öppen (inte avslutad), sorterade på sista svarsdag.
+function remissAktuella(remisser, idag) {
+  return remisser.filter(r => remissStatus(r, idag).lage !== 'avslutad')
+    .slice().sort((a, b) => (a.svar_senast < b.svar_senast ? -1 : a.svar_senast > b.svar_senast ? 1 : 0));
+}
+function remissTitelUtanLedord(r) { return String(r.titel || '').replace(/^Remiss:\s*/, ''); }
+// Aktuellt-rad direkt under sidhuvudet: "{statusrubrik}: {titel utan ledordet Remiss:}", en rad per remiss.
+// Text ur remisser.json och remissStatus — ingen handskriven text.
+function remissAktuelltHtml(remisser, idag) {
+  const aktuella = remissAktuella(remisser, idag);
+  if (!aktuella.length) return '';
+  const esc = remissEsc;
+  return `<div class="remiss-aktuellt" data-test="remiss-aktuellt"><div class="remiss-aktuellt-inner">${aktuella.map(r => {
+    const s = remissStatus(r, idag);
+    return `<a class="remiss-aktuellt-rad" data-test="remiss-aktuellt-rad" data-lage="${s.lage}" href="reformer.html?reform=${encodeURIComponent(r.reform_ids[0])}"><span class="remiss-aktuellt-status">${esc(s.text)}:</span> ${esc(remissTitelUtanLedord(r))}</a>`;
+  }).join('')}</div></div>`;
+}
+// Markering "Remiss" på reformens nod/rad i samma två lägen.
+function remissMarkering(remisser, reformId, idag) {
+  return remisserForReform(remisser, reformId).some(r => remissStatus(r, idag).lage !== 'avslutad')
+    ? '<span class="remiss-markering" data-test="remiss-markering">Remiss</span>' : '';
+}
 // </remiss-lib>
 </script>
 <script>
@@ -834,7 +869,7 @@ function renderTable() {
     const isSelected = r.id === selectedId;
 
     return `<tr data-id="${r.id}" class="${isSelected ? 'selected' : ''}">
-      <td><strong>${r.short}</strong></td>
+      <td><strong>${r.short}</strong>${remissMarkering(remisser, r.id, remissIdag())}</td>
       <td><span class="cat-chip" style="background:${cc.bg};color:${cc.color}">${catLabels[r.cat]}</span></td>
       <td><span class="status-badge" style="background:${ss.bg};color:${ss.color}">${ss.label}</span></td>
       <td>${r.ikraft}</td>
@@ -1075,6 +1110,7 @@ async function loadData() {
     reforms = r;
     skolverketUppdrag = u;
     remisser = await remissLadda(dataPath('remisser.json') + cacheBust, reforms.map(x => x.id));
+    document.getElementById('remissAktuellt').innerHTML = remissAktuelltHtml(remisser, remissIdag());
     init();
   } catch (err) {
     console.error('Kunde inte ladda data:', err);
