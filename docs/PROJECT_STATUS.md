@@ -1,8 +1,65 @@
 # Project Status — leides-ljuvliga-lilla-reformkarta
 
 > **Last updated:** 2026-11-10
-> **Current sprint:** Underhåll — Sprint 14 stängd 2026-11-10 (nästa: Sprint 15, automatpublicering)
+> **Current sprint:** Sprint 15 — Automatsprinten (startad 2026-11-10)
 > **Sprint dates:** november 2026
+
+---
+
+## Current: Sprint 15 — Automatsprinten
+
+**Mål:** Rutinändringar publiceras utan mänskligt klick (DEC-019). Bedömningsändringar kommer som
+en färdig PR som Niklas mergar med ett klick. Bevakningen ser även det den missade 2026.
+
+**Arkitektur:** DEC-022 — automatfilen är ett deterministiskt skript i GitHub Actions (ingen AI-agent
+publicerar utan klick); veckorutinen är en schemalagd Claude Code-körning i molnmiljön Reformkartan som
+aldrig publicerar själv utan öppnar en PR; chatten granskar på begäran och äger regleringsbrev.
+
+**Automatfilens regler (varje regel har test):**
+1. Tillåtna ändringar, inget annat: (a) spårad proposition — betänkande, beslutsdatum och rskr fylls i och
+   status går proposition → beslutad när rskr-referensen har status inträffat OCH kammaren bifallit samtliga
+   förslagspunkter (avslag/delvis bifall → veckorutinen); (b) spårad utredning — nytt tilläggsdirektiv
+   (nummer, titel, datum) när både kommittébeteckning och utredningens namn stämmer (bara ena → veckorutinen;
+   riksdagens metadata var fel för Dir. 2026:98); (c) spårad utredning — nytt betänkande (SOU-nummer, titel,
+   riksdagens datum), utredningens status ändras inte; (d) följdändringar: andringar-post och meta.json.
+2. Aldrig automatiskt: SFS-nummer, ikraftträdanden, övergångsbestämmelser, nya poster, strykningar, fritext.
+3. Ett ifyllt värde skrivs aldrig över, utom statusbytet i 1a.
+4. Text byggs med fasta mallar ur källans fält. Fält som renderas tillsammans uppdateras tillsammans.
+5. Högst 5 ändringar per körning. Fler: stoppa.
+6. Före publicering: JSON-validering, testsvit och renderingstest (alla sidor 0 appfel mot nya datafiler).
+7. Vid stopp eller fel publiceras ingenting; issue med etiketten automat-stopp öppnas.
+8. Avstängning: repovariabeln AUTOMAT_AKTIV (beskrivs i MAINTENANCE.md, kan slås av från mobilen).
+9. Spårbarhet: commit "automat: ..." med käll-URL; andringar-posten märks "Hämtat automatiskt från
+   riksdagens öppna data"; varje publicering loggas som kommentar i en fast issue "Automatlogg".
+
+**Veckorutinens instruktion (.claude/commands/veckorutin.md):** starta från master; läs öppna issues med
+etiketterna bevakning och automat-stopp; kör revisionsskriptet i rapportläge; varje punkt automatfilen inte
+tar verifieras mot primärkälla, DEC-020 tillämpas, klassas som ändring eller avförd. Finns ändringar: gren
+claude/vecka-ÅÅÅÅ-VV, datapatch, andringar, meta, tester, en PR mot master med tabell (ändring, nuvärde, nytt
+värde, käll-URL), lista över avförda punkter med skäl och "Closes #n" per hanterad issue. Inget att ändra:
+kommentera disposition på varje issue och stäng. Osäkert fall: under "Behöver Niklas" i PR:en som konkret
+ja/nej-fråga, gissa aldrig. Officiella formuleringar, null före gissning, endast formella beslut, neutralt
+språk. Aldrig push till master eller dev, aldrig merge. Regleringsbrev: försök inte.
+
+**Out of scope:** regleringsbrev och BP 2027 (tas när de kommer, via veckorutinen och chatten), guideposter
+för gy25/ai/vinst, källformat, övrig CSS.
+
+**Stop condition:** T0 till T10 klara, automatfilen skarp med grön körning, veckorutinens instruktion och CI
+på plats, DoD godkänd. En task i taget. STOPP efter T0 om (a) är nej, och efter T8.
+
+| ID | Task | Status | Acceptance |
+|----|------|--------|------------|
+| T0 | Förutsättningar | ✅ Done | **(a) JA:** tillfälligt arbetsflöde pushade en ofarlig provfil under docs/automat/ till master med GITHUB_TOKEN (bot-commit `7beb526`) → "pages build and deployment" run 135 startad av github-pages[bot], **success**; provfilen hämtad live från reformer.leide.se. **(b) JA:** playwright@1.49.1 + `playwright install --with-deps chromium` på ubuntu-latest; remiss-e2e 27/27 (run 42837109026). Första runner-körningen gav 25 falska FEL: blockerade externa resurser rapporteras där som `net::ERR_FAILED` utan URL → e2e-filtret avgör nu externt via resursens adress (location().url). Provarbetsflöde och provfiler borttagna, bot-commiten mergad in i dev. |
+| T1 | Registrering | ✅ Done | Briefen (inkl. tillägg T8 punkt 3) + DEC-022 i PROJECT_STATUS.md och DECISIONS.md |
+| T2 | Automatfilen | ⬜ Todo | Tillämpningsläge i scripts/revision/ enligt reglerna. Torrkörning är standard. Test per regel |
+| T3 | Backtest | ⬜ Todo | Torrkörning mot datat i commit 37c2616. Rapport docs/automat/backtest.md: varje föreslagen ändring finns som RUTIN-rad i Sprint 14-listan, ingen BEDÖMNING-rad föreslås, inget ifyllt värde skrivs över. Avvikelser rättas eller förklaras |
+| T4 | Arbetsflöde | ⬜ Todo | automat.yml körs vardagar. Regel 5–9 uppfyllda. dev och master i synk efter körning, mappen dev/ intakt. Skarp först i T9 |
+| T5 | Bevakningens luckor | ⬜ Todo | Kandidater från alla departement via ämnesord (DEC-020), departementsuppdrag från regeringen.se, tilläggsdirektiv via revisionsskriptet. Test: Dir. 2026:105, 2026:117, 2026:123, U2026/01573, U2026/01569 och U2026/01547 fångas |
+| T6 | Veckorutinen | ⬜ Todo | Instruktionsfilen incheckad. CI på PR mot master: testsvit och renderingstest. Arbetsflöde som synkar dev efter merge. Provkörning i sessionen mot nuläget, utfallet rapporteras |
+| T7 | Senast kontrollerad | ⬜ Todo | meta.json får senast_kontrollerad, satt av automatfilen vid varje grön körning. Sidfoten visar båda datumen. Test och skärmbilder desktop och 375 px |
+| T8 | Svans: tre punkter | ⬜ Todo | (1) tidslinje.html håller viewportbredden med äkta mobilemulering, e2e. (2) guide-alla.html visar remissen. (3) Remissen hittas utan att öppna ett kort (tillägg 2026-11-10): (a) aktuellt-rad överst på index/reformer/guide direkt under sidhuvudet, "{statusrubrik}: {titel utan ledordet Remiss:}", länk till reformer.html?reform={första reform_id}, i lägena öppnar och öppen (inte avslutad), text ur remisser.json + samma statuslogik; (b) markering "Remiss" på noderna laroplaner och tioarig i kartan och motsvarande rader i reformlistan, samma två lägen; (c) flera öppna remisser: en rad per remiss, sorterade på sista svarsdag. e2e i alla tre lägen (raden syns i öppnar/öppen, saknas i avslutad), länken leder till ett kort med remissrutan, skärmbilder desktop + 375 px, 0 appfel. Går en punkt inte grön: backa den och rapportera. **STOPP** |
+| T9 | Deploy och skarpt läge (efter klartecken) | ⬜ Todo | Deploy, AUTOMAT_AKTIV på, första skarpa körning grön, Automatlogg skapad, live verifierad |
+| T10 | DoD review | ⬜ Todo | dod-reviewer mot stop condition, sprinten Completed |
 
 ---
 
