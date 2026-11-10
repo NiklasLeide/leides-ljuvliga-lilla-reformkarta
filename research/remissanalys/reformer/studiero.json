@@ -1,17 +1,51 @@
 {
  "id": "studiero",
- "namn": null,
+ "namn": "Bättre förutsättningar för trygghet och studiero i skolan",
  "namn_i_brief": "Trygghet och studiero",
  "reforms_json_id": "studiero",
- "status": "mall — fylls i när reformen tas fram",
+ "status": "under arbete (Sprint 17)",
  "sou": {
   "nr": "SOU 2025:8",
   "titel": "Bättre förutsättningar för trygghet och studiero i skolan",
   "sida_url": "https://www.regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2025/01/sou-20258/",
-  "pdf": null,
-  "innehall_sidor": null,
-  "forslagskapitel": null,
-  "forfattningskommentar": null
+  "pdf": [
+   {
+    "vol": "betankande",
+    "url": "https://www.regeringen.se/contentassets/26e05d7491f04788b7f74e4bd86ec011/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-sou-20258.pdf"
+   }
+  ],
+  "innehall_sidor": [
+   5,
+   10
+  ],
+  "forslagskapitel": [
+   3,
+   5
+  ],
+  "forfattningskommentar": {
+   "avsnitt": "7.1",
+   "slut_avsnitt": "Referenser",
+   "slut_sida": 261,
+   "lag": "Skollag (2010:800)",
+   "anm": "Författningskommentaren har bara avsnitt 7.1 (skollagen); den slutar där \"Referenser\" (onumrerad rubrik, s. 261) börjar, därför slut_sida. radkorrigeringar: pdftotext slår ihop sista raden i kommentaren till 5 kap. 13 c § med rubriken \"14 §\" (s. 253–254); kontrollerat mot PDF:en. \"5a§\"/\"5b§\" (5 kap.) saknar mellanslag i pdftotext och känns annars inte igen som paragrafrubriker.",
+   "radkorrigeringar": {
+    "Övervägandena finns i avsnitt 4.1.14 §": [
+     "Övervägandena finns i avsnitt 4.1.",
+     "14 §"
+    ],
+    "5a§": [
+     "5 a §"
+    ],
+    "5b§": [
+     "5 b §"
+    ]
+   }
+  },
+  "ruta_rubriker": {
+   "Förslag": "Utredningens förslag:?\\s*$",
+   "Bedömning": "Utredningens bedömning(?:ar)?:?\\s*$"
+  },
+  "ruta_anm": "SOU 2025:8 har rutor med rubriken \"Utredningens förslag\" / \"Utredningens bedömning(ar)\" på egen rad följd av punktlista (inte \"Förslag:\" som SOU 2025:18). En ruta = ett förslag (8 förslagsrutor; 3 bedömningsrutor i 3.6, 4.3, 5.3 räknas inte)."
  },
  "remiss": {
   "url": "https://www.regeringen.se/remisser/2025/02/remiss-av-betankandet-battre-forutsattningar-for-trygghet-och-studiero-i-skolan-sou-20258/",
@@ -20,26 +54,118 @@
  "propositioner": [
   {
    "nr": "Prop. 2025/26:193",
+   "kort": "193",
    "sida_url": "https://www.regeringen.se/rattsliga-dokument/proposition/2026/03/prop.-202526193",
-   "pdf_url": null,
-   "avsnitt": null,
-   "utredningens_forslag_rubrik": null,
-   "remissinstanser_rubrik": null,
-   "hoppa_delar_vid_namnsokning": [],
-   "lagtext_sidor": null,
-   "forteckning_remissinstanser_sida": null
+   "pdf_url": "https://www.regeringen.se/contentassets/7edd1011af6944eda73e62aea7897f04/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-prop.-202526193.pdf",
+   "avsnitt": [
+    "6.1",
+    "6.2.1",
+    "6.2.2",
+    "6.4.1",
+    "6.4.2",
+    "7.1",
+    "7.2",
+    "7.3",
+    "7.4",
+    "7.5",
+    "8"
+   ],
+   "utredningens_forslag_rubrik": [
+    "Utredningens förslag",
+    "Utredningens förslag och bedömning"
+   ],
+   "remissinstanser_rubrik": "Remissinstanserna",
+   "hoppa_delar_vid_namnsokning": [
+    "Promemorians",
+    "Departementspromemorians"
+   ],
+   "hoppade_delar_beskrivning": "delar om Ds 2025:9",
+   "lagtext_sidor": [
+    6,
+    17
+   ],
+   "lagforslag_rubrik": "^(?:2()\\s+)?Förslag till lag om ändring i (.*)$",
+   "forteckning_remissinstanser_sida": 184,
+   "forteckning_bilaga": 3,
+   "ovriga_delrubriker": [
+    "Departementspromemorians förslag"
+   ],
+   "anm": "Delad proposition: behandlar även Ds 2025:9 (mobilförbud). Avsnitt 6.3 (mobilfri skola) bygger bara på promemorian och ingår inte. Avsnitt 8 (ikraftträdande) har både utredningens och promemorians del; promemorians del hoppas över vid namnsökning. Lagförslaget är kap. 2 utan underavsnitt (\"2 Förslag till lag om ändring i skollagen\")."
+  },
+  {
+   "nr": "Prop. 2025/26:194",
+   "kort": "194",
+   "sida_url": "https://www.regeringen.se/rattsliga-dokument/proposition/2026/03/prop.-202526194",
+   "pdf_url": "https://www.regeringen.se/contentassets/42c1e2e4596b4f8682e3d8283b91a138/nya-laroplaner--for-en-stark-kunskapsskola-prop.-202526194.pdf",
+   "avsnitt": [
+    "6.2"
+   ],
+   "utredningens_forslag_rubrik": [
+    "Utredningen om stärkt trygghet och studiero i skolans förslag"
+   ],
+   "remissinstanser_rubrik": "Remissinstanserna#2",
+   "hoppa_delar_vid_namnsokning": [
+    "Läroplansutredningens"
+   ],
+   "hoppade_delar_beskrivning": "delar om SOU 2025:19",
+   "lagtext_sidor": [
+    6,
+    43
+   ],
+   "forteckning_remissinstanser_sida": null,
+   "forteckning_bilaga": null,
+   "ovriga_delrubriker": [
+    "Läroplansutredningens förslag"
+   ],
+   "anm": "Delad proposition: behandlar SOU 2025:8 avsnitt 3.2 (vårdnadshavares inflytande, 4 kap. 12 § skollagen) i propositionens avsnitt 6.2 tillsammans med SOU 2025:19. Avsnitt 8 (ikraftträdande) nämner utredningen i en gemensam del \"Utredningarnas förslag\" och tas inte med (som för betyg). Förteckningen över remissinstanserna (SOU 2025:8) finns också i bilaga 9 här, men huvudförteckningen är prop. 193 bilaga 3."
   }
  ],
  "layout": {
-  "spaltforskjutning_pt": null,
-  "ord_y_intervall_pt": null
+  "spaltforskjutning_pt": 154.0,
+  "ord_y_intervall_pt": [
+   30,
+   640
+  ],
+  "anm": "Propositionernas tvåspaltiga lagförslag: högerspalten börjar spaltforskjutning_pt till höger om vänstermarginalen. rensa_marginal_i_delar: sidnummer och \"Prop. 2025/26:193\" på samma rad som brödtext rensas även i prop-avsnitt.json (annars kontroll.hela_stycket false i 6.2.1, 6.4.2, 7.2). vanstermarginal_pt: fast vänstermarginal per sidparitet (uppmätt i båda propositionerna: jämna 122 pt, udda 51 pt); behövs för sidor med bara högerspalt. lagtext_tolerant: \"6a§\"-rubriker och falska \"22 kap.\"-rader (prop. 193).",
+  "rensa_marginal_i_delar": true,
+  "vanstermarginal_pt": {
+   "jamn": 122,
+   "udda": 51
+  },
+  "lagtext_tolerant": true
  },
- "lagar": null,
- "forordningar": null,
- "forordning_markor": null,
+ "lagar": [
+  {
+   "namn": "Skollag (2010:800)",
+   "riksdagen_id": "sfs-2010-800",
+   "andringar": [
+    "2026:1198",
+    "2026:1243"
+   ],
+   "bestamd_form": "skollagen",
+   "anm": "2026:1198 = prop. 2025/26:193 (i kraft 2026-08-01). 2026:1243 = prop. 2025/26:194 (i kraft 2028-07-02), varav bara 4 kap. 12 § (vårdnadshavares inflytande) genomför SOU 2025:8."
+  }
+ ],
+ "forordningar": [
+  {
+   "namn": "Skolförordning (2011:185)",
+   "riksdagen_id": "sfs-2011-185"
+  },
+  {
+   "namn": "Gymnasieförordning (2010:2039)",
+   "riksdagen_id": "sfs-2010-2039"
+  },
+  {
+   "namn": "Förordning (2015:195) om ett nationellt informationssystem för skolväsendet",
+   "riksdagen_id": "sfs-2015-195"
+  }
+ ],
+ "forordning_markor": [
+  "ogiltig frånvaro"
+ ],
  "fokusorganisationer": {
   "skr": "Sveriges Kommuner och Regioner",
-  "almega": "Almega utbildning",
+  "almega": "Almega Utbildning",
   "ideburna": "Idéburna skolors riksförbund"
  },
  "kedja": {
@@ -101,10 +227,11 @@
    }
   }
  },
- "hamtningsdatum": null,
+ "hamtningsdatum": "2026-11-10",
  "korrigeringar": {
   "ocr_citat_manuellt_kontrollerade": [],
   "motivering_omformulerad": {}
  },
- "forordning_markor_beskrivning": null
+ "forordning_markor_beskrivning": "utredningens föreslagna bestämmelser om giltig och ogiltig frånvaro",
+ "forteckning_korrigeringar": {}
 }

@@ -29,6 +29,7 @@ def lab_regex(c):
     return re.compile(r'^\s*(' + '|'.join(alts) + r')\s*$')
 
 HEAD = re.compile(r'^\s{0,25}((?:1?\d)(?:\.\d{1,2}){0,3})\s{2,}([A-ZÅÄÖ].*)$')
+RENSA_MARGINAL = False   # config layout.rensa_marginal_i_delar (av för betyg: identisk Sprint 16-fil)
 def printed(p, i=None):
     L = [l.strip() for l in p.split('\n') if l.strip()]
     for l in L[-3:] + L[:3]:
@@ -43,6 +44,13 @@ def avsnitt_delar(P, LAB):
         pg = printed(p) or (i + 1)
         for l in p.split('\n'):
             l2 = re.sub(r'^\s*' + PROPNR + r'\s{2,}', '', l); l2 = re.sub(r'\s{2,}' + PROPNR + r'\s*$', '', l2)
+            if RENSA_MARGINAL:   # som i avsnitt_text: sidnummer/marginaltext på samma rad som brödtext (prop. 2025/26:193)
+                                 # (bör slås på även för betyg vid en medveten omgenerering; ändrar då 24 delar i prop-avsnitt.json)
+                l2 = re.sub(r'\s+' + PROPNR + r'\s*$', '', l2)
+                mp = re.match(r'^\s*(\d{1,3})\s{3,}(\S.*)$', l2)
+                if mp and abs(int(mp.group(1)) - pg) <= 1: l2 = mp.group(2)
+                mt = re.match(r'^(.*\S)\s{3,}(\d{1,3})\s*$', l2)
+                if mt and abs(int(mt.group(2)) - pg) <= 1: l2 = mt.group(1)
             rows.append((pg, l2))
     secs = []; cur = None; lab = None
     for pg, l in rows:
@@ -121,8 +129,16 @@ def innehall(P):
             elif len(buf) > 400: buf = ''
     return toc
 
-def lagtext(pdf, forsta, sista, spalt, yint):
-    """Föreslagen lydelse per paragraf ur kap. 2 (som Sprint 16 T3 prop_lagtext)."""
+LAGFORSLAG_RUBRIK = r'^2\.(\d)\s+Förslag till lag om ändring i (.*)$'
+
+def lagtext(pdf, forsta, sista, spalt, yint, rubrik=None, marginal=None, tolerant=False):
+    """Föreslagen lydelse per paragraf ur kap. 2 (som Sprint 16 T3 prop_lagtext).
+    rubrik: config propositioner[].lagforslag_rubrik, regex för lagförslagets rubrik (grupp 1 = nummer efter "2.", får saknas;
+    grupp 2 = lagens namn). Standard "2.x Förslag till lag om ändring i …"; prop. 2025/26:193 har ett enda lagförslag som hela kap. 2.
+    marginal: config layout.vanstermarginal_pt {"jamn": x, "udda": x} — fast vänstermarginal per sidparitet i stället för den
+    vanligaste radstarten (som blir högerspalten på sidor med bara nya paragrafer, prop. 2025/26:193 s. 12–13).
+    tolerant: config layout.lagtext_tolerant — paragrafrubriker utan mellanslag ("6a§", "2§") och "N kap." räknas bara som
+    kapitelrubrik om raden inte börjar i vänster- eller högerspalten (annars är det slutet av en mening, "… i 21 och / 22 kap.")."""
     bb = subprocess.run(['pdftotext', '-bbox', '-f', str(forsta), '-l', str(sista), pdf, '-'], capture_output=True, text=True).stdout
     pages = bb.split('<page ')[1:]
     pend = []; lagforslag = []; cur_lf = None; kap = None; par = None; state = 'full'
@@ -145,19 +161,23 @@ def lagtext(pdf, forsta, sista, spalt, yint):
         firsts = {}
         for x, x2, t, y in body: firsts.setdefault(round(y), []).append(x)
         lm = Counter(round(min(v)) for v in firsts.values()).most_common(1)[0][0]
+        if marginal: lm = marginal['jamn' if pno % 2 == 0 else 'udda']
         body = [w for w in body if w[0] >= lm - 3 or w[2].startswith('2.')]
         rc = lm + spalt; lines = {}
         for x, x2, t, y in body: lines.setdefault(round(y), []).append((x, x2, t))
         for y in sorted(lines):
             ws = lines[y]; txt = ' '.join(w[2] for w in sorted(ws)).strip()
             if re.match(r'^(' + PROPNR + r')$', txt) or re.fullmatch(r'\d{1,3}', txt): continue
-            m = re.match(r'^2\.(\d)\s+Förslag till lag om ändring i (.*)$', txt)
-            if m: cur_lf = {'lagforslag': '2.' + m.group(1), 'titel': 'Förslag till lag om ändring i ' + m.group(2), 'paragrafer': []}; lagforslag.append(cur_lf); continue
+            m = re.match(rubrik or LAGFORSLAG_RUBRIK, txt)
+            if m: cur_lf = {'lagforslag': '2.' + m.group(1) if m.group(1) else '2', 'titel': 'Förslag till lag om ändring i ' + m.group(2), 'paragrafer': []}; lagforslag.append(cur_lf); continue
             if cur_lf is None: continue
             if re.match(r'^(Nuvarande lydelse|Lydelse enligt .*?) Föreslagen lydelse$', txt): state = 'two'; continue
             mk = re.fullmatch(r'(\d+ (?:[a-z] )?)kap\.', txt)
+            if mk and tolerant and any(abs(min(w[0] for w in ws) - x0) <= 3 for x0 in (lm, rc)): mk = None
             if mk: kap = mk.group(1).replace(' ', ''); continue
             mp = re.fullmatch(r'(\d+(?: [a-z])?) §(?:\s*\d{1,3})?', txt) or re.fullmatch(r'(\d+(?: [a-z])?) §', txt)
+            if not mp and tolerant:   # även rad med nuvarande och föreslagen beteckning ("4e§ 4 d §4"): föreslagen (högra) gäller
+                mp = re.fullmatch(r'(\d+(?: ?[a-z])?) ?§(?:\s*\d{1,3})?', txt) or re.fullmatch(r'\d+(?: ?[a-z])? ?§\s+(\d+(?: ?[a-z])?) ?§(?:\s*\d{1,3})?', txt)
             if mp and kap:
                 toma(par, state); state = 'full'
                 par = {'kap': kap, 'par': mp.group(1).replace(' ', ''), 'sida': pno, 'foreslagen': [], 'nuvarande': []}; cur_lf['paragrafer'].append(par); continue
@@ -182,6 +202,7 @@ def lagtext(pdf, forsta, sista, spalt, yint):
 
 if __name__ == '__main__':
     rid = reform_id(); c = config(rid); LAB = lab_regex(c)
+    RENSA_MARGINAL = bool((c.get('layout') or {}).get('rensa_marginal_i_delar'))
     spalt = kravs(c, 'layout', 'spaltforskjutning_pt'); yint = kravs(c, 'layout', 'ord_y_intervall_pt')
     pav = {}; ptx = {}; pin = {}; plag = {}
     for p in kravs(c, 'propositioner'):
@@ -202,7 +223,8 @@ if __name__ == '__main__':
             ptx[f'{k}:{av}'] = {'proposition': p['nr'], 'avsnitt': av, 'rubrik': x['rubrik'], 'url': p['pdf_url'], 'delar': x['delar']}
         pin[k] = {'proposition': p['nr'], 'url': p['pdf_url'], 'innehallsforteckning': innehall(P)}
         if p.get('lagtext_sidor'):
-            plag[k] = {'proposition': p['nr'], 'url': p['pdf_url'], 'lagforslag': lagtext(pdf, p['lagtext_sidor'][0], p['lagtext_sidor'][1], spalt, yint)}
+            plag[k] = {'proposition': p['nr'], 'url': p['pdf_url'], 'lagforslag': lagtext(pdf, p['lagtext_sidor'][0], p['lagtext_sidor'][1], spalt, yint, p.get('lagforslag_rubrik'),
+                                                                           c['layout'].get('vanstermarginal_pt'), bool(c['layout'].get('lagtext_tolerant')))}
     skriv(rid, 'prop-avsnitt.json', {'_meta': {'beskrivning': 'Avsnitt med regeringens förslags-/bedömningsruta; text per underrubrik.'}, 'propositioner': pav})
     skriv(rid, 'propositionsavsnitt-text.json', {'_meta': {'beskrivning': 'Avsnittens text per underrubrik och tryckt sida (pdftotext -layout); används för namnsökning.'}, 'avsnitt': ptx})
     skriv(rid, 'propositioner-innehall.json', {'_meta': {'beskrivning': 'Propositionernas innehållsförteckning; används för att kontrollera att avsnittsrubrikerna är fullständiga.'}, 'propositioner': pin})

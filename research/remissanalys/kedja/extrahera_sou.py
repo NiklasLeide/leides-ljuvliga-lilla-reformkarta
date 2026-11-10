@@ -25,7 +25,8 @@ def innehall(P, sidor):
             if m: buf = s
             elif buf: buf += ' ' + s
             else: continue
-            mm = re.match(r'^(\d{1,2}(?:\.\d{1,2}){0,4})\s+(.*?)\s*\.{3,}\s*(\d{1,4})$', buf)
+            # utfyllnaden före sidnumret är normalt "....", men kan vara en enda punkt när rubriken fyller raden (SOU 2025:8 kap. 4)
+            mm = re.match(r'^(\d{1,2}(?:\.\d{1,2}){0,4})\s+(.*?)\s*(?:\.{3,}|(?<=\s)\.)\s*(\d{1,4})$', buf)
             if mm: toc.append({'avsnitt': mm.group(1), 'rubrik': re.sub(r'\s+', ' ', mm.group(2)), 'sida': int(mm.group(3))}); buf = ''
     return toc
 
@@ -35,8 +36,14 @@ def printed(p):
         if re.fullmatch(r'\d{1,4}', l): return int(l)
     return None
 
-def rutor(Pvol, sounr):
+def rutor(Pvol, sounr, ruta_rubriker=None):
+    """Förslags-/bedömningsrutor. Standard (SOU 2025:18): "Förslag:"/"Bedömning:" med texten på samma rad.
+    Config sou.ruta_rubriker = {"Förslag": regex, "Bedömning": regex} för betänkanden med andra rutrubriker (t.ex. SOU 2025:8:
+    "Utredningens förslag" på egen rad + punktlista). Då avslutas rutan också vid en ensam siffra som inte är sidnumret
+    (fotnot direkt under rutan, utan blankrad)."""
     hdr = re.compile(r'^\s*' + re.escape(sounr) + r'\s*$')
+    RR = ruta_rubriker or {'Förslag': 'Förslag:', 'Bedömning': 'Bedömning:'}
+    LABEL = re.compile(r'^\s*(?:' + '|'.join(f'(?P<{"F" if k == "Förslag" else "B"}>{v})' for k, v in RR.items()) + r')\s*(?P<T>.*)$')
     out = []
     for vol, P in Pvol:
         sec = None; sectitle = None
@@ -45,10 +52,11 @@ def rutor(Pvol, sounr):
             for j, l in enumerate(lines):
                 m = re.match(r'^\s{0,25}(\d{1,2}(?:\.\d{1,2}){1,4})\s{1,6}([A-ZÅÄÖ].{3,90})$', l)
                 if m and not re.search(r'\.{4,}|\s\d+$', l): sec = m.group(1); sectitle = m.group(2).strip()
-                mb = re.match(r'^\s*(Förslag|Bedömning):\s*(.*)$', l)
+                mb = LABEL.match(l)
                 if mb:
+                    typ = 'Förslag' if mb.group('F') is not None else 'Bedömning'
                     ind = len(l) - len(l.lstrip())
-                    txt = [mb.group(2).strip()]; k = j + 1; blank = 0; pp = i; LL = lines
+                    txt = [mb.group('T').strip()]; k = j + 1; blank = 0; pp = i; LL = lines
                     while True:
                         if k >= len(LL):
                             pp += 1
@@ -59,11 +67,12 @@ def rutor(Pvol, sounr):
                             blank += 1
                             if blank >= 1 and len(txt) > 1: break
                             k += 1; continue
-                        if re.match(r'^\s*(Förslag|Bedömning):', s): break
+                        if LABEL.match(s): break
+                        if ruta_rubriker and re.fullmatch(r'\d{1,3}', s.strip()) and int(s.strip()) != printed(P[pp]) and len(txt) > 1: break
                         if hdr.match(s.strip()) or re.match(r'^\s*\d{1,4}\s*$', s): k += 1; continue
                         blank = 0; txt.append(re.sub(r'\s{3,}.*$', '', s.strip()) if ind < 5 else s.strip()); k += 1
                     t = ' '.join(txt); t = re.sub(r'(\w)- (?=[a-zåäö])', r'\1', t)
-                    out.append({'vol': vol, 'pdfsida': i + 1, 'sida': printed(p), 'avsnitt': sec, 'avsnittsrubrik': sectitle, 'typ': mb.group(1), 'text': t})
+                    out.append({'vol': vol, 'pdfsida': i + 1, 'sida': printed(p), 'avsnitt': sec, 'avsnittsrubrik': sectitle, 'typ': typ, 'text': t})
     return out
 
 def tilldela_avsnitt(boxes, toc, Pvol):
@@ -85,11 +94,18 @@ def tilldela_avsnitt(boxes, toc, Pvol):
 
 def paragrafer(Praw, toc, fk, sounr):
     sid = {t['avsnitt']: t['sida'] for t in toc}
-    start, slut = sid[fk['avsnitt']], sid[fk['slut_avsnitt']]
+    # slut_avsnitt är normalt ett numrerat avsnitt i innehållsförteckningen; är det en onumrerad rubrik (t.ex. "Referenser")
+    # anges dess tryckta sida i config sou.forfattningskommentar.slut_sida
+    start, slut = sid[fk['avsnitt']], (sid[fk['slut_avsnitt']] if fk['slut_avsnitt'] in sid else kravs(fk, 'slut_sida'))
     rubrik_fk = 'Författningskommentar'
     rows = []
+    # config sou.forfattningskommentar.radkorrigeringar: {"rad i pdftotext": ["rad 1", "rad 2", ...]} för rader där pdftotext
+    # har slagit ihop två rader (t.ex. SOU 2025:8: "Övervägandena finns i avsnitt 4.1.14 §" = slutet av 13 c § + rubriken 14 §)
+    # eller tappat mellanslag i en paragrafrubrik ("5a§" → "5 a §")
+    korr = fk.get('radkorrigeringar') or {}
     for pg in range(start, slut + 1):
-        for l in Praw[pg - 1].split('\n'):
+        for l0 in Praw[pg - 1].split('\n'):
+          for l in korr.get(l0.strip(), [l0]):
             s = l.strip()
             if s in (sounr, rubrik_fk) or re.fullmatch(r'\d{3}', s): continue
             rows.append((pg, s))
@@ -128,7 +144,7 @@ if __name__ == '__main__':
     url1 = vols[0]['url']
     skriv(rid, 'sou-innehall.json', {'_meta': {'kalla': {'text': f'{sounr}, innehållsförteckning', 'url': url1}, 'forslagskapitel': [kmin, kmax]},
                                      'lista': toc, 'kapitel': kapitel, 'avsnitt': avsn})
-    f = tilldela_avsnitt(rutor(Pvol, sounr), toc, Pvol)
+    f = tilldela_avsnitt(rutor(Pvol, sounr, s.get('ruta_rubriker')), toc, Pvol)
     skriv(rid, 'sou-forslag.json', {'_meta': {'kalla': {'text': f'{sounr}, förslagsrutor ("Förslag:")', 'url': url1}, 'pdf': {v['vol']: v['url'] for v in vols}}, 'forslag': f})
     p = paragrafer(P1raw, toc, kravs(c, 'sou', 'forfattningskommentar'), sounr)
     skriv(rid, 'sou-paragrafer.json', {'_meta': {'kalla': {'text': f"{sounr}, författningskommentar {s['forfattningskommentar']['avsnitt']}", 'url': url1}, 'lag': s['forfattningskommentar']['lag']}, 'paragrafer': p})
