@@ -1,0 +1,73 @@
+{
+ "_meta": {
+  "beskrivning": "Sprint 17 T7b: omkodning av betyg (M1–M2) med gemensam kodinstruktion jämförd med Sprint 16. Omkodningen stoppades efter M2b (samstämmighet typning 31/40 = 77,5 % < 80 %); M2c och M3 gjordes inte. Betygs datafil är oförändrad (Sprint 16).",
+  "jamforbarhet": "Typfördelningen jämförs före regelprövning (M2) i båda kodningarna; Sprint 16:s publicerade fördelning (efter regelprövning) anges också."
+ },
+ "antal": {
+  "kodade_sprint16": 456,
+  "kodade_omkodning": 514,
+  "efter_dubbletter_sprint16": 440,
+  "efter_dubbletter_omkodning": 490,
+  "avsandare_sprint16": 28,
+  "avsandare_omkodning": 28,
+  "passager_med_utmaning_sprint16": 244,
+  "passager_med_utmaning_omkodning": 260,
+  "passager_med_utmaning_i_bada": 233
+ },
+ "per_typ": [
+  {
+   "typ": "Kostnader och finansiering",
+   "sprint16_m2": 43,
+   "sprint16_publicerad": 43,
+   "omkodning_m2": 39
+  },
+  {
+   "typ": "Tidplan och reformtakt",
+   "sprint16_m2": 70,
+   "sprint16_publicerad": 70,
+   "omkodning_m2": 78
+  },
+  {
+   "typ": "Personal, kompetens och arbetsbelastning",
+   "sprint16_m2": 63,
+   "sprint16_publicerad": 63,
+   "omkodning_m2": 63
+  },
+  {
+   "typ": "System och teknik",
+   "sprint16_m2": 29,
+   "sprint16_publicerad": 29,
+   "omkodning_m2": 26
+  },
+  {
+   "typ": "Organisation och planering",
+   "sprint16_m2": 105,
+   "sprint16_publicerad": 105,
+   "omkodning_m2": 125
+  },
+  {
+   "typ": "Otydlighet i förslaget",
+   "sprint16_m2": 66,
+   "sprint16_publicerad": 77,
+   "omkodning_m2": 86
+  },
+  {
+   "typ": "Likvärdighet och konsekvenser för elever",
+   "sprint16_m2": 55,
+   "sprint16_publicerad": 44,
+   "omkodning_m2": 69
+  },
+  {
+   "typ": "Övrigt",
+   "sprint16_m2": 9,
+   "sprint16_publicerad": 9,
+   "omkodning_m2": 4
+  }
+ ],
+ "stoppregler_omkodning": {
+  "samstammighet_identifiering": "35/40",
+  "samstammighet_typning": "31/40",
+  "ovrigt": "4/490",
+  "status": "Stoppad: samstämmighet för typning under 80 %"
+ }
+}

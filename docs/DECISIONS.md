@@ -18,6 +18,14 @@ Record of key decisions made during the project. **Newest first.**
 
 ---
 
+### DEC-025: Utmaningskartan för alla reformer — regler som tillkom i Sprint 17 T2–T7b
+**Date:** 2026-11-10
+**Decision:** (1) K8 jämför alla utredningsförslag (betyg behåller Sprint 16-urvalet, `sfs_urval: "kodade"`). (2) SFS-status blir null med förklaring i stället för "ej i SFS" när en förordningsmarkör saknas eller har träffar, och när SOU:n inte återger paragraftexten. (3) Reformspecifika fokusorganisationer (Friskolornas riksförbund i tioarig) läggs i reformens config som `extra_fokusgrupper`; den låsta `gemensamt.json` ändras inte och organisationer med olika namn likställs inte. (4) `validera-pilot.py` kontrollerar antal mot mellanfilerna och undantar ordagrann källtext (citat m.fl.) från ordkontrollen. (5) Samstämmighet för identifiering mäts på 40 passager (två oberoende kodare). (6) En stoppad omkodning (betyg T7b) checkas in separat och ersätter inte den publicerade datafilen.
+**Reasoning:** Datakraven (ordagrant, källa, null i stället för uppskattning) väger tyngre än fullständiga statusfält. Den publicerade betygsfilen ska inte bytas mot en kodning som inte klarade stoppregeln.
+**Alternatives considered:** Låta markörlösa förordningsförslag stå som "ej i SFS" (obelagt). Lägga Friskolornas i Almegas plats (likställer olika organisationer). Bygga om betyg trots stoppregeln (bryter regeln).
+
+---
+
 ### DEC-024: Utmaningskartans kedja parametrisk per reform; källcache utanför git, mellanfiler och kodning incheckade
 **Date:** 2026-11-10
 **Decision:** Kedjan (`research/remissanalys/kedja/`) körs per reform med id som argument och har en konfiguration per reform (`reformer/<id>.json`) samt en gemensam låst metodfil (`kedja/gemensamt.json`). Nedladdade källor ligger i `reformer/<id>/kallor/`. Katalogen är gitignorerad men ligger inne i repot, så inget steg läser filer utanför repot. Extraktionernas utdata (K2–K6), modellkodningen (M1–M3) och den redaktionella förslagsmatchningen (R1) checkas in. Därför går K6–K10 att köra deterministiskt från en ren utcheckning, och betygsfilen blir byte-identisk. `skript/bygg-pilot.py` är ett omslag. KEDJA.md och KODINSTRUKTION.md är de kanoniska beskrivningarna.

@@ -83,12 +83,14 @@ node research/remissanalys/skript/testa-pilotsida.js
 Följande är antingen lagt i config eller ännu inte generaliserat:
 
 - **Urvalet till SFS-jämförelsen (K8)** är alla förslag; för betyg (config `sfs_urval: "kodade"`) gäller Sprint 16:s regel: förslag som någon kodad utmaning pekar på via förstudie 2:s förankring, där ett avsnitt utan förslagsruta faller tillbaka på förälderavsnittet, eller via tolkad koppling. Regeln behålls för identisk betygsfil. För nya reformer bör urvalet vara alla förslag. 
-- **En lag:** författningskommentaren och SFS-jämförelsen stöder bara en lag (`lagar[0]`, `sou.forfattningskommentar`). Om en reform ändrar flera lagar stoppar K8.
-- **Lagförslagen i propositionen** antas ligga i kapitel 2 ("2.x Förslag till lag om ändring i …") och vara tvåspaltiga. Spaltförskjutning och y-intervall ligger i config `layout`.
+- **Flera lagar** stöds sedan Sprint 17 (tid, tioarig): `lagar` och `sou.forfattningskommentar` kan vara listor; paragrafraderna får `lag`.
+- **Layoutavvikelser** i SOU och propositioner ligger i config (bl.a. `sou.ruta_rubriker`, `ruta_over_sidbrytning`, `ruta_slutrader`, `pdf_sidforskjutning`, `forfattningskommentar.radkorrigeringar/inline_rubriker/borja_vid_rubrik`, `propositioner[].lagforslag_rubrik`, `flerradiga_delrubriker`, `layout.vanstermarginal_pt`, `layout.lagtext_tolerant`); se respektive skript för semantik.
 - **Förordningsmarkören** (`forordning_markor`, "betyget 4") och dess beskrivning är reformspecifika och ligger i config.
 - **R1** (förslag → propositionsavsnitt) är manuell ämnesmatchning, inte ett skript.
 - **Manuellt kontrollerade OCR-citat och omformulerade motiveringar** är listor per reform i config.
 - **Klassningslistorna** (enskilda huvudmän, myndigheter) i `gemensamt.json` är extern kunskap och kan behöva kompletteras per remiss.
 - **Sökvägar i betygsfilen:** datafilens `belagg` och `byggd_av` pekar på `sfs-diff-betyg.json` och `skript/bygg-pilot.py` (config `legacy_sokvagar`). Nya reformer pekar på `reformer/<id>/sfs-diff.json` och `kedja/bygg.py`.
-- **Sidtestet** (`testa-pilotsida.js`) är skrivet för betyg.
+- **Sidtestet** (`testa-pilotsida.js`) laddar betyg (sidan visar bara betyg) men hämtar förväntade värden ur datafilen.
+- **Extra fokusgrupper per reform** (tioarig: Friskolornas riksförbund) läggs i config `fokusorganisationer` + `extra_fokusgrupper`; `gemensamt.json` ändras inte.
+- **SFS-status null med förklaring** när förordningsförslag saknar avgörande textmarkör, eller när SOU:n inte återger paragraftexten (tioarig); inget obelagt "ej i SFS".
 - **spraklig** saknar id i `data/reforms.json`.
