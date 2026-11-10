@@ -1,0 +1,404 @@
+{
+ "_meta": {
+  "steg": "M1b oberoende identifiering av 40 slumpvis valda passager (≥ 100 tecken, frö 20261201) med samma instruktion; kodare A = M1",
+  "matt": "överens = båda kodarna anger minst en utmaning, eller ingen av dem",
+  "overens": 38,
+  "antal": 40,
+  "tolkning": true
+ },
+ "passager": [
+  {
+   "id": "malmo-kommun#12",
+   "kodare_a_antal": 1,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": false
+  },
+  {
+   "id": "simrishamns-kommun#8",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "malmo-kommun#16",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "salems-kommun#6",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "helsingborgs-kommun#5",
+   "kodare_a_antal": 4,
+   "kodare_b_antal": 3,
+   "kodare_b": [
+    {
+     "citat": "Om progressionen inte följs regelbundet finns risk att eleven läser för länge enligt en kursplan som inte motsvarar elevens kunskapsnivå.",
+     "oppen_kod": "krav på regelbunden progressionsuppföljning"
+    },
+    {
+     "citat": "Bristande kompetens i andraspråksdidaktik är, precis som utredningen anger, troligen den främsta anledningen till att elever med behov av andraspråksdidaktik inte får en sådan undervisning eller undervisas av lärare utan behörighet.",
+     "oppen_kod": "brist på andraspråksdidaktisk kompetens"
+    },
+    {
+     "citat": "De lärare som ska ta del av kompetensutvecklingen har olika förkunskaper och de lokala förutsättningarna varierar.",
+     "oppen_kod": "varierande förutsättningar för kompetensutveckling"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "hassleholms-kommun#4",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "goteborgs-kommun#28",
+   "kodare_a_antal": 1,
+   "kodare_b_antal": 1,
+   "kodare_b": [
+    {
+     "citat": "Går utredningens bedömning vidare till rättslig reglering kommer detta dock leda till ökade kostnader för huvudmännen varför Göteborgs Stad vill påtala att finansieringsprincipen i så fall ska gälla.",
+     "oppen_kod": "ökade kostnader för undervisningstid"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "vetlanda-kommun#1",
+   "kodare_a_antal": 2,
+   "kodare_b_antal": 2,
+   "kodare_b": [
+    {
+     "citat": "Synpunker framförs också kring genomförbarhet, kompetensfrågor och risk att den administrativa bördan för rektorer ökar.",
+     "oppen_kod": "ökad administrativ börda för rektorer"
+    },
+    {
+     "citat": "men lyfter också de specifika utmaningar som kan uppstå vid införandet för en landsortskommun både på organisatorisk nivå, men också för den enskilda eleven.",
+     "oppen_kod": "organisatoriska utmaningar för landsortskommun"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "vetlanda-kommun#18",
+   "kodare_a_antal": 2,
+   "kodare_b_antal": 2,
+   "kodare_b": [
+    {
+     "citat": "Dock behöver konsekvenserna för ett sådant införande utredas noga både vad gäller huvudmännens möjligheter organisera undervisning när lärare studerar, men också vilka resursmässiga konsekvenser det skulle få.",
+     "oppen_kod": "organisering och resurser vid behörighetshöjning"
+    },
+    {
+     "citat": "Ett sådant förslag skulle gynna undervisningens kvalitet och elevernas möjligheter till bättre språkundervisning, men det skulle också innebära kostnader. Implementeringen av en sådan ändring skulle behöva löpa över flera år.",
+     "oppen_kod": "kostnader och lång implementeringstid"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "goteborgs-kommun#5",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "kalmar-kommun#6",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "hassleholms-kommun#18",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "malmo-kommun#5",
+   "kodare_a_antal": 2,
+   "kodare_b_antal": 1,
+   "kodare_b": [
+    {
+     "citat": "kommer att påverka huvudmännens administrativa rutiner. Huvudmännen behöver säkerställa att de dokument som utfärdas efter slutförd utbildning uppfyller kraven i bestämmelserna. Malmö stad anser att det kommer att behövas resurser för kompetensutveckling av bland annat administratörer och studieoch yrkesvägledare.",
+     "oppen_kod": "ändrade administrativa rutiner och kompetensbehov"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "vetlanda-kommun#24",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "vasteras-kommun#1",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "goteborgs-kommun#20",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "sveriges-kommuner-och-regioner#67",
+   "kodare_a_antal": 3,
+   "kodare_b_antal": 3,
+   "kodare_b": [
+    {
+     "citat": "SKR bedömer att konsekvenserna för kommunerna framför allt handlar om implementeringskostnader i samband med införandet av en kursplan för grundläggande svenska som andraspråk och det nationella kartläggningsmaterialet som är obligatoriskt att använda.",
+     "oppen_kod": "implementeringskostnader för kursplan och kartläggning"
+    },
+    {
+     "citat": "Att ha två kursplaner inom samma ämne kan i viss mån öka lärarnas administration, likaså användningen av det nationella kartläggningsmaterialet.",
+     "oppen_kod": "ökad administration för lärare"
+    },
+    {
+     "citat": "Det kan också komma att påverka organisationen av undervisningen i svenska som andraspråk då två kursplaner används parallellt. På en del skolor i större kommuner är det möjligt att skapa undervisningsgrupper kopplat till kursplanerna, medan det i andra skolor kan komma att undervisas i",
+     "oppen_kod": "organisation av undervisningsgrupper"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "salems-kommun#11",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "sveriges-kommuner-och-regioner#9",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "hassleholms-kommun#7",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "sveriges-kommuner-och-regioner#19",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "sveriges-kommuner-och-regioner#29",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "goteborgs-kommun#8",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "malmo-kommun#17",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "sveriges-kommuner-och-regioner#57",
+   "kodare_a_antal": 1,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": false
+  },
+  {
+   "id": "vetlanda-kommun#4",
+   "kodare_a_antal": 3,
+   "kodare_b_antal": 3,
+   "kodare_b": [
+    {
+     "citat": "Det behöver därför finnas ett tydligt stöd för rektorer hur detta ska bedömas och dokumenteras.",
+     "oppen_kod": "behov av stöd för rektorsbeslut"
+    },
+    {
+     "citat": "Utredningen säger heller ingenting om bryggan mellan de båda kursplanerna som kommer vara avgörande och som behöver finnas för en lyckad övergång för eleven.",
+     "oppen_kod": "oklar brygga mellan kursplaner"
+    },
+    {
+     "citat": "För ökad likvärdighet bör överlämningsförfarandet, då en elev som läser grundläggande svenska som andraspråk flyttar till en annan skolenhet standardiseras. Detta krävs om tvåårsregeln ska gälla även vid skolformsbyte eller enhetsbyte inom samma skolform.",
+     "oppen_kod": "överlämning vid skolbyte"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "trollhattan-kommun#7",
+   "kodare_a_antal": 1,
+   "kodare_b_antal": 1,
+   "kodare_b": [
+    {
+     "citat": "Utan ett sådant kunskapsintyg ökar risken för förlängd utbildningstid för eleven och merjobb för mottagande skola.",
+     "oppen_kod": "merarbete för mottagande skola"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "stockholms-kommun#3",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "sveriges-kommuner-och-regioner#15",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "stockholms-kommun#9",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "sveriges-kommuner-och-regioner#25",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "malmo-kommun#7",
+   "kodare_a_antal": 2,
+   "kodare_b_antal": 2,
+   "kodare_b": [
+    {
+     "citat": "Ovanstående är viktigt att ha i åtanke då det i utredningen står att rektor tenderar att fördela resurser utifrån antalet elever, precis som det kan vara med svenska som andraspråk idag.",
+     "oppen_kod": "resursfördelning mellan elevgrupper"
+    },
+    {
+     "citat": "Det bör även förtydligas om beslut om grundläggande svenska ersätter motsvarande timmar i timplanen för svenska som andraspråk och svenska. Det behöver även tydliggöras om eleven kan läsa grundläggande svenska vissa timmar och svenska som andraspråk övriga timmar?",
+     "oppen_kod": "oklart förhållande till timplanen"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "sveriges-kommuner-och-regioner#13",
+   "kodare_a_antal": 2,
+   "kodare_b_antal": 2,
+   "kodare_b": [
+    {
+     "citat": "SKR bedömer att införandet av kursplanerna i grundläggande svenska som andraspråk kommer att medföra implementeringskostnader för kommunerna, men utredningen redovisar inte några sådana och hur dessa ska finansieras.",
+     "oppen_kod": "ofinansierade implementeringskostnader"
+    },
+    {
+     "citat": "Utredningens beräkningar av kostnaderna för bedömning av vilken kursplan eleven ska följa görs utifrån en genomsnittlig månadslön för en grundskollärare 2024, men bör räknas upp till 2028 års löneläge.",
+     "oppen_kod": "underskattade kostnader för bedömning"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "stockholms-kommun#8",
+   "kodare_a_antal": 3,
+   "kodare_b_antal": 2,
+   "kodare_b": [
+    {
+     "citat": "Förslagen kommer dock att påverka enskilda skolors organisation och tjänstefördelning för det nya ämnet grundläggande svenska.",
+     "oppen_kod": "påverkan på organisation och tjänstefördelning"
+    },
+    {
+     "citat": "Stadsledningskontoret bedömer att förslagen kan leda till kostnadsökningar som behöver finansieras, exempelvis för kompetensutveckling. Därtill tillkommer ökade kostnader för förslaget om utökad rätt till studiehandledning.",
+     "oppen_kod": "kostnader för kompetensutveckling och studiehandledning"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "vetlanda-kommun#20",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "uppsala-kommun#5",
+   "kodare_a_antal": 2,
+   "kodare_b_antal": 1,
+   "kodare_b": [
+    {
+     "citat": "Detta då kommunen lagt stora resurser på att implementera Bygga svenska, som också ses som ett välfungerande material.",
+     "oppen_kod": "risk för förlorad investering i kartläggning"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "sveriges-kommuner-och-regioner#42",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "laxa-kommun#3",
+   "kodare_a_antal": 2,
+   "kodare_b_antal": 2,
+   "kodare_b": [
+    {
+     "citat": "Det är inte rimligt med återkommande förändringar i elevgrupper mot bakgrund av de grupprocesser som oundvikligen startar när gruppens sammansättning förändras.",
+     "oppen_kod": "kontinuerlig omflyttning av elevgrupper"
+    },
+    {
+     "citat": "är viktigt att det tydligt framgår huruvida det är obligatoriskt för elever att börja i grundläggande svenska som andraspråk om rektor har bedömt att det finns ett behov av detta",
+     "oppen_kod": "oklart om placering är obligatorisk"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "ostersunds-kommun#14",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "vetlanda-kommun#6",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  }
+ ]
+}

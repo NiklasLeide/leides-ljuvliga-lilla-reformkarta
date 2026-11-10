@@ -1,0 +1,1100 @@
+{
+ "_meta": {
+  "steg": "M1 identifiering av utmaningar (modellkodning, Sprint 17; 2 parallella kodare, en per batch av passager, instruktion research/remissanalys/kedja/KODINSTRUKTION.md)",
+  "tolkning": true,
+  "falt": {
+   "uid": "utmaningens id",
+   "id": "passage-id",
+   "citat": "ordagrann delsträng ur passagen",
+   "oppen_kod": "kodarens öppna kod (spårbarhet; visas aldrig)",
+   "beskrivning": "kodarens beskrivning (spårbarhet; visas aldrig)"
+  }
+ },
+ "utmaningar": [
+  {
+   "uid": "U001",
+   "id": "boras-kommun#4",
+   "citat": "Borås Stad ser dock att förslagen medför organisatoriska och ekonomiska konsekvenser för huvudmännen.",
+   "oppen_kod": "organisatoriska och ekonomiska konsekvenser",
+   "beskrivning": "Förslagen ger huvudmännen organisatoriska och ekonomiska konsekvenser."
+  },
+  {
+   "uid": "U002",
+   "id": "goteborgs-kommun#3",
+   "citat": "På ett övergripande plan anser Göteborgs Stad att utredningen inte lagt tillräcklig vikt vid de utmaningar som ämnet svenska som andraspråk har i de anpassade skolformerna. Elever i dessa skolformer har en intellektuell funktionsnedsättning vilket inte sällan gör det svårt att bedöma vad som orsakar elevens språkliga utmaningar.",
+   "oppen_kod": "svår bedömning anpassade skolformer",
+   "beskrivning": "Det är svårt för skolorna att bedöma språkbehov och svenskämne för elever i de anpassade skolformerna."
+  },
+  {
+   "uid": "U003",
+   "id": "goteborgs-kommun#3",
+   "citat": "Sker det inte en mer enhetlig användning av begreppen i kommande beredning av förslagen ser staden att det riskerar att leda till olika tolkningar och definition av berörd målgrupp hos huvudmännen.",
+   "oppen_kod": "oklara begrepp om målgruppen",
+   "beskrivning": "Oenhetliga begrepp riskerar att huvudmännen tolkar och definierar målgruppen olika."
+  },
+  {
+   "uid": "U004",
+   "id": "goteborgs-kommun#3",
+   "citat": "Göteborgs Stad ser att införandet av en ny kursplan i grundläggande svenska som andraspråk medför kostnader för stadens förvaltningar i form av planering, organisering av undervisningen samt kompetensutveckling.",
+   "oppen_kod": "kostnader för ny kursplan",
+   "beskrivning": "Den nya kursplanen medför kostnader för planering, organisering och kompetensutveckling."
+  },
+  {
+   "uid": "U005",
+   "id": "goteborgs-kommun#3",
+   "citat": "Göteborgs Stad instämmer i sak i utredningens bedömningar men konstaterar att de, om de går vidare till rättslig reglering, kommer att medföra ökade kostnader för skolhuvudmännen.",
+   "oppen_kod": "kostnader för utökad undervisningstid",
+   "beskrivning": "Mer undervisningstid och stärkt studiehandledning skulle öka huvudmännens kostnader."
+  },
+  {
+   "uid": "U006",
+   "id": "goteborgs-kommun#6",
+   "citat": "Föreliggande förslag kommer i många skolor leda till en situation där läraren, i samma undervisningsgrupp, kommer att undervisa enligt tre kursplaner parallellt, svenska, svenska som andraspråk och grundläggande svenska som andraspråk.",
+   "oppen_kod": "tre kursplaner i samma grupp",
+   "beskrivning": "Lärare kommer att behöva undervisa efter tre kursplaner parallellt i samma grupp."
+  },
+  {
+   "uid": "U007",
+   "id": "goteborgs-kommun#7",
+   "citat": "Av utredningen framgår det inte om nuvarande kursplan i svenska för andraspråk kommer att revideras i samband med införandet av kursplanen för grundläggande svenska som andraspråk.",
+   "oppen_kod": "oklar revidering av kursplan",
+   "beskrivning": "Det är oklart om den befintliga kursplanen i svenska som andraspråk ska revideras."
+  },
+  {
+   "uid": "U008",
+   "id": "goteborgs-kommun#7",
+   "citat": "Göteborgs Stad kan se att det finns utmaningar med att kursplanerna för grundläggande svenska som andraspråk föreslås gälla alla elever oavsett ålder.",
+   "oppen_kod": "en kursplan för alla åldrar",
+   "beskrivning": "En gemensam kursplan för alla åldrar gör det svårt att möta en heterogen elevgrupp."
+  },
+  {
+   "uid": "U009",
+   "id": "goteborgs-kommun#9",
+   "citat": "Här är det dock viktigt att materialet utformas så att korrekta bedömningar kan göras utan att det blir allt för omfattande.",
+   "oppen_kod": "risk för omfattande kartläggningsmaterial",
+   "beskrivning": "Kartläggningsmaterialet riskerar att bli för omfattande att använda."
+  },
+  {
+   "uid": "U010",
+   "id": "goteborgs-kommun#10",
+   "citat": "Inom göteborgsregionen sker dock valet av svenskämne i regel i samband med gymnasievalet varför vägledningen i huvudsak sker på högstadiet.",
+   "oppen_kod": "vägledning sker på högstadiet",
+   "beskrivning": "Informationsmaterialet riktas mot gymnasiet medan vägledningen i praktiken sker på högstadiet."
+  },
+  {
+   "uid": "U011",
+   "id": "goteborgs-kommun#11",
+   "citat": "Här kan dock konstateras att det finns stora skillnader i behov mellan olika skolor vilket Skolverket bör ta hänsyn till vid utformning och planering av stödmaterial och insatser.",
+   "oppen_kod": "olika stödbehov mellan skolor",
+   "beskrivning": "Skolornas behov av implementeringsstöd skiljer sig mycket åt."
+  },
+  {
+   "uid": "U012",
+   "id": "goteborgs-kommun#12",
+   "citat": "Går utredningens bedömning vidare till rättslig reglering kommer detta dock leda till ökade kostnader för huvudmännen",
+   "oppen_kod": "kostnader för mer undervisningstid",
+   "beskrivning": "Mer undervisningstid för nyanlända i senare skolår ökar huvudmännens kostnader."
+  },
+  {
+   "uid": "U013",
+   "id": "goteborgs-kommun#13",
+   "citat": "Göteborgs Stad kan här konstatera att denna bedömning inte är förenlig med utredningen om reformerad lärarutbildning (SOU 2024:81) där det föreslås att denna del av lärarutbildningen ska minska i omfattning.",
+   "oppen_kod": "motstridig lärarutbildningsreform",
+   "beskrivning": "Lärares grundkunskaper om andraspråksutveckling riskerar att minska genom en parallell lärarutbildningsreform."
+  },
+  {
+   "uid": "U014",
+   "id": "goteborgs-kommun#21",
+   "citat": "På ett övergripande plan anser Göteborgs Stad att utredningen inte lagt tillräcklig vikt vid de utmaningar som ämnet svenska som andraspråk har i de anpassade skolformerna. Elever i dessa skolformer har en intellektuell funktionsnedsättning vilket inte sällan gör det svårt att bedöma vad som orsakar elevens språkliga utmaningar.",
+   "oppen_kod": "svår bedömning anpassade skolformer",
+   "beskrivning": "Det är svårt för skolorna att bedöma språkbehov och svenskämne för elever i de anpassade skolformerna."
+  },
+  {
+   "uid": "U015",
+   "id": "goteborgs-kommun#21",
+   "citat": "Sker det inte en mer enhetlig användning av begreppen i kommande beredning av förslagen ser staden att det riskerar att leda till olika tolkningar och definition av berörd målgrupp hos huvudmännen.",
+   "oppen_kod": "oklara begrepp om målgruppen",
+   "beskrivning": "Oenhetliga begrepp riskerar att huvudmännen tolkar och definierar målgruppen olika."
+  },
+  {
+   "uid": "U016",
+   "id": "goteborgs-kommun#21",
+   "citat": "Göteborgs Stad ser att införandet av en ny kursplan i grundläggande svenska som andraspråk medför kostnader för stadens förvaltningar i form av planering, organisering av undervisningen samt kompetensutveckling.",
+   "oppen_kod": "kostnader för ny kursplan",
+   "beskrivning": "Den nya kursplanen medför kostnader för planering, organisering och kompetensutveckling."
+  },
+  {
+   "uid": "U017",
+   "id": "goteborgs-kommun#21",
+   "citat": "Göteborgs Stad instämmer i sak i utredningens bedömningar men konstaterar att de, om de går vidare till rättslig reglering, kommer att medföra ökade kostnader för skolhuvudmännen.",
+   "oppen_kod": "kostnader för utökad undervisningstid",
+   "beskrivning": "Mer undervisningstid och stärkt studiehandledning skulle öka huvudmännens kostnader."
+  },
+  {
+   "uid": "U018",
+   "id": "goteborgs-kommun#22",
+   "citat": "I Göteborg kostade modersmålsundervisningen över 100 miljoner kronor under 2024. Det är miljoner som i dag går till en verksamhet där forskningen fortfarande inte kan ge ett tydligt svar på om det ger eleverna ökad kunskapsutveckling.",
+   "oppen_kod": "höga kostnader för modersmål",
+   "beskrivning": "Modersmålsundervisningen är en stor kostnad för kommunen med osäker effekt."
+  },
+  {
+   "uid": "U019",
+   "id": "goteborgs-kommun#23",
+   "citat": "Föreliggande förslag kommer i många skolor leda till en situation där läraren, i samma undervisningsgrupp, kommer att undervisa enligt tre kursplaner parallellt, svenska, svenska som andraspråk och grundläggande svenska som andraspråk.",
+   "oppen_kod": "tre kursplaner i samma grupp",
+   "beskrivning": "Lärare kommer att behöva undervisa efter tre kursplaner parallellt i samma grupp."
+  },
+  {
+   "uid": "U020",
+   "id": "goteborgs-kommun#23",
+   "citat": "Av utredningen framgår det inte om nuvarande kursplan i svenska för andraspråk kommer att revideras i samband med införandet av kursplanen för grundläggande svenska som andraspråk.",
+   "oppen_kod": "oklar revidering av kursplan",
+   "beskrivning": "Det är oklart om den befintliga kursplanen i svenska som andraspråk ska revideras."
+  },
+  {
+   "uid": "U021",
+   "id": "goteborgs-kommun#23",
+   "citat": "Göteborgs Stad kan se att det finns utmaningar med att kursplanerna för grundläggande svenska som andraspråk föreslås gälla alla elever oavsett ålder.",
+   "oppen_kod": "en kursplan för alla åldrar",
+   "beskrivning": "En gemensam kursplan för alla åldrar gör det svårt att möta en heterogen elevgrupp."
+  },
+  {
+   "uid": "U022",
+   "id": "goteborgs-kommun#25",
+   "citat": "Här är det dock viktigt att materialet utformas så att korrekta bedömningar kan göras utan att det blir allt för omfattande.",
+   "oppen_kod": "risk för omfattande kartläggningsmaterial",
+   "beskrivning": "Kartläggningsmaterialet riskerar att bli för omfattande att använda."
+  },
+  {
+   "uid": "U023",
+   "id": "goteborgs-kommun#26",
+   "citat": "Inom göteborgsregionen sker dock valet av svenskämne i regel i samband med gymnasievalet varför vägledningen i huvudsak sker på högstadiet.",
+   "oppen_kod": "vägledning sker på högstadiet",
+   "beskrivning": "Informationsmaterialet riktas mot gymnasiet medan vägledningen i praktiken sker på högstadiet."
+  },
+  {
+   "uid": "U024",
+   "id": "goteborgs-kommun#27",
+   "citat": "Här kan dock konstateras att det finns stora skillnader i behov mellan olika skolor vilket Skolverket bör ta hänsyn till vid utformning och planering av stödmaterial och insatser.",
+   "oppen_kod": "olika stödbehov mellan skolor",
+   "beskrivning": "Skolornas behov av implementeringsstöd skiljer sig mycket åt."
+  },
+  {
+   "uid": "U025",
+   "id": "goteborgs-kommun#28",
+   "citat": "Går utredningens bedömning vidare till rättslig reglering kommer detta dock leda till ökade kostnader för huvudmännen",
+   "oppen_kod": "kostnader för mer undervisningstid",
+   "beskrivning": "Mer undervisningstid för nyanlända i senare skolår ökar huvudmännens kostnader."
+  },
+  {
+   "uid": "U026",
+   "id": "goteborgs-kommun#29",
+   "citat": "Göteborgs Stad kan här konstatera att denna bedömning inte är förenlig med utredningen om reformerad lärarutbildning (SOU 2024:81) där det föreslås att denna del av lärarutbildningen ska minska i omfattning.",
+   "oppen_kod": "motstridig lärarutbildningsreform",
+   "beskrivning": "Lärares grundkunskaper om andraspråksutveckling riskerar att minska genom en parallell lärarutbildningsreform."
+  },
+  {
+   "uid": "U027",
+   "id": "goteborgs-kommun#31",
+   "citat": "När det gäller frågan om modersmålsundervisning anser Sverigedemokraterna att utredningen i otillräcklig grad beaktar de kostnader och begränsade resultat som är förknippade med verksamheten.",
+   "oppen_kod": "modersmålets kostnader underbeaktade",
+   "beskrivning": "Kostnaderna för modersmålsundervisningen är betydande i förhållande till resultaten."
+  },
+  {
+   "uid": "U028",
+   "id": "helsingborgs-kommun#3",
+   "citat": "Helsingborgs stad konstaterar att denna typ av tidsgräns tenderar att bli normerande. Undervisningen riskerar att organiseras så att elever läser grundläggande svenska i två år oavsett behov.",
+   "oppen_kod": "tidsgränsen riskerar bli normerande",
+   "beskrivning": "Undervisningen riskerar att organiseras så att alla läser grundläggande svenska i två år."
+  },
+  {
+   "uid": "U029",
+   "id": "helsingborgs-kommun#3",
+   "citat": "För att undvika att två år blir en norm är det viktigt att huvudmännen, vid införandet av den nya kursplanen, säkerställer att elevens progression följs löpande och att det finns mekanismer som säkerställer att eleven kan övergå från kursplanen för grundläggande svenska till kursplanen för svenska som andraspråk så snart det är lämpligt.",
+   "oppen_kod": "löpande progressionsuppföljning krävs",
+   "beskrivning": "Huvudmannen måste bygga upp löpande uppföljning och rutiner för övergång mellan kursplaner."
+  },
+  {
+   "uid": "U030",
+   "id": "helsingborgs-kommun#5",
+   "citat": "som stöttar arbetet på respektive skola eftersom varje huvudman själv har ansvar för implementeringen inom sin organisation.",
+   "oppen_kod": "huvudmannens implementeringsansvar",
+   "beskrivning": "Varje huvudman bär själv ansvaret för att implementera förslagen i sin organisation."
+  },
+  {
+   "uid": "U031",
+   "id": "helsingborgs-kommun#5",
+   "citat": "Bristande kompetens i andraspråksdidaktik är, precis som utredningen anger, troligen den främsta anledningen till att elever med behov av andraspråksdidaktik inte får en sådan undervisning eller undervisas av lärare utan behörighet.",
+   "oppen_kod": "brist på andraspråksdidaktisk kompetens",
+   "beskrivning": "Det saknas lärare med kompetens och behörighet i andraspråksdidaktik."
+  },
+  {
+   "uid": "U032",
+   "id": "helsingborgs-kommun#5",
+   "citat": "Även om inte alla elever med utländsk bakgrund har behov av andraspråksdidaktik innebär det ändå att behovet är stort och kommer att vara det under lång tid.",
+   "oppen_kod": "stort och långvarigt behov",
+   "beskrivning": "Behovet av andraspråksdidaktisk undervisning i kommunen är stort och långvarigt."
+  },
+  {
+   "uid": "U033",
+   "id": "helsingborgs-kommun#5",
+   "citat": "De lärare som ska ta del av kompetensutvecklingen har olika förkunskaper och de lokala förutsättningarna varierar.",
+   "oppen_kod": "varierande förkunskaper hos lärare",
+   "beskrivning": "Lärarnas olika förkunskaper och lokala förutsättningar försvårar kompetensutvecklingen."
+  },
+  {
+   "uid": "U034",
+   "id": "hassleholms-kommun#3",
+   "citat": "Hässleholms kommun håller med om bedömningen att införandet av en kursplan för grundläggande svenska som andraspråk kommer att ställa krav på implementering. Hässleholms kommun förutsätter att ett implementeringsstöd kommer att ges.",
+   "oppen_kod": "krav på implementering",
+   "beskrivning": "Införandet av kursplanen ställer krav på implementering hos huvudmannen."
+  },
+  {
+   "uid": "U035",
+   "id": "hassleholms-kommun#3",
+   "citat": "Hässleholms kommun delar uppfattningen om att det kommer att krävas kompetensutvecklingsinsatser för lärare som ska undervisa i grundläggande svenska som andraspråk.",
+   "oppen_kod": "kompetensutveckling för lärare",
+   "beskrivning": "Lärare som ska undervisa i grundläggande svenska som andraspråk behöver kompetensutveckling."
+  },
+  {
+   "uid": "U036",
+   "id": "hassleholms-kommun#13",
+   "citat": "Hässleholms kommun konstaterar att förslaget leder till viss ökad administrativ börda, men bedömer att likvärdigheten och rättssäkerheten i och den potentiella långsiktiga tidsbesparingen i hanteringen av beslut kring svenska som andraspråk överväger de negativa effekterna av en ökad administrativ börda.",
+   "oppen_kod": "ökad administrativ börda",
+   "beskrivning": "Kartläggningskravet ger en ökad administrativ börda."
+  },
+  {
+   "uid": "U037",
+   "id": "laxa-kommun#3",
+   "citat": "Skrivningen ”direkt” leder till tanken på någon form av kontinuerlig överflytt av elever från undervisningsgruppen i grundläggande svenska som andraspråk till en annan undervisningsgrupp. Här bör det skapas ett utrymme för en enskilda skolenheten att hitta hållbara rutiner för överflytt av elever mellan undervisningsgrupper.",
+   "oppen_kod": "kontinuerlig överflytt mellan grupper",
+   "beskrivning": "Krav på direkt övergång ger ständiga förändringar i undervisningsgrupperna."
+  },
+  {
+   "uid": "U038",
+   "id": "laxa-kommun#3",
+   "citat": "är viktigt att det tydligt framgår huruvida det är obligatoriskt för elever att börja i grundläggande svenska som andraspråk om rektor har bedömt att det finns ett behov av detta",
+   "oppen_kod": "oklart om placering är obligatorisk",
+   "beskrivning": "Det är oklart om rektors bedömning gör grundläggande svenska obligatorisk eller kräver samtycke."
+  },
+  {
+   "uid": "U039",
+   "id": "laxa-kommun#4",
+   "citat": "Det kan vara känsligt för elever och deras vårdnadshavare huruvida eleverna är inskrivna i ämnet svenska eller i ämnet svenska som andraspråk, och det förekommer att såväl elever som vårdnadshavare kraftfullt invänder mot rektors beslut.",
+   "oppen_kod": "invändningar mot rektors beslut",
+   "beskrivning": "Rektor möter kraftfulla invändningar från elever och vårdnadshavare mot beslut om svenskämne."
+  },
+  {
+   "uid": "U040",
+   "id": "laxa-kommun#4",
+   "citat": "Här behövs också ett förtydligande av bestämmelserna för deltagande i nationella prov i övriga ämnen för elever som läser grundläggande svenska som andraspråk.",
+   "oppen_kod": "oklart deltagande i nationella prov",
+   "beskrivning": "Det är oklart hur elever i grundläggande svenska ska delta i nationella prov i övriga ämnen."
+  },
+  {
+   "uid": "U041",
+   "id": "laxa-kommun#4",
+   "citat": "Att betyg inte ska sättas i grundläggande svenska som andraspråk medför också ett behov av förtydligande av bestämmelserna för hur betygskatalogen ska utformas för elever som är inskrivna i det ämnet.",
+   "oppen_kod": "oklar utformning av betygskatalog",
+   "beskrivning": "Det är oklart hur betygskatalogen ska utformas när betyg inte sätts."
+  },
+  {
+   "uid": "U042",
+   "id": "laxa-kommun#4",
+   "citat": "Till det kommer behov av förtydligade bestämmelser om hur betygsstatistiken ska beräknas och huruvida elever som är inskrivna i grundläggande svenska ska ingå i beräkningen av måluppfyllelse i alla ämnen, genomsnittligt meritvärde och behörighet till nationellt program i gymnasieskolan.",
+   "oppen_kod": "oklar beräkning av betygsstatistik",
+   "beskrivning": "Det är oklart hur eleverna ska räknas in i betygsstatistik och måluppfyllelse."
+  },
+  {
+   "uid": "U043",
+   "id": "laxa-kommun#4",
+   "citat": "Här vill Laxå kommun tillägga att det viktigt att det i bestämmelserna förtydligas i vilken utsträckning stödmaterialet är obligatoriskt att använda och vad som eventuellt beror på rektors bedömning och beslut.",
+   "oppen_kod": "oklart om kartläggning är obligatorisk",
+   "beskrivning": "Det är oklart i vilken utsträckning kartläggningsmaterialet är obligatoriskt."
+  },
+  {
+   "uid": "U044",
+   "id": "laxa-kommun#4",
+   "citat": "Här vill Laxå kommun dock framhålla att de nya kursplanerna och bestämmelserna i övrigt inte bör träda i kraft innan nytt kartläggningsmaterial samt implementeringsstöd för de nya bestämmelserna finns på plats.",
+   "oppen_kod": "ikraftträdande före stödmaterial",
+   "beskrivning": "Bestämmelserna riskerar att träda i kraft innan kartläggningsmaterial och implementeringsstöd finns."
+  },
+  {
+   "uid": "U045",
+   "id": "laxa-kommun#5",
+   "citat": "Laxå kommun bedömer att det behöver förtydligas vad som avses med studiehandledning på modersmålet i samtliga årskurser, eftersom den rätten redan finns i grundskolans samtliga årskurser.",
+   "oppen_kod": "oklar utökad studiehandledning",
+   "beskrivning": "Det är oklart vad den utökade rätten till studiehandledning i samtliga årskurser avser."
+  },
+  {
+   "uid": "U046",
+   "id": "laxa-kommun#5",
+   "citat": "Detta riskerar att leda till onödig administration samt att onödig tid går åt till att fatta juridiskt hållbara beslut mot bakgrund av rätt paragraf i stället för att fokus läggs på att ge eleven det stöd som eleven behöver.",
+   "oppen_kod": "administration kring studiehandledningsbeslut",
+   "beskrivning": "Splittrade bestämmelser om studiehandledning ger onödig administration och tidsåtgång."
+  },
+  {
+   "uid": "U047",
+   "id": "laxa-kommun#5",
+   "citat": "Om modersmålsundervisning samordnas mellan skolenheter och kommuner genom fjärrundervisning ökar sannolikheten för att en enskild skolenhet i låg grad kan styra vid vilken tidpunkt under skoldagen som undervisningen ges.",
+   "oppen_kod": "schemaläggning vid fjärrundervisning",
+   "beskrivning": "Samordnad fjärrundervisning gör att skolan inte kan styra när modersmålsundervisningen ges."
+  },
+  {
+   "uid": "U048",
+   "id": "laxa-kommun#5",
+   "citat": "Därför bör det i kommande bestämmelser förtydligas om, och i så fall i vilken utsträckning, det är tillåtet att lämna undervisningen i ett ämne för undervisning i modersmålet.",
+   "oppen_kod": "oklart om lektioner får lämnas",
+   "beskrivning": "Det är oklart om elever får lämna annan undervisning för modersmålsundervisning."
+  },
+  {
+   "uid": "U049",
+   "id": "laxa-kommun#5",
+   "citat": "Med anledning av att modersmålsundervisning kan bedrivas via fjärrundervisning uppkommer också frågor om var elever kan befinna sig fysiskt vid undervisningstillfället.",
+   "oppen_kod": "oklar plats vid fjärrundervisning",
+   "beskrivning": "Det är oklart var elever får befinna sig vid fjärrundervisning i modersmål."
+  },
+  {
+   "uid": "U050",
+   "id": "laxa-kommun#7",
+   "citat": "Laxå kommun delar utredningens bedömning att de nya bestämmelserna kommer att öka kommunernas kostnader och att staten bör kompensera kommunerna för dessa. Det bör också tydliggöras hur kompensationen sker, viken beräkningsgrunden är och med vilket belopp respektive kommun kompenseras.",
+   "oppen_kod": "ökade kostnader och oklar kompensation",
+   "beskrivning": "Bestämmelserna ökar kommunernas kostnader och kompensationen är oklar."
+  },
+  {
+   "uid": "U051",
+   "id": "laxa-kommun#7",
+   "citat": "Här bör hänsyn tas inte enbart till det arbete som en lärare behöver lägga ned utan även till viss ökad administrativ börda på enhets- och förvaltningsnivå.",
+   "oppen_kod": "administrativ börda på förvaltningsnivå",
+   "beskrivning": "Förslagen ger ökad administrativ börda på enhets- och förvaltningsnivå."
+  },
+  {
+   "uid": "U052",
+   "id": "malmo-kommun#4",
+   "citat": "Malmö stad vill även poängtera att resurser behöver tillföras till kompetensutveckling av berörd personal såsom rektorer, lärare, studie- och yrkesvägledare och administratörer.",
+   "oppen_kod": "resurser för kompetensutveckling",
+   "beskrivning": "Kompetensutveckling av flera personalgrupper kräver resurser."
+  },
+  {
+   "uid": "U053",
+   "id": "malmo-kommun#5",
+   "citat": "Huvudmännen behöver säkerställa att de dokument som utfärdas efter slutförd utbildning uppfyller kraven i bestämmelserna. Malmö stad anser att det kommer att behövas resurser för kompetensutveckling av bland annat administratörer och studieoch yrkesvägledare.",
+   "oppen_kod": "ändrade administrativa rutiner för examen",
+   "beskrivning": "Nya regler för examensbevis påverkar administrativa rutiner och kräver kompetensutveckling."
+  },
+  {
+   "uid": "U054",
+   "id": "malmo-kommun#5",
+   "citat": "Elever kommer dock att efterfråga en bekräftelse på uppnådda kunskaper som ett godkänt betyg innebär.",
+   "oppen_kod": "efterfrågad bekräftelse utan betyg",
+   "beskrivning": "Skolorna måste möta elevers krav på bekräftelse av kunskaper när betyg inte sätts."
+  },
+  {
+   "uid": "U055",
+   "id": "malmo-kommun#6",
+   "citat": "Det kan finnas en risk att skolor kommer ha svårt att lösa det nya ämnet rent organisatoriskt då det kommer ställa höga krav på skolornas organisation.",
+   "oppen_kod": "svårt att organisera nytt ämne",
+   "beskrivning": "Det nya ämnet ställer höga krav på skolornas organisation."
+  },
+  {
+   "uid": "U056",
+   "id": "malmo-kommun#7",
+   "citat": "Det kan eventuellt också leda till att elever som blivit bedömda att ha behov av att följa kursplanen i svenska som andraspråk i ännu högre utsträckning än idag, integreras med elever som undervisas utifrån kursplanen i svenska och därmed inte får sina behov tillgodosedda på grund av att resurser i stället kommer att användas för grundläggande svenska.",
+   "oppen_kod": "resurser trängs undan",
+   "beskrivning": "Resurser till grundläggande svenska riskerar att tas från ordinarie svenska som andraspråk."
+  },
+  {
+   "uid": "U057",
+   "id": "malmo-kommun#7",
+   "citat": "Det bör även förtydligas om beslut om grundläggande svenska ersätter motsvarande timmar i timplanen för svenska som andraspråk och svenska. Det behöver även tydliggöras om eleven kan läsa grundläggande svenska vissa timmar och svenska som andraspråk övriga timmar?",
+   "oppen_kod": "oklar koppling till timplanen",
+   "beskrivning": "Det är oklart hur grundläggande svenska förhåller sig till timplanens timmar."
+  },
+  {
+   "uid": "U058",
+   "id": "malmo-kommun#9",
+   "citat": "Definitionen är viktig eftersom behovet av svenska som andraspråksundervisning blandas ihop med behov av specialpedagogiska insatser för elever som har svenska som förstaspråk. I utredningen nämns utmaningen kring vilka elever som ska behovs-bedömas.",
+   "oppen_kod": "svår avgränsning av behovsbedömning",
+   "beskrivning": "Det är svårt att avgöra vilka elever som ska behovsbedömas och skilja behov åt."
+  },
+  {
+   "uid": "U059",
+   "id": "malmo-kommun#9",
+   "citat": "Malmö stad vill lyfta fram att det är viktigt att relevant kartläggnings- eller stödmaterial tas fram även för annan personal som ska vägleda eleverna rätt inom de icke obligatoriska skolformerna.",
+   "oppen_kod": "stödmaterial saknas för vägledare",
+   "beskrivning": "Personal i icke obligatoriska skolformer saknar stödmaterial för vägledning."
+  },
+  {
+   "uid": "U060",
+   "id": "malmo-kommun#10",
+   "citat": "Malmö stad vill lyfta fram att rektor och annan relevant personal behöver stöd och kompetensutveckling i detta arbete.",
+   "oppen_kod": "rektorer behöver kompetensutveckling",
+   "beskrivning": "Rektorer och personal behöver stöd och kompetensutveckling för besluten."
+  },
+  {
+   "uid": "U061",
+   "id": "malmo-kommun#11",
+   "citat": "Det är alltså inte rektorn som beslutar om en elevs undervisning i svenska som andraspråk eller om hur länge en elev kan läsa ämnet, vilket kommer att kräva ökade vägledningsresurser.",
+   "oppen_kod": "ökade vägledningsresurser i gymnasiet",
+   "beskrivning": "Elevens eget val i gymnasieskolan kräver ökade vägledningsresurser."
+  },
+  {
+   "uid": "U062",
+   "id": "malmo-kommun#12",
+   "citat": "Det är viktigt att definitionen är tydlig av formuleringarna i vad som ska behovs bedömas (elevens behov av andraspråksdidaktik) och att kartläggningsmaterialet matchar den definitionen.",
+   "oppen_kod": "otydlig definition för behovsbedömning",
+   "beskrivning": "Definitionen av vad som ska behovsbedömas behöver vara tydlig för att materialet ska fungera."
+  },
+  {
+   "uid": "U063",
+   "id": "malmo-kommun#13",
+   "citat": "Det behövs gedigen kompetensutveckling i andraspråksutveckling för att kunna genomföra kvalitativa behovsbedömningar och det är idag en stor brist på behöriga lärare i svenska som andraspråk.",
+   "oppen_kod": "brist på behöriga lärare",
+   "beskrivning": "Det råder stor brist på behöriga lärare i svenska som andraspråk."
+  },
+  {
+   "uid": "U064",
+   "id": "malmo-kommun#14",
+   "citat": "Malmö stad instämmer med denna bedömning men frågar sig samtidigt vad den faktiska skillnaden blir i jämförelse med att använda anpassad eller prioriterad timplan.",
+   "oppen_kod": "oklar skillnad mot anpassad timplan",
+   "beskrivning": "Det är oklart vad mer undervisningstid innebär jämfört med anpassad eller prioriterad timplan."
+  },
+  {
+   "uid": "U065",
+   "id": "molndals-kommun#12",
+   "citat": "Gällande bedömning att fjärrundervisning bör utvecklas vill vi tillägga att förutsättningarna för att bedriva fjärrundervisning behöver ses över och anpassas till modersmålsundervisning.",
+   "oppen_kod": "förutsättningar för fjärrundervisning",
+   "beskrivning": "Förutsättningarna för fjärrundervisning är inte anpassade till modersmålsundervisning."
+  },
+  {
+   "uid": "U066",
+   "id": "salems-kommun#4",
+   "citat": "Kommunen bedömer dock att vissa delar behöver förtydligas, särskilt vad gäller genomförandet av föreslagna förändringar i skolans styrning och praktik.",
+   "oppen_kod": "otydligt genomförande",
+   "beskrivning": "Genomförandet av förändringarna i skolans styrning och praktik är otydligt."
+  },
+  {
+   "uid": "U067",
+   "id": "salems-kommun#5",
+   "citat": "Salems kommun vill uppmärksamma att ett införande av flera kursplaner inom ämnet svenska, däribland grundläggande svenska som andraspråk, kan innebära organisatoriska utmaningar för huvudmän och skolor. Det kan exempelvis handla om gruppindelning, lärarbehörighet och schemaläggning och därmed en risk för ekonomiska konsekvenser på olika nivåer i utbildningssystemet.",
+   "oppen_kod": "flera kursplaner försvårar organisation",
+   "beskrivning": "Flera kursplaner försvårar gruppindelning, bemanning och schemaläggning med ekonomiska följder."
+  },
+  {
+   "uid": "U068",
+   "id": "salems-kommun#8",
+   "citat": "Kommunen ser dock att det är viktigt att flera professioner inom skolan, utöver rektor, har god kännedom om materialet och är delaktiga i bedömningen, för att säkerställa en bred och rättvisande kartläggning av elevens behov.",
+   "oppen_kod": "flera professioner måste kunna materialet",
+   "beskrivning": "Flera yrkesgrupper behöver kunskap om kartläggningsmaterialet och delta i bedömningen."
+  },
+  {
+   "uid": "U069",
+   "id": "simrishamns-kommun#4",
+   "citat": "Dock menar vi att implementeringen kräver stödinsatser från Skolverket samt kompetensutveckling av lärare och skolledare.",
+   "oppen_kod": "implementering kräver kompetensutveckling",
+   "beskrivning": "Implementeringen kräver stödinsatser och kompetensutveckling av lärare och skolledare."
+  },
+  {
+   "uid": "U070",
+   "id": "simrishamns-kommun#9",
+   "citat": "Att sätta en tidsgräns om två år riskerar att två år blir både en nedre och övre gräns, även om det inte är intentionen.",
+   "oppen_kod": "tidsgränsen blir norm",
+   "beskrivning": "Tvåårsgränsen riskerar att tillämpas som både nedre och övre gräns."
+  },
+  {
+   "uid": "U071",
+   "id": "simrishamns-kommun#10",
+   "citat": "Däremot innebär införandet av en ny kursplan, implementeringsstöd och kompetensutveckling kostnader för huvudmännen som måste beaktas vid genomförande.",
+   "oppen_kod": "kostnader för införandet",
+   "beskrivning": "Ny kursplan, implementering och kompetensutveckling ger huvudmännen kostnader."
+  },
+  {
+   "uid": "U072",
+   "id": "smedjebackens-kommun#1",
+   "citat": "Däremot vill vi uppmärksamma att införandet av kursplanen Grundläggande svenska som andraspråk (GSvA) samt ökad undervisningstid i svenska som andraspråk (SVA) kan innebära organisatoriska och ekonomiska utmaningar för mindre kommuner.",
+   "oppen_kod": "utmaningar för mindre kommuner",
+   "beskrivning": "Ny kursplan och mer undervisningstid ger små kommuner organisatoriska och ekonomiska utmaningar."
+  },
+  {
+   "uid": "U073",
+   "id": "smedjebackens-kommun#1",
+   "citat": "En liten elevgrupp med behov av denna undervisning, bestående av elever i olika åldrar, kan bli kostsam att organisera och kräver åldersblandad undervisning.",
+   "oppen_kod": "kostsamma små åldersblandade grupper",
+   "beskrivning": "Små elevgrupper i olika åldrar blir kostsamma att organisera."
+  },
+  {
+   "uid": "U074",
+   "id": "smedjebackens-kommun#1",
+   "citat": "För att undvika missförstånd bör lagstiftning och förordningar tydligt ange att rektors beslut med stöd av nationellt kartläggningsmaterial gäller för grundskolan, medan gymnasieelever ska omfattas av ett regelverk som tydligt markerar elevens möjlighet att fritt välja och byta ämne.",
+   "oppen_kod": "oklar skillnad grundskola och gymnasium",
+   "beskrivning": "Regelverket riskerar missförstånd om rektors beslut och gymnasieelevers fria val."
+  },
+  {
+   "uid": "U075",
+   "id": "smedjebackens-kommun#1",
+   "citat": "Ökade kostnader för lärare och inte minst skolskjutsar kan bli betydande. Utökad undervisningstid kan innebära svårigheter med att ansluta till ordinarie skolskjutsar, vilket leder till att särskilda lösningar måste skapas för",
+   "oppen_kod": "skolskjuts och lärarkostnader",
+   "beskrivning": "Mer undervisningstid ger betydande kostnader för lärare och särskilda skolskjutslösningar."
+  },
+  {
+   "uid": "U076",
+   "id": "smedjebackens-kommun#2",
+   "citat": "Med ett begränsat antal elever som är aktuella för kursplanen kan det bli nödvändigt att bedriva GSvA-undervisningen åldersblandat, det vill säga att elever i olika årskurser undervisas tillsammans. Detta ställer särskilda krav på planering, pedagogik och lärarkompetens, samt kan innebära ökade kostnader per elev.",
+   "oppen_kod": "åldersblandad undervisning krävs",
+   "beskrivning": "Få elever tvingar fram åldersblandad undervisning med krav på kompetens och högre kostnad per elev."
+  },
+  {
+   "uid": "U077",
+   "id": "smedjebackens-kommun#2",
+   "citat": "Smedjebackens kommun vill betona att skolan behöver ha beredskap att stötta dessa elever extra, då traditionell modersmålsundervisning kanske inte fullt ut kan tillgodose deras behov.",
+   "oppen_kod": "elever utan utvecklat modersmål",
+   "beskrivning": "Skolan måste stötta elever som saknar ett utvecklat förstaspråk."
+  },
+  {
+   "uid": "U078",
+   "id": "smedjebackens-kommun#3",
+   "citat": "De föreslagna åtgärderna är välkomna men kommer medföra organisatoriska och ekonomiska utmaningar i mindre kommuner. Genomförandet kräver därför externa finansieringslösningar och tydliga riktlinjer för att stödja praktiska lösningar såsom skolskjuts och bemanning.",
+   "oppen_kod": "finansiering i mindre kommuner",
+   "beskrivning": "Små kommuner behöver extern finansiering och riktlinjer för skolskjuts och bemanning."
+  },
+  {
+   "uid": "U079",
+   "id": "smedjebackens-kommun#3",
+   "citat": "Smedjebackens kommun stödjer utredningens ambitioner men efterfrågar tydligare besked om finansiering och praktiskt genomförande i mindre kommuner.",
+   "oppen_kod": "oklar finansiering och genomförande",
+   "beskrivning": "Finansiering och praktiskt genomförande i små kommuner är oklart."
+  },
+  {
+   "uid": "U080",
+   "id": "stockholms-kommun#7",
+   "citat": "Stadsledningskontoret ser dock vissa organisatoriska utmaningar till följd av två kursplaner inom svenska som andraspråk. Rektor behöver fördela resurserna så att undervisningen av elever som är nybörjare i svenska språket kan organiseras på ett sätt som är gynnsamt för målgruppens språk- och kunskapsutveckling.",
+   "oppen_kod": "organisatoriska utmaningar två kursplaner",
+   "beskrivning": "Två kursplaner kräver att rektor omfördelar resurser och organiserar undervisningen."
+  },
+  {
+   "uid": "U081",
+   "id": "stockholms-kommun#8",
+   "citat": "Förslagen kommer dock att påverka enskilda skolors organisation och tjänstefördelning för det nya ämnet grundläggande svenska.",
+   "oppen_kod": "påverkad organisation och tjänstefördelning",
+   "beskrivning": "Det nya ämnet påverkar skolornas organisation och tjänstefördelning."
+  },
+  {
+   "uid": "U082",
+   "id": "stockholms-kommun#8",
+   "citat": "Stadsledningskontoret bedömer att förslagen kan leda till kostnadsökningar som behöver finansieras, exempelvis för kompetensutveckling.",
+   "oppen_kod": "kostnader för kompetensutveckling",
+   "beskrivning": "Förslagen ger kostnadsökningar, bland annat för kompetensutveckling."
+  },
+  {
+   "uid": "U083",
+   "id": "stockholms-kommun#8",
+   "citat": "Därtill tillkommer ökade kostnader för förslaget om utökad rätt till studiehandledning.",
+   "oppen_kod": "kostnader för studiehandledning",
+   "beskrivning": "Utökad rätt till studiehandledning ökar kostnaderna."
+  },
+  {
+   "uid": "U084",
+   "id": "stockholms-kommun#12",
+   "citat": "Utbildningsförvaltningen ser dock att två kursplaner inom svenska som andraspråk innebär organisatoriska utmaningar för grundskolan. Rektor behöver fördela resurserna så att undervisningen av elever som är nybörjare i svenska språket kan organiseras på ett sätt som är gynnsamt för målgruppens språk- och kunskapsutveckling.",
+   "oppen_kod": "organisatoriska utmaningar två kursplaner",
+   "beskrivning": "Två kursplaner kräver att rektor omfördelar resurser och organiserar undervisningen."
+  },
+  {
+   "uid": "U085",
+   "id": "stockholms-kommun#13",
+   "citat": "Förslagen kommer dock att påverka enskilda skolors organisation och tjänstefördelning för det nya ämnet grundläggande svenska.",
+   "oppen_kod": "påverkad organisation och tjänstefördelning",
+   "beskrivning": "Det nya ämnet påverkar skolornas organisation och tjänstefördelning."
+  },
+  {
+   "uid": "U086",
+   "id": "stockholms-kommun#13",
+   "citat": "Utbildningsförvaltningen ser att det med utredningens förslag tillkommer kostnader som behöver täckas, exempelvis för lärares kompetensutveckling.",
+   "oppen_kod": "kostnader för kompetensutveckling",
+   "beskrivning": "Förslagen ger kostnader, bland annat för lärares kompetensutveckling."
+  },
+  {
+   "uid": "U087",
+   "id": "stockholms-kommun#13",
+   "citat": "Därtill tillkommer ökade kostnader för att finansiera förslaget om utökad rätt till studiehandledning.",
+   "oppen_kod": "kostnader för studiehandledning",
+   "beskrivning": "Utökad rätt till studiehandledning ökar kostnaderna."
+  },
+  {
+   "uid": "U088",
+   "id": "strangnas-kommun#5",
+   "citat": "Förslaget om grundläggande kurs, utan betyg, gör det i princip omöjligt att uppnå en gymnasieexamen under gymnasietiden. För den aktuella elevgruppen blir därmed fortsatta studier på komvux en grundförutsättning.",
+   "oppen_kod": "introduktionsprogram leder till komvux",
+   "beskrivning": "Elever på introduktionsprogram kan inte nå examen och behöver fortsätta i komvux."
+  },
+  {
+   "uid": "U089",
+   "id": "sveriges-kommuner-och-regioner#8",
+   "citat": "Det bör emellertid framgå att beslutet bör fattas i överensstämmelse med hemkommunen om det är en annan än huvudmannen.",
+   "oppen_kod": "samordning med hemkommunen",
+   "beskrivning": "Beslut om förlängd utbildningstid i anpassade gymnasieskolan berör hemkommunen när den inte är huvudman."
+  },
+  {
+   "uid": "U090",
+   "id": "sveriges-kommuner-och-regioner#11",
+   "citat": "SKR vill samtidigt understryka att detta inte får medföra en väsentligt ökad uppgiftslämnarbörda för kommunerna.",
+   "oppen_kod": "ökad uppgiftslämnarbörda",
+   "beskrivning": "Utökad uppföljning kan öka kommunernas uppgiftslämnande."
+  },
+  {
+   "uid": "U091",
+   "id": "sveriges-kommuner-och-regioner#13",
+   "citat": "SKR bedömer att införandet av kursplanerna i grundläggande svenska som andraspråk kommer att medföra implementeringskostnader för kommunerna, men utredningen redovisar inte några sådana och hur dessa ska finansieras.",
+   "oppen_kod": "ofinansierade implementeringskostnader",
+   "beskrivning": "Kommunerna får implementeringskostnader som inte redovisas eller finansieras."
+  },
+  {
+   "uid": "U092",
+   "id": "sveriges-kommuner-och-regioner#13",
+   "citat": "Utredningens beräkningar av kostnaderna för bedömning av vilken kursplan eleven ska följa görs utifrån en genomsnittlig månadslön för en grundskollärare 2024, men bör räknas upp till 2028 års löneläge.",
+   "oppen_kod": "underskattat löneläge i kostnadsberäkning",
+   "beskrivning": "Kostnaden för bedömningar är beräknad på för lågt löneläge."
+  },
+  {
+   "uid": "U093",
+   "id": "sveriges-kommuner-och-regioner#32",
+   "citat": "Användningen av kartläggningsmaterialet kan emellertid bidra till en viss ökad administration.",
+   "oppen_kod": "ökad administration kartläggning",
+   "beskrivning": "Obligatoriskt kartläggningsmaterial kan öka administrationen."
+  },
+  {
+   "uid": "U094",
+   "id": "sveriges-kommuner-och-regioner#47",
+   "citat": "Om detta skulle ändras finns emellertid en risk för att det i ett övergångsskede skulle kunna förstärka bristen på behöriga lärare i svenska som andraspråk.",
+   "oppen_kod": "förstärkt brist behöriga lärare",
+   "beskrivning": "Höjda behörighetskrav kan förvärra bristen på behöriga sva-lärare."
+  },
+  {
+   "uid": "U095",
+   "id": "sveriges-kommuner-och-regioner#53",
+   "citat": "Förlängd skoltid innebär ökade kostnader och det är hemkommunen som betalar skolpeng.",
+   "oppen_kod": "hemkommunens kostnad förlängd skoltid",
+   "beskrivning": "Förlängd skoltid i anpassade gymnasieskolan ger hemkommunen ökade kostnader."
+  },
+  {
+   "uid": "U096",
+   "id": "sveriges-kommuner-och-regioner#57",
+   "citat": "Svenskämnena är en stor utmaning för elever med grav språkstörning, inte minst för de som är nybörjare i svenska språket, och undervisningen måste kunna möta deras behov.",
+   "oppen_kod": "undervisning för grav språkstörning",
+   "beskrivning": "Skolorna behöver kunna möta behoven hos nybörjare med grav språkstörning."
+  },
+  {
+   "uid": "U097",
+   "id": "sveriges-kommuner-och-regioner#61",
+   "citat": "SKR delar bedömningen att en nationell samordning, exempelvis en plattform där huvudmän kan beställa modersmålsundervisning av varandra, skulle kunna förbättra tillgången för de huvudmän som har brist på modersmålslärare.",
+   "oppen_kod": "brist på modersmålslärare",
+   "beskrivning": "Huvudmän har brist på modersmålslärare."
+  },
+  {
+   "uid": "U098",
+   "id": "sveriges-kommuner-och-regioner#65",
+   "citat": "förbundet vill samtidigt understryka att detta inte får medföra en väsentligt ökad uppgiftslämnarbörda för kommunerna.",
+   "oppen_kod": "ökad uppgiftslämnarbörda statistik",
+   "beskrivning": "Utökad statistikinsamling om modersmål kan öka kommunernas uppgiftslämnande."
+  },
+  {
+   "uid": "U099",
+   "id": "sveriges-kommuner-och-regioner#67",
+   "citat": "SKR bedömer att konsekvenserna för kommunerna framför allt handlar om implementeringskostnader i samband med införandet av en kursplan för grundläggande svenska som andraspråk och det nationella kartläggningsmaterialet som är obligatoriskt att använda.",
+   "oppen_kod": "implementeringskostnader kursplan och kartläggning",
+   "beskrivning": "Kommunerna får implementeringskostnader för ny kursplan och obligatoriskt kartläggningsmaterial."
+  },
+  {
+   "uid": "U100",
+   "id": "sveriges-kommuner-och-regioner#67",
+   "citat": "Att ha två kursplaner inom samma ämne kan i viss mån öka lärarnas administration, likaså användningen av det nationella kartläggningsmaterialet.",
+   "oppen_kod": "ökad läraradministration",
+   "beskrivning": "Två kursplaner och kartläggningsmaterial kan öka lärarnas administration."
+  },
+  {
+   "uid": "U101",
+   "id": "sveriges-kommuner-och-regioner#67",
+   "citat": "Det kan också komma att påverka organisationen av undervisningen i svenska som andraspråk då två kursplaner används parallellt.",
+   "oppen_kod": "organisering av parallella kursplaner",
+   "beskrivning": "Två parallella kursplaner påverkar hur undervisningen organiseras, särskilt utanför större kommuner."
+  },
+  {
+   "uid": "U102",
+   "id": "sveriges-kommuner-och-regioner#69",
+   "citat": "Det behövs tid till kompetensutveckling för lärarna i svenska som andraspråk, men också för rektorer och lärare i samband med implementering av kartläggningsmaterialet. Utredningen redovisar inte några implementeringskostnader för kommunerna och hur dessa ska finansieras.",
+   "oppen_kod": "kompetensutveckling utan finansiering",
+   "beskrivning": "Tid för kompetensutveckling ger kostnader som inte redovisas eller finansieras."
+  },
+  {
+   "uid": "U103",
+   "id": "sveriges-kommuner-och-regioner#69",
+   "citat": "Utredningens beräkningar av kostnaderna för bedömning av vilken kursplan eleven ska följa görs utifrån en genomsnittlig månadslön för en grundskollärare 2024, men bör räknas upp till 2028 års löneläge, året då den nya kursplanen ska börja användas.",
+   "oppen_kod": "underskattat löneläge i kostnadsberäkning",
+   "beskrivning": "Kostnaden för bedömningar är beräknad på för lågt löneläge."
+  },
+  {
+   "uid": "U104",
+   "id": "trollhattan-kommun#4",
+   "citat": "Det nya materialet behöver vara mycket tydligare för att det ska kunna ligga till grund för en likvärdig behovsprövning över hela landet. Det är dock alltid en risk att ett kartläggningsmaterial blir för trubbigt då det ska användas för ett beslut.",
+   "oppen_kod": "trubbigt kartläggningsmaterial",
+   "beskrivning": "Kartläggningsmaterialet riskerar att bli för vagt eller trubbigt som beslutsunderlag."
+  },
+  {
+   "uid": "U105",
+   "id": "trollhattan-kommun#6",
+   "citat": "Det kan bli oerhört resurskrävande att ha en egen kursplan för grundläggande svenska som andraspråk då en utbildad SVA-lärare behöver ha undervisning med dessa elever.",
+   "oppen_kod": "resurskrävande egen kursplan",
+   "beskrivning": "Egen kursplan kräver utbildade sva-lärare och blir resurskrävande."
+  },
+  {
+   "uid": "U106",
+   "id": "trollhattan-kommun#6",
+   "citat": "Ska denna undervisning helt separeras från övrig svenskundervisning så krävs det fler utbildade SVA-lärare och mycket logistik rent schemamässigt och personalmässigt för att få till dessa lektioner på schemat.",
+   "oppen_kod": "schemaläggning och fler sva-lärare",
+   "beskrivning": "Separat undervisning kräver fler sva-lärare och svår schemalogistik."
+  },
+  {
+   "uid": "U107",
+   "id": "trollhattan-kommun#6",
+   "citat": "Frågor kring organisering av undervisningen väcks om det till exempel endast är någon enstaka elev som ska läsa grundläggande svenska och om elever kan åldersblandas under dessa lektioner.",
+   "oppen_kod": "organisering vid få elever",
+   "beskrivning": "Oklart hur undervisningen organiseras när få elever läser kursplanen."
+  },
+  {
+   "uid": "U108",
+   "id": "trollhattan-kommun#6",
+   "citat": "Frågan om det är lämpligt att låta läraren undervisa utifrån både svenska, svenska som andraspråk och grundläggande svenska i samma klassrum kan uppstå. Som det ser ut nu integreras ofta svenska som andraspråk och svenska i samma klassrum vilket är en stor utmaning för många lärare.",
+   "oppen_kod": "tre kursplaner i samma klassrum",
+   "beskrivning": "Lärare kan behöva undervisa efter tre kursplaner samtidigt."
+  },
+  {
+   "uid": "U109",
+   "id": "trollhattan-kommun#7",
+   "citat": "Utan ett sådant kunskapsintyg ökar risken för förlängd utbildningstid för eleven och merjobb för mottagande skola.",
+   "oppen_kod": "merjobb utan kunskapsintyg",
+   "beskrivning": "Utan betyg eller intyg får mottagande skola merarbete vid flytt."
+  },
+  {
+   "uid": "U110",
+   "id": "trollhattan-kommun#8",
+   "citat": "Strategiska val och kompisval är ett stort bekymmer i dagens gymnasieskola.",
+   "oppen_kod": "elevers strategiska ämnesval",
+   "beskrivning": "Elevers egna val av svenskämne i gymnasieskolan ger strategiska val som skolan måste hantera."
+  },
+  {
+   "uid": "U111",
+   "id": "trollhattan-kommun#9",
+   "citat": "För att kunna bevara och fortsätta erbjuda undervisning i nationella minoritetsspråk är en sådan åtgärd nödvändig.",
+   "oppen_kod": "minoritetsspråk utan timplan",
+   "beskrivning": "Utan timplanereglering är det svårt att fortsätta erbjuda minoritetsspråk."
+  },
+  {
+   "uid": "U112",
+   "id": "trollhattan-kommun#10",
+   "citat": "Den nuvarande strukturen, med många skolor och stora avstånd samt logistiska utmaningar såsom skolskjuts, medför att traditionell undervisning ibland blir svår att genomföra, särskild inom modersmålsundervisning, och inte alltid kan betraktas som resurseffektiv.",
+   "oppen_kod": "modersmål vid geografiska avstånd",
+   "beskrivning": "Avstånd och skolskjuts gör modersmålsundervisning svår och resurskrävande att organisera."
+  },
+  {
+   "uid": "U113",
+   "id": "uppsala-kommun#5",
+   "citat": "Uppsala kommun vill dock påpeka att det i gymnasieskolan ibland kan krävas mer än två år för att tillägna sig ett tillräckligt stort ordförråd och grammatisk behärskning för att kunna nå målen för svenska som andraspråk.",
+   "oppen_kod": "tvåårsgräns för snäv",
+   "beskrivning": "En tvåårsgräns kan vara för kort för vissa elever i gymnasieskolan."
+  },
+  {
+   "uid": "U114",
+   "id": "uppsala-kommun#5",
+   "citat": "Detta då kommunen lagt stora resurser på att implementera Bygga svenska, som också ses som ett välfungerande material.",
+   "oppen_kod": "gjorda investeringar i Bygga svenska",
+   "beskrivning": "Nytt kartläggningsmaterial riskerar att göra kommunens investering i Bygga svenska förgäves."
+  },
+  {
+   "uid": "U115",
+   "id": "uppsala-kommun#6",
+   "citat": "inte blir för omfattande. Detta då den personal som idag undervisar i Svenska som andraspråk bedöms ha kompetens att undervisa både grundläggande- och fortsättningssvenska.",
+   "oppen_kod": "för omfattande kompetensutveckling",
+   "beskrivning": "Kompetensutvecklingsinsatser riskerar att bli för omfattande för personalen."
+  },
+  {
+   "uid": "U116",
+   "id": "uppsala-kommun#6",
+   "citat": "Uppsala kommun vill dock understryka utredarnas förslag om att konsekvensanalyser i så fall behövs för att behandla dessa känsliga uppgifter.",
+   "oppen_kod": "känsliga uppgifter i uppföljning",
+   "beskrivning": "Resultatuppföljning av modersmål innebär hantering av känsliga uppgifter."
+  },
+  {
+   "uid": "U117",
+   "id": "vetlanda-kommun#1",
+   "citat": "Synpunker framförs också kring genomförbarhet, kompetensfrågor och risk att den administrativa bördan för rektorer ökar.",
+   "oppen_kod": "ökad administrativ börda rektorer",
+   "beskrivning": "Genomförbarhet, kompetens och rektorers administrativa börda är utmaningar."
+  },
+  {
+   "uid": "U118",
+   "id": "vetlanda-kommun#1",
+   "citat": "Vetlanda ställer sig alltså positivt till utredningens förslag om införande av ny kursplan, men lyfter också de specifika utmaningar som kan uppstå vid införandet för en landsortskommun både på organisatorisk nivå, men också för den enskilda eleven.",
+   "oppen_kod": "landsortskommuners organisatoriska utmaningar",
+   "beskrivning": "Införandet ger särskilda organisatoriska utmaningar för en landsortskommun."
+  },
+  {
+   "uid": "U119",
+   "id": "vetlanda-kommun#3",
+   "citat": "Förslaget säger inte hur undervisningen ska genomföras, om det kan ske i samma grupp som de som läser svenska som andraspråk eller om det kommer att krävas särskilda grupper med lärarresurs. Detta är av stor betydelse för vilka konsekvenser förslaget får för kommunen.",
+   "oppen_kod": "oklar undervisningsorganisation",
+   "beskrivning": "Det är oklart om undervisningen kräver särskilda grupper med egen lärarresurs."
+  },
+  {
+   "uid": "U120",
+   "id": "vetlanda-kommun#3",
+   "citat": "Det finns stora utmaningar att formulera en kursplan som är tillräckligt stringent för tydlig och snabb progression som samtidigt är åldersneutral.",
+   "oppen_kod": "åldersneutral kursplan svår",
+   "beskrivning": "En åldersneutral kursplan med tydlig progression är svår att utforma."
+  },
+  {
+   "uid": "U121",
+   "id": "vetlanda-kommun#3",
+   "citat": "Gällande benämningen av kursplanen bör dock beaktas att det redan finns kurser inom kommunal vuxenutbildning som benämns ”Svenska som andraspråk inom kommunal vuxenutbildning på grundläggande nivå”.",
+   "oppen_kod": "förväxlingsbar benämning",
+   "beskrivning": "Kursplanens namn kan förväxlas med befintliga komvuxkurser."
+  },
+  {
+   "uid": "U122",
+   "id": "vetlanda-kommun#4",
+   "citat": "Det behöver därför finnas ett tydligt stöd för rektorer hur detta ska bedömas och dokumenteras.",
+   "oppen_kod": "stöd för avstegsbeslut",
+   "beskrivning": "Rektorer behöver stöd för att bedöma och dokumentera avsteg från tvåårsgränsen."
+  },
+  {
+   "uid": "U123",
+   "id": "vetlanda-kommun#4",
+   "citat": "Utredningen säger heller ingenting om bryggan mellan de båda kursplanerna som kommer vara avgörande och som behöver finnas för en lyckad övergång för eleven.",
+   "oppen_kod": "oklar övergång mellan kursplaner",
+   "beskrivning": "Det saknas beskrivning av övergången mellan kursplanerna."
+  },
+  {
+   "uid": "U124",
+   "id": "vetlanda-kommun#4",
+   "citat": "För ökad likvärdighet bör överlämningsförfarandet, då en elev som läser grundläggande svenska som andraspråk flyttar till en annan skolenhet standardiseras. Detta krävs om tvåårsregeln ska gälla även vid skolformsbyte eller enhetsbyte inom samma skolform.",
+   "oppen_kod": "överlämning vid skolbyte",
+   "beskrivning": "Tvåårsregeln kräver standardiserad överlämning vid byte av skolenhet."
+  },
+  {
+   "uid": "U125",
+   "id": "vetlanda-kommun#7",
+   "citat": "Det finns dock en risk att den föreslagna målgruppsformuleringen blir lika otydlig som den förra och att godtyckliga beslut tas.",
+   "oppen_kod": "otydlig målgruppsformulering",
+   "beskrivning": "Målgruppsformuleringen riskerar att vara otydlig och ge godtyckliga beslut."
+  },
+  {
+   "uid": "U126",
+   "id": "vetlanda-kommun#7",
+   "citat": "Det krävs mycket kunskap om språkutveckling och flerspråkighet för att kunna ta korrekta beslut. Utredningen konstaterar att den kompetensen inte är tillfredsställande i nuläget och dessutom inte är jämnt fördelad över enheterna i landet.",
+   "oppen_kod": "bristande bedömarkompetens",
+   "beskrivning": "Kompetensen för att besluta om målgrupp saknas och är ojämnt fördelad."
+  },
+  {
+   "uid": "U127",
+   "id": "vetlanda-kommun#7",
+   "citat": "Vid införande av en ny kursplan inom ämnet svenska som andraspråk införs också fler övergångar att ta ställning till för rektor. Det är av yttersta vikt att det klargörs när en elev kan övergå från en kursplan till en annan",
+   "oppen_kod": "fler övergångsbeslut för rektor",
+   "beskrivning": "Rektor får fler övergångsbeslut som behöver klargöras."
+  },
+  {
+   "uid": "U128",
+   "id": "vetlanda-kommun#9",
+   "citat": "Det behöver också framgå vid byte av skola om ny bedömning ska göras.",
+   "oppen_kod": "oklar bedömning vid skolbyte",
+   "beskrivning": "Det är oklart om ny bedömning ska göras när eleven byter skola."
+  },
+  {
+   "uid": "U129",
+   "id": "vetlanda-kommun#10",
+   "citat": "Utredningen lyfter vikten av att inte öka den administrativa bördan för lärare och rektorer, vilket verkligen bör beaktas. Det måste vara genomförbart även på mindre enheter med små resurser och mindre möjlighet till samordning med andra enheter.",
+   "oppen_kod": "genomförbarhet på små enheter",
+   "beskrivning": "Kartläggningen riskerar att öka administrationen och vara svår på små enheter."
+  },
+  {
+   "uid": "U130",
+   "id": "vetlanda-kommun#14",
+   "citat": "Hela utredningens förslag bygger på att hög kompetens finns både i rektorsledet för bedömningar, men också klassrummen där undervisningen ska ske.",
+   "oppen_kod": "förutsätter hög kompetens",
+   "beskrivning": "Förslagen förutsätter kompetens hos rektorer och lärare som ofta saknas."
+  },
+  {
+   "uid": "U131",
+   "id": "vetlanda-kommun#14",
+   "citat": "I de lägre åldrarna har lärare automatiskt fått behörighet i ämnet svenska som andraspråk utan att för den skulle ha utbildats i andraspråksdidaktik.",
+   "oppen_kod": "behörighet utan kompetens",
+   "beskrivning": "Lärare kan vara behöriga utan utbildning i andraspråksdidaktik."
+  },
+  {
+   "uid": "U132",
+   "id": "vetlanda-kommun#14",
+   "citat": "Det behövs också ett förtydligande om vilken kompetens som krävs för att kunna göra bedömningar om vilken kursplan en elev ska läsa enligt.",
+   "oppen_kod": "oklart kompetenskrav för bedömning",
+   "beskrivning": "Det är oklart vilken kompetens som krävs för kursplansbedömningen."
+  },
+  {
+   "uid": "U133",
+   "id": "vetlanda-kommun#14",
+   "citat": "Utredningen slår fast att eleven måste få ”så gynnsamma förutsättningar som möjligt för sin språkutveckling”, men i realiteten kommer det att vägas mot de resurser som finns hos huvudmannen och på enheten. Här behövs stöd i hur undervisningen bör viktas och organiseras.",
+   "oppen_kod": "resursavvägning vid organisering",
+   "beskrivning": "Huvudmannen måste väga undervisningens organisering mot begränsade resurser."
+  },
+  {
+   "uid": "U134",
+   "id": "vetlanda-kommun#15",
+   "citat": "Dock bör det beaktas att landsbygdskommuner även har andra faktorer att ta hänsyn både organisatoriskt såsom samordning av skolskjutsar, små enheter, lärares arbetstidsavtal, men också för den enskilda eleven.",
+   "oppen_kod": "utökad tid på landsbygd",
+   "beskrivning": "Utökad undervisningstid är svår att organisera i landsbygdskommuner."
+  },
+  {
+   "uid": "U135",
+   "id": "vetlanda-kommun#18",
+   "citat": "Dock behöver konsekvenserna för ett sådant införande utredas noga både vad gäller huvudmännens möjligheter organisera undervisning när lärare studerar, men också vilka resursmässiga konsekvenser det skulle få.",
+   "oppen_kod": "organisering när lärare studerar",
+   "beskrivning": "Höjda behörighetskrav gör det svårt att organisera undervisningen när lärare vidareutbildas."
+  },
+  {
+   "uid": "U136",
+   "id": "vetlanda-kommun#18",
+   "citat": "Ett sådant förslag skulle gynna undervisningens kvalitet och elevernas möjligheter till bättre språkundervisning, men det skulle också innebära kostnader. Implementeringen av en sådan ändring skulle behöva löpa över flera år.",
+   "oppen_kod": "kostnader höjda behörighetskrav",
+   "beskrivning": "Höjda behörighetskrav medför kostnader och kräver lång implementering."
+  },
+  {
+   "uid": "U137",
+   "id": "vetlanda-kommun#22",
+   "citat": "Att identifiera språkstörning är en utmaning för skolorna och speciellt hos flerspråkiga elever.",
+   "oppen_kod": "identifiera språkstörning",
+   "beskrivning": "Skolorna har svårt att identifiera språkstörning hos flerspråkiga elever."
+  },
+  {
+   "uid": "U138",
+   "id": "vetlanda-kommun#25",
+   "citat": "det bör förtydligas hur bedömning ska ske om något är uppenbart obehövligt, samt vilken kompetens det krävs att göra den bedömningen.",
+   "oppen_kod": "oklart uppenbart obehövligt",
+   "beskrivning": "Det är oklart hur och av vem uppenbart obehövligt ska bedömas."
+  },
+  {
+   "uid": "U139",
+   "id": "vetlanda-kommun#28",
+   "citat": "Studiehandledning och modersmål för elever med intellektuell funktionsnedsättning bör också förtydligas. Vilka krav ska ställas på de som undervisar dessa elever? Hur kan den undervisningen organiseras för att det ska gynna eleven så mycket som möjligt?",
+   "oppen_kod": "oklarhet för elever med IF",
+   "beskrivning": "Krav och organisering av modersmål och studiehandledning för elever med intellektuell funktionsnedsättning är oklara."
+  },
+  {
+   "uid": "U140",
+   "id": "vetlanda-kommun#29",
+   "citat": "med tillägget att hantering och registrering av känsliga personuppgifter såsom språk bör beaktas.",
+   "oppen_kod": "känsliga personuppgifter",
+   "beskrivning": "Utökad statistik innebär hantering av känsliga personuppgifter."
+  },
+  {
+   "uid": "U141",
+   "id": "vetlanda-kommun#29",
+   "citat": "Vad gäller studiehandledning finns stora svårigheter i statistikinsamling då den ska vara flexibel till sin natur.",
+   "oppen_kod": "svår statistik studiehandledning",
+   "beskrivning": "Statistikinsamling om studiehandledning är svår eftersom stödet är flexibelt."
+  },
+  {
+   "uid": "U142",
+   "id": "vetlanda-kommun#30",
+   "citat": "De negativa konsekvenser som skulle följa på ett genomförande av utredningens förslag handlar till stor del om organisation och resurser. Utredningen svarar inte på frågan hur den nya kursplanen i grundläggande svenska som andraspråk ska genomföras i praktiken.",
+   "oppen_kod": "oklart praktiskt genomförande",
+   "beskrivning": "Det är oklart hur kursplanen ska genomföras i praktiken, med följder för organisation och resurser."
+  },
+  {
+   "uid": "U143",
+   "id": "vetlanda-kommun#30",
+   "citat": "I de fallen får läraren ta konsekvensen att balansera och tillgodose behoven utifrån tre kursplaner samtidigt.",
+   "oppen_kod": "tre kursplaner samtidigt",
+   "beskrivning": "Lärare på små enheter kan behöva undervisa efter tre kursplaner samtidigt."
+  },
+  {
+   "uid": "U144",
+   "id": "vetlanda-kommun#30",
+   "citat": "På en mindre enhet utanför centralorten kanske det endast finns en behörig Sva-lärare. Om inte resurser tillförs ställs rektor inför beslutet att ta den behöriga läraren ur ordinarie undervisningsgrupp för att istället undervisa i denna grupp med förmodat få elever.",
+   "oppen_kod": "en enda behörig sva-lärare",
+   "beskrivning": "Små enheter har för få behöriga sva-lärare för en särskild grupp."
+  },
+  {
+   "uid": "U145",
+   "id": "vetlanda-kommun#30",
+   "citat": "För en landsbygdskommun med små möjligheter till samordnad undervisning kan det bli kostsamt att ordna extra undervisningsgrupp.",
+   "oppen_kod": "kostsam extra undervisningsgrupp",
+   "beskrivning": "Extra undervisningsgrupper blir kostsamma i landsbygdskommuner."
+  },
+  {
+   "uid": "U146",
+   "id": "vetlanda-kommun#30",
+   "citat": "Om undervisningen ska ske i särskilda grupper kommer det därför att krävas stora kompetenshöjningsinsatser för lärare och/eller resurser för att anställa fler lärare. Att anställa behöriga lärare är redan i nuläget en utmaning för kommunen.",
+   "oppen_kod": "rekrytering av behöriga lärare",
+   "beskrivning": "Särskilda grupper kräver kompetenshöjning eller fler lärare som är svåra att rekrytera."
+  },
+  {
+   "uid": "U147",
+   "id": "vetlanda-kommun#31",
+   "citat": "Om utredningens förslag genomförs kommer rektor att få fler bedömningar att ta ställning till, vilken kursplan eleven ska läsa utifrån, övergångar mellan kursplaner och eventuella avsteg eller undantag. Här kommer det att krävas implementeringsinsatser och användbara stödmaterial.",
+   "oppen_kod": "fler bedömningar för rektor",
+   "beskrivning": "Rektor får fler bedömningar som kräver stöd och implementering."
+  },
+  {
+   "uid": "U148",
+   "id": "vetlanda-kommun#31",
+   "citat": "Utredningens förslag om att kursplanen ska vara ålderneutral riskerar att utmana lärarnas arbete och kommer att kräva tolkningar och anpassningar, vilket är resurskrävande.",
+   "oppen_kod": "resurskrävande åldersneutral kursplan",
+   "beskrivning": "En åldersneutral kursplan kräver resurskrävande tolkningar och anpassningar av lärarna."
+  },
+  {
+   "uid": "U149",
+   "id": "vetlanda-kommun#31",
+   "citat": "Vetlanda instämmer i utredningens bedömningar, men de förslag som bedömningarna innefattar riskerar att komma med en ökad kostnad för kommunen, i och med kraven på ökad behörighet och kompetenshöjning hos lärare och rektorer.",
+   "oppen_kod": "kostnad för kompetenshöjning",
+   "beskrivning": "Krav på behörighet och kompetenshöjning ökar kommunens kostnader."
+  },
+  {
+   "uid": "U150",
+   "id": "vetlanda-kommun#31",
+   "citat": "Eventuell utökad tid för elever som läser grundläggande svenska som andraspråk innebär också en ökad kostnad för kommunen, och bör ifall den införs tillföras motsvarande ekonomiska ersättning. Kommunen ser dock även svårigheter här att organisera den undervisningen och framför allt hitta behöriga lärare.",
+   "oppen_kod": "kostnad och bemanning utökad tid",
+   "beskrivning": "Utökad undervisningstid kostar och är svår att bemanna med behöriga lärare."
+  },
+  {
+   "uid": "U151",
+   "id": "vetlanda-kommun#31",
+   "citat": "Den ökade administrativa bördan kan heller inte bortses ifrån då datainsamling föreslås öka och fler beslut införs som ska motiveras på ett rättssäkert sätt.",
+   "oppen_kod": "ökad administrativ börda",
+   "beskrivning": "Mer datainsamling och fler motiverade beslut ökar administrationen."
+  },
+  {
+   "uid": "U152",
+   "id": "vetlanda-kommun#31",
+   "citat": "det kommer att skapa organisatoriska utmaningar då lärare inte kan tas ur undervisning för studier då vikarier i den omfattningen inte finns att få tag på.",
+   "oppen_kod": "vikariebrist vid vidareutbildning",
+   "beskrivning": "Lärare kan inte vidareutbildas eftersom vikarier saknas."
+  },
+  {
+   "uid": "U153",
+   "id": "ostersunds-kommun#11",
+   "citat": "känner mycket stark oro kring merkostnad för skolor och dess huvudmän när det gäller ökad kostnad för tre parallella svenskaundervisningsformer.",
+   "oppen_kod": "merkostnad tre svenskaformer",
+   "beskrivning": "Tre parallella svenskundervisningsformer ger merkostnader för huvudmän."
+  },
+  {
+   "uid": "U154",
+   "id": "ostersunds-kommun#12",
+   "citat": "ser ett stort ökat behov av behöriga SvA-lärare som kan ta sig an de nya uppdragen utifrån kompetens.",
+   "oppen_kod": "ökat behov sva-lärare",
+   "beskrivning": "Reformen ökar behovet av behöriga sva-lärare."
+  },
+  {
+   "uid": "U155",
+   "id": "ostersunds-kommun#20",
+   "citat": "ser en stor risk i att behövda resurser inte finns tillgängliga för att höja kvaliteten för modersmålselever i skolan.",
+   "oppen_kod": "resursbrist modersmål",
+   "beskrivning": "Resurser saknas för att höja kvaliteten i modersmålsundervisningen."
+  }
+ ]
+}

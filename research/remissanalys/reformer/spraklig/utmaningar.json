@@ -1,0 +1,4940 @@
+{
+ "_meta": {
+  "beskrivning": "Kodade utmaningar med citatkontroll, dubbletter, kopplingsnivå, skolform och utmaningstyp."
+ },
+ "utmaningar": [
+  {
+   "id": "U001",
+   "passage": "boras-kommun#4",
+   "avsandare": "Borås kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Borås Stad ser dock att förslagen medför organisatoriska och ekonomiska konsekvenser för huvudmännen.",
+   "sida": 1,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/boras-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Borås kommun (U2025/00233), s. 1",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/boras-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U002",
+   "passage": "goteborgs-kommun#3",
+   "avsandare": "Göteborgs kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "På ett övergripande plan anser Göteborgs Stad att utredningen inte lagt tillräcklig vikt vid de utmaningar som ämnet svenska som andraspråk har i de anpassade skolformerna. Elever i dessa skolformer har en intellektuell funktionsnedsättning vilket inte sällan gör det svårt att bedöma vad som orsakar elevens språkliga utmaningar.",
+   "sida": 1,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Göteborgs kommun (U2025/00233), s. 1",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U003",
+   "passage": "goteborgs-kommun#3",
+   "avsandare": "Göteborgs kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Sker det inte en mer enhetlig användning av begreppen i kommande beredning av förslagen ser staden att det riskerar att leda till olika tolkningar och definition av berörd målgrupp hos huvudmännen.",
+   "sida": 1,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Göteborgs kommun (U2025/00233), s. 1",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U004",
+   "passage": "goteborgs-kommun#3",
+   "avsandare": "Göteborgs kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Göteborgs Stad ser att införandet av en ny kursplan i grundläggande svenska som andraspråk medför kostnader för stadens förvaltningar i form av planering, organisering av undervisningen samt kompetensutveckling.",
+   "sida": 1,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Göteborgs kommun (U2025/00233), s. 1",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U005",
+   "passage": "goteborgs-kommun#3",
+   "avsandare": "Göteborgs kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Göteborgs Stad instämmer i sak i utredningens bedömningar men konstaterar att de, om de går vidare till rättslig reglering, kommer att medföra ökade kostnader för skolhuvudmännen.",
+   "sida": 1,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Göteborgs kommun (U2025/00233), s. 1",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U006",
+   "passage": "goteborgs-kommun#6",
+   "avsandare": "Göteborgs kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Föreliggande förslag kommer i många skolor leda till en situation där läraren, i samma undervisningsgrupp, kommer att undervisa enligt tre kursplaner parallellt, svenska, svenska som andraspråk och grundläggande svenska som andraspråk.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Göteborgs kommun (U2025/00233), s. 2",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F01"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "8.1.1",
+     "8.1.1 Grundläggande svenska som andraspråk ska införas med nya kursplaner"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U007",
+   "passage": "goteborgs-kommun#7",
+   "avsandare": "Göteborgs kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Av utredningen framgår det inte om nuvarande kursplan i svenska för andraspråk kommer att revideras i samband med införandet av kursplanen för grundläggande svenska som andraspråk.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Göteborgs kommun (U2025/00233), s. 2",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F01"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "8.1.1",
+     "8.1.1 Grundläggande svenska som andraspråk ska införas med nya kursplaner"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U008",
+   "passage": "goteborgs-kommun#7",
+   "avsandare": "Göteborgs kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Göteborgs Stad kan se att det finns utmaningar med att kursplanerna för grundläggande svenska som andraspråk föreslås gälla alla elever oavsett ålder.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Göteborgs kommun (U2025/00233), s. 2",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F01"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "8.1.1",
+     "8.1.1 Grundläggande svenska som andraspråk ska införas med nya kursplaner"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U009",
+   "passage": "goteborgs-kommun#9",
+   "avsandare": "Göteborgs kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Här är det dock viktigt att materialet utformas så att korrekta bedömningar kan göras utan att det blir allt för omfattande.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Göteborgs kommun (U2025/00233), s. 2",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F09"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "8.1.9",
+     "8.1.9 Ett kartläggningsmaterial för bedömning av en elevs behov av svenska som andraspråk ska utarbetas."
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U010",
+   "passage": "goteborgs-kommun#10",
+   "avsandare": "Göteborgs kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Inom göteborgsregionen sker dock valet av svenskämne i regel i samband med gymnasievalet varför vägledningen i huvudsak sker på högstadiet.",
+   "sida": 3,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Göteborgs kommun (U2025/00233), s. 3",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F10"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "8.1.10",
+     "8.1.10 Elever i gymnasieskolan och anpassade gymnasieskolan ska ges god vägledning i sitt val av svenskämne"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U011",
+   "passage": "goteborgs-kommun#11",
+   "avsandare": "Göteborgs kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Här kan dock konstateras att det finns stora skillnader i behov mellan olika skolor vilket Skolverket bör ta hänsyn till vid utformning och planering av stödmaterial och insatser.",
+   "sida": 3,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Göteborgs kommun (U2025/00233), s. 3",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "8"
+    ],
+    "grund": [
+     "8.2.1"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": []
+  },
+  {
+   "id": "U012",
+   "passage": "goteborgs-kommun#12",
+   "avsandare": "Göteborgs kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Går utredningens bedömning vidare till rättslig reglering kommer detta dock leda till ökade kostnader för huvudmännen",
+   "sida": 3,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Göteborgs kommun (U2025/00233), s. 3",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "8"
+    ],
+    "grund": [
+     "8.2.2",
+     "8.2.2 Undervisningstid i svenska som andraspråk för nyanlända elever"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": []
+  },
+  {
+   "id": "U013",
+   "passage": "goteborgs-kommun#13",
+   "avsandare": "Göteborgs kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Göteborgs Stad kan här konstatera att denna bedömning inte är förenlig med utredningen om reformerad lärarutbildning (SOU 2024:81) där det föreslås att denna del av lärarutbildningen ska minska i omfattning.",
+   "sida": 3,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Göteborgs kommun (U2025/00233), s. 3",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "8"
+    ],
+    "grund": [
+     "8.2.3",
+     "8.2.3 Utbildning för undervisning av flerspråkiga elever"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": []
+  },
+  {
+   "id": "U014",
+   "passage": "goteborgs-kommun#21",
+   "avsandare": "Göteborgs kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "På ett övergripande plan anser Göteborgs Stad att utredningen inte lagt tillräcklig vikt vid de utmaningar som ämnet svenska som andraspråk har i de anpassade skolformerna. Elever i dessa skolformer har en intellektuell funktionsnedsättning vilket inte sällan gör det svårt att bedöma vad som orsakar elevens språkliga utmaningar.",
+   "sida": 5,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Göteborgs kommun (U2025/00233), s. 5",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": "U002"
+  },
+  {
+   "id": "U015",
+   "passage": "goteborgs-kommun#21",
+   "avsandare": "Göteborgs kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Sker det inte en mer enhetlig användning av begreppen i kommande beredning av förslagen ser staden att det riskerar att leda till olika tolkningar och definition av berörd målgrupp hos huvudmännen.",
+   "sida": 5,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Göteborgs kommun (U2025/00233), s. 5",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": "U003"
+  },
+  {
+   "id": "U016",
+   "passage": "goteborgs-kommun#21",
+   "avsandare": "Göteborgs kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Göteborgs Stad ser att införandet av en ny kursplan i grundläggande svenska som andraspråk medför kostnader för stadens förvaltningar i form av planering, organisering av undervisningen samt kompetensutveckling.",
+   "sida": 5,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Göteborgs kommun (U2025/00233), s. 5",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": "U004"
+  },
+  {
+   "id": "U017",
+   "passage": "goteborgs-kommun#21",
+   "avsandare": "Göteborgs kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Göteborgs Stad instämmer i sak i utredningens bedömningar men konstaterar att de, om de går vidare till rättslig reglering, kommer att medföra ökade kostnader för skolhuvudmännen.",
+   "sida": 5,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Göteborgs kommun (U2025/00233), s. 5",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": "U005"
+  },
+  {
+   "id": "U018",
+   "passage": "goteborgs-kommun#22",
+   "avsandare": "Göteborgs kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "I Göteborg kostade modersmålsundervisningen över 100 miljoner kronor under 2024. Det är miljoner som i dag går till en verksamhet där forskningen fortfarande inte kan ge ett tydligt svar på om det ger eleverna ökad kunskapsutveckling.",
+   "sida": 6,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Göteborgs kommun (U2025/00233), s. 6",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U019",
+   "passage": "goteborgs-kommun#23",
+   "avsandare": "Göteborgs kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Föreliggande förslag kommer i många skolor leda till en situation där läraren, i samma undervisningsgrupp, kommer att undervisa enligt tre kursplaner parallellt, svenska, svenska som andraspråk och grundläggande svenska som andraspråk.",
+   "sida": 6,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Göteborgs kommun (U2025/00233), s. 6",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": "U006"
+  },
+  {
+   "id": "U020",
+   "passage": "goteborgs-kommun#23",
+   "avsandare": "Göteborgs kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Av utredningen framgår det inte om nuvarande kursplan i svenska för andraspråk kommer att revideras i samband med införandet av kursplanen för grundläggande svenska som andraspråk.",
+   "sida": 6,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Göteborgs kommun (U2025/00233), s. 6",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": "U007"
+  },
+  {
+   "id": "U021",
+   "passage": "goteborgs-kommun#23",
+   "avsandare": "Göteborgs kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Göteborgs Stad kan se att det finns utmaningar med att kursplanerna för grundläggande svenska som andraspråk föreslås gälla alla elever oavsett ålder.",
+   "sida": 6,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Göteborgs kommun (U2025/00233), s. 6",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": "U008"
+  },
+  {
+   "id": "U022",
+   "passage": "goteborgs-kommun#25",
+   "avsandare": "Göteborgs kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Här är det dock viktigt att materialet utformas så att korrekta bedömningar kan göras utan att det blir allt för omfattande.",
+   "sida": 7,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Göteborgs kommun (U2025/00233), s. 7",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": "U009"
+  },
+  {
+   "id": "U023",
+   "passage": "goteborgs-kommun#26",
+   "avsandare": "Göteborgs kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Inom göteborgsregionen sker dock valet av svenskämne i regel i samband med gymnasievalet varför vägledningen i huvudsak sker på högstadiet.",
+   "sida": 7,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Göteborgs kommun (U2025/00233), s. 7",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": "U010"
+  },
+  {
+   "id": "U024",
+   "passage": "goteborgs-kommun#27",
+   "avsandare": "Göteborgs kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Här kan dock konstateras att det finns stora skillnader i behov mellan olika skolor vilket Skolverket bör ta hänsyn till vid utformning och planering av stödmaterial och insatser.",
+   "sida": 7,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Göteborgs kommun (U2025/00233), s. 7",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": "U011"
+  },
+  {
+   "id": "U025",
+   "passage": "goteborgs-kommun#28",
+   "avsandare": "Göteborgs kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Går utredningens bedömning vidare till rättslig reglering kommer detta dock leda till ökade kostnader för huvudmännen",
+   "sida": 7,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Göteborgs kommun (U2025/00233), s. 7",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": "U012"
+  },
+  {
+   "id": "U026",
+   "passage": "goteborgs-kommun#29",
+   "avsandare": "Göteborgs kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Göteborgs Stad kan här konstatera att denna bedömning inte är förenlig med utredningen om reformerad lärarutbildning (SOU 2024:81) där det föreslås att denna del av lärarutbildningen ska minska i omfattning.",
+   "sida": 7,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Göteborgs kommun (U2025/00233), s. 7",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": "U013"
+  },
+  {
+   "id": "U027",
+   "passage": "goteborgs-kommun#31",
+   "avsandare": "Göteborgs kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "När det gäller frågan om modersmålsundervisning anser Sverigedemokraterna att utredningen i otillräcklig grad beaktar de kostnader och begränsade resultat som är förknippade med verksamheten.",
+   "sida": 8,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Göteborgs kommun (U2025/00233), s. 8",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/goteborgs-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U028",
+   "passage": "helsingborgs-kommun#3",
+   "avsandare": "Helsingborgs kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Helsingborgs stad konstaterar att denna typ av tidsgräns tenderar att bli normerande. Undervisningen riskerar att organiseras så att elever läser grundläggande svenska i två år oavsett behov.",
+   "sida": 1,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/helsingborgs-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Helsingborgs kommun (U2025/00233), s. 1",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/helsingborgs-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U029",
+   "passage": "helsingborgs-kommun#3",
+   "avsandare": "Helsingborgs kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "För att undvika att två år blir en norm är det viktigt att huvudmännen, vid införandet av den nya kursplanen, säkerställer att elevens progression följs löpande och att det finns mekanismer som säkerställer att eleven kan övergå från kursplanen för grundläggande svenska till kursplanen för svenska som andraspråk så snart det är lämpligt.",
+   "sida": 1,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/helsingborgs-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Helsingborgs kommun (U2025/00233), s. 1",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/helsingborgs-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U030",
+   "passage": "helsingborgs-kommun#5",
+   "avsandare": "Helsingborgs kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "som stöttar arbetet på respektive skola eftersom varje huvudman själv har ansvar för implementeringen inom sin organisation.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/helsingborgs-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Helsingborgs kommun (U2025/00233), s. 2",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/helsingborgs-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U031",
+   "passage": "helsingborgs-kommun#5",
+   "avsandare": "Helsingborgs kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Bristande kompetens i andraspråksdidaktik är, precis som utredningen anger, troligen den främsta anledningen till att elever med behov av andraspråksdidaktik inte får en sådan undervisning eller undervisas av lärare utan behörighet.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/helsingborgs-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Helsingborgs kommun (U2025/00233), s. 2",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/helsingborgs-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U032",
+   "passage": "helsingborgs-kommun#5",
+   "avsandare": "Helsingborgs kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Även om inte alla elever med utländsk bakgrund har behov av andraspråksdidaktik innebär det ändå att behovet är stort och kommer att vara det under lång tid.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/helsingborgs-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Helsingborgs kommun (U2025/00233), s. 2",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/helsingborgs-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U033",
+   "passage": "helsingborgs-kommun#5",
+   "avsandare": "Helsingborgs kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "De lärare som ska ta del av kompetensutvecklingen har olika förkunskaper och de lokala förutsättningarna varierar.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/helsingborgs-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Helsingborgs kommun (U2025/00233), s. 2",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/helsingborgs-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U034",
+   "passage": "hassleholms-kommun#3",
+   "avsandare": "Hässleholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Hässleholms kommun håller med om bedömningen att införandet av en kursplan för grundläggande svenska som andraspråk kommer att ställa krav på implementering. Hässleholms kommun förutsätter att ett implementeringsstöd kommer att ges.",
+   "sida": 1,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/hassleholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Hässleholms kommun (U2025/00233), s. 1",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/hassleholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F01"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "8.1.1"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U035",
+   "passage": "hassleholms-kommun#3",
+   "avsandare": "Hässleholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Hässleholms kommun delar uppfattningen om att det kommer att krävas kompetensutvecklingsinsatser för lärare som ska undervisa i grundläggande svenska som andraspråk.",
+   "sida": 1,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/hassleholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Hässleholms kommun (U2025/00233), s. 1",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/hassleholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F01"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "8.1.1"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U036",
+   "passage": "hassleholms-kommun#13",
+   "avsandare": "Hässleholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Hässleholms kommun konstaterar att förslaget leder till viss ökad administrativ börda, men bedömer att likvärdigheten och rättssäkerheten i och den potentiella långsiktiga tidsbesparingen i hanteringen av beslut kring svenska som andraspråk överväger de negativa effekterna av en ökad administrativ börda.",
+   "sida": 3,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/hassleholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Hässleholms kommun (U2025/00233), s. 3",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/hassleholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F09"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "8.1.9"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U037",
+   "passage": "laxa-kommun#3",
+   "avsandare": "Laxå kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Skrivningen ”direkt” leder till tanken på någon form av kontinuerlig överflytt av elever från undervisningsgruppen i grundläggande svenska som andraspråk till en annan undervisningsgrupp. Här bör det skapas ett utrymme för en enskilda skolenheten att hitta hållbara rutiner för överflytt av elever mellan undervisningsgrupper.",
+   "sida": 1,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/laxa-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Laxå kommun (U2025/00233), s. 1",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/laxa-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U038",
+   "passage": "laxa-kommun#3",
+   "avsandare": "Laxå kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "är viktigt att det tydligt framgår huruvida det är obligatoriskt för elever att börja i grundläggande svenska som andraspråk om rektor har bedömt att det finns ett behov av detta",
+   "sida": 1,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/laxa-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Laxå kommun (U2025/00233), s. 1",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/laxa-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U039",
+   "passage": "laxa-kommun#4",
+   "avsandare": "Laxå kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Det kan vara känsligt för elever och deras vårdnadshavare huruvida eleverna är inskrivna i ämnet svenska eller i ämnet svenska som andraspråk, och det förekommer att såväl elever som vårdnadshavare kraftfullt invänder mot rektors beslut.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/laxa-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Laxå kommun (U2025/00233), s. 2",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/laxa-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U040",
+   "passage": "laxa-kommun#4",
+   "avsandare": "Laxå kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Här behövs också ett förtydligande av bestämmelserna för deltagande i nationella prov i övriga ämnen för elever som läser grundläggande svenska som andraspråk.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/laxa-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Laxå kommun (U2025/00233), s. 2",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/laxa-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U041",
+   "passage": "laxa-kommun#4",
+   "avsandare": "Laxå kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Att betyg inte ska sättas i grundläggande svenska som andraspråk medför också ett behov av förtydligande av bestämmelserna för hur betygskatalogen ska utformas för elever som är inskrivna i det ämnet.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/laxa-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Laxå kommun (U2025/00233), s. 2",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/laxa-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U042",
+   "passage": "laxa-kommun#4",
+   "avsandare": "Laxå kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Till det kommer behov av förtydligade bestämmelser om hur betygsstatistiken ska beräknas och huruvida elever som är inskrivna i grundläggande svenska ska ingå i beräkningen av måluppfyllelse i alla ämnen, genomsnittligt meritvärde och behörighet till nationellt program i gymnasieskolan.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/laxa-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Laxå kommun (U2025/00233), s. 2",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/laxa-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": [
+    "gymnasieskola"
+   ]
+  },
+  {
+   "id": "U043",
+   "passage": "laxa-kommun#4",
+   "avsandare": "Laxå kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Här vill Laxå kommun tillägga att det viktigt att det i bestämmelserna förtydligas i vilken utsträckning stödmaterialet är obligatoriskt att använda och vad som eventuellt beror på rektors bedömning och beslut.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/laxa-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Laxå kommun (U2025/00233), s. 2",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/laxa-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U044",
+   "passage": "laxa-kommun#4",
+   "avsandare": "Laxå kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Här vill Laxå kommun dock framhålla att de nya kursplanerna och bestämmelserna i övrigt inte bör träda i kraft innan nytt kartläggningsmaterial samt implementeringsstöd för de nya bestämmelserna finns på plats.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/laxa-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Laxå kommun (U2025/00233), s. 2",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/laxa-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U045",
+   "passage": "laxa-kommun#5",
+   "avsandare": "Laxå kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Laxå kommun bedömer att det behöver förtydligas vad som avses med studiehandledning på modersmålet i samtliga årskurser, eftersom den rätten redan finns i grundskolans samtliga årskurser.",
+   "sida": 3,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/laxa-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Laxå kommun (U2025/00233), s. 3",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/laxa-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": [
+    "grundskola"
+   ]
+  },
+  {
+   "id": "U046",
+   "passage": "laxa-kommun#5",
+   "avsandare": "Laxå kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Detta riskerar att leda till onödig administration samt att onödig tid går åt till att fatta juridiskt hållbara beslut mot bakgrund av rätt paragraf i stället för att fokus läggs på att ge eleven det stöd som eleven behöver.",
+   "sida": 3,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/laxa-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Laxå kommun (U2025/00233), s. 3",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/laxa-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U047",
+   "passage": "laxa-kommun#5",
+   "avsandare": "Laxå kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Om modersmålsundervisning samordnas mellan skolenheter och kommuner genom fjärrundervisning ökar sannolikheten för att en enskild skolenhet i låg grad kan styra vid vilken tidpunkt under skoldagen som undervisningen ges.",
+   "sida": 3,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/laxa-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Laxå kommun (U2025/00233), s. 3",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/laxa-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U048",
+   "passage": "laxa-kommun#5",
+   "avsandare": "Laxå kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Därför bör det i kommande bestämmelser förtydligas om, och i så fall i vilken utsträckning, det är tillåtet att lämna undervisningen i ett ämne för undervisning i modersmålet.",
+   "sida": 3,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/laxa-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Laxå kommun (U2025/00233), s. 3",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/laxa-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U049",
+   "passage": "laxa-kommun#5",
+   "avsandare": "Laxå kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Med anledning av att modersmålsundervisning kan bedrivas via fjärrundervisning uppkommer också frågor om var elever kan befinna sig fysiskt vid undervisningstillfället.",
+   "sida": 3,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/laxa-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Laxå kommun (U2025/00233), s. 3",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/laxa-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U050",
+   "passage": "laxa-kommun#7",
+   "avsandare": "Laxå kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Laxå kommun delar utredningens bedömning att de nya bestämmelserna kommer att öka kommunernas kostnader och att staten bör kompensera kommunerna för dessa. Det bör också tydliggöras hur kompensationen sker, viken beräkningsgrunden är och med vilket belopp respektive kommun kompenseras.",
+   "sida": 4,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/laxa-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Laxå kommun (U2025/00233), s. 4",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/laxa-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "18"
+    ],
+    "grund": [
+     "Avsnitt 18.12.3"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": []
+  },
+  {
+   "id": "U051",
+   "passage": "laxa-kommun#7",
+   "avsandare": "Laxå kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Här bör hänsyn tas inte enbart till det arbete som en lärare behöver lägga ned utan även till viss ökad administrativ börda på enhets- och förvaltningsnivå.",
+   "sida": 4,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/laxa-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Laxå kommun (U2025/00233), s. 4",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/laxa-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "18"
+    ],
+    "grund": [
+     "Avsnitt 18.12.3"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": []
+  },
+  {
+   "id": "U052",
+   "passage": "malmo-kommun#4",
+   "avsandare": "Malmö kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Malmö stad vill även poängtera att resurser behöver tillföras till kompetensutveckling av berörd personal såsom rektorer, lärare, studie- och yrkesvägledare och administratörer.",
+   "sida": 1,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/malmo-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Malmö kommun (U2025/00233), s. 1",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/malmo-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U053",
+   "passage": "malmo-kommun#5",
+   "avsandare": "Malmö kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Huvudmännen behöver säkerställa att de dokument som utfärdas efter slutförd utbildning uppfyller kraven i bestämmelserna. Malmö stad anser att det kommer att behövas resurser för kompetensutveckling av bland annat administratörer och studieoch yrkesvägledare.",
+   "sida": 1,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/malmo-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Malmö kommun (U2025/00233), s. 1",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/malmo-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U054",
+   "passage": "malmo-kommun#5",
+   "avsandare": "Malmö kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Elever kommer dock att efterfråga en bekräftelse på uppnådda kunskaper som ett godkänt betyg innebär.",
+   "sida": 1,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/malmo-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Malmö kommun (U2025/00233), s. 1",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/malmo-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U055",
+   "passage": "malmo-kommun#6",
+   "avsandare": "Malmö kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Det kan finnas en risk att skolor kommer ha svårt att lösa det nya ämnet rent organisatoriskt då det kommer ställa höga krav på skolornas organisation.",
+   "sida": 1,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/malmo-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Malmö kommun (U2025/00233), s. 1",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/malmo-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F01"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "8.1.1"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U056",
+   "passage": "malmo-kommun#7",
+   "avsandare": "Malmö kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Det kan eventuellt också leda till att elever som blivit bedömda att ha behov av att följa kursplanen i svenska som andraspråk i ännu högre utsträckning än idag, integreras med elever som undervisas utifrån kursplanen i svenska och därmed inte får sina behov tillgodosedda på grund av att resurser i stället kommer att användas för grundläggande svenska.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/malmo-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Malmö kommun (U2025/00233), s. 2",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/malmo-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U057",
+   "passage": "malmo-kommun#7",
+   "avsandare": "Malmö kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Det bör även förtydligas om beslut om grundläggande svenska ersätter motsvarande timmar i timplanen för svenska som andraspråk och svenska. Det behöver även tydliggöras om eleven kan läsa grundläggande svenska vissa timmar och svenska som andraspråk övriga timmar?",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/malmo-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Malmö kommun (U2025/00233), s. 2",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/malmo-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U058",
+   "passage": "malmo-kommun#9",
+   "avsandare": "Malmö kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Definitionen är viktig eftersom behovet av svenska som andraspråksundervisning blandas ihop med behov av specialpedagogiska insatser för elever som har svenska som förstaspråk. I utredningen nämns utmaningen kring vilka elever som ska behovs-bedömas.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/malmo-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Malmö kommun (U2025/00233), s. 2",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/malmo-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F07"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "8.1.7",
+     "8.1.7 Målgrupperna för svenska som andraspråk ska ändras"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U059",
+   "passage": "malmo-kommun#9",
+   "avsandare": "Malmö kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Malmö stad vill lyfta fram att det är viktigt att relevant kartläggnings- eller stödmaterial tas fram även för annan personal som ska vägleda eleverna rätt inom de icke obligatoriska skolformerna.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/malmo-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Malmö kommun (U2025/00233), s. 2",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/malmo-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F07"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "8.1.7",
+     "8.1.7 Målgrupperna för svenska som andraspråk ska ändras"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U060",
+   "passage": "malmo-kommun#10",
+   "avsandare": "Malmö kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Malmö stad vill lyfta fram att rektor och annan relevant personal behöver stöd och kompetensutveckling i detta arbete.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/malmo-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Malmö kommun (U2025/00233), s. 2",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/malmo-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F08"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "8.1.8",
+     "8.1.8 Rektorn ska besluta om undervisning i svenska som andraspråk"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U061",
+   "passage": "malmo-kommun#11",
+   "avsandare": "Malmö kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Det är alltså inte rektorn som beslutar om en elevs undervisning i svenska som andraspråk eller om hur länge en elev kan läsa ämnet, vilket kommer att kräva ökade vägledningsresurser.",
+   "sida": 3,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/malmo-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Malmö kommun (U2025/00233), s. 3",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/malmo-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F08"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "8.1.8",
+     "8.1.8 Rektorn ska besluta om undervisning i svenska som andraspråk"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U062",
+   "passage": "malmo-kommun#12",
+   "avsandare": "Malmö kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Det är viktigt att definitionen är tydlig av formuleringarna i vad som ska behovs bedömas (elevens behov av andraspråksdidaktik) och att kartläggningsmaterialet matchar den definitionen.",
+   "sida": 3,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/malmo-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Malmö kommun (U2025/00233), s. 3",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/malmo-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F09"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "8.1.9",
+     "8.1.9 Ett kartläggningsmaterial för bedömning av en elevs behov av svenska som andraspråk ska utarbetas"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U063",
+   "passage": "malmo-kommun#13",
+   "avsandare": "Malmö kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Det behövs gedigen kompetensutveckling i andraspråksutveckling för att kunna genomföra kvalitativa behovsbedömningar och det är idag en stor brist på behöriga lärare i svenska som andraspråk.",
+   "sida": 3,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/malmo-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Malmö kommun (U2025/00233), s. 3",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/malmo-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "8"
+    ],
+    "grund": [
+     "8.2.1"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": []
+  },
+  {
+   "id": "U064",
+   "passage": "malmo-kommun#14",
+   "avsandare": "Malmö kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Malmö stad instämmer med denna bedömning men frågar sig samtidigt vad den faktiska skillnaden blir i jämförelse med att använda anpassad eller prioriterad timplan.",
+   "sida": 3,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/malmo-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Malmö kommun (U2025/00233), s. 3",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/malmo-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "8"
+    ],
+    "grund": [
+     "8.2.2",
+     "8.2.2 Undervisningstid i svenska som andraspråk för nyanlända elever"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": []
+  },
+  {
+   "id": "U065",
+   "passage": "molndals-kommun#12",
+   "avsandare": "Mölndals kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Gällande bedömning att fjärrundervisning bör utvecklas vill vi tillägga att förutsättningarna för att bedriva fjärrundervisning behöver ses över och anpassas till modersmålsundervisning.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/molndals-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Mölndals kommun (U2025/00233), s. 2",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/molndals-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "17"
+    ],
+    "grund": [
+     "17.2",
+     "17.2 Åtgärder för att främja kvalitet och likvärdighet i modersmålsundervisningen"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": []
+  },
+  {
+   "id": "U066",
+   "passage": "salems-kommun#4",
+   "avsandare": "Salems kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Kommunen bedömer dock att vissa delar behöver förtydligas, särskilt vad gäller genomförandet av föreslagna förändringar i skolans styrning och praktik.",
+   "sida": 1,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/salems-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Salems kommun (U2025/00233), s. 1",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/salems-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U067",
+   "passage": "salems-kommun#5",
+   "avsandare": "Salems kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Salems kommun vill uppmärksamma att ett införande av flera kursplaner inom ämnet svenska, däribland grundläggande svenska som andraspråk, kan innebära organisatoriska utmaningar för huvudmän och skolor. Det kan exempelvis handla om gruppindelning, lärarbehörighet och schemaläggning och därmed en risk för ekonomiska konsekvenser på olika nivåer i utbildningssystemet.",
+   "sida": 1,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/salems-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Salems kommun (U2025/00233), s. 1",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/salems-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U068",
+   "passage": "salems-kommun#8",
+   "avsandare": "Salems kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Kommunen ser dock att det är viktigt att flera professioner inom skolan, utöver rektor, har god kännedom om materialet och är delaktiga i bedömningen, för att säkerställa en bred och rättvisande kartläggning av elevens behov.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/salems-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Salems kommun (U2025/00233), s. 2",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/salems-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "14"
+    ],
+    "grund": [
+     "kap. 14",
+     "kap. 14"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": []
+  },
+  {
+   "id": "U069",
+   "passage": "simrishamns-kommun#4",
+   "avsandare": "Simrishamns kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Dock menar vi att implementeringen kräver stödinsatser från Skolverket samt kompetensutveckling av lärare och skolledare.",
+   "sida": 1,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/simrishamns-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Simrishamns kommun (U2025/00233), s. 1",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/simrishamns-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U070",
+   "passage": "simrishamns-kommun#9",
+   "avsandare": "Simrishamns kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Att sätta en tidsgräns om två år riskerar att två år blir både en nedre och övre gräns, även om det inte är intentionen.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/simrishamns-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Simrishamns kommun (U2025/00233), s. 2",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/simrishamns-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F02"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "8.1.2",
+     "8.1.2 En tidsgräns ska införas i de obligatoriska skolformerna",
+     "8.1.2 En tidsgräns ska införas i de obligatoriska skolformerna"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U071",
+   "passage": "simrishamns-kommun#10",
+   "avsandare": "Simrishamns kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Däremot innebär införandet av en ny kursplan, implementeringsstöd och kompetensutveckling kostnader för huvudmännen som måste beaktas vid genomförande.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/simrishamns-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Simrishamns kommun (U2025/00233), s. 2",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/simrishamns-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F12"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "8.1.12"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U072",
+   "passage": "smedjebackens-kommun#1",
+   "avsandare": "Smedjebackens kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Däremot vill vi uppmärksamma att införandet av kursplanen Grundläggande svenska som andraspråk (GSvA) samt ökad undervisningstid i svenska som andraspråk (SVA) kan innebära organisatoriska och ekonomiska utmaningar för mindre kommuner.",
+   "sida": 1,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/smedjebackens-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Smedjebackens kommun (U2025/00233), s. 1",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/smedjebackens-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F08",
+     "F12"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": true,
+    "grund": [
+     "Avsnitt 8.1.8",
+     "8.1.12",
+     "Avsnitt 8.2.2"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U073",
+   "passage": "smedjebackens-kommun#1",
+   "avsandare": "Smedjebackens kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "En liten elevgrupp med behov av denna undervisning, bestående av elever i olika åldrar, kan bli kostsam att organisera och kräver åldersblandad undervisning.",
+   "sida": 1,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/smedjebackens-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Smedjebackens kommun (U2025/00233), s. 1",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/smedjebackens-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F08",
+     "F12"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": true,
+    "grund": [
+     "Avsnitt 8.1.8",
+     "8.1.12",
+     "Avsnitt 8.2.2"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U074",
+   "passage": "smedjebackens-kommun#1",
+   "avsandare": "Smedjebackens kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "För att undvika missförstånd bör lagstiftning och förordningar tydligt ange att rektors beslut med stöd av nationellt kartläggningsmaterial gäller för grundskolan, medan gymnasieelever ska omfattas av ett regelverk som tydligt markerar elevens möjlighet att fritt välja och byta ämne.",
+   "sida": 1,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/smedjebackens-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Smedjebackens kommun (U2025/00233), s. 1",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/smedjebackens-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F08",
+     "F12"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": true,
+    "grund": [
+     "Avsnitt 8.1.8",
+     "8.1.12",
+     "Avsnitt 8.2.2"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false
+   },
+   "skolform": [
+    "grundskola"
+   ]
+  },
+  {
+   "id": "U075",
+   "passage": "smedjebackens-kommun#1",
+   "avsandare": "Smedjebackens kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Ökade kostnader för lärare och inte minst skolskjutsar kan bli betydande. Utökad undervisningstid kan innebära svårigheter med att ansluta till ordinarie skolskjutsar, vilket leder till att särskilda lösningar måste skapas för",
+   "sida": 1,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/smedjebackens-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Smedjebackens kommun (U2025/00233), s. 1",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/smedjebackens-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F08",
+     "F12"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": true,
+    "grund": [
+     "Avsnitt 8.1.8",
+     "8.1.12",
+     "Avsnitt 8.2.2"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U076",
+   "passage": "smedjebackens-kommun#2",
+   "avsandare": "Smedjebackens kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Med ett begränsat antal elever som är aktuella för kursplanen kan det bli nödvändigt att bedriva GSvA-undervisningen åldersblandat, det vill säga att elever i olika årskurser undervisas tillsammans. Detta ställer särskilda krav på planering, pedagogik och lärarkompetens, samt kan innebära ökade kostnader per elev.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/smedjebackens-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Smedjebackens kommun (U2025/00233), s. 2",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/smedjebackens-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U077",
+   "passage": "smedjebackens-kommun#2",
+   "avsandare": "Smedjebackens kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Smedjebackens kommun vill betona att skolan behöver ha beredskap att stötta dessa elever extra, då traditionell modersmålsundervisning kanske inte fullt ut kan tillgodose deras behov.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/smedjebackens-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Smedjebackens kommun (U2025/00233), s. 2",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/smedjebackens-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U078",
+   "passage": "smedjebackens-kommun#3",
+   "avsandare": "Smedjebackens kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "De föreslagna åtgärderna är välkomna men kommer medföra organisatoriska och ekonomiska utmaningar i mindre kommuner. Genomförandet kräver därför externa finansieringslösningar och tydliga riktlinjer för att stödja praktiska lösningar såsom skolskjuts och bemanning.",
+   "sida": 3,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/smedjebackens-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Smedjebackens kommun (U2025/00233), s. 3",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/smedjebackens-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U079",
+   "passage": "smedjebackens-kommun#3",
+   "avsandare": "Smedjebackens kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Smedjebackens kommun stödjer utredningens ambitioner men efterfrågar tydligare besked om finansiering och praktiskt genomförande i mindre kommuner.",
+   "sida": 3,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/smedjebackens-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Smedjebackens kommun (U2025/00233), s. 3",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/smedjebackens-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U080",
+   "passage": "stockholms-kommun#7",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Stadsledningskontoret ser dock vissa organisatoriska utmaningar till följd av två kursplaner inom svenska som andraspråk. Rektor behöver fördela resurserna så att undervisningen av elever som är nybörjare i svenska språket kan organiseras på ett sätt som är gynnsamt för målgruppens språk- och kunskapsutveckling.",
+   "sida": 4,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2025/00233), s. 4",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U081",
+   "passage": "stockholms-kommun#8",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Förslagen kommer dock att påverka enskilda skolors organisation och tjänstefördelning för det nya ämnet grundläggande svenska.",
+   "sida": 5,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2025/00233), s. 5",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U082",
+   "passage": "stockholms-kommun#8",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Stadsledningskontoret bedömer att förslagen kan leda till kostnadsökningar som behöver finansieras, exempelvis för kompetensutveckling.",
+   "sida": 5,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2025/00233), s. 5",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U083",
+   "passage": "stockholms-kommun#8",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Därtill tillkommer ökade kostnader för förslaget om utökad rätt till studiehandledning.",
+   "sida": 5,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2025/00233), s. 5",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U084",
+   "passage": "stockholms-kommun#12",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Utbildningsförvaltningen ser dock att två kursplaner inom svenska som andraspråk innebär organisatoriska utmaningar för grundskolan. Rektor behöver fördela resurserna så att undervisningen av elever som är nybörjare i svenska språket kan organiseras på ett sätt som är gynnsamt för målgruppens språk- och kunskapsutveckling.",
+   "sida": 7,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2025/00233), s. 7",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": [
+    "grundskola"
+   ]
+  },
+  {
+   "id": "U085",
+   "passage": "stockholms-kommun#13",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Förslagen kommer dock att påverka enskilda skolors organisation och tjänstefördelning för det nya ämnet grundläggande svenska.",
+   "sida": 8,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2025/00233), s. 8",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": "U081"
+  },
+  {
+   "id": "U086",
+   "passage": "stockholms-kommun#13",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Utbildningsförvaltningen ser att det med utredningens förslag tillkommer kostnader som behöver täckas, exempelvis för lärares kompetensutveckling.",
+   "sida": 8,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2025/00233), s. 8",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U087",
+   "passage": "stockholms-kommun#13",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Därtill tillkommer ökade kostnader för att finansiera förslaget om utökad rätt till studiehandledning.",
+   "sida": 8,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2025/00233), s. 8",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": "U083"
+  },
+  {
+   "id": "U088",
+   "passage": "strangnas-kommun#5",
+   "avsandare": "Strängnäs kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Förslaget om grundläggande kurs, utan betyg, gör det i princip omöjligt att uppnå en gymnasieexamen under gymnasietiden. För den aktuella elevgruppen blir därmed fortsatta studier på komvux en grundförutsättning.",
+   "sida": 1,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/strangnas-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Strängnäs kommun (U2025/00233), s. 1",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/strangnas-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "18"
+    ],
+    "grund": [
+     "18.5"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": [
+    "kommunal vuxenutbildning"
+   ]
+  },
+  {
+   "id": "U089",
+   "passage": "sveriges-kommuner-och-regioner#8",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "Det bör emellertid framgå att beslutet bör fattas i överensstämmelse med hemkommunen om det är en annan än huvudmannen.",
+   "sida": 1,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2025/00233), s. 1",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U090",
+   "passage": "sveriges-kommuner-och-regioner#11",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "SKR vill samtidigt understryka att detta inte får medföra en väsentligt ökad uppgiftslämnarbörda för kommunerna.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2025/00233), s. 2",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U091",
+   "passage": "sveriges-kommuner-och-regioner#13",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "SKR bedömer att införandet av kursplanerna i grundläggande svenska som andraspråk kommer att medföra implementeringskostnader för kommunerna, men utredningen redovisar inte några sådana och hur dessa ska finansieras.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2025/00233), s. 2",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U092",
+   "passage": "sveriges-kommuner-och-regioner#13",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "Utredningens beräkningar av kostnaderna för bedömning av vilken kursplan eleven ska följa görs utifrån en genomsnittlig månadslön för en grundskollärare 2024, men bör räknas upp till 2028 års löneläge.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2025/00233), s. 2",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": [
+    "grundskola"
+   ]
+  },
+  {
+   "id": "U093",
+   "passage": "sveriges-kommuner-och-regioner#32",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "Användningen av kartläggningsmaterialet kan emellertid bidra till en viss ökad administration.",
+   "sida": 7,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2025/00233), s. 7",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F09"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "8.1.9",
+     "8.1.9 Ett kartläggningsmaterial för bedömning av en elevs behov av svenska som andraspråk ska utarbetas"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U094",
+   "passage": "sveriges-kommuner-och-regioner#47",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "Om detta skulle ändras finns emellertid en risk för att det i ett övergångsskede skulle kunna förstärka bristen på behöriga lärare i svenska som andraspråk.",
+   "sida": 10,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2025/00233), s. 10",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "8"
+    ],
+    "grund": [
+     "8.2.4",
+     "8.2.4 Behörighetskraven för undervisning i svenska som andraspråk bör höjas"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": []
+  },
+  {
+   "id": "U095",
+   "passage": "sveriges-kommuner-och-regioner#53",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "Förlängd skoltid innebär ökade kostnader och det är hemkommunen som betalar skolpeng.",
+   "sida": 11,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2025/00233), s. 11",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "8"
+    ],
+    "grund": [
+     "8.2.7",
+     "8.2.7 Anpassade gymnasieskolan"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": []
+  },
+  {
+   "id": "U096",
+   "passage": "sveriges-kommuner-och-regioner#57",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "Svenskämnena är en stor utmaning för elever med grav språkstörning, inte minst för de som är nybörjare i svenska språket, och undervisningen måste kunna möta deras behov.",
+   "sida": 12,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2025/00233), s. 12",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "8"
+    ],
+    "grund": [
+     "8.2.8",
+     "8.2.8 Kursplaner för grundläggande svenska som andraspråk anpassade för döva och hörselskadade elever"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": []
+  },
+  {
+   "id": "U097",
+   "passage": "sveriges-kommuner-och-regioner#61",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "SKR delar bedömningen att en nationell samordning, exempelvis en plattform där huvudmän kan beställa modersmålsundervisning av varandra, skulle kunna förbättra tillgången för de huvudmän som har brist på modersmålslärare.",
+   "sida": 12,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2025/00233), s. 12",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "16",
+     "17"
+    ],
+    "grund": [
+     "17.4.1",
+     "17.4.1 Stärkt tillgång till modersmålsundervisning genom nationell samordning",
+     "17.4.1 Stärkt tillgång till modersmålsundervisning genom nationell samordning"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": []
+  },
+  {
+   "id": "U098",
+   "passage": "sveriges-kommuner-och-regioner#65",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "förbundet vill samtidigt understryka att detta inte får medföra en väsentligt ökad uppgiftslämnarbörda för kommunerna.",
+   "sida": 13,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2025/00233), s. 13",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": "U090"
+  },
+  {
+   "id": "U099",
+   "passage": "sveriges-kommuner-och-regioner#67",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "SKR bedömer att konsekvenserna för kommunerna framför allt handlar om implementeringskostnader i samband med införandet av en kursplan för grundläggande svenska som andraspråk och det nationella kartläggningsmaterialet som är obligatoriskt att använda.",
+   "sida": 14,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2025/00233), s. 14",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "18"
+    ],
+    "grund": [
+     "18.8",
+     "18.8 Konsekvenser för kommuner och regioner"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": []
+  },
+  {
+   "id": "U100",
+   "passage": "sveriges-kommuner-och-regioner#67",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "Att ha två kursplaner inom samma ämne kan i viss mån öka lärarnas administration, likaså användningen av det nationella kartläggningsmaterialet.",
+   "sida": 14,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2025/00233), s. 14",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "18"
+    ],
+    "grund": [
+     "18.8",
+     "18.8 Konsekvenser för kommuner och regioner"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": []
+  },
+  {
+   "id": "U101",
+   "passage": "sveriges-kommuner-och-regioner#67",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "Det kan också komma att påverka organisationen av undervisningen i svenska som andraspråk då två kursplaner används parallellt.",
+   "sida": 14,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2025/00233), s. 14",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "18"
+    ],
+    "grund": [
+     "18.8",
+     "18.8 Konsekvenser för kommuner och regioner"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": []
+  },
+  {
+   "id": "U102",
+   "passage": "sveriges-kommuner-och-regioner#69",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "Det behövs tid till kompetensutveckling för lärarna i svenska som andraspråk, men också för rektorer och lärare i samband med implementering av kartläggningsmaterialet. Utredningen redovisar inte några implementeringskostnader för kommunerna och hur dessa ska finansieras.",
+   "sida": 15,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2025/00233), s. 15",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "18"
+    ],
+    "grund": [
+     "18.12.3",
+     "18.12.3 Kostnader enligt finansieringsprincipen – kartläggning för bedömning av en elevs behov av svenska som andraspråk"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": []
+  },
+  {
+   "id": "U103",
+   "passage": "sveriges-kommuner-och-regioner#69",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "Utredningens beräkningar av kostnaderna för bedömning av vilken kursplan eleven ska följa görs utifrån en genomsnittlig månadslön för en grundskollärare 2024, men bör räknas upp till 2028 års löneläge, året då den nya kursplanen ska börja användas.",
+   "sida": 15,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2025/00233), s. 15",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "18"
+    ],
+    "grund": [
+     "18.12.3",
+     "18.12.3 Kostnader enligt finansieringsprincipen – kartläggning för bedömning av en elevs behov av svenska som andraspråk"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": [
+    "grundskola"
+   ]
+  },
+  {
+   "id": "U104",
+   "passage": "trollhattan-kommun#4",
+   "avsandare": "Trollhättan kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Det nya materialet behöver vara mycket tydligare för att det ska kunna ligga till grund för en likvärdig behovsprövning över hela landet. Det är dock alltid en risk att ett kartläggningsmaterial blir för trubbigt då det ska användas för ett beslut.",
+   "sida": 1,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/trollhattan-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Trollhättan kommun (U2025/00233), s. 1",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/trollhattan-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U105",
+   "passage": "trollhattan-kommun#6",
+   "avsandare": "Trollhättan kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Det kan bli oerhört resurskrävande att ha en egen kursplan för grundläggande svenska som andraspråk då en utbildad SVA-lärare behöver ha undervisning med dessa elever.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/trollhattan-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Trollhättan kommun (U2025/00233), s. 2",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/trollhattan-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U106",
+   "passage": "trollhattan-kommun#6",
+   "avsandare": "Trollhättan kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Ska denna undervisning helt separeras från övrig svenskundervisning så krävs det fler utbildade SVA-lärare och mycket logistik rent schemamässigt och personalmässigt för att få till dessa lektioner på schemat.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/trollhattan-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Trollhättan kommun (U2025/00233), s. 2",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/trollhattan-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U107",
+   "passage": "trollhattan-kommun#6",
+   "avsandare": "Trollhättan kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Frågor kring organisering av undervisningen väcks om det till exempel endast är någon enstaka elev som ska läsa grundläggande svenska och om elever kan åldersblandas under dessa lektioner.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/trollhattan-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Trollhättan kommun (U2025/00233), s. 2",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/trollhattan-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U108",
+   "passage": "trollhattan-kommun#6",
+   "avsandare": "Trollhättan kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Frågan om det är lämpligt att låta läraren undervisa utifrån både svenska, svenska som andraspråk och grundläggande svenska i samma klassrum kan uppstå. Som det ser ut nu integreras ofta svenska som andraspråk och svenska i samma klassrum vilket är en stor utmaning för många lärare.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/trollhattan-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Trollhättan kommun (U2025/00233), s. 2",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/trollhattan-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U109",
+   "passage": "trollhattan-kommun#7",
+   "avsandare": "Trollhättan kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Utan ett sådant kunskapsintyg ökar risken för förlängd utbildningstid för eleven och merjobb för mottagande skola.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/trollhattan-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Trollhättan kommun (U2025/00233), s. 2",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/trollhattan-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F03"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "8.1.3",
+     "8.1.3 Betyg ska inte sättas för elever som läser grundläggande svenska som andraspråk"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U110",
+   "passage": "trollhattan-kommun#8",
+   "avsandare": "Trollhättan kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Strategiska val och kompisval är ett stort bekymmer i dagens gymnasieskola.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/trollhattan-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Trollhättan kommun (U2025/00233), s. 2",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/trollhattan-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F10"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "8.1.10",
+     "8.1.10 Elever i gymnasieskolan och anpassade gymnasieskolan ska ges god vägledning i sitt val av svenskämne"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": [
+    "gymnasieskola"
+   ]
+  },
+  {
+   "id": "U111",
+   "passage": "trollhattan-kommun#9",
+   "avsandare": "Trollhättan kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "För att kunna bevara och fortsätta erbjuda undervisning i nationella minoritetsspråk är en sådan åtgärd nödvändig.",
+   "sida": 3,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/trollhattan-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Trollhättan kommun (U2025/00233), s. 3",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/trollhattan-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "16"
+    ],
+    "grund": [
+     "16.1.1",
+     "16.1.1 Statliga utredningar som berör modersmålsundervisning."
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": []
+  },
+  {
+   "id": "U112",
+   "passage": "trollhattan-kommun#10",
+   "avsandare": "Trollhättan kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Den nuvarande strukturen, med många skolor och stora avstånd samt logistiska utmaningar såsom skolskjuts, medför att traditionell undervisning ibland blir svår att genomföra, särskild inom modersmålsundervisning, och inte alltid kan betraktas som resurseffektiv.",
+   "sida": 3,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/trollhattan-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Trollhättan kommun (U2025/00233), s. 3",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/trollhattan-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "16"
+    ],
+    "grund": [
+     "16.2.2"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": []
+  },
+  {
+   "id": "U113",
+   "passage": "uppsala-kommun#5",
+   "avsandare": "Uppsala kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Uppsala kommun vill dock påpeka att det i gymnasieskolan ibland kan krävas mer än två år för att tillägna sig ett tillräckligt stort ordförråd och grammatisk behärskning för att kunna nå målen för svenska som andraspråk.",
+   "sida": 1,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/uppsala-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Uppsala kommun (U2025/00233), s. 1",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/uppsala-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": [
+    "gymnasieskola"
+   ]
+  },
+  {
+   "id": "U114",
+   "passage": "uppsala-kommun#5",
+   "avsandare": "Uppsala kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Detta då kommunen lagt stora resurser på att implementera Bygga svenska, som också ses som ett välfungerande material.",
+   "sida": 1,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/uppsala-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Uppsala kommun (U2025/00233), s. 1",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/uppsala-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U115",
+   "passage": "uppsala-kommun#6",
+   "avsandare": "Uppsala kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "inte blir för omfattande. Detta då den personal som idag undervisar i Svenska som andraspråk bedöms ha kompetens att undervisa både grundläggande- och fortsättningssvenska.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/uppsala-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Uppsala kommun (U2025/00233), s. 2",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/uppsala-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U116",
+   "passage": "uppsala-kommun#6",
+   "avsandare": "Uppsala kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Uppsala kommun vill dock understryka utredarnas förslag om att konsekvensanalyser i så fall behövs för att behandla dessa känsliga uppgifter.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/uppsala-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Uppsala kommun (U2025/00233), s. 2",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/uppsala-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U117",
+   "passage": "vetlanda-kommun#1",
+   "avsandare": "Vetlanda kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Synpunker framförs också kring genomförbarhet, kompetensfrågor och risk att den administrativa bördan för rektorer ökar.",
+   "sida": 1,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Vetlanda kommun (U2025/00233), s. 1",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U118",
+   "passage": "vetlanda-kommun#1",
+   "avsandare": "Vetlanda kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Vetlanda ställer sig alltså positivt till utredningens förslag om införande av ny kursplan, men lyfter också de specifika utmaningar som kan uppstå vid införandet för en landsortskommun både på organisatorisk nivå, men också för den enskilda eleven.",
+   "sida": 1,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Vetlanda kommun (U2025/00233), s. 1",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U119",
+   "passage": "vetlanda-kommun#3",
+   "avsandare": "Vetlanda kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Förslaget säger inte hur undervisningen ska genomföras, om det kan ske i samma grupp som de som läser svenska som andraspråk eller om det kommer att krävas särskilda grupper med lärarresurs. Detta är av stor betydelse för vilka konsekvenser förslaget får för kommunen.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Vetlanda kommun (U2025/00233), s. 2",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F01"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "8.1.1",
+     "8.1.1 Grundläggande svenska som andraspråk ska införas med nya kursplaner"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U120",
+   "passage": "vetlanda-kommun#3",
+   "avsandare": "Vetlanda kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Det finns stora utmaningar att formulera en kursplan som är tillräckligt stringent för tydlig och snabb progression som samtidigt är åldersneutral.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Vetlanda kommun (U2025/00233), s. 2",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F01"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "8.1.1",
+     "8.1.1 Grundläggande svenska som andraspråk ska införas med nya kursplaner"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U121",
+   "passage": "vetlanda-kommun#3",
+   "avsandare": "Vetlanda kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Gällande benämningen av kursplanen bör dock beaktas att det redan finns kurser inom kommunal vuxenutbildning som benämns ”Svenska som andraspråk inom kommunal vuxenutbildning på grundläggande nivå”.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Vetlanda kommun (U2025/00233), s. 2",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F01"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "8.1.1",
+     "8.1.1 Grundläggande svenska som andraspråk ska införas med nya kursplaner"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": [
+    "kommunal vuxenutbildning"
+   ]
+  },
+  {
+   "id": "U122",
+   "passage": "vetlanda-kommun#4",
+   "avsandare": "Vetlanda kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Det behöver därför finnas ett tydligt stöd för rektorer hur detta ska bedömas och dokumenteras.",
+   "sida": 3,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Vetlanda kommun (U2025/00233), s. 3",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F02"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "8.1.2",
+     "8.1.2 En tidsgräns ska införas i de obligatoriska skolformerna",
+     "8.1.2 En tidsgräns ska införas i de obligatoriska skolformerna"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U123",
+   "passage": "vetlanda-kommun#4",
+   "avsandare": "Vetlanda kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Utredningen säger heller ingenting om bryggan mellan de båda kursplanerna som kommer vara avgörande och som behöver finnas för en lyckad övergång för eleven.",
+   "sida": 3,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Vetlanda kommun (U2025/00233), s. 3",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F02"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "8.1.2",
+     "8.1.2 En tidsgräns ska införas i de obligatoriska skolformerna",
+     "8.1.2 En tidsgräns ska införas i de obligatoriska skolformerna"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U124",
+   "passage": "vetlanda-kommun#4",
+   "avsandare": "Vetlanda kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "För ökad likvärdighet bör överlämningsförfarandet, då en elev som läser grundläggande svenska som andraspråk flyttar till en annan skolenhet standardiseras. Detta krävs om tvåårsregeln ska gälla även vid skolformsbyte eller enhetsbyte inom samma skolform.",
+   "sida": 3,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Vetlanda kommun (U2025/00233), s. 3",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F02"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "8.1.2",
+     "8.1.2 En tidsgräns ska införas i de obligatoriska skolformerna",
+     "8.1.2 En tidsgräns ska införas i de obligatoriska skolformerna"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U125",
+   "passage": "vetlanda-kommun#7",
+   "avsandare": "Vetlanda kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Det finns dock en risk att den föreslagna målgruppsformuleringen blir lika otydlig som den förra och att godtyckliga beslut tas.",
+   "sida": 4,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Vetlanda kommun (U2025/00233), s. 4",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F08"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "8.1.8"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U126",
+   "passage": "vetlanda-kommun#7",
+   "avsandare": "Vetlanda kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Det krävs mycket kunskap om språkutveckling och flerspråkighet för att kunna ta korrekta beslut. Utredningen konstaterar att den kompetensen inte är tillfredsställande i nuläget och dessutom inte är jämnt fördelad över enheterna i landet.",
+   "sida": 4,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Vetlanda kommun (U2025/00233), s. 4",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F08"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "8.1.8"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U127",
+   "passage": "vetlanda-kommun#7",
+   "avsandare": "Vetlanda kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Vid införande av en ny kursplan inom ämnet svenska som andraspråk införs också fler övergångar att ta ställning till för rektor. Det är av yttersta vikt att det klargörs när en elev kan övergå från en kursplan till en annan",
+   "sida": 4,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Vetlanda kommun (U2025/00233), s. 4",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F08"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "8.1.8"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U128",
+   "passage": "vetlanda-kommun#9",
+   "avsandare": "Vetlanda kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Det behöver också framgå vid byte av skola om ny bedömning ska göras.",
+   "sida": 5,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Vetlanda kommun (U2025/00233), s. 5",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F08"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "8.1.8",
+     "8.1.8 Rektorn ska besluta om undervisning i svenska som andraspråk"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U129",
+   "passage": "vetlanda-kommun#10",
+   "avsandare": "Vetlanda kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Utredningen lyfter vikten av att inte öka den administrativa bördan för lärare och rektorer, vilket verkligen bör beaktas. Det måste vara genomförbart även på mindre enheter med små resurser och mindre möjlighet till samordning med andra enheter.",
+   "sida": 5,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Vetlanda kommun (U2025/00233), s. 5",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "14"
+    ],
+    "grund": [
+     "kap. 14",
+     "kap. 14"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": []
+  },
+  {
+   "id": "U130",
+   "passage": "vetlanda-kommun#14",
+   "avsandare": "Vetlanda kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Hela utredningens förslag bygger på att hög kompetens finns både i rektorsledet för bedömningar, men också klassrummen där undervisningen ska ske.",
+   "sida": 6,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Vetlanda kommun (U2025/00233), s. 6",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "8",
+     "17"
+    ],
+    "grund": [
+     "8.2",
+     "8.2 Kompletterande åtgärder"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": []
+  },
+  {
+   "id": "U131",
+   "passage": "vetlanda-kommun#14",
+   "avsandare": "Vetlanda kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "I de lägre åldrarna har lärare automatiskt fått behörighet i ämnet svenska som andraspråk utan att för den skulle ha utbildats i andraspråksdidaktik.",
+   "sida": 6,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Vetlanda kommun (U2025/00233), s. 6",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "8",
+     "17"
+    ],
+    "grund": [
+     "8.2",
+     "8.2 Kompletterande åtgärder"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": []
+  },
+  {
+   "id": "U132",
+   "passage": "vetlanda-kommun#14",
+   "avsandare": "Vetlanda kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Det behövs också ett förtydligande om vilken kompetens som krävs för att kunna göra bedömningar om vilken kursplan en elev ska läsa enligt.",
+   "sida": 6,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Vetlanda kommun (U2025/00233), s. 6",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "8",
+     "17"
+    ],
+    "grund": [
+     "8.2",
+     "8.2 Kompletterande åtgärder"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": []
+  },
+  {
+   "id": "U133",
+   "passage": "vetlanda-kommun#14",
+   "avsandare": "Vetlanda kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Utredningen slår fast att eleven måste få ”så gynnsamma förutsättningar som möjligt för sin språkutveckling”, men i realiteten kommer det att vägas mot de resurser som finns hos huvudmannen och på enheten. Här behövs stöd i hur undervisningen bör viktas och organiseras.",
+   "sida": 6,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Vetlanda kommun (U2025/00233), s. 6",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "8",
+     "17"
+    ],
+    "grund": [
+     "8.2",
+     "8.2 Kompletterande åtgärder"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": []
+  },
+  {
+   "id": "U134",
+   "passage": "vetlanda-kommun#15",
+   "avsandare": "Vetlanda kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Dock bör det beaktas att landsbygdskommuner även har andra faktorer att ta hänsyn både organisatoriskt såsom samordning av skolskjutsar, små enheter, lärares arbetstidsavtal, men också för den enskilda eleven.",
+   "sida": 6,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Vetlanda kommun (U2025/00233), s. 6",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "8"
+    ],
+    "grund": [
+     "8.2.2",
+     "8.2.2 Undervisningstid i svenska som andraspråk för nyanlända elever"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": []
+  },
+  {
+   "id": "U135",
+   "passage": "vetlanda-kommun#18",
+   "avsandare": "Vetlanda kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Dock behöver konsekvenserna för ett sådant införande utredas noga både vad gäller huvudmännens möjligheter organisera undervisning när lärare studerar, men också vilka resursmässiga konsekvenser det skulle få.",
+   "sida": 7,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Vetlanda kommun (U2025/00233), s. 7",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "8"
+    ],
+    "grund": [
+     "8.2.4",
+     "8.2.4 Behörighetskraven för undervisning i svenska som andraspråk bör höjas"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": []
+  },
+  {
+   "id": "U136",
+   "passage": "vetlanda-kommun#18",
+   "avsandare": "Vetlanda kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Ett sådant förslag skulle gynna undervisningens kvalitet och elevernas möjligheter till bättre språkundervisning, men det skulle också innebära kostnader. Implementeringen av en sådan ändring skulle behöva löpa över flera år.",
+   "sida": 7,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Vetlanda kommun (U2025/00233), s. 7",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "8"
+    ],
+    "grund": [
+     "8.2.4",
+     "8.2.4 Behörighetskraven för undervisning i svenska som andraspråk bör höjas"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": []
+  },
+  {
+   "id": "U137",
+   "passage": "vetlanda-kommun#22",
+   "avsandare": "Vetlanda kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Att identifiera språkstörning är en utmaning för skolorna och speciellt hos flerspråkiga elever.",
+   "sida": 8,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Vetlanda kommun (U2025/00233), s. 8",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "8"
+    ],
+    "grund": [
+     "8.2.6",
+     "8.2.6 Granskning av undervisning för nybörjare i svenska språket"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": []
+  },
+  {
+   "id": "U138",
+   "passage": "vetlanda-kommun#25",
+   "avsandare": "Vetlanda kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "det bör förtydligas hur bedömning ska ske om något är uppenbart obehövligt, samt vilken kompetens det krävs att göra den bedömningen.",
+   "sida": 8,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Vetlanda kommun (U2025/00233), s. 8",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "12"
+    ],
+    "grund": [
+     "kap. 12"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": []
+  },
+  {
+   "id": "U139",
+   "passage": "vetlanda-kommun#28",
+   "avsandare": "Vetlanda kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Studiehandledning och modersmål för elever med intellektuell funktionsnedsättning bör också förtydligas. Vilka krav ska ställas på de som undervisar dessa elever? Hur kan den undervisningen organiseras för att det ska gynna eleven så mycket som möjligt?",
+   "sida": 9,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Vetlanda kommun (U2025/00233), s. 9",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "17"
+    ],
+    "grund": [
+     "17.4.2",
+     "17.4.2 Granskning av modersmålsundervisningens kvalitet"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": []
+  },
+  {
+   "id": "U140",
+   "passage": "vetlanda-kommun#29",
+   "avsandare": "Vetlanda kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "med tillägget att hantering och registrering av känsliga personuppgifter såsom språk bör beaktas.",
+   "sida": 9,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Vetlanda kommun (U2025/00233), s. 9",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "17"
+    ],
+    "grund": [
+     "17.4.3",
+     "17.4.3 Förbättrade förutsättningar för uppföljning, utvärdering och forskning"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": []
+  },
+  {
+   "id": "U141",
+   "passage": "vetlanda-kommun#29",
+   "avsandare": "Vetlanda kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Vad gäller studiehandledning finns stora svårigheter i statistikinsamling då den ska vara flexibel till sin natur.",
+   "sida": 9,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Vetlanda kommun (U2025/00233), s. 9",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "17"
+    ],
+    "grund": [
+     "17.4.3",
+     "17.4.3 Förbättrade förutsättningar för uppföljning, utvärdering och forskning"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": []
+  },
+  {
+   "id": "U142",
+   "passage": "vetlanda-kommun#30",
+   "avsandare": "Vetlanda kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "De negativa konsekvenser som skulle följa på ett genomförande av utredningens förslag handlar till stor del om organisation och resurser. Utredningen svarar inte på frågan hur den nya kursplanen i grundläggande svenska som andraspråk ska genomföras i praktiken.",
+   "sida": 9,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Vetlanda kommun (U2025/00233), s. 9",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "17"
+    ],
+    "grund": [
+     "17.4.3",
+     "17.4.3 Förbättrade förutsättningar för uppföljning, utvärdering och forskning"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": []
+  },
+  {
+   "id": "U143",
+   "passage": "vetlanda-kommun#30",
+   "avsandare": "Vetlanda kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "I de fallen får läraren ta konsekvensen att balansera och tillgodose behoven utifrån tre kursplaner samtidigt.",
+   "sida": 9,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Vetlanda kommun (U2025/00233), s. 9",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "17"
+    ],
+    "grund": [
+     "17.4.3",
+     "17.4.3 Förbättrade förutsättningar för uppföljning, utvärdering och forskning"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": []
+  },
+  {
+   "id": "U144",
+   "passage": "vetlanda-kommun#30",
+   "avsandare": "Vetlanda kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "På en mindre enhet utanför centralorten kanske det endast finns en behörig Sva-lärare. Om inte resurser tillförs ställs rektor inför beslutet att ta den behöriga läraren ur ordinarie undervisningsgrupp för att istället undervisa i denna grupp med förmodat få elever.",
+   "sida": 9,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Vetlanda kommun (U2025/00233), s. 9",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "17"
+    ],
+    "grund": [
+     "17.4.3",
+     "17.4.3 Förbättrade förutsättningar för uppföljning, utvärdering och forskning"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": []
+  },
+  {
+   "id": "U145",
+   "passage": "vetlanda-kommun#30",
+   "avsandare": "Vetlanda kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "För en landsbygdskommun med små möjligheter till samordnad undervisning kan det bli kostsamt att ordna extra undervisningsgrupp.",
+   "sida": 9,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Vetlanda kommun (U2025/00233), s. 9",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "17"
+    ],
+    "grund": [
+     "17.4.3",
+     "17.4.3 Förbättrade förutsättningar för uppföljning, utvärdering och forskning"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": []
+  },
+  {
+   "id": "U146",
+   "passage": "vetlanda-kommun#30",
+   "avsandare": "Vetlanda kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Om undervisningen ska ske i särskilda grupper kommer det därför att krävas stora kompetenshöjningsinsatser för lärare och/eller resurser för att anställa fler lärare. Att anställa behöriga lärare är redan i nuläget en utmaning för kommunen.",
+   "sida": 9,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Vetlanda kommun (U2025/00233), s. 9",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "17"
+    ],
+    "grund": [
+     "17.4.3",
+     "17.4.3 Förbättrade förutsättningar för uppföljning, utvärdering och forskning"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": []
+  },
+  {
+   "id": "U147",
+   "passage": "vetlanda-kommun#31",
+   "avsandare": "Vetlanda kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Om utredningens förslag genomförs kommer rektor att få fler bedömningar att ta ställning till, vilken kursplan eleven ska läsa utifrån, övergångar mellan kursplaner och eventuella avsteg eller undantag. Här kommer det att krävas implementeringsinsatser och användbara stödmaterial.",
+   "sida": 10,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Vetlanda kommun (U2025/00233), s. 10",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "17"
+    ],
+    "grund": [
+     "17.4.3",
+     "17.4.3 Förbättrade förutsättningar för uppföljning, utvärdering och forskning"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": []
+  },
+  {
+   "id": "U148",
+   "passage": "vetlanda-kommun#31",
+   "avsandare": "Vetlanda kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Utredningens förslag om att kursplanen ska vara ålderneutral riskerar att utmana lärarnas arbete och kommer att kräva tolkningar och anpassningar, vilket är resurskrävande.",
+   "sida": 10,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Vetlanda kommun (U2025/00233), s. 10",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "17"
+    ],
+    "grund": [
+     "17.4.3",
+     "17.4.3 Förbättrade förutsättningar för uppföljning, utvärdering och forskning"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": []
+  },
+  {
+   "id": "U149",
+   "passage": "vetlanda-kommun#31",
+   "avsandare": "Vetlanda kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Vetlanda instämmer i utredningens bedömningar, men de förslag som bedömningarna innefattar riskerar att komma med en ökad kostnad för kommunen, i och med kraven på ökad behörighet och kompetenshöjning hos lärare och rektorer.",
+   "sida": 10,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Vetlanda kommun (U2025/00233), s. 10",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "17"
+    ],
+    "grund": [
+     "17.4.3",
+     "17.4.3 Förbättrade förutsättningar för uppföljning, utvärdering och forskning"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": []
+  },
+  {
+   "id": "U150",
+   "passage": "vetlanda-kommun#31",
+   "avsandare": "Vetlanda kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Eventuell utökad tid för elever som läser grundläggande svenska som andraspråk innebär också en ökad kostnad för kommunen, och bör ifall den införs tillföras motsvarande ekonomiska ersättning. Kommunen ser dock även svårigheter här att organisera den undervisningen och framför allt hitta behöriga lärare.",
+   "sida": 10,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Vetlanda kommun (U2025/00233), s. 10",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "17"
+    ],
+    "grund": [
+     "17.4.3",
+     "17.4.3 Förbättrade förutsättningar för uppföljning, utvärdering och forskning"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": []
+  },
+  {
+   "id": "U151",
+   "passage": "vetlanda-kommun#31",
+   "avsandare": "Vetlanda kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Den ökade administrativa bördan kan heller inte bortses ifrån då datainsamling föreslås öka och fler beslut införs som ska motiveras på ett rättssäkert sätt.",
+   "sida": 10,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Vetlanda kommun (U2025/00233), s. 10",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "17"
+    ],
+    "grund": [
+     "17.4.3",
+     "17.4.3 Förbättrade förutsättningar för uppföljning, utvärdering och forskning"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": []
+  },
+  {
+   "id": "U152",
+   "passage": "vetlanda-kommun#31",
+   "avsandare": "Vetlanda kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "det kommer att skapa organisatoriska utmaningar då lärare inte kan tas ur undervisning för studier då vikarier i den omfattningen inte finns att få tag på.",
+   "sida": 10,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Vetlanda kommun (U2025/00233), s. 10",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/vetlanda-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "17"
+    ],
+    "grund": [
+     "17.4.3",
+     "17.4.3 Förbättrade förutsättningar för uppföljning, utvärdering och forskning"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": []
+  },
+  {
+   "id": "U153",
+   "passage": "ostersunds-kommun#11",
+   "avsandare": "Östersunds kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "känner mycket stark oro kring merkostnad för skolor och dess huvudmän när det gäller ökad kostnad för tre parallella svenskaundervisningsformer.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/ostersunds-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Östersunds kommun (U2025/00233), s. 2",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/ostersunds-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U154",
+   "passage": "ostersunds-kommun#12",
+   "avsandare": "Östersunds kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "ser ett stort ökat behov av behöriga SvA-lärare som kan ta sig an de nya uppdragen utifrån kompetens.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/ostersunds-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Östersunds kommun (U2025/00233), s. 2",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/ostersunds-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U155",
+   "passage": "ostersunds-kommun#20",
+   "avsandare": "Östersunds kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "ser en stor risk i att behövda resurser inte finns tillgängliga för att höja kvaliteten för modersmålselever i skolan.",
+   "sida": 3,
+   "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/ostersunds-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Östersunds kommun (U2025/00233), s. 3",
+    "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/ostersunds-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  }
+ ]
+}
