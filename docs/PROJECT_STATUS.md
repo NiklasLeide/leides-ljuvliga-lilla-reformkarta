@@ -16,7 +16,7 @@
 |---|------|--------|
 | 1 | Hygien: preview-synk verifierad, README i research/ | Klar |
 | 2 | Datagrund: omkodning med tvåaxlig taxonomi, kopplingsnivåer, avsändarräkning, propositionens avvikelsetexter | Klar |
-| 3 | Datafil för betyg i pilot/utmaningar/ med byggskript | Ej påbörjad |
+| 3 | Datafil för betyg i pilot/utmaningar/ med byggskript | Klar |
 | 4 | Pilotsida i pilot/utmaningar/: översikt, filter, citat, metodruta. Exkluderad från Pages | Ej påbörjad |
 | 5 | Granskningsunderlag v2: precision och missade utmaningar | Ej påbörjad |
 | 6 | Dokumentation: metodbeskrivning, CHANGELOG | Ej påbörjad |

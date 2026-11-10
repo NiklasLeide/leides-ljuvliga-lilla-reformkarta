@@ -1,0 +1,97 @@
+#!/usr/bin/env python3
+"""Validerar pilot/utmaningar/data/utmaningar-betyg.json (Sprint 16 T3).
+
+Kontroller:
+ 1. giltig JSON
+ 2. exakt 440 utmaningar och 28 avsändare (både i avsandare[] och som unika avsändare bland utmaningarna)
+ 3. varje utmaning har icke-tomt citat, sida och url
+ 4. varje icke-null värde har källa: varje källobjekt ({text,url}) har icke-tom text och url, och dessa poster
+    måste ha källa: utmaning, sakområde, namnträff i propositionen, sökt propositionsavsnitt, propositionsavsnitt,
+    utredningsförslag, SFS-status som inte är null, lagparagrafens SOU-/propositions-/beslutade lydelse,
+    avsändarens remissvar, kedjans led, opublicerat remissvar
+ 5. inga nycklar eller strängvärden innehåller orden "löst", "kvarstår" eller "bemött tillräckligt"
+Avslutar med kod 0 om allt går igenom, annars 1 och en lista över fel."""
+import json, os, re, sys
+
+ROT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..'))
+FIL = os.path.join(ROT, 'pilot/utmaningar/data/utmaningar-betyg.json')
+fel = []
+def F(m): fel.append(m)
+
+try:
+    d = json.load(open(FIL, encoding='utf-8'))
+except Exception as e:
+    print('FEL: ogiltig JSON:', e); sys.exit(1)
+
+def kalla_ok(k, var):
+    if not isinstance(k, dict) or not str(k.get('text') or '').strip() or not str(k.get('url') or '').strip():
+        F(f'källa saknas eller är ofullständig: {var}')
+
+U = d.get('utmaningar', []); A = d.get('avsandare', [])
+if len(U) != 440: F(f'antal utmaningar {len(U)} ≠ 440')
+if len(A) != 28: F(f'antal avsändare i avsandare[] {len(A)} ≠ 28')
+if len({u.get("avsandare") for u in U}) != 28: F('antal unika avsändare bland utmaningarna ≠ 28')
+if len({u.get('id') for u in U}) != len(U): F('dubblerade utmaningsid')
+
+for u in U:
+    i = u.get('id')
+    for f in ('citat', 'sida', 'url'):
+        if u.get(f) in (None, '') : F(f'{i}: saknar {f}')
+    kalla_ok(u.get('kalla'), f'{i}.kalla')
+    if not u.get('utmaningstyp', {}).get('primar'): F(f'{i}: saknar primär utmaningstyp')
+    if u.get('utmaningstyp', {}).get('tolkning') is not True: F(f'{i}: utmaningstyp saknar tolkning: true')
+    k = u.get('koppling', {})
+    if k.get('niva') not in ('förslag', 'avsnitt', 'kapitel', 'tolkad', None): F(f'{i}: okänd kopplingsnivå {k.get("niva")}')
+    if k.get('niva') == 'kapitel' and k.get('forslag'): F(f'{i}: kapitelnivå med enskilda förslag')
+    if k.get('niva') == 'förslag' and len(k.get('forslag', [])) != 1: F(f'{i}: nivå förslag kräver exakt ett förslag')
+    if k.get('niva') == 'avsnitt' and len(k.get('forslag', [])) < 2: F(f'{i}: nivå avsnitt kräver flera förslag')
+    if k.get('niva') == 'tolkad' and k.get('tolkning') is not True: F(f'{i}: tolkad koppling saknar tolkning: true')
+    for j, s in enumerate(u.get('sakomrade') or []): kalla_ok(s.get('kalla'), f'{i}.sakomrade[{j}]')
+    n = u.get('namngivning_i_propositionen')
+    if n is not None:
+        if n.get('namngiven') is not bool(n.get('traffar')): F(f'{i}: namngiven stämmer inte med träffar')
+        for j, h in enumerate(n.get('traffar', [])):
+            kalla_ok(h.get('kalla'), f'{i}.namngivning.traffar[{j}]')
+            if not h.get('citat') or not h.get('sida'): F(f'{i}: namnträff saknar citat eller sida')
+        for j, s in enumerate(n.get('sokt_i', [])): kalla_ok(s, f'{i}.namngivning.sokt_i[{j}]')
+for a in A: kalla_ok(a.get('remissvar'), f'avsandare {a.get("namn")}.remissvar')
+for p in d.get('propositionsavsnitt', []):
+    kalla_ok(p.get('kalla'), f'propositionsavsnitt {p.get("ref")}')
+    if p.get('kopplade_utredningsforslag', {}).get('redaktionell') is not True: F(f'propositionsavsnitt {p.get("ref")}: koppling ej märkt redaktionell')
+for f in d.get('utredningsforslag', []):
+    kalla_ok(f.get('kalla'), f'utredningsförslag {f.get("id")}')
+    if f.get('propositionsavsnitt', {}).get('redaktionell') is not True: F(f'utredningsförslag {f.get("id")}: koppling ej märkt redaktionell')
+    s = f.get('sfs') or {}
+    if s.get('status') is not None: kalla_ok(s.get('kalla'), f'utredningsförslag {f.get("id")}.sfs')
+    elif not s.get('forklaring'): F(f'utredningsförslag {f.get("id")}: SFS-status null utan förklaring')
+    if s.get('status') in ('ändrad', 'oförändrad'): F(f'utredningsförslag {f.get("id")}: otillåten SFS-etikett')
+for key, p in d.get('lagparagrafer', {}).items():
+    kalla_ok(p.get('sou', {}).get('kalla'), f'lagparagraf {key}.sou')
+    if p.get('proposition'): kalla_ok(p['proposition'].get('kalla'), f'lagparagraf {key}.proposition')
+    if p.get('beslutad'): kalla_ok(p['beslutad'].get('kalla'), f'lagparagraf {key}.beslutad')
+for s in d.get('sakomraden', []): kalla_ok(s.get('kalla'), f'sakområde {s.get("kapitel")}')
+ked = d.get('meta', {}).get('kedja', {})
+for led, v in ked.items():
+    for j, x in enumerate(v if isinstance(v, list) else [v]): kalla_ok(x.get('kalla'), f'kedja.{led}[{j}]')
+for s in d.get('meta', {}).get('korpus', {}).get('opublicerade_remissvar_som_saknas', {}).get('avsandare', []):
+    kalla_ok(s.get('kalla'), f'opublicerat remissvar {s.get("avsandare")}')
+
+# generellt: varje källobjekt någonstans i filen ska ha text och url
+def walk(o, path):
+    if isinstance(o, dict):
+        if set(o.keys()) >= {'text', 'url'} and path.split('/')[-1] in ('kalla', 'remissvar', 'status_kalla') :
+            kalla_ok(o, path)
+        for k, v in o.items():
+            if RX.search(k): F(f'förbjudet ord i nyckel {path}/{k}')
+            walk(v, f'{path}/{k}')
+    elif isinstance(o, list):
+        for i, v in enumerate(o): walk(v, f'{path}[{i}]')
+    elif isinstance(o, str) and RX.search(o):
+        F(f'förbjudet ord i värde {path}: "{RX.search(o).group(0)}"')
+RX = re.compile(r'\b(löst|kvarstår)\b|bemött tillräckligt', re.I)
+walk(d, '')
+
+if fel:
+    print(f'VALIDERING MISSLYCKADES: {len(fel)} fel'); [print(' -', x) for x in fel[:100]]; sys.exit(1)
+print(f'VALIDERING OK: {len(U)} utmaningar, {len(A)} avsändare, {len(d.get("propositionsavsnitt", []))} propositionsavsnitt, '
+      f'{len(d.get("utredningsforslag", []))} utredningsförslag, {len(d.get("lagparagrafer", {}))} lagparagrafer')

@@ -17,6 +17,10 @@ Exakt en primär typ per utmaning, valfritt en sekundär. Satt genom läsning av
 | Likvärdighet och konsekvenser för elever | effekter för elevgrupper, rättssäkerhet, likvärdig bedömning |
 | Övrigt | inget av ovanstående |
 
+**Avgörande regel (Sprint 16 T3):** Citat vars huvudpoäng är att modellen, regleringen eller begreppen är svåra att förstå eller förklara kodas som Otydlighet i förslaget, även när elever eller vårdnadshavare nämns som de som ska förstå. Likvärdighet och konsekvenser för elever kräver att citatet beskriver en effekt för elever eller skilda utfall mellan elevgrupper, skolor eller huvudmän. Alla utmaningar med primär typ Otydlighet eller Likvärdighet har prövats mot regeln av en och samma kodare; ändringarna loggas i `andringslogg-utmaningstyp.json` och tillämpas i pilotens datafil (`pilot/utmaningar/data/utmaningar-betyg.json`). `utmaningar-betyg-v2.json` innehåller typerna före prövningen.
+
+**Kopplingsnivåerna i pilotens datafil (Sprint 16 T3):** nivån `förslag` delas i `förslag` (hänvisningen pekar ut exakt ett utredningsförslag) och `avsnitt` (hänvisningen pekar ut ett SOU-avsnitt med flera förslag). Övriga nivåer är oförändrade.
+
 Kodinstruktionen som användes ordagrant finns i `../skript/v2/INSTRUKTION.md`. Skolform och sakområde är uttryckligen inte typer.
 
 ## 2. Kopplingsnivå
