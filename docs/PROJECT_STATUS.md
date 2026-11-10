@@ -6,6 +6,26 @@
 
 ---
 
+## Sprint 16 — Utmaningskartan (pilot betyg)
+
+**Mål:** pilotsida på dev som för reformen betyg visar huvudmännens utmaningar ur remissvaren mot proposition och lag, granskningsbar för Niklas och Cecilia.
+
+**Stoppvillkor:** sidan fungerar på dev, varje citat har länk och sida, inget har nått master. Därefter manuell granskning före beslut om publicering.
+
+| # | Task | Status |
+|---|------|--------|
+| 1 | Hygien: preview-synk verifierad, README i research/ | Klar |
+| 2 | Datagrund: omkodning med tvåaxlig taxonomi, kopplingsnivåer, avsändarräkning, propositionens avvikelsetexter | Ej påbörjad |
+| 3 | Publik datafil för betyg med byggskript | Ej påbörjad |
+| 4 | Pilotsida: översikt, filter, citat, metodruta. Ej länkad, noindex | Ej påbörjad |
+| 5 | Granskningsunderlag v2: precision och missade utmaningar | Ej påbörjad |
+| 6 | Dokumentation: metodbeskrivning, CHANGELOG | Ej påbörjad |
+| 7 | Run DoD review for this sprint | Ej påbörjad |
+
+**Notering:** Granskningsurval från förstudie 2 bedömt som godtagbart av Niklas 2026-11-10. Ingen kvantifierad träffsäkerhet noterad.
+
+---
+
 ## Current: Sprint 15 — Automatsprinten
 
 **Mål:** Rutinändringar publiceras utan mänskligt klick (DEC-019). Bedömningsändringar kommer som

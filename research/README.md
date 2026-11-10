@@ -1,0 +1,1 @@
+Arbetsmaterial. Innehållet i den här mappen är ogranskat underlag från förstudier. Kategoriseringar och kopplingar som är märkta som tolkning är maskinellt framtagna och inte kvalitetssäkrade. Citat är ordagranna ur offentliga remissvar och propositioner, med källhänvisning. Materialet publiceras inte på reformer.leide.se.
