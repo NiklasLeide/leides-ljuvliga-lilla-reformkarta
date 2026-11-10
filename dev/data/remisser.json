@@ -1,0 +1,33 @@
+[
+  {
+    "id": "skolverket-2026-11-09-laroplaner",
+    "titel": "Remiss: Förslag på nya läroplaner och kursplaner för grundskolan, anpassade grundskolan, specialskolan och sameskolan",
+    "avsandare": "Skolverket",
+    "oppnar": "2026-11-09",
+    "svar_senast": "2027-01-20",
+    "omfattar": ["grundskolan", "anpassade grundskolan", "specialskolan", "sameskolan", "fritidshemmet"],
+    "omfattar_text": "Grundskolan, anpassade grundskolan, specialskolan och sameskolan, inklusive läroplanens del om fritidshemmet",
+    "nasta_steg": {
+      "forslag_till_regeringen": "2027-05-14",
+      "forslag_text": "Skolverket lämnar omarbetade förslag till regeringen",
+      "regeringsbeslut": null,
+      "tillampning": "höstterminen 2028"
+    },
+    "reform_ids": ["laroplaner", "tioarig"],
+    "dnr": null,
+    "url": "https://www.skolverket.se/om-skolverket/det-har-gor-skolverket/skolverkets-remisser/remisser/2026-11-09-remiss-forslag-pa-nya-laroplaner-och-kursplaner-for-grundskolan-anpassade-grundskolan-specialskolan-och-sameskolan",
+    "url_oversikt": "https://www.skolverket.se/styrning-och-ansvar/en-skola-i-forandring/nya-laroplaner-och-kursplaner",
+    "dokument_per_skolform": [
+      { "skolform": "Grundskolan", "url": "https://www.skolverket.se/om-skolverket/det-har-gor-skolverket/skolverkets-remisser/remisser/2026-11-09-remiss-forslag-pa-nya-laroplaner-och-kursplaner-for-grundskolan-anpassade-grundskolan-specialskolan-och-sameskolan#grundskola" },
+      { "skolform": "Anpassade grundskolan", "url": "https://www.skolverket.se/om-skolverket/det-har-gor-skolverket/skolverkets-remisser/remisser/2026-11-09-remiss-forslag-pa-nya-laroplaner-och-kursplaner-for-grundskolan-anpassade-grundskolan-specialskolan-och-sameskolan#anpassad" },
+      { "skolform": "Specialskolan", "url": "https://www.skolverket.se/om-skolverket/det-har-gor-skolverket/skolverkets-remisser/remisser/2026-11-09-remiss-forslag-pa-nya-laroplaner-och-kursplaner-for-grundskolan-anpassade-grundskolan-specialskolan-och-sameskolan#specialskola" },
+      { "skolform": "Sameskolan", "url": "https://www.skolverket.se/om-skolverket/det-har-gor-skolverket/skolverkets-remisser/remisser/2026-11-09-remiss-forslag-pa-nya-laroplaner-och-kursplaner-for-grundskolan-anpassade-grundskolan-specialskolan-och-sameskolan#sameskola" }
+    ],
+    "guidetext": "Skolverkets förslag till nya läroplaner och kursplaner är på remiss till och med den 20 januari 2027. Alla som vill kan lämna synpunkter.",
+    "verifierad": "2026-11-10",
+    "kallor": [
+      { "text": "Skolverkets remissida (publicerad 9 november 2026)", "url": "https://www.skolverket.se/om-skolverket/det-har-gor-skolverket/skolverkets-remisser/remisser/2026-11-09-remiss-forslag-pa-nya-laroplaner-och-kursplaner-for-grundskolan-anpassade-grundskolan-specialskolan-och-sameskolan" },
+      { "text": "Skolverket: Nya läroplaner och kursplaner (nästa steg: omarbetade förslag till regeringen 14 maj 2027, gäller från höstterminen 2028)", "url": "https://www.skolverket.se/styrning-och-ansvar/en-skola-i-forandring/nya-laroplaner-och-kursplaner" }
+    ]
+  }
+]
