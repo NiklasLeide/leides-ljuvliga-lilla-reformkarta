@@ -1,0 +1,445 @@
+{
+ "_meta": {
+  "steg": "M1b oberoende identifiering av 40 slumpvis valda passager (≥ 100 tecken, frö 20261201) med samma instruktion; kodare A = M1",
+  "matt": "överens = båda kodarna anger minst en utmaning, eller ingen av dem",
+  "overens": 36,
+  "antal": 40,
+  "tolkning": true
+ },
+ "passager": [
+  {
+   "id": "ideburna-skolors-riksforbund#9",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "norrtalje-kommun#107",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "karlskrona-kommun#2",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "norrtalje-kommun#10",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "lulea-kommun#6",
+   "kodare_a_antal": 1,
+   "kodare_b_antal": 1,
+   "kodare_b": [
+    {
+     "citat": "är det angeläget att skrivningarna blir tydliga för att minimera olika tolkningar.",
+     "oppen_kod": "otydliga läroplansskrivningar"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "kungalvs-kommun#12",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "goteborg-kommun#11",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "goteborg-kommun#23",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 1,
+   "kodare_b": [
+    {
+     "citat": "Göteborgs Stad anser därför att begreppet strukturerad undervisning behöver definieras tydligt och hur det eventuellt skiljer sig från skollagens nuvarande definition av undervisning utifrån aktuell forskning.",
+     "oppen_kod": "oklart begrepp strukturerad undervisning"
+    }
+   ],
+   "overens": false
+  },
+  {
+   "id": "malmo-kommun#8",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "ideburna-skolors-riksforbund#8",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "norrtalje-kommun#44",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "falkopings-kommun#10",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 1,
+   "kodare_b": [
+    {
+     "citat": "är det viktigt att lärarna som blir behöriga till att undervisa i år 1-4 inte endast får en kompetensutbildning ett s.k.”förskolelyft” utan även att grundutbildningen ändras",
+     "oppen_kod": "lärarkompetens för yngre elever"
+    }
+   ],
+   "overens": false
+  },
+  {
+   "id": "stockholms-kommun#15",
+   "kodare_a_antal": 9,
+   "kodare_b_antal": 12,
+   "kodare_b": [
+    {
+     "citat": "Förvaltningen ser en farhåga att antalet ansökningar om uppskjuten skolplikt kan komma att öka bland blivande grundskoleelever, då det kan uppfattas som att nya årkurs 1 innebär ”mer skola” och därmed ställer högre krav på eleven.",
+     "oppen_kod": "fler ansökningar uppskjuten skolplikt"
+    },
+    {
+     "citat": "Detta skulle annars kunna resultera i att icke skolpliktiga elever som ska fylla fem år, genom ansökan om tidigare skolstart, kan konkurrera ut skolpliktiga elever, vilket kan komma att medföra stora organisatoriska svårigheter för kommunen.",
+     "oppen_kod": "skolplacering vid tidigare skolstart"
+    },
+    {
+     "citat": "Förvaltningen vill dock poängtera att förändringarna rent organisatoriskt kommer kräva omfattande insatser av huvudmännen, inte minst för en stor kommun som Stockholms stad.",
+     "oppen_kod": "omfattande organisatoriska insatser"
+    },
+    {
+     "citat": "Förvaltningen har tidigare lyft farhågorna gällande bristen på behörig personal i nya årskurs 1 i grundsärskolan.",
+     "oppen_kod": "brist behörig personal grundsärskola"
+    },
+    {
+     "citat": "Vidare ställer sig förvaltningen tveksam till utredningens resonemang avseende finansieringen av föreslagna stadsbidrag, se mer nedan.",
+     "oppen_kod": "osäker finansiering statsbidrag"
+    },
+    {
+     "citat": "Liksom utredarna, ser förvaltningen en risk att förslagen om behörighet och fortbildning kan leda till en brist på förskollärare i förskolan, då reformen ger förskollärare möjlighet att genom erfarenhet och fortbildning erhålla behörighet att undervisa i det nya lågstadiet.",
+     "oppen_kod": "förskollärarbrist i förskolan"
+    },
+    {
+     "citat": "Förvaltningen vill vidare peka på vikten av att även lärare med behörighet att undervisa i nuvarande årskurs 1–3 och blivande årskurs 1–4 erbjuds kompetensutveckling gällande undervisning av yngre barn och förskolepedagogik.",
+     "oppen_kod": "kompetensutveckling lärare yngre barn"
+    },
+    {
+     "citat": "Om nuvarande förskoleklass blir årskurs 1, hur kommer det att påverka förskolans undervisningsuppdrag? Kommer det till exempel att ställas andra krav på förskolans undervisning i svenska och matematik då de utökade timmarna enligt förslaget till övervägande del bör användas för undervisning i svenska eller svenska som andraspråk och matematik?",
+     "oppen_kod": "oklart förskolans undervisningsuppdrag"
+    },
+    {
+     "citat": "Hur ska förskolan förhålla sig till att bedöma det enskilda barnets kunskaper och förmågor i samband med överlämning?",
+     "oppen_kod": "oklar bedömning vid överlämning"
+    },
+    {
+     "citat": "Vidare har utredningen framfört att de nya behörighetskraven kan medföra att förskollärare inte längre kan arbeta i fritidshemmet, vilket enligt förvaltningen ytterligare kan försvåra bemanningsproblematiken i fritidshemmet.",
+     "oppen_kod": "försvårad bemanning fritidshem"
+    },
+    {
+     "citat": "Detta är av särskild vikt för skolor i utanförskapsområden då dessa tenderar att ha svårare att anställa behörig personal, inte minst inom fritidshemsverksamheten.",
+     "oppen_kod": "rekrytering i utanförskapsområden"
+    },
+    {
+     "citat": "Det finns, som tidigare nämnts, en risk att förskollärare återvänder till förskolan om fortbildningen för behörighet i lågstadiet inte utformas på ett sätt som gör det enkelt och överkomligt för dem. Detta riskerar att på sikt skada grundskoleverksamheten då viktig kompetens om barns lärande i yngre åldrar går förlorade.",
+     "oppen_kod": "kompetensförlust förskollärare"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "kungalvs-kommun#8",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "goteborg-kommun#5",
+   "kodare_a_antal": 1,
+   "kodare_b_antal": 1,
+   "kodare_b": [
+    {
+     "citat": "Göteborg Stad anser därför att begreppet strukturerad undervisning behöver definieras tydligt och hur det eventuellt skiljer sig från skollagens nuvarande definition av undervisning utifrån aktuell forskning.",
+     "oppen_kod": "oklart begrepp strukturerad undervisning"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "norrtalje-kommun#34",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "sveriges-kommuner-och-regioner#39",
+   "kodare_a_antal": 1,
+   "kodare_b_antal": 1,
+   "kodare_b": [
+    {
+     "citat": "SKR ser att det nya åtagandet snarare uppgår till 60 minuter. Utifrån samma beräkningsgrunder som utredningen skulle kostnaden i så fall uppgå till 40 miljoner kronor per år.",
+     "oppen_kod": "underskattad kostnad utvecklingssamtal"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "sveriges-kommuner-och-regioner#7",
+   "kodare_a_antal": 1,
+   "kodare_b_antal": 1,
+   "kodare_b": [
+    {
+     "citat": "SKR avråder att det finns krav på att läraren är anställd ett visst datum, då erfarenheterna av motsvarande bestämmelse från legitimationsreformen och VAL visar på oönskade konsekvenser.",
+     "oppen_kod": "anställningsdatumkrav ger oönskade konsekvenser"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "norrtalje-kommun#47",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "sveriges-kommuner-och-regioner#5",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "norrtalje-kommun#109",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "norrtalje-kommun#78",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "stockholms-kommun#4",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "hammaro-kommun#3",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "sveriges-kommuner-och-regioner#26",
+   "kodare_a_antal": 1,
+   "kodare_b_antal": 1,
+   "kodare_b": [
+    {
+     "citat": "Det medför visserligen att fortbildningen tar längre tid men det är samtidigt nödvändigt att säkerställa att både förskoleklassen och fritidshemmen bemannas av kompetent och lämplig personal när förskollärarna deltar i",
+     "oppen_kod": "bemanning under fortbildning"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "norrtalje-kommun#63",
+   "kodare_a_antal": 1,
+   "kodare_b_antal": 1,
+   "kodare_b": [
+    {
+     "citat": "vill framföra att det kommer att behövas fortbildning för denna yrkesgrupp, främst när det gäller bedömning och läsinlärning.",
+     "oppen_kod": "fortbildningsbehov förskollärare"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "sveriges-kommuner-och-regioner#44",
+   "kodare_a_antal": 2,
+   "kodare_b_antal": 2,
+   "kodare_b": [
+    {
+     "citat": "Det kan leda till ett behov av att rekrytera ny personal till fritidshem och därmed ökade personalkostnader.",
+     "oppen_kod": "ökade personalkostnader fritidshem"
+    },
+    {
+     "citat": "Svårigheten att rekrytera utbildad personal gör också att fritidshemmen riskerar att dräneras på kompetens under en längre tid om införandet av tioårig grundskola inte följs åt av statliga åtgärder för att säkra även fritidshemmens kompetensförsörjning.",
+     "oppen_kod": "kompetensdränering i fritidshem"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "norrtalje-kommun#99",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "eslovs-kommun#7",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "norrtalje-kommun#15",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "norrtalje-kommun#38",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 2,
+   "kodare_b": [
+    {
+     "citat": "Att börja grundsärskolan åk 1 som sexåring, innebär att processen för att utreda målgruppstillhörighet startar redan under barnets förskoleår. Det innebär fler utredningar som kommer att starta under barnets förskoleår.",
+     "oppen_kod": "fler utredningar under förskoleår"
+    },
+    {
+     "citat": "Det vore önskvärt med ett förtydligande i form av skriftliga rekommendationer/vägledning kring ansvarsfördelningen mellan elevhälsan och regionerna kopplat till utredningar av barn i förskoleåldern som kan antas tillhöra grundsärskolans målgrupp.",
+     "oppen_kod": "oklar ansvarsfördelning elevhälsa–region"
+    }
+   ],
+   "overens": false
+  },
+  {
+   "id": "lulea-kommun#10",
+   "kodare_a_antal": 1,
+   "kodare_b_antal": 1,
+   "kodare_b": [
+    {
+     "citat": "Utbildningsinsatserna som utredningen nämner bör erbjudas som distansundervisning, vilket föredras för att ge likvärdiga förutsättningar för deltagande oavsett bostadsort.",
+     "oppen_kod": "tillgång till utbildningsinsatser"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "norrtalje-kommun#91",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "essunga-kommun#2",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "norrtalje-kommun#8",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "norrtalje-kommun#52",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "lidingo-kommun#2",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "norrtalje-kommun#35",
+   "kodare_a_antal": 5,
+   "kodare_b_antal": 9,
+   "kodare_b": [
+    {
+     "citat": "Utökad skolplikt ställer höga krav på adekvata förberedelser för att bemanna med behörig personal samt att en översyn av grundsärskolans och träningsskolans behov av lokaler sker, om ytterligare en årskull av elever ska kunna tas emot.",
+     "oppen_kod": "bemanning och lokaler grundsärskola"
+    },
+    {
+     "citat": "Avgörande är att skolan får tillräckligt med förberedelsetid.",
+     "oppen_kod": "behov av förberedelsetid"
+    },
+    {
+     "citat": "Här kan det finnas behov av att stärka ytterligare kompetensutveckling/vidareutbildning för de som önskar att arbeta kvar inom verksamheten.",
+     "oppen_kod": "behov av vidareutbildning"
+    },
+    {
+     "citat": "Barn- och utbildningskontoret anser att förslaget kommer innebära ekonomiska konsekvenser för kommunerna. Då det kommer att saknas behörig personal i verksamheten.",
+     "oppen_kod": "ekonomiska konsekvenser personalbrist"
+    },
+    {
+     "citat": "I dagsläget finns inte fullt behöriga lärare grundsärskolan och i Norrtälje kommuns grundsärskoleverksamhet märks redan nu ett stigande elevantal.",
+     "oppen_kod": "brist behöriga lärare grundsärskola"
+    },
+    {
+     "citat": "Att elever i grundsärskolan börjar ett år tidigare i grundsärskolan kommer förmodligen innebära ökade kostnader i den verksamheten",
+     "oppen_kod": "ökade kostnader grundsärskola"
+    },
+    {
+     "citat": "Även skolskjutsverksamheten kan förväntas få ekonomiska konsekvenser i och med att elever kan tas emot i grundsärskolan/träningsskolan fr o m 6 års ålder kommer särskolans elevpeng + individuella nivåpeng att betalas ut för ytterligare en årskurs.",
+     "oppen_kod": "skolskjuts och elevpeng kostnader"
+    },
+    {
+     "citat": "vilket dessa elever kommer att vara om de börjar i grundsärskolan som 6-åringar som i sin tur kan innebära ökade skolskjutskostnader.",
+     "oppen_kod": "ökade skolskjutskostnader"
+    },
+    {
+     "citat": "Här kan det finnas risk att fler ansöker om uppskjuten skolplikt med tanke på att nya åk 1 kommer vara förenligt med lite mer krav.",
+     "oppen_kod": "fler ansökningar uppskjuten skolplikt"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "sveriges-kommuner-och-regioner#15",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "hofors-kommun#6",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 1,
+   "kodare_b": [
+    {
+     "citat": "Vi ser ett behov av förutom bedömningsstöd i svenska och matematik också stödmaterial för t.ex. x multimodala lärprocesser.",
+     "oppen_kod": "behov av stödmaterial"
+    }
+   ],
+   "overens": false
+  }
+ ]
+}

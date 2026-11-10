@@ -1,0 +1,5589 @@
+{
+ "_meta": {
+  "beskrivning": "Kodade utmaningar med citatkontroll, dubbletter, kopplingsnivå, skolform och utmaningstyp."
+ },
+ "utmaningar": [
+  {
+   "id": "U001",
+   "passage": "bollebygds-kommun#4",
+   "avsandare": "Bollebygds kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Staten tar ansvar för kostnaderna och planering för utbildningen av förskollärare genom kompletterande behörighetsgivande högskoleutbildning",
+   "sida": 1,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/bollebygds-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Bollebygds kommun (U2021/02645), s. 1",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/bollebygds-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U002",
+   "passage": "burlovs-kommun#3",
+   "avsandare": "Burlövs kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Förslagen som avser behörig personal kan komma att påverka ferietjänster och semestertjänster. Detta kan i sin tur kan påverka personaltätheten på fritidshemmet.",
+   "sida": 1,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/burlovs-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Burlövs kommun (U2021/02645), s. 1",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/burlovs-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U003",
+   "passage": "burlovs-kommun#3",
+   "avsandare": "Burlövs kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Ett arbete för att säkerställa att samarbetet mellan fritidshemmet och skola fortsatt fungerar och utvecklas kommer krävas.",
+   "sida": 1,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/burlovs-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Burlövs kommun (U2021/02645), s. 1",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/burlovs-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U004",
+   "passage": "burlovs-kommun#7",
+   "avsandare": "Burlövs kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Det finns en ökad risk att göra felbedömningar desto yngre barnet är och ett arbete kommer behöva göras för att säkerställa att barn inte skrivs in i grundsärskolan på felaktiga grunder.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/burlovs-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Burlövs kommun (U2021/02645), s. 2",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/burlovs-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U005",
+   "passage": "burlovs-kommun#7",
+   "avsandare": "Burlövs kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Angivet bidrag är ett viktigt bidrag för Burlövs kommun och om en del av detta bidrag kommer riktas mot arbetet om en tioårig grundskola kan detta komma att påverka kommunen negativt.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/burlovs-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Burlövs kommun (U2021/02645), s. 2",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/burlovs-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": [
+    "grundskola"
+   ]
+  },
+  {
+   "id": "U006",
+   "passage": "eslovs-kommun#10",
+   "avsandare": "Eslövs kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Det kan inte anses vara en rimlig lösning att helt och hållet överlämna till skolan att göra svåra avvägningar avseende vilka disciplinära åtgärder som bör vidtas.",
+   "sida": 3,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/eslovs-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Eslövs kommun (U2021/02645), s. 3",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/eslovs-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U007",
+   "passage": "eslovs-kommun#10",
+   "avsandare": "Eslövs kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Med det följer också ökade krav och skyldigheter för huvudmännen, som i stor utsträckning utgörs av kommuner (som i övrigt också har ett ansvar som hemkommuner för eleverna).",
+   "sida": 3,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/eslovs-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Eslövs kommun (U2021/02645), s. 3",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/eslovs-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U008",
+   "passage": "eslovs-kommun#10",
+   "avsandare": "Eslövs kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Men mot bakgrund av reformens omfattning vill Eslövs kommun understryka vikten av att det i den utvärdering av reformen som utredningen föreslår även beaktas om kommunerna har kompenserats i tillräcklig utsträckning.",
+   "sida": 3,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/eslovs-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Eslövs kommun (U2021/02645), s. 3",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/eslovs-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U009",
+   "passage": "falkopings-kommun#8",
+   "avsandare": "Falköpings kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "En risk är att barn som är fem år sällan har samtliga utredningar klara vilket gör att man blir placerad i fel skolform vilket leder till misslyckande för det enskilda barnet.",
+   "sida": 1,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/falkopings-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Falköpings kommun (U2021/02645), s. 1",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/falkopings-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U010",
+   "passage": "falkopings-kommun#9",
+   "avsandare": "Falköpings kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Lärare som ska undervisa i förskoleklass (år 1) behöver också en kunskap i förskolans pedagogik för att kunna möta denna grupp av elever.",
+   "sida": 1,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/falkopings-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Falköpings kommun (U2021/02645), s. 1",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/falkopings-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": [
+    "förskoleklass"
+   ]
+  },
+  {
+   "id": "U011",
+   "passage": "falkopings-kommun#15",
+   "avsandare": "Falköpings kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Det är också viktigt att det finns tid till kompetensutveckling för de pedagoger som finns i verksamheten idag, så att det inte uppstår brist på behöriga pedagoger.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/falkopings-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Falköpings kommun (U2021/02645), s. 2",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/falkopings-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U012",
+   "passage": "falkopings-kommun#16",
+   "avsandare": "Falköpings kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Viktigt att krav ställs på kommuner och regioner att tidiga utredningar i femårsålder garanteras och prioriteras för att eleverna garanteras rätt skolform och att misslyckande för eleven undanröjs.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/falkopings-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Falköpings kommun (U2021/02645), s. 2",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/falkopings-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F14"
+    ],
+    "kapitel": [
+     "5"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "5.3.2"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U013",
+   "passage": "falkopings-kommun#16",
+   "avsandare": "Falköpings kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Ett mer flexibelt regelverk för det första året för inskrivning i grundsärskola bör vara möjligt om skola och vårdnadshavare är överens om detta om samtliga utredningar inte är klara.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/falkopings-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Falköpings kommun (U2021/02645), s. 2",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/falkopings-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F14"
+    ],
+    "kapitel": [
+     "5"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "5.3.2"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U014",
+   "passage": "flens-kommun#5",
+   "avsandare": "Flens kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Flens kommun vill understryka att utredningen inte i tillräcklig mån tar hänsyn till de olika förutsättningar som kommuner runt om i Sverige har.",
+   "sida": 1,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/flens-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Flens kommun (U2021/02645), s. 1",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/flens-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U015",
+   "passage": "flens-kommun#6",
+   "avsandare": "Flens kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "För Flens kommun, som redan under nuvarande förhållanden och förutsedd framtid har stora svårigheter att rekrytera behöriga lärare, bedöms förslagen gällande vidareutbildning av befintliga lärare få begränsad effekt.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/flens-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Flens kommun (U2021/02645), s. 2",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/flens-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U016",
+   "passage": "flens-kommun#6",
+   "avsandare": "Flens kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "För det fall att det finns personal att vidareutbilda ser vi en stor svårighet i att rekrytera behöriga vikarier under den period som vidareutbildningen sker, vilket resulterar i en bristande kvalitet i undervisningen under denna övergångsperiod.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/flens-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Flens kommun (U2021/02645), s. 2",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/flens-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U017",
+   "passage": "flens-kommun#6",
+   "avsandare": "Flens kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "För att undvika kvalitetsbrister för dessa elever kan resurser behöva omfördelas från andra elever och därmed istället påverka dessa elevers kvalitet i undervisningen.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/flens-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Flens kommun (U2021/02645), s. 2",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/flens-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U018",
+   "passage": "goteborg-kommun#3",
+   "avsandare": "Göteborg kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Att använda riktade statsbidrag är problematisk då det innebär att de riktade statsbidragens förutsebarhet i praktiken blir än mer kortsiktiga än vad de är idag.",
+   "sida": 1,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/goteborgs-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Göteborg kommun (U2021/02645), s. 1",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/goteborgs-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U019",
+   "passage": "goteborg-kommun#3",
+   "avsandare": "Göteborg kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "För Göteborgs Stad som tar del av riktade statsbidrag påverkar detta möjligheterna att fullfölja pågående utvecklingssatsningar, vilket skapar ryckighet och får i slutänden konsekvenser för elevernas skolgång.",
+   "sida": 1,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/goteborgs-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Göteborg kommun (U2021/02645), s. 1",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/goteborgs-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U020",
+   "passage": "goteborg-kommun#5",
+   "avsandare": "Göteborg kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Göteborg Stad anser därför att begreppet strukturerad undervisning behöver definieras tydligt och hur det eventuellt skiljer sig från skollagens nuvarande definition av undervisning utifrån aktuell forskning.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/goteborgs-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Göteborg kommun (U2021/02645), s. 2",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/goteborgs-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F02",
+     "F03",
+     "F04",
+     "F05",
+     "F06",
+     "F07",
+     "F08",
+     "F09",
+     "F10",
+     "F11",
+     "F12"
+    ],
+    "kapitel": [
+     "5"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": true,
+    "grund": [
+     "5.2",
+     "5.2 Det nya lågstadiets innehåll och utformning"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U021",
+   "passage": "goteborg-kommun#8",
+   "avsandare": "Göteborg kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Göteborgs Stad menar dock att samverkan är av sådan central betydelse att det kanske inte är tillräckligt med ett stödmaterial.",
+   "sida": 3,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/goteborgs-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Göteborg kommun (U2021/02645), s. 3",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/goteborgs-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F13",
+     "F14"
+    ],
+    "kapitel": [
+     "5"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": true,
+    "grund": [
+     "5.3",
+     "5.3 Skolplikt och mottagande"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U022",
+   "passage": "goteborg-kommun#10",
+   "avsandare": "Göteborg kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Göteborgs Stad vill påtala risken av kvalitativt sämre övergångar för det enskilda barnet då de föreslagna behörighetskraven kommer medföra att mottagande lärare betydligt mer sällan engageras i övergångsarbete jämfört med idag.",
+   "sida": 3,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/goteborgs-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Göteborg kommun (U2021/02645), s. 3",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/goteborgs-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F13",
+     "F14"
+    ],
+    "kapitel": [
+     "5"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": true,
+    "grund": [
+     "5.3",
+     "5.3 Skolplikt och mottagande"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U023",
+   "passage": "goteborg-kommun#12",
+   "avsandare": "Göteborg kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "En konsekvens av ett ge sexåringar rätten till modersmålsundervisning är att vissa modersmålslärare kommer att undervisa en åldersgrupp som de inte tidigare undervisat.",
+   "sida": 4,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/goteborgs-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Göteborg kommun (U2021/02645), s. 4",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/goteborgs-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F17",
+     "F18",
+     "F19",
+     "F20",
+     "F21"
+    ],
+    "kapitel": [
+     "5"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": true,
+    "grund": [
+     "5.5",
+     "5.5 Överväganden gällande vissa andra bestämmelser"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U024",
+   "passage": "goteborg-kommun#13",
+   "avsandare": "Göteborg kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Göteborgs Stad vill i sammanhanget poängtera vikten av att alla grundlärare erhåller de specifika kunskaper och färdigheter som förskollärare i förskoleklass har för att säkerställa att den nya årskurs 1 också behåller förskolepedagogikens inriktning mot lek, utforskande och upptäckarlust.",
+   "sida": 4,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/goteborgs-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Göteborg kommun (U2021/02645), s. 4",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/goteborgs-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F29"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "6.2.1",
+     "Kapitel 6"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": [
+    "förskoleklass"
+   ]
+  },
+  {
+   "id": "U025",
+   "passage": "goteborg-kommun#14",
+   "avsandare": "Göteborg kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Utredningens förslag som berör speciallärare bör enligt Göteborgs Stad kompletteras med en utbildning med inriktning mot utvecklingsstörning för att stimulera till ökat antal behöriga speciallärare i grundsärskolan och gymnasiesärskolan.",
+   "sida": 4,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/goteborgs-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Göteborg kommun (U2021/02645), s. 4",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/goteborgs-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F29"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "6.2.1",
+     "Kapitel 6"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U026",
+   "passage": "hammaro-kommun#7",
+   "avsandare": "Hammarö kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Det är också nödvändigt att det utgår statsbidrag till huvudmän i syfte att möjliggöra kapacitetsförstärkning samt säkerställa kvaliteten i utbildningen i lågstadiet under den tid som reformen implementeras.",
+   "sida": 3,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/hammaro-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Hammarö kommun (U2021/02645), s. 3",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/hammaro-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U027",
+   "passage": "hofors-kommun#4",
+   "avsandare": "Hofors kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "säkerställa att kommunerna får planerings- och ekonomiskt stöd för genomförandet av reformen",
+   "sida": 1,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/hofors-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Hofors kommun (U2021/02645), s. 1",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/hofors-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U028",
+   "passage": "hofors-kommun#8",
+   "avsandare": "Hofors kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Vi ser en risk att det blir ytterligare en övergång från åk 2 till åk 3 med nya lärare. Detta kan medföra att grundskolan i praktiken får fyra stadier; 1-2, 34, 5-7, 8-10.",
+   "sida": 3,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/hofors-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Hofors kommun (U2021/02645), s. 3",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/hofors-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": [
+    "grundskola"
+   ]
+  },
+  {
+   "id": "U029",
+   "passage": "hofors-kommun#8",
+   "avsandare": "Hofors kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Förslaget innebär visserligen att staten finansierar kompetensutveckling men det är av vikt att resurser allokeras till kommunerna för att vid sidan om de förslag som anges även säkerställer att utbildningsverksamheten kan bedrivas även då lärare är i utbildningsinsatser.",
+   "sida": 3,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/hofors-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Hofors kommun (U2021/02645), s. 3",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/hofors-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U030",
+   "passage": "hofors-kommun#8",
+   "avsandare": "Hofors kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Då fler kommer att omfattas av samma regelverk vad gäller särskilt stöd och andra insatser, kan det komma att innebära ökade kostnader för kommunen.",
+   "sida": 3,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/hofors-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Hofors kommun (U2021/02645), s. 3",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/hofors-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U031",
+   "passage": "hofors-kommun#9",
+   "avsandare": "Hofors kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "En tio-årig grundsärskola med ytterligare ett skolår innebär väsentligt ökade kostnader för huvudmannen.",
+   "sida": 3,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/hofors-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Hofors kommun (U2021/02645), s. 3",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/hofors-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U032",
+   "passage": "hofors-kommun#9",
+   "avsandare": "Hofors kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Att bidraget tas från de insatser som riktas direkt till elever, till kompetensutveckling för yrkesverksamma skulle troligen innebära en allvarlig kvalitetssänkning.",
+   "sida": 3,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/hofors-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Hofors kommun (U2021/02645), s. 3",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/hofors-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U033",
+   "passage": "ideburna-skolors-riksforbund#5",
+   "avsandare": "Idéburna skolors riksförbund",
+   "fokusgrupp": "ideburna",
+   "grupp": "huvudmannaorganisation",
+   "citat": "Då dessa två utredningar hänger ihop finns det en oklarhet kring skolplikten och när den egentligen kommer att träda ikraft, vid det år barnet fyller 5 år eller vid 6 år.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/ideburna-skolors-riksforbund.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Idéburna skolors riksförbund (U2021/02645), s. 2",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/ideburna-skolors-riksforbund.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U034",
+   "passage": "ideburna-skolors-riksforbund#6",
+   "avsandare": "Idéburna skolors riksförbund",
+   "fokusgrupp": "ideburna",
+   "grupp": "huvudmannaorganisation",
+   "citat": "En mångårig erfarenhet av arbete med yngre barn tas här inte tillvara, då sannolikt en hel del av de förskollärare som idag arbetar i förskoleklass kommer att välja att gå över till förskolan istället för att vidareutbilda sig.",
+   "sida": 3,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/ideburna-skolors-riksforbund.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Idéburna skolors riksförbund (U2021/02645), s. 3",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/ideburna-skolors-riksforbund.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": [
+    "förskoleklass"
+   ]
+  },
+  {
+   "id": "U035",
+   "passage": "ideburna-skolors-riksforbund#6",
+   "avsandare": "Idéburna skolors riksförbund",
+   "fokusgrupp": "ideburna",
+   "grupp": "huvudmannaorganisation",
+   "citat": "Samtidigt som förskollärare långsiktigt endast kan fortsätta arbeta i förskoleklass om de har fortbildat sig inom ämnesundervisning så krävs ingen motsvarande fortbildning inom förskolepedagogiken för grundlärare 1-4.",
+   "sida": 3,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/ideburna-skolors-riksforbund.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Idéburna skolors riksförbund (U2021/02645), s. 3",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/ideburna-skolors-riksforbund.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": [
+    "förskoleklass"
+   ]
+  },
+  {
+   "id": "U036",
+   "passage": "kalix-kommun#2",
+   "avsandare": "Kalix kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Däremot lyfter utbildningsnämnden även här problemet med att göra läraryrket attraktivt så att fler vill bli lärare",
+   "sida": 1,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/kalix-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Kalix kommun (U2021/02645), s. 1",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/kalix-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U037",
+   "passage": "karlskrona-kommun#10",
+   "avsandare": "Karlskrona kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Utredningens förslag kommer i en del fall att få direkta ekonomiska konsekvenser för kommunerna. Detta innebär att kommunerna behöver ersättas ekonomiskt av staten för till exempel följande moment:",
+   "sida": 3,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/karlskrona-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Karlskrona kommun (U2021/02645), s. 3",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/karlskrona-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U038",
+   "passage": "lidingo-kommun#3",
+   "avsandare": "Lidingö kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Nämnden vill dock poängtera att förändringarna i förslaget kommer att innebära krav på omfattande insatser av huvudmännen.",
+   "sida": 1,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/lidingo-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Lidingö kommun (U2021/02645), s. 1",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/lidingo-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F29",
+     "F30",
+     "F31",
+     "F32",
+     "F33"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": true,
+    "grund": [
+     "6.2",
+     "6.2 Behörighet att undervisa i nya lågstadiet"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U039",
+   "passage": "lidingo-kommun#3",
+   "avsandare": "Lidingö kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Fortbildning för förskollärare behöver utformas så att de enkelt kan tillgodogöra sig behörighet för undervisning i nya lågstadiet för att huvudmännen inte ska riskera att förlora värdefull kompetens och erfarenhet om barns lärande i yngre åldrar.",
+   "sida": 1,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/lidingo-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Lidingö kommun (U2021/02645), s. 1",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/lidingo-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F29",
+     "F30",
+     "F31",
+     "F32",
+     "F33"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": true,
+    "grund": [
+     "6.2",
+     "6.2 Behörighet att undervisa i nya lågstadiet"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U040",
+   "passage": "lidingo-kommun#3",
+   "avsandare": "Lidingö kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Utbildningsnämnden anser att statsbidrag för detta bör motsvara 100 % av arbetsgivarens kostnader för ersättning.",
+   "sida": 1,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/lidingo-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Lidingö kommun (U2021/02645), s. 1",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/lidingo-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F29",
+     "F30",
+     "F31",
+     "F32",
+     "F33"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": true,
+    "grund": [
+     "6.2",
+     "6.2 Behörighet att undervisa i nya lågstadiet"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U041",
+   "passage": "lulea-kommun#6",
+   "avsandare": "Luleå kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "för att Styrdokumenten, i detta fall läroplan inklusive kursplaner, ska utgöra ett stöd för undervisande lärare samt främja en likvärdig undervisning i lågstadiet är det angeläget att skrivningarna blir tydliga för att minimera olika tolkningar.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/lulea-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Luleå kommun (U2021/02645), s. 2",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/lulea-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "5"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "5.2.4"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U042",
+   "passage": "lulea-kommun#7",
+   "avsandare": "Luleå kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Synpunkt: Här ser vi hellre att huvudmän redan under läsåret 24/25 har tillgång till reviderade styrdokumenten (läroplan samt timplan), likväl som övriga förutsättningar som föreslås för genomförandet av reformen.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/lulea-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Luleå kommun (U2021/02645), s. 2",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/lulea-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F48",
+     "F49",
+     "F50",
+     "F51",
+     "F52"
+    ],
+    "kapitel": [
+     "7"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": true,
+    "grund": [
+     "Reformens genomförande"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U043",
+   "passage": "lulea-kommun#7",
+   "avsandare": "Luleå kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "bör regelverket vara klart i god tid för bästa planering och genomförande på huvudmannanivå.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/lulea-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Luleå kommun (U2021/02645), s. 2",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/lulea-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F48",
+     "F49",
+     "F50",
+     "F51",
+     "F52"
+    ],
+    "kapitel": [
+     "7"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": true,
+    "grund": [
+     "Reformens genomförande"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U044",
+   "passage": "lulea-kommun#9",
+   "avsandare": "Luleå kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Alternativet är att respektive huvudman ansvarar för informationen vilket medför risk för att informationen inte är likvärdig.",
+   "sida": 3,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/lulea-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Luleå kommun (U2021/02645), s. 3",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/lulea-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F49"
+    ],
+    "kapitel": [
+     "7"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "7.1.2",
+     "7.1.2 En nationellt samlad implementering"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U045",
+   "passage": "lulea-kommun#10",
+   "avsandare": "Luleå kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Utbildningsinsatserna som utredningen nämner bör erbjudas som distansundervisning, vilket föredras för att ge likvärdiga förutsättningar för deltagande oavsett bostadsort.",
+   "sida": 3,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/lulea-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Luleå kommun (U2021/02645), s. 3",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/lulea-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F49"
+    ],
+    "kapitel": [
+     "7"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "7.1.2",
+     "7.1.2 En nationellt samlad implementering"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U046",
+   "passage": "lulea-kommun#11",
+   "avsandare": "Luleå kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Att minska på främst de tre första statsbidragen som nämns här ovan skulle påverka verksamheten negativt.",
+   "sida": 3,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/lulea-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Luleå kommun (U2021/02645), s. 3",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/lulea-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F49"
+    ],
+    "kapitel": [
+     "7"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "7.1.2",
+     "7.1.2 En nationellt samlad implementering"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U047",
+   "passage": "lulea-kommun#12",
+   "avsandare": "Luleå kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Osäkerhet kring statsbidrag är redan nu något som negativt påverkar verksamheten och huvudmännens möjlighet till god framförhållning.",
+   "sida": 4,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/lulea-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Luleå kommun (U2021/02645), s. 4",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/lulea-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F49"
+    ],
+    "kapitel": [
+     "7"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "7.1.2",
+     "7.1.2 En nationellt samlad implementering"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U048",
+   "passage": "lulea-kommun#12",
+   "avsandare": "Luleå kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Denna finansieringsmodell innebär även att ifall huvudmän ska hinna anpassa verksamheten till minskade statsbidrag behöver förutsättningarna kommuniceras tidigt dvs mer än ett år i förväg. Detta då det troligt påverkar organisation och antalet tjänster tillsatta främst inom statsbidraget för stärkt likvärdighet.",
+   "sida": 4,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/lulea-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Luleå kommun (U2021/02645), s. 4",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/lulea-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F49"
+    ],
+    "kapitel": [
+     "7"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "7.1.2",
+     "7.1.2 En nationellt samlad implementering"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U049",
+   "passage": "lunds-kommun#3",
+   "avsandare": "Lunds kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Lunds kommun vill uppmärksamma att i det fortsatta arbetet vad gäller utbildningen av förskollärare till behöriga lärare för den nya årskurs 1 så bör lärarutbildningen även förstärkas med de grundläggande färdigheterna i läsning, skriv- och matematikkunskaper.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/lunds-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Lunds kommun (U2021/02645), s. 2",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/lunds-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U050",
+   "passage": "malmo-kommun#4",
+   "avsandare": "Malmö kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Den stora skillnaden kommer att ligga i att nya årskurs 1 kommer tillhöra lågstadiets läroplan, som i dagsläget inte är anpassad för elever i skolstartsåldern. Det behöver förtydligas hur en verksamhet för elever i skolstartsåldern kan utformas",
+   "sida": 1,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/malmo-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Malmö kommun (U2021/02645), s. 1",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/malmo-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F01"
+    ],
+    "kapitel": [
+     "5"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "5.1",
+     "Kapitel 5",
+     "Kapitel 5 5.1 Förskoleklassen upphör och lågstadiet utökas med en ny årskurs 1"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U051",
+   "passage": "malmo-kommun#6",
+   "avsandare": "Malmö kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "För ett sådant scenario talar att det är lärare behöriga i grundskolan och inte förskollärare som ska svara för undervisningen och att dessa lärare kan men inte måste genomgå ett ”Förskolepedagogiskt lyft” av oklart innehåll och omfattning.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/malmo-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Malmö kommun (U2021/02645), s. 2",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/malmo-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "5"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "5.2.4"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false
+   },
+   "skolform": [
+    "grundskola"
+   ]
+  },
+  {
+   "id": "U052",
+   "passage": "malmo-kommun#7",
+   "avsandare": "Malmö kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Kommunstyrelsen ser annars en risk att eleverna får mindre undervisning än vad de har rätt till när mycket tid riskerar att gå till kartläggningsarbete än till undervisning.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/malmo-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Malmö kommun (U2021/02645), s. 2",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/malmo-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F08"
+    ],
+    "kapitel": [
+     "5"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "5.2.7"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U053",
+   "passage": "malmo-kommun#10",
+   "avsandare": "Malmö kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Kommunstyrelsen ställer sig dock frågande till varför inte förslaget också omfattar överlämning av nödvändig information om barn som flyttar mellan olika huvudmäns förskolor/ pedagogisk omsorg, mellan vilka det i dag gäller stark sekretess.",
+   "sida": 3,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/malmo-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Malmö kommun (U2021/02645), s. 3",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/malmo-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F15"
+    ],
+    "kapitel": [
+     "5"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "5.4.3",
+     "5.4.3 Information vid övergång mellan förskola och skola"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U054",
+   "passage": "malmo-kommun#11",
+   "avsandare": "Malmö kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Samtidigt är det väl känt att det finns stora svårigheter att få processen kring barnens övergångar mellan förskola och skola att fungera. Skälet till övergångsproblematiken handlar bland annat om att barn från en och samma förskola på grund av det fria skolvalet kan spridas till ett större antal skolor och huvudmän.",
+   "sida": 3,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/malmo-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Malmö kommun (U2021/02645), s. 3",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/malmo-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F16"
+    ],
+    "kapitel": [
+     "5"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "5.4.4",
+     "5.4.4 Samverkan vid övergångar"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U055",
+   "passage": "malmo-kommun#11",
+   "avsandare": "Malmö kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "I dag förekommer det inte sällan att förskola och mottagande skola i brist på tydlighet i styrdokumenten, har olika uppfattningar om och förväntningar på vilka förmågor förskolan ska ge barnen förutsättningar att utveckla inför skolstarten.",
+   "sida": 3,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/malmo-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Malmö kommun (U2021/02645), s. 3",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/malmo-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F16"
+    ],
+    "kapitel": [
+     "5"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "5.4.4",
+     "5.4.4 Samverkan vid övergångar"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U056",
+   "passage": "malmo-kommun#13",
+   "avsandare": "Malmö kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "medföra en merkostnad på 5 miljoner kronor årligen.",
+   "sida": 4,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/malmo-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Malmö kommun (U2021/02645), s. 4",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/malmo-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F16"
+    ],
+    "kapitel": [
+     "5"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "5.4.4",
+     "5.4.4 Samverkan vid övergångar"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U057",
+   "passage": "malmo-kommun#14",
+   "avsandare": "Malmö kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "De största utmaningarna blir att tillgodose tillräckligt med legitimerade lärare i den nya årskurs 1 och att även befintlig personal med behörighet för att undervisa i nuvarande årskurs 1 – 3 får kompetens att undervisa i nya årskurs 1 (dagens förskoleklass).",
+   "sida": 4,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/malmo-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Malmö kommun (U2021/02645), s. 4",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/malmo-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "6"
+    ],
+    "grund": [
+     "Kapitel 6"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": [
+    "förskoleklass"
+   ]
+  },
+  {
+   "id": "U058",
+   "passage": "malmo-kommun#14",
+   "avsandare": "Malmö kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Kommunstyrelsen efterfrågar förslag på hur grundskollärare som ej har förskolebehörighet ska vidareutbildas. Detta saknas i utredningen och kommer medföra behov av kompetenshöjande insatser och finansiering av detta vid en eventuell implementering av en tioårig grundskola.",
+   "sida": 4,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/malmo-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Malmö kommun (U2021/02645), s. 4",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/malmo-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "6"
+    ],
+    "grund": [
+     "Kapitel 6"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": [
+    "grundskola"
+   ]
+  },
+  {
+   "id": "U059",
+   "passage": "malmo-kommun#14",
+   "avsandare": "Malmö kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Enligt utredningen ska det endast finnas en övergångsperiod på fem år för förskollärare i en ny årskurs 1, men kommunstyrelsen ser det som mycket svårt att täcka det behov av kompetens som kommer att uppstå om förslagen genomförs.",
+   "sida": 4,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/malmo-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Malmö kommun (U2021/02645), s. 4",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/malmo-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "6"
+    ],
+    "grund": [
+     "Kapitel 6"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": []
+  },
+  {
+   "id": "U060",
+   "passage": "malmo-kommun#14",
+   "avsandare": "Malmö kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Förändringarna medför stora utmaningar gällande kompetensförsörjningen och den idag rådande personalbristen medför att verksamheten riskerar att få stora utmaningar att fungera väl; om erfaren personal inte kan vara kvar eller om stora delar av personalstyrkan behöver vara tjänstlediga för att läsa in behörighet.",
+   "sida": 4,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/malmo-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Malmö kommun (U2021/02645), s. 4",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/malmo-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "6"
+    ],
+    "grund": [
+     "Kapitel 6"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": []
+  },
+  {
+   "id": "U061",
+   "passage": "malmo-kommun#14",
+   "avsandare": "Malmö kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Utifrån de utbildningar som genomförts inom kompetenshöjning av personalen har det av rektorerna upplevts att tjänstledigheten medför en del utmaningar.",
+   "sida": 4,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/malmo-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Malmö kommun (U2021/02645), s. 4",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/malmo-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "6"
+    ],
+    "grund": [
+     "Kapitel 6"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": []
+  },
+  {
+   "id": "U062",
+   "passage": "malmo-kommun#15",
+   "avsandare": "Malmö kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Det är problematiskt att Skolverkets bidrag inte ger full täckning för arbetsgivarens omkostnader för fortbildningsinsatserna.",
+   "sida": 5,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/malmo-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Malmö kommun (U2021/02645), s. 5",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/malmo-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F16"
+    ],
+    "kapitel": [
+     "5"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "5.4.4",
+     "5.4.4 Samverkan vid övergångar"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U063",
+   "passage": "malmo-kommun#15",
+   "avsandare": "Malmö kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Vidare efterfrågar kommunstyrelsen förtydligande om de kompetenshöjande insatserna som lyfts fram i utredningen leder till legitimation. Utan legitimation är det svårt att hitta incitament till varför utbildningarna ska genomföras.",
+   "sida": 5,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/malmo-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Malmö kommun (U2021/02645), s. 5",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/malmo-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F16"
+    ],
+    "kapitel": [
+     "5"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "5.4.4",
+     "5.4.4 Samverkan vid övergångar"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U064",
+   "passage": "malmo-kommun#15",
+   "avsandare": "Malmö kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Utredningens förslag riskerar medföra stor personalbrist vid en omorganisation av lågstadiet.",
+   "sida": 5,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/malmo-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Malmö kommun (U2021/02645), s. 5",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/malmo-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F16"
+    ],
+    "kapitel": [
+     "5"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "5.4.4",
+     "5.4.4 Samverkan vid övergångar"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U065",
+   "passage": "malmo-kommun#15",
+   "avsandare": "Malmö kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Det är av stor vikt att utbildningarna inte tar för mycket och för lång tid i anspråk, detta för att de ska kunna genomföras inom ramen för grundskolornas verksamhet.",
+   "sida": 5,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/malmo-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Malmö kommun (U2021/02645), s. 5",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/malmo-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F16"
+    ],
+    "kapitel": [
+     "5"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "5.4.4",
+     "5.4.4 Samverkan vid övergångar"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": [
+    "grundskola"
+   ]
+  },
+  {
+   "id": "U066",
+   "passage": "malmo-kommun#15",
+   "avsandare": "Malmö kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Kommunstyrelsen vill även påpeka att fortbildningar som syftar till att ge förskollärare behörighet i ett eller flera ämnen i lågstadiet, kan påverka tillgången till utbildad personal i förskolan",
+   "sida": 5,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/malmo-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Malmö kommun (U2021/02645), s. 5",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/malmo-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F16"
+    ],
+    "kapitel": [
+     "5"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "5.4.4",
+     "5.4.4 Samverkan vid övergångar"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U067",
+   "passage": "malmo-kommun#16",
+   "avsandare": "Malmö kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Om utredningens förslag genomförs anser kommunstyrelsen att utbildningarna och statsbidragen för dessa utbildningar måste träda i kraft tidigare än utredningens förslag om 1 augusti 2024 respektive 1 juli 2026.",
+   "sida": 5,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/malmo-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Malmö kommun (U2021/02645), s. 5",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/malmo-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "7"
+    ],
+    "grund": [
+     "Kapitel 7"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": []
+  },
+  {
+   "id": "U068",
+   "passage": "malmo-kommun#16",
+   "avsandare": "Malmö kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Det måste också tas hänsyn till andra kommande förändringar i grundskolan som revideringen av läroplaner och kursplaner.",
+   "sida": 5,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/malmo-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Malmö kommun (U2021/02645), s. 5",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/malmo-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "7"
+    ],
+    "grund": [
+     "Kapitel 7"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": [
+    "grundskola"
+   ]
+  },
+  {
+   "id": "U069",
+   "passage": "malmo-kommun#16",
+   "avsandare": "Malmö kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "När det gäller införandet av en tioårig grundskola kommer det innebära ökade kostnader för huvudmännen och därför borde statens ekonomiska ansvar vara tydliggjort redan i remissen och inget som ska framkomma först efter svar från remissinstanserna.",
+   "sida": 5,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/malmo-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Malmö kommun (U2021/02645), s. 5",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/malmo-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "7"
+    ],
+    "grund": [
+     "Kapitel 7"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": [
+    "grundskola"
+   ]
+  },
+  {
+   "id": "U070",
+   "passage": "norrtalje-kommun#14",
+   "avsandare": "Norrtälje kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Det innebär fler utredningar som kommer att starta under barnets förskoleår.",
+   "sida": 3,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/norrtalje-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Norrtälje kommun (U2021/02645), s. 3",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/norrtalje-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U071",
+   "passage": "norrtalje-kommun#14",
+   "avsandare": "Norrtälje kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Många av de lärare som jobbar i förskoleklass har inte lärarutbildning utan förskoleklasslärarutbildning. Det kan därför bli aktuellt med en omfattande fortbildningsinsats.",
+   "sida": 3,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/norrtalje-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Norrtälje kommun (U2021/02645), s. 3",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/norrtalje-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": [
+    "förskoleklass"
+   ]
+  },
+  {
+   "id": "U072",
+   "passage": "norrtalje-kommun#24",
+   "avsandare": "Norrtälje kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Det är dock viktigt att kunskapskraven är klara i god tid innan den föreslagna ändringen så att lärare, rektorer och huvudmän kan planera och genomföra kompetenshöjande insatser i god tid. Implementeringen av insatsen riskerar att fördröjas om inte Skolverket i god tid kan publicera kunskapskraven.",
+   "sida": 5,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/norrtalje-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Norrtälje kommun (U2021/02645), s. 5",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/norrtalje-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F06"
+    ],
+    "kapitel": [
+     "5"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "5.2.5",
+     "5.2.5 Kunskapskrav för godtagbara kunskaper i svenska, svenska som andraspråk och matematik för blivande årskurs 2(3)"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U073",
+   "passage": "norrtalje-kommun#26",
+   "avsandare": "Norrtälje kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Däremot bör det obligatoriska bedömningsstödet göras om så att det inte är så omfattande och komplicerat utan är användbart för professionen.",
+   "sida": 6,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/norrtalje-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Norrtälje kommun (U2021/02645), s. 6",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/norrtalje-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F08"
+    ],
+    "kapitel": [
+     "5"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "5.2.7"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U074",
+   "passage": "norrtalje-kommun#28",
+   "avsandare": "Norrtälje kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Däremot bör det obligatoriska bedömningsstödet göras om så att det inte är så omfattande och komplicerat utan är användbart för professionen.",
+   "sida": 6,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/norrtalje-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Norrtälje kommun (U2021/02645), s. 6",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/norrtalje-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": "U073"
+  },
+  {
+   "id": "U075",
+   "passage": "norrtalje-kommun#30",
+   "avsandare": "Norrtälje kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "de nationella provens omfattning och innehåll bör ses över då det kan upplevas som omfattande för professionen",
+   "sida": 7,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/norrtalje-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Norrtälje kommun (U2021/02645), s. 7",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/norrtalje-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F10"
+    ],
+    "kapitel": [
+     "5"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "5.2.9",
+     "5.2.9 Nationella prov i årskurs 4(5), 7(8) och 10(11)"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U076",
+   "passage": "norrtalje-kommun#35",
+   "avsandare": "Norrtälje kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Utökad skolplikt ställer höga krav på adekvata förberedelser för att bemanna med behörig personal samt att en översyn av grundsärskolans och träningsskolans behov av lokaler sker, om ytterligare en årskull av elever ska kunna tas emot. Avgörande är att skolan får tillräckligt med förberedelsetid.",
+   "sida": 8,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/norrtalje-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Norrtälje kommun (U2021/02645), s. 8",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/norrtalje-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F13"
+    ],
+    "kapitel": [
+     "5"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "5.3.1"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U077",
+   "passage": "norrtalje-kommun#35",
+   "avsandare": "Norrtälje kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Barn- och utbildningskontoret anser att förslaget kommer innebära ekonomiska konsekvenser för kommunerna. Då det kommer att saknas behörig personal i verksamheten. I dagsläget finns inte fullt behöriga lärare grundsärskolan och i Norrtälje kommuns grundsärskoleverksamhet märks redan nu ett stigande elevantal.",
+   "sida": 8,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/norrtalje-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Norrtälje kommun (U2021/02645), s. 8",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/norrtalje-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F13"
+    ],
+    "kapitel": [
+     "5"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "5.3.1"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U078",
+   "passage": "norrtalje-kommun#35",
+   "avsandare": "Norrtälje kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Att elever i grundsärskolan börjar ett år tidigare i grundsärskolan kommer förmodligen innebära ökade kostnader i den verksamheten",
+   "sida": 8,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/norrtalje-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Norrtälje kommun (U2021/02645), s. 8",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/norrtalje-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F13"
+    ],
+    "kapitel": [
+     "5"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "5.3.1"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U079",
+   "passage": "norrtalje-kommun#35",
+   "avsandare": "Norrtälje kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Även skolskjutsverksamheten kan förväntas få ekonomiska konsekvenser i och med att elever kan tas emot i grundsärskolan/träningsskolan fr o m 6 års ålder kommer särskolans elevpeng + individuella nivåpeng att betalas ut för ytterligare en årskurs.",
+   "sida": 8,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/norrtalje-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Norrtälje kommun (U2021/02645), s. 8",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/norrtalje-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F13"
+    ],
+    "kapitel": [
+     "5"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "5.3.1"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U080",
+   "passage": "norrtalje-kommun#35",
+   "avsandare": "Norrtälje kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Här kan det finnas risk att fler ansöker om uppskjuten skolplikt med tanke på att nya åk 1 kommer vara förenligt med lite mer krav.",
+   "sida": 8,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/norrtalje-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Norrtälje kommun (U2021/02645), s. 8",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/norrtalje-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F13"
+    ],
+    "kapitel": [
+     "5"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "5.3.1"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U081",
+   "passage": "norrtalje-kommun#45",
+   "avsandare": "Norrtälje kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Det kan bli ekonomiska konsekvenser med tanke på att fler elever kan nyttja detta.",
+   "sida": 10,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/norrtalje-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Norrtälje kommun (U2021/02645), s. 10",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/norrtalje-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F17",
+     "F18",
+     "F19",
+     "F20",
+     "F21"
+    ],
+    "kapitel": [
+     "5"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": true,
+    "grund": [
+     "5.5",
+     "5.5 Överväganden gällande vissa andra bestämmelser"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U082",
+   "passage": "norrtalje-kommun#62",
+   "avsandare": "Norrtälje kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "det är viktigt att Skolverket genomför fortbildning, t.ex. via Lärarlyftet, så att de berörda förskolelärarna blir behöriga att undervisa i år 1-4.",
+   "sida": 14,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/norrtalje-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Norrtälje kommun (U2021/02645), s. 14",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/norrtalje-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F26"
+    ],
+    "kapitel": [
+     "5"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "5.6.5",
+     "5.6.5 Elever som mottagits i förskoleklassen"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U083",
+   "passage": "norrtalje-kommun#63",
+   "avsandare": "Norrtälje kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "det kommer att behövas fortbildning för denna yrkesgrupp, främst när det gäller bedömning och läsinlärning.",
+   "sida": 14,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/norrtalje-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Norrtälje kommun (U2021/02645), s. 14",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/norrtalje-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F30"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "6.2.2",
+     "6.2.2 Vissa förskollärare ska vara behöriga att undervisa i nya årskurs 1 i grundskolan och sameskolan under fem år"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U084",
+   "passage": "norrtalje-kommun#65",
+   "avsandare": "Norrtälje kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Då grundsärskolan i nuläget inte har någon förskoleklass så är det viktigt att de förskollärare som går över till grundsärskolan kan och förstår målgruppen.",
+   "sida": 14,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/norrtalje-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Norrtälje kommun (U2021/02645), s. 14",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/norrtalje-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F31"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "6.2.3",
+     "6.2.3 Vissa förskollärare och lärare ska vara behöriga att undervisa i nya årskurs 1 i grundsärskolan under åtta respekt"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": [
+    "förskoleklass"
+   ]
+  },
+  {
+   "id": "U085",
+   "passage": "norrtalje-kommun#67",
+   "avsandare": "Norrtälje kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "anser det vara viktigt att kompetensen kring målgruppen tillvaratas samt att det sätts in fortbildning för denna yrkesgrupp.",
+   "sida": 15,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/norrtalje-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Norrtälje kommun (U2021/02645), s. 15",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/norrtalje-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F32"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "6.2.4",
+     "6.2.4 Vissa förskollärare ska vara behöriga att undervisa i nya årskurs 1 i specialskolan under fem år"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U086",
+   "passage": "norrtalje-kommun#68",
+   "avsandare": "Norrtälje kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "anser att det behövs fortbildning för denna yrkesgrupp, främst när det gäller bedömning och läsinlärning samt när det gäller matematik.",
+   "sida": 15,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/norrtalje-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Norrtälje kommun (U2021/02645), s. 15",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/norrtalje-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F33"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "6.2.5",
+     "6.2.5 Förskollärare med speciallärarexamen som bedriver undervisning som avser särskilt stöd"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U087",
+   "passage": "norrtalje-kommun#76",
+   "avsandare": "Norrtälje kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Risken är annars att det blir svårnavigerat för både enskild medarbetare och huvudman och förskollärare som skulle kunna ta del av kompetensutvecklingen inte gör det.",
+   "sida": 17,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/norrtalje-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Norrtälje kommun (U2021/02645), s. 17",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/norrtalje-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F37"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "6.3.4",
+     "6.3.4 Kompletterande utbildning ska ge behörighet i ämnen i årskurs 1–4 i grundskolan och sameskolan"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U088",
+   "passage": "norrtalje-kommun#76",
+   "avsandare": "Norrtälje kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Barn- och utbildningskontoret ser gärna att Skolverket uppdras att se över och planerar hur man kan stötta huvudmän (statsbidrag, utbildningar etc) att i god tid fortbilda aktuella medarbetare för att uppfylla lagkraven när de börjar gälla.",
+   "sida": 17,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/norrtalje-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Norrtälje kommun (U2021/02645), s. 17",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/norrtalje-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F37"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "6.3.4",
+     "6.3.4 Kompletterande utbildning ska ge behörighet i ämnen i årskurs 1–4 i grundskolan och sameskolan"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U089",
+   "passage": "norrtalje-kommun#87",
+   "avsandare": "Norrtälje kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Det är även andra grupper i behov av, huvudman, skolchef, rektor, ekonomer och andra medarbetare inom skolan. Den förståelsen behöver finnas i alla led i huvudmannens ansvarsområden.",
+   "sida": 20,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/norrtalje-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Norrtälje kommun (U2021/02645), s. 20",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/norrtalje-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F44"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "6.5",
+     "6.5 Kompetensutvecklande insatser för lärare m.fl."
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U090",
+   "passage": "norrtalje-kommun#101",
+   "avsandare": "Norrtälje kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "vill samtidigt påpeka risken för att tillfälliga statsbidrag gör att huvudmän organiserar som att de är permanenta",
+   "sida": 22,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/norrtalje-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Norrtälje kommun (U2021/02645), s. 22",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/norrtalje-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F52"
+    ],
+    "kapitel": [
+     "7"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "7.1.5",
+     "7.1.5 Statsbidrag för kapacitetsförstärkande och kvalitetshöjande åtgärder i lågstadiet"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U091",
+   "passage": "norrtalje-kommun#108",
+   "avsandare": "Norrtälje kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Det bör dock också beaktas de indirekta kostnader som uppstår till följd av förslagen. Såsom vikariekostnader under tid då lärare och annan personal genomgår fortbildningsinsatser, kostnader för systemanpassningar och anpassningar av administrativa system och processer, samt höjda lönenivåer.",
+   "sida": 23,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/norrtalje-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Norrtälje kommun (U2021/02645), s. 23",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/norrtalje-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F55"
+    ],
+    "kapitel": [
+     "7"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "7.2.4",
+     "7.2.4 Reformutvärdering"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U092",
+   "passage": "norrtalje-kommun#108",
+   "avsandare": "Norrtälje kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Det är ytterst viktigt att inte förslagen medför kostnadsökningar för kommunerna som ytterligare belastar en redan ansträngd ekonomisk situation för skolverksamheten.",
+   "sida": 23,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/norrtalje-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Norrtälje kommun (U2021/02645), s. 23",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/norrtalje-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F55"
+    ],
+    "kapitel": [
+     "7"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "7.2.4",
+     "7.2.4 Reformutvärdering"
+    ],
+    "kalla_for_grund": "rubrik i remissvaret som passagen står under",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U093",
+   "passage": "stockholms-kommun#3",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "lämnar samtidigt synpunkter främst på de förslag som organisatoriskt och ekonomiskt kommer att kräva omfattande insatser av huvudmännen",
+   "sida": 1,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2021/02645), s. 1",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U094",
+   "passage": "stockholms-kommun#3",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Bland annat lyfter nämnden fram att utredningens uppskattning av de ekonomiska konsekvenserna för kommunerna vid ett införande av årskurs 1 i grundsärskolan är för lågt beräknad och anser att kommunerna bör kompenseras för dessa kostnader.",
+   "sida": 1,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2021/02645), s. 1",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U095",
+   "passage": "stockholms-kommun#7",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Samtidigt behövs ett noggrant tillvägagångssätt för att säkerställa att bristen förskolelärare inte förstärks ytterligare.",
+   "sida": 3,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2021/02645), s. 3",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U096",
+   "passage": "stockholms-kommun#7",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Det är redan idag svårt för många skolor att anställa behörig personal med rätt kompetens i flera av våra socialt utsatta områden, särskilt inom fritidshemmet.",
+   "sida": 3,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2021/02645), s. 3",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U097",
+   "passage": "stockholms-kommun#7",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "genom det att den reformen genomförs ökar behovet av kompetensförsörjningsinsatser och ett omtag där verksamheten tillförs mer resurser.",
+   "sida": 3,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2021/02645), s. 3",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U098",
+   "passage": "stockholms-kommun#8",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Om fler timmar tillbringas i årskurs 1 jämfört med förskoleklass blir det färre timmar i fritidshemmet, vilket medför att huvudmannen behöver ta höjd för eventuella förändringar gällande bemanningen i fritidshemmet.",
+   "sida": 4,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2021/02645), s. 4",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": [
+    "förskoleklass"
+   ]
+  },
+  {
+   "id": "U099",
+   "passage": "stockholms-kommun#8",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "vill lyfta vikten av att förskolan ges utökat stöd avseende pedagogiska bedömningar inför mottagande i grundsärskolan då förslaget borde innebära att fler barn i förskoleålder ska utredas.",
+   "sida": 4,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2021/02645), s. 4",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U100",
+   "passage": "stockholms-kommun#9",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Utöver detta bedömer stadsledningskontoret att de ekonomiska konsekvenserna för kommunerna vid ett införande av årskurs 1 i grundsärskolan kan bli större än beräknat.",
+   "sida": 5,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2021/02645), s. 5",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F15"
+    ],
+    "kapitel": [
+     "5"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "3 kap. 12 j §"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U101",
+   "passage": "stockholms-kommun#9",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "bedömer att förslaget kan komma att påverka förskolans organisation och verksamhet avseende informationsöverföring och rutiner för övergång mellan förskola och skola.",
+   "sida": 5,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2021/02645), s. 5",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F15"
+    ],
+    "kapitel": [
+     "5"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "3 kap. 12 j §"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U102",
+   "passage": "stockholms-kommun#9",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Stadens tillsyn av fristående förskolor visar på stora skillnader i förskolornas rutiner för informationsöverlämning vid övergångar.",
+   "sida": 5,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2021/02645), s. 5",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F15"
+    ],
+    "kapitel": [
+     "5"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "3 kap. 12 j §"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U103",
+   "passage": "stockholms-kommun#9",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Stadsledningskontoret ser en risk för att antalet ansökningar om uppskjuten skolplikt kan komma att öka bland blivande grundskoleelever, då det kan uppfattas som att nya årkurs 1 ställer högre krav på eleven.",
+   "sida": 5,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2021/02645), s. 5",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F15"
+    ],
+    "kapitel": [
+     "5"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "3 kap. 12 j §"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false
+   },
+   "skolform": [
+    "grundskola"
+   ]
+  },
+  {
+   "id": "U104",
+   "passage": "stockholms-kommun#9",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Samtidigt vill stadsledningskontoret betona att förändringarna rent organisatoriskt kommer kräva omfattande insatser av huvudmännen, inte minst för en stor kommun som Stockholm.",
+   "sida": 5,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2021/02645), s. 5",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F15"
+    ],
+    "kapitel": [
+     "5"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "3 kap. 12 j §"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U105",
+   "passage": "stockholms-kommun#9",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Utredarna ser en risk för att förslagen om behörighet och fortbildning kan leda till en brist på förskollärare i förskolan, då reformen ger förskollärare möjlighet att genom erfarenhet och fortbildning erhålla behörighet att undervisa i det nya lågstadiet. Stadsledningskontoret ser också den risken",
+   "sida": 5,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2021/02645), s. 5",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F15"
+    ],
+    "kapitel": [
+     "5"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "3 kap. 12 j §"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U106",
+   "passage": "stockholms-kommun#9",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Stadsledningskontoret anser att konsekvenserna för förskolan skulle kunna ha lyfts ytterligare i utredningen. Exempel på frågor är bland annat hur förskolans undervisningsuppdrag kommer att påverkas, hur förskolan ska bedöma kunskaper och förmågor i samband med överlämning samt om innehållet i förskolans sista år kommer att påverkas med förtydligade krav på skolförberedande verksamhet.",
+   "sida": 5,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2021/02645), s. 5",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F15"
+    ],
+    "kapitel": [
+     "5"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "3 kap. 12 j §"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U107",
+   "passage": "stockholms-kommun#10",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Det är särskilt viktigt med tanke på att det redan idag finns en bemanningsproblematik i fritidshemmet med betydligt lägre andel utbildad och behörig personal än i övriga verksamheter.",
+   "sida": 6,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2021/02645), s. 6",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U108",
+   "passage": "stockholms-kommun#10",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Vidare har utredningen framfört att de nya behörighetskraven kan medföra att förskollärare inte längre kan arbeta i fritidshemmet, vilket enligt stadsledningskontoret ytterligare kan försvåra bemanningsproblematiken.",
+   "sida": 6,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2021/02645), s. 6",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U109",
+   "passage": "stockholms-kommun#10",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Det finns en risk att förskollärare återvänder till förskolan om fortbildningen för behörighet i lågstadiet inte utformas på ett sätt som gör det enkelt och överkomligt för dem. Grundskoleverksamheten riskerar att drabbas om viktig kompetens om barns lärande i yngre åldrar går förlorade.",
+   "sida": 6,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2021/02645), s. 6",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": [
+    "grundskola"
+   ]
+  },
+  {
+   "id": "U110",
+   "passage": "stockholms-kommun#10",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Syftet med de både bidragen är liknande och ansökningsprocesserna är desamma, inklusive det omfattande arbetet med insatsplaner.",
+   "sida": 6,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2021/02645), s. 6",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U111",
+   "passage": "stockholms-kommun#11",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Därutöver vill stadsledningskontoret lyfta problematiken kring att det föreslås krav på att en förskolelärare ska ha en anställning vid tidpunkten för de nya bestämmelsernas ikraftträdande, dvs. senast den 30 juni 2026.",
+   "sida": 7,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2021/02645), s. 7",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U112",
+   "passage": "stockholms-kommun#11",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Sammanfattningsvis innebär förslaget risker för huvudmännen, alternativt minskat statsbidrag för karriärtjänster och lärarlönelyftet.",
+   "sida": 7,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2021/02645), s. 7",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U113",
+   "passage": "stockholms-kommun#12",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "förutom vad gäller den föreslagna finansieringen av de nya statsbidragen där utredarna föreslår att anslag ska tas från likvärdighetsbidraget och statsbidragen för karriärtjänster och lärarlönelyftet.",
+   "sida": 8,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2021/02645), s. 8",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U114",
+   "passage": "stockholms-kommun#13",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "I likhet med utredningen ser förvaltningen att en utökad undervisningstid i nya årskurs 1 kommer att påverka fritidshemmets organisering då det främst är barn i lågstadiet som går på fritidshemmet.",
+   "sida": 8,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2021/02645), s. 8",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U115",
+   "passage": "stockholms-kommun#14",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "men vill lyfta vikten av att förskolan ges utökat stöd avseende pedagogiska bedömningar inför mottagande i grundsärskolan då förslaget borde innebära att fler barn i förskoleålder ska utredas.",
+   "sida": 9,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2021/02645), s. 9",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": "U099"
+  },
+  {
+   "id": "U116",
+   "passage": "stockholms-kommun#14",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Om man istället utgår från elevantalet utifrån 2026 års elevprognos (utifrån senast tillgänglig statistik samt befolkningsprognos för 2026/27 från Statistiska centralbyrån, SCB) resulterar detta i en dubblering av antalet elever, vilket i sin tur medför en fördubblad kostnad gentemot den beräknade summan som presenteras i utredningen.",
+   "sida": 9,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2021/02645), s. 9",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F15"
+    ],
+    "kapitel": [
+     "5"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "3 kap. 12 j §"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U117",
+   "passage": "stockholms-kommun#14",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Förvaltningen bedömer att utredningens förslag om obligatorisk överlämning vid övergång från förskola eller pedagogisk omsorg till skola kan komma att påverka förskolans organisation och verksamhet avseende informationsöverföring och rutiner för övergång mellan förskola och skola.",
+   "sida": 9,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2021/02645), s. 9",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F15"
+    ],
+    "kapitel": [
+     "5"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "3 kap. 12 j §"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U118",
+   "passage": "stockholms-kommun#14",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Stadens tillsyn av fristående förskolor visar på stora skillnader i förskolornas rutiner för informationsöverlämning vid övergångar.",
+   "sida": 9,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2021/02645), s. 9",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": "U102"
+  },
+  {
+   "id": "U119",
+   "passage": "stockholms-kommun#14",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Förvaltningen vill även framhålla vikten av att de formaliserade kraven på överlämning inte får bidra till att öka förskollärarnas administrativa arbetsbörda.",
+   "sida": 9,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2021/02645), s. 9",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F15"
+    ],
+    "kapitel": [
+     "5"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "3 kap. 12 j §"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U120",
+   "passage": "stockholms-kommun#14",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Förvaltningen ställer sig bakom förslaget men vill påtala att detta kommer att påverka lärares arbetstid, vilket i sin tur kommer att medföra utökade kostnader för huvudmännen.",
+   "sida": 9,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2021/02645), s. 9",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F15"
+    ],
+    "kapitel": [
+     "5"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "3 kap. 12 j §"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U121",
+   "passage": "stockholms-kommun#15",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Förvaltningen ser en farhåga att antalet ansökningar om uppskjuten skolplikt kan komma att öka bland blivande grundskoleelever, då det kan uppfattas som att nya årkurs 1 innebär ”mer skola” och därmed ställer högre krav på eleven.",
+   "sida": 10,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2021/02645), s. 10",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": [
+    "grundskola"
+   ]
+  },
+  {
+   "id": "U122",
+   "passage": "stockholms-kommun#15",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Detta skulle annars kunna resultera i att icke skolpliktiga elever som ska fylla fem år, genom ansökan om tidigare skolstart, kan konkurrera ut skolpliktiga elever, vilket kan komma att medföra stora organisatoriska svårigheter för kommunen.",
+   "sida": 10,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2021/02645), s. 10",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U123",
+   "passage": "stockholms-kommun#15",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Förvaltningen vill dock poängtera att förändringarna rent organisatoriskt kommer kräva omfattande insatser av huvudmännen, inte minst för en stor kommun som Stockholms stad.",
+   "sida": 10,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2021/02645), s. 10",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U124",
+   "passage": "stockholms-kommun#15",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Förvaltningen har tidigare lyft farhågorna gällande bristen på behörig personal i nya årskurs 1 i grundsärskolan.",
+   "sida": 10,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2021/02645), s. 10",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U125",
+   "passage": "stockholms-kommun#15",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Liksom utredarna, ser förvaltningen en risk att förslagen om behörighet och fortbildning kan leda till en brist på förskollärare i förskolan",
+   "sida": 10,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2021/02645), s. 10",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U126",
+   "passage": "stockholms-kommun#15",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Förvaltningen vill dessutom uppmärksamma ett antal frågetecken och tänkbara konsekvenser på sikt av utredningens förslag. - Om nuvarande förskoleklass blir årskurs 1, hur kommer det att påverka förskolans undervisningsuppdrag?",
+   "sida": 10,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2021/02645), s. 10",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": [
+    "förskoleklass"
+   ]
+  },
+  {
+   "id": "U127",
+   "passage": "stockholms-kommun#15",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Det här blir extra viktigt med tanke på att det redan idag finns en bemanningsproblematik i fritidshemmet med betydligt lägre andel utbildad och behörig personal än i övriga verksamheter.",
+   "sida": 10,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2021/02645), s. 10",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": "U107"
+  },
+  {
+   "id": "U128",
+   "passage": "stockholms-kommun#15",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Vidare har utredningen framfört att de nya behörighetskraven kan medföra att förskollärare inte längre kan arbeta i fritidshemmet, vilket enligt förvaltningen ytterligare kan försvåra bemanningsproblematiken i fritidshemmet.",
+   "sida": 10,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2021/02645), s. 10",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U129",
+   "passage": "stockholms-kommun#15",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Det finns, som tidigare nämnts, en risk att förskollärare återvänder till förskolan om fortbildningen för behörighet i lågstadiet inte utformas på ett sätt som gör det enkelt och överkomligt för dem. Detta riskerar att på sikt skada grundskoleverksamheten då viktig kompetens om barns lärande i yngre åldrar går förlorade.",
+   "sida": 10,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2021/02645), s. 10",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": [
+    "grundskola"
+   ]
+  },
+  {
+   "id": "U130",
+   "passage": "stockholms-kommun#16",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Syftet med de både bidragen är liknande (att skapa likvärdig utbildning) och ansökningsprocesserna är desamma, inklusive det omfattande arbetet med insatsplaner.",
+   "sida": 11,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2021/02645), s. 11",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U131",
+   "passage": "stockholms-kommun#16",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Därutöver vill förvaltningen lyfta att det är olyckligt att det föreslås krav på att en förskolelärare ska ha en anställning vid tidpunkten för de nya bestämmelsernas ikraftträdande, dvs. senast den 30 juni 2026.",
+   "sida": 11,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2021/02645), s. 11",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U132",
+   "passage": "stockholms-kommun#17",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Sammanfattningsvis innebär förslaget påtvingande risker för huvudmännen, alternativt minskat statsbidrag för karriärtjänster och lärarlönelyftet, vilket förvaltningen inte står bakom.",
+   "sida": 12,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2021/02645), s. 12",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "förslag",
+    "forslag": [
+     "F53"
+    ],
+    "kapitel": [
+     "7"
+    ],
+    "flera_forslag_i_hanvisat_avsnitt": false,
+    "grund": [
+     "avsnitt 7.2.2"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U133",
+   "passage": "stockholms-kommun#17",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "förutom vad gäller den föreslagna finansieringen av de nya statsbidragen där utredarna föreslår att anslag ska tas från likvärdighetsbidraget och statsbidragen för karriärtjänster och lärarlönelyftet",
+   "sida": 12,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2021/02645), s. 12",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": "U113"
+  },
+  {
+   "id": "U134",
+   "passage": "stockholms-kommun#18",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Samtidigt behövs ett noggrant tillvägagångssätt för att säkerställa att bristen förskolelärare inte förstärks ytterligare.",
+   "sida": 13,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2021/02645), s. 13",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": "U095"
+  },
+  {
+   "id": "U135",
+   "passage": "stockholms-kommun#18",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Det är redan idag svårt för många skolor att anställa behörig personal med rätt kompetens i flera av våra socialt utsatta områden, särskilt inom fritidshemmet.",
+   "sida": 13,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2021/02645), s. 13",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": "U096"
+  },
+  {
+   "id": "U136",
+   "passage": "stockholms-kommun#18",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "genom det att den reformen genomförs ökar behovet av kompetensförsörjningsinsatser och ett omtag där verksamheten tillförs mer resurser.",
+   "sida": 13,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2021/02645), s. 13",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": "U097"
+  },
+  {
+   "id": "U137",
+   "passage": "stockholms-kommun#19",
+   "avsandare": "Stockholms kommun",
+   "fokusgrupp": "kommuner",
+   "grupp": "huvudman",
+   "citat": "Därutöver vill vi även lyfta att en tioårig grundskola även kommer innebära att förskollärarna som kommer få ett ökat ansvar för undervisningen behöver tjänster som möjliggör det. Det innebär rimligen att de inte kan ha en delad tjänst med eftermiddagar på fritidshemmen.",
+   "sida": 13,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Stockholms kommun (U2021/02645), s. 13",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/stockholms-kommun.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": [
+    "grundskola"
+   ]
+  },
+  {
+   "id": "U138",
+   "passage": "sveriges-kommuner-och-regioner#6",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "SKR ifrågasätter om utbildningens omfattning och innehåll räcker för att ge den kompetens som krävs för att undervisa i alla ämnen i årskurs 1 och 2.",
+   "sida": 1,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2021/02645), s. 1",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U139",
+   "passage": "sveriges-kommuner-och-regioner#7",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "SKR avråder att det finns krav på att läraren är anställd ett visst datum, då erfarenheterna av motsvarande bestämmelse från legitimationsreformen och VAL visar på oönskade konsekvenser.",
+   "sida": 1,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2021/02645), s. 1",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U140",
+   "passage": "sveriges-kommuner-och-regioner#10",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "SKR anser att kostnaderna för dessa förslag är högre än vad som anges i betänkandet.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2021/02645), s. 2",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U141",
+   "passage": "sveriges-kommuner-och-regioner#11",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "Förbundet kan konstatera att kommunerna visserligen får kompensation enligt finansieringsprincipen men i gengäld minskas intäkterna från riktade statsbidrag. Det innebär att med samma totala resurser ska fler obligatoriska och utökade uppgifter utföras.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2021/02645), s. 2",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U142",
+   "passage": "sveriges-kommuner-och-regioner#12",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "Exempelvis kan det komma att uppstå en brist på personal i fritidshemmen när förskollärare fortbildas till lärare i grundskolan.",
+   "sida": 2,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2021/02645), s. 2",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": [
+    "grundskola"
+   ]
+  },
+  {
+   "id": "U143",
+   "passage": "sveriges-kommuner-och-regioner#13",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "I dag finns inte förskoleklassen i grundsärskolan vilket kan innebära särskilda utmaningar för grundsärskolan när nya årskurs 1 införs",
+   "sida": 3,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2021/02645), s. 3",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "5"
+    ],
+    "grund": [
+     "Kapitel 5"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": [
+    "förskoleklass"
+   ]
+  },
+  {
+   "id": "U144",
+   "passage": "sveriges-kommuner-och-regioner#16",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "Förbundet vill dock betona att kunskapskraven behöver implementeras och det också kan finnas behov av visst stödmaterial.",
+   "sida": 4,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2021/02645), s. 4",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U145",
+   "passage": "sveriges-kommuner-och-regioner#18",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "SKR anser att det måste vara tydligt vilka uppgifter om barnet som ska överlämnas till skolan och att det därför behöver tas fram stödmaterial i frågan samt genomföras informations- och kompetenshöjande insatser.",
+   "sida": 5,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2021/02645), s. 5",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U146",
+   "passage": "sveriges-kommuner-och-regioner#20",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "Om de fristående skolorna väljer att inte ansöka om eller inte får tillstånd för nya årskurs 1 vill SKR uppmärksamma att det kan medföra organisatoriska svårigheter för de kommunala skolorna i närområdet eftersom det måste finnas beredskap hos dessa skolor att ta emot de elever som i första hand sökt till de fristående skolorna i fråga.",
+   "sida": 5,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2021/02645), s. 5",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U147",
+   "passage": "sveriges-kommuner-och-regioner#22",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "Förskollärarna i förskoleklass arbetar även ofta i fritidshem, där bristen på personal med pedagogisk högskoleutbildning är betydligt större än i förskoleklass. Det gör att även fritidshemmens behov av kompensförsörjning behöver beaktas.",
+   "sida": 6,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2021/02645), s. 6",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": [
+    "förskoleklass"
+   ]
+  },
+  {
+   "id": "U148",
+   "passage": "sveriges-kommuner-och-regioner#22",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "När det gäller grundsärskolan krävs ett helhetsgrepp när det gäller utformningen av behörighetsregler och behovet av fortbildningsinsatser.",
+   "sida": 6,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2021/02645), s. 6",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U149",
+   "passage": "sveriges-kommuner-och-regioner#22",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "SKR avråder från att knyta övergångsreglerna till att läraren är anställd ett visst datum, i detta fall 30 juni 2026, då det kan förekomma att läraren tillfälligt inte har en sådan anställning just det datumet.",
+   "sida": 6,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2021/02645), s. 6",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U150",
+   "passage": "sveriges-kommuner-och-regioner#24",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "SKR ifrågasätter om utbildningens omfattning (30 högskolepoäng) och innehåll (svenska, svenska som andraspråk och matematik) räcker för att ge den kompetens som krävs för att undervisa i alla ämnen i årskurs 1 och 2, särskilt om läraren enbart har erfarenhet av undervisning i förskoleklass.",
+   "sida": 7,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2021/02645), s. 7",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": [
+    "förskoleklass"
+   ]
+  },
+  {
+   "id": "U151",
+   "passage": "sveriges-kommuner-och-regioner#24",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "SKR avråder från att kräva att läraren har anställning den 30 juni 2026, då erfarenheterna från VAL-projektet visar på oönskade konsekvenser av att sätta ett sådant datum.",
+   "sida": 7,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2021/02645), s. 7",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U152",
+   "passage": "sveriges-kommuner-och-regioner#25",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "SKR tillstyrker förslaget men, som tidigare nämnts, avråder från att det ska krävas att förskolläraren har anställning ett visst datum.",
+   "sida": 7,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2021/02645), s. 7",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U153",
+   "passage": "sveriges-kommuner-och-regioner#26",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "det är samtidigt nödvändigt att säkerställa att både förskoleklassen och fritidshemmen bemannas av kompetent och lämplig personal när förskollärarna deltar i",
+   "sida": 7,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2021/02645), s. 7",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": [
+    "förskoleklass"
+   ]
+  },
+  {
+   "id": "U154",
+   "passage": "sveriges-kommuner-och-regioner#28",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "Samtidigt behöver omfattningen på kompetensutveckling, som i sig inte är behörighetsgivande, stå i relation till behovet av att prioritera den behörighetsgivande fortbildningen för förskollärarna.",
+   "sida": 8,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2021/02645), s. 8",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U155",
+   "passage": "sveriges-kommuner-och-regioner#30",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "Den stora utmaningen är dock att kommunerna ska hinna fortbilda tillräckligt många förskollärare och även att statsbidragen ska räcka till detta.",
+   "sida": 8,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2021/02645), s. 8",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": "kapitel",
+    "forslag": [],
+    "kapitel": [
+     "7"
+    ],
+    "grund": [
+     "Kapitel 7"
+    ],
+    "kalla_for_grund": "remissvarets egen text",
+    "tolkning": false,
+    "anm": "Hänvisningen pekar på kapitel (eller avsnitt utan förslagsruta); ingen expansion till enskilda förslag."
+   },
+   "skolform": []
+  },
+  {
+   "id": "U156",
+   "passage": "sveriges-kommuner-och-regioner#31",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "Det är av stor vikt att kommunerna ges rimliga förutsättningar att delta i implementeringen, framför allt gäller det mindre huvudmän.",
+   "sida": 9,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2021/02645), s. 9",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U157",
+   "passage": "sveriges-kommuner-och-regioner#31",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "Samtidigt är det viktigt att befintliga statsbidrag inte överutnyttjas eftersom detta sammantaget leder till minskade bidrag till kommunerna.",
+   "sida": 9,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2021/02645), s. 9",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U158",
+   "passage": "sveriges-kommuner-och-regioner#34",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "SKR instämde med Grundskoleutredningens förslag att skolskjutskostnaderna borde beräknats från botten och vill ännu en gång betona att full kompensation för skolskjutsarna saknas och nu borde tillföras kommunerna.",
+   "sida": 10,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2021/02645), s. 10",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": [
+    "grundskola"
+   ]
+  },
+  {
+   "id": "U159",
+   "passage": "sveriges-kommuner-och-regioner#35",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "SKR anser att utredningen har räknat på att för få elever kommer att gå i årskurs 1 i grundsärskolan. SKR anser att kostnaden i stället för 181 miljoner kronor per år bör uppgå till cirka 360 miljoner kronor per år (uppräknat till 2026 års nivå).",
+   "sida": 10,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2021/02645), s. 10",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U160",
+   "passage": "sveriges-kommuner-och-regioner#36",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "Det är svårt att bedöma antalet men SKR bedömer att det kommer att vara fler elever än vad utredningen räknar med.",
+   "sida": 10,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2021/02645), s. 10",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U161",
+   "passage": "sveriges-kommuner-och-regioner#38",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "Redan i dag är det brist på behöriga lärare i grundsärskolan och en utökning av denna skolform kan innebära ytterligare svårigheter gällande rekrytering av personal men också av organisering av verksamheten.",
+   "sida": 11,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2021/02645), s. 11",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U162",
+   "passage": "sveriges-kommuner-och-regioner#38",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "SKR anser att utredningen räknat på för låg omfattning av förslaget och att kostnaden i stället för 30 miljoner kronor per år bör uppgå till 40 miljoner kronor per år (uppräknat till 2026 års nivå).",
+   "sida": 11,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2021/02645), s. 11",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U163",
+   "passage": "sveriges-kommuner-och-regioner#39",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "SKR ser att det nya åtagandet snarare uppgår till 60 minuter.",
+   "sida": 11,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2021/02645), s. 11",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U164",
+   "passage": "sveriges-kommuner-och-regioner#40",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "Vissa statsbidrag föreslås dessutom att tas i anspråk av flera utredningar.",
+   "sida": 11,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2021/02645), s. 11",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U165",
+   "passage": "sveriges-kommuner-och-regioner#40",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "Det innebär att med samma totala resurser ska fler obligatoriska och utökade uppgifter utföras.",
+   "sida": 11,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2021/02645), s. 11",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U166",
+   "passage": "sveriges-kommuner-och-regioner#41",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "I likhet med utredningen anser SKR att det är av stor vikt att regeringen noga följer utvecklingen av användningen av statsbidraget och vid behov tillför ytterligare medel och även förlänger tiden för fortbildningen.",
+   "sida": 12,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2021/02645), s. 12",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U167",
+   "passage": "sveriges-kommuner-och-regioner#42",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "Det innebär i princip att fortbildningen blir ett nytt åtagande för kommunerna. SKR anser därför att statsbidraget ska motsvara 100 procent av arbetsgivarens kostnad för ersättning.",
+   "sida": 12,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2021/02645), s. 12",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U168",
+   "passage": "sveriges-kommuner-och-regioner#42",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "Dessa förskollärare ingår nu inte i utredningens beräkningar.",
+   "sida": 12,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2021/02645), s. 12",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U169",
+   "passage": "sveriges-kommuner-och-regioner#42",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "Det innebär att kommunerna sammantaget får mindre medel till verksamheten.",
+   "sida": 12,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2021/02645), s. 12",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U170",
+   "passage": "sveriges-kommuner-och-regioner#43",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "Det kommer att påverka huvudmännen såväl organisatoriskt som ekonomiskt och riskerar också att påverka verksamhetens kvalitet negativt.",
+   "sida": 12,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2021/02645), s. 12",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U171",
+   "passage": "sveriges-kommuner-och-regioner#43",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "Fritidshemmens bemanning under övergångsperioden kommer att påverkas av att förskollärare deltar i behörighetsgivande fortbildning. I dag arbetar en hög andel av förskollärarna i förskoleklass även i fritidshem.",
+   "sida": 12,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2021/02645), s. 12",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": [
+    "förskoleklass"
+   ]
+  },
+  {
+   "id": "U172",
+   "passage": "sveriges-kommuner-och-regioner#43",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "Såväl kostnaderna som svårigheten att rekrytera vikarier med tillräcklig kompetens gör att det finns en risk att det inte är möjligt att genomföra dessa utbildningar parallellt med de behörighetsgivande utbildningarna för förskollärare.",
+   "sida": 12,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2021/02645), s. 12",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U173",
+   "passage": "sveriges-kommuner-och-regioner#44",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "Det kan leda till ett behov av att rekrytera ny personal till fritidshem och därmed ökade personalkostnader.",
+   "sida": 13,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2021/02645), s. 13",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": []
+  },
+  {
+   "id": "U174",
+   "passage": "sveriges-kommuner-och-regioner#44",
+   "avsandare": "Sveriges Kommuner och Regioner",
+   "fokusgrupp": "skr",
+   "grupp": "huvudmannaorganisation",
+   "citat": "Svårigheten att rekrytera utbildad personal gör också att fritidshemmen riskerar att dräneras på kompetens under en längre tid om införandet av tioårig grundskola inte följs åt av statliga åtgärder för att säkra även fritidshemmens kompetensförsörjning.",
+   "sida": 13,
+   "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf",
+   "ocr": false,
+   "kalla": {
+    "text": "Remissvar från Sveriges Kommuner och Regioner (U2021/02645), s. 13",
+    "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/sveriges-kommuner-och-regioner.pdf"
+   },
+   "citatkontroll": {
+    "metod": "automatisk mot pdftotext-sidtext",
+    "ok": true
+   },
+   "dublett_av": null,
+   "utmaningstyp": null,
+   "koppling": {
+    "niva": null,
+    "forslag": [],
+    "kapitel": [],
+    "tolkning": false
+   },
+   "skolform": [
+    "grundskola"
+   ]
+  }
+ ]
+}
