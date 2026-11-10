@@ -1,0 +1,442 @@
+{
+ "_meta": {
+  "steg": "M1b oberoende identifiering av 40 slumpvis valda passager (≥ 100 tecken, frö 20261201) med samma instruktion; kodare A = M1",
+  "matt": "överens = båda kodarna anger minst en utmaning, eller ingen av dem",
+  "overens": 35,
+  "antal": 40,
+  "tolkning": true
+ },
+ "passager": [
+  {
+   "id": "gislaveds-kommun#75",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "linkopings-kommun#11",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "gislaveds-kommun#81",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "kristianstads-kommun#34",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 1,
+   "kodare_b": [
+    {
+     "citat": "kan å andra sidan minska lärarnas flexibilitet att anpassa undervisningen efter elevernas behov.",
+     "oppen_kod": "minskad flexibilitet i undervisningen"
+    }
+   ],
+   "overens": false
+  },
+  {
+   "id": "harnosands-kommun#9",
+   "kodare_a_antal": 2,
+   "kodare_b_antal": 2,
+   "kodare_b": [
+    {
+     "citat": "I syfte att i högre grad träna eleverna i provsituationer måste lärarna ägna mer tid till att skapa och rätta dessa prov.",
+     "oppen_kod": "ökad lärararbetsbörda för egna prov"
+    },
+    {
+     "citat": "Det är en utmaning för små enheter som bara har en lärare i ett eller flera ämnen. För att möjliggöra dessa samråd kommer en mer omfattande organisation att krävas.",
+     "oppen_kod": "bedömningssamråd svårt på små enheter"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "gislaveds-kommun#97",
+   "kodare_a_antal": 2,
+   "kodare_b_antal": 2,
+   "kodare_b": [
+    {
+     "citat": "Gislaveds kommun anser att utredningen underskattar behovet ute på de olika skolenheterna av att införa nya gemensamma slutprov i ett flertal ämnen om undervisande lärare och rektorer inte får tillgång till elevernas individuella slutprov i god tid före betygssättningen.",
+     "oppen_kod": "behov av egna skolprov"
+    },
+    {
+     "citat": "Det är även en väsentlig del av huvudmännens och rektorernas uppföljning av elevresultaten att ha tillgång till dessa individuella resultat från de nationella slutproven",
+     "oppen_kod": "uppföljning kräver individuella provresultat"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "falu-kommun#13",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "gislaveds-kommun#15",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "kristianstads-kommun#30",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 1,
+   "kodare_b": [
+    {
+     "citat": "Om introduktionsprogrammet programinriktat val tas bort är det viktigt att säkerställa att även elever som antas där idag har alternativ.",
+     "oppen_kod": "alternativ efter borttaget programinriktat val"
+    }
+   ],
+   "overens": false
+  },
+  {
+   "id": "gislaveds-kommun#73",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "olofstroms-kommun#4",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "almega-utbildning#14",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 1,
+   "kodare_b": [
+    {
+     "citat": "Men systemet måste också kunna ta hänsyn till den flexibilitet som krävs av utbildningen.",
+     "oppen_kod": "slutprov krockar med vuxenutbildningens flexibilitet"
+    }
+   ],
+   "overens": false
+  },
+  {
+   "id": "sveriges-kommuner-och-regioner#41",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "goteborgs-kommun#3",
+   "kodare_a_antal": 6,
+   "kodare_b_antal": 9,
+   "kodare_b": [
+    {
+     "citat": "att införandet av nationella slutprov kan få oönskade konsekvenser för undervisningen",
+     "oppen_kod": "slutprov styr undervisningen negativt"
+    },
+    {
+     "citat": "att den föreslagna modellen inte är anpassad efter Komvux särskilda förutsättningar",
+     "oppen_kod": "modellen ej anpassad för komvux"
+    },
+    {
+     "citat": "att antagningen till gymnasieskolan förskjuts vilket påverkar såväl elever som huvudmännens möjligheter att organisera verksamheten",
+     "oppen_kod": "senare antagning försvårar planering"
+    },
+    {
+     "citat": "att den tidplan för införande som anges i utredningen är alltför snäv",
+     "oppen_kod": "för snäv införandetidplan"
+    },
+    {
+     "citat": "Göteborgs Stad anser även att betänkandet saknar ett nyanserat resonemang kring den anpassade gymnasieskolan där större åtskillnad behöver göras mellan skolformens nationella och individuella program.",
+     "oppen_kod": "oklar tillämpning i anpassad gymnasieskola"
+    },
+    {
+     "citat": "Ur ett ekonomiskt perspektiv bedömer Göteborgs Stad att utredningen underskattat de konsekvenser förslagen medför för skolans huvudmän.",
+     "oppen_kod": "underskattade kostnader för huvudmän"
+    },
+    {
+     "citat": "vilket för Göteborgs Stads del skulle innebära minskade statliga anslag med cirka 20 mnkr per år.",
+     "oppen_kod": "minskade statliga anslag"
+    },
+    {
+     "citat": "När nuvarande nationella prov inte längre kommer att kunna användas i bedömningssyfte kommer det att uppstå ett behov att ta fram egna alternativa prov som bedömningsstöd.",
+     "oppen_kod": "behov av egna bedömningsprov"
+    },
+    {
+     "citat": "Dessutom kommer betydande insatser att behöva genomföras inom en rad områden som fortbildning, information till personal, elever och vårdnadshavare, anpassning av verksamhetssystem samt utveckling av rutiner och arbetssätt. Samtliga insatser kommer att ta både tid och ekonomiska resurser i anspråk.",
+     "oppen_kod": "omfattande implementeringsinsatser"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "gislaveds-kommun#33",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "norrkopings-kommun#20",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "gislaveds-kommun#96",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "orebro-kommun#5",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "linkopings-kommun#14",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "stockholms-kommun#17",
+   "kodare_a_antal": 3,
+   "kodare_b_antal": 3,
+   "kodare_b": [
+    {
+     "citat": "Detta kräver bemanning och rätt kompetens, vilket kan bli utmanande för mindre kommuner och skolor utan lämpliga lokaler.",
+     "oppen_kod": "provgenomförande kräver bemanning och lokaler"
+    },
+    {
+     "citat": "Stadsledningskontoret anser att utredningens förslag riskerar att försämra möjligheterna för elever inom komvux att ta sig vidare i utbildningssystemet och mot en hållbar etablering i arbetslivet, då det kan påverka komvux uppdrag som en andra chans för dem som inte lyckades med sina studier på gymnasiet.",
+     "oppen_kod": "komvux andra-chansuppdrag försvagas"
+    },
+    {
+     "citat": "Förslaget med endast två provtillfällen om året begränsar komvux möjligheter att erbjuda en flexibel och kontinuerlig utbildning under året.",
+     "oppen_kod": "få provtillfällen begränsar komvux"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "sveriges-kommuner-och-regioner#6",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 1,
+   "kodare_b": [
+    {
+     "citat": "SKR poängterar vikten av omfattande informationsinsatser för att betygssystemet ska få legitimitet samt vikten av en noggrant planerad tidsplan som är möjlig att justera beroende på de konsekvenser som kan uppkomma.",
+     "oppen_kod": "informationsbehov och tidplan"
+    }
+   ],
+   "overens": false
+  },
+  {
+   "id": "gislaveds-kommun#41",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "vimmerby-kommun#11",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "sala-kommun#47",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "sveriges-kommuner-och-regioner#26",
+   "kodare_a_antal": 1,
+   "kodare_b_antal": 1,
+   "kodare_b": [
+    {
+     "citat": "Det kommer att ställas höga krav på alla aktörer när systemet ska implementeras.",
+     "oppen_kod": "höga implementeringskrav"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "ale-kommun#41",
+   "kodare_a_antal": 1,
+   "kodare_b_antal": 1,
+   "kodare_b": [
+    {
+     "citat": "Utredningen belyser också att elever som misslyckas i skolan i större utsträckning rapporterar en lägre livstillfredsställelse, vilket står i konflikt med skolans uppdrag att bedriva ett förebyggande arbete mot psykisk ohälsa.",
+     "oppen_kod": "konflikt med hälsofrämjande uppdrag"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "linkopings-kommun#3",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "norrkopings-kommun#32",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 1,
+   "kodare_b": [
+    {
+     "citat": "Utbildningsnämnden i Norrköpings kommun anser att detta behöver utredas vidare för att säkerställa att rätt elever antas till utbildningen.",
+     "oppen_kod": "oklar antagning till spetsutbildning"
+    }
+   ],
+   "overens": false
+  },
+  {
+   "id": "gotlands-kommun#13",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "stromsunds-kommun#9",
+   "kodare_a_antal": 1,
+   "kodare_b_antal": 1,
+   "kodare_b": [
+    {
+     "citat": "Strömsunds kommun är kritisk till att en så omfattande reform som utredningen innebär ska verkställas från 1 januari 2027 i skollagen och i praktiken för elever i åk 1-8 i grundskolan från höstterminen 2028.",
+     "oppen_kod": "snäv tidplan för omfattande reform"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "almega-utbildning#10",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "stockholms-kommun#22",
+   "kodare_a_antal": 4,
+   "kodare_b_antal": 4,
+   "kodare_b": [
+    {
+     "citat": "Förslagen tar bort komvux uppdrag som en annan och en andra chans för dem som av någon anledning inte lyckades med sina studier på gymnasiet.",
+     "oppen_kod": "komvux andra-chansuppdrag försvinner"
+    },
+    {
+     "citat": "Förslaget med endast två provtillfällen om året begränsar komvux möjligheter att erbjuda flexibel och kontinuerlig utbildning under året.",
+     "oppen_kod": "få provtillfällen begränsar komvux"
+    },
+    {
+     "citat": "För att genomföra slutproven behöver komvux prioritera och styra stora resurser till både genomförandet av proven men också för att möta den efterfrågan av att läsa ämnesnivåer i nära anslutning till nästa provtillfälle som vi bedömer kommer att inträffa. Risken är att komvux kapacitet att ta emot studerande inte räcker till för alla som behöver.",
+     "oppen_kod": "resurs- och kapacitetsbrist i komvux"
+    },
+    {
+     "citat": "Arbetsmarknadsförvaltningen ser också problem med att de nationella slutproven inte behandlar hela innehållet i ämnesplanerna. Det gör det otydligt vad som ska prövas eftersom slutprovet kan göras oavsett vilken nivå som är elevens sista.",
+     "oppen_kod": "otydligt provinnehåll"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "sala-kommun#17",
+   "kodare_a_antal": 1,
+   "kodare_b_antal": 1,
+   "kodare_b": [
+    {
+     "citat": "Det är viktigt att föreskrifterna gällande yrkesprov blir tydliga så det blir en likvärdighet mellan olika utbildningsanordnare. Det är även viktigt för att det inte ska uppstå en motsättning mellan betygssättande lärare och medbedömaren från branschen.",
+     "oppen_kod": "otydliga yrkesprovsföreskrifter"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "goteborgs-kommun#7",
+   "kodare_a_antal": 6,
+   "kodare_b_antal": 5,
+   "kodare_b": [
+    {
+     "citat": "Göteborgs Stad ser dock att det finns utmaningar med att säkerställa den höga grad av konsekvent betygsättning som krävs för att enskilda elever inte ska riskera att bli missgynnade i den föreslagna modellen.",
+     "oppen_kod": "krav på konsekvent betygsättning"
+    },
+    {
+     "citat": "Göteborgs Stads bedömning är att elevernas meritvärden i allt för hög grad kan komma att påverkas av enskilda elevers provresultat på mindre skolor.",
+     "oppen_kod": "sårbarhet för små skolor"
+    },
+    {
+     "citat": "När det gäller undervisningen finns en risk att denna kommer att bli mer provorienterad, det vill säga inriktas på det som tas upp i slutproven och på det sätt som uppgifter utformas där.",
+     "oppen_kod": "provorienterad undervisning"
+    },
+    {
+     "citat": "Detta kan dämpa lärarnas drivkraft att utveckla sin bedömningskompetens och urholka känslan av ansvar för helhetsbedömningen, särskilt i mål som nationella slutprov inte täcker.",
+     "oppen_kod": "försvagad lärarbedömningskompetens"
+    },
+    {
+     "citat": "I förlängningen kan detta påverka såväl elevernas ämnesval som skolornas resursfördelning.",
+     "oppen_kod": "ämnesobalans i resursfördelning"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "norrkopings-kommun#22",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "vallentuna-kommun#17",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "gislaveds-kommun#55",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "gislaveds-kommun#88",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "varbergs-kommun#3",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "soderhamns-kommun#1",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  }
+ ]
+}

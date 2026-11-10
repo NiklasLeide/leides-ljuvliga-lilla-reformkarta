@@ -3,7 +3,7 @@
  "namn": "Ett likvärdigt betygssystem",
  "namn_i_brief": "Betygsuppdraget",
  "reforms_json_id": "betyg",
- "status": "klar (pilot Sprint 16)",
+ "status": "klar (omkodad med gemensam kodinstruktion, Sprint 17 T7b)",
  "sou": {
   "nr": "SOU 2025:18",
   "titel": "Ett likvärdigt betygssystem",
@@ -207,31 +207,11 @@
  },
  "hamtningsdatum": "2026-11-10",
  "korrigeringar": {
-  "ocr_citat_manuellt_kontrollerade": [
-   "U287",
-   "U288",
-   "U289",
-   "U290",
-   "U291",
-   "U292",
-   "U293",
-   "U294",
-   "U295",
-   "U296"
-  ],
-  "motivering_omformulerad": {
-   "U338": [
-    "lokal hantering kvarstår",
-    "lokal hantering finns kvar"
-   ]
-  }
+  "ocr_citat_manuellt_kontrollerade": [],
+  "motivering_omformulerad": {},
+  "_anm": "Sprint 17 T7b: listorna från Sprint 16 (U287–U296 manuellt kontrollerade OCR-citat, U338 omformulerad motivering) avsåg den gamla kodningens id och är tömda vid omkodningen; se fore-omkodning/."
  },
  "forteckning_korrigeringar": {},
  "forordning_markor_beskrivning": "den nya betygsskalan",
- "legacy_sokvagar": {
-  "_anm": "Sökvägar som betygsfilen från Sprint 16 refererar till (belagg, byggd_av). Behålls för identisk regression; nya reformer pekar på reformer/<id>/sfs-diff.json och kedja/bygg.py.",
-  "sfs_diff_belagg": "research/remissanalys/sfs-diff-betyg.json",
-  "byggd_av": "research/remissanalys/skript/bygg-pilot.py"
- },
- "sfs_urval": "kodade"
+ "sfs_urval": "alla"
 }
