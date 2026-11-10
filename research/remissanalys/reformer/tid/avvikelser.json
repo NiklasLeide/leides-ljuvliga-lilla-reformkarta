@@ -1,0 +1,151 @@
+{
+ "_meta": {
+  "beskrivning": "Propositionens stycke \"Utredningens förslag\" per avsnitt med regeringens förslags-/bedömningsruta, ordagrant fram till nästa underrubrik.",
+  "overensstammelse": "propositionens exakta fras",
+  "avvikelse_beskriven": "true om stycket innehåller fler meningar än den inledande om överensstämmelse (mekaniskt)"
+ },
+ "avsnitt": [
+  {
+   "proposition": "Prop. 2025/26:196",
+   "avsnitt": "6",
+   "rubrik": "Tiden för undervisningsuppdraget ska",
+   "forslag_i_avsnittet": [
+    "F11",
+    "F12",
+    "F13",
+    "F14",
+    "F15",
+    "F16",
+    "F17"
+   ],
+   "rubrik_i_propositionen": "Utredningens förslag",
+   "text": "Förslagen från utredningen stämmer i huvudsak överens med regeringens. Utredningen föreslår att även förskoleklassen ska omfattas av regleringen. Utredningen föreslår inte några upplysningsbestämmelser.",
+   "overensstammelse": "stämmer i huvudsak överens",
+   "avvikelse_beskriven": true,
+   "kalla": {
+    "text": "Prop. 2025/26:196 s. 33, avsnitt 6 ”Utredningens förslag”",
+    "url": "https://www.regeringen.se/contentassets/7bfa7c951ef54678981bfdb82f028b93/tid-for-undervisningsuppdraget-prop.-202526196.pdf"
+   },
+   "sida": [
+    33
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 3
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:196",
+   "avsnitt": "7.1",
+   "rubrik": "Information ska ges vid tillfällen som bestäms",
+   "forslag_i_avsnittet": [
+    "F01",
+    "F02",
+    "F03",
+    "F04",
+    "F05"
+   ],
+   "rubrik_i_propositionen": "Utredningens förslag",
+   "text": "Förslagen från utredningen stämmer i huvudsak överens med regeringens. Utredningen föreslår att det ska vara förskolan, fritidshemmet eller skolan som beslutar om tillfällen när information ska ges till elever och vårdnadshavare. Utredningen föreslår också att förskoleklassen ska omfattas av förslaget om att information ska ges vid tillfällen som bestäms av förskolan, fritidshemmet eller skolan.",
+   "overensstammelse": "stämmer i huvudsak överens",
+   "avvikelse_beskriven": true,
+   "kalla": {
+    "text": "Prop. 2025/26:196 s. 51, avsnitt 7.1 ”Utredningens förslag”",
+    "url": "https://www.regeringen.se/contentassets/7bfa7c951ef54678981bfdb82f028b93/tid-for-undervisningsuppdraget-prop.-202526196.pdf"
+   },
+   "sida": [
+    51
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 6
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:196",
+   "avsnitt": "7.2",
+   "rubrik": "De skriftliga planerna ska fokusera på elevers",
+   "forslag_i_avsnittet": [
+    "F06"
+   ],
+   "rubrik_i_propositionen": "Utredningens förslag",
+   "text": "Förslagen från utredningen stämmer i huvudsak överens med regeringens. Utredningen föreslår att planen ska kallas skriftlig kunskapsutvecklingsplan. Utredningen föreslår även att det som anges i skollagen om att skriftlig information om elevens skolgång även får ges vid andra tillfällen än vid ett utvecklingssamtal, tas bort.",
+   "overensstammelse": "stämmer i huvudsak överens",
+   "avvikelse_beskriven": true,
+   "kalla": {
+    "text": "Prop. 2025/26:196 s. 58, 59, avsnitt 7.2 ”Utredningens förslag”",
+    "url": "https://www.regeringen.se/contentassets/7bfa7c951ef54678981bfdb82f028b93/tid-for-undervisningsuppdraget-prop.-202526196.pdf"
+   },
+   "sida": [
+    58,
+    59
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 5
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:196",
+   "avsnitt": "8",
+   "rubrik": "Tydligare ansvar och minskad",
+   "forslag_i_avsnittet": [
+    "F08",
+    "F09",
+    "F10"
+   ],
+   "rubrik_i_propositionen": "Förslag från Utredningen om minskad administration och om reglering av förskollärares och lärares tid (SOU 2025:26)",
+   "text": "Förslagen från utredningen stämmer delvis överens med regeringens. Utredningen föreslår att skyldigheten att informera, anmäla, utreda och åtgärda fall av kränkande behandling ska begränsas till att gälla om ett barn eller en elev anser sig ha blivit utsatt för kränkande behandling ”i verksamheten” i stället för ”i samband med verksamheten”. Utredningen föreslår även att bestämmelserna om personalens och rektorns skyldighet att anmäla trakasserier och sexuella trakasserier flyttas från skollagen till diskrimineringslagen (2008:567) utan att ändras i sak. Utredningen föreslår inga tillägg om att främja de grundläggande demokratiska värderingarna i 1 kap. 5 § eller ändringar i de inledande bestämmelserna i 6 kap. skollagen.",
+   "overensstammelse": "stämmer delvis överens",
+   "avvikelse_beskriven": true,
+   "kalla": {
+    "text": "Prop. 2025/26:196 s. 63, 64, avsnitt 8 ”Förslag från Utredningen om minskad administration och om reglering av förskollärares och lärares tid (SOU 2025:26)”",
+    "url": "https://www.regeringen.se/contentassets/7bfa7c951ef54678981bfdb82f028b93/tid-for-undervisningsuppdraget-prop.-202526196.pdf"
+   },
+   "sida": [
+    63,
+    64
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 11
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:196",
+   "avsnitt": "9",
+   "rubrik": "Ikraftträdande",
+   "forslag_i_avsnittet": [
+    "F02",
+    "F03",
+    "F18",
+    "F20"
+   ],
+   "rubrik_i_propositionen": "Förslag från Utredningen om minskad administration och om reglering av förskollärares och lärares tid (SOU 2025:26)",
+   "text": "Utredningens förslag stämmer delvis överens med regeringens. Utredningen föreslår att alla ändringar i skollagen ska träda i kraft den 1 juli 2027.",
+   "overensstammelse": "stämmer delvis överens",
+   "avvikelse_beskriven": true,
+   "kalla": {
+    "text": "Prop. 2025/26:196 s. 78, avsnitt 9 ”Förslag från Utredningen om minskad administration och om reglering av förskollärares och lärares tid (SOU 2025:26)”",
+    "url": "https://www.regeringen.se/contentassets/7bfa7c951ef54678981bfdb82f028b93/tid-for-undervisningsuppdraget-prop.-202526196.pdf"
+   },
+   "sida": [
+    78
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 3
+   }
+  }
+ ]
+}

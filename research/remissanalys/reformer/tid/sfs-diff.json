@@ -1,0 +1,1851 @@
+{
+ "_meta": {
+  "hamtningsdatum": "2026-11-10",
+  "beslutad_lydelse_kalla": "Diskrimineringslag (2008:567) konsoliderad, t.o.m. SFS 2025:736; Skollag (2010:800) konsoliderad, t.o.m. SFS 2026:1636 (riksdagens öppna data, Källa: Regeringskansliet / Lagrummet). Ändrings-SFS i original (svenskforfattningssamling.se) nåddes inte från miljön.",
+  "statusregler": {
+   "oförändrad": "SOU:ns föreslagna paragraf = beslutad lydelse (normaliserad textlikhet ≥ 0,999)",
+   "ändrad": "beslutad lydelse finns men skiljer sig; ordagrann ord-diff sparas",
+   "ej med": "ingen version införd genom SFS diskrimineringslagen: ingen; skollagen: 2026:1096/1097/1243 för paragrafen",
+   "ej lagtext": "förslaget är inte författningstext (uppdrag/ansvar)",
+   "ej i SFS per 2026-11-10": "förslaget avser förordning som ännu inte finns i SFS"
+  },
+  "matchning": "Paragrafer matchas på kapitel + nummer; saknas samma nummer används högst textlikhet inom kapitlet. Likhet < 0,80 ⇒ manuell_granskning: true.",
+  "forslag_till_paragraf": "Paragrafer knyts till förslag via SOU:ns författningskommentar (\"Bestämmelsen behandlas i avsnitt …\"), dvs. på avsnittsnivå — flera förslag i samma avsnitt delar paragrafer."
+ },
+ "forslag": [
+  {
+   "forslag": "F01",
+   "sou_avsnitt": "6.3.1",
+   "forslag_kalla": {
+    "text": "SOU 2025:26 s. 268",
+    "url": "https://www.regeringen.se/contentassets/6dfbf9bb877b433bbca46ad8c07950fe/tid-for-undervisningsuppdraget--atgarder-for-god-undervisning-och-lararyrkenas-attraktivitet-sou-202526.pdf"
+   },
+   "paragrafer": [
+    {
+     "paragraf": "3 kap. 3 § skollagen",
+     "sou": {
+      "text": "Vårdnadshavare för ett barn i förskolan samt eleven och elevens vårdnadshavare i förskoleklassen, grundskolan, anpassade grundskolan, specialskolan, sameskolan, fritidshemmet, gymnasieskolan och anpassade gymnasieskolan ska vid tillfällen som bestäms av förskolan, fritidshemmet eller skolan informeras om barnets eller elevens utveckling.",
+      "kalla": {
+       "text": "SOU 2025:26 s. 561 (författningskommentar 12.2)",
+       "url": "https://www.regeringen.se/contentassets/6dfbf9bb877b433bbca46ad8c07950fe/tid-for-undervisningsuppdraget--atgarder-for-god-undervisning-och-lararyrkenas-attraktivitet-sou-202526.pdf"
+      }
+     },
+     "lag": "Skollag (2010:800)",
+     "proposition": {
+      "text": "Vårdnadshavare för ett barn i förskolan samt eleven och elevens vårdnadshavare i grundskolan, anpassade grundskolan, specialskolan, sameskolan, fritidshemmet, gymnasieskolan och anpassade gymnasieskolan ska vid tillfällen som bestäms av personal vid förskolan, fritidshemmet eller skolan informeras om barnets eller elevens utveckling. Samtal och utvecklingssamtal",
+      "paragraf": "3 kap. 3 §",
+      "likhet_mot_sou": 0.915,
+      "kalla": {
+       "text": "Prop. 2025/26:196 s. 10, lagförslag 2.3",
+       "url": "https://www.regeringen.se/contentassets/7bfa7c951ef54678981bfdb82f028b93/tid-for-undervisningsuppdraget-prop.-202526196.pdf"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": false
+     },
+     "beslutad": {
+      "text": "Vårdnadshavare för ett barn i förskolan samt eleven och elevens vårdnadshavare i grundskolan, anpassade grundskolan, specialskolan, sameskolan, fritidshemmet, gymnasieskolan och anpassade gymnasieskolan ska vid tillfällen som bestäms av personal vid förskolan, fritidshemmet eller skolan informeras om barnets eller elevens utveckling.",
+      "paragraf": "3 kap. 3 §",
+      "sfs": "2026:1243",
+      "ikraft": "2028-07-02",
+      "likhet_mot_sou": 0.955,
+      "kalla": {
+       "text": "Skollag (2010:800) 3 kap. 3 § i lydelse enligt SFS 2026:1243, träder i kraft 2028-07-02; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": false
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "struken",
+       "fore": "förskoleklassen,",
+       "efter": null
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "personal vid"
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": false
+    }
+   ],
+   "status": "ändrad",
+   "status_per_paragraf": {
+    "ändrad": 1
+   },
+   "status_kalla": {
+    "text": "Härledd per paragraf: SOU:ns föreslagna lydelse jämförd med beslutad lydelse (SFS diskrimineringslagen: ingen; skollagen: 2026:1096/1097/1243). Statusvärdet är mekaniskt (textlikhet), inte en bedömning.",
+    "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+   }
+  },
+  {
+   "forslag": "F02",
+   "sou_avsnitt": "6.3.1",
+   "forslag_kalla": {
+    "text": "SOU 2025:26 s. 268",
+    "url": "https://www.regeringen.se/contentassets/6dfbf9bb877b433bbca46ad8c07950fe/tid-for-undervisningsuppdraget--atgarder-for-god-undervisning-och-lararyrkenas-attraktivitet-sou-202526.pdf"
+   },
+   "paragrafer": [
+    {
+     "paragraf": "3 kap. 3 § skollagen",
+     "sou": {
+      "text": "Vårdnadshavare för ett barn i förskolan samt eleven och elevens vårdnadshavare i förskoleklassen, grundskolan, anpassade grundskolan, specialskolan, sameskolan, fritidshemmet, gymnasieskolan och anpassade gymnasieskolan ska vid tillfällen som bestäms av förskolan, fritidshemmet eller skolan informeras om barnets eller elevens utveckling.",
+      "kalla": {
+       "text": "SOU 2025:26 s. 561 (författningskommentar 12.2)",
+       "url": "https://www.regeringen.se/contentassets/6dfbf9bb877b433bbca46ad8c07950fe/tid-for-undervisningsuppdraget--atgarder-for-god-undervisning-och-lararyrkenas-attraktivitet-sou-202526.pdf"
+      }
+     },
+     "lag": "Skollag (2010:800)",
+     "proposition": {
+      "text": "Vårdnadshavare för ett barn i förskolan samt eleven och elevens vårdnadshavare i grundskolan, anpassade grundskolan, specialskolan, sameskolan, fritidshemmet, gymnasieskolan och anpassade gymnasieskolan ska vid tillfällen som bestäms av personal vid förskolan, fritidshemmet eller skolan informeras om barnets eller elevens utveckling. Samtal och utvecklingssamtal",
+      "paragraf": "3 kap. 3 §",
+      "likhet_mot_sou": 0.915,
+      "kalla": {
+       "text": "Prop. 2025/26:196 s. 10, lagförslag 2.3",
+       "url": "https://www.regeringen.se/contentassets/7bfa7c951ef54678981bfdb82f028b93/tid-for-undervisningsuppdraget-prop.-202526196.pdf"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": false
+     },
+     "beslutad": {
+      "text": "Vårdnadshavare för ett barn i förskolan samt eleven och elevens vårdnadshavare i grundskolan, anpassade grundskolan, specialskolan, sameskolan, fritidshemmet, gymnasieskolan och anpassade gymnasieskolan ska vid tillfällen som bestäms av personal vid förskolan, fritidshemmet eller skolan informeras om barnets eller elevens utveckling.",
+      "paragraf": "3 kap. 3 §",
+      "sfs": "2026:1243",
+      "ikraft": "2028-07-02",
+      "likhet_mot_sou": 0.955,
+      "kalla": {
+       "text": "Skollag (2010:800) 3 kap. 3 § i lydelse enligt SFS 2026:1243, träder i kraft 2028-07-02; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": false
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "struken",
+       "fore": "förskoleklassen,",
+       "efter": null
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "personal vid"
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": false
+    }
+   ],
+   "status": "ändrad",
+   "status_per_paragraf": {
+    "ändrad": 1
+   },
+   "status_kalla": {
+    "text": "Härledd per paragraf: SOU:ns föreslagna lydelse jämförd med beslutad lydelse (SFS diskrimineringslagen: ingen; skollagen: 2026:1096/1097/1243). Statusvärdet är mekaniskt (textlikhet), inte en bedömning.",
+    "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+   }
+  },
+  {
+   "forslag": "F03",
+   "sou_avsnitt": "6.3.2",
+   "forslag_kalla": {
+    "text": "SOU 2025:26 s. 279",
+    "url": "https://www.regeringen.se/contentassets/6dfbf9bb877b433bbca46ad8c07950fe/tid-for-undervisningsuppdraget--atgarder-for-god-undervisning-och-lararyrkenas-attraktivitet-sou-202526.pdf"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "Ingen paragraf i SOU:ns författningskommentar till diskrimineringslagen eller skollagen (12.1, 12.2) hänvisar till avsnitt 6.3.2 — förslaget avser förordningsnivå (eller annan reglering). Ingen textmarkör är angiven, så det är inte maskinellt avgjort om förslaget har genomförts i förordningarna: Förordning (2026:1487) om omfattning av tiden för lärares och förskollärares undervisningsuppdrag.",
+    "url": "https://data.riksdagen.se/dokument/sfs-2026-1487.text"
+   }
+  },
+  {
+   "forslag": "F04",
+   "sou_avsnitt": "6.3.3",
+   "forslag_kalla": {
+    "text": "SOU 2025:26 s. 280",
+    "url": "https://www.regeringen.se/contentassets/6dfbf9bb877b433bbca46ad8c07950fe/tid-for-undervisningsuppdraget--atgarder-for-god-undervisning-och-lararyrkenas-attraktivitet-sou-202526.pdf"
+   },
+   "paragrafer": [
+    {
+     "paragraf": "8 kap. 11 § skollagen",
+     "sou": {
+      "text": "Personalen ska föra samtal med barnets vårdnadshavare om barnets utveckling. Minst en gång varje år ska personalen och barnets vårdnadshavare genomföra ett samtal om barnets utveckling och lärande (utvecklingssamtal). Förskollärare har det övergripande ansvaret för utvecklingssamtalet.",
+      "kalla": {
+       "text": "SOU 2025:26 s. 568 (författningskommentar 12.2)",
+       "url": "https://www.regeringen.se/contentassets/6dfbf9bb877b433bbca46ad8c07950fe/tid-for-undervisningsuppdraget--atgarder-for-god-undervisning-och-lararyrkenas-attraktivitet-sou-202526.pdf"
+      }
+     },
+     "lag": "Skollag (2010:800)",
+     "proposition": {
+      "text": "Personalen ska föra samtal med barnets vårdnadshavare om barnets utveckling. Minst en gång varje år ska personalen och barnets vårdnadshavare genomföra ett utvecklingssamtal om barnets utveckling och lärande. Förskollärare har det övergripande ansvaret för utvecklingssamtalet. Utvecklingssamtal och plan för kunskapsutveckling",
+      "paragraf": "8 kap. 11 §",
+      "likhet_mot_sou": 0.861,
+      "kalla": {
+       "text": "Prop. 2025/26:196 s. 10, lagförslag 2.3",
+       "url": "https://www.regeringen.se/contentassets/7bfa7c951ef54678981bfdb82f028b93/tid-for-undervisningsuppdraget-prop.-202526196.pdf"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": false
+     },
+     "beslutad": {
+      "text": "Personalen ska föra samtal med barnets vårdnadshavare om barnets utveckling. Minst en gång varje år ska personalen och barnets vårdnadshavare genomföra ett utvecklingssamtal om barnets utveckling och lärande. Förskollärare har det övergripande ansvaret för utvecklingssamtalet.",
+      "paragraf": "8 kap. 11 §",
+      "sfs": "2026:1243",
+      "ikraft": "2028-07-02",
+      "likhet_mot_sou": 0.939,
+      "kalla": {
+       "text": "Skollag (2010:800) 8 kap. 11 § i lydelse enligt SFS 2026:1243, träder i kraft 2028-07-02; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": false
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "ersatt",
+       "fore": "samtal",
+       "efter": "utvecklingssamtal"
+      },
+      {
+       "op": "ersatt",
+       "fore": "lärande (utvecklingssamtal).",
+       "efter": "lärande."
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": false
+    }
+   ],
+   "status": "ändrad",
+   "status_per_paragraf": {
+    "ändrad": 1
+   },
+   "status_kalla": {
+    "text": "Härledd per paragraf: SOU:ns föreslagna lydelse jämförd med beslutad lydelse (SFS diskrimineringslagen: ingen; skollagen: 2026:1096/1097/1243). Statusvärdet är mekaniskt (textlikhet), inte en bedömning.",
+    "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+   }
+  },
+  {
+   "forslag": "F05",
+   "sou_avsnitt": "6.4.1",
+   "forslag_kalla": {
+    "text": "SOU 2025:26 s. 283",
+    "url": "https://www.regeringen.se/contentassets/6dfbf9bb877b433bbca46ad8c07950fe/tid-for-undervisningsuppdraget--atgarder-for-god-undervisning-och-lararyrkenas-attraktivitet-sou-202526.pdf"
+   },
+   "paragrafer": [
+    {
+     "paragraf": "10 kap. 12 § skollagen",
+     "sou": {
+      "text": "Minst en gång varje läsår ska läraren, eleven och elevens vårdnadshavare ha ett utvecklingssamtal om hur elevens kunskapsutveckling och sociala utveckling bäst kan stödjas samt om vilka insatser som behövs för att eleven ska uppfylla betygskriterierna eller kriterierna för bedömning av kunskaper och i övrigt utvecklas så långt som möjligt inom ramen för läroplanen. Informationen vid utvecklingssamtalet ska grunda sig på en utvärdering av elevens utveckling i förhållande till läroplanen och betygskriterierna eller kriterierna för bedömning av kunskaper i de ämnen som eleven får undervisning i. Utvecklingssamtal ska i vissa fall resultera i ett sådant åtgärdsprogram som avses i 3 kap. 9 §.",
+      "kalla": {
+       "text": "SOU 2025:26 s. 568 (författningskommentar 12.2)",
+       "url": "https://www.regeringen.se/contentassets/6dfbf9bb877b433bbca46ad8c07950fe/tid-for-undervisningsuppdraget--atgarder-for-god-undervisning-och-lararyrkenas-attraktivitet-sou-202526.pdf"
+      }
+     },
+     "lag": "Skollag (2010:800)",
+     "proposition": {
+      "text": "Minst en gång varje läsår ska läraren, eleven och elevens vårdnadshavare ha ett utvecklingssamtal om hur elevens kunskapsutveckling och sociala utveckling bäst kan stödjas samt om vilka insatser som behövs för att eleven ska dels tillgodogöra sig de kunskaper som i ämnenas kursplaner anges i den del som avser mål och innehåll, dels i övrigt utvecklas så långt som möjligt inom ramen för läroplanen. Informationen vid utvecklingssamtalet ska grunda sig på en utvärdering av elevens utveckling i förhållande till läroplanen. Utvecklingssamtal ska i vissa fall resultera i ett sådant åtgärdsprogram som avses i 3 kap. 9 §.",
+      "paragraf": "10 kap. 12 §",
+      "likhet_mot_sou": 0.81,
+      "kalla": {
+       "text": "Prop. 2025/26:196 s. 11, lagförslag 2.3",
+       "url": "https://www.regeringen.se/contentassets/7bfa7c951ef54678981bfdb82f028b93/tid-for-undervisningsuppdraget-prop.-202526196.pdf"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": false
+     },
+     "beslutad": {
+      "text": "Minst en gång varje läsår ska läraren, eleven och elevens vårdnadshavare ha ett utvecklingssamtal om hur elevens kunskapsutveckling och sociala utveckling bäst kan stödjas samt om vilka insatser som behövs för att eleven ska dels tillgodogöra sig de kunskaper som i ämnenas kursplaner anges i den del som avser mål och innehåll, dels i övrigt utvecklas så långt som möjligt inom ramen för läroplanen. Informationen vid utvecklingssamtalet ska grunda sig på en utvärdering av elevens utveckling i förhållande till läroplanen. Utvecklingssamtal ska i vissa fall resultera i ett sådant åtgärdsprogram som avses i 3 kap. 9 §.",
+      "paragraf": "10 kap. 12 §",
+      "sfs": "2026:1243",
+      "ikraft": "2028-07-02",
+      "likhet_mot_sou": 0.81,
+      "kalla": {
+       "text": "Skollag (2010:800) 10 kap. 12 § i lydelse enligt SFS 2026:1243, träder i kraft 2028-07-02; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": false
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "ersatt",
+       "fore": "uppfylla betygskriterierna eller kriterierna för bedömning av",
+       "efter": "dels tillgodogöra sig de"
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "som i ämnenas kursplaner anges i den del som avser mål"
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "innehåll, dels"
+      },
+      {
+       "op": "ersatt",
+       "fore": "läroplanen och betygskriterierna eller kriterierna för bedömning av kunskaper i de ämnen som eleven får undervisning i.",
+       "efter": "läroplanen."
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": false
+    },
+    {
+     "paragraf": "11 kap. 15 § skollagen",
+     "sou": {
+      "text": "Minst en gång varje läsår ska läraren, eleven och elevens vårdnadshavare ha ett utvecklingssamtal om hur elevens kunskapsutveckling och sociala utveckling bäst kan stödjas samt om vilka insatser som behövs för att eleven ska uppfylla betygskriterierna eller kriterierna för bedömning av kunskaper och i övrigt utvecklas så långt som möjligt inom ramen för läroplanen. Informationen vid utvecklingssamtalet ska grunda sig på en utvärdering av elevens utveckling i förhållande till läroplanen och betygskriterierna eller kriterierna för bedömning av kunskaper i de ämnen eller ämnesområden som eleven får undervisning i. Utvecklingssamtal ska i vissa fall resultera i ett sådant åtgärdsprogram som avses i 3 kap. 9 §.",
+      "kalla": {
+       "text": "SOU 2025:26 s. 571 (författningskommentar 12.2)",
+       "url": "https://www.regeringen.se/contentassets/6dfbf9bb877b433bbca46ad8c07950fe/tid-for-undervisningsuppdraget--atgarder-for-god-undervisning-och-lararyrkenas-attraktivitet-sou-202526.pdf"
+      }
+     },
+     "lag": "Skollag (2010:800)",
+     "proposition": {
+      "text": "Minst en gång varje läsår ska läraren, eleven och elevens vårdnadshavare ha ett utvecklingssamtal om hur elevens kunskapsutveckling och sociala utveckling bäst kan stödjas samt om vilka insatser som behövs för att eleven ska dels tillgodogöra sig de kunskaper som i ämnenas eller ämnesområdenas kursplaner anges i den del som avser mål och innehåll, dels i övrigt utvecklas så långt som möjligt inom ramen för läroplanen. Informationen vid utvecklingssamtalet ska grunda sig på en utvärdering av elevens utveckling i förhållande till läroplanen. Utvecklingssamtal ska i vissa fall resultera i ett sådant åtgärdsprogram som avses i 3 kap. 9 §.",
+      "paragraf": "11 kap. 15 §",
+      "likhet_mot_sou": 0.784,
+      "kalla": {
+       "text": "Prop. 2025/26:196 s. 12, lagförslag 2.3",
+       "url": "https://www.regeringen.se/contentassets/7bfa7c951ef54678981bfdb82f028b93/tid-for-undervisningsuppdraget-prop.-202526196.pdf"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "beslutad": {
+      "text": "Minst en gång varje läsår ska läraren, eleven och elevens vårdnadshavare ha ett utvecklingssamtal om hur elevens kunskapsutveckling och sociala utveckling bäst kan stödjas samt om vilka insatser som behövs för att eleven ska dels tillgodogöra sig de kunskaper som i ämnenas eller ämnes- områdenas kursplaner anges i den del som avser mål och innehåll, dels i övrigt utvecklas så långt som möjligt inom ramen för läroplanen. Informationen vid utvecklingssamtalet ska grunda sig på en utvärdering av elevens utveckling i förhållande till läroplanen. Utvecklingssamtal ska i vissa fall resultera i ett sådant åtgärdsprogram som avses i 3 kap. 9 §.",
+      "paragraf": "11 kap. 15 §",
+      "sfs": "2026:1243",
+      "ikraft": "2028-07-02",
+      "likhet_mot_sou": 0.784,
+      "kalla": {
+       "text": "Skollag (2010:800) 11 kap. 15 § i lydelse enligt SFS 2026:1243, träder i kraft 2028-07-02; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "ersatt",
+       "fore": "uppfylla betygskriterierna",
+       "efter": "dels tillgodogöra sig de kunskaper som i ämnenas"
+      },
+      {
+       "op": "ersatt",
+       "fore": "kriterierna för bedömning av kunskaper",
+       "efter": "ämnes- områdenas kursplaner anges i den del som avser mål"
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "innehåll, dels"
+      },
+      {
+       "op": "ersatt",
+       "fore": "läroplanen och betygskriterierna eller kriterierna för bedömning av kunskaper i de ämnen eller ämnesområden som eleven får undervisning i.",
+       "efter": "läroplanen."
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": true
+    },
+    {
+     "paragraf": "12 kap. 12 § skollagen",
+     "sou": {
+      "text": "Minst en gång varje läsår ska läraren, eleven och elevens vårdnadshavare ha ett utvecklingssamtal om hur elevens kunskapsutveckling och sociala utveckling bäst kan stödjas samt om vilka insatser som behövs för att eleven ska uppfylla betygskriterierna eller kriterierna för bedömning av kunskaper och i övrigt utvecklas så långt som möjligt inom ramen för läroplanen. Informationen vid utvecklingssamtalet ska grunda sig på en utvärdering av elevens utveckling i förhållande till läroplanen och betygskriterierna eller kriterierna för bedömning av kunskaper i de ämnen eller ämnesområden som eleven får undervisning i. Utvecklingssamtal ska i vissa fall resultera i ett sådant åtgärdsprogram som avses i 3 kap. 9 §.",
+      "kalla": {
+       "text": "SOU 2025:26 s. 573 (författningskommentar 12.2)",
+       "url": "https://www.regeringen.se/contentassets/6dfbf9bb877b433bbca46ad8c07950fe/tid-for-undervisningsuppdraget--atgarder-for-god-undervisning-och-lararyrkenas-attraktivitet-sou-202526.pdf"
+      }
+     },
+     "lag": "Skollag (2010:800)",
+     "proposition": {
+      "text": "Minst en gång varje läsår ska läraren, eleven och elevens vårdnadshavare ha ett utvecklingssamtal om hur elevens kunskapsutveckling och sociala utveckling bäst kan stödjas samt om vilka insatser som behövs för att eleven ska dels tillgodogöra sig de kunskaper som i ämnenas eller ämnesområdenas kursplaner anges i den del som avser mål och innehåll, dels i övrigt utvecklas så långt som möjligt inom ramen för läroplanen. Informationen vid utvecklingssamtalet ska grunda sig på en utvärdering av elevens utveckling i förhållande till läroplanen. Utvecklingssamtal ska i vissa fall resultera i ett sådant åtgärdsprogram som avses i 3 kap. 9 §.",
+      "paragraf": "12 kap. 12 §",
+      "likhet_mot_sou": 0.784,
+      "kalla": {
+       "text": "Prop. 2025/26:196 s. 14, lagförslag 2.3",
+       "url": "https://www.regeringen.se/contentassets/7bfa7c951ef54678981bfdb82f028b93/tid-for-undervisningsuppdraget-prop.-202526196.pdf"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "beslutad": {
+      "text": "Minst en gång varje läsår ska läraren, eleven och elevens vårdnadshavare ha ett utvecklingssamtal om hur elevens kunskapsutveckling och sociala utveckling bäst kan stödjas samt om vilka insatser som behövs för att eleven ska dels tillgodogöra sig de kunskaper som i ämnenas eller ämnes- områdenas kursplaner anges i den del som avser mål och innehåll, dels i övrigt utvecklas så långt som möjligt inom ramen för läroplanen. Informationen vid utvecklingssamtalet ska grunda sig på en utvärdering av elevens utveckling i förhållande till läroplanen. Utvecklingssamtal ska i vissa fall resultera i ett sådant åtgärdsprogram som avses i 3 kap. 9 §.",
+      "paragraf": "12 kap. 12 §",
+      "sfs": "2026:1243",
+      "ikraft": "2028-07-02",
+      "likhet_mot_sou": 0.784,
+      "kalla": {
+       "text": "Skollag (2010:800) 12 kap. 12 § i lydelse enligt SFS 2026:1243, träder i kraft 2028-07-02; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "ersatt",
+       "fore": "uppfylla betygskriterierna",
+       "efter": "dels tillgodogöra sig de kunskaper som i ämnenas"
+      },
+      {
+       "op": "ersatt",
+       "fore": "kriterierna för bedömning av kunskaper",
+       "efter": "ämnes- områdenas kursplaner anges i den del som avser mål"
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "innehåll, dels"
+      },
+      {
+       "op": "ersatt",
+       "fore": "läroplanen och betygskriterierna eller kriterierna för bedömning av kunskaper i de ämnen eller ämnesområden som eleven får undervisning i.",
+       "efter": "läroplanen."
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": true
+    },
+    {
+     "paragraf": "13 kap. 12 § skollagen",
+     "sou": {
+      "text": "Minst en gång varje läsår ska läraren, eleven och elevens vårdnadshavare ha ett utvecklingssamtal om hur elevens kunskapsutveckling och sociala utveckling bäst kan stödjas samt om vilka insatser som behövs för att eleven ska uppfylla betygskriterierna eller kriterierna för bedömning av kunskaper och i övrigt utvecklas så långt som möjligt inom ramen för läroplanen. Informationen vid utvecklingssamtalet ska grunda sig på en utvärdering av elevens utveckling i förhållande till läroplanen och betygskriterierna eller kriterierna för bedömning av kunskaper i de ämnen som eleven får undervisning i. Utvecklingssamtal ska i vissa fall resultera i ett sådant åtgärdsprogram som avses i 3 kap. 9 §.",
+      "kalla": {
+       "text": "SOU 2025:26 s. 576 (författningskommentar 12.2)",
+       "url": "https://www.regeringen.se/contentassets/6dfbf9bb877b433bbca46ad8c07950fe/tid-for-undervisningsuppdraget--atgarder-for-god-undervisning-och-lararyrkenas-attraktivitet-sou-202526.pdf"
+      }
+     },
+     "lag": "Skollag (2010:800)",
+     "proposition": {
+      "text": "Minst en gång varje läsår ska läraren, eleven och elevens vårdnadshavare ha ett utvecklingssamtal om hur elevens kunskapsutveckling och sociala utveckling bäst kan stödjas samt om vilka insatser som behövs för att eleven ska dels tillgodogöra sig de kunskaper som i ämnenas kursplaner anges i den del som avser mål och innehåll, dels i övrigt utvecklas så långt som möjligt inom ramen för läroplanen. Informationen vid utvecklingssamtalet ska grunda sig på en utvärdering av elevens utveckling i förhållande till läroplanen. Utvecklingssamtal ska i vissa fall resultera i ett sådant åtgärdsprogram som avses i 3 kap. 9 §.",
+      "paragraf": "13 kap. 12 §",
+      "likhet_mot_sou": 0.81,
+      "kalla": {
+       "text": "Prop. 2025/26:196 s. 16, lagförslag 2.3",
+       "url": "https://www.regeringen.se/contentassets/7bfa7c951ef54678981bfdb82f028b93/tid-for-undervisningsuppdraget-prop.-202526196.pdf"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": false
+     },
+     "beslutad": {
+      "text": "Minst en gång varje läsår ska läraren, eleven och elevens vårdnadshavare ha ett utvecklingssamtal om hur elevens kunskapsutveckling och sociala utveckling bäst kan stödjas samt om vilka insatser som behövs för att eleven ska dels tillgodogöra sig de kunskaper som i ämnenas kursplaner anges i den del som avser mål och innehåll, dels i övrigt utvecklas så långt som möjligt inom ramen för läroplanen. Informationen vid utvecklingssamtalet ska grunda sig på en utvärdering av elevens utveckling i förhållande till läroplanen. Utvecklingssamtal ska i vissa fall resultera i ett sådant åtgärdsprogram som avses i 3 kap. 9 §.",
+      "paragraf": "13 kap. 12 §",
+      "sfs": "2026:1243",
+      "ikraft": "2028-07-02",
+      "likhet_mot_sou": 0.81,
+      "kalla": {
+       "text": "Skollag (2010:800) 13 kap. 12 § i lydelse enligt SFS 2026:1243, träder i kraft 2028-07-02; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": false
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "ersatt",
+       "fore": "uppfylla betygskriterierna eller kriterierna för bedömning av",
+       "efter": "dels tillgodogöra sig de"
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "som i ämnenas kursplaner anges i den del som avser mål"
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "innehåll, dels"
+      },
+      {
+       "op": "ersatt",
+       "fore": "läroplanen och betygskriterierna eller kriterierna för bedömning av kunskaper i de ämnen som eleven får undervisning i.",
+       "efter": "läroplanen."
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": false
+    },
+    {
+     "paragraf": "15 kap. 20 § skollagen",
+     "sou": {
+      "text": "Minst en gång varje läsår ska rektorn se till att eleven ges en samlad information om elevens kunskapsutveckling och studiesituation (utvecklingssamtal). En elevs vårdnadshavare ska få sådan information som avses i första stycket.",
+      "kalla": {
+       "text": "SOU 2025:26 s. 577 (författningskommentar 12.2)",
+       "url": "https://www.regeringen.se/contentassets/6dfbf9bb877b433bbca46ad8c07950fe/tid-for-undervisningsuppdraget--atgarder-for-god-undervisning-och-lararyrkenas-attraktivitet-sou-202526.pdf"
+      }
+     },
+     "lag": "Skollag (2010:800)",
+     "proposition": {
+      "text": "Minst en gång varje läsår ska rektorn se till att eleven i ett utvecklingssamtal ges en samlad information om elevens kunskapsutveckling och studiesituation. En elevs vårdnadshavare ska få sådan information som avses i första stycket.",
+      "paragraf": "15 kap. 20 §",
+      "likhet_mot_sou": 0.899,
+      "kalla": {
+       "text": "Prop. 2025/26:196 s. 18, lagförslag 2.3",
+       "url": "https://www.regeringen.se/contentassets/7bfa7c951ef54678981bfdb82f028b93/tid-for-undervisningsuppdraget-prop.-202526196.pdf"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": false
+     },
+     "beslutad": {
+      "text": "Minst en gång varje läsår ska rektorn se till att eleven i ett utvecklingssamtal ges en samlad information om elevens kunskapsutveckling och studiesituation. En elevs vårdnadshavare ska få sådan information som avses i första stycket.",
+      "paragraf": "15 kap. 20 §",
+      "sfs": "2026:1243",
+      "ikraft": "2028-07-02",
+      "likhet_mot_sou": 0.899,
+      "kalla": {
+       "text": "Skollag (2010:800) 15 kap. 20 § i lydelse enligt SFS 2026:1243, träder i kraft 2028-07-02; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": false
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "i ett utvecklingssamtal"
+      },
+      {
+       "op": "ersatt",
+       "fore": "studiesituation (utvecklingssamtal).",
+       "efter": "studiesituation."
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": false
+    },
+    {
+     "paragraf": "18 kap. 20 § skollagen",
+     "sou": {
+      "text": "Minst en gång varje läsår ska rektorn se till att eleven i ett utvecklingssamtal ges samlad information om sin kunskapsutveckling och studiesituation. Utvecklingssamtalet ska genomföras med elevens individuella studieplan som grund. En elevs vårdnadshavare ska få sådan information som avses i första stycket.",
+      "kalla": {
+       "text": "SOU 2025:26 s. 578 (författningskommentar 12.2)",
+       "url": "https://www.regeringen.se/contentassets/6dfbf9bb877b433bbca46ad8c07950fe/tid-for-undervisningsuppdraget--atgarder-for-god-undervisning-och-lararyrkenas-attraktivitet-sou-202526.pdf"
+      }
+     },
+     "lag": "Skollag (2010:800)",
+     "proposition": {
+      "text": "Minst en gång varje läsår ska rektorn se till att eleven i ett utvecklingssamtal ges samlad information om sin kunskapsutveckling och studiesituation. Utvecklingssamtalet ska genomföras med elevens individuella studieplan som grund. En elevs vårdnadshavare ska få sådan information som avses i första stycket.",
+      "paragraf": "18 kap. 20 §",
+      "likhet_mot_sou": 1.0,
+      "kalla": {
+       "text": "Prop. 2025/26:196 s. 18, lagförslag 2.3",
+       "url": "https://www.regeringen.se/contentassets/7bfa7c951ef54678981bfdb82f028b93/tid-for-undervisningsuppdraget-prop.-202526196.pdf"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": false
+     },
+     "beslutad": {
+      "text": "Minst en gång varje läsår ska rektorn se till att eleven i ett utvecklingssamtal ges samlad information om sin kunskapsutveckling och studiesituation. Utvecklingssamtalet ska genomföras med elevens individuella studieplan som grund. En elevs vårdnadshavare ska få sådan information som avses i första stycket.",
+      "paragraf": "18 kap. 20 §",
+      "sfs": "2026:1243",
+      "ikraft": "2028-07-02",
+      "likhet_mot_sou": 1.0,
+      "kalla": {
+       "text": "Skollag (2010:800) 18 kap. 20 § i lydelse enligt SFS 2026:1243, träder i kraft 2028-07-02; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": false
+     },
+     "status": "oförändrad",
+     "manuell_granskning": false
+    }
+   ],
+   "status": "blandad",
+   "status_per_paragraf": {
+    "ändrad": 5,
+    "oförändrad": 1
+   },
+   "status_kalla": {
+    "text": "Härledd per paragraf: SOU:ns föreslagna lydelse jämförd med beslutad lydelse (SFS diskrimineringslagen: ingen; skollagen: 2026:1096/1097/1243). Statusvärdet är mekaniskt (textlikhet), inte en bedömning.",
+    "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+   }
+  },
+  {
+   "forslag": "F06",
+   "sou_avsnitt": "6.5.1",
+   "forslag_kalla": {
+    "text": "SOU 2025:26 s. 288",
+    "url": "https://www.regeringen.se/contentassets/6dfbf9bb877b433bbca46ad8c07950fe/tid-for-undervisningsuppdraget--atgarder-for-god-undervisning-och-lararyrkenas-attraktivitet-sou-202526.pdf"
+   },
+   "paragrafer": [
+    {
+     "paragraf": "10 kap. 13 § skollagen",
+     "sou": {
+      "text": "I årskurs 1–5 ska läraren en gång per läsår, vid ett utvecklingssamtal, i en skriftlig kunskapsutvecklingsplan 1. ge omdömen om elevens kunskapsutveckling i förhållande till kriterierna för bedömning av kunskaper eller betygskriterierna för årskurs 6 i de ämnen som eleven får undervisning i, och 2. sammanfatta vilka insatser som behövs för att eleven ska uppfylla kriterierna för bedömning av kunskaper eller betygskriterierna för årskurs 6. Överenskommelser mellan läraren, eleven och elevens vårdnadshavare vid utvecklingssamtalet ska alltid dokumenteras i kunskapsutvecklingsplanen. Rektorn beslutar om utformningen av sådan skriftlig information som ges i kunskapsutvecklingsplanen. Om ett åtgärdsprogram utarbetas behöver inte den skriftliga kunskapsutvecklingsplanen innehålla en sammanfattning av vilka insatser i form av särskilt stöd som eleven behöver för att uppfylla kriterierna för bedömning av kunskaper eller betygskriterierna för årskurs 6. Om en elev ges betyg i årskurs 4 och 5 gäller inte skyldigheten enligt första stycket i de aktuella årskurserna.",
+      "kalla": {
+       "text": "SOU 2025:26 s. 569 (författningskommentar 12.2)",
+       "url": "https://www.regeringen.se/contentassets/6dfbf9bb877b433bbca46ad8c07950fe/tid-for-undervisningsuppdraget--atgarder-for-god-undervisning-och-lararyrkenas-attraktivitet-sou-202526.pdf"
+      }
+     },
+     "lag": "Skollag (2010:800)",
+     "proposition": {
+      "text": "I årskurs 1–6 ska läraren en gång per läsår, vid ett utvecklingssamtal, i en skriftlig plan för kunskapsutveckling 1. ge omdömen om elevens kunskapsutveckling i förhållande till de kunskaper som i ämnenas kursplaner anges i den del som avser mål och innehåll i de ämnen som eleven får undervisning i, och 2. sammanfatta vilka insatser som behövs för att eleven ska tillgodogöra sig de kunskaper som i ämnenas kursplaner anges i den del som avser mål och innehåll. Överenskommelser mellan läraren, eleven och elevens vårdnadshavare vid utvecklingssamtalet ska dokumenteras i planen för kunskapsutveckling. Rektorn beslutar om utformningen av sådan skriftlig information som ges i den planen. Skriftlig information om elevens skolgång får ges även vid andra tillfällen än vid ett utvecklingssamtal. Om ett åtgärdsprogram utarbetas behöver inte den skriftliga planen för kunskapsutveckling innehålla en sammanfattning av vilka insatser i form av särskilt stöd som eleven behöver för att tillgodogöra sig de kunskaper som i ämnenas kursplaner anges i den del som avser mål och innehåll. Om en elev ges betyg i årskurs 5 och 6 gäller inte skyldigheten enligt första stycket i de aktuella årskurserna. Utvecklingssamtal och plan för kunskapsutveckling",
+      "paragraf": "10 kap. 13 §",
+      "likhet_mot_sou": 0.741,
+      "kalla": {
+       "text": "Prop. 2025/26:196 s. 11, lagförslag 2.3",
+       "url": "https://www.regeringen.se/contentassets/7bfa7c951ef54678981bfdb82f028b93/tid-for-undervisningsuppdraget-prop.-202526196.pdf"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "beslutad": {
+      "text": "I årskurs 1-6 ska läraren en gång per läsår, vid ett utvecklingssamtal, i en skriftlig plan för kunskapsutveckling 1. ge omdömen om elevens kunskapsutveckling i förhållande till de kunskaper som i ämnenas kursplaner anges i den del som avser mål och innehåll i de ämnen som eleven får undervisning i, och 2. sammanfatta vilka insatser som behövs för att eleven ska tillgodogöra sig de kunskaper som i ämnenas kursplaner anges i den del som avser mål och innehåll. Överenskommelser mellan läraren, eleven och elevens vårdnadshavare vid utvecklingssamtalet ska dokumenteras i planen för kunskapsutveckling. Rektorn beslutar om utformningen av sådan skriftlig information som ges i den planen. Skriftlig information om elevens skolgång får ges även vid andra till-fällen än vid ett utvecklingssamtal. Om ett åtgärdsprogram utarbetas behöver inte den skriftliga planen för kunskapsutveckling innehålla en sammanfattning av vilka insatser i form av särskilt stöd som eleven behöver för att tillgodogöra sig de kunskaper som i ämnenas kursplaner anges i den del som avser mål och innehåll. Om en elev ges betyg i årskurs 5 och 6 gäller inte skyldigheten enligt första stycket i de aktuella årskurserna.",
+      "paragraf": "10 kap. 13 §",
+      "sfs": "2026:1243",
+      "ikraft": "2028-07-02",
+      "likhet_mot_sou": 0.758,
+      "kalla": {
+       "text": "Skollag (2010:800) 10 kap. 13 § i lydelse enligt SFS 2026:1243, träder i kraft 2028-07-02; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "ersatt",
+       "fore": "1–5",
+       "efter": "1-6"
+      },
+      {
+       "op": "ersatt",
+       "fore": "kunskapsutvecklingsplan",
+       "efter": "plan för kunskapsutveckling"
+      },
+      {
+       "op": "ersatt",
+       "fore": "kriterierna för bedömning av",
+       "efter": "de"
+      },
+      {
+       "op": "ersatt",
+       "fore": "eller betygskriterierna för årskurs 6",
+       "efter": "som i ämnenas kursplaner anges i den del som avser mål och innehåll"
+      },
+      {
+       "op": "ersatt",
+       "fore": "uppfylla kriterierna för bedömning av",
+       "efter": "tillgodogöra sig de"
+      },
+      {
+       "op": "ersatt",
+       "fore": "eller betygskriterierna för årskurs 6.",
+       "efter": "som i ämnenas kursplaner anges i den del som avser mål och innehåll."
+      },
+      {
+       "op": "struken",
+       "fore": "alltid",
+       "efter": null
+      },
+      {
+       "op": "ersatt",
+       "fore": "kunskapsutvecklingsplanen.",
+       "efter": "planen för kunskapsutveckling."
+      },
+      {
+       "op": "ersatt",
+       "fore": "kunskapsutvecklingsplanen.",
+       "efter": "den planen. Skriftlig information om elevens skolgång får ges även vid andra till-fällen än vid ett utvecklingssamtal."
+      },
+      {
+       "op": "ersatt",
+       "fore": "kunskapsutvecklingsplanen",
+       "efter": "planen för kunskapsutveckling"
+      },
+      {
+       "op": "ersatt",
+       "fore": "uppfylla kriterierna för bedömning av",
+       "efter": "tillgodogöra sig de"
+      },
+      {
+       "op": "ersatt",
+       "fore": "eller betygskriterierna för årskurs 6.",
+       "efter": "som i ämnenas kursplaner anges i den del som avser mål och innehåll."
+      },
+      {
+       "op": "ersatt",
+       "fore": "4",
+       "efter": "5"
+      },
+      {
+       "op": "ersatt",
+       "fore": "5",
+       "efter": "6"
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": true
+    },
+    {
+     "paragraf": "11 kap. 16 § skollagen",
+     "sou": {
+      "text": "I årskurs 1–5 ska läraren en gång per läsår, vid ett utvecklingssamtal, i en skriftlig kunskapsutvecklingsplan 1. ge omdömen om elevens kunskapsutveckling i förhållande till a) kriterierna för bedömning av kunskaper eller betygskriterierna för årskurs 6 i de ämnen som eleven får undervisning i, eller b) kriterierna för bedömning av kunskaper i de ämnesområden som eleven får undervisning i, och 2. sammanfatta vilka insatser som behövs för att eleven ska uppfylla kriterierna för bedömning av kunskaper eller betygskriterierna för årskurs 6. Överenskommelser mellan läraren, eleven och elevens vårdnadshavare vid utvecklingssamtalet ska alltid dokumenteras i kunskapsutvecklingsplanen. Rektorn beslutar om utformningen av sådan skriftlig information som ges i kunskapsutvecklingsplanen. Om ett åtgärdsprogram utarbetas behöver inte den skriftliga kunskapsutvecklingsplanen innehålla en sammanfattning av vilka insatser i form av särskilt stöd som eleven behöver för att uppfylla kriterierna för bedömning av kunskaper eller betygskriterierna för årskurs 6. Om en elev ges betyg i årskurs 4 och 5 gäller inte skyldigheten enligt första stycket i de aktuella årskurserna.",
+      "kalla": {
+       "text": "SOU 2025:26 s. 571 (författningskommentar 12.2)",
+       "url": "https://www.regeringen.se/contentassets/6dfbf9bb877b433bbca46ad8c07950fe/tid-for-undervisningsuppdraget--atgarder-for-god-undervisning-och-lararyrkenas-attraktivitet-sou-202526.pdf"
+      }
+     },
+     "lag": "Skollag (2010:800)",
+     "proposition": {
+      "text": "I årskurs 1–6 ska läraren en gång per läsår, vid ett utvecklingssamtal, i en skriftlig plan för kunskapsutveckling 1. ge omdömen om elevens kunskapsutveckling i förhållande till de kunskaper som i ämnenas eller ämnesområdenas kursplaner anges i den del som avser mål och innehåll i de ämnen eller ämnesområden som eleven får undervisning i, och 2. sammanfatta vilka insatser som behövs för att eleven ska tillgodogöra sig de kunskaper som i ämnenas eller ämnesområdenas kursplaner anges i den del som avser mål och innehåll. Överenskommelser mellan läraren, eleven och elevens vårdnadshavare vid utvecklingssamtalet ska dokumenteras i planen för kunskapsutveckling. Rektorn beslutar om utformningen av sådan skriftlig information som ges i den planen. Skriftlig information om elevens skolgång får ges även vid andra tillfällen än vid ett utvecklingssamtal. Om ett åtgärdsprogram utarbetas behöver inte den skriftliga planen för kunskapsutveckling innehålla en sammanfattning av vilka insatser i form av särskilt stöd som eleven behöver för att tillgodogöra sig de kunskaper som i ämnenas eller ämnesområdenas kursplaner anges i den del som avser mål och innehåll. Om en elev ges betyg i årskurs 5 och 6 gäller inte skyldigheten enligt första stycket i de aktuella årskurserna.",
+      "paragraf": "11 kap. 16 §",
+      "likhet_mot_sou": 0.74,
+      "kalla": {
+       "text": "Prop. 2025/26:196 s. 12, lagförslag 2.3",
+       "url": "https://www.regeringen.se/contentassets/7bfa7c951ef54678981bfdb82f028b93/tid-for-undervisningsuppdraget-prop.-202526196.pdf"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "beslutad": {
+      "text": "I årskurs 1-6 ska läraren en gång per läsår, vid ett utvecklingssamtal, i en skriftlig plan för kunskapsutveckling 1. ge omdömen om elevens kunskapsutveckling i förhållande till de kunskaper som i ämnenas eller ämnesområdenas kursplaner anges i den del som avser mål och innehåll i de ämnen eller ämnesområden som eleven får undervisning i, och 2. sammanfatta vilka insatser som behövs för att eleven ska tillgodogöra sig de kunskaper som i ämnenas eller ämnesområdenas kursplaner anges i den del som avser mål och innehåll. Överenskommelser mellan läraren, eleven och elevens vårdnadshavare vid utvecklingssamtalet ska dokumenteras i planen för kunskapsutveckling. Rektorn beslutar om utformningen av sådan skriftlig information som ges i den planen. Skriftlig information om elevens skolgång får ges även vid andra tillfällen än vid ett utvecklingssamtal. Om ett åtgärdsprogram utarbetas behöver inte den skriftliga planen för kunskapsutveckling innehålla en sammanfattning av vilka insatser i form av särskilt stöd som eleven behöver för att tillgodogöra sig de kunskaper som i ämnenas eller ämnesområdenas kursplaner anges i den del som avser mål och innehåll. Om en elev ges betyg i årskurs 5 och 6 gäller inte skyldigheten enligt första stycket i de aktuella årskurserna.",
+      "paragraf": "11 kap. 16 §",
+      "sfs": "2026:1243",
+      "ikraft": "2028-07-02",
+      "likhet_mot_sou": 0.74,
+      "kalla": {
+       "text": "Skollag (2010:800) 11 kap. 16 § i lydelse enligt SFS 2026:1243, träder i kraft 2028-07-02; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "ersatt",
+       "fore": "1–5",
+       "efter": "1-6"
+      },
+      {
+       "op": "ersatt",
+       "fore": "kunskapsutvecklingsplan",
+       "efter": "plan för kunskapsutveckling"
+      },
+      {
+       "op": "ersatt",
+       "fore": "a) kriterierna för bedömning av",
+       "efter": "de"
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "som i ämnenas"
+      },
+      {
+       "op": "ersatt",
+       "fore": "betygskriterierna för årskurs 6",
+       "efter": "ämnesområdenas kursplaner anges i den del som avser mål och innehåll"
+      },
+      {
+       "op": "struken",
+       "fore": "som eleven får undervisning i,",
+       "efter": null
+      },
+      {
+       "op": "struken",
+       "fore": "b) kriterierna för bedömning av kunskaper i de",
+       "efter": null
+      },
+      {
+       "op": "ersatt",
+       "fore": "uppfylla kriterierna för bedömning av",
+       "efter": "tillgodogöra sig de"
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "som i ämnenas"
+      },
+      {
+       "op": "ersatt",
+       "fore": "betygskriterierna för årskurs 6.",
+       "efter": "ämnesområdenas kursplaner anges i den del som avser mål och innehåll."
+      },
+      {
+       "op": "struken",
+       "fore": "alltid",
+       "efter": null
+      },
+      {
+       "op": "ersatt",
+       "fore": "kunskapsutvecklingsplanen.",
+       "efter": "planen för kunskapsutveckling."
+      },
+      {
+       "op": "ersatt",
+       "fore": "kunskapsutvecklingsplanen.",
+       "efter": "den planen. Skriftlig information om elevens skolgång får ges även vid andra tillfällen än vid ett utvecklingssamtal."
+      },
+      {
+       "op": "ersatt",
+       "fore": "kunskapsutvecklingsplanen",
+       "efter": "planen för kunskapsutveckling"
+      },
+      {
+       "op": "ersatt",
+       "fore": "uppfylla kriterierna för bedömning av",
+       "efter": "tillgodogöra sig de"
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "som i ämnenas"
+      },
+      {
+       "op": "ersatt",
+       "fore": "betygskriterierna för årskurs 6.",
+       "efter": "ämnesområdenas kursplaner anges i den del som avser mål och innehåll."
+      },
+      {
+       "op": "ersatt",
+       "fore": "4",
+       "efter": "5"
+      },
+      {
+       "op": "ersatt",
+       "fore": "5",
+       "efter": "6"
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": true
+    },
+    {
+     "paragraf": "11 kap. 16 a § skollagen",
+     "sou": {
+      "text": "I årskurs 6–9 ska läraren, om eleven får undervisning i ett ämne som eleven eller vårdnadshavaren inte begär betyg i eller ett ämnesområde, en gång per läsår vid ett utvecklingssamtal, i en skriftlig kunskapsutvecklingsplan 1. ge omdömen om elevens kunskapsutveckling i förhållande till a) betygskriterierna i ämnet, eller b) kriterierna för bedömning av kunskaper i ämnesområdet, och 2. sammanfatta vilka insatser som behövs för att eleven ska uppfylla betygskriterierna eller kriterierna för bedömning av kunskaper. Rektorn beslutar om utformningen av sådan skriftlig information som ges i kunskapsutvecklingsplanen. Om ett åtgärdsprogram utarbetas behöver inte den skriftliga kunskapsutvecklingsplanen innehålla en sammanfattning av vilka insatser i form av särskilt stöd som eleven behöver för att uppfylla betygskriterierna eller kriterierna för bedömning av kunskaper.",
+      "kalla": {
+       "text": "SOU 2025:26 s. 572 (författningskommentar 12.2)",
+       "url": "https://www.regeringen.se/contentassets/6dfbf9bb877b433bbca46ad8c07950fe/tid-for-undervisningsuppdraget--atgarder-for-god-undervisning-och-lararyrkenas-attraktivitet-sou-202526.pdf"
+      }
+     },
+     "lag": "Skollag (2010:800)",
+     "proposition": {
+      "text": "I årskurs 7–10 ska läraren, om eleven får undervisning i ett ämne som eleven eller vårdnadshavaren inte begär betyg i eller ett ämnesområde, en gång per läsår vid ett utvecklingssamtal, i en skriftlig plan för kunskapsutveckling 1. ge omdömen om elevens kunskapsutveckling i förhållande till de kunskaper som i ämnets eller ämnesområdets kursplaner anges i den del som avser mål och innehåll, och 2. sammanfatta vilka insatser som behövs för att eleven ska tillgodogöra sig de kunskaper som i ämnets eller ämnesområdets kursplaner anges i den del som avser mål och innehåll. Rektorn beslutar om utformningen av sådan skriftlig information som ges i planen för kunskapsutveckling. Skriftlig information om elevens skolgång får ges även i andra fall än vad som följer av första stycket och även vid andra tillfällen än vid ett utvecklingssamtal. Om ett åtgärdsprogram utarbetas behöver inte den skriftliga planen för kunskapsutveckling innehålla en sammanfattning av vilka insatser i form av särskilt stöd som eleven behöver för att tillgodogöra sig de kunskaper som i ämnets eller ämnesområdets kursplaner anges i den del som avser mål och innehåll. Utvecklingssamtal och plan för kunskapsutveckling",
+      "paragraf": "11 kap. 16a §",
+      "likhet_mot_sou": 0.661,
+      "kalla": {
+       "text": "Prop. 2025/26:196 s. 13, lagförslag 2.3",
+       "url": "https://www.regeringen.se/contentassets/7bfa7c951ef54678981bfdb82f028b93/tid-for-undervisningsuppdraget-prop.-202526196.pdf"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "beslutad": {
+      "text": "I årskurs 7-10 ska läraren, om eleven får undervisning i ett ämne som eleven eller vårdnadshavaren inte begär betyg i eller ett ämnesområde, en gång per läsår vid ett av utvecklingssamtalen, i en skriftlig individuell utvecklingsplan 1. ge omdömen om elevens kunskapsutveckling i förhållande till a) betygskriterierna i ämnet, eller b) kriterierna för bedömning av kunskaper i ämnesområdet, och 2. sammanfatta vilka insatser som behövs för att eleven ska uppfylla betygskriterierna eller kriterierna för bedömning av kunskaper och i övrigt utvecklas så långt som möjligt inom ramen för läroplanen i det ämnet eller ämnesområdet. Rektorn beslutar om utformningen av sådan skriftlig information som ges i utvecklingsplanen. Skriftlig information om elevens skolgång får ges även i andra fall än vad som följer av första stycket och även vid andra tillfällen än vid ett utvecklingssamtal. Om ett åtgärdsprogram utarbetas behöver inte den skriftliga individuella utvecklingsplanen innehålla en sammanfattning av vilka insatser i form av särskilt stöd som eleven behöver för att uppfylla betygskriterierna eller kriterierna för bedömning av kunskaper. Lag (2025:729). 16 a /Träder i kraft I:2028-07-02/ § I årskurs 7-10 ska läraren, om eleven får undervisning i ett ämne som eleven eller vårdnadshavaren inte begär betyg i eller ett ämnesområde, en gång per läsår vid ett utvecklingssamtal, i en skriftlig plan för kunskapsutveckling 1. ge omdömen om elevens kunskapsutveckling i förhållande till de kunskaper som i ämnets eller ämnesområdets kursplaner anges i den del som avser mål och innehåll, och 2. sammanfatta vilka insatser som behövs för att eleven ska tillgodogöra sig de kunskaper som i ämnets eller ämnesområdets kursplaner anges i den del som avser mål och innehåll. Rektorn beslutar om utformningen av sådan skriftlig information som ges i planen för kunskapsutveckling. Skriftlig information om elevens skolgång får ges även i andra fall än vad som följer av första stycket och även vid andra tillfällen än vid ett utvecklingssamtal. Om ett åtgärdsprogram utarbetas behöver inte den skriftliga planen för kunskapsutveckling innehålla en sammanfattning av vilka insatser i form av särskilt stöd som eleven behöver för att tillgodogöra sig de kunskaper som i ämnets eller ämnesområdets kursplaner anges i den del som avser mål och innehåll.",
+      "paragraf": "11 kap. 16a §",
+      "sfs": "2026:1243",
+      "ikraft": null,
+      "likhet_mot_sou": 0.533,
+      "kalla": {
+       "text": "Skollag (2010:800) 11 kap. 16a § i lydelse enligt SFS 2026:1243; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "ersatt",
+       "fore": "6–9",
+       "efter": "7-10"
+      },
+      {
+       "op": "ersatt",
+       "fore": "utvecklingssamtal,",
+       "efter": "av utvecklingssamtalen,"
+      },
+      {
+       "op": "ersatt",
+       "fore": "kunskapsutvecklingsplan",
+       "efter": "individuell utvecklingsplan"
+      },
+      {
+       "op": "ersatt",
+       "fore": "kunskaper.",
+       "efter": "kunskaper och i övrigt utvecklas så långt som möjligt inom ramen för läroplanen i det ämnet eller ämnesområdet."
+      },
+      {
+       "op": "ersatt",
+       "fore": "kunskapsutvecklingsplanen.",
+       "efter": "utvecklingsplanen. Skriftlig information om elevens skolgång får ges även i andra fall än vad som följer av första stycket och även vid andra tillfällen än vid ett utvecklingssamtal."
+      },
+      {
+       "op": "ersatt",
+       "fore": "kunskapsutvecklingsplanen",
+       "efter": "individuella utvecklingsplanen"
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "Lag (2025:729). 16 a /Träder i kraft I:2028-07-02/ § I årskurs 7-10 ska läraren, om eleven får undervisning i ett ämne som eleven eller vårdnadshavaren inte begär betyg i eller ett ämnesområde, en gång per läsår vid ett utvecklingssamtal, i en skriftlig plan för kunskapsutveckling 1. ge omdömen om elevens kunskapsutveckling i förhållande till de kunskaper som i ämnets eller ämnesområdets kursplaner anges i den del som avser mål och innehåll, och 2. sammanfatta vilka insatser som behövs för att eleven ska tillgodogöra sig de kunskaper som i ämnets eller ämnesområdets kursplaner anges i den del som avser mål och innehåll. Rektorn beslutar om utformningen av sådan skriftlig information som ges i planen för kunskapsutveckling. Skriftlig information om elevens skolgång får ges även i andra fall än vad som följer av första stycket och även vid andra tillfällen än vid ett utvecklingssamtal. Om ett åtgärdsprogram utarbetas behöver inte den skriftliga planen för kunskapsutveckling innehålla en sammanfattning av vilka insatser i form av särskilt stöd som eleven behöver för att tillgodogöra sig de kunskaper som i ämnets eller ämnesområdets kursplaner anges i den del som avser mål och innehåll."
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": true
+    },
+    {
+     "paragraf": "12 kap. 13 § skollagen",
+     "sou": {
+      "text": "I årskurs 1–6 ska läraren en gång per läsår, vid ett utvecklingssamtal, i en skriftlig kunskapsutvecklingsplan 1. ge omdömen om elevens kunskapsutveckling i förhållande till a) kriterierna för bedömning av kunskaper eller betygskriterierna för årskurs 7 i de ämnen som eleven får undervisning i, eller b) kriterierna för bedömning av kunskaper i de ämnesområden som eleven får undervisning i, och 2. sammanfatta vilka insatser som behövs för att eleven ska uppfylla kriterierna för bedömning av kunskaper eller betygskriterierna för årskurs 7. Överenskommelser mellan läraren, eleven och elevens vårdnadshavare vid utvecklingssamtalet ska alltid dokumenteras i kunskapsutvecklingsplanen. Rektorn beslutar om utformningen av sådan skriftlig information som ges i kunskapsutvecklingsplanen. Om ett åtgärdsprogram utarbetas behöver inte den skriftliga kunskapsutvecklingsplanen innehålla en sammanfattning av vilka insatser i form av särskilt stöd som eleven behöver för att uppfylla kriterierna för bedömning av kunskaper eller betygskriterierna för årskurs 7. Om en elev ges betyg i årskurs 5 och 6 gäller inte skyldigheten enligt första stycket i de aktuella årskurserna.",
+      "kalla": {
+       "text": "SOU 2025:26 s. 574 (författningskommentar 12.2)",
+       "url": "https://www.regeringen.se/contentassets/6dfbf9bb877b433bbca46ad8c07950fe/tid-for-undervisningsuppdraget--atgarder-for-god-undervisning-och-lararyrkenas-attraktivitet-sou-202526.pdf"
+      }
+     },
+     "lag": "Skollag (2010:800)",
+     "proposition": {
+      "text": "I årskurs 1–7 ska läraren en gång per läsår, vid ett utvecklingssamtal, i en skriftlig plan för kunskapsutveckling 1. ge omdömen om elevens kunskapsutveckling i förhållande till de kunskaper som i ämnenas eller ämnesområdenas kursplaner anges i den del som avser mål och innehåll i de ämnen eller ämnesområden som eleven får undervisning i, och 2. sammanfatta vilka insatser som behövs för att eleven ska tillgodogöra sig de kunskaper som i ämnenas eller ämnesområdenas kursplaner anges i den del som avser mål och innehåll. Överenskommelser mellan läraren, eleven och elevens vårdnadshavare vid utvecklingssamtalet ska dokumenteras i planen för kunskapsutveckling. Rektorn beslutar om utformningen av sådan skriftlig information som ges i den planen. Skriftlig information om elevens skolgång får ges även vid andra tillfällen än vid ett utvecklingssamtal. Om ett åtgärdsprogram utarbetas behöver inte den skriftliga planen för kunskapsutveckling innehålla en sammanfattning av vilka insatser i form av särskilt stöd som eleven behöver för att tillgodogöra sig de kunskaper som i ämnenas eller ämnesområdenas kursplaner anges i den del som avser mål och innehåll. Om en elev ges betyg i årskurs 6 och 7 gäller inte skyldigheten enligt första stycket i de aktuella årskurserna.",
+      "paragraf": "12 kap. 13 §",
+      "likhet_mot_sou": 0.74,
+      "kalla": {
+       "text": "Prop. 2025/26:196 s. 15, lagförslag 2.3",
+       "url": "https://www.regeringen.se/contentassets/7bfa7c951ef54678981bfdb82f028b93/tid-for-undervisningsuppdraget-prop.-202526196.pdf"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "beslutad": {
+      "text": "I årskurs 1-7 ska läraren en gång per läsår, vid ett utvecklingssamtal, i en skriftlig plan för kunskapsutveckling 1. ge omdömen om elevens kunskapsutveckling i förhållande till de kunskaper som i ämnenas eller ämnesområdenas kursplaner anges i den del som avser mål och innehåll i de ämnen eller ämnesområden som eleven får undervisning i, och 2. sammanfatta vilka insatser som behövs för att eleven ska tillgodogöra sig de kunskaper som i ämnenas eller ämnesområdenas kursplaner anges i den del som avser mål och innehåll. Överenskommelser mellan läraren, eleven och elevens vårdnadshavare vid utvecklingssamtalet ska dokumenteras i planen för kunskapsutveckling. Rektorn beslutar om utformningen av sådan skriftlig information som ges i den planen. Skriftlig information om elevens skolgång får ges även vid andra tillfällen än vid ett utvecklingssamtal. Om ett åtgärdsprogram utarbetas behöver inte den skriftliga planen för kunskapsutveckling innehålla en sammanfattning av vilka insatser i form av särskilt stöd som eleven behöver för att tillgodogöra sig de kunskaper som i ämnenas eller ämnesområdenas kursplaner anges i den del som avser mål och innehåll. Om en elev ges betyg i årskurs 6 och 7 gäller inte skyldigheten enligt första stycket i de aktuella årskurserna.",
+      "paragraf": "12 kap. 13 §",
+      "sfs": "2026:1243",
+      "ikraft": "2028-07-02",
+      "likhet_mot_sou": 0.74,
+      "kalla": {
+       "text": "Skollag (2010:800) 12 kap. 13 § i lydelse enligt SFS 2026:1243, träder i kraft 2028-07-02; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "ersatt",
+       "fore": "1–6",
+       "efter": "1-7"
+      },
+      {
+       "op": "ersatt",
+       "fore": "kunskapsutvecklingsplan",
+       "efter": "plan för kunskapsutveckling"
+      },
+      {
+       "op": "ersatt",
+       "fore": "a) kriterierna för bedömning av",
+       "efter": "de"
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "som i ämnenas"
+      },
+      {
+       "op": "ersatt",
+       "fore": "betygskriterierna för årskurs 7",
+       "efter": "ämnesområdenas kursplaner anges i den del som avser mål och innehåll"
+      },
+      {
+       "op": "struken",
+       "fore": "som eleven får undervisning i,",
+       "efter": null
+      },
+      {
+       "op": "struken",
+       "fore": "b) kriterierna för bedömning av kunskaper i de",
+       "efter": null
+      },
+      {
+       "op": "ersatt",
+       "fore": "uppfylla kriterierna för bedömning av",
+       "efter": "tillgodogöra sig de"
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "som i ämnenas"
+      },
+      {
+       "op": "ersatt",
+       "fore": "betygskriterierna för årskurs 7.",
+       "efter": "ämnesområdenas kursplaner anges i den del som avser mål och innehåll."
+      },
+      {
+       "op": "struken",
+       "fore": "alltid",
+       "efter": null
+      },
+      {
+       "op": "ersatt",
+       "fore": "kunskapsutvecklingsplanen.",
+       "efter": "planen för kunskapsutveckling."
+      },
+      {
+       "op": "ersatt",
+       "fore": "kunskapsutvecklingsplanen.",
+       "efter": "den planen. Skriftlig information om elevens skolgång får ges även vid andra tillfällen än vid ett utvecklingssamtal."
+      },
+      {
+       "op": "ersatt",
+       "fore": "kunskapsutvecklingsplanen",
+       "efter": "planen för kunskapsutveckling"
+      },
+      {
+       "op": "ersatt",
+       "fore": "uppfylla kriterierna för bedömning av",
+       "efter": "tillgodogöra sig de"
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "som i ämnenas"
+      },
+      {
+       "op": "ersatt",
+       "fore": "betygskriterierna för årskurs 7.",
+       "efter": "ämnesområdenas kursplaner anges i den del som avser mål och innehåll."
+      },
+      {
+       "op": "ersatt",
+       "fore": "5",
+       "efter": "6"
+      },
+      {
+       "op": "ersatt",
+       "fore": "6",
+       "efter": "7"
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": true
+    },
+    {
+     "paragraf": "12 kap. 13 a § skollagen",
+     "sou": {
+      "text": "I årskurs 7–10 ska läraren, om anpassade grundskolans kursplaner tillämpas och eleven får undervisning i ett ämne som eleven eller vårdnadshavaren inte begär betyg i eller ett ämnesområde, en gång per läsår vid ett utvecklingssamtal i en skriftlig kunskapsutvecklingsplan 1. ge omdömen om elevens kunskapsutveckling i förhållande till a) betygskriterierna i det ämne som eleven får undervisning i, eller b) kriterierna för bedömning av kunskaper i det ämnesområde som eleven får undervisning i, och 2. sammanfatta vilka insatser som behövs för att eleven ska uppfylla betygskriterierna eller kriterierna för bedömning av kunskaper. Rektorn beslutar om utformningen av sådan skriftlig information som ges i kunskapsutvecklingsplanen. Om ett åtgärdsprogram utarbetas behöver inte den skriftliga kunskapsutvecklingsplanen innehålla en sammanfattning av vilka insatser i form av särskilt stöd som eleven behöver för att uppfylla betygskriterierna eller kriterierna för bedömning av kunskaper.",
+      "kalla": {
+       "text": "SOU 2025:26 s. 575 (författningskommentar 12.2)",
+       "url": "https://www.regeringen.se/contentassets/6dfbf9bb877b433bbca46ad8c07950fe/tid-for-undervisningsuppdraget--atgarder-for-god-undervisning-och-lararyrkenas-attraktivitet-sou-202526.pdf"
+      }
+     },
+     "lag": "Skollag (2010:800)",
+     "proposition": {
+      "text": "I årskurs 8–11 ska läraren, om anpassade grundskolans kursplaner tillämpas och eleven får undervisning i ett ämne som eleven eller vårdnadshavaren inte begär betyg i eller ett ämnesområde, en gång per läsår vid ett utvecklingssamtal i en skriftlig plan för kunskapsutveckling 1. ge omdömen om elevens kunskapsutveckling i förhållande till de kunskaper som i ämnets eller ämnesområdets kursplaner anges i den del som avser mål och innehåll, och 2. sammanfatta vilka insatser som behövs för att eleven ska tillgodogöra sig de kunskaper som i ämnets eller ämnesområdets kursplaner anges i den del som avser mål och innehåll. Rektorn beslutar om utformningen av sådan skriftlig information som ges i planen för kunskapsutveckling. Skriftlig information om elevens skolgång får ges även i andra fall än vad som följer av första stycket och även vid andra tillfällen än vid ett utvecklingssamtal. Om ett åtgärdsprogram utarbetas behöver inte den skriftliga planen för kunskapsutveckling innehålla en sammanfattning av vilka insatser i form av särskilt stöd som eleven behöver för att tillgodogöra sig de kunskaper som i ämnets eller ämnesområdets kursplaner anges i den del som avser mål och innehåll. Utvecklingssamtal och plan för kunskapsutveckling",
+      "paragraf": "12 kap. 13a §",
+      "likhet_mot_sou": 0.668,
+      "kalla": {
+       "text": "Prop. 2025/26:196 s. 15, lagförslag 2.3",
+       "url": "https://www.regeringen.se/contentassets/7bfa7c951ef54678981bfdb82f028b93/tid-for-undervisningsuppdraget-prop.-202526196.pdf"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "beslutad": {
+      "text": "I årskurs 8-11 ska läraren, om anpassade grundskolans kursplaner tillämpas och eleven får undervisning i ett ämne som eleven eller vårdnadshavaren inte begär betyg i eller ett ämnesområde, en gång per läsår vid ett utvecklingssamtal i en skriftlig plan för kunskapsutveckling 1. ge omdömen om elevens kunskapsutveckling i förhållande till de kunskaper som i ämnets eller ämnesområdets kursplaner anges i den del som avser mål och innehåll, och 2. sammanfatta vilka insatser som behövs för att eleven ska tillgodogöra sig de kunskaper som i ämnets eller ämnesområdets kursplaner anges i den del som avser mål och innehåll. Rektorn beslutar om utformningen av sådan skriftlig information som ges i planen för kunskapsutveckling. Skriftlig information om elevens skolgång får ges även i andra fall än vad som följer av första stycket och även vid andra tillfällen än vid ett utvecklingssamtal. Om ett åtgärdsprogram utarbetas behöver inte den skriftliga planen för kunskapsutveckling innehålla en sammanfattning av vilka insatser i form av särskilt stöd som eleven behöver för att tillgodogöra sig de kunskaper som i ämnets eller ämnesområdets kursplaner anges i den del som avser mål och innehåll.",
+      "paragraf": "12 kap. 13a §",
+      "sfs": "2026:1243",
+      "ikraft": "2028-07-02",
+      "likhet_mot_sou": 0.684,
+      "kalla": {
+       "text": "Skollag (2010:800) 12 kap. 13a § i lydelse enligt SFS 2026:1243, träder i kraft 2028-07-02; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "ersatt",
+       "fore": "7–10",
+       "efter": "8-11"
+      },
+      {
+       "op": "ersatt",
+       "fore": "kunskapsutvecklingsplan",
+       "efter": "plan för kunskapsutveckling"
+      },
+      {
+       "op": "ersatt",
+       "fore": "a) betygskriterierna",
+       "efter": "de kunskaper som"
+      },
+      {
+       "op": "ersatt",
+       "fore": "det ämne",
+       "efter": "ämnets eller ämnesområdets kursplaner anges i den del"
+      },
+      {
+       "op": "ersatt",
+       "fore": "eleven får undervisning i, eller b) kriterierna för bedömning av kunskaper i det ämnesområde som eleven får undervisning i,",
+       "efter": "avser mål och innehåll,"
+      },
+      {
+       "op": "ersatt",
+       "fore": "uppfylla betygskriterierna",
+       "efter": "tillgodogöra sig de kunskaper som i ämnets"
+      },
+      {
+       "op": "ersatt",
+       "fore": "kriterierna för bedömning av kunskaper.",
+       "efter": "ämnesområdets kursplaner anges i den del som avser mål och innehåll."
+      },
+      {
+       "op": "ersatt",
+       "fore": "kunskapsutvecklingsplanen.",
+       "efter": "planen för kunskapsutveckling. Skriftlig information om elevens skolgång får ges även i andra fall än vad som följer av första stycket och även vid andra tillfällen än vid ett utvecklingssamtal."
+      },
+      {
+       "op": "ersatt",
+       "fore": "kunskapsutvecklingsplanen",
+       "efter": "planen för kunskapsutveckling"
+      },
+      {
+       "op": "ersatt",
+       "fore": "uppfylla betygskriterierna",
+       "efter": "tillgodogöra sig de kunskaper som i ämnets"
+      },
+      {
+       "op": "ersatt",
+       "fore": "kriterierna för bedömning av kunskaper.",
+       "efter": "ämnesområdets kursplaner anges i den del som avser mål och innehåll."
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": true
+    },
+    {
+     "paragraf": "13 kap. 13 § skollagen",
+     "sou": {
+      "text": "I årskurs 1–5 ska läraren en gång per läsår, vid ett utvecklingssamtal, i en skriftlig kunskapsutvecklingsplan 1. ge omdömen om elevens kunskapsutveckling i förhållande till kriterierna för bedömning av kunskaper eller betygskriterierna för årskurs 6 i de ämnen som eleven får undervisning i, och 2. sammanfatta vilka insatser som behövs för att eleven ska uppfylla kriterierna för bedömning av kunskaper eller betygskriterierna för årskurs 6. Överenskommelser mellan läraren, eleven och elevens vårdnadshavare vid utvecklingssamtalet ska alltid dokumenteras i kunskapsutvecklingsplanen. Rektorn beslutar om utformningen av sådan skriftlig information som ges i kunskapsutvecklingsplanen. Om ett åtgärdsprogram utarbetas behöver inte den skriftliga kunskapsutvecklingsplanen innehålla en sammanfattning av vilka insatser i form av särskilt stöd som eleven behöver för att uppfylla kriterierna för bedömning av kunskaper eller betygskriterierna för årskurs 6. Om en elev ges betyg i årskurs 4 och 5 gäller inte skyldigheten enligt första stycket i de aktuella årskurserna.",
+      "kalla": {
+       "text": "SOU 2025:26 s. 577 (författningskommentar 12.2)",
+       "url": "https://www.regeringen.se/contentassets/6dfbf9bb877b433bbca46ad8c07950fe/tid-for-undervisningsuppdraget--atgarder-for-god-undervisning-och-lararyrkenas-attraktivitet-sou-202526.pdf"
+      }
+     },
+     "lag": "Skollag (2010:800)",
+     "proposition": {
+      "text": "I årskurs 1–6 ska läraren en gång per läsår, vid ett utvecklingssamtal, i en skriftlig plan för kunskapsutveckling 1. ge omdömen om elevens kunskapsutveckling i förhållande till de kunskaper som i ämnenas kursplaner anges i den del som avser mål och innehåll i de ämnen som eleven får undervisning i, och 2. sammanfatta vilka insatser som behövs för att eleven ska tillgodogöra sig de kunskaper som i ämnenas kursplaner anges i den del som avser mål och innehåll. Överenskommelser mellan läraren, eleven och elevens vårdnadshavare vid utvecklingssamtalet ska dokumenteras i planen för kunskapsutveckling. Rektorn beslutar om utformningen av sådan skriftlig information som ges i den planen. Skriftlig information om elevens skolgång får ges även vid andra tillfällen än vid ett utvecklingssamtal. Om ett åtgärdsprogram utarbetas behöver inte den skriftliga planen för kunskapsutveckling innehålla en sammanfattning av vilka insatser i form av särskilt stöd som eleven behöver för att tillgodogöra sig de kunskaper som i ämnenas kursplaner anges i den del som avser mål och innehåll. Om en elev ges betyg i årskurs 5 och 6 gäller inte skyldigheten enligt",
+      "paragraf": "13 kap. 13 §",
+      "likhet_mot_sou": 0.734,
+      "kalla": {
+       "text": "Prop. 2025/26:196 s. 17, lagförslag 2.3",
+       "url": "https://www.regeringen.se/contentassets/7bfa7c951ef54678981bfdb82f028b93/tid-for-undervisningsuppdraget-prop.-202526196.pdf"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "beslutad": {
+      "text": "I årskurs 1-6 ska läraren en gång per läsår, vid ett utvecklingssamtal, i en skriftlig plan för kunskapsutveckling 1. ge omdömen om elevens kunskapsutveckling i förhållande till de kunskaper som i ämnenas kursplaner anges i den del som avser mål och innehåll i de ämnen som eleven får undervisning i, och 2. sammanfatta vilka insatser som behövs för att eleven ska tillgodogöra sig de kunskaper som i ämnenas kursplaner anges i den del som avser mål och innehåll. Överenskommelser mellan läraren, eleven och elevens vårdnadshavare vid utvecklingssamtalet ska dokumenteras i planen för kunskapsutveckling. Rektorn beslutar om utformningen av sådan skriftlig information som ges i den planen. Skriftlig information om elevens skolgång får ges även vid andra tillfällen än vid ett utvecklingssamtal. Om ett åtgärdsprogram utarbetas behöver inte den skriftliga planen för kunskapsutveckling innehålla en sammanfattning av vilka insatser i form av särskilt stöd som eleven behöver för att tillgodogöra sig de kunskaper som i ämnenas kursplaner anges i den del som avser mål och innehåll. Om en elev ges betyg i årskurs 5 och 6 gäller inte skyldigheten enligt första stycket i de aktuella årskurserna.",
+      "paragraf": "13 kap. 13 §",
+      "sfs": "2026:1243",
+      "ikraft": "2028-07-02",
+      "likhet_mot_sou": 0.758,
+      "kalla": {
+       "text": "Skollag (2010:800) 13 kap. 13 § i lydelse enligt SFS 2026:1243, träder i kraft 2028-07-02; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "ersatt",
+       "fore": "1–5",
+       "efter": "1-6"
+      },
+      {
+       "op": "ersatt",
+       "fore": "kunskapsutvecklingsplan",
+       "efter": "plan för kunskapsutveckling"
+      },
+      {
+       "op": "ersatt",
+       "fore": "kriterierna för bedömning av",
+       "efter": "de"
+      },
+      {
+       "op": "ersatt",
+       "fore": "eller betygskriterierna för årskurs 6",
+       "efter": "som i ämnenas kursplaner anges i den del som avser mål och innehåll"
+      },
+      {
+       "op": "ersatt",
+       "fore": "uppfylla kriterierna för bedömning av",
+       "efter": "tillgodogöra sig de"
+      },
+      {
+       "op": "ersatt",
+       "fore": "eller betygskriterierna för årskurs 6.",
+       "efter": "som i ämnenas kursplaner anges i den del som avser mål och innehåll."
+      },
+      {
+       "op": "struken",
+       "fore": "alltid",
+       "efter": null
+      },
+      {
+       "op": "ersatt",
+       "fore": "kunskapsutvecklingsplanen.",
+       "efter": "planen för kunskapsutveckling."
+      },
+      {
+       "op": "ersatt",
+       "fore": "kunskapsutvecklingsplanen.",
+       "efter": "den planen. Skriftlig information om elevens skolgång får ges även vid andra tillfällen än vid ett utvecklingssamtal."
+      },
+      {
+       "op": "ersatt",
+       "fore": "kunskapsutvecklingsplanen",
+       "efter": "planen för kunskapsutveckling"
+      },
+      {
+       "op": "ersatt",
+       "fore": "uppfylla kriterierna för bedömning av",
+       "efter": "tillgodogöra sig de"
+      },
+      {
+       "op": "ersatt",
+       "fore": "eller betygskriterierna för årskurs 6.",
+       "efter": "som i ämnenas kursplaner anges i den del som avser mål och innehåll."
+      },
+      {
+       "op": "ersatt",
+       "fore": "4",
+       "efter": "5"
+      },
+      {
+       "op": "ersatt",
+       "fore": "5",
+       "efter": "6"
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": true
+    }
+   ],
+   "status": "ändrad",
+   "status_per_paragraf": {
+    "ändrad": 6
+   },
+   "status_kalla": {
+    "text": "Härledd per paragraf: SOU:ns föreslagna lydelse jämförd med beslutad lydelse (SFS diskrimineringslagen: ingen; skollagen: 2026:1096/1097/1243). Statusvärdet är mekaniskt (textlikhet), inte en bedömning.",
+    "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+   }
+  },
+  {
+   "forslag": "F07",
+   "sou_avsnitt": "6.7",
+   "forslag_kalla": {
+    "text": "SOU 2025:26 s. 307",
+    "url": "https://www.regeringen.se/contentassets/6dfbf9bb877b433bbca46ad8c07950fe/tid-for-undervisningsuppdraget--atgarder-for-god-undervisning-och-lararyrkenas-attraktivitet-sou-202526.pdf"
+   },
+   "paragrafer": [],
+   "status": "ej lagtext",
+   "status_kalla": {
+    "text": "Förslaget gäller uppdrag/ansvar för myndighet; ingen paragraf i SOU:ns författningskommentar till diskrimineringslagen eller skollagen (avsnitt 12.1, 12.2) hänvisar till avsnitt 6.7",
+    "url": "https://www.regeringen.se/contentassets/6dfbf9bb877b433bbca46ad8c07950fe/tid-for-undervisningsuppdraget--atgarder-for-god-undervisning-och-lararyrkenas-attraktivitet-sou-202526.pdf"
+   }
+  },
+  {
+   "forslag": "F08",
+   "sou_avsnitt": "7.4.1",
+   "forslag_kalla": {
+    "text": "SOU 2025:26 s. 363",
+    "url": "https://www.regeringen.se/contentassets/6dfbf9bb877b433bbca46ad8c07950fe/tid-for-undervisningsuppdraget--atgarder-for-god-undervisning-och-lararyrkenas-attraktivitet-sou-202526.pdf"
+   },
+   "paragrafer": [
+    {
+     "paragraf": "1 kap. 5 § skollagen",
+     "sou": {
+      "text": "Utbildningen ska utformas i överensstämmelse med grundläggande demokratiska värderingar och de mänskliga rättigheterna som människolivets okränkbarhet, individens frihet och integritet, alla människors lika värde, jämställdhet samt solidaritet mellan människor. Var och en som verkar inom utbildningen ska främja de mänskliga rättigheterna. Utbildningen ska vila på vetenskaplig grund och beprövad erfarenhet.",
+      "kalla": {
+       "text": "SOU 2025:26 s. 558 (författningskommentar 12.2)",
+       "url": "https://www.regeringen.se/contentassets/6dfbf9bb877b433bbca46ad8c07950fe/tid-for-undervisningsuppdraget--atgarder-for-god-undervisning-och-lararyrkenas-attraktivitet-sou-202526.pdf"
+      }
+     },
+     "lag": "Skollag (2010:800)",
+     "proposition": {
+      "text": "Utbildningen ska utformas i överensstämmelse med grundläggande demokratiska värderingar och de mänskliga rättigheterna som människolivets okränkbarhet, individens frihet och integritet, alla människors lika värde, jämställdhet samt solidaritet mellan människor. Var och en som verkar inom utbildningen ska främja de grundläggande demokratiska värderingarna och de mänskliga rättigheterna. Utbildningen ska vila på vetenskaplig grund och beprövad erfarenhet.",
+      "paragraf": "1 kap. 5 §",
+      "likhet_mot_sou": 0.944,
+      "kalla": {
+       "text": "Prop. 2025/26:196 s. 5, lagförslag 2.1",
+       "url": "https://www.regeringen.se/contentassets/7bfa7c951ef54678981bfdb82f028b93/tid-for-undervisningsuppdraget-prop.-202526196.pdf"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": false
+     },
+     "beslutad": {
+      "text": "Utbildningen ska utformas i överensstämmelse med grundläggande demokratiska värderingar och de mänskliga rättigheterna som människolivets okränkbarhet, individens frihet och integritet, alla människors lika värde, jämställdhet samt solidaritet mellan människor. Var och en som verkar inom utbildningen ska främja de grundläggande demokratiska värderingarna och de mänskliga rättigheterna. Utbildningen ska vila på vetenskaplig grund och beprövad erfarenhet.",
+      "paragraf": "1 kap. 5 §",
+      "sfs": "2026:1096",
+      "ikraft": null,
+      "likhet_mot_sou": 0.944,
+      "kalla": {
+       "text": "Skollag (2010:800) 1 kap. 5 § i lydelse enligt SFS 2026:1096; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": false
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "grundläggande demokratiska värderingarna och de"
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": false
+    },
+    {
+     "paragraf": "6 kap. 5 a § skollagen",
+     "sou": {
+      "text": "All personal är skyldig att aktivt uppmärksamma och agera för att hantera alla former av kränkande behandling i verksamheten.",
+      "kalla": {
+       "text": "SOU 2025:26 s. 562 (författningskommentar 12.2)",
+       "url": "https://www.regeringen.se/contentassets/6dfbf9bb877b433bbca46ad8c07950fe/tid-for-undervisningsuppdraget--atgarder-for-god-undervisning-och-lararyrkenas-attraktivitet-sou-202526.pdf"
+      }
+     },
+     "lag": "Skollag (2010:800)",
+     "proposition": {
+      "text": "Bestämmelser om förbud m.m. mot diskriminering, inklusive trakasserier och sexuella trakasserier, i samband med verksamhet enligt denna lag finns i diskrimineringslagen (2008:567). Skyldighet att aktivt motverka, informera om, anmäla, utreda och vidta åtgärder mot kränkande behandling",
+      "paragraf": "6 kap. 2 §",
+      "likhet_mot_sou": 0.325,
+      "kalla": {
+       "text": "Prop. 2025/26:196 s. 5, lagförslag 2.1",
+       "url": "https://www.regeringen.se/contentassets/7bfa7c951ef54678981bfdb82f028b93/tid-for-undervisningsuppdraget-prop.-202526196.pdf"
+      },
+      "matchning": "textlikhet",
+      "manuell_granskning": true
+     },
+     "beslutad": {
+      "text": "Detta kapitel har till ändamål att motverka kränkande behandling av barn och elever. Detta kapitel har också till ändamål att motverka trakasserier och sexuella trakasserier enligt diskrimineringslagen (2008:567). Bestämmelserna tillämpas på utbildning och annan verksamhet enligt denna lag.",
+      "paragraf": "6 kap. 1 §",
+      "sfs": "2026:1096",
+      "ikraft": null,
+      "likhet_mot_sou": 0.277,
+      "kalla": {
+       "text": "Skollag (2010:800) 6 kap. 1 § i lydelse enligt SFS 2026:1096; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "textlikhet",
+      "manuell_granskning": true
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "ersatt",
+       "fore": "All personal är skyldig",
+       "efter": "Detta kapitel har till ändamål"
+      },
+      {
+       "op": "ersatt",
+       "fore": "aktivt uppmärksamma och agera för att hantera alla former av",
+       "efter": "motverka"
+      },
+      {
+       "op": "ersatt",
+       "fore": "i verksamheten.",
+       "efter": "av barn och elever. Detta kapitel har också till ändamål att motverka trakasserier och sexuella trakasserier enligt diskrimineringslagen (2008:567). Bestämmelserna tillämpas på utbildning och annan verksamhet enligt denna lag."
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": true
+    }
+   ],
+   "status": "ändrad",
+   "status_per_paragraf": {
+    "ändrad": 2
+   },
+   "status_kalla": {
+    "text": "Härledd per paragraf: SOU:ns föreslagna lydelse jämförd med beslutad lydelse (SFS diskrimineringslagen: ingen; skollagen: 2026:1096/1097/1243). Statusvärdet är mekaniskt (textlikhet), inte en bedömning.",
+    "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+   }
+  },
+  {
+   "forslag": "F09",
+   "sou_avsnitt": "7.4.2",
+   "forslag_kalla": {
+    "text": "SOU 2025:26 s. 368",
+    "url": "https://www.regeringen.se/contentassets/6dfbf9bb877b433bbca46ad8c07950fe/tid-for-undervisningsuppdraget--atgarder-for-god-undervisning-och-lararyrkenas-attraktivitet-sou-202526.pdf"
+   },
+   "paragrafer": [
+    {
+     "paragraf": "2 kap. 7 § diskrimineringslagen",
+     "sou": {
+      "text": "Anställda och uppdragstagare i verksamhet som avses i skollagen (2010:800) som får kännedom om att ett barn eller en elev anser sig ha blivit utsatt för trakasserier eller sexuella trakasserier i samband med verksamheten ska anmäla detta till rektorn. En rektor som får kännedom om sådana trakasserier eller sexuella trakasserier som avses i första meningen ska anmäla detta till utbildningsanordnaren. Om en utbildningsanordnare får kännedom om att ett barn eller en elev, student eller studerande som deltar i eller söker till utbildningsanordnarens verksamhet anser sig ha blivit utsatt för trakasserier eller sexuella trakasserier i samband med verksamheten är utbildningsanordnaren skyldig att utreda omständigheterna kring de uppgivna trakasserierna och i förekommande fall vidta de åtgärder som skäligen kan krävas för att förhindra trakasserier i framtiden. För verksamhet som avses i 25 kap. skollagen och för fritidshem som inte är integrerade med en skolenhet eller förskoleenhet gäller första stycket andra meningen sådan personal som utbildningsanordnaren utser.",
+      "kalla": {
+       "text": "SOU 2025:26 s. 557 (författningskommentar 12.1)",
+       "url": "https://www.regeringen.se/contentassets/6dfbf9bb877b433bbca46ad8c07950fe/tid-for-undervisningsuppdraget--atgarder-for-god-undervisning-och-lararyrkenas-attraktivitet-sou-202526.pdf"
+      }
+     },
+     "lag": "Diskrimineringslag (2008:567)",
+     "proposition": null,
+     "beslutad": null,
+     "nuvarande_sfs": {
+      "text": "Om en utbildningsanordnare får kännedom om att ett barn eller en elev, student eller studerande som deltar i eller söker till utbildningsanordnarens verksamhet anser sig i samband med verksamheten ha blivit utsatt för trakasserier eller sexuella trakasserier, är utbildningsanordnaren skyldig att utreda omständigheterna kring de uppgivna trakasserierna och i förekommande fall vidta de åtgärder som skäligen kan krävas för att förhindra trakasserier i framtiden. Uppgift om meriter",
+      "sfs": null,
+      "kalla": {
+       "text": "Diskrimineringslag (2008:567) 2 kap. 7 §, gällande lydelse (SFS None), hämtad 2026-11-10",
+       "url": "https://data.riksdagen.se/dokument/sfs-2008-567.text"
+      }
+     },
+     "status": "ej med",
+     "manuell_granskning": false
+    },
+    {
+     "paragraf": "6 kap. 10 § skollagen",
+     "sou": {
+      "text": "Personal som får kännedom om att ett barn eller en elev anser sig ha blivit utsatt för allvarlig eller upprepad kränkande behandling i verksamheten är skyldig att informera rektorn om detta. Personal som får kännedom om att ett barn eller en elev anser sig ha blivit utsatt för kränkande behandling av någon i personalen är också skyldig att informera rektorn om detta. En rektor som får kännedom om att ett barn eller en elev anser sig ha blivit utsatt för sådan kränkande behandling som avses i första stycket är skyldig att anmäla detta till huvudmannen. Huvudmannen är skyldig att skyndsamt utreda omständigheterna kring de uppgivna kränkningarna och i förekommande fall vidta de åtgärder som skäligen kan krävas för att förhindra kränkande behandling i framtiden. För verksamhet som avses i 25 kap. och för fritidshem som inte är integrerade med en skolenhet eller förskoleenhet gäller andra stycket för den personal som huvudmannen utser.",
+      "kalla": {
+       "text": "SOU 2025:26 s. 564 (författningskommentar 12.2)",
+       "url": "https://www.regeringen.se/contentassets/6dfbf9bb877b433bbca46ad8c07950fe/tid-for-undervisningsuppdraget--atgarder-for-god-undervisning-och-lararyrkenas-attraktivitet-sou-202526.pdf"
+      }
+     },
+     "lag": "Skollag (2010:800)",
+     "proposition": {
+      "text": "All personal är skyldig att aktivt uppmärksamma och motverka kränkande behandling samt trakasserier och sexuella trakasserier enligt diskrimineringslagen (2008:567) i samband med verksamheten och se till att sådan behandling och sådana trakasserier hanteras. Personal som får kännedom om att ett barn eller en elev anser sig ha blivit utsatt för allvarlig eller upprepad kränkande behandling eller allvarliga eller upprepade trakasserier eller sexuella trakasserier i samband med verksamheten är skyldig att informera rektorn om detta. Personal som får kännedom om att ett barn eller en elev anser sig ha blivit utsatt för kränkande behandling eller trakasserier eller sexuella trakasserier av någon i personalen är skyldig att informera rektorn om detta. En rektor som får sådan information som avses i andra eller tredje stycket är skyldig att anmäla detta till huvudmannen. För verksamhet som avses i 25 kap. och för fritidshem som inte är integrerade med en skolenhet eller förskoleenhet gäller andra– fjärde styckena i stället för rektor den personal som huvudmannen utser.",
+      "paragraf": "6 kap. 10 §",
+      "likhet_mot_sou": 0.619,
+      "kalla": {
+       "text": "Prop. 2025/26:196 s. 6, lagförslag 2.1",
+       "url": "https://www.regeringen.se/contentassets/7bfa7c951ef54678981bfdb82f028b93/tid-for-undervisningsuppdraget-prop.-202526196.pdf"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "beslutad": {
+      "text": "All personal är skyldig att aktivt uppmärksamma och motverka kränkande behandling samt trakasserier och sexuella trakasserier enligt diskrimineringslagen (2008:567) i samband med verksamheten och se till att sådan behandling och sådana trakasserier hanteras. Personal som får kännedom om att ett barn eller en elev anser sig ha blivit utsatt för allvarlig eller upprepad kränkande behandling eller allvarliga eller upprepade trakasserier eller sexuella trakasserier i samband med verksamheten är skyldig att informera rektorn om detta. Personal som får kännedom om att ett barn eller en elev anser sig ha blivit utsatt för kränkande behandling eller trakasserier eller sexuella trakasserier av någon i personalen är skyldig att informera rektorn om detta. En rektor som får sådan information som avses i andra eller tredje stycket är skyldig att anmäla detta till huvudmannen. För verksamhet som avses i 25 kap. och för fritidshem som inte är integrerade med en skolenhet eller förskoleenhet gäller andra-fjärde styckena i stället för rektor den personal som huvudmannen utser.",
+      "paragraf": "6 kap. 10 §",
+      "sfs": "2026:1096",
+      "ikraft": null,
+      "likhet_mot_sou": 0.619,
+      "kalla": {
+       "text": "Skollag (2010:800) 6 kap. 10 § i lydelse enligt SFS 2026:1096; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "All personal är skyldig att aktivt uppmärksamma och motverka kränkande behandling samt trakasserier och sexuella trakasserier enligt diskrimineringslagen (2008:567) i samband med verksamheten och se till att sådan behandling och sådana trakasserier hanteras."
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "eller allvarliga eller upprepade trakasserier eller sexuella trakasserier"
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "samband med"
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "eller trakasserier eller sexuella trakasserier"
+      },
+      {
+       "op": "struken",
+       "fore": "också",
+       "efter": null
+      },
+      {
+       "op": "struken",
+       "fore": "kännedom om att ett barn eller en elev anser sig ha blivit utsatt för",
+       "efter": null
+      },
+      {
+       "op": "ersatt",
+       "fore": "kränkande behandling",
+       "efter": "information"
+      },
+      {
+       "op": "ersatt",
+       "fore": "första",
+       "efter": "andra eller tredje"
+      },
+      {
+       "op": "struken",
+       "fore": "Huvudmannen är skyldig att skyndsamt utreda omständigheterna kring de uppgivna kränkningarna och i förekommande fall vidta de åtgärder som skäligen kan krävas för att förhindra kränkande behandling i framtiden.",
+       "efter": null
+      },
+      {
+       "op": "ersatt",
+       "fore": "andra stycket",
+       "efter": "andra-fjärde styckena i stället"
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "rektor"
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": true
+    }
+   ],
+   "status": "blandad",
+   "status_per_paragraf": {
+    "ej med": 1,
+    "ändrad": 1
+   },
+   "status_kalla": {
+    "text": "Härledd per paragraf: SOU:ns föreslagna lydelse jämförd med beslutad lydelse (SFS diskrimineringslagen: ingen; skollagen: 2026:1096/1097/1243). Statusvärdet är mekaniskt (textlikhet), inte en bedömning.",
+    "url": "https://data.riksdagen.se/dokument/sfs-2008-567.text"
+   }
+  },
+  {
+   "forslag": "F10",
+   "sou_avsnitt": "7.4.3",
+   "forslag_kalla": {
+    "text": "SOU 2025:26 s. 381",
+    "url": "https://www.regeringen.se/contentassets/6dfbf9bb877b433bbca46ad8c07950fe/tid-for-undervisningsuppdraget--atgarder-for-god-undervisning-och-lararyrkenas-attraktivitet-sou-202526.pdf"
+   },
+   "paragrafer": [
+    {
+     "paragraf": "6 kap. 10 § skollagen",
+     "sou": {
+      "text": "Personal som får kännedom om att ett barn eller en elev anser sig ha blivit utsatt för allvarlig eller upprepad kränkande behandling i verksamheten är skyldig att informera rektorn om detta. Personal som får kännedom om att ett barn eller en elev anser sig ha blivit utsatt för kränkande behandling av någon i personalen är också skyldig att informera rektorn om detta. En rektor som får kännedom om att ett barn eller en elev anser sig ha blivit utsatt för sådan kränkande behandling som avses i första stycket är skyldig att anmäla detta till huvudmannen. Huvudmannen är skyldig att skyndsamt utreda omständigheterna kring de uppgivna kränkningarna och i förekommande fall vidta de åtgärder som skäligen kan krävas för att förhindra kränkande behandling i framtiden. För verksamhet som avses i 25 kap. och för fritidshem som inte är integrerade med en skolenhet eller förskoleenhet gäller andra stycket för den personal som huvudmannen utser.",
+      "kalla": {
+       "text": "SOU 2025:26 s. 564 (författningskommentar 12.2)",
+       "url": "https://www.regeringen.se/contentassets/6dfbf9bb877b433bbca46ad8c07950fe/tid-for-undervisningsuppdraget--atgarder-for-god-undervisning-och-lararyrkenas-attraktivitet-sou-202526.pdf"
+      }
+     },
+     "lag": "Skollag (2010:800)",
+     "proposition": {
+      "text": "All personal är skyldig att aktivt uppmärksamma och motverka kränkande behandling samt trakasserier och sexuella trakasserier enligt diskrimineringslagen (2008:567) i samband med verksamheten och se till att sådan behandling och sådana trakasserier hanteras. Personal som får kännedom om att ett barn eller en elev anser sig ha blivit utsatt för allvarlig eller upprepad kränkande behandling eller allvarliga eller upprepade trakasserier eller sexuella trakasserier i samband med verksamheten är skyldig att informera rektorn om detta. Personal som får kännedom om att ett barn eller en elev anser sig ha blivit utsatt för kränkande behandling eller trakasserier eller sexuella trakasserier av någon i personalen är skyldig att informera rektorn om detta. En rektor som får sådan information som avses i andra eller tredje stycket är skyldig att anmäla detta till huvudmannen. För verksamhet som avses i 25 kap. och för fritidshem som inte är integrerade med en skolenhet eller förskoleenhet gäller andra– fjärde styckena i stället för rektor den personal som huvudmannen utser.",
+      "paragraf": "6 kap. 10 §",
+      "likhet_mot_sou": 0.619,
+      "kalla": {
+       "text": "Prop. 2025/26:196 s. 6, lagförslag 2.1",
+       "url": "https://www.regeringen.se/contentassets/7bfa7c951ef54678981bfdb82f028b93/tid-for-undervisningsuppdraget-prop.-202526196.pdf"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "beslutad": {
+      "text": "All personal är skyldig att aktivt uppmärksamma och motverka kränkande behandling samt trakasserier och sexuella trakasserier enligt diskrimineringslagen (2008:567) i samband med verksamheten och se till att sådan behandling och sådana trakasserier hanteras. Personal som får kännedom om att ett barn eller en elev anser sig ha blivit utsatt för allvarlig eller upprepad kränkande behandling eller allvarliga eller upprepade trakasserier eller sexuella trakasserier i samband med verksamheten är skyldig att informera rektorn om detta. Personal som får kännedom om att ett barn eller en elev anser sig ha blivit utsatt för kränkande behandling eller trakasserier eller sexuella trakasserier av någon i personalen är skyldig att informera rektorn om detta. En rektor som får sådan information som avses i andra eller tredje stycket är skyldig att anmäla detta till huvudmannen. För verksamhet som avses i 25 kap. och för fritidshem som inte är integrerade med en skolenhet eller förskoleenhet gäller andra-fjärde styckena i stället för rektor den personal som huvudmannen utser.",
+      "paragraf": "6 kap. 10 §",
+      "sfs": "2026:1096",
+      "ikraft": null,
+      "likhet_mot_sou": 0.619,
+      "kalla": {
+       "text": "Skollag (2010:800) 6 kap. 10 § i lydelse enligt SFS 2026:1096; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "All personal är skyldig att aktivt uppmärksamma och motverka kränkande behandling samt trakasserier och sexuella trakasserier enligt diskrimineringslagen (2008:567) i samband med verksamheten och se till att sådan behandling och sådana trakasserier hanteras."
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "eller allvarliga eller upprepade trakasserier eller sexuella trakasserier"
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "samband med"
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "eller trakasserier eller sexuella trakasserier"
+      },
+      {
+       "op": "struken",
+       "fore": "också",
+       "efter": null
+      },
+      {
+       "op": "struken",
+       "fore": "kännedom om att ett barn eller en elev anser sig ha blivit utsatt för",
+       "efter": null
+      },
+      {
+       "op": "ersatt",
+       "fore": "kränkande behandling",
+       "efter": "information"
+      },
+      {
+       "op": "ersatt",
+       "fore": "första",
+       "efter": "andra eller tredje"
+      },
+      {
+       "op": "struken",
+       "fore": "Huvudmannen är skyldig att skyndsamt utreda omständigheterna kring de uppgivna kränkningarna och i förekommande fall vidta de åtgärder som skäligen kan krävas för att förhindra kränkande behandling i framtiden.",
+       "efter": null
+      },
+      {
+       "op": "ersatt",
+       "fore": "andra stycket",
+       "efter": "andra-fjärde styckena i stället"
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "rektor"
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": true
+    }
+   ],
+   "status": "ändrad",
+   "status_per_paragraf": {
+    "ändrad": 1
+   },
+   "status_kalla": {
+    "text": "Härledd per paragraf: SOU:ns föreslagna lydelse jämförd med beslutad lydelse (SFS diskrimineringslagen: ingen; skollagen: 2026:1096/1097/1243). Statusvärdet är mekaniskt (textlikhet), inte en bedömning.",
+    "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+   }
+  },
+  {
+   "forslag": "F11",
+   "sou_avsnitt": "8.2.1",
+   "forslag_kalla": {
+    "text": "SOU 2025:26 s. 421",
+    "url": "https://www.regeringen.se/contentassets/6dfbf9bb877b433bbca46ad8c07950fe/tid-for-undervisningsuppdraget--atgarder-for-god-undervisning-och-lararyrkenas-attraktivitet-sou-202526.pdf"
+   },
+   "paragrafer": [
+    {
+     "paragraf": "2 kap. 12 a § skollagen",
+     "sou": {
+      "text": "I lärares och förskollärares undervisningsuppdrag ingår undervisning enligt 1 kap. 3 § samt planering och uppföljning av undervisningen. Regeringen får meddela föreskrifter om omfattningen av tiden för undervisningsuppdraget i förskoleklassen, grundskolan, anpassade grundskolan, specialskolan, sameskolan, gymnasieskolan och anpassade gymnasieskolan. Regeringen får meddela föreskrifter om den minsta omfattningen av tiden för planering och uppföljning av undervisningen i förskolan, fritidshemmet och kommunal vuxenutbildning.",
+      "kalla": {
+       "text": "SOU 2025:26 s. 559 (författningskommentar 12.2)",
+       "url": "https://www.regeringen.se/contentassets/6dfbf9bb877b433bbca46ad8c07950fe/tid-for-undervisningsuppdraget--atgarder-for-god-undervisning-och-lararyrkenas-attraktivitet-sou-202526.pdf"
+      }
+     },
+     "lag": "Skollag (2010:800)",
+     "proposition": {
+      "text": "I lärares och förskollärares undervisningsuppdrag ingår undervisning samt planering och uppföljning av undervisningen. Regeringen får meddela föreskrifter om tiden för de olika delarna av undervisningsuppdraget i grundskolan, anpassade grundskolan, gymnasieskolan och anpassade gymnasieskolan. Regeringen eller den myndighet som regeringen bestämmer kan med stöd av 8 kap. 7 § regeringsformen meddela föreskrifter om tiden för de olika delarna av undervisningsuppdraget i sameskolan och specialskolan. Regeringen får meddela föreskrifter om den minsta omfattningen av tiden för planering och uppföljning av undervisningen i förskola och fritidshem som inte har en statlig huvudman och i kommunal vuxenutbildning. Regeringen eller den myndighet som regeringen bestämmer kan med stöd av 8 kap. 7 § regeringsformen meddela föreskrifter om den minsta omfattningen av tiden för planering och uppföljning av undervisningen i förskola och fritidshem med en statlig huvudman.",
+      "paragraf": "2 kap. 12a §",
+      "likhet_mot_sou": 0.61,
+      "kalla": {
+       "text": "Prop. 2025/26:196 s. 8, lagförslag 2.2",
+       "url": "https://www.regeringen.se/contentassets/7bfa7c951ef54678981bfdb82f028b93/tid-for-undervisningsuppdraget-prop.-202526196.pdf"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "beslutad": {
+      "text": "I lärares och förskollärares undervisningsuppdrag ingår undervisning samt planering och uppföljning av undervisningen. Regeringen får meddela föreskrifter om tiden för de olika delarna av undervisningsuppdraget i grundskolan, anpassade grundskolan, gymnasieskolan och anpassade gymnasieskolan. Regeringen eller den myndighet som regeringen bestämmer kan med stöd av 8 kap. 7 § regeringsformen meddela föreskrifter om tiden för de olika delarna av undervisningsuppdraget i sameskolan och specialskolan. Regeringen får meddela föreskrifter om den minsta omfattningen av tiden för planering och uppföljning av undervisningen i förskola och fritidshem som inte har en statlig huvudman och i kommunal vuxenutbildning. Regeringen eller den myndighet som regeringen bestämmer kan med stöd av 8 kap. 7 § regeringsformen meddela föreskrifter om den minsta omfattningen av tiden för planering och uppföljning av undervisningen i förskola och fritidshem med en statlig huvudman.",
+      "paragraf": "2 kap. 12a §",
+      "sfs": "2026:1097",
+      "ikraft": "2027-07-01",
+      "likhet_mot_sou": 0.61,
+      "kalla": {
+       "text": "Skollag (2010:800) 2 kap. 12a § i lydelse enligt SFS 2026:1097, träder i kraft 2027-07-01; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "struken",
+       "fore": "enligt 1 kap. 3 §",
+       "efter": null
+      },
+      {
+       "op": "struken",
+       "fore": "omfattningen av",
+       "efter": null
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "de olika delarna av"
+      },
+      {
+       "op": "struken",
+       "fore": "förskoleklassen,",
+       "efter": null
+      },
+      {
+       "op": "struken",
+       "fore": "specialskolan, sameskolan,",
+       "efter": null
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "Regeringen eller den myndighet som regeringen bestämmer kan med stöd av 8 kap. 7 § regeringsformen meddela föreskrifter om tiden för de olika delarna av undervisningsuppdraget i sameskolan och specialskolan."
+      },
+      {
+       "op": "ersatt",
+       "fore": "förskolan, fritidshemmet",
+       "efter": "förskola"
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "fritidshem som inte har en statlig huvudman och i"
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "Regeringen eller den myndighet som regeringen bestämmer kan med stöd av 8 kap. 7 § regeringsformen meddela föreskrifter om den minsta omfattningen av tiden för planering och uppföljning av undervisningen i förskola och fritidshem med en statlig huvudman."
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": true
+    }
+   ],
+   "status": "ändrad",
+   "status_per_paragraf": {
+    "ändrad": 1
+   },
+   "status_kalla": {
+    "text": "Härledd per paragraf: SOU:ns föreslagna lydelse jämförd med beslutad lydelse (SFS diskrimineringslagen: ingen; skollagen: 2026:1096/1097/1243). Statusvärdet är mekaniskt (textlikhet), inte en bedömning.",
+    "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+   }
+  },
+  {
+   "forslag": "F12",
+   "sou_avsnitt": "8.2.2",
+   "forslag_kalla": {
+    "text": "SOU 2025:26 s. 431",
+    "url": "https://www.regeringen.se/contentassets/6dfbf9bb877b433bbca46ad8c07950fe/tid-for-undervisningsuppdraget--atgarder-for-god-undervisning-och-lararyrkenas-attraktivitet-sou-202526.pdf"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "Ingen paragraf i SOU:ns författningskommentar till diskrimineringslagen eller skollagen (12.1, 12.2) hänvisar till avsnitt 8.2.2 — förslaget avser förordningsnivå (eller annan reglering). Ingen textmarkör är angiven, så det är inte maskinellt avgjort om förslaget har genomförts i förordningarna: Förordning (2026:1487) om omfattning av tiden för lärares och förskollärares undervisningsuppdrag.",
+    "url": "https://data.riksdagen.se/dokument/sfs-2026-1487.text"
+   }
+  },
+  {
+   "forslag": "F13",
+   "sou_avsnitt": "8.2.3",
+   "forslag_kalla": {
+    "text": "SOU 2025:26 s. 434",
+    "url": "https://www.regeringen.se/contentassets/6dfbf9bb877b433bbca46ad8c07950fe/tid-for-undervisningsuppdraget--atgarder-for-god-undervisning-och-lararyrkenas-attraktivitet-sou-202526.pdf"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "Ingen paragraf i SOU:ns författningskommentar till diskrimineringslagen eller skollagen (12.1, 12.2) hänvisar till avsnitt 8.2.3 — förslaget avser förordningsnivå (eller annan reglering). Ingen textmarkör är angiven, så det är inte maskinellt avgjort om förslaget har genomförts i förordningarna: Förordning (2026:1487) om omfattning av tiden för lärares och förskollärares undervisningsuppdrag.",
+    "url": "https://data.riksdagen.se/dokument/sfs-2026-1487.text"
+   }
+  },
+  {
+   "forslag": "F14",
+   "sou_avsnitt": "8.2.4",
+   "forslag_kalla": {
+    "text": "SOU 2025:26 s. 439",
+    "url": "https://www.regeringen.se/contentassets/6dfbf9bb877b433bbca46ad8c07950fe/tid-for-undervisningsuppdraget--atgarder-for-god-undervisning-och-lararyrkenas-attraktivitet-sou-202526.pdf"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "Ingen paragraf i SOU:ns författningskommentar till diskrimineringslagen eller skollagen (12.1, 12.2) hänvisar till avsnitt 8.2.4 — förslaget avser förordningsnivå (eller annan reglering). Ingen textmarkör är angiven, så det är inte maskinellt avgjort om förslaget har genomförts i förordningarna: Förordning (2026:1487) om omfattning av tiden för lärares och förskollärares undervisningsuppdrag.",
+    "url": "https://data.riksdagen.se/dokument/sfs-2026-1487.text"
+   }
+  },
+  {
+   "forslag": "F15",
+   "sou_avsnitt": "8.2.7",
+   "forslag_kalla": {
+    "text": "SOU 2025:26 s. 447",
+    "url": "https://www.regeringen.se/contentassets/6dfbf9bb877b433bbca46ad8c07950fe/tid-for-undervisningsuppdraget--atgarder-for-god-undervisning-och-lararyrkenas-attraktivitet-sou-202526.pdf"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "Ingen paragraf i SOU:ns författningskommentar till diskrimineringslagen eller skollagen (12.1, 12.2) hänvisar till avsnitt 8.2.7 — förslaget avser förordningsnivå (eller annan reglering). Ingen textmarkör är angiven, så det är inte maskinellt avgjort om förslaget har genomförts i förordningarna: Förordning (2026:1487) om omfattning av tiden för lärares och förskollärares undervisningsuppdrag.",
+    "url": "https://data.riksdagen.se/dokument/sfs-2026-1487.text"
+   }
+  },
+  {
+   "forslag": "F16",
+   "sou_avsnitt": "8.2.8",
+   "forslag_kalla": {
+    "text": "SOU 2025:26 s. 451",
+    "url": "https://www.regeringen.se/contentassets/6dfbf9bb877b433bbca46ad8c07950fe/tid-for-undervisningsuppdraget--atgarder-for-god-undervisning-och-lararyrkenas-attraktivitet-sou-202526.pdf"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "Ingen paragraf i SOU:ns författningskommentar till diskrimineringslagen eller skollagen (12.1, 12.2) hänvisar till avsnitt 8.2.8 — förslaget avser förordningsnivå (eller annan reglering). Ingen textmarkör är angiven, så det är inte maskinellt avgjort om förslaget har genomförts i förordningarna: Förordning (2026:1487) om omfattning av tiden för lärares och förskollärares undervisningsuppdrag.",
+    "url": "https://data.riksdagen.se/dokument/sfs-2026-1487.text"
+   }
+  },
+  {
+   "forslag": "F17",
+   "sou_avsnitt": "8.3",
+   "forslag_kalla": {
+    "text": "SOU 2025:26 s. 454",
+    "url": "https://www.regeringen.se/contentassets/6dfbf9bb877b433bbca46ad8c07950fe/tid-for-undervisningsuppdraget--atgarder-for-god-undervisning-och-lararyrkenas-attraktivitet-sou-202526.pdf"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "Ingen paragraf i SOU:ns författningskommentar till diskrimineringslagen eller skollagen (12.1, 12.2) hänvisar till avsnitt 8.3 — förslaget avser förordningsnivå (eller annan reglering). Ingen textmarkör är angiven, så det är inte maskinellt avgjort om förslaget har genomförts i förordningarna: Förordning (2026:1487) om omfattning av tiden för lärares och förskollärares undervisningsuppdrag.",
+    "url": "https://data.riksdagen.se/dokument/sfs-2026-1487.text"
+   }
+  },
+  {
+   "forslag": "F18",
+   "sou_avsnitt": "8.5",
+   "forslag_kalla": {
+    "text": "SOU 2025:26 s. 467",
+    "url": "https://www.regeringen.se/contentassets/6dfbf9bb877b433bbca46ad8c07950fe/tid-for-undervisningsuppdraget--atgarder-for-god-undervisning-och-lararyrkenas-attraktivitet-sou-202526.pdf"
+   },
+   "paragrafer": [],
+   "status": "ej lagtext",
+   "status_kalla": {
+    "text": "Förslaget gäller uppdrag/ansvar för myndighet; ingen paragraf i SOU:ns författningskommentar till diskrimineringslagen eller skollagen (avsnitt 12.1, 12.2) hänvisar till avsnitt 8.5",
+    "url": "https://www.regeringen.se/contentassets/6dfbf9bb877b433bbca46ad8c07950fe/tid-for-undervisningsuppdraget--atgarder-for-god-undervisning-och-lararyrkenas-attraktivitet-sou-202526.pdf"
+   }
+  },
+  {
+   "forslag": "F19",
+   "sou_avsnitt": "9",
+   "forslag_kalla": {
+    "text": "SOU 2025:26 s. 471",
+    "url": "https://www.regeringen.se/contentassets/6dfbf9bb877b433bbca46ad8c07950fe/tid-for-undervisningsuppdraget--atgarder-for-god-undervisning-och-lararyrkenas-attraktivitet-sou-202526.pdf"
+   },
+   "paragrafer": [],
+   "status": "ej lagtext",
+   "status_kalla": {
+    "text": "Förslaget gäller uppdrag/ansvar för myndighet; ingen paragraf i SOU:ns författningskommentar till diskrimineringslagen eller skollagen (avsnitt 12.1, 12.2) hänvisar till avsnitt 9",
+    "url": "https://www.regeringen.se/contentassets/6dfbf9bb877b433bbca46ad8c07950fe/tid-for-undervisningsuppdraget--atgarder-for-god-undervisning-och-lararyrkenas-attraktivitet-sou-202526.pdf"
+   }
+  },
+  {
+   "forslag": "F20",
+   "sou_avsnitt": "10",
+   "forslag_kalla": {
+    "text": "SOU 2025:26 s. 473",
+    "url": "https://www.regeringen.se/contentassets/6dfbf9bb877b433bbca46ad8c07950fe/tid-for-undervisningsuppdraget--atgarder-for-god-undervisning-och-lararyrkenas-attraktivitet-sou-202526.pdf"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "Ingen paragraf i SOU:ns författningskommentar till diskrimineringslagen eller skollagen (12.1, 12.2) hänvisar till avsnitt 10 — förslaget avser förordningsnivå (eller annan reglering). Ingen textmarkör är angiven, så det är inte maskinellt avgjort om förslaget har genomförts i förordningarna: Förordning (2026:1487) om omfattning av tiden för lärares och förskollärares undervisningsuppdrag.",
+    "url": "https://data.riksdagen.se/dokument/sfs-2026-1487.text"
+   }
+  }
+ ]
+}

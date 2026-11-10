@@ -1,0 +1,2059 @@
+{
+ "_meta": {
+  "steg": "M3 tolkad koppling till utredningsförslag för utmaningar utan egen hänvisning (modellkodning, Sprint 17; två kodare, KODINSTRUKTION.md)",
+  "tolkning": true
+ },
+ "kopplingar": [
+  {
+   "uid": "U001",
+   "forslag": null,
+   "motivering": "Generell kritik av konsekvensbeskrivningen"
+  },
+  {
+   "uid": "U002",
+   "forslag": null,
+   "motivering": "Finansiering i allmänhet"
+  },
+  {
+   "uid": "U005",
+   "forslag": [
+    "F11",
+    "F13"
+   ],
+   "motivering": "Invänder mot reglering av undervisningstid i lag och förordning"
+  },
+  {
+   "uid": "U006",
+   "forslag": null,
+   "motivering": "Generellt krav på konsekvensanalys"
+  },
+  {
+   "uid": "U007",
+   "forslag": null,
+   "motivering": "Finansiering i allmänhet"
+  },
+  {
+   "uid": "U008",
+   "forslag": null,
+   "motivering": "Underfinansiering i allmänhet"
+  },
+  {
+   "uid": "U036",
+   "forslag": [
+    "F11",
+    "F13",
+    "F14"
+   ],
+   "motivering": "Gränsdragning mellan undervisningstid, planeringstid och övrig tid"
+  },
+  {
+   "uid": "U037",
+   "forslag": [
+    "F11"
+   ],
+   "motivering": "Avgränsningen av undervisningsuppdraget minskar elevkontakt"
+  },
+  {
+   "uid": "U038",
+   "forslag": [
+    "F11",
+    "F13"
+   ],
+   "motivering": "Tidsregleringens förhållande till kollektivavtal"
+  },
+  {
+   "uid": "U039",
+   "forslag": null,
+   "motivering": "Arbetsrättslig tolkning i allmänhet, inget enskilt förslag"
+  },
+  {
+   "uid": "U040",
+   "forslag": [
+    "F11"
+   ],
+   "motivering": "Uppgifter utanför avgränsat läraruppdrag kräver fler medarbetare"
+  },
+  {
+   "uid": "U041",
+   "forslag": [
+    "F11",
+    "F13",
+    "F14"
+   ],
+   "motivering": "Kostnader för reglering av uppdrag och lärares tid"
+  },
+  {
+   "uid": "U042",
+   "forslag": [
+    "F15",
+    "F16"
+   ],
+   "motivering": "Planeringstid i förskola och fritidshem"
+  },
+  {
+   "uid": "U043",
+   "forslag": [
+    "F11",
+    "F13",
+    "F14"
+   ],
+   "motivering": "Osäkra effekter av regleringen av uppdrag och arbetstid"
+  },
+  {
+   "uid": "U044",
+   "forslag": null,
+   "motivering": "Många samtidiga reformer"
+  },
+  {
+   "uid": "U045",
+   "forslag": [
+    "F20"
+   ],
+   "motivering": "Ikraftträdandet 1 juli 2027"
+  },
+  {
+   "uid": "U046",
+   "forslag": [
+    "F11",
+    "F13",
+    "F14"
+   ],
+   "motivering": "Kostnader för reglering av uppdrag och lärares tid"
+  },
+  {
+   "uid": "U047",
+   "forslag": null,
+   "motivering": "Förhandlingsläge i allmänhet"
+  },
+  {
+   "uid": "U048",
+   "forslag": [
+    "F13"
+   ],
+   "motivering": "Reglerad undervisningstid ger större klasser enligt citatet"
+  },
+  {
+   "uid": "U049",
+   "forslag": [
+    "F11"
+   ],
+   "motivering": "Elevsocialt arbete utanför undervisningsuppdraget"
+  },
+  {
+   "uid": "U050",
+   "forslag": [
+    "F11"
+   ],
+   "motivering": "Frånvaroanalys utanför undervisningsuppdraget"
+  },
+  {
+   "uid": "U051",
+   "forslag": [
+    "F11",
+    "F17"
+   ],
+   "motivering": "Rektor bedömer uppgifter utanför undervisningsuppdraget"
+  },
+  {
+   "uid": "U052",
+   "forslag": [
+    "F11"
+   ],
+   "motivering": "Uppgifter utanför undervisningsuppdraget till annan personal"
+  },
+  {
+   "uid": "U053",
+   "forslag": [
+    "F09"
+   ],
+   "motivering": "Kränkningar som inte dokumenteras vid begränsad anmälan"
+  },
+  {
+   "uid": "U056",
+   "forslag": null,
+   "motivering": "Extra anpassningar ingår inte bland förslagen"
+  },
+  {
+   "uid": "U057",
+   "forslag": [
+    "F09"
+   ],
+   "motivering": "Bedömning av allvarlig eller upprepad kränkning"
+  },
+  {
+   "uid": "U058",
+   "forslag": [
+    "F09"
+   ],
+   "motivering": "Professionell bedömning av kränkningar enligt nytt tröskelkrav"
+  },
+  {
+   "uid": "U059",
+   "forslag": [
+    "F13",
+    "F14"
+   ],
+   "motivering": "Reglering av lärares arbetstid"
+  },
+  {
+   "uid": "U060",
+   "forslag": [
+    "F13",
+    "F14"
+   ],
+   "motivering": "Svårt att reglera lärares tid"
+  },
+  {
+   "uid": "U061",
+   "forslag": [
+    "F11"
+   ],
+   "motivering": "Uppgifter utanför undervisningsuppdraget kräver annan personal"
+  },
+  {
+   "uid": "U062",
+   "forslag": [
+    "F11"
+   ],
+   "motivering": "Elevnära arbete bör ingå i undervisningsuppdraget"
+  },
+  {
+   "uid": "U063",
+   "forslag": [
+    "F14"
+   ],
+   "motivering": "För- och efterarbete i förhållande till förtroendetid"
+  },
+  {
+   "uid": "U067",
+   "forslag": [
+    "F10"
+   ],
+   "motivering": "Gränsen i verksamheten mot utanför verksamheten"
+  },
+  {
+   "uid": "U074",
+   "forslag": null,
+   "motivering": "Flera förslag, inget enskilt mål"
+  },
+  {
+   "uid": "U075",
+   "forslag": null,
+   "motivering": "Generell konsekvens för skolledare"
+  },
+  {
+   "uid": "U076",
+   "forslag": null,
+   "motivering": "Rektorsstöd i allmänhet"
+  },
+  {
+   "uid": "U077",
+   "forslag": [
+    "F11"
+   ],
+   "motivering": "Uppgifter som tas från lärare kräver kringfunktioner"
+  },
+  {
+   "uid": "U078",
+   "forslag": [
+    "F11",
+    "F13"
+   ],
+   "motivering": "Statlig reglering av undervisningsskyldighet"
+  },
+  {
+   "uid": "U079",
+   "forslag": null,
+   "motivering": "Detaljreglering i allmänhet"
+  },
+  {
+   "uid": "U080",
+   "forslag": [
+    "F11",
+    "F13"
+   ],
+   "motivering": "Statligt reglerad undervisningstid för små skolor"
+  },
+  {
+   "uid": "U082",
+   "forslag": [
+    "F13"
+   ],
+   "motivering": "Reglerad undervisningstid och timplan oförenliga"
+  },
+  {
+   "uid": "U083",
+   "forslag": null,
+   "motivering": "Otydligt vilket regelverk som avses"
+  },
+  {
+   "uid": "U084",
+   "forslag": [
+    "F11",
+    "F13"
+   ],
+   "motivering": "Förordning om reglerad undervisningstid svår att tillämpa"
+  },
+  {
+   "uid": "U085",
+   "forslag": [
+    "F09"
+   ],
+   "motivering": "Administrativ börda i kränkningsärenden"
+  },
+  {
+   "uid": "U086",
+   "forslag": [
+    "F13",
+    "F14"
+   ],
+   "motivering": "Nationell detaljreglering av lärares arbetstid"
+  },
+  {
+   "uid": "U087",
+   "forslag": null,
+   "motivering": "Dokumentation i allmänhet"
+  },
+  {
+   "uid": "U088",
+   "forslag": null,
+   "motivering": "Minskad dokumentation, flera förslag möjliga"
+  },
+  {
+   "uid": "U089",
+   "forslag": [
+    "F09"
+   ],
+   "motivering": "Osäkerhet om vad som ska anmälas vid kränkning"
+  },
+  {
+   "uid": "U090",
+   "forslag": [
+    "F13",
+    "F14"
+   ],
+   "motivering": "Tidsmässig detaljstyrning av läraruppdraget"
+  },
+  {
+   "uid": "U091",
+   "forslag": null,
+   "motivering": "Förtroendetid regleras inte av något förslag"
+  },
+  {
+   "uid": "U092",
+   "forslag": [
+    "F16"
+   ],
+   "motivering": "Individuell planeringstid för förskollärare"
+  },
+  {
+   "uid": "U093",
+   "forslag": [
+    "F11"
+   ],
+   "motivering": "Kringuppgifter utanför uppdraget kräver andra yrkesgrupper"
+  },
+  {
+   "uid": "U094",
+   "forslag": [
+    "F11"
+   ],
+   "motivering": "Avgränsning av förskollärares uppgifter ändrar befattningar"
+  },
+  {
+   "uid": "U095",
+   "forslag": [
+    "F16"
+   ],
+   "motivering": "Planeringstid kopplad till varje förskollärare"
+  },
+  {
+   "uid": "U096",
+   "forslag": [
+    "F11"
+   ],
+   "motivering": "Omfördelade uppgifter utanför undervisningsuppdraget kostar"
+  },
+  {
+   "uid": "U097",
+   "forslag": [
+    "F11"
+   ],
+   "motivering": "Uppgifter utanför undervisningsuppdraget ger färre lärare"
+  },
+  {
+   "uid": "U098",
+   "forslag": [
+    "F13",
+    "F14"
+   ],
+   "motivering": "Arbetstidsförslagen driver personal och kostnader"
+  },
+  {
+   "uid": "U099",
+   "forslag": null,
+   "motivering": "Finansiering och kalkyl i allmänhet"
+  },
+  {
+   "uid": "U100",
+   "forslag": [
+    "F13"
+   ],
+   "motivering": "Undervisningstidsintervall för lärare i förskoleklass"
+  },
+  {
+   "uid": "U101",
+   "forslag": [
+    "F01",
+    "F02"
+   ],
+   "motivering": "Fortlöpande information till vårdnadshavare tas bort"
+  },
+  {
+   "uid": "U102",
+   "forslag": [
+    "F01",
+    "F02"
+   ],
+   "motivering": "Nedtonad fortlöpande information i skollag och läroplan"
+  },
+  {
+   "uid": "U103",
+   "forslag": null,
+   "motivering": "Elevdokumentation, inget enskilt förslag"
+  },
+  {
+   "uid": "U104",
+   "forslag": [
+    "F09"
+   ],
+   "motivering": "Nuvarande kränkningsregelverk som förslaget ändrar"
+  },
+  {
+   "uid": "U105",
+   "forslag": null,
+   "motivering": "Förtroendetid regleras inte av något förslag"
+  },
+  {
+   "uid": "U106",
+   "forslag": [
+    "F14"
+   ],
+   "motivering": "Planeringstiden tar inte hänsyn till viktiga faktorer"
+  },
+  {
+   "uid": "U107",
+   "forslag": [
+    "F05",
+    "F06"
+   ],
+   "motivering": "Färre utvecklingssamtal och ändrad utvecklingsplan"
+  },
+  {
+   "uid": "U108",
+   "forslag": [
+    "F05",
+    "F06"
+   ],
+   "motivering": "Mindre fokus på social utveckling och hemkontakt"
+  },
+  {
+   "uid": "U129",
+   "forslag": [
+    "F11",
+    "F13"
+   ],
+   "motivering": "Nationell reglering av undervisningstid"
+  },
+  {
+   "uid": "U130",
+   "forslag": [
+    "F13",
+    "F14"
+   ],
+   "motivering": "Statlig timreglering minskar professionellt utrymme"
+  },
+  {
+   "uid": "U131",
+   "forslag": [
+    "F11",
+    "F13"
+   ],
+   "motivering": "Reglering av undervisningstid begränsar rektors mandat"
+  },
+  {
+   "uid": "U133",
+   "forslag": [
+    "F11",
+    "F13"
+   ],
+   "motivering": "Statliga regler om undervisningstid"
+  },
+  {
+   "uid": "U134",
+   "forslag": [
+    "F13"
+   ],
+   "motivering": "Konsekvens av reglerad undervisningstid"
+  },
+  {
+   "uid": "U135",
+   "forslag": [
+    "F13"
+   ],
+   "motivering": "Konsekvens av reglerad undervisningstid"
+  },
+  {
+   "uid": "U136",
+   "forslag": [
+    "F13"
+   ],
+   "motivering": "Konsekvens av reglerad undervisningstid"
+  },
+  {
+   "uid": "U137",
+   "forslag": [
+    "F11"
+   ],
+   "motivering": "Vad som räknas som undervisning"
+  },
+  {
+   "uid": "U138",
+   "forslag": null,
+   "motivering": "Många förslag, finansiering i allmänhet"
+  },
+  {
+   "uid": "U139",
+   "forslag": [
+    "F11",
+    "F13"
+   ],
+   "motivering": "Rekrytering av lärare och personal för övriga uppgifter"
+  },
+  {
+   "uid": "U140",
+   "forslag": [
+    "F11",
+    "F13"
+   ],
+   "motivering": "Tidsreglering inskränker arbetsledningsrätt"
+  },
+  {
+   "uid": "U141",
+   "forslag": [
+    "F11"
+   ],
+   "motivering": "Precisering av uppdraget i skollagen"
+  },
+  {
+   "uid": "U142",
+   "forslag": [
+    "F12",
+    "F13"
+   ],
+   "motivering": "Oprecis dimensionering av individuell lärares tid"
+  },
+  {
+   "uid": "U150",
+   "forslag": [
+    "F09"
+   ],
+   "motivering": "Tröskeln allvarlig för anmälan"
+  },
+  {
+   "uid": "U151",
+   "forslag": [
+    "F09"
+   ],
+   "motivering": "Personalens initiala värdering av kränkningen"
+  },
+  {
+   "uid": "U152",
+   "forslag": [
+    "F09"
+   ],
+   "motivering": "Mönster i kränkningar svårare att upptäcka"
+  },
+  {
+   "uid": "U161",
+   "forslag": [
+    "F13"
+   ],
+   "motivering": "Lärare undervisar över föreslaget tak"
+  },
+  {
+   "uid": "U162",
+   "forslag": [
+    "F13"
+   ],
+   "motivering": "Taket och lärares behörigheter"
+  },
+  {
+   "uid": "U163",
+   "forslag": [
+    "F13"
+   ],
+   "motivering": "Undervisningstid för praktisk-estetiska lärare"
+  },
+  {
+   "uid": "U164",
+   "forslag": [
+    "F13"
+   ],
+   "motivering": "Vikariat under undervisningstaket"
+  },
+  {
+   "uid": "U165",
+   "forslag": [
+    "F13"
+   ],
+   "motivering": "Undervisningsbehov över taket"
+  },
+  {
+   "uid": "U166",
+   "forslag": [
+    "F12"
+   ],
+   "motivering": "Förändrad gruppstorlek under läsåret"
+  },
+  {
+   "uid": "U167",
+   "forslag": [
+    "F13",
+    "F14"
+   ],
+   "motivering": "Tid knuten till individuell lärare"
+  },
+  {
+   "uid": "U168",
+   "forslag": [
+    "F16"
+   ],
+   "motivering": "Planeringstid ökar med behoven i förskolan"
+  },
+  {
+   "uid": "U169",
+   "forslag": [
+    "F16"
+   ],
+   "motivering": "Kostnad för förskollärares planeringstid"
+  },
+  {
+   "uid": "U170",
+   "forslag": [
+    "F16"
+   ],
+   "motivering": "Kostnad för planeringstid hos enskilda huvudmän"
+  },
+  {
+   "uid": "U171",
+   "forslag": [
+    "F13",
+    "F14"
+   ],
+   "motivering": "Ofinansierad undervisnings- och planeringstid"
+  },
+  {
+   "uid": "U172",
+   "forslag": [
+    "F12"
+   ],
+   "motivering": "Ingen vägledning om viktning av faktorer"
+  },
+  {
+   "uid": "U211",
+   "forslag": [
+    "F11",
+    "F12"
+   ],
+   "motivering": "Vem som beslutar om tiden för uppdraget"
+  },
+  {
+   "uid": "U212",
+   "forslag": [
+    "F12"
+   ],
+   "motivering": "Hänsyn till andra omständigheter vid bemanning"
+  },
+  {
+   "uid": "U213",
+   "forslag": [
+    "F12"
+   ],
+   "motivering": "Differentierad planering kräver behöriga lärare"
+  },
+  {
+   "uid": "U214",
+   "forslag": [
+    "F12"
+   ],
+   "motivering": "Rektors viktning av undervisningsuppdraget"
+  },
+  {
+   "uid": "U239",
+   "forslag": [
+    "F11"
+   ],
+   "motivering": "Administrativa uppgifter som lyfts från pedagogen"
+  },
+  {
+   "uid": "U240",
+   "forslag": [
+    "F11"
+   ],
+   "motivering": "Kringuppgifter som måltider på små enheter"
+  },
+  {
+   "uid": "U241",
+   "forslag": [
+    "F11",
+    "F16"
+   ],
+   "motivering": "Reglering kan ersätta förskollärare med barnskötare"
+  },
+  {
+   "uid": "U242",
+   "forslag": [
+    "F11"
+   ],
+   "motivering": "Detaljstyrning av uppdraget drabbar små enheter"
+  },
+  {
+   "uid": "U243",
+   "forslag": [
+    "F16"
+   ],
+   "motivering": "Förskollärares planeringstid i proportion till barn"
+  },
+  {
+   "uid": "U246",
+   "forslag": [
+    "F09"
+   ],
+   "motivering": "Stödmaterial om vad som är allvarligt"
+  },
+  {
+   "uid": "U251",
+   "forslag": [
+    "F11"
+   ],
+   "motivering": "Kringfunktioner när pedagogers ansvar avgränsas"
+  },
+  {
+   "uid": "U252",
+   "forslag": null,
+   "motivering": "Finansiering genom statsbidrag"
+  },
+  {
+   "uid": "U253",
+   "forslag": null,
+   "motivering": "Finansiering i allmänhet"
+  },
+  {
+   "uid": "U254",
+   "forslag": null,
+   "motivering": "Statsbidragsform i allmänhet"
+  },
+  {
+   "uid": "U255",
+   "forslag": null,
+   "motivering": "Finansiering i allmänhet"
+  },
+  {
+   "uid": "U256",
+   "forslag": null,
+   "motivering": "Generella förutsättningar för genomförande"
+  },
+  {
+   "uid": "U262",
+   "forslag": [
+    "F11"
+   ],
+   "motivering": "Olika tolkningar av vad uppdraget ska innehålla"
+  },
+  {
+   "uid": "U263",
+   "forslag": [
+    "F13"
+   ],
+   "motivering": "Minskat undervisningsutrymme per lärare ger bemanningsbehov"
+  },
+  {
+   "uid": "U264",
+   "forslag": [
+    "F13",
+    "F14"
+   ],
+   "motivering": "Ökad lärartäthet trots att taket inte överskrids"
+  },
+  {
+   "uid": "U265",
+   "forslag": [
+    "F16"
+   ],
+   "motivering": "Planeringstid för förskollärare i pressad bemanning"
+  },
+  {
+   "uid": "U267",
+   "forslag": null,
+   "motivering": "Extra anpassningar ingår inte bland förslagen"
+  },
+  {
+   "uid": "U289",
+   "forslag": null,
+   "motivering": "Kränkningsförslag i allmänhet, inget enskilt förslag"
+  },
+  {
+   "uid": "U290",
+   "forslag": [
+    "F13",
+    "F14"
+   ],
+   "motivering": "Tidsreglering ger risk för obehörig undervisning"
+  },
+  {
+   "uid": "U291",
+   "forslag": [
+    "F13",
+    "F14"
+   ],
+   "motivering": "Tidsreglering försvårar rektors inre organisation"
+  },
+  {
+   "uid": "U300",
+   "forslag": null,
+   "motivering": "Ersättning och justeringar i allmänhet"
+  },
+  {
+   "uid": "U301",
+   "forslag": null,
+   "motivering": "Vägledning om dokumentation, flera förslag möjliga"
+  },
+  {
+   "uid": "U304",
+   "forslag": [
+    "F20"
+   ],
+   "motivering": "Övergångsregler vid införandet"
+  },
+  {
+   "uid": "U305",
+   "forslag": [
+    "F13"
+   ],
+   "motivering": "Reglering av undervisningstiden är kostsam"
+  },
+  {
+   "uid": "U306",
+   "forslag": null,
+   "motivering": "Permanent kostnadsökning i allmänhet"
+  },
+  {
+   "uid": "U307",
+   "forslag": null,
+   "motivering": "Kostnadsberäkning för vuxenutbildning i allmänhet"
+  },
+  {
+   "uid": "U308",
+   "forslag": null,
+   "motivering": "Lärarlöner i allmänhet"
+  },
+  {
+   "uid": "U309",
+   "forslag": null,
+   "motivering": "Ofullständig kompensation i allmänhet"
+  },
+  {
+   "uid": "U312",
+   "forslag": [
+    "F14"
+   ],
+   "motivering": "Planeringstidsreglering och distansundervisning i vuxenutbildning"
+  },
+  {
+   "uid": "U313",
+   "forslag": [
+    "F11"
+   ],
+   "motivering": "Mentorskap skilt från undervisningsuppdraget"
+  },
+  {
+   "uid": "U315",
+   "forslag": [
+    "F11",
+    "F13"
+   ],
+   "motivering": "Undervisning i små grupper och undervisningstid"
+  },
+  {
+   "uid": "U316",
+   "forslag": null,
+   "motivering": "Lärarbrist av förslagen i allmänhet"
+  },
+  {
+   "uid": "U317",
+   "forslag": null,
+   "motivering": "Lärarbehov i komvux, inget enskilt förslag angivet"
+  },
+  {
+   "uid": "U318",
+   "forslag": null,
+   "motivering": "Lärarbrist i allmänhet"
+  },
+  {
+   "uid": "U319",
+   "forslag": null,
+   "motivering": "Ekonomiska konsekvenser och skolpengsnorm"
+  },
+  {
+   "uid": "U320",
+   "forslag": [
+    "F13"
+   ],
+   "motivering": "Reglering av undervisningstid ger fler obehöriga"
+  },
+  {
+   "uid": "U321",
+   "forslag": null,
+   "motivering": "Kostnader och rekrytering i allmänhet"
+  },
+  {
+   "uid": "U322",
+   "forslag": null,
+   "motivering": "Organisering i allmänhet"
+  },
+  {
+   "uid": "U351",
+   "forslag": null,
+   "motivering": "Kostnadsberäkningar i allmänhet"
+  },
+  {
+   "uid": "U352",
+   "forslag": null,
+   "motivering": "Komvux i allmänhet, inget enskilt förslag"
+  },
+  {
+   "uid": "U353",
+   "forslag": null,
+   "motivering": "Generell reservation för förskolan"
+  },
+  {
+   "uid": "U354",
+   "forslag": null,
+   "motivering": "Finansieringsprincipen i allmänhet"
+  },
+  {
+   "uid": "U355",
+   "forslag": null,
+   "motivering": "Finansiering via kunskapsbidraget"
+  },
+  {
+   "uid": "U356",
+   "forslag": [
+    "F13"
+   ],
+   "motivering": "Reglering ger större klasser och obehöriga lärare"
+  },
+  {
+   "uid": "U357",
+   "forslag": [
+    "F13"
+   ],
+   "motivering": "Ofinansierad reglering av undervisningstid"
+  },
+  {
+   "uid": "U358",
+   "forslag": [
+    "F13",
+    "F14"
+   ],
+   "motivering": "Reglering av undervisnings- och planeringstid kräver finansiering"
+  },
+  {
+   "uid": "U359",
+   "forslag": [
+    "F13",
+    "F14"
+   ],
+   "motivering": "Kollektivavtal anpassas efter tidsregleringarna"
+  },
+  {
+   "uid": "U360",
+   "forslag": [
+    "F13",
+    "F14"
+   ],
+   "motivering": "Tidsreglering begränsar rektors resursfördelning"
+  },
+  {
+   "uid": "U361",
+   "forslag": [
+    "F14"
+   ],
+   "motivering": "Lika planeringstid oavsett erfarenhet"
+  },
+  {
+   "uid": "U362",
+   "forslag": null,
+   "motivering": "Obehöriga lärare av förslagen i allmänhet"
+  },
+  {
+   "uid": "U363",
+   "forslag": null,
+   "motivering": "Kostnadsberäkning och finansiering i allmänhet"
+  },
+  {
+   "uid": "U364",
+   "forslag": null,
+   "motivering": "Lokal styrning i allmänhet"
+  },
+  {
+   "uid": "U365",
+   "forslag": null,
+   "motivering": "Kostnadsberäkning i allmänhet"
+  },
+  {
+   "uid": "U366",
+   "forslag": null,
+   "motivering": "Osäkra kostnadsunderlag"
+  },
+  {
+   "uid": "U367",
+   "forslag": null,
+   "motivering": "Finansieringsprincipen i allmänhet"
+  },
+  {
+   "uid": "U368",
+   "forslag": null,
+   "motivering": "Lärarbehov underskattat i allmänhet"
+  },
+  {
+   "uid": "U369",
+   "forslag": [
+    "F12",
+    "F13"
+   ],
+   "motivering": "Undervisningstid tar inte hänsyn till uppdragens tyngd"
+  },
+  {
+   "uid": "U370",
+   "forslag": [
+    "F13"
+   ],
+   "motivering": "Undervisningstid pressas mot intervallets övre del"
+  },
+  {
+   "uid": "U371",
+   "forslag": [
+    "F13",
+    "F14"
+   ],
+   "motivering": "Tidsregleringen saknar flexibilitet"
+  },
+  {
+   "uid": "U372",
+   "forslag": [
+    "F13",
+    "F14"
+   ],
+   "motivering": "Arbetstidsavtalet krockar med reglerad undervisningstid och planeringstid"
+  },
+  {
+   "uid": "U373",
+   "forslag": [
+    "F13",
+    "F14"
+   ],
+   "motivering": "Strikta nivåer för undervisningstid och för- och efterarbete"
+  },
+  {
+   "uid": "U374",
+   "forslag": [
+    "F13",
+    "F12"
+   ],
+   "motivering": "Lågt tak för undervisningstid begränsar viktningens differentiering"
+  },
+  {
+   "uid": "U375",
+   "forslag": [
+    "F13",
+    "F12"
+   ],
+   "motivering": "Regleringen av undervisningstid begränsar annan resursfördelning"
+  },
+  {
+   "uid": "U376",
+   "forslag": [
+    "F12"
+   ],
+   "motivering": "Viktning efter elevgruppens storlek"
+  },
+  {
+   "uid": "U377",
+   "forslag": [
+    "F13",
+    "F14"
+   ],
+   "motivering": "Beräkning av högsta undervisningstid och planeringstid fördyrar små grupper"
+  },
+  {
+   "uid": "U378",
+   "forslag": [
+    "F14"
+   ],
+   "motivering": "Lagreglerat för- och efterarbete inom avtalets reglerade tid"
+  },
+  {
+   "uid": "U379",
+   "forslag": [
+    "F14",
+    "F13"
+   ],
+   "motivering": "Reglerad undervisnings- och planeringstid lämnar lite övrig tid"
+  },
+  {
+   "uid": "U380",
+   "forslag": [
+    "F14"
+   ],
+   "motivering": "Reglerad planeringstid påverkar utrymmet för övriga uppgifter"
+  },
+  {
+   "uid": "U381",
+   "forslag": [
+    "F13"
+   ],
+   "motivering": "Minskad undervisningstid kräver fler lärare"
+  },
+  {
+   "uid": "U382",
+   "forslag": [
+    "F13"
+   ],
+   "motivering": "Beräkning av lärartjänster utöver föreslagen undervisningsomfattning"
+  },
+  {
+   "uid": "U383",
+   "forslag": [
+    "F13",
+    "F14"
+   ],
+   "motivering": "Rekryteringsbehov för att genomföra tidsregleringen"
+  },
+  {
+   "uid": "U384",
+   "forslag": null,
+   "motivering": "Finansiering via generellt statsbidrag, inget enskilt förslag"
+  },
+  {
+   "uid": "U385",
+   "forslag": null,
+   "motivering": "Omfördelning av statsbidrag, inget enskilt förslag"
+  },
+  {
+   "uid": "U386",
+   "forslag": null,
+   "motivering": "Ofinansierad kostnad i allmänhet"
+  },
+  {
+   "uid": "U387",
+   "forslag": [
+    "F13"
+   ],
+   "motivering": "Svårt att gå under högsta omfattning i intervallet"
+  },
+  {
+   "uid": "U388",
+   "forslag": null,
+   "motivering": "Kostnader i förskola och vuxenutbildning generellt"
+  },
+  {
+   "uid": "U389",
+   "forslag": null,
+   "motivering": "Upphandlade vuxenutbildningsavtal påverkas generellt"
+  },
+  {
+   "uid": "U390",
+   "forslag": null,
+   "motivering": "Saknad kostnadsberäkning för komvux, generell"
+  },
+  {
+   "uid": "U399",
+   "forslag": [
+    "F11"
+   ],
+   "motivering": "Gränsen mellan undervisning och övriga uppgifter i uppdraget"
+  },
+  {
+   "uid": "U400",
+   "forslag": [
+    "F13",
+    "F14"
+   ],
+   "motivering": "Tidsreglering begränsar rektors fördelning av arbetet"
+  },
+  {
+   "uid": "U401",
+   "forslag": null,
+   "motivering": "Extra anpassningar, inget förslag i listan reglerar det"
+  },
+  {
+   "uid": "U402",
+   "forslag": [
+    "F14"
+   ],
+   "motivering": "Minst lika mycket planeringstid som undervisning kräver fler lärare"
+  },
+  {
+   "uid": "U403",
+   "forslag": null,
+   "motivering": "Upphandlade vuxenutbildningsavtal påverkas generellt"
+  },
+  {
+   "uid": "U404",
+   "forslag": null,
+   "motivering": "Saknad kostnadsberäkning för komvux, generell"
+  },
+  {
+   "uid": "U429",
+   "forslag": [
+    "F14"
+   ],
+   "motivering": "Reglerad planeringstid påverkar utrymmet för övriga uppgifter"
+  },
+  {
+   "uid": "U430",
+   "forslag": [
+    "F13"
+   ],
+   "motivering": "Minskad undervisningstid kräver fler lärare"
+  },
+  {
+   "uid": "U431",
+   "forslag": [
+    "F13"
+   ],
+   "motivering": "Beräkning av lärartjänster utöver föreslagen undervisningsomfattning"
+  },
+  {
+   "uid": "U433",
+   "forslag": null,
+   "motivering": "Finansiering via statsbidrag, inget enskilt förslag"
+  },
+  {
+   "uid": "U434",
+   "forslag": null,
+   "motivering": "Kostnader och statsbidrag i allmänhet"
+  },
+  {
+   "uid": "U435",
+   "forslag": null,
+   "motivering": "Schablonhöjning och finansiering, inget enskilt förslag"
+  },
+  {
+   "uid": "U437",
+   "forslag": [
+    "F13"
+   ],
+   "motivering": "Svårt att gå under högsta omfattning i intervallet"
+  },
+  {
+   "uid": "U454",
+   "forslag": [
+    "F11"
+   ],
+   "motivering": "Definitionen av undervisningsuppdraget passar inte förskolan"
+  },
+  {
+   "uid": "U455",
+   "forslag": [
+    "F17"
+   ],
+   "motivering": "Formuleringen om rektors ansvar och ordet sin"
+  },
+  {
+   "uid": "U461",
+   "forslag": null,
+   "motivering": "Finansiering och kollektivavtal generellt"
+  },
+  {
+   "uid": "U465",
+   "forslag": null,
+   "motivering": "Allmän kritik mot lokal styrning"
+  },
+  {
+   "uid": "U470",
+   "forslag": null,
+   "motivering": "Statlig finansiering generellt"
+  },
+  {
+   "uid": "U471",
+   "forslag": [
+    "F16"
+   ],
+   "motivering": "Planeringstid i förskolans arbetslag med flera förskollärare"
+  },
+  {
+   "uid": "U472",
+   "forslag": [
+    "F16"
+   ],
+   "motivering": "Fem planeringstimmar i veckan för förskollärare"
+  },
+  {
+   "uid": "U473",
+   "forslag": null,
+   "motivering": "Generell osäkerhet om frigjord tid"
+  },
+  {
+   "uid": "U474",
+   "forslag": null,
+   "motivering": "Administrationsförslag generellt, inget enskilt förslag"
+  },
+  {
+   "uid": "U475",
+   "forslag": null,
+   "motivering": "Detaljnivå i flera förslag generellt"
+  },
+  {
+   "uid": "U476",
+   "forslag": null,
+   "motivering": "Små enheter generellt, inget enskilt förslag"
+  },
+  {
+   "uid": "U477",
+   "forslag": [
+    "F01",
+    "F02"
+   ],
+   "motivering": "Information vid tillfällen som bestäms av skolan"
+  },
+  {
+   "uid": "U479",
+   "forslag": [
+    "F06"
+   ],
+   "motivering": "Kunskapsutvecklingsplanen och elevens utveckling i övrigt"
+  },
+  {
+   "uid": "U480",
+   "forslag": [
+    "F07"
+   ],
+   "motivering": "Kommande utredning om digitala system och administration"
+  },
+  {
+   "uid": "U481",
+   "forslag": [
+    "F07"
+   ],
+   "motivering": "Dataflöden och interoperabilitet mellan IT-system"
+  },
+  {
+   "uid": "U483",
+   "forslag": [
+    "F09"
+   ],
+   "motivering": "Informationsskyldighet och upptäckt av upprepade kränkningar"
+  },
+  {
+   "uid": "U484",
+   "forslag": [
+    "F09"
+   ],
+   "motivering": "Bedömning av vad som är allvarlig kränkning"
+  },
+  {
+   "uid": "U485",
+   "forslag": [
+    "F09"
+   ],
+   "motivering": "Bedömning av allvar för yngsta barnen"
+  },
+  {
+   "uid": "U486",
+   "forslag": [
+    "F10"
+   ],
+   "motivering": "Avgränsningen samband med verksamheten respektive i verksamheten"
+  },
+  {
+   "uid": "U488",
+   "forslag": null,
+   "motivering": "Förslagen generellt och lokal organisering"
+  },
+  {
+   "uid": "U489",
+   "forslag": null,
+   "motivering": "Generellt avsteg, inget enskilt förslag"
+  },
+  {
+   "uid": "U490",
+   "forslag": [
+    "F13",
+    "F14"
+   ],
+   "motivering": "Reglering av arbetstid inskränker arbetsledningsrätten"
+  },
+  {
+   "uid": "U491",
+   "forslag": null,
+   "motivering": "Små skolor generellt, inget enskilt förslag"
+  },
+  {
+   "uid": "U492",
+   "forslag": null,
+   "motivering": "Ökat personalbehov generellt"
+  },
+  {
+   "uid": "U493",
+   "forslag": [
+    "F13",
+    "F14"
+   ],
+   "motivering": "Tidsregleringarnas förhållande till kollektivavtalen"
+  },
+  {
+   "uid": "U494",
+   "forslag": [
+    "F13",
+    "F14"
+   ],
+   "motivering": "Undervisningstak och planeringsfaktor mot Bilaga M"
+  },
+  {
+   "uid": "U495",
+   "forslag": [
+    "F13",
+    "F14"
+   ],
+   "motivering": "Uppstyckning av lärares tid med undervisningstak och planeringsfaktor"
+  },
+  {
+   "uid": "U496",
+   "forslag": [
+    "F13",
+    "F14"
+   ],
+   "motivering": "Administration av undervisningstak och planeringsfaktor"
+  },
+  {
+   "uid": "U519",
+   "forslag": null,
+   "motivering": "Kostnader för fler professioner generellt"
+  },
+  {
+   "uid": "U520",
+   "forslag": null,
+   "motivering": "Otydliga förslag generellt"
+  },
+  {
+   "uid": "U521",
+   "forslag": [
+    "F10"
+   ],
+   "motivering": "Gränsdragning för i verksamheten"
+  },
+  {
+   "uid": "U522",
+   "forslag": [
+    "F10"
+   ],
+   "motivering": "Olika tillämpning av i verksamheten"
+  },
+  {
+   "uid": "U533",
+   "forslag": [
+    "F07"
+   ],
+   "motivering": "Nationellt ansvar för digitala stödverktyg"
+  },
+  {
+   "uid": "U536",
+   "forslag": [
+    "F09"
+   ],
+   "motivering": "Genomförande av informationsskyldigheten till rektor"
+  },
+  {
+   "uid": "U537",
+   "forslag": [
+    "F09"
+   ],
+   "motivering": "Dokumentation vid informationsskyldigheten"
+  },
+  {
+   "uid": "U538",
+   "forslag": [
+    "F09"
+   ],
+   "motivering": "Upptäckt av upprepad kränkande behandling"
+  },
+  {
+   "uid": "U539",
+   "forslag": [
+    "F09"
+   ],
+   "motivering": "Hantering av mindre händelser under ändrad skyldighet"
+  },
+  {
+   "uid": "U540",
+   "forslag": [
+    "F09"
+   ],
+   "motivering": "Utredningsskyldighet kräver elevkännedom"
+  },
+  {
+   "uid": "U541",
+   "forslag": [
+    "F09"
+   ],
+   "motivering": "Dokumentation vid utredning av kränkningar"
+  },
+  {
+   "uid": "U543",
+   "forslag": [
+    "F08",
+    "F09",
+    "F10"
+   ],
+   "motivering": "Samordning av förslagen om kränkande behandling"
+  },
+  {
+   "uid": "U546",
+   "forslag": null,
+   "motivering": "Förtroendearbetstid generellt, inget enskilt förslag"
+  },
+  {
+   "uid": "U547",
+   "forslag": null,
+   "motivering": "Samordning med andra utredningar"
+  },
+  {
+   "uid": "U548",
+   "forslag": null,
+   "motivering": "Finansiering generellt"
+  },
+  {
+   "uid": "U549",
+   "forslag": [
+    "F12"
+   ],
+   "motivering": "Elevgruppers storlek i viktningen"
+  },
+  {
+   "uid": "U550",
+   "forslag": null,
+   "motivering": "Finansiering via befintliga statsbidrag"
+  },
+  {
+   "uid": "U551",
+   "forslag": null,
+   "motivering": "Bemanningsbehov generellt"
+  },
+  {
+   "uid": "U552",
+   "forslag": null,
+   "motivering": "Lärarbrist generellt"
+  },
+  {
+   "uid": "U572",
+   "forslag": [
+    "F13",
+    "F19"
+   ],
+   "motivering": "Osäkra effekter av reglerad undervisningstid och uppföljning"
+  },
+  {
+   "uid": "U573",
+   "forslag": [
+    "F08",
+    "F09",
+    "F10"
+   ],
+   "motivering": "Ikraftträdande för förslagen om kränkande behandling"
+  },
+  {
+   "uid": "U574",
+   "forslag": [
+    "F20"
+   ],
+   "motivering": "Beslut om ikraftträdande i god tid"
+  },
+  {
+   "uid": "U575",
+   "forslag": null,
+   "motivering": "Finansiering generellt"
+  },
+  {
+   "uid": "U576",
+   "forslag": null,
+   "motivering": "Resurstilldelning generellt"
+  },
+  {
+   "uid": "U577",
+   "forslag": null,
+   "motivering": "Finansiering via omfördelade statsbidrag"
+  },
+  {
+   "uid": "U578",
+   "forslag": null,
+   "motivering": "Kostnader för kringfunktioner generellt"
+  },
+  {
+   "uid": "U579",
+   "forslag": null,
+   "motivering": "Kringfunktioner i kostnadsberäkning generellt"
+  },
+  {
+   "uid": "U580",
+   "forslag": [
+    "F15",
+    "F16"
+   ],
+   "motivering": "Kompensation för reglerad planeringstid i förskola och fritidshem"
+  },
+  {
+   "uid": "U581",
+   "forslag": [
+    "F13",
+    "F14"
+   ],
+   "motivering": "Anpassning till intervallet och planeringstiden"
+  },
+  {
+   "uid": "U582",
+   "forslag": [
+    "F13",
+    "F14"
+   ],
+   "motivering": "Rekrytering till följd av intervallet och planeringstiden"
+  },
+  {
+   "uid": "U583",
+   "forslag": null,
+   "motivering": "Finansiering av kringfunktioner generellt"
+  },
+  {
+   "uid": "U584",
+   "forslag": null,
+   "motivering": "Finansieringsmodell generellt"
+  },
+  {
+   "uid": "U585",
+   "forslag": null,
+   "motivering": "Genomförande i små kommuner generellt"
+  },
+  {
+   "uid": "U586",
+   "forslag": null,
+   "motivering": "Ekonomiska konsekvenser för små kommuner generellt"
+  },
+  {
+   "uid": "U587",
+   "forslag": null,
+   "motivering": "Rekrytering generellt"
+  },
+  {
+   "uid": "U588",
+   "forslag": null,
+   "motivering": "Statlig kompensation generellt"
+  },
+  {
+   "uid": "U589",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Information om kunskapsutveckling men inte social situation"
+  },
+  {
+   "uid": "U590",
+   "forslag": null,
+   "motivering": "Lärarens sociala roll, inget tydligt enskilt förslag"
+  },
+  {
+   "uid": "U591",
+   "forslag": null,
+   "motivering": "Generella risker med förslagen"
+  },
+  {
+   "uid": "U592",
+   "forslag": null,
+   "motivering": "Minskade dokumentationskrav generellt"
+  },
+  {
+   "uid": "U593",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Färre utvecklingssamtal"
+  },
+  {
+   "uid": "U594",
+   "forslag": [
+    "F13"
+   ],
+   "motivering": "Tak för undervisningstid ökar resursbehov"
+  },
+  {
+   "uid": "U595",
+   "forslag": [
+    "F11"
+   ],
+   "motivering": "Vad som räknas till undervisningstid och planeringstid"
+  },
+  {
+   "uid": "U596",
+   "forslag": [
+    "F14"
+   ],
+   "motivering": "Utökad planeringstid"
+  },
+  {
+   "uid": "U597",
+   "forslag": null,
+   "motivering": "Nya yrkesroller generellt"
+  },
+  {
+   "uid": "U598",
+   "forslag": [
+    "F11"
+   ],
+   "motivering": "Relationen mellan undervisning, planering och övrig tid"
+  },
+  {
+   "uid": "U599",
+   "forslag": null,
+   "motivering": "Total arbetstid generellt"
+  },
+  {
+   "uid": "U600",
+   "forslag": null,
+   "motivering": "Lokala variationer generellt"
+  },
+  {
+   "uid": "U601",
+   "forslag": null,
+   "motivering": "Nationella direktiv generellt"
+  },
+  {
+   "uid": "U602",
+   "forslag": null,
+   "motivering": "Total arbetstid utanför förslagen"
+  },
+  {
+   "uid": "U603",
+   "forslag": [
+    "F13",
+    "F14"
+   ],
+   "motivering": "Tidsregleringen mot nuvarande läraravtal"
+  },
+  {
+   "uid": "U604",
+   "forslag": [
+    "F13"
+   ],
+   "motivering": "Reglerad undervisningstid kräver omfördelning av arbete"
+  },
+  {
+   "uid": "U605",
+   "forslag": null,
+   "motivering": "Kostnadseffekter generellt"
+  },
+  {
+   "uid": "U606",
+   "forslag": [
+    "F13"
+   ],
+   "motivering": "Huvudmän lägger sig på högsta intervallet"
+  },
+  {
+   "uid": "U607",
+   "forslag": [
+    "F13"
+   ],
+   "motivering": "Reglerad undervisningstid kräver fler anställda"
+  },
+  {
+   "uid": "U608",
+   "forslag": [
+    "F13"
+   ],
+   "motivering": "Reglering kan minska elevernas undervisningstid"
+  },
+  {
+   "uid": "U609",
+   "forslag": null,
+   "motivering": "Trygghetsarbetets administration, inget enskilt förslag"
+  },
+  {
+   "uid": "U610",
+   "forslag": null,
+   "motivering": "Kostnader och överlämning generellt"
+  },
+  {
+   "uid": "U611",
+   "forslag": [
+    "F16"
+   ],
+   "motivering": "Individuell planeringstid i förskolan"
+  },
+  {
+   "uid": "U612",
+   "forslag": null,
+   "motivering": "Myndighetskrav och samordning generellt"
+  },
+  {
+   "uid": "U613",
+   "forslag": [
+    "F13",
+    "F14"
+   ],
+   "motivering": "Detaljreglering av lärares arbetstid mot rektors organisation"
+  },
+  {
+   "uid": "U614",
+   "forslag": [
+    "F13"
+   ],
+   "motivering": "Undervisningstak drabbar små skolenheter"
+  },
+  {
+   "uid": "U615",
+   "forslag": [
+    "F13",
+    "F14"
+   ],
+   "motivering": "Tidsreglering minskar flexibel tjänstefördelning i glesbygd"
+  },
+  {
+   "uid": "U616",
+   "forslag": [
+    "F13"
+   ],
+   "motivering": "Reglerad undervisningstid mot ökad undervisning med avlastning"
+  },
+  {
+   "uid": "U617",
+   "forslag": [
+    "F13",
+    "F14"
+   ],
+   "motivering": "Reglerad arbetstid minskar lokala lösningar"
+  },
+  {
+   "uid": "U618",
+   "forslag": null,
+   "motivering": "Fragment om obehörig personal, oklart mål"
+  },
+  {
+   "uid": "U619",
+   "forslag": [
+    "F11"
+   ],
+   "motivering": "Gränser mellan undervisningstid, planeringstid och övrig tid"
+  },
+  {
+   "uid": "U620",
+   "forslag": [
+    "F13",
+    "F14",
+    "F16"
+   ],
+   "motivering": "Reglerad undervisnings- och planeringstid och samplanering"
+  },
+  {
+   "uid": "U621",
+   "forslag": [
+    "F13"
+   ],
+   "motivering": "Intervall för undervisningstid skapar otydlighet"
+  },
+  {
+   "uid": "U622",
+   "forslag": [
+    "F15",
+    "F16"
+   ],
+   "motivering": "Reglerad planeringstid i förskola och fritidshem"
+  },
+  {
+   "uid": "U623",
+   "forslag": [
+    "F13"
+   ],
+   "motivering": "Maxtak för undervisning och tjänstefördelning"
+  },
+  {
+   "uid": "U624",
+   "forslag": [
+    "F13",
+    "F14"
+   ],
+   "motivering": "Tidsreglering och tvålärarskap"
+  },
+  {
+   "uid": "U625",
+   "forslag": [
+    "F11",
+    "F13"
+   ],
+   "motivering": "Hur undervisningstid räknas i lägre årskurser"
+  },
+  {
+   "uid": "U626",
+   "forslag": [
+    "F14",
+    "F15",
+    "F16"
+   ],
+   "motivering": "Säkra planeringstid vid sjukfrånvaro"
+  },
+  {
+   "uid": "U627",
+   "forslag": [
+    "F15",
+    "F16"
+   ],
+   "motivering": "Planeringstid endast för legitimerad personal"
+  },
+  {
+   "uid": "U628",
+   "forslag": [
+    "F14"
+   ],
+   "motivering": "Fast faktor för planering och uppföljning"
+  },
+  {
+   "uid": "U629",
+   "forslag": null,
+   "motivering": "Extra anpassningar, inget förslag i listan reglerar det"
+  },
+  {
+   "uid": "U630",
+   "forslag": [
+    "F09"
+   ],
+   "motivering": "Definition av allvarlig kränkning"
+  },
+  {
+   "uid": "U631",
+   "forslag": [
+    "F10"
+   ],
+   "motivering": "Händelser utanför skolan, i verksamheten"
+  },
+  {
+   "uid": "U632",
+   "forslag": null,
+   "motivering": "Rekrytering och kostnader generellt"
+  },
+  {
+   "uid": "U633",
+   "forslag": null,
+   "motivering": "Ekonomiska konsekvenser generellt"
+  },
+  {
+   "uid": "U634",
+   "forslag": null,
+   "motivering": "Statlig finansiering generellt"
+  },
+  {
+   "uid": "U635",
+   "forslag": null,
+   "motivering": "Rekrytering generellt"
+  },
+  {
+   "uid": "U636",
+   "forslag": null,
+   "motivering": "Behörighet och rekrytering generellt"
+  },
+  {
+   "uid": "U637",
+   "forslag": [
+    "F13",
+    "F14"
+   ],
+   "motivering": "Reglering av lärares arbetstid svår att införa"
+  },
+  {
+   "uid": "U638",
+   "forslag": null,
+   "motivering": "Förtroendearbetstid generellt, inget enskilt förslag"
+  },
+  {
+   "uid": "U639",
+   "forslag": null,
+   "motivering": "Myndighetskrav på dokumentation, inget enskilt förslag"
+  },
+  {
+   "uid": "U640",
+   "forslag": null,
+   "motivering": "Upprepade anmälningar, svag koppling till enskilt förslag"
+  },
+  {
+   "uid": "U641",
+   "forslag": [
+    "F16"
+   ],
+   "motivering": "Fem timmars planeringstid för förskollärare"
+  },
+  {
+   "uid": "U642",
+   "forslag": [
+    "F01",
+    "F02"
+   ],
+   "motivering": "Borttaget fortlöpande i informationskravet"
+  },
+  {
+   "uid": "U643",
+   "forslag": null,
+   "motivering": "Extra anpassningar, inget förslag i listan reglerar det"
+  },
+  {
+   "uid": "U644",
+   "forslag": [
+    "F09"
+   ],
+   "motivering": "Rektors anmälnings- och utredningsskyldighet"
+  },
+  {
+   "uid": "U645",
+   "forslag": [
+    "F14"
+   ],
+   "motivering": "Planeringsfaktor påverkar små gymnasieskolor"
+  },
+  {
+   "uid": "U646",
+   "forslag": [
+    "F14"
+   ],
+   "motivering": "Samma planeringsfaktor för yrkeslärare"
+  },
+  {
+   "uid": "U647",
+   "forslag": [
+    "F14"
+   ],
+   "motivering": "Planeringsfaktor och små undervisningsgrupper"
+  },
+  {
+   "uid": "U648",
+   "forslag": [
+    "F14"
+   ],
+   "motivering": "Halvklassundervisning i planeringsmodellen"
+  },
+  {
+   "uid": "U649",
+   "forslag": [
+    "F14"
+   ],
+   "motivering": "Halvklassundervisning blir kostsam med planeringsfaktor"
+  }
+ ]
+}

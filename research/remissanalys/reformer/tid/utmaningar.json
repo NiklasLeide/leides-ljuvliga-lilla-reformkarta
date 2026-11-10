@@ -183,10 +183,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F11",
+     "F13"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Invänder mot reglering av undervisningstid i lag och förordning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -1444,10 +1450,17 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F11",
+     "F13",
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Gränsdragning mellan undervisningstid, planeringstid och övrig tid",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -1477,10 +1490,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F11"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Avgränsningen av undervisningsuppdraget minskar elevkontakt",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -1510,10 +1528,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F11",
+     "F13"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Tidsregleringens förhållande till kollektivavtal",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -1576,10 +1600,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F11"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Uppgifter utanför avgränsat läraruppdrag kräver fler medarbetare",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -1609,10 +1638,17 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F11",
+     "F13",
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Kostnader för reglering av uppdrag och lärares tid",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -1642,10 +1678,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F15",
+     "F16"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Planeringstid i förskola och fritidshem",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -1675,10 +1717,17 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F11",
+     "F13",
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Osäkra effekter av regleringen av uppdrag och arbetstid",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -1741,10 +1790,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F20"
+    ],
+    "kapitel": [
+     "10"
+    ],
+    "motivering": "Ikraftträdandet 1 juli 2027",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -1774,10 +1828,17 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F11",
+     "F13",
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Kostnader för reglering av uppdrag och lärares tid",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -1840,10 +1901,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Reglerad undervisningstid ger större klasser enligt citatet",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -1873,10 +1939,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F11"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Elevsocialt arbete utanför undervisningsuppdraget",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -1906,10 +1977,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F11"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Frånvaroanalys utanför undervisningsuppdraget",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -1939,10 +2015,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F11",
+     "F17"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Rektor bedömer uppgifter utanför undervisningsuppdraget",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -1972,10 +2054,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F11"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Uppgifter utanför undervisningsuppdraget till annan personal",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -2005,10 +2092,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F09"
+    ],
+    "kapitel": [
+     "7"
+    ],
+    "motivering": "Kränkningar som inte dokumenteras vid begränsad anmälan",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -2151,10 +2243,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F09"
+    ],
+    "kapitel": [
+     "7"
+    ],
+    "motivering": "Bedömning av allvarlig eller upprepad kränkning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -2184,10 +2281,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F09"
+    ],
+    "kapitel": [
+     "7"
+    ],
+    "motivering": "Professionell bedömning av kränkningar enligt nytt tröskelkrav",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -2217,10 +2319,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13",
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Reglering av lärares arbetstid",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -2250,10 +2358,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13",
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Svårt att reglera lärares tid",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -2283,10 +2397,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F11"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Uppgifter utanför undervisningsuppdraget kräver annan personal",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -2316,10 +2435,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F11"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Elevnära arbete bör ingå i undervisningsuppdraget",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -2349,10 +2473,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "För- och efterarbete i förhållande till förtroendetid",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -2507,10 +2636,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F10"
+    ],
+    "kapitel": [
+     "7"
+    ],
+    "motivering": "Gränsen i verksamheten mot utanför verksamheten",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -2896,10 +3030,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F11"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Uppgifter som tas från lärare kräver kringfunktioner",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -2929,10 +3068,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F11",
+     "F13"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Statlig reglering av undervisningsskyldighet",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -2995,10 +3140,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F11",
+     "F13"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Statligt reglerad undervisningstid för små skolor",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -3072,10 +3223,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Reglerad undervisningstid och timplan oförenliga",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -3138,10 +3294,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F11",
+     "F13"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Förordning om reglerad undervisningstid svår att tillämpa",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -3171,10 +3333,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F09"
+    ],
+    "kapitel": [
+     "7"
+    ],
+    "motivering": "Administrativ börda i kränkningsärenden",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -3204,10 +3371,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13",
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Nationell detaljreglering av lärares arbetstid",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -3303,10 +3476,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F09"
+    ],
+    "kapitel": [
+     "7"
+    ],
+    "motivering": "Osäkerhet om vad som ska anmälas vid kränkning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -3336,10 +3514,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13",
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Tidsmässig detaljstyrning av läraruppdraget",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -3402,10 +3586,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F16"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Individuell planeringstid för förskollärare",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -3435,10 +3624,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F11"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Kringuppgifter utanför uppdraget kräver andra yrkesgrupper",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -3468,10 +3662,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F11"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Avgränsning av förskollärares uppgifter ändrar befattningar",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -3501,10 +3700,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F16"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Planeringstid kopplad till varje förskollärare",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -3534,10 +3738,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F11"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Omfördelade uppgifter utanför undervisningsuppdraget kostar",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -3567,10 +3776,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F11"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Uppgifter utanför undervisningsuppdraget ger färre lärare",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -3600,10 +3814,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13",
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Arbetstidsförslagen driver personal och kostnader",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -3666,10 +3886,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Undervisningstidsintervall för lärare i förskoleklass",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -3699,10 +3924,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F01",
+     "F02"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Fortlöpande information till vårdnadshavare tas bort",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -3732,10 +3963,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F01",
+     "F02"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Nedtonad fortlöpande information i skollag och läroplan",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -3798,10 +4035,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F09"
+    ],
+    "kapitel": [
+     "7"
+    ],
+    "motivering": "Nuvarande kränkningsregelverk som förslaget ändrar",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -3864,10 +4106,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Planeringstiden tar inte hänsyn till viktiga faktorer",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -3897,10 +4144,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05",
+     "F06"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Färre utvecklingssamtal och ändrad utvecklingsplan",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -3930,10 +4183,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05",
+     "F06"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Mindre fokus på social utveckling och hemkontakt",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -4855,10 +5114,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F11",
+     "F13"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Nationell reglering av undervisningstid",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -4888,10 +5153,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13",
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Statlig timreglering minskar professionellt utrymme",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -4921,10 +5192,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F11",
+     "F13"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Reglering av undervisningstid begränsar rektors mandat",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -4994,10 +5271,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F11",
+     "F13"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Statliga regler om undervisningstid",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -5027,10 +5310,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Konsekvens av reglerad undervisningstid",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -5060,10 +5348,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Konsekvens av reglerad undervisningstid",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -5093,10 +5386,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Konsekvens av reglerad undervisningstid",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -5126,10 +5424,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F11"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Vad som räknas som undervisning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -5192,10 +5495,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F11",
+     "F13"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Rekrytering av lärare och personal för övriga uppgifter",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -5225,10 +5534,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F11",
+     "F13"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Tidsreglering inskränker arbetsledningsrätt",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -5258,10 +5573,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F11"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Precisering av uppdraget i skollagen",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -5291,10 +5611,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F12",
+     "F13"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Oprecis dimensionering av individuell lärares tid",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -5620,10 +5946,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F09"
+    ],
+    "kapitel": [
+     "7"
+    ],
+    "motivering": "Tröskeln allvarlig för anmälan",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -5653,10 +5984,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F09"
+    ],
+    "kapitel": [
+     "7"
+    ],
+    "motivering": "Personalens initiala värdering av kränkningen",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -5686,10 +6022,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F09"
+    ],
+    "kapitel": [
+     "7"
+    ],
+    "motivering": "Mönster i kränkningar svårare att upptäcka",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -6067,10 +6408,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Lärare undervisar över föreslaget tak",
+    "tolkning": true
    },
    "skolform": [
     "grundskola"
@@ -6102,10 +6448,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Taket och lärares behörigheter",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -6135,10 +6486,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Undervisningstid för praktisk-estetiska lärare",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -6168,10 +6524,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Vikariat under undervisningstaket",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -6201,10 +6562,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Undervisningsbehov över taket",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -6234,10 +6600,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F12"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Förändrad gruppstorlek under läsåret",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -6267,10 +6638,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13",
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Tid knuten till individuell lärare",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -6300,10 +6677,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F16"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Planeringstid ökar med behoven i förskolan",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -6333,10 +6715,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F16"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Kostnad för förskollärares planeringstid",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -6366,10 +6753,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F16"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Kostnad för planeringstid hos enskilda huvudmän",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -6399,10 +6791,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13",
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Ofinansierad undervisnings- och planeringstid",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -6432,10 +6830,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F12"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Ingen vägledning om viktning av faktorer",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -8005,10 +8408,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F11",
+     "F12"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Vem som beslutar om tiden för uppdraget",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -8038,10 +8447,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F12"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Hänsyn till andra omständigheter vid bemanning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -8071,10 +8485,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F12"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Differentierad planering kräver behöriga lärare",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -8104,10 +8523,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F12"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Rektors viktning av undervisningsuppdraget",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -9155,10 +9579,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F11"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Administrativa uppgifter som lyfts från pedagogen",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -9188,10 +9617,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F11"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Kringuppgifter som måltider på små enheter",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -9221,10 +9655,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F11",
+     "F16"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Reglering kan ersätta förskollärare med barnskötare",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -9254,10 +9694,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F11"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Detaljstyrning av uppdraget drabbar små enheter",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -9287,10 +9732,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F16"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Förskollärares planeringstid i proportion till barn",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -9418,10 +9868,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F09"
+    ],
+    "kapitel": [
+     "7"
+    ],
+    "motivering": "Stödmaterial om vad som är allvarligt",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -9623,10 +10078,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F11"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Kringfunktioner när pedagogers ansvar avgränsas",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -10086,10 +10546,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F11"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Olika tolkningar av vad uppdraget ska innehålla",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -10119,10 +10584,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Minskat undervisningsutrymme per lärare ger bemanningsbehov",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -10152,10 +10622,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13",
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Ökad lärartäthet trots att taket inte överskrids",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -10185,10 +10661,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F16"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Planeringstid för förskollärare i pressad bemanning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -11214,10 +11695,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13",
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Tidsreglering ger risk för obehörig undervisning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -11247,10 +11734,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13",
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Tidsreglering försvårar rektors inre organisation",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -11801,10 +12294,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F20"
+    ],
+    "kapitel": [
+     "10"
+    ],
+    "motivering": "Övergångsregler vid införandet",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -11834,10 +12332,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Reglering av undervisningstiden är kostsam",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -12089,10 +12592,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Planeringstidsreglering och distansundervisning i vuxenutbildning",
+    "tolkning": true
    },
    "skolform": [
     "kommunal vuxenutbildning"
@@ -12124,10 +12632,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F11"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Mentorskap skilt från undervisningsuppdraget",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -12199,10 +12712,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F11",
+     "F13"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Undervisning i små grupper och undervisningstid",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -12366,10 +12885,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Reglering av undervisningstid ger fler obehöriga",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -13799,10 +14323,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Reglering ger större klasser och obehöriga lärare",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -13832,10 +14361,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Ofinansierad reglering av undervisningstid",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -13865,10 +14399,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13",
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Reglering av undervisnings- och planeringstid kräver finansiering",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -13898,10 +14438,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13",
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Kollektivavtal anpassas efter tidsregleringarna",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -13931,10 +14477,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13",
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Tidsreglering begränsar rektors resursfördelning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -13964,10 +14516,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Lika planeringstid oavsett erfarenhet",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -14230,10 +14787,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F12",
+     "F13"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Undervisningstid tar inte hänsyn till uppdragens tyngd",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -14263,10 +14826,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Undervisningstid pressas mot intervallets övre del",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -14296,10 +14864,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13",
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Tidsregleringen saknar flexibilitet",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -14329,10 +14903,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13",
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Arbetstidsavtalet krockar med reglerad undervisningstid och planeringstid",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -14362,10 +14942,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13",
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Strikta nivåer för undervisningstid och för- och efterarbete",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -14395,10 +14981,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13",
+     "F12"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Lågt tak för undervisningstid begränsar viktningens differentiering",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -14428,10 +15020,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13",
+     "F12"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Regleringen av undervisningstid begränsar annan resursfördelning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -14461,10 +15059,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F12"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Viktning efter elevgruppens storlek",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -14494,10 +15097,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13",
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Beräkning av högsta undervisningstid och planeringstid fördyrar små grupper",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -14527,10 +15136,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Lagreglerat för- och efterarbete inom avtalets reglerade tid",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -14560,10 +15174,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F14",
+     "F13"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Reglerad undervisnings- och planeringstid lämnar lite övrig tid",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -14593,10 +15213,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Reglerad planeringstid påverkar utrymmet för övriga uppgifter",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -14626,10 +15251,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Minskad undervisningstid kräver fler lärare",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -14659,10 +15289,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Beräkning av lärartjänster utöver föreslagen undervisningsomfattning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -14692,10 +15327,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13",
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Rekryteringsbehov för att genomföra tidsregleringen",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -14824,10 +15465,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Svårt att gå under högsta omfattning i intervallet",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -15296,10 +15942,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F11"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Gränsen mellan undervisning och övriga uppgifter i uppdraget",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -15329,10 +15980,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13",
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Tidsreglering begränsar rektors fördelning av arbetet",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -15397,10 +16054,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Minst lika mycket planeringstid som undervisning kräver fler lärare",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -16448,10 +17110,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Reglerad planeringstid påverkar utrymmet för övriga uppgifter",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -16481,10 +17148,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Minskad undervisningstid kräver fler lärare",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -16514,10 +17186,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Beräkning av lärartjänster utöver föreslagen undervisningsomfattning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -16686,10 +17363,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Svårt att gå under högsta omfattning i intervallet",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -17268,10 +17950,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F11"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Definitionen av undervisningsuppdraget passar inte förskolan",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -17301,10 +17988,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F17"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Formuleringen om rektors ansvar och ordet sin",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -17783,10 +18475,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F16"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Planeringstid i förskolans arbetslag med flera förskollärare",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -17816,10 +18513,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F16"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Fem planeringstimmar i veckan för förskollärare",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -17983,10 +18685,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F01",
+     "F02"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Information vid tillfällen som bestäms av skolan",
+    "tolkning": true
    },
    "skolform": [
     "anpassad grundskola"
@@ -18062,10 +18770,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F06"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Kunskapsutvecklingsplanen och elevens utveckling i övrigt",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -18095,10 +18808,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F07"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Kommande utredning om digitala system och administration",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -18128,10 +18846,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F07"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Dataflöden och interoperabilitet mellan IT-system",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -18205,10 +18928,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F09"
+    ],
+    "kapitel": [
+     "7"
+    ],
+    "motivering": "Informationsskyldighet och upptäckt av upprepade kränkningar",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -18238,10 +18966,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F09"
+    ],
+    "kapitel": [
+     "7"
+    ],
+    "motivering": "Bedömning av vad som är allvarlig kränkning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -18271,10 +19004,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F09"
+    ],
+    "kapitel": [
+     "7"
+    ],
+    "motivering": "Bedömning av allvar för yngsta barnen",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -18304,10 +19042,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F10"
+    ],
+    "kapitel": [
+     "7"
+    ],
+    "motivering": "Avgränsningen samband med verksamheten respektive i verksamheten",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -18443,10 +19186,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13",
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Reglering av arbetstid inskränker arbetsledningsrätten",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -18542,10 +19291,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13",
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Tidsregleringarnas förhållande till kollektivavtalen",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -18575,10 +19330,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13",
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Undervisningstak och planeringsfaktor mot Bilaga M",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -18608,10 +19369,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13",
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Uppstyckning av lärares tid med undervisningstak och planeringsfaktor",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -18641,10 +19408,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13",
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Administration av undervisningstak och planeringsfaktor",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -19796,10 +20569,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F10"
+    ],
+    "kapitel": [
+     "7"
+    ],
+    "motivering": "Gränsdragning för i verksamheten",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -19829,10 +20607,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F10"
+    ],
+    "kapitel": [
+     "7"
+    ],
+    "motivering": "Olika tillämpning av i verksamheten",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -20254,10 +21037,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F07"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Nationellt ansvar för digitala stödverktyg",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -20375,10 +21163,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F09"
+    ],
+    "kapitel": [
+     "7"
+    ],
+    "motivering": "Genomförande av informationsskyldigheten till rektor",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -20408,10 +21201,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F09"
+    ],
+    "kapitel": [
+     "7"
+    ],
+    "motivering": "Dokumentation vid informationsskyldigheten",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -20441,10 +21239,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F09"
+    ],
+    "kapitel": [
+     "7"
+    ],
+    "motivering": "Upptäckt av upprepad kränkande behandling",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -20474,10 +21277,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F09"
+    ],
+    "kapitel": [
+     "7"
+    ],
+    "motivering": "Hantering av mindre händelser under ändrad skyldighet",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -20507,10 +21315,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F09"
+    ],
+    "kapitel": [
+     "7"
+    ],
+    "motivering": "Utredningsskyldighet kräver elevkännedom",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -20540,10 +21353,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F09"
+    ],
+    "kapitel": [
+     "7"
+    ],
+    "motivering": "Dokumentation vid utredning av kränkningar",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -20593,10 +21411,17 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F08",
+     "F09",
+     "F10"
+    ],
+    "kapitel": [
+     "7"
+    ],
+    "motivering": "Samordning av förslagen om kränkande behandling",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -20785,10 +21610,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F12"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Elevgruppers storlek i viktningen",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -21603,10 +22433,17 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13",
+     "F19"
+    ],
+    "kapitel": [
+     "8",
+     "9"
+    ],
+    "motivering": "Osäkra effekter av reglerad undervisningstid och uppföljning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -21636,10 +22473,17 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F08",
+     "F09",
+     "F10"
+    ],
+    "kapitel": [
+     "7"
+    ],
+    "motivering": "Ikraftträdande för förslagen om kränkande behandling",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -21669,10 +22513,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F20"
+    ],
+    "kapitel": [
+     "10"
+    ],
+    "motivering": "Beslut om ikraftträdande i god tid",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -21867,10 +22716,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F15",
+     "F16"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Kompensation för reglerad planeringstid i förskola och fritidshem",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -21900,10 +22755,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13",
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Anpassning till intervallet och planeringstiden",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -21933,10 +22794,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13",
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Rekrytering till följd av intervallet och planeringstiden",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -22164,10 +23031,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F03"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Information om kunskapsutveckling men inte social situation",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -22296,10 +23168,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Färre utvecklingssamtal",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -22329,10 +23206,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Tak för undervisningstid ökar resursbehov",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -22362,10 +23244,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F11"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Vad som räknas till undervisningstid och planeringstid",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -22395,10 +23282,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Utökad planeringstid",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -22461,10 +23353,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F11"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Relationen mellan undervisning, planering och övrig tid",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -22626,10 +23523,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13",
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Tidsregleringen mot nuvarande läraravtal",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -22659,10 +23562,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Reglerad undervisningstid kräver omfördelning av arbete",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -22725,10 +23633,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Huvudmän lägger sig på högsta intervallet",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -22758,10 +23671,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Reglerad undervisningstid kräver fler anställda",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -22791,10 +23709,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Reglering kan minska elevernas undervisningstid",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -22890,10 +23813,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F16"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Individuell planeringstid i förskolan",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -22956,10 +23884,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13",
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Detaljreglering av lärares arbetstid mot rektors organisation",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -22989,10 +23923,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Undervisningstak drabbar små skolenheter",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -23022,10 +23961,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13",
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Tidsreglering minskar flexibel tjänstefördelning i glesbygd",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -23055,10 +24000,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Reglerad undervisningstid mot ökad undervisning med avlastning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -23088,10 +24038,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13",
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Reglerad arbetstid minskar lokala lösningar",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -23154,10 +24110,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F11"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Gränser mellan undervisningstid, planeringstid och övrig tid",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -23187,10 +24148,17 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13",
+     "F14",
+     "F16"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Reglerad undervisnings- och planeringstid och samplanering",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -23220,10 +24188,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Intervall för undervisningstid skapar otydlighet",
+    "tolkning": true
    },
    "skolform": [
     "grundskola",
@@ -23256,10 +24229,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F15",
+     "F16"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Reglerad planeringstid i förskola och fritidshem",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -23289,10 +24268,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Maxtak för undervisning och tjänstefördelning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -23322,10 +24306,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13",
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Tidsreglering och tvålärarskap",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -23355,10 +24345,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F11",
+     "F13"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Hur undervisningstid räknas i lägre årskurser",
+    "tolkning": true
    },
    "skolform": [
     "förskoleklass"
@@ -23390,10 +24386,17 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F14",
+     "F15",
+     "F16"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Säkra planeringstid vid sjukfrånvaro",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -23423,10 +24426,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F15",
+     "F16"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Planeringstid endast för legitimerad personal",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -23456,10 +24465,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Fast faktor för planering och uppföljning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -23522,10 +24536,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F09"
+    ],
+    "kapitel": [
+     "7"
+    ],
+    "motivering": "Definition av allvarlig kränkning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -23555,10 +24574,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F10"
+    ],
+    "kapitel": [
+     "7"
+    ],
+    "motivering": "Händelser utanför skolan, i verksamheten",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -23755,10 +24779,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13",
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Reglering av lärares arbetstid svår att införa",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -23887,10 +24917,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F16"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Fem timmars planeringstid för förskollärare",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -23920,10 +24955,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F01",
+     "F02"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Borttaget fortlöpande i informationskravet",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -23986,10 +25027,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F09"
+    ],
+    "kapitel": [
+     "7"
+    ],
+    "motivering": "Rektors anmälnings- och utredningsskyldighet",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -24019,10 +25065,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Planeringsfaktor påverkar små gymnasieskolor",
+    "tolkning": true
    },
    "skolform": [
     "gymnasieskola"
@@ -24054,10 +25105,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Samma planeringsfaktor för yrkeslärare",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -24087,10 +25143,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Planeringsfaktor och små undervisningsgrupper",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -24120,10 +25181,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Halvklassundervisning i planeringsmodellen",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -24153,10 +25219,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F14"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Halvklassundervisning blir kostsam med planeringsfaktor",
+    "tolkning": true
    },
    "skolform": []
   }
