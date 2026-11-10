@@ -137,6 +137,15 @@ misslyckats tyst körs reset på dev och kastar lokalt arbete (origin/dev rädda
 **Solution:** Dead zone (5px) innan pan startar. Vid pinch: nollställ pan-state med pinch-mittpunkt. Vid finger-release från 2→1: starta inte ny pan.
 
 ---
+## Research / pilot (Utmaningskartan)
+
+### Propositionsrubriker avklippta efter pdftotext
+**Symptom:** Rubrikerna på propositionsavsnitt i pilotens datafil slutade mitt i en mening, t.ex. "Bedömningssamråd ska genomföras för att" (16 av 19, Sprint 16 T4).
+**Cause:** `forbered_arbetsfiler.py` läste bara rubrikens första rad i `pdftotext -layout`, men i PDF:en bryts rubriken över två eller tre rader.
+**Solution:** Rubrikens fortsättningsrader, fram till första tomrad, hör till rubriken (Sprint 16 T5). `validera-pilot.py` kontrollerar nu varje rubrik mot propositionens innehållsförteckning (`research/remissanalys/arbetsfiler/propositioner-innehall.json`), som extraheras oberoende av avsnittstexten.
+
+---
+
 ## CSS / Layout
 
 ### overflow-x:auto tvingar overflow-y:auto (CSS-spec)

@@ -18,6 +18,23 @@ Record of key decisions made during the project. **Newest first.**
 
 ---
 
+### DEC-023: Pilotsidor i pilot/ utanför Pages, förhandsvisning via pilot-sync.sh
+**Date:** 2026-11-10
+**Decision:** (Sprint 16, Utmaningskartan)
+1. **research/ och pilot/ exkluderas** från GitHub Pages i `_config.yml`, tillsammans med docs/mockups. Underlag från förstudier (`research/`) och pilotsidor (`pilot/`) ligger i repot men serveras aldrig från produktionsroten, inte heller efter `deploy.sh`.
+2. **Förhandsvisning av en pilot sker bara via `pilot-sync.sh`.** Det är en andra väg till master, men den rör bara `dev/utmaningar-pilot/`.
+   - Skriptet kopierar `pilot/utmaningar/index.html` och `data/` från committad dev.
+   - Det kräver ren arbetskatalog och att dev är lika med origin/dev.
+   - Det arbetar i ett tillfälligt git worktree, så arbetskatalogen lämnar aldrig dev.
+   - Det stoppar om något utanför `dev/utmaningar-pilot/` skulle ändras, och pushar bara som fast-forward.
+   - `--remove` tar bort förhandsvisningen, eftersom `commit.sh` aldrig tar bort något på master.
+   - Skriptet körs av Niklas eller med hans uttryckliga godkännande.
+3. **Pilotsidan är fristående och har inga externa beroenden.**
+   - Den har inget Cloudflare-snippet och inga Google Fonts, vilket är ett medvetet undantag från CLAUDE.md:s designsystem. Den har noindex och nofollow och länkas inte från andra sidor.
+   - Analysskript och webbtypsnitt läggs till vid flytt till produktion, som sker först efter manuell granskning (Cecilia).
+**Why:** Piloten ska kunna granskas på reformer.leide.se/dev/ utan att ogranskat material, med modellkodade tolkningar av namngivna kommuners remissvar, når produktionsroten. `commit.sh` synkar bara rot-HTML och `data/`, och `deploy.sh` mergar hela dev. Därför måste exkluderingen ske i Pages-konfigurationen och förhandsvisningen ha en egen, avgränsad väg.
+**Consequences:** Sprint 16:s commits gjordes med vanliga git-kommandon och inte med `commit.sh`, eftersom `commit.sh` även pushar en preview-synk till master och inte stageas research/ eller pilot/. `commit.sh` behöver ses över om flödet ska bli permanent.
+
 ### DEC-022: Automatik i två led — deterministiskt skript publicerar rutin, veckorutin öppnar PR
 **Date:** 2026-11-10
 **Decision:** (Sprint 15 T1, genomför DEC-019)

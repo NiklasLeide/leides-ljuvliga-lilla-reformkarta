@@ -59,6 +59,6 @@ Byggskriptet läser följande filer:
 - `research/remissanalys/sfs-diff-betyg.json`
 - `research/remissanalys/kedjor.json`
 - `research/remissanalys/utmaningar-betyg.json` (opublicerade remissvar)
-- `research/remissanalys/arbetsfiler/` (propositionsavsnittens text per sida och SOU:ns innehållsförteckning)
+- `research/remissanalys/arbetsfiler/`: byggskriptet läser `propositionsavsnitt-text.json` och `sou-innehall.json`. Katalogen innehåller också `propositioner-innehall.json`, som `validera-pilot.py` läser, och `passager-forstudie2.json`, som `skript/v2/bygg-granskning.py` läser.
 
 Metod och begränsningar beskrivs i `research/remissanalys/v2/taxonomi.md` och `RAPPORT-datagrund.md`.

@@ -142,3 +142,4 @@ Textlikheten mot SOU:ns lydelse har en median på 76,5 % per paragraf för de ut
 5. **Textlikhet i procent är inte ett mått på saklig ändring.** Den ska visas tillsammans med diffen och inte som en dom.
 6. **`avvikelse_beskriven` är mekanisk** (fler än en mening). Den säger att stycket fortsätter, inte vad skillnaden består i.
 7. **Byggskripten kräver den nedladdade korpusen och arbetsfilerna** (passager, förslagsrutor, innehållsförteckning) från förstudie 2. De kan inte köras fristående från repot. Task 3 behöver ett eget byggskript som läser enbart från incheckade filer.
+   *Tillägg (Sprint 16 T3 och T7):* löst för datafilen i T3, eftersom `bygg-pilot.py` bara läser incheckade filer. Passagerna checkades in i `arbetsfiler/` i T7. `build_v2.py` kräver fortfarande förstudiens externa arbetsfiler.

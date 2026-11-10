@@ -8,9 +8,11 @@
 
 ## Sprint 16 — Utmaningskartan (pilot betyg)
 
+**Status:** Stoppad för manuell granskning
+
 **Mål:** pilotsida på dev som för reformen betyg visar huvudmännens utmaningar ur remissvaren mot proposition och lag, granskningsbar för Niklas och Cecilia.
 
-**Stoppvillkor:** Inget i produktionsroten. Piloten visas endast under /dev/utmaningar-pilot/ via pilot-sync.sh, som körs av Niklas. Flytt till produktion först efter Cecilias granskning.
+**Stoppvillkor:** Inget i produktionsroten. Piloten visas endast under /dev/utmaningar-pilot/ via pilot-sync.sh. Flytt till produktion först efter Cecilias granskning.
 
 | # | Task | Status |
 |---|------|--------|
@@ -20,9 +22,21 @@
 | 4 | Pilotsida i pilot/utmaningar/ och pilot-sync.sh | Klar |
 | 5 | Granskningsunderlag v2: precision och missade utmaningar | Klar |
 | 6 | Dokumentation: metodbeskrivning, CHANGELOG | Klar |
-| 7 | Run DoD review for this sprint | Ej påbörjad |
+| 7 | Run DoD review for this sprint | Klar |
 
 **Notering:** Granskningsurval från förstudie 2 bedömt som godtagbart av Niklas 2026-11-10. Ingen kvantifierad träffsäkerhet noterad.
+
+**T7 (2026-11-10):**
+- **Förhandsvisningen** publicerades med `./pilot-sync.sh`, som Niklas uttryckligen godkände i T7-briefen. Synk-commiten på master, `8331e6d`, lägger bara till `dev/utmaningar-pilot/index.html` och `dev/utmaningar-pilot/data/utmaningar-betyg.json`, byte-identiska med dev `8c0a38e`.
+- **Passagefilen** från förstudie 2 checkades in (`a6a3101`). Ombygge av granskningsfilen ger en identisk CSV.
+- **DoD-granskning** (oberoende subagent): GODKÄND MED ANMÄRKNINGAR. Dokumentationsfel är rättade (DEC-023, TROUBLESHOOTING, metodbeskrivning, READMEs, CHANGELOG).
+- **Lämnade avvikelser:**
+  - Sprintens commits gjordes med vanliga git-kommandon, inte med `commit.sh` (se DEC-023).
+  - `_config.yml` på master exkluderar ännu inte research/pilot. Det rättas vid nästa deploy och exponerar inget i dag.
+  - Sidtestet körs i 380 px i stället för 375 px, och 84 klickbara element är lägre än 44 px. Det ska åtgärdas före produktionsflytt.
+  - `docs/` exkluderas inte från Pages, så metodbeskrivningen publiceras vid nästa deploy. Niklas avgör.
+  - CLAUDE.md:s katalogträd och kommentaren i `_config.yml` nämner inte pilot/ och research/.
+- **Nästa steg:** Cecilias granskning av sidan och `research/remissanalys/v2/granskning/granskning-betyg.csv`. Sprinten är inte stängd.
 
 ---
 

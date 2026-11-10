@@ -101,7 +101,7 @@ Utmaningstyper (exakt en primär, valfritt en sekundär):
 - **Förordningar är inte beslutade.** Förslag på förordningsnivå har status "ej i SFS per 2026-11-10". Regeringen beslutar förordningar och kan göra det senare.
 - **Namngivning är inte bemötande.** "Avsändaren nämns i propositionens avsnitt" betyder bara att namnet förekommer i texten. Sidan bedömer inte om utmaningar är lösta eller om propositionen har tagit hänsyn till dem.
 - **Textlikhet är inte saklig ändring.** Textlikhet i procent mellan SOU:ns och den beslutade lydelsen fångar också ordval och samordning med andra propositioner. Paragrafmatchningar med under 80 % likhet är flaggade för manuell granskning.
-- **Avsnittsnivå:** 89 av 139 egna hänvisningar pekar på ett avsnitt med flera förslag.
+- **Avsnittsnivå:** 89 av de 139 egna hänvisningar som pekar ut ett förslag eller avsnitt gäller ett avsnitt med flera förslag. Ytterligare 59 anger bara kapitel.
 - **Enskilda huvudmän saknas** (se avsnitt 2).
 
 ## 8. Bygga om datafilen
@@ -116,7 +116,12 @@ node research/remissanalys/skript/testa-pilotsida.js    # headless-test av sidan
 
 - `bygg-pilot.py` läser bara incheckade filer, under `research/remissanalys/` och dess `arbetsfiler/`.
 - Utdata är deterministisk, så ett bygge från en ren utcheckning ger en identisk fil.
-- Arbetsfilerna (propositionsavsnittens text och innehållsförteckningar) togs fram en gång med `skript/v2/forbered_arbetsfiler.py` ur pdftotext-utdata av propositionerna.
+- Arbetsfilerna `propositionsavsnitt-text.json`, `propositioner-innehall.json` och `sou-innehall.json` togs fram en gång med `skript/v2/forbered_arbetsfiler.py` ur pdftotext-utdata av propositionerna och SOU:n.
+- `passager-forstudie2.json` är förstudie 2:s segmentering (714 passager). Den läses av `skript/v2/bygg-granskning.py`, som bygger granskningsunderlaget:
+
+```bash
+python3 research/remissanalys/skript/v2/bygg-granskning.py   # skriver v2/granskning/granskning-betyg.csv (slumpfrö 20261112)
+```
 
 ## 9. Förhandsvisning: pilot-sync.sh
 

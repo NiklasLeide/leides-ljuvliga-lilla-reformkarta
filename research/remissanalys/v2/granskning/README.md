@@ -50,6 +50,6 @@ Skriv gärna ner annat du lägger märke till på sidan, till exempel om något 
 
 `python3 rakna-granskning.py granskning-betyg.csv` skriver ut andelen "ja" per fråga i del 1, uppdelat på utmaningstyp och kopplingsnivå, samt andelen missade utmaningar i del 2.
 
-Filen byggs av `research/remissanalys/skript/v2/bygg-granskning.py` med det fasta **slumpfröet 20261112**:
+Filen byggs av `research/remissanalys/skript/v2/bygg-granskning.py` med det fasta **slumpfröet 20261112**. Indata är `research/remissanalys/arbetsfiler/passager-forstudie2.json`, som skriptet läser som standard utan argument.
 - **Del 1:** två tolkade och tre övriga utmaningar per typ.
 - **Del 2:** urval bland de 169 passager som inte kodades som utmaning, är minst 200 tecken långa och inte bara återger utredningens förslag.
