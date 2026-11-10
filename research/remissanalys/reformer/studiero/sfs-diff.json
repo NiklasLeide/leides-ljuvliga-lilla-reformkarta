@@ -1,0 +1,1724 @@
+{
+ "_meta": {
+  "hamtningsdatum": "2026-11-10",
+  "beslutad_lydelse_kalla": "Skollag (2010:800) konsoliderad, riksdagens öppna data (Källa: Regeringskansliet / Lagrummet), t.o.m. SFS 2026:1636. Ändrings-SFS i original (svenskforfattningssamling.se) nåddes inte från miljön.",
+  "statusregler": {
+   "oförändrad": "SOU:ns föreslagna paragraf = beslutad lydelse (normaliserad textlikhet ≥ 0,999)",
+   "ändrad": "beslutad lydelse finns men skiljer sig; ordagrann ord-diff sparas",
+   "ej med": "ingen version införd genom SFS 2026:1198/1243 för paragrafen",
+   "ej lagtext": "förslaget är inte författningstext (uppdrag/ansvar)",
+   "ej i SFS per 2026-11-10": "förslaget avser förordning som ännu inte finns i SFS"
+  },
+  "matchning": "Paragrafer matchas på kapitel + nummer; saknas samma nummer används högst textlikhet inom kapitlet. Likhet < 0,80 ⇒ manuell_granskning: true.",
+  "forslag_till_paragraf": "Paragrafer knyts till förslag via SOU:ns författningskommentar (\"Bestämmelsen behandlas i avsnitt …\"), dvs. på avsnittsnivå — flera förslag i samma avsnitt delar paragrafer."
+ },
+ "forslag": [
+  {
+   "forslag": "F01",
+   "sou_avsnitt": "3.1",
+   "forslag_kalla": {
+    "text": "SOU 2025:8 s. 40",
+    "url": "https://www.regeringen.se/contentassets/26e05d7491f04788b7f74e4bd86ec011/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-sou-20258.pdf"
+   },
+   "paragrafer": [
+    {
+     "paragraf": "5 kap. 3 §",
+     "sou": {
+      "text": "Alla elever ska tillförsäkras en skolmiljö där utbildningen präglas av trygghet och undervisningen av studiero. Med studiero avses att det finns goda förutsättningar för eleverna att koncentrera sig på undervisningen. Rektorn ska se till att upprätthålla trygghet och studiero i skolmiljön. Huvudmannen ska säkerställa att det på skolenheten bedrivs ett förebyggande arbete som syftar till att skapa trygghet och studiero. Regeringen eller den myndighet som regeringen bestämmer får meddela föreskrifter om det upprätthållande arbetet.",
+      "kalla": {
+       "text": "SOU 2025:8 s. 245 (författningskommentar 7.1)",
+       "url": "https://www.regeringen.se/contentassets/26e05d7491f04788b7f74e4bd86ec011/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-sou-20258.pdf"
+      }
+     },
+     "proposition": {
+      "text": "Alla elever ska tillförsäkras en skolmiljö där utbildningen präglas av trygghet och undervisningen av studiero. Med studiero avses att det finns goda förutsättningar för eleverna att koncentrera sig på undervisningen. Det ska på skolenheten bedrivas både ett förebyggande arbete som syftar till att skapa trygghet och studiero och ett arbete för att upprätthålla tryggheten och studieron. Huvudmannen ska säkerställa att arbetet bedrivs och rektorn ska ansvara för arbetet. Regeringen eller den myndighet som regeringen bestämmer får meddela föreskrifter om det förebyggande och det upprätthållande arbetet.",
+      "paragraf": "5 kap. 3 §",
+      "likhet_mot_sou": 0.759,
+      "kalla": {
+       "text": "Prop. 2025/26:193 s. 6, lagförslag 2",
+       "url": "https://www.regeringen.se/contentassets/7edd1011af6944eda73e62aea7897f04/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-prop.-202526193.pdf"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "beslutad": {
+      "text": "Alla elever ska tillförsäkras en skolmiljö där utbildningen präglas av trygghet och undervisningen av studiero. Med studiero avses att det finns goda förutsättningar för eleverna att koncentrera sig på undervisningen. Det ska på skolenheten bedrivas både ett förebyggande arbete som syftar till att skapa trygghet och studiero och ett arbete för att upprätthålla tryggheten och studieron. Huvudmannen ska säkerställa att arbetet bedrivs och rektorn ska ansvara för arbetet. Regeringen eller den myndighet som regeringen bestämmer får meddela föreskrifter om det förebyggande och det upprätthållande arbetet.",
+      "paragraf": "5 kap. 3 §",
+      "sfs": "2026:1198",
+      "ikraft": null,
+      "likhet_mot_sou": 0.759,
+      "kalla": {
+       "text": "Skollag (2010:800) 5 kap. 3 § i lydelse enligt SFS 2026:1198; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "ersatt",
+       "fore": "Rektorn",
+       "efter": "Det"
+      },
+      {
+       "op": "struken",
+       "fore": "se till att upprätthålla trygghet och studiero i skolmiljön. Huvudmannen ska säkerställa att det",
+       "efter": null
+      },
+      {
+       "op": "ersatt",
+       "fore": "bedrivs",
+       "efter": "bedrivas både"
+      },
+      {
+       "op": "ersatt",
+       "fore": "studiero.",
+       "efter": "studiero och ett arbete för att upprätthålla tryggheten och studieron. Huvudmannen ska säkerställa att arbetet bedrivs och rektorn ska ansvara för arbetet."
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "förebyggande och det"
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": true
+    }
+   ],
+   "status": "ändrad",
+   "status_per_paragraf": {
+    "ändrad": 1
+   },
+   "status_kalla": {
+    "text": "Härledd per paragraf: SOU:ns föreslagna lydelse jämförd med beslutad lydelse (SFS 2026:1198/1243). Statusvärdet är mekaniskt (textlikhet), inte en bedömning.",
+    "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+   }
+  },
+  {
+   "forslag": "F02",
+   "sou_avsnitt": "3.2",
+   "forslag_kalla": {
+    "text": "SOU 2025:8 s. 61",
+    "url": "https://www.regeringen.se/contentassets/26e05d7491f04788b7f74e4bd86ec011/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-sou-20258.pdf"
+   },
+   "paragrafer": [
+    {
+     "paragraf": "1 kap. 3 §",
+     "sou": {
+      "text": "I denna lag avses med – akutskola: en organisatorisk lösning som är knuten till en skolenhet där en elev i grundskolan tillfälligt ska ges undervisning utanför den egna skolenheten enligt 5 kap. 13 §, – distansundervisning: interaktiv undervisning som bedrivs med informationsoch kommunikationsteknik där elever och lärare är åtskilda i både rum och tid, – elev: den som deltar i utbildning enligt denna lag med undantag för barn i förskolan, – fjärrundervisning: interaktiv undervisning som bedrivs med informationsoch kommunikationsteknik där elever och lärare är åtskilda i rum men inte i tid, – fristående fritidshem: sådant fritidshem som bedrivs av en enskild och som avses i 2 kap. 7 § andra stycket, – fristående förskola: förskoleenhet vid vilken en enskild bedriver utbildning i form av förskola, – fristående skola: skolenhet vid vilken en enskild bedriver utbildning inom skolväsendet i form av förskoleklass, grundskola, anpassad grundskola, gymnasieskola, anpassad gymnasieskola eller sådant fritidshem som avses i 2 kap. 7 § första stycket, – förskoleenhet: av huvudman för förskola organiserad enhet som omfattar verksamhet i en eller flera förskolebyggnader som ligger nära varandra och till enheten knuten verksamhet som inte bedrivs i någon förskolebyggnad, – konfessionell inriktning: inriktning på verksamhet som innebär att det där förekommer konfessionella inslag, – konfessionella inslag: bekännande eller förkunnande inslag som tillhör en viss religion och som initieras och genomförs av huvudmannen eller på dennes uppdrag, – lovskola: undervisning inom grundskolan som anordnas enligt denna lag under lov under en termin eller utanför terminstid och som inte är obligatorisk för elever, – lärobok: tryckt läromedel, med eller utan digitala komponenter, – läromedel: helt eller delvis tryckt eller digitalt verk som är avsett att användas i undervisningen, som överensstämmer med relevanta delar av tillämplig kurs-, ämneseller ämnesområdesplan och läroplanen, och som är utgivet av någon som bedriver utgivningsverksamhet av professionell art, – lärverktyg: läroböcker, andra läromedel och andra tryckta eller digitala verk samt utrustning och material som används i undervisningen, – skolenhet: av huvudman för annan skolform än förskola organiserad enhet som omfattar verksamhet i en eller flera skolbyggnader som ligger nära varandra och till enheten knuten verksamhet som inte bedrivs i någon skolbyggnad, – undervisning: processer som på lektioner eller vid andra lärtillfällen bestäms och leds av lärare eller förskollärare mot mål som anges i förordningar och andra författningar som ansluter till denna lag och som syftar till utveckling och lärande genom att barn eller elever inhämtar och utvecklar kunskaper och värden, och – utbildning: verksamhet som bedrivs av en huvudman enligt denna lag inom vilken barn eller elever deltar i undervisning och andra aktiviteter.",
+      "kalla": {
+       "text": "SOU 2025:8 s. 243 (författningskommentar 7.1)",
+       "url": "https://www.regeringen.se/contentassets/26e05d7491f04788b7f74e4bd86ec011/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-sou-20258.pdf"
+      }
+     },
+     "proposition": {
+      "text": "I denna lag avses med undervisning som bedrivs med informationsoch kommunikationsteknik där elever och lärare är åtskilda i både rum och tid, – elev: den som deltar i utbildning enligt denna lag med undantag för barn i förskolan, som bedrivs med informationsoch kommunikationsteknik där elever och lärare är åtskilda i rum men inte i tid, – fristående fritidshem: sådant fritidshem som bedrivs av en enskild och som avses i 2 kap. 7 § andra stycket, – fristående förskola: förskoleenhet vid vilken en enskild bedriver utbildning i form av förskola, – fristående skola: skolenhet vid vilken en enskild bedriver utbildning anpassad grundskola, gymnasieskola, anpassad gymnasieskola eller sådant fritidshem som avses i 2 kap. 7 § första stycket, – förskoleenhet: av huvudman för förskola organiserad enhet som omfattar verksamhet i en eller flera förskolebyggnader som ligger nära varandra och till enheten knuten verksamhet som inte bedrivs i någon förskolebyggnad, – konfessionell inriktning: inriktning på verksamhet som innebär att det där förekommer konfessionella inslag, – konfessionella inslag: bekännande eller förkunnande inslag som tillhör en viss religion och som initieras och genomförs av huvudmannen eller på dennes uppdrag, – lovskola: undervisning inom grundskolan som anordnas enligt denna lag under lov under en termin eller utanför terminstid och som inte är obligatorisk för elever, – lärobok: tryckt läromedel, med eller utan digitala komponenter, – läromedel: helt eller delvis tryckt eller digitalt verk som är avsett att användas i undervisningen, som överensstämmer med relevanta delar av tillämplig kurs-, ämneseller ämnesområdesplan och läroplanen, och som är utgivet av någon som bedriver utgivningsverksamhet av professionell art, – lärverktyg: läroböcker, andra läromedel och andra tryckta eller digitala verk samt utrustning och material som används i undervisningen, – skolenhet: av huvudman för annan skolform än förskola organiserad enhet som omfattar verksamhet i en eller flera skolbyggnader som ligger nära varandra och till enheten knuten verksamhet som inte bedrivs i någon skolbyggnad, – undervisning: processer som på lektioner eller vid andra lärtillfällen bestäms och leds av lärare eller förskollärare, och som syftar till barns eller elevers utveckling och lärande mot mål som anges i denna lag samt i förordningar och andra författningar som ansluter till lagen, genom att lärarna och förskollärarna förmedlar och förankrar kunskaper och värden hos barnen och eleverna, och – utbildning: verksamhet som bedrivs av en huvudman enligt denna lag inom vilken barn eller elever deltar i undervisning och andra aktiviteter.",
+      "paragraf": "1 kap. 3 §",
+      "likhet_mot_sou": 0.906,
+      "kalla": {
+       "text": "Prop. 2025/26:194 s. 6, lagförslag 2.1",
+       "url": "https://www.regeringen.se/contentassets/42c1e2e4596b4f8682e3d8283b91a138/nya-laroplaner--for-en-stark-kunskapsskola-prop.-202526194.pdf"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": false
+     },
+     "beslutad": {
+      "text": "För varje skolform och för fritidshemmet ska en läroplan gälla som utgår från bestämmelserna i denna lag. Läroplanen ska ange utbildningens värdegrund och uppdrag. Den ska också ange mål och riktlinjer för utbildningen. Läroplanerna för grundskolan, anpassade grundskolan, specialskolan och sameskolan ska också innehålla kursplaner och fördelningar av undervisningstiden (timplaner). Regeringen får meddela föreskrifter om de delar av läroplanerna för grundskolan och anpassade grundskolan som innehåller timplaner. I 10 kap. 8 §, 11 kap. 11 §, 12 kap. 8 § och 13 kap. 8 § finns bestämmelser om kursplaner för grundskolan, anpassade grundskolan, specialskolan och sameskolan. Regeringen eller den myndighet som regeringen bestämmer kan med stöd av 8 kap. 7 § regeringsformen meddela föreskrifter om läroplaner i övrigt.",
+      "paragraf": "1 kap. 11 §",
+      "sfs": "2026:1243",
+      "ikraft": "2028-07-02",
+      "likhet_mot_sou": 0.152,
+      "kalla": {
+       "text": "Skollag (2010:800) 1 kap. 11 § i lydelse enligt SFS 2026:1243, träder i kraft 2028-07-02; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "textlikhet",
+      "manuell_granskning": true
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "För varje skolform och för fritidshemmet ska en läroplan gälla som utgår från bestämmelserna i denna lag. Läroplanen ska ange utbildningens värdegrund och uppdrag. Den ska också ange mål och riktlinjer för utbildningen. Läroplanerna för grundskolan, anpassade grundskolan, specialskolan och sameskolan ska också innehålla kursplaner och fördelningar av undervisningstiden (timplaner). Regeringen får meddela föreskrifter om de delar av läroplanerna för grundskolan och anpassade grundskolan som innehåller timplaner."
+      },
+      {
+       "op": "ersatt",
+       "fore": "denna lag avses",
+       "efter": "10 kap. 8 §, 11 kap. 11 §, 12 kap. 8 § och 13 kap. 8 § finns bestämmelser om kursplaner för grundskolan, anpassade grundskolan, specialskolan och sameskolan. Regeringen eller den myndighet som regeringen bestämmer kan"
+      },
+      {
+       "op": "ersatt",
+       "fore": "– akutskola: en organisatorisk lösning som är knuten till en skolenhet där en elev i grundskolan tillfälligt ska ges undervisning utanför den egna skolenheten enligt 5 kap. 13 §, – distansundervisning: interaktiv undervisning som bedrivs med informationsoch kommunikationsteknik där elever och lärare är åtskilda i både rum och tid, – elev: den som deltar i utbildning enligt denna lag med undantag för barn i förskolan, – fjärrundervisning: interaktiv undervisning som bedrivs med informationsoch kommunikationsteknik där elever och lärare är åtskilda i rum men inte i tid, – fristående fritidshem: sådant fritidshem som bedrivs",
+       "efter": "stöd"
+      },
+      {
+       "op": "ersatt",
+       "fore": "en enskild och som avses i 2",
+       "efter": "8"
+      },
+      {
+       "op": "ersatt",
+       "fore": "andra stycket, – fristående förskola: förskoleenhet vid vilken en enskild bedriver utbildning",
+       "efter": "regeringsformen meddela föreskrifter om läroplaner"
+      },
+      {
+       "op": "ersatt",
+       "fore": "form av förskola, – fristående skola: skolenhet vid vilken en enskild bedriver utbildning inom skolväsendet i form av förskoleklass, grundskola, anpassad grundskola, gymnasieskola, anpassad gymnasieskola eller sådant fritidshem som avses i 2 kap. 7 § första stycket, – förskoleenhet: av huvudman för förskola organiserad enhet som omfattar verksamhet i en eller flera förskolebyggnader som ligger nära varandra och till enheten knuten verksamhet som inte bedrivs i någon förskolebyggnad, – konfessionell inriktning: inriktning på verksamhet som innebär att det där förekommer konfessionella inslag, – konfessionella inslag: bekännande eller förkunnande inslag som tillhör en viss religion och som initieras och genomförs av huvudmannen eller på dennes uppdrag, – lovskola: undervisning inom grundskolan som anordnas enligt denna lag under lov under en termin eller utanför terminstid och som inte är obligatorisk för elever, – lärobok: tryckt läromedel, med eller utan digitala komponenter, – läromedel: helt eller delvis tryckt eller digitalt verk som är avsett att användas i undervisningen, som överensstämmer med relevanta delar av tillämplig kurs-, ämneseller ämnesområdesplan och läroplanen, och som är utgivet av någon som bedriver utgivningsverksamhet av professionell art, – lärverktyg: läroböcker, andra läromedel och andra tryckta eller digitala verk samt utrustning och material som används i undervisningen, – skolenhet: av huvudman för annan skolform än förskola organiserad enhet som omfattar verksamhet i en eller flera skolbyggnader som ligger nära varandra och till enheten knuten verksamhet som inte bedrivs i någon skolbyggnad, – undervisning: processer som på lektioner eller vid andra lärtillfällen bestäms och leds av lärare eller förskollärare mot mål som anges i förordningar och andra författningar som ansluter till denna lag och som syftar till utveckling och lärande genom att barn eller elever inhämtar och utvecklar kunskaper och värden, och – utbildning: verksamhet som bedrivs av en huvudman enligt denna lag inom vilken barn eller elever deltar i undervisning och andra aktiviteter.",
+       "efter": "övrigt."
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": true
+    },
+    {
+     "paragraf": "4 kap. 12 §",
+     "sou": {
+      "text": "Vårdnadshavare för barn i förskolan och för elever i förskoleklassen, grundskolan, anpassade grundskolan, specialskolan, sameskolan och fritidshemmet ska i begränsad omfattning erbjudas möjlighet till inflytande över utbildningen.",
+      "kalla": {
+       "text": "SOU 2025:8 s. 245 (författningskommentar 7.1)",
+       "url": "https://www.regeringen.se/contentassets/26e05d7491f04788b7f74e4bd86ec011/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-sou-20258.pdf"
+      }
+     },
+     "proposition": {
+      "text": "Vårdnadshavare för barn i förskolan och för elever i grundskolan, anpassade grundskolan, specialskolan, sameskolan och fritidshemmet ska i viss utsträckning erbjudas möjlighet till inflytande över utbildningen.",
+      "paragraf": "4 kap. 12 §",
+      "likhet_mot_sou": 0.9,
+      "kalla": {
+       "text": "Prop. 2025/26:194 s. 12, lagförslag 2.1",
+       "url": "https://www.regeringen.se/contentassets/42c1e2e4596b4f8682e3d8283b91a138/nya-laroplaner--for-en-stark-kunskapsskola-prop.-202526194.pdf"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": false
+     },
+     "beslutad": {
+      "text": "Vårdnadshavare för barn i förskolan och för elever i grundskolan, anpassade grundskolan, specialskolan, sameskolan och fritidshemmet ska i viss utsträckning erbjudas möjlighet till inflytande över utbildningen.",
+      "paragraf": "4 kap. 12 §",
+      "sfs": "2026:1243",
+      "ikraft": "2028-07-02",
+      "likhet_mot_sou": 0.9,
+      "kalla": {
+       "text": "Skollag (2010:800) 4 kap. 12 § i lydelse enligt SFS 2026:1243, träder i kraft 2028-07-02; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": false
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "struken",
+       "fore": "förskoleklassen,",
+       "efter": null
+      },
+      {
+       "op": "ersatt",
+       "fore": "begränsad omfattning",
+       "efter": "viss utsträckning"
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": false
+    }
+   ],
+   "status": "ändrad",
+   "status_per_paragraf": {
+    "ändrad": 2
+   },
+   "status_kalla": {
+    "text": "Härledd per paragraf: SOU:ns föreslagna lydelse jämförd med beslutad lydelse (SFS 2026:1198/1243). Statusvärdet är mekaniskt (textlikhet), inte en bedömning.",
+    "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+   }
+  },
+  {
+   "forslag": "F03",
+   "sou_avsnitt": "3.3",
+   "forslag_kalla": {
+    "text": "SOU 2025:8 s. 74",
+    "url": "https://www.regeringen.se/contentassets/26e05d7491f04788b7f74e4bd86ec011/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-sou-20258.pdf"
+   },
+   "paragrafer": [
+    {
+     "paragraf": "5 kap. 6 §",
+     "sou": {
+      "text": "Personalen får vidta de omedelbara och tillfälliga åtgärder som är befogade för att tillförsäkra eleverna trygghet och studiero. Detta innefattar en befogenhet att ingripa fysiskt för att avvärja våld, kränkningar eller andra ordningsstörningar. En åtgärd enligt första stycket får vidtas om den står i rimlig proportion till sitt syfte och övriga omständigheter. Rektorn ska se till att det finns förutsättningar för skolans personal att vidta de tillfälliga och omedelbara åtgärder som krävs för att tillförsäkra eleverna och personalen trygghet och studiero. Enligt de förutsättningar som anges i 7–23 §§ får det beslutas om utvisning ur undervisningslokalen, kvarsittning, tillfällig omplacering, tillfällig placering utanför den egna skolenheten, avstängning och omhändertagande av föremål. Även sådana åtgärder får vidtas om de står i rimlig proportion till sitt syfte och övriga omständigheter.",
+      "kalla": {
+       "text": "SOU 2025:8 s. 248 (författningskommentar 7.1)",
+       "url": "https://www.regeringen.se/contentassets/26e05d7491f04788b7f74e4bd86ec011/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-sou-20258.pdf"
+      }
+     },
+     "proposition": {
+      "text": "Personalen får vidta en sådan omedelbar och tillfällig åtgärd som 1. är befogad för att tillförsäkra eleverna trygghet och studiero, och 2. står i rimlig proportion till sitt syfte och övriga omständigheter. Befogenheten enligt första stycket innefattar en befogenhet att ingripa fysiskt för att avvärja våld, kränkningar eller andra ordningsstörningar. Enligt de förutsättningar som anges i 7–23 §§ får det beslutas om utvisning ur undervisningslokalen, kvarsittning, tillfällig omplacering, tillfällig placering utanför den egna skolenheten, nekat tillträde till skolenheten, avstängning och omhändertagande av föremål, om åtgärden står i rimlig proportion till sitt syfte och övriga omständigheter.",
+      "paragraf": "5 kap. 6 §",
+      "likhet_mot_sou": 0.688,
+      "kalla": {
+       "text": "Prop. 2025/26:193 s. 10, lagförslag 2",
+       "url": "https://www.regeringen.se/contentassets/7edd1011af6944eda73e62aea7897f04/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-prop.-202526193.pdf"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "beslutad": {
+      "text": "Personalen får vidta en sådan omedelbar och tillfällig åtgärd som 1. är befogad för att tillförsäkra eleverna trygghet och studiero, och 2. står i rimlig proportion till sitt syfte och övriga omständigheter. Befogenheten enligt första stycket innefattar en befogenhet att ingripa fysiskt för att avvärja våld, kränkningar eller andra ordningsstörningar. Enligt de förutsättningar som anges i 7-23 §§ får det beslutas om utvisning ur undervisningslokalen, kvarsittning, tillfällig omplacering, tillfällig placering utanför den egna skolenheten, nekat tillträde till skolenheten, avstängning och omhändertagande av föremål, om åtgärden står i rimlig proportion till sitt syfte och övriga omständigheter.",
+      "paragraf": "5 kap. 6 §",
+      "sfs": "2026:1198",
+      "ikraft": null,
+      "likhet_mot_sou": 0.688,
+      "kalla": {
+       "text": "Skollag (2010:800) 5 kap. 6 § i lydelse enligt SFS 2026:1198; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "ersatt",
+       "fore": "de omedelbara",
+       "efter": "en sådan omedelbar"
+      },
+      {
+       "op": "ersatt",
+       "fore": "tillfälliga åtgärder",
+       "efter": "tillfällig åtgärd"
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "1."
+      },
+      {
+       "op": "ersatt",
+       "fore": "befogade",
+       "efter": "befogad"
+      },
+      {
+       "op": "ersatt",
+       "fore": "studiero. Detta",
+       "efter": "studiero, och 2. står i rimlig proportion till sitt syfte och övriga omständigheter. Befogenheten enligt första stycket"
+      },
+      {
+       "op": "struken",
+       "fore": "En åtgärd enligt första stycket får vidtas om den står i rimlig proportion till sitt syfte och övriga omständigheter. Rektorn ska se till att det finns förutsättningar för skolans personal att vidta de tillfälliga och omedelbara åtgärder som krävs för att tillförsäkra eleverna och personalen trygghet och studiero.",
+       "efter": null
+      },
+      {
+       "op": "ersatt",
+       "fore": "7–23",
+       "efter": "7-23"
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "nekat tillträde till skolenheten,"
+      },
+      {
+       "op": "ersatt",
+       "fore": "föremål. Även sådana åtgärder får vidtas",
+       "efter": "föremål,"
+      },
+      {
+       "op": "ersatt",
+       "fore": "de",
+       "efter": "åtgärden"
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": true
+    },
+    {
+     "paragraf": "5 kap. 7 §",
+     "sou": {
+      "text": "I grundskolan, anpassade grundskolan, specialskolan, sameskolan, gymnasieskolan och anpassade gymnasieskolan får en lärare eller en handledare som avses i 21 kap. 13 § visa ut en elev från undervisningslokalen för högst återstoden av ett undervisningspass, om 1. eleven stör undervisningen eller på annat sätt uppträder olämpligt, och 2. eleven inte har ändrat sitt uppförande efter uppmaning från läraren eller handledaren. I stället för vad som anges i första stycket 2 gäller att läraren eller handledaren får visa ut eleven ur undervisningslokalen utan att först ha uppmanat eleven att ändra sitt uppförande, när det är fråga om en allvarlig händelse där det förekommit hot eller våld eller kränkande behandling, trakasserier eller sexuella trakasserier på sätt som avses i diskrimineringslagen (2008:567). Om läraren eller handledaren inte är närvarande i undervisningslokalen får annan personal visa ut en elev från lokalen under motsvarande förutsättningar som anges i första stycket. I sådana fall ska läraren eller handledaren underrättas i efterhand.",
+      "kalla": {
+       "text": "SOU 2025:8 s. 249 (författningskommentar 7.1)",
+       "url": "https://www.regeringen.se/contentassets/26e05d7491f04788b7f74e4bd86ec011/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-sou-20258.pdf"
+      }
+     },
+     "proposition": {
+      "text": "I grundskolan, anpassade grundskolan, specialskolan, sameskolan, gymnasieskolan och anpassade gymnasieskolan får en lärare eller en handledare som avses i 21 kap. 13 § visa ut en elev från undervisningslokalen för högst återstoden av ett undervisningspass, om 1. eleven stör undervisningen eller på annat sätt uppträder olämpligt, och 2. eleven inte har ändrat sitt uppförande efter uppmaning från läraren eller handledaren. Om elevens olämpliga uppträdande innebär våld, hot eller kränkning får eleven visas ut utan att först ha uppmanats att ändra sitt beteende. Om läraren eller handledaren inte är närvarande i undervisningslokalen får annan personal visa ut en elev från lokalen under motsvarande förutsättningar som anges i första och andra styckena. I sådana fall ska läraren eller handledaren underrättas i efterhand.",
+      "paragraf": "5 kap. 7 §",
+      "likhet_mot_sou": 0.792,
+      "kalla": {
+       "text": "Prop. 2025/26:193 s. 10, lagförslag 2",
+       "url": "https://www.regeringen.se/contentassets/7edd1011af6944eda73e62aea7897f04/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-prop.-202526193.pdf"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "beslutad": {
+      "text": "I grundskolan, anpassade grundskolan, specialskolan, sameskolan, gymnasieskolan och anpassade gymnasieskolan får en lärare eller en handledare som avses i 21 kap. 13 § visa ut en elev från undervisningslokalen för högst återstoden av ett undervisningspass, om 1. eleven stör undervisningen eller på annat sätt uppträder olämpligt, och 2. eleven inte har ändrat sitt uppförande efter uppmaning från läraren eller handledaren. Om elevens olämpliga uppträdande innebär våld, hot eller kränkning får eleven visas ut utan att först ha uppmanats att ändra sitt beteende. Om läraren eller handledaren inte är närvarande i undervisningslokalen får annan personal visa ut en elev från lokalen under motsvarande förutsättningar som anges i första och andra styckena. I sådana fall ska läraren eller handledaren underrättas i efterhand.",
+      "paragraf": "5 kap. 7 §",
+      "sfs": "2026:1198",
+      "ikraft": null,
+      "likhet_mot_sou": 0.792,
+      "kalla": {
+       "text": "Skollag (2010:800) 5 kap. 7 § i lydelse enligt SFS 2026:1198; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "ersatt",
+       "fore": "I stället för vad som anges i första stycket 2 gäller att läraren",
+       "efter": "Om elevens olämpliga uppträdande innebär våld, hot"
+      },
+      {
+       "op": "ersatt",
+       "fore": "handledaren",
+       "efter": "kränkning"
+      },
+      {
+       "op": "ersatt",
+       "fore": "visa",
+       "efter": "eleven visas"
+      },
+      {
+       "op": "struken",
+       "fore": "eleven ur undervisningslokalen",
+       "efter": null
+      },
+      {
+       "op": "ersatt",
+       "fore": "uppmanat eleven",
+       "efter": "uppmanats"
+      },
+      {
+       "op": "ersatt",
+       "fore": "uppförande, när det är fråga om en allvarlig händelse där det förekommit hot eller våld eller kränkande behandling, trakasserier eller sexuella trakasserier på sätt som avses i diskrimineringslagen (2008:567).",
+       "efter": "beteende."
+      },
+      {
+       "op": "ersatt",
+       "fore": "stycket.",
+       "efter": "och andra styckena."
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": true
+    },
+    {
+     "paragraf": "5 kap. 24 §",
+     "sou": {
+      "text": "Om en åtgärd vidtagits enligt 12, 13, 13 b, 14, 15, 16, 17, 18, 19, 20, 21, 22 eller 23 §, ska den dokumenteras skriftligt av den som genomfört åtgärden. Om åtgärden rör omhändertagande av föremål enligt 22 §, gäller denna skyldighet endast om föremålet inte återlämnats efter lektionens slut.",
+      "kalla": {
+       "text": "SOU 2025:8 s. 255 (författningskommentar 7.1)",
+       "url": "https://www.regeringen.se/contentassets/26e05d7491f04788b7f74e4bd86ec011/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-sou-20258.pdf"
+      }
+     },
+     "proposition": {
+      "text": "Om en åtgärd har vidtagits enligt 12, 13, 13 c, 14, 15, 16, 17, 18, 19, 20, 21, 22 eller 23 §, ska den dokumenteras skriftligt av den som har genomfört åtgärden. Om åtgärden rör omhändertagande av föremål enligt 22 §, gäller denna skyldighet endast om föremålet inte har återlämnats efter lektionens slut.",
+      "paragraf": "5 kap. 24 §",
+      "likhet_mot_sou": 0.978,
+      "kalla": {
+       "text": "Prop. 2025/26:193 s. 14, lagförslag 2",
+       "url": "https://www.regeringen.se/contentassets/7edd1011af6944eda73e62aea7897f04/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-prop.-202526193.pdf"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": false
+     },
+     "beslutad": {
+      "text": "Om en åtgärd har vidtagits enligt 12, 13, 13 c, 14, 15, 16, 17, 18, 19, 20, 21, 22 eller 23 §, ska den dokumenteras skriftligt av den som har genomfört åtgärden. Om åtgärden rör omhändertagande av föremål enligt 22 §, gäller denna skyldighet endast om föremålet inte har återlämnats efter lektionens slut.",
+      "paragraf": "5 kap. 24 §",
+      "sfs": "2026:1198",
+      "ikraft": null,
+      "likhet_mot_sou": 0.978,
+      "kalla": {
+       "text": "Skollag (2010:800) 5 kap. 24 § i lydelse enligt SFS 2026:1198; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": false
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "har"
+      },
+      {
+       "op": "ersatt",
+       "fore": "b,",
+       "efter": "c,"
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "har"
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "har"
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": false
+    }
+   ],
+   "status": "ändrad",
+   "status_per_paragraf": {
+    "ändrad": 3
+   },
+   "status_kalla": {
+    "text": "Härledd per paragraf: SOU:ns föreslagna lydelse jämförd med beslutad lydelse (SFS 2026:1198/1243). Statusvärdet är mekaniskt (textlikhet), inte en bedömning.",
+    "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+   }
+  },
+  {
+   "forslag": "F04",
+   "sou_avsnitt": "3.4",
+   "forslag_kalla": {
+    "text": "SOU 2025:8 s. 89",
+    "url": "https://www.regeringen.se/contentassets/26e05d7491f04788b7f74e4bd86ec011/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-sou-20258.pdf"
+   },
+   "paragrafer": [
+    {
+     "paragraf": "5 kap. 5 §",
+     "sou": {
+      "text": "Skolregler ska finnas för varje skolenhet inom förskoleklassen, grundskolan, anpassade grundskolan, specialskolan, sameskolan, gymnasieskolan och anpassade gymnasieskolan. Skolreglerna och hur de följs ska regelbundet följas upp. Orsakerna till uppföljningens resultat ska analyseras. Rektorn beslutar om skolreglerna. Rektorn ansvarar också för att reglerna tas fram och för att det på skolenheten finns gemensamma rutiner och förhållningssätt i arbetet med skolreglerna. Skolreglerna ska förankras hos eleverna.",
+      "kalla": {
+       "text": "SOU 2025:8 s. 246 (författningskommentar 7.1)",
+       "url": "https://www.regeringen.se/contentassets/26e05d7491f04788b7f74e4bd86ec011/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-sou-20258.pdf"
+      }
+     },
+     "proposition": {
+      "text": "Skolregler ska finnas för varje skolenhet, för fritidshem som inte är integrerade med en skolenhet och för öppen fritidsverksamhet. Skolreglerna ska innehålla skolgemensamma förhållningsregler som syftar till att upprätthålla trygghet och studiero. I skolreglerna ska det ingå en plan för konsekvenser vid överträdelser av reglerna. Denna paragraf gäller inte för kommunal vuxenutbildning.",
+      "paragraf": "5 kap. 5 §",
+      "likhet_mot_sou": 0.269,
+      "kalla": {
+       "text": "Prop. 2025/26:193 s. 8, lagförslag 2",
+       "url": "https://www.regeringen.se/contentassets/7edd1011af6944eda73e62aea7897f04/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-prop.-202526193.pdf"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "beslutad": {
+      "text": "Skolregler ska finnas för varje skolenhet, för fritidshem som inte är integrerade med en skolenhet och för öppen fritidsverksamhet. Skolreglerna ska innehålla skolgemensamma förhållningsregler som syftar till att upprätthålla trygghet och studiero. I skolreglerna ska det ingå en plan för konsekvenser vid överträdelser av reglerna. Denna paragraf gäller inte för kommunal vuxenutbildning.",
+      "paragraf": "5 kap. 5 §",
+      "sfs": "2026:1198",
+      "ikraft": null,
+      "likhet_mot_sou": 0.269,
+      "kalla": {
+       "text": "Skollag (2010:800) 5 kap. 5 § i lydelse enligt SFS 2026:1198; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "skolenhet, för fritidshem som inte är integrerade med en"
+      },
+      {
+       "op": "struken",
+       "fore": "inom förskoleklassen, grundskolan, anpassade grundskolan, specialskolan, sameskolan, gymnasieskolan och anpassade gymnasieskolan. Skolreglerna och hur de följs ska regelbundet följas upp. Orsakerna till uppföljningens resultat ska analyseras. Rektorn beslutar om skolreglerna. Rektorn ansvarar också för att reglerna tas fram",
+       "efter": null
+      },
+      {
+       "op": "ersatt",
+       "fore": "att det på skolenheten finns gemensamma rutiner och förhållningssätt i arbetet med skolreglerna.",
+       "efter": "öppen fritidsverksamhet."
+      },
+      {
+       "op": "ersatt",
+       "fore": "förankras hos eleverna.",
+       "efter": "innehålla skolgemensamma förhållningsregler som syftar till att upprätthålla trygghet och studiero. I skolreglerna ska det ingå en plan för konsekvenser vid överträdelser av reglerna. Denna paragraf gäller inte för kommunal vuxenutbildning."
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": true
+    },
+    {
+     "paragraf": "5 kap. 5 a §",
+     "sou": {
+      "text": "Skolreglerna ska innehålla en plan för konsekvenser vid överträdelser av reglerna.",
+      "kalla": {
+       "text": "SOU 2025:8 s. 247 (författningskommentar 7.1)",
+       "url": "https://www.regeringen.se/contentassets/26e05d7491f04788b7f74e4bd86ec011/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-sou-20258.pdf"
+      }
+     },
+     "proposition": {
+      "text": "Rektorn ansvarar för att skolreglerna tas fram och beslutar om dem. Rektorn ansvarar också för att det på skolenheten finns gemensamma rutiner och förhållningssätt för arbetet med att upprätthålla skolreglerna. Skolreglerna ska förankras hos eleverna. Skolreglerna och hur de efterlevs ska regelbundet följas upp. Orsakerna till uppföljningens resultat ska analyseras. Vid tillämpningen av denna paragraf ska barn jämställas med elev, och fritidshem som inte är integrerade med en skolenhet samt öppen fritidsverksamhet ska jämställas med skolenhet. För dessa verksamheter gäller första stycket för den personal som huvudmannen utser. Förväntansdokument",
+      "paragraf": "5 kap. 5a §",
+      "likhet_mot_sou": 0.113,
+      "kalla": {
+       "text": "Prop. 2025/26:193 s. 8, lagförslag 2",
+       "url": "https://www.regeringen.se/contentassets/7edd1011af6944eda73e62aea7897f04/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-prop.-202526193.pdf"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "beslutad": {
+      "text": "Rektorn ansvarar för att skolreglerna tas fram och beslutar om dem. Rektorn ansvarar också för att det på skolenheten finns gemensamma rutiner och förhållningssätt för arbetet med att upprätthålla skolreglerna. Skolreglerna ska förankras hos eleverna. Skolreglerna och hur de efterlevs ska regelbundet följas upp. Orsakerna till uppföljningens resultat ska analyseras. Vid tillämpningen av denna paragraf ska barn jämställas med elev, och fritidshem som inte är integrerade med en skolenhet samt öppen fritidsverksamhet ska jämställas med skolenhet. För dessa verksamheter gäller första stycket för den personal som huvudmannen utser.",
+      "paragraf": "5 kap. 5a §",
+      "sfs": "2026:1198",
+      "ikraft": null,
+      "likhet_mot_sou": 0.116,
+      "kalla": {
+       "text": "Skollag (2010:800) 5 kap. 5a § i lydelse enligt SFS 2026:1198; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "Rektorn ansvarar för att skolreglerna tas fram och beslutar om dem. Rektorn ansvarar också för att det på skolenheten finns gemensamma rutiner och förhållningssätt för arbetet med att upprätthålla skolreglerna."
+      },
+      {
+       "op": "ersatt",
+       "fore": "innehålla",
+       "efter": "förankras hos eleverna. Skolreglerna och hur de efterlevs ska regelbundet följas upp. Orsakerna till uppföljningens resultat ska analyseras. Vid tillämpningen av denna paragraf ska barn jämställas med elev, och fritidshem som inte är integrerade med"
+      },
+      {
+       "op": "ersatt",
+       "fore": "plan",
+       "efter": "skolenhet samt öppen fritidsverksamhet ska jämställas med skolenhet. För dessa verksamheter gäller första stycket"
+      },
+      {
+       "op": "ersatt",
+       "fore": "konsekvenser vid överträdelser av reglerna.",
+       "efter": "den personal som huvudmannen utser."
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": true
+    },
+    {
+     "paragraf": "5 kap. 5 b §",
+     "sou": {
+      "text": "Ett förväntansdokument ska finnas för varje skolenhet. Vårdnadshavare och elever ska varje termin informeras om innehållet i skolenhetens förväntansdokument. Förväntansdokumentet ska innehålla en påminnelse om vårdnadshavares ansvar för en god fostran enligt 6 kap. föräldrabalken, information om konsekvenser av överträdelser av skolenhetens skolregler och information om hur skolenheten arbetar med regler och konsekvenser.",
+      "kalla": {
+       "text": "SOU 2025:8 s. 248 (författningskommentar 7.1)",
+       "url": "https://www.regeringen.se/contentassets/26e05d7491f04788b7f74e4bd86ec011/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-sou-20258.pdf"
+      }
+     },
+     "proposition": {
+      "text": "Ett förväntansdokument ska finnas för varje skolenhet. Förväntansdokumentet ska innehålla 1. information om innehållet i skolreglerna, 2. information om skolenhetens gemensamma rutiner och förhållningssätt i arbetet med att upprätthålla skolreglerna, och 3. en påminnelse om vårdnadshavares ansvar enligt 6 kap. föräldrabalken. Förväntansdokumentet får även innehålla annan information som är relevant för att förtydliga de ömsesidiga förväntningarna mellan skolan och eleverna respektive skolan och vårdnadshavarna. Rektorn ansvarar för att förväntansdokumentet tas fram. Elever och vårdnadshavare ska under varje läsår informeras om innehållet i förväntansdokumentet. Denna paragraf gäller inte för kommunal vuxenutbildning.",
+      "paragraf": "5 kap. 5b §",
+      "likhet_mot_sou": 0.428,
+      "kalla": {
+       "text": "Prop. 2025/26:193 s. 9, lagförslag 2",
+       "url": "https://www.regeringen.se/contentassets/7edd1011af6944eda73e62aea7897f04/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-prop.-202526193.pdf"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "beslutad": {
+      "text": "Ett förväntansdokument ska finnas för varje skolenhet. Förväntansdokumentet ska innehålla 1. information om innehållet i skolreglerna, 2. information om skolenhetens gemensamma rutiner och förhållningssätt i arbetet med att upprätthålla skolreglerna, och 3. en påminnelse om vårdnadshavares ansvar enligt 6 kap. föräldrabalken. Förväntansdokumentet får även innehålla annan information som är relevant för att förtydliga de ömsesidiga förväntningarna mellan skolan och eleverna respektive skolan och vårdnadshavarna. Rektorn ansvarar för att förväntansdokumentet tas fram. Elever och vårdnadshavare ska under varje läsår informeras om innehållet i förväntansdokumentet. Denna paragraf gäller inte för kommunal vuxenutbildning.",
+      "paragraf": "5 kap. 5b §",
+      "sfs": "2026:1198",
+      "ikraft": null,
+      "likhet_mot_sou": 0.428,
+      "kalla": {
+       "text": "Skollag (2010:800) 5 kap. 5b § i lydelse enligt SFS 2026:1198; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "ersatt",
+       "fore": "Vårdnadshavare och elever",
+       "efter": "Förväntansdokumentet"
+      },
+      {
+       "op": "ersatt",
+       "fore": "varje termin informeras",
+       "efter": "innehålla 1. information"
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "skolreglerna, 2. information om"
+      },
+      {
+       "op": "ersatt",
+       "fore": "förväntansdokument. Förväntansdokumentet ska innehålla",
+       "efter": "gemensamma rutiner och förhållningssätt i arbetet med att upprätthålla skolreglerna, och 3."
+      },
+      {
+       "op": "struken",
+       "fore": "för en god fostran",
+       "efter": null
+      },
+      {
+       "op": "ersatt",
+       "fore": "föräldrabalken,",
+       "efter": "föräldrabalken. Förväntansdokumentet får även innehålla annan"
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "som är relevant för att förtydliga de ömsesidiga förväntningarna mellan skolan och eleverna respektive skolan och vårdnadshavarna. Rektorn ansvarar för att förväntansdokumentet tas fram. Elever och vårdnadshavare ska under varje läsår informeras"
+      },
+      {
+       "op": "ersatt",
+       "fore": "konsekvenser av överträdelser av skolenhetens skolregler och information om hur skolenheten arbetar med regler och konsekvenser.",
+       "efter": "innehållet i förväntansdokumentet. Denna paragraf gäller inte för kommunal vuxenutbildning."
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": true
+    }
+   ],
+   "status": "ändrad",
+   "status_per_paragraf": {
+    "ändrad": 3
+   },
+   "status_kalla": {
+    "text": "Härledd per paragraf: SOU:ns föreslagna lydelse jämförd med beslutad lydelse (SFS 2026:1198/1243). Statusvärdet är mekaniskt (textlikhet), inte en bedömning.",
+    "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+   }
+  },
+  {
+   "forslag": "F05",
+   "sou_avsnitt": "3.5",
+   "forslag_kalla": {
+    "text": "SOU 2025:8 s. 109",
+    "url": "https://www.regeringen.se/contentassets/26e05d7491f04788b7f74e4bd86ec011/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-sou-20258.pdf"
+   },
+   "paragrafer": [],
+   "status": "ej i SFS per 2026-11-10",
+   "status_kalla": {
+    "text": "Ingen paragraf i SOU:ns författningskommentar till skollagen (7.1) hänvisar till avsnitt 3.5 — förslaget avser förordningsnivå. Konsoliderade förordningar hämtade 2026-11-10 innehåller inte utredningens föreslagna bestämmelser om giltig och ogiltig frånvaro (0 träffar på \"ogiltig frånvaro\"): Skolförordning (2011:185); Gymnasieförordning (2010:2039); Förordning (2015:195) om ett nationellt informationssystem för skolväsendet",
+    "url": "https://data.riksdagen.se/dokument/sfs-2011-185.text",
+    "ovriga_urler": [
+     "https://data.riksdagen.se/dokument/sfs-2010-2039.text",
+     "https://data.riksdagen.se/dokument/sfs-2015-195.text"
+    ]
+   }
+  },
+  {
+   "forslag": "F06",
+   "sou_avsnitt": "4.1",
+   "forslag_kalla": {
+    "text": "SOU 2025:8 s. 122",
+    "url": "https://www.regeringen.se/contentassets/26e05d7491f04788b7f74e4bd86ec011/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-sou-20258.pdf"
+   },
+   "paragrafer": [
+    {
+     "paragraf": "1 kap. 3 §",
+     "sou": {
+      "text": "I denna lag avses med – akutskola: en organisatorisk lösning som är knuten till en skolenhet där en elev i grundskolan tillfälligt ska ges undervisning utanför den egna skolenheten enligt 5 kap. 13 §, – distansundervisning: interaktiv undervisning som bedrivs med informationsoch kommunikationsteknik där elever och lärare är åtskilda i både rum och tid, – elev: den som deltar i utbildning enligt denna lag med undantag för barn i förskolan, – fjärrundervisning: interaktiv undervisning som bedrivs med informationsoch kommunikationsteknik där elever och lärare är åtskilda i rum men inte i tid, – fristående fritidshem: sådant fritidshem som bedrivs av en enskild och som avses i 2 kap. 7 § andra stycket, – fristående förskola: förskoleenhet vid vilken en enskild bedriver utbildning i form av förskola, – fristående skola: skolenhet vid vilken en enskild bedriver utbildning inom skolväsendet i form av förskoleklass, grundskola, anpassad grundskola, gymnasieskola, anpassad gymnasieskola eller sådant fritidshem som avses i 2 kap. 7 § första stycket, – förskoleenhet: av huvudman för förskola organiserad enhet som omfattar verksamhet i en eller flera förskolebyggnader som ligger nära varandra och till enheten knuten verksamhet som inte bedrivs i någon förskolebyggnad, – konfessionell inriktning: inriktning på verksamhet som innebär att det där förekommer konfessionella inslag, – konfessionella inslag: bekännande eller förkunnande inslag som tillhör en viss religion och som initieras och genomförs av huvudmannen eller på dennes uppdrag, – lovskola: undervisning inom grundskolan som anordnas enligt denna lag under lov under en termin eller utanför terminstid och som inte är obligatorisk för elever, – lärobok: tryckt läromedel, med eller utan digitala komponenter, – läromedel: helt eller delvis tryckt eller digitalt verk som är avsett att användas i undervisningen, som överensstämmer med relevanta delar av tillämplig kurs-, ämneseller ämnesområdesplan och läroplanen, och som är utgivet av någon som bedriver utgivningsverksamhet av professionell art, – lärverktyg: läroböcker, andra läromedel och andra tryckta eller digitala verk samt utrustning och material som används i undervisningen, – skolenhet: av huvudman för annan skolform än förskola organiserad enhet som omfattar verksamhet i en eller flera skolbyggnader som ligger nära varandra och till enheten knuten verksamhet som inte bedrivs i någon skolbyggnad, – undervisning: processer som på lektioner eller vid andra lärtillfällen bestäms och leds av lärare eller förskollärare mot mål som anges i förordningar och andra författningar som ansluter till denna lag och som syftar till utveckling och lärande genom att barn eller elever inhämtar och utvecklar kunskaper och värden, och – utbildning: verksamhet som bedrivs av en huvudman enligt denna lag inom vilken barn eller elever deltar i undervisning och andra aktiviteter.",
+      "kalla": {
+       "text": "SOU 2025:8 s. 243 (författningskommentar 7.1)",
+       "url": "https://www.regeringen.se/contentassets/26e05d7491f04788b7f74e4bd86ec011/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-sou-20258.pdf"
+      }
+     },
+     "proposition": {
+      "text": "I denna lag avses med undervisning som bedrivs med informationsoch kommunikationsteknik där elever och lärare är åtskilda i både rum och tid, – elev: den som deltar i utbildning enligt denna lag med undantag för barn i förskolan, som bedrivs med informationsoch kommunikationsteknik där elever och lärare är åtskilda i rum men inte i tid, – fristående fritidshem: sådant fritidshem som bedrivs av en enskild och som avses i 2 kap. 7 § andra stycket, – fristående förskola: förskoleenhet vid vilken en enskild bedriver utbildning i form av förskola, – fristående skola: skolenhet vid vilken en enskild bedriver utbildning anpassad grundskola, gymnasieskola, anpassad gymnasieskola eller sådant fritidshem som avses i 2 kap. 7 § första stycket, – förskoleenhet: av huvudman för förskola organiserad enhet som omfattar verksamhet i en eller flera förskolebyggnader som ligger nära varandra och till enheten knuten verksamhet som inte bedrivs i någon förskolebyggnad, – konfessionell inriktning: inriktning på verksamhet som innebär att det där förekommer konfessionella inslag, – konfessionella inslag: bekännande eller förkunnande inslag som tillhör en viss religion och som initieras och genomförs av huvudmannen eller på dennes uppdrag, – lovskola: undervisning inom grundskolan som anordnas enligt denna lag under lov under en termin eller utanför terminstid och som inte är obligatorisk för elever, – lärobok: tryckt läromedel, med eller utan digitala komponenter, – läromedel: helt eller delvis tryckt eller digitalt verk som är avsett att användas i undervisningen, som överensstämmer med relevanta delar av tillämplig kurs-, ämneseller ämnesområdesplan och läroplanen, och som är utgivet av någon som bedriver utgivningsverksamhet av professionell art, – lärverktyg: läroböcker, andra läromedel och andra tryckta eller digitala verk samt utrustning och material som används i undervisningen, – skolenhet: av huvudman för annan skolform än förskola organiserad enhet som omfattar verksamhet i en eller flera skolbyggnader som ligger nära varandra och till enheten knuten verksamhet som inte bedrivs i någon skolbyggnad, – undervisning: processer som på lektioner eller vid andra lärtillfällen bestäms och leds av lärare eller förskollärare, och som syftar till barns eller elevers utveckling och lärande mot mål som anges i denna lag samt i förordningar och andra författningar som ansluter till lagen, genom att lärarna och förskollärarna förmedlar och förankrar kunskaper och värden hos barnen och eleverna, och – utbildning: verksamhet som bedrivs av en huvudman enligt denna lag inom vilken barn eller elever deltar i undervisning och andra aktiviteter.",
+      "paragraf": "1 kap. 3 §",
+      "likhet_mot_sou": 0.906,
+      "kalla": {
+       "text": "Prop. 2025/26:194 s. 6, lagförslag 2.1",
+       "url": "https://www.regeringen.se/contentassets/42c1e2e4596b4f8682e3d8283b91a138/nya-laroplaner--for-en-stark-kunskapsskola-prop.-202526194.pdf"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": false
+     },
+     "beslutad": {
+      "text": "För varje skolform och för fritidshemmet ska en läroplan gälla som utgår från bestämmelserna i denna lag. Läroplanen ska ange utbildningens värdegrund och uppdrag. Den ska också ange mål och riktlinjer för utbildningen. Läroplanerna för grundskolan, anpassade grundskolan, specialskolan och sameskolan ska också innehålla kursplaner och fördelningar av undervisningstiden (timplaner). Regeringen får meddela föreskrifter om de delar av läroplanerna för grundskolan och anpassade grundskolan som innehåller timplaner. I 10 kap. 8 §, 11 kap. 11 §, 12 kap. 8 § och 13 kap. 8 § finns bestämmelser om kursplaner för grundskolan, anpassade grundskolan, specialskolan och sameskolan. Regeringen eller den myndighet som regeringen bestämmer kan med stöd av 8 kap. 7 § regeringsformen meddela föreskrifter om läroplaner i övrigt.",
+      "paragraf": "1 kap. 11 §",
+      "sfs": "2026:1243",
+      "ikraft": "2028-07-02",
+      "likhet_mot_sou": 0.152,
+      "kalla": {
+       "text": "Skollag (2010:800) 1 kap. 11 § i lydelse enligt SFS 2026:1243, träder i kraft 2028-07-02; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "textlikhet",
+      "manuell_granskning": true
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "För varje skolform och för fritidshemmet ska en läroplan gälla som utgår från bestämmelserna i denna lag. Läroplanen ska ange utbildningens värdegrund och uppdrag. Den ska också ange mål och riktlinjer för utbildningen. Läroplanerna för grundskolan, anpassade grundskolan, specialskolan och sameskolan ska också innehålla kursplaner och fördelningar av undervisningstiden (timplaner). Regeringen får meddela föreskrifter om de delar av läroplanerna för grundskolan och anpassade grundskolan som innehåller timplaner."
+      },
+      {
+       "op": "ersatt",
+       "fore": "denna lag avses",
+       "efter": "10 kap. 8 §, 11 kap. 11 §, 12 kap. 8 § och 13 kap. 8 § finns bestämmelser om kursplaner för grundskolan, anpassade grundskolan, specialskolan och sameskolan. Regeringen eller den myndighet som regeringen bestämmer kan"
+      },
+      {
+       "op": "ersatt",
+       "fore": "– akutskola: en organisatorisk lösning som är knuten till en skolenhet där en elev i grundskolan tillfälligt ska ges undervisning utanför den egna skolenheten enligt 5 kap. 13 §, – distansundervisning: interaktiv undervisning som bedrivs med informationsoch kommunikationsteknik där elever och lärare är åtskilda i både rum och tid, – elev: den som deltar i utbildning enligt denna lag med undantag för barn i förskolan, – fjärrundervisning: interaktiv undervisning som bedrivs med informationsoch kommunikationsteknik där elever och lärare är åtskilda i rum men inte i tid, – fristående fritidshem: sådant fritidshem som bedrivs",
+       "efter": "stöd"
+      },
+      {
+       "op": "ersatt",
+       "fore": "en enskild och som avses i 2",
+       "efter": "8"
+      },
+      {
+       "op": "ersatt",
+       "fore": "andra stycket, – fristående förskola: förskoleenhet vid vilken en enskild bedriver utbildning",
+       "efter": "regeringsformen meddela föreskrifter om läroplaner"
+      },
+      {
+       "op": "ersatt",
+       "fore": "form av förskola, – fristående skola: skolenhet vid vilken en enskild bedriver utbildning inom skolväsendet i form av förskoleklass, grundskola, anpassad grundskola, gymnasieskola, anpassad gymnasieskola eller sådant fritidshem som avses i 2 kap. 7 § första stycket, – förskoleenhet: av huvudman för förskola organiserad enhet som omfattar verksamhet i en eller flera förskolebyggnader som ligger nära varandra och till enheten knuten verksamhet som inte bedrivs i någon förskolebyggnad, – konfessionell inriktning: inriktning på verksamhet som innebär att det där förekommer konfessionella inslag, – konfessionella inslag: bekännande eller förkunnande inslag som tillhör en viss religion och som initieras och genomförs av huvudmannen eller på dennes uppdrag, – lovskola: undervisning inom grundskolan som anordnas enligt denna lag under lov under en termin eller utanför terminstid och som inte är obligatorisk för elever, – lärobok: tryckt läromedel, med eller utan digitala komponenter, – läromedel: helt eller delvis tryckt eller digitalt verk som är avsett att användas i undervisningen, som överensstämmer med relevanta delar av tillämplig kurs-, ämneseller ämnesområdesplan och läroplanen, och som är utgivet av någon som bedriver utgivningsverksamhet av professionell art, – lärverktyg: läroböcker, andra läromedel och andra tryckta eller digitala verk samt utrustning och material som används i undervisningen, – skolenhet: av huvudman för annan skolform än förskola organiserad enhet som omfattar verksamhet i en eller flera skolbyggnader som ligger nära varandra och till enheten knuten verksamhet som inte bedrivs i någon skolbyggnad, – undervisning: processer som på lektioner eller vid andra lärtillfällen bestäms och leds av lärare eller förskollärare mot mål som anges i förordningar och andra författningar som ansluter till denna lag och som syftar till utveckling och lärande genom att barn eller elever inhämtar och utvecklar kunskaper och värden, och – utbildning: verksamhet som bedrivs av en huvudman enligt denna lag inom vilken barn eller elever deltar i undervisning och andra aktiviteter.",
+       "efter": "övrigt."
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": true
+    },
+    {
+     "paragraf": "5 kap. 12 §",
+     "sou": {
+      "text": "I förskoleklassen, grundskolan, anpassade grundskolan, specialskolan, sameskolan, gymnasieskolan och anpassade gymnasieskolan får rektorn besluta att en elev ska följa undervisningen i en annan undervisningsgrupp än den eleven annars hör till eller undervisas på annan plats inom samma skolenhet om åtgärderna som gjorts efter en sådan utredning som avses i 9 § första stycket inte varit tillräckliga eller om det annars är nödvändigt för att tillförsäkra de andra eleverna trygghet och studiero. Ett beslut enligt första stycket får innebära att eleven ges enskild undervisning eller undervisning i en särskild undervisningsgrupp enligt 3 kap. 11 §. De förutsättningar som anges i 3 kap. för sådan undervisning behöver inte vara uppfyllda inför ett sådant beslut. Innan rektorn fattar ett beslut som innebär undervisning i en annan undervisningsgrupp ska rektorn bedöma hur åtgärden kan påverka övriga elevers utbildning i den gruppen. Elevens vårdnadshavare ska informeras om rektorns beslut. En åtgärd som rektorn vidtagit med stöd av första stycket får inte gälla för en längre tid än återstoden av pågående termin.",
+      "kalla": {
+       "text": "SOU 2025:8 s. 250 (författningskommentar 7.1)",
+       "url": "https://www.regeringen.se/contentassets/26e05d7491f04788b7f74e4bd86ec011/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-sou-20258.pdf"
+      }
+     },
+     "proposition": {
+      "text": "I grundskolan, anpassade grundskolan, specialskolan, sameskolan, gymnasieskolan och anpassade gymnasieskolan får rektorn besluta att en elev ska följa undervisningen i en annan undervisningsgrupp än den eleven annars hör till eller undervisas på annan plats inom samma skolenhet om åtgärderna som gjorts efter en sådan utredning som avses i 9 § första stycket inte varit tillräckliga eller om det annars är nödvändigt för att tillförsäkra de andra eleverna trygghet och studiero. Ett beslut enligt första stycket får innebära att eleven ges enskild undervisning eller undervisning i en särskild undervisningsgrupp enligt 3 kap. 11 §. De förutsättningar som anges i 3 kap. för sådan undervisning behöver inte vara uppfyllda inför ett sådant beslut. Innan rektorn fattar ett beslut som innebär undervisning i en annan undervisningsgrupp ska rektorn bedöma hur åtgärden kan påverka övriga elevers utbildning i den gruppen. Elevens vårdnadshavare ska informeras om rektorns beslut. En åtgärd som rektorn vidtagit med stöd av första stycket får inte gälla för en längre tid än återstoden av terminen. Om det återstår kortare tid än fyra veckor av terminen när åtgärden vidtas får den i stället gälla som längst fyra veckor in på nästa termin.",
+      "paragraf": "5 kap. 12 §",
+      "likhet_mot_sou": 0.932,
+      "kalla": {
+       "text": "Prop. 2025/26:193 s. 11, lagförslag 2",
+       "url": "https://www.regeringen.se/contentassets/7edd1011af6944eda73e62aea7897f04/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-prop.-202526193.pdf"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": false
+     },
+     "beslutad": {
+      "text": "I grundskolan, anpassade grundskolan, specialskolan, sameskolan, gymnasieskolan och anpassade gymnasieskolan får rektorn besluta att en elev ska följa undervisningen i en annan undervisningsgrupp än den eleven annars hör till eller undervisas på annan plats inom samma skolenhet om åtgärderna som gjorts efter en sådan utredning som avses i 9 § första stycket inte varit tillräckliga eller om det annars är nödvändigt för att tillförsäkra de andra eleverna trygghet och studiero. Ett beslut enligt första stycket får innebära att eleven ges enskild undervisning eller undervisning i en särskild undervisningsgrupp enligt 3 kap. 11 §. De förutsättningar som anges i 3 kap. för sådan undervisning behöver inte vara uppfyllda inför ett sådant beslut. Innan rektorn fattar ett beslut som innebär undervisning i en annan undervisningsgrupp ska rektorn bedöma hur åtgärden kan påverka övriga elevers utbildning i den gruppen. Elevens vårdnadshavare ska informeras om rektorns beslut. En åtgärd som rektorn vidtagit med stöd av första stycket får inte gälla för en längre tid än återstoden av terminen. Om det återstår kortare tid än fyra veckor av terminen när åtgärden vidtas får den i stället gälla som längst fyra veckor in på nästa termin.",
+      "paragraf": "5 kap. 12 §",
+      "sfs": "2026:1198",
+      "ikraft": null,
+      "likhet_mot_sou": 0.932,
+      "kalla": {
+       "text": "Skollag (2010:800) 5 kap. 12 § i lydelse enligt SFS 2026:1198; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": false
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "struken",
+       "fore": "förskoleklassen,",
+       "efter": null
+      },
+      {
+       "op": "ersatt",
+       "fore": "pågående",
+       "efter": "terminen. Om det återstår kortare tid än fyra veckor av terminen när åtgärden vidtas får den i stället gälla som längst fyra veckor in på nästa"
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": false
+    },
+    {
+     "paragraf": "5 kap. 13 §",
+     "sou": {
+      "text": "Om åtgärder enligt 12 § inte är tillräckligt ingripande för att tillförsäkra andra elever trygghet och studiero eller inte är möjliga att genomföra, får rektorn besluta att en elev tillfälligt ska ges undervisning vid en annan skolenhet, på en annan plats inom huvudmannens organisation eller på en akutskola. Ett beslut enligt första stycket får innebära att eleven ges enskild undervisning eller undervisning i en särskild undervisningsgrupp enligt 3 kap. 11 §. De förutsättningar som anges i 3 kap. för sådan undervisning behöver inte vara uppfyllda inför ett sådant beslut. Innan rektorn fattar ett beslut som innebär undervisning i en annan undervisningsgrupp ska rektorn bedöma hur åtgärden kan påverka övriga elevers utbildning i den gruppen. Ett beslut om tillfällig placering vid en annan skolenhet fattas gemensamt med rektorn vid den mottagande skolenheten. Elevens vårdnadshavare ska informeras om ett beslut enligt första stycket innan placeringen genomförs. En åtgärd som rektorn vidtagit med stöd av första stycket får gälla för en längre tid än fyra veckor om det finns särskilda skäl. Åtgärden får dock som längst gälla för åtta veckor.",
+      "kalla": {
+       "text": "SOU 2025:8 s. 251 (författningskommentar 7.1)",
+       "url": "https://www.regeringen.se/contentassets/26e05d7491f04788b7f74e4bd86ec011/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-sou-20258.pdf"
+      }
+     },
+     "proposition": {
+      "text": "Om åtgärder enligt 12 § inte är tillräckligt ingripande för att tillförsäkra andra elever trygghet och studiero eller inte är möjliga att genomföra, får rektorn besluta att en elev tillfälligt ska ges undervisning vid en annan skolenhet eller på en annan plats inom huvudmannens organisation. Ett beslut enligt första stycket får innebära att eleven ges enskild undervisning eller undervisning i en särskild undervisningsgrupp enligt 3 kap. 11 §. De förutsättningar som anges i 3 kap. för sådan undervisning behöver inte vara uppfyllda inför ett sådant beslut. Innan rektorn fattar ett beslut som innebär undervisning i en annan undervisningsgrupp ska rektorn bedöma hur åtgärden kan påverka övriga elevers utbildning i den gruppen. Ett beslut om tillfällig placering vid en annan skolenhet fattas gemensamt med rektorn vid den mottagande skolenheten. Elevens vårdnadshavare ska informeras om ett beslut enligt första stycket innan placeringen genomförs. En åtgärd som rektorn vidtagit med stöd av första stycket får inte gälla för en längre tid än fyra veckor. Om det finns särskilda skäl får åtgärden dock gälla som längst i åtta veckor.",
+      "paragraf": "5 kap. 13 §",
+      "likhet_mot_sou": 0.974,
+      "kalla": {
+       "text": "Prop. 2025/26:193 s. 11, lagförslag 2",
+       "url": "https://www.regeringen.se/contentassets/7edd1011af6944eda73e62aea7897f04/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-prop.-202526193.pdf"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": false
+     },
+     "beslutad": {
+      "text": "Om åtgärder enligt 12 § inte är tillräckligt ingripande för att tillförsäkra andra elever trygghet och studiero eller inte är möjliga att genomföra, får rektorn besluta att en elev tillfälligt ska ges undervisning vid en annan skolenhet eller på en annan plats inom huvudmannens organisation. Ett beslut enligt första stycket får innebära att eleven ges enskild undervisning eller undervisning i en särskild undervisningsgrupp enligt 3 kap. 11 §. De förutsättningar som anges i 3 kap. för sådan undervisning behöver inte vara uppfyllda inför ett sådant beslut. Innan rektorn fattar ett beslut som innebär undervisning i en annan undervisningsgrupp ska rektorn bedöma hur åtgärden kan påverka övriga elevers utbildning i den gruppen. Ett beslut om tillfällig placering vid en annan skolenhet fattas gemensamt med rektorn vid den mottagande skolenheten. Elevens vårdnadshavare ska informeras om ett beslut enligt första stycket innan placeringen genomförs. En åtgärd som rektorn vidtagit med stöd av första stycket får inte gälla för en längre tid än fyra veckor. Om det finns särskilda skäl får åtgärden dock gälla som längst i åtta veckor.",
+      "paragraf": "5 kap. 13 §",
+      "sfs": "2026:1198",
+      "ikraft": null,
+      "likhet_mot_sou": 0.974,
+      "kalla": {
+       "text": "Skollag (2010:800) 5 kap. 13 § i lydelse enligt SFS 2026:1198; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": false
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "ersatt",
+       "fore": "skolenhet,",
+       "efter": "skolenhet eller"
+      },
+      {
+       "op": "ersatt",
+       "fore": "organisation eller på en akutskola.",
+       "efter": "organisation."
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "inte"
+      },
+      {
+       "op": "ersatt",
+       "fore": "veckor om",
+       "efter": "veckor. Om"
+      },
+      {
+       "op": "ersatt",
+       "fore": "skäl. Åtgärden",
+       "efter": "skäl"
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "åtgärden"
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "gälla"
+      },
+      {
+       "op": "ersatt",
+       "fore": "gälla för",
+       "efter": "i"
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": false
+    },
+    {
+     "paragraf": "5 kap. 13 a §",
+     "sou": {
+      "text": "Det ska utarbetas en plan för att efter en tillfällig placering utanför den egna skolenheten enligt 13 § stödja elevens återgång till undervisning vid den skolenhet som efter den tillfälliga placeringen ska vara elevens ordinarie skolenhet.",
+      "kalla": {
+       "text": "SOU 2025:8 s. 252 (författningskommentar 7.1)",
+       "url": "https://www.regeringen.se/contentassets/26e05d7491f04788b7f74e4bd86ec011/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-sou-20258.pdf"
+      }
+     },
+     "proposition": {
+      "text": "Om en elev tillfälligt har placerats utanför den egna skolenheten enligt 13 § ska det utarbetas en plan för att stödja elevens återgång till ordinarie skolgång efter den tillfälliga placeringen. Rektorn vid den skolenhet som eleven hör till när placeringsbeslutet fattas ansvarar för att planen utarbetas. Rektorn ska även samråda med rektorn vid den skolenhet där eleven är tillfälligt placerad. Om eleven efter den tillfälliga placeringen ska placeras vid en annan skolenhet än den som eleven hörde till när beslutet om tillfällig placering fattades ska samråd även ske med rektorn vid den skolenhet där eleven placeras. Nekat tillträde till skolenheten",
+      "paragraf": "5 kap. 13a §",
+      "likhet_mot_sou": 0.407,
+      "kalla": {
+       "text": "Prop. 2025/26:193 s. 12, lagförslag 2",
+       "url": "https://www.regeringen.se/contentassets/7edd1011af6944eda73e62aea7897f04/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-prop.-202526193.pdf"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "beslutad": {
+      "text": "Om en elev tillfälligt har placerats utanför den egna skolenheten enligt 13 § ska det utarbetas en plan för att stödja elevens återgång till ordinarie skolgång efter den tillfälliga placeringen. Rektorn vid den skolenhet som eleven hör till när placeringsbeslutet fattas ansvarar för att planen utarbetas. Rektorn ska även samråda med rektorn vid den skolenhet där eleven är tillfälligt placerad. Om eleven efter den tillfälliga placeringen ska placeras vid en annan skolenhet än den som eleven hörde till när beslutet om tillfällig placering fattades ska samråd även ske med rektorn vid den skolenhet där eleven placeras.",
+      "paragraf": "5 kap. 13a §",
+      "sfs": "2026:1198",
+      "ikraft": null,
+      "likhet_mot_sou": 0.423,
+      "kalla": {
+       "text": "Skollag (2010:800) 5 kap. 13a § i lydelse enligt SFS 2026:1198; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "ersatt",
+       "fore": "Det ska utarbetas",
+       "efter": "Om"
+      },
+      {
+       "op": "ersatt",
+       "fore": "plan för att efter en tillfällig placering",
+       "efter": "elev tillfälligt har placerats"
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "ska det utarbetas en plan för att"
+      },
+      {
+       "op": "ersatt",
+       "fore": "undervisning",
+       "efter": "ordinarie skolgång efter den tillfälliga placeringen. Rektorn"
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "eleven hör till när placeringsbeslutet fattas ansvarar för att planen utarbetas. Rektorn ska även samråda med rektorn vid den skolenhet där eleven är tillfälligt placerad. Om eleven"
+      },
+      {
+       "op": "ersatt",
+       "fore": "vara elevens ordinarie skolenhet.",
+       "efter": "placeras vid en annan skolenhet än den som eleven hörde till när beslutet om tillfällig placering fattades ska samråd även ske med rektorn vid den skolenhet där eleven placeras."
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": true
+    },
+    {
+     "paragraf": "5 kap. 13 b §",
+     "sou": {
+      "text": "Om åtgärder enligt 13 § inte är lämpliga och det föreligger synnerliga skäl med hänsyn till säkerheten och tryggheten för andra på skolenheten, får rektorn besluta att neka en elev tillträde till skolenheten. Eleven ska då få sin utbildning tillgodosedd genom fjärreller distansundervisning, utöver vad som är föreskrivet i 21 kap. 3–4 §§ och 22 kap. 5–9 §§ skollagen (2010:800). Ett beslut enligt första stycket gäller tills vidare. Beslutet ska regelbundet följas upp och utvärderas. Rektorn ska upphäva beslutet när sådana synnerliga skäl som avses i första stycket inte längre föreligger.",
+      "kalla": {
+       "text": "SOU 2025:8 s. 252 (författningskommentar 7.1)",
+       "url": "https://www.regeringen.se/contentassets/26e05d7491f04788b7f74e4bd86ec011/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-sou-20258.pdf"
+      }
+     },
+     "proposition": {
+      "text": "Rektorn ska kontinuerligt följa upp om förutsättningarna för att neka eleven tillträde till skolenheten enligt 13 c § fortfarande är uppfyllda och upphäva beslutet när de inte längre är det.",
+      "paragraf": "5 kap. 13f §",
+      "likhet_mot_sou": 0.306,
+      "kalla": {
+       "text": "Prop. 2025/26:193 s. 13, lagförslag 2",
+       "url": "https://www.regeringen.se/contentassets/7edd1011af6944eda73e62aea7897f04/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-prop.-202526193.pdf"
+      },
+      "matchning": "textlikhet",
+      "manuell_granskning": true
+     },
+     "beslutad": {
+      "text": "I 10 kap. 30 och 31 §§ och 11 kap. 29 och 30 §§ finns bestämmelser om placering utan tidsbegränsning av en elev i grundskolan eller anpassade grundskolan vid en annan skolenhet än den som elevens vårdnadshavare har önskat, om det är nödvändigt med hänsyn till övriga elevers trygghet och studiero.",
+      "paragraf": "5 kap. 13b §",
+      "sfs": "2026:1198",
+      "ikraft": null,
+      "likhet_mot_sou": 0.112,
+      "kalla": {
+       "text": "Skollag (2010:800) 5 kap. 13b § i lydelse enligt SFS 2026:1198; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "ersatt",
+       "fore": "Om åtgärder enligt 13 § inte",
+       "efter": "I 10 kap. 30 och 31 §§ och 11 kap. 29 och 30 §§ finns bestämmelser om placering utan tidsbegränsning av en elev i grundskolan eller anpassade grundskolan vid en annan skolenhet än den som elevens vårdnadshavare har önskat, om det"
+      },
+      {
+       "op": "ersatt",
+       "fore": "lämpliga och det föreligger synnerliga skäl",
+       "efter": "nödvändigt"
+      },
+      {
+       "op": "ersatt",
+       "fore": "säkerheten",
+       "efter": "övriga elevers trygghet"
+      },
+      {
+       "op": "ersatt",
+       "fore": "tryggheten för andra på skolenheten, får rektorn besluta att neka en elev tillträde till skolenheten. Eleven ska då få sin utbildning tillgodosedd genom fjärreller distansundervisning, utöver vad som är föreskrivet i 21 kap. 3–4 §§ och 22 kap. 5–9 §§ skollagen (2010:800). Ett beslut enligt första stycket gäller tills vidare. Beslutet ska regelbundet följas upp och utvärderas. Rektorn ska upphäva beslutet när sådana synnerliga skäl som avses i första stycket inte längre föreligger.",
+       "efter": "studiero."
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": true
+    },
+    {
+     "paragraf": "5 kap. 13 c §",
+     "sou": {
+      "text": "Av 10 kap. 30 § andra stycket 2 och 11 kap. 29 § andra stycket 2 framgår att kommunen får flytta en elev och frångå vårdnadshavares önskemål om vid vilken skolenhet som en elev i grundskolan eller anpassade grundskolan ska vara placerad, om det är nödvändigt med hänsyn till övriga elevers trygghet och studiero.",
+      "kalla": {
+       "text": "SOU 2025:8 s. 253 (författningskommentar 7.1)",
+       "url": "https://www.regeringen.se/contentassets/26e05d7491f04788b7f74e4bd86ec011/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-sou-20258.pdf"
+      }
+     },
+     "proposition": {
+      "text": "I grundskolans årskurs 8–10, specialskolans årskurs 8–11 och i gymnasieskolan får rektorn besluta att en elev ska nekas tillträde till skolenheten om 1. åtgärder enligt 13 § inte är tillräckligt ingripande för att tillförsäkra andra elever trygghet och studiero eller inte är möjliga att genomföra, och 2. det finns synnerliga skäl för detta med hänsyn till andra elevers eller personals säkerhet. Rektorn får inte uppdra åt någon annan att fatta beslut enligt första stycket.",
+      "paragraf": "5 kap. 13c §",
+      "likhet_mot_sou": 0.176,
+      "kalla": {
+       "text": "Prop. 2025/26:193 s. 12, lagförslag 2",
+       "url": "https://www.regeringen.se/contentassets/7edd1011af6944eda73e62aea7897f04/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-prop.-202526193.pdf"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "beslutad": {
+      "text": "I grundskolans årskurs 8-10, specialskolans årskurs 8- 11 och i gymnasieskolan får rektorn besluta att en elev ska nekas tillträde till skolenheten om 1. åtgärder enligt 13 § inte är tillräckligt ingripande för att tillförsäkra andra elever trygghet och studiero eller inte är möjliga att genomföra, och 2. det finns synnerliga skäl för detta med hänsyn till andra elevers eller personals säkerhet. Rektorn får inte uppdra åt någon annan att fatta beslut enligt första stycket.",
+      "paragraf": "5 kap. 13c §",
+      "sfs": "2026:1198",
+      "ikraft": null,
+      "likhet_mot_sou": 0.176,
+      "kalla": {
+       "text": "Skollag (2010:800) 5 kap. 13c § i lydelse enligt SFS 2026:1198; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "ersatt",
+       "fore": "Av 10 kap. 30 § andra stycket 2",
+       "efter": "I grundskolans årskurs 8-10, specialskolans årskurs 8- 11"
+      },
+      {
+       "op": "ersatt",
+       "fore": "11 kap. 29 § andra stycket 2 framgår",
+       "efter": "i gymnasieskolan får rektorn besluta"
+      },
+      {
+       "op": "struken",
+       "fore": "kommunen får flytta",
+       "efter": null
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "ska nekas tillträde till skolenheten om 1. åtgärder enligt 13 § inte är tillräckligt ingripande för att tillförsäkra andra elever trygghet"
+      },
+      {
+       "op": "ersatt",
+       "fore": "frångå vårdnadshavares önskemål om vid vilken skolenhet som en elev i grundskolan",
+       "efter": "studiero"
+      },
+      {
+       "op": "ersatt",
+       "fore": "anpassade grundskolan ska vara placerad, om",
+       "efter": "inte är möjliga att genomföra, och 2."
+      },
+      {
+       "op": "ersatt",
+       "fore": "är nödvändigt",
+       "efter": "finns synnerliga skäl för detta"
+      },
+      {
+       "op": "ersatt",
+       "fore": "övriga",
+       "efter": "andra"
+      },
+      {
+       "op": "ersatt",
+       "fore": "trygghet och studiero.",
+       "efter": "eller personals säkerhet. Rektorn får inte uppdra åt någon annan att fatta beslut enligt första stycket."
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": true
+    },
+    {
+     "paragraf": "5 kap. 14 §",
+     "sou": {
+      "text": "I grundskolan, specialskolan och sameskolan får rektorn besluta att stänga av en elev helt eller delvis om eleven agerar på ett sådant sätt att andra elevers eller personals säkerhet bedöms vara hotad. Rektorn får även besluta att stänga av en elev helt eller delvis om 1. åtgärder enligt 13 § inte är tillräckligt ingripande eller inte är möjliga att genomföra eller det finns särskilda skäl med hänsyn till elevens beteende, och 2. det är nödvändigt med hänsyn till övriga elevers trygghet och studiero. Eleven ska så långt det är möjligt erbjudas kompensation för den undervisning som han eller hon går miste om på grund av avstängningen. Rektorn avgör tidpunkt och former för hur sådan kompensation ska erbjudas. Av 10 kap. 5 §, 12 kap. 5 § respektive 13 kap. 5 § framgår den minsta totala undervisningstiden för en elev i grundskolan, specialskolan eller sameskolan. Rektorn får inte uppdra åt någon annan att fatta beslut enligt första eller andra stycket. Ett beslut om avstängning gäller omedelbart om inte annat beslutas.",
+      "kalla": {
+       "text": "SOU 2025:8 s. 254 (författningskommentar 7.1)",
+       "url": "https://www.regeringen.se/contentassets/26e05d7491f04788b7f74e4bd86ec011/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-sou-20258.pdf"
+      }
+     },
+     "proposition": {
+      "text": "I grundskolan, specialskolan och sameskolan får rektorn besluta att stänga av en elev helt eller delvis om eleven agerar på ett sådant sätt att andra elevers eller personals säkerhet bedöms vara hotad. Rektorn får även besluta att stänga av en elev helt eller delvis om 1. åtgärder enligt 13 § inte är tillräckligt ingripande eller inte är möjliga att genomföra eller det finns särskilda skäl med hänsyn till elevens beteende, och 2. det är nödvändigt med hänsyn till övriga elevers trygghet och studiero. Eleven ska erbjudas kompensationsundervisning för den undervisning som han eller hon går miste om på grund av avstängningen. Rektorn avgör tidpunkten för kompensationsundervisningen och i vilken form den ska erbjudas. Rektorn får inte uppdra åt någon annan att fatta beslut enligt första eller andra stycket. Ett beslut om avstängning gäller omedelbart om inte annat beslutas.",
+      "paragraf": "5 kap. 14 §",
+      "likhet_mot_sou": 0.885,
+      "kalla": {
+       "text": "Prop. 2025/26:193 s. 14, lagförslag 2",
+       "url": "https://www.regeringen.se/contentassets/7edd1011af6944eda73e62aea7897f04/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-prop.-202526193.pdf"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": false
+     },
+     "beslutad": {
+      "text": "I grundskolan, specialskolan och sameskolan får rektorn besluta att stänga av en elev helt eller delvis om eleven agerar på ett sådant sätt att andra elevers eller personals säkerhet bedöms vara hotad. Rektorn får även besluta att stänga av en elev helt eller delvis om 1. åtgärder enligt 13 § inte är tillräckligt ingripande eller inte är möjliga att genomföra eller det finns särskilda skäl med hänsyn till elevens beteende, och 2. det är nödvändigt med hänsyn till övriga elevers trygghet och studiero. Eleven ska erbjudas kompensationsundervisning för den undervisning som han eller hon går miste om på grund av avstängningen. Rektorn avgör tidpunkten för kompensationsundervisningen och i vilken form den ska erbjudas. Rektorn får inte uppdra åt någon annan att fatta beslut enligt första eller andra stycket. Ett beslut om avstängning gäller omedelbart om inte annat beslutas.",
+      "paragraf": "5 kap. 14 §",
+      "sfs": "2026:1198",
+      "ikraft": null,
+      "likhet_mot_sou": 0.885,
+      "kalla": {
+       "text": "Skollag (2010:800) 5 kap. 14 § i lydelse enligt SFS 2026:1198; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": false
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "struken",
+       "fore": "så långt det är möjligt",
+       "efter": null
+      },
+      {
+       "op": "ersatt",
+       "fore": "kompensation",
+       "efter": "kompensationsundervisning"
+      },
+      {
+       "op": "ersatt",
+       "fore": "tidpunkt",
+       "efter": "tidpunkten för kompensationsundervisningen"
+      },
+      {
+       "op": "ersatt",
+       "fore": "former för hur sådan kompensation",
+       "efter": "i vilken form den"
+      },
+      {
+       "op": "struken",
+       "fore": "Av 10 kap. 5 §, 12 kap. 5 § respektive 13 kap. 5 § framgår den minsta totala undervisningstiden för en elev i grundskolan, specialskolan eller sameskolan.",
+       "efter": null
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": false
+    },
+    {
+     "paragraf": "5 kap. 15 §",
+     "sou": {
+      "text": "Ett beslut enligt 14 § får innebära avstängning endast under den tid som behövs för en skyndsam utredning av vilka andra åtgärder som kan behövas. En elev får inte stängas av för en längre tidsperiod än två veckor och inte heller vid fler tillfällen än tre gånger per kalenderhalvår.",
+      "kalla": {
+       "text": "SOU 2025:8 s. 255 (författningskommentar 7.1)",
+       "url": "https://www.regeringen.se/contentassets/26e05d7491f04788b7f74e4bd86ec011/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-sou-20258.pdf"
+      }
+     },
+     "proposition": {
+      "text": "Ett beslut enligt 14 § får innebära avstängning endast under den tid som behövs för en skyndsam utredning av vilka andra åtgärder som kan behövas. En elev får inte stängas av för en längre tidsperiod än två veckor och inte heller vid fler tillfällen än tre gånger per kalenderhalvår.",
+      "paragraf": "5 kap. 15 §",
+      "likhet_mot_sou": 1.0,
+      "kalla": {
+       "text": "Prop. 2025/26:193 s. 14, lagförslag 2",
+       "url": "https://www.regeringen.se/contentassets/7edd1011af6944eda73e62aea7897f04/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-prop.-202526193.pdf"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": false
+     },
+     "beslutad": {
+      "text": "Ett beslut enligt 14 § får innebära avstängning endast under den tid som behövs för en skyndsam utredning av vilka andra åtgärder som kan behövas. En elev får inte stängas av för en längre tidsperiod än två veckor och inte heller vid fler tillfällen än tre gånger per kalenderhalvår.",
+      "paragraf": "5 kap. 15 §",
+      "sfs": "2026:1198",
+      "ikraft": null,
+      "likhet_mot_sou": 1.0,
+      "kalla": {
+       "text": "Skollag (2010:800) 5 kap. 15 § i lydelse enligt SFS 2026:1198; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": false
+     },
+     "status": "oförändrad",
+     "manuell_granskning": false
+    },
+    {
+     "paragraf": "5 kap. 24 §",
+     "sou": {
+      "text": "Om en åtgärd vidtagits enligt 12, 13, 13 b, 14, 15, 16, 17, 18, 19, 20, 21, 22 eller 23 §, ska den dokumenteras skriftligt av den som genomfört åtgärden. Om åtgärden rör omhändertagande av föremål enligt 22 §, gäller denna skyldighet endast om föremålet inte återlämnats efter lektionens slut.",
+      "kalla": {
+       "text": "SOU 2025:8 s. 255 (författningskommentar 7.1)",
+       "url": "https://www.regeringen.se/contentassets/26e05d7491f04788b7f74e4bd86ec011/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-sou-20258.pdf"
+      }
+     },
+     "proposition": {
+      "text": "Om en åtgärd har vidtagits enligt 12, 13, 13 c, 14, 15, 16, 17, 18, 19, 20, 21, 22 eller 23 §, ska den dokumenteras skriftligt av den som har genomfört åtgärden. Om åtgärden rör omhändertagande av föremål enligt 22 §, gäller denna skyldighet endast om föremålet inte har återlämnats efter lektionens slut.",
+      "paragraf": "5 kap. 24 §",
+      "likhet_mot_sou": 0.978,
+      "kalla": {
+       "text": "Prop. 2025/26:193 s. 14, lagförslag 2",
+       "url": "https://www.regeringen.se/contentassets/7edd1011af6944eda73e62aea7897f04/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-prop.-202526193.pdf"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": false
+     },
+     "beslutad": {
+      "text": "Om en åtgärd har vidtagits enligt 12, 13, 13 c, 14, 15, 16, 17, 18, 19, 20, 21, 22 eller 23 §, ska den dokumenteras skriftligt av den som har genomfört åtgärden. Om åtgärden rör omhändertagande av föremål enligt 22 §, gäller denna skyldighet endast om föremålet inte har återlämnats efter lektionens slut.",
+      "paragraf": "5 kap. 24 §",
+      "sfs": "2026:1198",
+      "ikraft": null,
+      "likhet_mot_sou": 0.978,
+      "kalla": {
+       "text": "Skollag (2010:800) 5 kap. 24 § i lydelse enligt SFS 2026:1198; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": false
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "har"
+      },
+      {
+       "op": "ersatt",
+       "fore": "b,",
+       "efter": "c,"
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "har"
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "har"
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": false
+    },
+    {
+     "paragraf": "23 kap. 12 c §",
+     "sou": {
+      "text": "Uppgifter som avser undervisning på en akutskola enligt 5 kap. 13 § får inom grundskolan överlämnas till en annan huvudman inom skolväsendet på entreprenad.",
+      "kalla": {
+       "text": "SOU 2025:8 s. 259 (författningskommentar 7.1)",
+       "url": "https://www.regeringen.se/contentassets/26e05d7491f04788b7f74e4bd86ec011/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-sou-20258.pdf"
+      }
+     },
+     "proposition": {
+      "text": "Uppgifter som avser utbildning av en elev som tillfälligt ges undervisning utanför den egna skolenheten enligt 5 kap. 13 § får inom grundskolan överlämnas på entreprenad till en huvudman inom skolväsendet. Detta gäller bara om 1. undervisningen bedrivs i en akutskola, 2. akutskolan ingår i en skolenhet eller är organisatoriskt knuten till en skolenhet, och 3. akutskolan är inriktad mot att ge undervisning till tillfälligt placerade elever. Med akutskola avses en verksamhet där elever tillfälligt ges undervisning utanför den egna skolenheten enligt 5 kap. 13 §.",
+      "paragraf": "23 kap. 12c §",
+      "likhet_mot_sou": 0.388,
+      "kalla": {
+       "text": "Prop. 2025/26:193 s. 16, lagförslag 2",
+       "url": "https://www.regeringen.se/contentassets/7edd1011af6944eda73e62aea7897f04/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-prop.-202526193.pdf"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "beslutad": {
+      "text": "Uppgifter som avser utbildning av en elev som tillfälligt ges undervisning utanför den egna skolenheten enligt 5 kap. 13 § får inom grundskolan överlämnas på entreprenad till en huvudman inom skolväsendet. Detta gäller bara om 1. undervisningen bedrivs i en akutskola, 2. akutskolan ingår i en skolenhet eller är organisatoriskt knuten till en skolenhet, och 3. akutskolan är inriktad mot att ge undervisning till tillfälligt placerade elever. Med akutskola avses en verksamhet där elever tillfälligt ges undervisning utanför den egna skolenheten enligt 5 kap. 13 §.",
+      "paragraf": "23 kap. 12c §",
+      "sfs": "2026:1198",
+      "ikraft": null,
+      "likhet_mot_sou": 0.388,
+      "kalla": {
+       "text": "Skollag (2010:800) 23 kap. 12c § i lydelse enligt SFS 2026:1198; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "utbildning av en elev som tillfälligt ges"
+      },
+      {
+       "op": "ersatt",
+       "fore": "på en akutskola",
+       "efter": "utanför den egna skolenheten"
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "på entreprenad"
+      },
+      {
+       "op": "struken",
+       "fore": "annan",
+       "efter": null
+      },
+      {
+       "op": "ersatt",
+       "fore": "skolväsendet på entreprenad.",
+       "efter": "skolväsendet. Detta gäller bara om 1. undervisningen bedrivs i en akutskola, 2. akutskolan ingår i en skolenhet eller är organisatoriskt knuten till en skolenhet, och 3. akutskolan är inriktad mot att ge undervisning till tillfälligt placerade elever. Med akutskola avses en verksamhet där elever tillfälligt ges undervisning utanför den egna skolenheten enligt 5 kap. 13 §."
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": true
+    },
+    {
+     "paragraf": "28 kap. 9 §",
+     "sou": {
+      "text": "Beslut av en rektor får överklagas till allmän förvaltningsdomstol i fråga om 1. Nekande av tillträde till skolenheten enligt 5 kap. 13 b §, 2. avstängning av en elev enligt 5 kap. 14, 17 eller 19 §, och 3. befrielse från skyldighet att delta i obligatoriska inslag i undervisningen enligt 7 kap. 19 §.",
+      "kalla": {
+       "text": "SOU 2025:8 s. 259 (författningskommentar 7.1)",
+       "url": "https://www.regeringen.se/contentassets/26e05d7491f04788b7f74e4bd86ec011/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-sou-20258.pdf"
+      }
+     },
+     "proposition": {
+      "text": "Beslut av en rektor får överklagas till allmän förvaltningsdomstol i fråga om 1. nekat tillträde till skolenheten enligt 5 kap. 13 c §, 2. avstängning av en elev enligt 5 kap. 14, 17 eller 19 §, och 3. befrielse från skyldighet att delta i obligatoriska inslag i undervisningen enligt 7 kap. 19 §. Om det överklagade beslutet har fattats av en rektor i en fristående skola ska den enskilde huvudmannen vara den enskildes motpart.",
+      "paragraf": "28 kap. 9 §",
+      "likhet_mot_sou": 0.803,
+      "kalla": {
+       "text": "Prop. 2025/26:193 s. 16, lagförslag 2",
+       "url": "https://www.regeringen.se/contentassets/7edd1011af6944eda73e62aea7897f04/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-prop.-202526193.pdf"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": false
+     },
+     "beslutad": {
+      "text": "Beslut av en rektor får överklagas till allmän förvaltningsdomstol i fråga om 1. nekat tillträde till skolenheten enligt 5 kap. 13 c §, 2. avstängning av en elev enligt 5 kap. 14, 17 eller 19 §, och 3. befrielse från skyldighet att delta i obligatoriska inslag i undervisningen enligt 7 kap. 19 §. Om det överklagade beslutet har fattats av en rektor i en fristående skola ska den enskilde huvudmannen vara den enskildes motpart.",
+      "paragraf": "28 kap. 9 §",
+      "sfs": "2026:1198",
+      "ikraft": null,
+      "likhet_mot_sou": 0.803,
+      "kalla": {
+       "text": "Skollag (2010:800) 28 kap. 9 § i lydelse enligt SFS 2026:1198; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": false
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "ersatt",
+       "fore": "Nekande av",
+       "efter": "nekat"
+      },
+      {
+       "op": "ersatt",
+       "fore": "b",
+       "efter": "c"
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "Om det överklagade beslutet har fattats av en rektor i en fristående skola ska den enskilde huvudmannen vara den enskildes motpart."
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": false
+    }
+   ],
+   "status": "blandad",
+   "status_per_paragraf": {
+    "ändrad": 10,
+    "oförändrad": 1
+   },
+   "status_kalla": {
+    "text": "Härledd per paragraf: SOU:ns föreslagna lydelse jämförd med beslutad lydelse (SFS 2026:1198/1243). Statusvärdet är mekaniskt (textlikhet), inte en bedömning.",
+    "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+   }
+  },
+  {
+   "forslag": "F07",
+   "sou_avsnitt": "5.1",
+   "forslag_kalla": {
+    "text": "SOU 2025:8 s. 185",
+    "url": "https://www.regeringen.se/contentassets/26e05d7491f04788b7f74e4bd86ec011/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-sou-20258.pdf"
+   },
+   "paragrafer": [
+    {
+     "paragraf": "7 kap. 17 §",
+     "sou": {
+      "text": "En elev i förskoleklassen, grundskolan, anpassade grundskolan, specialskolan eller sameskolan ska delta i den verksamhet som anordnas för att ge den avsedda utbildningen, om eleven inte har giltig frånvaro. Den obligatoriska verksamheten får omfatta högst 190 dagar per läsår och åtta timmar eller, i förskoleklassen och de två lägsta årskurserna, sex timmar per dag. Sådan verksamhet får inte förläggas till lördagar, söndagar eller andra helgdagar. Regeringen eller den myndighet som regeringen bestämmer får meddela föreskrifter om giltig frånvaro enligt första stycket och om avvikelser från andra stycket för 1. elever i grundskolan, specialskolan och sameskolan som läser på en högre nivå och även i andra fall för elever i specialskolan, och 2. elever i anpassade grundskolan. Om en elev i förskoleklassen, grundskolan, anpassade grundskolan, specialskolan eller sameskolan utan att ha giltig frånvaro uteblir från den obligatoriska verksamheten, ska rektorn se till att elevens vårdnadshavare samma dag informeras om att eleven har varit frånvarande. Om det finns särskilda skäl behöver elevens vårdnadshavare inte informeras samma dag.",
+      "kalla": {
+       "text": "SOU 2025:8 s. 256 (författningskommentar 7.1)",
+       "url": "https://www.regeringen.se/contentassets/26e05d7491f04788b7f74e4bd86ec011/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-sou-20258.pdf"
+      }
+     },
+     "proposition": {
+      "text": "En elev i grundskolan, anpassade grundskolan eller specialskolan har rätt att slutföra den högsta årskursen, även om skolplikten upphör dessförinnan. En elev i grundskolan, anpassade grundskolan eller specialskolan har också rätt att efter skolpliktens upphörande slutföra utbildningen under ytterligare två år, om eleven inte har tillgodogjort sig de kunskaper som i ämnenas eller ämnesområdenas kursplaner anges i den del som avser mål och innehåll till en nivå som minst motsvarar betyget E eller motsvarande bedömningskriterium för respektive skolform. En elev i anpassade grundskolan har under denna tid rätt till minst 800 timmars undervisning utöver den i 11 kap. 7 § första stycket garanterade undervisningstiden, om eleven inte dessförinnan har tillgodogjort sig de kunskaper som i ämnenas eller ämnesområdenas kursplaner anges i den del som avser mål och innehåll till en nivå som minst motsvarar betyget E eller motsvarande bedömningskriterium. En elev som har tagits emot i specialskolan enligt 6 § första stycket 1 och som på grund av sina funktionsnedsättningar inte kan få tillfredsställande förhållanden i anpassade gymnasieskolan eller gymnasieskolan, får efter det att skolplikten har upphört och i mån av plats genomgå ytterligare utbildning i specialskolan till och med vårterminen det kalenderår eleven fyller 21 år, om eleven inte bedöms ha förmåga att fullfölja utbild-",
+      "paragraf": "7 kap. 15 §",
+      "likhet_mot_sou": 0.204,
+      "kalla": {
+       "text": "Prop. 2025/26:194 s. 13, lagförslag 2.1",
+       "url": "https://www.regeringen.se/contentassets/42c1e2e4596b4f8682e3d8283b91a138/nya-laroplaner--for-en-stark-kunskapsskola-prop.-202526194.pdf"
+      },
+      "matchning": "textlikhet",
+      "manuell_granskning": true
+     },
+     "beslutad": {
+      "text": "En elev i grundskolan, anpassade grundskolan eller specialskolan har rätt att slutföra den högsta årskursen, även om skolplikten upphör dessförinnan. En elev i grundskolan, anpassade grundskolan eller specialskolan har också rätt att efter skolpliktens upphörande slutföra utbildningen under ytterligare två år, om eleven inte har tillgodogjort sig de kunskaper som i ämnenas eller ämnesområdenas kursplaner anges i den del som avser mål och innehåll till en nivå som lägst motsvarar betyget 4 eller motsvarande bedömningskriterium för respektive skolform. En elev i anpassade grundskolan har under denna tid rätt till minst 800 timmars undervisning utöver den i 11 kap. 7 § första stycket garanterade undervisningstiden, om eleven inte dessförinnan har tillgodogjort sig de kunskaper som i ämnenas eller ämnesområdenas kursplaner anges i den del som avser mål och innehåll till en nivå som lägst motsvarar betyget 4 eller motsvarande bedömningskriterium. En elev som har tagits emot i specialskolan enligt 6 § första stycket 1 och som på grund av sina funktionsnedsättningar inte kan få tillfredsställande förhållanden i anpassade gymnasieskolan eller gymnasieskolan, får efter det att skolplikten har upphört och i mån av plats genomgå ytterligare utbildning i specialskolan till och med vårterminen det kalenderår eleven fyller 21 år, om eleven inte bedöms ha förmåga att fullfölja utbildningen enligt andra stycket.",
+      "paragraf": "7 kap. 15 §",
+      "sfs": "2026:1243",
+      "ikraft": "2028-07-02",
+      "likhet_mot_sou": 0.202,
+      "kalla": {
+       "text": "Skollag (2010:800) 7 kap. 15 § i lydelse enligt SFS 2026:1243, träder i kraft 2028-07-02; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "textlikhet",
+      "manuell_granskning": true
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "struken",
+       "fore": "förskoleklassen,",
+       "efter": null
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "grundskolan eller specialskolan har rätt att slutföra den högsta årskursen, även om skolplikten upphör dessförinnan. En elev i"
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "anpassade grundskolan eller"
+      },
+      {
+       "op": "ersatt",
+       "fore": "eller sameskolan ska delta i den verksamhet som anordnas för",
+       "efter": "har också rätt"
+      },
+      {
+       "op": "ersatt",
+       "fore": "ge den avsedda utbildningen,",
+       "efter": "efter skolpliktens upphörande slutföra utbildningen under ytterligare två år,"
+      },
+      {
+       "op": "ersatt",
+       "fore": "giltig frånvaro. Den obligatoriska verksamheten får omfatta högst 190 dagar per läsår",
+       "efter": "tillgodogjort sig de kunskaper som i ämnenas eller ämnesområdenas kursplaner anges i den del som avser mål"
+      },
+      {
+       "op": "ersatt",
+       "fore": "åtta timmar eller,",
+       "efter": "innehåll till en nivå som lägst motsvarar betyget 4 eller motsvarande bedömningskriterium för respektive skolform. En elev"
+      },
+      {
+       "op": "ersatt",
+       "fore": "förskoleklassen och de två lägsta årskurserna, sex timmar per dag. Sådan verksamhet får inte förläggas",
+       "efter": "anpassade grundskolan har under denna tid rätt"
+      },
+      {
+       "op": "ersatt",
+       "fore": "lördagar, söndagar eller andra helgdagar. Regeringen eller",
+       "efter": "minst 800 timmars undervisning utöver"
+      },
+      {
+       "op": "ersatt",
+       "fore": "myndighet som regeringen bestämmer får meddela föreskrifter om giltig frånvaro enligt",
+       "efter": "i 11 kap. 7 §"
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "garanterade undervisningstiden, om eleven inte dessförinnan har tillgodogjort sig de kunskaper som i ämnenas eller ämnesområdenas kursplaner anges i den del som avser mål"
+      },
+      {
+       "op": "ersatt",
+       "fore": "om avvikelser från andra",
+       "efter": "innehåll till en nivå som lägst motsvarar betyget 4 eller motsvarande bedömningskriterium. En elev som har tagits emot i specialskolan enligt 6 § första"
+      },
+      {
+       "op": "ersatt",
+       "fore": "för 1. elever i grundskolan, specialskolan",
+       "efter": "1"
+      },
+      {
+       "op": "struken",
+       "fore": "sameskolan",
+       "efter": null
+      },
+      {
+       "op": "struken",
+       "fore": "läser",
+       "efter": null
+      },
+      {
+       "op": "ersatt",
+       "fore": "en högre nivå och även i andra fall för elever i specialskolan, och 2. elever",
+       "efter": "grund av sina funktionsnedsättningar inte kan få tillfredsställande förhållanden"
+      },
+      {
+       "op": "ersatt",
+       "fore": "grundskolan. Om en elev",
+       "efter": "gymnasieskolan eller gymnasieskolan, får efter det att skolplikten har upphört och"
+      },
+      {
+       "op": "ersatt",
+       "fore": "förskoleklassen, grundskolan, anpassade grundskolan,",
+       "efter": "mån av plats genomgå ytterligare utbildning i"
+      },
+      {
+       "op": "ersatt",
+       "fore": "eller sameskolan utan",
+       "efter": "till och med vårterminen det kalenderår eleven fyller 21 år, om eleven inte bedöms ha förmåga"
+      },
+      {
+       "op": "ersatt",
+       "fore": "ha giltig frånvaro uteblir från den obligatoriska verksamheten, ska rektorn se till att elevens vårdnadshavare samma dag informeras om att eleven har varit frånvarande. Om det finns särskilda skäl behöver elevens vårdnadshavare inte informeras samma dag.",
+       "efter": "fullfölja utbildningen enligt andra stycket."
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": true
+    },
+    {
+     "paragraf": "15 kap. 16 §",
+     "sou": {
+      "text": "En elev i gymnasieskolan ska delta i den verksamhet som anordnas för att ge den avsedda utbildningen, om eleven inte har giltig frånvaro. Regeringen eller den myndighet som regeringen bestämmer får meddela föreskrifter om giltig frånvaro enligt första stycket. Om en elev i gymnasieskolan utan att ha giltig frånvaro uteblir från den verksamhet som anordnas för att ge den avsedda utbildningen, ska rektorn se till att elevens vårdnadshavare samma dag informeras om att eleven har varit frånvarande. Om det finns särskilda skäl behöver elevens vårdnadshavare inte informeras samma dag. Vid upprepad eller längre frånvaro ska rektorn, oavsett om det är fråga om giltig eller ogiltig frånvaro, se till att frånvaron skyndsamt utreds om det inte är obehövligt. Om förutsättningarna för en utredning om särskilt stöd enligt 3 kap. 7 § är uppfyllda ska även en sådan utredning inledas.",
+      "kalla": {
+       "text": "SOU 2025:8 s. 257 (författningskommentar 7.1)",
+       "url": "https://www.regeringen.se/contentassets/26e05d7491f04788b7f74e4bd86ec011/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-sou-20258.pdf"
+      }
+     },
+     "proposition": {
+      "text": "Varje huvudman för en fristående gymnasieskola ska ta emot alla ungdomar som har rätt till den sökta utbildningen i gymnasieskolan. Mottagandet till en viss utbildning får dock begränsas till att avse 1. elever som är i behov av särskilt stöd (resursskola), eller 2. vissa elever som utbildningen är speciellt anpassad för. Huvudmannen för en resursskola ansvarar för att bedöma om en elev är i behov av sådant särskilt stöd som resursskolan erbjuder för att eleven ska kunna tillgodogöra sig de kunskaper som i ämnesplanerna anges i den del som avser syfte och centralt innehåll till en nivå som minst motsvarar betyget E, eller för att eleven ska undvika svårigheter i sin skolsituation. Bestämmelser om särskilt stöd finns i 3 kap. När det gäller programinriktat val som utformas för en enskild elev, yrkesintroduktion, individuellt alternativ och språkintroduktion finns särskilda bestämmelser i 17 kap. 29 § om när huvudmannen för en emot ungdomar som uppfyller Huvudmannen behöver inte ta emot eller ge fortsatt utbildning åt en elev, om hemkommunen har beslutat att inte lämna bidrag för eleven enligt 16 kap. 54 § andra stycket. Regeringen eller den myndighet som regeringen bestämmer får meddela föreskrifter om sådan utbildning som avses i första stycket andra meningen.",
+      "paragraf": "15 kap. 33 §",
+      "likhet_mot_sou": 0.198,
+      "kalla": {
+       "text": "Prop. 2025/26:194 s. 36, lagförslag 2.1",
+       "url": "https://www.regeringen.se/contentassets/42c1e2e4596b4f8682e3d8283b91a138/nya-laroplaner--for-en-stark-kunskapsskola-prop.-202526194.pdf"
+      },
+      "matchning": "textlikhet",
+      "manuell_granskning": true
+     },
+     "beslutad": {
+      "text": "Ungdomar som har ett svårt rörelsehinder har rätt att få utbildning vid en gymnasieskola med Rh-anpassad utbildning om de 1. har slutfört sista årskursen i grundskolan eller motsvarande, 2. kan påbörja utbildningen senast under det första kalenderhalvåret det år de fyller 21 år, och 3. uppfyller de övriga behörighetsvillkor som följer av 16 kap. 29 och 30 §§, när det gäller nationella program. Första stycket 1 gäller inte utbildning i form av ett introduktionsprogram. För att ha rätt till sådan utbildning krävs att grundskoleutbildning eller motsvarande har avslutats.",
+      "paragraf": "15 kap. 36 §",
+      "sfs": "2026:1243",
+      "ikraft": "2028-07-02",
+      "likhet_mot_sou": 0.252,
+      "kalla": {
+       "text": "Skollag (2010:800) 15 kap. 36 § i lydelse enligt SFS 2026:1243, träder i kraft 2028-07-02; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "textlikhet",
+      "manuell_granskning": true
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "ersatt",
+       "fore": "En elev",
+       "efter": "Ungdomar som har ett svårt rörelsehinder har rätt att få utbildning vid en gymnasieskola med Rh-anpassad utbildning om de 1. har slutfört sista årskursen"
+      },
+      {
+       "op": "ersatt",
+       "fore": "gymnasieskolan ska delta",
+       "efter": "grundskolan eller motsvarande, 2. kan påbörja utbildningen senast under det första kalenderhalvåret det år de fyller 21 år, och 3. uppfyller de övriga behörighetsvillkor som följer av 16 kap. 29 och 30 §§, när det gäller nationella program. Första stycket 1 gäller inte utbildning"
+      },
+      {
+       "op": "ersatt",
+       "fore": "den verksamhet som anordnas för att ge den avsedda utbildningen, om eleven inte har giltig frånvaro. Regeringen eller den myndighet som regeringen bestämmer får meddela föreskrifter om giltig frånvaro enligt första stycket. Om en elev i gymnasieskolan utan",
+       "efter": "form av ett introduktionsprogram. För"
+      },
+      {
+       "op": "ersatt",
+       "fore": "giltig frånvaro uteblir från den verksamhet som anordnas för",
+       "efter": "rätt till sådan utbildning krävs"
+      },
+      {
+       "op": "ersatt",
+       "fore": "ge den avsedda utbildningen, ska rektorn se till att elevens vårdnadshavare samma dag informeras om att eleven",
+       "efter": "grundskoleutbildning eller motsvarande"
+      },
+      {
+       "op": "ersatt",
+       "fore": "varit frånvarande. Om det finns särskilda skäl behöver elevens vårdnadshavare inte informeras samma dag. Vid upprepad eller längre frånvaro ska rektorn, oavsett om det är fråga om giltig eller ogiltig frånvaro, se till att frånvaron skyndsamt utreds om det inte är obehövligt. Om förutsättningarna för en utredning om särskilt stöd enligt 3 kap. 7 § är uppfyllda ska även en sådan utredning inledas.",
+       "efter": "avslutats."
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": true
+    },
+    {
+     "paragraf": "18 kap. 16 §",
+     "sou": {
+      "text": "En elev i anpassade gymnasieskolan ska delta i den verksamhet som anordnas för att ge den avsedda utbildningen, om eleven inte har giltig frånvaro. Regeringen eller den myndighet som regeringen bestämmer får meddela föreskrifter om giltig frånvaro enligt första stycket. Om en elev i anpassade gymnasieskolan utan att ha giltig frånvaro uteblir från den verksamhet som anordnas för att ge den avsedda utbildningen, ska rektorn se till att elevens vårdnadshavare samma dag informeras om att eleven har varit frånvarande. Om det finns särskilda skäl behöver elevens vårdnadshavare inte informeras samma dag. Vid upprepad eller längre frånvaro ska rektorn, oavsett om det är fråga om giltig eller ogiltig frånvaro, se till att frånvaron skyndsamt utreds om det inte är obehövligt. Om förutsättningarna för en utredning om särskilt stöd enligt 3 kap. 7 § är uppfyllda ska även en sådan utredning inledas.",
+      "kalla": {
+       "text": "SOU 2025:8 s. 258 (författningskommentar 7.1)",
+       "url": "https://www.regeringen.se/contentassets/26e05d7491f04788b7f74e4bd86ec011/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-sou-20258.pdf"
+      }
+     },
+     "proposition": {
+      "text": "Utbildningen i anpassade gymnasieskolan ska vara öppen för ungdomar vars skolplikt har upphört och som på grund av att de har en intellektuell funktionsnedsättning inte bedöms ha förutsättningar att i gymnasieskolan tillgodogöra sig de kunskaper som i ämnesplanerna anges i den del som avser syfte och centralt innehåll till en nivå som minst motsvarar betyget E. De ungdomar som tillhör målgruppen för anpassade gymnasieskolan har rätt att bli mottagna i anpassad gymnasieskola om utbildningen påbörjas före utgången av det första kalenderhalvåret det år de fyller 20 år.",
+      "paragraf": "18 kap. 4 §",
+      "likhet_mot_sou": 0.289,
+      "kalla": {
+       "text": "Prop. 2025/26:194 s. 37, lagförslag 2.1",
+       "url": "https://www.regeringen.se/contentassets/42c1e2e4596b4f8682e3d8283b91a138/nya-laroplaner--for-en-stark-kunskapsskola-prop.-202526194.pdf"
+      },
+      "matchning": "textlikhet",
+      "manuell_granskning": true
+     },
+     "beslutad": {
+      "text": "Utbildningen i anpassade gymnasieskolan ska vara öppen för ungdomar vars skolplikt har upphört och som på grund av att de har en intellektuell funktionsnedsättning inte bedöms ha förutsättningar att i gymnasieskolan tillgodogöra sig de kunskaper som i ämnesplanerna anges i den del som avser syfte och centralt innehåll till en nivå som lägst motsvarar betyget 4. De ungdomar som tillhör målgruppen för anpassade gymnasieskolan har rätt att bli mottagna i anpassad gymnasieskola om utbildningen påbörjas före utgången av det första kalenderhalvåret det år de fyller 20 år.",
+      "paragraf": "18 kap. 4 §",
+      "sfs": "2026:1243",
+      "ikraft": "2028-07-02",
+      "likhet_mot_sou": 0.287,
+      "kalla": {
+       "text": "Skollag (2010:800) 18 kap. 4 § i lydelse enligt SFS 2026:1243, träder i kraft 2028-07-02; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "textlikhet",
+      "manuell_granskning": true
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "ersatt",
+       "fore": "En elev",
+       "efter": "Utbildningen"
+      },
+      {
+       "op": "ersatt",
+       "fore": "delta",
+       "efter": "vara öppen för ungdomar vars skolplikt har upphört och som på grund av att de har en intellektuell funktionsnedsättning inte bedöms ha förutsättningar att i gymnasieskolan tillgodogöra sig de kunskaper som i ämnesplanerna anges"
+      },
+      {
+       "op": "ersatt",
+       "fore": "verksamhet",
+       "efter": "del"
+      },
+      {
+       "op": "ersatt",
+       "fore": "anordnas",
+       "efter": "avser syfte och centralt innehåll till en nivå som lägst motsvarar betyget 4. De ungdomar som tillhör målgruppen"
+      },
+      {
+       "op": "struken",
+       "fore": "att ge den avsedda utbildningen, om eleven inte har giltig frånvaro. Regeringen eller den myndighet som regeringen bestämmer får meddela föreskrifter om giltig frånvaro enligt första stycket. Om en elev i",
+       "efter": null
+      },
+      {
+       "op": "ersatt",
+       "fore": "utan",
+       "efter": "har rätt"
+      },
+      {
+       "op": "ersatt",
+       "fore": "ha giltig frånvaro uteblir från den verksamhet som anordnas för att ge den avsedda utbildningen, ska rektorn se till att elevens vårdnadshavare samma dag informeras",
+       "efter": "bli mottagna i anpassad gymnasieskola"
+      },
+      {
+       "op": "ersatt",
+       "fore": "att eleven har varit frånvarande. Om",
+       "efter": "utbildningen påbörjas före utgången av"
+      },
+      {
+       "op": "ersatt",
+       "fore": "finns särskilda skäl behöver elevens vårdnadshavare inte informeras samma dag. Vid upprepad eller längre frånvaro ska rektorn, oavsett om",
+       "efter": "första kalenderhalvåret"
+      },
+      {
+       "op": "ersatt",
+       "fore": "är fråga om giltig eller ogiltig frånvaro, se till att frånvaron skyndsamt utreds om det inte är obehövligt. Om förutsättningarna för en utredning om särskilt stöd enligt 3 kap. 7 § är uppfyllda ska även en sådan utredning inledas.",
+       "efter": "år de fyller 20 år."
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": true
+    }
+   ],
+   "status": "ändrad",
+   "status_per_paragraf": {
+    "ändrad": 3
+   },
+   "status_kalla": {
+    "text": "Härledd per paragraf: SOU:ns föreslagna lydelse jämförd med beslutad lydelse (SFS 2026:1198/1243). Statusvärdet är mekaniskt (textlikhet), inte en bedömning.",
+    "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+   }
+  },
+  {
+   "forslag": "F08",
+   "sou_avsnitt": "5.2",
+   "forslag_kalla": {
+    "text": "SOU 2025:8 s. 192",
+    "url": "https://www.regeringen.se/contentassets/26e05d7491f04788b7f74e4bd86ec011/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-sou-20258.pdf"
+   },
+   "paragrafer": [],
+   "status": "ej i SFS per 2026-11-10",
+   "status_kalla": {
+    "text": "Ingen paragraf i SOU:ns författningskommentar till skollagen (7.1) hänvisar till avsnitt 5.2 — förslaget avser förordningsnivå. Konsoliderade förordningar hämtade 2026-11-10 innehåller inte utredningens föreslagna bestämmelser om giltig och ogiltig frånvaro (0 träffar på \"ogiltig frånvaro\"): Skolförordning (2011:185); Gymnasieförordning (2010:2039); Förordning (2015:195) om ett nationellt informationssystem för skolväsendet",
+    "url": "https://data.riksdagen.se/dokument/sfs-2011-185.text",
+    "ovriga_urler": [
+     "https://data.riksdagen.se/dokument/sfs-2010-2039.text",
+     "https://data.riksdagen.se/dokument/sfs-2015-195.text"
+    ]
+   }
+  }
+ ]
+}

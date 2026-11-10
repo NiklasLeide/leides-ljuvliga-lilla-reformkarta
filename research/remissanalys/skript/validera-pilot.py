@@ -12,7 +12,8 @@ Kontroller:
     måste ha källa: utmaning, sakområde, namnträff i propositionen, sökt propositionsavsnitt, propositionsavsnitt,
     utredningsförslag, SFS-status som inte är null, lagparagrafens SOU-/propositions-/beslutade lydelse,
     avsändarens remissvar, kedjans led, opublicerat remissvar
- 5. inga nycklar eller strängvärden innehåller orden "löst", "kvarstår" eller "bemött tillräckligt"
+ 5. inga nycklar eller strängvärden innehåller orden "löst", "kvarstår" eller "bemött tillräckligt"; undantag: ordagrann
+    källtext (fälten citat, text, avvikelsetext, fore, efter), som återges oförändrad (Sprint 17 T2)
  6. varje propositionsavsnitts rubrik återfinns, fullständig, i respektive propositions innehållsförteckning
     (research/remissanalys/reformer/<id>/propositioner-innehall.json, extraherad oberoende av avsnittstexten)
 Avslutar med kod 0 om allt går igenom, annars 1 och en lista över fel."""
@@ -108,9 +109,10 @@ def walk(o, path):
             walk(v, f'{path}/{k}')
     elif isinstance(o, list):
         for i, v in enumerate(o): walk(v, f'{path}[{i}]')
-    elif isinstance(o, str) and RX.search(o):
+    elif isinstance(o, str) and RX.search(o) and path.rsplit('/', 1)[-1].split('[')[0] not in ORDAGRANT:
         F(f'förbjudet ord i värde {path}: "{RX.search(o).group(0)}"')
 RX = re.compile(r'\b(löst|kvarstår)\b|bemött tillräckligt', re.I)
+ORDAGRANT = {'citat', 'text', 'avvikelsetext', 'fore', 'efter'}   # ordagrann källtext
 walk(d, '')
 
 if fel:

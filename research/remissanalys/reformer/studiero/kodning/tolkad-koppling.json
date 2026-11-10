@@ -1,0 +1,852 @@
+{
+ "_meta": {
+  "steg": "M3 tolkad koppling till utredningsförslag för utmaningar utan egen hänvisning (modellkodning, Sprint 17; två kodare, KODINSTRUKTION.md)",
+  "tolkning": true
+ },
+ "kopplingar": [
+  {
+   "uid": "U001",
+   "forslag": null,
+   "motivering": "Generellt om ledarskap, inget enskilt förslag"
+  },
+  {
+   "uid": "U002",
+   "forslag": null,
+   "motivering": "Generellt behov av ledarskapsutveckling"
+  },
+  {
+   "uid": "U003",
+   "forslag": null,
+   "motivering": "Generell avvägning mellan studiero och stöd"
+  },
+  {
+   "uid": "U004",
+   "forslag": [
+    "F06"
+   ],
+   "motivering": "Risk för överanvändning av omplaceringar och avstängningar"
+  },
+  {
+   "uid": "U014",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Borttaget dokumentationskrav för kvarsittningar och utvisningar"
+  },
+  {
+   "uid": "U015",
+   "forslag": [
+    "F06"
+   ],
+   "motivering": "Oklart vad synnerliga skäl innebär vid nekat tillträde"
+  },
+  {
+   "uid": "U016",
+   "forslag": [
+    "F01"
+   ],
+   "motivering": "Rektors utökade ansvar för trygghet och studiero ger administration"
+  },
+  {
+   "uid": "U017",
+   "forslag": null,
+   "motivering": "Gäller huvudmannens organisation, inget enskilt förslag"
+  },
+  {
+   "uid": "U018",
+   "forslag": null,
+   "motivering": "Statsbidragens utformning, inget enskilt förslag"
+  },
+  {
+   "uid": "U019",
+   "forslag": [
+    "F06"
+   ],
+   "motivering": "Akutskola svår att finansiera för mindre kommun"
+  },
+  {
+   "uid": "U020",
+   "forslag": [
+    "F06"
+   ],
+   "motivering": "Akutskola på entreprenad ger långa avstånd och skolskjutskostnader"
+  },
+  {
+   "uid": "U021",
+   "forslag": null,
+   "motivering": "Ekonomisk kompensation generellt"
+  },
+  {
+   "uid": "U022",
+   "forslag": [
+    "F03",
+    "F05"
+   ],
+   "motivering": "Förväntansdokument och utvisning ur klassrummet nämns uttryckligen"
+  },
+  {
+   "uid": "U027",
+   "forslag": [
+    "F04"
+   ],
+   "motivering": "Konsekvenser kopplade till skolreglerna"
+  },
+  {
+   "uid": "U036",
+   "forslag": [
+    "F01"
+   ],
+   "motivering": "Rektors ansvar för trygghet och studiero, tidsbrist"
+  },
+  {
+   "uid": "U037",
+   "forslag": [
+    "F01"
+   ],
+   "motivering": "Rektors ansvar kräver bortprioritering av andra uppgifter"
+  },
+  {
+   "uid": "U038",
+   "forslag": [
+    "F01"
+   ],
+   "motivering": "Rektors ansvar saknar plan för resurser"
+  },
+  {
+   "uid": "U039",
+   "forslag": [
+    "F01"
+   ],
+   "motivering": "Rektors ansvar ökar trycket på rektorsrollen"
+  },
+  {
+   "uid": "U040",
+   "forslag": [
+    "F01"
+   ],
+   "motivering": "Små skolor och rektors ökade ansvar"
+  },
+  {
+   "uid": "U041",
+   "forslag": [
+    "F01"
+   ],
+   "motivering": "Rektors ansvar, lektionsobservationer enbart av rektor"
+  },
+  {
+   "uid": "U042",
+   "forslag": [
+    "F01"
+   ],
+   "motivering": "Rektors ansvar orimligt i stor skolorganisation"
+  },
+  {
+   "uid": "U043",
+   "forslag": [
+    "F01"
+   ],
+   "motivering": "Förutsättningar för rektors ansvar saknar konkret lösning"
+  },
+  {
+   "uid": "U044",
+   "forslag": [
+    "F01"
+   ],
+   "motivering": "Rektors ökade ansvar utan resurser"
+  },
+  {
+   "uid": "U045",
+   "forslag": [
+    "F01"
+   ],
+   "motivering": "Rektors ansvar kräver strukturella förändringar"
+  },
+  {
+   "uid": "U046",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Rektor ska ge förutsättningar för tillfälliga åtgärder, personalbehov"
+  },
+  {
+   "uid": "U047",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Rektors förutsättningsansvar för åtgärder ger tidsbörda"
+  },
+  {
+   "uid": "U048",
+   "forslag": [
+    "F08"
+   ],
+   "motivering": "Administrativ börda av nationellt frånvaroregister"
+  },
+  {
+   "uid": "U049",
+   "forslag": [
+    "F07"
+   ],
+   "motivering": "Definition av giltig och ogiltig frånvaro"
+  },
+  {
+   "uid": "U050",
+   "forslag": [
+    "F07",
+    "F08"
+   ],
+   "motivering": "Registrering av giltig frånvaro hindras av dataskydd"
+  },
+  {
+   "uid": "U051",
+   "forslag": null,
+   "motivering": "Finansiering av ändringar generellt"
+  },
+  {
+   "uid": "U052",
+   "forslag": null,
+   "motivering": "Generella resursskillnader mellan skolor"
+  },
+  {
+   "uid": "U053",
+   "forslag": null,
+   "motivering": "Generell risk för godtycklig regeltillämpning"
+  },
+  {
+   "uid": "U054",
+   "forslag": null,
+   "motivering": "Generell implementering i utsatta områden"
+  },
+  {
+   "uid": "U055",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Borttaget dokumentationskrav minskar spårbarhet"
+  },
+  {
+   "uid": "U056",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Borttaget dokumentationskrav ger inget skriftligt underlag"
+  },
+  {
+   "uid": "U057",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Borttaget dokumentationskrav försvårar mönsteranalys"
+  },
+  {
+   "uid": "U058",
+   "forslag": [
+    "F06"
+   ],
+   "motivering": "Merkostnader för fjärr- och distansundervisning vid nekat tillträde"
+  },
+  {
+   "uid": "U059",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Borttaget dokumentationskrav tar bort systematisk informationsinsamling"
+  },
+  {
+   "uid": "U060",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Egna dokumentationsrutiner efter borttaget dokumentationskrav"
+  },
+  {
+   "uid": "U061",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Personal för elever utanför klassrummet, organisering oklar"
+  },
+  {
+   "uid": "U062",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Stödpersonal för ordningsåtgärder belastar resurssvaga skolor"
+  },
+  {
+   "uid": "U063",
+   "forslag": null,
+   "motivering": "Generell fråga om avlastning och exkludering"
+  },
+  {
+   "uid": "U064",
+   "forslag": null,
+   "motivering": "Generell avvägning mellan trygghet och inkludering"
+  },
+  {
+   "uid": "U065",
+   "forslag": null,
+   "motivering": "Generellt om relationsskapande arbete"
+  },
+  {
+   "uid": "U070",
+   "forslag": [
+    "F06"
+   ],
+   "motivering": "Förslagen i avsnitt 4.1 ger organisatoriska och ekonomiska utmaningar"
+  },
+  {
+   "uid": "U071",
+   "forslag": [
+    "F06"
+   ],
+   "motivering": "Begränsade möjligheter att organisera akutskola"
+  },
+  {
+   "uid": "U072",
+   "forslag": null,
+   "motivering": "Gäller mobbningsbegreppet, saknas bland förslagen"
+  },
+  {
+   "uid": "U073",
+   "forslag": [
+    "F04",
+    "F05"
+   ],
+   "motivering": "Skolregler, konsekvensplan och förväntansdokument ger administration"
+  },
+  {
+   "uid": "U079",
+   "forslag": [
+    "F06"
+   ],
+   "motivering": "Tillgång till akutskolor för placering"
+  },
+  {
+   "uid": "U080",
+   "forslag": [
+    "F06"
+   ],
+   "motivering": "Placering av allvarligt störande elev vid små fristående skolor"
+  },
+  {
+   "uid": "U081",
+   "forslag": [
+    "F06"
+   ],
+   "motivering": "Akutskolor saknas i delar av landet"
+  },
+  {
+   "uid": "U082",
+   "forslag": [
+    "F06"
+   ],
+   "motivering": "Tidsgräns för placering vid akutskola"
+  },
+  {
+   "uid": "U083",
+   "forslag": [
+    "F06"
+   ],
+   "motivering": "Kort placeringstid vid akutskola"
+  },
+  {
+   "uid": "U085",
+   "forslag": null,
+   "motivering": "Generellt om samverkan med andra aktörer"
+  },
+  {
+   "uid": "U086",
+   "forslag": [
+    "F08"
+   ],
+   "motivering": "Nationellt frånvaroregister, integritet och administration"
+  },
+  {
+   "uid": "U087",
+   "forslag": [
+    "F06"
+   ],
+   "motivering": "Hantering av elever som stängs av eller placeras"
+  },
+  {
+   "uid": "U088",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Förväntansdokument som ansvarsförskjutning"
+  },
+  {
+   "uid": "U089",
+   "forslag": [
+    "F04"
+   ],
+   "motivering": "Skolreglernas förhållande till lagstiftning"
+  },
+  {
+   "uid": "U090",
+   "forslag": null,
+   "motivering": "Resurser generellt"
+  },
+  {
+   "uid": "U091",
+   "forslag": null,
+   "motivering": "Finansiering generellt"
+  },
+  {
+   "uid": "U092",
+   "forslag": [
+    "F06"
+   ],
+   "motivering": "Strukturer för omplaceringar och avstängningar"
+  },
+  {
+   "uid": "U103",
+   "forslag": [
+    "F01"
+   ],
+   "motivering": "Ansvaret för trygghet och studiero läggs på rektorn"
+  },
+  {
+   "uid": "U104",
+   "forslag": null,
+   "motivering": "Generell samordning mellan skollag och läroplan"
+  },
+  {
+   "uid": "U105",
+   "forslag": null,
+   "motivering": "Många samtidiga betänkanden"
+  },
+  {
+   "uid": "U132",
+   "forslag": [
+    "F08"
+   ],
+   "motivering": "Komplexitet och kostnader för nationellt frånvaroregister"
+  },
+  {
+   "uid": "U133",
+   "forslag": [
+    "F07",
+    "F08"
+   ],
+   "motivering": "Systemändringar för att registrera giltig och ogiltig frånvaro"
+  },
+  {
+   "uid": "U134",
+   "forslag": [
+    "F08"
+   ],
+   "motivering": "Likvärdig rapportering till frånvaroregister"
+  },
+  {
+   "uid": "U140",
+   "forslag": null,
+   "motivering": "Skolsociala team, saknas bland förslagen"
+  },
+  {
+   "uid": "U141",
+   "forslag": null,
+   "motivering": "Gäller förskolan generellt, inget enskilt förslag"
+  },
+  {
+   "uid": "U142",
+   "forslag": null,
+   "motivering": "Förskolans särart generellt, inget enskilt förslag"
+  },
+  {
+   "uid": "U143",
+   "forslag": null,
+   "motivering": "Många samtidiga betänkanden, generell synpunkt"
+  },
+  {
+   "uid": "U144",
+   "forslag": null,
+   "motivering": "Läroplansändringar saknas, gäller inget enskilt förslag"
+  },
+  {
+   "uid": "U145",
+   "forslag": null,
+   "motivering": "Kränkande behandling i annan utredning, inget förslag här"
+  },
+  {
+   "uid": "U146",
+   "forslag": [
+    "F04",
+    "F05"
+   ],
+   "motivering": "Konsekvensplan och förväntansdokument ökar lärarnas arbetsbörda"
+  },
+  {
+   "uid": "U147",
+   "forslag": [
+    "F02"
+   ],
+   "motivering": "Vårdnadshavares inflytande i begränsad omfattning behöver tydliggöras"
+  },
+  {
+   "uid": "U148",
+   "forslag": [
+    "F04"
+   ],
+   "motivering": "Orosanmälan som konsekvens i skolregelns konsekvensplan"
+  },
+  {
+   "uid": "U149",
+   "forslag": [
+    "F06"
+   ],
+   "motivering": "Fjärr- eller distansundervisning när elev nekas tillträde"
+  },
+  {
+   "uid": "U150",
+   "forslag": [
+    "F06"
+   ],
+   "motivering": "Nekat tillträde kan pågå länge utan tidsgräns"
+  },
+  {
+   "uid": "U151",
+   "forslag": null,
+   "motivering": "Skolsociala team är inte ett förslag i listan"
+  },
+  {
+   "uid": "U152",
+   "forslag": null,
+   "motivering": "Generellt behov av kompletterande reformer och stödmaterial"
+  },
+  {
+   "uid": "U153",
+   "forslag": null,
+   "motivering": "Finansiering i allmänhet"
+  },
+  {
+   "uid": "U154",
+   "forslag": null,
+   "motivering": "Omfördelning av statsbidrag, kostnader i allmänhet"
+  },
+  {
+   "uid": "U155",
+   "forslag": null,
+   "motivering": "Särskilt stöd och elevhälsa ligger utanför förslagen"
+  },
+  {
+   "uid": "U156",
+   "forslag": null,
+   "motivering": "Rektors samlade arbetsuppgifter av förslagen i stort"
+  },
+  {
+   "uid": "U157",
+   "forslag": null,
+   "motivering": "Rektors utökade ansvar av förslagen i stort"
+  },
+  {
+   "uid": "U160",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Borttaget dokumentationskrav för kvarsittning och utvisning"
+  },
+  {
+   "uid": "U161",
+   "forslag": [
+    "F06"
+   ],
+   "motivering": "Utökad avstängning, placering och nekat tillträde behöver förtydligas"
+  },
+  {
+   "uid": "U162",
+   "forslag": [
+    "F02"
+   ],
+   "motivering": "Begränsat vårdnadshavarinflytande kan flytta kontakter till rektor"
+  },
+  {
+   "uid": "U163",
+   "forslag": null,
+   "motivering": "Kostnadsbedömningen i stort, flera förslag"
+  },
+  {
+   "uid": "U164",
+   "forslag": null,
+   "motivering": "Kostnadsberäkningarna generellt för låga"
+  },
+  {
+   "uid": "U165",
+   "forslag": null,
+   "motivering": "Extra personalkostnader, inget enskilt förslag pekas ut"
+  },
+  {
+   "uid": "U166",
+   "forslag": null,
+   "motivering": "Ökat behov av resurser generellt, svag koppling"
+  },
+  {
+   "uid": "U167",
+   "forslag": null,
+   "motivering": "Finansiering via statsbidrag, kostnader i allmänhet"
+  },
+  {
+   "uid": "U168",
+   "forslag": null,
+   "motivering": "Elevpeng och små kommuner, finansiering i allmänhet"
+  },
+  {
+   "uid": "U169",
+   "forslag": [
+    "F08"
+   ],
+   "motivering": "Nationellt frånvaroregister behöver utredas eller förtydligas"
+  },
+  {
+   "uid": "U188",
+   "forslag": [
+    "F06"
+   ],
+   "motivering": "Akutskola på entreprenad till annan huvudman"
+  },
+  {
+   "uid": "U189",
+   "forslag": [
+    "F06"
+   ],
+   "motivering": "Akutskola på entreprenad till annan huvudman"
+  },
+  {
+   "uid": "U190",
+   "forslag": [
+    "F06"
+   ],
+   "motivering": "Beslut om nekat tillträde gäller tills vidare"
+  },
+  {
+   "uid": "U191",
+   "forslag": null,
+   "motivering": "Finansieringsprincipen generellt"
+  },
+  {
+   "uid": "U194",
+   "forslag": null,
+   "motivering": "Finansieringsprincipen generellt"
+  },
+  {
+   "uid": "U195",
+   "forslag": null,
+   "motivering": "Ekonomiska konsekvenser i allmänhet"
+  },
+  {
+   "uid": "U196",
+   "forslag": null,
+   "motivering": "Gymnasieskolan och disciplinära åtgärder generellt"
+  },
+  {
+   "uid": "U210",
+   "forslag": [
+    "F06"
+   ],
+   "motivering": "Längre avstängning och kompensation för utebliven undervisning"
+  },
+  {
+   "uid": "U211",
+   "forslag": [
+    "F06"
+   ],
+   "motivering": "Kompensation vid avstängning så långt det är möjligt"
+  },
+  {
+   "uid": "U212",
+   "forslag": [
+    "F06"
+   ],
+   "motivering": "Praktiskt genomförande när elev nekas tillträde"
+  },
+  {
+   "uid": "U213",
+   "forslag": null,
+   "motivering": "Mobbningsbegreppet är en bedömning, inget förslag i listan"
+  },
+  {
+   "uid": "U217",
+   "forslag": null,
+   "motivering": "Finansiering och kostnadsberäkningar generellt"
+  },
+  {
+   "uid": "U218",
+   "forslag": [
+    "F06"
+   ],
+   "motivering": "Kostnad för akutskola vid förlängd placering"
+  },
+  {
+   "uid": "U219",
+   "forslag": [
+    "F06"
+   ],
+   "motivering": "Ersättning för förlängd placering i akutskola"
+  },
+  {
+   "uid": "U220",
+   "forslag": null,
+   "motivering": "Finansiering via riktade statsbidrag generellt"
+  },
+  {
+   "uid": "U221",
+   "forslag": null,
+   "motivering": "Minskat statsbidrag, finansiering generellt"
+  },
+  {
+   "uid": "U222",
+   "forslag": null,
+   "motivering": "Ikraftträdande och samordning med andra reformer"
+  },
+  {
+   "uid": "U223",
+   "forslag": [
+    "F04"
+   ],
+   "motivering": "Gemensamma förhållningssätt och regler kräver tid"
+  },
+  {
+   "uid": "U224",
+   "forslag": null,
+   "motivering": "Statlig ekonomisk kompensation generellt"
+  },
+  {
+   "uid": "U225",
+   "forslag": null,
+   "motivering": "Rektors arbetsbelastning av regeländringarna i stort"
+  },
+  {
+   "uid": "U226",
+   "forslag": null,
+   "motivering": "Ikraftträdande, budget och stödmaterial generellt"
+  },
+  {
+   "uid": "U227",
+   "forslag": null,
+   "motivering": "Små kommuner deltog inte i utredningen"
+  },
+  {
+   "uid": "U228",
+   "forslag": null,
+   "motivering": "Rektors arbetsbelastning av utredningen i helhet"
+  },
+  {
+   "uid": "U234",
+   "forslag": null,
+   "motivering": "Finansiering via statsbidrag generellt"
+  },
+  {
+   "uid": "U235",
+   "forslag": [
+    "F02"
+   ],
+   "motivering": "Begränsat vårdnadshavarinflytande och samarbete med hemmet"
+  },
+  {
+   "uid": "U236",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Undervisning och ansvar för elev som visas ut"
+  },
+  {
+   "uid": "U237",
+   "forslag": [
+    "F06"
+   ],
+   "motivering": "Likvärdiga kriterier för placering i akutskola"
+  },
+  {
+   "uid": "U238",
+   "forslag": [
+    "F06"
+   ],
+   "motivering": "Akutskola på entreprenad eller via fjärrundervisning"
+  },
+  {
+   "uid": "U239",
+   "forslag": [
+    "F08"
+   ],
+   "motivering": "Publicering av frånvaroregister och elevers integritet"
+  },
+  {
+   "uid": "U240",
+   "forslag": null,
+   "motivering": "Ikraftträdande och små kommuners resurser generellt"
+  },
+  {
+   "uid": "U241",
+   "forslag": null,
+   "motivering": "Resurser och kompetensutveckling generellt"
+  },
+  {
+   "uid": "U254",
+   "forslag": [
+    "F04",
+    "F03"
+   ],
+   "motivering": "Elevinflytande över skolregler och borttagen dokumentation"
+  },
+  {
+   "uid": "U255",
+   "forslag": null,
+   "motivering": "Disciplinära åtgärder generellt, inget enskilt förslag"
+  },
+  {
+   "uid": "U256",
+   "forslag": [
+    "F04"
+   ],
+   "motivering": "Införande av skolregler och konsekvensplaner"
+  },
+  {
+   "uid": "U257",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Utvisning utan uppmaning vid allvarlig händelse"
+  },
+  {
+   "uid": "U258",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Tillsyn av utvisade elever vid utvisning utan uppmaning"
+  },
+  {
+   "uid": "U259",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Borttaget dokumentationskrav vid utvisning och kvarsittning"
+  },
+  {
+   "uid": "U260",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Borttaget dokumentationskrav försvårar uppföljning"
+  },
+  {
+   "uid": "U261",
+   "forslag": [
+    "F06"
+   ],
+   "motivering": "Fjärr- eller distansundervisning vid nekat tillträde"
+  },
+  {
+   "uid": "U262",
+   "forslag": [
+    "F04"
+   ],
+   "motivering": "Skolregler förankras endast hos eleverna"
+  },
+  {
+   "uid": "U263",
+   "forslag": null,
+   "motivering": "Statlig finansiering av merkostnader generellt"
+  }
+ ]
+}

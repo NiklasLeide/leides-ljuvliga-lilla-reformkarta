@@ -1,0 +1,313 @@
+{
+ "_meta": {
+  "beskrivning": "Propositionens stycke \"Utredningens förslag\" (prop. 194: \"Utredningen om stärkt trygghet och studiero i skolans förslag\") per avsnitt med regeringens förslags-/bedömningsruta, ordagrant fram till nästa underrubrik.",
+  "overensstammelse": "propositionens exakta fras",
+  "avvikelse_beskriven": "true om stycket innehåller fler meningar än den inledande om överensstämmelse (mekaniskt)"
+ },
+ "avsnitt": [
+  {
+   "proposition": "Prop. 2025/26:193",
+   "avsnitt": "6.1",
+   "rubrik": "Det behövs en tydligare reglering av",
+   "forslag_i_avsnittet": [
+    "F01",
+    "F03"
+   ],
+   "rubrik_i_propositionen": "Utredningens förslag",
+   "text": "Förslaget från utredningen stämmer delvis överens med regeringens. Utredningen föreslår en annan utformning av rektorns ansvar och inga förändringar av huvudmannens ansvar. Utredningen föreslår även en annan utformning av det befintliga bemyndigandet för regeringen eller den myndighet som regeringen bestämmer att meddela föreskrifter om det förebyggande arbetet. Utredningen föreslår även att rektorn ska se till att det finns förutsättningar för skolans personal att vidta de tillfälliga och omedelbara åtgärder som krävs för att tillförsäkra elever och personal trygghet och studiero.",
+   "overensstammelse": "stämmer delvis överens",
+   "avvikelse_beskriven": true,
+   "kalla": {
+    "text": "Prop. 2025/26:193 s. 32, avsnitt 6.1 ”Utredningens förslag”",
+    "url": "https://www.regeringen.se/contentassets/7edd1011af6944eda73e62aea7897f04/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-prop.-202526193.pdf"
+   },
+   "sida": [
+    32
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 9
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:193",
+   "avsnitt": "6.2.1",
+   "rubrik": "Lärarna ska få utökade möjligheter att visa ut",
+   "forslag_i_avsnittet": [
+    "F03"
+   ],
+   "rubrik_i_propositionen": "Utredningens förslag",
+   "text": "Förslaget från utredningen stämmer i huvudsak överens med regeringens. Utredningens förslag innebär att läraren får visa ut en elev ur undervisningslokalen utan att först ha uppmanat eleven att ändra sitt uppförande när det är fråga om en allvarlig händelse där det förekommit hot eller våld eller kränkande behandling, trakasserier eller sexuella trakasserier. Utredningens förslag innebär dock inte att även annan personal får visa ut en elev vid sådana händelser i de fall ingen lärare eller handledare är närvarande i lokalen.",
+   "overensstammelse": "stämmer i huvudsak överens",
+   "avvikelse_beskriven": true,
+   "kalla": {
+    "text": "Prop. 2025/26:193 s. 43, 44, avsnitt 6.2.1 ”Utredningens förslag”",
+    "url": "https://www.regeringen.se/contentassets/7edd1011af6944eda73e62aea7897f04/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-prop.-202526193.pdf"
+   },
+   "sida": [
+    43,
+    44
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 8
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:193",
+   "avsnitt": "6.2.2",
+   "rubrik": "Utvisning och kvarsittning ska inte behöva",
+   "forslag_i_avsnittet": [
+    "F03"
+   ],
+   "rubrik_i_propositionen": "Utredningens förslag",
+   "text": "Förslaget från utredningen stämmer överens med regeringens.",
+   "overensstammelse": "stämmer överens",
+   "avvikelse_beskriven": false,
+   "kalla": {
+    "text": "Prop. 2025/26:193 s. 52, avsnitt 6.2.2 ”Utredningens förslag”",
+    "url": "https://www.regeringen.se/contentassets/7edd1011af6944eda73e62aea7897f04/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-prop.-202526193.pdf"
+   },
+   "sida": [
+    52
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 1
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:193",
+   "avsnitt": "6.4.1",
+   "rubrik": "Skolornas regler ska bli mer ändamålsenliga,",
+   "forslag_i_avsnittet": [
+    "F04"
+   ],
+   "rubrik_i_propositionen": "Utredningens förslag",
+   "text": "Förslaget från utredningen stämmer i huvudsak överens med regeringens. Utredningens förslag omfattar inte öppen fritidsverksamhet. Utredningens förslag har en annan språklig och redaktionell utformning.",
+   "overensstammelse": "stämmer i huvudsak överens",
+   "avvikelse_beskriven": true,
+   "kalla": {
+    "text": "Prop. 2025/26:193 s. 76, avsnitt 6.4.1 ”Utredningens förslag”",
+    "url": "https://www.regeringen.se/contentassets/7edd1011af6944eda73e62aea7897f04/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-prop.-202526193.pdf"
+   },
+   "sida": [
+    76
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 3
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:193",
+   "avsnitt": "6.4.2",
+   "rubrik": "Skolans förväntningar på eleverna och deras",
+   "forslag_i_avsnittet": [
+    "F05"
+   ],
+   "rubrik_i_propositionen": "Utredningens förslag",
+   "text": "Förslaget från utredningen stämmer i huvudsak överens med regeringens. Utredningen föreslår inte att rektorn ska vara ansvarig för att förväntansdokumentet tas fram. Vidare föreslår utredningen att vårdnadshavare och elever ska informeras om innehållet i förväntansdokumentet varje termin. Utredningens förslag har även en annan språklig utformning.",
+   "overensstammelse": "stämmer i huvudsak överens",
+   "avvikelse_beskriven": true,
+   "kalla": {
+    "text": "Prop. 2025/26:193 s. 88, 89, avsnitt 6.4.2 ”Utredningens förslag”",
+    "url": "https://www.regeringen.se/contentassets/7edd1011af6944eda73e62aea7897f04/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-prop.-202526193.pdf"
+   },
+   "sida": [
+    88,
+    89
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 6
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:193",
+   "avsnitt": "7.1",
+   "rubrik": "Det ska bli möjligt att tillfälligt omplacera",
+   "forslag_i_avsnittet": [
+    "F06"
+   ],
+   "rubrik_i_propositionen": "Utredningens förslag",
+   "text": "Förslaget från utredningen stämmer delvis överens med regeringens. Utredningen föreslår inte att en omplacering inom den egna skolenheten ska få gälla fyra veckor in på nästa termin om det återstår kortare tid än fyra veckor av terminen när åtgärden vidtas. Utredningen föreslår inte heller att det ska regleras vem som ska ansvara för att det vid en placering utanför den egna skolenheten tas fram en plan för att stödja elevens återgång till ordinarie skolgång efter den tillfälliga placeringen. Utredningens förslag har även en annan språklig utformning.",
+   "overensstammelse": "stämmer delvis överens",
+   "avvikelse_beskriven": true,
+   "kalla": {
+    "text": "Prop. 2025/26:193 s. 97, 98, avsnitt 7.1 ”Utredningens förslag”",
+    "url": "https://www.regeringen.se/contentassets/7edd1011af6944eda73e62aea7897f04/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-prop.-202526193.pdf"
+   },
+   "sida": [
+    97,
+    98
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 8
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:193",
+   "avsnitt": "7.2",
+   "rubrik": "Akutskola ska få överlämnas till en annan",
+   "forslag_i_avsnittet": [
+    "F06"
+   ],
+   "rubrik_i_propositionen": "Utredningens förslag",
+   "text": "Förslaget från utredningen stämmer i huvudsak överens med regeringens. Utredningen föreslår att endast uppgifter som avser undervisning ska få överlämnas på entreprenad. Utredningen föreslår inte att ett krav för att akutskola ska få överlämnas på entreprenad ska vara att akutskolan är inriktad mot att ge undervisning till elever som tillfälligt placerats utanför den egna skolenheten. Utredningens förslag har också en annan språklig utformning. Utredningen definierar akutskola som en organisatorisk lösning som är knuten till en skolenhet där en elev i grundskolan tillfälligt ska ges undervisning utanför den egna skolenheten enligt 5 kap. 13 §.",
+   "overensstammelse": "stämmer i huvudsak överens",
+   "avvikelse_beskriven": true,
+   "kalla": {
+    "text": "Prop. 2025/26:193 s. 104, 105, avsnitt 7.2 ”Utredningens förslag”",
+    "url": "https://www.regeringen.se/contentassets/7edd1011af6944eda73e62aea7897f04/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-prop.-202526193.pdf"
+   },
+   "sida": [
+    104,
+    105
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 10
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:193",
+   "avsnitt": "7.3",
+   "rubrik": "Fler och längre avstängningar ska möjliggöras",
+   "forslag_i_avsnittet": [
+    "F06"
+   ],
+   "rubrik_i_propositionen": "Utredningens förslag",
+   "text": "Förslaget från utredningen stämmer delvis överens med regeringens förslag. Utredningen har även föreslagit att reglerna om kompensationsundervisning ska ändras på så sätt att det anges att sådan undervisning ska erbjudas så långt det är möjligt.",
+   "overensstammelse": "stämmer delvis överens",
+   "avvikelse_beskriven": true,
+   "kalla": {
+    "text": "Prop. 2025/26:193 s. 112, avsnitt 7.3 ”Utredningens förslag”",
+    "url": "https://www.regeringen.se/contentassets/7edd1011af6944eda73e62aea7897f04/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-prop.-202526193.pdf"
+   },
+   "sida": [
+    112
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 4
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:193",
+   "avsnitt": "7.4",
+   "rubrik": "Elever ska kunna nekas tillträde till skolan",
+   "forslag_i_avsnittet": [
+    "F06"
+   ],
+   "rubrik_i_propositionen": "Utredningens förslag",
+   "text": "Förslaget från utredningen stämmer delvis överens med regeringens. Utredningen föreslår att den nya disciplinära åtgärden ska kunna användas i samtliga skolformer utom komvux och i samtliga årskurser. Utredningen föreslår också att ett beslut om nekat tillträde till skolenheten ska gälla tills vidare och att beslutet ska utvärderas. Utredningen föreslår inte att det ska regleras vem som ska fatta ett beslut om nekat tillträde eller att det av ett beslut om nekat tillträde ska framgå under vilken tid beslutet gäller och vilka av skolenhetens lokaler och ytor utomhus som beslutet gäller. Inte heller föreslår utredningen några bestämmelser om kommunikation eller samråd. Utredningens förslag har även en annan språklig utformning.",
+   "overensstammelse": "stämmer delvis överens",
+   "avvikelse_beskriven": true,
+   "kalla": {
+    "text": "Prop. 2025/26:193 s. 118, avsnitt 7.4 ”Utredningens förslag”",
+    "url": "https://www.regeringen.se/contentassets/7edd1011af6944eda73e62aea7897f04/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-prop.-202526193.pdf"
+   },
+   "sida": [
+    118
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 11
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:193",
+   "avsnitt": "7.5",
+   "rubrik": "Beslut om nekat tillträde till skolenheten ska",
+   "forslag_i_avsnittet": [
+    "F06"
+   ],
+   "rubrik_i_propositionen": "Utredningens förslag och bedömning",
+   "text": "Förslaget och bedömningen från utredningen stämmer överens med regeringens.",
+   "overensstammelse": "stämmer överens",
+   "avvikelse_beskriven": false,
+   "kalla": {
+    "text": "Prop. 2025/26:193 s. 131, avsnitt 7.5 ”Utredningens förslag och bedömning”",
+    "url": "https://www.regeringen.se/contentassets/7edd1011af6944eda73e62aea7897f04/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-prop.-202526193.pdf"
+   },
+   "sida": [
+    131
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 2
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:193",
+   "avsnitt": "8",
+   "rubrik": "Ikraftträdande- och",
+   "forslag_i_avsnittet": [],
+   "rubrik_i_propositionen": "Utredningens förslag",
+   "text": "Förslaget från utredningen stämmer delvis överens med regeringens. Utredningen föreslår att lagändringarna ska träda i kraft den 1 juli 2026. Utredningen föreslår inte några övergångsbestämmelser.",
+   "overensstammelse": "stämmer delvis överens",
+   "avvikelse_beskriven": true,
+   "kalla": {
+    "text": "Prop. 2025/26:193 s. 133, avsnitt 8 ”Utredningens förslag”",
+    "url": "https://www.regeringen.se/contentassets/7edd1011af6944eda73e62aea7897f04/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-prop.-202526193.pdf"
+   },
+   "sida": [
+    133
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 3
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:194",
+   "avsnitt": "6.2",
+   "rubrik": "Syftet med undervisningen ska tydliggöras och",
+   "forslag_i_avsnittet": [
+    "F02"
+   ],
+   "rubrik_i_propositionen": "Utredningen om stärkt trygghet och studiero i skolans förslag",
+   "text": "Förslaget i betänkandet Bättre förutsättningar för trygghet och studiero i skolan (SOU 2025:8) stämmer i huvudsak överens med regeringens förslag om att begränsa vårdnadshavares rätt till inflytande. Utredningen föreslår att vårdnadshavare i begränsad omfattning ska erbjudas möjlighet till inflytande över utbildningen.",
+   "overensstammelse": "stämmer i huvudsak överens",
+   "avvikelse_beskriven": true,
+   "kalla": {
+    "text": "Prop. 2025/26:194 s. 77, 78, avsnitt 6.2 ”Utredningen om stärkt trygghet och studiero i skolans förslag”",
+    "url": "https://www.regeringen.se/contentassets/42c1e2e4596b4f8682e3d8283b91a138/nya-laroplaner--for-en-stark-kunskapsskola-prop.-202526194.pdf"
+   },
+   "sida": [
+    77,
+    78
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 5
+   }
+  }
+ ]
+}

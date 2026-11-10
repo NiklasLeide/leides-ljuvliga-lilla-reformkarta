@@ -128,10 +128,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F06"
+    ],
+    "kapitel": [
+     "4"
+    ],
+    "motivering": "Risk för överanvändning av omplaceringar och avstängningar",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -548,10 +553,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F03"
+    ],
+    "kapitel": [
+     "3"
+    ],
+    "motivering": "Borttaget dokumentationskrav för kvarsittningar och utvisningar",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -581,10 +591,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F06"
+    ],
+    "kapitel": [
+     "4"
+    ],
+    "motivering": "Oklart vad synnerliga skäl innebär vid nekat tillträde",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -614,10 +629,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F01"
+    ],
+    "kapitel": [
+     "3"
+    ],
+    "motivering": "Rektors utökade ansvar för trygghet och studiero ger administration",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -713,10 +733,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F06"
+    ],
+    "kapitel": [
+     "4"
+    ],
+    "motivering": "Akutskola svår att finansiera för mindre kommun",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -746,10 +771,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F06"
+    ],
+    "kapitel": [
+     "4"
+    ],
+    "motivering": "Akutskola på entreprenad ger långa avstånd och skolskjutskostnader",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -812,10 +842,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F03",
+     "F05"
+    ],
+    "kapitel": [
+     "3"
+    ],
+    "motivering": "Förväntansdokument och utvisning ur klassrummet nämns uttryckligen",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -1013,10 +1049,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F04"
+    ],
+    "kapitel": [
+     "3"
+    ],
+    "motivering": "Konsekvenser kopplade till skolreglerna",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -1390,10 +1431,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F01"
+    ],
+    "kapitel": [
+     "3"
+    ],
+    "motivering": "Rektors ansvar för trygghet och studiero, tidsbrist",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -1423,10 +1469,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F01"
+    ],
+    "kapitel": [
+     "3"
+    ],
+    "motivering": "Rektors ansvar kräver bortprioritering av andra uppgifter",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -1456,10 +1507,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F01"
+    ],
+    "kapitel": [
+     "3"
+    ],
+    "motivering": "Rektors ansvar saknar plan för resurser",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -1489,10 +1545,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F01"
+    ],
+    "kapitel": [
+     "3"
+    ],
+    "motivering": "Rektors ansvar ökar trycket på rektorsrollen",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -1522,10 +1583,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F01"
+    ],
+    "kapitel": [
+     "3"
+    ],
+    "motivering": "Små skolor och rektors ökade ansvar",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -1555,10 +1621,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F01"
+    ],
+    "kapitel": [
+     "3"
+    ],
+    "motivering": "Rektors ansvar, lektionsobservationer enbart av rektor",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -1588,10 +1659,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F01"
+    ],
+    "kapitel": [
+     "3"
+    ],
+    "motivering": "Rektors ansvar orimligt i stor skolorganisation",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -1621,10 +1697,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F01"
+    ],
+    "kapitel": [
+     "3"
+    ],
+    "motivering": "Förutsättningar för rektors ansvar saknar konkret lösning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -1654,10 +1735,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F01"
+    ],
+    "kapitel": [
+     "3"
+    ],
+    "motivering": "Rektors ökade ansvar utan resurser",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -1687,10 +1773,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F01"
+    ],
+    "kapitel": [
+     "3"
+    ],
+    "motivering": "Rektors ansvar kräver strukturella förändringar",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -1720,10 +1811,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F03"
+    ],
+    "kapitel": [
+     "3"
+    ],
+    "motivering": "Rektor ska ge förutsättningar för tillfälliga åtgärder, personalbehov",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -1753,10 +1849,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F03"
+    ],
+    "kapitel": [
+     "3"
+    ],
+    "motivering": "Rektors förutsättningsansvar för åtgärder ger tidsbörda",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -1786,10 +1887,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F08"
+    ],
+    "kapitel": [
+     "5"
+    ],
+    "motivering": "Administrativ börda av nationellt frånvaroregister",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -1819,10 +1925,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F07"
+    ],
+    "kapitel": [
+     "5"
+    ],
+    "motivering": "Definition av giltig och ogiltig frånvaro",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -1852,10 +1963,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F07",
+     "F08"
+    ],
+    "kapitel": [
+     "5"
+    ],
+    "motivering": "Registrering av giltig frånvaro hindras av dataskydd",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -2017,10 +2134,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F03"
+    ],
+    "kapitel": [
+     "3"
+    ],
+    "motivering": "Borttaget dokumentationskrav minskar spårbarhet",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -2050,10 +2172,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F03"
+    ],
+    "kapitel": [
+     "3"
+    ],
+    "motivering": "Borttaget dokumentationskrav ger inget skriftligt underlag",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -2083,10 +2210,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F03"
+    ],
+    "kapitel": [
+     "3"
+    ],
+    "motivering": "Borttaget dokumentationskrav försvårar mönsteranalys",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -2116,10 +2248,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F06"
+    ],
+    "kapitel": [
+     "4"
+    ],
+    "motivering": "Merkostnader för fjärr- och distansundervisning vid nekat tillträde",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -2149,10 +2286,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F03"
+    ],
+    "kapitel": [
+     "3"
+    ],
+    "motivering": "Borttaget dokumentationskrav tar bort systematisk informationsinsamling",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -2182,10 +2324,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F03"
+    ],
+    "kapitel": [
+     "3"
+    ],
+    "motivering": "Egna dokumentationsrutiner efter borttaget dokumentationskrav",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -2215,10 +2362,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F03"
+    ],
+    "kapitel": [
+     "3"
+    ],
+    "motivering": "Personal för elever utanför klassrummet, organisering oklar",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -2248,10 +2400,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F03"
+    ],
+    "kapitel": [
+     "3"
+    ],
+    "motivering": "Stödpersonal för ordningsåtgärder belastar resurssvaga skolor",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -2549,10 +2706,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F06"
+    ],
+    "kapitel": [
+     "4"
+    ],
+    "motivering": "Förslagen i avsnitt 4.1 ger organisatoriska och ekonomiska utmaningar",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -2582,10 +2744,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F06"
+    ],
+    "kapitel": [
+     "4"
+    ],
+    "motivering": "Begränsade möjligheter att organisera akutskola",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -2648,10 +2815,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F04",
+     "F05"
+    ],
+    "kapitel": [
+     "3"
+    ],
+    "motivering": "Skolregler, konsekvensplan och förväntansdokument ger administration",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -2885,10 +3058,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F06"
+    ],
+    "kapitel": [
+     "4"
+    ],
+    "motivering": "Tillgång till akutskolor för placering",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -2918,10 +3096,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F06"
+    ],
+    "kapitel": [
+     "4"
+    ],
+    "motivering": "Placering av allvarligt störande elev vid små fristående skolor",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -2951,10 +3134,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F06"
+    ],
+    "kapitel": [
+     "4"
+    ],
+    "motivering": "Akutskolor saknas i delar av landet",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -2984,10 +3172,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F06"
+    ],
+    "kapitel": [
+     "4"
+    ],
+    "motivering": "Tidsgräns för placering vid akutskola",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -3017,10 +3210,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F06"
+    ],
+    "kapitel": [
+     "4"
+    ],
+    "motivering": "Kort placeringstid vid akutskola",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -3123,10 +3321,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F08"
+    ],
+    "kapitel": [
+     "5"
+    ],
+    "motivering": "Nationellt frånvaroregister, integritet och administration",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -3156,10 +3359,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F06"
+    ],
+    "kapitel": [
+     "4"
+    ],
+    "motivering": "Hantering av elever som stängs av eller placeras",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -3189,10 +3397,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "3"
+    ],
+    "motivering": "Förväntansdokument som ansvarsförskjutning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -3222,10 +3435,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F04"
+    ],
+    "kapitel": [
+     "3"
+    ],
+    "motivering": "Skolreglernas förhållande till lagstiftning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -3321,10 +3539,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F06"
+    ],
+    "kapitel": [
+     "4"
+    ],
+    "motivering": "Strukturer för omplaceringar och avstängningar",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -3800,10 +4023,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F01"
+    ],
+    "kapitel": [
+     "3"
+    ],
+    "motivering": "Ansvaret för trygghet och studiero läggs på rektorn",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -5024,10 +5252,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F08"
+    ],
+    "kapitel": [
+     "5"
+    ],
+    "motivering": "Komplexitet och kostnader för nationellt frånvaroregister",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -5057,10 +5290,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F07",
+     "F08"
+    ],
+    "kapitel": [
+     "5"
+    ],
+    "motivering": "Systemändringar för att registrera giltig och ogiltig frånvaro",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -5090,10 +5329,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F08"
+    ],
+    "kapitel": [
+     "5"
+    ],
+    "motivering": "Likvärdig rapportering till frånvaroregister",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -5521,10 +5765,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F04",
+     "F05"
+    ],
+    "kapitel": [
+     "3"
+    ],
+    "motivering": "Konsekvensplan och förväntansdokument ökar lärarnas arbetsbörda",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -5554,10 +5804,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F02"
+    ],
+    "kapitel": [
+     "3"
+    ],
+    "motivering": "Vårdnadshavares inflytande i begränsad omfattning behöver tydliggöras",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -5587,10 +5842,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F04"
+    ],
+    "kapitel": [
+     "3"
+    ],
+    "motivering": "Orosanmälan som konsekvens i skolregelns konsekvensplan",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -5620,10 +5880,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F06"
+    ],
+    "kapitel": [
+     "4"
+    ],
+    "motivering": "Fjärr- eller distansundervisning när elev nekas tillträde",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -5653,10 +5918,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F06"
+    ],
+    "kapitel": [
+     "4"
+    ],
+    "motivering": "Nekat tillträde kan pågå länge utan tidsgräns",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -5957,10 +6227,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F03"
+    ],
+    "kapitel": [
+     "3"
+    ],
+    "motivering": "Borttaget dokumentationskrav för kvarsittning och utvisning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -5990,10 +6265,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F06"
+    ],
+    "kapitel": [
+     "4"
+    ],
+    "motivering": "Utökad avstängning, placering och nekat tillträde behöver förtydligas",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -6023,10 +6303,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F02"
+    ],
+    "kapitel": [
+     "3"
+    ],
+    "motivering": "Begränsat vårdnadshavarinflytande kan flytta kontakter till rektor",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -6254,10 +6539,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F08"
+    ],
+    "kapitel": [
+     "5"
+    ],
+    "motivering": "Nationellt frånvaroregister behöver utredas eller förtydligas",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -7000,10 +7290,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F06"
+    ],
+    "kapitel": [
+     "4"
+    ],
+    "motivering": "Akutskola på entreprenad till annan huvudman",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -7033,10 +7328,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F06"
+    ],
+    "kapitel": [
+     "4"
+    ],
+    "motivering": "Akutskola på entreprenad till annan huvudman",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -7066,10 +7366,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F06"
+    ],
+    "kapitel": [
+     "4"
+    ],
+    "motivering": "Beslut om nekat tillträde gäller tills vidare",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -7832,10 +8137,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F06"
+    ],
+    "kapitel": [
+     "4"
+    ],
+    "motivering": "Längre avstängning och kompensation för utebliven undervisning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -7865,10 +8175,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F06"
+    ],
+    "kapitel": [
+     "4"
+    ],
+    "motivering": "Kompensation vid avstängning så långt det är möjligt",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -7898,10 +8213,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F06"
+    ],
+    "kapitel": [
+     "4"
+    ],
+    "motivering": "Praktiskt genomförande när elev nekas tillträde",
+    "tolkning": true
    },
    "skolform": [
     "grundskola"
@@ -8130,10 +8450,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F06"
+    ],
+    "kapitel": [
+     "4"
+    ],
+    "motivering": "Kostnad för akutskola vid förlängd placering",
+    "tolkning": true
    },
    "skolform": [
     "grundskola"
@@ -8165,10 +8490,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F06"
+    ],
+    "kapitel": [
+     "4"
+    ],
+    "motivering": "Ersättning för förlängd placering i akutskola",
+    "tolkning": true
    },
    "skolform": [
     "grundskola"
@@ -8299,10 +8629,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F04"
+    ],
+    "kapitel": [
+     "3"
+    ],
+    "motivering": "Gemensamma förhållningssätt och regler kräver tid",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -8742,10 +9077,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F02"
+    ],
+    "kapitel": [
+     "3"
+    ],
+    "motivering": "Begränsat vårdnadshavarinflytande och samarbete med hemmet",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -8775,10 +9115,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F03"
+    ],
+    "kapitel": [
+     "3"
+    ],
+    "motivering": "Undervisning och ansvar för elev som visas ut",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -8808,10 +9153,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F06"
+    ],
+    "kapitel": [
+     "4"
+    ],
+    "motivering": "Likvärdiga kriterier för placering i akutskola",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -8841,10 +9191,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F06"
+    ],
+    "kapitel": [
+     "4"
+    ],
+    "motivering": "Akutskola på entreprenad eller via fjärrundervisning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -8874,10 +9229,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F08"
+    ],
+    "kapitel": [
+     "5"
+    ],
+    "motivering": "Publicering av frånvaroregister och elevers integritet",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -9482,10 +9842,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F04",
+     "F03"
+    ],
+    "kapitel": [
+     "3"
+    ],
+    "motivering": "Elevinflytande över skolregler och borttagen dokumentation",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -9548,10 +9914,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F04"
+    ],
+    "kapitel": [
+     "3"
+    ],
+    "motivering": "Införande av skolregler och konsekvensplaner",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -9581,10 +9952,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F03"
+    ],
+    "kapitel": [
+     "3"
+    ],
+    "motivering": "Utvisning utan uppmaning vid allvarlig händelse",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -9614,10 +9990,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F03"
+    ],
+    "kapitel": [
+     "3"
+    ],
+    "motivering": "Tillsyn av utvisade elever vid utvisning utan uppmaning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -9647,10 +10028,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F03"
+    ],
+    "kapitel": [
+     "3"
+    ],
+    "motivering": "Borttaget dokumentationskrav vid utvisning och kvarsittning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -9680,10 +10066,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F03"
+    ],
+    "kapitel": [
+     "3"
+    ],
+    "motivering": "Borttaget dokumentationskrav försvårar uppföljning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -9713,10 +10104,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F06"
+    ],
+    "kapitel": [
+     "4"
+    ],
+    "motivering": "Fjärr- eller distansundervisning vid nekat tillträde",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -9746,10 +10142,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F04"
+    ],
+    "kapitel": [
+     "3"
+    ],
+    "motivering": "Skolregler förankras endast hos eleverna",
+    "tolkning": true
    },
    "skolform": []
   },

@@ -15,7 +15,7 @@
 | # | Task | Status |
 |---|------|--------|
 | 1 | Parametrisk kedja per reform, regressionstest mot betyg | Klar |
-| 2 | Trygghet och studiero (SOU 2025:8) | Ej påbörjad |
+| 2 | Trygghet och studiero (SOU 2025:8) | Klar — 24 publicerade remissvar, 257 utmaningar, Övrigt 7,0 %, samstämmighet identifiering 37/40, typning 35/40 |
 | 3 | Förbättrat stöd (SOU 2025:44) | Ej påbörjad |
 | 4 | Tid för undervisningsuppdraget (SOU 2025:26) | Ej påbörjad |
 | 5 | Kunskap för alla (SOU 2025:19) | Ej påbörjad |

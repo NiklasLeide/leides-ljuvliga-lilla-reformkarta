@@ -82,7 +82,7 @@ if __name__ == '__main__':
             res.append(post); continue
         stats = []
         for p in pp:
-            rad = {'paragraf': f"{p['kap']} kap. {p['par']} §", 'sou': {'text': p['text'], 'kalla': {'text': f"{SOUNR} s. {p['sida']} ({fk_text})", 'url': U_SOU[FK.get('vol', 'volym-1')]}}}
+            rad = {'paragraf': f"{p['kap']} kap. {p['par']} §", 'sou': {'text': p['text'], 'kalla': {'text': f"{SOUNR} s. {p['sida']} ({fk_text})", 'url': U_SOU[FK.get('vol') or ('volym-1' if 'volym-1' in U_SOU else next(iter(U_SOU)))]}}}
             pc = [dict(text=q['foreslagen'], kap=q['kap'], par=q['par'], sida=q['sida'], prop=pr['proposition'], lf=lf['lagforslag']) for pr in props for lf in pr['lagforslag'] for q in lf['paragrafer'] if q['kap'] == p['kap']]
             same = [x for x in pc if x['par'] == p['par'].replace(' ', '')]
             m = match(same, p['text']) or match(pc, p['text'])
