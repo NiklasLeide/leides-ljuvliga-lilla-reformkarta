@@ -54,3 +54,36 @@ test('HTTP-fel från GitHub kastas (arbetsflödets steg blir rött)', async () =
   const { api } = fejk({ 'POST /labels': { status: 201, body: {} }, 'POST /issues': { status: 403 } });
   await assert.rejects(G.stopp({ api, rapport: RAPPORT, runUrl: 'r' }), /HTTP 403/);
 });
+
+// Beslut 2026-11-10 (tolkning 1): 1a-ändring → uppföljningsissue med etiketten bevakning.
+const RAP_1A = { datum: '2026-11-12', andringar: [
+  { regel: '1a', post: 'vinst', reform_namn: 'Vinst i skolan', transition_tillagg: 'Riksdagen beslutade 2026-08-13 (bet. 2025/26:UbU30, rskr. 2025/26:438).',
+    betankanden: [{ bet: '2025/26:UbU30', rskr: '2025/26:438', beslutsdatum: '2026-08-13', url: 'https://data.riksdagen.se/dokument/HD01UbU30.html' }] },
+  { regel: '1b', post: 'utr-x', nytt: { nr: 'Dir. 2026:200' } },
+] };
+
+test('uppföljning: 1a skapar issue "Uppföljning efter riksdagsbeslut: {reform}" med etiketten bevakning och båda punkterna', async () => {
+  const { api, anrop } = fejk({ 'POST /labels': { status: 422 }, 'GET /issues': [], 'POST /issues': { number: 50 } });
+  assert.deepEqual(await G.uppfoljning({ api, rapport: RAP_1A, runUrl: 'run' }), [50]);
+  const skapade = anrop.filter(a => a.metod === 'POST' && a.sokvag === '/issues');
+  assert.equal(skapade.length, 1); // bara 1a, inte 1b
+  const i = skapade[0].body;
+  assert.equal(i.title, 'Uppföljning efter riksdagsbeslut: Vinst i skolan');
+  assert.deepEqual(i.labels, ['bevakning']);
+  assert.match(i.body, /- \[ \] Granska `transition` och `ikraft` mot den nya mallmeningen/);
+  assert.match(i.body, /- \[ \] För in SFS och ikraftträdande när lagen är utfärdad/);
+  assert.match(i.body, /stänger denna issue först när SFS och ikraftträdande är införda/);
+  assert.match(i.body, /rskr\. 2025\/26:438/);
+});
+
+test('uppföljning: finns redan en öppen issue med samma titel skapas ingen ny', async () => {
+  const { api, anrop } = fejk({ 'POST /labels': { status: 422 }, 'GET /issues': [{ number: 50, title: 'Uppföljning efter riksdagsbeslut: Vinst i skolan' }] });
+  assert.deepEqual(await G.uppfoljning({ api, rapport: RAP_1A, runUrl: 'run' }), []);
+  assert.equal(anrop.some(a => a.metod === 'POST' && a.sokvag === '/issues'), false);
+});
+
+test('uppföljning: inga 1a-ändringar → inga anrop alls', async () => {
+  const { api, anrop } = fejk({});
+  assert.deepEqual(await G.uppfoljning({ api, rapport: { datum: 'x', andringar: [{ regel: '1c', post: 'p' }] }, runUrl: 'r' }), []);
+  assert.equal(anrop.length, 0);
+});

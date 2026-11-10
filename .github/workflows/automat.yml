@@ -90,6 +90,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/revision/automat-github.js logg --rapport "$RUNNER_TEMP/rapport.json" --sha "${{ steps.publicera.outputs.sha }}" --run-url "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
 
+      - name: Uppföljningsissue efter riksdagsbeslut (beslut 2026-11-10)
+        if: steps.publicera.outcome == 'success' && steps.publicera.outputs.sha != '' && steps.automat.outputs.antal != '0'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/revision/automat-github.js uppfoljning --rapport "$RUNNER_TEMP/rapport.json" --run-url "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+
       - name: Stopp → automat-stopp-issue (regel 7)
         if: always() && env.AKTIV == 'true' && (failure() || steps.automat.outputs.kod != '0')
         env:

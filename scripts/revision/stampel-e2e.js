@@ -38,8 +38,8 @@ function arAppfel(m) {
   const b = await chromium.launch();
   const rader = []; let fel = 0;
   const fall = [
-    { namn: 'båda', meta: { senast_uppdaterad: '2026-11-10', senast_kontrollerad: '2026-11-12' }, ska: ['Senast uppdaterad 10 november 2026', 'Senast kontrollerad 12 november 2026'], skaInte: [] },
-    { namn: 'bara uppdaterad', meta: { senast_uppdaterad: '2026-11-10' }, ska: ['Senast uppdaterad 10 november 2026'], skaInte: ['Senast kontrollerad'] },
+    { namn: 'båda', meta: { senast_uppdaterad: '2026-11-10', senast_kontrollerad: '2026-11-12' }, ska: ['Senast uppdaterad 10 november 2026', 'Senast avstämd mot riksdagens öppna data 12 november 2026'], skaInte: [] },
+    { namn: 'bara uppdaterad', meta: { senast_uppdaterad: '2026-11-10' }, ska: ['Senast uppdaterad 10 november 2026'], skaInte: ['Senast avstämd', 'Senast kontrollerad'] },
   ];
   for (const fl of fall) for (const vy of VYER) for (const sida of SIDOR) {
     const ctx = await b.newContext({ viewport: vy.viewport, deviceScaleFactor: 2 });

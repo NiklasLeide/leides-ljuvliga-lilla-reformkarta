@@ -35,7 +35,15 @@ test('stämpellogiken: båda datumen, bara uppdaterad, och ogiltigt datum ger in
     return [el.fresh.textContent, el.kontroll.textContent];
   }
   assert.deepEqual(await kor({ senast_uppdaterad: '2026-11-10', senast_kontrollerad: '2026-11-12' }),
-    [' · Senast uppdaterad 10 november 2026', ' · Senast kontrollerad 12 november 2026']);
+    [' · Senast uppdaterad 10 november 2026', ' · Senast avstämd mot riksdagens öppna data 12 november 2026']);
   assert.deepEqual(await kor({ senast_uppdaterad: '2026-11-10' }), [' · Senast uppdaterad 10 november 2026', '']);
   assert.deepEqual(await kor({ senast_uppdaterad: '2026-11-10', senast_kontrollerad: 'igår' }), [' · Senast uppdaterad 10 november 2026', '']);
+});
+
+test('T8b: texten är "Senast avstämd mot riksdagens öppna data" — "Senast kontrollerad" förekommer inte på någon sida', () => {
+  for (const s of SIDOR) {
+    const html = fs.readFileSync(path.join(ROOT, s), 'utf8');
+    assert.match(html, /Senast avstämd mot riksdagens öppna data /, s);
+    assert.doesNotMatch(html, /Senast kontrollerad/, s);
+  }
 });

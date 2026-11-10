@@ -160,8 +160,8 @@ test('markeraAccepterade: beslutade fynd märks med skäl; ändrat källvärde g
     { fil: 'utredningar.json', post: 'utr-y', falt: 'betankanden SOU 2026:4.datum', api: '2026-01-21', typ: 'datum-avviker' },
   ] };
   const acc = { fynd: [
-    { fil: 'utredningar.json', post: 'utr-x', falt: 'betankanden SOU 2025:8.datum', api: '2025-01-29', skal: 'beslutat' },
-    { fil: 'utredningar.json', post: 'utr-y', falt: 'betankanden SOU 2026:4.datum', api: '2026-01-20', skal: 'beslutat' },
+    { fil: 'utredningar.json', post: 'utr-x', falt: 'betankanden SOU 2025:8.datum', typ: 'datum-avviker', api: '2025-01-29', skal: 'beslutat' },
+    { fil: 'utredningar.json', post: 'utr-y', falt: 'betankanden SOU 2026:4.datum', typ: 'datum-avviker', api: '2026-01-20', skal: 'beslutat' },
   ] };
   r.markeraAccepterade(rap, acc);
   assert.equal(rap.fynd[0].accepterad, 'beslutat');
@@ -169,4 +169,28 @@ test('markeraAccepterade: beslutade fynd märks med skäl; ändrat källvärde g
   const md = r.renderMarkdown(rap, { datum: '2026-11-10' });
   assert.match(md, /1 nya fynd, 1 accepterade/);
   assert.match(md, /## Accepterade \(redan beslutade att lämnas\)/);
+});
+
+test('markeraAccepterade: matchar på fil, post, fält, typ OCH api — annan typ eller annat källvärde ger nytt fynd', () => {
+  const bas = { fil: 'utredningar.json', post: 'utr-x', falt: 'betankanden SOU 2025:8.datum', typ: 'datum-avviker', api: '2025-01-29' };
+  const acc = { fynd: [{ ...bas, skal: 'beslutat' }] };
+  const fall = [
+    [{ ...bas }, 'beslutat'],
+    [{ ...bas, api: '2025-01-30' }, undefined],            // källvärdet ändrat
+    [{ ...bas, typ: 'sou-saknas-i-api' }, undefined],     // annan typ
+    [{ ...bas, falt: 'betankanden SOU 2025:8.typ' }, undefined],
+    [{ ...bas, post: 'utr-z' }, undefined],
+    [{ ...bas, fil: 'reforms.json' }, undefined],
+  ];
+  for (const [f, vant] of fall) {
+    const rap = { fynd: [f] };
+    r.markeraAccepterade(rap, acc);
+    assert.equal(rap.fynd[0].accepterad, vant, JSON.stringify(f));
+  }
+});
+
+test('accepterade.json: alla 22 poster matchar dagens fynd från Sprint 14 (fil, post, fält, typ, api finns)', () => {
+  const acc = require('../../docs/automat/accepterade.json');
+  assert.equal(acc.fynd.length, 22);
+  for (const a of acc.fynd) for (const k of ['fil', 'post', 'falt', 'typ', 'api', 'skal']) assert.ok(k in a, `${a.post} saknar ${k}`);
 });

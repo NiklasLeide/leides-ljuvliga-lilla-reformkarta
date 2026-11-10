@@ -910,7 +910,8 @@ window.addEventListener('load', loadData);
    utan new Date()-tidszontolkning (parsar strängen manuellt). Tyst fallback:
    kan filen inte läsas visas ingen stämpel — hellre tyst än fel datum.
    senast_uppdaterad = senaste innehållsändring ([data-fresh], sidhuvud + sidfot).
-   senast_kontrollerad = senaste gröna körning av automatfilen ([data-kontroll], sidfot).
+   senast_kontrollerad = senaste gröna körning av automatfilen ([data-kontroll], sidfot) — visas som
+   "Senast avstämd mot riksdagens öppna data" eftersom automatfilen bara stämmer av mot den källan (T8b).
    Blocket är identiskt i alla sidor (test: scripts/revision/stampel.test.js). */
 (function(){
   var MM=['januari','februari','mars','april','maj','juni','juli','augusti','september','oktober','november','december'];
@@ -922,7 +923,7 @@ window.addEventListener('load', loadData);
     if(!m)return;
     var u=txt(m.senast_uppdaterad),k=txt(m.senast_kontrollerad);
     if(u)document.querySelectorAll('[data-fresh]').forEach(function(el){el.textContent=' · Senast uppdaterad '+u;});
-    if(k)document.querySelectorAll('[data-kontroll]').forEach(function(el){el.textContent=' · Senast kontrollerad '+k;});
+    if(k)document.querySelectorAll('[data-kontroll]').forEach(function(el){el.textContent=' · Senast avstämd mot riksdagens öppna data '+k;});
   }).catch(function(){});
 })();
 </script>

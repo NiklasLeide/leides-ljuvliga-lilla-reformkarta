@@ -73,7 +73,8 @@ function regel1a(reform, lage) {
   const forsta = lage.betankanden[0];
   return {
     andring: {
-      regel: '1a', fil: 'reforms.json', post: reform.id, falt: 'status + transition',
+      regel: '1a', fil: 'reforms.json', post: reform.id, reform_namn: reform.short || reform.id, falt: 'status + transition',
+      betankanden: lage.betankanden.map(b => ({ bet: b.bet, rskr: b.rskr, beslutsdatum: b.beslutsdatum, url: b.url })),
       nuvarde: reform.status, nytt: 'beslutad', transition_tillagg: mening, kalla_url: forsta.url,
       andringar_post: {
         datum: lage.betankanden.map(b => b.beslutsdatum).sort().slice(-1)[0],

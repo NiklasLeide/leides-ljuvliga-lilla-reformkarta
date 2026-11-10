@@ -405,8 +405,9 @@ const cell = (v) => (v == null ? '—' : String(v).replace(/\|/g, '\\|').replace
 const kort = (v, n = 120) => { const s = cell(v); return s.length > n ? `${s.slice(0, n)}…` : s; };
 
 // Sprint 15 T6: fynd som redan är beslutade att lämnas (docs/automat/accepterade.json) märks
-// `accepterad` med beslutets skäl. Nyckel: fil + post + falt + api — ändras källans värde blir fyndet nytt.
-const fyndNyckel = (f) => JSON.stringify([f.fil, f.post, f.falt, f.api]);
+// `accepterad` med beslutets skäl. Nyckel: fil + post + falt + typ + api — ändras källans värde (eller
+// fyndets typ) blir fyndet nytt igen (beslut 2026-11-10, Sprint 15 tolkning 4).
+const fyndNyckel = (f) => JSON.stringify([f.fil, f.post, f.falt, f.typ, f.api]);
 function markeraAccepterade(rapport, accepterade) {
   const karta = new Map(((accepterade && accepterade.fynd) || []).map(a => [fyndNyckel(a), a.skal]));
   for (const f of rapport.fynd) if (karta.has(fyndNyckel(f))) f.accepterad = karta.get(fyndNyckel(f));

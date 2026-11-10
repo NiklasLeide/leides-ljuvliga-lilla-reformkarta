@@ -1,5 +1,5 @@
 {
- "beskrivning": "Fynd i revisionsskriptet som redan är beslutade att lämnas. Matchas på fil+post+falt+api; ändras källans värde blir fyndet nytt igen. Veckorutinen tar inte upp dessa.",
+ "beskrivning": "Fynd i revisionsskriptet som redan är beslutade att lämnas. Matchas på fil+post+falt+typ+api; ändras källans värde (eller typ) blir fyndet nytt igen. Veckorutinen tar inte upp dessa.",
  "beslutade": "2026-11-10",
  "fynd": [
   {
