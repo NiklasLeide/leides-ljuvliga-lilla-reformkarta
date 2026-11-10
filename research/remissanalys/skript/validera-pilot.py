@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
-"""Validerar pilot/utmaningar/data/utmaningar-betyg.json (Sprint 16 T3).
+"""Validerar pilot/utmaningar/data/utmaningar-<id>.json (Sprint 16 T3; parametrisk sedan Sprint 17 T2).
+Användning (från repo-roten): python3 research/remissanalys/skript/validera-pilot.py [<reform-id>]   (standard: betyg)
 
 Kontroller:
  1. giltig JSON
- 2. exakt 440 utmaningar och 28 avsändare (både i avsandare[] och som unika avsändare bland utmaningarna)
+ 2. antal utmaningar och avsändare = antal i mellanfilen research/remissanalys/reformer/<id>/utmaningar.json (dubbletter
+    borträknade), både i avsandare[] och som unika avsändare bland utmaningarna; varje citat har citatkontroll.ok = true
+    och OCR-citat har ocr = true och "(OCR)" i källtexten
  3. varje utmaning har icke-tomt citat, sida och url
  4. varje icke-null värde har källa: varje källobjekt ({text,url}) har icke-tom text och url, och dessa poster
     måste ha källa: utmaning, sakområde, namnträff i propositionen, sökt propositionsavsnitt, propositionsavsnitt,
@@ -11,12 +14,16 @@ Kontroller:
     avsändarens remissvar, kedjans led, opublicerat remissvar
  5. inga nycklar eller strängvärden innehåller orden "löst", "kvarstår" eller "bemött tillräckligt"
  6. varje propositionsavsnitts rubrik återfinns, fullständig, i respektive propositions innehållsförteckning
-    (research/remissanalys/arbetsfiler/propositioner-innehall.json, extraherad oberoende av avsnittstexten)
+    (research/remissanalys/reformer/<id>/propositioner-innehall.json, extraherad oberoende av avsnittstexten)
 Avslutar med kod 0 om allt går igenom, annars 1 och en lista över fel."""
 import json, os, re, sys
 
 ROT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..'))
-FIL = os.path.join(ROT, 'pilot/utmaningar/data/utmaningar-betyg.json')
+RID = sys.argv[1] if len(sys.argv) > 1 else 'betyg'
+FIL = os.path.join(ROT, f'pilot/utmaningar/data/utmaningar-{RID}.json')
+MELLAN = os.path.join(ROT, f'research/remissanalys/reformer/{RID}')
+_uu = [u for u in json.load(open(os.path.join(MELLAN, 'utmaningar.json'), encoding='utf-8'))['utmaningar'] if not u['dublett_av']]
+N_UTM = len(_uu); N_AVS = len({u['avsandare'] for u in _uu})
 fel = []
 def F(m): fel.append(m)
 
@@ -30,9 +37,12 @@ def kalla_ok(k, var):
         F(f'källa saknas eller är ofullständig: {var}')
 
 U = d.get('utmaningar', []); A = d.get('avsandare', [])
-if len(U) != 440: F(f'antal utmaningar {len(U)} ≠ 440')
-if len(A) != 28: F(f'antal avsändare i avsandare[] {len(A)} ≠ 28')
-if len({u.get("avsandare") for u in U}) != 28: F('antal unika avsändare bland utmaningarna ≠ 28')
+if len(U) != N_UTM: F(f'antal utmaningar {len(U)} ≠ {N_UTM} (mellanfilen)')
+if len(A) != N_AVS: F(f'antal avsändare i avsandare[] {len(A)} ≠ {N_AVS}')
+if len({u.get("avsandare") for u in U}) != N_AVS: F(f'antal unika avsändare bland utmaningarna ≠ {N_AVS}')
+for u in U:
+    if (u.get('citatkontroll') or {}).get('ok') is not True: F(f"{u.get('id')}: citatet är inte kontrollerat ordagrant mot källtexten")
+    if u.get('ocr') and '(OCR)' not in (u.get('kalla') or {}).get('text', ''): F(f"{u.get('id')}: OCR-citat saknar märkning i källan")
 if len({u.get('id') for u in U}) != len(U): F('dubblerade utmaningsid')
 
 for u in U:
@@ -79,7 +89,7 @@ for s in d.get('meta', {}).get('korpus', {}).get('opublicerade_remissvar_som_sak
     kalla_ok(s.get('kalla'), f'opublicerat remissvar {s.get("avsandare")}')
 
 # 6. rubriker mot propositionernas innehållsförteckning
-INNEH = json.load(open(os.path.join(ROT, 'research/remissanalys/arbetsfiler/propositioner-innehall.json'), encoding='utf-8'))['propositioner']
+INNEH = json.load(open(os.path.join(MELLAN, 'propositioner-innehall.json'), encoding='utf-8'))['propositioner']
 norm = lambda s: re.sub(r'\s+', ' ', s or '').strip()
 for p in d.get('propositionsavsnitt', []):
     pr = p.get('proposition', '').split(':')[-1]

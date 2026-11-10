@@ -4,6 +4,8 @@
   2. Samstämmighet: andel av dubbelkodningens stickprov där den oberoende kodaren gav samma primära typ som ordinarie kodning
      (före regelprövning) ska vara minst stoppregler.samstammighet_min_andel.
   3. Typnamnen ska vara exakt de åtta i gemensamt.json.
+Flaggas men stoppar inte (Sprint 17): samstämmighet för identifiering under gränsen (kodning/dubbelidentifiering.json,
+saknas för betyg före omkodningen) och färre än fem publicerade remissvar från fokusgrupperna (remissvar.json).
 Avslutar med kod 1 om en regel bryts: reformen stoppas och rapporteras (Sprint 17 stoppvillkor).
 Förutsättning: utmaningar.json (K7), kodning/utmaningstyp.json, kodning/dubbelkodning.json, kodning/regelprovning.json.
 Användning: python3 research/remissanalys/kedja/stoppregler.py <reform-id>"""
@@ -29,5 +31,12 @@ if __name__ == '__main__':
     if ovr > sr['ovrigt_max_andel']: fel.append('andelen Övrigt överstiger gränsen')
     if sam is None: fel.append('dubbelkodning saknas')
     elif sam < sr['samstammighet_min_andel']: fel.append('samstämmigheten understiger gränsen')
+    pid = os.path.join(os.path.dirname(__file__), '..', 'reformer', rid, 'kodning', 'dubbelidentifiering.json')
+    if os.path.exists(pid):
+        di = las(rid, 'kodning/dubbelidentifiering.json')['passager']; li = sum(x['overens'] for x in di)
+        print(f"{rid}: samstämmighet identifiering {li}/{len(di)} = {li / len(di):.1%}" + ('  FLAGGA: under gränsen' if li / len(di) < sr['samstammighet_min_andel'] else ''))
+    else: print(f'{rid}: samstämmighet identifiering: ingen dubbelidentifiering')
+    npub = len(las(rid, 'remissvar.json')['publicerade'])
+    print(f'{rid}: publicerade remissvar från fokusgrupperna {npub}' + ('  FLAGGA: färre än fem' if npub < 5 else ''))
     if fel: print('STOPP:', '; '.join(fel)); sys.exit(1)
     print('stoppregler: OK')

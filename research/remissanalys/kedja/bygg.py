@@ -102,6 +102,7 @@ if __name__ == '__main__':
         if fid not in SFS:
             return {'status': None, 'forklaring': f'Inte undersökt: förslaget hade ingen kopplad utmaning i förstudie 2 ({os.path.basename(SFS_BELAGG)}).'}
         i, x = SFS[fid]
+        if x['status'] is None: return {'status': None, 'forklaring': x['status_kalla']['text']}
         if x['status'] == 'ej lagtext' or x['status'].startswith('ej i SFS'): return {'status': x['status'], 'kalla': x['status_kalla']}
         pars = []
         for j, p in enumerate(x['paragrafer']):

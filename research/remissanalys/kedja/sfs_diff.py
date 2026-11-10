@@ -4,7 +4,7 @@ SOU:ns föreslagna paragraf (författningskommentaren) → propositionens lagfö
 Paragrafer knyts till förslag via författningskommentarens avsnittshänvisningar (avsnittsnivå). Matchning: kapitel + nummer,
 annars högst textlikhet inom kapitlet; likhet < 0,80 ⇒ manuell_granskning. Statusvärdet är mekaniskt.
 
-URVAL (legacy-regel från Sprint 16, inte generaliserad metod): förslag som någon kodad utmaning (dubbletter inräknade) pekar på via
+URVAL: alla utredningsförslag (standard). Med config sfs_urval = "kodade" gäller legacy-regeln från Sprint 16: förslag som någon kodad utmaning (dubbletter inräknade) pekar på via
 passagens förankring i förstudie 2 (passager.json forankrade_forslag, där en avsnittshänvisning utan förslagsruta faller tillbaka på
 förälderavsnittet) eller paragrafhänvisning; saknas sådan används den tolkade kopplingen. Regeln behålls för att betygsfilen ska bli
 identisk; för nya reformer bör urvalet i stället bli alla förslag (se KEDJA.md).
@@ -52,7 +52,9 @@ if __name__ == '__main__':
     PAR = {(p['kap'], p['par'].replace(' ', '')): p['avsnitt'] for p in sou if p['kap'] != 'ikraft'}
     f_exact = lambda sec: [b['id'] for b in boxes.values() if b['avsnitt'] == sec or b['avsnitt'].startswith(sec + '.')]
     FIDS = set()
-    for x in las(rid, 'kodning/utmaningar.json')['utmaningar']:
+    URVAL = c.get('sfs_urval') or 'alla'
+    if URVAL == 'alla': FIDS = set(boxes)
+    for x in (las(rid, 'kodning/utmaningar.json')['utmaningar'] if URVAL == 'kodade' else []):
         p = P[x['id']]
         fids = set(p['forankrade_forslag']) | {f for m in re.finditer(r'(\d{1,2}) kap\.\s*(\d{1,3}(?:\s?[a-z])?)\s*§', p['text'])
                                               for k in [(m.group(1), m.group(2).replace(' ', ''))] if k in PAR for a in PAR[k] for f in f_exact(a)}
@@ -71,8 +73,11 @@ if __name__ == '__main__':
             if re.search(EJ_LAGTEXT, b['text']):
                 post.update(status='ej lagtext', status_kalla={'text': f"Förslaget gäller uppdrag/ansvar för myndighet; ingen paragraf i SOU:ns författningskommentar till {LAG_BEST} (avsnitt {FK['avsnitt']}) hänvisar till avsnitt " + b['avsnitt'], 'url': U_SOU[b['vol']]})
             else:
+                if not FORORD:
+                    post.update(status=None, status_kalla={'text': f"Ingen paragraf i SOU:ns författningskommentar till {LAG_BEST} ({FK['avsnitt']}) hänvisar till avsnitt " + b['avsnitt'] + '; inga förordningar är angivna för jämförelse i konfigurationen.', 'url': U_SOU[b['vol']]})
+                    res.append(post); continue
                 mk = '; '.join(f'{sum(fo[2].get(m, 0) for fo in FORORD)} träffar på "{m}"' for m in c.get('forordning_markor') or [])
-                post.update(status=f'ej i SFS per {HAMTAT}', status_kalla={'text': f"Ingen paragraf i SOU:ns författningskommentar till {LAG_BEST} ({FK['avsnitt']}) hänvisar till avsnitt " + b['avsnitt'] + ' — förslaget avser förordningsnivå. Konsoliderade förordningar hämtade ' + HAMTAT + f" innehåller inte {kravs(c, 'forordning_markor_beskrivning')} ({mk}): " + '; '.join(x[0] for x in FORORD),
+                post.update(status=f'ej i SFS per {HAMTAT}', status_kalla={'text': f"Ingen paragraf i SOU:ns författningskommentar till {LAG_BEST} ({FK['avsnitt']}) hänvisar till avsnitt " + b['avsnitt'] + ' — förslaget avser förordningsnivå. Konsoliderade förordningar hämtade ' + HAMTAT + (f" innehåller inte {kravs(c, 'forordning_markor_beskrivning')} ({mk})" if mk else ' (jämförda; ingen markör angiven)') + ': ' + '; '.join(x[0] for x in FORORD),
                                                                               'url': FORORD[0][1], 'ovriga_urler': [x[1] for x in FORORD[1:]]})
             res.append(post); continue
         stats = []

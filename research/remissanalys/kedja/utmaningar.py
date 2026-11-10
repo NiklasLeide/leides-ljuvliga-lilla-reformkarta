@@ -13,7 +13,7 @@ Förutsättning: passager.json (K6), remissvar.json (K5), sou-forslag.json och s
 Användning: python3 research/remissanalys/kedja/utmaningar.py <reform-id>"""
 import difflib, os, re, sys, unicodedata
 sys.path.insert(0, os.path.dirname(__file__))
-from gemensamt import reform_id, config, las, skriv, GRUPP
+from gemensamt import reform_id, config, las, skriv, mapp, GRUPP
 
 SKOLFORM = [('anpassad gymnasieskola', r'anpassad(?:e)? gymnasieskol\w*'), ('anpassad grundskola', r'anpassad(?:e)? grundskol\w*'),
             ('förskoleklass', r'förskoleklass\w*'), ('grundskola', r'grundskol\w*'), ('specialskola', r'specialskol\w*'), ('sameskola', r'sameskol\w*'),
@@ -31,8 +31,11 @@ if __name__ == '__main__':
     DOK = {d['id']: d for d in las(rid, 'remissvar.json')['publicerade']}
     boxes = las(rid, 'sou-forslag.json')['forslag']; BOX = {b['id']: b for b in boxes}
     PAR = {(p['kap'], p['par'].replace(' ', '')): p['avsnitt'] for p in las(rid, 'sou-paragrafer.json')['paragrafer'] if p['kap'] != 'ikraft'}
-    KT = {x['uid']: x for x in las(rid, 'kodning/tolkad-koppling.json')['kopplingar']}
-    KOD = {x['id']: x for x in las(rid, 'kodning/utmaningstyp.json')['kodning']}
+    # Före M2/M3 finns kodfilerna inte än: K7 körs då för att markera dubbletter (urvalet till M2) och ta fram
+    # utmaningar utan egen hänvisning (urvalet till M3). utmaningstyp blir då null och tolkad koppling saknas.
+    finns = lambda namn: os.path.exists(mapp(rid, namn))
+    KT = {x['uid']: x for x in las(rid, 'kodning/tolkad-koppling.json')['kopplingar']} if finns('kodning/tolkad-koppling.json') else {}
+    KOD = {x['id']: x for x in las(rid, 'kodning/utmaningstyp.json')['kodning']} if finns('kodning/utmaningstyp.json') else {}
     n = lambda t: re.sub(r'[\s\-­]', '', unicodedata.normalize('NFC', t))
     f_exact = lambda sec: [b['id'] for b in boxes if b['avsnitt'] == sec or b['avsnitt'].startswith(sec + '.')]
     def paragrafrefs(text):
@@ -81,8 +84,9 @@ if __name__ == '__main__':
         a['dublett_av'] = next((b['id'] for b in ut[:i] if a['avsandare'] == b['avsandare'] and difflib.SequenceMatcher(None, a['citat'], b['citat']).ratio() >= 0.9), None)
     for u in ut:
         if u['dublett_av']: continue
-        k = KOD[u['id']]
-        u['utmaningstyp'] = {'primar': k['primar'], 'sekundar': k['sekundar'] if k['sekundar'] != k['primar'] else None, 'motivering': k['motivering'], 'tolkning': True}
+        k = KOD.get(u['id']) if KOD else None
+        if KOD and k is None: sys.exit(f"{u['id']} saknas i kodning/utmaningstyp.json")
+        u['utmaningstyp'] = {'primar': k['primar'], 'sekundar': k['sekundar'] if k['sekundar'] != k['primar'] else None, 'motivering': k['motivering'], 'tolkning': True} if k else None
         u['koppling'] = koppling(u['id'], P[u['passage']])
         u['skolform'] = skolformer(u['citat'])
     skriv(rid, 'utmaningar.json', {'_meta': {'beskrivning': 'Kodade utmaningar med citatkontroll, dubbletter, kopplingsnivå, skolform och utmaningstyp.'}, 'utmaningar': ut})
