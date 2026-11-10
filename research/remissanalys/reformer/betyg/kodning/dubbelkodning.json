@@ -1,0 +1,248 @@
+{
+ "_meta": {
+  "steg": "M2b oberoende dubbelkodning av 40 slumpvis valda utmaningar (frö 20261202) för samstämmighet",
+  "tolkning": true
+ },
+ "kodning": [
+  {
+   "id": "U086",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Provresultat behöver återföras för planering och undervisning"
+  },
+  {
+   "id": "U316",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Organisation och planering",
+   "motivering": "Komvuxelevers specifika behov och flexibilitet riskerar undermineras"
+  },
+  {
+   "id": "U162",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Föreslagen tidsram riskerar vara för snäv"
+  },
+  {
+   "id": "U006",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Meritvärdesberäkningen svår att förstå och förklara"
+  },
+  {
+   "id": "U393",
+   "primar": "System och teknik",
+   "sekundar": "Tidplan och reformtakt",
+   "motivering": "Osäkert om standardiserade automaträttade prov kan införas i närtid"
+  },
+  {
+   "id": "U473",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Oklart om vuxenstuderande omfattas av digitala prov"
+  },
+  {
+   "id": "U068",
+   "primar": "Organisation och planering",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Variationer i elevantal ger organisatoriska och ekonomiska utmaningar"
+  },
+  {
+   "id": "U487",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Lärarrollen nedvärderas, risk för minskad status för yrket"
+  },
+  {
+   "id": "U262",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Krav på transparens i beräkning och tydlig rollfördelning"
+  },
+  {
+   "id": "U124",
+   "primar": "Övrigt",
+   "sekundar": null,
+   "motivering": "Frågetecken kring betygssystemets legitimitet"
+  },
+  {
+   "id": "U282",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Elever med svaga karaktärsämnesbetyg får svårt klara utbildningen"
+  },
+  {
+   "id": "U123",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Meritberäkning kan öka skillnader mellan skolor"
+  },
+  {
+   "id": "U005",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Lärares kompetens nedvärderas, yrkets attraktivitet minskar"
+  },
+  {
+   "id": "U157",
+   "primar": "System och teknik",
+   "sekundar": "Organisation och planering",
+   "motivering": "Stor provmängd på kort tid gör systemet störningskänsligt"
+  },
+  {
+   "id": "U245",
+   "primar": "Organisation och planering",
+   "sekundar": "Tidplan och reformtakt",
+   "motivering": "Meritvärden dröjer, gymnasieantagningen kan försenas"
+  },
+  {
+   "id": "U288",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Lärares bedömningar kan upplevas mindre värda"
+  },
+  {
+   "id": "U019",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Svårare rekrytera kompetent personal till vuxenutbildningen"
+  },
+  {
+   "id": "U462",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Behov av kompetensutveckling för lärare och rektorer"
+  },
+  {
+   "id": "U173",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Organisation och planering",
+   "motivering": "Kalibrering kräver omfattande samarbete och samråd mellan lärare"
+  },
+  {
+   "id": "U339",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Organisation och planering",
+   "motivering": "Kräver bemanning, kompetens och lokaler, svårt för mindre kommuner"
+  },
+  {
+   "id": "U078",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Brister kring kalibrering, standardisering och resultatåterföring"
+  },
+  {
+   "id": "U080",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Nya betygskriterier samtidigt som andra förändrade kriterier införs"
+  },
+  {
+   "id": "U039",
+   "primar": "System och teknik",
+   "sekundar": null,
+   "motivering": "Många tekniska frågor om system och digitala standarder"
+  },
+  {
+   "id": "U290",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Behov av riktade statliga resurser för implementering"
+  },
+  {
+   "id": "U035",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Tvekan om tidsplanen är tillräcklig"
+  },
+  {
+   "id": "U371",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Tidplanen bör förlängas på grund av reformtryck"
+  },
+  {
+   "id": "U161",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Ofinansierade samtidiga reformer belastar yrkeskåren"
+  },
+  {
+   "id": "U345",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Nytt omfattande system innan föregående är på plats"
+  },
+  {
+   "id": "U365",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Mängden förslag gör konsekvenserna svåra att överblicka"
+  },
+  {
+   "id": "U193",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Kalibreringsmodellen svår att förstå och förklara"
+  },
+  {
+   "id": "U258",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Organisation och planering",
+   "motivering": "Omfattande stöd behövs för analys, samråd och kommunikation"
+  },
+  {
+   "id": "U214",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Oklart hur det ska organiseras, kan medföra kostnad"
+  },
+  {
+   "id": "U117",
+   "primar": "System och teknik",
+   "sekundar": null,
+   "motivering": "Tveksamt om Skolverket kan leverera stabil provplattform"
+  },
+  {
+   "id": "U229",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Heterogen elevgrupp med omfattande stödbehov"
+  },
+  {
+   "id": "U366",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": "System och teknik",
+   "motivering": "Tveksamt om reformerna hinns genomföras inom tre år"
+  },
+  {
+   "id": "U275",
+   "primar": "System och teknik",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Behov av stabil plattform och likvärdiga prov över tid"
+  },
+  {
+   "id": "U151",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Uteblivna individresultat försvårar enheternas analysarbete"
+  },
+  {
+   "id": "U221",
+   "primar": "Övrigt",
+   "sekundar": null,
+   "motivering": "Styrdokument begränsar vad skolor kan göra för eleven"
+  },
+  {
+   "id": "U058",
+   "primar": "Organisation och planering",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Två provtillfällen per år försvårar komvux planering och flexibilitet"
+  },
+  {
+   "id": "U199",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Skillnader i likvärdig bedömning mellan stora och små enheter"
+  }
+ ]
+}
