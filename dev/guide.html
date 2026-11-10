@@ -264,6 +264,7 @@ footer { max-width: 1080px; margin: 0 auto; padding: 1.2rem 1.5rem 2rem; text-al
   <a class="alla" href="guide-alla.html">Alla datum och fullständiga underlag →</a>
   <p class="caveat-fot">Överblick ur riksdagens och regeringens beslut — ingen rådgivning. Kontrollera alltid källan.
   Myndighetskälla: <a href="https://www.skolverket.se/styrning-och-ansvar/forandringar-inom-skolomradet/aktuella-regelandringar" target="_blank" rel="noopener">Skolverkets Aktuella regeländringar</a>.</p>
+<p class="caveat-fot stampel-fot">Reformkartan<span data-fresh></span><span data-kontroll></span></p>
 </footer>
 
 <script>
@@ -840,17 +841,23 @@ init();
 document.querySelector('.tab-nav a.active')?.scrollIntoView({ inline: 'center', block: 'nearest' });
 </script>
 <script>
-/* Färskhetsstämpel (Sprint 12 T3) — läser data/meta.json, renderar svenskt datum
+/* Färskhetsstämpel (Sprint 12 T3, utökad Sprint 15 T7) — läser data/meta.json, renderar svenskt datum
    utan new Date()-tidszontolkning (parsar strängen manuellt). Tyst fallback:
-   kan filen inte läsas visas ingen stämpel — hellre tyst än fel datum. */
+   kan filen inte läsas visas ingen stämpel — hellre tyst än fel datum.
+   senast_uppdaterad = senaste innehållsändring ([data-fresh], sidhuvud + sidfot).
+   senast_kontrollerad = senaste gröna körning av automatfilen ([data-kontroll], sidfot).
+   Blocket är identiskt i alla sidor (test: scripts/revision/stampel.test.js). */
 (function(){
   var MM=['januari','februari','mars','april','maj','juni','juli','augusti','september','oktober','november','december'];
+  function txt(v){
+    var p=String(v||'').split('-'),d=+p[2],mo=+p[1];
+    return (p.length===3&&d&&mo>=1&&mo<=12)?d+' '+MM[mo-1]+' '+p[0]:null;
+  }
   fetch('data/meta.json').then(function(r){return r.ok?r.json():null;}).then(function(m){
-    if(!m||!m.senast_uppdaterad)return;
-    var p=String(m.senast_uppdaterad).split('-'),d=+p[2],mo=+p[1];
-    if(p.length!==3||!d||mo<1||mo>12)return;
-    var s=' · Senast uppdaterad '+d+' '+MM[mo-1]+' '+p[0];
-    document.querySelectorAll('[data-fresh]').forEach(function(el){el.textContent=s;});
+    if(!m)return;
+    var u=txt(m.senast_uppdaterad),k=txt(m.senast_kontrollerad);
+    if(u)document.querySelectorAll('[data-fresh]').forEach(function(el){el.textContent=' · Senast uppdaterad '+u;});
+    if(k)document.querySelectorAll('[data-kontroll]').forEach(function(el){el.textContent=' · Senast kontrollerad '+k;});
   }).catch(function(){});
 })();
 </script>
