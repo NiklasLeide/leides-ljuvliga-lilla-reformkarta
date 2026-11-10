@@ -7,7 +7,7 @@ Konfiguration: propositioner[].forteckning_remissinstanser_sida / forteckning_bi
 Förutsättning: kallor/remisssida.html och kallor/prop/<kort>.pdf (steg K1). Användning: python3 research/remissanalys/kedja/extrahera_remissvar.py <reform-id>"""
 import html, os, re, subprocess, sys, unicodedata
 sys.path.insert(0, os.path.dirname(__file__))
-from gemensamt import reform_id, config, gemensamt, mapp, skriv, kravs, kategori, GRUPP, N, slug
+from gemensamt import reform_id, config, gemensamt, mapp, skriv, kravs, kategori, grupp, N, slug
 
 def clean(s):
     s = re.sub(r'Prop\. \d{4}/\d{2}:\d+\s*', '', s); s = re.sub(r'Bilaga \d+\s*', '', s); s = re.sub(r'\n\s*\d{1,3}\s*\n', '\n', s)
@@ -82,12 +82,13 @@ if __name__ == '__main__':
     f = forteckning(open(rawp, encoding='utf-8').read().split('\f'), huvud['forteckning_remissinstanser_sida'], c.get('forteckning_korrigeringar') or {})
     webb = {nyckel(x['namn']): x['url'] for x in remissida(open(mapp(rid, 'kallor', 'remisssida.html'), encoding='utf-8').read())}
     kalla_f = {'text': f"{huvud['nr']} bilaga {huvud['forteckning_bilaga']} (förteckning över remissinstanserna)", 'url': huvud['pdf_url']}
+    GRUPP = grupp(c)   # gemensamma fokusgrupper + config extra_fokusgrupper (oförändrat utan nyckeln)
     publ = []; opubl = []
     for grp, typ in (('svarat', 'remissinstans'), ('spontant', 'spontant')):
         for namn in f[grp]:
             namn = N(namn)
             if namn == 'privatpersoner' or 'privatperson' in namn: continue
-            kat = kategori(namn, g0)
+            kat = kategori(namn, g0, c)
             if kat not in GRUPP: continue
             url = webb.get(nyckel(namn))
             if not url:

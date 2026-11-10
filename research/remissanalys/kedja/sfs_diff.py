@@ -83,6 +83,12 @@ if __name__ == '__main__':
     for f in sorted(FIDS, key=lambda x: int(x[1:])):
         b = boxes[f]; pp = paragrafer_for(f)
         post = {'forslag': f, 'sou_avsnitt': b['avsnitt'], 'forslag_kalla': {'text': f"{SOUNR} s. {b['sida']}", 'url': U_SOU[b['vol']]}, 'paragrafer': []}
+        if pp and not any(p['text'].strip() for p in pp):
+            # Författningskommentaren återger inte paragraftexten (t.ex. SOU 2021:33): ingen textjämförelse är möjlig,
+            # så status null med förklaring i stället för meningslösa likhetsvärden (Sprint 17).
+            post.update(status=None, status_kalla={'text': f"SOU:ns författningskommentar ({FK_AVS}) hänvisar paragraferna " + ', '.join(f"{p['kap']} kap. {p['par']} §" for p in pp if p['kap'] != 'ikraft') + ' till avsnitt ' + b['avsnitt'] + ' men återger inte deras föreslagna lydelse; ingen maskinell jämförelse med beslutad lydelse är gjord.', 'url': U_SOU[b['vol']]})
+            res.append(post); continue
+        pp = [p for p in pp if p['text'].strip()]
         if not pp:
             if re.search(EJ_LAGTEXT, b['text']):
                 post.update(status='ej lagtext', status_kalla={'text': f"Förslaget gäller uppdrag/ansvar för myndighet; ingen paragraf i SOU:ns författningskommentar till {LAG_BEST_ALLA} (avsnitt {FK_AVS}) hänvisar till avsnitt " + b['avsnitt'], 'url': U_SOU[b['vol']]})

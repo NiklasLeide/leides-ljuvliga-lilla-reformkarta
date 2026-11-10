@@ -16,6 +16,8 @@ Kontroller:
     källtext (fälten citat, text, avvikelsetext, fore, efter), som återges oförändrad (Sprint 17 T2)
  6. varje propositionsavsnitts rubrik återfinns, fullständig, i respektive propositions innehållsförteckning
     (research/remissanalys/reformer/<id>/propositioner-innehall.json, extraherad oberoende av avsnittstexten)
+ 7. varje utmanings och avsändares fokusgrupp finns i datafilens fokusgrupper, och fokusgrupperna är gemensamt.json:s
+    plus reformens config extra_fokusgrupper (t.ex. Friskolornas riksförbund för tioarig; utan nyckeln bara gemensamt.json)
 Avslutar med kod 0 om allt går igenom, annars 1 och en lista över fel."""
 import json, os, re, sys
 
@@ -98,6 +100,15 @@ for p in d.get('propositionsavsnitt', []):
     t = toc.get(p.get('avsnitt'), {}).get('titel')
     if t is None: F(f'propositionsavsnitt {p.get("ref")}: avsnittet saknas i innehållsförteckningen')
     elif norm(t) != norm(p.get('rubrik')): F(f'propositionsavsnitt {p.get("ref")}: rubriken "{p.get("rubrik")}" ≠ innehållsförteckningens "{t}"')
+
+# 7. fokusgrupper: gemensamt.json + reformens extra fokusgrupper (config extra_fokusgrupper), och varje fokusgrupp som används finns
+_cfg = json.load(open(os.path.join(ROT, f'research/remissanalys/reformer/{RID}.json'), encoding='utf-8'))
+_g0 = json.load(open(os.path.join(ROT, 'research/remissanalys/kedja/gemensamt.json'), encoding='utf-8'))
+_fg_vantad = list(_g0['fokusgrupper']) + list(_cfg.get('extra_fokusgrupper') or {})
+_fg = [g.get('id') for g in d.get('fokusgrupper', [])]
+if _fg != _fg_vantad: F(f'fokusgrupper {_fg} ≠ gemensamt.json + config extra_fokusgrupper {_fg_vantad}')
+for x in U + A:
+    if x.get('fokusgrupp') not in _fg: F(f"{x.get('id') or x.get('namn')}: fokusgrupp {x.get('fokusgrupp')} saknas i fokusgrupper")
 
 # generellt: varje källobjekt någonstans i filen ska ha text och url
 def walk(o, path):

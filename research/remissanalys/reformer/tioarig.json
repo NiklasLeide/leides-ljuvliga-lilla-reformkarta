@@ -1,17 +1,84 @@
 {
  "id": "tioarig",
- "namn": null,
+ "namn": "En tioårig grundskola – Införandet av en ny årskurs 1 i grundskolan, grundsärskolan, specialskolan och sameskolan",
  "namn_i_brief": "Tioårig grundskola",
  "reforms_json_id": "tioarig",
- "status": "mall — fylls i när reformen tas fram",
+ "status": "under arbete (Sprint 17)",
  "sou": {
   "nr": "SOU 2021:33",
   "titel": "En tioårig grundskola – Införandet av en ny årskurs 1 i grundskolan, grundsärskolan, specialskolan och sameskolan",
   "sida_url": "https://www.regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2021/05/sou-202133/",
-  "pdf": null,
-  "innehall_sidor": null,
-  "forslagskapitel": null,
-  "forfattningskommentar": null
+  "pdf": [
+   {
+    "vol": "betankande",
+    "url": "https://www.regeringen.se/contentassets/f0785293473f4488ad7132aa06fbb1a1/en-tioarig-grundskola-sou-202133/"
+   }
+  ],
+  "pdf_anm": "PDF-länken på betänkandesidan saknar filändelse (slutar på \"/\") men levererar application/pdf (654 s.).",
+  "pdf_sidforskjutning": 1,
+  "pdf_sidforskjutning_anm": "Omslaget är PDF-sida 1; tryckt sida s står på PDF-sida s + 1 (t.ex. tryckt s. 505 = PDF-sida 506). innehall_sidor är PDF-sidor (som i extrahera_sou.py), innehållsförteckningens sidnummer tryckta.",
+  "innehall_sidor": [
+   6,
+   14
+  ],
+  "innehall_kort_utfyllnad": true,
+  "innehall_anm": "innehall_kort_utfyllnad: avsnitt 5.2.9 har bara två punkter före sidnumret (\"10(11) .. 297\").",
+  "forslagskapitel": [
+   5,
+   7
+  ],
+  "forfattningskommentar": [
+   {
+    "avsnitt": "9.2",
+    "slut_avsnitt": "Referenser",
+    "slut_sida": 539,
+    "lag": "Skollag (2010:800)",
+    "borja_vid_rubrik": true,
+    "radkorrigeringar": {
+     "Ikraftträdande- och övergångsbestämmelser": [
+      "Ikraftträdande och övergångsbestämmelser"
+     ],
+     "13 kap": [
+      "13 kap."
+     ],
+     "6a§": [
+      "6 a §"
+     ],
+     "4a§": [
+      "4 a §"
+     ],
+     "4b§": [
+      "4 b §"
+     ],
+     "9a§": [
+      "9 a §"
+     ],
+     "8a§": [
+      "8 a §"
+     ],
+     "Paragrafen behandlas i avsnitt 5. 1.": [
+      "Paragrafen behandlas i avsnitt 5.1."
+     ]
+    }
+   },
+   {
+    "avsnitt": "9.1",
+    "slut_avsnitt": "9.2",
+    "lag": "Offentlighets- och sekretesslag (2009:400)",
+    "radkorrigeringar": {
+     "Ikraftträdande- och övergångsbestämmelser": [
+      "Ikraftträdande och övergångsbestämmelser"
+     ]
+    }
+   }
+  ],
+  "forfattningskommentar_anm": "Kapitel 9: 9.1 offentlighets- och sekretesslagen (23 kap. 2 §, tryckt s. 505) och 9.2 skollagen (s. 505–538); 9.2 börjar på samma sida som 9.1, därför borja_vid_rubrik. Kommentaren återger inte paragrafernas text (bara \"Paragrafen …\"-kommentarer med \"Paragrafen behandlas i avsnitt …\"), så sou-paragrafer.json får tom 'text'; utredningens lagtext finns i kap. 1.1–1.2 (och i prop. 2024/25:143 bilaga 2). radkorrigeringar: rubriken skrivs \"Ikraftträdande- och övergångsbestämmelser\" (med bindestreck). radkorrigeringar för 9.2 (kontrollerade mot pdftotext): kapitelrubriken \"13 kap\" (s. 529) saknar punkt; \"6a§\" (2 kap.), \"4a§\", \"4b§\" (3 kap.), \"9a§\" (10 kap.) och \"8a§\" (12 kap.) saknar mellanslag. \"Paragrafen behandlas i avsnitt 5. 1.\" (2 kap. 27 §, s. 508) rättas till \"5.1.\". Utan hänvisning i SOU:n: 3 kap. 1 §, 7 kap. 1 § (kapitelinnehåll), 10 kap. 9, 9 a, 15 och 16 §§. 'upphavs' är true för 3 kap. 14 b § bara för att kommentaren innehåller \"ska upphöra att gälla\" (om ett betygsbeslut) och texten alltid är tom; paragrafen upphävs inte.",
+  "ruta_bindestreck_skydd": true,
+  "ruta_over_sidbrytning": true,
+  "ruta_slutrader": [
+   "Skälen för utredningens"
+  ],
+  "ruta_anm": "SOU 2021:33 har bara rutor \"Förslag: …\" (texten på samma rad, standardrubriken); inga \"Bedömning:\"-rutor. 55 förslagsrutor i kap. 5–7 (kap. 8 konsekvenser, kap. 9 författningskommentar), lika många som rader som börjar med \"Förslag:\" i pdftotext -layout. Varje ruta följs av \"Skälen för utredningens förslag\" (ruta_slutrader). ruta_over_sidbrytning: F03 (5.2.2, s. 278–279) fortsätter på nästa sida, och F35 (6.3.2) och F37 (6.3.4) har blankrader mellan styckena i rutan; utan inställningen klipps de tre rutorna (kontrollerat mot sidtexten). De övriga 52 rutorna blir identiska med och utan inställningen. ruta_bindestreck_skydd: annars \"mellanoch högstadiet\" (F05)."
  },
  "remiss": {
   "url": "https://www.regeringen.se/remisser/2021/06/remiss-av-sou-202133-en-tioarig-grundskola--inforandet-av-en-ny-arskurs-1-i-grundskolan-grundsarskolan-specialskolan-och-sameskolan/",
@@ -20,27 +87,89 @@
  "propositioner": [
   {
    "nr": "Prop. 2024/25:143",
+   "kort": "143",
    "sida_url": "https://www.regeringen.se/rattsliga-dokument/proposition/2025/03/prop.-202425143",
-   "pdf_url": null,
-   "avsnitt": null,
-   "utredningens_forslag_rubrik": null,
-   "remissinstanser_rubrik": null,
-   "hoppa_delar_vid_namnsokning": [],
-   "lagtext_sidor": null,
-   "forteckning_remissinstanser_sida": null
+   "pdf_url": "https://www.regeringen.se/contentassets/d2251095089b425f941b0cde4c33f388/en-tioarig-grundskola-prop.-202425143.pdf",
+   "avsnitt": [
+    "6.1",
+    "6.2",
+    "6.3",
+    "6.4.2",
+    "6.5",
+    "7.2",
+    "10"
+   ],
+   "utredningens_forslag_rubrik": [
+    "Utredningens förslag"
+   ],
+   "remissinstanser_rubrik": "Remissinstanserna",
+   "hoppa_delar_vid_namnsokning": [
+    "Vaccinationsprogramsutredningens"
+   ],
+   "hoppade_delar_beskrivning": "delar om SOU 2024:2",
+   "ovriga_delrubriker": [
+    "Vaccinationsprogramsutredningens förslag (SOU 2024:2)"
+   ],
+   "lagtext_sidor": [
+    6,
+    56
+   ],
+   "lagforslag_rubrik": "^2\\.(\\d)\\s+Förslag till lag om ändring i\\s*(.*)$",
+   "lagforslag_rubrik_flerradig": true,
+   "forteckning_remissinstanser_sida": 223,
+   "forteckning_bilaga": 3,
+   "anm": "Propositionen behandlar SOU 2021:33 (avsnitt 3: \"Betänkandet har remissbehandlats och en förteckning över remissinstanserna finns i bilaga 3\") och, i avsnitt 6.5, förslaget i avsnitt 16.7 i SOU 2024:2 (Vaccinationsprogramsutredningen; förteckning bilaga 6). Avsnitt med regeringens ruta och en del \"Utredningens förslag\": 6.1, 6.2, 6.3, 6.4.2, 6.5, 7.2, 10. I 6.5 följer \"Vaccinationsprogramsutredningens förslag (SOU 2024:2)\" och dess \"Remissinstanserna#2\" efter utredningens del; de hoppas över vid namnsökning. Avsnitt 8 och 9 har bara \"Regeringens bedömning\" och \"Skälen för regeringens bedömning\" (ingen utredningsdel, ingen remissredovisning) och ingår inte. Underrubrikerna står med texten på samma rad (layout.inline_delrubriker). Åtta lagförslag i kap. 2 (2.1 skollagen s. 6–49, 2.2–2.8 följdändringar i andra lagar s. 50–56). Avsnitt 3 nämner också ett utkast till lagrådsremiss som remitterades till bl.a. Almega Utbildning och SKR; de yttrandena är inte publicerade (\"finns tillgängliga i Utbildningsdepartementet\") och ingår inte i remissen U2021/02645:s förteckning. lagforslag_rubrik + lagforslag_rubrik_flerradig: lagförslagens rubriker bryts över två rader, ibland redan efter \"ändring i\" (2.2 socialförsäkringsbalken, 2.4 föräldraledighetslagen, 2.7 diskrimineringslagen); utan dem saknas tre lagförslag och socialförsäkringsbalkens 12 kap. 7 a och 13 §§ hamnar i skollagsförslaget."
   }
  ],
  "layout": {
-  "spaltforskjutning_pt": null,
-  "ord_y_intervall_pt": null
+  "spaltforskjutning_pt": 154.0,
+  "ord_y_intervall_pt": [
+   30,
+   640
+  ],
+  "rensa_marginal_i_delar": true,
+  "vanstermarginal_pt": {
+   "jamn": 122,
+   "udda": 51
+  },
+  "lagtext_tolerant": true,
+  "inline_delrubriker": true,
+  "anm": "Tvåspaltiga lagförslag uppmätta med pdftotext -bbox (s. 6 och 11): vänsterspalt jämna sidor 122 pt / udda 51 pt, högerspalt 276 / 205 pt, dvs. spaltförskjutning 154 pt (samma värden som prop. 2025/26:193–197). rensa_marginal_i_delar: \"Prop. 2024/25:143\" efter brödtext med ett blanksteg (t.ex. 6.4.2 s. 94). inline_delrubriker: \"Utredningens förslag: …\", \"Remissinstanserna: …\" med texten på samma rad. lagtext_fotnot_till_sidslut: s. 6 har fotnoten \"1 Senaste lydelse av\" med en tabell över de upphävda paragrafernas senaste lydelse, som annars hamnar i 1 kap. 1 §.",
+  "lagtext_fotnot_till_sidslut": true
  },
- "lagar": null,
- "forordningar": null,
- "forordning_markor": null,
+ "lagar": [
+  {
+   "namn": "Skollag (2010:800)",
+   "riksdagen_id": "sfs-2010-800",
+   "andringar": [
+    "2025:729"
+   ],
+   "bestamd_form": "skollagen",
+   "anm": "Ändringslag verifierad med \"Lag (2025:729)\" i den konsoliderade texten (ändrad t.o.m. SFS 2026:1636): 85 av de 95 skollagsparagrafer som utredningens författningskommentar (9.2) tar upp har en version enligt 2025:729 (prop. 2024/25:143 lagförslag 2.1; i kraft 2026-07-01, tillämpas efter 2028-06-30; övergångsblock finns). 9 kap. har \"upphävts genom lag (2025:729)\". Nio kommenterade paragrafer har ingen 2025:729-version kvar eftersom senare lagar ändrat dem (2 kap. 31 § 2026:760/2026:1634; 3 kap. 1 § 2026:735/2026:1242; 3 kap. 12 j § 2026:736/2026:1242; 5 kap. 12 § 2026:1198/2026:1242; 10 kap. 16 § och 11 kap. 16 a § 2026:1243; 28 kap. 12 § 2025:1312; 29 kap. 3 § 2026:388); de lagarna genomför andra reformer och tas inte med. 26 a kap. 5 § kommer inte med i sfs.json (kapitelbeteckningen \"26 a\" i sou-paragrafer.json mot \"26a\" i den konsoliderade texten, samma begränsning som \"17 a\" i betyg). 2025:730 (6 a kap. 5 och 10 §§, förskoleklassen stryks, samma ikraftträdande) gäller ett kapitel som inte fanns 2021 och som utredningens författningskommentar inte tar upp; tas inte med."
+  },
+  {
+   "namn": "Offentlighets- och sekretesslag (2009:400)",
+   "riksdagen_id": "sfs-2009-400",
+   "andringar": [
+    "2025:737"
+   ],
+   "bestamd_form": "offentlighets- och sekretesslagen",
+   "anm": "Ändringslag verifierad med \"Lag (2025:737)\" i den konsoliderade texten (ändrad t.o.m. SFS 2026:1648): 23 kap. 2 § (författningskommentar 9.1; prop. 2024/25:143 lagförslag 2.8), i kraft 2028-07-01; övergångsblock finns. Utredningen föreslog ikraftträdande 2026-07-01."
+  }
+ ],
+ "forordningar": [
+  {
+   "namn": "Skolförordning (2011:185)",
+   "riksdagen_id": "sfs-2011-185",
+   "anm": "Utredningens förordningsförslag (bl.a. 1.10 skolförordningen) är inte genomförda per 2026-11-10: den konsoliderade skolförordningen (ändrad t.o.m. SFS 2026:1823) nämner förskoleklassen 26 gånger och har inga framtida lydelser från 2028."
+  }
+ ],
+ "forordning_markor": [],
  "fokusorganisationer": {
   "skr": "Sveriges Kommuner och Regioner",
   "almega": null,
-  "ideburna": "Idéburna skolors riksförbund"
+  "ideburna": "Idéburna skolors riksförbund",
+  "friskolornas": "Friskolornas riksförbund"
  },
  "kedja": {
   "utredningsbetankande": {
@@ -55,7 +184,7 @@
    "url": "https://www.regeringen.se/remisser/2021/06/remiss-av-sou-202133-en-tioarig-grundskola--inforandet-av-en-ny-arskurs-1-i-grundskolan-grundsarskolan-specialskolan-och-sameskolan/",
    "diarienummer": "U2021/02645",
    "publicerad": "01 juni 2021",
-   "svar_senast": null,
+   "svar_senast": "30 september 2021",
    "kalla": {
     "text": "Remiss U2021/02645 på regeringen.se",
     "url": "https://www.regeringen.se/remisser/2021/06/remiss-av-sou-202133-en-tioarig-grundskola--inforandet-av-en-ny-arskurs-1-i-grundskolan-grundsarskolan-specialskolan-och-sameskolan/"
@@ -101,10 +230,25 @@
    }
   }
  },
- "hamtningsdatum": null,
+ "hamtningsdatum": "2026-11-10",
  "korrigeringar": {
   "ocr_citat_manuellt_kontrollerade": [],
   "motivering_omformulerad": {}
  },
- "forordning_markor_beskrivning": null
+ "forordning_markor_beskrivning": null,
+ "forordning_markor_anm": "Ingen markör: det finns ingen ny beteckning som bara reformen inför (\"årskurs 10\" förekommer redan, 4 träffar, för specialskolan), och de flesta förordningsförslagen ändrar befintlig text (förskoleklassen stryks). Med markör skulle sfs_diff.py ge ett missvisande \"ej i SFS … innehåller inte\"; utan markör blir status null med förklaring.",
+ "extra_fokusgrupper": {
+  "friskolornas": [
+   "Friskolornas riksförbund",
+   "huvudmannaorganisation"
+  ]
+ },
+ "fokusorganisationer_anm": "Stavning enligt remissens lista över remissinstanser (remissinstanser-for-en-tioarig-grundskola-sou-202133, 2021-06-01): \"Friskolornas riksförbund\", \"Idéburna skolors riksförbund\", \"Sveriges Kommuner och Regioner\". Almega finns inte i listan (almega: null). Friskolornas riksförbund är en egen, reformspecifik fokusgrupp (config extra_fokusgrupper, gemensamt.kategori()/grupp()/fokusgrupper()); den likställs inte med Almega. Enligt förteckningen i prop. 2024/25:143 bilaga 3 har Friskolornas riksförbund \"förklarat sig avstå eller … inte inkommit med yttrande\", och inget remissvar finns på remissidan.",
+ "forteckning_korrigeringar": {
+  "Valfrihetens vänner och Waldorfskolefederationen (WSF)": [
+   "Valfrihetens vänner",
+   "Waldorfskolefederationen (WSF)"
+  ]
+ },
+ "forteckning_korrigeringar_anm": "Förteckningen räknar upp \"… Valfrihetens vänner och Waldorfskolefederationen (WSF), Riksföreningen Waldorfförskolornas samråd (RWS) och Waldorflärarhögskolan (WLH)\"; uppdelningen behandlar Valfrihetens vänner som egen avsändare (osäkert om de tre waldorforganisationerna lämnat ett gemensamt yttrande). Ingen av dem är fokusgrupp."
 }

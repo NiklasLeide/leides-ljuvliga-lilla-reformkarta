@@ -1,0 +1,233 @@
+{
+ "_meta": {
+  "beskrivning": "Propositionernas innehållsförteckning; används för att kontrollera att avsnittsrubrikerna är fullständiga."
+ },
+ "propositioner": {
+  "143": {
+   "proposition": "Prop. 2024/25:143",
+   "url": "https://www.regeringen.se/contentassets/d2251095089b425f941b0cde4c33f388/en-tioarig-grundskola-prop.-202425143.pdf",
+   "innehallsforteckning": {
+    "1": {
+     "titel": "Förslag till riksdagsbeslut",
+     "sida": 5
+    },
+    "2": {
+     "titel": "Lagtext",
+     "sida": 6
+    },
+    "2.1": {
+     "titel": "Förslag till lag om ändring i skollagen (2010:800)",
+     "sida": 6
+    },
+    "2.2": {
+     "titel": "Förslag till lag om ändring i socialförsäkringsbalken",
+     "sida": 50
+    },
+    "2.3": {
+     "titel": "Förslag till lag om ändring i arbetsmiljölagen (1977:1160)",
+     "sida": 51
+    },
+    "2.4": {
+     "titel": "Förslag till lag om ändring i föräldraledighetslagen (1995:584)",
+     "sida": 52
+    },
+    "2.5": {
+     "titel": "Förslag till lag om ändring i smittskyddslagen (2004:168)",
+     "sida": 53
+    },
+    "2.6": {
+     "titel": "Förslag till lag om ändring i lagen (2004:773) om kommunalekonomisk utjämning",
+     "sida": 54
+    },
+    "2.7": {
+     "titel": "Förslag till lag om ändring i diskrimineringslagen (2008:567)",
+     "sida": 55
+    },
+    "2.8": {
+     "titel": "Förslag till lag om ändring i offentlighets- och sekretesslagen (2009:400)",
+     "sida": 56
+    },
+    "3": {
+     "titel": "Ärendet och dess beredning",
+     "sida": 57
+    },
+    "4": {
+     "titel": "Kunskapsresultaten i skolan behöver förbättras",
+     "sida": 58
+    },
+    "4.1": {
+     "titel": "Eleverna behöver utvecklas längre mot utbildningens mål",
+     "sida": 58
+    },
+    "4.2": {
+     "titel": "En skolform som bara omfattar ett år riskerar leda till bristande kontinuitet i utbildningen",
+     "sida": 59
+    },
+    "5": {
+     "titel": "Den nuvarande regleringen",
+     "sida": 61
+    },
+    "5.1": {
+     "titel": "Övergripande om skolformerna och om regleringen på skolområdet",
+     "sida": 61
+    },
+    "5.2": {
+     "titel": "Läroplanerna, ämnen och undervisningstid",
+     "sida": 66
+    },
+    "5.3": {
+     "titel": "Barns och elevers utveckling mot målen",
+     "sida": 68
+    },
+    "5.4": {
+     "titel": "Modersmål och nationella minoritetsspråk",
+     "sida": 69
+    },
+    "5.5": {
+     "titel": "Andra skillnader mellan förskoleklassen och grundskolan",
+     "sida": 70
+    },
+    "5.6": {
+     "titel": "Godkännanden av enskilda huvudmän",
+     "sida": 70
+    },
+    "5.7": {
+     "titel": "Behörighet att undervisa",
+     "sida": 71
+    },
+    "6": {
+     "titel": "En starkare kunskapsskola med en sammanhållen tioårig grundskola",
+     "sida": 72
+    },
+    "6.1": {
+     "titel": "Förskoleklassen ersätts av en ny årskurs 1 i lågstadiet",
+     "sida": 72
+    },
+    "6.2": {
+     "titel": "Den garanterade undervisningstiden utökas",
+     "sida": 79
+    },
+    "6.3": {
+     "titel": "Den nya första årskursen ska vara en integrerad del av skolan",
+     "sida": 82
+    },
+    "6.4": {
+     "titel": "Garantin för tidiga stödinsatser ska anpassas",
+     "sida": 93
+    },
+    "6.4.1": {
+     "titel": "Nuvarande reglering",
+     "sida": 93
+    },
+    "6.4.2": {
+     "titel": "Garantin för tidiga stödinsatser ska fortsätta gälla i lågstadiet",
+     "sida": 94
+    },
+    "6.5": {
+     "titel": "Följdändringar i skollagen och andra lagar",
+     "sida": 99
+    },
+    "7": {
+     "titel": "Barnens övergång från förskolan till skolan ska underlättas genom viss informationsöverföring",
+     "sida": 103
+    },
+    "7.1": {
+     "titel": "Det gäller viss sekretess och tystnadsplikt i skolväsendet",
+     "sida": 103
+    },
+    "7.2": {
+     "titel": "Uppgifter ska överlämnas från förskola till skola för att underlätta skolstarten för barnet",
+     "sida": 108
+    },
+    "8": {
+     "titel": "Vilka uppgifter som ska ingå i informationssystemet för skolväsendet behöver ses över",
+     "sida": 115
+    },
+    "9": {
+     "titel": "Bestämmelserna om antagning till den förberedande dansarutbildningen behöver ses över",
+     "sida": 116
+    },
+    "10": {
+     "titel": "Ikraftträdande- och övergångsbestämmelser",
+     "sida": 118
+    },
+    "11": {
+     "titel": "Konsekvenser av förslagen",
+     "sida": 130
+    },
+    "11.1": {
+     "titel": "Vilka berörs av förslagen?",
+     "sida": 130
+    },
+    "11.2": {
+     "titel": "Konsekvenser för den kommunala självstyrelsen",
+     "sida": 131
+    },
+    "11.3": {
+     "titel": "Ekonomiska konsekvenser för kommunerna",
+     "sida": 132
+    },
+    "11.4": {
+     "titel": "Konsekvenser för enskilda huvudmän",
+     "sida": 139
+    },
+    "11.5": {
+     "titel": "Konsekvenser för staten",
+     "sida": 140
+    },
+    "11.6": {
+     "titel": "Konsekvenser för barn, elever och skolans personal",
+     "sida": 142
+    },
+    "11.7": {
+     "titel": "Konsekvenser för jämställdhet",
+     "sida": 145
+    },
+    "11.8": {
+     "titel": "Konsekvenser för integration och utanförskap",
+     "sida": 146
+    },
+    "11.9": {
+     "titel": "Konsekvenser i förhållande till EU-rätten och dataskydd",
+     "sida": 146
+    },
+    "12": {
+     "titel": "Författningskommentar",
+     "sida": 148
+    },
+    "12.1": {
+     "titel": "Förslaget till lag om ändring i skollagen (2010:800)",
+     "sida": 148
+    },
+    "12.2": {
+     "titel": "Förslaget till lag om ändring i socialförsäkringsbalken",
+     "sida": 172
+    },
+    "12.3": {
+     "titel": "Förslaget till lag om ändring i arbetsmiljölagen (1977:1160)",
+     "sida": 172
+    },
+    "12.4": {
+     "titel": "Förslaget till lag om ändring i föräldraledighetslagen (1995:584)",
+     "sida": 173
+    },
+    "12.5": {
+     "titel": "Förslaget till lag om ändring i smittskyddslagen (2004:168)",
+     "sida": 174
+    },
+    "12.6": {
+     "titel": "Förslaget till lag om ändring i lagen (2004:773) om kommunalekonomisk utjämning",
+     "sida": 174
+    },
+    "12.7": {
+     "titel": "Förslaget till lag om ändring i diskrimineringslagen (2008:567)",
+     "sida": 175
+    },
+    "12.8": {
+     "titel": "Förslaget till lag om ändring i offentlighets- och sekretesslagen (2009:400)",
+     "sida": 175
+    }
+   }
+  }
+ }
+}

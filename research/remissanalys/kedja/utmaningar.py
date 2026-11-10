@@ -13,7 +13,7 @@ Förutsättning: passager.json (K6), remissvar.json (K5), sou-forslag.json och s
 Användning: python3 research/remissanalys/kedja/utmaningar.py <reform-id>"""
 import difflib, os, re, sys, unicodedata
 sys.path.insert(0, os.path.dirname(__file__))
-from gemensamt import reform_id, config, las, skriv, mapp, GRUPP
+from gemensamt import reform_id, config, las, skriv, mapp, grupp
 
 SKOLFORM = [('anpassad gymnasieskola', r'anpassad(?:e)? gymnasieskol\w*'), ('anpassad grundskola', r'anpassad(?:e)? grundskol\w*'),
             ('förskoleklass', r'förskoleklass\w*'), ('grundskola', r'grundskol\w*'), ('specialskola', r'specialskol\w*'), ('sameskola', r'sameskol\w*'),
@@ -26,6 +26,7 @@ def skolformer(t):
 
 if __name__ == '__main__':
     rid = reform_id(); c = config(rid); dnr = c['remiss']['diarienummer']
+    GRUPP = grupp(c)   # gemensamma fokusgrupper + config extra_fokusgrupper (oförändrat utan nyckeln)
     manuell_ocr = set((c.get('korrigeringar') or {}).get('ocr_citat_manuellt_kontrollerade') or [])
     P = {p['id']: p for p in las(rid, 'passager.json')['passager']}
     DOK = {d['id']: d for d in las(rid, 'remissvar.json')['publicerade']}

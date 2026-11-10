@@ -6,8 +6,8 @@
   propositioner-innehall.json     propositionernas innehållsförteckning (för kontroll av rubrikerna)
   prop-lagtext.json               lagförslagen (kap. 2) ur tvåspaltig layout via ordkoordinater: föreslagen lydelse per paragraf
 Konfiguration: propositioner[] (pdf_url, kort, avsnitt, utredningens_forslag_rubrik, ovriga_delrubriker, lagtext_sidor,
-flerradiga_delrubriker, lagforslag_rubrik), layout.spaltforskjutning_pt, layout.ord_y_intervall_pt, layout.rensa_marginal_i_delar,
-layout.rubrik_over_blankrad, layout.vanstermarginal_pt, layout.lagtext_tolerant.
+flerradiga_delrubriker, lagforslag_rubrik, lagforslag_rubrik_flerradig), layout.spaltforskjutning_pt, layout.ord_y_intervall_pt, layout.rensa_marginal_i_delar,
+layout.rubrik_over_blankrad, layout.vanstermarginal_pt, layout.lagtext_tolerant, layout.inline_delrubriker, layout.lagtext_fotnot_till_sidslut.
 Användning: python3 research/remissanalys/kedja/extrahera_prop.py <reform-id>"""
 import html, os, re, subprocess, sys, unicodedata
 from collections import Counter
@@ -22,12 +22,25 @@ def text(pdf, layout):
     if not os.path.exists(ut): subprocess.run(['pdftotext'] + (['-layout'] if layout else []) + [pdf, ut], check=True)
     return open(ut, encoding='utf-8').read().split('\f')
 
+INLINE_DELAR = False   # config layout.inline_delrubriker (av som standard): underrubrikerna står med texten på samma rad efter
+                       # kolon ("Utredningens förslag: Överensstämmer med regeringens förslag.", "Remissinstanserna: En
+                       # majoritet …", "Skälen för regeringens bedömning: Som framgår …"), som i äldre propositioner (prop.
+                       # 2024/25:143). Underrubriken känns då igen både ensam på raden och följd av kolon och text; texten efter
+                       # kolon blir delens första rad. Utan kolon krävs att rubriken står ensam ("Regeringens förslag om en
+                       # enhetlig reglering …" i brödtext är ingen underrubrik).
 def lab_regex(c):
     extra = []
     for p in c['propositioner']:
         extra += [r for r in (p.get('utredningens_forslag_rubrik') or []) if r not in BAS] + (p.get('ovriga_delrubriker') or [])
+    if INLINE_DELAR:
+        alts = [re.escape(x) for x in dict.fromkeys(extra + BAS)] + [r'Skälen för regeringens[^:]*?', 'Lagrådet']
+        return re.compile(r'^\s*(' + '|'.join(alts) + r')(?::\s*(.*?))?\s*$')
     alts = [re.escape(x) for x in dict.fromkeys(extra + BAS)] + [r'Skälen för regeringens.*', 'Lagrådet']
     return re.compile(r'^\s*(' + '|'.join(alts) + r')\s*$')
+
+def inline_text(m):
+    """Texten efter underrubrikens kolon (bara med layout.inline_delrubriker), annars None."""
+    return (m.group(2) or '').strip() or None if INLINE_DELAR else None
 
 HEAD = re.compile(r'^\s{0,25}((?:1?\d)(?:\.\d{1,2}){0,3})\s{2,}([A-ZÅÄÖ].*)$')
 RENSA_MARGINAL = False   # config layout.rensa_marginal_i_delar (av för betyg: identisk Sprint 16-fil)
@@ -70,7 +83,9 @@ def avsnitt_delar(P, LAB):
                 n = 2
                 while f'{lab}#{n}' in cur['delar']: n += 1
                 lab = f'{lab}#{n}'
-            cur['delar'][lab] = {'sida': pg, 'rader': []}; continue
+            cur['delar'][lab] = {'sida': pg, 'rader': []}
+            if inline_text(m): cur['delar'][lab]['rader'].append(inline_text(m)); cur['delar'][lab].setdefault('sidor', set()).add(pg)
+            continue
         if cur is not None and lab:
             cur['delar'][lab]['rader'].append(l.strip()); cur['delar'][lab].setdefault('sidor', set()).add(pg)
     for s in secs:
@@ -111,7 +126,9 @@ def avsnitt_text(P, LAB, want):
                 rub_fort = False
             m = LAB.match(l2)
             if m and cur is not None:
-                lab = m.group(1); cur['delar'].append({'del': lab, 'sidor': {}}); continue
+                lab = m.group(1); cur['delar'].append({'del': lab, 'sidor': {}})
+                if inline_text(m): cur['delar'][-1]['sidor'].setdefault(str(pg), []).append(inline_text(m))
+                continue
             if cur is not None and lab and l2.strip():
                 cur['delar'][-1]['sidor'].setdefault(str(pg), []).append(l2.strip())
     for s in secs:
@@ -155,14 +172,21 @@ def foga_rubriker(P, rubriker):
 
 LAGFORSLAG_RUBRIK = r'^2\.(\d)\s+Förslag till lag om ändring i (.*)$'
 
-def lagtext(pdf, forsta, sista, spalt, yint, rubrik=None, marginal=None, tolerant=False):
+def lagtext(pdf, forsta, sista, spalt, yint, rubrik=None, marginal=None, tolerant=False, rubrik_flerradig=False, fotnot_sidslut=False):
     """Föreslagen lydelse per paragraf ur kap. 2 (som Sprint 16 T3 prop_lagtext).
     rubrik: config propositioner[].lagforslag_rubrik, regex för lagförslagets rubrik (grupp 1 = nummer efter "2.", får saknas;
     grupp 2 = lagens namn). Standard "2.x Förslag till lag om ändring i …"; prop. 2025/26:193 har ett enda lagförslag som hela kap. 2.
     marginal: config layout.vanstermarginal_pt {"jamn": x, "udda": x} — fast vänstermarginal per sidparitet i stället för den
     vanligaste radstarten (som blir högerspalten på sidor med bara nya paragrafer, prop. 2025/26:193 s. 12–13).
     tolerant: config layout.lagtext_tolerant — paragrafrubriker utan mellanslag ("6a§", "2§") och "N kap." räknas bara som
-    kapitelrubrik om raden inte börjar i vänster- eller högerspalten (annars är det slutet av en mening, "… i 21 och / 22 kap.")."""
+    kapitelrubrik om raden inte börjar i vänster- eller högerspalten (annars är det slutet av en mening, "… i 21 och / 22 kap.").
+    rubrik_flerradig: config propositioner[].lagforslag_rubrik_flerradig (av som standard) — lagförslagets rubrik fortsätter på
+    nästa rad ("2.8 Förslag till lag om ändring i offentlighets- och" / "sekretesslagen (2009:400)", prop. 2024/25:143); raden
+    efter rubriken läggs till titeln om den inte börjar med "Härigenom". Används med en lagforslag_rubrik där lagens namn får
+    saknas på första raden ("2.2 Förslag till lag om ändring i" / "socialförsäkringsbalken").
+    fotnot_sidslut: config layout.lagtext_fotnot_till_sidslut (av som standard) — en fotnot "N Senaste lydelse av" följd av en
+    tabell över flera paragrafers senaste lydelse (prop. 2024/25:143 s. 6) gör att resten av sidan hoppas över (annars hamnar
+    tabellen i paragrafens text)."""
     bb = subprocess.run(['pdftotext', '-bbox', '-f', str(forsta), '-l', str(sista), pdf, '-'], capture_output=True, text=True).stdout
     pages = bb.split('<page ')[1:]
     pend = []; lagforslag = []; cur_lf = None; kap = None; par = None; state = 'full'
@@ -189,11 +213,18 @@ def lagtext(pdf, forsta, sista, spalt, yint, rubrik=None, marginal=None, toleran
         body = [w for w in body if w[0] >= lm - 3 or w[2].startswith('2.')]
         rc = lm + spalt; lines = {}
         for x, x2, t, y in body: lines.setdefault(round(y), []).append((x, x2, t))
+        rub_fort = False
         for y in sorted(lines):
             ws = lines[y]; txt = ' '.join(w[2] for w in sorted(ws)).strip()
             if re.match(r'^(' + PROPNR + r')$', txt) or re.fullmatch(r'\d{1,3}', txt): continue
+            if fotnot_sidslut and re.fullmatch(r'\d{1,3}\s+Senaste lydelse av', txt): break
             m = re.match(rubrik or LAGFORSLAG_RUBRIK, txt)
-            if m: cur_lf = {'lagforslag': '2.' + m.group(1) if m.group(1) else '2', 'titel': 'Förslag till lag om ändring i ' + m.group(2), 'paragrafer': []}; lagforslag.append(cur_lf); continue
+            if m:
+                cur_lf = {'lagforslag': '2.' + m.group(1) if m.group(1) else '2', 'titel': 'Förslag till lag om ändring i ' + m.group(2), 'paragrafer': []}; lagforslag.append(cur_lf)
+                rub_fort = rubrik_flerradig; continue
+            if rub_fort:
+                rub_fort = False
+                if not txt.startswith('Härigenom'): cur_lf['titel'] = re.sub(r'\s+', ' ', cur_lf['titel'] + ' ' + txt).strip(); continue
             if cur_lf is None: continue
             if re.match(r'^(Nuvarande lydelse|Lydelse enligt .*?) Föreslagen lydelse$', txt): state = 'two'; continue
             mk = re.fullmatch(r'(\d+ (?:[a-z] )?)kap\.', txt)
@@ -225,7 +256,8 @@ def lagtext(pdf, forsta, sista, spalt, yint, rubrik=None, marginal=None, toleran
     return lagforslag
 
 if __name__ == '__main__':
-    rid = reform_id(); c = config(rid); LAB = lab_regex(c)
+    rid = reform_id(); c = config(rid)
+    INLINE_DELAR = bool((c.get('layout') or {}).get('inline_delrubriker')); LAB = lab_regex(c)
     RENSA_MARGINAL = bool((c.get('layout') or {}).get('rensa_marginal_i_delar'))
     RUBRIK_OVER_BLANKRAD = bool((c.get('layout') or {}).get('rubrik_over_blankrad'))
     spalt = kravs(c, 'layout', 'spaltforskjutning_pt'); yint = kravs(c, 'layout', 'ord_y_intervall_pt')
@@ -249,7 +281,8 @@ if __name__ == '__main__':
         pin[k] = {'proposition': p['nr'], 'url': p['pdf_url'], 'innehallsforteckning': innehall(P)}
         if p.get('lagtext_sidor'):
             plag[k] = {'proposition': p['nr'], 'url': p['pdf_url'], 'lagforslag': lagtext(pdf, p['lagtext_sidor'][0], p['lagtext_sidor'][1], spalt, yint, p.get('lagforslag_rubrik'),
-                                                                           c['layout'].get('vanstermarginal_pt'), bool(c['layout'].get('lagtext_tolerant')))}
+                                                                           c['layout'].get('vanstermarginal_pt'), bool(c['layout'].get('lagtext_tolerant')),
+                                                                           bool(p.get('lagforslag_rubrik_flerradig')), bool(c['layout'].get('lagtext_fotnot_till_sidslut')))}
     skriv(rid, 'prop-avsnitt.json', {'_meta': {'beskrivning': 'Avsnitt med regeringens förslags-/bedömningsruta; text per underrubrik.'}, 'propositioner': pav})
     skriv(rid, 'propositionsavsnitt-text.json', {'_meta': {'beskrivning': 'Avsnittens text per underrubrik och tryckt sida (pdftotext -layout); används för namnsökning.'}, 'avsnitt': ptx})
     skriv(rid, 'propositioner-innehall.json', {'_meta': {'beskrivning': 'Propositionernas innehållsförteckning; används för att kontrollera att avsnittsrubrikerna är fullständiga.'}, 'propositioner': pin})

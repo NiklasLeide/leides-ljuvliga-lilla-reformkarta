@@ -63,9 +63,13 @@ def kravs(c, *nycklar):
     return v
 
 
-def kategori(namn, g):
-    """Fokusgrupps-/kategoriklassning av en avsändare (samma regler som förstudie 1, listor i gemensamt.json)."""
+def kategori(namn, g, c=None):
+    """Fokusgrupps-/kategoriklassning av en avsändare (samma regler som förstudie 1, listor i gemensamt.json).
+    c: reformens config (valfri). Med config extra_fokusgrupper (se fokusgrupper()) klassas en avsändare vars namn är exakt
+    fokusorganisationer[<id>] (skiftläge oberoende) som den extra fokusgruppen <id>. Utan extra_fokusgrupper: oförändrat."""
     n = N(namn); kl = g['klassning']
+    for k in extra_fokusgrupper(c):
+        if n.lower() == N(c['fokusorganisationer'][k]).lower(): return k
     if n == 'Sveriges Kommuner och Regioner': return 'skr'
     if re.match(r'Almega\b', n, re.I): return 'almega'
     if n.lower() == 'idéburna skolors riksförbund': return 'ideburna'
@@ -81,6 +85,28 @@ def kategori(namn, g):
 
 GRUPP = {'kommuner': 'huvudman', 'enskilda_huvudman': 'huvudman', 'skr': 'huvudmannaorganisation',
          'almega': 'huvudmannaorganisation', 'ideburna': 'huvudmannaorganisation'}
+
+
+# Reformspecifika extra fokusgrupper (Sprint 17, tioarig): config extra_fokusgrupper = {"<id>": ["<namn>", "<grupp>"]}, samma form
+# som gemensamt.json fokusgrupper, plus config fokusorganisationer["<id>"] = organisationens namn som det står i remisslistan.
+# Exempel: SOU 2021:33 har Friskolornas riksförbund (inte Almega) i remisslistan; den får en egen fokusgrupp "friskolornas"
+# i stället för att likställas med Almega. Den låsta metodfilen gemensamt.json ändras inte. Utan nyckeln (alla andra reformer)
+# ger funktionerna nedan exakt gemensamt.json:s fokusgrupper och GRUPP.
+def extra_fokusgrupper(c):
+    x = (c or {}).get('extra_fokusgrupper') or {}
+    for k in x:
+        if not ((c.get('fokusorganisationer') or {}).get(k)): sys.exit(f'extra_fokusgrupper.{k} kräver fokusorganisationer.{k} (organisationens namn) i konfigurationen.')
+    return x
+
+
+def fokusgrupper(c, g):
+    """gemensamt.json fokusgrupper + reformens extra fokusgrupper (efter de gemensamma, i config-ordning)."""
+    return {**g['fokusgrupper'], **extra_fokusgrupper(c)}
+
+
+def grupp(c):
+    """GRUPP (fokusgrupp → grupp) + reformens extra fokusgrupper."""
+    return {**GRUPP, **{k: v[1] for k, v in extra_fokusgrupper(c).items()}}
 
 
 def slug(namn):

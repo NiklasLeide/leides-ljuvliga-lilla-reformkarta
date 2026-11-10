@@ -15,8 +15,11 @@ def text(pdf, layout):
         subprocess.run(['pdftotext'] + (['-layout'] if layout else []) + [pdf, ut], check=True)
     return open(ut, encoding='utf-8').read().split('\f')
 
-def innehall(P, sidor):
+def innehall(P, sidor, kort_utfyllnad=False):
+    """kort_utfyllnad: config sou.innehall_kort_utfyllnad (av som standard): utfyllnaden före sidnumret får också vara två
+    punkter (SOU 2021:33 avsnitt 5.2.9: "Nationella prov i årskurs 4(5), 7(8) och 10(11) .. 297")."""
     toc = []; buf = ''
+    utf = r'\.{2,}' if kort_utfyllnad else r'\.{3,}'
     for p in P[sidor[0] - 1:sidor[1]]:
         for l in p.split('\n'):
             s = l.strip()
@@ -26,7 +29,7 @@ def innehall(P, sidor):
             elif buf: buf += ' ' + s
             else: continue
             # utfyllnaden före sidnumret är normalt "....", men kan vara en enda punkt när rubriken fyller raden (SOU 2025:8 kap. 4)
-            mm = re.match(r'^(\d{1,2}(?:\.\d{1,2}){0,4})\s+(.*?)\s*(?:\.{3,}|(?<=\s)\.)\s*(\d{1,4})$', buf)
+            mm = re.match(r'^(\d{1,2}(?:\.\d{1,2}){0,4})\s+(.*?)\s*(?:' + utf + r'|(?<=\s)\.)\s*(\d{1,4})$', buf)
             if mm: toc.append({'avsnitt': mm.group(1), 'rubrik': re.sub(r'\s+', ' ', mm.group(2)), 'sida': int(mm.group(3))}); buf = ''
     return toc
 
@@ -119,7 +122,12 @@ def tilldela_avsnitt(boxes, toc, Pvol):
         n += 1; out.append(dict(b, id=f'F{n:02d}'))
     return out
 
-def paragrafer(Praw, toc, fk, sounr):
+def paragrafer(Praw, toc, fk, sounr, forskjutning=0):
+    """forskjutning: config sou.pdf_sidforskjutning (0 som standard) = PDF-sida minus tryckt sida. Innehållsförteckningens
+    sidor är tryckta; i SOU 2021:33 är omslaget PDF-sida 1, så tryckt sida s står på PDF-sida s + 1. Paragrafernas 'sida'
+    är fortfarande den tryckta sidan.
+    Config sou.forfattningskommentar.borja_vid_rubrik (av som standard): rader på startsidan före raden som är exakt
+    avsnittsnumret (t.ex. "9.2") hoppas över, när föregående avsnitt (9.1, en annan lag) slutar på samma sida."""
     sid = {t['avsnitt']: t['sida'] for t in toc}
     # slut_avsnitt är normalt ett numrerat avsnitt i innehållsförteckningen; är det en onumrerad rubrik (t.ex. "Referenser")
     # anges dess tryckta sida i config sou.forfattningskommentar.slut_sida
@@ -130,8 +138,12 @@ def paragrafer(Praw, toc, fk, sounr):
     # har slagit ihop två rader (t.ex. SOU 2025:8: "Övervägandena finns i avsnitt 4.1.14 §" = slutet av 13 c § + rubriken 14 §)
     # eller tappat mellanslag i en paragrafrubrik ("5a§" → "5 a §")
     korr = fk.get('radkorrigeringar') or {}
+    vantar_rubrik = bool(fk.get('borja_vid_rubrik'))
     for pg in range(start, slut + 1):
-        for l0 in Praw[pg - 1].split('\n'):
+        for l0 in Praw[pg - 1 + forskjutning].split('\n'):
+          if vantar_rubrik:
+            if l0.strip() == fk['avsnitt']: vantar_rubrik = False
+            continue
           for l in korr.get(l0.strip(), [l0]):
             s = l.strip()
             if s in (sounr, rubrik_fk) or re.fullmatch(r'\d{3}', s): continue
@@ -176,7 +188,7 @@ if __name__ == '__main__':
     vols = kravs(c, 'sou', 'pdf'); sounr = s['nr']
     Pvol = [(v['vol'], text(mapp(rid, 'kallor', 'sou', v['vol'] + '.pdf'), True)) for v in vols]
     P1raw = text(mapp(rid, 'kallor', 'sou', vols[0]['vol'] + '.pdf'), False)
-    toc = innehall(Pvol[0][1], kravs(c, 'sou', 'innehall_sidor'))
+    toc = innehall(Pvol[0][1], kravs(c, 'sou', 'innehall_sidor'), bool(s.get('innehall_kort_utfyllnad')))
     kmin, kmax = kravs(c, 'sou', 'forslagskapitel')
     kapitel = {t['avsnitt']: t['rubrik'] for t in toc if '.' not in t['avsnitt'] and t['avsnitt'].isdigit()}
     avsn = {t['avsnitt']: {'rubrik': t['rubrik'], 'sida': t['sida']} for t in toc if t['avsnitt'].split('.')[0].isdigit() and kmin <= int(t['avsnitt'].split('.')[0]) <= kmax}
@@ -191,9 +203,9 @@ if __name__ == '__main__':
         # Flera lagar (config sou.forfattningskommentar som lista, en post per lag i samma ordning som config lagar, t.ex.
         # SOU 2025:26: 12.1 diskrimineringslagen, 12.2 skollagen). Varje paragraf får fältet 'lag' (= postens 'lag', samma
         # namn som lagar[].namn) så att K4/K8 kan hålla isär lagarna. Med en enda lag (dict) är utdata oförändrade.
-        p = [dict(x, lag=fk['lag']) for fk in fks for x in paragrafer(P1raw, toc, fk, sounr)]
+        p = [dict(x, lag=fk['lag']) for fk in fks for x in paragrafer(P1raw, toc, fk, sounr, s.get('pdf_sidforskjutning', 0))]
         skriv(rid, 'sou-paragrafer.json', {'_meta': {'kalla': {'text': f"{sounr}, författningskommentar {', '.join(fk['avsnitt'] for fk in fks)}", 'url': url1}, 'lag': [fk['lag'] for fk in fks]}, 'paragrafer': p})
     else:
-        p = paragrafer(P1raw, toc, fks, sounr)
+        p = paragrafer(P1raw, toc, fks, sounr, s.get('pdf_sidforskjutning', 0))
         skriv(rid, 'sou-paragrafer.json', {'_meta': {'kalla': {'text': f"{sounr}, författningskommentar {s['forfattningskommentar']['avsnitt']}", 'url': url1}, 'lag': s['forfattningskommentar']['lag']}, 'paragrafer': p})
     print(f'{rid}: innehåll {len(toc)} poster, {len(f)} förslagsrutor, {len(p)} paragrafer')

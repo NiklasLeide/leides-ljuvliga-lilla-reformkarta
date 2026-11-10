@@ -13,7 +13,7 @@ Steg i byggningen:
 Användning: python3 research/remissanalys/kedja/bygg.py <reform-id>   (utdata deterministisk, inga körningstidsstämplar)"""
 import collections, json, os, re, sys
 sys.path.insert(0, os.path.dirname(__file__))
-from gemensamt import ROT, reform_id, config, gemensamt, las, kravs
+from gemensamt import ROT, reform_id, config, gemensamt, las, kravs, fokusgrupper
 
 ALIAS = {'SKR': 'Sveriges Kommuner och Regioner'}     # kortformer som propositioner använder om avsändare
 FORK = ('bl.a.', 'm.fl.', 't.ex.', 'dvs.', 's.k.', 'prop.', 'bet.', 'rskr.', 'jfr.', 'kap.', 'resp.', 'ca.', 'm.m.', 'o.d.', 'p.g.a.', 'fr.o.m.', 't.o.m.')
@@ -40,7 +40,8 @@ if __name__ == '__main__':
     SFS_BELAGG = legacy.get('sfs_diff_belagg') or f'research/remissanalys/reformer/{rid}/sfs-diff.json'
     BYGGD_AV = legacy.get('byggd_av') or 'research/remissanalys/kedja/bygg.py'
     UT = f'pilot/utmaningar/data/utmaningar-{rid}.json'
-    TYPER = [tuple(t) for t in g0['utmaningstyper']]; FOKUS = list(g0['fokusgrupper'])
+    TYPER = [tuple(t) for t in g0['utmaningstyper']]
+    FG = fokusgrupper(c, g0); FOKUS = list(FG)   # gemensamma + config extra_fokusgrupper (oförändrat utan nyckeln)
     FORBJUDET = re.compile(r'\b(' + '|'.join(re.escape(o) for o in g0['forbjudna_ord'] if ' ' not in o) + r')\b|' + '|'.join(re.escape(o) for o in g0['forbjudna_ord'] if ' ' in o), re.I)
     OMFORM = {k: tuple(v) for k, v in ((c.get('korrigeringar') or {}).get('motivering_omformulerad') or {}).items()}
 
@@ -216,7 +217,11 @@ if __name__ == '__main__':
             'korpus': {'publicerade_remissvar': len(publ), 'avsandare_med_utmaningar': len(avsandare), 'utmaningar': len(utmaningar),
                        'beskrivning': f"Publicerade remissvar på regeringen.se från fokusgrupperna ({', '.join(grp_i_korpus)}). "
                                       f"{len(publ)} remissvar är publicerade; {len(publ) - len(utan)} av avsändarna har minst en kodad utmaning"
-                                      + (f" ({', '.join(utan)} har ingen)" if utan else '') + '.',
+                                      + (f" ({', '.join(utan)} har ingen)" if utan else '') + '.'
+                                      # reformspecifika extra fokusgrupper (config extra_fokusgrupper) utan publicerat remissvar nämns;
+                                      # utan nyckeln (alla andra reformer) läggs inget till
+                                      + ''.join(f" {FG[g][0]} är fokusgrupp för denna reform men har inget publicerat remissvar." for g in FOKUS
+                                                if g not in g0['fokusgrupper'] and not any(d['kategori'] == g for d in publ)),
                        'opublicerade_remissvar_som_saknas': {'antal': len(saknade), 'per_grupp': dict(collections.Counter(s['fokusgrupp'] for s in saknade)), 'avsandare': saknade}},
             'tolkning': 'Fält med tolkning: true är tolkning (utmaningstyp; koppling med nivå "tolkad"). Kopplingen mellan utredningsförslag och propositionsavsnitt är redaktionell: true. Övrigt är mekaniskt härlett ur källtext.',
             'ingen_bedomning': 'Inget fält anger om en utmaning har lösts eller om propositionen har bemött den i sak.',
@@ -226,7 +231,7 @@ if __name__ == '__main__':
             'byggd_av': BYGGD_AV}
     data = {'meta': meta, 'utmaningstyper': [{'namn': n, 'definition': d} for n, d in TYPER], 'avgorande_regel': g0['avgorande_regel'],
             'sakomraden': [kapitelrubrik(k) for k in SAKKAP],
-            'fokusgrupper': [{'id': g, 'namn': g0['fokusgrupper'][g][0], 'grupp': g0['fokusgrupper'][g][1]} for g in FOKUS],
+            'fokusgrupper': [{'id': g, 'namn': FG[g][0], 'grupp': FG[g][1]} for g in FOKUS],
             'avsandare': avsandare, 'utmaningar': utmaningar, 'propositionsavsnitt': propositionsavsnitt, 'utredningsforslag': forslag,
             'lagparagrafer': lagparagrafer, 'avsandarrakning': raknning}
     os.makedirs(os.path.join(ROT, os.path.dirname(UT)), exist_ok=True)
