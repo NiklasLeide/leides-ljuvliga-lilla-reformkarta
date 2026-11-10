@@ -15,9 +15,9 @@
 | # | Task | Status |
 |---|------|--------|
 | 1 | Hygien: preview-synk verifierad, README i research/ | Klar |
-| 2 | Datagrund: omkodning med tvåaxlig taxonomi, kopplingsnivåer, avsändarräkning, propositionens avvikelsetexter | Ej påbörjad |
-| 3 | Publik datafil för betyg med byggskript | Ej påbörjad |
-| 4 | Pilotsida: översikt, filter, citat, metodruta. Ej länkad, noindex | Ej påbörjad |
+| 2 | Datagrund: omkodning med tvåaxlig taxonomi, kopplingsnivåer, avsändarräkning, propositionens avvikelsetexter | Klar |
+| 3 | Datafil för betyg i pilot/utmaningar/ med byggskript | Ej påbörjad |
+| 4 | Pilotsida i pilot/utmaningar/: översikt, filter, citat, metodruta. Exkluderad från Pages | Ej påbörjad |
 | 5 | Granskningsunderlag v2: precision och missade utmaningar | Ej påbörjad |
 | 6 | Dokumentation: metodbeskrivning, CHANGELOG | Ej påbörjad |
 | 7 | Run DoD review for this sprint | Ej påbörjad |

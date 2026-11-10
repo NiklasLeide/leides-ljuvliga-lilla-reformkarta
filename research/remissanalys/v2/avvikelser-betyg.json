@@ -1,0 +1,519 @@
+{
+ "_meta": {
+  "beskrivning": "Propositionens stycke \"Utredningens förslag\" (prop. 194: \"Utredningen om likvärdiga betyg och meritvärdens förslag\") per avsnitt med regeringens förslags-/bedömningsruta, ordagrant fram till nästa underrubrik.",
+  "overensstammelse": "propositionens exakta fras",
+  "avvikelse_beskriven": "true om stycket innehåller fler meningar än den inledande om överensstämmelse (mekaniskt)"
+ },
+ "avsnitt": [
+  {
+   "proposition": "Prop. 2025/26:197",
+   "avsnitt": "6.1",
+   "rubrik": "Det behövs en ny modell för rättvisande",
+   "forslag_i_avsnittet": [
+    "F12",
+    "F13",
+    "F14",
+    "F15",
+    "F16",
+    "F17",
+    "F18",
+    "F19",
+    "F20",
+    "F21",
+    "F22",
+    "F23",
+    "F24",
+    "F25",
+    "F26",
+    "F27",
+    "F28",
+    "F32",
+    "F33",
+    "F36",
+    "F38"
+   ],
+   "rubrik_i_propositionen": "Utredningens förslag",
+   "text": "Förslagen från utredningen stämmer överens med regeringens bedömning.",
+   "overensstammelse": "stämmer överens",
+   "avvikelse_beskriven": false,
+   "kalla": {
+    "text": "Prop. 2025/26:197 s. 57, avsnitt 6.1 ”Utredningens förslag”",
+    "url": "https://www.regeringen.se/contentassets/a37af6932a5f4cf794499eb68a798d63/ett-likvardigt-betygssystem-prop.-202526197.pdf"
+   },
+   "sida": [
+    57
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 2
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:197",
+   "avsnitt": "6.2",
+   "rubrik": "En numerisk betygsskala med betygsstegen",
+   "forslag_i_avsnittet": [
+    "F01",
+    "F02"
+   ],
+   "rubrik_i_propositionen": "Utredningens förslag",
+   "text": "Förslagen från utredningen stämmer i huvudsak överens med regeringens förslag och bedömning. Utredningen föreslår att kriteriet för betygen 1–3 ska lyda ”mindre än godtagbara kunskaper”.",
+   "overensstammelse": "stämmer i huvudsak överens",
+   "avvikelse_beskriven": true,
+   "kalla": {
+    "text": "Prop. 2025/26:197 s. 65, avsnitt 6.2 ”Utredningens förslag”",
+    "url": "https://www.regeringen.se/contentassets/a37af6932a5f4cf794499eb68a798d63/ett-likvardigt-betygssystem-prop.-202526197.pdf"
+   },
+   "sida": [
+    65
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 3
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:197",
+   "avsnitt": "6.3",
+   "rubrik": "Bedömningssamråd ska genomföras för att",
+   "forslag_i_avsnittet": [
+    "F61",
+    "F62"
+   ],
+   "rubrik_i_propositionen": "Utredningens förslag",
+   "text": "Förslagen från utredningen stämmer i huvudsak överens med regeringens förslag. Utredningen föreslår att bedömningssamråd ska genomföras i årskurs 9 för grundskolan och årskurs 10 för specialskolan. I utredningens författningsförslag tydliggörs inte att bedömningssamråd även ska genomföras om ett ämne avslutas tidigare.",
+   "overensstammelse": "stämmer i huvudsak överens",
+   "avvikelse_beskriven": true,
+   "kalla": {
+    "text": "Prop. 2025/26:197 s. 73, avsnitt 6.3 ”Utredningens förslag”",
+    "url": "https://www.regeringen.se/contentassets/a37af6932a5f4cf794499eb68a798d63/ett-likvardigt-betygssystem-prop.-202526197.pdf"
+   },
+   "sida": [
+    73
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 5
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:197",
+   "avsnitt": "6.4.1",
+   "rubrik": "Huvudmän behöver använda nationella slutprov",
+   "forslag_i_avsnittet": [
+    "F29",
+    "F30",
+    "F64",
+    "F69",
+    "F71",
+    "F72"
+   ],
+   "rubrik_i_propositionen": "Utredningens förslag",
+   "text": "Förslagen från utredningen stämmer överens med regeringens förslag och bedömning.",
+   "overensstammelse": "stämmer överens",
+   "avvikelse_beskriven": false,
+   "kalla": {
+    "text": "Prop. 2025/26:197 s. 78, avsnitt 6.4.1 ”Utredningens förslag”",
+    "url": "https://www.regeringen.se/contentassets/a37af6932a5f4cf794499eb68a798d63/ett-likvardigt-betygssystem-prop.-202526197.pdf"
+   },
+   "sida": [
+    78
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 2
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:197",
+   "avsnitt": "6.4.2",
+   "rubrik": "Det ska vara möjligt att göra de nationella",
+   "forslag_i_avsnittet": [
+    "F49",
+    "F50",
+    "F51"
+   ],
+   "rubrik_i_propositionen": "Utredningens förslag",
+   "text": "Förslagen från utredningen stämmer i huvudsak överens med regeringens förslag. Utredningen föreslår en annan lagteknisk utformning som innebär att rätten att genomföra nationella slutprov efter avslutad utbildning framgår av skollagen.",
+   "overensstammelse": "stämmer i huvudsak överens",
+   "avvikelse_beskriven": true,
+   "kalla": {
+    "text": "Prop. 2025/26:197 s. 83, avsnitt 6.4.2 ”Utredningens förslag”",
+    "url": "https://www.regeringen.se/contentassets/a37af6932a5f4cf794499eb68a798d63/ett-likvardigt-betygssystem-prop.-202526197.pdf"
+   },
+   "sida": [
+    83
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 4
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:197",
+   "avsnitt": "6.4.3",
+   "rubrik": "De nationella proven ska inte längre särskilt",
+   "forslag_i_avsnittet": [
+    "F63"
+   ],
+   "rubrik_i_propositionen": "Utredningens förslag",
+   "text": "Förslaget från utredningen stämmer överens med regeringens förslag.",
+   "overensstammelse": "stämmer överens",
+   "avvikelse_beskriven": false,
+   "kalla": {
+    "text": "Prop. 2025/26:197 s. 86, avsnitt 6.4.3 ”Utredningens förslag”",
+    "url": "https://www.regeringen.se/contentassets/a37af6932a5f4cf794499eb68a798d63/ett-likvardigt-betygssystem-prop.-202526197.pdf"
+   },
+   "sida": [
+    86
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 1
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:197",
+   "avsnitt": "6.5",
+   "rubrik": "Huvudmän ska rapportera in uppgifter om",
+   "forslag_i_avsnittet": [
+    "F35",
+    "F42"
+   ],
+   "rubrik_i_propositionen": "Utredningens förslag",
+   "text": "Förslagen från utredningen stämmer delvis överens med regeringens förslag. Utredningen föreslår att det av skollagen ska framgå att uppgifter om betyg ska lämnas till Statens skolverk.",
+   "overensstammelse": "stämmer delvis överens",
+   "avvikelse_beskriven": true,
+   "kalla": {
+    "text": "Prop. 2025/26:197 s. 88, avsnitt 6.5 ”Utredningens förslag”",
+    "url": "https://www.regeringen.se/contentassets/a37af6932a5f4cf794499eb68a798d63/ett-likvardigt-betygssystem-prop.-202526197.pdf"
+   },
+   "sida": [
+    88
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 3
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:197",
+   "avsnitt": "6.6",
+   "rubrik": "Nya behörighetsregler ska införas för tillträde",
+   "forslag_i_avsnittet": [
+    "F52"
+   ],
+   "rubrik_i_propositionen": "Utredningens förslag",
+   "text": "Förslagen från utredningen stämmer delvis överens med regeringens förslag. Utredningen föreslår att begreppet ”motsvarande utbildning” fortsatt ska användas i 16 kap. 29 §. Utredningen föreslår även en mer begränsad upplysningsbestämmelse när det gäller föreskrifter om beräkning av meritvärde. Utredningen föreslår ingen upplysningsbestämmelse som avser föreskrifter om krav på behörighet för en sökande som på annat sätt än genom utbildning i grundskolan, specialskolan eller motsvarande utbildning i vissa särskilda utbildningsformer förvärvat kunskaper som är likvärdiga med de som krävs för behörighet till nationella program.",
+   "overensstammelse": "stämmer delvis överens",
+   "avvikelse_beskriven": true,
+   "kalla": {
+    "text": "Prop. 2025/26:197 s. 90, avsnitt 6.6 ”Utredningens förslag”",
+    "url": "https://www.regeringen.se/contentassets/a37af6932a5f4cf794499eb68a798d63/ett-likvardigt-betygssystem-prop.-202526197.pdf"
+   },
+   "sida": [
+    90
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 10
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:197",
+   "avsnitt": "6.7",
+   "rubrik": "Lovskola ska inte längre erbjudas elever som",
+   "forslag_i_avsnittet": [
+    "F09"
+   ],
+   "rubrik_i_propositionen": "Utredningens förslag",
+   "text": "Förslaget från utredningen stämmer i huvudsak överens med regeringens förslag. Utredningen föreslår att lovskola inte längre ska erbjudas elever som avslutat årskurs 9.",
+   "overensstammelse": "stämmer i huvudsak överens",
+   "avvikelse_beskriven": true,
+   "kalla": {
+    "text": "Prop. 2025/26:197 s. 99, avsnitt 6.7 ”Utredningens förslag”",
+    "url": "https://www.regeringen.se/contentassets/a37af6932a5f4cf794499eb68a798d63/ett-likvardigt-betygssystem-prop.-202526197.pdf"
+   },
+   "sida": [
+    99
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 3
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:197",
+   "avsnitt": "6.8",
+   "rubrik": "Elever ska få betyget 1, 2, 3 eller 4 i",
+   "forslag_i_avsnittet": [
+    "F11"
+   ],
+   "rubrik_i_propositionen": "Utredningens förslag",
+   "text": "Förslaget från utredningen stämmer överens med regeringens förslag.",
+   "overensstammelse": "stämmer överens",
+   "avvikelse_beskriven": false,
+   "kalla": {
+    "text": "Prop. 2025/26:197 s. 101, avsnitt 6.8 ”Utredningens förslag”",
+    "url": "https://www.regeringen.se/contentassets/a37af6932a5f4cf794499eb68a798d63/ett-likvardigt-betygssystem-prop.-202526197.pdf"
+   },
+   "sida": [
+    101
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 1
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:197",
+   "avsnitt": "6.9",
+   "rubrik": "Gymnasieexamen ska utfärdas om eleven har",
+   "forslag_i_avsnittet": [
+    "F56"
+   ],
+   "rubrik_i_propositionen": "Utredningens förslag",
+   "text": "Förslagen från utredningen stämmer delvis överens med regeringens förslag. Utredningen föreslår att betygen 1–4 i gymnasiearbetet ska vara möjligt att tillgodoräkna sig för en gymnasieexamen.",
+   "overensstammelse": "stämmer delvis överens",
+   "avvikelse_beskriven": true,
+   "kalla": {
+    "text": "Prop. 2025/26:197 s. 102, avsnitt 6.9 ”Utredningens förslag”",
+    "url": "https://www.regeringen.se/contentassets/a37af6932a5f4cf794499eb68a798d63/ett-likvardigt-betygssystem-prop.-202526197.pdf"
+   },
+   "sida": [
+    102
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 3
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:197",
+   "avsnitt": "6.10",
+   "rubrik": "Gymnasieingenjörsexamen ska utfärdas om en",
+   "forslag_i_avsnittet": [
+    "F57"
+   ],
+   "rubrik_i_propositionen": "Utredningens förslag",
+   "text": "Förslaget från utredningen stämmer i huvudsak överens med regeringens förslag. I utredningens förslag anges det att en gymnasieingenjörsexamen ska utfärdas om eleven har gått igenom en fullständig vidareutbildning med godtagbara kunskaper.",
+   "overensstammelse": "stämmer i huvudsak överens",
+   "avvikelse_beskriven": true,
+   "kalla": {
+    "text": "Prop. 2025/26:197 s. 107, avsnitt 6.10 ”Utredningens förslag”",
+    "url": "https://www.regeringen.se/contentassets/a37af6932a5f4cf794499eb68a798d63/ett-likvardigt-betygssystem-prop.-202526197.pdf"
+   },
+   "sida": [
+    107
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 4
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:197",
+   "avsnitt": "6.11",
+   "rubrik": "Meritvärde ska vara en urvalsgrund vid",
+   "forslag_i_avsnittet": [
+    "F60"
+   ],
+   "rubrik_i_propositionen": "Utredningens förslag",
+   "text": "Förslaget från utredningen stämmer i huvudsak överens med regeringens förslag. Utredningen föreslår att för tillträde till utbildning som påbörjas på grundnivå ska urvalsgrunden betyg ersättas med urvalsgrunden meritvärden vid urval. Utredningen föreslår inte någon ändring av den tidigare riksdagsbindningen.",
+   "overensstammelse": "stämmer i huvudsak överens",
+   "avvikelse_beskriven": true,
+   "kalla": {
+    "text": "Prop. 2025/26:197 s. 109, avsnitt 6.11 ”Utredningens förslag”",
+    "url": "https://www.regeringen.se/contentassets/a37af6932a5f4cf794499eb68a798d63/ett-likvardigt-betygssystem-prop.-202526197.pdf"
+   },
+   "sida": [
+    109
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 5
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:197",
+   "avsnitt": "6.12.1",
+   "rubrik": "Språkintroduktion ska stå öppen för nyanlända",
+   "forslag_i_avsnittet": [
+    "F53"
+   ],
+   "rubrik_i_propositionen": "Utredningens förslag",
+   "text": "Förslaget från utredningen stämmer överens med regeringens förslag.",
+   "overensstammelse": "stämmer överens",
+   "avvikelse_beskriven": false,
+   "kalla": {
+    "text": "Prop. 2025/26:197 s. 110, avsnitt 6.12.1 ”Utredningens förslag”",
+    "url": "https://www.regeringen.se/contentassets/a37af6932a5f4cf794499eb68a798d63/ett-likvardigt-betygssystem-prop.-202526197.pdf"
+   },
+   "sida": [
+    110
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 1
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:197",
+   "avsnitt": "6.12.2",
+   "rubrik": "Programinriktat val ska tas bort",
+   "forslag_i_avsnittet": [
+    "F53"
+   ],
+   "rubrik_i_propositionen": "Utredningens förslag",
+   "text": "Förslaget från utredningen stämmer överens med regeringens förslag.",
+   "overensstammelse": "stämmer överens",
+   "avvikelse_beskriven": false,
+   "kalla": {
+    "text": "Prop. 2025/26:197 s. 111, avsnitt 6.12.2 ”Utredningens förslag”",
+    "url": "https://www.regeringen.se/contentassets/a37af6932a5f4cf794499eb68a798d63/ett-likvardigt-betygssystem-prop.-202526197.pdf"
+   },
+   "sida": [
+    111
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 1
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:197",
+   "avsnitt": "6.13",
+   "rubrik": "Följdändringar i skollagen",
+   "forslag_i_avsnittet": [
+    "F10"
+   ],
+   "rubrik_i_propositionen": "Utredningens förslag",
+   "text": "Förslagen från utredningen stämmer delvis överens med regeringens förslag. I de bestämmelser som berörs av den nya betygsskalan förhåller sig inte utredningen till de förslag som lämnas i propositionen Nya läroplaner – för en stark kunskapsskola (prop. 2025/26:194) och i propositionen Förbättrat stöd i skolan (prop. 2025/26:195), som har beslutats samma dag som denna proposition.",
+   "overensstammelse": "stämmer delvis överens",
+   "avvikelse_beskriven": true,
+   "kalla": {
+    "text": "Prop. 2025/26:197 s. 113, avsnitt 6.13 ”Utredningens förslag”",
+    "url": "https://www.regeringen.se/contentassets/a37af6932a5f4cf794499eb68a798d63/ett-likvardigt-betygssystem-prop.-202526197.pdf"
+   },
+   "sida": [
+    113
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 6
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:197",
+   "avsnitt": "8",
+   "rubrik": "Ikraftträdande- och",
+   "forslag_i_avsnittet": [
+    "F77",
+    "F78"
+   ],
+   "rubrik_i_propositionen": "Utredningens förslag",
+   "text": "Förslagen från utredningen stämmer delvis överens med regeringens förslag. Utredningen föreslår att lagändringarna ska träda i kraft den 1 januari 2027 och tillämpas första gången på utbildning i gymnasieskolan och anpassade gymnasieskolan som påbörjas efter den 1 juli 2027, på utbildning i årkurs 1–8 i grundskolan och anpassade grundskolan och i årskurs 1–9 i specialskolan som påbörjas höstterminen 2028, på vidareutbildning i form av ett fjärde tekniskt år som påbörjas höstterminen 2030 och på utbildning i komvux på gymnasial nivå och komvux som anpassad utbildning på gymnasial nivå som påbörjas efter den 31 december 2029.",
+   "overensstammelse": "stämmer delvis överens",
+   "avvikelse_beskriven": true,
+   "kalla": {
+    "text": "Prop. 2025/26:197 s. 127, avsnitt 8 ”Utredningens förslag”",
+    "url": "https://www.regeringen.se/contentassets/a37af6932a5f4cf794499eb68a798d63/ett-likvardigt-betygssystem-prop.-202526197.pdf"
+   },
+   "sida": [
+    127
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 9
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:194",
+   "avsnitt": "6.7",
+   "rubrik": "Fokus ska vara på elevens tillgodogörande av",
+   "forslag_i_avsnittet": [
+    "F03",
+    "F05",
+    "F06",
+    "F07",
+    "F08"
+   ],
+   "rubrik_i_propositionen": "Utredningen om likvärdiga betyg och meritvärdens förslag",
+   "text": "Förslaget om att fokus inte ska vara att uppfylla kriterier utan elevens tillgodogörande av kunskap stämmer också i huvudsak överens med regeringens förslag. Utredningen föreslår dock att det i vissa bestämmelser ska anges att elever ska tillgodogöra sig kunskaper som minst motsvarar betygskriteriet godtagbara kunskaper eller uppfylla de kriterier för bedömning av kunskaper som minst ska uppfyllas. Utredningens förslag är inte heller anpassat till den nya strukturen i kursplanerna för grundskolan och motsvarande skolformer. Utredningen föreslår inte att det ska anges i skollagen att bland annat ämnets, ämnesområdets och kursens syfte och centrala innehåll ska framgå av ämnes- och ämnesområdesplanerna samt av vissa kursplaner i komvux. Utredningens förslag omfattar utöver de obligatoriska skolformerna även gymnasieskolan, anpassade gymnasieskolan och komvux på gymnasial nivå och komvux som anpassad utbildning på gymnasial nivå.",
+   "overensstammelse": "stämmer också i huvudsak överens",
+   "avvikelse_beskriven": true,
+   "kalla": {
+    "text": "Prop. 2025/26:194 s. 147, avsnitt 6.7 ”Utredningen om likvärdiga betyg och meritvärdens förslag”",
+    "url": "https://www.regeringen.se/contentassets/42c1e2e4596b4f8682e3d8283b91a138/nya-laroplaner--for-en-stark-kunskapsskola-prop.-202526194.pdf"
+   },
+   "sida": [
+    147
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 14
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:194",
+   "avsnitt": "6.8",
+   "rubrik": "Sammantagen bedömning ska användas för alla",
+   "forslag_i_avsnittet": [
+    "F04"
+   ],
+   "rubrik_i_propositionen": "Utredningen om likvärdiga betyg och meritvärdens förslag",
+   "text": "Förslaget i betänkandet Ett likvärdigt betygssystem (SOU 2025:18) stämmer i huvudsak överens med regeringens. Utredningens förslag omfattar utöver de obligatoriska skolformerna även gymnasieskolan, anpassade gymnasieskolan, komvux på gymnasial nivå och komvux som anpassad utbildning på gymnasial nivå. I utredningens förslag omfattas inte anpassade gymnasieskolan av att en elev vid betygssättningen ändå måste ha godtagbara kunskaper i sådana delar av ämnets syfte och centrala innehåll som avser säkerhetsaspekter eller myndigheters föreskrifter för att kunna få betyget E.",
+   "overensstammelse": "stämmer i huvudsak överens",
+   "avvikelse_beskriven": true,
+   "kalla": {
+    "text": "Prop. 2025/26:194 s. 155, avsnitt 6.8 ”Utredningen om likvärdiga betyg och meritvärdens förslag”",
+    "url": "https://www.regeringen.se/contentassets/42c1e2e4596b4f8682e3d8283b91a138/nya-laroplaner--for-en-stark-kunskapsskola-prop.-202526194.pdf"
+   },
+   "sida": [
+    155
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 9
+   }
+  }
+ ]
+}

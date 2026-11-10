@@ -1,0 +1,3823 @@
+{
+ "_meta": {
+  "raknas": "primär utmaningstyp; sakområde = SOU-kapitlets rubrik (en utmaning kopplad till flera kapitel räknas i vart och ett); avsändare räknas en gång per cell",
+  "enskilda_huvudman": "0 — de fem enskilda huvudmännens remissvar är spontana yttranden som inte publiceras på regeringen.se"
+ },
+ "totalt": {
+  "antal_avsandare": 28,
+  "antal_passager": 440,
+  "per_fokusgrupp": {
+   "kommuner": {
+    "antal": 25,
+    "avsandare": [
+     "Ale kommun",
+     "Botkyrka kommun",
+     "Falu kommun",
+     "Gislaveds kommun",
+     "Gotlands kommun",
+     "Göteborgs kommun",
+     "Härnösands kommun",
+     "Katrineholms kommun",
+     "Kristianstads kommun",
+     "Linköpings kommun",
+     "Malmö kommun",
+     "Motala kommun",
+     "Norrköpings kommun",
+     "Olofströms kommun",
+     "Sala kommun",
+     "Skövde kommun",
+     "Stockholms kommun",
+     "Strömsunds kommun",
+     "Söderhamns kommun",
+     "Tierps kommun",
+     "Tingsryds kommun",
+     "Vallentuna kommun",
+     "Varbergs kommun",
+     "Vimmerby kommun",
+     "Örebro kommun"
+    ]
+   },
+   "enskilda_huvudman": {
+    "antal": 0,
+    "avsandare": []
+   },
+   "skr": {
+    "antal": 1,
+    "avsandare": [
+     "Sveriges Kommuner och Regioner"
+    ]
+   },
+   "almega": {
+    "antal": 1,
+    "avsandare": [
+     "Almega Utbildning"
+    ]
+   },
+   "ideburna": {
+    "antal": 1,
+    "avsandare": [
+     "Idéburna skolors riksförbund"
+    ]
+   }
+  },
+  "avsandare": [
+   "Ale kommun",
+   "Almega Utbildning",
+   "Botkyrka kommun",
+   "Falu kommun",
+   "Gislaveds kommun",
+   "Gotlands kommun",
+   "Göteborgs kommun",
+   "Härnösands kommun",
+   "Idéburna skolors riksförbund",
+   "Katrineholms kommun",
+   "Kristianstads kommun",
+   "Linköpings kommun",
+   "Malmö kommun",
+   "Motala kommun",
+   "Norrköpings kommun",
+   "Olofströms kommun",
+   "Sala kommun",
+   "Skövde kommun",
+   "Stockholms kommun",
+   "Strömsunds kommun",
+   "Sveriges Kommuner och Regioner",
+   "Söderhamns kommun",
+   "Tierps kommun",
+   "Tingsryds kommun",
+   "Vallentuna kommun",
+   "Varbergs kommun",
+   "Vimmerby kommun",
+   "Örebro kommun"
+  ]
+ },
+ "per_utmaningstyp": {
+  "Kostnader och finansiering": {
+   "antal_avsandare": 22,
+   "antal_passager": 43,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 19,
+     "avsandare": [
+      "Ale kommun",
+      "Botkyrka kommun",
+      "Falu kommun",
+      "Gotlands kommun",
+      "Göteborgs kommun",
+      "Härnösands kommun",
+      "Katrineholms kommun",
+      "Kristianstads kommun",
+      "Linköpings kommun",
+      "Malmö kommun",
+      "Olofströms kommun",
+      "Sala kommun",
+      "Stockholms kommun",
+      "Tierps kommun",
+      "Tingsryds kommun",
+      "Vallentuna kommun",
+      "Varbergs kommun",
+      "Vimmerby kommun",
+      "Örebro kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 1,
+     "avsandare": [
+      "Sveriges Kommuner och Regioner"
+     ]
+    },
+    "almega": {
+     "antal": 1,
+     "avsandare": [
+      "Almega Utbildning"
+     ]
+    },
+    "ideburna": {
+     "antal": 1,
+     "avsandare": [
+      "Idéburna skolors riksförbund"
+     ]
+    }
+   },
+   "avsandare": [
+    "Ale kommun",
+    "Almega Utbildning",
+    "Botkyrka kommun",
+    "Falu kommun",
+    "Gotlands kommun",
+    "Göteborgs kommun",
+    "Härnösands kommun",
+    "Idéburna skolors riksförbund",
+    "Katrineholms kommun",
+    "Kristianstads kommun",
+    "Linköpings kommun",
+    "Malmö kommun",
+    "Olofströms kommun",
+    "Sala kommun",
+    "Stockholms kommun",
+    "Sveriges Kommuner och Regioner",
+    "Tierps kommun",
+    "Tingsryds kommun",
+    "Vallentuna kommun",
+    "Varbergs kommun",
+    "Vimmerby kommun",
+    "Örebro kommun"
+   ]
+  },
+  "Tidplan och reformtakt": {
+   "antal_avsandare": 24,
+   "antal_passager": 70,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 21,
+     "avsandare": [
+      "Falu kommun",
+      "Gislaveds kommun",
+      "Gotlands kommun",
+      "Göteborgs kommun",
+      "Härnösands kommun",
+      "Katrineholms kommun",
+      "Kristianstads kommun",
+      "Malmö kommun",
+      "Motala kommun",
+      "Norrköpings kommun",
+      "Olofströms kommun",
+      "Sala kommun",
+      "Skövde kommun",
+      "Stockholms kommun",
+      "Strömsunds kommun",
+      "Tierps kommun",
+      "Tingsryds kommun",
+      "Vallentuna kommun",
+      "Varbergs kommun",
+      "Vimmerby kommun",
+      "Örebro kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 1,
+     "avsandare": [
+      "Sveriges Kommuner och Regioner"
+     ]
+    },
+    "almega": {
+     "antal": 1,
+     "avsandare": [
+      "Almega Utbildning"
+     ]
+    },
+    "ideburna": {
+     "antal": 1,
+     "avsandare": [
+      "Idéburna skolors riksförbund"
+     ]
+    }
+   },
+   "avsandare": [
+    "Almega Utbildning",
+    "Falu kommun",
+    "Gislaveds kommun",
+    "Gotlands kommun",
+    "Göteborgs kommun",
+    "Härnösands kommun",
+    "Idéburna skolors riksförbund",
+    "Katrineholms kommun",
+    "Kristianstads kommun",
+    "Malmö kommun",
+    "Motala kommun",
+    "Norrköpings kommun",
+    "Olofströms kommun",
+    "Sala kommun",
+    "Skövde kommun",
+    "Stockholms kommun",
+    "Strömsunds kommun",
+    "Sveriges Kommuner och Regioner",
+    "Tierps kommun",
+    "Tingsryds kommun",
+    "Vallentuna kommun",
+    "Varbergs kommun",
+    "Vimmerby kommun",
+    "Örebro kommun"
+   ]
+  },
+  "Personal, kompetens och arbetsbelastning": {
+   "antal_avsandare": 22,
+   "antal_passager": 63,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 20,
+     "avsandare": [
+      "Ale kommun",
+      "Botkyrka kommun",
+      "Falu kommun",
+      "Gislaveds kommun",
+      "Gotlands kommun",
+      "Göteborgs kommun",
+      "Härnösands kommun",
+      "Katrineholms kommun",
+      "Kristianstads kommun",
+      "Linköpings kommun",
+      "Motala kommun",
+      "Norrköpings kommun",
+      "Sala kommun",
+      "Stockholms kommun",
+      "Tierps kommun",
+      "Tingsryds kommun",
+      "Vallentuna kommun",
+      "Varbergs kommun",
+      "Vimmerby kommun",
+      "Örebro kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 1,
+     "avsandare": [
+      "Almega Utbildning"
+     ]
+    },
+    "ideburna": {
+     "antal": 1,
+     "avsandare": [
+      "Idéburna skolors riksförbund"
+     ]
+    }
+   },
+   "avsandare": [
+    "Ale kommun",
+    "Almega Utbildning",
+    "Botkyrka kommun",
+    "Falu kommun",
+    "Gislaveds kommun",
+    "Gotlands kommun",
+    "Göteborgs kommun",
+    "Härnösands kommun",
+    "Idéburna skolors riksförbund",
+    "Katrineholms kommun",
+    "Kristianstads kommun",
+    "Linköpings kommun",
+    "Motala kommun",
+    "Norrköpings kommun",
+    "Sala kommun",
+    "Stockholms kommun",
+    "Tierps kommun",
+    "Tingsryds kommun",
+    "Vallentuna kommun",
+    "Varbergs kommun",
+    "Vimmerby kommun",
+    "Örebro kommun"
+   ]
+  },
+  "System och teknik": {
+   "antal_avsandare": 17,
+   "antal_passager": 29,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 15,
+     "avsandare": [
+      "Gislaveds kommun",
+      "Gotlands kommun",
+      "Göteborgs kommun",
+      "Katrineholms kommun",
+      "Kristianstads kommun",
+      "Linköpings kommun",
+      "Motala kommun",
+      "Norrköpings kommun",
+      "Sala kommun",
+      "Strömsunds kommun",
+      "Tierps kommun",
+      "Tingsryds kommun",
+      "Varbergs kommun",
+      "Vimmerby kommun",
+      "Örebro kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 1,
+     "avsandare": [
+      "Sveriges Kommuner och Regioner"
+     ]
+    },
+    "almega": {
+     "antal": 1,
+     "avsandare": [
+      "Almega Utbildning"
+     ]
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Almega Utbildning",
+    "Gislaveds kommun",
+    "Gotlands kommun",
+    "Göteborgs kommun",
+    "Katrineholms kommun",
+    "Kristianstads kommun",
+    "Linköpings kommun",
+    "Motala kommun",
+    "Norrköpings kommun",
+    "Sala kommun",
+    "Strömsunds kommun",
+    "Sveriges Kommuner och Regioner",
+    "Tierps kommun",
+    "Tingsryds kommun",
+    "Varbergs kommun",
+    "Vimmerby kommun",
+    "Örebro kommun"
+   ]
+  },
+  "Organisation och planering": {
+   "antal_avsandare": 21,
+   "antal_passager": 105,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 19,
+     "avsandare": [
+      "Ale kommun",
+      "Botkyrka kommun",
+      "Gislaveds kommun",
+      "Gotlands kommun",
+      "Göteborgs kommun",
+      "Härnösands kommun",
+      "Katrineholms kommun",
+      "Kristianstads kommun",
+      "Linköpings kommun",
+      "Malmö kommun",
+      "Motala kommun",
+      "Sala kommun",
+      "Skövde kommun",
+      "Stockholms kommun",
+      "Strömsunds kommun",
+      "Tierps kommun",
+      "Vallentuna kommun",
+      "Varbergs kommun",
+      "Vimmerby kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 1,
+     "avsandare": [
+      "Sveriges Kommuner och Regioner"
+     ]
+    },
+    "almega": {
+     "antal": 1,
+     "avsandare": [
+      "Almega Utbildning"
+     ]
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Ale kommun",
+    "Almega Utbildning",
+    "Botkyrka kommun",
+    "Gislaveds kommun",
+    "Gotlands kommun",
+    "Göteborgs kommun",
+    "Härnösands kommun",
+    "Katrineholms kommun",
+    "Kristianstads kommun",
+    "Linköpings kommun",
+    "Malmö kommun",
+    "Motala kommun",
+    "Sala kommun",
+    "Skövde kommun",
+    "Stockholms kommun",
+    "Strömsunds kommun",
+    "Sveriges Kommuner och Regioner",
+    "Tierps kommun",
+    "Vallentuna kommun",
+    "Varbergs kommun",
+    "Vimmerby kommun"
+   ]
+  },
+  "Otydlighet i förslaget": {
+   "antal_avsandare": 23,
+   "antal_passager": 66,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 21,
+     "avsandare": [
+      "Ale kommun",
+      "Falu kommun",
+      "Gislaveds kommun",
+      "Gotlands kommun",
+      "Göteborgs kommun",
+      "Katrineholms kommun",
+      "Kristianstads kommun",
+      "Linköpings kommun",
+      "Malmö kommun",
+      "Motala kommun",
+      "Norrköpings kommun",
+      "Olofströms kommun",
+      "Sala kommun",
+      "Stockholms kommun",
+      "Strömsunds kommun",
+      "Söderhamns kommun",
+      "Tierps kommun",
+      "Tingsryds kommun",
+      "Vallentuna kommun",
+      "Varbergs kommun",
+      "Örebro kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 1,
+     "avsandare": [
+      "Sveriges Kommuner och Regioner"
+     ]
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 1,
+     "avsandare": [
+      "Idéburna skolors riksförbund"
+     ]
+    }
+   },
+   "avsandare": [
+    "Ale kommun",
+    "Falu kommun",
+    "Gislaveds kommun",
+    "Gotlands kommun",
+    "Göteborgs kommun",
+    "Idéburna skolors riksförbund",
+    "Katrineholms kommun",
+    "Kristianstads kommun",
+    "Linköpings kommun",
+    "Malmö kommun",
+    "Motala kommun",
+    "Norrköpings kommun",
+    "Olofströms kommun",
+    "Sala kommun",
+    "Stockholms kommun",
+    "Strömsunds kommun",
+    "Sveriges Kommuner och Regioner",
+    "Söderhamns kommun",
+    "Tierps kommun",
+    "Tingsryds kommun",
+    "Vallentuna kommun",
+    "Varbergs kommun",
+    "Örebro kommun"
+   ]
+  },
+  "Likvärdighet och konsekvenser för elever": {
+   "antal_avsandare": 18,
+   "antal_passager": 55,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 15,
+     "avsandare": [
+      "Ale kommun",
+      "Botkyrka kommun",
+      "Gislaveds kommun",
+      "Göteborgs kommun",
+      "Kristianstads kommun",
+      "Linköpings kommun",
+      "Malmö kommun",
+      "Motala kommun",
+      "Norrköpings kommun",
+      "Sala kommun",
+      "Skövde kommun",
+      "Stockholms kommun",
+      "Söderhamns kommun",
+      "Varbergs kommun",
+      "Vimmerby kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 1,
+     "avsandare": [
+      "Sveriges Kommuner och Regioner"
+     ]
+    },
+    "almega": {
+     "antal": 1,
+     "avsandare": [
+      "Almega Utbildning"
+     ]
+    },
+    "ideburna": {
+     "antal": 1,
+     "avsandare": [
+      "Idéburna skolors riksförbund"
+     ]
+    }
+   },
+   "avsandare": [
+    "Ale kommun",
+    "Almega Utbildning",
+    "Botkyrka kommun",
+    "Gislaveds kommun",
+    "Göteborgs kommun",
+    "Idéburna skolors riksförbund",
+    "Kristianstads kommun",
+    "Linköpings kommun",
+    "Malmö kommun",
+    "Motala kommun",
+    "Norrköpings kommun",
+    "Sala kommun",
+    "Skövde kommun",
+    "Stockholms kommun",
+    "Sveriges Kommuner och Regioner",
+    "Söderhamns kommun",
+    "Varbergs kommun",
+    "Vimmerby kommun"
+   ]
+  },
+  "Övrigt": {
+   "antal_avsandare": 6,
+   "antal_passager": 9,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 4,
+     "avsandare": [
+      "Gotlands kommun",
+      "Katrineholms kommun",
+      "Kristianstads kommun",
+      "Vimmerby kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 1,
+     "avsandare": [
+      "Sveriges Kommuner och Regioner"
+     ]
+    },
+    "almega": {
+     "antal": 1,
+     "avsandare": [
+      "Almega Utbildning"
+     ]
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Almega Utbildning",
+    "Gotlands kommun",
+    "Katrineholms kommun",
+    "Kristianstads kommun",
+    "Sveriges Kommuner och Regioner",
+    "Vimmerby kommun"
+   ]
+  }
+ },
+ "per_sakomrade": {
+  "Ett nytt system för trendmätning av kunskaper": {
+   "antal_avsandare": 3,
+   "antal_passager": 7,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 2,
+     "avsandare": [
+      "Ale kommun",
+      "Gislaveds kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 1,
+     "avsandare": [
+      "Sveriges Kommuner och Regioner"
+     ]
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Ale kommun",
+    "Gislaveds kommun",
+    "Sveriges Kommuner och Regioner"
+   ]
+  },
+  "Förslag på betygsmodell för grundskolan": {
+   "antal_avsandare": 14,
+   "antal_passager": 33,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 11,
+     "avsandare": [
+      "Ale kommun",
+      "Falu kommun",
+      "Gislaveds kommun",
+      "Gotlands kommun",
+      "Göteborgs kommun",
+      "Katrineholms kommun",
+      "Kristianstads kommun",
+      "Malmö kommun",
+      "Motala kommun",
+      "Norrköpings kommun",
+      "Olofströms kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 1,
+     "avsandare": [
+      "Sveriges Kommuner och Regioner"
+     ]
+    },
+    "almega": {
+     "antal": 1,
+     "avsandare": [
+      "Almega Utbildning"
+     ]
+    },
+    "ideburna": {
+     "antal": 1,
+     "avsandare": [
+      "Idéburna skolors riksförbund"
+     ]
+    }
+   },
+   "avsandare": [
+    "Ale kommun",
+    "Almega Utbildning",
+    "Falu kommun",
+    "Gislaveds kommun",
+    "Gotlands kommun",
+    "Göteborgs kommun",
+    "Idéburna skolors riksförbund",
+    "Katrineholms kommun",
+    "Kristianstads kommun",
+    "Malmö kommun",
+    "Motala kommun",
+    "Norrköpings kommun",
+    "Olofströms kommun",
+    "Sveriges Kommuner och Regioner"
+   ]
+  },
+  "Förslag på betygsmodell för gymnasieskolan": {
+   "antal_avsandare": 5,
+   "antal_passager": 11,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 5,
+     "avsandare": [
+      "Ale kommun",
+      "Gislaveds kommun",
+      "Kristianstads kommun",
+      "Motala kommun",
+      "Vimmerby kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Ale kommun",
+    "Gislaveds kommun",
+    "Kristianstads kommun",
+    "Motala kommun",
+    "Vimmerby kommun"
+   ]
+  },
+  "Förslag på betygsmodell för kommunal vuxenutbildning på gymnasial nivå": {
+   "antal_avsandare": 15,
+   "antal_passager": 53,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 13,
+     "avsandare": [
+      "Ale kommun",
+      "Botkyrka kommun",
+      "Göteborgs kommun",
+      "Katrineholms kommun",
+      "Kristianstads kommun",
+      "Linköpings kommun",
+      "Malmö kommun",
+      "Motala kommun",
+      "Sala kommun",
+      "Skövde kommun",
+      "Stockholms kommun",
+      "Varbergs kommun",
+      "Vimmerby kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 1,
+     "avsandare": [
+      "Sveriges Kommuner och Regioner"
+     ]
+    },
+    "almega": {
+     "antal": 1,
+     "avsandare": [
+      "Almega Utbildning"
+     ]
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Ale kommun",
+    "Almega Utbildning",
+    "Botkyrka kommun",
+    "Göteborgs kommun",
+    "Katrineholms kommun",
+    "Kristianstads kommun",
+    "Linköpings kommun",
+    "Malmö kommun",
+    "Motala kommun",
+    "Sala kommun",
+    "Skövde kommun",
+    "Stockholms kommun",
+    "Sveriges Kommuner och Regioner",
+    "Varbergs kommun",
+    "Vimmerby kommun"
+   ]
+  },
+  "Förslag på en numerisk betygsskala och nya betygskriterier": {
+   "antal_avsandare": 16,
+   "antal_passager": 38,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 15,
+     "avsandare": [
+      "Ale kommun",
+      "Gislaveds kommun",
+      "Göteborgs kommun",
+      "Kristianstads kommun",
+      "Linköpings kommun",
+      "Motala kommun",
+      "Norrköpings kommun",
+      "Olofströms kommun",
+      "Sala kommun",
+      "Stockholms kommun",
+      "Söderhamns kommun",
+      "Tingsryds kommun",
+      "Vallentuna kommun",
+      "Vimmerby kommun",
+      "Örebro kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 1,
+     "avsandare": [
+      "Almega Utbildning"
+     ]
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Ale kommun",
+    "Almega Utbildning",
+    "Gislaveds kommun",
+    "Göteborgs kommun",
+    "Kristianstads kommun",
+    "Linköpings kommun",
+    "Motala kommun",
+    "Norrköpings kommun",
+    "Olofströms kommun",
+    "Sala kommun",
+    "Stockholms kommun",
+    "Söderhamns kommun",
+    "Tingsryds kommun",
+    "Vallentuna kommun",
+    "Vimmerby kommun",
+    "Örebro kommun"
+   ]
+  },
+  "Förslag på hantering när betygsvärden inte kan kalibreras eller nationella slutprov inte kan genomföras": {
+   "antal_avsandare": 7,
+   "antal_passager": 10,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 5,
+     "avsandare": [
+      "Ale kommun",
+      "Gislaveds kommun",
+      "Göteborgs kommun",
+      "Motala kommun",
+      "Strömsunds kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 1,
+     "avsandare": [
+      "Almega Utbildning"
+     ]
+    },
+    "ideburna": {
+     "antal": 1,
+     "avsandare": [
+      "Idéburna skolors riksförbund"
+     ]
+    }
+   },
+   "avsandare": [
+    "Ale kommun",
+    "Almega Utbildning",
+    "Gislaveds kommun",
+    "Göteborgs kommun",
+    "Idéburna skolors riksförbund",
+    "Motala kommun",
+    "Strömsunds kommun"
+   ]
+  },
+  "Förslag på regelverk för betyg efter prövning och möjligheter att göra om nationella slutprov": {
+   "antal_avsandare": 6,
+   "antal_passager": 13,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 5,
+     "avsandare": [
+      "Ale kommun",
+      "Göteborgs kommun",
+      "Kristianstads kommun",
+      "Sala kommun",
+      "Söderhamns kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 1,
+     "avsandare": [
+      "Sveriges Kommuner och Regioner"
+     ]
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Ale kommun",
+    "Göteborgs kommun",
+    "Kristianstads kommun",
+    "Sala kommun",
+    "Sveriges Kommuner och Regioner",
+    "Söderhamns kommun"
+   ]
+  },
+  "Förslag på reglering av betygssättning": {
+   "antal_avsandare": 17,
+   "antal_passager": 45,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 15,
+     "avsandare": [
+      "Ale kommun",
+      "Gislaveds kommun",
+      "Gotlands kommun",
+      "Göteborgs kommun",
+      "Härnösands kommun",
+      "Katrineholms kommun",
+      "Kristianstads kommun",
+      "Motala kommun",
+      "Norrköpings kommun",
+      "Stockholms kommun",
+      "Strömsunds kommun",
+      "Tierps kommun",
+      "Vallentuna kommun",
+      "Vimmerby kommun",
+      "Örebro kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 1,
+     "avsandare": [
+      "Sveriges Kommuner och Regioner"
+     ]
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 1,
+     "avsandare": [
+      "Idéburna skolors riksförbund"
+     ]
+    }
+   },
+   "avsandare": [
+    "Ale kommun",
+    "Gislaveds kommun",
+    "Gotlands kommun",
+    "Göteborgs kommun",
+    "Härnösands kommun",
+    "Idéburna skolors riksförbund",
+    "Katrineholms kommun",
+    "Kristianstads kommun",
+    "Motala kommun",
+    "Norrköpings kommun",
+    "Stockholms kommun",
+    "Strömsunds kommun",
+    "Sveriges Kommuner och Regioner",
+    "Tierps kommun",
+    "Vallentuna kommun",
+    "Vimmerby kommun",
+    "Örebro kommun"
+   ]
+  },
+  "Förslag på ändrade behörighetsregler för antagning till gymnasieskolan och till högre utbildning": {
+   "antal_avsandare": 7,
+   "antal_passager": 13,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 6,
+     "avsandare": [
+      "Gislaveds kommun",
+      "Kristianstads kommun",
+      "Norrköpings kommun",
+      "Stockholms kommun",
+      "Tierps kommun",
+      "Vallentuna kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 1,
+     "avsandare": [
+      "Sveriges Kommuner och Regioner"
+     ]
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Gislaveds kommun",
+    "Kristianstads kommun",
+    "Norrköpings kommun",
+    "Stockholms kommun",
+    "Sveriges Kommuner och Regioner",
+    "Tierps kommun",
+    "Vallentuna kommun"
+   ]
+  },
+  "Förslag på ändringar i det nationella provsystemet": {
+   "antal_avsandare": 21,
+   "antal_passager": 85,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 18,
+     "avsandare": [
+      "Ale kommun",
+      "Botkyrka kommun",
+      "Gislaveds kommun",
+      "Gotlands kommun",
+      "Göteborgs kommun",
+      "Katrineholms kommun",
+      "Kristianstads kommun",
+      "Linköpings kommun",
+      "Norrköpings kommun",
+      "Sala kommun",
+      "Stockholms kommun",
+      "Strömsunds kommun",
+      "Söderhamns kommun",
+      "Tierps kommun",
+      "Vallentuna kommun",
+      "Varbergs kommun",
+      "Vimmerby kommun",
+      "Örebro kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 1,
+     "avsandare": [
+      "Sveriges Kommuner och Regioner"
+     ]
+    },
+    "almega": {
+     "antal": 1,
+     "avsandare": [
+      "Almega Utbildning"
+     ]
+    },
+    "ideburna": {
+     "antal": 1,
+     "avsandare": [
+      "Idéburna skolors riksförbund"
+     ]
+    }
+   },
+   "avsandare": [
+    "Ale kommun",
+    "Almega Utbildning",
+    "Botkyrka kommun",
+    "Gislaveds kommun",
+    "Gotlands kommun",
+    "Göteborgs kommun",
+    "Idéburna skolors riksförbund",
+    "Katrineholms kommun",
+    "Kristianstads kommun",
+    "Linköpings kommun",
+    "Norrköpings kommun",
+    "Sala kommun",
+    "Stockholms kommun",
+    "Strömsunds kommun",
+    "Sveriges Kommuner och Regioner",
+    "Söderhamns kommun",
+    "Tierps kommun",
+    "Vallentuna kommun",
+    "Varbergs kommun",
+    "Vimmerby kommun",
+    "Örebro kommun"
+   ]
+  },
+  "Införande och ikraftträdande": {
+   "antal_avsandare": 19,
+   "antal_passager": 56,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 16,
+     "avsandare": [
+      "Falu kommun",
+      "Gislaveds kommun",
+      "Göteborgs kommun",
+      "Härnösands kommun",
+      "Katrineholms kommun",
+      "Kristianstads kommun",
+      "Malmö kommun",
+      "Motala kommun",
+      "Olofströms kommun",
+      "Sala kommun",
+      "Skövde kommun",
+      "Stockholms kommun",
+      "Strömsunds kommun",
+      "Vallentuna kommun",
+      "Varbergs kommun",
+      "Örebro kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 1,
+     "avsandare": [
+      "Sveriges Kommuner och Regioner"
+     ]
+    },
+    "almega": {
+     "antal": 1,
+     "avsandare": [
+      "Almega Utbildning"
+     ]
+    },
+    "ideburna": {
+     "antal": 1,
+     "avsandare": [
+      "Idéburna skolors riksförbund"
+     ]
+    }
+   },
+   "avsandare": [
+    "Almega Utbildning",
+    "Falu kommun",
+    "Gislaveds kommun",
+    "Göteborgs kommun",
+    "Härnösands kommun",
+    "Idéburna skolors riksförbund",
+    "Katrineholms kommun",
+    "Kristianstads kommun",
+    "Malmö kommun",
+    "Motala kommun",
+    "Olofströms kommun",
+    "Sala kommun",
+    "Skövde kommun",
+    "Stockholms kommun",
+    "Strömsunds kommun",
+    "Sveriges Kommuner och Regioner",
+    "Vallentuna kommun",
+    "Varbergs kommun",
+    "Örebro kommun"
+   ]
+  },
+  "Prov-, betygs- och bedömningsstress": {
+   "antal_avsandare": 2,
+   "antal_passager": 8,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 1,
+     "avsandare": [
+      "Sala kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 1,
+     "avsandare": [
+      "Almega Utbildning"
+     ]
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Almega Utbildning",
+    "Sala kommun"
+   ]
+  }
+ },
+ "utan_sakomrade": {
+  "antal_avsandare": 22,
+  "antal_passager": 100,
+  "per_fokusgrupp": {
+   "kommuner": {
+    "antal": 20,
+    "avsandare": [
+     "Falu kommun",
+     "Gislaveds kommun",
+     "Gotlands kommun",
+     "Göteborgs kommun",
+     "Härnösands kommun",
+     "Katrineholms kommun",
+     "Kristianstads kommun",
+     "Linköpings kommun",
+     "Malmö kommun",
+     "Motala kommun",
+     "Norrköpings kommun",
+     "Olofströms kommun",
+     "Sala kommun",
+     "Stockholms kommun",
+     "Strömsunds kommun",
+     "Tierps kommun",
+     "Tingsryds kommun",
+     "Vallentuna kommun",
+     "Varbergs kommun",
+     "Örebro kommun"
+    ]
+   },
+   "enskilda_huvudman": {
+    "antal": 0,
+    "avsandare": []
+   },
+   "skr": {
+    "antal": 1,
+    "avsandare": [
+     "Sveriges Kommuner och Regioner"
+    ]
+   },
+   "almega": {
+    "antal": 0,
+    "avsandare": []
+   },
+   "ideburna": {
+    "antal": 1,
+    "avsandare": [
+     "Idéburna skolors riksförbund"
+    ]
+   }
+  },
+  "avsandare": [
+   "Falu kommun",
+   "Gislaveds kommun",
+   "Gotlands kommun",
+   "Göteborgs kommun",
+   "Härnösands kommun",
+   "Idéburna skolors riksförbund",
+   "Katrineholms kommun",
+   "Kristianstads kommun",
+   "Linköpings kommun",
+   "Malmö kommun",
+   "Motala kommun",
+   "Norrköpings kommun",
+   "Olofströms kommun",
+   "Sala kommun",
+   "Stockholms kommun",
+   "Strömsunds kommun",
+   "Sveriges Kommuner och Regioner",
+   "Tierps kommun",
+   "Tingsryds kommun",
+   "Vallentuna kommun",
+   "Varbergs kommun",
+   "Örebro kommun"
+  ]
+ },
+ "per_typ_och_sakomrade": {
+  "Kostnader och finansiering × Förslag på betygsmodell för grundskolan": {
+   "antal_avsandare": 1,
+   "antal_passager": 2,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 1,
+     "avsandare": [
+      "Göteborgs kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Göteborgs kommun"
+   ]
+  },
+  "Kostnader och finansiering × Förslag på betygsmodell för kommunal vuxenutbildning på gymnasial nivå": {
+   "antal_avsandare": 3,
+   "antal_passager": 3,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 3,
+     "avsandare": [
+      "Botkyrka kommun",
+      "Linköpings kommun",
+      "Sala kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Botkyrka kommun",
+    "Linköpings kommun",
+    "Sala kommun"
+   ]
+  },
+  "Kostnader och finansiering × Förslag på en numerisk betygsskala och nya betygskriterier": {
+   "antal_avsandare": 1,
+   "antal_passager": 2,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 1,
+     "avsandare": [
+      "Göteborgs kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Göteborgs kommun"
+   ]
+  },
+  "Kostnader och finansiering × Förslag på regelverk för betyg efter prövning och möjligheter att göra om nationella slutprov": {
+   "antal_avsandare": 1,
+   "antal_passager": 1,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 1,
+     "avsandare": [
+      "Ale kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Ale kommun"
+   ]
+  },
+  "Kostnader och finansiering × Förslag på reglering av betygssättning": {
+   "antal_avsandare": 1,
+   "antal_passager": 1,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 1,
+     "avsandare": [
+      "Vimmerby kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Vimmerby kommun"
+   ]
+  },
+  "Kostnader och finansiering × Förslag på ändringar i det nationella provsystemet": {
+   "antal_avsandare": 7,
+   "antal_passager": 11,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 5,
+     "avsandare": [
+      "Katrineholms kommun",
+      "Linköpings kommun",
+      "Stockholms kommun",
+      "Vallentuna kommun",
+      "Örebro kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 1,
+     "avsandare": [
+      "Sveriges Kommuner och Regioner"
+     ]
+    },
+    "almega": {
+     "antal": 1,
+     "avsandare": [
+      "Almega Utbildning"
+     ]
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Almega Utbildning",
+    "Katrineholms kommun",
+    "Linköpings kommun",
+    "Stockholms kommun",
+    "Sveriges Kommuner och Regioner",
+    "Vallentuna kommun",
+    "Örebro kommun"
+   ]
+  },
+  "Kostnader och finansiering × Införande och ikraftträdande": {
+   "antal_avsandare": 3,
+   "antal_passager": 3,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 2,
+     "avsandare": [
+      "Malmö kommun",
+      "Sala kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 1,
+     "avsandare": [
+      "Almega Utbildning"
+     ]
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Almega Utbildning",
+    "Malmö kommun",
+    "Sala kommun"
+   ]
+  },
+  "Tidplan och reformtakt × Ett nytt system för trendmätning av kunskaper": {
+   "antal_avsandare": 1,
+   "antal_passager": 3,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 1,
+     "avsandare": [
+      "Gislaveds kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Gislaveds kommun"
+   ]
+  },
+  "Tidplan och reformtakt × Förslag på betygsmodell för grundskolan": {
+   "antal_avsandare": 1,
+   "antal_passager": 1,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 1,
+     "avsandare": [
+      "Göteborgs kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Göteborgs kommun"
+   ]
+  },
+  "Tidplan och reformtakt × Förslag på en numerisk betygsskala och nya betygskriterier": {
+   "antal_avsandare": 4,
+   "antal_passager": 5,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 4,
+     "avsandare": [
+      "Gislaveds kommun",
+      "Göteborgs kommun",
+      "Olofströms kommun",
+      "Sala kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Gislaveds kommun",
+    "Göteborgs kommun",
+    "Olofströms kommun",
+    "Sala kommun"
+   ]
+  },
+  "Tidplan och reformtakt × Förslag på hantering när betygsvärden inte kan kalibreras eller nationella slutprov inte kan genomföras": {
+   "antal_avsandare": 1,
+   "antal_passager": 1,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 1,
+     "avsandare": [
+      "Almega Utbildning"
+     ]
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Almega Utbildning"
+   ]
+  },
+  "Tidplan och reformtakt × Förslag på reglering av betygssättning": {
+   "antal_avsandare": 2,
+   "antal_passager": 2,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 2,
+     "avsandare": [
+      "Vallentuna kommun",
+      "Vimmerby kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Vallentuna kommun",
+    "Vimmerby kommun"
+   ]
+  },
+  "Tidplan och reformtakt × Förslag på ändringar i det nationella provsystemet": {
+   "antal_avsandare": 4,
+   "antal_passager": 6,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 2,
+     "avsandare": [
+      "Stockholms kommun",
+      "Strömsunds kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 1,
+     "avsandare": [
+      "Almega Utbildning"
+     ]
+    },
+    "ideburna": {
+     "antal": 1,
+     "avsandare": [
+      "Idéburna skolors riksförbund"
+     ]
+    }
+   },
+   "avsandare": [
+    "Almega Utbildning",
+    "Idéburna skolors riksförbund",
+    "Stockholms kommun",
+    "Strömsunds kommun"
+   ]
+  },
+  "Tidplan och reformtakt × Införande och ikraftträdande": {
+   "antal_avsandare": 19,
+   "antal_passager": 37,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 16,
+     "avsandare": [
+      "Falu kommun",
+      "Gislaveds kommun",
+      "Göteborgs kommun",
+      "Härnösands kommun",
+      "Katrineholms kommun",
+      "Kristianstads kommun",
+      "Malmö kommun",
+      "Motala kommun",
+      "Olofströms kommun",
+      "Sala kommun",
+      "Skövde kommun",
+      "Stockholms kommun",
+      "Strömsunds kommun",
+      "Vallentuna kommun",
+      "Varbergs kommun",
+      "Örebro kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 1,
+     "avsandare": [
+      "Sveriges Kommuner och Regioner"
+     ]
+    },
+    "almega": {
+     "antal": 1,
+     "avsandare": [
+      "Almega Utbildning"
+     ]
+    },
+    "ideburna": {
+     "antal": 1,
+     "avsandare": [
+      "Idéburna skolors riksförbund"
+     ]
+    }
+   },
+   "avsandare": [
+    "Almega Utbildning",
+    "Falu kommun",
+    "Gislaveds kommun",
+    "Göteborgs kommun",
+    "Härnösands kommun",
+    "Idéburna skolors riksförbund",
+    "Katrineholms kommun",
+    "Kristianstads kommun",
+    "Malmö kommun",
+    "Motala kommun",
+    "Olofströms kommun",
+    "Sala kommun",
+    "Skövde kommun",
+    "Stockholms kommun",
+    "Strömsunds kommun",
+    "Sveriges Kommuner och Regioner",
+    "Vallentuna kommun",
+    "Varbergs kommun",
+    "Örebro kommun"
+   ]
+  },
+  "Tidplan och reformtakt × Prov-, betygs- och bedömningsstress": {
+   "antal_avsandare": 1,
+   "antal_passager": 1,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 1,
+     "avsandare": [
+      "Almega Utbildning"
+     ]
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Almega Utbildning"
+   ]
+  },
+  "Personal, kompetens och arbetsbelastning × Förslag på betygsmodell för grundskolan": {
+   "antal_avsandare": 2,
+   "antal_passager": 3,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 2,
+     "avsandare": [
+      "Ale kommun",
+      "Gislaveds kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Ale kommun",
+    "Gislaveds kommun"
+   ]
+  },
+  "Personal, kompetens och arbetsbelastning × Förslag på betygsmodell för gymnasieskolan": {
+   "antal_avsandare": 1,
+   "antal_passager": 1,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 1,
+     "avsandare": [
+      "Ale kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Ale kommun"
+   ]
+  },
+  "Personal, kompetens och arbetsbelastning × Förslag på betygsmodell för kommunal vuxenutbildning på gymnasial nivå": {
+   "antal_avsandare": 1,
+   "antal_passager": 1,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 1,
+     "avsandare": [
+      "Ale kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Ale kommun"
+   ]
+  },
+  "Personal, kompetens och arbetsbelastning × Förslag på en numerisk betygsskala och nya betygskriterier": {
+   "antal_avsandare": 7,
+   "antal_passager": 9,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 6,
+     "avsandare": [
+      "Kristianstads kommun",
+      "Linköpings kommun",
+      "Sala kommun",
+      "Stockholms kommun",
+      "Tingsryds kommun",
+      "Vimmerby kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 1,
+     "avsandare": [
+      "Almega Utbildning"
+     ]
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Almega Utbildning",
+    "Kristianstads kommun",
+    "Linköpings kommun",
+    "Sala kommun",
+    "Stockholms kommun",
+    "Tingsryds kommun",
+    "Vimmerby kommun"
+   ]
+  },
+  "Personal, kompetens och arbetsbelastning × Förslag på reglering av betygssättning": {
+   "antal_avsandare": 9,
+   "antal_passager": 13,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 8,
+     "avsandare": [
+      "Göteborgs kommun",
+      "Katrineholms kommun",
+      "Kristianstads kommun",
+      "Motala kommun",
+      "Stockholms kommun",
+      "Vallentuna kommun",
+      "Vimmerby kommun",
+      "Örebro kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 1,
+     "avsandare": [
+      "Idéburna skolors riksförbund"
+     ]
+    }
+   },
+   "avsandare": [
+    "Göteborgs kommun",
+    "Idéburna skolors riksförbund",
+    "Katrineholms kommun",
+    "Kristianstads kommun",
+    "Motala kommun",
+    "Stockholms kommun",
+    "Vallentuna kommun",
+    "Vimmerby kommun",
+    "Örebro kommun"
+   ]
+  },
+  "Personal, kompetens och arbetsbelastning × Förslag på ändringar i det nationella provsystemet": {
+   "antal_avsandare": 8,
+   "antal_passager": 13,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 7,
+     "avsandare": [
+      "Botkyrka kommun",
+      "Göteborgs kommun",
+      "Katrineholms kommun",
+      "Kristianstads kommun",
+      "Norrköpings kommun",
+      "Stockholms kommun",
+      "Vallentuna kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 1,
+     "avsandare": [
+      "Idéburna skolors riksförbund"
+     ]
+    }
+   },
+   "avsandare": [
+    "Botkyrka kommun",
+    "Göteborgs kommun",
+    "Idéburna skolors riksförbund",
+    "Katrineholms kommun",
+    "Kristianstads kommun",
+    "Norrköpings kommun",
+    "Stockholms kommun",
+    "Vallentuna kommun"
+   ]
+  },
+  "Personal, kompetens och arbetsbelastning × Införande och ikraftträdande": {
+   "antal_avsandare": 2,
+   "antal_passager": 2,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 2,
+     "avsandare": [
+      "Motala kommun",
+      "Varbergs kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Motala kommun",
+    "Varbergs kommun"
+   ]
+  },
+  "Personal, kompetens och arbetsbelastning × Prov-, betygs- och bedömningsstress": {
+   "antal_avsandare": 1,
+   "antal_passager": 4,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 1,
+     "avsandare": [
+      "Almega Utbildning"
+     ]
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Almega Utbildning"
+   ]
+  },
+  "System och teknik × Ett nytt system för trendmätning av kunskaper": {
+   "antal_avsandare": 1,
+   "antal_passager": 1,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 1,
+     "avsandare": [
+      "Sveriges Kommuner och Regioner"
+     ]
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Sveriges Kommuner och Regioner"
+   ]
+  },
+  "System och teknik × Förslag på betygsmodell för kommunal vuxenutbildning på gymnasial nivå": {
+   "antal_avsandare": 1,
+   "antal_passager": 1,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 1,
+     "avsandare": [
+      "Varbergs kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Varbergs kommun"
+   ]
+  },
+  "System och teknik × Förslag på reglering av betygssättning": {
+   "antal_avsandare": 1,
+   "antal_passager": 1,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 1,
+     "avsandare": [
+      "Vimmerby kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Vimmerby kommun"
+   ]
+  },
+  "System och teknik × Förslag på ändringar i det nationella provsystemet": {
+   "antal_avsandare": 11,
+   "antal_passager": 17,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 10,
+     "avsandare": [
+      "Gislaveds kommun",
+      "Gotlands kommun",
+      "Göteborgs kommun",
+      "Katrineholms kommun",
+      "Kristianstads kommun",
+      "Linköpings kommun",
+      "Norrköpings kommun",
+      "Strömsunds kommun",
+      "Tierps kommun",
+      "Örebro kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 1,
+     "avsandare": [
+      "Almega Utbildning"
+     ]
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Almega Utbildning",
+    "Gislaveds kommun",
+    "Gotlands kommun",
+    "Göteborgs kommun",
+    "Katrineholms kommun",
+    "Kristianstads kommun",
+    "Linköpings kommun",
+    "Norrköpings kommun",
+    "Strömsunds kommun",
+    "Tierps kommun",
+    "Örebro kommun"
+   ]
+  },
+  "System och teknik × Införande och ikraftträdande": {
+   "antal_avsandare": 1,
+   "antal_passager": 1,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 1,
+     "avsandare": [
+      "Sveriges Kommuner och Regioner"
+     ]
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Sveriges Kommuner och Regioner"
+   ]
+  },
+  "System och teknik × Prov-, betygs- och bedömningsstress": {
+   "antal_avsandare": 1,
+   "antal_passager": 1,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 1,
+     "avsandare": [
+      "Almega Utbildning"
+     ]
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Almega Utbildning"
+   ]
+  },
+  "Organisation och planering × Ett nytt system för trendmätning av kunskaper": {
+   "antal_avsandare": 1,
+   "antal_passager": 1,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 1,
+     "avsandare": [
+      "Gislaveds kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Gislaveds kommun"
+   ]
+  },
+  "Organisation och planering × Förslag på betygsmodell för grundskolan": {
+   "antal_avsandare": 2,
+   "antal_passager": 2,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 2,
+     "avsandare": [
+      "Katrineholms kommun",
+      "Kristianstads kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Katrineholms kommun",
+    "Kristianstads kommun"
+   ]
+  },
+  "Organisation och planering × Förslag på betygsmodell för kommunal vuxenutbildning på gymnasial nivå": {
+   "antal_avsandare": 14,
+   "antal_passager": 30,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 12,
+     "avsandare": [
+      "Ale kommun",
+      "Botkyrka kommun",
+      "Göteborgs kommun",
+      "Katrineholms kommun",
+      "Kristianstads kommun",
+      "Linköpings kommun",
+      "Malmö kommun",
+      "Sala kommun",
+      "Skövde kommun",
+      "Stockholms kommun",
+      "Varbergs kommun",
+      "Vimmerby kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 1,
+     "avsandare": [
+      "Sveriges Kommuner och Regioner"
+     ]
+    },
+    "almega": {
+     "antal": 1,
+     "avsandare": [
+      "Almega Utbildning"
+     ]
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Ale kommun",
+    "Almega Utbildning",
+    "Botkyrka kommun",
+    "Göteborgs kommun",
+    "Katrineholms kommun",
+    "Kristianstads kommun",
+    "Linköpings kommun",
+    "Malmö kommun",
+    "Sala kommun",
+    "Skövde kommun",
+    "Stockholms kommun",
+    "Sveriges Kommuner och Regioner",
+    "Varbergs kommun",
+    "Vimmerby kommun"
+   ]
+  },
+  "Organisation och planering × Förslag på en numerisk betygsskala och nya betygskriterier": {
+   "antal_avsandare": 3,
+   "antal_passager": 4,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 3,
+     "avsandare": [
+      "Linköpings kommun",
+      "Sala kommun",
+      "Vimmerby kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Linköpings kommun",
+    "Sala kommun",
+    "Vimmerby kommun"
+   ]
+  },
+  "Organisation och planering × Förslag på hantering när betygsvärden inte kan kalibreras eller nationella slutprov inte kan genomföras": {
+   "antal_avsandare": 2,
+   "antal_passager": 2,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 1,
+     "avsandare": [
+      "Gislaveds kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 1,
+     "avsandare": [
+      "Almega Utbildning"
+     ]
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Almega Utbildning",
+    "Gislaveds kommun"
+   ]
+  },
+  "Organisation och planering × Förslag på regelverk för betyg efter prövning och möjligheter att göra om nationella slutprov": {
+   "antal_avsandare": 4,
+   "antal_passager": 6,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 3,
+     "avsandare": [
+      "Ale kommun",
+      "Göteborgs kommun",
+      "Sala kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 1,
+     "avsandare": [
+      "Sveriges Kommuner och Regioner"
+     ]
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Ale kommun",
+    "Göteborgs kommun",
+    "Sala kommun",
+    "Sveriges Kommuner och Regioner"
+   ]
+  },
+  "Organisation och planering × Förslag på reglering av betygssättning": {
+   "antal_avsandare": 14,
+   "antal_passager": 20,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 13,
+     "avsandare": [
+      "Ale kommun",
+      "Gislaveds kommun",
+      "Gotlands kommun",
+      "Göteborgs kommun",
+      "Härnösands kommun",
+      "Katrineholms kommun",
+      "Kristianstads kommun",
+      "Motala kommun",
+      "Stockholms kommun",
+      "Strömsunds kommun",
+      "Tierps kommun",
+      "Vallentuna kommun",
+      "Vimmerby kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 1,
+     "avsandare": [
+      "Sveriges Kommuner och Regioner"
+     ]
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Ale kommun",
+    "Gislaveds kommun",
+    "Gotlands kommun",
+    "Göteborgs kommun",
+    "Härnösands kommun",
+    "Katrineholms kommun",
+    "Kristianstads kommun",
+    "Motala kommun",
+    "Stockholms kommun",
+    "Strömsunds kommun",
+    "Sveriges Kommuner och Regioner",
+    "Tierps kommun",
+    "Vallentuna kommun",
+    "Vimmerby kommun"
+   ]
+  },
+  "Organisation och planering × Förslag på ändrade behörighetsregler för antagning till gymnasieskolan och till högre utbildning": {
+   "antal_avsandare": 2,
+   "antal_passager": 4,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 2,
+     "avsandare": [
+      "Gislaveds kommun",
+      "Stockholms kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Gislaveds kommun",
+    "Stockholms kommun"
+   ]
+  },
+  "Organisation och planering × Förslag på ändringar i det nationella provsystemet": {
+   "antal_avsandare": 8,
+   "antal_passager": 17,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 7,
+     "avsandare": [
+      "Ale kommun",
+      "Botkyrka kommun",
+      "Göteborgs kommun",
+      "Kristianstads kommun",
+      "Linköpings kommun",
+      "Stockholms kommun",
+      "Tierps kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 1,
+     "avsandare": [
+      "Almega Utbildning"
+     ]
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Ale kommun",
+    "Almega Utbildning",
+    "Botkyrka kommun",
+    "Göteborgs kommun",
+    "Kristianstads kommun",
+    "Linköpings kommun",
+    "Stockholms kommun",
+    "Tierps kommun"
+   ]
+  },
+  "Organisation och planering × Införande och ikraftträdande": {
+   "antal_avsandare": 6,
+   "antal_passager": 8,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 4,
+     "avsandare": [
+      "Gislaveds kommun",
+      "Kristianstads kommun",
+      "Motala kommun",
+      "Sala kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 1,
+     "avsandare": [
+      "Sveriges Kommuner och Regioner"
+     ]
+    },
+    "almega": {
+     "antal": 1,
+     "avsandare": [
+      "Almega Utbildning"
+     ]
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Almega Utbildning",
+    "Gislaveds kommun",
+    "Kristianstads kommun",
+    "Motala kommun",
+    "Sala kommun",
+    "Sveriges Kommuner och Regioner"
+   ]
+  },
+  "Organisation och planering × Prov-, betygs- och bedömningsstress": {
+   "antal_avsandare": 1,
+   "antal_passager": 1,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 1,
+     "avsandare": [
+      "Almega Utbildning"
+     ]
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Almega Utbildning"
+   ]
+  },
+  "Otydlighet i förslaget × Ett nytt system för trendmätning av kunskaper": {
+   "antal_avsandare": 1,
+   "antal_passager": 1,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 1,
+     "avsandare": [
+      "Gislaveds kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Gislaveds kommun"
+   ]
+  },
+  "Otydlighet i förslaget × Förslag på betygsmodell för grundskolan": {
+   "antal_avsandare": 8,
+   "antal_passager": 10,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 7,
+     "avsandare": [
+      "Ale kommun",
+      "Falu kommun",
+      "Gotlands kommun",
+      "Malmö kommun",
+      "Motala kommun",
+      "Norrköpings kommun",
+      "Olofströms kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 1,
+     "avsandare": [
+      "Sveriges Kommuner och Regioner"
+     ]
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Ale kommun",
+    "Falu kommun",
+    "Gotlands kommun",
+    "Malmö kommun",
+    "Motala kommun",
+    "Norrköpings kommun",
+    "Olofströms kommun",
+    "Sveriges Kommuner och Regioner"
+   ]
+  },
+  "Otydlighet i förslaget × Förslag på betygsmodell för gymnasieskolan": {
+   "antal_avsandare": 1,
+   "antal_passager": 3,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 1,
+     "avsandare": [
+      "Ale kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Ale kommun"
+   ]
+  },
+  "Otydlighet i förslaget × Förslag på betygsmodell för kommunal vuxenutbildning på gymnasial nivå": {
+   "antal_avsandare": 3,
+   "antal_passager": 3,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 2,
+     "avsandare": [
+      "Sala kommun",
+      "Varbergs kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 1,
+     "avsandare": [
+      "Sveriges Kommuner och Regioner"
+     ]
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Sala kommun",
+    "Sveriges Kommuner och Regioner",
+    "Varbergs kommun"
+   ]
+  },
+  "Otydlighet i förslaget × Förslag på en numerisk betygsskala och nya betygskriterier": {
+   "antal_avsandare": 9,
+   "antal_passager": 11,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 9,
+     "avsandare": [
+      "Gislaveds kommun",
+      "Linköpings kommun",
+      "Norrköpings kommun",
+      "Olofströms kommun",
+      "Sala kommun",
+      "Söderhamns kommun",
+      "Tingsryds kommun",
+      "Vallentuna kommun",
+      "Örebro kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Gislaveds kommun",
+    "Linköpings kommun",
+    "Norrköpings kommun",
+    "Olofströms kommun",
+    "Sala kommun",
+    "Söderhamns kommun",
+    "Tingsryds kommun",
+    "Vallentuna kommun",
+    "Örebro kommun"
+   ]
+  },
+  "Otydlighet i förslaget × Förslag på hantering när betygsvärden inte kan kalibreras eller nationella slutprov inte kan genomföras": {
+   "antal_avsandare": 2,
+   "antal_passager": 3,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 2,
+     "avsandare": [
+      "Ale kommun",
+      "Strömsunds kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Ale kommun",
+    "Strömsunds kommun"
+   ]
+  },
+  "Otydlighet i förslaget × Förslag på regelverk för betyg efter prövning och möjligheter att göra om nationella slutprov": {
+   "antal_avsandare": 2,
+   "antal_passager": 3,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 2,
+     "avsandare": [
+      "Kristianstads kommun",
+      "Söderhamns kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Kristianstads kommun",
+    "Söderhamns kommun"
+   ]
+  },
+  "Otydlighet i förslaget × Förslag på reglering av betygssättning": {
+   "antal_avsandare": 5,
+   "antal_passager": 7,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 5,
+     "avsandare": [
+      "Gotlands kommun",
+      "Kristianstads kommun",
+      "Norrköpings kommun",
+      "Vallentuna kommun",
+      "Örebro kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Gotlands kommun",
+    "Kristianstads kommun",
+    "Norrköpings kommun",
+    "Vallentuna kommun",
+    "Örebro kommun"
+   ]
+  },
+  "Otydlighet i förslaget × Förslag på ändrade behörighetsregler för antagning till gymnasieskolan och till högre utbildning": {
+   "antal_avsandare": 5,
+   "antal_passager": 5,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 5,
+     "avsandare": [
+      "Gislaveds kommun",
+      "Norrköpings kommun",
+      "Stockholms kommun",
+      "Tierps kommun",
+      "Vallentuna kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Gislaveds kommun",
+    "Norrköpings kommun",
+    "Stockholms kommun",
+    "Tierps kommun",
+    "Vallentuna kommun"
+   ]
+  },
+  "Otydlighet i förslaget × Förslag på ändringar i det nationella provsystemet": {
+   "antal_avsandare": 9,
+   "antal_passager": 10,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 8,
+     "avsandare": [
+      "Gotlands kommun",
+      "Göteborgs kommun",
+      "Norrköpings kommun",
+      "Sala kommun",
+      "Stockholms kommun",
+      "Söderhamns kommun",
+      "Vallentuna kommun",
+      "Varbergs kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 1,
+     "avsandare": [
+      "Sveriges Kommuner och Regioner"
+     ]
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Gotlands kommun",
+    "Göteborgs kommun",
+    "Norrköpings kommun",
+    "Sala kommun",
+    "Stockholms kommun",
+    "Sveriges Kommuner och Regioner",
+    "Söderhamns kommun",
+    "Vallentuna kommun",
+    "Varbergs kommun"
+   ]
+  },
+  "Otydlighet i förslaget × Införande och ikraftträdande": {
+   "antal_avsandare": 3,
+   "antal_passager": 3,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 3,
+     "avsandare": [
+      "Malmö kommun",
+      "Motala kommun",
+      "Sala kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Malmö kommun",
+    "Motala kommun",
+    "Sala kommun"
+   ]
+  },
+  "Otydlighet i förslaget × Prov-, betygs- och bedömningsstress": {
+   "antal_avsandare": 1,
+   "antal_passager": 1,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 1,
+     "avsandare": [
+      "Sala kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Sala kommun"
+   ]
+  },
+  "Likvärdighet och konsekvenser för elever × Ett nytt system för trendmätning av kunskaper": {
+   "antal_avsandare": 1,
+   "antal_passager": 1,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 1,
+     "avsandare": [
+      "Ale kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Ale kommun"
+   ]
+  },
+  "Likvärdighet och konsekvenser för elever × Förslag på betygsmodell för grundskolan": {
+   "antal_avsandare": 7,
+   "antal_passager": 15,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 5,
+     "avsandare": [
+      "Gislaveds kommun",
+      "Göteborgs kommun",
+      "Kristianstads kommun",
+      "Motala kommun",
+      "Norrköpings kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 1,
+     "avsandare": [
+      "Almega Utbildning"
+     ]
+    },
+    "ideburna": {
+     "antal": 1,
+     "avsandare": [
+      "Idéburna skolors riksförbund"
+     ]
+    }
+   },
+   "avsandare": [
+    "Almega Utbildning",
+    "Gislaveds kommun",
+    "Göteborgs kommun",
+    "Idéburna skolors riksförbund",
+    "Kristianstads kommun",
+    "Motala kommun",
+    "Norrköpings kommun"
+   ]
+  },
+  "Likvärdighet och konsekvenser för elever × Förslag på betygsmodell för gymnasieskolan": {
+   "antal_avsandare": 3,
+   "antal_passager": 5,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 3,
+     "avsandare": [
+      "Gislaveds kommun",
+      "Kristianstads kommun",
+      "Motala kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Gislaveds kommun",
+    "Kristianstads kommun",
+    "Motala kommun"
+   ]
+  },
+  "Likvärdighet och konsekvenser för elever × Förslag på betygsmodell för kommunal vuxenutbildning på gymnasial nivå": {
+   "antal_avsandare": 7,
+   "antal_passager": 12,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 6,
+     "avsandare": [
+      "Ale kommun",
+      "Botkyrka kommun",
+      "Malmö kommun",
+      "Motala kommun",
+      "Sala kommun",
+      "Skövde kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 1,
+     "avsandare": [
+      "Sveriges Kommuner och Regioner"
+     ]
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Ale kommun",
+    "Botkyrka kommun",
+    "Malmö kommun",
+    "Motala kommun",
+    "Sala kommun",
+    "Skövde kommun",
+    "Sveriges Kommuner och Regioner"
+   ]
+  },
+  "Likvärdighet och konsekvenser för elever × Förslag på en numerisk betygsskala och nya betygskriterier": {
+   "antal_avsandare": 7,
+   "antal_passager": 7,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 6,
+     "avsandare": [
+      "Ale kommun",
+      "Gislaveds kommun",
+      "Kristianstads kommun",
+      "Linköpings kommun",
+      "Motala kommun",
+      "Vimmerby kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 1,
+     "avsandare": [
+      "Almega Utbildning"
+     ]
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Ale kommun",
+    "Almega Utbildning",
+    "Gislaveds kommun",
+    "Kristianstads kommun",
+    "Linköpings kommun",
+    "Motala kommun",
+    "Vimmerby kommun"
+   ]
+  },
+  "Likvärdighet och konsekvenser för elever × Förslag på hantering när betygsvärden inte kan kalibreras eller nationella slutprov inte kan genomföras": {
+   "antal_avsandare": 4,
+   "antal_passager": 4,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 2,
+     "avsandare": [
+      "Göteborgs kommun",
+      "Motala kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 1,
+     "avsandare": [
+      "Almega Utbildning"
+     ]
+    },
+    "ideburna": {
+     "antal": 1,
+     "avsandare": [
+      "Idéburna skolors riksförbund"
+     ]
+    }
+   },
+   "avsandare": [
+    "Almega Utbildning",
+    "Göteborgs kommun",
+    "Idéburna skolors riksförbund",
+    "Motala kommun"
+   ]
+  },
+  "Likvärdighet och konsekvenser för elever × Förslag på regelverk för betyg efter prövning och möjligheter att göra om nationella slutprov": {
+   "antal_avsandare": 3,
+   "antal_passager": 3,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 2,
+     "avsandare": [
+      "Göteborgs kommun",
+      "Sala kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 1,
+     "avsandare": [
+      "Sveriges Kommuner och Regioner"
+     ]
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Göteborgs kommun",
+    "Sala kommun",
+    "Sveriges Kommuner och Regioner"
+   ]
+  },
+  "Likvärdighet och konsekvenser för elever × Förslag på reglering av betygssättning": {
+   "antal_avsandare": 1,
+   "antal_passager": 1,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 1,
+     "avsandare": [
+      "Kristianstads kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Kristianstads kommun"
+   ]
+  },
+  "Likvärdighet och konsekvenser för elever × Förslag på ändrade behörighetsregler för antagning till gymnasieskolan och till högre utbildning": {
+   "antal_avsandare": 3,
+   "antal_passager": 4,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 2,
+     "avsandare": [
+      "Gislaveds kommun",
+      "Kristianstads kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 1,
+     "avsandare": [
+      "Sveriges Kommuner och Regioner"
+     ]
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Gislaveds kommun",
+    "Kristianstads kommun",
+    "Sveriges Kommuner och Regioner"
+   ]
+  },
+  "Likvärdighet och konsekvenser för elever × Förslag på ändringar i det nationella provsystemet": {
+   "antal_avsandare": 6,
+   "antal_passager": 7,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 5,
+     "avsandare": [
+      "Gislaveds kommun",
+      "Linköpings kommun",
+      "Sala kommun",
+      "Stockholms kommun",
+      "Söderhamns kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 1,
+     "avsandare": [
+      "Sveriges Kommuner och Regioner"
+     ]
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Gislaveds kommun",
+    "Linköpings kommun",
+    "Sala kommun",
+    "Stockholms kommun",
+    "Sveriges Kommuner och Regioner",
+    "Söderhamns kommun"
+   ]
+  },
+  "Likvärdighet och konsekvenser för elever × Införande och ikraftträdande": {
+   "antal_avsandare": 2,
+   "antal_passager": 2,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 2,
+     "avsandare": [
+      "Motala kommun",
+      "Varbergs kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Motala kommun",
+    "Varbergs kommun"
+   ]
+  },
+  "Övrigt × Förslag på betygsmodell för gymnasieskolan": {
+   "antal_avsandare": 2,
+   "antal_passager": 2,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 2,
+     "avsandare": [
+      "Kristianstads kommun",
+      "Vimmerby kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Kristianstads kommun",
+    "Vimmerby kommun"
+   ]
+  },
+  "Övrigt × Förslag på betygsmodell för kommunal vuxenutbildning på gymnasial nivå": {
+   "antal_avsandare": 3,
+   "antal_passager": 3,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 1,
+     "avsandare": [
+      "Vimmerby kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 1,
+     "avsandare": [
+      "Sveriges Kommuner och Regioner"
+     ]
+    },
+    "almega": {
+     "antal": 1,
+     "avsandare": [
+      "Almega Utbildning"
+     ]
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Almega Utbildning",
+    "Sveriges Kommuner och Regioner",
+    "Vimmerby kommun"
+   ]
+  },
+  "Övrigt × Förslag på ändringar i det nationella provsystemet": {
+   "antal_avsandare": 3,
+   "antal_passager": 4,
+   "per_fokusgrupp": {
+    "kommuner": {
+     "antal": 2,
+     "avsandare": [
+      "Gotlands kommun",
+      "Vimmerby kommun"
+     ]
+    },
+    "enskilda_huvudman": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "skr": {
+     "antal": 1,
+     "avsandare": [
+      "Sveriges Kommuner och Regioner"
+     ]
+    },
+    "almega": {
+     "antal": 0,
+     "avsandare": []
+    },
+    "ideburna": {
+     "antal": 0,
+     "avsandare": []
+    }
+   },
+   "avsandare": [
+    "Gotlands kommun",
+    "Sveriges Kommuner och Regioner",
+    "Vimmerby kommun"
+   ]
+  }
+ }
+}
