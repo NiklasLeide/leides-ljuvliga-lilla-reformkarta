@@ -1,17 +1,61 @@
 {
  "id": "laroplaner",
- "namn": null,
+ "namn": "Kunskap för alla – nya läroplaner med fokus på undervisning och lärande",
  "namn_i_brief": "Kunskap för alla",
  "reforms_json_id": "laroplaner",
- "status": "mall — fylls i när reformen tas fram",
+ "status": "under arbete (Sprint 17)",
  "sou": {
   "nr": "SOU 2025:19",
   "titel": "Kunskap för alla – nya läroplaner med fokus på undervisning och lärande",
   "sida_url": "https://www.regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2025/02/sou-202519/",
-  "pdf": null,
-  "innehall_sidor": null,
-  "forslagskapitel": null,
-  "forfattningskommentar": null
+  "pdf": [
+   {
+    "vol": "betankande",
+    "url": "https://www.regeringen.se/contentassets/ff8d9a87571445c38afab38690c0c60e/kunskap-for-alla--nya-laroplaner-med-fokus-pa-undervisning-och-larande-sou-202519.pdf"
+   }
+  ],
+  "innehall_sidor": [
+   5,
+   17
+  ],
+  "forslagskapitel": [
+   3,
+   10
+  ],
+  "forfattningskommentar": {
+   "avsnitt": "12.1",
+   "slut_avsnitt": "Referenser",
+   "slut_sida": 663,
+   "lag": "Skollag (2010:800)",
+   "radkorrigeringar": {
+    "3. kap.": [
+     "3 kap."
+    ],
+    "5 kap": [
+     "5 kap."
+    ],
+    "11 kap": [
+     "11 kap."
+    ],
+    "4a§": [
+     "4 a §"
+    ],
+    "5a§": [
+     "5 a §"
+    ]
+   },
+   "hanvisningsfraser": [
+    "Övervägandena finns i"
+   ],
+   "anm": "Författningskommentaren har bara avsnitt 12.1 (skollagen); den slutar där \"Referenser\" (onumrerad rubrik, s. 663) börjar, därför slut_sida. radkorrigeringar (kontrollerade mot pdftotext): kapitelrubrikerna \"3. kap.\" (s. 623), \"5 kap\" (s. 632) och \"11 kap\" (s. 646) avviker från \"N kap.\"; \"4a§\" (5 kap.) och \"5a§\" (6 kap.) saknar mellanslag. hanvisningsfraser: 11 kap. 34 § har \"Övervägandena finns i 5.3.1 och 5.4.6\" utan \"avsnitt\". 3 kap. 1 § (innehållsförteckning för kapitlet) har ingen hänvisning."
+  },
+  "ruta_rubriker": {
+   "Förslag": "Förslag:",
+   "Bedömning": "Bedömningar?:"
+  },
+  "ruta_over_sidbrytning": true,
+  "ruta_bindestreck_skydd": true,
+  "ruta_anm": "SOU 2025:19 har rutor \"Förslag: …\" / \"Bedömningar: …\" (plural; \"Bedömning:\" i 10.4.1–10.4.2) med texten på samma rad. Rutorna har flera stycken (blankrader), punktlistor och löper ofta över sidbrytning med fotnoter under rutan (t.ex. 3.2 s. 153–154, 4.2 s. 199–200, 5.2 s. 266–268, 6.2, 7.5, 8.2), därför ruta_over_sidbrytning. ruta_bindestreck_skydd: annars \"betygsoch bedömningskriterier\". En ruta = ett förslag: 12 förslagsrutor (3.2, 3.3, 4.2, 4.3, 5.2, 5.3, 5.4, 6.2, 7.5, 8.2, 9.2, 10.1), kontrollerade mot sidbilderna (slut vid nästa rutrubrik, avsnittsrubrik eller brödtext till vänster om rutan); bedömningsrutorna (3.2, 4.3, 7.5, 9.2, 10.2, 10.3, 10.4.1, 10.4.2) räknas inte. Förslagskapitel 3–10 (kap. 2 problembild, kap. 11 konsekvenser, kap. 12 författningskommentar)."
  },
  "remiss": {
   "url": "https://www.regeringen.se/remisser/2025/03/remiss-av-betankandet-kunskap-for-alla--nya-laroplaner-med-fokus-pa-undervisning-och-larande-sou-202519/",
@@ -20,28 +64,147 @@
  "propositioner": [
   {
    "nr": "Prop. 2025/26:194",
+   "kort": "194",
    "sida_url": "https://www.regeringen.se/rattsliga-dokument/proposition/2026/03/prop.-202526194",
-   "pdf_url": null,
-   "avsnitt": null,
-   "utredningens_forslag_rubrik": null,
-   "remissinstanser_rubrik": null,
-   "hoppa_delar_vid_namnsokning": [],
-   "lagtext_sidor": null,
-   "forteckning_remissinstanser_sida": null
+   "pdf_url": "https://www.regeringen.se/contentassets/42c1e2e4596b4f8682e3d8283b91a138/nya-laroplaner--for-en-stark-kunskapsskola-prop.-202526194.pdf",
+   "avsnitt": [
+    "6.1",
+    "6.2",
+    "6.3.2",
+    "6.4",
+    "6.5",
+    "6.6",
+    "6.7",
+    "6.8",
+    "8"
+   ],
+   "utredningens_forslag_rubrik": [
+    "Läroplansutredningens förslag",
+    "Utredningarnas förslag"
+   ],
+   "remissinstanser_rubrik": "Remissinstanserna",
+   "hoppa_delar_vid_namnsokning": [
+    "Utredningen om stärkt trygghet",
+    "Utredningen om likvärdiga betyg"
+   ],
+   "hoppade_delar_beskrivning": "delar om SOU 2025:8 och SOU 2025:18",
+   "lagtext_sidor": [
+    6,
+    43
+   ],
+   "forteckning_remissinstanser_sida": 269,
+   "forteckning_bilaga": 3,
+   "ovriga_delrubriker": [
+    "Utredningen om stärkt trygghet och studiero i skolans förslag",
+    "Utredningen om likvärdiga betyg och meritvärdens förslag"
+   ],
+   "anm": "Huvudproposition. Avsnitt 3 (\"Ärendet och dess beredning\") behandlar SOU 2025:19 utan avgränsning (\"Betänkandet har remissbehandlats och en förteckning över remissinstanserna finns i bilaga 3\"), medan SOU 2025:18 (avsnitt 9.3–9.4), SOU 2025:8 (avsnitt 3.2) och SOU 2025:9 (avsnitt 8) uttryckligen behandlas \"i relevanta delar\". Avsnitt med regeringens ruta och en del \"Läroplansutredningens förslag\": 6.1, 6.2, 6.3.2, 6.4, 6.5, 6.6, 6.7, 6.8. Avsnitt 8 (ikraftträdande) har en gemensam del \"Utredningarnas förslag\" som börjar med Läroplansutredningens ikraftträdandeförslag (SOU 2025:19 avsnitt 10.1) och tas med; remissinstansdelen där gäller främst Läroplansutredningen. Avsnitt 7.1–7.2 (grundläggande svenska) har bara \"Förslag från Utredningen om införande av grundläggande svenska och översyn av modersmålsundervisningen\" (SOU 2025:9) och ingår inte. I 6.2 (SOU 2025:8) och 6.7–6.8 (SOU 2025:18) står Läroplansutredningens del och \"Remissinstanserna\" först; de andra utredningarnas delar och deras \"Remissinstanserna#2\" hoppas över vid namnsökning. Förteckningen över remissinstanserna för SOU 2025:19 (U2025/00630) är bilaga 3 s. 269–270; bilaga 6 (SOU 2025:18), 9 (SOU 2025:8) och 12 (SOU 2025:9) gäller andra remisser. Lagförslag 2.1 och 2.2 (båda skollagen) s. 6–43."
+  },
+  {
+   "nr": "Prop. 2025/26:195",
+   "kort": "195",
+   "sida_url": "https://www.regeringen.se/rattsliga-dokument/proposition/2026/03/prop.-202526195",
+   "pdf_url": "https://www.regeringen.se/contentassets/90deb85eeb924ac4a4b5ef087529f68a/forbattrat-stod-i-skolan-prop.-202526195.pdf",
+   "avsnitt": [
+    "6.4",
+    "8"
+   ],
+   "utredningens_forslag_rubrik": [
+    "Läroplansutredningens förslag"
+   ],
+   "remissinstanser_rubrik": "Remissinstanserna",
+   "hoppa_delar_vid_namnsokning": [
+    "Utredningen om en förbättrad elevhälsas",
+    "Yrkesvuxutredningens"
+   ],
+   "hoppade_delar_beskrivning": "delar om SOU 2025:44 och SOU 2024:16",
+   "lagtext_sidor": [
+    6,
+    18
+   ],
+   "lagforslag_rubrik": "^(?:2()\\s+)?Förslag till lag om ändring i (.*)$",
+   "forteckning_remissinstanser_sida": null,
+   "forteckning_bilaga": null,
+   "ovriga_delrubriker": [
+    "Utredningen om en förbättrad elevhälsas förslag",
+    "Yrkesvuxutredningens förslag"
+   ],
+   "anm": "Behandlar enligt avsnitt 3 \"förslagen i avsnitt 4.2 i SOU 2025:19\" (tillsammans med SOU 2025:44 och SOU 2024:16). Avsnitt 6.4 (1 kap. skollagen: stöd och stimulans flyttas ur syftesparagrafen) har bara \"Läroplansutredningens förslag\" och \"Remissinstanserna\". Avsnitt 8 (ikraftträdande) har delar för alla tre utredningarna; Läroplansutredningens remissinstanser är där \"Remissinstanserna#2\". Övriga avsnitt (6.1–6.3, 6.5–6.9, 7) bygger på SOU 2025:44 eller SOU 2024:16 och ingår inte. Förteckningen över remissinstanserna för SOU 2025:19 finns också här (bilaga 6 s. 182), men huvudförteckningen är prop. 194 bilaga 3. Lagförslaget är kap. 2 utan underavsnitt (som i stod)."
+  },
+  {
+   "nr": "Prop. 2025/26:196",
+   "kort": "196",
+   "sida_url": "https://www.regeringen.se/rattsliga-dokument/proposition/2026/03/prop.-202526196",
+   "pdf_url": "https://www.regeringen.se/contentassets/7bfa7c951ef54678981bfdb82f028b93/tid-for-undervisningsuppdraget-prop.-202526196.pdf",
+   "avsnitt": [
+    "8",
+    "9"
+   ],
+   "utredningens_forslag_rubrik": [
+    "Läroplansutredningens förslag (SOU 2025:19)"
+   ],
+   "remissinstanser_rubrik": "Remissinstanserna#2",
+   "hoppa_delar_vid_namnsokning": [
+    "Förslag från Utredningen om minskad administration"
+   ],
+   "hoppade_delar_beskrivning": "delar om SOU 2025:26",
+   "lagtext_sidor": [
+    5,
+    18
+   ],
+   "forteckning_remissinstanser_sida": null,
+   "forteckning_bilaga": null,
+   "ovriga_delrubriker": [
+    "Förslag från Utredningen om minskad administration och om reglering av förskollärares och lärares tid (SOU 2025:26)"
+   ],
+   "flerradiga_delrubriker": [
+    "Förslag från Utredningen om minskad administration och om reglering av förskollärares och lärares tid (SOU 2025:26)"
+   ],
+   "anm": "Behandlar enligt avsnitt 3 \"de förslag i betänkandets avsnitt 4.2 som avser ändring av 1 kap. 5 § och 6 kap. 10 § skollagen\" (SOU 2025:19; kränkande behandling flyttas till 6 kap.). Avsnitt 8 (tydligare ansvar, kränkande behandling) och 9 (ikraftträdande) har delar \"Läroplansutredningens förslag (SOU 2025:19)\" efter SOU 2025:26-delen och dess \"Remissinstanserna\"; Läroplansutredningens remissinstanser är \"Remissinstanserna#2\". Avsnitt 6, 7.1 och 7.2 bygger bara på SOU 2025:26 och ingår inte. SOU 2025:26-delens rubrik bryts över två rader (flerradiga_delrubriker, som i tid). Förteckningen över remissinstanserna för SOU 2025:19 finns också här (bilaga 6 s. 152). Tre lagförslag i kap. 2 (2.1–2.3, skollagen), s. 5–18; 2.1 innehåller 1 kap. 5 § och 6 kap. 10 §."
   }
  ],
  "layout": {
-  "spaltforskjutning_pt": null,
-  "ord_y_intervall_pt": null
+  "spaltforskjutning_pt": 154.0,
+  "ord_y_intervall_pt": [
+   30,
+   640
+  ],
+  "rensa_marginal_i_delar": true,
+  "vanstermarginal_pt": {
+   "jamn": 122,
+   "udda": 51
+  },
+  "lagtext_tolerant": true,
+  "anm": "Tvåspaltiga lagförslag i prop. 194–196 som i betyg/stod/tid: spaltförskjutning 154 pt, vänstermarginal jämna 122 pt / udda 51 pt (samma värden uppmätta för prop. 193–197 i tidigare reformer). rensa_marginal_i_delar: sidnummer/\"Prop. …\" på samma rad som brödtext. lagtext_tolerant: paragrafrubriker utan mellanslag (\"3§\", \"4§\")."
  },
- "lagar": null,
- "forordningar": null,
- "forordning_markor": null,
+ "lagar": [
+  {
+   "namn": "Skollag (2010:800)",
+   "riksdagen_id": "sfs-2010-800",
+   "andringar": [
+    "2026:1096",
+    "2026:1242",
+    "2026:1243",
+    "2026:1636"
+   ],
+   "bestamd_form": "skollagen",
+   "anm": "Ändringslagar verifierade med \"Lag (…)\" i den konsoliderade texten (ändrad t.o.m. SFS 2026:1636) för paragrafer som utredningens författningskommentar tar upp: 2026:1243 (i kraft 2028-07-02; samlad ändringslag med prop. 2025/26:194 lagförslag 2.1, även ändringar från andra propositioner): 1 kap. 11 §, 3 kap. 7, 10, 12 i §§, 7 kap. 5, 14, 15 §§, 10–13 kap. (alla kommenterade paragrafer). 2026:1242 (prop. 2025/26:195, i kraft 2028-07-01): 1 kap. 4 § (med prop. 194:s formulering \"förmedla och förankra kunskaper och värden\"), 3 kap. 1, 2, 4, 5, 7 §§ och 5 kap. 4 a § (SOU 2025:19 avsnitt 4.2.3). 2026:1096 (prop. 2025/26:196 lagförslag 2.1, i kraft 2026-08-01): 1 kap. 5 § (avsnitt 4.2.2); kränkande behandling flyttades till 6 kap. 10 § i stället för utredningens nya 6 kap. 5 a §. 2026:1636 (i kraft 2028-07-01): 1 kap. 3 § med prop. 194:s definition av undervisning (\"bestäms och leds av lärare eller förskollärare\"); 2026:1634 (samma paragraf, i kraft 2027-07-01, gammal definition) tas inte med. 2026:1245 (prop. 194 lagförslag 2.2, 20 kap. komvux, i kraft 2031-01-01) tas inte med: utredningens författningskommentar berör inte 20 kap. Övergångsblock finns bara för 2026:1243. 6 kap. 5 a § och 9 kap. 17 § (utredningens förslag) finns inte i den konsoliderade texten."
+  }
+ ],
+ "forordningar": [
+  {
+   "namn": "Skolförordning (2011:185)",
+   "riksdagen_id": "sfs-2011-185",
+   "anm": "Utredningens förordningsförslag 1.2 (5 kap. 2 §, 9 kap. m.fl.: \"tillgodogöra sig de kunskaper som anges i …\") har inte genomförts per 2026-11-10 (den konsoliderade texten, ändrad t.o.m. SFS 2026:1823, har kvar \"kriterierna för bedömning av kunskaper och betygskriterierna\"). Läroplansförslagen 1.3–1.6 (SKOLFS) finns inte i riksdagens öppna data."
+  }
+ ],
+ "forordning_markor": [],
  "fokusorganisationer": {
   "skr": "Sveriges Kommuner och Regioner",
   "almega": "Almega utbildning",
   "ideburna": "Idéburna skolors riksförbund"
  },
+ "fokusorganisationer_anm": "Stavning enligt remissens lista över remissinstanser (remissinstanser-for-kunskap-for-alla….pdf: \"1. Almega utbildning\", \"17. Idéburna skolors riksförbund\", \"65. Sveriges Kommuner och Regioner\"). Förteckningen i prop. 194 bilaga 3 skriver \"Almega Utbildning\"; kategori() matchar båda.",
  "kedja": {
   "utredningsbetankande": {
    "nr": "SOU 2025:19",
@@ -101,10 +264,12 @@
    }
   }
  },
- "hamtningsdatum": null,
+ "hamtningsdatum": "2026-11-10",
  "korrigeringar": {
   "ocr_citat_manuellt_kontrollerade": [],
   "motivering_omformulerad": {}
  },
- "forordning_markor_beskrivning": null
+ "forordning_markor_beskrivning": null,
+ "forordning_markor_anm": "Ingen markör: utredningens förordningsförslag 1.2 (skolförordningen, \"tillgodogöra sig de kunskaper som anges i …\") finns inte i den konsoliderade skolförordningen (0 träffar per 2026-11-10), men de flesta förslagen (3.2, 4.3, 5.2, 5.4, 6.2, 7.5, 8.2, 9.2, 10.1) avser läroplaner i SKOLFS som inte finns i riksdagens öppna data; en markör skulle ge sfs_diff.py:s \"ej i SFS … innehåller inte\" även för dem, vilket vore missvisande.",
+ "forteckning_korrigeringar": {}
 }

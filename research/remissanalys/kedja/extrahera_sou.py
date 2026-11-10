@@ -36,14 +36,22 @@ def printed(p):
         if re.fullmatch(r'\d{1,4}', l): return int(l)
     return None
 
-def rutor(Pvol, sounr, ruta_rubriker=None):
+def rutor(Pvol, sounr, ruta_rubriker=None, over_sidbrytning=False, bindestreck_skydd=False):
     """Förslags-/bedömningsrutor. Standard (SOU 2025:18): "Förslag:"/"Bedömning:" med texten på samma rad.
     Config sou.ruta_rubriker = {"Förslag": regex, "Bedömning": regex} för betänkanden med andra rutrubriker (t.ex. SOU 2025:8:
     "Utredningens förslag" på egen rad + punktlista). Då avslutas rutan också vid en ensam siffra som inte är sidnumret
-    (fotnot direkt under rutan, utan blankrad)."""
+    (fotnot direkt under rutan, utan blankrad).
+    Config sou.ruta_over_sidbrytning (av som standard): rutor som löper över blankrader och sidbrytningar (SOU 2025:19, där
+    rutorna har flera stycken och ofta fortsätter på nästa sida). Rutan slutar då först vid nästa rutrubrik, vid en numrerad
+    avsnittsrubrik eller vid en rad efter blankrad som börjar till vänster om rutans vänsterkant på sidan (brödtexten står
+    längre ut än den indragna rutan). En ensam siffra som inte är sidnumret är en fotnotsmarkör: resten av sidan hoppas
+    över. Sidnummer och sidhuvuden ("SOU 2025:19   Läsning") hoppas över. På en ny sida sätts vänsterkanten av första raden.
+    Config sou.ruta_bindestreck_skydd (av som standard): avstavningsfogningen rör inte "betygs- och", "-eller", "-samt"
+    (som i extrahera_prop.py); utan skyddet blir det "betygsoch"."""
     hdr = re.compile(r'^\s*' + re.escape(sounr) + r'\s*$')
     RR = ruta_rubriker or {'Förslag': 'Förslag:', 'Bedömning': 'Bedömning:'}
     LABEL = re.compile(r'^\s*(?:' + '|'.join(f'(?P<{"F" if k == "Förslag" else "B"}>{v})' for k, v in RR.items()) + r')\s*(?P<T>.*)$')
+    RUBRIK = re.compile(r'^\s{0,25}(\d{1,2}(?:\.\d{1,2}){1,4})\s{1,12}([A-ZÅÄÖ].{3,90})$')   # numrerad avsnittsrubrik (bara over_sidbrytning)
     out = []
     for vol, P in Pvol:
         sec = None; sectitle = None
@@ -57,6 +65,7 @@ def rutor(Pvol, sounr, ruta_rubriker=None):
                     typ = 'Förslag' if mb.group('F') is not None else 'Bedömning'
                     ind = len(l) - len(l.lstrip())
                     txt = [mb.group('T').strip()]; k = j + 1; blank = 0; pp = i; LL = lines
+                    sidan = i; marg = ind   # over_sidbrytning: rutans sida och vänsterkant
                     while True:
                         if k >= len(LL):
                             pp += 1
@@ -65,13 +74,22 @@ def rutor(Pvol, sounr, ruta_rubriker=None):
                         s = LL[k]
                         if not s.strip():
                             blank += 1
-                            if blank >= 1 and len(txt) > 1: break
+                            if blank >= 1 and len(txt) > 1 and not over_sidbrytning: break
                             k += 1; continue
                         if LABEL.match(s): break
+                        if over_sidbrytning:
+                            st = s.strip(); ind_s = len(s) - len(s.lstrip())
+                            if re.fullmatch(r'\d{1,3}', st) and int(st) != printed(P[pp]): k = len(LL); continue   # fotnoter till sidans slut
+                            if re.fullmatch(r'\d{1,4}', st) or hdr.match(st) or (sounr in st and re.search(r'\s{3,}', st)): k += 1; continue
+                            if RUBRIK.match(s) and not re.search(r'\.{4,}', s): break
+                            if pp != sidan: sidan = pp; marg = ind_s
+                            elif blank and ind_s < marg - 1: break
+                            marg = min(marg, ind_s); blank = 0
+                            txt.append(re.sub(r'\s{3,}.*$', '', st) if ind < 5 else st); k += 1; continue
                         if ruta_rubriker and re.fullmatch(r'\d{1,3}', s.strip()) and int(s.strip()) != printed(P[pp]) and len(txt) > 1: break
                         if hdr.match(s.strip()) or re.match(r'^\s*\d{1,4}\s*$', s): k += 1; continue
                         blank = 0; txt.append(re.sub(r'\s{3,}.*$', '', s.strip()) if ind < 5 else s.strip()); k += 1
-                    t = ' '.join(txt); t = re.sub(r'(\w)- (?=[a-zåäö])', r'\1', t)
+                    t = ' '.join(txt); t = re.sub(r'(\w)- (?!och |eller |samt )(?=[a-zåäö])' if bindestreck_skydd else r'(\w)- (?=[a-zåäö])', r'\1', t)
                     out.append({'vol': vol, 'pdfsida': i + 1, 'sida': printed(p), 'avsnitt': sec, 'avsnittsrubrik': sectitle, 'typ': typ, 'text': t})
     return out
 
@@ -156,7 +174,7 @@ if __name__ == '__main__':
     url1 = vols[0]['url']
     skriv(rid, 'sou-innehall.json', {'_meta': {'kalla': {'text': f'{sounr}, innehållsförteckning', 'url': url1}, 'forslagskapitel': [kmin, kmax]},
                                      'lista': toc, 'kapitel': kapitel, 'avsnitt': avsn})
-    f = tilldela_avsnitt(rutor(Pvol, sounr, s.get('ruta_rubriker')), toc, Pvol)
+    f = tilldela_avsnitt(rutor(Pvol, sounr, s.get('ruta_rubriker'), bool(s.get('ruta_over_sidbrytning')), bool(s.get('ruta_bindestreck_skydd'))), toc, Pvol)
     skriv(rid, 'sou-forslag.json', {'_meta': {'kalla': {'text': f'{sounr}, förslagsrutor ("Förslag:")', 'url': url1}, 'pdf': {v['vol']: v['url'] for v in vols}}, 'forslag': f})
     fks = kravs(c, 'sou', 'forfattningskommentar')
     if isinstance(fks, list):
