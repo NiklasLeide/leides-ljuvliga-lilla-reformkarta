@@ -1,0 +1,771 @@
+{
+ "_meta": {
+  "hamtningsdatum": "2026-11-10",
+  "beslutad_lydelse_kalla": "Skollag (2010:800) konsoliderad, riksdagens öppna data (Källa: Regeringskansliet / Lagrummet), t.o.m. SFS 2026:1636. Ändrings-SFS i original (svenskforfattningssamling.se) nåddes inte från miljön.",
+  "statusregler": {
+   "oförändrad": "SOU:ns föreslagna paragraf = beslutad lydelse (normaliserad textlikhet ≥ 0,999)",
+   "ändrad": "beslutad lydelse finns men skiljer sig; ordagrann ord-diff sparas",
+   "ej med": "ingen version införd genom SFS 2026:1243 för paragrafen",
+   "ej lagtext": "förslaget är inte författningstext (uppdrag/ansvar)",
+   "ej i SFS per 2026-11-10": "förslaget avser förordning som ännu inte finns i SFS"
+  },
+  "matchning": "Paragrafer matchas på kapitel + nummer; saknas samma nummer används högst textlikhet inom kapitlet. Likhet < 0,80 ⇒ manuell_granskning: true.",
+  "forslag_till_paragraf": "Paragrafer knyts till förslag via SOU:ns författningskommentar (\"Bestämmelsen behandlas i avsnitt …\"), dvs. på avsnittsnivå — flera förslag i samma avsnitt delar paragrafer."
+ },
+ "forslag": [
+  {
+   "forslag": "F01",
+   "sou_avsnitt": "8.1.1",
+   "forslag_kalla": {
+    "text": "SOU 2025:9 s. 163",
+    "url": "https://www.regeringen.se/contentassets/da2e506ecdee49a6ba095fceea3165eb/pa-spraklig-grund-sou-20259.pdf"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "Ingen paragraf i SOU:ns författningskommentar till skollagen (20.1) hänvisar till avsnitt 8.1.1 — förslaget avser förordningsnivå (eller annan reglering). Ingen textmarkör är angiven, så det är inte maskinellt avgjort om förslaget har genomförts i förordningarna: Gymnasieförordning (2010:2039); Skolförordning (2011:185); Förordning (2011:1108) om vuxenutbildning.",
+    "url": "https://data.riksdagen.se/dokument/sfs-2010-2039.text"
+   }
+  },
+  {
+   "forslag": "F02",
+   "sou_avsnitt": "8.1.2",
+   "forslag_kalla": {
+    "text": "SOU 2025:9 s. 167",
+    "url": "https://www.regeringen.se/contentassets/da2e506ecdee49a6ba095fceea3165eb/pa-spraklig-grund-sou-20259.pdf"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "Ingen paragraf i SOU:ns författningskommentar till skollagen (20.1) hänvisar till avsnitt 8.1.2 — förslaget avser förordningsnivå (eller annan reglering). Ingen textmarkör är angiven, så det är inte maskinellt avgjort om förslaget har genomförts i förordningarna: Gymnasieförordning (2010:2039); Skolförordning (2011:185); Förordning (2011:1108) om vuxenutbildning.",
+    "url": "https://data.riksdagen.se/dokument/sfs-2010-2039.text"
+   }
+  },
+  {
+   "forslag": "F03",
+   "sou_avsnitt": "8.1.3",
+   "forslag_kalla": {
+    "text": "SOU 2025:9 s. 171",
+    "url": "https://www.regeringen.se/contentassets/da2e506ecdee49a6ba095fceea3165eb/pa-spraklig-grund-sou-20259.pdf"
+   },
+   "paragrafer": [
+    {
+     "paragraf": "10 kap. 15 §",
+     "sou": {
+      "text": "Betyg ska sättas i grundskolans ämnen i slutet av varje termin från och med årskurs 6 i de ämnen som eleven har fått undervisning i under terminen. Regeringen eller den myndighet som regeringen bestämmer kan med stöd av 8 kap. 7 § regeringsformen meddela föreskrifter som innebär undantag från första stycket för ämnet svenska som andraspråk. Om undervisningen i naturorienterande ämnen och samhällsorienterande ämnen i huvudsak varit ämnesövergripande fram till och med slutet av årskurs 6, får rektorn dock besluta att ett sammanfattande betyg ska sättas för dessa respektive ämnen i årskurs 6.",
+      "kalla": {
+       "text": "SOU 2025:9 s. 387 (författningskommentar 20.1)",
+       "url": "https://www.regeringen.se/contentassets/da2e506ecdee49a6ba095fceea3165eb/pa-spraklig-grund-sou-20259.pdf"
+      }
+     },
+     "proposition": {
+      "text": "För varje ämne ska en eller i vissa fall flera kursplaner gälla. Varje kursplan ska innehålla 1. syfte, 2. ämnets bidrag till skolans mål, 3. mål och innehåll, 4. undervisningsstrategier, och 5. betygsoch bedömningskriterier. För ämnet svenska som andraspråk ska det finnas två kursplaner och den ena av dessa, kursplanen för grundläggande svenska, ska endast innehålla det som anges i andra stycket 1–4. Av 1 kap. 11 § framgår att kursplanerna ska ingå i läroplanen för grundskolan.",
+      "paragraf": "10 kap. 8 §",
+      "likhet_mot_sou": 0.268,
+      "kalla": {
+       "text": "Prop. 2025/26:194 s. 14, lagförslag 2.1",
+       "url": "https://www.regeringen.se/contentassets/42c1e2e4596b4f8682e3d8283b91a138/nya-laroplaner--for-en-stark-kunskapsskola-prop.-202526194.pdf"
+      },
+      "matchning": "textlikhet",
+      "manuell_granskning": true
+     },
+     "beslutad": {
+      "text": "Om betyg sätts i årskurs 5 och 6 ska betyg sättas i slutet av varje termin i de årskurserna i de ämnen som eleven har fått undervisning i under terminen. Om undervisningen i naturorienterande ämnen och samhällsorienterande ämnen i huvudsak varit ämnesövergripande fram till och med slutet av aktuell årskurs, får rektorn dock besluta att ett sammanfattande betyg ska sättas för dessa respektive ämnen i den årskursen. Lag (2025:729). 16 a /Träder i kraft I:2028-07-02/ § Betyg ska inte sättas för en elev i ämnet svenska som andraspråk när det gäller undervisning som eleven har fått enligt kursplanen för grundläggande svenska.",
+      "paragraf": "10 kap. 16 §",
+      "sfs": "2026:1243",
+      "ikraft": null,
+      "likhet_mot_sou": 0.6,
+      "kalla": {
+       "text": "Skollag (2010:800) 10 kap. 16 § i lydelse enligt SFS 2026:1243; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "textlikhet",
+      "manuell_granskning": true
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "ersatt",
+       "fore": "Betyg",
+       "efter": "Om betyg sätts i årskurs 5 och 6"
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "betyg"
+      },
+      {
+       "op": "struken",
+       "fore": "i grundskolans ämnen",
+       "efter": null
+      },
+      {
+       "op": "ersatt",
+       "fore": "från och med årskurs 6",
+       "efter": "i de årskurserna"
+      },
+      {
+       "op": "struken",
+       "fore": "Regeringen eller den myndighet som regeringen bestämmer kan med stöd av 8 kap. 7 § regeringsformen meddela föreskrifter som innebär undantag från första stycket för ämnet svenska som andraspråk.",
+       "efter": null
+      },
+      {
+       "op": "ersatt",
+       "fore": "årskurs 6,",
+       "efter": "aktuell årskurs,"
+      },
+      {
+       "op": "ersatt",
+       "fore": "årskurs 6.",
+       "efter": "den årskursen. Lag (2025:729). 16 a /Träder i kraft I:2028-07-02/ § Betyg ska inte sättas för en elev i ämnet svenska som andraspråk när det gäller undervisning som eleven har fått enligt kursplanen för grundläggande svenska."
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": true
+    },
+    {
+     "paragraf": "11 kap. 19 §",
+     "sou": {
+      "text": "Om en elev eller elevens vårdnadshavare begär det, ska betyg sättas i anpassade grundskolans ämnen. Betyg ska sättas i slutet av varje termin från och med årskurs 6 i de ämnen som eleven har fått undervisning i under terminen. Regeringen eller den myndighet som regeringen bestämmer kan med stöd av 8 kap. 7 § regeringsformen meddela föreskrifter som innebär undantag från första stycket för ämnet svenska som andraspråk. Om betyg sätts i årskurs 4 och 5 ska betyg sättas i slutet av varje termin i de årskurserna i de ämnen som eleven har fått undervisning i under terminen.",
+      "kalla": {
+       "text": "SOU 2025:9 s. 388 (författningskommentar 20.1)",
+       "url": "https://www.regeringen.se/contentassets/da2e506ecdee49a6ba095fceea3165eb/pa-spraklig-grund-sou-20259.pdf"
+      }
+     },
+     "proposition": {
+      "text": "För varje ämne och ämnesområde ska en eller i vissa fall flera kursplaner gälla. Varje kursplan ska innehålla 1. syfte, 2. ämnets eller ämnesområdets bidrag till skolans mål, 3. mål och innehåll, 4. undervisningsstrategier, och 5. betygsoch bedömningskriterier eller bedömningskriterier. För ämnet svenska som andraspråk ska det finnas två kursplaner och den ena av dessa, kursplanen för grundläggande svenska, ska endast innehålla det som anges i andra stycket 1–4. Av 1 kap. 11 § framgår att kursplanerna ska ingå i läroplanen för anpassade grundskolan.",
+      "paragraf": "11 kap. 11 §",
+      "likhet_mot_sou": 0.329,
+      "kalla": {
+       "text": "Prop. 2025/26:194 s. 20, lagförslag 2.1",
+       "url": "https://www.regeringen.se/contentassets/42c1e2e4596b4f8682e3d8283b91a138/nya-laroplaner--for-en-stark-kunskapsskola-prop.-202526194.pdf"
+      },
+      "matchning": "textlikhet",
+      "manuell_granskning": true
+     },
+     "beslutad": {
+      "text": "För varje ämne och ämnesområde ska en eller i vissa fall flera kursplaner gälla. Varje kursplan ska innehålla 1. syfte, 2. ämnets eller ämnesområdets bidrag till skolans mål, 3. mål och innehåll, 4. undervisningsstrategier, och 5. betygs- och bedömningskriterier eller bedömningskriterier. För ämnet svenska som andraspråk ska det finnas två kursplaner och den ena av dessa, kursplanen för grundläggande svenska, ska endast innehålla det som anges i andra stycket 1-4. Av 1 kap. 11 § framgår att kursplanerna ska ingå i läroplanen för anpassade grundskolan.",
+      "paragraf": "11 kap. 11 §",
+      "sfs": "2026:1243",
+      "ikraft": "2028-07-02",
+      "likhet_mot_sou": 0.329,
+      "kalla": {
+       "text": "Skollag (2010:800) 11 kap. 11 § i lydelse enligt SFS 2026:1243, träder i kraft 2028-07-02; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "textlikhet",
+      "manuell_granskning": true
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "ersatt",
+       "fore": "Om",
+       "efter": "För varje ämne och ämnesområde ska"
+      },
+      {
+       "op": "struken",
+       "fore": "elev",
+       "efter": null
+      },
+      {
+       "op": "ersatt",
+       "fore": "elevens vårdnadshavare begär det,",
+       "efter": "i vissa fall flera kursplaner gälla. Varje kursplan"
+      },
+      {
+       "op": "ersatt",
+       "fore": "betyg sättas i anpassade grundskolans ämnen. Betyg ska sättas i slutet av varje termin från",
+       "efter": "innehålla 1. syfte, 2. ämnets eller ämnesområdets bidrag till skolans mål, 3. mål"
+      },
+      {
+       "op": "ersatt",
+       "fore": "med årskurs 6 i de ämnen som eleven har fått undervisning i under terminen. Regeringen",
+       "efter": "innehåll, 4. undervisningsstrategier, och 5. betygs- och bedömningskriterier"
+      },
+      {
+       "op": "ersatt",
+       "fore": "den myndighet som regeringen bestämmer kan med stöd av 8 kap. 7 § regeringsformen meddela föreskrifter som innebär undantag från första stycket för",
+       "efter": "bedömningskriterier. För"
+      },
+      {
+       "op": "ersatt",
+       "fore": "andraspråk. Om betyg sätts",
+       "efter": "andraspråk ska det finnas två kursplaner och den ena av dessa, kursplanen för grundläggande svenska, ska endast innehålla det som anges"
+      },
+      {
+       "op": "ersatt",
+       "fore": "årskurs 4 och 5",
+       "efter": "andra stycket 1-4. Av 1 kap. 11 § framgår att kursplanerna"
+      },
+      {
+       "op": "ersatt",
+       "fore": "betyg sättas",
+       "efter": "ingå"
+      },
+      {
+       "op": "ersatt",
+       "fore": "slutet av varje termin i de årskurserna i de ämnen som eleven har fått undervisning i under terminen.",
+       "efter": "läroplanen för anpassade grundskolan."
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": true
+    },
+    {
+     "paragraf": "12 kap. 15 §",
+     "sou": {
+      "text": "Betyg ska sättas i specialskolans ämnen i slutet av varje termin från och med årskurs 7 i de ämnen som eleven har fått undervisning i under terminen. Regeringen eller den myndighet som regeringen bestämmer kan med stöd av 8 kap. 7 § regeringsformen meddela föreskrifter som innebär undantag från första stycket för ämnet svenska som andraspråk. Om undervisningen i naturorienterande ämnen och samhällsorienterande ämnen i huvudsak varit ämnesövergripande fram till och med slutet av årskurs 7, får rektorn dock besluta att ett sammanfattande betyg ska sättas för dessa respektive ämnen i årskurs 7.",
+      "kalla": {
+       "text": "SOU 2025:9 s. 388 (författningskommentar 20.1)",
+       "url": "https://www.regeringen.se/contentassets/da2e506ecdee49a6ba095fceea3165eb/pa-spraklig-grund-sou-20259.pdf"
+      }
+     },
+     "proposition": {
+      "text": "När betyg sätts efter det att ett ämne har avslutats ska läraren göra en sammantagen bedömning av elevens kunskaper i förhållande till de kunskaper som i ämnets kursplan anges i den del som avser mål och innehåll samt med stöd av betygskriterierna sätta det betyg som bäst motsvarar elevens kunskaper.",
+      "paragraf": "12 kap. 20 §",
+      "likhet_mot_sou": 0.261,
+      "kalla": {
+       "text": "Prop. 2025/26:194 s. 30, lagförslag 2.1",
+       "url": "https://www.regeringen.se/contentassets/42c1e2e4596b4f8682e3d8283b91a138/nya-laroplaner--for-en-stark-kunskapsskola-prop.-202526194.pdf"
+      },
+      "matchning": "textlikhet",
+      "manuell_granskning": true
+     },
+     "beslutad": {
+      "text": "Vid betygssättning i årskurs 11 ska det inom varje skolenhet genomföras bedömningssamråd mellan lärare som undervisar i samma ämne. Bedömningssamråd ska även genomföras i tidigare årskurser mellan lärare som undervisar i samma ämne om ett ämne avslutas i en tidigare årskurs. Syftet med sådana samråd är att öka betygens likvärdighet inom respektive ämne. Rektorn ansvarar för att bedömningssamråd genomförs.",
+      "paragraf": "12 kap. 20a §",
+      "sfs": "2026:1243",
+      "ikraft": "2028-07-02",
+      "likhet_mot_sou": 0.301,
+      "kalla": {
+       "text": "Skollag (2010:800) 12 kap. 20a § i lydelse enligt SFS 2026:1243, träder i kraft 2028-07-02; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "textlikhet",
+      "manuell_granskning": true
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "ersatt",
+       "fore": "Betyg ska sättas i specialskolans ämnen i slutet av varje termin från och med årskurs 7 i de ämnen som eleven har fått undervisning i under terminen. Regeringen eller den myndighet som regeringen bestämmer kan med stöd av 8 kap. 7 § regeringsformen meddela föreskrifter som innebär undantag från första stycket för ämnet svenska som andraspråk. Om undervisningen i naturorienterande ämnen och samhällsorienterande ämnen i huvudsak varit ämnesövergripande fram till och med slutet av årskurs 7, får rektorn dock besluta att ett sammanfattande betyg ska sättas för dessa respektive ämnen",
+       "efter": "Vid betygssättning"
+      },
+      {
+       "op": "ersatt",
+       "fore": "7.",
+       "efter": "11 ska det inom varje skolenhet genomföras bedömningssamråd mellan lärare som undervisar i samma ämne. Bedömningssamråd ska även genomföras i tidigare årskurser mellan lärare som undervisar i samma ämne om ett ämne avslutas i en tidigare årskurs. Syftet med sådana samråd är att öka betygens likvärdighet inom respektive ämne. Rektorn ansvarar för att bedömningssamråd genomförs."
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": true
+    },
+    {
+     "paragraf": "13 kap. 16 §",
+     "sou": {
+      "text": "Betyg ska sättas i sameskolans ämnen. Regeringen eller den myndighet som regeringen bestämmer kan med stöd av 8 kap. 7 § regeringsformen meddela föreskrifter som innebär undantag från första stycket för ämnet svenska som andraspråk. Om undervisningen i naturorienterande ämnen och samhällsorienterande ämnen i huvudsak varit ämnesövergripande fram till och med slutet av årskurs 6, får rektorn dock besluta att ett sammanfattande betyg ska sättas för dessa respektive ämnen.",
+      "kalla": {
+       "text": "SOU 2025:9 s. 389 (författningskommentar 20.1)",
+       "url": "https://www.regeringen.se/contentassets/da2e506ecdee49a6ba095fceea3165eb/pa-spraklig-grund-sou-20259.pdf"
+      }
+     },
+     "proposition": {
+      "text": "Den totala undervisningstiden för varje elev i sameskolan ska vara minst 5 007 timmar. För en nyanländ elev och för en elev som avses i 3 kap. 12 c § andra stycket 2 ska den totala undervisningstiden efter ett beslut om placering i årskurs enligt 3 kap. 12 e § motsvara minst den tid som återstår för övriga elever i den årskursen under den kvarvarande skoltiden.",
+      "paragraf": "13 kap. 5 §",
+      "likhet_mot_sou": 0.31,
+      "kalla": {
+       "text": "Prop. 2025/26:194 s. 31, lagförslag 2.1",
+       "url": "https://www.regeringen.se/contentassets/42c1e2e4596b4f8682e3d8283b91a138/nya-laroplaner--for-en-stark-kunskapsskola-prop.-202526194.pdf"
+      },
+      "matchning": "textlikhet",
+      "manuell_granskning": true
+     },
+     "beslutad": {
+      "text": "Den totala undervisningstiden för varje elev i sameskolan ska vara minst 5 007 timmar. För en nyanländ elev och för en elev som avses i 3 kap. 12 c § andra stycket 2 ska den totala undervisningstiden efter ett beslut om placering i årskurs enligt 3 kap. 12 e § motsvara minst den tid som återstår för övriga elever i den årskursen under den kvarvarande skoltiden.",
+      "paragraf": "13 kap. 5 §",
+      "sfs": "2026:1243",
+      "ikraft": "2028-07-02",
+      "likhet_mot_sou": 0.31,
+      "kalla": {
+       "text": "Skollag (2010:800) 13 kap. 5 § i lydelse enligt SFS 2026:1243, träder i kraft 2028-07-02; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "textlikhet",
+      "manuell_granskning": true
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "ersatt",
+       "fore": "Betyg",
+       "efter": "Den totala undervisningstiden för varje elev i sameskolan"
+      },
+      {
+       "op": "ersatt",
+       "fore": "sättas",
+       "efter": "vara minst 5 007 timmar. För en nyanländ elev och för en elev som avses"
+      },
+      {
+       "op": "ersatt",
+       "fore": "sameskolans ämnen. Regeringen eller",
+       "efter": "3 kap. 12 c § andra stycket 2 ska"
+      },
+      {
+       "op": "ersatt",
+       "fore": "myndighet",
+       "efter": "totala undervisningstiden efter ett beslut om placering i årskurs enligt 3 kap. 12 e § motsvara minst den tid"
+      },
+      {
+       "op": "ersatt",
+       "fore": "regeringen bestämmer kan med stöd av 8 kap. 7 § regeringsformen meddela föreskrifter som innebär undantag från första stycket",
+       "efter": "återstår"
+      },
+      {
+       "op": "ersatt",
+       "fore": "ämnet svenska som andraspråk. Om undervisningen",
+       "efter": "övriga elever"
+      },
+      {
+       "op": "ersatt",
+       "fore": "naturorienterande ämnen och samhällsorienterande ämnen i huvudsak varit ämnesövergripande fram till och med slutet av årskurs 6, får rektorn dock besluta att ett sammanfattande betyg ska sättas för dessa respektive ämnen.",
+       "efter": "den årskursen under den kvarvarande skoltiden."
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": true
+    },
+    {
+     "paragraf": "15 kap. 22 §",
+     "sou": {
+      "text": "Betyg ska sättas i ämnen. Betyg ska sättas när ett ämne är avslutat. Om ett ämne består av flera nivåer ska betyg sättas efter varje avslutad nivå i ämnet. När ett godkänt betyg sätts på en högre nivå i ett ämne med flera nivåer ska betyget anses omfatta lägre nivåer i ämnet och ersätta betyg som har satts på sådana nivåer. Betyg ska också sättas 1. efter genomfört gymnasiearbete och examensarbete, och 2. i grundskolans ämnen i de fall undervisning i dessa får förekomma i gymnasieskolan. Regeringen eller den myndighet som regeringen bestämmer kan med stöd av 8 kap. 7 § regeringsformen meddela föreskrifter som innebär undantag från tredje stycket 2 p. för grundskolans ämne svenska som andraspråk i de fall undervisning i detta ämne får förekomma.",
+      "kalla": {
+       "text": "SOU 2025:9 s. 390 (författningskommentar 20.1)",
+       "url": "https://www.regeringen.se/contentassets/da2e506ecdee49a6ba095fceea3165eb/pa-spraklig-grund-sou-20259.pdf"
+      }
+     },
+     "proposition": {
+      "text": "Som betyg för godkända resultat i ett ämne ska någon av beteckningarna A, B, C, D eller E användas. Högsta betyg betecknas med A och lägsta betyg med E. Betyg för icke godkänt resultat betecknas med F. Vid betygssättningen ska läraren göra en sammantagen bedömning av elevens kunskaper på den aktuella nivån i ämnet i förhållande till de kunskaper som i ämnesplanen anges i den del som avser syfte och centralt innehåll och med stöd av betygskriterierna sätta det betyg som bäst motsvarar elevens kunskaper. Vid en bedömning av elevens kunskaper i förhållande till sådana delar av en ämnesplan som avser syfte och centralt innehåll och som rör säkerhet eller som hänvisar till lagar, förordningar eller myndigheters föreskrifter ska elevens kunskaper i dessa delar, trots det som anges i andra stycket, som minst motsvara betyget E för att eleven ska kunna ges detta betyg i ämnet. Regeringen eller den myndighet som regeringen bestämmer kan med stöd av 8 kap. 7 § regeringsformen meddela föreskrifter om betygskriterier.",
+      "paragraf": "15 kap. 24 §",
+      "likhet_mot_sou": 0.253,
+      "kalla": {
+       "text": "Prop. 2025/26:194 s. 35, lagförslag 2.1",
+       "url": "https://www.regeringen.se/contentassets/42c1e2e4596b4f8682e3d8283b91a138/nya-laroplaner--for-en-stark-kunskapsskola-prop.-202526194.pdf"
+      },
+      "matchning": "textlikhet",
+      "manuell_granskning": true
+     },
+     "beslutad": {
+      "text": "Betyg ska sättas i ämnen. Betyg ska sättas när ett ämne är avslutat. Om ett ämne består av flera nivåer ska betyg sättas efter varje avslutad nivå i ämnet. När ett betyg sätts på en högre nivå i ett ämne med flera nivåer ska betyget anses omfatta lägre nivåer i ämnet och ersätta betyg som har satts på sådana nivåer. Betyg ska också sättas 1. efter genomfört yrkesprov, gymnasiearbete och examensarbete, och 2. i grundskolans ämnen i de fall undervisning i dessa får förekomma i gymnasieskolan.",
+      "paragraf": "15 kap. 22 §",
+      "sfs": "2026:1243",
+      "ikraft": "2028-07-02",
+      "likhet_mot_sou": 0.771,
+      "kalla": {
+       "text": "Skollag (2010:800) 15 kap. 22 § i lydelse enligt SFS 2026:1243, träder i kraft 2028-07-02; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "struken",
+       "fore": "godkänt",
+       "efter": null
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "yrkesprov,"
+      },
+      {
+       "op": "struken",
+       "fore": "Regeringen eller den myndighet som regeringen bestämmer kan med stöd av 8 kap. 7 § regeringsformen meddela föreskrifter som innebär undantag från tredje stycket 2 p. för grundskolans ämne svenska som andraspråk i de fall undervisning i detta ämne får förekomma.",
+       "efter": null
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": true
+    },
+    {
+     "paragraf": "18 kap. 22 §",
+     "sou": {
+      "text": "På de nationella programmen ska betyg sättas i ämnen och efter genomfört gymnasiearbete i anpassad gymnasieskola. Betyg ska sättas när ett ämne är avslutat. Om ett ämne består av flera nivåer ska betyg sättas efter varje avslutad nivå i ämnet. Om en elev på ett individuellt program har läst ett ämne enligt 19 kap. 15 §, ska betyg sättas när ämnet är avslutat. Om ämnet består av flera nivåer ska betyg sättas efter varje avslutad nivå i ämnet. När ett betyg sätts på en högre nivå i ett ämne med flera nivåer ska betyget anses omfatta lägre nivåer i ämnet och ersätta betyg som har satts på sådana nivåer. Om en elev har läst ett ämne enligt gymnasieskolans ämnesplan ska, i stället för vad som föreskrivs i 23–26 §§, betyg sättas enligt bestämmelserna i 15 kap. 22–27 §§ om betygssättning i gymnasieskolan. Regeringen eller den myndighet som regeringen bestämmer kan med stöd av 8 kap. 7 § regeringsformen meddela föreskrifter som innebär att betyg inte ska sättas i grundskolans ämne svenska som andraspråk, och i ämnet svenska som andraspråk för anpassade grundskolan, i de fall undervisning i dessa ämnen får förekomma.",
+      "kalla": {
+       "text": "SOU 2025:9 s. 392 (författningskommentar 20.1)",
+       "url": "https://www.regeringen.se/contentassets/da2e506ecdee49a6ba095fceea3165eb/pa-spraklig-grund-sou-20259.pdf"
+      }
+     },
+     "proposition": {
+      "text": "Betyg ska inte sättas på ämnesområden. För ämnesområdena ska det finnas bedömningskriterier. Regeringen eller den myndighet som regeringen bestämmer kan med stöd av 8 kap. 7 § regeringsformen meddela föreskrifter om bedömningskriterier.",
+      "paragraf": "18 kap. 26a §",
+      "likhet_mot_sou": 0.311,
+      "kalla": {
+       "text": "Prop. 2025/26:194 s. 39, lagförslag 2.1",
+       "url": "https://www.regeringen.se/contentassets/42c1e2e4596b4f8682e3d8283b91a138/nya-laroplaner--for-en-stark-kunskapsskola-prop.-202526194.pdf"
+      },
+      "matchning": "textlikhet",
+      "manuell_granskning": true
+     },
+     "beslutad": {
+      "text": "På de nationella programmen ska betyg sättas i ämnen och efter genomfört yrkesprov i anpassad gymnasieskola eller gymnasiearbete i anpassad gymnasieskola. Betyg ska sättas när ett ämne är avslutat. Om ett ämne består av flera nivåer ska betyg sättas efter varje avslutad nivå i ämnet. Om en elev på ett individuellt program har läst ett ämne enligt 19 kap. 15 §, ska betyg sättas när ämnet är avslutat. Om ämnet består av flera nivåer ska betyg sättas efter varje avslutad nivå i ämnet. När ett betyg sätts på en högre nivå i ett ämne med flera nivåer ska betyget anses omfatta lägre nivåer i ämnet och ersätta betyg som har satts på sådana nivåer. Om en elev har läst ett ämne enligt gymnasieskolans ämnesplan ska, i stället för vad som föreskrivs i 23-26 §§, betyg sättas enligt bestämmelserna i 15 kap. 22-27 §§ om betygssättning i gymnasieskolan.",
+      "paragraf": "18 kap. 22 §",
+      "sfs": "2026:1243",
+      "ikraft": "2028-07-02",
+      "likhet_mot_sou": 0.815,
+      "kalla": {
+       "text": "Skollag (2010:800) 18 kap. 22 § i lydelse enligt SFS 2026:1243, träder i kraft 2028-07-02; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": false
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "yrkesprov i anpassad gymnasieskola eller"
+      },
+      {
+       "op": "ersatt",
+       "fore": "23–26",
+       "efter": "23-26"
+      },
+      {
+       "op": "ersatt",
+       "fore": "22–27",
+       "efter": "22-27"
+      },
+      {
+       "op": "struken",
+       "fore": "Regeringen eller den myndighet som regeringen bestämmer kan med stöd av 8 kap. 7 § regeringsformen meddela föreskrifter som innebär att betyg inte ska sättas i grundskolans ämne svenska som andraspråk, och i ämnet svenska som andraspråk för anpassade grundskolan, i de fall undervisning i dessa ämnen får förekomma.",
+       "efter": null
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": true
+    }
+   ],
+   "status": "ändrad",
+   "status_per_paragraf": {
+    "ändrad": 6
+   },
+   "status_kalla": {
+    "text": "Härledd per paragraf: SOU:ns föreslagna lydelse jämförd med beslutad lydelse (SFS 2026:1243). Statusvärdet är mekaniskt (textlikhet), inte en bedömning.",
+    "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+   }
+  },
+  {
+   "forslag": "F04",
+   "sou_avsnitt": "8.1.4",
+   "forslag_kalla": {
+    "text": "SOU 2025:9 s. 173",
+    "url": "https://www.regeringen.se/contentassets/da2e506ecdee49a6ba095fceea3165eb/pa-spraklig-grund-sou-20259.pdf"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "Ingen paragraf i SOU:ns författningskommentar till skollagen (20.1) hänvisar till avsnitt 8.1.4 — förslaget avser förordningsnivå (eller annan reglering). Ingen textmarkör är angiven, så det är inte maskinellt avgjort om förslaget har genomförts i förordningarna: Gymnasieförordning (2010:2039); Skolförordning (2011:185); Förordning (2011:1108) om vuxenutbildning.",
+    "url": "https://data.riksdagen.se/dokument/sfs-2010-2039.text"
+   }
+  },
+  {
+   "forslag": "F05",
+   "sou_avsnitt": "8.1.5",
+   "forslag_kalla": {
+    "text": "SOU 2025:9 s. 174",
+    "url": "https://www.regeringen.se/contentassets/da2e506ecdee49a6ba095fceea3165eb/pa-spraklig-grund-sou-20259.pdf"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "Ingen paragraf i SOU:ns författningskommentar till skollagen (20.1) hänvisar till avsnitt 8.1.5 — förslaget avser förordningsnivå (eller annan reglering). Ingen textmarkör är angiven, så det är inte maskinellt avgjort om förslaget har genomförts i förordningarna: Gymnasieförordning (2010:2039); Skolförordning (2011:185); Förordning (2011:1108) om vuxenutbildning.",
+    "url": "https://data.riksdagen.se/dokument/sfs-2010-2039.text"
+   }
+  },
+  {
+   "forslag": "F06",
+   "sou_avsnitt": "8.1.6",
+   "forslag_kalla": {
+    "text": "SOU 2025:9 s. 176",
+    "url": "https://www.regeringen.se/contentassets/da2e506ecdee49a6ba095fceea3165eb/pa-spraklig-grund-sou-20259.pdf"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "Ingen paragraf i SOU:ns författningskommentar till skollagen (20.1) hänvisar till avsnitt 8.1.6 — förslaget avser förordningsnivå (eller annan reglering). Ingen textmarkör är angiven, så det är inte maskinellt avgjort om förslaget har genomförts i förordningarna: Gymnasieförordning (2010:2039); Skolförordning (2011:185); Förordning (2011:1108) om vuxenutbildning.",
+    "url": "https://data.riksdagen.se/dokument/sfs-2010-2039.text"
+   }
+  },
+  {
+   "forslag": "F07",
+   "sou_avsnitt": "8.1.7",
+   "forslag_kalla": {
+    "text": "SOU 2025:9 s. 177",
+    "url": "https://www.regeringen.se/contentassets/da2e506ecdee49a6ba095fceea3165eb/pa-spraklig-grund-sou-20259.pdf"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "Ingen paragraf i SOU:ns författningskommentar till skollagen (20.1) hänvisar till avsnitt 8.1.7 — förslaget avser förordningsnivå (eller annan reglering). Ingen textmarkör är angiven, så det är inte maskinellt avgjort om förslaget har genomförts i förordningarna: Gymnasieförordning (2010:2039); Skolförordning (2011:185); Förordning (2011:1108) om vuxenutbildning.",
+    "url": "https://data.riksdagen.se/dokument/sfs-2010-2039.text"
+   }
+  },
+  {
+   "forslag": "F08",
+   "sou_avsnitt": "8.1.8",
+   "forslag_kalla": {
+    "text": "SOU 2025:9 s. 180",
+    "url": "https://www.regeringen.se/contentassets/da2e506ecdee49a6ba095fceea3165eb/pa-spraklig-grund-sou-20259.pdf"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "Ingen paragraf i SOU:ns författningskommentar till skollagen (20.1) hänvisar till avsnitt 8.1.8 — förslaget avser förordningsnivå (eller annan reglering). Ingen textmarkör är angiven, så det är inte maskinellt avgjort om förslaget har genomförts i förordningarna: Gymnasieförordning (2010:2039); Skolförordning (2011:185); Förordning (2011:1108) om vuxenutbildning.",
+    "url": "https://data.riksdagen.se/dokument/sfs-2010-2039.text"
+   }
+  },
+  {
+   "forslag": "F09",
+   "sou_avsnitt": "8.1.9",
+   "forslag_kalla": {
+    "text": "SOU 2025:9 s. 183",
+    "url": "https://www.regeringen.se/contentassets/da2e506ecdee49a6ba095fceea3165eb/pa-spraklig-grund-sou-20259.pdf"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "Ingen paragraf i SOU:ns författningskommentar till skollagen (20.1) hänvisar till avsnitt 8.1.9 — förslaget avser förordningsnivå (eller annan reglering). Ingen textmarkör är angiven, så det är inte maskinellt avgjort om förslaget har genomförts i förordningarna: Gymnasieförordning (2010:2039); Skolförordning (2011:185); Förordning (2011:1108) om vuxenutbildning.",
+    "url": "https://data.riksdagen.se/dokument/sfs-2010-2039.text"
+   }
+  },
+  {
+   "forslag": "F10",
+   "sou_avsnitt": "8.1.10",
+   "forslag_kalla": {
+    "text": "SOU 2025:9 s. 187",
+    "url": "https://www.regeringen.se/contentassets/da2e506ecdee49a6ba095fceea3165eb/pa-spraklig-grund-sou-20259.pdf"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "Ingen paragraf i SOU:ns författningskommentar till skollagen (20.1) hänvisar till avsnitt 8.1.10 — förslaget avser förordningsnivå (eller annan reglering). Ingen textmarkör är angiven, så det är inte maskinellt avgjort om förslaget har genomförts i förordningarna: Gymnasieförordning (2010:2039); Skolförordning (2011:185); Förordning (2011:1108) om vuxenutbildning.",
+    "url": "https://data.riksdagen.se/dokument/sfs-2010-2039.text"
+   }
+  },
+  {
+   "forslag": "F11",
+   "sou_avsnitt": "8.1.11",
+   "forslag_kalla": {
+    "text": "SOU 2025:9 s. 189",
+    "url": "https://www.regeringen.se/contentassets/da2e506ecdee49a6ba095fceea3165eb/pa-spraklig-grund-sou-20259.pdf"
+   },
+   "paragrafer": [
+    {
+     "paragraf": "16 kap. 27 §",
+     "sou": {
+      "text": "Yrkesexamen ska utfärdas om en elev som avses i 26 § har godkända betyg på en utbildning som omfattar minst 2 250 gymnasiepoäng och som innefattar minst 100 gymnasiepoäng i vart och ett av ämnena 1. svenska eller svenska som andraspråk, 2. engelska, och 3. matematik. Även gymnasiearbetet ska ingå i de godkända betygen. Regeringen eller den myndighet som regeringen bestämmer kan med stöd av 8 kap. 7 § regeringsformen meddela föreskrifter om 1. vilka nivåer i de ämnen som anges i första stycket som ska ingå i de godkända betygen för respektive yrkesprogram, 2. vilket av ämnena som anges i första stycket 1 p. som ska ingå i de godkända betygen för de elever som läst nivåer i båda dessa ämnen, och 3. vilka andra ämnen och vilka nivåer i dessa som ska ingå i de godkända betygen för respektive yrkesprogram.",
+      "kalla": {
+       "text": "SOU 2025:9 s. 390 (författningskommentar 20.1)",
+       "url": "https://www.regeringen.se/contentassets/da2e506ecdee49a6ba095fceea3165eb/pa-spraklig-grund-sou-20259.pdf"
+      }
+     },
+     "proposition": {
+      "text": "För varje ämne ska det finnas en ämnesplan. Om det finns särskilda skäl får flera ämnen ha en gemensam ämnesplan. Av ämnesplanen ska bland annat ämnets syfte och centrala innehåll framgå. Regeringen eller den myndighet som regeringen bestämmer kan med stöd av 8 kap. 7 § regeringsformen meddela föreskrifter om ämnesplaner.",
+      "paragraf": "16 kap. 21 §",
+      "likhet_mot_sou": 0.343,
+      "kalla": {
+       "text": "Prop. 2025/26:194 s. 37, lagförslag 2.1",
+       "url": "https://www.regeringen.se/contentassets/42c1e2e4596b4f8682e3d8283b91a138/nya-laroplaner--for-en-stark-kunskapsskola-prop.-202526194.pdf"
+      },
+      "matchning": "textlikhet",
+      "manuell_granskning": true
+     },
+     "beslutad": {
+      "text": "Yrkesexamen ska utfärdas om en elev som avses i 26 § i genomsnitt har betyget 4 eller högre på minst 2 250 av de gymnasiepoäng som anges i 26 §, inklusive betyget 4 på yrkesprovet eller gymnasiearbetet. Regeringen eller den myndighet som regeringen bestämmer kan med stöd av 8 kap. 7 § regeringsformen meddela föreskrifter om vilka ämnen som ska ingå i de betyg som genomsnittet beräknas på.",
+      "paragraf": "16 kap. 27 §",
+      "sfs": "2026:1243",
+      "ikraft": "2028-07-02",
+      "likhet_mot_sou": 0.511,
+      "kalla": {
+       "text": "Skollag (2010:800) 16 kap. 27 § i lydelse enligt SFS 2026:1243, träder i kraft 2028-07-02; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "i genomsnitt"
+      },
+      {
+       "op": "ersatt",
+       "fore": "godkända betyg",
+       "efter": "betyget 4 eller högre"
+      },
+      {
+       "op": "struken",
+       "fore": "en utbildning som omfattar",
+       "efter": null
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "av de"
+      },
+      {
+       "op": "struken",
+       "fore": "och",
+       "efter": null
+      },
+      {
+       "op": "ersatt",
+       "fore": "innefattar minst 100 gymnasiepoäng",
+       "efter": "anges"
+      },
+      {
+       "op": "ersatt",
+       "fore": "vart och ett av ämnena 1. svenska",
+       "efter": "26 §, inklusive betyget 4 på yrkesprovet"
+      },
+      {
+       "op": "ersatt",
+       "fore": "svenska som andraspråk, 2. engelska, och 3. matematik. Även gymnasiearbetet ska ingå i de godkända betygen.",
+       "efter": "gymnasiearbetet."
+      },
+      {
+       "op": "struken",
+       "fore": "1.",
+       "efter": null
+      },
+      {
+       "op": "struken",
+       "fore": "nivåer i de",
+       "efter": null
+      },
+      {
+       "op": "struken",
+       "fore": "som anges i första stycket",
+       "efter": null
+      },
+      {
+       "op": "ersatt",
+       "fore": "godkända betygen för respektive yrkesprogram, 2. vilket av ämnena",
+       "efter": "betyg"
+      },
+      {
+       "op": "ersatt",
+       "fore": "anges i första stycket 1 p. som ska ingå i de godkända betygen för de elever som läst nivåer i båda dessa ämnen, och 3. vilka andra ämnen och vilka nivåer i dessa som ska ingå i de godkända betygen för respektive yrkesprogram.",
+       "efter": "genomsnittet beräknas på."
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": true
+    },
+    {
+     "paragraf": "16 kap. 28 §",
+     "sou": {
+      "text": "Högskoleförberedande examen ska utfärdas om en elev som avses i 26 § har godkända betyg på utbildning som omfattar minst 2 250 gymnasiepoäng och som innefattar minst 300 gymnasiepoäng i ämnena svenska eller svenska som andraspråk, 200 gymnasiepoäng i ämnet engelska, och 100 gymnasiepoäng i ämnet matematik. Även gymnasiearbetet ska ingå i de godkända betygen. Regeringen eller den myndighet som regeringen bestämmer kan med stöd av 8 kap. 7 § regeringsformen meddela föreskrifter om vilka nivåer i de ämnen som anges i första stycket som ska ingå i de godkända betygen, och om vilket av ämnena svenska och svenska som andraspråk som ska ingå i de godkända betygen för de elever som läst nivåer i båda dessa ämnen.",
+      "kalla": {
+       "text": "SOU 2025:9 s. 391 (författningskommentar 20.1)",
+       "url": "https://www.regeringen.se/contentassets/da2e506ecdee49a6ba095fceea3165eb/pa-spraklig-grund-sou-20259.pdf"
+      }
+     },
+     "proposition": {
+      "text": "För varje ämne ska det finnas en ämnesplan. Om det finns särskilda skäl får flera ämnen ha en gemensam ämnesplan. Av ämnesplanen ska bland annat ämnets syfte och centrala innehåll framgå. Regeringen eller den myndighet som regeringen bestämmer kan med stöd av 8 kap. 7 § regeringsformen meddela föreskrifter om ämnesplaner.",
+      "paragraf": "16 kap. 21 §",
+      "likhet_mot_sou": 0.356,
+      "kalla": {
+       "text": "Prop. 2025/26:194 s. 37, lagförslag 2.1",
+       "url": "https://www.regeringen.se/contentassets/42c1e2e4596b4f8682e3d8283b91a138/nya-laroplaner--for-en-stark-kunskapsskola-prop.-202526194.pdf"
+      },
+      "matchning": "textlikhet",
+      "manuell_granskning": true
+     },
+     "beslutad": {
+      "text": "Högskoleförberedande examen ska utfärdas om en elev som avses i 26 § i genomsnitt har betyget 4 eller högre på minst 2 250 av de gymnasiepoäng som anges i 26 §, inklusive betyget 4 på gymnasiearbetet.",
+      "paragraf": "16 kap. 28 §",
+      "sfs": "2026:1243",
+      "ikraft": "2028-07-02",
+      "likhet_mot_sou": 0.312,
+      "kalla": {
+       "text": "Skollag (2010:800) 16 kap. 28 § i lydelse enligt SFS 2026:1243, träder i kraft 2028-07-02; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "i genomsnitt"
+      },
+      {
+       "op": "ersatt",
+       "fore": "godkända betyg",
+       "efter": "betyget 4 eller högre"
+      },
+      {
+       "op": "struken",
+       "fore": "utbildning som omfattar",
+       "efter": null
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "av de"
+      },
+      {
+       "op": "struken",
+       "fore": "och som innefattar minst 300 gymnasiepoäng i ämnena svenska eller svenska som andraspråk, 200 gymnasiepoäng i ämnet engelska, och 100 gymnasiepoäng i ämnet matematik. Även gymnasiearbetet ska ingå i de godkända betygen. Regeringen eller den myndighet som regeringen bestämmer kan med stöd av 8 kap. 7 § regeringsformen meddela föreskrifter om vilka nivåer i de ämnen",
+       "efter": null
+      },
+      {
+       "op": "ersatt",
+       "fore": "första stycket som ska ingå i de godkända betygen, och om vilket av ämnena svenska och svenska som andraspråk som ska ingå i de godkända betygen för de elever som läst nivåer i båda dessa ämnen.",
+       "efter": "26 §, inklusive betyget 4 på gymnasiearbetet."
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": true
+    }
+   ],
+   "status": "ändrad",
+   "status_per_paragraf": {
+    "ändrad": 2
+   },
+   "status_kalla": {
+    "text": "Härledd per paragraf: SOU:ns föreslagna lydelse jämförd med beslutad lydelse (SFS 2026:1243). Statusvärdet är mekaniskt (textlikhet), inte en bedömning.",
+    "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+   }
+  },
+  {
+   "forslag": "F12",
+   "sou_avsnitt": "8.1.12",
+   "forslag_kalla": {
+    "text": "SOU 2025:9 s. 192",
+    "url": "https://www.regeringen.se/contentassets/da2e506ecdee49a6ba095fceea3165eb/pa-spraklig-grund-sou-20259.pdf"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "Ingen paragraf i SOU:ns författningskommentar till skollagen (20.1) hänvisar till avsnitt 8.1.12 — förslaget avser förordningsnivå (eller annan reglering). Ingen textmarkör är angiven, så det är inte maskinellt avgjort om förslaget har genomförts i förordningarna: Gymnasieförordning (2010:2039); Skolförordning (2011:185); Förordning (2011:1108) om vuxenutbildning.",
+    "url": "https://data.riksdagen.se/dokument/sfs-2010-2039.text"
+   }
+  },
+  {
+   "forslag": "F13",
+   "sou_avsnitt": "19",
+   "forslag_kalla": {
+    "text": "SOU 2025:9 s. 385",
+    "url": "https://www.regeringen.se/contentassets/da2e506ecdee49a6ba095fceea3165eb/pa-spraklig-grund-sou-20259.pdf"
+   },
+   "paragrafer": [],
+   "status": null,
+   "status_kalla": {
+    "text": "Ingen paragraf i SOU:ns författningskommentar till skollagen (20.1) hänvisar till avsnitt 19 — förslaget avser förordningsnivå (eller annan reglering). Ingen textmarkör är angiven, så det är inte maskinellt avgjort om förslaget har genomförts i förordningarna: Gymnasieförordning (2010:2039); Skolförordning (2011:185); Förordning (2011:1108) om vuxenutbildning.",
+    "url": "https://data.riksdagen.se/dokument/sfs-2010-2039.text"
+   }
+  }
+ ]
+}

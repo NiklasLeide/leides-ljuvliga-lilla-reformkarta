@@ -95,10 +95,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F01"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Begreppet nybörjare avgränsar målgruppen för grundläggande svenska som andraspråk",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -128,10 +133,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F01"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Kostnader för att införa kursplanen i grundläggande svenska som andraspråk",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -837,10 +847,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F02"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Tvåårsgränsen för grundläggande svenska som andraspråk riskerar bli normerande",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -870,10 +885,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F02",
+     "F08"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Tidsgräns och övergång mellan kursplaner",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -903,10 +924,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F09"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Skolverkets kartläggningsmaterial och stöd ska stötta skolornas arbete",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -1161,10 +1187,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F08"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Tidpunkt för övergång från grundläggande kursplan, rektors beslut",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -1194,10 +1225,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F08"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Om rektors beslut om grundläggande svenska som andraspråk är obligatoriskt",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -1227,10 +1263,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F08"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Invändningar mot rektors beslut om svenskämne",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -1260,10 +1301,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F04"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Nationella prov för elever som läser grundläggande svenska som andraspråk",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -1293,10 +1339,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F03"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Betygskatalog när betyg inte sätts i grundläggande svenska som andraspråk",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -1326,10 +1377,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F03"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Betygsstatistik och meritvärde när betyg inte sätts",
+    "tolkning": true
    },
    "skolform": [
     "gymnasieskola"
@@ -1361,10 +1417,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F09"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Oklart om kartläggningsmaterialet är obligatoriskt för rektor",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -1394,10 +1455,17 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F13",
+     "F09"
+    ],
+    "kapitel": [
+     "8",
+     "19"
+    ],
+    "motivering": "Ikraftträdande före kartläggningsmaterial och implementeringsstöd",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -1707,10 +1775,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F11"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Administrativa rutiner för svenskämne i examens- och studiebevis",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -1740,10 +1813,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F03"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Elever efterfrågar betyg som inte sätts i grundläggande kursplan",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -1815,10 +1893,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F01"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Resurser flyttas till grundläggande svenska som andraspråk",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -1848,10 +1931,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F01"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Timplan för grundläggande svenska som andraspråk oklar",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -2251,10 +2339,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F01"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Organisatoriska följder av flera kursplaner, däribland grundläggande svenska som andraspråk",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -2626,10 +2719,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F01"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Åldersblandad undervisning i nya kursplanen i små kommuner",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -2758,10 +2856,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F01"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Organisation av undervisning med två kursplaner i svenska som andraspråk",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -2791,10 +2894,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F01"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Tjänstefördelning för nya grundläggande svenska",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -2890,10 +2998,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F01"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Organisatoriska utmaningar med två kursplaner i grundskolan",
+    "tolkning": true
    },
    "skolform": [
     "grundskola"
@@ -3106,10 +3219,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F01"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Implementeringskostnader för kursplanerna i grundläggande svenska som andraspråk",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -3139,10 +3257,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F09",
+     "F08"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Kostnadsberäkning för bedömning av vilken kursplan eleven följer",
+    "tolkning": true
    },
    "skolform": [
     "grundskola"
@@ -3610,10 +3734,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F09"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Kartläggningsmaterialets tydlighet för behovsprövning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -3643,10 +3772,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F01"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Resursbehov för egen kursplan i grundläggande svenska som andraspråk",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -3676,10 +3810,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F01"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Lärarbehov och schemaläggning för separat grundläggande undervisning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -3709,10 +3848,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F01"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Organisering av grundläggande svenska vid få elever",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -3742,10 +3886,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F01"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Undervisning i tre svenskkursplaner i samma klassrum",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -3944,10 +4093,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F02"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Tvåårsgränsen för grundläggande svenska som andraspråk",
+    "tolkning": true
    },
    "skolform": [
     "gymnasieskola"
@@ -3979,10 +4133,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F09"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Önskan att kartläggningsmaterialet bygger på Bygga svenska",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -4012,10 +4171,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F01"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Kompetensutveckling som följer av ämnesinförandet",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -4111,10 +4275,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F01"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Utmaningar vid införande av ny kursplan i landsortskommun",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -5563,10 +5732,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F01"
+    ],
+    "kapitel": [
+     "8"
+    ],
+    "motivering": "Merkostnad för tre parallella svenskundervisningsformer",
+    "tolkning": true
    },
    "skolform": []
   },

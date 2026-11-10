@@ -1,0 +1,389 @@
+{
+ "_meta": {
+  "steg": "M3 tolkad koppling till utredningsförslag för utmaningar utan egen hänvisning (modellkodning, Sprint 17; två kodare, KODINSTRUKTION.md)",
+  "tolkning": true
+ },
+ "kopplingar": [
+  {
+   "uid": "U001",
+   "forslag": null,
+   "motivering": "Generella organisatoriska och ekonomiska konsekvenser, inget enskilt förslag"
+  },
+  {
+   "uid": "U002",
+   "forslag": null,
+   "motivering": "Allmän synpunkt om anpassade skolformer, inget enskilt förslag pekas ut"
+  },
+  {
+   "uid": "U003",
+   "forslag": [
+    "F01"
+   ],
+   "motivering": "Begreppet nybörjare avgränsar målgruppen för grundläggande svenska som andraspråk"
+  },
+  {
+   "uid": "U004",
+   "forslag": [
+    "F01"
+   ],
+   "motivering": "Kostnader för att införa kursplanen i grundläggande svenska som andraspråk"
+  },
+  {
+   "uid": "U005",
+   "forslag": null,
+   "motivering": "Gäller utredningens bedömningar om timplan och studiehandledning, inte förslag"
+  },
+  {
+   "uid": "U018",
+   "forslag": null,
+   "motivering": "Modersmålsundervisning, inget förslag i förslagslistan"
+  },
+  {
+   "uid": "U027",
+   "forslag": null,
+   "motivering": "Modersmålsundervisningens kostnader, inget förslag i förslagslistan"
+  },
+  {
+   "uid": "U028",
+   "forslag": [
+    "F02"
+   ],
+   "motivering": "Tvåårsgränsen för grundläggande svenska som andraspråk riskerar bli normerande"
+  },
+  {
+   "uid": "U029",
+   "forslag": [
+    "F02",
+    "F08"
+   ],
+   "motivering": "Tidsgräns och övergång mellan kursplaner"
+  },
+  {
+   "uid": "U030",
+   "forslag": [
+    "F09"
+   ],
+   "motivering": "Skolverkets kartläggningsmaterial och stöd ska stötta skolornas arbete"
+  },
+  {
+   "uid": "U031",
+   "forslag": null,
+   "motivering": "Generell kompetensbrist i andraspråksdidaktik"
+  },
+  {
+   "uid": "U032",
+   "forslag": null,
+   "motivering": "Generellt stort behov av andraspråksdidaktik"
+  },
+  {
+   "uid": "U033",
+   "forslag": null,
+   "motivering": "Kompetensutvecklingsinsatser, inget enskilt förslag i listan"
+  },
+  {
+   "uid": "U037",
+   "forslag": [
+    "F08"
+   ],
+   "motivering": "Tidpunkt för övergång från grundläggande kursplan, rektors beslut"
+  },
+  {
+   "uid": "U038",
+   "forslag": [
+    "F08"
+   ],
+   "motivering": "Om rektors beslut om grundläggande svenska som andraspråk är obligatoriskt"
+  },
+  {
+   "uid": "U039",
+   "forslag": [
+    "F08"
+   ],
+   "motivering": "Invändningar mot rektors beslut om svenskämne"
+  },
+  {
+   "uid": "U040",
+   "forslag": [
+    "F04"
+   ],
+   "motivering": "Nationella prov för elever som läser grundläggande svenska som andraspråk"
+  },
+  {
+   "uid": "U041",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Betygskatalog när betyg inte sätts i grundläggande svenska som andraspråk"
+  },
+  {
+   "uid": "U042",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Betygsstatistik och meritvärde när betyg inte sätts"
+  },
+  {
+   "uid": "U043",
+   "forslag": [
+    "F09"
+   ],
+   "motivering": "Oklart om kartläggningsmaterialet är obligatoriskt för rektor"
+  },
+  {
+   "uid": "U044",
+   "forslag": [
+    "F13",
+    "F09"
+   ],
+   "motivering": "Ikraftträdande före kartläggningsmaterial och implementeringsstöd"
+  },
+  {
+   "uid": "U045",
+   "forslag": null,
+   "motivering": "Studiehandledning på modersmålet är en bedömning, inte ett förslag"
+  },
+  {
+   "uid": "U046",
+   "forslag": null,
+   "motivering": "Studiehandledning på modersmålet, inget förslag i listan"
+  },
+  {
+   "uid": "U047",
+   "forslag": null,
+   "motivering": "Modersmålsundervisning via fjärrundervisning, inget förslag i listan"
+  },
+  {
+   "uid": "U048",
+   "forslag": null,
+   "motivering": "Modersmålsundervisning, inget förslag i listan"
+  },
+  {
+   "uid": "U049",
+   "forslag": null,
+   "motivering": "Modersmålsundervisning via fjärrundervisning, inget förslag i listan"
+  },
+  {
+   "uid": "U052",
+   "forslag": null,
+   "motivering": "Generellt resursbehov för kompetensutveckling"
+  },
+  {
+   "uid": "U053",
+   "forslag": [
+    "F11"
+   ],
+   "motivering": "Administrativa rutiner för svenskämne i examens- och studiebevis"
+  },
+  {
+   "uid": "U054",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Elever efterfrågar betyg som inte sätts i grundläggande kursplan"
+  },
+  {
+   "uid": "U056",
+   "forslag": [
+    "F01"
+   ],
+   "motivering": "Resurser flyttas till grundläggande svenska som andraspråk"
+  },
+  {
+   "uid": "U057",
+   "forslag": [
+    "F01"
+   ],
+   "motivering": "Timplan för grundläggande svenska som andraspråk oklar"
+  },
+  {
+   "uid": "U066",
+   "forslag": null,
+   "motivering": "Generellt behov av förtydligat genomförande, inget enskilt förslag"
+  },
+  {
+   "uid": "U067",
+   "forslag": [
+    "F01"
+   ],
+   "motivering": "Organisatoriska följder av flera kursplaner, däribland grundläggande svenska som andraspråk"
+  },
+  {
+   "uid": "U069",
+   "forslag": null,
+   "motivering": "Allmänt stöd- och kompetensbehov vid implementering"
+  },
+  {
+   "uid": "U076",
+   "forslag": [
+    "F01"
+   ],
+   "motivering": "Åldersblandad undervisning i nya kursplanen i små kommuner"
+  },
+  {
+   "uid": "U077",
+   "forslag": null,
+   "motivering": "Gäller modersmålsundervisning, inget motsvarande förslag i listan"
+  },
+  {
+   "uid": "U078",
+   "forslag": null,
+   "motivering": "Generella organisatoriska och ekonomiska utmaningar i mindre kommuner"
+  },
+  {
+   "uid": "U079",
+   "forslag": null,
+   "motivering": "Allmän efterfrågan om finansiering och genomförande"
+  },
+  {
+   "uid": "U080",
+   "forslag": [
+    "F01"
+   ],
+   "motivering": "Organisation av undervisning med två kursplaner i svenska som andraspråk"
+  },
+  {
+   "uid": "U081",
+   "forslag": [
+    "F01"
+   ],
+   "motivering": "Tjänstefördelning för nya grundläggande svenska"
+  },
+  {
+   "uid": "U082",
+   "forslag": null,
+   "motivering": "Kostnader i allmänhet, exempelvis kompetensutveckling"
+  },
+  {
+   "uid": "U083",
+   "forslag": null,
+   "motivering": "Gäller studiehandledning, inget motsvarande förslag i listan"
+  },
+  {
+   "uid": "U084",
+   "forslag": [
+    "F01"
+   ],
+   "motivering": "Organisatoriska utmaningar med två kursplaner i grundskolan"
+  },
+  {
+   "uid": "U086",
+   "forslag": null,
+   "motivering": "Kostnader i allmänhet för kompetensutveckling"
+  },
+  {
+   "uid": "U089",
+   "forslag": null,
+   "motivering": "Gäller studietid i anpassade gymnasieskolan, inget förslag i listan"
+  },
+  {
+   "uid": "U090",
+   "forslag": null,
+   "motivering": "Uppgiftslämnarbörda vid uppföljning av modersmål, inget förslag i listan"
+  },
+  {
+   "uid": "U091",
+   "forslag": [
+    "F01"
+   ],
+   "motivering": "Implementeringskostnader för kursplanerna i grundläggande svenska som andraspråk"
+  },
+  {
+   "uid": "U092",
+   "forslag": [
+    "F09",
+    "F08"
+   ],
+   "motivering": "Kostnadsberäkning för bedömning av vilken kursplan eleven följer"
+  },
+  {
+   "uid": "U104",
+   "forslag": [
+    "F09"
+   ],
+   "motivering": "Kartläggningsmaterialets tydlighet för behovsprövning"
+  },
+  {
+   "uid": "U105",
+   "forslag": [
+    "F01"
+   ],
+   "motivering": "Resursbehov för egen kursplan i grundläggande svenska som andraspråk"
+  },
+  {
+   "uid": "U106",
+   "forslag": [
+    "F01"
+   ],
+   "motivering": "Lärarbehov och schemaläggning för separat grundläggande undervisning"
+  },
+  {
+   "uid": "U107",
+   "forslag": [
+    "F01"
+   ],
+   "motivering": "Organisering av grundläggande svenska vid få elever"
+  },
+  {
+   "uid": "U108",
+   "forslag": [
+    "F01"
+   ],
+   "motivering": "Undervisning i tre svenskkursplaner i samma klassrum"
+  },
+  {
+   "uid": "U113",
+   "forslag": [
+    "F02"
+   ],
+   "motivering": "Tvåårsgränsen för grundläggande svenska som andraspråk"
+  },
+  {
+   "uid": "U114",
+   "forslag": [
+    "F09"
+   ],
+   "motivering": "Önskan att kartläggningsmaterialet bygger på Bygga svenska"
+  },
+  {
+   "uid": "U115",
+   "forslag": [
+    "F01"
+   ],
+   "motivering": "Kompetensutveckling som följer av ämnesinförandet"
+  },
+  {
+   "uid": "U116",
+   "forslag": null,
+   "motivering": "Gäller resultatuppföljning av modersmål, inget förslag i listan"
+  },
+  {
+   "uid": "U117",
+   "forslag": null,
+   "motivering": "Allmän sammanfattning om genomförbarhet och administrativ börda"
+  },
+  {
+   "uid": "U118",
+   "forslag": [
+    "F01"
+   ],
+   "motivering": "Utmaningar vid införande av ny kursplan i landsortskommun"
+  },
+  {
+   "uid": "U153",
+   "forslag": [
+    "F01"
+   ],
+   "motivering": "Merkostnad för tre parallella svenskundervisningsformer"
+  },
+  {
+   "uid": "U154",
+   "forslag": null,
+   "motivering": "Generellt lärarbehov, oklart vilket förslag avses"
+  },
+  {
+   "uid": "U155",
+   "forslag": null,
+   "motivering": "Gäller modersmålselever, inget motsvarande förslag i listan"
+  }
+ ]
+}
