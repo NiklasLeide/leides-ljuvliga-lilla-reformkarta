@@ -18,7 +18,7 @@
 | 2 | Trygghet och studiero (SOU 2025:8) | Klar — 24 publicerade remissvar, 257 utmaningar, Övrigt 7,0 %, samstämmighet identifiering 37/40, typning 35/40 |
 | 3 | Förbättrat stöd (SOU 2025:44) | Klar — 21 publicerade remissvar, 395 utmaningar, Övrigt 2,3 %, samstämmighet identifiering 39/40, typning 35/40 |
 | 4 | Tid för undervisningsuppdraget (SOU 2025:26) | Klar — 27 publicerade remissvar, 615 utmaningar, Övrigt 4,7 %, samstämmighet identifiering 37/40, typning 35/40 |
-| 5 | Kunskap för alla (SOU 2025:19) | Ej påbörjad |
+| 5 | Kunskap för alla (SOU 2025:19) | Klar — 24 publicerade remissvar, 284 utmaningar, Övrigt 7,7 %, samstämmighet identifiering 39/40, typning 36/40 |
 | 6 | På språklig grund (SOU 2025:9) | Ej påbörjad |
 | 7 | Tioårig grundskola (SOU 2021:33) | Ej påbörjad |
 | 8 | Pilotsidan: reformväljare, jämförelse mellan reformer, förslag som propositionen inte tar upp, klickytor | Ej påbörjad |

@@ -1,0 +1,341 @@
+{
+ "_meta": {
+  "beskrivning": "Propositionens stycke \"Läroplansutredningens förslag\" (prop. 195: \"Läroplansutredningens förslag\"; prop. 196: \"Läroplansutredningens förslag (SOU 2025:19)\") per avsnitt med regeringens förslags-/bedömningsruta, ordagrant fram till nästa underrubrik.",
+  "overensstammelse": "propositionens exakta fras",
+  "avvikelse_beskriven": "true om stycket innehåller fler meningar än den inledande om överensstämmelse (mekaniskt)"
+ },
+ "avsnitt": [
+  {
+   "proposition": "Prop. 2025/26:194",
+   "avsnitt": "6.1",
+   "rubrik": "Det ska införas en samlad läroplan för varje",
+   "forslag_i_avsnittet": [
+    "F01",
+    "F02"
+   ],
+   "rubrik_i_propositionen": "Läroplansutredningens förslag",
+   "text": "Förslaget stämmer i huvudsak överens med regeringens förslag. Utredningens lagförslag om vilka delar en läroplan i grundskolan och motsvarande skolformer ska bestå av specificerar dock inte att läroplanen, förutom att de i likhet med övriga läroplaner ska ange utbildningens värdegrund och uppdrag samt mål och riktlinjer för utbildningen, även ska innehålla kursplaner och timplaner. I stället föreslår utredningen att det ska läggas till en mening i 1 kap. 11 § första stycket som innebär att en läroplan får, utöver utbildningens värdegrund och uppdrag samt mål och riktlinjer för utbildningen, även innehålla andra bestämmelser. Utredningen föreslår vidare att den upplysningsbestämmelse som anger att regeringen eller den myndighet som regeringen bestämmer kan meddela föreskrifter om läroplaner, ska ändras så att den bara upplyser om att regeringen kan meddela sådana föreskrifter. Utredningen föreslår inte att bemyndigandet att meddela föreskrifter om utbildningens värdegrund och uppdrag samt om mål och riktlinjer för utbildningen på annat sätt än genom en läroplan tas bort.",
+   "overensstammelse": "stämmer i huvudsak överens",
+   "avvikelse_beskriven": true,
+   "kalla": {
+    "text": "Prop. 2025/26:194 s. 65, avsnitt 6.1 ”Läroplansutredningens förslag”",
+    "url": "https://www.regeringen.se/contentassets/42c1e2e4596b4f8682e3d8283b91a138/nya-laroplaner--for-en-stark-kunskapsskola-prop.-202526194.pdf"
+   },
+   "sida": [
+    65
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 16
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:194",
+   "avsnitt": "6.2",
+   "rubrik": "Syftet med undervisningen ska tydliggöras och",
+   "forslag_i_avsnittet": [
+    "F03"
+   ],
+   "rubrik_i_propositionen": "Läroplansutredningens förslag",
+   "text": "Förslaget stämmer överens med regeringens förslag. Utredningen föreslår dock även att bestämmelserna i 1 kap. 4 och 5 §§ skollagen ska ändras genom att skrivningar om att det i utbildningen ska tas hänsyn till barns och elevers olika behov samt skrivningar om att aktivt motverka alla former av kränkande behandling tas bort och ersätts av bestämmelser i 3 kap. Barns och elevers utveckling mot målen respektive 6 kap. Åtgärder mot kränkande behandling. Dessa förslag hanteras i propositionerna Förbättrat stöd i skolan (prop. 2025/26:195) respektive Tid för undervisningsuppdraget (prop. 2025/26:196), se avsnitt 3.",
+   "overensstammelse": "stämmer överens",
+   "avvikelse_beskriven": true,
+   "kalla": {
+    "text": "Prop. 2025/26:194 s. 76, avsnitt 6.2 ”Läroplansutredningens förslag”",
+    "url": "https://www.regeringen.se/contentassets/42c1e2e4596b4f8682e3d8283b91a138/nya-laroplaner--for-en-stark-kunskapsskola-prop.-202526194.pdf"
+   },
+   "sida": [
+    76
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 9
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:194",
+   "avsnitt": "6.3.2",
+   "rubrik": "Läroplanerna i den obligatoriska skolan ska få",
+   "forslag_i_avsnittet": [
+    "F04",
+    "F09",
+    "F10"
+   ],
+   "rubrik_i_propositionen": "Läroplansutredningens förslag",
+   "text": "Förslaget stämmer i huvudsak överens med regeringens förslag. Utredningen föreslår en ändrad formulering om skolans värdegrund när det gäller att värdena gestaltas och förmedlas ”i överensstämmelse med den etik som förvaltas av kristen tradition och västerländsk humanism”.",
+   "overensstammelse": "stämmer i huvudsak överens",
+   "avvikelse_beskriven": true,
+   "kalla": {
+    "text": "Prop. 2025/26:194 s. 98, avsnitt 6.3.2 ”Läroplansutredningens förslag”",
+    "url": "https://www.regeringen.se/contentassets/42c1e2e4596b4f8682e3d8283b91a138/nya-laroplaner--for-en-stark-kunskapsskola-prop.-202526194.pdf"
+   },
+   "sida": [
+    98
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 4
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:194",
+   "avsnitt": "6.4",
+   "rubrik": "Kursplanerna ska få en mer ändamålsenlig",
+   "forslag_i_avsnittet": [
+    "F07"
+   ],
+   "rubrik_i_propositionen": "Läroplansutredningens förslag",
+   "text": "Förslaget stämmer i huvudsak överens med regeringens förslag. Läroplansutredningen har dock föreslagit att det ska framgå av skollagen att det ska finnas betygskriterier för samtliga betyg i kursplanerna för de obligatoriska skolformerna. Utredningen föreslår även att den upplysningsbestämmelse som anger att regeringen eller den myndighet som regeringen bestämmer kan meddela föreskrifter om kursplaner, ska ändras så att den bara upplyser om att regeringen kan meddela sådana föreskrifter. Frågan behandlas i avsnitt 6.1.",
+   "overensstammelse": "stämmer i huvudsak överens",
+   "avvikelse_beskriven": true,
+   "kalla": {
+    "text": "Prop. 2025/26:194 s. 113, avsnitt 6.4 ”Läroplansutredningens förslag”",
+    "url": "https://www.regeringen.se/contentassets/42c1e2e4596b4f8682e3d8283b91a138/nya-laroplaner--for-en-stark-kunskapsskola-prop.-202526194.pdf"
+   },
+   "sida": [
+    113
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 8
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:194",
+   "avsnitt": "6.5",
+   "rubrik": "Kursplanernas innehåll ska utgå från principer",
+   "forslag_i_avsnittet": [
+    "F05"
+   ],
+   "rubrik_i_propositionen": "Läroplansutredningens förslag",
+   "text": "Förslaget stämmer överens med regeringens förslag.",
+   "overensstammelse": "stämmer överens",
+   "avvikelse_beskriven": false,
+   "kalla": {
+    "text": "Prop. 2025/26:194 s. 125, avsnitt 6.5 ”Läroplansutredningens förslag”",
+    "url": "https://www.regeringen.se/contentassets/42c1e2e4596b4f8682e3d8283b91a138/nya-laroplaner--for-en-stark-kunskapsskola-prop.-202526194.pdf"
+   },
+   "sida": [
+    125
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 1
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:194",
+   "avsnitt": "6.6",
+   "rubrik": "Det ska finnas särskilda principer för vissa",
+   "forslag_i_avsnittet": [
+    "F08",
+    "F09",
+    "F10",
+    "F11"
+   ],
+   "rubrik_i_propositionen": "Läroplansutredningens förslag",
+   "text": "Förslaget stämmer överens med regeringens förslag.",
+   "overensstammelse": "stämmer överens",
+   "avvikelse_beskriven": false,
+   "kalla": {
+    "text": "Prop. 2025/26:194 s. 135, avsnitt 6.6 ”Läroplansutredningens förslag”",
+    "url": "https://www.regeringen.se/contentassets/42c1e2e4596b4f8682e3d8283b91a138/nya-laroplaner--for-en-stark-kunskapsskola-prop.-202526194.pdf"
+   },
+   "sida": [
+    135
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 1
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:194",
+   "avsnitt": "6.7",
+   "rubrik": "Fokus ska vara på elevens tillgodogörande av",
+   "forslag_i_avsnittet": [
+    "F06"
+   ],
+   "rubrik_i_propositionen": "Läroplansutredningens förslag",
+   "text": "Förslaget om att fokus inte ska vara att uppfylla kriterier utan elevens tillgodogörande av kunskap i de obligatoriska skolformerna stämmer i huvudsak överens med regeringens förslag. Läroplansutredningen föreslår dock en mer specifik formulering i vissa bestämmelser om att elevens kunskaper ska ställas i relation till mål och innehåll ”för aktuellt stadium eller, i förekommande fall, för aktuell årskurs”. Läroplansutredning föreslår även att det i vissa bestämmelser ska anges att elever ska tillgodogöra sig de kunskaper som anges i kurs- och ämnesplanerna och som minst motsvarar betygskriterierna för godkända resultat eller bedömningskriterierna Godtagbara kunskaper. Utredningen om likvärdiga betyg och meritvärden lämnar motsvarande förslag, som även inkluderar fler skolformer – se nedan.",
+   "overensstammelse": "stämmer i huvudsak överens",
+   "avvikelse_beskriven": true,
+   "kalla": {
+    "text": "Prop. 2025/26:194 s. 146, avsnitt 6.7 ”Läroplansutredningens förslag”",
+    "url": "https://www.regeringen.se/contentassets/42c1e2e4596b4f8682e3d8283b91a138/nya-laroplaner--for-en-stark-kunskapsskola-prop.-202526194.pdf"
+   },
+   "sida": [
+    146
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 12
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:194",
+   "avsnitt": "6.8",
+   "rubrik": "Sammantagen bedömning ska användas för alla",
+   "forslag_i_avsnittet": [
+    "F07"
+   ],
+   "rubrik_i_propositionen": "Läroplansutredningens förslag",
+   "text": "Förslaget stämmer överens med regeringens förslag när det gäller att en princip om sammantagen bedömning för samtliga betygssteg införs i de obligatoriska skolformerna. Motsvarande förslag finns i betänkandet Ett likvärdigt betygssystem (SOU 2025:18) som även inkluderar fler skolformer – se nedan.",
+   "overensstammelse": "stämmer överens",
+   "avvikelse_beskriven": true,
+   "kalla": {
+    "text": "Prop. 2025/26:194 s. 155, avsnitt 6.8 ”Läroplansutredningens förslag”",
+    "url": "https://www.regeringen.se/contentassets/42c1e2e4596b4f8682e3d8283b91a138/nya-laroplaner--for-en-stark-kunskapsskola-prop.-202526194.pdf"
+   },
+   "sida": [
+    155
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 5
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:194",
+   "avsnitt": "8",
+   "rubrik": "Ikraftträdande- och",
+   "forslag_i_avsnittet": [
+    "F12"
+   ],
+   "rubrik_i_propositionen": "Utredningarnas förslag",
+   "text": "Läroplansutredningens förslag om ikraftträdande och tillämpning av de ändringar i skollagen som rör bestämmelsen om syftet med utbildningen, definitionen av undervisning, läroplaner, att fokus ska vara på elevens tillgodogörande av kunskap och inte på uppfyllande av kriterier och att det vid betygssättning ska göras en sammantagen bedömning avseende alla betygssteg, stämmer delvis överens med regeringens förslag. Utredningen föreslår att ändringarna i skollagen ska träda i kraft den 1 januari 2027 och tillämpas första gången på utbildning som påbörjas efter den 30 juni 2028. Utredningen om införande av grundläggande svenska och översyn av modersmålsundervisningen föreslår, i huvudsak, att de ändringar i skollagen som avser grundläggande svenska ska träda i kraft den 1 juli 2026. Utredningen om stärkt trygghet och studiero i skolan föreslår att de ändringar i skollagen som avser vårdnadshavares inflytande ska träda i kraft den 1 juli 2026. Utredningen om likvärdiga betyg och meritvärden föreslår att de ändringar i skollagen som avser att fokus inte ska vara att uppfylla kriterier utan elevens tillgodogörande av kunskap ska träda i kraft den 1 januari 2027 och tillämpas för första gången i fråga om utbildning som påbörjas höstterminen 2027 när det gäller gymnasieskolan och anpassade gymnasieskolan, i fråga om grundskolan, anpassade grundskolan, sameskolan och specialskolan på utbildning som påbörjas höstterminen 2028 och i fråga om kommunal vuxenutbildning på gymnasial nivå på utbildning som påbörjas efter den 31 december 2029.",
+   "overensstammelse": "stämmer delvis överens",
+   "avvikelse_beskriven": true,
+   "kalla": {
+    "text": "Prop. 2025/26:194 s. 168, 169, avsnitt 8 ”Utredningarnas förslag”",
+    "url": "https://www.regeringen.se/contentassets/42c1e2e4596b4f8682e3d8283b91a138/nya-laroplaner--for-en-stark-kunskapsskola-prop.-202526194.pdf"
+   },
+   "sida": [
+    168,
+    169
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 23
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:195",
+   "avsnitt": "6.4",
+   "rubrik": "Bestämmelser om utformningen av",
+   "forslag_i_avsnittet": [
+    "F03"
+   ],
+   "rubrik_i_propositionen": "Läroplansutredningens förslag",
+   "text": "Förslaget från utredningen stämmer delvis överens med regeringens. Utredningen föreslår även att bestämmelsen i syftespargrafen i 1 kap. skollagen om ”hänsyn till barns och elevers olika behov” ska tas bort och att bestämmelsen i samma paragraf om att ”barn och elever ska ges stöd och stimulans så att de utvecklas så långt som möjligt” ska flyttas till 3 kap. skollagen. Ytterligare en mening förslås byta plats inom samma paragraf. Utredningen föreslår även en omformulering i syftespargrafen som innebär att utbildningen inom skolväsendet syftar till att förmedla och förankra kunskaper och värden hos barn och elever, vilket hanteras i propositionen Nya läroplaner – för en stark kunskapsskola, se avsnitt 3 och 5.5.2.",
+   "overensstammelse": "stämmer delvis överens",
+   "avvikelse_beskriven": true,
+   "kalla": {
+    "text": "Prop. 2025/26:195 s. 65, avsnitt 6.4 ”Läroplansutredningens förslag”",
+    "url": "https://www.regeringen.se/contentassets/90deb85eeb924ac4a4b5ef087529f68a/forbattrat-stod-i-skolan-prop.-202526195.pdf"
+   },
+   "sida": [
+    65
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 11
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:195",
+   "avsnitt": "8",
+   "rubrik": "Ikraftträdande",
+   "forslag_i_avsnittet": [
+    "F12"
+   ],
+   "rubrik_i_propositionen": "Läroplansutredningens förslag",
+   "text": "Förslaget från utredningen stämmer inte överens med regeringens förslag. Utredningen föreslår att ändringarna i skollagen ska träda i kraft den 1 januari 2027 och tillämpas första gången på utbildning som påbörjas efter den 30 juni 2028.",
+   "overensstammelse": null,
+   "avvikelse_beskriven": true,
+   "kalla": {
+    "text": "Prop. 2025/26:195 s. 124, avsnitt 8 ”Läroplansutredningens förslag”",
+    "url": "https://www.regeringen.se/contentassets/90deb85eeb924ac4a4b5ef087529f68a/forbattrat-stod-i-skolan-prop.-202526195.pdf"
+   },
+   "sida": [
+    124
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 4
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:196",
+   "avsnitt": "8",
+   "rubrik": "Tydligare ansvar och minskad",
+   "forslag_i_avsnittet": [
+    "F03"
+   ],
+   "rubrik_i_propositionen": "Läroplansutredningens förslag (SOU 2025:19)",
+   "text": "Förslaget från utredningen stämmer delvis överens med regeringens. Utredningen föreslår likt regeringen att var och en som verkar inom utbildningen ska främja de grundläggande demokratiska värderingarna samt att det som anges i 1 kap. 5 § skollagen om att var och en som verkar inom utbildningen aktivt ska motverka alla former av kränkande behandling, ska flyttas till skollagens 6 kap. Utredningen föreslår inte att det även förtydligas att all personal i verksamhet enligt skollagen ska vara skyldig att aktivt uppmärksamma och motverka kränkande behandling samt trakasserier eller sexuella trakasserier enligt diskrimineringslagen i samband med verksamheten och se till att sådan behandling och sådana trakasserier hanteras. Utredningens förslag skiljer sig också språkligt.",
+   "overensstammelse": "stämmer delvis överens",
+   "avvikelse_beskriven": true,
+   "kalla": {
+    "text": "Prop. 2025/26:196 s. 65, avsnitt 8 ”Läroplansutredningens förslag (SOU 2025:19)”",
+    "url": "https://www.regeringen.se/contentassets/7bfa7c951ef54678981bfdb82f028b93/tid-for-undervisningsuppdraget-prop.-202526196.pdf"
+   },
+   "sida": [
+    65
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 12
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:196",
+   "avsnitt": "9",
+   "rubrik": "Ikraftträdande",
+   "forslag_i_avsnittet": [
+    "F12"
+   ],
+   "rubrik_i_propositionen": "Läroplansutredningens förslag (SOU 2025:19)",
+   "text": "Utredningen föreslår att ändringarna i skollagen som avser bestämmelserna om utformningen av utbildningen i 1 kap. 5 § ska träda i kraft den 1 januari 2027 och ska tillämpas första gången på utbildning som bedrivs efter den 30 juni 2028.",
+   "overensstammelse": null,
+   "avvikelse_beskriven": true,
+   "kalla": {
+    "text": "Prop. 2025/26:196 s. 79, avsnitt 9 ”Läroplansutredningens förslag (SOU 2025:19)”",
+    "url": "https://www.regeringen.se/contentassets/7bfa7c951ef54678981bfdb82f028b93/tid-for-undervisningsuppdraget-prop.-202526196.pdf"
+   },
+   "sida": [
+    79
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 4
+   }
+  }
+ ]
+}

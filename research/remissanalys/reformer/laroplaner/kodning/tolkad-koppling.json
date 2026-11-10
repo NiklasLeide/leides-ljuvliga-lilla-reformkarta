@@ -1,0 +1,909 @@
+{
+ "_meta": {
+  "steg": "M3 tolkad koppling till utredningsförslag för utmaningar utan egen hänvisning (modellkodning, Sprint 17; två kodare, KODINSTRUKTION.md)",
+  "tolkning": true
+ },
+ "kopplingar": [
+  {
+   "uid": "U001",
+   "forslag": [
+    "F07",
+    "F01"
+   ],
+   "motivering": "Avstyrker undervisningsstrategier som del av kursplanerna"
+  },
+  {
+   "uid": "U002",
+   "forslag": null,
+   "motivering": "Många samtidiga reformer, inget enskilt förslag"
+  },
+  {
+   "uid": "U004",
+   "forslag": null,
+   "motivering": "Generell konsekvens för fristående skolor av ny läroplan"
+  },
+  {
+   "uid": "U005",
+   "forslag": [
+    "F07",
+    "F01"
+   ],
+   "motivering": "Undervisningssätt styrs via undervisningsstrategier och riktlinjer"
+  },
+  {
+   "uid": "U007",
+   "forslag": null,
+   "motivering": "Kostnader för implementering i allmänhet"
+  },
+  {
+   "uid": "U008",
+   "forslag": null,
+   "motivering": "Finansiering av implementering i allmänhet"
+  },
+  {
+   "uid": "U011",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Beslut om stödundervisning enligt ändrade stödbestämmelser"
+  },
+  {
+   "uid": "U012",
+   "forslag": [
+    "F10"
+   ],
+   "motivering": "Skrivningar om digital kompetens i läroplanen"
+  },
+  {
+   "uid": "U013",
+   "forslag": [
+    "F07"
+   ],
+   "motivering": "Undervisningsstrategier i kursplanerna"
+  },
+  {
+   "uid": "U014",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Lärarens ansvar att bedöma behov av stödundervisning"
+  },
+  {
+   "uid": "U015",
+   "forslag": null,
+   "motivering": "Oklart vilket förslag; gäller kommande ämnesinnehåll generellt"
+  },
+  {
+   "uid": "U016",
+   "forslag": null,
+   "motivering": "Huvudmännens allmänna förutsättningar, inget enskilt förslag"
+  },
+  {
+   "uid": "U017",
+   "forslag": null,
+   "motivering": "Personalförsörjning och skattekraft generellt"
+  },
+  {
+   "uid": "U018",
+   "forslag": null,
+   "motivering": "Skolbibliotek regleras inte av förslagen"
+  },
+  {
+   "uid": "U023",
+   "forslag": [
+    "F09"
+   ],
+   "motivering": "Phonics i kursplanen i svenska kräver fortbildning"
+  },
+  {
+   "uid": "U025",
+   "forslag": [
+    "F10"
+   ],
+   "motivering": "Formulering av digitala inslag i kursplanerna"
+  },
+  {
+   "uid": "U026",
+   "forslag": [
+    "F10"
+   ],
+   "motivering": "Begreppet digital kompetens i läroplanen"
+  },
+  {
+   "uid": "U027",
+   "forslag": [
+    "F10"
+   ],
+   "motivering": "Restriktiva skrivningar om digitala inslag"
+  },
+  {
+   "uid": "U029",
+   "forslag": null,
+   "motivering": "Fortbildningskostnader i allmänhet, flera ämnesområden"
+  },
+  {
+   "uid": "U030",
+   "forslag": null,
+   "motivering": "IT-systemkostnader i allmänhet"
+  },
+  {
+   "uid": "U031",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Kostnader för stödundervisning"
+  },
+  {
+   "uid": "U032",
+   "forslag": null,
+   "motivering": "Generell oro för detaljstyrning"
+  },
+  {
+   "uid": "U033",
+   "forslag": null,
+   "motivering": "Otydliga begrepp i betänkandet generellt"
+  },
+  {
+   "uid": "U037",
+   "forslag": [
+    "F01",
+    "F07"
+   ],
+   "motivering": "Riktlinjer i inledande delar och undervisningsstrategier i kursplaner"
+  },
+  {
+   "uid": "U038",
+   "forslag": null,
+   "motivering": "Skolverkets stödmaterial, inget förslag"
+  },
+  {
+   "uid": "U057",
+   "forslag": null,
+   "motivering": "Många samtidiga utredningar"
+  },
+  {
+   "uid": "U058",
+   "forslag": null,
+   "motivering": "Ny läroplan tar tid generellt"
+  },
+  {
+   "uid": "U059",
+   "forslag": [
+    "F04"
+   ],
+   "motivering": "Inledande delar för fritidshem och anpassad grundskola"
+  },
+  {
+   "uid": "U060",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Minskade krav på individualisering och anpassning"
+  },
+  {
+   "uid": "U061",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Organisering av stödundervisning"
+  },
+  {
+   "uid": "U062",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Personalbehov för stödundervisning"
+  },
+  {
+   "uid": "U063",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Precisare skrivningar i kursplanerna och lärarnas friutrymme"
+  },
+  {
+   "uid": "U064",
+   "forslag": [
+    "F09"
+   ],
+   "motivering": "Fokus på läsa, skriva och räkna"
+  },
+  {
+   "uid": "U065",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Ändrad 1 kap. 5 § om kränkande behandling"
+  },
+  {
+   "uid": "U066",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Organisering och budget för stödundervisning"
+  },
+  {
+   "uid": "U067",
+   "forslag": null,
+   "motivering": "Implementeringskostnader i allmänhet"
+  },
+  {
+   "uid": "U068",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Mer konkreta kursplaner och professionellt utrymme"
+  },
+  {
+   "uid": "U069",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Formuleringen förmedla och förankra i skollagen"
+  },
+  {
+   "uid": "U070",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Ekonomiska konsekvenser av stödundervisning"
+  },
+  {
+   "uid": "U071",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Nya begrepp i kursplanerna ersätter förmågor"
+  },
+  {
+   "uid": "U072",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Konkretare kursplaner kan minska flexibilitet"
+  },
+  {
+   "uid": "U073",
+   "forslag": [
+    "F05",
+    "F09"
+   ],
+   "motivering": "Årskursvisa kursplaner på lågstadiet"
+  },
+  {
+   "uid": "U074",
+   "forslag": [
+    "F01",
+    "F07"
+   ],
+   "motivering": "Styrning genom riktlinjer och undervisningsstrategier"
+  },
+  {
+   "uid": "U075",
+   "forslag": [
+    "F01",
+    "F07"
+   ],
+   "motivering": "Oklart vad riktlinjer och strategier styr"
+  },
+  {
+   "uid": "U076",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Lärare bedömer stödundervisning, påverkar rektors mandat"
+  },
+  {
+   "uid": "U077",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Merkostnad för stödundervisning"
+  },
+  {
+   "uid": "U078",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Lokaler för stödundervisning utanför gruppen"
+  },
+  {
+   "uid": "U079",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Oklart innehåll i begreppet stödundervisning"
+  },
+  {
+   "uid": "U085",
+   "forslag": [
+    "F01",
+    "F05"
+   ],
+   "motivering": "Betoning av grundläggande färdigheter ökar behov av speciallärare"
+  },
+  {
+   "uid": "U086",
+   "forslag": null,
+   "motivering": "Läromedel, inget enskilt förslag"
+  },
+  {
+   "uid": "U087",
+   "forslag": [
+    "F12"
+   ],
+   "motivering": "Tid för utarbetande och införande av nya läroplaner"
+  },
+  {
+   "uid": "U088",
+   "forslag": null,
+   "motivering": "Statligt stöd och stödmaterial generellt"
+  },
+  {
+   "uid": "U089",
+   "forslag": null,
+   "motivering": "Samordning med andra utredningar"
+  },
+  {
+   "uid": "U091",
+   "forslag": null,
+   "motivering": "Skolverkets material, inget förslag"
+  },
+  {
+   "uid": "U093",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Otydlighet kring lärarens bedömning av stödundervisning"
+  },
+  {
+   "uid": "U094",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Anmälan av stödundervisning till rektor"
+  },
+  {
+   "uid": "U095",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Undervisning i mindre grupper vid stödbehov"
+  },
+  {
+   "uid": "U099",
+   "forslag": null,
+   "motivering": "Synkronisering med andra utredningar"
+  },
+  {
+   "uid": "U100",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Läraren avgör stödundervisning, rektors ansvar"
+  },
+  {
+   "uid": "U101",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Ekonomiska konsekvenser av stödundervisning"
+  },
+  {
+   "uid": "U102",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Följd av ändrat beslut om stödundervisning för skolledare"
+  },
+  {
+   "uid": "U103",
+   "forslag": [
+    "F07"
+   ],
+   "motivering": "Undervisningsstrategier och lärares handlingsutrymme"
+  },
+  {
+   "uid": "U105",
+   "forslag": null,
+   "motivering": "Finansiering av reformerna generellt"
+  },
+  {
+   "uid": "U106",
+   "forslag": null,
+   "motivering": "Resurser till huvudmännen generellt"
+  },
+  {
+   "uid": "U107",
+   "forslag": null,
+   "motivering": "Lokala implementeringsinsatser generellt"
+  },
+  {
+   "uid": "U108",
+   "forslag": [
+    "F07"
+   ],
+   "motivering": "Stöd för att tillämpa nya undervisningsstrategier"
+  },
+  {
+   "uid": "U109",
+   "forslag": [
+    "F12"
+   ],
+   "motivering": "Kort tidsram för införandet"
+  },
+  {
+   "uid": "U110",
+   "forslag": [
+    "F04"
+   ],
+   "motivering": "Preciserad riktlinje om samarbete med hemmet"
+  },
+  {
+   "uid": "U111",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Borttagna extra anpassningar"
+  },
+  {
+   "uid": "U112",
+   "forslag": null,
+   "motivering": "Fortbildningsbehov generellt"
+  },
+  {
+   "uid": "U113",
+   "forslag": [
+    "F12"
+   ],
+   "motivering": "Kort tid för genomförandet"
+  },
+  {
+   "uid": "U114",
+   "forslag": null,
+   "motivering": "Samtidig betygsreform och parallella läroplaner"
+  },
+  {
+   "uid": "U116",
+   "forslag": [
+    "F07"
+   ],
+   "motivering": "Stöd för att tillämpa nya undervisningsstrategier"
+  },
+  {
+   "uid": "U117",
+   "forslag": [
+    "F07"
+   ],
+   "motivering": "Betyget F i betygskriterierna, regleras av ny kursplanestruktur"
+  },
+  {
+   "uid": "U133",
+   "forslag": null,
+   "motivering": "Generell utmaning av många förslag, inget enskilt förslag"
+  },
+  {
+   "uid": "U134",
+   "forslag": null,
+   "motivering": "Statlig styrning och kompensation, generellt"
+  },
+  {
+   "uid": "U135",
+   "forslag": null,
+   "motivering": "Saknade utvärderingar, generellt"
+  },
+  {
+   "uid": "U136",
+   "forslag": null,
+   "motivering": "Överföring av alla förslag till anpassade grundskolan, generellt"
+  },
+  {
+   "uid": "U139",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Ändrad definition av undervisning i skollagen"
+  },
+  {
+   "uid": "U140",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Stödundervisning ersätter extra anpassningar"
+  },
+  {
+   "uid": "U163",
+   "forslag": null,
+   "motivering": "Kostnader för implementering i allmänhet"
+  },
+  {
+   "uid": "U164",
+   "forslag": null,
+   "motivering": "Förutsättningar för implementering, generellt"
+  },
+  {
+   "uid": "U165",
+   "forslag": null,
+   "motivering": "Implementeringskostnader i allmänhet"
+  },
+  {
+   "uid": "U166",
+   "forslag": [
+    "F12"
+   ],
+   "motivering": "Tidsplan för införandet, ikraftträdande"
+  },
+  {
+   "uid": "U167",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Konsekvenser av ny form av stödundervisning"
+  },
+  {
+   "uid": "U168",
+   "forslag": null,
+   "motivering": "Parallella utredningar och tioårig grundskola, generellt"
+  },
+  {
+   "uid": "U169",
+   "forslag": [
+    "F06"
+   ],
+   "motivering": "Tillgodogöra sig kunskaper i stället för att uppfylla kriterier"
+  },
+  {
+   "uid": "U170",
+   "forslag": null,
+   "motivering": "Lärarutbildning, inget enskilt förslag"
+  },
+  {
+   "uid": "U174",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Stödundervisning behöver förtydligas"
+  },
+  {
+   "uid": "U177",
+   "forslag": [
+    "F10"
+   ],
+   "motivering": "Ändrade skrivningar om digitalisering och digital kompetens"
+  },
+  {
+   "uid": "U178",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Kursplanernas prioriteringar och anpassning till timplanen"
+  },
+  {
+   "uid": "U179",
+   "forslag": null,
+   "motivering": "Professionell frihet, generellt formulerat"
+  },
+  {
+   "uid": "U180",
+   "forslag": null,
+   "motivering": "Många samtidiga reformer"
+  },
+  {
+   "uid": "U189",
+   "forslag": null,
+   "motivering": "Implementeringsresurser i allmänhet"
+  },
+  {
+   "uid": "U190",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Avskaffade extra anpassningar och stödundervisning"
+  },
+  {
+   "uid": "U191",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Gränsen mellan stödundervisning och särskilt stöd"
+  },
+  {
+   "uid": "U192",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Stödformer i relation till parallell elevhälsoutredning"
+  },
+  {
+   "uid": "U193",
+   "forslag": [
+    "F11"
+   ],
+   "motivering": "Totalförsvar och Nato i kursplan"
+  },
+  {
+   "uid": "U194",
+   "forslag": null,
+   "motivering": "Kostnader i tid och personal, generellt"
+  },
+  {
+   "uid": "U195",
+   "forslag": null,
+   "motivering": "Implementeringstid och fortbildning, generellt"
+  },
+  {
+   "uid": "U196",
+   "forslag": null,
+   "motivering": "Mindre kommuners stödförmåga, generellt"
+  },
+  {
+   "uid": "U197",
+   "forslag": null,
+   "motivering": "Ordval i bedömning, oklart vilket förslag"
+  },
+  {
+   "uid": "U198",
+   "forslag": null,
+   "motivering": "Musiklärares utbildning, inget enskilt förslag"
+  },
+  {
+   "uid": "U205",
+   "forslag": null,
+   "motivering": "Frekventa läroplansändringar, generellt"
+  },
+  {
+   "uid": "U210",
+   "forslag": null,
+   "motivering": "Begreppet beprövad erfarenhet, generellt"
+  },
+  {
+   "uid": "U211",
+   "forslag": null,
+   "motivering": "Kostnader i allmänhet"
+  },
+  {
+   "uid": "U212",
+   "forslag": null,
+   "motivering": "Kompetensutveckling i allmänhet"
+  },
+  {
+   "uid": "U213",
+   "forslag": [
+    "F12"
+   ],
+   "motivering": "Övergångsperiod med två läroplaner vid ikraftträdande"
+  },
+  {
+   "uid": "U214",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Mer preciserade kursplaner enligt principerna"
+  },
+  {
+   "uid": "U224",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Ersättning av extra anpassningar och avgränsning mot särskilt stöd"
+  },
+  {
+   "uid": "U225",
+   "forslag": null,
+   "motivering": "Huvudmannens konsekvensanalys, generellt"
+  },
+  {
+   "uid": "U226",
+   "forslag": null,
+   "motivering": "Implementeringskostnader i allmänhet"
+  },
+  {
+   "uid": "U227",
+   "forslag": [
+    "F04"
+   ],
+   "motivering": "Läroplan för anpassade skolformer efter anpassningar"
+  },
+  {
+   "uid": "U228",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Ordinarie undervisning ska förebygga stödbehov"
+  },
+  {
+   "uid": "U229",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Beslut om stödundervisning och särskilt stöd"
+  },
+  {
+   "uid": "U231",
+   "forslag": [
+    "F01",
+    "F04"
+   ],
+   "motivering": "Riktlinjer om strukturerad undervisning i inledande delar"
+  },
+  {
+   "uid": "U232",
+   "forslag": [
+    "F01",
+    "F04"
+   ],
+   "motivering": "Begreppet strukturerad undervisning i riktlinjerna"
+  },
+  {
+   "uid": "U233",
+   "forslag": [
+    "F01",
+    "F04"
+   ],
+   "motivering": "Rektorns krav om strukturerad undervisning i riktlinjerna"
+  },
+  {
+   "uid": "U237",
+   "forslag": null,
+   "motivering": "Rutiner för löpande förändringar, generellt"
+  },
+  {
+   "uid": "U238",
+   "forslag": null,
+   "motivering": "Implementeringsarbete i allmänhet"
+  },
+  {
+   "uid": "U243",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Stödundervisning vid befarat icke godtagbara kunskaper"
+  },
+  {
+   "uid": "U244",
+   "forslag": null,
+   "motivering": "Samordning betygssystem och kursplaner, generellt"
+  },
+  {
+   "uid": "U245",
+   "forslag": null,
+   "motivering": "Begreppet förstärkningsundervisning, inget förslag reglerar det"
+  },
+  {
+   "uid": "U246",
+   "forslag": null,
+   "motivering": "Beredskapsbegrepp, oklart vilket förslag"
+  },
+  {
+   "uid": "U247",
+   "forslag": [
+    "F07"
+   ],
+   "motivering": "Placering av mål i kursplanestrukturen"
+  },
+  {
+   "uid": "U248",
+   "forslag": [
+    "F10"
+   ],
+   "motivering": "Ämnesrelevanta specifika digitala verktyg i kursplaner"
+  },
+  {
+   "uid": "U254",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Organisering av stödundervisning"
+  },
+  {
+   "uid": "U255",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Rektors roll vid stödundervisning och särskilt stöd"
+  },
+  {
+   "uid": "U256",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Dokumentationskrav för stödundervisning"
+  },
+  {
+   "uid": "U257",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Uppföljning av stödundervisning"
+  },
+  {
+   "uid": "U266",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Anpassning till kognitiv utveckling enligt kursplaneprinciperna"
+  },
+  {
+   "uid": "U267",
+   "forslag": [
+    "F10"
+   ],
+   "motivering": "Restriktivitet med digitala verktyg och digitala prov"
+  },
+  {
+   "uid": "U268",
+   "forslag": null,
+   "motivering": "Språket i matematikkursplanen, inget förslag reglerar det"
+  },
+  {
+   "uid": "U269",
+   "forslag": null,
+   "motivering": "Resurser för mängdträning, generellt"
+  },
+  {
+   "uid": "U270",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Organisering av stödundervisning i glesbygd"
+  },
+  {
+   "uid": "U271",
+   "forslag": [
+    "F12"
+   ],
+   "motivering": "Kort tid till ikraftträdande av ny läroplan"
+  },
+  {
+   "uid": "U272",
+   "forslag": null,
+   "motivering": "Statsbidrag och läromedel, generellt"
+  },
+  {
+   "uid": "U273",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Organisering av stödundervisning utanför lektionstid"
+  },
+  {
+   "uid": "U274",
+   "forslag": null,
+   "motivering": "Nytt betygssystem regleras inte här"
+  },
+  {
+   "uid": "U275",
+   "forslag": null,
+   "motivering": "Matematikkursplanens språk, inget förslag reglerar det"
+  },
+  {
+   "uid": "U276",
+   "forslag": null,
+   "motivering": "Digitala kartläggningar regleras inte här"
+  },
+  {
+   "uid": "U277",
+   "forslag": [
+    "F10"
+   ],
+   "motivering": "Värdering av digitala inslag mot vetenskaplig empiri"
+  },
+  {
+   "uid": "U278",
+   "forslag": [
+    "F12"
+   ],
+   "motivering": "Kort implementeringstid före ikraftträdande"
+  },
+  {
+   "uid": "U279",
+   "forslag": null,
+   "motivering": "Statsbidrag för läromedel, generellt"
+  },
+  {
+   "uid": "U280",
+   "forslag": null,
+   "motivering": "Resurser för mängdträning, generellt"
+  }
+ ]
+}
