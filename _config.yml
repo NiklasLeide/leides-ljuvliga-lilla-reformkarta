@@ -4,3 +4,4 @@
 # kvar i repot men ALDRIG vara nåbara på reformer.leide.se.
 exclude:
   - docs/mockups
+  - research
