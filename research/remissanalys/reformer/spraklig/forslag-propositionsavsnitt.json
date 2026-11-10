@@ -1,0 +1,147 @@
+{
+ "_meta": {
+  "steg": "R1 redaktionell koppling mellan utredningsförslag och propositionsavsnitt (Sprint 17, ämnesmatchning mot propositionens rutor och rubriker)",
+  "redaktionell": true,
+  "matchningstyper": [
+   "förslagsruta",
+   "avsnittsnivå",
+   "osäker ämnesmatchning",
+   "övergripande avsnitt, detalj ej behandlad",
+   "ingen"
+  ]
+ },
+ "forslag": [
+  {
+   "id": "F01",
+   "propositionsavsnitt": [
+    "194:7.1"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Prop. 194 avsnitt 7.1 behandlar förslaget om nya kursplaner för nybörjare i svenska inom ämnet svenska som andraspråk; enligt propositionen stämmer utredningens förslag i huvudsak överens, men regeringen reglerar de två kursplanerna i skollagen och kallar den nya kursplanen grundläggande svenska.",
+   "rubriker": [
+    "7.1 En ny kursplan i grundläggande svenska ska införas",
+    "Regeringens förslag",
+    "Förslag från Utredningen om införande av grundläggande svenska och översyn av modersmålsundervisningen"
+   ]
+  },
+  {
+   "id": "F02",
+   "propositionsavsnitt": [
+    "194:7.2"
+   ],
+   "matchning": "avsnittsnivå",
+   "grund": "Utredningens tidsgräns nämns uttryckligen i skälen i avsnitt 7.2, där regeringen anser att någon form av tidsgräns kan vara motiverad; propositionen lämnar inget förslag om tidsgränsen och rutan tar inte upp den.",
+   "rubriker": [
+    "7.2 Betyg ska inte sättas i grundläggande svenska",
+    "Skälen för regeringens förslag",
+    "Det ska inte sättas betyg när en elev läser enligt kursplanen för grundläggande svenska"
+   ]
+  },
+  {
+   "id": "F03",
+   "propositionsavsnitt": [
+    "194:7.2"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Prop. 194 avsnitt 7.2 föreslår att betyg inte ska sättas i grundläggande svenska; enligt propositionen överensstämmer utredningens förslag i sak, men regeringen reglerar undantaget i varje skolformskapitel i stället för genom upplysningsbestämmelser.",
+   "rubriker": [
+    "7.2 Betyg ska inte sättas i grundläggande svenska",
+    "Regeringens förslag",
+    "Förslag från Utredningen om införande av grundläggande svenska och översyn av modersmålsundervisningen"
+   ]
+  },
+  {
+   "id": "F04",
+   "propositionsavsnitt": [],
+   "matchning": "ingen",
+   "grund": "Propositionen behandlar inte deltagande i nationella prov för elever som läser grundläggande svenska; nationella prov nämns inte i avsnitt 7.1, 7.2 eller 8.",
+   "rubriker": []
+  },
+  {
+   "id": "F05",
+   "propositionsavsnitt": [
+    "194:7.1"
+   ],
+   "matchning": "övergripande avsnitt, detalj ej behandlad",
+   "grund": "Rutan i avsnitt 7.1 anger att kursplanen för grundläggande svenska ska gälla under vissa omständigheter i anpassade gymnasieskolan, och skälen nämner elever i anpassade gymnasieskolan som läser grundskoleämnen; ändringen i 9 kap. 4 a § gymnasieförordningen för nyanlända elever behandlas inte.",
+   "rubriker": [
+    "7.1 En ny kursplan i grundläggande svenska ska införas",
+    "Regeringens förslag"
+   ]
+  },
+  {
+   "id": "F06",
+   "propositionsavsnitt": [],
+   "matchning": "ingen",
+   "grund": "Svenska för invandrare inom språkintroduktion behandlas inte i propositionen.",
+   "rubriker": []
+  },
+  {
+   "id": "F07",
+   "propositionsavsnitt": [],
+   "matchning": "ingen",
+   "grund": "Ändrade målgrupper för svenska som andraspråk föreslås inte; avsnitt 7.1 återger bara nuvarande lydelse av 5 kap. 14 § skolförordningen.",
+   "rubriker": []
+  },
+  {
+   "id": "F08",
+   "propositionsavsnitt": [
+    "194:7.2"
+   ],
+   "matchning": "osäker ämnesmatchning",
+   "grund": "Avsnitt 7.2 förutsätter rektorns beslut om ämne och kursplan när det planerade kartläggningsmaterialet beskrivs, och avsnitt 7.1 nämner rektorns nuvarande ansvar; propositionen lämnar inget förslag om rektorns beslut.",
+   "rubriker": [
+    "7.2 Betyg ska inte sättas i grundläggande svenska",
+    "Skälen för regeringens förslag",
+    "Det ska inte sättas betyg när en elev läser enligt kursplanen för grundläggande svenska"
+   ]
+  },
+  {
+   "id": "F09",
+   "propositionsavsnitt": [
+    "194:7.2"
+   ],
+   "matchning": "avsnittsnivå",
+   "grund": "I skälen i avsnitt 7.2 anger regeringen att den avser att införa ett nationellt kartläggningsmaterial som underlag för rektorns beslut om ämne och kursplan; detta ingår inte i rutan och bemyndigandet i skolförordningen behandlas inte.",
+   "rubriker": [
+    "7.2 Betyg ska inte sättas i grundläggande svenska",
+    "Skälen för regeringens förslag",
+    "Det ska inte sättas betyg när en elev läser enligt kursplanen för grundläggande svenska"
+   ]
+  },
+  {
+   "id": "F10",
+   "propositionsavsnitt": [],
+   "matchning": "ingen",
+   "grund": "Informationsmaterial för vägledning vid val av svenskämne i gymnasieskolan behandlas inte i propositionen.",
+   "rubriker": []
+  },
+  {
+   "id": "F11",
+   "propositionsavsnitt": [],
+   "matchning": "ingen",
+   "grund": "Regleringen av vilket av ämnena svenska och svenska som andraspråk som ska ingå i examens-, studie- eller gymnasiebevis behandlas inte i propositionen.",
+   "rubriker": []
+  },
+  {
+   "id": "F12",
+   "propositionsavsnitt": [],
+   "matchning": "ingen",
+   "grund": "Att ta bort parallell läsning av svenska och svenska som andraspråk i gymnasieskolan behandlas inte i propositionen.",
+   "rubriker": []
+  },
+  {
+   "id": "F13",
+   "propositionsavsnitt": [
+    "194:8"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Avsnitt 8 redovisar utredningens förslag om ikraftträdande den 1 juli 2026 för ändringarna om grundläggande svenska; regeringen föreslår i stället att de ska träda i kraft den 1 juli 2028, samtidigt med de nya läroplanerna. Förordningsändringarna och tillämpningstidpunkterna behandlas inte.",
+   "rubriker": [
+    "8 Ikraftträdande- och övergångsbestämmelser",
+    "Regeringens förslag",
+    "Utredningarnas förslag"
+   ]
+  }
+ ]
+}
