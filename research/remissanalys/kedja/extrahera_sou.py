@@ -36,7 +36,7 @@ def printed(p):
         if re.fullmatch(r'\d{1,4}', l): return int(l)
     return None
 
-def rutor(Pvol, sounr, ruta_rubriker=None, over_sidbrytning=False, bindestreck_skydd=False):
+def rutor(Pvol, sounr, ruta_rubriker=None, over_sidbrytning=False, bindestreck_skydd=False, slutrader=None, kant_tolerans=1):
     """Förslags-/bedömningsrutor. Standard (SOU 2025:18): "Förslag:"/"Bedömning:" med texten på samma rad.
     Config sou.ruta_rubriker = {"Förslag": regex, "Bedömning": regex} för betänkanden med andra rutrubriker (t.ex. SOU 2025:8:
     "Utredningens förslag" på egen rad + punktlista). Då avslutas rutan också vid en ensam siffra som inte är sidnumret
@@ -47,7 +47,13 @@ def rutor(Pvol, sounr, ruta_rubriker=None, over_sidbrytning=False, bindestreck_s
     längre ut än den indragna rutan). En ensam siffra som inte är sidnumret är en fotnotsmarkör: resten av sidan hoppas
     över. Sidnummer och sidhuvuden ("SOU 2025:19   Läsning") hoppas över. På en ny sida sätts vänsterkanten av första raden.
     Config sou.ruta_bindestreck_skydd (av som standard): avstavningsfogningen rör inte "betygs- och", "-eller", "-samt"
-    (som i extrahera_prop.py); utan skyddet blir det "betygsoch"."""
+    (som i extrahera_prop.py); utan skyddet blir det "betygsoch".
+    Config sou.ruta_slutrader (tom som standard, bara med ruta_over_sidbrytning): regexar för rader som alltid avslutar rutan,
+    t.ex. "Skälen för utredningens" i SOU 2025:9, där brödtexten efter en ruta som slutar längst ned på sidan börjar på nästa
+    sida (och vänsterkanten där inte kan skilja rutan från brödtexten).
+    Config sou.ruta_kant_tolerans (1 som standard, bara med ruta_over_sidbrytning): en rad efter blankrad avslutar rutan om
+    den börjar mer än så många tecken till vänster om rutans vänsterkant. SOU 2025:9 (0): brödtexten står bara ett tecken
+    längre ut än rutan."""
     hdr = re.compile(r'^\s*' + re.escape(sounr) + r'\s*$')
     RR = ruta_rubriker or {'Förslag': 'Förslag:', 'Bedömning': 'Bedömning:'}
     LABEL = re.compile(r'^\s*(?:' + '|'.join(f'(?P<{"F" if k == "Förslag" else "B"}>{v})' for k, v in RR.items()) + r')\s*(?P<T>.*)$')
@@ -82,8 +88,9 @@ def rutor(Pvol, sounr, ruta_rubriker=None, over_sidbrytning=False, bindestreck_s
                             if re.fullmatch(r'\d{1,3}', st) and int(st) != printed(P[pp]): k = len(LL); continue   # fotnoter till sidans slut
                             if re.fullmatch(r'\d{1,4}', st) or hdr.match(st) or (sounr in st and re.search(r'\s{3,}', st)): k += 1; continue
                             if RUBRIK.match(s) and not re.search(r'\.{4,}', s): break
+                            if slutrader and any(re.match(r, st) for r in slutrader): break
                             if pp != sidan: sidan = pp; marg = ind_s
-                            elif blank and ind_s < marg - 1: break
+                            elif blank and ind_s < marg - kant_tolerans: break
                             marg = min(marg, ind_s); blank = 0
                             txt.append(re.sub(r'\s{3,}.*$', '', st) if ind < 5 else st); k += 1; continue
                         if ruta_rubriker and re.fullmatch(r'\d{1,3}', s.strip()) and int(s.strip()) != printed(P[pp]) and len(txt) > 1: break
@@ -102,7 +109,9 @@ def tilldela_avsnitt(boxes, toc, Pvol):
         for t in reversed([t for t in toc if t['sida'] <= pg]):
             if t['sida'] < pg: chosen = t; break
             hp = page.find(t['rubrik'][:25])
-            if hp != -1 and (pos == -1 or hp < pos): chosen = t; break
+            # hp == pos: rutans text börjar med samma ord som avsnittsrubriken (SOU 2025:9 8.1.12, "Möjligheten att läsa
+            # svenska …"), så find() hittar rubriken även för rutan; rubriken står då före rutan
+            if hp != -1 and (pos == -1 or hp <= pos): chosen = t; break
         b['avsnitt'] = chosen['avsnitt'] if chosen else None; b['avsnittsrubrik'] = chosen['rubrik'] if chosen else None
     n = 0; out = []
     for b in boxes:
@@ -174,7 +183,8 @@ if __name__ == '__main__':
     url1 = vols[0]['url']
     skriv(rid, 'sou-innehall.json', {'_meta': {'kalla': {'text': f'{sounr}, innehållsförteckning', 'url': url1}, 'forslagskapitel': [kmin, kmax]},
                                      'lista': toc, 'kapitel': kapitel, 'avsnitt': avsn})
-    f = tilldela_avsnitt(rutor(Pvol, sounr, s.get('ruta_rubriker'), bool(s.get('ruta_over_sidbrytning')), bool(s.get('ruta_bindestreck_skydd'))), toc, Pvol)
+    f = tilldela_avsnitt(rutor(Pvol, sounr, s.get('ruta_rubriker'), bool(s.get('ruta_over_sidbrytning')), bool(s.get('ruta_bindestreck_skydd')),
+                           s.get('ruta_slutrader'), s.get('ruta_kant_tolerans', 1)), toc, Pvol)
     skriv(rid, 'sou-forslag.json', {'_meta': {'kalla': {'text': f'{sounr}, förslagsrutor ("Förslag:")', 'url': url1}, 'pdf': {v['vol']: v['url'] for v in vols}}, 'forslag': f})
     fks = kravs(c, 'sou', 'forfattningskommentar')
     if isinstance(fks, list):

@@ -1,17 +1,46 @@
 {
  "id": "spraklig",
- "namn": null,
+ "namn": "På språklig grund",
  "namn_i_brief": "På språklig grund",
  "reforms_json_id": null,
- "status": "mall — fylls i när reformen tas fram",
+ "status": "under arbete (Sprint 17)",
  "sou": {
   "nr": "SOU 2025:9",
   "titel": "På språklig grund",
   "sida_url": "https://www.regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2025/01/sou-20259/",
-  "pdf": null,
-  "innehall_sidor": null,
-  "forslagskapitel": null,
-  "forfattningskommentar": null
+  "pdf": [
+   {
+    "vol": "betankande",
+    "url": "https://www.regeringen.se/contentassets/da2e506ecdee49a6ba095fceea3165eb/pa-spraklig-grund-sou-20259.pdf"
+   }
+  ],
+  "innehall_sidor": [
+   5,
+   17
+  ],
+  "forslagskapitel": [
+   8,
+   19
+  ],
+  "forfattningskommentar": {
+   "avsnitt": "20.1",
+   "slut_avsnitt": "Referenser",
+   "slut_sida": 393,
+   "lag": "Skollag (2010:800)",
+   "hanvisningsfraser": [
+    "Förslaget är utvecklat i avsnitt",
+    "se avsnitt",
+    "Se avsnitt"
+   ],
+   "anm": "Författningskommentaren har bara avsnitt 20.1 (skollagen, s. 387–392: 10 kap. 15 §, 11 kap. 19 §, 12 kap. 15 §, 13 kap. 16 §, 15 kap. 22 §, 16 kap. 27–28 §§, 18 kap. 22 §); den slutar där \"Referenser\" (onumrerad rubrik, s. 393) börjar, därför slut_sida. Ingen kommentar till ikraftträdandet. hanvisningsfraser: hänvisningen lyder \"Förslaget är utvecklat i avsnitt 8.1.3.\" eller \"se avsnitt 8.1.11.\"/\"Se avsnitt 8.1.3. för utredningens förslag\" (utan \"behandlas i\"/\"Övervägandena finns i\")."
+  },
+  "ruta_over_sidbrytning": true,
+  "ruta_bindestreck_skydd": true,
+  "ruta_slutrader": [
+   "Skälen för utredningens"
+  ],
+  "ruta_kant_tolerans": 0,
+  "ruta_anm": "SOU 2025:9 har rutor \"Förslag: …\" / \"Bedömning: …\" med texten på samma rad, flera stycken (indragna rader, inga blankrader) och ibland över sidbrytning (8.1.1 s. 163–164, 8.1.9 s. 183–184, 8.1.11 s. 189–190, 19 s. 385–386), därför ruta_over_sidbrytning. ruta_slutrader: rutan i 8.1.2 (och 8.1.7) slutar längst ned på sidan och \"Skälen för utredningens förslag\" står först på nästa sida, där vänsterkanten inte skiljer rutan från brödtexten. ruta_kant_tolerans 0: brödtexten efter rutan i 19 (s. 386) står bara ett tecken längre ut än rutan. ruta_bindestreck_skydd som i SOU 2025:19. En ruta = ett förslag: 13 förslagsrutor (8.1.1–8.1.12 och 19 Ikraftträdande), kontrollerade mot pdftotext-texten (slut vid \"Skälen för utredningens förslag\" eller brödtext); bedömningsrutorna (8.2.1–8.2.9, 17.2–17.4) räknas inte. Förslagskapitel 8–19: förslagen finns i kap. 8 och 19 och intervallet måste vara sammanhängande; kap. 9–16 (modersmål, bakgrund), 17 (bara bedömningar) och 18 (konsekvenser) har inga förslagsrutor. Avsnittet för rutan i 8.1.12 kräver extrahera_sou.py:s hp <= pos (rutan börjar med samma ord som rubriken)."
  },
  "remiss": {
   "url": "https://www.regeringen.se/remisser/2025/02/remiss-av-betankandet-pa-spraklig-grund-sou-20259/",
@@ -20,23 +49,76 @@
  "propositioner": [
   {
    "nr": "Prop. 2025/26:194",
+   "kort": "194",
    "sida_url": "https://www.regeringen.se/rattsliga-dokument/proposition/2026/03/prop.-202526194",
-   "pdf_url": null,
-   "avsnitt": null,
-   "utredningens_forslag_rubrik": null,
-   "remissinstanser_rubrik": null,
+   "pdf_url": "https://www.regeringen.se/contentassets/42c1e2e4596b4f8682e3d8283b91a138/nya-laroplaner--for-en-stark-kunskapsskola-prop.-202526194.pdf",
+   "avsnitt": [
+    "7.1",
+    "7.2",
+    "8"
+   ],
+   "utredningens_forslag_rubrik": [
+    "Förslag från Utredningen om införande av grundläggande svenska och översyn av modersmålsundervisningen",
+    "Utredningarnas förslag"
+   ],
+   "remissinstanser_rubrik": "Remissinstanserna",
    "hoppa_delar_vid_namnsokning": [],
-   "lagtext_sidor": null,
-   "forteckning_remissinstanser_sida": null
+   "lagtext_sidor": [
+    6,
+    43
+   ],
+   "forteckning_remissinstanser_sida": 314,
+   "forteckning_bilaga": 12,
+   "ovriga_delrubriker": [],
+   "flerradiga_delrubriker": [
+    "Förslag från Utredningen om införande av grundläggande svenska och översyn av modersmålsundervisningen"
+   ],
+   "anm": "Prop. 2025/26:194 är den enda proposition som behandlar SOU 2025:9 (riksdagens dokumentlista med \"SOU 2025:9\" 2026-11-10: prop. 194, 197, 62, 1 och 103; de fyra andra citerar bara betänkandet). Avsnitt 3 (\"Ärendet och dess beredning\", s. 44–45): \"I propositionen behandlas förslag från betänkandets avsnitt 8 om att grundläggande svenska som andraspråk ska införas med nya kursplaner\" — \"avsnitt 8\" är alltså betänkandets avsnitt 8 (Utredningens förslag och bedömningar), inte propositionens. Propositionens avsnitt med del från utredningen: 7.1 och 7.2 (del \"Förslag från Utredningen om införande av grundläggande svenska och översyn av modersmålsundervisningen\", rubriken bryts över två rader, därför flerradiga_delrubriker) och 8 (ikraftträdande; gemensam del \"Utredningarnas förslag\" vars andra stycke är SOU 2025:9:s ikraftträdandeförslag, och gemensam \"Remissinstanserna\" där Skolverkets synpunkt på SOU 2025:9 nämns; delen tas med som i laroplaner). Avsnitt 7.1–7.2 och 8 har bara en remissinstansdel var, så inga delar hoppas över vid namnsökning; i avsnitt 8 gäller remissinstansdelen främst Läroplansutredningen. Förteckningen över remissinstanserna för SOU 2025:9 (U2025/00233) är bilaga 12 s. 314 (bilaga 3, 6 och 9 gäller SOU 2025:19, 2025:18 och 2025:8). Lagförslag 2.1 och 2.2 (skollagen) s. 6–43; prop-lagtext.json är identisk med laroplaners. Betänkandets förslag i 8.1.6, 8.1.10–8.1.12 och kompletterande åtgärder behandlas inte i propositionen."
   }
  ],
  "layout": {
-  "spaltforskjutning_pt": null,
-  "ord_y_intervall_pt": null
+  "spaltforskjutning_pt": 154.0,
+  "ord_y_intervall_pt": [
+   30,
+   640
+  ],
+  "rensa_marginal_i_delar": true,
+  "vanstermarginal_pt": {
+   "jamn": 122,
+   "udda": 51
+  },
+  "lagtext_tolerant": true,
+  "anm": "Samma tvåspaltiga lagförslag i prop. 194 som i laroplaner (spaltförskjutning 154 pt, vänstermarginal jämna 122 / udda 51 pt, rensa_marginal_i_delar, lagtext_tolerant)."
  },
- "lagar": null,
- "forordningar": null,
- "forordning_markor": null,
+ "lagar": [
+  {
+   "namn": "Skollag (2010:800)",
+   "riksdagen_id": "sfs-2010-800",
+   "andringar": [
+    "2026:1243"
+   ],
+   "bestamd_form": "skollagen",
+   "anm": "Ändringslag verifierad med \"Lag (2026:1243)\" i den konsoliderade texten (ändrad t.o.m. SFS 2026:1636) på paragrafer som utredningens författningskommentar tar upp: 15 kap. 22 §, 16 kap. 27 och 28 §§, 18 kap. 22 § (i kraft 2028-07-02; samlad ändringslag som också innehåller ändringar från prop. 2025/26:197, t.ex. \"betyget 4\"). 10 kap. 15 §, 11 kap. 19 §, 12 kap. 15 § och 13 kap. 16 § har bara lydelsen enligt 2025:729: utredningens upplysningsbestämmelser genomfördes inte; i stället infördes nya paragrafer 10 kap. 16 a §, 11 kap. 19 a §, 12 kap. 16 a §, 13 kap. 17 b §, 15 kap. 22 b § och 18 kap. 22 b § (Lag 2026:1243, \"Betyg ska inte sättas … grundläggande svenska\"). 2026:1245 (prop. 194 lagförslag 2.2, 20 kap.) tas inte med: författningskommentaren berör inte 20 kap."
+  }
+ ],
+ "forordningar": [
+  {
+   "namn": "Gymnasieförordning (2010:2039)",
+   "riksdagen_id": "sfs-2010-2039",
+   "anm": "Utredningens förordningsförslag 1.2 (4 kap. 7, 11 §§, 6 kap. 8 §, 8 kap. 14, 22 §§, 9 kap. 4 a § m.fl.); \"grundläggande svenska\" 0 träffar per 2026-11-10 (ändrad t.o.m. SFS 2026:1822)."
+  },
+  {
+   "namn": "Skolförordning (2011:185)",
+   "riksdagen_id": "sfs-2011-185",
+   "anm": "Utredningens förordningsförslag 1.3. 5 kap. 14 § har sedan Förordning (2026:1386) lydelsen \"Undervisning i ämnet svenska som andraspråk ska anordnas för elever som har behov av andraspråksdidaktik. Rektorn beslutar om undervisning i svenska som andraspråk för en elev.\" (jfr förslagen 8.1.7–8.1.8); \"grundläggande svenska\" 0 träffar (ändrad t.o.m. SFS 2026:1823)."
+  },
+  {
+   "namn": "Förordning (2011:1108) om vuxenutbildning",
+   "riksdagen_id": "sfs-2011-1108",
+   "anm": "Utredningens förordningsförslag 1.4 (4 kap. 14, 15 a, 15 b §§); ändrad t.o.m. SFS 2026:1723. Kursplanerna för grundläggande svenska (SKOLFS) finns inte i riksdagens öppna data."
+  }
+ ],
+ "forordning_markor": [],
  "fokusorganisationer": {
   "skr": "Sveriges Kommuner och Regioner",
   "almega": "Almega Utbildning",
@@ -101,11 +183,13 @@
    }
   }
  },
- "hamtningsdatum": null,
+ "hamtningsdatum": "2026-11-10",
  "korrigeringar": {
   "ocr_citat_manuellt_kontrollerade": [],
   "motivering_omformulerad": {}
  },
- "anm": "Saknar egen post i data/reforms.json (reforms_json_id null). Behandlas i Prop. 2025/26:194 avsnitt 8 enligt kedjor.json.",
- "forordning_markor_beskrivning": null
+ "anm": "Saknar egen post i data/reforms.json (reforms_json_id null). Behandlas i Prop. 2025/26:194 avsnitt 7.1, 7.2 och 8; \"avsnitt 8\" i kedjor.json/briefen är betänkandets avsnitt 8 (propositionens avsnitt 3: \"förslag från betänkandets avsnitt 8\"), se propositioner[0].anm.",
+ "forordning_markor_beskrivning": null,
+ "forordning_markor_anm": "Ingen markör: förordningsförslagen spretar (tidsgräns, nationella prov, målgrupper, rektorns beslut, kartläggningsmaterial, parallell läsning, examen). En markör som \"grundläggande svenska\" (0 träffar) skulle ge sfs_diff.py:s \"ej i SFS … innehåller inte\" även för 8.1.7–8.1.8, som delvis har genomförts i skolförordningen 5 kap. 14 § (Förordning 2026:1386); \"andraspråksdidaktik\" (1 träff) skulle bara gälla 8.1.7. Utan markör får förordningsförslagen status null med förklaring.",
+ "fokusorganisationer_anm": "Stavning enligt remissens lista över remissinstanser (remissmissinstanser-for-pa-spraklig-grund-sou-20259.pdf: \"1. Almega Utbildning\", \"17. Idéburna skolors riksförbund\", \"52. Sveriges Kommuner och Regioner\"), samma i förteckningen i prop. 194 bilaga 12. Almega Utbildning och Idéburna skolors riksförbund står i förteckningen bland dem som avstått; Almegas publicerade PDF på remissidan är ett e-postmeddelande om att förbundet \"avstår från att lämna synpunkter\"."
 }

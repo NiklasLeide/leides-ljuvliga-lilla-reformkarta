@@ -1,0 +1,2048 @@
+{
+ "_meta": {
+  "kalla": {
+   "text": "SOU 2025:9, innehållsförteckning",
+   "url": "https://www.regeringen.se/contentassets/da2e506ecdee49a6ba095fceea3165eb/pa-spraklig-grund-sou-20259.pdf"
+  },
+  "forslagskapitel": [
+   8,
+   19
+  ]
+ },
+ "lista": [
+  {
+   "avsnitt": "1",
+   "rubrik": "Författningsförslag",
+   "sida": 29
+  },
+  {
+   "avsnitt": "1.1",
+   "rubrik": "Förslag till lag om ändring i skollagen (2010:800)",
+   "sida": 29
+  },
+  {
+   "avsnitt": "1.2",
+   "rubrik": "Förslag till förordning om ändring i gymnasie- förordningen (2010:2039)",
+   "sida": 35
+  },
+  {
+   "avsnitt": "1.3",
+   "rubrik": "Förslag till förordning om ändring i skolförordningen (2011:185)",
+   "sida": 40
+  },
+  {
+   "avsnitt": "1.4",
+   "rubrik": "Förslag till förordning om ändring i förordningen om vuxenutbildning (2011:1108)",
+   "sida": 44
+  },
+  {
+   "avsnitt": "2",
+   "rubrik": "Utredningens uppdrag och genomförande",
+   "sida": 47
+  },
+  {
+   "avsnitt": "2.1",
+   "rubrik": "Utredningens uppdrag",
+   "sida": 47
+  },
+  {
+   "avsnitt": "2.2",
+   "rubrik": "Utredningens utgångspunkter och avgränsningar",
+   "sida": 49
+  },
+  {
+   "avsnitt": "2.3",
+   "rubrik": "Utredningsarbetet",
+   "sida": 49
+  },
+  {
+   "avsnitt": "2.3.1",
+   "rubrik": "Digitala hearings och samråd samt studiebesök",
+   "sida": 51
+  },
+  {
+   "avsnitt": "2.3.2",
+   "rubrik": "Samråd med forskare, Delegationen för migrationsstudier och IFAU",
+   "sida": 52
+  },
+  {
+   "avsnitt": "2.3.3",
+   "rubrik": "Registerstudie",
+   "sida": 52
+  },
+  {
+   "avsnitt": "2.3.4",
+   "rubrik": "Statliga utredningar samt rapporter från olika myndigheter",
+   "sida": 53
+  },
+  {
+   "avsnitt": "2.4",
+   "rubrik": "Förklaring av huvudsakliga begrepp",
+   "sida": 54
+  },
+  {
+   "avsnitt": "3",
+   "rubrik": "Gällande regelverk – svenska som andraspråk",
+   "sida": 59
+  },
+  {
+   "avsnitt": "3.1",
+   "rubrik": "Regleringar avseende undervisningen i svenska som andraspråk",
+   "sida": 59
+  },
+  {
+   "avsnitt": "3.1.1",
+   "rubrik": "Grundskola och motsvarande skolformer",
+   "sida": 59
+  },
+  {
+   "avsnitt": "3.1.2",
+   "rubrik": "Gymnasieskolan och anpassade gymnasieskolan",
+   "sida": 60
+  },
+  {
+   "avsnitt": "3.1.3",
+   "rubrik": "Regleringar avseende organisation av undervisningen i svenska som andraspråk",
+   "sida": 60
+  },
+  {
+   "avsnitt": "3.2",
+   "rubrik": "Regleringar av betydelse för nyanlända elevers skolgång",
+   "sida": 61
+  },
+  {
+   "avsnitt": "3.2.1",
+   "rubrik": "Generella bestämmelser",
+   "sida": 61
+  },
+  {
+   "avsnitt": "3.2.2",
+   "rubrik": "Särskilda bestämmelser om skolgång för nyanlända elever i grundskolan, anpassade grundskolan, specialskolan och sameskolan",
+   "sida": 66
+  },
+  {
+   "avsnitt": "3.2.3",
+   "rubrik": "Särskilda bestämmelser om nyanlända elevers skolgång i gymnasieskolan och anpassade gymnasieskolan",
+   "sida": 70
+  },
+  {
+   "avsnitt": "4",
+   "rubrik": "Bakgrund – svenska som andraspråk",
+   "sida": 73
+  },
+  {
+   "avsnitt": "4.1",
+   "rubrik": "Framväxten av svenska som andraspråk",
+   "sida": 73
+  },
+  {
+   "avsnitt": "4.2",
+   "rubrik": "Svenska som andraspråk – ett omdebatterat ämne",
+   "sida": 75
+  },
+  {
+   "avsnitt": "4.3",
+   "rubrik": "Svenska som andraspråk i olika skolformer",
+   "sida": 81
+  },
+  {
+   "avsnitt": "4.3.1",
+   "rubrik": "Svenska som andraspråk inom grundskolan, specialskolan, anpassade grundskolan och sameskolan",
+   "sida": 82
+  },
+  {
+   "avsnitt": "4.3.2",
+   "rubrik": "Svenska som andraspråk inom gymnasieskolan",
+   "sida": 83
+  },
+  {
+   "avsnitt": "4.3.3",
+   "rubrik": "Svenska som andraspråk inom gymnasieskolans introduktionsprogram",
+   "sida": 84
+  },
+  {
+   "avsnitt": "4.3.4",
+   "rubrik": "Svenska som andraspråk inom anpassade gymnasieskolan",
+   "sida": 85
+  },
+  {
+   "avsnitt": "4.3.5",
+   "rubrik": "Svenska som andraspråk inom kommunal vuxenutbildning",
+   "sida": 86
+  },
+  {
+   "avsnitt": "4.3.6",
+   "rubrik": "Nationella prov",
+   "sida": 88
+  },
+  {
+   "avsnitt": "4.3.7",
+   "rubrik": "Elevers övergångar mellan skolformer",
+   "sida": 88
+  },
+  {
+   "avsnitt": "4.4",
+   "rubrik": "Elever och deltagande i svenska som andraspråk i olika skolformer",
+   "sida": 89
+  },
+  {
+   "avsnitt": "4.4.1",
+   "rubrik": "Elever och deltagande i grundskolan",
+   "sida": 89
+  },
+  {
+   "avsnitt": "4.4.2",
+   "rubrik": "Elever och deltagande i svenska som andraspråk i anpassade grundskolan",
+   "sida": 90
+  },
+  {
+   "avsnitt": "4.4.3",
+   "rubrik": "Elever i sameskolan",
+   "sida": 91
+  },
+  {
+   "avsnitt": "4.4.4",
+   "rubrik": "Elever och deltagande i svenska som andraspråk i specialskolan",
+   "sida": 91
+  },
+  {
+   "avsnitt": "4.4.5",
+   "rubrik": "Elever och deltagande i svenska som andraspråk i gymnasieskolan",
+   "sida": 92
+  },
+  {
+   "avsnitt": "4.4.6",
+   "rubrik": "Elever och deltagande i svenska som andraspråk i anpassade gymnasieskolan",
+   "sida": 93
+  },
+  {
+   "avsnitt": "4.5",
+   "rubrik": "Måluppfyllelse i olika skolformer",
+   "sida": 93
+  },
+  {
+   "avsnitt": "4.5.1",
+   "rubrik": "Måluppfyllelse i grundskolan",
+   "sida": 93
+  },
+  {
+   "avsnitt": "4.5.2",
+   "rubrik": "Måluppfyllelse i specialskolan",
+   "sida": 95
+  },
+  {
+   "avsnitt": "4.5.3",
+   "rubrik": "Måluppfyllelse i gymnasieskolan",
+   "sida": 96
+  },
+  {
+   "avsnitt": "4.5.4",
+   "rubrik": "Måluppfyllelse i anpassade grund- och gymnasieskolan",
+   "sida": 98
+  },
+  {
+   "avsnitt": "4.6",
+   "rubrik": "Lärare i svenska som andraspråk",
+   "sida": 99
+  },
+  {
+   "avsnitt": "4.7",
+   "rubrik": "Insatser för att stärka nyanländas lärande",
+   "sida": 101
+  },
+  {
+   "avsnitt": "4.7.1",
+   "rubrik": "Kartläggningsmaterial för bedömning av nyanlända elevers kunskaper",
+   "sida": 102
+  },
+  {
+   "avsnitt": "4.7.2",
+   "rubrik": "Obligatoriska bedömningsstöd",
+   "sida": 103
+  },
+  {
+   "avsnitt": "5",
+   "rubrik": "Svenska som andraspråk – problem och behov av förändringar",
+   "sida": 105
+  },
+  {
+   "avsnitt": "5.1",
+   "rubrik": "Problembild – ämnet svenska som andraspråk möter inte behoven hos elever som är nybörjare i svenska språket",
+   "sida": 105
+  },
+  {
+   "avsnitt": "5.1.1",
+   "rubrik": "Problembeskrivning i tidigare granskningar och utredningar",
+   "sida": 106
+  },
+  {
+   "avsnitt": "5.1.2",
+   "rubrik": "Problembeskrivning i forskning",
+   "sida": 108
+  },
+  {
+   "avsnitt": "5.1.3",
+   "rubrik": "Utredningens iakttagelser",
+   "sida": 108
+  },
+  {
+   "avsnitt": "5.2",
+   "rubrik": "Behov av förändringar för elever som är nybörjare i svenska språket",
+   "sida": 109
+  },
+  {
+   "avsnitt": "5.2.1",
+   "rubrik": "Integrerad eller separat kursplan",
+   "sida": 109
+  },
+  {
+   "avsnitt": "5.2.2",
+   "rubrik": "Innehåll i grundläggande svenska som andraspråk",
+   "sida": 111
+  },
+  {
+   "avsnitt": "5.2.3",
+   "rubrik": "Betyg i grundläggande svenska som andraspråk",
+   "sida": 112
+  },
+  {
+   "avsnitt": "5.2.4",
+   "rubrik": "Nationella prov",
+   "sida": 113
+  },
+  {
+   "avsnitt": "5.2.5",
+   "rubrik": "Tidsgräns för grundläggande svenska som andraspråk",
+   "sida": 114
+  },
+  {
+   "avsnitt": "5.2.6",
+   "rubrik": "Behov av grundläggande svenska som andraspråk inom övriga skolformer",
+   "sida": 116
+  },
+  {
+   "avsnitt": "5.2.7",
+   "rubrik": "Svenska för invandrare inom gymnasieskolans språkintroduktion",
+   "sida": 120
+  },
+  {
+   "avsnitt": "5.2.8",
+   "rubrik": "Utredningens slutsatser",
+   "sida": 121
+  },
+  {
+   "avsnitt": "5.3",
+   "rubrik": "Behov av ytterligare åtgärder",
+   "sida": 122
+  },
+  {
+   "avsnitt": "5.3.1",
+   "rubrik": "Organisation",
+   "sida": 123
+  },
+  {
+   "avsnitt": "5.3.2",
+   "rubrik": "Kompetens för undervisning i svenska som andraspråk och flerspråkiga elever",
+   "sida": 127
+  },
+  {
+   "avsnitt": "5.3.3",
+   "rubrik": "Tillgång till behöriga och erfarna lärare i skolor med särskilt svåra förutsättningar",
+   "sida": 129
+  },
+  {
+   "avsnitt": "5.3.4",
+   "rubrik": "Undervisningstid",
+   "sida": 131
+  },
+  {
+   "avsnitt": "5.3.5",
+   "rubrik": "Pedagogisk ledning och uppföljning av ämnet svenska som andraspråk",
+   "sida": 135
+  },
+  {
+   "avsnitt": "5.3.6",
+   "rubrik": "Utredningens slutsatser",
+   "sida": 136
+  },
+  {
+   "avsnitt": "6",
+   "rubrik": "Behov av förtydligande av målgruppen för svenska som andraspråk",
+   "sida": 137
+  },
+  {
+   "avsnitt": "6.1",
+   "rubrik": "Målgrupperna för svenska som andraspråk enligt nuvarande bestämmelser",
+   "sida": 137
+  },
+  {
+   "avsnitt": "6.1.1",
+   "rubrik": "Obligatoriska skolformerna",
+   "sida": 137
+  },
+  {
+   "avsnitt": "6.2",
+   "rubrik": "Problembild – behovsbedömning i de obligatoriska skolformerna sker på oklara grunder",
+   "sida": 140
+  },
+  {
+   "avsnitt": "6.2.1",
+   "rubrik": "Behov av förtydligande avseende vem som ska läsa svenska som andraspråk",
+   "sida": 142
+  },
+  {
+   "avsnitt": "6.2.2",
+   "rubrik": "Behov av nationellt kartläggningsmaterial till stöd för rektorns beslut om svenska som andraspråk",
+   "sida": 143
+  },
+  {
+   "avsnitt": "6.2.3",
+   "rubrik": "Utredningens slutsatser",
+   "sida": 143
+  },
+  {
+   "avsnitt": "6.3",
+   "rubrik": "Svenska som andraspråk i gymnasieskolan och anpassade gymnasieskolan",
+   "sida": 144
+  },
+  {
+   "avsnitt": "6.3.1",
+   "rubrik": "Gymnasieskolan och anpassade gymnasieskolan",
+   "sida": 144
+  },
+  {
+   "avsnitt": "6.3.2",
+   "rubrik": "Utredningens slutsatser",
+   "sida": 145
+  },
+  {
+   "avsnitt": "7",
+   "rubrik": "Betyg i svenska och svenska som andraspråk i gymnasial utbildning",
+   "sida": 147
+  },
+  {
+   "avsnitt": "7.1",
+   "rubrik": "Bakgrund och problembild",
+   "sida": 147
+  },
+  {
+   "avsnitt": "7.2",
+   "rubrik": "Gällande bestämmelser",
+   "sida": 149
+  },
+  {
+   "avsnitt": "7.2.1",
+   "rubrik": "Gymnasieexamen, examensbevis, studiebevis, gymnasieintyg och gymnasiebevis avseende anpassad gymnasieskola",
+   "sida": 149
+  },
+  {
+   "avsnitt": "7.2.2",
+   "rubrik": "Betyg i svenska och svenska som andraspråk",
+   "sida": 151
+  },
+  {
+   "avsnitt": "7.2.3",
+   "rubrik": "Prövning",
+   "sida": 153
+  },
+  {
+   "avsnitt": "7.2.4",
+   "rubrik": "Möjligheten att läsa svenskämnen parallellt genom individuellt val",
+   "sida": 155
+  },
+  {
+   "avsnitt": "7.3",
+   "rubrik": "Ämneskonstruktion, betygssättning och prövning i ämnesutformad gymnasial utbildning (Gy25)",
+   "sida": 155
+  },
+  {
+   "avsnitt": "7.3.1",
+   "rubrik": "Ämneskonstruktion i ämnesutformad gymnasial utbildning",
+   "sida": 156
+  },
+  {
+   "avsnitt": "7.3.2",
+   "rubrik": "Betygssättning i ämnesutformad gymnasial utbildning",
+   "sida": 156
+  },
+  {
+   "avsnitt": "7.3.3",
+   "rubrik": "Prövning i ämnesutformad gymnasial utbildning (Gy25)",
+   "sida": 158
+  },
+  {
+   "avsnitt": "7.4",
+   "rubrik": "Behov av anpassningar av regelverket med anledning av Gy25",
+   "sida": 159
+  },
+  {
+   "avsnitt": "7.4.1",
+   "rubrik": "Utredningens slutsatser",
+   "sida": 160
+  },
+  {
+   "avsnitt": "8",
+   "rubrik": "Utredningens förslag och bedömningar",
+   "sida": 163
+  },
+  {
+   "avsnitt": "8.1",
+   "rubrik": "Utredningens förslag",
+   "sida": 163
+  },
+  {
+   "avsnitt": "8.1.1",
+   "rubrik": "Grundläggande svenska som andraspråk ska införas med nya kursplaner",
+   "sida": 163
+  },
+  {
+   "avsnitt": "8.1.2",
+   "rubrik": "En tidsgräns ska införas i de obligatoriska skolformerna",
+   "sida": 167
+  },
+  {
+   "avsnitt": "8.1.3",
+   "rubrik": "Betyg ska inte sättas för elever som läser grundläggande svenska som andraspråk",
+   "sida": 171
+  },
+  {
+   "avsnitt": "8.1.4",
+   "rubrik": "Elever som läser grundläggande svenska som andraspråk ska inte delta i nationella prov i ämnet",
+   "sida": 173
+  },
+  {
+   "avsnitt": "8.1.5",
+   "rubrik": "Elever i anpassade gymnasieskolan ska få tillgång till ämnet svenska som andraspråk på anpassad grundskolenivå",
+   "sida": 174
+  },
+  {
+   "avsnitt": "8.1.6",
+   "rubrik": "Svenska för invandrare inom gymnasieskolans introduktionsprogram",
+   "sida": 176
+  },
+  {
+   "avsnitt": "8.1.7",
+   "rubrik": "Målgrupperna för svenska som andraspråk ska ändras",
+   "sida": 177
+  },
+  {
+   "avsnitt": "8.1.8",
+   "rubrik": "Rektorn ska besluta om undervisning i svenska som andraspråk",
+   "sida": 180
+  },
+  {
+   "avsnitt": "8.1.9",
+   "rubrik": "Ett kartläggningsmaterial för bedömning av en elevs behov av svenska som andraspråk ska utarbetas",
+   "sida": 183
+  },
+  {
+   "avsnitt": "8.1.10",
+   "rubrik": "Elever i gymnasieskolan och anpassade gymnasieskolan ska ges god vägledning i sitt val av svenskämne",
+   "sida": 187
+  },
+  {
+   "avsnitt": "8.1.11",
+   "rubrik": "Betyg i ämnena svenska och svenska som andraspråk ska inte samtidigt kunna ingå i en elevs examens- eller studiebevis eller gymnasie- bevis avseende anpassad gymnasieskola",
+   "sida": 189
+  },
+  {
+   "avsnitt": "8.1.12",
+   "rubrik": "Möjligheten att läsa svenska och svenska som andraspråk parallellt ska tas bort men det ska fortsatt vara möjligt att byta mellan ämnena",
+   "sida": 192
+  },
+  {
+   "avsnitt": "8.2",
+   "rubrik": "Kompletterande åtgärder",
+   "sida": 194
+  },
+  {
+   "avsnitt": "8.2.1",
+   "rubrik": "Implementeringsstöd och kompetens- utvecklingsinsatser i samband med införandet av kursplaner för grundläggande svenska som andraspråk",
+   "sida": 194
+  },
+  {
+   "avsnitt": "8.2.2",
+   "rubrik": "Undervisningstid i svenska som andraspråk för nyanlända elever",
+   "sida": 196
+  },
+  {
+   "avsnitt": "8.2.3",
+   "rubrik": "Utbildning för undervisning av flerspråkiga elever",
+   "sida": 198
+  },
+  {
+   "avsnitt": "8.2.4",
+   "rubrik": "Behörighetskraven för undervisning i svenska som andraspråk bör höjas",
+   "sida": 199
+  },
+  {
+   "avsnitt": "8.2.5",
+   "rubrik": "Utvärdering av införandet av grundläggande svenska som andraspråk",
+   "sida": 199
+  },
+  {
+   "avsnitt": "8.2.6",
+   "rubrik": "Granskning av undervisning för nybörjare i svenska språket",
+   "sida": 200
+  },
+  {
+   "avsnitt": "8.2.7",
+   "rubrik": "Anpassade gymnasieskolan",
+   "sida": 200
+  },
+  {
+   "avsnitt": "8.2.8",
+   "rubrik": "Kursplaner för grundläggande svenska som andraspråk anpassade för döva och hörselskadade elever",
+   "sida": 201
+  },
+  {
+   "avsnitt": "8.2.9",
+   "rubrik": "Skolsituationen för elever med grav språk- störning i olika skolformer behöver utredas",
+   "sida": 202
+  },
+  {
+   "avsnitt": "9",
+   "rubrik": "Gällande regelverk – modersmålsundervisning",
+   "sida": 207
+  },
+  {
+   "avsnitt": "9.1",
+   "rubrik": "Bestämmelser som har betydelse för modersmålsundervisningen",
+   "sida": 207
+  },
+  {
+   "avsnitt": "9.1.1",
+   "rubrik": "Regeringsformen",
+   "sida": 207
+  },
+  {
+   "avsnitt": "9.1.2",
+   "rubrik": "Språklagen och lagen om nationella minoriteter och minoritetsspråk",
+   "sida": 207
+  },
+  {
+   "avsnitt": "9.1.3",
+   "rubrik": "Internationella konventioner",
+   "sida": 208
+  },
+  {
+   "avsnitt": "9.2",
+   "rubrik": "Bestämmelser om modersmålsundervisning i olika skolformer",
+   "sida": 209
+  },
+  {
+   "avsnitt": "9.2.1",
+   "rubrik": "Grundskolan och motsvarande skolformer",
+   "sida": 209
+  },
+  {
+   "avsnitt": "9.2.2",
+   "rubrik": "Gymnasieskolan och anpassade gymnasieskolan",
+   "sida": 210
+  },
+  {
+   "avsnitt": "9.2.3",
+   "rubrik": "Svenskt teckenspråk som modersmål",
+   "sida": 212
+  },
+  {
+   "avsnitt": "9.3",
+   "rubrik": "Studiehandledning på modersmålet",
+   "sida": 212
+  },
+  {
+   "avsnitt": "9.3.1",
+   "rubrik": "Obligatoriska skolformer",
+   "sida": 212
+  },
+  {
+   "avsnitt": "9.3.2",
+   "rubrik": "Gymnasieskolan och anpassade gymnasieskolan",
+   "sida": 212
+  },
+  {
+   "avsnitt": "10",
+   "rubrik": "Modersmålsundervisning i Sverige",
+   "sida": 215
+  },
+  {
+   "avsnitt": "10.1",
+   "rubrik": "Framväxten av modersmålsundervisning i Sverige",
+   "sida": 215
+  },
+  {
+   "avsnitt": "10.2",
+   "rubrik": "Deltagande och måluppfyllelse",
+   "sida": 218
+  },
+  {
+   "avsnitt": "10.2.1",
+   "rubrik": "Deltagande och språk",
+   "sida": 218
+  },
+  {
+   "avsnitt": "10.2.2",
+   "rubrik": "Måluppfyllelse",
+   "sida": 223
+  },
+  {
+   "avsnitt": "10.3",
+   "rubrik": "Modersmålslärare",
+   "sida": 224
+  },
+  {
+   "avsnitt": "10.4",
+   "rubrik": "Organisation",
+   "sida": 226
+  },
+  {
+   "avsnitt": "10.4.1",
+   "rubrik": "Modersmålsundervisningens förläggning",
+   "sida": 229
+  },
+  {
+   "avsnitt": "10.4.2",
+   "rubrik": "Fjärrundervisning",
+   "sida": 230
+  },
+  {
+   "avsnitt": "10.4.3",
+   "rubrik": "Läroböcker, andra läromedel och andra lärverktyg",
+   "sida": 232
+  },
+  {
+   "avsnitt": "10.5",
+   "rubrik": "Uppföljning och utvärdering",
+   "sida": 233
+  },
+  {
+   "avsnitt": "10.6",
+   "rubrik": "Undervisningstid",
+   "sida": 233
+  },
+  {
+   "avsnitt": "11",
+   "rubrik": "Modersmålsundervisningens syfte",
+   "sida": 235
+  },
+  {
+   "avsnitt": "11.1",
+   "rubrik": "Syftesbeskrivningar i styrdokumenten",
+   "sida": 235
+  },
+  {
+   "avsnitt": "11.1.1",
+   "rubrik": "Läroplanerna",
+   "sida": 235
+  },
+  {
+   "avsnitt": "11.1.2",
+   "rubrik": "Kurs- och ämnesplaner",
+   "sida": 238
+  },
+  {
+   "avsnitt": "11.2",
+   "rubrik": "Modersmålsundervisningens syfte – en historisk tillbakablick",
+   "sida": 242
+  },
+  {
+   "avsnitt": "11.2.1",
+   "rubrik": "Modersmålsundervisningens införande",
+   "sida": 242
+  },
+  {
+   "avsnitt": "11.3",
+   "rubrik": "Studier av modersmålsundervisningens syfte",
+   "sida": 244
+  },
+  {
+   "avsnitt": "11.3.1",
+   "rubrik": "Studier av syftet i relation till utfall",
+   "sida": 244
+  },
+  {
+   "avsnitt": "11.3.2",
+   "rubrik": "Studier av motiv för modersmålsundervisning",
+   "sida": 246
+  },
+  {
+   "avsnitt": "11.3.4",
+   "rubrik": "Modersmålsundervisning i politisk debatt",
+   "sida": 250
+  },
+  {
+   "avsnitt": "11.4",
+   "rubrik": "Modersmålsundervisningens syften – utredningens slutsatser",
+   "sida": 253
+  },
+  {
+   "avsnitt": "11.4.1",
+   "rubrik": "Modersmålsundervisning som ett värde i sig",
+   "sida": 253
+  },
+  {
+   "avsnitt": "11.4.2",
+   "rubrik": "Modersmålsundervisning som ett instrument för något annat",
+   "sida": 254
+  },
+  {
+   "avsnitt": "11.4.3",
+   "rubrik": "Modersmålsundervisningens roll och syfte framgent",
+   "sida": 255
+  },
+  {
+   "avsnitt": "12",
+   "rubrik": "Modersmålsundervisning i andra länder",
+   "sida": 257
+  },
+  {
+   "avsnitt": "12.1",
+   "rubrik": "Danmark",
+   "sida": 257
+  },
+  {
+   "avsnitt": "12.1.1",
+   "rubrik": "Reglering av modersmålsundervisning i Danmark",
+   "sida": 258
+  },
+  {
+   "avsnitt": "12.1.2",
+   "rubrik": "Modersmålsundervisning i praktiken i Danmark",
+   "sida": 260
+  },
+  {
+   "avsnitt": "12.2",
+   "rubrik": "Finland",
+   "sida": 262
+  },
+  {
+   "avsnitt": "12.2.1",
+   "rubrik": "Reglering av modersmålsundervisning i Finland",
+   "sida": 263
+  },
+  {
+   "avsnitt": "12.2.2",
+   "rubrik": "Modersmålsundervisning i praktiken i Finland",
+   "sida": 265
+  },
+  {
+   "avsnitt": "12.3",
+   "rubrik": "Norge",
+   "sida": 266
+  },
+  {
+   "avsnitt": "12.3.1",
+   "rubrik": "Reglering av modersmålsundervisning i Norge",
+   "sida": 267
+  },
+  {
+   "avsnitt": "12.3.2",
+   "rubrik": "Modersmålsundervisning i praktiken i Norge",
+   "sida": 270
+  },
+  {
+   "avsnitt": "12.4",
+   "rubrik": "Modersmålsundervisningen i andra länder i Europa",
+   "sida": 271
+  },
+  {
+   "avsnitt": "12.5",
+   "rubrik": "Länder utanför Europa",
+   "sida": 274
+  },
+  {
+   "avsnitt": "12.5.1",
+   "rubrik": "Kanada",
+   "sida": 274
+  },
+  {
+   "avsnitt": "12.5.2",
+   "rubrik": "Australien",
+   "sida": 275
+  },
+  {
+   "avsnitt": "13",
+   "rubrik": "Integration – bakgrund",
+   "sida": 277
+  },
+  {
+   "avsnitt": "13.1",
+   "rubrik": "Migration till Sverige – en historisk tillbakablick",
+   "sida": 277
+  },
+  {
+   "avsnitt": "13.1.1",
+   "rubrik": "Demografiska förändringar",
+   "sida": 277
+  },
+  {
+   "avsnitt": "13.1.2",
+   "rubrik": "Migration till Sverige",
+   "sida": 279
+  },
+  {
+   "avsnitt": "13.2",
+   "rubrik": "Hur integration definieras",
+   "sida": 282
+  },
+  {
+   "avsnitt": "13.3",
+   "rubrik": "Hur de politiska målen har formulerats",
+   "sida": 283
+  },
+  {
+   "avsnitt": "13.3.1",
+   "rubrik": "Nytt mål för integrationspolitiken",
+   "sida": 284
+  },
+  {
+   "avsnitt": "13.4",
+   "rubrik": "Hur integrationsutfallet ser ut",
+   "sida": 284
+  },
+  {
+   "avsnitt": "13.4.1",
+   "rubrik": "Integrationspolitik, ramverk och integrationsutfall",
+   "sida": 284
+  },
+  {
+   "avsnitt": "13.4.2",
+   "rubrik": "Integrationsutfall i förhållande till olika aspekter av integration",
+   "sida": 286
+  },
+  {
+   "avsnitt": "13.4.3",
+   "rubrik": "Integrationsutfall – unga med utländsk bakgrund",
+   "sida": 293
+  },
+  {
+   "avsnitt": "14",
+   "rubrik": "Forskning om flerspråkig undervisning och modersmålsundervisning",
+   "sida": 297
+  },
+  {
+   "avsnitt": "14.1",
+   "rubrik": "Introduktion till forskningsfältet",
+   "sida": 298
+  },
+  {
+   "avsnitt": "14.1.1",
+   "rubrik": "Forskning om flerspråkig undervisning",
+   "sida": 298
+  },
+  {
+   "avsnitt": "14.1.2",
+   "rubrik": "Forskning om sambandet mellan flerspråkighet och kognitiv utveckling",
+   "sida": 302
+  },
+  {
+   "avsnitt": "14.1.3",
+   "rubrik": "Forskning om modersmålsundervisning i Sverige",
+   "sida": 303
+  },
+  {
+   "avsnitt": "14.2",
+   "rubrik": "Forskning om effekter av modersmålsundervisning",
+   "sida": 307
+  },
+  {
+   "avsnitt": "14.3",
+   "rubrik": "Diskussion och slutsatser",
+   "sida": 309
+  },
+  {
+   "avsnitt": "15",
+   "rubrik": "Modersmålsundervisning – en registerstudie",
+   "sida": 311
+  },
+  {
+   "avsnitt": "15.1",
+   "rubrik": "Hur kan modersmålsundervisningens påverkan analyseras?",
+   "sida": 311
+  },
+  {
+   "avsnitt": "15.2",
+   "rubrik": "Metod och tillvägagångssätt",
+   "sida": 312
+  },
+  {
+   "avsnitt": "15.2.1",
+   "rubrik": "Studerad population och centrala variabler",
+   "sida": 312
+  },
+  {
+   "avsnitt": "15.2.2",
+   "rubrik": "Dataanalys",
+   "sida": 315
+  },
+  {
+   "avsnitt": "15.2.3",
+   "rubrik": "Avgränsningar",
+   "sida": 316
+  },
+  {
+   "avsnitt": "15.3",
+   "rubrik": "Resultat – behörighet till gymnasieskolan, meritvärde och betyg i svenskämnena",
+   "sida": 317
+  },
+  {
+   "avsnitt": "15.4",
+   "rubrik": "Resultat – grundläggande behörighet till högskolan och jämförelsetal",
+   "sida": 319
+  },
+  {
+   "avsnitt": "15.5",
+   "rubrik": "Resultat – etableringsstatus",
+   "sida": 320
+  },
+  {
+   "avsnitt": "15.6",
+   "rubrik": "Resultat – valdeltagande",
+   "sida": 321
+  },
+  {
+   "avsnitt": "15.7",
+   "rubrik": "Sammanfattning av registerstudiens resultat",
+   "sida": 322
+  },
+  {
+   "avsnitt": "15.8",
+   "rubrik": "Utredningens slutsatser av registerstudien",
+   "sida": 323
+  },
+  {
+   "avsnitt": "16",
+   "rubrik": "Modersmålsundervisning – behov av förändringar",
+   "sida": 325
+  },
+  {
+   "avsnitt": "16.1",
+   "rubrik": "Tidigare statliga utredningar om och granskningar av modersmålsundervisning",
+   "sida": 325
+  },
+  {
+   "avsnitt": "16.1.1",
+   "rubrik": "Statliga utredningar som berör modersmålsundervisning",
+   "sida": 325
+  },
+  {
+   "avsnitt": "16.1.2",
+   "rubrik": "Granskningar som berör modersmålsundervisningen",
+   "sida": 327
+  },
+  {
+   "avsnitt": "16.2",
+   "rubrik": "Problem och behov av förändringar avseende svensk modersmålsundervisning",
+   "sida": 329
+  },
+  {
+   "avsnitt": "16.2.1",
+   "rubrik": "Kompetens",
+   "sida": 329
+  },
+  {
+   "avsnitt": "16.2.2",
+   "rubrik": "Tillgång till modersmålsundervisning",
+   "sida": 330
+  },
+  {
+   "avsnitt": "16.2.3",
+   "rubrik": "Modersmålslärares arbetsvillkor",
+   "sida": 332
+  },
+  {
+   "avsnitt": "16.2.4",
+   "rubrik": "Läroböcker, andra läromedel och andra lärverktyg",
+   "sida": 333
+  },
+  {
+   "avsnitt": "16.2.5",
+   "rubrik": "Krav på förkunskaper i modersmålet",
+   "sida": 334
+  },
+  {
+   "avsnitt": "16.2.6",
+   "rubrik": "Undervisningens förläggning och omfattning",
+   "sida": 335
+  },
+  {
+   "avsnitt": "16.2.7",
+   "rubrik": "Uppföljning av modersmålsundervisningens kvalitet",
+   "sida": 335
+  },
+  {
+   "avsnitt": "16.2.8",
+   "rubrik": "Kravet på minst fem elever",
+   "sida": 336
+  },
+  {
+   "avsnitt": "16.2.9",
+   "rubrik": "Modersmålsundervisning för ensamkommande barn",
+   "sida": 337
+  },
+  {
+   "avsnitt": "16.2.10",
+   "rubrik": "Svenskt teckenspråk som modersmål",
+   "sida": 337
+  },
+  {
+   "avsnitt": "16.3",
+   "rubrik": "Utredningens slutsatser",
+   "sida": 338
+  },
+  {
+   "avsnitt": "17",
+   "rubrik": "Modersmålsundervisning – utredningens sammanfattande analys och slutsatser",
+   "sida": 339
+  },
+  {
+   "avsnitt": "17.1",
+   "rubrik": "Utredningens analys och slutsatser",
+   "sida": 339
+  },
+  {
+   "avsnitt": "17.2",
+   "rubrik": "Åtgärder för att främja kvalitet och likvärdighet i modersmålsundervisningen",
+   "sida": 342
+  },
+  {
+   "avsnitt": "17.3",
+   "rubrik": "Åtgärder för att främja nyanlända elevers kunskaps- utveckling genom studiehandledning på modersmålet",
+   "sida": 343
+  },
+  {
+   "avsnitt": "17.3.1",
+   "rubrik": "Förstärkt rätt till studiehandledning på modersmål för nyanlända elever",
+   "sida": 344
+  },
+  {
+   "avsnitt": "17.4",
+   "rubrik": "Kompletterande åtgärder",
+   "sida": 344
+  },
+  {
+   "avsnitt": "17.4.1",
+   "rubrik": "Stärkt tillgång till modersmålsundervisning genom nationell samordning",
+   "sida": 345
+  },
+  {
+   "avsnitt": "17.4.2",
+   "rubrik": "Granskning av modersmålsundervisningens kvalitet",
+   "sida": 346
+  },
+  {
+   "avsnitt": "17.4.3",
+   "rubrik": "Förbättrade förutsättningar för uppföljning, utvärdering och forskning",
+   "sida": 347
+  },
+  {
+   "avsnitt": "18",
+   "rubrik": "Konsekvensbeskrivning",
+   "sida": 349
+  },
+  {
+   "avsnitt": "18.1",
+   "rubrik": "Krav på konsekvensanalysen",
+   "sida": 349
+  },
+  {
+   "avsnitt": "18.2",
+   "rubrik": "Problemen, förslag till lösningar och alternativa lösningar",
+   "sida": 350
+  },
+  {
+   "avsnitt": "18.2.1",
+   "rubrik": "Utredningens förslag till lösningar och alternativa lösningar",
+   "sida": 351
+  },
+  {
+   "avsnitt": "18.3",
+   "rubrik": "Konsekvenser som bedöms uppstå om ingen åtgärd vidtas",
+   "sida": 361
+  },
+  {
+   "avsnitt": "18.3.1",
+   "rubrik": "Förslaget om grundläggande svenska som andraspråk",
+   "sida": 361
+  },
+  {
+   "avsnitt": "18.3.2",
+   "rubrik": "Förslagen om målgrupperna, rektorns beslut och nationellt kartläggningsmaterial",
+   "sida": 362
+  },
+  {
+   "avsnitt": "18.3.3",
+   "rubrik": "Förslaget om att en elev ska ges god vägledning i valet av svenskämne",
+   "sida": 362
+  },
+  {
+   "avsnitt": "18.3.4",
+   "rubrik": "Förslaget om att betyg i ämnena svenska och svenska som andraspråk inte samtidigt ska kunna ingå i en elevs examens- eller studiebevis eller gymnasiebevis avseende anpassad gymnasieskola",
+   "sida": 363
+  },
+  {
+   "avsnitt": "18.4",
+   "rubrik": "Samhällsekonomiska konsekvenser",
+   "sida": 363
+  },
+  {
+   "avsnitt": "18.4.1",
+   "rubrik": "Konsekvenser för jämställdhet",
+   "sida": 365
+  },
+  {
+   "avsnitt": "18.4.2",
+   "rubrik": "Konsekvenser för integrationen",
+   "sida": 365
+  },
+  {
+   "avsnitt": "18.4.3",
+   "rubrik": "Konsekvenser för brottslighet och brottsförebyggande arbete",
+   "sida": 365
+  },
+  {
+   "avsnitt": "18.4.4",
+   "rubrik": "Konsekvenser för miljö och klimat",
+   "sida": 366
+  },
+  {
+   "avsnitt": "18.5",
+   "rubrik": "Konsekvenser för elever",
+   "sida": 366
+  },
+  {
+   "avsnitt": "18.5.1",
+   "rubrik": "Elever som berörs av förslagen",
+   "sida": 366
+  },
+  {
+   "avsnitt": "18.5.2",
+   "rubrik": "Konsekvenser i relation till FN:s konvention om barnets rättigheter",
+   "sida": 368
+  },
+  {
+   "avsnitt": "18.5.3",
+   "rubrik": "Konsekvenser i relation till FN:s konvention om rättigheter för personer med funktionsnedsättning",
+   "sida": 369
+  },
+  {
+   "avsnitt": "18.5.4",
+   "rubrik": "Konsekvenser i relation till principen om icke-diskriminering",
+   "sida": 370
+  },
+  {
+   "avsnitt": "18.6",
+   "rubrik": "Organisatoriska och pedagogiska konsekvenser",
+   "sida": 370
+  },
+  {
+   "avsnitt": "18.6.1",
+   "rubrik": "Konsekvenser för gymnasieskolan och anpassade gymnasieskolan",
+   "sida": 373
+  },
+  {
+   "avsnitt": "18.7",
+   "rubrik": "Övriga konsekvenser",
+   "sida": 374
+  },
+  {
+   "avsnitt": "18.7.1",
+   "rubrik": "Förslagens relation till EU-rätt och annan internationell rätt",
+   "sida": 374
+  },
+  {
+   "avsnitt": "18.7.2",
+   "rubrik": "Konsekvenser i relation till Europarådets ramkonvention om skydd för nationella minoriteter",
+   "sida": 374
+  },
+  {
+   "avsnitt": "18.7.3",
+   "rubrik": "Konsekvenser i relation till den europeiska stadgan om landsdels- eller minoritetsspråk",
+   "sida": 374
+  },
+  {
+   "avsnitt": "18.8",
+   "rubrik": "Konsekvenser för kommuner och regioner",
+   "sida": 374
+  },
+  {
+   "avsnitt": "18.9",
+   "rubrik": "Konsekvenser för staten",
+   "sida": 376
+  },
+  {
+   "avsnitt": "18.9.1",
+   "rubrik": "Konsekvenser för Statens skolverk",
+   "sida": 376
+  },
+  {
+   "avsnitt": "18.9.2",
+   "rubrik": "Specialpedagogiska skolmyndigheten",
+   "sida": 378
+  },
+  {
+   "avsnitt": "18.9.3",
+   "rubrik": "Sameskolstyrelsen",
+   "sida": 378
+  },
+  {
+   "avsnitt": "18.9.4",
+   "rubrik": "Statens skolinspektion",
+   "sida": 378
+  },
+  {
+   "avsnitt": "18.10",
+   "rubrik": "Konsekvenser för enskilda huvudmän",
+   "sida": 379
+  },
+  {
+   "avsnitt": "18.11",
+   "rubrik": "Konsekvenser för företag",
+   "sida": 379
+  },
+  {
+   "avsnitt": "18.12",
+   "rubrik": "Kostnadsberäkningar",
+   "sida": 379
+  },
+  {
+   "avsnitt": "18.12.1",
+   "rubrik": "Skolverket ska ta fram ett nationellt kartläggningsmaterial samt stödja skolorna",
+   "sida": 380
+  },
+  {
+   "avsnitt": "18.12.2",
+   "rubrik": "Skolverket ska ta fram ett informationsmaterial för vägledning inför val av svenskämne",
+   "sida": 381
+  },
+  {
+   "avsnitt": "18.12.3",
+   "rubrik": "Kostnader enligt finansieringsprincipen – kartläggning för bedömning av en elevs behov av svenska som andraspråk",
+   "sida": 381
+  },
+  {
+   "avsnitt": "18.13",
+   "rubrik": "Förslag till finansiering",
+   "sida": 383
+  },
+  {
+   "avsnitt": "19",
+   "rubrik": "Ikraftträdande",
+   "sida": 385
+  },
+  {
+   "avsnitt": "20",
+   "rubrik": "Författningskommentar",
+   "sida": 387
+  },
+  {
+   "avsnitt": "20.1",
+   "rubrik": "Förslaget till lag om ändring i skollagen (2010:800)",
+   "sida": 387
+  }
+ ],
+ "kapitel": {
+  "1": "Författningsförslag",
+  "2": "Utredningens uppdrag och genomförande",
+  "3": "Gällande regelverk – svenska som andraspråk",
+  "4": "Bakgrund – svenska som andraspråk",
+  "5": "Svenska som andraspråk – problem och behov av förändringar",
+  "6": "Behov av förtydligande av målgruppen för svenska som andraspråk",
+  "7": "Betyg i svenska och svenska som andraspråk i gymnasial utbildning",
+  "8": "Utredningens förslag och bedömningar",
+  "9": "Gällande regelverk – modersmålsundervisning",
+  "10": "Modersmålsundervisning i Sverige",
+  "11": "Modersmålsundervisningens syfte",
+  "12": "Modersmålsundervisning i andra länder",
+  "13": "Integration – bakgrund",
+  "14": "Forskning om flerspråkig undervisning och modersmålsundervisning",
+  "15": "Modersmålsundervisning – en registerstudie",
+  "16": "Modersmålsundervisning – behov av förändringar",
+  "17": "Modersmålsundervisning – utredningens sammanfattande analys och slutsatser",
+  "18": "Konsekvensbeskrivning",
+  "19": "Ikraftträdande",
+  "20": "Författningskommentar"
+ },
+ "avsnitt": {
+  "8": {
+   "rubrik": "Utredningens förslag och bedömningar",
+   "sida": 163
+  },
+  "8.1": {
+   "rubrik": "Utredningens förslag",
+   "sida": 163
+  },
+  "8.1.1": {
+   "rubrik": "Grundläggande svenska som andraspråk ska införas med nya kursplaner",
+   "sida": 163
+  },
+  "8.1.2": {
+   "rubrik": "En tidsgräns ska införas i de obligatoriska skolformerna",
+   "sida": 167
+  },
+  "8.1.3": {
+   "rubrik": "Betyg ska inte sättas för elever som läser grundläggande svenska som andraspråk",
+   "sida": 171
+  },
+  "8.1.4": {
+   "rubrik": "Elever som läser grundläggande svenska som andraspråk ska inte delta i nationella prov i ämnet",
+   "sida": 173
+  },
+  "8.1.5": {
+   "rubrik": "Elever i anpassade gymnasieskolan ska få tillgång till ämnet svenska som andraspråk på anpassad grundskolenivå",
+   "sida": 174
+  },
+  "8.1.6": {
+   "rubrik": "Svenska för invandrare inom gymnasieskolans introduktionsprogram",
+   "sida": 176
+  },
+  "8.1.7": {
+   "rubrik": "Målgrupperna för svenska som andraspråk ska ändras",
+   "sida": 177
+  },
+  "8.1.8": {
+   "rubrik": "Rektorn ska besluta om undervisning i svenska som andraspråk",
+   "sida": 180
+  },
+  "8.1.9": {
+   "rubrik": "Ett kartläggningsmaterial för bedömning av en elevs behov av svenska som andraspråk ska utarbetas",
+   "sida": 183
+  },
+  "8.1.10": {
+   "rubrik": "Elever i gymnasieskolan och anpassade gymnasieskolan ska ges god vägledning i sitt val av svenskämne",
+   "sida": 187
+  },
+  "8.1.11": {
+   "rubrik": "Betyg i ämnena svenska och svenska som andraspråk ska inte samtidigt kunna ingå i en elevs examens- eller studiebevis eller gymnasie- bevis avseende anpassad gymnasieskola",
+   "sida": 189
+  },
+  "8.1.12": {
+   "rubrik": "Möjligheten att läsa svenska och svenska som andraspråk parallellt ska tas bort men det ska fortsatt vara möjligt att byta mellan ämnena",
+   "sida": 192
+  },
+  "8.2": {
+   "rubrik": "Kompletterande åtgärder",
+   "sida": 194
+  },
+  "8.2.1": {
+   "rubrik": "Implementeringsstöd och kompetens- utvecklingsinsatser i samband med införandet av kursplaner för grundläggande svenska som andraspråk",
+   "sida": 194
+  },
+  "8.2.2": {
+   "rubrik": "Undervisningstid i svenska som andraspråk för nyanlända elever",
+   "sida": 196
+  },
+  "8.2.3": {
+   "rubrik": "Utbildning för undervisning av flerspråkiga elever",
+   "sida": 198
+  },
+  "8.2.4": {
+   "rubrik": "Behörighetskraven för undervisning i svenska som andraspråk bör höjas",
+   "sida": 199
+  },
+  "8.2.5": {
+   "rubrik": "Utvärdering av införandet av grundläggande svenska som andraspråk",
+   "sida": 199
+  },
+  "8.2.6": {
+   "rubrik": "Granskning av undervisning för nybörjare i svenska språket",
+   "sida": 200
+  },
+  "8.2.7": {
+   "rubrik": "Anpassade gymnasieskolan",
+   "sida": 200
+  },
+  "8.2.8": {
+   "rubrik": "Kursplaner för grundläggande svenska som andraspråk anpassade för döva och hörselskadade elever",
+   "sida": 201
+  },
+  "8.2.9": {
+   "rubrik": "Skolsituationen för elever med grav språk- störning i olika skolformer behöver utredas",
+   "sida": 202
+  },
+  "9": {
+   "rubrik": "Gällande regelverk – modersmålsundervisning",
+   "sida": 207
+  },
+  "9.1": {
+   "rubrik": "Bestämmelser som har betydelse för modersmålsundervisningen",
+   "sida": 207
+  },
+  "9.1.1": {
+   "rubrik": "Regeringsformen",
+   "sida": 207
+  },
+  "9.1.2": {
+   "rubrik": "Språklagen och lagen om nationella minoriteter och minoritetsspråk",
+   "sida": 207
+  },
+  "9.1.3": {
+   "rubrik": "Internationella konventioner",
+   "sida": 208
+  },
+  "9.2": {
+   "rubrik": "Bestämmelser om modersmålsundervisning i olika skolformer",
+   "sida": 209
+  },
+  "9.2.1": {
+   "rubrik": "Grundskolan och motsvarande skolformer",
+   "sida": 209
+  },
+  "9.2.2": {
+   "rubrik": "Gymnasieskolan och anpassade gymnasieskolan",
+   "sida": 210
+  },
+  "9.2.3": {
+   "rubrik": "Svenskt teckenspråk som modersmål",
+   "sida": 212
+  },
+  "9.3": {
+   "rubrik": "Studiehandledning på modersmålet",
+   "sida": 212
+  },
+  "9.3.1": {
+   "rubrik": "Obligatoriska skolformer",
+   "sida": 212
+  },
+  "9.3.2": {
+   "rubrik": "Gymnasieskolan och anpassade gymnasieskolan",
+   "sida": 212
+  },
+  "10": {
+   "rubrik": "Modersmålsundervisning i Sverige",
+   "sida": 215
+  },
+  "10.1": {
+   "rubrik": "Framväxten av modersmålsundervisning i Sverige",
+   "sida": 215
+  },
+  "10.2": {
+   "rubrik": "Deltagande och måluppfyllelse",
+   "sida": 218
+  },
+  "10.2.1": {
+   "rubrik": "Deltagande och språk",
+   "sida": 218
+  },
+  "10.2.2": {
+   "rubrik": "Måluppfyllelse",
+   "sida": 223
+  },
+  "10.3": {
+   "rubrik": "Modersmålslärare",
+   "sida": 224
+  },
+  "10.4": {
+   "rubrik": "Organisation",
+   "sida": 226
+  },
+  "10.4.1": {
+   "rubrik": "Modersmålsundervisningens förläggning",
+   "sida": 229
+  },
+  "10.4.2": {
+   "rubrik": "Fjärrundervisning",
+   "sida": 230
+  },
+  "10.4.3": {
+   "rubrik": "Läroböcker, andra läromedel och andra lärverktyg",
+   "sida": 232
+  },
+  "10.5": {
+   "rubrik": "Uppföljning och utvärdering",
+   "sida": 233
+  },
+  "10.6": {
+   "rubrik": "Undervisningstid",
+   "sida": 233
+  },
+  "11": {
+   "rubrik": "Modersmålsundervisningens syfte",
+   "sida": 235
+  },
+  "11.1": {
+   "rubrik": "Syftesbeskrivningar i styrdokumenten",
+   "sida": 235
+  },
+  "11.1.1": {
+   "rubrik": "Läroplanerna",
+   "sida": 235
+  },
+  "11.1.2": {
+   "rubrik": "Kurs- och ämnesplaner",
+   "sida": 238
+  },
+  "11.2": {
+   "rubrik": "Modersmålsundervisningens syfte – en historisk tillbakablick",
+   "sida": 242
+  },
+  "11.2.1": {
+   "rubrik": "Modersmålsundervisningens införande",
+   "sida": 242
+  },
+  "11.3": {
+   "rubrik": "Studier av modersmålsundervisningens syfte",
+   "sida": 244
+  },
+  "11.3.1": {
+   "rubrik": "Studier av syftet i relation till utfall",
+   "sida": 244
+  },
+  "11.3.2": {
+   "rubrik": "Studier av motiv för modersmålsundervisning",
+   "sida": 246
+  },
+  "11.3.4": {
+   "rubrik": "Modersmålsundervisning i politisk debatt",
+   "sida": 250
+  },
+  "11.4": {
+   "rubrik": "Modersmålsundervisningens syften – utredningens slutsatser",
+   "sida": 253
+  },
+  "11.4.1": {
+   "rubrik": "Modersmålsundervisning som ett värde i sig",
+   "sida": 253
+  },
+  "11.4.2": {
+   "rubrik": "Modersmålsundervisning som ett instrument för något annat",
+   "sida": 254
+  },
+  "11.4.3": {
+   "rubrik": "Modersmålsundervisningens roll och syfte framgent",
+   "sida": 255
+  },
+  "12": {
+   "rubrik": "Modersmålsundervisning i andra länder",
+   "sida": 257
+  },
+  "12.1": {
+   "rubrik": "Danmark",
+   "sida": 257
+  },
+  "12.1.1": {
+   "rubrik": "Reglering av modersmålsundervisning i Danmark",
+   "sida": 258
+  },
+  "12.1.2": {
+   "rubrik": "Modersmålsundervisning i praktiken i Danmark",
+   "sida": 260
+  },
+  "12.2": {
+   "rubrik": "Finland",
+   "sida": 262
+  },
+  "12.2.1": {
+   "rubrik": "Reglering av modersmålsundervisning i Finland",
+   "sida": 263
+  },
+  "12.2.2": {
+   "rubrik": "Modersmålsundervisning i praktiken i Finland",
+   "sida": 265
+  },
+  "12.3": {
+   "rubrik": "Norge",
+   "sida": 266
+  },
+  "12.3.1": {
+   "rubrik": "Reglering av modersmålsundervisning i Norge",
+   "sida": 267
+  },
+  "12.3.2": {
+   "rubrik": "Modersmålsundervisning i praktiken i Norge",
+   "sida": 270
+  },
+  "12.4": {
+   "rubrik": "Modersmålsundervisningen i andra länder i Europa",
+   "sida": 271
+  },
+  "12.5": {
+   "rubrik": "Länder utanför Europa",
+   "sida": 274
+  },
+  "12.5.1": {
+   "rubrik": "Kanada",
+   "sida": 274
+  },
+  "12.5.2": {
+   "rubrik": "Australien",
+   "sida": 275
+  },
+  "13": {
+   "rubrik": "Integration – bakgrund",
+   "sida": 277
+  },
+  "13.1": {
+   "rubrik": "Migration till Sverige – en historisk tillbakablick",
+   "sida": 277
+  },
+  "13.1.1": {
+   "rubrik": "Demografiska förändringar",
+   "sida": 277
+  },
+  "13.1.2": {
+   "rubrik": "Migration till Sverige",
+   "sida": 279
+  },
+  "13.2": {
+   "rubrik": "Hur integration definieras",
+   "sida": 282
+  },
+  "13.3": {
+   "rubrik": "Hur de politiska målen har formulerats",
+   "sida": 283
+  },
+  "13.3.1": {
+   "rubrik": "Nytt mål för integrationspolitiken",
+   "sida": 284
+  },
+  "13.4": {
+   "rubrik": "Hur integrationsutfallet ser ut",
+   "sida": 284
+  },
+  "13.4.1": {
+   "rubrik": "Integrationspolitik, ramverk och integrationsutfall",
+   "sida": 284
+  },
+  "13.4.2": {
+   "rubrik": "Integrationsutfall i förhållande till olika aspekter av integration",
+   "sida": 286
+  },
+  "13.4.3": {
+   "rubrik": "Integrationsutfall – unga med utländsk bakgrund",
+   "sida": 293
+  },
+  "14": {
+   "rubrik": "Forskning om flerspråkig undervisning och modersmålsundervisning",
+   "sida": 297
+  },
+  "14.1": {
+   "rubrik": "Introduktion till forskningsfältet",
+   "sida": 298
+  },
+  "14.1.1": {
+   "rubrik": "Forskning om flerspråkig undervisning",
+   "sida": 298
+  },
+  "14.1.2": {
+   "rubrik": "Forskning om sambandet mellan flerspråkighet och kognitiv utveckling",
+   "sida": 302
+  },
+  "14.1.3": {
+   "rubrik": "Forskning om modersmålsundervisning i Sverige",
+   "sida": 303
+  },
+  "14.2": {
+   "rubrik": "Forskning om effekter av modersmålsundervisning",
+   "sida": 307
+  },
+  "14.3": {
+   "rubrik": "Diskussion och slutsatser",
+   "sida": 309
+  },
+  "15": {
+   "rubrik": "Modersmålsundervisning – en registerstudie",
+   "sida": 311
+  },
+  "15.1": {
+   "rubrik": "Hur kan modersmålsundervisningens påverkan analyseras?",
+   "sida": 311
+  },
+  "15.2": {
+   "rubrik": "Metod och tillvägagångssätt",
+   "sida": 312
+  },
+  "15.2.1": {
+   "rubrik": "Studerad population och centrala variabler",
+   "sida": 312
+  },
+  "15.2.2": {
+   "rubrik": "Dataanalys",
+   "sida": 315
+  },
+  "15.2.3": {
+   "rubrik": "Avgränsningar",
+   "sida": 316
+  },
+  "15.3": {
+   "rubrik": "Resultat – behörighet till gymnasieskolan, meritvärde och betyg i svenskämnena",
+   "sida": 317
+  },
+  "15.4": {
+   "rubrik": "Resultat – grundläggande behörighet till högskolan och jämförelsetal",
+   "sida": 319
+  },
+  "15.5": {
+   "rubrik": "Resultat – etableringsstatus",
+   "sida": 320
+  },
+  "15.6": {
+   "rubrik": "Resultat – valdeltagande",
+   "sida": 321
+  },
+  "15.7": {
+   "rubrik": "Sammanfattning av registerstudiens resultat",
+   "sida": 322
+  },
+  "15.8": {
+   "rubrik": "Utredningens slutsatser av registerstudien",
+   "sida": 323
+  },
+  "16": {
+   "rubrik": "Modersmålsundervisning – behov av förändringar",
+   "sida": 325
+  },
+  "16.1": {
+   "rubrik": "Tidigare statliga utredningar om och granskningar av modersmålsundervisning",
+   "sida": 325
+  },
+  "16.1.1": {
+   "rubrik": "Statliga utredningar som berör modersmålsundervisning",
+   "sida": 325
+  },
+  "16.1.2": {
+   "rubrik": "Granskningar som berör modersmålsundervisningen",
+   "sida": 327
+  },
+  "16.2": {
+   "rubrik": "Problem och behov av förändringar avseende svensk modersmålsundervisning",
+   "sida": 329
+  },
+  "16.2.1": {
+   "rubrik": "Kompetens",
+   "sida": 329
+  },
+  "16.2.2": {
+   "rubrik": "Tillgång till modersmålsundervisning",
+   "sida": 330
+  },
+  "16.2.3": {
+   "rubrik": "Modersmålslärares arbetsvillkor",
+   "sida": 332
+  },
+  "16.2.4": {
+   "rubrik": "Läroböcker, andra läromedel och andra lärverktyg",
+   "sida": 333
+  },
+  "16.2.5": {
+   "rubrik": "Krav på förkunskaper i modersmålet",
+   "sida": 334
+  },
+  "16.2.6": {
+   "rubrik": "Undervisningens förläggning och omfattning",
+   "sida": 335
+  },
+  "16.2.7": {
+   "rubrik": "Uppföljning av modersmålsundervisningens kvalitet",
+   "sida": 335
+  },
+  "16.2.8": {
+   "rubrik": "Kravet på minst fem elever",
+   "sida": 336
+  },
+  "16.2.9": {
+   "rubrik": "Modersmålsundervisning för ensamkommande barn",
+   "sida": 337
+  },
+  "16.2.10": {
+   "rubrik": "Svenskt teckenspråk som modersmål",
+   "sida": 337
+  },
+  "16.3": {
+   "rubrik": "Utredningens slutsatser",
+   "sida": 338
+  },
+  "17": {
+   "rubrik": "Modersmålsundervisning – utredningens sammanfattande analys och slutsatser",
+   "sida": 339
+  },
+  "17.1": {
+   "rubrik": "Utredningens analys och slutsatser",
+   "sida": 339
+  },
+  "17.2": {
+   "rubrik": "Åtgärder för att främja kvalitet och likvärdighet i modersmålsundervisningen",
+   "sida": 342
+  },
+  "17.3": {
+   "rubrik": "Åtgärder för att främja nyanlända elevers kunskaps- utveckling genom studiehandledning på modersmålet",
+   "sida": 343
+  },
+  "17.3.1": {
+   "rubrik": "Förstärkt rätt till studiehandledning på modersmål för nyanlända elever",
+   "sida": 344
+  },
+  "17.4": {
+   "rubrik": "Kompletterande åtgärder",
+   "sida": 344
+  },
+  "17.4.1": {
+   "rubrik": "Stärkt tillgång till modersmålsundervisning genom nationell samordning",
+   "sida": 345
+  },
+  "17.4.2": {
+   "rubrik": "Granskning av modersmålsundervisningens kvalitet",
+   "sida": 346
+  },
+  "17.4.3": {
+   "rubrik": "Förbättrade förutsättningar för uppföljning, utvärdering och forskning",
+   "sida": 347
+  },
+  "18": {
+   "rubrik": "Konsekvensbeskrivning",
+   "sida": 349
+  },
+  "18.1": {
+   "rubrik": "Krav på konsekvensanalysen",
+   "sida": 349
+  },
+  "18.2": {
+   "rubrik": "Problemen, förslag till lösningar och alternativa lösningar",
+   "sida": 350
+  },
+  "18.2.1": {
+   "rubrik": "Utredningens förslag till lösningar och alternativa lösningar",
+   "sida": 351
+  },
+  "18.3": {
+   "rubrik": "Konsekvenser som bedöms uppstå om ingen åtgärd vidtas",
+   "sida": 361
+  },
+  "18.3.1": {
+   "rubrik": "Förslaget om grundläggande svenska som andraspråk",
+   "sida": 361
+  },
+  "18.3.2": {
+   "rubrik": "Förslagen om målgrupperna, rektorns beslut och nationellt kartläggningsmaterial",
+   "sida": 362
+  },
+  "18.3.3": {
+   "rubrik": "Förslaget om att en elev ska ges god vägledning i valet av svenskämne",
+   "sida": 362
+  },
+  "18.3.4": {
+   "rubrik": "Förslaget om att betyg i ämnena svenska och svenska som andraspråk inte samtidigt ska kunna ingå i en elevs examens- eller studiebevis eller gymnasiebevis avseende anpassad gymnasieskola",
+   "sida": 363
+  },
+  "18.4": {
+   "rubrik": "Samhällsekonomiska konsekvenser",
+   "sida": 363
+  },
+  "18.4.1": {
+   "rubrik": "Konsekvenser för jämställdhet",
+   "sida": 365
+  },
+  "18.4.2": {
+   "rubrik": "Konsekvenser för integrationen",
+   "sida": 365
+  },
+  "18.4.3": {
+   "rubrik": "Konsekvenser för brottslighet och brottsförebyggande arbete",
+   "sida": 365
+  },
+  "18.4.4": {
+   "rubrik": "Konsekvenser för miljö och klimat",
+   "sida": 366
+  },
+  "18.5": {
+   "rubrik": "Konsekvenser för elever",
+   "sida": 366
+  },
+  "18.5.1": {
+   "rubrik": "Elever som berörs av förslagen",
+   "sida": 366
+  },
+  "18.5.2": {
+   "rubrik": "Konsekvenser i relation till FN:s konvention om barnets rättigheter",
+   "sida": 368
+  },
+  "18.5.3": {
+   "rubrik": "Konsekvenser i relation till FN:s konvention om rättigheter för personer med funktionsnedsättning",
+   "sida": 369
+  },
+  "18.5.4": {
+   "rubrik": "Konsekvenser i relation till principen om icke-diskriminering",
+   "sida": 370
+  },
+  "18.6": {
+   "rubrik": "Organisatoriska och pedagogiska konsekvenser",
+   "sida": 370
+  },
+  "18.6.1": {
+   "rubrik": "Konsekvenser för gymnasieskolan och anpassade gymnasieskolan",
+   "sida": 373
+  },
+  "18.7": {
+   "rubrik": "Övriga konsekvenser",
+   "sida": 374
+  },
+  "18.7.1": {
+   "rubrik": "Förslagens relation till EU-rätt och annan internationell rätt",
+   "sida": 374
+  },
+  "18.7.2": {
+   "rubrik": "Konsekvenser i relation till Europarådets ramkonvention om skydd för nationella minoriteter",
+   "sida": 374
+  },
+  "18.7.3": {
+   "rubrik": "Konsekvenser i relation till den europeiska stadgan om landsdels- eller minoritetsspråk",
+   "sida": 374
+  },
+  "18.8": {
+   "rubrik": "Konsekvenser för kommuner och regioner",
+   "sida": 374
+  },
+  "18.9": {
+   "rubrik": "Konsekvenser för staten",
+   "sida": 376
+  },
+  "18.9.1": {
+   "rubrik": "Konsekvenser för Statens skolverk",
+   "sida": 376
+  },
+  "18.9.2": {
+   "rubrik": "Specialpedagogiska skolmyndigheten",
+   "sida": 378
+  },
+  "18.9.3": {
+   "rubrik": "Sameskolstyrelsen",
+   "sida": 378
+  },
+  "18.9.4": {
+   "rubrik": "Statens skolinspektion",
+   "sida": 378
+  },
+  "18.10": {
+   "rubrik": "Konsekvenser för enskilda huvudmän",
+   "sida": 379
+  },
+  "18.11": {
+   "rubrik": "Konsekvenser för företag",
+   "sida": 379
+  },
+  "18.12": {
+   "rubrik": "Kostnadsberäkningar",
+   "sida": 379
+  },
+  "18.12.1": {
+   "rubrik": "Skolverket ska ta fram ett nationellt kartläggningsmaterial samt stödja skolorna",
+   "sida": 380
+  },
+  "18.12.2": {
+   "rubrik": "Skolverket ska ta fram ett informationsmaterial för vägledning inför val av svenskämne",
+   "sida": 381
+  },
+  "18.12.3": {
+   "rubrik": "Kostnader enligt finansieringsprincipen – kartläggning för bedömning av en elevs behov av svenska som andraspråk",
+   "sida": 381
+  },
+  "18.13": {
+   "rubrik": "Förslag till finansiering",
+   "sida": 383
+  },
+  "19": {
+   "rubrik": "Ikraftträdande",
+   "sida": 385
+  }
+ }
+}
