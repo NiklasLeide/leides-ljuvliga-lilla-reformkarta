@@ -1,0 +1,121 @@
+{
+ "_meta": {
+  "steg": "R1 redaktionell koppling mellan utredningsförslag och propositionsavsnitt (Sprint 17, ämnesmatchning mot propositionens rutor och rubriker)",
+  "redaktionell": true,
+  "matchningstyper": [
+   "förslagsruta",
+   "avsnittsnivå",
+   "osäker ämnesmatchning",
+   "övergripande avsnitt, detalj ej behandlad",
+   "ingen"
+  ]
+ },
+ "forslag": [
+  {
+   "id": "F01",
+   "propositionsavsnitt": [
+    "193:6.1"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Rektorns ansvar för att upprätthålla trygghet och studiero behandlas i regeringens förslag i prop. 193 avsnitt 6.1; enligt propositionen stämmer utredningens förslag delvis överens (annan utformning av rektorns ansvar).",
+   "rubriker": [
+    "6.1 Det behövs en tydligare reglering av huvudmannens och rektorns ansvar för trygghet och studiero",
+    "Regeringens förslag",
+    "Utredningens förslag"
+   ]
+  },
+  {
+   "id": "F02",
+   "propositionsavsnitt": [
+    "194:6.2"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Prop. 194 avsnitt 6.2 behandlar SOU 2025:8 avsnitt 3.2: regeringens förslag om begränsat vårdnadshavarinflytande (4 kap. 12 §) stämmer i huvudsak överens med utredningens. Samma ruta har definitionen att undervisning bestäms och leds av lärare, men propositionen redovisar den mot Läroplansutredningens förslag.",
+   "rubriker": [
+    "6.2 Syftet med undervisningen ska tydliggöras och lärarnas roll ska stärkas",
+    "Regeringens förslag",
+    "Utredningen om stärkt trygghet och studiero i skolans förslag"
+   ]
+  },
+  {
+   "id": "F03",
+   "propositionsavsnitt": [
+    "193:6.1",
+    "193:6.2.1",
+    "193:6.2.2"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Utvisning utan föregående uppmaning (prop. 193 avsnitt 6.2.1, i huvudsak överens) och slopat dokumentationskrav (avsnitt 6.2.2, överens) har egna förslagsrutor; rektorns ansvar för personalens förutsättningar att vidta tillfälliga och omedelbara åtgärder nämns i avsnitt 6.1 under Utredningens förslag. Uppdraget till Skolverket om stödmaterial behandlas inte i någon ruta.",
+   "rubriker": [
+    "6.1 Det behövs en tydligare reglering av huvudmannens och rektorns ansvar för trygghet och studiero",
+    "6.2.1 Lärarna ska få utökade möjligheter att visa ut elever ur undervisningslokalen",
+    "6.2.2 Utvisning och kvarsittning ska inte behöva dokumenteras",
+    "Regeringens förslag",
+    "Utredningens förslag"
+   ]
+  },
+  {
+   "id": "F04",
+   "propositionsavsnitt": [
+    "193:6.4.1"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Skolregler med konsekvensplan, beslutade av rektorn och förankrade hos eleverna, samt gemensamma rutiner och förhållningssätt finns i regeringens förslag i prop. 193 avsnitt 6.4.1; utredningens förslag stämmer i huvudsak överens.",
+   "rubriker": [
+    "6.4.1 Skolornas regler ska bli mer ändamålsenliga, kända och förankrade",
+    "Regeringens förslag",
+    "Utredningens förslag"
+   ]
+  },
+  {
+   "id": "F05",
+   "propositionsavsnitt": [
+    "193:6.4.2"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Förväntansdokument på varje skolenhet behandlas i regeringens förslag i prop. 193 avsnitt 6.4.2; utredningens förslag stämmer i huvudsak överens. Uppdraget om mallar tas upp i skälen men ges inte.",
+   "rubriker": [
+    "6.4.2 Skolans förväntningar på eleverna och deras vårdnadshavare ska tydliggöras genom förväntansdokument",
+    "Regeringens förslag",
+    "Utredningens förslag",
+    "Skälen för regeringens förslag"
+   ]
+  },
+  {
+   "id": "F06",
+   "propositionsavsnitt": [
+    "193:7.1",
+    "193:7.2",
+    "193:7.3",
+    "193:7.4",
+    "193:7.5"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Tillfällig placering och återgångsplan (prop. 193 avsnitt 7.1), akutskola på entreprenad (7.2), fler och längre avstängningar med kompensation (7.3) och nekat tillträde (7.4) har var sin förslagsruta; överklagande av nekat tillträde (7.5), som utredningen föreslår i skälen till avsnitt 4.1, stämmer överens. Uppdraget till Skolinspektionen om tillsyn behandlas inte i någon ruta.",
+   "rubriker": [
+    "7.1 Det ska bli möjligt att tillfälligt omplacera elever under längre tid",
+    "7.2 Akutskola ska få överlämnas till en annan huvudman på entreprenad",
+    "7.3 Fler och längre avstängningar ska möjliggöras",
+    "7.4 Elever ska kunna nekas tillträde till skolan",
+    "7.5 Beslut om nekat tillträde till skolenheten ska kunna överklagas",
+    "Regeringens förslag",
+    "Utredningens förslag",
+    "Utredningens förslag och bedömning"
+   ]
+  },
+  {
+   "id": "F07",
+   "propositionsavsnitt": [],
+   "matchning": "ingen",
+   "grund": "Definitionen av giltig och ogiltig frånvaro (förordningsnivå) behandlas inte i någon av propositionerna; ordet frånvaro förekommer inte i de behandlade avsnitten.",
+   "rubriker": []
+  },
+  {
+   "id": "F08",
+   "propositionsavsnitt": [],
+   "matchning": "ingen",
+   "grund": "Nationellt frånvaroregister och publicering via informationssystemet behandlas inte i någon av propositionerna.",
+   "rubriker": []
+  }
+ ]
+}
