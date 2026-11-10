@@ -1,5 +1,110 @@
 [
   {
+    "datum": "2026-11-09",
+    "text": "Skolverket skickade förslag på nya läroplaner och kursplaner för grundskolan, anpassade grundskolan, specialskolan och sameskolan på remiss. Sista dag att lämna synpunkter är 20 januari 2027.",
+    "reform_ids": [
+      "laroplaner",
+      "tioarig"
+    ],
+    "kalla": {
+      "text": "Skolverkets remissida",
+      "url": "https://www.skolverket.se/om-skolverket/det-har-gor-skolverket/skolverkets-remisser/remisser/2026-11-09-remiss-forslag-pa-nya-laroplaner-och-kursplaner-for-grundskolan-anpassade-grundskolan-specialskolan-och-sameskolan"
+    }
+  },
+  {
+    "datum": "2026-10-29",
+    "text": "Slutbetänkandet SOU 2026:65 (Verktyg för en mer likvärdig resursfördelning) från Utredningen om en nationell skolpengsnorm för ökad likvärdighet överlämnades till regeringen.",
+    "reform_ids": [
+      "skolpeng"
+    ],
+    "kalla": {
+      "text": "SOU 2026:65",
+      "url": "https://data.riksdagen.se/dokument/HEB365.html"
+    }
+  },
+  {
+    "datum": "2026-10-22",
+    "text": "Regeringen förlängde Utredningen om en åldersgräns på sociala medier (Dir. 2026:123). Utredningen redovisas senast 31 december 2026.",
+    "reform_ids": [],
+    "kalla": {
+      "text": "Dir. 2026:123",
+      "url": "https://data.riksdagen.se/dokument/HEB1123.html"
+    }
+  },
+  {
+    "datum": "2026-09-03",
+    "text": "Regeringen tillsatte en utredning om en översyn av svenskämnenas indelning (Dir. 2026:107). Utredningen redovisas senast 6 december 2027.",
+    "reform_ids": [
+      "laroplaner"
+    ],
+    "kalla": {
+      "text": "Dir. 2026:107",
+      "url": "https://data.riksdagen.se/dokument/HEB1107.html"
+    }
+  },
+  {
+    "datum": "2026-09-03",
+    "text": "Regeringen tillsatte en utredning om åtgärder för att förebygga och förhindra allvarliga våldsdåd i skolmiljöer (Dir. 2026:105). Utredningen redovisas senast 31 maj 2028.",
+    "reform_ids": [
+      "brott"
+    ],
+    "kalla": {
+      "text": "Dir. 2026:105",
+      "url": "https://data.riksdagen.se/dokument/HEB1105.html"
+    }
+  },
+  {
+    "datum": "2026-09-03",
+    "text": "En utredare fick i uppdrag att föreslå obligatorisk förskola med språkutvecklande insatser (U2026/01573). Uppdraget redovisas senast 1 september 2027.",
+    "reform_ids": [
+      "sprak"
+    ],
+    "kalla": {
+      "text": "Uppdrag U2026/01573",
+      "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2026/09/u202601573/"
+    }
+  },
+  {
+    "datum": "2026-09-03",
+    "text": "En utredare fick i uppdrag att utreda nationell yrkesutbildning (U2026/01569). Uppdraget redovisas senast 31 mars 2027.",
+    "reform_ids": [
+      "yrkes"
+    ],
+    "kalla": {
+      "text": "Uppdrag U2026/01569",
+      "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2026/09/u202601569/"
+    }
+  },
+  {
+    "datum": "2026-09-03",
+    "text": "Regeringen förlängde Utredningen om tydligare regler vid undantag från skolplikten (Dir. 2026:117). Utredningen redovisas senast 31 mars 2027.",
+    "reform_ids": [],
+    "kalla": {
+      "text": "Dir. 2026:117",
+      "url": "https://data.riksdagen.se/dokument/HEB1117.html"
+    }
+  },
+  {
+    "datum": "2026-09-01",
+    "text": "En utredare fick i uppdrag att utreda vissa skärpta villkor för enskilda huvudmän inom skolväsendet (U2026/01547). Uppdraget redovisas senast 30 september 2027.",
+    "reform_ids": [
+      "vinst"
+    ],
+    "kalla": {
+      "text": "Uppdrag U2026/01547",
+      "url": "https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/2026/09/u202601547/"
+    }
+  },
+  {
+    "datum": "2026-08-27",
+    "text": "Regeringen utvidgade och förlängde Utredningen om förstärkt statlig styrning och stöd inom den sociala barn- och ungdomsvården (Dir. 2026:98). Utredningen redovisas senast 30 november 2027.",
+    "reform_ids": [],
+    "kalla": {
+      "text": "Dir. 2026:98",
+      "url": "https://data.riksdagen.se/dokument/HEB198.html"
+    }
+  },
+  {
     "datum": "2026-08-27",
     "text": "Regeringen tillsatte Utredningen om åtgärder för lämpliga klasstorlekar (Dir. 2026:96). Utredningen redovisas senast 28 januari 2028.",
     "reform_ids": [
