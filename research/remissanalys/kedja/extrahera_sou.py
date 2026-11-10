@@ -158,6 +158,14 @@ if __name__ == '__main__':
                                      'lista': toc, 'kapitel': kapitel, 'avsnitt': avsn})
     f = tilldela_avsnitt(rutor(Pvol, sounr, s.get('ruta_rubriker')), toc, Pvol)
     skriv(rid, 'sou-forslag.json', {'_meta': {'kalla': {'text': f'{sounr}, förslagsrutor ("Förslag:")', 'url': url1}, 'pdf': {v['vol']: v['url'] for v in vols}}, 'forslag': f})
-    p = paragrafer(P1raw, toc, kravs(c, 'sou', 'forfattningskommentar'), sounr)
-    skriv(rid, 'sou-paragrafer.json', {'_meta': {'kalla': {'text': f"{sounr}, författningskommentar {s['forfattningskommentar']['avsnitt']}", 'url': url1}, 'lag': s['forfattningskommentar']['lag']}, 'paragrafer': p})
+    fks = kravs(c, 'sou', 'forfattningskommentar')
+    if isinstance(fks, list):
+        # Flera lagar (config sou.forfattningskommentar som lista, en post per lag i samma ordning som config lagar, t.ex.
+        # SOU 2025:26: 12.1 diskrimineringslagen, 12.2 skollagen). Varje paragraf får fältet 'lag' (= postens 'lag', samma
+        # namn som lagar[].namn) så att K4/K8 kan hålla isär lagarna. Med en enda lag (dict) är utdata oförändrade.
+        p = [dict(x, lag=fk['lag']) for fk in fks for x in paragrafer(P1raw, toc, fk, sounr)]
+        skriv(rid, 'sou-paragrafer.json', {'_meta': {'kalla': {'text': f"{sounr}, författningskommentar {', '.join(fk['avsnitt'] for fk in fks)}", 'url': url1}, 'lag': [fk['lag'] for fk in fks]}, 'paragrafer': p})
+    else:
+        p = paragrafer(P1raw, toc, fks, sounr)
+        skriv(rid, 'sou-paragrafer.json', {'_meta': {'kalla': {'text': f"{sounr}, författningskommentar {s['forfattningskommentar']['avsnitt']}", 'url': url1}, 'lag': s['forfattningskommentar']['lag']}, 'paragrafer': p})
     print(f'{rid}: innehåll {len(toc)} poster, {len(f)} förslagsrutor, {len(p)} paragrafer')

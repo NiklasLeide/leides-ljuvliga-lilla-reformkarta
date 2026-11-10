@@ -97,7 +97,7 @@ if __name__ == '__main__':
 
     # ---------- SFS ----------
     SFS = {x['forslag']: (i, x) for i, x in enumerate(sfsd['forslag'])}
-    andr = kravs(c, 'lagar')[0]; lagparagrafer = {}
+    andr0 = kravs(c, 'lagar')[0]; lagparagrafer = {}
     def sfs_for(fid):
         if fid not in SFS:
             return {'status': None, 'forklaring': f'Inte undersökt: förslaget hade ingen kopplad utmaning i förstudie 2 ({os.path.basename(SFS_BELAGG)}).'}
@@ -114,6 +114,10 @@ if __name__ == '__main__':
                                       'belagg': f'{SFS_BELAGG}#/forslag/{i}/paragrafer/{j}'}
             pars.append({'paragraf': key, 'textlikhet_procent': lagparagrafer[key]['textlikhet_procent']})
         if all(lagparagrafer[p['paragraf']]['beslutad'] for p in pars):
+            # flera lagar (sfs_diff.py ger då 'lag' per paragrafrad): källan är den lag paragraferna tillhör (första; vid
+            # paragrafer ur flera lagar nämns den första lagen, övriga syns i paragrafbeteckningen)
+            lag_ = next((p_['lag'] for p_ in x['paragrafer'] if p_.get('lag')), None)
+            andr = next((l_ for l_ in kravs(c, 'lagar') if l_['namn'] == lag_), andr0)
             return {'status': 'i beslutad lag', 'paragrafer': pars,
                     'kalla': {'text': f"{andr['namn']} konsoliderad, riksdagens öppna data, hämtad {HAMTAT} (lydelser enligt SFS {', '.join(andr['andringar'])})", 'url': sfsd['_meta'].get('url') or f"https://data.riksdagen.se/dokument/{andr['riksdagen_id']}.text"}}
         return {'status': None, 'paragrafer': pars, 'forklaring': 'Minst en paragraf saknar beslutad lydelse; se diff.'}

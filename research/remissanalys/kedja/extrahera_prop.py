@@ -5,8 +5,9 @@
   propositionsavsnitt-text.json   samma avsnitt med text per tryckt sida (för namnsökning); rubriker följs över flera rader
   propositioner-innehall.json     propositionernas innehållsförteckning (för kontroll av rubrikerna)
   prop-lagtext.json               lagförslagen (kap. 2) ur tvåspaltig layout via ordkoordinater: föreslagen lydelse per paragraf
-Konfiguration: propositioner[] (pdf_url, kort, avsnitt, utredningens_forslag_rubrik, ovriga_delrubriker, lagtext_sidor),
-layout.spaltforskjutning_pt, layout.ord_y_intervall_pt.
+Konfiguration: propositioner[] (pdf_url, kort, avsnitt, utredningens_forslag_rubrik, ovriga_delrubriker, lagtext_sidor,
+flerradiga_delrubriker, lagforslag_rubrik), layout.spaltforskjutning_pt, layout.ord_y_intervall_pt, layout.rensa_marginal_i_delar,
+layout.rubrik_over_blankrad, layout.vanstermarginal_pt, layout.lagtext_tolerant.
 Användning: python3 research/remissanalys/kedja/extrahera_prop.py <reform-id>"""
 import html, os, re, subprocess, sys, unicodedata
 from collections import Counter
@@ -30,6 +31,10 @@ def lab_regex(c):
 
 HEAD = re.compile(r'^\s{0,25}((?:1?\d)(?:\.\d{1,2}){0,3})\s{2,}([A-ZÅÄÖ].*)$')
 RENSA_MARGINAL = False   # config layout.rensa_marginal_i_delar (av för betyg: identisk Sprint 16-fil)
+RUBRIK_OVER_BLANKRAD = False   # config layout.rubrik_over_blankrad (av som standard): i avsnitt_text följs avsnittsrubriken även
+                               # över blankrader fram till första underrubriken (prop. 2025/26:196 avsnitt 6: "Tiden för
+                               # undervisningsuppdraget ska" / blankrad / "regleras"). Avsnitt utan regeringens ruta, vars
+                               # brödtext då hamnar i rubriken, tas ändå bort; avsnitt med ruta har underrubriken direkt efter.
 def printed(p, i=None):
     L = [l.strip() for l in p.split('\n') if l.strip()]
     for l in L[-3:] + L[:3]:
@@ -100,6 +105,7 @@ def avsnitt_text(P, LAB, want):
             if m and not re.search(r'\.{4,}', l2):
                 cur = {'avsnitt': m.group(1), 'rubrik': m.group(2).strip(), 'delar': []}; secs.append(cur); lab = None; rub_fort = True; continue
             if rub_fort:
+                if RUBRIK_OVER_BLANKRAD and not l2.strip(): continue   # rubriken fortsätter efter blankrad (se konstanten)
                 if l2.strip() and not LAB.match(l2):
                     cur['rubrik'] = re.sub(r'(\w)- (?!och |eller |samt )(?=[a-zåäö])', r'\1', cur['rubrik'] + ' ' + l2.strip()); continue
                 rub_fort = False
@@ -128,6 +134,24 @@ def innehall(P):
                 toc.setdefault(mm.group(1), {'titel': re.sub(r'(\w)- (?!och |eller |samt )(?=[a-zåäö])', r'\1', re.sub(r'\s+', ' ', mm.group(2))), 'sida': int(mm.group(3))}); buf = ''
             elif len(buf) > 400: buf = ''
     return toc
+
+def foga_rubriker(P, rubriker):
+    """Config propositioner[].flerradiga_delrubriker (tom/saknas som standard: P oförändrad): underrubriker som i PDF:en
+    bryts över två rader, t.ex. prop. 2025/26:196 avsnitt 8–9 "Förslag från Utredningen om minskad administration och om" /
+    "reglering av förskollärares och lärares tid (SOU 2025:26)". Två på varandra följande rader som tillsammans (efter att
+    blanksteg och marginaltext "Prop. …" rensats) är exakt en sådan rubrik slås ihop till en rad, så att rubriken känns igen
+    som del (den måste också stå i utredningens_forslag_rubrik eller ovriga_delrubriker)."""
+    if not rubriker: return P
+    def rensa(l): return re.sub(r'\s{2,}' + PROPNR + r'\s*$', '', re.sub(r'^\s*' + PROPNR + r'\s{2,}', '', l)).strip()
+    ut = []
+    for p in P:
+        L = p.split('\n'); ny = []; i = 0
+        while i < len(L):
+            if i + 1 < len(L) and rensa(L[i]) and rensa(L[i]) + ' ' + rensa(L[i + 1]) in rubriker:
+                ny.append(L[i][:len(L[i]) - len(L[i].lstrip())] + rensa(L[i]) + ' ' + rensa(L[i + 1])); i += 2; continue
+            ny.append(L[i]); i += 1
+        ut.append('\n'.join(ny))
+    return ut
 
 LAGFORSLAG_RUBRIK = r'^2\.(\d)\s+Förslag till lag om ändring i (.*)$'
 
@@ -203,11 +227,12 @@ def lagtext(pdf, forsta, sista, spalt, yint, rubrik=None, marginal=None, toleran
 if __name__ == '__main__':
     rid = reform_id(); c = config(rid); LAB = lab_regex(c)
     RENSA_MARGINAL = bool((c.get('layout') or {}).get('rensa_marginal_i_delar'))
+    RUBRIK_OVER_BLANKRAD = bool((c.get('layout') or {}).get('rubrik_over_blankrad'))
     spalt = kravs(c, 'layout', 'spaltforskjutning_pt'); yint = kravs(c, 'layout', 'ord_y_intervall_pt')
     pav = {}; ptx = {}; pin = {}; plag = {}
     for p in kravs(c, 'propositioner'):
         k = p['kort']; pdf = mapp(rid, 'kallor', 'prop', k + '.pdf')
-        P = text(pdf, True); RAW = text(pdf, False)
+        P = foga_rubriker(text(pdf, True), p.get('flerradiga_delrubriker')); RAW = text(pdf, False)
         want = None if p['avsnitt'] == 'alla' else set(p['avsnitt'])
         secs = [s for s in avsnitt_delar(P, LAB) if want is None or s['avsnitt'] in want]
         raw = re.sub(r'[\s\-­–]', '', unicodedata.normalize('NFC', re.sub(PROPNR + r'|\n\d{1,3}\n', '', '\f'.join(RAW))))

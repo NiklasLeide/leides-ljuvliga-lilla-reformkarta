@@ -37737,12 +37737,8 @@
     "redaktionell": true
    },
    "sfs": {
-    "status": "ej i SFS per 2026-11-10",
-    "kalla": {
-     "text": "Ingen paragraf i SOU:ns författningskommentar till skollagen (8.1) hänvisar till avsnitt 6.2 — förslaget avser förordningsnivå. Konsoliderade förordningar hämtade 2026-11-10 (jämförda; ingen markör angiven): Skolförordning (2011:185)",
-     "url": "https://data.riksdagen.se/dokument/sfs-2011-185.text",
-     "ovriga_urler": []
-    }
+    "status": null,
+    "forklaring": "Ingen paragraf i SOU:ns författningskommentar till skollagen (8.1) hänvisar till avsnitt 6.2 — förslaget avser förordningsnivå (eller annan reglering). Ingen textmarkör är angiven, så det är inte maskinellt avgjort om förslaget har genomförts i förordningarna: Skolförordning (2011:185)."
    }
   },
   {
@@ -37981,12 +37977,8 @@
     "redaktionell": true
    },
    "sfs": {
-    "status": "ej i SFS per 2026-11-10",
-    "kalla": {
-     "text": "Ingen paragraf i SOU:ns författningskommentar till skollagen (8.1) hänvisar till avsnitt 7 — förslaget avser förordningsnivå. Konsoliderade förordningar hämtade 2026-11-10 (jämförda; ingen markör angiven): Skolförordning (2011:185)",
-     "url": "https://data.riksdagen.se/dokument/sfs-2011-185.text",
-     "ovriga_urler": []
-    }
+    "status": null,
+    "forklaring": "Ingen paragraf i SOU:ns författningskommentar till skollagen (8.1) hänvisar till avsnitt 7 — förslaget avser förordningsnivå (eller annan reglering). Ingen textmarkör är angiven, så det är inte maskinellt avgjort om förslaget har genomförts i förordningarna: Skolförordning (2011:185)."
    }
   }
  ],

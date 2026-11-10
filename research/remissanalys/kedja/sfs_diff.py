@@ -91,6 +91,13 @@ if __name__ == '__main__':
                     post.update(status=None, status_kalla={'text': f"Ingen paragraf i SOU:ns författningskommentar till {LAG_BEST_ALLA} ({FK_AVS}) hänvisar till avsnitt " + b['avsnitt'] + '; inga förordningar är angivna för jämförelse i konfigurationen.', 'url': U_SOU[b['vol']]})
                     res.append(post); continue
                 mk = '; '.join(f'{sum(fo[2].get(m, 0) for fo in FORORD)} träffar på "{m}"' for m in c.get('forordning_markor') or [])
+                traffar = sum(sum(fo[2].values()) for fo in FORORD)
+                if not mk or traffar:
+                    # Utan markör (eller med träffar) går det inte att avgöra mekaniskt om förslaget finns i förordningen:
+                    # status null med förklaring i stället för ett obelagt "ej i SFS" (Sprint 17).
+                    post.update(status=None, status_kalla={'text': f"Ingen paragraf i SOU:ns författningskommentar till {LAG_BEST_ALLA} ({FK_AVS}) hänvisar till avsnitt " + b['avsnitt'] + ' — förslaget avser förordningsnivå (eller annan reglering). '
+                                + ('Ingen textmarkör är angiven, så' if not mk else f'Markörerna har träffar ({mk}), så') + ' det är inte maskinellt avgjort om förslaget har genomförts i förordningarna: ' + '; '.join(x[0] for x in FORORD) + '.', 'url': FORORD[0][1]})
+                    res.append(post); continue
                 post.update(status=f'ej i SFS per {HAMTAT}', status_kalla={'text': f"Ingen paragraf i SOU:ns författningskommentar till {LAG_BEST_ALLA} ({FK_AVS}) hänvisar till avsnitt " + b['avsnitt'] + ' — förslaget avser förordningsnivå. Konsoliderade förordningar hämtade ' + HAMTAT + (f" innehåller inte {kravs(c, 'forordning_markor_beskrivning')} ({mk})" if mk else ' (jämförda; ingen markör angiven)') + ': ' + '; '.join(x[0] for x in FORORD),
                                                                               'url': FORORD[0][1], 'ovriga_urler': [x[1] for x in FORORD[1:]]})
             res.append(post); continue

@@ -1,17 +1,51 @@
 {
  "id": "tid",
- "namn": null,
+ "namn": "Tid för undervisningsuppdraget – åtgärder för god undervisning och läraryrkenas attraktivitet",
  "namn_i_brief": "Tid för undervisningsuppdraget",
  "reforms_json_id": "tid",
- "status": "mall — fylls i när reformen tas fram",
+ "status": "under arbete (Sprint 17)",
  "sou": {
   "nr": "SOU 2025:26",
   "titel": "Tid för undervisningsuppdraget – åtgärder för god undervisning och läraryrkenas attraktivitet",
   "sida_url": "https://www.regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2025/03/sou-202526/",
-  "pdf": null,
-  "innehall_sidor": null,
-  "forslagskapitel": null,
-  "forfattningskommentar": null
+  "pdf": [
+   {
+    "vol": "betankande",
+    "url": "https://www.regeringen.se/contentassets/6dfbf9bb877b433bbca46ad8c07950fe/tid-for-undervisningsuppdraget--atgarder-for-god-undervisning-och-lararyrkenas-attraktivitet-sou-202526.pdf"
+   }
+  ],
+  "innehall_sidor": [
+   5,
+   15
+  ],
+  "forslagskapitel": [
+   6,
+   10
+  ],
+  "forfattningskommentar": [
+   {
+    "avsnitt": "12.1",
+    "slut_avsnitt": "12.2",
+    "lag": "Diskrimineringslag (2008:567)"
+   },
+   {
+    "avsnitt": "12.2",
+    "slut_avsnitt": "Referenser",
+    "slut_sida": 581,
+    "lag": "Skollag (2010:800)",
+    "radkorrigeringar": {
+     "5a§": [
+      "5 a §"
+     ]
+    }
+   }
+  ],
+  "ruta_rubriker": {
+   "Förslag": "Utredningens förslag(?: på ändring(?:ar)? i [a-zåäö ]{1,40})?:",
+   "Bedömning": "Utredningens bedömning:"
+  },
+  "ruta_anm": "SOU 2025:26 har rutor \"Utredningens förslag: …\" / \"Utredningens bedömning: …\" med texten på samma rad. I 6.3.1 finns två separata rutor \"Utredningens förslag på ändring i skollagen:\" och \"Utredningens förslag på ändringar i läroplanerna:\" (kontrollerat mot sidbilden s. 268), därav tillägget i regexen; rubriktillägget ingår inte i förslagstexten. En ruta = ett förslag: 20 förslagsrutor (kap. 6–10); 9 bedömningsrutor (6.3.4, 6.6.1, 6.8, 7.5.1–7.5.3, 8.4, 8.6, 10) räknas inte.",
+  "forfattningskommentar_anm": "Två lagar: 12.1 diskrimineringslagen (s. 557–558, slutar vid rubriken 12.2) och 12.2 skollagen (slutar vid \"Referenser\", s. 581, därför slut_sida). Lista i stället för dict = flerlagsläget i extrahera_sou.py (fältet 'lag' per paragraf). radkorrigeringar: \"5a§\" (6 kap.) saknar mellanslag i pdftotext. \"7§\", \"5§\" o.d. känns igen ändå. Kommentaren har inget avsnitt om ikraftträdande."
  },
  "remiss": {
   "url": "https://www.regeringen.se/remisser/2025/03/remiss-av-betankandet-tid-for-undervisningsuppdraget--atgarder-for-god-undervisning-och-lararyrkenas-attraktivitet-sou-202526/",
@@ -20,27 +54,81 @@
  "propositioner": [
   {
    "nr": "Prop. 2025/26:196",
+   "kort": "196",
    "sida_url": "https://www.regeringen.se/rattsliga-dokument/proposition/2026/03/prop.-202526196",
-   "pdf_url": null,
-   "avsnitt": null,
-   "utredningens_forslag_rubrik": null,
-   "remissinstanser_rubrik": null,
-   "hoppa_delar_vid_namnsokning": [],
-   "lagtext_sidor": null,
-   "forteckning_remissinstanser_sida": null
+   "pdf_url": "https://www.regeringen.se/contentassets/7bfa7c951ef54678981bfdb82f028b93/tid-for-undervisningsuppdraget-prop.-202526196.pdf",
+   "avsnitt": "alla",
+   "utredningens_forslag_rubrik": [
+    "Utredningens förslag",
+    "Förslag från Utredningen om minskad administration och om reglering av förskollärares och lärares tid (SOU 2025:26)"
+   ],
+   "flerradiga_delrubriker": [
+    "Förslag från Utredningen om minskad administration och om reglering av förskollärares och lärares tid (SOU 2025:26)"
+   ],
+   "remissinstanser_rubrik": "Remissinstanserna",
+   "hoppa_delar_vid_namnsokning": [
+    "Läroplansutredningens"
+   ],
+   "hoppade_delar_beskrivning": "delar om SOU 2025:19",
+   "lagtext_sidor": [
+    5,
+    18
+   ],
+   "forteckning_remissinstanser_sida": 142,
+   "forteckning_bilaga": 3,
+   "ovriga_delrubriker": [
+    "Läroplansutredningens förslag (SOU 2025:19)"
+   ],
+   "anm": "Avsnitt \"alla\": alla fem avsnitt med regeringens ruta (6, 7.1, 7.2, 8, 9) behandlar SOU 2025:26. Propositionen behandlar också förslagen i avsnitt 4.2 i SOU 2025:19 (Läroplansutredningen; 1 kap. 5 § och 6 kap. 10 § skollagen), med egna delar \"Läroplansutredningens förslag (SOU 2025:19)\" i avsnitt 8 och 9; de och deras \"Remissinstanserna#2\" hoppas över vid namnsökning. I avsnitt 8 och 9 heter utredningens del \"Förslag från Utredningen om minskad administration och om reglering av förskollärares och lärares tid (SOU 2025:26)\" över två rader (flerradiga_delrubriker); i 6, 7.1 och 7.2 \"Utredningens förslag\". Ingen annan proposition behandlar SOU 2025:26: riksdagens dokumentsökning på \"SOU 2025:26\" bland propositioner 2025/26 ger prop. 196 och prop. 1, 47, 103, 166 (budget, Riksrevisionen, kommittéberättelse; bara omnämnanden) samt 195, som nämner betänkandet i bakgrunden till extra anpassningar men enligt avsnitt 3 bara behandlar SOU 2025:44, 2025:19 och 2024:16; prop. 193, 194 och 197 nämner prop. 196 men inte SOU 2025:26. Tre lagförslag i kap. 2 (2.1–2.3, alla skollagen); \"2.x Förslag till lag om ändring i skollagen\" med \"(2010:800)\" på nästa rad, standardrubriken räcker. Förteckningen över remissinstanserna: bilaga 3 s. 142."
   }
  ],
  "layout": {
-  "spaltforskjutning_pt": null,
-  "ord_y_intervall_pt": null
+  "spaltforskjutning_pt": 154.0,
+  "ord_y_intervall_pt": [
+   30,
+   640
+  ],
+  "rensa_marginal_i_delar": true,
+  "rubrik_over_blankrad": true,
+  "vanstermarginal_pt": {
+   "jamn": 122,
+   "udda": 51
+  },
+  "lagtext_tolerant": true,
+  "anm": "Tvåspaltiga lagförslag (s. 5–18) som i prop. 193–197: spaltforskjutning 154 pt. vanstermarginal_pt: uppmätt jämna 122 pt, udda 51 pt; behövs för s. 7–9 där vänstermarginalen annars blir högerspalten eller indragen rad (130 pt). lagtext_tolerant: paragrafrubriker utan mellanslag (\"5§\", \"1§\", \"2§\", \"3§\"). rensa_marginal_i_delar: \"Prop. 2025/26:196\" och sidnummer på samma rad som brödtext (annars kontroll.hela_stycket false i 7.2 och 8). rubrik_over_blankrad: avsnittsrubriken i 6 bryts med en blankrad (\"Tiden för undervisningsuppdraget ska\" / \"regleras\")."
  },
- "lagar": null,
- "forordningar": null,
- "forordning_markor": null,
+ "lagar": [
+  {
+   "namn": "Diskrimineringslag (2008:567)",
+   "riksdagen_id": "sfs-2008-567",
+   "andringar": [],
+   "bestamd_form": "diskrimineringslagen",
+   "anm": "Utredningens förslag 1.1 (2 kap. 7 § diskrimineringslagen, anmälningsskyldighet för trakasserier flyttas från 6 kap. 10 § skollagen) genomfördes inte: prop. 2025/26:196 har bara lagförslag till skollagen och behåller trakasserierna i 6 kap. skollagen (avsnitt 8). 2 kap. 7 § i den konsoliderade texten (ändrad t.o.m. SFS 2025:736) har ursprunglig lydelse utan \"Lag (…)\". Lagen finns med för att K8 ska kunna jämföra utredningens paragraf (status \"ej med\")."
+  },
+  {
+   "namn": "Skollag (2010:800)",
+   "riksdagen_id": "sfs-2010-800",
+   "andringar": [
+    "2026:1096",
+    "2026:1097",
+    "2026:1243"
+   ],
+   "bestamd_form": "skollagen",
+   "anm": "2026:1096 = lagförslag 2.1 (kränkande behandling, i kraft 2026-08-01): 1 kap. 5 §, 6 kap. 1, 2, 10 och 10 a §§ har \"Lag (2026:1096)\". 2026:1097 = lagförslag 2.2 (undervisningsuppdraget, i kraft 2027-07-01): 2 kap. 1 § och 12 a § har \"Lag (2026:1097)\" med /Träder i kraft I:2027-07-01/. Lagförslag 2.3 (information, utvecklingssamtal, plan för kunskapsutveckling) antogs formellt genom bet. 2025/26:UbU26 för lagteknisk samordning med prop. 194, 195, 197 och 198 (bet. 2025/26:UbU25 s. 1, \"godtar\" lagförslag 3); paragraferna 3 kap. 3 §, 8 kap. 11 §, 10 kap. 12–13 §§, 11 kap. 15 §, 12 kap. 12–13 a §§, 13 kap. 12 §, 15 kap. 20 § och 18 kap. 20 § har därför \"Lag (2026:1243)\" (samlad ändringslag, i kraft 2028-07-02, inte 2028-07-01 som i propositionen). 2026:1243 innehåller också ändringar från andra propositioner (betyg, studiero); K8 jämför bara paragrafer som författningskommentaren tar upp. Den konsoliderade texten saknar övergångsblock för 2026:1096 och 2026:1097. Datafel i den konsoliderade texten: 11 kap. 16 a § /Träder i kraft I:2028-07-02/ har rubriken bruten (\"16 a /Träder i kraft …/\" + \"§ I årskurs …\") och känns inte igen av K4."
+  }
+ ],
+ "forordningar": [
+  {
+   "namn": "Förordning (2026:1487) om omfattning av tiden för lärares och förskollärares undervisningsuppdrag",
+   "riksdagen_id": "sfs-2026-1487",
+   "anm": "Genomför utredningens förordningsförslag 1.3 (förslag i avsnitt 8.2.2–8.2.8); i kraft 2027-07-01. Läroplansändringarna (1.4–1.11, SKOLFS) finns inte i riksdagens öppna data."
+  }
+ ],
+ "forordning_markor": [],
  "fokusorganisationer": {
   "skr": "Sveriges Kommuner och Regioner",
-  "almega": "Almega utbildning",
-  "ideburna": "Idéburna skolors riksförbund"
+  "almega": "Almega Utbildning",
+  "ideburna": "Idéburna Skolors Riksförbund"
  },
  "kedja": {
   "utredningsbetankande": {
@@ -73,7 +161,7 @@
      "text": "Prop. 2025/26:196 (riksdagens öppna data)",
      "url": "https://data.riksdagen.se/dokument/HD03196"
     },
-    "anm": null
+    "anm": "Prop. 2025/26:196 behandlar även SOU 2025:19 avsnitt 4.2 (1 kap. 5 § och 6 kap. 10 § skollagen). Lagförslag 3 behandlades i sak i bet. 2025/26:UbU25 men antogs formellt genom bet. 2025/26:UbU26 (lagteknisk samordning med prop. 194, 195, 197, 198) och ingår i SFS 2026:1243."
    }
   ],
   "utskottsbetankande": {
@@ -101,10 +189,18 @@
    }
   }
  },
- "hamtningsdatum": null,
+ "hamtningsdatum": "2026-11-10",
  "korrigeringar": {
   "ocr_citat_manuellt_kontrollerade": [],
   "motivering_omformulerad": {}
  },
- "forordning_markor_beskrivning": null
+ "forordning_markor_beskrivning": null,
+ "forordning_markor_anm": "Ingen markör: den relevanta förordningen (2026:1487) är ny i sin helhet, och sfs_diff.py formulerar markörträffar som att förordningarna \"inte innehåller\" markören, vilket vore missvisande här. Se öppen fråga om status \"ej i SFS\" för förslagen i 8.2.2–8.2.8.",
+ "forteckning_korrigeringar": {
+  "Waldorfsfederationen samt en privatperson": [
+   "Waldorfsfederationen",
+   "en privatperson"
+  ]
+ },
+ "forteckning_korrigeringar_anm": "Förteckningen slutar \"… Waldorflärarhögskolan och Waldorfsfederationen samt en privatperson.\"; dela() delar inte på \"samt\" före gemen, så Waldorfsfederationen skulle annars försvinna med privatpersonen."
 }

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Steg K4 (deterministiskt, kräver kallor/): konsoliderade författningar (riksdagens öppna data) → sfs.json
   lagar:        per lag paragrafversioner (inkl. framtida lydelser '/Träder i kraft I:…/') i de kapitel som utredningens
-                författningskommentar berör, samt övergångsbestämmelserna för ändringslagarna i config lagar[].andringar
+                författningskommentar berör (per lag när sou-paragrafer.json har fältet 'lag', dvs. flera lagar), samt övergångsbestämmelserna för ändringslagarna i config lagar[].andringar
   forordningar: per förordning antal träffar på markörerna i config forordning_markor (t.ex. ny betygsbeteckning) och "Ändrad t.o.m."
 Förutsättning: sou-paragrafer.json (steg K2). Användning: python3 research/remissanalys/kedja/extrahera_sfs.py <reform-id>"""
 import os, re, sys
@@ -36,15 +36,19 @@ def versioner(txt):
     return meta, vers
 
 def overgang(txt, andringar):
+    if not andringar: return []   # lag utan ändringslag (t.ex. diskrimineringslagen för SOU 2025:26: förslaget genomfördes inte)
     t = txt[txt.find('\nÖvergångsbestämmelser'):]; alt = '|'.join(re.escape(a) for a in andringar)
     return [{'kap': 'ikraft', 'par': 'övergångsbestämmelser', 'ikraft': None, 'upphor': None, 'lag': m.group(1), 'text': re.sub(r'\s+', ' ', m.group(2)).strip()}
             for m in re.finditer(r'\n(' + alt + r')\n(.*?)(?=\n\d{4}:\d+\n|\Z)', t, re.S)]
 
 if __name__ == '__main__':
     rid = reform_id(); c = config(rid)
-    kaps = {p['kap'] for p in las(rid, 'sou-paragrafer.json')['paragrafer'] if p['kap'] != 'ikraft'}
+    souparagrafer = las(rid, 'sou-paragrafer.json')['paragrafer']
     lagar = []
     for l in kravs(c, 'lagar'):
+        # Kapitlen som författningskommentaren berör. Med flera lagar (config sou.forfattningskommentar som lista) har varje
+        # paragraf fältet 'lag' och bara den egna lagens kapitel tas med; med en lag saknas fältet och alla kapitel gäller.
+        kaps = {p['kap'] for p in souparagrafer if p['kap'] != 'ikraft' and p.get('lag', l['namn']) == l['namn']}
         txt = open(mapp(rid, 'kallor', 'sfs', l['riksdagen_id'] + '.text'), encoding='utf-8').read()
         meta, vers = versioner(txt)
         lagar.append({'namn': l['namn'], 'riksdagen_id': l['riksdagen_id'], 'url': f"https://data.riksdagen.se/dokument/{l['riksdagen_id']}.text",
