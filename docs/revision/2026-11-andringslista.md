@@ -364,7 +364,7 @@ kriminalvårdsanstalt" (2026-08-27, före fönstret och inte spårad) → B8.
 | U10 | Innehållssammanfattning för digitala prov | Godkänn |
 | U12, U13 | U2026/00283 markeras ersatt; stryk "central rättning HT 2026/VT 2028" | Godkänn |
 | U14 | Ny post: U2026/01561 likvärdigt betygssystem | Godkänn |
-| U15, G4, A4, R8 | betyg: 1 juli → 2 juli 2028 (SFS 2026:1243) mot UbU26:s "i huvudsak 1 juli" | **Kräver beslut.** SFS är den antagna lagen; förordningen 2026:1242 (1 juli) kan bära delar |
+| U15, G4, A4, R8 | betyg: 1 juli → 2 juli 2028 (SFS 2026:1243) mot UbU26:s "i huvudsak 1 juli" | **Kräver beslut.** SFS är den antagna lagen; SFS 2026:1242 (ändring i skollagen, 1 juli 2028) kan bära delar (formulering rättad efter DoD A3: 2026:1242 är en lag, inte en förordning) |
 | G3 | tid övergångsbestämmelse: prop.citat → antagen lag | Godkänn |
 | G5 | betyg: nytt steg 2030-07-01 (SFS 2026:1244) | Godkänn |
 | G10–G16, G18 | sfs/noteringar för tid, betyg, laroplaner, brott, offentlighet, yrkes, tioarig; nya steg brott 2026:737 | Godkänn noteringar; nya steg (G14, yrkes 2031) avgörs |

@@ -15,7 +15,7 @@ const { chromium } = require('playwright');
 
 const ROOT = path.join(__dirname, '..', '..');
 const argUt = process.argv.indexOf('--ut');
-const UT = path.join(ROOT, argUt > 0 ? process.argv[argUt + 1] : 'docs/revision/skarmbilder');
+const UT = path.resolve(ROOT, argUt > 0 ? process.argv[argUt + 1] : 'docs/revision/skarmbilder'); // resolve: absolut --ut stannar utanför repot (DoD A1)
 const LAGEN = [
   { lage: 'oppnar', klocka: '2026-11-05T12:00:00', text: 'Remiss öppnar 9 november 2026' },
   { lage: 'oppen', klocka: '2026-11-20T12:00:00', text: 'Remiss öppen till och med 20 januari 2027' },
