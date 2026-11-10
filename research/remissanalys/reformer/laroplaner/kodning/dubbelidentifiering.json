@@ -1,0 +1,440 @@
+{
+ "_meta": {
+  "steg": "M1b oberoende identifiering av 40 slumpvis valda passager (≥ 100 tecken, frö 20261201) med samma instruktion; kodare A = M1",
+  "matt": "överens = båda kodarna anger minst en utmaning, eller ingen av dem",
+  "overens": 39,
+  "antal": 40,
+  "tolkning": true
+ },
+ "passager": [
+  {
+   "id": "goteborgs-kommun#12",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "torsas-kommun#4",
+   "kodare_a_antal": 2,
+   "kodare_b_antal": 2,
+   "kodare_b": [
+    {
+     "citat": "Vi vill också påpeka att dessa “mål” står på olika ställen i olika kursplaner.",
+     "oppen_kod": "Inkonsekvent kursplanestruktur"
+    },
+    {
+     "citat": "Det saknas tydlighet i kursplanerna kring “specifika och ämnesrelevanta verktyg”.",
+     "oppen_kod": "Otydligt begrepp ämnesrelevanta verktyg"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "linkopings-kommun#4",
+   "kodare_a_antal": 2,
+   "kodare_b_antal": 3,
+   "kodare_b": [
+    {
+     "citat": "Linköpings kommun bedömer att ett ökat fokus på grundläggande färdigheter kommer att leda till ett utökat behov av speciallärare. Statsbidraget ”fortbildning av lärare och förskollärare” blir därmed fortsatt betydelsefullt och kan behöva utökas.",
+     "oppen_kod": "Ökat behov av speciallärare"
+    },
+    {
+     "citat": "Det blir också betydelsefullt att säkerställa att läromedlen överensstämmer med läroplanen och att elever har adekvat tillgång till dessa.",
+     "oppen_kod": "Läromedel anpassade till läroplanen"
+    },
+    {
+     "citat": "Linköpings kommun vill detta i sammanhang också lyfta fram betydelsen av att särskilt utreda hur läroplanen för den anpassade grundskolan kan utformas så att kunskapsnivån fungerar för målgruppen.",
+     "oppen_kod": "Kunskapsnivå i anpassade grundskolan"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "goteborgs-kommun#16",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "karlskoga-kommun#8",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "hagfors-kommun#6",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "goteborgs-kommun#24",
+   "kodare_a_antal": 2,
+   "kodare_b_antal": 2,
+   "kodare_b": [
+    {
+     "citat": "Därtill anser förvaltningen att “analoga miljöer” behöver förtydligas så att skolor inte misstolkar detta som ett “digitalt förbud” snarare än som en selektiv och vetenskapligt baserad användning.",
+     "oppen_kod": "Otydligt begrepp analoga miljöer"
+    },
+    {
+     "citat": "En annan viktig aspekt är att om digitaliseringen ska kopplas tydligare till ämneskunskaper måste lärare ges möjlighet att utveckla ämnesintegrerad digital kompetens. Skolverkets stödmaterial och skrivningar, såväl som lärarutbildningar och fortbildningar, kommer med detta behöva moderniseras kraftigt.",
+     "oppen_kod": "Lärares digitala kompetensutveckling"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "danderyds-kommun#6",
+   "kodare_a_antal": 2,
+   "kodare_b_antal": 3,
+   "kodare_b": [
+    {
+     "citat": "Förslaget om hur stödet ska utformas låter bra, men kommunen har svårt att se hur det praktiskt ska genomföras parallellt eller utöver den ordinarie undervisningen.",
+     "oppen_kod": "Praktiskt genomförande av stödundervisning"
+    },
+    {
+     "citat": "I slutändan är det en kostnad- och resursfråga, och förslaget innebär en potentiell kostnadsökning för skolan.",
+     "oppen_kod": "Kostnadsökning för stödundervisning"
+    },
+    {
+     "citat": "”Någon annan” är odefinierat och kan vara personal som inte har behörighet och/eller eller specialkompetens, till exempel en resursassistent, för undervisning av elever som har svårt att lära.",
+     "oppen_kod": "Odefinierat vem som ger stöd"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "torsas-kommun#23",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "gislaveds-kommun#17",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "karlskoga-kommun#6",
+   "kodare_a_antal": 2,
+   "kodare_b_antal": 2,
+   "kodare_b": [
+    {
+     "citat": "En överhängande risk med att i högre utsträckning styra lärares pedagogiska och didaktiska val är att ansvaret förskjuts från professionen till staten – en lärare som följer de av staten beslutade strategierna och riktlinjerna kan rimligen inte anses ansvarig för undervisningens kvalitet.",
+     "oppen_kod": "Oklart ansvar för undervisningskvalitet"
+    },
+    {
+     "citat": "Karlskoga kommun vill få förtydligat vilka delar som kommer att styras med riktlinjer och strategier genom läroplanen för att kunna ta ställning till konsekvensen av förslaget.",
+     "oppen_kod": "Oklart omfång av riktlinjer"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "goteborgs-kommun#11",
+   "kodare_a_antal": 2,
+   "kodare_b_antal": 2,
+   "kodare_b": [
+    {
+     "citat": "Ansvarsfördelningen mellan klasslärare och stödfunktioner får inte bli otydlig, och stödet bör inte dras bort från ordinarie undervisning under längre tid",
+     "oppen_kod": "Otydlig ansvarsfördelning vid stöd"
+    },
+    {
+     "citat": "Förslaget förutsätter att resurser för stödundervisning finns tillgängliga i hela landet vilket inte är självklart.",
+     "oppen_kod": "Resurser för stödundervisning saknas"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "lomma-kommun#34",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "torsas-kommun#2",
+   "kodare_a_antal": 1,
+   "kodare_b_antal": 1,
+   "kodare_b": [
+    {
+     "citat": "Begreppet förstärkningsundervisning behöver förtydligas. Det finns redan stödundervisning och särskilt stöd samt begreppet intensivundervisning,",
+     "oppen_kod": "Otydligt begrepp förstärkningsundervisning"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "burlovs-kommun#13",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "sveriges-kommuner-och-regioner#46",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "oskarshamns-kommun#6",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "sveriges-kommuner-och-regioner#52",
+   "kodare_a_antal": 3,
+   "kodare_b_antal": 3,
+   "kodare_b": [
+    {
+     "citat": "SKR betonar att staten behöver ansvara för kostnaderna för implementeringsinsatser för att det ska finnas möjligheter att tillämpa den nya läroplanen redan till skolåret 2028/29.",
+     "oppen_kod": "Implementeringskostnader och tidplan"
+    },
+    {
+     "citat": "Med tanke på de många reformerna som kommer att behöva omhändertas i skolan behöver särskilda insatser göras från statligt håll för att implementering ska vara möjlig att genomföra på ett bra sätt.",
+     "oppen_kod": "Många samtidiga reformer"
+    },
+    {
+     "citat": "Det betyder bland annat att det behöver finnas resurser till kompetensutveckling för lärarna.",
+     "oppen_kod": "Resurser för kompetensutveckling"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "goteborgs-kommun#6",
+   "kodare_a_antal": 1,
+   "kodare_b_antal": 1,
+   "kodare_b": [
+    {
+     "citat": "Vidare används i betänkandet centrala begrepp som inte definieras tillräckligt tydligt, vilket försvårar förståelsen av förslagen.",
+     "oppen_kod": "Otydligt definierade centrala begrepp"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "sollentuna-kommun#15",
+   "kodare_a_antal": 1,
+   "kodare_b_antal": 1,
+   "kodare_b": [
+    {
+     "citat": "Genom detta läroplansförslag undergrävs lärarnas möjlighet att välja det bästa lärverktyget (analogt eller digitalt) för stunden, för ämnesinnehållet, för individen eller för gruppen.",
+     "oppen_kod": "Begränsat val av lärverktyg"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "stockholms-kommun#21",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "gislaveds-kommun#24",
+   "kodare_a_antal": 3,
+   "kodare_b_antal": 3,
+   "kodare_b": [
+    {
+     "citat": "De kommunala huvudmännen kan stå för olika utmaningar så som beroendet av skolskjutsar till och från skolan samt till undervisningslokaler som inte finns i direkt anslutning till skolans huvudbyggnad. Det påverkar både ekonomin och möjligheten att fördela undervisningstiden.",
+     "oppen_kod": "Skolskjuts och lokaler påverkar"
+    },
+    {
+     "citat": "Utmaningar med personaloch kompetensförsörjning och skattekraft är andra delar som påverkar mindre kommuner samt kommuner som ligger längre ifrån studieorter.",
+     "oppen_kod": "Kompetensförsörjning i mindre kommuner"
+    },
+    {
+     "citat": "När lagkrav ställs på exempelvis tillgång till skolbibliotek som är bemannade med personal med relevant utbildning behöver det ställas i relation med kommunernas olika förutsättningar att fullfölja lagkravet.",
+     "oppen_kod": "Bemannade skolbibliotek svårt"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "lomma-kommun#25",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "sveriges-kommuner-och-regioner#22",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "sveriges-kommuner-och-regioner#62",
+   "kodare_a_antal": 2,
+   "kodare_b_antal": 2,
+   "kodare_b": [
+    {
+     "citat": "En sådan generell modell riskerar att befästa ett system där resurser huvudsakligen används för att uppnå formella betygsgränser, utan hänsyn till elevernas individuella förutsättningar.",
+     "oppen_kod": "Resursstyrning mot betygsgränser"
+    },
+    {
+     "citat": "Slutligen är det självklart att föreslagna betygskriterier behöver anpassas i händelse av att betygsutredningens systemförslag antas. Tydlighet och samordning mellan betygssystem och kursplaner är grundläggande för att lärarna ska kunna genomföra sitt uppdrag med god kvalitet och rättssäkerhet.",
+     "oppen_kod": "Samordning med betygsreformen"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "overtornea-kommun#7",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "ragunda-kommun#6",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "pitea-kommun#9",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "stockholms-kommun#15",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "lomma-kommun#37",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "ragunda-kommun#32",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "pitea-kommun#7",
+   "kodare_a_antal": 3,
+   "kodare_b_antal": 3,
+   "kodare_b": [
+    {
+     "citat": "Dessa skrivningar upplevs som ett förbud. Det måste, i större utsträckning än i förslaget, finnas en frihet för lärare och rektorer att själva välja vilka medel som används för att nå målen.",
+     "oppen_kod": "Digital restriktivitet som förbud"
+    },
+    {
+     "citat": "Det är dessutom motsägelsefullt att bedömningsstöden ska genomföras digitalt samtidigt som utredaren föreslår restriktivitet i användandet av digitala verktyg.",
+     "oppen_kod": "Motsägelse digitala bedömningsstöd"
+    },
+    {
+     "citat": "Detta kommer vara oerhört svårt då den vetenskapliga grunden för digital utveckling saknas samtidigt som utvecklingen går i en rasande fart. Huvudmän, lärare och rektorer behöver ett bättre stöd gällande den digitala utvecklingen.",
+     "oppen_kod": "Vetenskaplig grund för digitalt saknas"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "sveriges-kommuner-och-regioner#53",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "stockholms-kommun#49",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "linkopings-kommun#6",
+   "kodare_a_antal": 1,
+   "kodare_b_antal": 1,
+   "kodare_b": [
+    {
+     "citat": "Viktigt blir i detta sammanhang att se över timplanen i samband med att innehållet i läroplanen revideras.",
+     "oppen_kod": "Timplan anpassad till innehåll"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "malmo-kommun#25",
+   "kodare_a_antal": 1,
+   "kodare_b_antal": 1,
+   "kodare_b": [
+    {
+     "citat": "Om förslaget gällande tioårig grundskola ska införas kommer övergången från förskola direkt till grundskola även att behöva framtida styrning och stöd till förskolan.",
+     "oppen_kod": "Övergång förskola till grundskola"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "overtornea-kommun#21",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 1,
+   "kodare_b": [
+    {
+     "citat": "Dokumentation av anpassningar: Vill behålla dokumentationskrav – viktigt för uppföljning och övergångar.",
+     "oppen_kod": "Borttagen dokumentation försvårar uppföljning"
+    }
+   ],
+   "overens": false
+  },
+  {
+   "id": "ragunda-kommun#9",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "ragunda-kommun#22",
+   "kodare_a_antal": 2,
+   "kodare_b_antal": 2,
+   "kodare_b": [
+    {
+     "citat": "Ragunda kommun ifrågasätter dock om inte den föreslagna reformen riskerar att ytterligare sudda ut gränsen mellan särskilt stöd och stödundervisning.",
+     "oppen_kod": "Otydlig gräns stödformer"
+    },
+    {
+     "citat": "Mot bakgrund av detta anser vi att det är nödvändigt med en fördjupad analys av hur stödundervisningen ska fungera i praktiken,",
+     "oppen_kod": "Stödundervisning i praktiken oklar"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "ragunda-kommun#26",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  }
+ ]
+}

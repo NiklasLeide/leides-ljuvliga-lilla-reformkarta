@@ -1,0 +1,2115 @@
+{
+ "_meta": {
+  "steg": "M1 identifiering av utmaningar (modellkodning, Sprint 17; 5 parallella kodare, en per batch av passager, instruktion research/remissanalys/kedja/KODINSTRUKTION.md)",
+  "tolkning": true,
+  "falt": {
+   "uid": "utmaningens id",
+   "id": "passage-id",
+   "citat": "ordagrann delsträng ur passagen",
+   "oppen_kod": "kodarens öppna kod (spårbarhet; visas aldrig)",
+   "beskrivning": "kodarens beskrivning (spårbarhet; visas aldrig)"
+  }
+ },
+ "utmaningar": [
+  {
+   "uid": "U001",
+   "id": "almega-utbildning#4",
+   "citat": "Det är viktigt att läroplaner och kursplaner slår fast vad som ska läras ut, men inte hur – det tillkommer professionen och skolhuvudmännen",
+   "oppen_kod": "Metodstyrning inkräktar på huvudmannen",
+   "beskrivning": "Undervisningsstrategier i kursplanerna tar över beslut om hur undervisningen bedrivs som tillkommer huvudmän och profession."
+  },
+  {
+   "uid": "U002",
+   "id": "almega-utbildning#9",
+   "citat": "vill påtala att en eventuellt mycket intensiv implementering av många olika nya reformer på skolområdet måste beaktas",
+   "oppen_kod": "Många samtidiga reformer",
+   "beskrivning": "Huvudmännen riskerar en mycket intensiv implementering av många samtidiga skolreformer."
+  },
+  {
+   "uid": "U003",
+   "id": "almega-utbildning#10",
+   "citat": "Förbundet betonar att staten behöver ansvara för kostnader för implementering av en ny läroplan med kursplaner",
+   "oppen_kod": "Implementeringskostnader bör bäras av staten",
+   "beskrivning": "Implementeringen av nya läroplaner och kursplaner medför kostnader som huvudmännen inte bör bära själva."
+  },
+  {
+   "uid": "U004",
+   "id": "almega-utbildning#13",
+   "citat": "Utredningen beskriver i konsekvensanalysen att det just för fristående skolor med olika pedagogiska inriktningar kan innebära förändringar, då alla skolor ska anpassa sin undervisning till vad läroplanen beskriver.",
+   "oppen_kod": "Pedagogiska profiler måste anpassas",
+   "beskrivning": "Fristående skolor med särskilda pedagogiska inriktningar tvingas anpassa sin undervisning till läroplanens föreskrivna metoder."
+  },
+  {
+   "uid": "U005",
+   "id": "almega-utbildning#13",
+   "citat": "Så länge målen för utbildningen nås och undervisningen överensstämmer med vad som ska läras ut, måste sätten att undervisa vara upp till både lärarprofession och olika skolhuvudmän.",
+   "oppen_kod": "Minskat huvudmannautrymme för undervisningssätt",
+   "beskrivning": "Krav på hur undervisningen ska utformas begränsar huvudmännens möjlighet att själva välja undervisningssätt."
+  },
+  {
+   "uid": "U006",
+   "id": "burlovs-kommun#15",
+   "citat": "Utöver det vill nämnden också särskilt framhålla vikten av att Skolverket ges de förutsättningar som utredningen föreslår när det gäller stöd till kommuner och huvudmän i implementeringsarbetet av en ny läroplan. Detsamma gäller de behov av fortbildning som följer av de stora förändringar som förslagen till ny läroplan innebär, inte minst eftersom den förmodligen införs samtidigt med ett nytt betygssystem och tioårig grundskola.",
+   "oppen_kod": "Fortbildningsbehov vid samtidiga reformer",
+   "beskrivning": "Huvudmännen behöver implementeringsstöd och fortbildning eftersom läroplanen införs samtidigt med nytt betygssystem och tioårig grundskola."
+  },
+  {
+   "uid": "U007",
+   "id": "burlovs-kommun#17",
+   "citat": "Förvaltningen instämmer i Sveriges Kommuner och Regioners (SKR) bedömning att implementeringen av de nya läroplanerna för de obligatoriska skolformerna kommer att innebära merkostnader för huvudmännen, och att kompetensutveckling och fortbildning i anslutning till de nya läroplanerna kommer medföra ytterligare kostnadsökningar.",
+   "oppen_kod": "Merkostnader för implementering och fortbildning",
+   "beskrivning": "Implementering och kompetensutveckling kring nya läroplaner innebär merkostnader för huvudmännen."
+  },
+  {
+   "uid": "U008",
+   "id": "burlovs-kommun#17",
+   "citat": "Burlövs kommun delar inte utredningens bedömning att det är tillräckligt att tillföra medel till Skolverket för implementeringsinsatser utan anser att kommunernas implementeringsarbete och kompetensutvecklingsinsatser inte kan förväntas rymmas inom befintliga statliga anslag.",
+   "oppen_kod": "Otillräcklig statlig finansiering till kommuner",
+   "beskrivning": "Kommunernas implementeringsarbete ryms inte inom befintliga anslag när medel bara tillförs Skolverket."
+  },
+  {
+   "uid": "U009",
+   "id": "danderyds-kommun#6",
+   "citat": "Förslaget om hur stödet ska utformas låter bra, men kommunen har svårt att se hur det praktiskt ska genomföras parallellt eller utöver den ordinarie undervisningen. I slutändan är det en kostnad- och resursfråga, och förslaget innebär en potentiell kostnadsökning för skolan.",
+   "oppen_kod": "Stödundervisning svår och kostsam",
+   "beskrivning": "Stödundervisning parallellt med eller utöver ordinarie undervisning är praktiskt svår att organisera och kan öka kostnaderna."
+  },
+  {
+   "uid": "U010",
+   "id": "danderyds-kommun#6",
+   "citat": "”Någon annan” är odefinierat och kan vara personal som inte har behörighet och/eller eller specialkompetens, till exempel en resursassistent, för undervisning av elever som har svårt att lära. Om så blir fallet så riskerar stödundervisning att bli mindre kvalitativ.",
+   "oppen_kod": "Oklart vem som ger stödundervisning",
+   "beskrivning": "Det är odefinierat vilken personal som får ge stödundervisning, vilket riskerar obehörig personal och lägre kvalitet."
+  },
+  {
+   "uid": "U011",
+   "id": "gislaveds-kommun#16",
+   "citat": "Men Gislaveds kommun ser även risker som behöver bevakas så som hur elevers behov av stöd beslutas samt utformas så att eleven får det stöd eleven är i behov av och att eleven inte hamnar i stödundervisning på felaktiga grunder.",
+   "oppen_kod": "Risk i beslut om stödundervisning",
+   "beskrivning": "Skolorna måste hantera risken att beslut om stödundervisning fattas på felaktiga grunder."
+  },
+  {
+   "uid": "U012",
+   "id": "gislaveds-kommun#16",
+   "citat": "Gislaveds kommun ser även att det finns beskrivningar kring digital kompetens som är mångbottnad.",
+   "oppen_kod": "Mångtydig beskrivning av digital kompetens",
+   "beskrivning": "Beskrivningarna av digital kompetens är mångtydiga och därmed oklara att tillämpa."
+  },
+  {
+   "uid": "U013",
+   "id": "gislaveds-kommun#18",
+   "citat": "Men det är samtidigt viktigt att förslag på undervisningsstrategier inte upplevs som begränsande och att undervisningen kan möta lokala förutsättningar och olika elevgruppers behov.",
+   "oppen_kod": "Strategier kan begränsa lokal anpassning",
+   "beskrivning": "Undervisningsstrategier riskerar att begränsa möjligheten att anpassa undervisningen efter lokala förutsättningar."
+  },
+  {
+   "uid": "U014",
+   "id": "gislaveds-kommun#21",
+   "citat": "Lärare får inte ges ett enskilt ansvar att bedöma om eleven behöver stödundervisning eller bedöma om stödundervisningen är tillräcklig. Elevhälsoteamet eller relevant representant från elevhälsoteamet måste vara delaktig i arbetet för att säkerställa likvärdig bedömning av elevens behov och vilka insatser som kan vara nödvändiga.",
+   "oppen_kod": "Lärarens ensamansvar för stödbedömning",
+   "beskrivning": "Att läraren ensam bedömer behov av stödundervisning hotar en likvärdig bedömning utan elevhälsans medverkan."
+  },
+  {
+   "uid": "U015",
+   "id": "gislaveds-kommun#23",
+   "citat": "Det beskrivs att området ska finnas med i kommande ämnesplaner, men i nuläget är det inte tydligt hur frågorna synliggörs i de olika ämnesplanerna utifrån att det inte finns med i betänkandet.",
+   "oppen_kod": "Oklart var sex och samtycke hamnar",
+   "beskrivning": "Det är oklart hur frågor om kön, sexualitet och samtycke ska synliggöras i ämnesplanerna."
+  },
+  {
+   "uid": "U016",
+   "id": "gislaveds-kommun#24",
+   "citat": "De kommunala huvudmännen kan stå för olika utmaningar så som beroendet av skolskjutsar till och från skolan samt till undervisningslokaler som inte finns i direkt anslutning till skolans huvudbyggnad. Det påverkar både ekonomin och möjligheten att fördela undervisningstiden.",
+   "oppen_kod": "Skolskjuts och lokaler påverkar planering",
+   "beskrivning": "Beroende av skolskjutsar och avlägsna lokaler påverkar huvudmannens ekonomi och fördelning av undervisningstid."
+  },
+  {
+   "uid": "U017",
+   "id": "gislaveds-kommun#24",
+   "citat": "Utmaningar med personaloch kompetensförsörjning och skattekraft är andra delar som påverkar mindre kommuner samt kommuner som ligger längre ifrån studieorter.",
+   "oppen_kod": "Kompetensförsörjning i mindre kommuner",
+   "beskrivning": "Mindre och avlägsna kommuner har svårare med personal- och kompetensförsörjning och skattekraft."
+  },
+  {
+   "uid": "U018",
+   "id": "gislaveds-kommun#24",
+   "citat": "När lagkrav ställs på exempelvis tillgång till skolbibliotek som är bemannade med personal med relevant utbildning behöver det ställas i relation med kommunernas olika förutsättningar att fullfölja lagkravet.",
+   "oppen_kod": "Olika förutsättningar att uppfylla lagkrav",
+   "beskrivning": "Kommuner har olika förutsättningar att uppfylla lagkrav som bemannade skolbibliotek."
+  },
+  {
+   "uid": "U019",
+   "id": "gislaveds-kommun#28",
+   "citat": "Precis så som betänkandet framhåller är det svårt att hitta fram till rätt material på Skolverkets webbplats och det finns en osäkerhet om stödmaterialet är aktuellt.",
+   "oppen_kod": "Svåröverskådligt stödmaterial",
+   "beskrivning": "Skolorna har svårt att hitta rätt stödmaterial och vet inte om det är aktuellt."
+  },
+  {
+   "uid": "U020",
+   "id": "gislaveds-kommun#29",
+   "citat": "Här behöver det även finnas en beskrivning av vad som avses med vetenskaplig grund och hur Skolverket gör bedömningar av vad som ses som aktuell forskning som skolvärlden ska följa.",
+   "oppen_kod": "Oklart begrepp vetenskaplig grund",
+   "beskrivning": "Det är oklart vad som avses med vetenskaplig grund och hur aktuell forskning bedöms."
+  },
+  {
+   "uid": "U021",
+   "id": "gislaveds-kommun#29",
+   "citat": "Bedömningsstödet fungerar bristfälligt, då de inte tillräckligt tydligt visar var eleverna befinner sig i sin avkodningsutveckling, eller om de behärskar fonem-grafem-kopplingen. Dessutom är de både tidskrävande och alltför grovt utformade för att vara riktigt användbara i den tidiga undervisningen.",
+   "oppen_kod": "Tidskrävande bristfälligt bedömningsstöd",
+   "beskrivning": "Bedömningsstödet i svenska i årskurs 1 är tidskrävande och för grovt för att vara användbart."
+  },
+  {
+   "uid": "U022",
+   "id": "gislaveds-kommun#32",
+   "citat": "Gislaveds kommun ser risker som behöver bevakas så som hur elevers behov av stöd beslutas samt utformas så att eleven får det stöd eleven är i behov av och att eleven inte hamnar i stödundervisning på felaktiga grunder.",
+   "oppen_kod": "Risk i beslut om stödundervisning",
+   "beskrivning": "Skolorna måste hantera risken att elever placeras i stödundervisning på felaktiga grunder."
+  },
+  {
+   "uid": "U023",
+   "id": "gislaveds-kommun#34",
+   "citat": "Gislaveds kommun tror att det finns ett behov av fortbildning inom phonics-metoden för att säkerställa att undervisande lärare har kunskap om metoden när de undervisar i tidig läs- och skrivinlärning.",
+   "oppen_kod": "Fortbildningsbehov i phonics",
+   "beskrivning": "Lärare behöver fortbildning i phonics-metoden för den tidiga läs- och skrivundervisningen."
+  },
+  {
+   "uid": "U024",
+   "id": "gislaveds-kommun#35",
+   "citat": "Men Gislaveds kommun ser att det saknas fokus på hur befästande av färdighetsträning ska ske och i vilken omfattning.",
+   "oppen_kod": "Oklart befästande av färdighetsträning",
+   "beskrivning": "Förslaget anger inte hur och i vilken omfattning färdighetsträning i matematik ska befästas."
+  },
+  {
+   "uid": "U025",
+   "id": "gislaveds-kommun#37",
+   "citat": "Gislaveds kommun är fundersam till hur de digitala inslagen kommer formuleras i kursplanerna. Det finns en rädsla att det byggs in en stelhet i en snabbt föränderlig utveckling.",
+   "oppen_kod": "Stelhet i digitala skrivningar",
+   "beskrivning": "Det är oklart hur digitala inslag formuleras och de riskerar att bli stela i en snabb utveckling."
+  },
+  {
+   "uid": "U026",
+   "id": "gislaveds-kommun#37",
+   "citat": "Trots att digitala verktyg inte är ett mål i sig utan ett medel, så anser Gislaveds kommun att begreppet digital kompetens borde definieras i läroplanen.",
+   "oppen_kod": "Odefinierad digital kompetens",
+   "beskrivning": "Begreppet digital kompetens saknar definition, vilket gör förväntningarna otydliga."
+  },
+  {
+   "uid": "U027",
+   "id": "gislaveds-kommun#37",
+   "citat": "Gislaveds kommun ser en stor risk att pedagoger som har en låg digital kompetens riskerar att utesluta digitala verktyg i sin undervisning när skrivningarna blir mer uttalat restriktiva.",
+   "oppen_kod": "Låg digital kompetens hos pedagoger",
+   "beskrivning": "Pedagoger med låg digital kompetens riskerar att helt utesluta digitala verktyg med restriktivare skrivningar."
+  },
+  {
+   "uid": "U028",
+   "id": "gislaveds-kommun#39",
+   "citat": "Det är av stor vikt att helheten kring kommande förändringar som rör skolan görs samordnat och att det säkerställs att skolor/huvudman inte hamnar i att implementeringsarbete där delar inte är färdigställda och att delar färdigställs under implementeringsfasen. En otydlighet skapar stor osäkerhet och stress bland personal.",
+   "oppen_kod": "Implementering av ofärdiga delar",
+   "beskrivning": "Huvudmän riskerar att implementera reformer där delar inte är färdiga, vilket skapar osäkerhet och stress hos personalen."
+  },
+  {
+   "uid": "U029",
+   "id": "gislaveds-kommun#40",
+   "citat": "Men behovet av större fortbildningsinsatser kopplade till nya undervisningsmetoder för språk-, läs-, skriv- och matematikutveckling ser vi kommer leda till ökade kostnader för huvudman där till exempel vikariekostnader ökar för att frigöra personal att kunna genomföra kompetensutvecklingen.",
+   "oppen_kod": "Fortbildning ger vikariekostnader",
+   "beskrivning": "Större fortbildningsinsatser i nya undervisningsmetoder ökar huvudmannens kostnader, bland annat för vikarier."
+  },
+  {
+   "uid": "U030",
+   "id": "gislaveds-kommun#40",
+   "citat": "Även förändringar av it-system innebär oftast kostsamma uppdateringar kopplade till företagen som kommunen köper systemet/driften ifrån.",
+   "oppen_kod": "Kostsamma it-systemuppdateringar",
+   "beskrivning": "Förändringar av it-system kräver kostsamma uppdateringar från leverantörer."
+  },
+  {
+   "uid": "U031",
+   "id": "gislaveds-kommun#40",
+   "citat": "Gislaveds kommun ser att det kommer innebära ökade kostnader att införa förslaget med stödundervisning. Vi ser att det innebär att fler personal behöver kunna ta ansvar för undervisningen om kravet att stöd ska ligga utanför den ordinarie undervisningen.",
+   "oppen_kod": "Stödundervisning kräver mer personal",
+   "beskrivning": "Stödundervisning utanför ordinarie undervisning kräver mer personal och ökar kostnaderna."
+  },
+  {
+   "uid": "U032",
+   "id": "goteborgs-kommun#5",
+   "citat": "Det finns en risk att lärarnas professionella handlingsutrymme minskar och att undervisningen blir mindre flexibel och mindre anpassad till elevernas olika behov.",
+   "oppen_kod": "Minskat professionellt handlingsutrymme",
+   "beskrivning": "Detaljstyrd läroplan riskerar att göra undervisningen mindre flexibel och mindre anpassad till elevers behov."
+  },
+  {
+   "uid": "U033",
+   "id": "goteborgs-kommun#6",
+   "citat": "Vidare används i betänkandet centrala begrepp som inte definieras tillräckligt tydligt, vilket försvårar förståelsen av förslagen.",
+   "oppen_kod": "Odefinierade centrala begrepp",
+   "beskrivning": "Centrala begrepp i förslaget är otillräckligt definierade, vilket försvårar förståelsen."
+  },
+  {
+   "uid": "U034",
+   "id": "goteborgs-kommun#7",
+   "citat": "Ambitionen att utforma en samlad läroplan för de olika skolformerna och fritidshemmet riskerar att göra uppdraget otydligt.",
+   "oppen_kod": "Samlad läroplan gör uppdraget otydligt",
+   "beskrivning": "En gemensam läroplan för flera skolformer och fritidshemmet riskerar att göra uppdraget otydligt."
+  },
+  {
+   "uid": "U035",
+   "id": "goteborgs-kommun#7",
+   "citat": "Tolkningen av begreppet “vetenskaplig grund” får inte bli för snäv eller normerande.",
+   "oppen_kod": "Oklar tolkning av vetenskaplig grund",
+   "beskrivning": "Det är oklart hur begreppet vetenskaplig grund ska tolkas och vad som räknas."
+  },
+  {
+   "uid": "U036",
+   "id": "goteborgs-kommun#7",
+   "citat": "Om riktlinjer och undervisningsstrategier blir för detaljerade eller normativa, riskerar undervisningen att bli manualstyrd i stället för anpassad till elevernas behov och",
+   "oppen_kod": "Manualstyrd undervisning",
+   "beskrivning": "Detaljerade riktlinjer och strategier riskerar att göra undervisningen manualstyrd i stället för anpassad."
+  },
+  {
+   "uid": "U037",
+   "id": "goteborgs-kommun#8",
+   "citat": "Införandet av riktlinjer i läroplanens inledande delar och undervisningsstrategier i kursplanerna riskerar enligt förvaltningen att leda till otydlighet och begreppsförvirring. Intentionen är god, men begreppen kan uppfattas som överlappande eller synonyma, vilket kan skapa tolkningsproblem, onödig byråkrati och dubbelarbete för lärare.",
+   "oppen_kod": "Begreppsförvirring och dubbelarbete",
+   "beskrivning": "Överlappande begrepp riktlinjer och undervisningsstrategier kan skapa tolkningsproblem, byråkrati och dubbelarbete."
+  },
+  {
+   "uid": "U038",
+   "id": "goteborgs-kommun#8",
+   "citat": "Särskild hänsyn bör tas till Riksrevisionens kritik från 2019, där det framkom att Skolverket inte utvecklat tillräckligt anpassat stödmaterial för undervisning i anpassad grundskola.",
+   "oppen_kod": "Brist på stödmaterial anpassad grundskola",
+   "beskrivning": "Anpassad grundskola riskerar att sakna tillräckligt anpassat stödmaterial för den nya läroplanen."
+  },
+  {
+   "uid": "U039",
+   "id": "goteborgs-kommun#9",
+   "citat": "Samtidigt finns det risker med en så centraliserad styrning. Beslutsprocesser är ofta långsamma och mindre flexibla när nya behov uppstår i skolan.",
+   "oppen_kod": "Trög centraliserad kursplanestyrning",
+   "beskrivning": "Centraliserade beslut om kursplaner blir långsamma och oflexibla när nya behov uppstår i skolan."
+  },
+  {
+   "uid": "U040",
+   "id": "goteborgs-kommun#11",
+   "citat": "Ansvarsfördelningen mellan klasslärare och stödfunktioner får inte bli otydlig",
+   "oppen_kod": "Otydlig ansvarsfördelning vid stöd",
+   "beskrivning": "Ansvarsfördelningen mellan klasslärare och stödfunktioner riskerar att bli otydlig."
+  },
+  {
+   "uid": "U041",
+   "id": "goteborgs-kommun#11",
+   "citat": "Förslaget förutsätter att resurser för stödundervisning finns tillgängliga i hela landet vilket inte är självklart.",
+   "oppen_kod": "Resurser för stödundervisning saknas",
+   "beskrivning": "Alla skolor har inte resurser för att erbjuda stödundervisning, vilket kan göra stödet ojämlikt."
+  },
+  {
+   "uid": "U042",
+   "id": "goteborgs-kommun#13",
+   "citat": "framstår det som oklart hur dessa ska tolkas. Det är också otydligt hur motsatsförhållandet mellan kunskap som beständigt och samtidigt ständigt utvecklande, ska hanteras i praktiken.",
+   "oppen_kod": "Oklara kunskapsbegrepp",
+   "beskrivning": "Begreppen beständiga och vetenskapligt förankrade kunskaper är oklara att tillämpa i praktiken."
+  },
+  {
+   "uid": "U043",
+   "id": "goteborgs-kommun#13",
+   "citat": "Förvaltningen anser även att begreppen “kritiskt förhållningssätt” och “grundläggande ämneskunskaper” är otillräckligt definierade.",
+   "oppen_kod": "Otillräckligt definierade begrepp",
+   "beskrivning": "Begreppen kritiskt förhållningssätt och grundläggande ämneskunskaper är otillräckligt definierade."
+  },
+  {
+   "uid": "U044",
+   "id": "goteborgs-kommun#14",
+   "citat": "Samtidigt ställer kursplanerna krav på en tydlig, ämnesförankrad progression mellan stadier och i vissa fall årskurser. Undervisningen måste därför utformas med hänsyn till att elevernas lärande sällan följer en rak linje, utan ofta sker stegvis, med återkommande behov av repetition och förstärkning.",
+   "oppen_kod": "Progressionskrav i anpassad grundskola",
+   "beskrivning": "Kursplanernas progressionskrav är svåra att förena med elevernas ojämna lärande i anpassad grundskola."
+  },
+  {
+   "uid": "U045",
+   "id": "goteborgs-kommun#15",
+   "citat": "Samtidigt kräver ny terminologi och nivåstruktur varsam hantering för att undvika nya tolkningsproblem.",
+   "oppen_kod": "Ny terminologi ger tolkningsproblem",
+   "beskrivning": "Ny terminologi och nivåstruktur i kunskapskraven riskerar nya tolkningsproblem."
+  },
+  {
+   "uid": "U046",
+   "id": "goteborgs-kommun#17",
+   "citat": "Samtidigt finns en risk att lärare blir alltför styrda av innehållet, vilket kan minska lyhördheten för klassrummets dynamik och leda till ett ökat fokus på att hinna med “allt stoff” snarare än på förståelse och elevinflytande.",
+   "oppen_kod": "Stoffträngsel i undervisningen",
+   "beskrivning": "Detaljerat innehåll riskerar att lärare fokuserar på att hinna med allt stoff snarare än förståelse."
+  },
+  {
+   "uid": "U047",
+   "id": "goteborgs-kommun#17",
+   "citat": "Men det finns risk att yrkesutövningen standardiseras, att strategier tolkas som obligatoriska metoder, eller att lärare känner sig ifrågasatta om deras egna erfarenheter inte överensstämmer med dessa strategier.",
+   "oppen_kod": "Strategier tolkas som obligatoriska",
+   "beskrivning": "Undervisningsstrategier riskerar att tolkas som obligatoriska metoder och standardisera yrkesutövningen."
+  },
+  {
+   "uid": "U048",
+   "id": "goteborgs-kommun#18",
+   "citat": "Samtidigt riskerar betoningen på färdighetsträning att tränga undan kreativt skrivande och kan bli svår att anpassa till elever med andra språkliga bakgrunder.",
+   "oppen_kod": "Svår anpassning till flerspråkiga elever",
+   "beskrivning": "Betoningen på färdighetsträning i svenska kan bli svår att anpassa till elever med andra språkliga bakgrunder."
+  },
+  {
+   "uid": "U049",
+   "id": "goteborgs-kommun#18",
+   "citat": "Utredningen pekar på behovet av professionell utveckling för att implementera vetenskapligt grundade undervisningsstrategier. Denna professionella utveckling behöver bland annat omfatta förskolepedagogiska kunskaper och färdigheter.",
+   "oppen_kod": "Behov av professionell utveckling",
+   "beskrivning": "Implementering av nya undervisningsstrategier kräver professionell utveckling, inklusive förskolepedagogisk kompetens."
+  },
+  {
+   "uid": "U050",
+   "id": "goteborgs-kommun#21",
+   "citat": "Samtidigt vill förvaltningen uppmärksamma att begreppet “läsning” i förslaget saknar en tydlig definition.",
+   "oppen_kod": "Odefinierat begrepp läsning",
+   "beskrivning": "Begreppet läsning saknar en tydlig definition i förslaget."
+  },
+  {
+   "uid": "U051",
+   "id": "goteborgs-kommun#22",
+   "citat": "Ska nationella prov dessutom genomföras digitalt behöver elever också få tillräcklig träning i att läsa och skriva på skärm. Annars blir bedömningssituationen inte rättvis. Förslaget om att vara restriktiv med digitala verktyg i de tidiga åren i grundskolan blir därmed motsägelsefullt.",
+   "oppen_kod": "Restriktivitet krockar med digitala prov",
+   "beskrivning": "Restriktiv digital användning är motsägelsefull när nationella prov ska genomföras digitalt."
+  },
+  {
+   "uid": "U052",
+   "id": "goteborgs-kommun#22",
+   "citat": "Garantin är både tids- och personalkrävande, särskilt i de inledande faserna, vilket påverkat skolors kapacitet att genomföra träffsäkra förändringar i stödinsatser och undervisning - alltså de senare faserna.",
+   "oppen_kod": "Läsa-skriva-räkna-garantin resurskrävande",
+   "beskrivning": "Garantins tids- och personalkrav har begränsat skolornas kapacitet att genomföra stödinsatser."
+  },
+  {
+   "uid": "U053",
+   "id": "goteborgs-kommun#24",
+   "citat": "Därtill anser förvaltningen att “analoga miljöer” behöver förtydligas så att skolor inte misstolkar detta som ett “digitalt förbud” snarare än som en selektiv och vetenskapligt baserad användning.",
+   "oppen_kod": "Oklart begrepp analoga miljöer",
+   "beskrivning": "Begreppet analoga miljöer är oklart och riskerar att misstolkas av skolor som ett digitalt förbud."
+  },
+  {
+   "uid": "U054",
+   "id": "goteborgs-kommun#24",
+   "citat": "En annan viktig aspekt är att om digitaliseringen ska kopplas tydligare till ämneskunskaper måste lärare ges möjlighet att utveckla ämnesintegrerad digital kompetens. Skolverkets stödmaterial och skrivningar, såväl som lärarutbildningar och fortbildningar, kommer med detta behöva moderniseras kraftigt.",
+   "oppen_kod": "Kompetensutveckling i digital kompetens",
+   "beskrivning": "Lärare behöver utveckla ämnesintegrerad digital kompetens och stöd och fortbildning måste moderniseras."
+  },
+  {
+   "uid": "U055",
+   "id": "goteborgs-kommun#26",
+   "citat": "i eventuellt kommande ikraftträdande av en ny läroplan behöver en sådan reform synkroniseras med andra reformer inom skolan.",
+   "oppen_kod": "Synkronisering med andra reformer",
+   "beskrivning": "Ikraftträdandet av ny läroplan måste samordnas med andra samtidiga skolreformer."
+  },
+  {
+   "uid": "U056",
+   "id": "goteborgs-kommun#27",
+   "citat": "vill påtala betydelsen av att staten tar ett stort ansvar för de implementeringsinsatser som kommer att krävas.",
+   "oppen_kod": "Omfattande implementeringsinsatser",
+   "beskrivning": "De implementeringsinsatser som krävs är omfattande och behöver statligt ansvar."
+  },
+  {
+   "uid": "U057",
+   "id": "hagfors-kommun#5",
+   "citat": "Det är många utredningar som kopplas till varandra och som ska implementeras under samma tidsperiod. Vi ser a detta innebär en \"trängsel\" i implementering av alla utredningar, vilket innebär att annat utvecklingsarbete kommer att tvingas att stå tillbaka.",
+   "oppen_kod": "Trängsel i implementeringen",
+   "beskrivning": "Många samtidiga reformer skapar trängsel så att annat utvecklingsarbete får stå tillbaka."
+  },
+  {
+   "uid": "U058",
+   "id": "hagfors-kommun#5",
+   "citat": "Nya läro- och kursplaner innebär också en stor förändring för skolan och kommer därför att ta mycket tid i anspråk.",
+   "oppen_kod": "Stor tidsåtgång för omställning",
+   "beskrivning": "Nya läro- och kursplaner är en stor förändring som tar mycket tid i anspråk för skolan."
+  },
+  {
+   "uid": "U059",
+   "id": "hagfors-kommun#5",
+   "citat": "Delarna om fritidshemmet och förskoleklassen saknas i förslaget, vilket vi ställer oss frågande till. Vi anser även att delen om anpassad grundskola behöver tydliggöras.",
+   "oppen_kod": "Saknade och otydliga delar",
+   "beskrivning": "Delar om fritidshem och förskoleklass saknas och delen om anpassad grundskola är otydlig."
+  },
+  {
+   "uid": "U060",
+   "id": "hagfors-kommun#7",
+   "citat": "Blir det en utmaning för lärare att kombinera målstyrningen med att ta hänsyn till elevers individuella behov?",
+   "oppen_kod": "Kombinera målstyrning och individuella behov",
+   "beskrivning": "Lärare kan få svårt att förena målstyrd gruppundervisning med elevers individuella behov."
+  },
+  {
+   "uid": "U061",
+   "id": "hagfors-kommun#7",
+   "citat": "Hur stödundervisningen ska organiseras rent praktiskt inom den ordinarie undervisningen alternativt parallellt med ordinarie undervisning. Svårigheter för rektor och huvudman att kunna planera för detta såväl organisatoriskt som budgetmässigt.",
+   "oppen_kod": "Planera stödundervisning organisatoriskt och budgetmässigt",
+   "beskrivning": "Rektor och huvudman får svårt att planera stödundervisningen organisatoriskt och budgetmässigt."
+  },
+  {
+   "uid": "U062",
+   "id": "hagfors-kommun#7",
+   "citat": "Detta innebär, som vi ser det, behov av fler behöriga lärare och speciallärare alternativt lärarassistenter.",
+   "oppen_kod": "Behov av fler behöriga lärare",
+   "beskrivning": "Stödundervisningen kräver fler behöriga lärare, speciallärare eller lärarassistenter."
+  },
+  {
+   "uid": "U063",
+   "id": "hagfors-kommun#7",
+   "citat": "Lärarnas friutrymme - hur påverkas detta av de tydligare skrivningarna i kursplanerna?",
+   "oppen_kod": "Oklar påverkan på lärares friutrymme",
+   "beskrivning": "Det är oklart hur de mer detaljerade kursplaneskrivningarna påverkar lärarnas friutrymme."
+  },
+  {
+   "uid": "U064",
+   "id": "hagfors-kommun#8",
+   "citat": "Fokus på läsa, skriva och räkna. Ska något annat minskas ner/ tas bort eller ska tirnplanen utökas?",
+   "oppen_kod": "Oklart förhållande till timplanen",
+   "beskrivning": "Det är oklart om ökat fokus på läsa, skriva och räkna kräver neddragning av annat eller utökad timplan."
+  },
+  {
+   "uid": "U065",
+   "id": "hagfors-kommun#8",
+   "citat": "Hur kommer detta påverka likabehandlingsarbetet?",
+   "oppen_kod": "Oklar effekt på likabehandlingsarbetet",
+   "beskrivning": "Ändrad skollagsskrivning om kränkande behandling gör det oklart hur likabehandlingsarbetet påverkas."
+  },
+  {
+   "uid": "U066",
+   "id": "hagfors-kommun#11",
+   "citat": "Svårigheter för huvudmannen att organisera och budgetera bland annat kring stödundervisningen.",
+   "oppen_kod": "Organisera och budgetera stödundervisning",
+   "beskrivning": "Huvudmannen får svårt att organisera och budgetera för stödundervisningen."
+  },
+  {
+   "uid": "U067",
+   "id": "hagfors-kommun#11",
+   "citat": "Kostnader i både tid och pengar kopplat till implementering.",
+   "oppen_kod": "Implementeringskostnader i tid och pengar",
+   "beskrivning": "Implementeringen kostar huvudmannen både tid och pengar."
+  },
+  {
+   "uid": "U068",
+   "id": "ideburna-skolors-riksforbund#3",
+   "citat": "En sådan återgång till mer konkreta kursplaner bör inte kombineras med en hård styrning och kontroll eftersom det då finns en stor risk att utrymmet för lärarnas professionella bedömningar minskar till förmån för mallar som ska följas och följas upp.",
+   "oppen_kod": "Mallstyrning minskar professionellt utrymme",
+   "beskrivning": "Konkreta kursplaner med hård kontroll riskerar att ersätta professionella bedömningar med mallar."
+  },
+  {
+   "uid": "U069",
+   "id": "ideburna-skolors-riksforbund#8",
+   "citat": "Vidare vänder vi oss emot terminologin ”förmedla och förankra” vars innebörd är alltför oklar.",
+   "oppen_kod": "Oklar terminologi förmedla och förankra",
+   "beskrivning": "Innebörden av terminologin förmedla och förankra är oklar."
+  },
+  {
+   "uid": "U070",
+   "id": "ideburna-skolors-riksforbund#8",
+   "citat": "ISR ställer sig bakom att ta bort skrivningar om stöd i form av extra anpassning och istället tala om stödundervisning. Dock får en sådan förändring ekonomiska konsekvenser som måste beaktas.",
+   "oppen_kod": "Ekonomiska konsekvenser av stödundervisning",
+   "beskrivning": "Övergången från extra anpassningar till stödundervisning får ekonomiska konsekvenser för skolorna."
+  },
+  {
+   "uid": "U071",
+   "id": "ideburna-skolors-riksforbund#9",
+   "citat": "Begreppen förmågor såväl som de fyra Fn är inarbetade och att byta ut mot nya begrepp skulle enbart skapa förvirring.",
+   "oppen_kod": "Nya begrepp skapar förvirring",
+   "beskrivning": "Att ersätta inarbetade begrepp med nya riskerar att skapa förvirring i skolan."
+  },
+  {
+   "uid": "U072",
+   "id": "ideburna-skolors-riksforbund#9",
+   "citat": "När det gäller kursplanerna är det positivt med större tydlighet och konkretion samtidigt som det finns en risk att det blir en tvångströja för rektorer och lärare som försvårar möjligheterna till flexibilitet för att möta olika elevers behov.",
+   "oppen_kod": "Kursplaner som tvångströja",
+   "beskrivning": "Konkreta kursplaner riskerar att bli en tvångströja som minskar rektorers och lärares flexibilitet."
+  },
+  {
+   "uid": "U073",
+   "id": "ideburna-skolors-riksforbund#10",
+   "citat": "Inte minst de årskursvisa kursplanerna på lågstadiet riskerar att försvåra lärarnas möjlighet att anpassa undervisningen till den stora skillnad i utvecklingsnivå som brukar känneteckna barn i den åldern.",
+   "oppen_kod": "Årskursvisa kursplaner försvårar anpassning",
+   "beskrivning": "Årskursvisa kursplaner på lågstadiet försvårar anpassning till elevernas olika utvecklingsnivåer."
+  },
+  {
+   "uid": "U074",
+   "id": "karlskoga-kommun#2",
+   "citat": "En överhängande risk med att, i högre utsträckning, styra lärares pedagogiska och didaktiska val är att ansvaret förskjuts från professionen till staten",
+   "oppen_kod": "Ansvar förskjuts till staten",
+   "beskrivning": "Styrning av didaktiska val riskerar att förskjuta ansvaret för undervisningens kvalitet från profession till stat."
+  },
+  {
+   "uid": "U075",
+   "id": "karlskoga-kommun#2",
+   "citat": "Karlskoga kommun vill få förtydligat vilka delar som kommer att styras med riktlinjer och strategier genom läroplanen för att kunna ta ställning till konsekvensen av förslaget.",
+   "oppen_kod": "Oklart omfång av riktlinjer och strategier",
+   "beskrivning": "Det är oklart vilka delar som ska styras med riktlinjer och strategier, vilket gör konsekvenserna svåra att bedöma."
+  },
+  {
+   "uid": "U076",
+   "id": "karlskoga-kommun#4",
+   "citat": "Detta innebär att lärare ges befogenhet att besluta om delar som påverkar rektors inre organisation och resursfördelning. Hur ska rektorn kunna ansvara för dessa delar om rektor fråntas mandat att besluta om dem?",
+   "oppen_kod": "Lärarbeslut påverkar rektors resursfördelning",
+   "beskrivning": "Lärares beslut om stödundervisning påverkar rektors organisation och resursfördelning utan rektors mandat."
+  },
+  {
+   "uid": "U077",
+   "id": "karlskoga-kommun#4",
+   "citat": "Om en lärare bedömer att en elev är i behov av stödundervisning kan det innebära en merkostnad i form av utökad undervisningstid med personal eller extra personal inom befintlig undervisningstid.",
+   "oppen_kod": "Merkostnad för stödundervisning",
+   "beskrivning": "Stödundervisning kan medföra merkostnader för utökad undervisningstid eller extra personal."
+  },
+  {
+   "uid": "U078",
+   "id": "karlskoga-kommun#4",
+   "citat": "Det kan också innebära att rektorn ska se till att det finns ändamålsenliga lokaler för att tillhandahålla stödet i det fall de ska ske utanför ordinarie undervisningsgrupp. Dock har rektorn liten eller ingen möjlighet att påverka exempelvis lokalernas utformning. Inte heller huvudmannen kommer att kunna anpassa skolans lokaler innan utredningens förslag föreslås att träda i kraft.",
+   "oppen_kod": "Lokaler för stödundervisning",
+   "beskrivning": "Huvudmannen hinner inte anpassa lokaler för stödundervisning före ikraftträdandet."
+  },
+  {
+   "uid": "U079",
+   "id": "karlskoga-kommun#4",
+   "citat": "Karlskoga kommun vill få förtydligat vad som ska rymmas i begreppet stödundervisning och som idag inte betraktas som särskilt stöd. Vad är skillnaden mellan exempelvis enskild undervisning, särskild undervisningsgrupp och stödundervisning?",
+   "oppen_kod": "Oklart begrepp stödundervisning",
+   "beskrivning": "Det är oklart vad begreppet stödundervisning rymmer och hur det skiljer sig från särskilt stöd."
+  },
+  {
+   "uid": "U080",
+   "id": "karlskoga-kommun#6",
+   "citat": "En överhängande risk med att i högre utsträckning styra lärares pedagogiska och didaktiska val är att ansvaret förskjuts från professionen till staten",
+   "oppen_kod": "Ansvar förskjuts till staten",
+   "beskrivning": "Styrning av didaktiska val riskerar att förskjuta ansvaret för undervisningens kvalitet från profession till stat."
+  },
+  {
+   "uid": "U081",
+   "id": "karlskoga-kommun#6",
+   "citat": "Karlskoga kommun vill få förtydligat vilka delar som kommer att styras med riktlinjer och strategier genom läroplanen för att kunna ta ställning till konsekvensen av förslaget.",
+   "oppen_kod": "Oklart omfång av riktlinjer och strategier",
+   "beskrivning": "Det är oklart vilka delar som ska styras med riktlinjer och strategier, vilket gör konsekvenserna svåra att bedöma."
+  },
+  {
+   "uid": "U082",
+   "id": "karlskoga-kommun#9",
+   "citat": "Karlskoga kommun ställer sig tveksam till tidsramen för genomförande. All tid till systematiskt utvecklingsarbete kommer att behöva avsättas till implementering av utredarens förslag på bekostnad av utveckling av skolans inre arbete.",
+   "oppen_kod": "Snäv tidsram tränger undan utvecklingsarbete",
+   "beskrivning": "Tidsramen innebär att all tid för systematiskt utvecklingsarbete går åt till implementeringen."
+  },
+  {
+   "uid": "U083",
+   "id": "karlskoga-kommun#9",
+   "citat": "Vissa förändringar (stödundervisning) kommer påverka hur huvudman och rektor organiserar för undervisning och lärande. Detta kan mycket väl bli kostnadsdrivande. Karlskoga kommun vill ha förtydligat hur staten ämnar kompensera skolor och huvudmän för detta.",
+   "oppen_kod": "Kostnadsdrivande stödundervisning utan kompensation",
+   "beskrivning": "Stödundervisning ändrar organisationen och kan bli kostnadsdrivande utan klarlagd statlig kompensation."
+  },
+  {
+   "uid": "U084",
+   "id": "karlskoga-kommun#9",
+   "citat": "Vissa delar i förslaget känns ytterst skissartade.",
+   "oppen_kod": "Skissartade förslag",
+   "beskrivning": "Delar av förslaget är så skissartade att de blir oklara för huvudmannen."
+  },
+  {
+   "uid": "U085",
+   "id": "linkopings-kommun#4",
+   "citat": "Linköpings kommun bedömer att ett ökat fokus på grundläggande färdigheter kommer att leda till ett utökat behov av speciallärare. Statsbidraget ”fortbildning av lärare och förskollärare” blir därmed fortsatt betydelsefullt och kan behöva utökas.",
+   "oppen_kod": "ökat behov av speciallärare",
+   "beskrivning": "Huvudmannen får ett ökat behov av speciallärare och fortbildningsmedel när fokus på grundläggande färdigheter ökar."
+  },
+  {
+   "uid": "U086",
+   "id": "linkopings-kommun#4",
+   "citat": "Det blir också betydelsefullt att säkerställa att läromedlen överensstämmer med läroplanen och att elever har adekvat tillgång till dessa.",
+   "oppen_kod": "läromedel anpassade till läroplanen",
+   "beskrivning": "Huvudmannen måste säkerställa att läromedel överensstämmer med den nya läroplanen och finns tillgängliga för eleverna."
+  },
+  {
+   "uid": "U087",
+   "id": "linkopings-kommun#5",
+   "citat": "En mer detaljerad läroplan kräver ett omfattande förarbete som behöver genomföras på ett grundligt vis. Linköpings kommun vill därför betona att tillräcklig tid ges till utarbetande av läroplanen och till implementering i skolan.",
+   "oppen_kod": "behov av tid för implementering",
+   "beskrivning": "Implementeringen av en mer detaljerad läroplan kräver tid i skolorna."
+  },
+  {
+   "uid": "U088",
+   "id": "linkopings-kommun#5",
+   "citat": "Detta kommer att kräva statliga resurser och adekvat stöd från statliga myndigheter. Stödmaterial behöver finnas på plats i samband med implementeringen.",
+   "oppen_kod": "resurser och stödmaterial vid implementering",
+   "beskrivning": "Implementeringen kräver statliga resurser och stödmaterial som finns på plats i tid."
+  },
+  {
+   "uid": "U089",
+   "id": "linkopings-kommun#5",
+   "citat": "Läroplansutredningen är en av flera omfattande statliga utredningar. För att implementeringen ska vara framgångsrik i verksamheterna behöver förslagen och deras intentioner kommuniceras som en helhet så att det blir möjligt för rektor och lärare att förverkliga utredarnas intentioner.",
+   "oppen_kod": "många samtidiga utredningar",
+   "beskrivning": "Flera parallella reformförslag försvårar för rektorer och lärare att genomföra intentionerna som en helhet."
+  },
+  {
+   "uid": "U090",
+   "id": "linkopings-kommun#6",
+   "citat": "Viktigt blir i detta sammanhang att se över timplanen i samband med att innehållet i läroplanen revideras.",
+   "oppen_kod": "timplan i otakt med innehåll",
+   "beskrivning": "Risk att timplanen inte motsvarar det förändrade innehållet i läroplanen."
+  },
+  {
+   "uid": "U091",
+   "id": "linkopings-kommun#7",
+   "citat": "Skolverkets skrifter och allmänna råd uppfattas många gånger av lärare som otydliga, omfångsrika och svåra att använda sig av. Detta leder till merarbete i verksamheterna.",
+   "oppen_kod": "otydligt stödmaterial ger merarbete",
+   "beskrivning": "Otydligt och omfångsrikt statligt stödmaterial skapar merarbete i verksamheterna."
+  },
+  {
+   "uid": "U092",
+   "id": "linkopings-kommun#8",
+   "citat": "En risk som dock kan uppstå är att information som idag dokumenteras utifrån individens behov kan gå förlorad mellan lärare och skolor. Detta kan innebära att mottagande lärare får svårt att snabbt få en bild av vilka behov eleven har (exempelvis dyslexi) och vilka anpassningar som prövats och varit framgångsrika.",
+   "oppen_kod": "informationsöverföring om elevbehov försvåras",
+   "beskrivning": "När extra anpassningar tas bort riskerar information om elevers behov att gå förlorad vid överlämningar mellan lärare och skolor."
+  },
+  {
+   "uid": "U093",
+   "id": "linkopings-kommun#9",
+   "citat": "Däremot ser vi otydligheter med förslaget om stödundervisning, där det enligt förslaget är läraren som ska bedöma om eleven ska ges stödundervisning eller inte. Oklarheterna handlar om hur detta ska fungera, hur rektors ansvar ska se ut och vad stödundervisningen ska innefatta.",
+   "oppen_kod": "oklart ansvar för stödundervisning",
+   "beskrivning": "Det är oklart hur stödundervisningen ska fungera, vad den ska innefatta och hur rektors ansvar ser ut."
+  },
+  {
+   "uid": "U094",
+   "id": "linkopings-kommun#9",
+   "citat": "Det riskerar också att skapa en situation där behov av stödundervisning anmäls till rektor i stor omfattning innan andra vägar uttömts.",
+   "oppen_kod": "många anmälningar till rektor",
+   "beskrivning": "Lärarbedömd stödundervisning riskerar att ge många anmälningar till rektor innan andra vägar prövats."
+  },
+  {
+   "uid": "U095",
+   "id": "linkopings-kommun#9",
+   "citat": "Detta kan fungera väl, men kräver flexibilitet och anpassning efter lokala förutsättningar under ledning av rektor.",
+   "oppen_kod": "undervisning i mindre grupper organiseras",
+   "beskrivning": "Undervisning av elever med stödbehov i mindre grupper kräver flexibel organisation efter lokala förutsättningar."
+  },
+  {
+   "uid": "U096",
+   "id": "linkopings-kommun#12",
+   "citat": "Utifrån förslagen i utredningen finns dock en risk att vissa facktermer snarare vänder sig till forskare än lärarprofessionen i första hand vilket gör läroplanen onödigt svårtillgänglig. Även om detta kan klargöras i kommentarmaterial finns risken att lärare inte kommer att utgå ifrån läroplanen i den utsträckning som avses.",
+   "oppen_kod": "svårtillgängligt språk i kursplaner",
+   "beskrivning": "Facktermer riktade till forskare gör kursplanerna svårtillgängliga så att lärare inte utgår från dem."
+  },
+  {
+   "uid": "U097",
+   "id": "linkopings-kommun#12",
+   "citat": "Det finns ingen anledning att dölja den tänkta progressionen eleverna ska göra i ämnet. Detta riskerar att skapa merarbete i verksamheterna och lokala tolkningar.",
+   "oppen_kod": "otydlig progression ger merarbete",
+   "beskrivning": "Otydligt angiven progression per årskurs riskerar merarbete och lokala tolkningar i verksamheterna."
+  },
+  {
+   "uid": "U098",
+   "id": "linkopings-kommun#13",
+   "citat": "Den beprövade erfarenheten bör med andra ord inte skrivas in i läroplanen eftersom detta öppnar upp för godtycke och riskerar att underminera/ sammanblandas med den vetenskapliga grund som finns tillgänglig.",
+   "oppen_kod": "beprövad erfarenhet öppnar för godtycke",
+   "beskrivning": "Undervisningsstrategier grundade på beprövad erfarenhet i läroplanen riskerar godtycke och sammanblandning med vetenskaplig grund."
+  },
+  {
+   "uid": "U099",
+   "id": "ljusnarsbergs-kommun#2",
+   "citat": "Fortsättningsvis bör detta arbete också tydligt synkroniseras med de övriga utredningar som genomförts och pågår inom området.",
+   "oppen_kod": "synkronisering med andra utredningar",
+   "beskrivning": "Läroplansarbetet måste samordnas med andra pågående utredningar på området."
+  },
+  {
+   "uid": "U100",
+   "id": "ljusnarsbergs-kommun#2",
+   "citat": "Om det är så att rektor, som ansvarar för den inre organisationen, inte äger frågan finns det en överhängande risk att det så kallade korstrycket ökar ännu mer.",
+   "oppen_kod": "ökat korstryck för rektor",
+   "beskrivning": "När läraren avgör stödundervisning utan att rektor äger frågan ökar korstrycket på rektor."
+  },
+  {
+   "uid": "U101",
+   "id": "ljusnarsbergs-kommun#2",
+   "citat": "Vidare tillkommer det ekonomiska konsekvenserna som är svåra att överskåda inom ramen för stödundervisning.",
+   "oppen_kod": "svåröverskådliga kostnader för stödundervisning",
+   "beskrivning": "De ekonomiska konsekvenserna av stödundervisning är svåra att överblicka för huvudmannen."
+  },
+  {
+   "uid": "U102",
+   "id": "ljusnarsbergs-kommun#2",
+   "citat": "Sammantaget tror vi inte det underlättar att få skolledare att stanna i sina uppdrag, vilket skulle vara negativt för eleverna i slutändan.",
+   "oppen_kod": "svårare att behålla skolledare",
+   "beskrivning": "Förslaget om stödundervisning riskerar att försvåra för huvudmannen att behålla skolledare."
+  },
+  {
+   "uid": "U103",
+   "id": "ljusnarsbergs-kommun#4",
+   "citat": "Vi har svårt att bedöma hur de föreslagna utbildningsstrategierna påverkar lärarrollen. Om de hanteras rätt kommer det kunna vara ett bra verktyg för att stötta och vägleda. Det kan samtidigt verka begränsande om det blir för styrande och hämmar lärares handlingsutrymme, något att ta i beaktning i det fortsatta arbetet.",
+   "oppen_kod": "oklar effekt av undervisningsstrategier",
+   "beskrivning": "Det är oklart hur undervisningsstrategierna påverkar lärarrollen och de kan begränsa lärares handlingsutrymme."
+  },
+  {
+   "uid": "U104",
+   "id": "ljusnarsbergs-kommun#7",
+   "citat": "Det bör dock beaktas att den troligen kommer att kräva all resurs som finns för förändrings- och utvecklingsarbete hos huvudmännen i anspråk och förmodligen lite till.",
+   "oppen_kod": "implementering tar alla utvecklingsresurser",
+   "beskrivning": "Implementeringen väntas ta huvudmännens samtliga resurser för förändrings- och utvecklingsarbete i anspråk."
+  },
+  {
+   "uid": "U105",
+   "id": "ljusnarsbergs-kommun#8",
+   "citat": "Att i det sammanhanget uttrycka att det inte är några nya åtagande för huvudmännen som kräver extra resurser uppfattar vi märkligt.",
+   "oppen_kod": "nya åtaganden utan finansiering",
+   "beskrivning": "Huvudmännen får i praktiken nya åtaganden trots att utredningen bedömer att inga extra resurser krävs."
+  },
+  {
+   "uid": "U106",
+   "id": "ljusnarsbergs-kommun#8",
+   "citat": "Vi är av uppfattningen att det utöver de föreslagna insatserna behöver tillskjutas ytterligare resurser till huvudmännen för en lyckosam process.",
+   "oppen_kod": "behov av ytterligare resurser",
+   "beskrivning": "Huvudmännen behöver ytterligare resurser utöver de föreslagna insatserna för att genomföra reformen."
+  },
+  {
+   "uid": "U107",
+   "id": "lomma-kommun#13",
+   "citat": "Regeringen bör vidare beakta att implementeringen av de nya läroplanerna kommer att kräva omfattande insatser på lokal nivå. Detta inkluderar fortbildning av personal, justeringar i skolornas styrning och ledning samt förstärkning av elevhälsan.",
+   "oppen_kod": "omfattande lokala implementeringsinsatser",
+   "beskrivning": "Implementeringen kräver omfattande lokala insatser i fortbildning, styrning och ledning samt elevhälsa."
+  },
+  {
+   "uid": "U108",
+   "id": "lomma-kommun#13",
+   "citat": "För att lärare ska kunna tillämpa nya undervisningsstrategier krävs ett långsiktigt stöd, tillräcklig tid för anpassning samt insatser för att skapa samsyn kring förändringarnas syfte och innehåll.",
+   "oppen_kod": "långsiktigt stöd till lärare",
+   "beskrivning": "Lärare behöver långsiktigt stöd, tid och samsynsinsatser för att tillämpa nya undervisningsstrategier."
+  },
+  {
+   "uid": "U109",
+   "id": "lomma-kommun#13",
+   "citat": "Nämnden ifrågasätter därför att en så omfattande reform planeras att genomföras inom en så kort tidsram.",
+   "oppen_kod": "för kort tidsram",
+   "beskrivning": "Den omfattande reformen ska genomföras på för kort tid."
+  },
+  {
+   "uid": "U110",
+   "id": "lomma-kommun#13",
+   "citat": "Detta kan i sin tur innebära att skolan behöver tydliggöra gränserna för rollfördelningen mellan skola och hem, vilket i sig kan få organisatoriska och kommunikativa konsekvenser.",
+   "oppen_kod": "rollfördelning skola och hem",
+   "beskrivning": "Preciserat hemsamarbete kräver att skolan tydliggör rollfördelningen, med organisatoriska och kommunikativa konsekvenser."
+  },
+  {
+   "uid": "U111",
+   "id": "lomma-kommun#15",
+   "citat": "Ett avskaffande av detta begrepp kräver därför att tydliga alternativ och vägledningar erbjuds för att säkerställa att ingen elev faller mellan stolarna.",
+   "oppen_kod": "vägledning när extra anpassningar försvinner",
+   "beskrivning": "Skolorna behöver tydliga alternativ och vägledning när extra anpassningar avskaffas."
+  },
+  {
+   "uid": "U112",
+   "id": "lomma-kommun#15",
+   "citat": "En ny läroplan förändrar synen på det pedagogiska ledarskapet och ställer krav på insikt om vilken typ av fortbildning som behöver erbjudas – särskilt inom områden som förändrad syn på elevhälsans roll samt ett tydligare fokus på kunskapsuppdraget.",
+   "oppen_kod": "fortbildningsbehov för pedagogiskt ledarskap",
+   "beskrivning": "Den nya läroplanen kräver fortbildning kring pedagogiskt ledarskap, elevhälsans roll och kunskapsuppdraget."
+  },
+  {
+   "uid": "U113",
+   "id": "lomma-kommun#15",
+   "citat": "Nämnden är dock kritisk till att en så omfattande reform ska genomföras under så kort tid.",
+   "oppen_kod": "kort genomförandetid",
+   "beskrivning": "Den omfattande reformen ska genomföras under kort tid."
+  },
+  {
+   "uid": "U114",
+   "id": "lomma-kommun#15",
+   "citat": "Samtidigt som denna reform genomförs planeras även en betygsreform enligt förslagen i Ett likvärdigt betygssystem (SOU 2025:18). Under en övergångsperiod kommer parallella läroplaner att gälla – både den föreslagna och Lgr11.",
+   "oppen_kod": "parallella reformer och läroplaner",
+   "beskrivning": "Samtidig betygsreform och parallella läroplaner under en övergångsperiod belastar verksamheten."
+  },
+  {
+   "uid": "U115",
+   "id": "lomma-kommun#15",
+   "citat": "Regeringen bör vidare beakta att implementeringen av de nya läroplanerna kommer att kräva omfattande insatser på lokal nivå. Detta inkluderar fortbildning av personal, justeringar i skolornas styrning och ledning samt förstärkning av elevhälsan.",
+   "oppen_kod": "omfattande lokala implementeringsinsatser",
+   "beskrivning": "Implementeringen kräver omfattande lokala insatser i fortbildning, styrning och ledning samt elevhälsa."
+  },
+  {
+   "uid": "U116",
+   "id": "lomma-kommun#16",
+   "citat": "tillämpa nya undervisningsstrategier krävs ett långsiktigt stöd och tillräcklig tid för anpassning.",
+   "oppen_kod": "tid och stöd för nya strategier",
+   "beskrivning": "Lärare behöver långsiktigt stöd och tid för att tillämpa nya undervisningsstrategier."
+  },
+  {
+   "uid": "U117",
+   "id": "lomma-kommun#18",
+   "citat": "Det bör klargöras om detta innebär att betyget F föreslås återinföras. Om så är fallet behöver syftet med förändringen tydliggöras.",
+   "oppen_kod": "oklart om betyget F återinförs",
+   "beskrivning": "Det är oklart om betyget F återinförs i anpassade grundskolan."
+  },
+  {
+   "uid": "U118",
+   "id": "lomma-kommun#23",
+   "citat": "Däremot bedöms olikheterna göra det svårare att hjälpa kollegor över ämnesgränser.",
+   "oppen_kod": "olika struktur försvårar ämnessamarbete",
+   "beskrivning": "Olika struktur och språk mellan kursplanerna försvårar samarbete över ämnesgränser."
+  },
+  {
+   "uid": "U119",
+   "id": "lomma-kommun#26",
+   "citat": "Det är dock viktigt att hänsyn tas till eventuell stoffträngsel i SO- och NO-ämnena.",
+   "oppen_kod": "stoffträngsel i SO och NO",
+   "beskrivning": "Risk för stoffträngsel i SO- och NO-ämnena."
+  },
+  {
+   "uid": "U120",
+   "id": "lomma-kommun#31",
+   "citat": "undervisningen fokuserar på lägsta nivå. Frågan om implementering är också något som behöver beaktas noggrant.",
+   "oppen_kod": "risk för fokus på lägsta nivå",
+   "beskrivning": "Minskad betoning på betyg kan leda till undervisning på lägsta nivå och kräver noggrann implementering."
+  },
+  {
+   "uid": "U121",
+   "id": "lomma-kommun#33",
+   "citat": "Begreppet \"förbereda\" används i texten för de olika ämnesdelarna. Det skulle behöva definieras och förtydligas för att säkerställa en enhetlig förståelse.",
+   "oppen_kod": "odefinierat begrepp förbereda",
+   "beskrivning": "Begreppet förbereda i kursplanerna är odefinierat och riskerar olika tolkningar."
+  },
+  {
+   "uid": "U122",
+   "id": "lomma-kommun#38",
+   "citat": "En fråga som uppstår är om detta innebär att blockbetyg kommer att fortsätta att tillämpas.",
+   "oppen_kod": "oklart om blockbetyg kvarstår",
+   "beskrivning": "Det är oklart om blockbetyg ska fortsätta tillämpas med de nya kriterierna."
+  },
+  {
+   "uid": "U123",
+   "id": "lomma-kommun#41",
+   "citat": "Samtidigt bör digitala verktyg inte tas bort helt. För vissa elever är digitalt stöd, som talsyntes, avgörande för att kunna ta del av undervisningen och för att stödja det kompensatoriska uppdraget.",
+   "oppen_kod": "kompensatoriskt digitalt stöd hotas",
+   "beskrivning": "Restriktivitet mot digitala verktyg kan försvåra skolans kompensatoriska uppdrag."
+  },
+  {
+   "uid": "U124",
+   "id": "lomma-kommun#45",
+   "citat": "Förslaget innebär stora förändringar och en kort implementeringstid.",
+   "oppen_kod": "kort implementeringstid",
+   "beskrivning": "Stora förändringar ska genomföras på kort implementeringstid."
+  },
+  {
+   "uid": "U125",
+   "id": "lomma-kommun#46",
+   "citat": "om det innebär att lärarna måste arbeta med två läroplaner under ett par år. Stödmaterial kommer att vara avgörande för en framgångsrik implementering.",
+   "oppen_kod": "två läroplaner parallellt",
+   "beskrivning": "Stegvis införande innebär att lärare arbetar med två läroplaner parallellt och behöver stödmaterial."
+  },
+  {
+   "uid": "U126",
+   "id": "lomma-kommun#47",
+   "citat": "Nämnden bedömer att de föreslagna förändringarna, trots att de primärt rör andra skolformer, kan få betydande implikationer för framtida styrning och praktik.",
+   "oppen_kod": "implikationer för andra skolformer",
+   "beskrivning": "Förändringarna kan få betydande följder för styrning och praktik i förskola, gymnasieskola och komvux."
+  },
+  {
+   "uid": "U127",
+   "id": "lomma-kommun#48",
+   "citat": "För att lyckas krävs resurser i form av tid och personal, inte minst för att skapa samsyn kring förändringarna.",
+   "oppen_kod": "resurser i tid och personal",
+   "beskrivning": "Implementeringen kräver resurser i tid och personal för att skapa samsyn."
+  },
+  {
+   "uid": "U128",
+   "id": "lomma-kommun#48",
+   "citat": "Under införandefasen kan arbetsbördan komma att öka, särskilt om implementeringen innebär nya arbetssätt, mer dokumentation eller särskilda utbildningsinsatser. En sannolik konsekvens är att personal behöver fortbildning eller stöd för att förstå och tillämpa förändringarna på ett korrekt sätt.",
+   "oppen_kod": "ökad arbetsbörda vid införande",
+   "beskrivning": "Införandet kan öka personalens arbetsbörda och kräva fortbildning."
+  },
+  {
+   "uid": "U129",
+   "id": "lomma-kommun#48",
+   "citat": "Förslaget innebär stora förändringar och en kort implementeringstid.",
+   "oppen_kod": "kort implementeringstid",
+   "beskrivning": "Stora förändringar ska genomföras på kort implementeringstid."
+  },
+  {
+   "uid": "U130",
+   "id": "lomma-kommun#48",
+   "citat": "Detta kan i sin tur innebära att skolan behöver tydliggöra gränserna för rollfördelningen mellan skola och hem, vilket i sig kan få organisatoriska och kommunikativa konsekvenser.",
+   "oppen_kod": "rollfördelning skola och hem",
+   "beskrivning": "Preciserat hemsamarbete kräver att skolan tydliggör rollfördelningen, med organisatoriska och kommunikativa konsekvenser."
+  },
+  {
+   "uid": "U131",
+   "id": "lomma-kommun#49",
+   "citat": "kommunala huvudmännen kompenseras för eventuella merkostnader, i enlighet med proportionalitetsprincipen.",
+   "oppen_kod": "kompensation för merkostnader",
+   "beskrivning": "Ökad statlig styrning kan medföra merkostnader som kommunerna behöver kompenseras för."
+  },
+  {
+   "uid": "U132",
+   "id": "lomma-kommun#50",
+   "citat": "För att reformen ska bli framgångsrik är det avgörande att implementeringen sker i god tid och att skolhuvudmän och skolor får det stöd de behöver. Detta inkluderar tydliga riktlinjer, fortbildning för personalen och resurser för att anpassa skolornas organisation och arbetssätt.",
+   "oppen_kod": "stöd och resurser för omställning",
+   "beskrivning": "Huvudmän behöver tid, riktlinjer, fortbildning och resurser för att anpassa organisation och arbetssätt."
+  },
+  {
+   "uid": "U133",
+   "id": "malmo-kommun#4",
+   "citat": "Bedömningen är att de många förslagen som är riktade till skolväsendet kommer att innebära stora utmaningar för huvudmän och skolor.",
+   "oppen_kod": "många förslag samtidigt",
+   "beskrivning": "De många samtidiga förslagen till skolväsendet innebär stora utmaningar för huvudmän och skolor."
+  },
+  {
+   "uid": "U134",
+   "id": "malmo-kommun#4",
+   "citat": "Den nya läroplanens utformning kommer även medföra en ökad statlig styrning av skolan och de kommunala huvudmännen bör kompenseras i enlighet med proportionalitetsprincipen.",
+   "oppen_kod": "ökad statlig styrning kräver kompensation",
+   "beskrivning": "Ökad statlig styrning medför kostnader som kommunerna behöver kompenseras för."
+  },
+  {
+   "uid": "U135",
+   "id": "malmo-kommun#6",
+   "citat": "Att utvärderingar inte gjorts försvårar även ställningstaganden kopplat till de olika förslagen.",
+   "oppen_kod": "saknade utvärderingar av nuvarande läroplan",
+   "beskrivning": "Avsaknaden av utvärderingar av nuvarande läroplaner försvårar bedömningen av förslagen."
+  },
+  {
+   "uid": "U136",
+   "id": "malmo-kommun#6",
+   "citat": "Det är en utmaning att föra över alla förslag som gäller grundskolan till den anpassade grundskolan. Det gäller exempelvis skillnaden i utformningen av ämnen och behov av olika form av stöd i de olika skolformerna.",
+   "oppen_kod": "överföring till anpassad grundskola",
+   "beskrivning": "Förslagen för grundskolan är svåra att överföra till anpassade grundskolan med dess annorlunda ämnen och stödbehov."
+  },
+  {
+   "uid": "U137",
+   "id": "malmo-kommun#7",
+   "citat": "Malmö stad vill även framföra att det stora antalet betänkanden som under en tid remitterats från utbildningsdepartementet riskerar att medföra en otydlighet och att det saknas ett helhetsgrepp kring förskolan som skolform.",
+   "oppen_kod": "många betänkanden skapar otydlighet",
+   "beskrivning": "Det stora antalet betänkanden riskerar otydlighet och saknar helhetsgrepp kring förskolan."
+  },
+  {
+   "uid": "U138",
+   "id": "malmo-kommun#7",
+   "citat": "Exempelvis lämnades förslag i betänkandet Bättre förutsättningar för trygghet och studiero (SOU 2025:8), som tog upp förändringar för rektor utan att lämna förslag till motsvarande ändringar i läroplanen. Dessa ändringar tydliggörs inte i föreliggande utredning heller.",
+   "oppen_kod": "bristande samordning mellan betänkanden",
+   "beskrivning": "Ändringar för rektor i andra betänkanden saknar motsvarighet i läroplanen."
+  },
+  {
+   "uid": "U139",
+   "id": "malmo-kommun#9",
+   "citat": "Denna förändring anser Malmö stad vara problematisk utifrån förskolans uppdrag och förutsättningar som nämnts ovan samt med tanke på förskolebarnens ålder.",
+   "oppen_kod": "undervisningsdefinition passar ej förskolan",
+   "beskrivning": "Den nya definitionen av undervisning passar dåligt med förskolans uppdrag och förutsättningar."
+  },
+  {
+   "uid": "U140",
+   "id": "malmo-kommun#10",
+   "citat": "Här ser Malmö stad att det finns ett behov av att förtydliga vad stödundervisning är och innebär i en förskole-kontext.",
+   "oppen_kod": "stödundervisning oklar i förskolan",
+   "beskrivning": "Det är oklart vad stödundervisning innebär i förskolan."
+  },
+  {
+   "uid": "U141",
+   "id": "malmo-kommun#14",
+   "citat": "Malmö stad anser att förslagen om hur undervisningsstrategier ska infogas i de nya läroplanerna är otydliga och ställer sig frågande till om de ska vara en del av läroplanen. Att det inte finns fastställda förslag till kursplaner gör det även svårare att bedöma undervisningsstrategiernas tänkta utformning.",
+   "oppen_kod": "otydliga undervisningsstrategier",
+   "beskrivning": "Det är otydligt hur undervisningsstrategierna ska infogas i läroplanerna och hur de är tänkta att utformas."
+  },
+  {
+   "uid": "U142",
+   "id": "malmo-kommun#14",
+   "citat": "Ett införande av undervisningsstrategier bedöms kunna begränsa lärarnas professionella frihet.",
+   "oppen_kod": "begränsad professionell frihet",
+   "beskrivning": "Undervisningsstrategier i läroplanen kan begränsa lärarnas professionella frihet."
+  },
+  {
+   "uid": "U143",
+   "id": "malmo-kommun#14",
+   "citat": "Då kommer kursplanerna behöva revideras, vilket bedöms vara svårare att genomföra jämfört med att revidera ett kommentarmaterial.",
+   "oppen_kod": "svår revidering av strategier",
+   "beskrivning": "Strategier i kursplanerna blir svåra att revidera när ny vetenskaplig grund tillkommer."
+  },
+  {
+   "uid": "U144",
+   "id": "malmo-kommun#14",
+   "citat": "I sammanhanget vill Malmö stad lyfta att eventuella nya stödmaterial behöver ta hänsyn till det stödmaterial som Skolverket har tagit fram eller håller på att ta fram, och hur det är tänkt att användas på skolorna.",
+   "oppen_kod": "samordning av stödmaterial",
+   "beskrivning": "Nya stödmaterial måste samordnas med befintligt stöd och rekommendationer om lärverktyg."
+  },
+  {
+   "uid": "U145",
+   "id": "malmo-kommun#16",
+   "citat": "Det stora antalet ämnesplaner, cirka 700 för närvarande, i gymnasial utbildning och behovet av att nya ämnesplaner löpande tas fram, gör att Malmö stad anser att det vore svårhanterligt om ämnesplanerna skulle ingå i läroplanen och att regeringen då skulle fatta beslut om helheten.",
+   "oppen_kod": "svårhanterligt för gymnasiala ämnesplaner",
+   "beskrivning": "Sammanhållet regeringsbeslut blir svårhanterligt för de många gymnasiala ämnesplanerna."
+  },
+  {
+   "uid": "U146",
+   "id": "malmo-kommun#17",
+   "citat": "Malmö stad vill poängtera att lärare idag har ett professionellt friutrymme inom ramen för sitt uppdrag, som är viktigt att beakta när det gäller skrivningarna om hur undervisningen ska genomföras med fokus på mer undervisning i grupp och/eller i klass och mindre individuellt elevarbete.",
+   "oppen_kod": "minskat professionellt friutrymme",
+   "beskrivning": "Skrivningar om undervisningens form riskerar att inskränka lärares professionella friutrymme."
+  },
+  {
+   "uid": "U147",
+   "id": "malmo-kommun#18",
+   "citat": "Malmö stad anser att utredningens förslag om att ersätta extra anpassningar med stödundervisning är otydligt. Det är oklart hur den förslagna åtgärden stödundervisning ska fungera i praktiken och förhålla sig till särskilt stöd, som enligt förslaget ska finnas kvar.",
+   "oppen_kod": "oklar gräns stödundervisning och särskilt stöd",
+   "beskrivning": "Det är oklart hur stödundervisning ska fungera i praktiken och förhålla sig till särskilt stöd."
+  },
+  {
+   "uid": "U148",
+   "id": "malmo-kommun#18",
+   "citat": "När det gäller stödundervisning i gymnasieskolan så är det inte tydligt vad dessa förändringar kan innebära, och vilka resurser det kan komma att kräva i form av speciallärare och specialpedagoger.",
+   "oppen_kod": "resursbehov för stödundervisning",
+   "beskrivning": "Det är oklart vilka resurser i form av speciallärare och specialpedagoger stödundervisningen kräver."
+  },
+  {
+   "uid": "U149",
+   "id": "malmo-kommun#22",
+   "citat": "Utifrån det behövs ett förtydligande av hur vikten av läsning ska lyftas fram i kursplanerna. Det hade varit bra med en definition av vad läsning innebär, vilken sorts läsning och typ av texter som avses.",
+   "oppen_kod": "oklar definition av läsning",
+   "beskrivning": "Det är oklart vad läsning innebär och hur den ska lyftas fram i kursplanerna."
+  },
+  {
+   "uid": "U150",
+   "id": "malmo-kommun#23",
+   "citat": "Det ökade fokuset på läs- och skrivinlärning behöver dock anpassas till förskolans skolform och dess förutsättningar.",
+   "oppen_kod": "läsfokus anpassat till förskolan",
+   "beskrivning": "Det ökade fokuset på läs- och skrivinlärning måste anpassas till förskolans förutsättningar."
+  },
+  {
+   "uid": "U151",
+   "id": "malmo-kommun#24",
+   "citat": "Malmö stad bedömer att de många förslagen som är riktade till skolväsendet kommer att innebära stora utmaningar för huvudmän och skolor. Inte minst då reformerna föreslås införas inom i stort sett samma tidsperiod.",
+   "oppen_kod": "samtidiga reformer",
+   "beskrivning": "Flera reformer som införs under samma tidsperiod innebär stora utmaningar för huvudmän och skolor."
+  },
+  {
+   "uid": "U152",
+   "id": "malmo-kommun#24",
+   "citat": "Förslagen kommer att ha en stor påverkan på skolornas verksamheter och medföra betydande pedagogiska och organisatoriska konsekvenser.",
+   "oppen_kod": "pedagogiska och organisatoriska konsekvenser",
+   "beskrivning": "Förslagen medför betydande pedagogiska och organisatoriska konsekvenser för skolorna."
+  },
+  {
+   "uid": "U153",
+   "id": "malmo-kommun#24",
+   "citat": "När det gäller samordning med införande av de andra aktuella reformerna, bedömer Malmö stad att det finns behov av ändringar i läroplanernas delar när det gäller de områden som handlar om betyg och bedömning.",
+   "oppen_kod": "samordning med betygsreformen",
+   "beskrivning": "Läroplanens delar om betyg och bedömning måste samordnas med betygsreformen."
+  },
+  {
+   "uid": "U154",
+   "id": "malmo-kommun#25",
+   "citat": "Om förslaget gällande tioårig grundskola ska införas kommer övergången från förskola direkt till grundskola även att behöva framtida styrning och stöd till förskolan.",
+   "oppen_kod": "övergång förskola till grundskola",
+   "beskrivning": "Övergången från förskola direkt till tioårig grundskola kräver styrning och stöd."
+  },
+  {
+   "uid": "U155",
+   "id": "malmo-kommun#26",
+   "citat": "Det är viktigt att de moment i ämnesplanerna som förläggs till arbetsplatser blir tydliga och handledarna kan använda ämnesplaner i sin planering av undervisning.",
+   "oppen_kod": "ämnesplaner för arbetsplatsförlagt lärande",
+   "beskrivning": "Ämnesplanerna behöver bli användbara för handledare i arbetsplatsförlagd utbildning."
+  },
+  {
+   "uid": "U156",
+   "id": "malmo-kommun#27",
+   "citat": "Om förslagen beslutas genomföras, är det av stor vikt att hänsyn tas även till andra reformförslag inom skolväsendet och att ytterligare konsekvensanalyser genomförs.",
+   "oppen_kod": "behov av fler konsekvensanalyser",
+   "beskrivning": "Förslagen behöver samordnas med andra reformer och ytterligare konsekvensanalyser."
+  },
+  {
+   "uid": "U157",
+   "id": "malmo-kommun#28",
+   "citat": "Utifrån detta bör de kommunala huvudmännen kompenseras för eventuella merkostnader i enlighet med proportionalitetsprincipen.",
+   "oppen_kod": "kompensation för merkostnader",
+   "beskrivning": "Ökad statlig styrning kan medföra merkostnader som kommunerna behöver kompenseras för."
+  },
+  {
+   "uid": "U158",
+   "id": "malmo-kommun#30",
+   "citat": "Förslagen kommer att ha en stor påverkan på skolornas verksamheter och medföra betydande pedagogiska och organisatoriska konsekvenser.",
+   "oppen_kod": "pedagogiska och organisatoriska konsekvenser",
+   "beskrivning": "Förslagen medför betydande pedagogiska och organisatoriska konsekvenser för skolorna."
+  },
+  {
+   "uid": "U159",
+   "id": "malmo-kommun#30",
+   "citat": "Malmö stad instämmer i bedömningen att huvudmännen och rektorerna kommer att behöva avsätta resurser i form av tid och personal för implementeringsarbetet. Det kommer med stor sannolikhet även handla om att nedprioritera annat utvecklingsarbete och öka kollegial samverkan för att genomföra en lyckad implementering.",
+   "oppen_kod": "implementering tränger undan utvecklingsarbete",
+   "beskrivning": "Implementeringen kräver tid och personal och tvingar fram nedprioritering av annat utvecklingsarbete."
+  },
+  {
+   "uid": "U160",
+   "id": "malmo-kommun#31",
+   "citat": "Utifrån detta bör de kommunala huvudmännen kompenseras för eventuella merkostnader i enlighet med proportionalitetsprincipen.",
+   "oppen_kod": "kompensation för merkostnader",
+   "beskrivning": "Ökad statlig styrning kan medföra merkostnader som kommunerna behöver kompenseras för."
+  },
+  {
+   "uid": "U161",
+   "id": "orsa-kommun#3",
+   "citat": "Viktigt att ta i beaktning är i hur lärares friutrymme kommer att påverkas om lärares pedagogiska val förflyttas från professionen och frågan blir då om ansvaret för undervisningens kvalitet påverkas.",
+   "oppen_kod": "oklart ansvar vid minskat friutrymme",
+   "beskrivning": "Minskat friutrymme för lärare gör det oklart hur ansvaret för undervisningens kvalitet påverkas."
+  },
+  {
+   "uid": "U162",
+   "id": "orsa-kommun#4",
+   "citat": "Detsamma gäller de behov av fortbildning som följer av de stora förändringar som förslagen till ny läroplan innebär, inte minst eftersom den förmodligen införs samtidigt med ett nytt betygssystem och tioårig grundskola.",
+   "oppen_kod": "fortbildningsbehov vid samtidiga reformer",
+   "beskrivning": "Stora fortbildningsbehov uppstår när läroplanen införs samtidigt med nytt betygssystem och tioårig grundskola."
+  },
+  {
+   "uid": "U163",
+   "id": "orsa-kommun#5",
+   "citat": "Orsa kommun ställer sig bakom Sveriges Kommuner och Regioners (SKR) bedömning att implementeringen av de nya läroplanerna för de obligatoriska skolformerna kommer att innebära merkostnader för huvudmännen, och att kompetensutveckling och fortbildning i anslutning till de nya läroplanerna kommer medföra ytterligare kostnadsökningar.",
+   "oppen_kod": "merkostnader för implementering",
+   "beskrivning": "Implementering och fortbildning medför merkostnader för huvudmännen."
+  },
+  {
+   "uid": "U164",
+   "id": "orsa-kommun#5",
+   "citat": "Avslutningsvis vill Orsa kommun förtydliga att det är viktigt att samtliga huvudmän stora som små får rätt och likvärdiga förutsättningar för att lyckas med implementeringsarbetet.",
+   "oppen_kod": "förutsättningar för små huvudmän",
+   "beskrivning": "Små huvudmän behöver likvärdiga förutsättningar för implementeringsarbetet."
+  },
+  {
+   "uid": "U165",
+   "id": "orsa-kommun#5",
+   "citat": "Det är viktigt att implementeringsarbete och kompetensutvecklingsinsatser inte kan förväntas rymmas inom befintliga statliga anslag. Då ett grundligt implementeringsarbete både kostar tid, utbildning och resurser för huvudmän, rektorer och pedagoger.",
+   "oppen_kod": "implementering ryms ej i anslag",
+   "beskrivning": "Implementering och kompetensutveckling ryms inte inom befintliga anslag."
+  },
+  {
+   "uid": "U166",
+   "id": "orsa-kommun#5",
+   "citat": "Det är också viktigt att om införandet ska få önskad effekt, behöver huvudmän och skolor få en rimlig tidsplan på två år.",
+   "oppen_kod": "behov av två års förberedelse",
+   "beskrivning": "Huvudmän och skolor behöver en tidsplan på två år för införandet."
+  },
+  {
+   "uid": "U167",
+   "id": "osby-kommun#3",
+   "citat": "- Frågande till konsekvenser till ny form av stödundervisning.",
+   "oppen_kod": "oklara konsekvenser av stödundervisning",
+   "beskrivning": "Konsekvenserna av den nya formen av stödundervisning är oklara."
+  },
+  {
+   "uid": "U168",
+   "id": "osby-kommun#3",
+   "citat": "Dessutom uppfattar respondenterna att den tio-åriga grundskolan inte beaktas tillräckligt tydligt för läsaren. Att undersökningen kring elevhälsa och särskilt stöd ligger parallellt gör vissa delar otydliga i förslaget.",
+   "oppen_kod": "parallella utredningar skapar otydlighet",
+   "beskrivning": "Parallella utredningar om tioårig grundskola och elevhälsa gör delar av förslaget otydliga."
+  },
+  {
+   "uid": "U169",
+   "id": "osby-kommun#8",
+   "citat": "Dock ställer detta krav på ett tydligt stöd för lärare i betyg och bedömning av kunskaper i stället för förmågor.",
+   "oppen_kod": "stöd för ny bedömning",
+   "beskrivning": "Lärare behöver tydligt stöd för att bedöma kunskaper i stället för förmågor."
+  },
+  {
+   "uid": "U170",
+   "id": "osby-kommun#8",
+   "citat": "Av vikt är att utbilda lärare som kan grunderna för att lära och befästa dessa kunskaper.",
+   "oppen_kod": "lärarkompetens i grundläggande färdigheter",
+   "beskrivning": "Lärare behöver kompetens i att lära ut grundläggande läs-, skriv- och räknefärdigheter."
+  },
+  {
+   "uid": "U171",
+   "id": "osby-kommun#9",
+   "citat": "Konsekvenserna av ansvaret för stödundervisningen bör utredas vidare i form av resurser, undervisningstid och ansvar. Risk finns att ekonomin i skolorna kommer att påverkas.",
+   "oppen_kod": "stödundervisning påverkar skolornas ekonomi",
+   "beskrivning": "Stödundervisningen kan påverka skolornas ekonomi, undervisningstid och ansvarsfördelning."
+  },
+  {
+   "uid": "U172",
+   "id": "osby-kommun#9",
+   "citat": "Det behöver förtydligas för läraren om vad en god gruppundervisning innebär så att läraren inte exkluderar elever från gruppen utifrån sin undervisning.",
+   "oppen_kod": "oklart vad god gruppundervisning är",
+   "beskrivning": "Det är oklart för lärare vad god gruppundervisning innebär."
+  },
+  {
+   "uid": "U173",
+   "id": "osby-kommun#13",
+   "citat": "Respondenterna ser en fara i att lyfta fram en enstaka metod som ska genomföras, bör i stället vara en rekommendation.",
+   "oppen_kod": "en föreskriven läsmetod",
+   "beskrivning": "En föreskriven enskild läsinlärningsmetod begränsar lärarens möjlighet att variera metod."
+  },
+  {
+   "uid": "U174",
+   "id": "oskarshamns-kommun#4",
+   "citat": "Förslaget behöver dock förtydligas när det gäller stödundervisning",
+   "oppen_kod": "otydlig stödundervisning",
+   "beskrivning": "Förslaget om stödundervisning är otydligt."
+  },
+  {
+   "uid": "U175",
+   "id": "oskarshamns-kommun#5",
+   "citat": "Just nu finns det dessutom flera utredningar kring ändringar i skollagen och tillhörande regelverk som är olika långt framskridna. Det är viktigt att dessa är samspelta så att resultatet inte blir spretigt.",
+   "oppen_kod": "spretigt regelverk av parallella utredningar",
+   "beskrivning": "Flera parallella utredningar om skollagen riskerar ett spretigt regelverk."
+  },
+  {
+   "uid": "U176",
+   "id": "oskarshamns-kommun#5",
+   "citat": "Oskarshamns kommun anser dock att förslaget behöver förtydligas så att det inte råder några oklarheter kring vem som ska tillhandahålla stödundervisningen och hur man ska säkerställa att resurserna till det arbetet prioriteras.",
+   "oppen_kod": "oklart vem som ger stödundervisning",
+   "beskrivning": "Det är oklart vem som ska ge stödundervisningen och hur resurserna ska prioriteras."
+  },
+  {
+   "uid": "U177",
+   "id": "pitea-kommun#1",
+   "citat": "Piteå kommun ställer sig lite tveksamma till att utredarna anser att för mycket fokus läggs på digitalisering och digital kompetens i nuvarande läroplan, här efterfrågar vi ett tydligare stöd och riktning.",
+   "oppen_kod": "otydlig riktning för digitalisering",
+   "beskrivning": "Huvudmannen saknar tydligt stöd och riktning för digitaliseringen."
+  },
+  {
+   "uid": "U178",
+   "id": "pitea-kommun#1",
+   "citat": "I de nya kursplanerna kommer det också att finnas anvisningar om hur man ska prioriterar innehåll, här är risken för mycket detaljstyrning stor och finns också en risk att undervisningstiden inte räcker till för alla krav i nya läroplanen.",
+   "oppen_kod": "detaljstyrning och otillräcklig undervisningstid",
+   "beskrivning": "Detaljstyrning riskeras och undervisningstiden kan inte räcka till läroplanens krav."
+  },
+  {
+   "uid": "U179",
+   "id": "pitea-kommun#1",
+   "citat": "Lärares och rektorers professionella frihet riskerar att urholkas.",
+   "oppen_kod": "urholkad professionell frihet",
+   "beskrivning": "Lärares och rektorers professionella frihet riskerar att urholkas."
+  },
+  {
+   "uid": "U180",
+   "id": "pitea-kommun#1",
+   "citat": "Piteå kommun ser att skolan kommer mötas av flera stora förändringsförslag samtidigt under 2028 vilket medför att medel och stöd under implementeringen måste samordnas.",
+   "oppen_kod": "flera förändringar under 2028",
+   "beskrivning": "Flera stora förändringar samtidigt 2028 kräver samordnade medel och stöd."
+  },
+  {
+   "uid": "U181",
+   "id": "pitea-kommun#3",
+   "citat": "Stödundervisningen blir i den här skrivningen liktydigt med särskilt stöd?",
+   "oppen_kod": "stödundervisning liktydig med särskilt stöd",
+   "beskrivning": "Det är oklart om stödundervisning i praktiken blir detsamma som särskilt stöd."
+  },
+  {
+   "uid": "U182",
+   "id": "pitea-kommun#4",
+   "citat": "Som remissinstans vill vi dock skicka med att detaljstyrningen, gällande beskrivningar vad som ska behandlas i undervisningen, vad som är viktigast att prioritera och ges mest utrymme samt att stödet för genomförandet, inte får bli för omfattande, styrande och detaljerat.",
+   "oppen_kod": "risk för detaljstyrning i kursplaner",
+   "beskrivning": "Kursplanernas beskrivningar av innehåll, prioritering och genomförande riskerar att bli för detaljstyrande."
+  },
+  {
+   "uid": "U183",
+   "id": "pitea-kommun#5",
+   "citat": "Det får dock inte bli på för stor detaljnivå när det i undervisningens mål och innehåll bestäms vilka tekniker, verktyg, material och handlingar eleverna ska öva på, vilket riskeras enligt utredarens riktning.",
+   "oppen_kod": "detaljstyrning i praktisk-estetiska ämnen",
+   "beskrivning": "Kursplanerna i praktisk-estetiska ämnen riskerar för hög detaljnivå om tekniker och material."
+  },
+  {
+   "uid": "U184",
+   "id": "pitea-kommun#6",
+   "citat": "Piteå kommun tycker dock att detaljnivån, i kursplanen, blir för stor när man skriver att det innehåll som berör läsoch skrivinlärning ska konstrueras med utgångspunkt i systematisk och explicit undervisning med phonics. En alltför likformig undervisning, kan om den tolkas felaktigt, riskera likvärdigheten.",
+   "oppen_kod": "detaljstyrd läsinlärning med phonics",
+   "beskrivning": "Föreskriven phonicsbaserad läsinlärning blir för detaljstyrd och kan ge likformig undervisning."
+  },
+  {
+   "uid": "U185",
+   "id": "pitea-kommun#7",
+   "citat": "Det måste, i större utsträckning än i förslaget, finnas en frihet för lärare och rektorer att själva välja vilka medel som används för att nå målen.",
+   "oppen_kod": "restriktivitet mot digitala verktyg",
+   "beskrivning": "Restriktiva skrivningar om digitala verktyg begränsar lärares och rektorers val av medel."
+  },
+  {
+   "uid": "U186",
+   "id": "pitea-kommun#7",
+   "citat": "Det är dessutom motsägelsefullt att bedömningsstöden ska genomföras digitalt samtidigt som utredaren föreslår restriktivitet i användandet av digitala verktyg.",
+   "oppen_kod": "motsägelse digitala bedömningsstöd",
+   "beskrivning": "Digitala bedömningsstöd står i motsättning till restriktivitet mot digitala verktyg."
+  },
+  {
+   "uid": "U187",
+   "id": "pitea-kommun#7",
+   "citat": "Detta kommer vara oerhört svårt då den vetenskapliga grunden för digital utveckling saknas samtidigt som utvecklingen går i en rasande fart. Huvudmän, lärare och rektorer behöver ett bättre stöd gällande den digitala utvecklingen.",
+   "oppen_kod": "vetenskaplig grund för digitalt saknas",
+   "beskrivning": "Kravet på vetenskaplig grund för digitala verktyg blir svårt att uppfylla och huvudmän behöver bättre stöd."
+  },
+  {
+   "uid": "U188",
+   "id": "pitea-kommun#8",
+   "citat": "Piteå kommun ser att skolan kommer mötas av flera stora förändringsförslag samtidigt under 2028 vilket medför att medel och stöd under implementeringen måste samordnas. Stor samordning mellan nu pågående utredningar, tex SOU 2025:18, måste ske.",
+   "oppen_kod": "samordning av samtidiga reformer",
+   "beskrivning": "Flera reformer samtidigt 2028 kräver samordning av medel, stöd och utredningar."
+  },
+  {
+   "uid": "U189",
+   "id": "ragunda-kommun#3",
+   "citat": "När det gäller implementeringen menar kommunen att även om förändringarna inte formellt innebär nya åtaganden, så kommer det i praktiken krävas tid, resurser och omprioriteringar, särskilt för mindre kommuner med begränsade stödfunktioner.",
+   "oppen_kod": "implementering kräver tid och resurser",
+   "beskrivning": "Implementeringen kräver i praktiken tid, resurser och omprioriteringar, särskilt för mindre kommuner med begränsade stödfunktioner."
+  },
+  {
+   "uid": "U190",
+   "id": "ragunda-kommun#22",
+   "citat": "Däremot finns det flera oklarheter kring det föreslagna avskaffandet av extra anpassningar till förmån för så kallad stödundervisning.",
+   "oppen_kod": "oklarheter kring stödundervisning",
+   "beskrivning": "Det är oklart för huvudmannen hur avskaffandet av extra anpassningar till förmån för stödundervisning ska tillämpas."
+  },
+  {
+   "uid": "U191",
+   "id": "ragunda-kommun#22",
+   "citat": "Ragunda kommun ifrågasätter dock om inte den föreslagna reformen riskerar att ytterligare sudda ut gränsen mellan särskilt stöd och stödundervisning.",
+   "oppen_kod": "otydlig gräns stödundervisning–särskilt stöd",
+   "beskrivning": "Gränsen mellan stödundervisning och särskilt stöd riskerar att bli otydlig för skolorna att hantera."
+  },
+  {
+   "uid": "U192",
+   "id": "ragunda-kommun#23",
+   "citat": "Detta blir särskilt relevant i ljuset av den parallella utredningen om en förbättrad elevhälsa, som också behandlar skolans stödverksamhet.",
+   "oppen_kod": "parallell utredning om stödverksamhet",
+   "beskrivning": "Skolans stödverksamhet berörs samtidigt av en parallell utredning, vilket försvårar en samlad bild av hur stödet ska fungera."
+  },
+  {
+   "uid": "U193",
+   "id": "ragunda-kommun#29",
+   "citat": "Det kan finnas en risk att ansvaret för ämnesområdet kan bli otydligt vid införande i samtliga kursplaner.",
+   "oppen_kod": "otydligt ansvar totalförsvar och Nato",
+   "beskrivning": "Om totalförsvar och Nato förs in i alla kursplaner riskerar ansvaret för området att bli otydligt i skolan."
+  },
+  {
+   "uid": "U194",
+   "id": "ragunda-kommun#34",
+   "citat": "Ragunda kommun anser att utredningen har delvis rätt i sak men att det i praktiken kommer innebära större kostnader i form av tid och personella resurser.",
+   "oppen_kod": "kostnader i tid och personal",
+   "beskrivning": "Läroplansreformen medför i praktiken kostnader för kommunen i form av tid och personella resurser."
+  },
+  {
+   "uid": "U195",
+   "id": "ragunda-kommun#34",
+   "citat": "Tiden för att implementera ny läroplan kommer att innebära att andra fortbildningsinsatser kommer att stå tillbaka.",
+   "oppen_kod": "undanträngd annan fortbildning",
+   "beskrivning": "Implementeringen av ny läroplan tränger undan huvudmannens andra fortbildningsinsatser."
+  },
+  {
+   "uid": "U196",
+   "id": "ragunda-kommun#34",
+   "citat": "Mindre kommuner har sämre förutsättningar att på förvaltningsnivå kunna stötta grundskolor i kommunen vilket kan leda till att implementeringen får svagare genomslag.",
+   "oppen_kod": "små kommuners svaga stödfunktioner",
+   "beskrivning": "Mindre kommuner har sämre förutsättningar att stötta skolorna i implementeringen, vilket kan ge svagare genomslag."
+  },
+  {
+   "uid": "U197",
+   "id": "sollentuna-kommun#7",
+   "citat": "Sollentuna kommun anser att ordet viss och relativt god borde bytas ut då orden är för otydliga för att ge förutsättningar för en likvärdig bedömning.",
+   "oppen_kod": "otydliga värdeord i betygskriterier",
+   "beskrivning": "Värdeorden i betygskriterierna i musik är för otydliga för att lärarna ska kunna bedöma likvärdigt."
+  },
+  {
+   "uid": "U198",
+   "id": "sollentuna-kommun#7",
+   "citat": "En av de största bristerna när det gäller betygssättning och bedöma om eleverna har viss säkerhet eller relativt god säkerhet är mycket på grund av den ojämna nivån på utbildning av Sveriges musiklärare.",
+   "oppen_kod": "ojämn kompetens hos musiklärare",
+   "beskrivning": "Musiklärarnas ojämna utbildningsnivå försvårar en likvärdig tillämpning av betygskriterierna."
+  },
+  {
+   "uid": "U199",
+   "id": "sollentuna-kommun#9",
+   "citat": "Det är dock fortsatt upp till läraren att ta fram dessa så det kommer ju kräva diskussion med kollegor kring vad som är lämpligt osv.",
+   "oppen_kod": "kollegialt arbete med kursplaneinnehåll",
+   "beskrivning": "Lärarna behöver själva ta fram tekniker, verktyg och material i slöjd, vilket kräver tid för kollegiala diskussioner."
+  },
+  {
+   "uid": "U200",
+   "id": "sollentuna-kommun#13",
+   "citat": "Om svenskämnets principer ska gälla även för svenska som andraspråk är risken stor att svenskämnet blir norm, vilket riskerar att försämra undervisningen för alla elever som är i behov av svenska som andraspråk.",
+   "oppen_kod": "försämrad undervisning i sva",
+   "beskrivning": "Gemensamma principer för svenska och svenska som andraspråk riskerar att försämra skolornas undervisning i svenska som andraspråk."
+  },
+  {
+   "uid": "U201",
+   "id": "sollentuna-kommun#14",
+   "citat": "Utan en tydlig definition kan begreppet tolkas på olika sätt av olika huvudmän.",
+   "oppen_kod": "odefinierad digital kompetens",
+   "beskrivning": "Utan definition av digital kompetens kan begreppet tolkas olika av olika huvudmän."
+  },
+  {
+   "uid": "U202",
+   "id": "sollentuna-kommun#15",
+   "citat": "Genom detta läroplansförslag undergrävs lärarnas möjlighet att välja det bästa lärverktyget (analogt eller digitalt) för stunden, för ämnesinnehållet, för individen eller för gruppen.",
+   "oppen_kod": "begränsat val av lärverktyg",
+   "beskrivning": "Kravet på empiriska belägg begränsar lärarnas möjlighet att välja lämpliga lärverktyg i undervisningen."
+  },
+  {
+   "uid": "U203",
+   "id": "sollentuna-kommun#16",
+   "citat": "Förslaget försvårar för lärarna att kunna ge effektiv återkoppling till eleverna och ökar på lärarnas redan ansträngda arbetsbörda.",
+   "oppen_kod": "ökad arbetsbörda och svårare återkoppling",
+   "beskrivning": "Förslaget om analog undervisning ökar lärarnas arbetsbörda och försvårar effektiv återkoppling."
+  },
+  {
+   "uid": "U204",
+   "id": "sollentuna-kommun#16",
+   "citat": "Läraren måste i mycket stor utsträckning skapa analogt material till sina elever, vilket är mycket tidskrävande, eftersom elever har olika behov och arbetar olika snabbt.",
+   "oppen_kod": "tidskrävande analogt material",
+   "beskrivning": "Lärarna måste ta fram analogt material för elevernas olika behov, vilket är mycket tidskrävande."
+  },
+  {
+   "uid": "U205",
+   "id": "stockholms-kommun#3",
+   "citat": "Frekventa eller ogenomtänkta ändringar av läroplanernas innehåll tar tid och resurser från skolans personal och missgynnar elevernas kunskapsutveckling.",
+   "oppen_kod": "Frekventa läroplansändringar tar resurser",
+   "beskrivning": "Täta eller ogenomtänkta läroplansändringar tar tid och resurser från skolans personal."
+  },
+  {
+   "uid": "U206",
+   "id": "stockholms-kommun#18",
+   "citat": "det behövs ett förtydligande avseende om bättre stöd kring vad enstaka delar av innehåll samt särskilda skäl innebär, vilket är betydelsefullt för en likvärdig tillämpning.",
+   "oppen_kod": "Oklar undantagsbestämmelse vid betygssättning",
+   "beskrivning": "Det är oklart vad enstaka delar av innehåll och särskilda skäl innebär, vilket försvårar en likvärdig tillämpning av betygsundantaget."
+  },
+  {
+   "uid": "U207",
+   "id": "stockholms-kommun#31",
+   "citat": "Vidare ställer sig stadsledningskontoret frågande till vilken samlad vetenskaplig empiri som de möjliga undantagen i olika undervisningssituationer kan värderas mot.",
+   "oppen_kod": "Oklar empiri för digitala undantag",
+   "beskrivning": "Det är oklart mot vilken samlad vetenskaplig empiri skolorna ska värdera undantag för digitala inslag i undervisningen."
+  },
+  {
+   "uid": "U208",
+   "id": "stockholms-kommun#36",
+   "citat": "Stadsledningskontoret anser att tidsplanen för införandet av de nya läroplanerna är mycket snäv för en så omfattande reform. Därav vill stadsledningskontoret understryka vikten av att skolhuvudmännen ges goda planeringsförutsättningar, bland annat innebärande att såväl en timplan presenteras med god framförhållning.",
+   "oppen_kod": "Snäv tidsplan för införandet",
+   "beskrivning": "Tidsplanen är mycket snäv för en så omfattande reform och huvudmännen behöver timplan och planeringsförutsättningar i god tid."
+  },
+  {
+   "uid": "U209",
+   "id": "stockholms-kommun#36",
+   "citat": "Stadsledningskontoret vill även understryka att nationella stödmaterial och stödstrukturer behöver vara tillgängligt med god marginal inför införandet med hänsyn till skolledares, lärares och övriga skolmedarbetares arbetsmiljö.",
+   "oppen_kod": "Sent stödmaterial belastar arbetsmiljön",
+   "beskrivning": "Om nationellt stödmaterial inte finns i god tid före införandet påverkas skolledares och lärares arbetsmiljö."
+  },
+  {
+   "uid": "U210",
+   "id": "stockholms-kommun#40",
+   "citat": "Stadsledningskontoret menar att begreppet beprövad erfarenhet tydligare behöver definieras samt att det behöver byggas upp strukturer och system för hur den beprövade erfarenheten kan tillvaratas och spridas.",
+   "oppen_kod": "Odefinierat begrepp beprövad erfarenhet",
+   "beskrivning": "Begreppet beprövad erfarenhet är otydligt och det saknas strukturer för att tillvarata och sprida den."
+  },
+  {
+   "uid": "U211",
+   "id": "stockholms-kommun#40",
+   "citat": "Stadsledningskontoret delar inte utredningens bedömning då införande av de nya läroplanerna kommer innebära ökade kostnader för skolhuvudmännen.",
+   "oppen_kod": "Ökade kostnader för huvudmännen",
+   "beskrivning": "Införandet av de nya läroplanerna innebär ökade kostnader för skolhuvudmännen, i motsats till utredningens bedömning."
+  },
+  {
+   "uid": "U212",
+   "id": "stockholms-kommun#40",
+   "citat": "Stadsledningskontoret vill understryka det faktum att en ny läroplan i enlighet med utredningens förslag innebär ett stort skifte i relation till de senaste läroplanerna och att det kommer att krävas betydande kompetensutvecklingsinsatser för en lyckad implementering.",
+   "oppen_kod": "Behov av omfattande kompetensutveckling",
+   "beskrivning": "Den nya läroplanen är ett stort skifte som kräver betydande kompetensutvecklingsinsatser av huvudmannen."
+  },
+  {
+   "uid": "U213",
+   "id": "stockholms-kommun#40",
+   "citat": "Lärare kommer under en övergångsperiod att arbeta parallellt med två olika läroplaner vilket i sig har betydelse för lärares arbetsbelastning.",
+   "oppen_kod": "Parallella läroplaner ökar arbetsbelastning",
+   "beskrivning": "Under övergången måste lärare arbeta med två läroplaner parallellt, vilket ökar arbetsbelastningen."
+  },
+  {
+   "uid": "U214",
+   "id": "stockholms-kommun#40",
+   "citat": "Stadsledningskontoret menar i motsats till utredningen att mer preciserade kursplaner definitivt kan innebära kostnadsökningar jämfört med vad som tidigare bedömts.",
+   "oppen_kod": "Preciserade kursplaner kräver utrustning, lokaler",
+   "beskrivning": "Mer preciserade kursplaner kan ställa krav på utrustning, material och lokaler som ökar huvudmannens kostnader."
+  },
+  {
+   "uid": "U215",
+   "id": "stockholms-kommun#47",
+   "citat": "det behövs ett förtydligande avseende om bättre stöd kring vad enstaka delar av innehåll samt särskilda skäl innebär, vilket är betydelsefullt för en likvärdig tillämpning.",
+   "oppen_kod": "Oklar undantagsbestämmelse vid betygssättning",
+   "beskrivning": "Det är oklart vad enstaka delar av innehåll och särskilda skäl innebär, vilket försvårar en likvärdig tillämpning av betygsundantaget."
+  },
+  {
+   "uid": "U216",
+   "id": "stockholms-kommun#50",
+   "citat": "Vidare ställer sig förvaltningen frågande till vilken samlad vetenskaplig empiri som de möjliga undantagen i olika undervisningssituationer kan värderas mot.",
+   "oppen_kod": "Oklar empiri för digitala undantag",
+   "beskrivning": "Det är oklart mot vilken samlad vetenskaplig empiri skolorna ska värdera undantag för digitala inslag i undervisningen."
+  },
+  {
+   "uid": "U217",
+   "id": "stockholms-kommun#52",
+   "citat": "Förvaltningen understryker att tidsplanen för införandet av de nya läroplanerna är mycket snäv för en så omfattande reform. Därav vill förvaltningen understryka vikten av att skolhuvudmännen ges goda planeringsförutsättningar, bland annat innebärande att såväl en timplan presenteras med god framförhållning.",
+   "oppen_kod": "Snäv tidsplan för införandet",
+   "beskrivning": "Tidsplanen är mycket snäv för en så omfattande reform och huvudmännen behöver timplan och planeringsförutsättningar i god tid."
+  },
+  {
+   "uid": "U218",
+   "id": "stockholms-kommun#52",
+   "citat": "Förvaltningen vill även understryka att nationella stödmaterial och stödstrukturer behöver vara tillgängligt med god marginal inför införandet med hänsyn till skolledares, lärares och övriga skolmedarbetares arbetsmiljö.",
+   "oppen_kod": "Sent stödmaterial belastar arbetsmiljön",
+   "beskrivning": "Om nationellt stödmaterial inte finns i god tid före införandet påverkas skolledares och lärares arbetsmiljö."
+  },
+  {
+   "uid": "U219",
+   "id": "stockholms-kommun#54",
+   "citat": "Förvaltningen menar att begreppet beprövad erfarenhet tydligare behöver definieras samt att det behöver byggas upp strukturer och system för hur den beprövade erfarenheten kan tillvaratas och spridas.",
+   "oppen_kod": "Odefinierat begrepp beprövad erfarenhet",
+   "beskrivning": "Begreppet beprövad erfarenhet är otydligt och det saknas strukturer för att tillvarata och sprida den."
+  },
+  {
+   "uid": "U220",
+   "id": "stockholms-kommun#54",
+   "citat": "Förvaltningen delar inte utredningens bedömning då införande av de nya läroplanerna kommer att innebära ökade kostnader för skolhuvudmännen.",
+   "oppen_kod": "Ökade kostnader för huvudmännen",
+   "beskrivning": "Införandet av de nya läroplanerna innebär ökade kostnader för skolhuvudmännen, i motsats till utredningens bedömning."
+  },
+  {
+   "uid": "U221",
+   "id": "stockholms-kommun#54",
+   "citat": "Därav vill förvaltningen understryka det faktum att en ny läroplan i enlighet med utredningens förslag innebär ett stort skifte i relation till de senaste läroplanerna och att det kommer att krävas betydande kompetensutvecklingsinsatser för en lyckad implementering.",
+   "oppen_kod": "Behov av omfattande kompetensutveckling",
+   "beskrivning": "Den nya läroplanen är ett stort skifte som kräver betydande kompetensutvecklingsinsatser av huvudmannen."
+  },
+  {
+   "uid": "U222",
+   "id": "stockholms-kommun#54",
+   "citat": "Lärare kommer under en övergångsperiod att arbeta parallellt med två olika läroplaner vilket i sig har betydelse för lärares arbetsbelastning.",
+   "oppen_kod": "Parallella läroplaner ökar arbetsbelastning",
+   "beskrivning": "Under övergången måste lärare arbeta med två läroplaner parallellt, vilket ökar arbetsbelastningen."
+  },
+  {
+   "uid": "U223",
+   "id": "stockholms-kommun#54",
+   "citat": "Förvaltningen menar i motsats till utredningen att mer preciserade kursplaner definitivt kan innebära kostnadsökningar jämfört med vad som tidigare bedömts.",
+   "oppen_kod": "Preciserade kursplaner kräver utrustning, lokaler",
+   "beskrivning": "Mer preciserade kursplaner kan ställa krav på utrustning, material och lokaler som ökar huvudmannens kostnader."
+  },
+  {
+   "uid": "U224",
+   "id": "sundsvalls-kommun#7",
+   "citat": "Förvaltningen avstyrker förslaget i sin nuvarande formulering, med hänvisning till oklarheter i vad som ska ersätta stödnivån samt hur avgränsningar ska göras mot särskilt stöd och de formkrav som ligger i denna stödnivå.",
+   "oppen_kod": "Oklar stödundervisning och avgränsning",
+   "beskrivning": "Det är oklart vad stödundervisning ska innehålla och hur den ska avgränsas mot särskilt stöd och dess formkrav."
+  },
+  {
+   "uid": "U225",
+   "id": "sundsvalls-kommun#10",
+   "citat": "Huvudmannen kommer som ansvarig för utbildningens genomförande att behöva sätta sig in i den nya föreslagna läroplanen och göra en fördjupad konsekvensbelysning.",
+   "oppen_kod": "Huvudmannens omställnings- och analysarbete",
+   "beskrivning": "Huvudmannen måste sätta sig in i den nya läroplanen och göra en fördjupad konsekvensanalys."
+  },
+  {
+   "uid": "U226",
+   "id": "sveriges-kommuner-och-regioner#5",
+   "citat": "SKR betonar att staten behöver ansvara för kostnader för implementering av läroplanen.",
+   "oppen_kod": "Statligt ansvar implementeringskostnader",
+   "beskrivning": "Huvudmännen riskerar att bära kostnaderna för att implementera den nya läroplanen."
+  },
+  {
+   "uid": "U227",
+   "id": "sveriges-kommuner-och-regioner#7",
+   "citat": "SKR anser att ytterligare bearbetning behövs för att läroplanen ska kunna implementeras i de anpassade skolformerna.",
+   "oppen_kod": "Implementering i anpassade skolformer",
+   "beskrivning": "Läroplanen är inte tillräckligt bearbetad för att kunna genomföras i de anpassade skolformerna."
+  },
+  {
+   "uid": "U228",
+   "id": "sveriges-kommuner-och-regioner#12",
+   "citat": "För att utveckla undervisningen så att stödbehoven minskar behöver läraren utvecklas genom samverkan mellan kollegor i lärarlaget, genom den kontinuerliga kompetensutvecklingen samt genom att stärka det vetenskapliga förhållningssättet.",
+   "oppen_kod": "Kompetensutveckling för förebyggande undervisning",
+   "beskrivning": "Att utforma undervisningen så att stödbehov minskar kräver kontinuerlig kompetensutveckling och kollegial samverkan."
+  },
+  {
+   "uid": "U229",
+   "id": "sveriges-kommuner-och-regioner#12",
+   "citat": "SKR pekar på vikten av att beslut om stödundervisning och särskilt stöd sker genom tydliga processer på den enskilda skolan i en form som utgår från rektorns ansvar för styrning och planering.",
+   "oppen_kod": "Processer för stödbeslut",
+   "beskrivning": "Skolorna behöver tydliga processer för beslut om stödundervisning och särskilt stöd utifrån rektorns ansvar."
+  },
+  {
+   "uid": "U230",
+   "id": "sveriges-kommuner-och-regioner#17",
+   "citat": "När kursplanerna enligt förslaget ska beslutas av regeringen är det viktigt att undvika att läroplanernas kursplaner behöver revideras alltför ofta på grund av att de valda kunskaperna visar sig vara för snäva.",
+   "oppen_kod": "Risk för täta kursplanerevideringar",
+   "beskrivning": "Snävt valda kunskaper kan leda till att kursplanerna måste revideras ofta, vilket verksamheten måste hantera."
+  },
+  {
+   "uid": "U231",
+   "id": "sveriges-kommuner-och-regioner#19",
+   "citat": "En sådan undervisning kan vara svårare att uppfylla för de lärare som inte är legitimerade och behöriga än övriga krav.",
+   "oppen_kod": "Obehöriga lärare och ska-krav",
+   "beskrivning": "Kravet på strukturerad undervisning blir svårt att uppfylla där skolorna har obehöriga lärare."
+  },
+  {
+   "uid": "U232",
+   "id": "sveriges-kommuner-och-regioner#19",
+   "citat": "I praktiken riskerar ett sådant begrepp att tolkas mycket olika av lärare, skolledare och huvudmän.",
+   "oppen_kod": "Begreppet strukturerad undervisning tolkas olika",
+   "beskrivning": "Begreppet strukturerad undervisning riskerar att tolkas olika av lärare, skolledare och huvudmän."
+  },
+  {
+   "uid": "U233",
+   "id": "sveriges-kommuner-och-regioner#19",
+   "citat": "Ska detta krav tolkas som att rektorn ska stödja att strukturerad undervisning kommer till stånd, och exempelvis erbjuda kompetensutveckling i formativ bedömning?",
+   "oppen_kod": "Oklart rektorskrav",
+   "beskrivning": "Det är oklart vad kravet på rektorn innebär och om det medför skyldighet att erbjuda kompetensutveckling."
+  },
+  {
+   "uid": "U234",
+   "id": "sveriges-kommuner-och-regioner#25",
+   "citat": "Rensningen är dock inte konsekvent genomförd, vilket gör att det riskerar att bli en värdering av vilka delar som fortfarande benämns i de inledande delarna.",
+   "oppen_kod": "Inkonsekvent rensning av uppdrag",
+   "beskrivning": "Den inkonsekventa rensningen gör det oklart hur skolans samlade uppdrag ska tolkas."
+  },
+  {
+   "uid": "U235",
+   "id": "sveriges-kommuner-och-regioner#25",
+   "citat": "Inför ett införande behöver därmed en tydligare analys göras av den samlade påverkan av de förändringar som genomförs, till exempel i läroplanen, lärarutbildningen och begränsningen i professionsprogrammets meriterande innehåll.",
+   "oppen_kod": "Oklar samlad påverkan av förändringar",
+   "beskrivning": "Den samlade påverkan av samtidiga förändringar på verksamheten är inte analyserad inför införandet."
+  },
+  {
+   "uid": "U236",
+   "id": "sveriges-kommuner-och-regioner#26",
+   "citat": "Undervisningen i fritidshemmet utgår idag från läroplanens inledande delar och även här blir det viktigt att tydliggöra i vilken mån förändringarna leder till förändringar i fritidshemmets undervisning och uppdrag.",
+   "oppen_kod": "Oklara konsekvenser för fritidshemmet",
+   "beskrivning": "Det är oklart hur förändringarna påverkar fritidshemmets undervisning och uppdrag."
+  },
+  {
+   "uid": "U237",
+   "id": "sveriges-kommuner-och-regioner#33",
+   "citat": "SKR anser att det behöver utarbetas rutiner för hur de löpande förändringar som aviseras ska ske på ett smidigt sätt",
+   "oppen_kod": "Rutiner för löpande förändringar",
+   "beskrivning": "Det saknas rutiner för hur aviserade löpande förändringar av läroplanen ska genomföras smidigt."
+  },
+  {
+   "uid": "U238",
+   "id": "sveriges-kommuner-och-regioner#34",
+   "citat": "implementeringsarbete, vilket gör att kontinuerliga förändringar för att möta nya och förändrade behov är att föredra.",
+   "oppen_kod": "Stort implementeringsarbete vid strukturförändring",
+   "beskrivning": "Att förändra läroplanens struktur och grundläggande innehåll medför ett stort implementeringsarbete."
+  },
+  {
+   "uid": "U239",
+   "id": "sveriges-kommuner-och-regioner#52",
+   "citat": "SKR betonar att staten behöver ansvara för kostnaderna för implementeringsinsatser för att det ska finnas möjligheter att tillämpa den nya läroplanen redan till skolåret 2028/29.",
+   "oppen_kod": "Kostnader och tidplan för implementering",
+   "beskrivning": "Utan statlig finansiering av implementeringsinsatser blir det svårt att tillämpa läroplanen till 2028/29."
+  },
+  {
+   "uid": "U240",
+   "id": "sveriges-kommuner-och-regioner#52",
+   "citat": "Med tanke på de många reformerna som kommer att behöva omhändertas i skolan behöver särskilda insatser göras från statligt håll för att implementering ska vara möjlig att genomföra på ett bra sätt.",
+   "oppen_kod": "Många samtidiga reformer",
+   "beskrivning": "Många samtidiga reformer gör implementeringen svår att genomföra utan statliga insatser."
+  },
+  {
+   "uid": "U241",
+   "id": "sveriges-kommuner-och-regioner#52",
+   "citat": "Det betyder bland annat att det behöver finnas resurser till kompetensutveckling för lärarna.",
+   "oppen_kod": "Resurser för lärares kompetensutveckling",
+   "beskrivning": "Implementeringen kräver resurser till kompetensutveckling för lärarna."
+  },
+  {
+   "uid": "U242",
+   "id": "sveriges-kommuner-och-regioner#55",
+   "citat": "När ett sådant system utformas behöver staten ta ansvar för att data kan samlas in på ett sådant sätt att den administrativa bördan lokalt blir så liten som möjligt.",
+   "oppen_kod": "Administrativ börda vid uppföljning",
+   "beskrivning": "Ett nytt uppföljningssystem riskerar att öka den lokala administrativa bördan."
+  },
+  {
+   "uid": "U243",
+   "id": "sveriges-kommuner-och-regioner#62",
+   "citat": "En sådan generell modell riskerar att befästa ett system där resurser huvudsakligen används för att uppnå formella betygsgränser, utan hänsyn till elevernas individuella förutsättningar.",
+   "oppen_kod": "Resursanvändning för stödundervisning",
+   "beskrivning": "En generell rätt till stöd riskerar att styra resurser mot formella betygsgränser."
+  },
+  {
+   "uid": "U244",
+   "id": "sveriges-kommuner-och-regioner#62",
+   "citat": "Tydlighet och samordning mellan betygssystem och kursplaner är grundläggande för att lärarna ska kunna genomföra sitt uppdrag med god kvalitet och rättssäkerhet.",
+   "oppen_kod": "Samordning betygssystem och kursplaner",
+   "beskrivning": "Bristande samordning mellan betygssystem och kursplaner försvårar lärarnas genomförande av uppdraget."
+  },
+  {
+   "uid": "U245",
+   "id": "torsas-kommun#2",
+   "citat": "Begreppet förstärkningsundervisning behöver förtydligas.",
+   "oppen_kod": "Otydligt begrepp förstärkningsundervisning",
+   "beskrivning": "Begreppet förstärkningsundervisning är otydligt i förhållande till befintliga stödbegrepp."
+  },
+  {
+   "uid": "U246",
+   "id": "torsas-kommun#3",
+   "citat": "Dessutom behöver begreppen kring beredskap; hemberedskap, egenberedskap och handlingsberedskap förtydligas och hur de skiljer sig från varandra.",
+   "oppen_kod": "Otydliga beredskapsbegrepp",
+   "beskrivning": "Beredskapsbegreppen är otydliga och svåra att skilja åt."
+  },
+  {
+   "uid": "U247",
+   "id": "torsas-kommun#4",
+   "citat": "Vi vill också påpeka att dessa “mål” står på olika ställen i olika kursplaner.",
+   "oppen_kod": "Inkonsekvent kursplanestruktur",
+   "beskrivning": "Samma mål placeras olika i olika kursplaner, vilket gör strukturen inkonsekvent."
+  },
+  {
+   "uid": "U248",
+   "id": "torsas-kommun#4",
+   "citat": "Det saknas tydlighet i kursplanerna kring “specifika och ämnesrelevanta verktyg”.",
+   "oppen_kod": "Otydliga ämnesrelevanta verktyg",
+   "beskrivning": "Det är otydligt vad som avses med specifika och ämnesrelevanta digitala verktyg."
+  },
+  {
+   "uid": "U249",
+   "id": "torsas-kommun#7",
+   "citat": "Förslaget om att läraren ska bedöma om eleven behöver ha stödundervisning är vi frågande till. Hur fördelas resurser? Vem ansvarar för insatsen?",
+   "oppen_kod": "Oklart resurs- och ansvar stödundervisning",
+   "beskrivning": "Det är oklart hur resurser fördelas och vem som ansvarar för stödundervisningen."
+  },
+  {
+   "uid": "U250",
+   "id": "torsas-kommun#8",
+   "citat": "Vi önskar ett förtydligande kring vad särskilt stöd innebär och hur det ska organiseras, samt vad begreppet stödundervisning innebär i förhållande till särskilt stöd.",
+   "oppen_kod": "Otydlig gräns stödundervisning–särskilt stöd",
+   "beskrivning": "Det är oklart vad särskilt stöd och stödundervisning innebär och hur de ska organiseras."
+  },
+  {
+   "uid": "U251",
+   "id": "torsas-kommun#9",
+   "citat": "Det behöver vara tydligt vad som gäller för en huvudman och vad som gäller för en kommun bland annat i arbetet med att fördela resurser till utbildning inom skolväsendet.",
+   "oppen_kod": "Oklar ansvarsfördelning huvudman–kommun",
+   "beskrivning": "Det är oklart vad som gäller för huvudman respektive kommun vid resursfördelning."
+  },
+  {
+   "uid": "U252",
+   "id": "torsas-kommun#10",
+   "citat": "Organisatoriskt - hur ska det gå till om stödundervisning ska ges utöver den ordinarie undervisningen? Om det är samma lärare - ska det ingå i den lärarens tjänst?",
+   "oppen_kod": "Organisering av stödundervisning",
+   "beskrivning": "Det är oklart hur stödundervisning utöver ordinarie undervisning ska organiseras i lärarnas tjänster."
+  },
+  {
+   "uid": "U253",
+   "id": "torsas-kommun#10",
+   "citat": "Om det är en annan lärare - ska det finnas lärare som har “luft” i schemat så att de kan ta hand om stödundervisning. Det blir i så fall oerhört kostsamt.",
+   "oppen_kod": "Kostnad för stödundervisningslärare",
+   "beskrivning": "Lärare med utrymme i schemat för stödundervisning blir mycket kostsamt."
+  },
+  {
+   "uid": "U254",
+   "id": "torsas-kommun#11",
+   "citat": "I skolor med många elever med skolskjuts, när ska stödundervisningen ligga för att eleven ska kunna tillgodogöra sig stöd och ändå kunna ta sig hem från skolan?",
+   "oppen_kod": "Skolskjuts och stödundervisning",
+   "beskrivning": "Skolskjutsar försvårar schemaläggning av stödundervisning."
+  },
+  {
+   "uid": "U255",
+   "id": "torsas-kommun#11",
+   "citat": "Rektors roll behöver vara tydligare när det gäller att organisera för särskilt stöd och stödundervisning.",
+   "oppen_kod": "Otydlig rektorsroll i stöd",
+   "beskrivning": "Rektors roll i att organisera särskilt stöd och stödundervisning är otydlig."
+  },
+  {
+   "uid": "U256",
+   "id": "torsas-kommun#11",
+   "citat": "Vi upplever att det är otydligt om dokumentationskraven när det gäller stödundervisning.",
+   "oppen_kod": "Otydliga dokumentationskrav",
+   "beskrivning": "Det är oklart vilka dokumentationskrav som gäller för stödundervisning."
+  },
+  {
+   "uid": "U257",
+   "id": "torsas-kommun#11",
+   "citat": "Vi ser det som omöjligt att kunna följa upp stödundervisningens effekter om det inte dokumenteras.",
+   "oppen_kod": "Uppföljning utan dokumentation",
+   "beskrivning": "Stödundervisningens effekter kan inte följas upp systematiskt utan dokumentation."
+  },
+  {
+   "uid": "U258",
+   "id": "torsas-kommun#12",
+   "citat": "Vilka personalgrupper som avses med “de som arbetar i skolan” behöver konkretiseras.",
+   "oppen_kod": "Oklara personalgrupper",
+   "beskrivning": "Det är oklart vilka personalgrupper som avses med de som arbetar i skolan."
+  },
+  {
+   "uid": "U259",
+   "id": "torsas-kommun#13",
+   "citat": "det är inte konkretiserat i kursplanerna vad de ska lära sig, och inte heller vilken teknik de har nytta av samt vem som ska bestämma vad en viss elev har nytta av.",
+   "oppen_kod": "Oklart digitalt innehåll och beslutsrätt",
+   "beskrivning": "Det är oklart vilken digital teknik eleverna ska lära sig och vem som avgör det."
+  },
+  {
+   "uid": "U260",
+   "id": "torsas-kommun#14",
+   "citat": "Vi tycker inte att det är tydligt i kursplanerna vad som är det viktigaste och framför allt hur mycket utrymme det ska få i förhållande till det som anses mindre viktigt.",
+   "oppen_kod": "Oklar prioritering i kursplaner",
+   "beskrivning": "Kursplanerna anger inte tydligt vad som är viktigast och hur mycket utrymme det ska få."
+  },
+  {
+   "uid": "U261",
+   "id": "torsas-kommun#16",
+   "citat": "Kommer det att finnas “kravlistor” på vilken typ av utrustning som ska finnas i olika ämnen, vilka typer av lokaler som krävs och vilka material som ska finnas?",
+   "oppen_kod": "Oklara krav på utrustning och lokaler",
+   "beskrivning": "Det är oklart om kursplanerna medför krav på utrustning, lokaler och material."
+  },
+  {
+   "uid": "U262",
+   "id": "torsas-kommun#17",
+   "citat": "Det framgår inte tydligt hur mycket tid som ska ägnas i olika moment.",
+   "oppen_kod": "Oklar tidsfördelning mellan moment",
+   "beskrivning": "Kursplanerna anger inte tydligt hur mycket tid olika moment ska ges."
+  },
+  {
+   "uid": "U263",
+   "id": "torsas-kommun#24",
+   "citat": "“Skolan ska uppmärksamma och stimulera elevers läsning på fritiden”. Hur långt sträcker sig skolans ansvar? Hur ska detta gå till?",
+   "oppen_kod": "Oklart ansvar för fritidsläsning",
+   "beskrivning": "Det är oklart hur långt skolans ansvar för elevers fritidsläsning sträcker sig."
+  },
+  {
+   "uid": "U264",
+   "id": "torsas-kommun#25",
+   "citat": "Risken är att man i stället för att hitta elever som behöver stöd med till exempel läsning, hittar de elever som inte kan hantera tangentbord eller digitala texter.",
+   "oppen_kod": "Digital kartläggning missar stödbehov",
+   "beskrivning": "Digitala kartläggningar i lågstadiet riskerar att inte identifiera elever med läsbehov."
+  },
+  {
+   "uid": "U265",
+   "id": "torsas-kommun#26",
+   "citat": "Gällande kommentarmaterial; Det är viktigt att det finns färdigt i samband med att den nya läroplanen presenteras.",
+   "oppen_kod": "Kommentarmaterial i tid",
+   "beskrivning": "Kommentarmaterialet måste vara klart när läroplanen presenteras för att kunna användas."
+  },
+  {
+   "uid": "U266",
+   "id": "alvkarleby-kommun#3",
+   "citat": "vilka utgångspunkter man ska ha vid anpassning efter elevernas kognitiva utveckling och till elevgruppers olika kognitiva förutsättningar. Vilken forskning kommer man att bygga den anpassningen på?",
+   "oppen_kod": "Oklar grund för kognitiv anpassning",
+   "beskrivning": "Det är oklart vilka utgångspunkter och vilken forskning anpassningen efter kognitiv utveckling bygger på."
+  },
+  {
+   "uid": "U267",
+   "id": "alvkarleby-kommun#3",
+   "citat": "Det framgår också på andra håll att olika typer av prov och tester kommer att vara digitala i framtiden. Eleverna måste då kunna hantera verktygen för att genomföra testerna. Skolan har ansvar för att alla elever har de digitala färdigheter som krävs för sådana prov eller tester.",
+   "oppen_kod": "Digitala prov trots restriktivitet",
+   "beskrivning": "Skolan ska ge eleverna digitala färdigheter för digitala prov trots restriktivitet mot digitala verktyg."
+  },
+  {
+   "uid": "U268",
+   "id": "overtornea-kommun#3",
+   "citat": "anser att språket i kursplanen är oproportionerligt komplicerat jämfört med andra ämnen, vilket riskerar att försvåra tolkningen och tillämpningen för både lärare och elever.",
+   "oppen_kod": "Komplicerat språk i matematikkursplan",
+   "beskrivning": "Matematikkursplanens språk riskerar att försvåra tolkning och tillämpning."
+  },
+  {
+   "uid": "U269",
+   "id": "overtornea-kommun#3",
+   "citat": "men kommunen uttrycker oro för hur detta ska kunna genomföras i praktiken med nuvarande resurser.",
+   "oppen_kod": "Resurser för mängdträning i läsning",
+   "beskrivning": "Regelbunden mängdträning i läsning är svår att genomföra med nuvarande resurser."
+  },
+  {
+   "uid": "U270",
+   "id": "overtornea-kommun#4",
+   "citat": "När det gäller stödundervisning uttrycker kommunen oro för hur denna ska kunna organiseras i praktiken om den ska ske utanför ordinarie lektionstid. Man lyfter särskilt utmaningar kopplade till skolskjutsar och tillgång till behörig personal, vilket kan försvåra genomförandet i glesbygdskommuner.",
+   "oppen_kod": "Stödundervisning i glesbygd",
+   "beskrivning": "Stödundervisning utanför lektionstid är svår att organisera i glesbygd med skolskjuts och personalbrist."
+  },
+  {
+   "uid": "U271",
+   "id": "overtornea-kommun#4",
+   "citat": "Slutligen uttrycker kommunen oro för att tiden inte räcker till för att implementera en ny läroplan på ett år, särskilt i kombination med andra stora reformer som tioårig grundskola och nytt betygssystem.",
+   "oppen_kod": "Kort implementeringstid och samtidiga reformer",
+   "beskrivning": "Ett år räcker inte för implementering, särskilt med andra stora reformer samtidigt."
+  },
+  {
+   "uid": "U272",
+   "id": "overtornea-kommun#4",
+   "citat": "Man efterlyser riktade statsbidrag för implementering och inköp av nya läromedel.",
+   "oppen_kod": "Finansiering implementering och läromedel",
+   "beskrivning": "Implementering och nya läromedel kräver riktade statsbidrag."
+  },
+  {
+   "uid": "U273",
+   "id": "overtornea-kommun#22",
+   "citat": "Stödundervisning: Tveksamhet kring hur den ska organiseras utanför lektionstid, särskilt i glesbygd med skolskjuts.",
+   "oppen_kod": "Stödundervisning och skolskjuts",
+   "beskrivning": "Stödundervisning utanför lektionstid är svår att organisera i glesbygd med skolskjuts."
+  },
+  {
+   "uid": "U274",
+   "id": "overtornea-kommun#23",
+   "citat": "Nytt betygssystem (10 steg): Kräver mycket tydliga kriterier – risk för förvirring och ökad arbetsbörda.",
+   "oppen_kod": "Betygssystem ökar arbetsbörda",
+   "beskrivning": "Ett nytt betygssystem riskerar förvirring och ökad arbetsbörda."
+  },
+  {
+   "uid": "U275",
+   "id": "overtornea-kommun#24",
+   "citat": "Matematikens språk: Kursplanen är oproportionerligt komplicerad jämfört med andra ämnen – risk för otydlig tolkning.",
+   "oppen_kod": "Otydlig matematikkursplan",
+   "beskrivning": "Matematikkursplanens språk riskerar otydlig tolkning."
+  },
+  {
+   "uid": "U276",
+   "id": "overtornea-kommun#25",
+   "citat": "Digitala kartläggningar: Risk att de tar tid från viktig mängdträning i lågstadiet.",
+   "oppen_kod": "Kartläggningar tar undervisningstid",
+   "beskrivning": "Digitala kartläggningar riskerar att ta tid från mängdträning."
+  },
+  {
+   "uid": "U277",
+   "id": "overtornea-kommun#26",
+   "citat": "Digital kompetens: Oklart vem som avgör vad som är vetenskapligt belagt – risk för otydlig tillämpning.",
+   "oppen_kod": "Oklart vem avgör vetenskapligt stöd",
+   "beskrivning": "Det är oklart vem som avgör vad som är vetenskapligt belagt för digitala verktyg."
+  },
+  {
+   "uid": "U278",
+   "id": "overtornea-kommun#28",
+   "citat": "Implementeringstid: Ett år är för kort för att införa stora reformer – risk för överbelastning.",
+   "oppen_kod": "För kort implementeringstid",
+   "beskrivning": "Ett år är för kort för att införa stora reformer och riskerar överbelastning."
+  },
+  {
+   "uid": "U279",
+   "id": "overtornea-kommun#35",
+   "citat": "Läromedel: Behov av riktade statsbidrag för inköp av nya läromedel.",
+   "oppen_kod": "Kostnad för nya läromedel",
+   "beskrivning": "Inköp av nya läromedel kräver riktade statsbidrag."
+  },
+  {
+   "uid": "U280",
+   "id": "overtornea-kommun#38",
+   "citat": "Det behövs resurser för daglig mängdträning, men det är svårt att genomföra i praktiken",
+   "oppen_kod": "Resurser för daglig mängdträning",
+   "beskrivning": "Daglig mängdträning i läsning kräver resurser och är svår att genomföra."
+  },
+  {
+   "uid": "U281",
+   "id": "overtornea-kommun#39",
+   "citat": "Vi anser att de täta bytena av läroplaner för svensk skola inte ger någon kontinuitet för skolväsendet.",
+   "oppen_kod": "Täta läroplansbyten",
+   "beskrivning": "Täta läroplansbyten ger ingen kontinuitet för skolväsendet."
+  },
+  {
+   "uid": "U282",
+   "id": "overtornea-kommun#41",
+   "citat": "Vi är dock fundersamma över hur omfattande allt material kommer att bli och om det finns tid att ta till sig detta material.",
+   "oppen_kod": "Omfattande stödmaterial och tid",
+   "beskrivning": "Det är osäkert om lärarna får tid att ta till sig omfattande stödmaterial."
+  },
+  {
+   "uid": "U283",
+   "id": "overtornea-kommun#43",
+   "citat": "vi ställer oss frågande till hur man hanterar detta om den aktuella läraren är obehörig.",
+   "oppen_kod": "Obehörig lärare bedömer stödbehov",
+   "beskrivning": "Det är oklart hur bedömningen av stödbehov ska ske när läraren är obehörig."
+  },
+  {
+   "uid": "U284",
+   "id": "overtornea-kommun#43",
+   "citat": "Vidare undrar vi över hur stödundervisningen ska gå till i praktiken, om den ska ges utanför lektionstid. Vem ska ge stödundervisning? Hur ska eleverna kunna ta del av stödundervisningen om eleven exempelvis är beroende av skolskjuts för att ta sig till och från skolan?",
+   "oppen_kod": "Praktisk organisering av stödundervisning",
+   "beskrivning": "Det är oklart vem som ska ge stödundervisning och hur den ska fungera med skolskjuts."
+  },
+  {
+   "uid": "U285",
+   "id": "overtornea-kommun#45",
+   "citat": "Att anpassningarna är dokumenterade underlättar arbetet med de elever som är beroende av att anpassningar sker för att de ska kunna ta till sig undervisningen. Det är värdefullt både i diskussioner i kollegiet vid uppföljning och utvärderingar av extra anpassningar, men även vid övergångar mellan stadier och skolformer.",
+   "oppen_kod": "Slopad dokumentation försvårar uppföljning",
+   "beskrivning": "Utan dokumentation av anpassningar försvåras uppföljning och övergångar."
+  },
+  {
+   "uid": "U286",
+   "id": "overtornea-kommun#46",
+   "citat": "Det kräver flera genomläsningar samt kollegiala diskussioner om hur innebörden och orden ska tolkas. Risken finns att kursplanen inte tolkas på ett likvärdigt sätt.",
+   "oppen_kod": "Svårtolkad matematikkursplan",
+   "beskrivning": "Matematikkursplanen kräver mycket tolkningsarbete och riskerar olika tolkningar."
+  },
+  {
+   "uid": "U287",
+   "id": "overtornea-kommun#47",
+   "citat": "Däremot är det mycket viktigt att noggranna anvisningar för PYS-paragrafen tas fram för att det ska vara tydligt och konkret om vilka betygskriterier som får undantas vid betygssättningen.",
+   "oppen_kod": "Otydlig tillämpning av PYS",
+   "beskrivning": "Det behövs anvisningar för vilka betygskriterier som får undantas enligt PYS-paragrafen."
+  },
+  {
+   "uid": "U288",
+   "id": "overtornea-kommun#47",
+   "citat": "Det kommer att krävas betydligt mer detaljerade kriterier än det är idag, och ett omfattande förarbete för att ta fram dessa.",
+   "oppen_kod": "Omfattande förarbete för betygskriterier",
+   "beskrivning": "Ett tiostegssystem kräver mer detaljerade kriterier och omfattande förarbete."
+  },
+  {
+   "uid": "U289",
+   "id": "overtornea-kommun#48",
+   "citat": "Det vore önskvärt med mer resurser för att kunna göra textsamtalen i mindre grupper, särskilt i tidigare år för att det ska fungera bra.",
+   "oppen_kod": "Resurser för textsamtal i smågrupp",
+   "beskrivning": "Textsamtal i mindre grupper kräver mer resurser."
+  },
+  {
+   "uid": "U290",
+   "id": "overtornea-kommun#49",
+   "citat": "Det här kan bli en utmaning och ett stort merarbete för att lärarna ska kunna tolka och förklara det centrala innehållet och betygskriterierna för eleverna på en lämplig nivå.",
+   "oppen_kod": "Merarbete tolka matematikkursplan",
+   "beskrivning": "Matematikkursplanens formella språk ger lärarna stort merarbete att tolka och förklara."
+  },
+  {
+   "uid": "U291",
+   "id": "overtornea-kommun#55",
+   "citat": "I kursplanen står det att kartläggningsmaterialen och bedömningsstöden ska genomföras digitalt, vilket till viss del talar emot intensionerna med kapitel 8 (Digitalisering) där lågstadiet i huvudsak ska vara analogt.",
+   "oppen_kod": "Motstridig digital kartläggning",
+   "beskrivning": "Digitala kartläggningar står i konflikt med ett analogt lågstadium."
+  },
+  {
+   "uid": "U292",
+   "id": "overtornea-kommun#56",
+   "citat": "Hur får vi med oss vårdnadshavarna att träna hemma?",
+   "oppen_kod": "Vårdnadshavares medverkan i lästräning",
+   "beskrivning": "Det är svårt för skolan att få vårdnadshavare att träna läsning hemma."
+  },
+  {
+   "uid": "U293",
+   "id": "overtornea-kommun#56",
+   "citat": "Vi ställer oss dock frågan hur man klarar av att ha resurser till tillräcklig mängdträning regelbundet varje dag. Det skulle verkligen medverka till att utveckla läsningen, men det är svårt att genomföra i praktiken i dagens skola.",
+   "oppen_kod": "Resurser för daglig mängdträning",
+   "beskrivning": "Daglig mängdträning i läsning är svår att resurssätta i dagens skola."
+  },
+  {
+   "uid": "U294",
+   "id": "overtornea-kommun#57",
+   "citat": "Digitala nationella prov ska införas i skolan, och eleverna behöver kunskaper i och vara bekväma med att hantera digitala enheter för att kunna prestera på de digitala nationella proven.",
+   "oppen_kod": "Digitala prov kräver digital vana",
+   "beskrivning": "Skolan måste ge digital vana inför digitala nationella prov trots restriktivitet."
+  },
+  {
+   "uid": "U295",
+   "id": "overtornea-kommun#58",
+   "citat": "men var finns de beläggen? Vem avgör det, eller är det upp till varje lärare att ta del av all forskning?",
+   "oppen_kod": "Oklart vem avgör vetenskapliga belägg",
+   "beskrivning": "Det är oklart vem som avgör vetenskapliga belägg för digitala verktyg."
+  },
+  {
+   "uid": "U296",
+   "id": "overtornea-kommun#58",
+   "citat": "Vi frågar oss om tiden räcker till för att implementera en ny läroplan på ett år. Det är relativt stora förändringar som är föreslagna och som kommer att ställa stora krav på huvudmän och skolor.",
+   "oppen_kod": "Kort tid för implementering",
+   "beskrivning": "Ett år kan vara för kort för att implementera stora förändringar hos huvudmän och skolor."
+  },
+  {
+   "uid": "U297",
+   "id": "overtornea-kommun#58",
+   "citat": "Det kommer att innebära stora ökade kostnader för skolorna att köpa in nya läromedel, och riktade statsbidrag borde tillföras även till det.",
+   "oppen_kod": "Ökade läromedelskostnader",
+   "beskrivning": "Nya läromedel innebär stora ökade kostnader för skolorna."
+  },
+  {
+   "uid": "U298",
+   "id": "overtornea-kommun#58",
+   "citat": "Övergångsbestämmelserna innebär att arbeta parallellt med två system, och kommer att innebära stora krav och merarbete för den enskilda läraren och rektorn.",
+   "oppen_kod": "Parallella system vid övergång",
+   "beskrivning": "Övergångsbestämmelserna kräver arbete i två system och ger merarbete."
+  },
+  {
+   "uid": "U299",
+   "id": "overtornea-kommun#59",
+   "citat": "Det är inte rimligt att de införs vid olika tillfällen i nära anslutning till varandra.",
+   "oppen_kod": "Samordning av reformernas ikraftträdande",
+   "beskrivning": "Reformer som införs vid olika tillfällen nära varandra blir betungande för huvudmän."
+  },
+  {
+   "uid": "U300",
+   "id": "overtornea-kommun#61",
+   "citat": "Att det vid betygssättningen får bortses från enstaka delar av mål och innehåll om det finns särskilda skäl behöver vara tydligt med vad som får bortses från och vilka skäl.",
+   "oppen_kod": "Otydliga undantag vid betygssättning",
+   "beskrivning": "Det är oklart vad som får bortses från vid betygssättning och vilka skäl som gäller."
+  }
+ ]
+}
