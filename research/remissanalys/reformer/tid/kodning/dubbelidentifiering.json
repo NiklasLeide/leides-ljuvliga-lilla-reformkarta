@@ -1,0 +1,474 @@
+{
+ "_meta": {
+  "steg": "M1b oberoende identifiering av 40 slumpvis valda passager (≥ 100 tecken, frö 20261201) med samma instruktion; kodare A = M1",
+  "matt": "överens = båda kodarna anger minst en utmaning, eller ingen av dem",
+  "overens": 37,
+  "antal": 40,
+  "tolkning": true
+ },
+ "passager": [
+  {
+   "id": "are-kommun#4",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "sveriges-kommuner-och-regioner#18",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "vadstena-kommun#5",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "ideburna-skolors-riksforbund#3",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "are-kommun#43",
+   "kodare_a_antal": 1,
+   "kodare_b_antal": 2,
+   "kodare_b": [
+    {
+     "citat": "en reglering av förskollärare och lärares arbetstid skulle innebära ett behov av att rekrytera ytterligare medarbetare.",
+     "oppen_kod": "rekryteringsbehov av fler lärare"
+    },
+    {
+     "citat": "Förutom utmaningen att rekrytera innebär det också ökade kostnader.",
+     "oppen_kod": "ökade kostnader för fler medarbetare"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "hammaro-kommun#23",
+   "kodare_a_antal": 4,
+   "kodare_b_antal": 4,
+   "kodare_b": [
+    {
+     "citat": "Flera förslag i betänkandet ser vi kommer att öka rektors arbetsbelastning, vilket i praktiken innebär att det finns en oro för att rektors arbetsmiljö blir än mer ansträngd.",
+     "oppen_kod": "ökad arbetsbelastning för rektor"
+    },
+    {
+     "citat": "En möjlig konsekvens är att läraryrkenas attraktivitet ökar samtidigt som skolledarnas attraktivitet minskar. Det får konsekvenser för kompetensförsörjning av skolledare och kvaliteten i utbildningen på längre sikt.",
+     "oppen_kod": "försämrad skolledarförsörjning"
+    },
+    {
+     "citat": "Möjliga konsekvenser utifrån förslagen är att huvudmannen således behöver skapa stärkta resurser för rektorsstödsfunktioner som innebär ökade kostnader.",
+     "oppen_kod": "kostnader för rektorsstödsfunktioner"
+    },
+    {
+     "citat": "Men arbetet som minskar eller tas bort från undervisande lärare kräver sannolikt fler kringfunktioner i organisationen, till exempel för praktiskt och socialt elevarbete. Detta kan sannolikt leda till ökade kostnader för huvudman som ska skapa förutsättningar för rektor.",
+     "oppen_kod": "kostnader för fler kringfunktioner"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "gotene-kommun#2",
+   "kodare_a_antal": 1,
+   "kodare_b_antal": 1,
+   "kodare_b": [
+    {
+     "citat": "I förslaget läggs ökade krav på rektor att till exempel bedöma vilka administrativa uppgifter som inte hör till undervisningsuppdraget.",
+     "oppen_kod": "oklar gränsdragning administrativa uppgifter"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "astorps-kommun#2",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "vilhelmina-kommun#8",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 2,
+   "kodare_b": [
+    {
+     "citat": "Statlig finansiering bör differentieras och ta hänsyn till kommuners olika strukturella förutsättningar, särskilt i glesbygd.",
+     "oppen_kod": "finansiering i glesbygdskommuner"
+    },
+    {
+     "citat": "Regeringen bör föra dialog med små kommuner om hur regeländringar påverkar deras möjligheter att leva upp till skollagens intentioner.",
+     "oppen_kod": "små kommuners förmåga att genomföra"
+    }
+   ],
+   "overens": false
+  },
+  {
+   "id": "almega-utbildning#5",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "sveriges-kommuner-och-regioner#12",
+   "kodare_a_antal": 1,
+   "kodare_b_antal": 1,
+   "kodare_b": [
+    {
+     "citat": "Detta berörs dock inte i motivtexterna, vilket gör det gör att det kan tolkas som osäkert hur kopplingen mellan utvecklingssamtalet och kunskapsutvecklingsplanen ska se ut när det gäller elevens utveckling i övrigt.",
+     "oppen_kod": "oklar dokumentation av social utveckling"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "sveriges-kommuner-och-regioner#33",
+   "kodare_a_antal": 1,
+   "kodare_b_antal": 2,
+   "kodare_b": [
+    {
+     "citat": "Faktorn tar inte heller i tillräcklig utsträckning hänsyn till att behovet av tid för planering och uppföljning är avhängigt antal elever i gruppen.",
+     "oppen_kod": "planeringsfaktor ignorerar gruppstorlek"
+    },
+    {
+     "citat": "Det behöver finnas en större möjlighet att anpassa faktorn till faktiska behov – även när det innebär en något lägre faktor.",
+     "oppen_kod": "begränsad lokal anpassning av faktorn"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "almhults-kommun#2",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "hammaro-kommun#21",
+   "kodare_a_antal": 4,
+   "kodare_b_antal": 4,
+   "kodare_b": [
+    {
+     "citat": "Vi ser att om detta ska vara möjligt att genomföra måste lärares förtroendetid sättas i relation till det nya förslaget.",
+     "oppen_kod": "konflikt med arbetstidsavtal och förtroendetid"
+    },
+    {
+     "citat": "Om detta inte ses över kommer det innebära stora kostnader för huvudmän då lärare i så fall kommer att undervisa mindre antal timmar för att få ut sin planering och uppföljningstid.",
+     "oppen_kod": "stora kostnader av minskad undervisning"
+    },
+    {
+     "citat": "Vi ser också att rektor kommer få sämre förutsättningar att arbeta med att utveckla utbildningen tillsammans med skolans lärare.",
+     "oppen_kod": "sämre förutsättningar för rektors utvecklingsarbete"
+    },
+    {
+     "citat": "Dock behövs ett tydligt stöd och vägledning för faktorer som ska ligga till grund för bedömningen i utformandet av tid.",
+     "oppen_kod": "oklart innehåll i planeringstid"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "are-kommun#39",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "kumla-kommun#2",
+   "kodare_a_antal": 3,
+   "kodare_b_antal": 1,
+   "kodare_b": [
+    {
+     "citat": "Ett exempel är rektors uppgift att leda och utveckla elevhälsans främjande och förebyggande arbete där avsaknaden av enhetlig elevdokumentation kraftigt kan försvåra analysen av resultat och utformningen av insatser.",
+     "oppen_kod": "minskad dokumentation försvårar analys"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "sveriges-kommuner-och-regioner#7",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "sveriges-kommuner-och-regioner#1",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "almega-utbildning#3",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "stockholms-kommun#67",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 1,
+   "kodare_b": [
+    {
+     "citat": "Korrigerat för att nya lärare inte kan undervisa 100 procent av sin arbetstid behöver denna summa multipliceras med ungefär tre – utifrån antagandet att en lärare lägger en tredjedel av sin arbetstid på att genomföra undervisning – och landar således på cirka 7 500 mnkr årligen.",
+     "oppen_kod": "underskattade kostnader för reformen"
+    }
+   ],
+   "overens": false
+  },
+  {
+   "id": "nykvarns-kommun#1",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "stockholms-kommun#78",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "goteborgs-kommun#12",
+   "kodare_a_antal": 2,
+   "kodare_b_antal": 3,
+   "kodare_b": [
+    {
+     "citat": "Det är dock en reform som måste finansieras för att vara genomförbar. Nuvarande regering underfinansierar skolan vilket undergräver möjligheterna för reformen att lyckas.",
+     "oppen_kod": "underfinansierad reform"
+    },
+    {
+     "citat": "nu menar både arbetstagaroch arbetsgivarsidan att regeringens utredning i sig försvårar förhandlingarna.",
+     "oppen_kod": "försvårade avtalsförhandlingar"
+    },
+    {
+     "citat": "Betänkandet föreslår ingen ny finansiering utan resurser ska tas från befintligt statsbidrag, kunskapsbidraget. Att fördela om dessa pengar innebär att reformen om reglerad undervisningstid skulle ge större klasser, fler obehöriga lärare och i slutändan försämrad undervisning.",
+     "oppen_kod": "omfördelat statsbidrag ger större klasser"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "sodertalje-kommun#5",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "stenungsunds-kommun#16",
+   "kodare_a_antal": 3,
+   "kodare_b_antal": 3,
+   "kodare_b": [
+    {
+     "citat": "För att få en meningsfull förändring som underlättar i lärares och annan personals tjänsteutövande krävs att begreppen ”allvarlig” och ”upprepad” tydligare definieras.",
+     "oppen_kod": "otydliga begrepp allvarlig och upprepad"
+    },
+    {
+     "citat": "Utifrån detta synsätt ställer sig Stenungsunds kommun frågande till om en reglering så som utredningen föreslår i praktiken kommer att underlätta för lärare att göra en bedömning om när anmälningsplikten inträder. Risken är att bedömning av allvarlighetsgraden blir godtycklig.",
+     "oppen_kod": "godtycklig bedömning av allvarlighet"
+    },
+    {
+     "citat": "Avseende begreppet ”upprepad” menar Stenungsunds kommun att tröskeln för när anmälningsplikten inträder fortsatt kommer att vara mycket låg då det räcker med att två händelser, som i och för sig bedöms vara s.k. bagatellartade handlingar, ska utgöra grund för anmälan.",
+     "oppen_kod": "fortsatt låg anmälningströskel"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "almhults-kommun#9",
+   "kodare_a_antal": 1,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": false
+  },
+  {
+   "id": "kopings-kommun#12",
+   "kodare_a_antal": 1,
+   "kodare_b_antal": 2,
+   "kodare_b": [
+    {
+     "citat": "Förslaget riskerar att slå fel i olika verksamheter, då förutsättningarna varierar kraftigt mellan skolformer, ämnen och elevgrupper. Risken för att ett enhetligt regelverk blir fyrkantigt och hämmar lokalt anpassade lösningar är betydande.",
+     "oppen_kod": "fyrkantig reglering hämmar lokal anpassning"
+    },
+    {
+     "citat": "En ytterligare konsekvens av förslaget är att rektors roll som pedagogisk ledare försvagas.",
+     "oppen_kod": "försvagad rektorsroll"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "stockholms-kommun#39",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "stockholms-kommun#88",
+   "kodare_a_antal": 1,
+   "kodare_b_antal": 1,
+   "kodare_b": [
+    {
+     "citat": "om inte tillsynsmyndigheternas tillsynsverksamhet ses över är sannolikheten stor att även icke allvarliga fall av kränkande behandling hanteras på samma sätt som allvarliga fall. Detta eftersom huvudmannen annars hamnar i ett sämre läge vid en tillsyn.",
+     "oppen_kod": "tillsynsrisk vid förenklad hantering"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "soderkopings-kommun#3",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "sodertalje-kommun#41",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "sodertalje-kommun#18",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "sveriges-kommuner-och-regioner#8",
+   "kodare_a_antal": 1,
+   "kodare_b_antal": 1,
+   "kodare_b": [
+    {
+     "citat": "Det finns dock en risk att formuleringen ”vid tillfällen som bestäms av förskolan/skolan” blir onödigt rigid och i stället tolkas som mer formaliserad,",
+     "oppen_kod": "rigid formalisering av informationstillfällen"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "sodertalje-kommun#8",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "lunds-kommun#12",
+   "kodare_a_antal": 3,
+   "kodare_b_antal": 2,
+   "kodare_b": [
+    {
+     "citat": "Grä nsdragningen mellan vad som utgö r diskriminering respektive krä nkande behandling ä r svå r, vilket kan innebä ra att lä rarna ä ven fortsä ttningsvis kommer behö va anmä la och dokumentera ”fö r sä kerhets skull”.",
+     "oppen_kod": "svår gränsdragning mot diskriminering"
+    },
+    {
+     "citat": "Att hä ndelser på sociala medier och/eller på fritiden i en så dan situation inte skulle omfattas av regleringen i skollagen blir olyckligt och motverkar skolans ansvar fö r att skaffa sig en bild av och ta ett helhetsgrepp kring den krä nkande behandling som en elev ä r utsatt fö r.",
+     "oppen_kod": "försvårat helhetsgrepp om kränkningar"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "sodertalje-kommun#38",
+   "kodare_a_antal": 1,
+   "kodare_b_antal": 1,
+   "kodare_b": [
+    {
+     "citat": "Annars riskeras förändringarna att i sig själva bli till merarbete för lärare och förskollärare.",
+     "oppen_kod": "förändringar ger merarbete"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "sodertalje-kommun#16",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "stockholms-kommun#79",
+   "kodare_a_antal": 1,
+   "kodare_b_antal": 1,
+   "kodare_b": [
+    {
+     "citat": "Förvaltningen ser också att det kan uppstå konflikter i de fall skolors/undervisande personals bedömning av när och hur information ska lämnas skiljer sig från vårdnadshavare och elevers behov av information.",
+     "oppen_kod": "konflikter med vårdnadshavare om information"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "stockholms-kommun#108",
+   "kodare_a_antal": 5,
+   "kodare_b_antal": 7,
+   "kodare_b": [
+    {
+     "citat": "Detta innebär dock en stor ambitionshöjning för svensk skola och förutsätter full statlig finansiering till kommunerna för att det inte tvärtom ska drabba lärarna och annan skolpersonal negativt.",
+     "oppen_kod": "kräver full statlig finansiering"
+    },
+    {
+     "citat": "Dessutom behöver lärarnas befintliga kollektivavtal anpassas utifrån de nya regleringarna.",
+     "oppen_kod": "kollektivavtal måste anpassas"
+    },
+    {
+     "citat": "den föreslagna regleringen av undervisningstid och tid för för- och efterarbete innebär stora begränsningar för rektorers möjligheter att leda och fördela resurser utifrån skolans faktiska behov.",
+     "oppen_kod": "begränsad resursfördelning för rektor"
+    },
+    {
+     "citat": "Att likställa planeringstid för en nyutexaminerad lärare med den för en erfaren lärare, eller att utgå från att halvklassundervisning kräver dubbelt så mycket lärartid blir problematiskt.",
+     "oppen_kod": "schablonmässig planeringstid"
+    },
+    {
+     "citat": "Skolverket prognoser visar en brist på 12 000 lärare till 2035. Utredningen bedömer att förslagen kommer leda till ett behov av att på kort sikt anställa fler obehöriga lärare",
+     "oppen_kod": "lärarbrist och fler obehöriga"
+    },
+    {
+     "citat": "Kostnaderna för detta har även kraftigt underskattats i utredningen, visar förvaltningens beräkningar med cirka 5 miljarder årligen.",
+     "oppen_kod": "kraftigt underskattade kostnader"
+    },
+    {
+     "citat": "Samtidigt föreslås att redan befintliga riktade statsbidrag omfördelas – inte att nya medel tillförs. Det bryter mot finansieringsprincipen och riskerar att tränga undan andra viktiga utbildningssatsningar.",
+     "oppen_kod": "omfördelade statsbidrag tränger undan satsningar"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "ideburna-skolors-riksforbund#5",
+   "kodare_a_antal": 2,
+   "kodare_b_antal": 2,
+   "kodare_b": [
+    {
+     "citat": "Ju fler författningar och ju mer detaljreglering, desto svårare får de allra minsta skolorna, som ofta utgör pedagogiskt alternativa komplement till kommunala skolor, att leverera adekvat och kvalitativ undervisning.",
+     "oppen_kod": "detaljreglering drabbar små skolor"
+    },
+    {
+     "citat": "Om regeringen skulle välja att gå vidare med statligt reglerad undervisningstid, riskeras många idéburna skolors existens, eftersom tidsekvationen och småskalighet inte går ihop med legitimationsförfattningarnas krav och behovs- och målstyrningen.",
+     "oppen_kod": "hotad existens för små skolor"
+    }
+   ],
+   "overens": true
+  }
+ ]
+}
