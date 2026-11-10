@@ -1,0 +1,1017 @@
+{
+ "_meta": {
+  "steg": "M3 tolkad koppling till utredningsförslag för utmaningar utan egen hänvisning (modellkodning, Sprint 17; två kodare, KODINSTRUKTION.md)",
+  "tolkning": true
+ },
+ "kopplingar": [
+  {
+   "uid": "U001",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Kostnader för personal till bestämmelserna om stödundervisning"
+  },
+  {
+   "uid": "U002",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Utformningen av stödundervisning och rektors beslutanderätt"
+  },
+  {
+   "uid": "U003",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Stödundervisning bedöms resurskrävande och underfinansierad"
+  },
+  {
+   "uid": "U064",
+   "forslag": [
+    "F03",
+    "F05"
+   ],
+   "motivering": "Gränsen mellan ledning och stimulans och stödundervisning"
+  },
+  {
+   "uid": "U065",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Organisation för skyndsam stödundervisning utanför klassrummet"
+  },
+  {
+   "uid": "U066",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Resurser och lokaler för den nya stödformen stödundervisning"
+  },
+  {
+   "uid": "U067",
+   "forslag": null,
+   "motivering": "Generell kritik av kostnadsberäkningarna"
+  },
+  {
+   "uid": "U070",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Lärares ansvar för ledning och stimulans kräver kompetensutveckling"
+  },
+  {
+   "uid": "U071",
+   "forslag": null,
+   "motivering": "Synen på lärarstyrd undervisning, inget enskilt förslag"
+  },
+  {
+   "uid": "U073",
+   "forslag": [
+    "F04"
+   ],
+   "motivering": "Organisation för att hantera resultat av standardiserade tester"
+  },
+  {
+   "uid": "U074",
+   "forslag": [
+    "F05",
+    "F03"
+   ],
+   "motivering": "Otydlig relation mellan stödundervisning och ledning och stimulans"
+  },
+  {
+   "uid": "U085",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Fler elever aktuella för stödundervisning än beräknat"
+  },
+  {
+   "uid": "U086",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Kostnader för stödundervisning större än beräknat"
+  },
+  {
+   "uid": "U087",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Stödundervisningens omfattning svår att prognosticera"
+  },
+  {
+   "uid": "U088",
+   "forslag": null,
+   "motivering": "Lärarbrist vid flera samtidiga utredningar"
+  },
+  {
+   "uid": "U089",
+   "forslag": null,
+   "motivering": "Många samtidiga styrsignaler till rektor"
+  },
+  {
+   "uid": "U090",
+   "forslag": [
+    "F07"
+   ],
+   "motivering": "Riktlinjer för användning av särskilda undervisningsgrupper"
+  },
+  {
+   "uid": "U091",
+   "forslag": [
+    "F03"
+   ],
+   "motivering": "Kompetens inom ledning och stimulans i ordinarie undervisning"
+  },
+  {
+   "uid": "U092",
+   "forslag": [
+    "F01",
+    "F06"
+   ],
+   "motivering": "Avskaffade extra anpassningar ger fler utredningar och väntetider"
+  },
+  {
+   "uid": "U093",
+   "forslag": [
+    "F01"
+   ],
+   "motivering": "Ansvarsförskjutning när extra anpassningar avskaffas"
+  },
+  {
+   "uid": "U094",
+   "forslag": [
+    "F01",
+    "F06"
+   ],
+   "motivering": "Fler anmälningar om särskilt stöd utan extra anpassningar"
+  },
+  {
+   "uid": "U095",
+   "forslag": null,
+   "motivering": "Allmän oro för elevhälsans förebyggande arbete"
+  },
+  {
+   "uid": "U096",
+   "forslag": null,
+   "motivering": "Allmän otydlighet i ansvarsfördelning för stödinsatser"
+  },
+  {
+   "uid": "U097",
+   "forslag": null,
+   "motivering": "Generellt utökat ansvar för rektorer"
+  },
+  {
+   "uid": "U098",
+   "forslag": null,
+   "motivering": "Generell arbetsbelastning för rektorer"
+  },
+  {
+   "uid": "U099",
+   "forslag": null,
+   "motivering": "Generellt ökat resursbehov av personal"
+  },
+  {
+   "uid": "U100",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Arbetsgången där lärare bedömer och rektor verkställer stödundervisning"
+  },
+  {
+   "uid": "U111",
+   "forslag": [
+    "F04"
+   ],
+   "motivering": "Standardiserade testers träffsäkerhet och tidsåtgång"
+  },
+  {
+   "uid": "U112",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Tid i lärarnas scheman för stödundervisning"
+  },
+  {
+   "uid": "U113",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Kompensation för schemaförändringar vid stödundervisning"
+  },
+  {
+   "uid": "U114",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Stödundervisning kräver annan organisation och dimensionering"
+  },
+  {
+   "uid": "U115",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Kompetent personal för stödundervisning svår att rekrytera"
+  },
+  {
+   "uid": "U116",
+   "forslag": null,
+   "motivering": "Allmän oro för ansvarsförskjutning till lärare"
+  },
+  {
+   "uid": "U145",
+   "forslag": [
+    "F04"
+   ],
+   "motivering": "Standardiserade tester genomförs mer frekvent"
+  },
+  {
+   "uid": "U146",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Lärarens bedömning av behov av stödundervisning kräver kompetens"
+  },
+  {
+   "uid": "U147",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Stödundervisningens utformning och rektors ansvar"
+  },
+  {
+   "uid": "U148",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Enkel anteckning som underlag för stödundervisning"
+  },
+  {
+   "uid": "U149",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Informationsöverföring inom stödundervisning tar lärartid"
+  },
+  {
+   "uid": "U150",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Gruppsammansättning för stödundervisning i mindre grupp"
+  },
+  {
+   "uid": "U151",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Samverkan mellan stödundervisning och ordinarie undervisning"
+  },
+  {
+   "uid": "U152",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Stödundervisning utanför timplanen förlänger skoldagen"
+  },
+  {
+   "uid": "U153",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Stödundervisningens frekvens och tidsgräns på två månader"
+  },
+  {
+   "uid": "U154",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Stödundervisning i gymnasieskolans kontext"
+  },
+  {
+   "uid": "U155",
+   "forslag": [
+    "F06"
+   ],
+   "motivering": "Reglering av skriftlig anmälan till rektor om utredning"
+  },
+  {
+   "uid": "U156",
+   "forslag": [
+    "F06"
+   ],
+   "motivering": "Strykningen om stöd inom elevgruppen kräver analys"
+  },
+  {
+   "uid": "U157",
+   "forslag": [
+    "F06"
+   ],
+   "motivering": "Ändringen i utredningsbestämmelsen och avsnitt 6.3"
+  },
+  {
+   "uid": "U165",
+   "forslag": null,
+   "motivering": "Samordning av många reformer"
+  },
+  {
+   "uid": "U166",
+   "forslag": null,
+   "motivering": "Finansieringsprincipen generellt"
+  },
+  {
+   "uid": "U167",
+   "forslag": null,
+   "motivering": "Förskolans förutsättningar, inget enskilt förslag"
+  },
+  {
+   "uid": "U178",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Förutsättningar att genomföra stödundervisning"
+  },
+  {
+   "uid": "U179",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Elever går till och från stödundervisning"
+  },
+  {
+   "uid": "U180",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Rotation till stödundervisning påverkar studiero"
+  },
+  {
+   "uid": "U181",
+   "forslag": [
+    "F05",
+    "F06"
+   ],
+   "motivering": "Okänt antal elever i stödundervisning och utredning"
+  },
+  {
+   "uid": "U182",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Organisera stödundervisning tillsammans med annat stöd"
+  },
+  {
+   "uid": "U194",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Organisera stödundervisning enligt förslaget"
+  },
+  {
+   "uid": "U195",
+   "forslag": null,
+   "motivering": "Generell tillgång på speciallärare och specialpedagoger"
+  },
+  {
+   "uid": "U196",
+   "forslag": null,
+   "motivering": "Generellt svårbedömd finansiering"
+  },
+  {
+   "uid": "U202",
+   "forslag": null,
+   "motivering": "Generell brist på speciallärare och specialpedagoger"
+  },
+  {
+   "uid": "U210",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Utvärdering av stödundervisning parallellt med annan insats"
+  },
+  {
+   "uid": "U211",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Speciallärare belastas av stödundervisning"
+  },
+  {
+   "uid": "U212",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Fler lärare krävs för stödundervisning"
+  },
+  {
+   "uid": "U213",
+   "forslag": null,
+   "motivering": "Otydligt stöd från elevhälsan till rektor"
+  },
+  {
+   "uid": "U214",
+   "forslag": null,
+   "motivering": "Generellt ökad arbetsbelastning för rektor"
+  },
+  {
+   "uid": "U215",
+   "forslag": null,
+   "motivering": "Generella kostnadskonsekvenser för kommuner"
+  },
+  {
+   "uid": "U216",
+   "forslag": null,
+   "motivering": "Generell rekrytering av medarbetare mellan enheter"
+  },
+  {
+   "uid": "U217",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Skolskjutskostnader om stödundervisning läggs utanför schemat"
+  },
+  {
+   "uid": "U218",
+   "forslag": null,
+   "motivering": "Specialpedagogisk kompetens i hela landet"
+  },
+  {
+   "uid": "U219",
+   "forslag": null,
+   "motivering": "Små kommuners rekryteringsbas generellt"
+  },
+  {
+   "uid": "U229",
+   "forslag": [
+    "F07"
+   ],
+   "motivering": "Kostnad för enskild undervisning när kravet på särskilda skäl tas bort"
+  },
+  {
+   "uid": "U230",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "När och hur stödundervisning ska sättas in"
+  },
+  {
+   "uid": "U231",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Kostnader för stödundervisning högre än beräknat"
+  },
+  {
+   "uid": "U232",
+   "forslag": [
+    "F03",
+    "F05"
+   ],
+   "motivering": "Innebörden av ledning och stimulans respektive stödundervisning"
+  },
+  {
+   "uid": "U233",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Oklarheter om utformning, beslut och utvärdering av stödundervisning"
+  },
+  {
+   "uid": "U234",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Fler elever än nödvändigt kan behöva stödundervisning"
+  },
+  {
+   "uid": "U235",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Kostnader för stödundervisning högre än beräknat"
+  },
+  {
+   "uid": "U236",
+   "forslag": null,
+   "motivering": "Generellt krav på statlig kostnadstäckning"
+  },
+  {
+   "uid": "U237",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Oklart vad stödundervisningen består i"
+  },
+  {
+   "uid": "U238",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Resurskrävande utvärderingar av stödundervisning"
+  },
+  {
+   "uid": "U239",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Prioritering när anmälningar om stödundervisning blir många"
+  },
+  {
+   "uid": "U240",
+   "forslag": null,
+   "motivering": "Samspel med tilläggsbelopp och resurstilldelning, inget enskilt förslag"
+  },
+  {
+   "uid": "U241",
+   "forslag": [
+    "F03",
+    "F05"
+   ],
+   "motivering": "Gränsen mellan ledning och stimulans och stödundervisning"
+  },
+  {
+   "uid": "U242",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Risk att många elever behöver stödundervisning"
+  },
+  {
+   "uid": "U243",
+   "forslag": null,
+   "motivering": "Allmänt krav på samverkan och kvalitetsarbete"
+  },
+  {
+   "uid": "U244",
+   "forslag": [
+    "F05",
+    "F04"
+   ],
+   "motivering": "Stödundervisning i ämnen som standardiserade tester inte täcker"
+  },
+  {
+   "uid": "U245",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Många elever kan bedömas behöva stödundervisning"
+  },
+  {
+   "uid": "U246",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Rektors beslut om undantag från stödundervisning"
+  },
+  {
+   "uid": "U247",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Beslut om stödundervisning utan organisatoriska eller ekonomiska skäl"
+  },
+  {
+   "uid": "U248",
+   "forslag": null,
+   "motivering": "Förhållandet till en annan utredning, inget enskilt förslag"
+  },
+  {
+   "uid": "U249",
+   "forslag": null,
+   "motivering": "Samordning mellan reformer i allmänhet"
+  },
+  {
+   "uid": "U250",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Kostnader för stödundervisning när behovet varierar"
+  },
+  {
+   "uid": "U251",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Mindre stödundervisningsgrupper på mindre skolor"
+  },
+  {
+   "uid": "U252",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Behov av speciallärare för stödundervisning"
+  },
+  {
+   "uid": "U253",
+   "forslag": null,
+   "motivering": "Handledningskostnader och kompetens för förslagen generellt"
+  },
+  {
+   "uid": "U254",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Lokalkostnader för stödundervisning"
+  },
+  {
+   "uid": "U255",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Högre kostnader beroende på stödundervisningens utformning"
+  },
+  {
+   "uid": "U256",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Utvärdering av stödundervisning utan dokumentation"
+  },
+  {
+   "uid": "U257",
+   "forslag": null,
+   "motivering": "Oklara skillnader mellan skolformer, inget tydligt enskilt förslag"
+  },
+  {
+   "uid": "U258",
+   "forslag": [
+    "F06",
+    "F07"
+   ],
+   "motivering": "Hur särskilt stöd organiseras, risk för exkludering"
+  },
+  {
+   "uid": "U259",
+   "forslag": [
+    "F07"
+   ],
+   "motivering": "Inga särskilda skäl för enskild undervisning eller särskild grupp"
+  },
+  {
+   "uid": "U260",
+   "forslag": [
+    "F07"
+   ],
+   "motivering": "Fler särskilda undervisningsgrupper i grundskolan"
+  },
+  {
+   "uid": "U261",
+   "forslag": [
+    "F08"
+   ],
+   "motivering": "Vad anpassad studiegång innebär i praktiken"
+  },
+  {
+   "uid": "U262",
+   "forslag": [
+    "F03",
+    "F05"
+   ],
+   "motivering": "Gränsen mellan ledning och stimulans och stödundervisning"
+  },
+  {
+   "uid": "U269",
+   "forslag": null,
+   "motivering": "Förhållandet till en annan utredning, inget enskilt förslag"
+  },
+  {
+   "uid": "U270",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Kostnader för stödundervisning när behovet varierar"
+  },
+  {
+   "uid": "U271",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Mindre stödundervisningsgrupper på mindre skolor"
+  },
+  {
+   "uid": "U275",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Högre kostnader beroende på stödundervisningens utformning"
+  },
+  {
+   "uid": "U279",
+   "forslag": [
+    "F07"
+   ],
+   "motivering": "Inga särskilda skäl för enskild undervisning eller särskild grupp"
+  },
+  {
+   "uid": "U281",
+   "forslag": [
+    "F08"
+   ],
+   "motivering": "Vad anpassad studiegång innebär i praktiken"
+  },
+  {
+   "uid": "U287",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Hur rätten till stödundervisning regleras påverkar rektors planering"
+  },
+  {
+   "uid": "U288",
+   "forslag": null,
+   "motivering": "Kostnadsberäkningar för förslagen generellt"
+  },
+  {
+   "uid": "U289",
+   "forslag": null,
+   "motivering": "Utredningens allmänna fokus på åtgärdande insatser"
+  },
+  {
+   "uid": "U290",
+   "forslag": null,
+   "motivering": "Allmän förskjutning mot formaliserat stödsystem"
+  },
+  {
+   "uid": "U291",
+   "forslag": null,
+   "motivering": "Administration i allmänhet"
+  },
+  {
+   "uid": "U292",
+   "forslag": null,
+   "motivering": "Förslagen generellt resursdrivande"
+  },
+  {
+   "uid": "U293",
+   "forslag": [
+    "F07"
+   ],
+   "motivering": "Enskild undervisning och särskild grupp saknas i gymnasieskolan"
+  },
+  {
+   "uid": "U294",
+   "forslag": null,
+   "motivering": "Anpassade skolformer saknas i resonemangen generellt"
+  },
+  {
+   "uid": "U333",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Genomförande av bestämmelsen om stödundervisning"
+  },
+  {
+   "uid": "U334",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Lärarrekrytering för stödundervisning"
+  },
+  {
+   "uid": "U335",
+   "forslag": null,
+   "motivering": "Kostnader i allmänhet"
+  },
+  {
+   "uid": "U336",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Vilka elever som har rätt till stödundervisning"
+  },
+  {
+   "uid": "U337",
+   "forslag": null,
+   "motivering": "Elevhälsans roll generellt, inget enskilt förslag"
+  },
+  {
+   "uid": "U338",
+   "forslag": [
+    "F07",
+    "F08"
+   ],
+   "motivering": "Elevhälsans medverkan vid särskild grupp och anpassad studiegång"
+  },
+  {
+   "uid": "U339",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Urval av elever till stödundervisning"
+  },
+  {
+   "uid": "U340",
+   "forslag": null,
+   "motivering": "Behov av sammanhållet elevhälsostöd generellt"
+  },
+  {
+   "uid": "U341",
+   "forslag": null,
+   "motivering": "Distansundervisning behandlas inte i förslagen"
+  },
+  {
+   "uid": "U362",
+   "forslag": null,
+   "motivering": "Investeringar i kompetens och resurser generellt"
+  },
+  {
+   "uid": "U363",
+   "forslag": [
+    "F04"
+   ],
+   "motivering": "Standardiserade tester och fokus på mätbara resultat"
+  },
+  {
+   "uid": "U364",
+   "forslag": [
+    "F04"
+   ],
+   "motivering": "Administrativ börda av standardiserade tester"
+  },
+  {
+   "uid": "U365",
+   "forslag": [
+    "F04"
+   ],
+   "motivering": "Standardiserade testers frågeformat"
+  },
+  {
+   "uid": "U366",
+   "forslag": [
+    "F04"
+   ],
+   "motivering": "Digitala verktyg vid standardiserade tester"
+  },
+  {
+   "uid": "U367",
+   "forslag": [
+    "F01",
+    "F03"
+   ],
+   "motivering": "Extra anpassningar ersätts av ledning och stimulans"
+  },
+  {
+   "uid": "U368",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Rektors organisering av stödundervisning"
+  },
+  {
+   "uid": "U369",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Personalbehov för stödundervisning"
+  },
+  {
+   "uid": "U370",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Stödundervisningens ämnesbegränsning i gymnasieskolan"
+  },
+  {
+   "uid": "U371",
+   "forslag": [
+    "F05",
+    "F06"
+   ],
+   "motivering": "Lärarens bedömning och anmälan av stödbehov"
+  },
+  {
+   "uid": "U372",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Rektors samordning av skyndsam stödundervisning"
+  },
+  {
+   "uid": "U373",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Bemanning och lokaler för stödundervisning"
+  },
+  {
+   "uid": "U374",
+   "forslag": null,
+   "motivering": "Övergång till nya stödformer generellt"
+  },
+  {
+   "uid": "U375",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Personalresurser för stödundervisning"
+  },
+  {
+   "uid": "U376",
+   "forslag": null,
+   "motivering": "Ökat ansvar för lärare generellt"
+  },
+  {
+   "uid": "U377",
+   "forslag": null,
+   "motivering": "Olika tolkning av reglerna generellt"
+  },
+  {
+   "uid": "U378",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Kostnadsberäkning för stödundervisning"
+  },
+  {
+   "uid": "U379",
+   "forslag": null,
+   "motivering": "Rektors arbetsbelastning av förslagen generellt"
+  },
+  {
+   "uid": "U380",
+   "forslag": null,
+   "motivering": "Rektors arbetsbelastning av förslagen generellt"
+  },
+  {
+   "uid": "U387",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Planering och dimensionering av stödundervisning"
+  },
+  {
+   "uid": "U388",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Bemanning av stödundervisning med behöriga lärare"
+  },
+  {
+   "uid": "U389",
+   "forslag": null,
+   "motivering": "Rektors arbetsbelastning i allmänhet"
+  },
+  {
+   "uid": "U403",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Beslut om stödundervisning och samverkan med vårdnadshavare"
+  },
+  {
+   "uid": "U404",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Placering av utåtagerande elever i stödundervisning"
+  },
+  {
+   "uid": "U405",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Grund för placering i stödundervisning"
+  },
+  {
+   "uid": "U406",
+   "forslag": null,
+   "motivering": "Arbetsbörda och resurser generellt"
+  },
+  {
+   "uid": "U407",
+   "forslag": null,
+   "motivering": "Rektors arbetsbelastning vid obehöriga lärare"
+  },
+  {
+   "uid": "U408",
+   "forslag": null,
+   "motivering": "Ansvarsfördelning mellan yrkesgrupper generellt"
+  },
+  {
+   "uid": "U409",
+   "forslag": null,
+   "motivering": "Specialpedagogers och speciallärares roller generellt"
+  },
+  {
+   "uid": "U410",
+   "forslag": null,
+   "motivering": "Elevhälsans roll generellt"
+  },
+  {
+   "uid": "U411",
+   "forslag": null,
+   "motivering": "Rekrytering i små kommuner generellt"
+  },
+  {
+   "uid": "U412",
+   "forslag": null,
+   "motivering": "Kostnader i allmänhet"
+  },
+  {
+   "uid": "U413",
+   "forslag": null,
+   "motivering": "Lärares kompetensutveckling generellt"
+  }
+ ]
+}

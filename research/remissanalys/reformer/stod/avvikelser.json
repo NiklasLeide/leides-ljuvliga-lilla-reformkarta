@@ -1,0 +1,237 @@
+{
+ "_meta": {
+  "beskrivning": "Propositionens stycke \"Utredningen om en förbättrad elevhälsas förslag\" per avsnitt med regeringens förslags-/bedömningsruta, ordagrant fram till nästa underrubrik.",
+  "overensstammelse": "propositionens exakta fras",
+  "avvikelse_beskriven": "true om stycket innehåller fler meningar än den inledande om överensstämmelse (mekaniskt)"
+ },
+ "avsnitt": [
+  {
+   "proposition": "Prop. 2025/26:195",
+   "avsnitt": "6.1",
+   "rubrik": "Bestämmelserna om stöd i form av extra",
+   "forslag_i_avsnittet": [
+    "F01"
+   ],
+   "rubrik_i_propositionen": "Utredningen om en förbättrad elevhälsas förslag",
+   "text": "Förslaget från utredningen stämmer överens med regeringens.",
+   "overensstammelse": "stämmer överens",
+   "avvikelse_beskriven": false,
+   "kalla": {
+    "text": "Prop. 2025/26:195 s. 46, avsnitt 6.1 ”Utredningen om en förbättrad elevhälsas förslag”",
+    "url": "https://www.regeringen.se/contentassets/90deb85eeb924ac4a4b5ef087529f68a/forbattrat-stod-i-skolan-prop.-202526195.pdf"
+   },
+   "sida": [
+    46
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 1
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:195",
+   "avsnitt": "6.2",
+   "rubrik": "Garantin för tidiga stödinsatser ska avskaffas",
+   "forslag_i_avsnittet": [
+    "F02"
+   ],
+   "rubrik_i_propositionen": "Utredningen om en förbättrad elevhälsas förslag",
+   "text": "Förslaget från utredningen stämmer överens med regeringens.",
+   "overensstammelse": "stämmer överens",
+   "avvikelse_beskriven": false,
+   "kalla": {
+    "text": "Prop. 2025/26:195 s. 54, avsnitt 6.2 ”Utredningen om en förbättrad elevhälsas förslag”",
+    "url": "https://www.regeringen.se/contentassets/90deb85eeb924ac4a4b5ef087529f68a/forbattrat-stod-i-skolan-prop.-202526195.pdf"
+   },
+   "sida": [
+    54
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 1
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:195",
+   "avsnitt": "6.3",
+   "rubrik": "Barn och elever ska ges ledning och stimulans i",
+   "forslag_i_avsnittet": [
+    "F03"
+   ],
+   "rubrik_i_propositionen": "Utredningen om en förbättrad elevhälsas förslag",
+   "text": "Förslaget från utredningen stämmer delvis överens med regeringens. Utredningen lämnar även förslag som innebär anpassningar till de förslag som lämnas av Läroplansutredningen som innebär att skrivningar om huruvida eleverna minst uppfyller vissa kriterier byts ut mot skrivningar om huruvida eleverna tillgodogör sig kunskaper i förhållande till ämnets syfte och centrala innehåll. Dessa förslag hanteras i propositionen Nya Läroplaner – för en stark kunskapsskola, se avsnitt 3 och 5.",
+   "overensstammelse": "stämmer delvis överens",
+   "avvikelse_beskriven": true,
+   "kalla": {
+    "text": "Prop. 2025/26:195 s. 57, avsnitt 6.3 ”Utredningen om en förbättrad elevhälsas förslag”",
+    "url": "https://www.regeringen.se/contentassets/90deb85eeb924ac4a4b5ef087529f68a/forbattrat-stod-i-skolan-prop.-202526195.pdf"
+   },
+   "sida": [
+    57
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 7
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:195",
+   "avsnitt": "6.5",
+   "rubrik": "Standardiserade tester ska införas för att",
+   "forslag_i_avsnittet": [
+    "F02",
+    "F04"
+   ],
+   "rubrik_i_propositionen": "Utredningen om en förbättrad elevhälsas förslag",
+   "text": "Förslaget från utredningen stämmer i huvudsak överens med regeringens. Utredningen lämnar inte förslag om att när resultatet från ett standardiserat test visar att eleven har större behov än vad som rimligen kan hanteras inom ramen för ledning och stimulans eller stöd ska det skyndsamt planeras stödundervisning eller göras en anmälan till rektorn om utredning av särskilt stöd.",
+   "overensstammelse": "stämmer i huvudsak överens",
+   "avvikelse_beskriven": true,
+   "kalla": {
+    "text": "Prop. 2025/26:195 s. 69, avsnitt 6.5 ”Utredningen om en förbättrad elevhälsas förslag”",
+    "url": "https://www.regeringen.se/contentassets/90deb85eeb924ac4a4b5ef087529f68a/forbattrat-stod-i-skolan-prop.-202526195.pdf"
+   },
+   "sida": [
+    69
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 6
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:195",
+   "avsnitt": "6.6",
+   "rubrik": "Stödundervisning ska införas för att förbättra",
+   "forslag_i_avsnittet": [
+    "F05"
+   ],
+   "rubrik_i_propositionen": "Utredningen om en förbättrad elevhälsas förslag",
+   "text": "Förslaget från utredningen stämmer i huvudsak överens med regeringens. Utredningen föreslår att stödundervisning i de obligatoriska skolformerna ska omfatta samtliga ämnen, och i högst tre ämnen åt gången per termin. Utredningen föreslår inte att ett beslut av rektorn att en elev inte ska ges stödundervisning alltid ska föregås av samråd med ansvarig lärare och speciallärare eller specialpedagog. Vidare föreslår utredningen att resultatet av utvärderingen ska överföras till den lärare som ska ansvara för eleven i nästa årskurs eller nästa nivå av ämnet.",
+   "overensstammelse": "stämmer i huvudsak överens",
+   "avvikelse_beskriven": true,
+   "kalla": {
+    "text": "Prop. 2025/26:195 s. 76, avsnitt 6.6 ”Utredningen om en förbättrad elevhälsas förslag”",
+    "url": "https://www.regeringen.se/contentassets/90deb85eeb924ac4a4b5ef087529f68a/forbattrat-stod-i-skolan-prop.-202526195.pdf"
+   },
+   "sida": [
+    76
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 8
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:195",
+   "avsnitt": "6.7",
+   "rubrik": "En utredning av en elevs behov av särskilt stöd",
+   "forslag_i_avsnittet": [
+    "F06"
+   ],
+   "rubrik_i_propositionen": "Utredningen om en förbättrad elevhälsas förslag",
+   "text": "Förslaget från utredningen stämmer i huvudsak överens med regeringens. Utredningen föreslår inte att en anmälan till rektorn även ska göras om stödundervisning inte bedöms innebära tillräckligt stöd och en anmälan till rektorn enligt bestämmelserna om stödundervisning därför inte görs. Utredningen föreslår inte heller att bestämmelserna om mentorn ska förtydligas.",
+   "overensstammelse": "stämmer i huvudsak överens",
+   "avvikelse_beskriven": true,
+   "kalla": {
+    "text": "Prop. 2025/26:195 s. 98, 99, avsnitt 6.7 ”Utredningen om en förbättrad elevhälsas förslag”",
+    "url": "https://www.regeringen.se/contentassets/90deb85eeb924ac4a4b5ef087529f68a/forbattrat-stod-i-skolan-prop.-202526195.pdf"
+   },
+   "sida": [
+    98,
+    99
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 6
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:195",
+   "avsnitt": "6.8",
+   "rubrik": "Det ska bli enklare att ge särskilt stöd i en",
+   "forslag_i_avsnittet": [
+    "F06",
+    "F07"
+   ],
+   "rubrik_i_propositionen": "Utredningen om en förbättrad elevhälsas förslag",
+   "text": "Förslaget från utredningen stämmer i huvudsak överens med regeringens. Utredningen föreslår inte att nuvarande begränsningar av rektorns möjlighet att delegera sin beslutanderätt ska tas bort i nu aktuella avseenden.",
+   "overensstammelse": "stämmer i huvudsak överens",
+   "avvikelse_beskriven": true,
+   "kalla": {
+    "text": "Prop. 2025/26:195 s. 107, avsnitt 6.8 ”Utredningen om en förbättrad elevhälsas förslag”",
+    "url": "https://www.regeringen.se/contentassets/90deb85eeb924ac4a4b5ef087529f68a/forbattrat-stod-i-skolan-prop.-202526195.pdf"
+   },
+   "sida": [
+    107
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 4
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:195",
+   "avsnitt": "6.9",
+   "rubrik": "Anpassad studiegång ska bara få ges som sista",
+   "forslag_i_avsnittet": [
+    "F08"
+   ],
+   "rubrik_i_propositionen": "Utredningen om en förbättrad elevhälsas förslag",
+   "text": "Förslaget från utredningen stämmer i huvudsak överens med regeringens. Utredningen har inte föreslagit att ett beslut om anpassad studiegång ska få fattas om alla andra möjligheter till särskilt stöd bedöms olämpliga.",
+   "overensstammelse": "stämmer i huvudsak överens",
+   "avvikelse_beskriven": true,
+   "kalla": {
+    "text": "Prop. 2025/26:195 s. 115, avsnitt 6.9 ”Utredningen om en förbättrad elevhälsas förslag”",
+    "url": "https://www.regeringen.se/contentassets/90deb85eeb924ac4a4b5ef087529f68a/forbattrat-stod-i-skolan-prop.-202526195.pdf"
+   },
+   "sida": [
+    115
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 4
+   }
+  },
+  {
+   "proposition": "Prop. 2025/26:195",
+   "avsnitt": "8",
+   "rubrik": "Ikraftträdande",
+   "forslag_i_avsnittet": [
+    "F09"
+   ],
+   "rubrik_i_propositionen": "Utredningen om en förbättrad elevhälsas förslag",
+   "text": "Förslaget från utredningen stämmer inte överens med regeringens förslag. Utredningen föreslår att ändringarna i skollagen ska träda i kraft den 1 juli 2026 och tillämpas första gången på utbildning som påbörjas höstterminen 2028.",
+   "overensstammelse": null,
+   "avvikelse_beskriven": true,
+   "kalla": {
+    "text": "Prop. 2025/26:195 s. 124, avsnitt 8 ”Utredningen om en förbättrad elevhälsas förslag”",
+    "url": "https://www.regeringen.se/contentassets/90deb85eeb924ac4a4b5ef087529f68a/forbattrat-stod-i-skolan-prop.-202526195.pdf"
+   },
+   "sida": [
+    124
+   ],
+   "kontroll": {
+    "metod": "automatisk mot pdftotext (blanksteg/bindestreck normaliserade)",
+    "hela_stycket": true,
+    "delar_utan_traff": 0,
+    "delar": 4
+   }
+  }
+ ]
+}

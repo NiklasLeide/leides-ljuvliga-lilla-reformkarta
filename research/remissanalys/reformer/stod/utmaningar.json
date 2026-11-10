@@ -29,10 +29,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Kostnader för personal till bestämmelserna om stödundervisning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -62,10 +67,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Utformningen av stödundervisning och rektors beslutanderätt",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -95,10 +105,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Stödundervisning bedöms resurskrävande och underfinansierad",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -2714,10 +2729,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F03",
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Gränsen mellan ledning och stimulans och stödundervisning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -2747,10 +2768,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Organisation för skyndsam stödundervisning utanför klassrummet",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -2780,10 +2806,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Resurser och lokaler för den nya stödformen stödundervisning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -2936,10 +2967,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F03"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Lärares ansvar för ledning och stimulans kräver kompetensutveckling",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -3044,10 +3080,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F04"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Organisation för att hantera resultat av standardiserade tester",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -3077,10 +3118,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05",
+     "F03"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Otydlig relation mellan stödundervisning och ledning och stimulans",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -3532,10 +3579,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Fler elever aktuella för stödundervisning än beräknat",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -3565,10 +3617,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Kostnader för stödundervisning större än beräknat",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -3598,10 +3655,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Stödundervisningens omfattning svår att prognosticera",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -3697,10 +3759,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F07"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Riktlinjer för användning av särskilda undervisningsgrupper",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -3730,10 +3797,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F03"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Kompetens inom ledning och stimulans i ordinarie undervisning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -3763,10 +3835,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F01",
+     "F06"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Avskaffade extra anpassningar ger fler utredningar och väntetider",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -3796,10 +3874,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F01"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Ansvarsförskjutning när extra anpassningar avskaffas",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -3829,10 +3912,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F01",
+     "F06"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Fler anmälningar om särskilt stöd utan extra anpassningar",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -4027,10 +4116,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Arbetsgången där lärare bedömer och rektor verkställer stödundervisning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -4489,10 +4583,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F04"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Standardiserade testers träffsäkerhet och tidsåtgång",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -4522,10 +4621,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Tid i lärarnas scheman för stödundervisning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -4555,10 +4659,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Kompensation för schemaförändringar vid stödundervisning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -4588,10 +4697,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Stödundervisning kräver annan organisation och dimensionering",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -4621,10 +4735,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Kompetent personal för stödundervisning svår att rekrytera",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -5894,10 +6013,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F04"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Standardiserade tester genomförs mer frekvent",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -5927,10 +6051,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Lärarens bedömning av behov av stödundervisning kräver kompetens",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -5960,10 +6089,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Stödundervisningens utformning och rektors ansvar",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -5993,10 +6127,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Enkel anteckning som underlag för stödundervisning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -6026,10 +6165,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Informationsöverföring inom stödundervisning tar lärartid",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -6059,10 +6203,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Gruppsammansättning för stödundervisning i mindre grupp",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -6092,10 +6241,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Samverkan mellan stödundervisning och ordinarie undervisning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -6125,10 +6279,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Stödundervisning utanför timplanen förlänger skoldagen",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -6158,10 +6317,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Stödundervisningens frekvens och tidsgräns på två månader",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -6191,10 +6355,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Stödundervisning i gymnasieskolans kontext",
+    "tolkning": true
    },
    "skolform": [
     "grundskola",
@@ -6227,10 +6396,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F06"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Reglering av skriftlig anmälan till rektor om utredning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -6260,10 +6434,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F06"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Strykningen om stöd inom elevgruppen kräver analys",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -6293,10 +6472,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F06"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Ändringen i utredningsbestämmelsen och avsnitt 6.3",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -7159,10 +7343,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Förutsättningar att genomföra stödundervisning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -7192,10 +7381,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Elever går till och från stödundervisning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -7225,10 +7419,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Rotation till stödundervisning påverkar studiero",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -7258,10 +7457,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05",
+     "F06"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Okänt antal elever i stödundervisning och utredning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -7291,10 +7496,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Organisera stödundervisning tillsammans med annat stöd",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -7803,10 +8013,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Organisera stödundervisning enligt förslaget",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -8439,10 +8654,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Utvärdering av stödundervisning parallellt med annan insats",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -8472,10 +8692,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Speciallärare belastas av stödundervisning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -8505,10 +8730,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Fler lärare krävs för stödundervisning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -8670,10 +8900,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Skolskjutskostnader om stödundervisning läggs utanför schemat",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -9195,10 +9430,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F07"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Kostnad för enskild undervisning när kravet på särskilda skäl tas bort",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -9228,10 +9468,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "När och hur stödundervisning ska sättas in",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -9261,10 +9506,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Kostnader för stödundervisning högre än beräknat",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -9294,10 +9544,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F03",
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Innebörden av ledning och stimulans respektive stödundervisning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -9327,10 +9583,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Oklarheter om utformning, beslut och utvärdering av stödundervisning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -9360,10 +9621,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Fler elever än nödvändigt kan behöva stödundervisning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -9393,10 +9659,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Kostnader för stödundervisning högre än beräknat",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -9459,10 +9730,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Oklart vad stödundervisningen består i",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -9492,10 +9768,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Resurskrävande utvärderingar av stödundervisning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -9525,10 +9806,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Prioritering när anmälningar om stödundervisning blir många",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -9591,10 +9877,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F03",
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Gränsen mellan ledning och stimulans och stödundervisning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -9624,10 +9916,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Risk att många elever behöver stödundervisning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -9690,10 +9987,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05",
+     "F04"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Stödundervisning i ämnen som standardiserade tester inte täcker",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -9723,10 +10026,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Många elever kan bedömas behöva stödundervisning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -9756,10 +10064,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Rektors beslut om undantag från stödundervisning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -9789,10 +10102,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Beslut om stödundervisning utan organisatoriska eller ekonomiska skäl",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -9888,10 +10206,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Kostnader för stödundervisning när behovet varierar",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -9921,10 +10244,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Mindre stödundervisningsgrupper på mindre skolor",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -9954,10 +10282,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Behov av speciallärare för stödundervisning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -10020,10 +10353,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Lokalkostnader för stödundervisning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -10053,10 +10391,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Högre kostnader beroende på stödundervisningens utformning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -10086,10 +10429,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Utvärdering av stödundervisning utan dokumentation",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -10152,10 +10500,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F06",
+     "F07"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Hur särskilt stöd organiseras, risk för exkludering",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -10185,10 +10539,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F07"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Inga särskilda skäl för enskild undervisning eller särskild grupp",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -10218,10 +10577,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F07"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Fler särskilda undervisningsgrupper i grundskolan",
+    "tolkning": true
    },
    "skolform": [
     "grundskola",
@@ -10254,10 +10618,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F08"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Vad anpassad studiegång innebär i praktiken",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -10287,10 +10656,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F03",
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Gränsen mellan ledning och stimulans och stödundervisning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -10473,10 +10848,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Kostnader för stödundervisning när behovet varierar",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -10506,10 +10886,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Mindre stödundervisningsgrupper på mindre skolor",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -10599,10 +10984,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Högre kostnader beroende på stödundervisningens utformning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -10692,10 +11082,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F07"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Inga särskilda skäl för enskild undervisning eller särskild grupp",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -10745,10 +11140,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F08"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Vad anpassad studiegång innebär i praktiken",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -10878,10 +11278,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Hur rätten till stödundervisning regleras påverkar rektors planering",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -11076,10 +11481,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F07"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Enskild undervisning och särskild grupp saknas i gymnasieskolan",
+    "tolkning": true
    },
    "skolform": [
     "gymnasieskola"
@@ -12787,10 +13197,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Genomförande av bestämmelsen om stödundervisning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -12820,10 +13235,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Lärarrekrytering för stödundervisning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -12886,10 +13306,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Vilka elever som har rätt till stödundervisning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -12952,10 +13377,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F07",
+     "F08"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Elevhälsans medverkan vid särskild grupp och anpassad studiegång",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -12985,10 +13416,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Urval av elever till stödundervisning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -13969,10 +14405,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F04"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Standardiserade tester och fokus på mätbara resultat",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -14002,10 +14443,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F04"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Administrativ börda av standardiserade tester",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -14035,10 +14481,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F04"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Standardiserade testers frågeformat",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -14068,10 +14519,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F04"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Digitala verktyg vid standardiserade tester",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -14101,10 +14557,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F01",
+     "F03"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Extra anpassningar ersätts av ledning och stimulans",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -14134,10 +14596,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Rektors organisering av stödundervisning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -14167,10 +14634,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Personalbehov för stödundervisning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -14200,10 +14672,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Stödundervisningens ämnesbegränsning i gymnasieskolan",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -14233,10 +14710,16 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05",
+     "F06"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Lärarens bedömning och anmälan av stödbehov",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -14266,10 +14749,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Rektors samordning av skyndsam stödundervisning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -14299,10 +14787,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Bemanning och lokaler för stödundervisning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -14365,10 +14858,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Personalresurser för stödundervisning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -14464,10 +14962,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Kostnadsberäkning för stödundervisning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -14815,10 +15318,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Planering och dimensionering av stödundervisning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -14848,10 +15356,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Bemanning av stödundervisning med behöriga lärare",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -15477,10 +15990,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Beslut om stödundervisning och samverkan med vårdnadshavare",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -15510,10 +16028,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Placering av utåtagerande elever i stödundervisning",
+    "tolkning": true
    },
    "skolform": []
   },
@@ -15543,10 +16066,15 @@
     "tolkning": true
    },
    "koppling": {
-    "niva": null,
-    "forslag": [],
-    "kapitel": [],
-    "tolkning": false
+    "niva": "tolkad",
+    "forslag": [
+     "F05"
+    ],
+    "kapitel": [
+     "6"
+    ],
+    "motivering": "Grund för placering i stödundervisning",
+    "tolkning": true
    },
    "skolform": []
   },

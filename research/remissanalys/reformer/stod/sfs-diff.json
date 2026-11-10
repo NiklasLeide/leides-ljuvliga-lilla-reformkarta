@@ -1,0 +1,1011 @@
+{
+ "_meta": {
+  "hamtningsdatum": "2026-11-10",
+  "beslutad_lydelse_kalla": "Skollag (2010:800) konsoliderad, riksdagens öppna data (Källa: Regeringskansliet / Lagrummet), t.o.m. SFS 2026:1636. Ändrings-SFS i original (svenskforfattningssamling.se) nåddes inte från miljön.",
+  "statusregler": {
+   "oförändrad": "SOU:ns föreslagna paragraf = beslutad lydelse (normaliserad textlikhet ≥ 0,999)",
+   "ändrad": "beslutad lydelse finns men skiljer sig; ordagrann ord-diff sparas",
+   "ej med": "ingen version införd genom SFS 2026:1242 för paragrafen",
+   "ej lagtext": "förslaget är inte författningstext (uppdrag/ansvar)",
+   "ej i SFS per 2026-11-10": "förslaget avser förordning som ännu inte finns i SFS"
+  },
+  "matchning": "Paragrafer matchas på kapitel + nummer; saknas samma nummer används högst textlikhet inom kapitlet. Likhet < 0,80 ⇒ manuell_granskning: true.",
+  "forslag_till_paragraf": "Paragrafer knyts till förslag via SOU:ns författningskommentar (\"Bestämmelsen behandlas i avsnitt …\"), dvs. på avsnittsnivå — flera förslag i samma avsnitt delar paragrafer."
+ },
+ "forslag": [
+  {
+   "forslag": "F01",
+   "sou_avsnitt": "6.1",
+   "forslag_kalla": {
+    "text": "SOU 2025:44 s. 147",
+    "url": "https://www.regeringen.se/contentassets/2cd8d2f5eb0544f3ba50d5f93087dee9/forbattrat-stod-i-skolan-sou-202544.pdf"
+   },
+   "paragrafer": [
+    {
+     "paragraf": "5 kap. 4 a §",
+     "sou": {
+      "text": "Vid undervisning får endast sådan användning av mobiltelefoner och annan elektronisk kommunikationsutrustning förekomma som 1. sker enligt lärarens instruktioner i syfte att främja elevernas utveckling och lärande, eller 2. utgör särskilt stöd enligt 3 kap. Om det finns särskilda skäl får dock rektorn eller en lärare tillåta en enskild elev att använda en mobiltelefon eller annan elektronisk kommunikationsutrustning även i andra fall än som avses i första stycket. Denna paragraf gäller inte för kommunal vuxenutbildning.",
+      "kalla": {
+       "text": "SOU 2025:44 s. 224 (författningskommentar 8.1)",
+       "url": "https://www.regeringen.se/contentassets/2cd8d2f5eb0544f3ba50d5f93087dee9/forbattrat-stod-i-skolan-sou-202544.pdf"
+      }
+     },
+     "proposition": {
+      "text": "Vid undervisning får endast sådan användning av mobiltelefoner och annan elektronisk kommunikationsutrustning förekomma som 1. sker enligt lärarens instruktioner i syfte att främja elevernas utveckling och lärande, 2. utgör stöd enligt 3 kap. 2 § andra stycket, 3. enligt läraren bedöms behövas vid stödundervisning enligt 3 kap. 5 a §, eller 4. utgör särskilt stöd enligt ett åtgärdsprogram enligt 3 kap. 9 §. Om det finns särskilda skäl får dock rektorn eller en lärare tillåta en enskild elev att använda en mobiltelefon eller annan elektronisk kommunikationsutrustning även i andra fall än som avses i första stycket. Denna paragraf gäller inte för kommunal vuxenutbildning.",
+      "paragraf": "5 kap. 4a §",
+      "likhet_mot_sou": 0.876,
+      "kalla": {
+       "text": "Prop. 2025/26:195 s. 16, lagförslag 2",
+       "url": "https://www.regeringen.se/contentassets/90deb85eeb924ac4a4b5ef087529f68a/forbattrat-stod-i-skolan-prop.-202526195.pdf"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": false
+     },
+     "beslutad": {
+      "text": "Vid undervisning får endast sådan användning av mobiltelefoner och annan elektronisk kommunikationsutrustning förekomma som 1. sker enligt lärarens instruktioner i syfte att främja elevernas utveckling och lärande, 2. utgör stöd enligt 3 kap. 2 § andra stycket, 3. enligt läraren bedöms behövas vid stödundervisning enligt 3 kap. 5 a §, eller 4. utgör särskilt stöd enligt ett åtgärdsprogram enligt 3 kap. 9 §. Om det finns särskilda skäl får dock rektorn eller en lärare tillåta en enskild elev att använda en mobiltelefon eller annan elektronisk kommunikationsutrustning även i andra fall än som avses i första stycket. Denna paragraf gäller inte för kommunal vuxenutbildning.",
+      "paragraf": "5 kap. 4a §",
+      "sfs": "2026:1242",
+      "ikraft": "2028-07-01",
+      "likhet_mot_sou": 0.876,
+      "kalla": {
+       "text": "Skollag (2010:800) 5 kap. 4a § i lydelse enligt SFS 2026:1242, träder i kraft 2028-07-01; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": false
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "2. utgör stöd enligt 3 kap. 2 § andra stycket, 3. enligt läraren bedöms behövas vid stödundervisning enligt 3 kap. 5 a §,"
+      },
+      {
+       "op": "ersatt",
+       "fore": "2.",
+       "efter": "4."
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "ett åtgärdsprogram enligt"
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "9 §."
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": false
+    }
+   ],
+   "status": "ändrad",
+   "status_per_paragraf": {
+    "ändrad": 1
+   },
+   "status_kalla": {
+    "text": "Härledd per paragraf: SOU:ns föreslagna lydelse jämförd med beslutad lydelse (SFS 2026:1242). Statusvärdet är mekaniskt (textlikhet), inte en bedömning.",
+    "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+   }
+  },
+  {
+   "forslag": "F02",
+   "sou_avsnitt": "6.2",
+   "forslag_kalla": {
+    "text": "SOU 2025:44 s. 148",
+    "url": "https://www.regeringen.se/contentassets/2cd8d2f5eb0544f3ba50d5f93087dee9/forbattrat-stod-i-skolan-sou-202544.pdf"
+   },
+   "paragrafer": [],
+   "status": "ej i SFS per 2026-11-10",
+   "status_kalla": {
+    "text": "Ingen paragraf i SOU:ns författningskommentar till skollagen (8.1) hänvisar till avsnitt 6.2 — förslaget avser förordningsnivå. Konsoliderade förordningar hämtade 2026-11-10 (jämförda; ingen markör angiven): Skolförordning (2011:185)",
+    "url": "https://data.riksdagen.se/dokument/sfs-2011-185.text",
+    "ovriga_urler": []
+   }
+  },
+  {
+   "forslag": "F03",
+   "sou_avsnitt": "6.3",
+   "forslag_kalla": {
+    "text": "SOU 2025:44 s. 149",
+    "url": "https://www.regeringen.se/contentassets/2cd8d2f5eb0544f3ba50d5f93087dee9/forbattrat-stod-i-skolan-sou-202544.pdf"
+   },
+   "paragrafer": [
+    {
+     "paragraf": "3 kap. 2 §",
+     "sou": {
+      "text": "Alla barn och elever i samtliga skolformer och i fritidshemmet ska ges den ledning och stimulans som de behöver i sitt lärande och sin personliga utveckling för att de ska kunna följa undervisningen och utifrån sina egna förutsättningar utvecklas så långt som möjligt enligt utbildningens mål. Elever som till följd av en funktionsnedsättning har svårt att tillgodogöra sig kunskaper i förhållande till ämnets syfte och centrala innehåll, ska ges stöd som syftar till att så långt som möjligt motverka funktionsnedsättningens konsekvenser. Elever som lätt tillgodogör sig de kunskaper som minst motsvarar betygskriteriet godtagbara kunskaper eller lätt uppfyller de kriterier för bedömning av kunskaper som minst ska uppfyllas ska ges ledning och stimulans för att kunna nå längre i sin kunskapsutveckling.",
+      "kalla": {
+       "text": "SOU 2025:44 s. 209 (författningskommentar 8.1)",
+       "url": "https://www.regeringen.se/contentassets/2cd8d2f5eb0544f3ba50d5f93087dee9/forbattrat-stod-i-skolan-sou-202544.pdf"
+      }
+     },
+     "proposition": {
+      "text": "Alla barn och elever i samtliga skolformer och i fritidshemmet ska i undervisningen ges den ledning och stimulans som de behöver i sitt lärande och sin personliga utveckling i syfte att de ska kunna följa undervisningen och utifrån sina egna förutsättningar utvecklas så långt som möjligt enligt utbildningens mål. Elever som till följd av en funktionsnedsättning har svårt att tillgodogöra sig de kunskaper som anges i kurs-, ämneseller ämnesområdesplanerna, ska ges stöd som syftar till att så långt som möjligt motverka funktionsnedsättningens konsekvenser. Elever som lätt tillgodogör sig de kunskaper som anges i kurs-, ämneseller ämnesområdesplanerna, ska ges ledning och stimulans för att kunna nå längre i sin kunskapsutveckling. Standardiserade tester",
+      "paragraf": "3 kap. 2 §",
+      "likhet_mot_sou": 0.831,
+      "kalla": {
+       "text": "Prop. 2025/26:195 s. 7, lagförslag 2",
+       "url": "https://www.regeringen.se/contentassets/90deb85eeb924ac4a4b5ef087529f68a/forbattrat-stod-i-skolan-prop.-202526195.pdf"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": false
+     },
+     "beslutad": {
+      "text": "Alla barn och elever i samtliga skolformer och i fritidshemmet ska i undervisningen ges den ledning och stimulans som de behöver i sitt lärande och sin personliga utveckling i syfte att de ska kunna följa undervisningen och utifrån sina egna förutsättningar utvecklas så långt som möjligt enligt utbildningens mål. Elever som till följd av en funktionsnedsättning har svårt att tillgodogöra sig de kunskaper som anges i kurs-, ämnes- eller ämnesområdesplanerna, ska ges stöd som syftar till att så långt som möjligt motverka funktionsnedsättningens konsekvenser. Elever som lätt tillgodogör sig de kunskaper som anges i kurs-, ämnes- eller ämnesområdesplanerna, ska ges ledning och stimulans för att kunna nå längre i sin kunskapsutveckling.",
+      "paragraf": "3 kap. 2 §",
+      "sfs": "2026:1242",
+      "ikraft": "2028-07-01",
+      "likhet_mot_sou": 0.845,
+      "kalla": {
+       "text": "Skollag (2010:800) 3 kap. 2 § i lydelse enligt SFS 2026:1242, träder i kraft 2028-07-01; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": false
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "i undervisningen"
+      },
+      {
+       "op": "ersatt",
+       "fore": "för",
+       "efter": "i syfte"
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "de"
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "som anges"
+      },
+      {
+       "op": "ersatt",
+       "fore": "förhållande till ämnets syfte och centrala innehåll,",
+       "efter": "kurs-, ämnes- eller ämnesområdesplanerna,"
+      },
+      {
+       "op": "ersatt",
+       "fore": "minst motsvarar betygskriteriet godtagbara kunskaper",
+       "efter": "anges i kurs-, ämnes-"
+      },
+      {
+       "op": "ersatt",
+       "fore": "lätt uppfyller de kriterier för bedömning av kunskaper som minst ska uppfyllas",
+       "efter": "ämnesområdesplanerna,"
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": false
+    }
+   ],
+   "status": "ändrad",
+   "status_per_paragraf": {
+    "ändrad": 1
+   },
+   "status_kalla": {
+    "text": "Härledd per paragraf: SOU:ns föreslagna lydelse jämförd med beslutad lydelse (SFS 2026:1242). Statusvärdet är mekaniskt (textlikhet), inte en bedömning.",
+    "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+   }
+  },
+  {
+   "forslag": "F04",
+   "sou_avsnitt": "6.4",
+   "forslag_kalla": {
+    "text": "SOU 2025:44 s. 157",
+    "url": "https://www.regeringen.se/contentassets/2cd8d2f5eb0544f3ba50d5f93087dee9/forbattrat-stod-i-skolan-sou-202544.pdf"
+   },
+   "paragrafer": [
+    {
+     "paragraf": "3 kap. 4 §",
+     "sou": {
+      "text": "Det ska genomföras standardiserade tester för att identifiera elever som har behov av stöd i läs-, skrivoch matematikutveckling i början av höstterminen i 1. grundskolan och anpassade grundskolan årskurs 1, 2, 3, 5, och 8, 2. specialskolan årskurs 1, 2, 3, 6 och 9, och 3. sameskolan årskurs 1, 2, 3 och 5. I anpassade grundskolan ska standardiserade tester genomföras av de elever som läser ämnen. Regeringen eller den myndighet som regeringen bestämmer får meddela föreskrifter om utformning av standardiserade tester.",
+      "kalla": {
+       "text": "SOU 2025:44 s. 211 (författningskommentar 8.1)",
+       "url": "https://www.regeringen.se/contentassets/2cd8d2f5eb0544f3ba50d5f93087dee9/forbattrat-stod-i-skolan-sou-202544.pdf"
+      }
+     },
+     "proposition": {
+      "text": "Det ska genomföras standardiserade tester för att identifiera elever som har behov av stöd i läs-, skrivoch matematikutveckling. Testerna ska genomföras i början av höstterminen i – grundskolans och anpassade grundskolans årskurs 1, 2, 3, 5, och 8, – specialskolans årskurs 1, 2, 3, 6 och 9, och – sameskolans årskurs 1, 2, 3 och 5. I anpassade grundskolan ska standardiserade tester endast genomföras av de elever som läser ämnen. Om resultatet från ett standardiserat test visar att eleven har större behov än vad som rimligen kan hanteras inom ramen för ledning och stimulans eller stöd enligt 2 § ska det skyndsamt planeras stödundervisning enligt 5 a § eller göras en anmälan till rektorn enligt 7 §. Stödundervisning Tillämpningsområde för bestämmelser om stödundervisning",
+      "paragraf": "3 kap. 4 §",
+      "likhet_mot_sou": 0.658,
+      "kalla": {
+       "text": "Prop. 2025/26:195 s. 7, lagförslag 2",
+       "url": "https://www.regeringen.se/contentassets/90deb85eeb924ac4a4b5ef087529f68a/forbattrat-stod-i-skolan-prop.-202526195.pdf"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "beslutad": {
+      "text": "Det ska genomföras standardiserade tester för att identifiera elever som har behov av stöd i läs-, skriv- och matematikutveckling. Testerna ska genomföras i början av höstterminen i - grundskolans och anpassade grundskolans årskurs 1, 2, 3, 5 och 8, - specialskolans årskurs 1, 2, 3, 6 och 9, och - sameskolans årskurs 1, 2, 3 och 5. I anpassade grundskolan ska standardiserade tester endast genomföras av de elever som läser ämnen. Om resultatet från ett standardiserat test visar att eleven har större behov än vad som rimligen kan hanteras inom ramen för ledning och stimulans eller stöd enligt 2 § ska det skyndsamt planeras stödundervisning enligt 5 a § eller göras en anmälan till rektorn enligt 7 §.",
+      "paragraf": "3 kap. 4 §",
+      "sfs": "2026:1242",
+      "ikraft": "2028-07-01",
+      "likhet_mot_sou": 0.7,
+      "kalla": {
+       "text": "Skollag (2010:800) 3 kap. 4 § i lydelse enligt SFS 2026:1242, träder i kraft 2028-07-01; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "ersatt",
+       "fore": "skrivoch matematikutveckling",
+       "efter": "skriv- och matematikutveckling. Testerna ska genomföras"
+      },
+      {
+       "op": "ersatt",
+       "fore": "1. grundskolan",
+       "efter": "- grundskolans"
+      },
+      {
+       "op": "ersatt",
+       "fore": "grundskolan",
+       "efter": "grundskolans"
+      },
+      {
+       "op": "ersatt",
+       "fore": "5,",
+       "efter": "5"
+      },
+      {
+       "op": "ersatt",
+       "fore": "2. specialskolan",
+       "efter": "- specialskolans"
+      },
+      {
+       "op": "ersatt",
+       "fore": "3. sameskolan",
+       "efter": "- sameskolans"
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "endast"
+      },
+      {
+       "op": "ersatt",
+       "fore": "Regeringen",
+       "efter": "Om resultatet från ett standardiserat test visar att eleven har större behov än vad som rimligen kan hanteras inom ramen för ledning och stimulans"
+      },
+      {
+       "op": "ersatt",
+       "fore": "den myndighet som regeringen bestämmer får meddela föreskrifter om utformning av standardiserade tester.",
+       "efter": "stöd enligt 2 § ska det skyndsamt planeras stödundervisning enligt 5 a § eller göras en anmälan till rektorn enligt 7 §."
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": true
+    }
+   ],
+   "status": "ändrad",
+   "status_per_paragraf": {
+    "ändrad": 1
+   },
+   "status_kalla": {
+    "text": "Härledd per paragraf: SOU:ns föreslagna lydelse jämförd med beslutad lydelse (SFS 2026:1242). Statusvärdet är mekaniskt (textlikhet), inte en bedömning.",
+    "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+   }
+  },
+  {
+   "forslag": "F05",
+   "sou_avsnitt": "6.5",
+   "forslag_kalla": {
+    "text": "SOU 2025:44 s. 164",
+    "url": "https://www.regeringen.se/contentassets/2cd8d2f5eb0544f3ba50d5f93087dee9/forbattrat-stod-i-skolan-sou-202544.pdf"
+   },
+   "paragrafer": [
+    {
+     "paragraf": "3 kap. 5 §",
+     "sou": {
+      "text": "Om ansvarig lärare inom ramen för undervisningen bedömer att en elev riskerar att inte kunna följa undervisningen och har svårt att tillgodogöra sig kunskaper i förhållande till ämnets syfte och centrala innehåll, och inte annat följer av 7 §, ska läraren anmäla det till rektor som ska se till att eleven skyndsamt ges stödundervisning. Stödundervisning får ges i form av 1. undervisning i mindre grupp i det ämne som eleven uppvisar svårigheter i, eller 2. enskild undervisning i det ämne som eleven uppvisar svårigheter i. Vid behov ska samråd ske med speciallärare eller specialpedagog vid bedömning enligt första stycket och vid planering av stödundervisningen. Om det finns särskilda skäl får rektorn besluta att det inte ska ges stödundervisning.",
+      "kalla": {
+       "text": "SOU 2025:44 s. 212 (författningskommentar 8.1)",
+       "url": "https://www.regeringen.se/contentassets/2cd8d2f5eb0544f3ba50d5f93087dee9/forbattrat-stod-i-skolan-sou-202544.pdf"
+      }
+     },
+     "proposition": {
+      "text": "Bestämmelserna om stödundervisning i 5 a–5 c §§ gäller i grundskolan, anpassade grundskolan, specialskolan, sameskolan, gymnasieskolan och anpassade gymnasieskolan. Bestämmelserna gäller endast i ämnena svenska, svenska som andraspråk och matematik. I anpassade grundskolan och i anpassade gymnasieskolan gäller bestämmelserna endast för elever som läser ämnen. Bedömning och utformning",
+      "paragraf": "3 kap. 5 §",
+      "likhet_mot_sou": 0.16,
+      "kalla": {
+       "text": "Prop. 2025/26:195 s. 8, lagförslag 2",
+       "url": "https://www.regeringen.se/contentassets/90deb85eeb924ac4a4b5ef087529f68a/forbattrat-stod-i-skolan-prop.-202526195.pdf"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "beslutad": {
+      "text": "Bestämmelserna om stödundervisning i 5 a-5 c §§ gäller i grundskolan, anpassade grundskolan, specialskolan, sameskolan, gymnasieskolan och anpassade gymnasieskolan. Bestämmelserna gäller endast i ämnena svenska, svenska som andraspråk och matematik. I anpassade grundskolan och i anpassade gymnasieskolan gäller bestämmelserna endast för elever som läser ämnen.",
+      "paragraf": "3 kap. 5 §",
+      "sfs": "2026:1242",
+      "ikraft": "2028-07-01",
+      "likhet_mot_sou": 0.158,
+      "kalla": {
+       "text": "Skollag (2010:800) 3 kap. 5 § i lydelse enligt SFS 2026:1242, träder i kraft 2028-07-01; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "ersatt",
+       "fore": "Om ansvarig lärare inom ramen",
+       "efter": "Bestämmelserna om stödundervisning i 5 a-5 c §§ gäller i grundskolan, anpassade grundskolan, specialskolan, sameskolan, gymnasieskolan och anpassade gymnasieskolan. Bestämmelserna gäller endast i ämnena svenska, svenska som andraspråk och matematik. I anpassade grundskolan och i anpassade gymnasieskolan gäller bestämmelserna endast"
+      },
+      {
+       "op": "ersatt",
+       "fore": "undervisningen bedömer att en elev riskerar att inte kunna följa undervisningen och har svårt att tillgodogöra sig kunskaper i förhållande till ämnets syfte och centrala innehåll, och inte annat följer av 7 §, ska läraren anmäla det till rektor",
+       "efter": "elever"
+      },
+      {
+       "op": "ersatt",
+       "fore": "ska se till att eleven skyndsamt ges stödundervisning. Stödundervisning får ges i form av 1. undervisning i mindre grupp i det ämne som eleven uppvisar svårigheter i, eller 2. enskild undervisning i det ämne som eleven uppvisar svårigheter i. Vid behov ska samråd ske med speciallärare eller specialpedagog vid bedömning enligt första stycket och vid planering av stödundervisningen. Om det finns särskilda skäl får rektorn besluta att det inte ska ges stödundervisning.",
+       "efter": "läser ämnen."
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": true
+    },
+    {
+     "paragraf": "3 kap. 5 a §",
+     "sou": {
+      "text": "Stödundervisningen ska utvärderas senast inom en månad efter att den har påbörjats för att avgöra om eleven behöver fortsatt stödundervisning eller om en utredning enligt 7 § ska göras. En elev bör inte ges stödundervisning längre tid än två månader och i högst tre ämnen åt gången per termin. Resultatet av utvärderingen enligt första stycket ska även överföras till den lärare som ska ansvara för eleven i nästa årskurs eller nästa nivå av ämnet.",
+      "kalla": {
+       "text": "SOU 2025:44 s. 216 (författningskommentar 8.1)",
+       "url": "https://www.regeringen.se/contentassets/2cd8d2f5eb0544f3ba50d5f93087dee9/forbattrat-stod-i-skolan-sou-202544.pdf"
+      }
+     },
+     "proposition": {
+      "text": "Om läraren inom ramen för undervisningen, eller genom resultatet på ett standardiserat test eller ett nationellt prov bedömer att en elev riskerar att inte kunna följa undervisningen och har svårt att tillgodogöra sig de kunskaper som anges i ämnets kurseller ämnesplan, och inte annat följer av 7 §, ska läraren anmäla det till rektorn som ska se till att eleven skyndsamt ges stödundervisning. Stödundervisning ska ges som enskild undervisning eller som undervisning i mindre grupp i det ämne som eleven uppvisar svårigheter i. Om det finns särskilda skäl får rektorn besluta att eleven inte ska ges stödundervisning. Samråd",
+      "paragraf": "3 kap. 5a §",
+      "likhet_mot_sou": 0.327,
+      "kalla": {
+       "text": "Prop. 2025/26:195 s. 9, lagförslag 2",
+       "url": "https://www.regeringen.se/contentassets/90deb85eeb924ac4a4b5ef087529f68a/forbattrat-stod-i-skolan-prop.-202526195.pdf"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "beslutad": {
+      "text": "Om läraren inom ramen för undervisningen, eller genom resultatet på ett standardiserat test eller ett nationellt prov bedömer att en elev riskerar att inte kunna följa undervisningen och har svårt att tillgodogöra sig de kunskaper som anges i ämnets kurs- eller ämnesplan, och inte annat följer av 7 §, ska läraren anmäla det till rektorn som ska se till att eleven skyndsamt ges stödundervisning. Stödundervisning ska ges som enskild undervisning eller som undervisning i mindre grupp i det ämne som eleven uppvisar svårigheter i. Om det finns särskilda skäl får rektorn besluta att eleven inte ska ges stödundervisning.",
+      "paragraf": "3 kap. 5a §",
+      "sfs": "2026:1242",
+      "ikraft": "2028-07-01",
+      "likhet_mot_sou": 0.332,
+      "kalla": {
+       "text": "Skollag (2010:800) 3 kap. 5a § i lydelse enligt SFS 2026:1242, träder i kraft 2028-07-01; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "ersatt",
+       "fore": "Stödundervisningen",
+       "efter": "Om läraren inom ramen för undervisningen, eller genom resultatet på ett standardiserat test eller ett nationellt prov bedömer att en elev riskerar att inte kunna följa undervisningen och har svårt att tillgodogöra sig de kunskaper som anges i ämnets kurs- eller ämnesplan, och inte annat följer av 7 §,"
+      },
+      {
+       "op": "ersatt",
+       "fore": "utvärderas senast inom en månad efter att den har påbörjats för att avgöra om eleven behöver fortsatt stödundervisning eller om en utredning enligt 7 § ska göras. En elev bör inte ges stödundervisning längre tid än två månader och i högst tre ämnen åt gången per termin. Resultatet av utvärderingen enligt första stycket ska även överföras",
+       "efter": "läraren anmäla det"
+      },
+      {
+       "op": "ersatt",
+       "fore": "den lärare",
+       "efter": "rektorn"
+      },
+      {
+       "op": "ersatt",
+       "fore": "ansvara för",
+       "efter": "se till att"
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "skyndsamt ges stödundervisning. Stödundervisning ska ges som enskild undervisning eller som undervisning"
+      },
+      {
+       "op": "ersatt",
+       "fore": "nästa årskurs eller nästa nivå av ämnet.",
+       "efter": "mindre grupp i det ämne som eleven uppvisar svårigheter i. Om det finns särskilda skäl får rektorn besluta att eleven inte ska ges stödundervisning."
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": true
+    },
+    {
+     "paragraf": "3 kap. 5 b §",
+     "sou": {
+      "text": "Bestämmelserna om stödundervisning i 5 och 5 a §§ gäller i grundskolan, anpassade grundskolan, specialskolan och sameskolan. Bestämmelserna gäller endast för gymnasieskolan och anpassade gymnasieskolan i ämnena svenska, svenska som andraspråk och matematik. I anpassade grundskolan och i anpassade gymnasieskolan gäller bestämmelserna endast för elever som läser ämnen.",
+      "kalla": {
+       "text": "SOU 2025:44 s. 217 (författningskommentar 8.1)",
+       "url": "https://www.regeringen.se/contentassets/2cd8d2f5eb0544f3ba50d5f93087dee9/forbattrat-stod-i-skolan-sou-202544.pdf"
+      }
+     },
+     "proposition": {
+      "text": "Vid behov ska samråd ske med speciallärare eller specialpedagog vid bedömning enligt 5 a § första stycket och vid planering av stödundervisningen. Ett beslut av rektorn enligt 5 a § tredje stycket att en elev inte ska ges stödundervisning ska alltid föregås av samråd med den lärare som avses i 5 a § första stycket och en speciallärare eller specialpedagog. Samråd enligt första och andra styckena ska ske skyndsamt. Utvärdering och omfattning",
+      "paragraf": "3 kap. 5b §",
+      "likhet_mot_sou": 0.216,
+      "kalla": {
+       "text": "Prop. 2025/26:195 s. 10, lagförslag 2",
+       "url": "https://www.regeringen.se/contentassets/90deb85eeb924ac4a4b5ef087529f68a/forbattrat-stod-i-skolan-prop.-202526195.pdf"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "beslutad": {
+      "text": "Vid behov ska samråd ske med speciallärare eller specialpedagog vid bedömning enligt 5 a § första stycket och vid planering av stödundervisningen. Ett beslut av rektorn enligt 5 a § tredje stycket att en elev inte ska ges stödundervisning ska alltid föregås av samråd med den lärare som avses i 5 a § första stycket och en speciallärare eller specialpedagog. Samråd enligt första och andra styckena ska ske skyndsamt.",
+      "paragraf": "3 kap. 5b §",
+      "sfs": "2026:1242",
+      "ikraft": "2028-07-01",
+      "likhet_mot_sou": 0.232,
+      "kalla": {
+       "text": "Skollag (2010:800) 3 kap. 5b § i lydelse enligt SFS 2026:1242, träder i kraft 2028-07-01; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "ersatt",
+       "fore": "Bestämmelserna om",
+       "efter": "Vid behov ska samråd ske med speciallärare eller specialpedagog vid bedömning enligt 5 a § första stycket och vid planering av stödundervisningen. Ett beslut av rektorn enligt 5 a § tredje stycket att en elev inte ska ges"
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "ska alltid föregås av samråd med den lärare som avses"
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "a § första stycket"
+      },
+      {
+       "op": "ersatt",
+       "fore": "5 a §§ gäller i grundskolan, anpassade grundskolan, specialskolan",
+       "efter": "en speciallärare eller specialpedagog. Samråd enligt första"
+      },
+      {
+       "op": "ersatt",
+       "fore": "sameskolan. Bestämmelserna gäller endast för gymnasieskolan och anpassade gymnasieskolan i ämnena svenska, svenska som andraspråk och matematik. I anpassade grundskolan och i anpassade gymnasieskolan gäller bestämmelserna endast för elever som läser ämnen.",
+       "efter": "andra styckena ska ske skyndsamt."
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": true
+    }
+   ],
+   "status": "ändrad",
+   "status_per_paragraf": {
+    "ändrad": 3
+   },
+   "status_kalla": {
+    "text": "Härledd per paragraf: SOU:ns föreslagna lydelse jämförd med beslutad lydelse (SFS 2026:1242). Statusvärdet är mekaniskt (textlikhet), inte en bedömning.",
+    "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+   }
+  },
+  {
+   "forslag": "F06",
+   "sou_avsnitt": "6.6",
+   "forslag_kalla": {
+    "text": "SOU 2025:44 s. 189",
+    "url": "https://www.regeringen.se/contentassets/2cd8d2f5eb0544f3ba50d5f93087dee9/forbattrat-stod-i-skolan-sou-202544.pdf"
+   },
+   "paragrafer": [
+    {
+     "paragraf": "3 kap. 7 §",
+     "sou": {
+      "text": "Om ansvarig lärare eller mentor inom ramen för undervisningen befarar att en elev inte kommer att tillgodogöra sig de kunskaper som minst motsvarar betygskriteriet godtagbara kunskaper eller att en elev inte kommer att uppfylla de kriterier för bedömning av kunskaper som minst ska uppfyllas ska läraren eller mentorn göra en skriftlig anmälan till rektorn om att elevens behov av särskilt stöd behöver utredas. Behovet av särskilt stöd ska även utredas om eleven uppvisar andra svårigheter i sin skolsituation. Rektorn ska se till att elevens behov av särskilt stöd utreds skyndsamt. Samråd ska ske med elevhälsan, om det inte är uppenbart obehövligt. Samråd ska dock alltid ske med speciallärare eller specialpedagog.",
+      "kalla": {
+       "text": "SOU 2025:44 s. 218 (författningskommentar 8.1)",
+       "url": "https://www.regeringen.se/contentassets/2cd8d2f5eb0544f3ba50d5f93087dee9/forbattrat-stod-i-skolan-sou-202544.pdf"
+      }
+     },
+     "proposition": {
+      "text": "Om ansvarig lärare eller mentor inom ramen för undervisningen, eller på grund av resultatet på ett standardiserat test eller ett nationellt prov eller av andra skäl befarar att en elev inte kommer att tillgodogöra sig de kunskaper som anges i kurs-, ämneseller ämnesområdesplanerna till en nivå som minst motsvarar betyget E eller motsvarande bedömningskriterium, ska läraren eller mentorn göra en skriftlig anmälan till rektorn om att elevens behov av särskilt stöd behöver utredas. En sådan anmälan ska också göras om stödundervisning enligt 5 a § inte bedöms innebära tillräckligt stöd och en anmälan till rektorn enligt 5 a § därför inte görs, eller om eleven uppvisar andra svårigheter i sin skolsituation. Rektorn ska se till att elevens behov av särskilt stöd utreds skyndsamt. Samråd ska alltid ske med speciallärare eller specialpedagog. Samråd ska även ske med andra delar av elevhälsan, om det inte är uppenbart obehövligt.",
+      "paragraf": "3 kap. 7 §",
+      "likhet_mot_sou": 0.631,
+      "kalla": {
+       "text": "Prop. 2025/26:195 s. 10, lagförslag 2",
+       "url": "https://www.regeringen.se/contentassets/90deb85eeb924ac4a4b5ef087529f68a/forbattrat-stod-i-skolan-prop.-202526195.pdf"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "beslutad": {
+      "text": "/Upphör att gälla U:2028-07-02/ Om ansvarig lärare eller mentor inom ramen för undervisningen, eller på grund av resultatet på ett standardiserat test eller ett nationellt prov eller av andra skäl befarar att en elev inte kommer att tillgodogöra sig de kunskaper som anges i kurs-, ämnes- eller ämnesområdesplanerna till en nivå som minst motsvarar betyget E eller motsvarande bedömningskriterium, ska läraren eller mentorn göra en skriftlig anmälan till rektorn om att elevens behov av särskilt stöd behöver utredas. En sådan anmälan ska också göras om stödundervisning enligt 5 a § inte bedöms innebära tillräckligt stöd och en anmälan till rektorn enligt 5 a § därför inte görs, eller om eleven uppvisar andra svårigheter i sin skolsituation. Rektorn ska se till att elevens behov av särskilt stöd utreds skyndsamt. Samråd ska alltid ske med speciallärare eller specialpedagog. Samråd ska även ske med andra delar av elevhälsan, om det inte är uppenbart obehövligt.",
+      "paragraf": "3 kap. 7 §",
+      "sfs": "2026:1242",
+      "ikraft": "2028-07-01",
+      "likhet_mot_sou": 0.619,
+      "kalla": {
+       "text": "Skollag (2010:800) 3 kap. 7 § i lydelse enligt SFS 2026:1242, träder i kraft 2028-07-01; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "/Upphör att gälla U:2028-07-02/"
+      },
+      {
+       "op": "ersatt",
+       "fore": "undervisningen",
+       "efter": "undervisningen, eller på grund av resultatet på ett standardiserat test eller ett nationellt prov eller av andra skäl"
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "anges i kurs-, ämnes- eller ämnesområdesplanerna till en nivå som"
+      },
+      {
+       "op": "ersatt",
+       "fore": "betygskriteriet godtagbara kunskaper",
+       "efter": "betyget E"
+      },
+      {
+       "op": "ersatt",
+       "fore": "att en elev inte kommer att uppfylla de kriterier för bedömning av kunskaper som minst ska uppfyllas",
+       "efter": "motsvarande bedömningskriterium,"
+      },
+      {
+       "op": "ersatt",
+       "fore": "Behovet av särskilt",
+       "efter": "En sådan anmälan ska också göras om stödundervisning enligt 5 a § inte bedöms innebära tillräckligt"
+      },
+      {
+       "op": "ersatt",
+       "fore": "ska även utredas",
+       "efter": "och en anmälan till rektorn enligt 5 a § därför inte görs, eller"
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "alltid"
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "speciallärare eller specialpedagog. Samråd ska även ske med andra delar av"
+      },
+      {
+       "op": "struken",
+       "fore": "Samråd ska dock alltid ske med speciallärare eller specialpedagog.",
+       "efter": null
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": true
+    },
+    {
+     "paragraf": "3 kap. 8 §",
+     "sou": {
+      "text": "Om en utredning enligt 7 § visar att en elev är i behov av särskilt stöd ska eleven ges sådant stöd. Särskilt stöd får ges i stället för den undervisning eleven annars skulle ha deltagit i eller som komplement till denna. Det särskilda stödet ska ges med utgångspunkt i elevens utbildning i dess helhet om det inte är uppenbart obehövligt.",
+      "kalla": {
+       "text": "SOU 2025:44 s. 220 (författningskommentar 8.1)",
+       "url": "https://www.regeringen.se/contentassets/2cd8d2f5eb0544f3ba50d5f93087dee9/forbattrat-stod-i-skolan-sou-202544.pdf"
+      }
+     },
+     "proposition": {
+      "text": "Om en utredning enligt 7 § visar att en elev är i behov av särskilt stöd ska eleven ges sådant stöd. Särskilt stöd får ges i stället för den undervisning eleven annars skulle ha deltagit i eller som komplement till denna. Det särskilda stödet ska ges med utgångspunkt i elevens utbildning i dess helhet om det inte är uppenbart obehövligt. Stöd till elever på resursskolor",
+      "paragraf": "3 kap. 8 §",
+      "likhet_mot_sou": 0.952,
+      "kalla": {
+       "text": "Prop. 2025/26:195 s. 12, lagförslag 2",
+       "url": "https://www.regeringen.se/contentassets/90deb85eeb924ac4a4b5ef087529f68a/forbattrat-stod-i-skolan-prop.-202526195.pdf"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": false
+     },
+     "beslutad": {
+      "text": "Om en utredning enligt 7 § visar att en elev är i behov av särskilt stöd ska eleven ges sådant stöd. Särskilt stöd får ges i stället för den undervisning eleven annars skulle ha deltagit i eller som komplement till denna. Det särskilda stödet ska ges med utgångspunkt i elevens utbildning i dess helhet om det inte är uppenbart obehövligt.",
+      "paragraf": "3 kap. 8 §",
+      "sfs": "2026:1242",
+      "ikraft": "2028-07-01",
+      "likhet_mot_sou": 1.0,
+      "kalla": {
+       "text": "Skollag (2010:800) 3 kap. 8 § i lydelse enligt SFS 2026:1242, träder i kraft 2028-07-01; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": false
+     },
+     "status": "oförändrad",
+     "manuell_granskning": false
+    },
+    {
+     "paragraf": "3 kap. 8 a §",
+     "sou": {
+      "text": "Vid skolenheter där utbildningen är begränsad till att avse elever som är i behov av särskilt stöd (resursskolor) gäller i stället för 7 och 8 §§ att varje elev vid resursskolan ska ges särskilt stöd. Det särskilda stödet ska ges med utgångspunkt i elevens utbildning i dess helhet om det inte är uppenbart obehövligt. Bestämmelserna i 7 och 9–12 §§ ska inte tillämpas, om en elevs stödbehov bedöms kunna tillgodoses genom en åtgärd till stöd för nyanlända och andra elever vars kunskaper har bedömts enligt 12 c §.",
+      "kalla": {
+       "text": "SOU 2025:44 s. 221 (författningskommentar 8.1)",
+       "url": "https://www.regeringen.se/contentassets/2cd8d2f5eb0544f3ba50d5f93087dee9/forbattrat-stod-i-skolan-sou-202544.pdf"
+      }
+     },
+     "proposition": {
+      "text": "Vid skolenheter där utbildningen är begränsad till att avse elever som är i behov av särskilt stöd (resursskolor) ska varje elev ges särskilt stöd. För sådana elever ska 7 § inte tillämpas. Det särskilda stödet ska ges med utgångspunkt i elevens utbildning i dess helhet om det inte är uppenbart obehövligt. Stöd till nyanlända",
+      "paragraf": "3 kap. 8a §",
+      "likhet_mot_sou": 0.682,
+      "kalla": {
+       "text": "Prop. 2025/26:195 s. 12, lagförslag 2",
+       "url": "https://www.regeringen.se/contentassets/90deb85eeb924ac4a4b5ef087529f68a/forbattrat-stod-i-skolan-prop.-202526195.pdf"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "beslutad": {
+      "text": "Vid skolenheter där utbildningen är begränsad till att avse elever som är i behov av särskilt stöd (resursskolor) ska varje elev ges särskilt stöd. För sådana elever ska 7 § inte tillämpas. Det särskilda stödet ska ges med utgångspunkt i elevens utbildning i dess helhet om det inte är uppenbart obehövligt.",
+      "paragraf": "3 kap. 8a §",
+      "sfs": "2026:1242",
+      "ikraft": "2028-07-01",
+      "likhet_mot_sou": 0.649,
+      "kalla": {
+       "text": "Skollag (2010:800) 3 kap. 8a § i lydelse enligt SFS 2026:1242, träder i kraft 2028-07-01; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "ersatt",
+       "fore": "gäller i stället för 7 och 8 §§ att",
+       "efter": "ska"
+      },
+      {
+       "op": "struken",
+       "fore": "vid resursskolan ska",
+       "efter": null
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "För sådana elever ska 7 § inte tillämpas."
+      },
+      {
+       "op": "struken",
+       "fore": "Bestämmelserna i 7 och 9–12 §§ ska inte tillämpas, om en elevs stödbehov bedöms kunna tillgodoses genom en åtgärd till stöd för nyanlända och andra elever vars kunskaper har bedömts enligt 12 c §.",
+       "efter": null
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": true
+    },
+    {
+     "paragraf": "3 kap. 10 §",
+     "sou": {
+      "text": "För en elev i grundskolan, anpassade grundskolan, specialskolan och sameskolan ska det särskilda stödet ges på det sätt och i den omfattning som behövs för att eleven ska ha möjlighet att tillgodogöra sig kunskaper som minst motsvarar betygskriterierna godtagbara kunskaper eller för att eleven ska ha möjlighet att uppfylla de kriterier för bedömning av kunskaper som minst ska uppfyllas.",
+      "kalla": {
+       "text": "SOU 2025:44 s. 222 (författningskommentar 8.1)",
+       "url": "https://www.regeringen.se/contentassets/2cd8d2f5eb0544f3ba50d5f93087dee9/forbattrat-stod-i-skolan-sou-202544.pdf"
+      }
+     },
+     "proposition": {
+      "text": "Bestämmelserna om stödundervisning i 5 a–5 c §§ gäller i grundskolan, anpassade grundskolan, specialskolan, sameskolan, gymnasieskolan och anpassade gymnasieskolan. Bestämmelserna gäller endast i ämnena svenska, svenska som andraspråk och matematik. I anpassade grundskolan och i anpassade gymnasieskolan gäller bestämmelserna endast för elever som läser ämnen. Bedömning och utformning",
+      "paragraf": "3 kap. 5 §",
+      "likhet_mot_sou": 0.371,
+      "kalla": {
+       "text": "Prop. 2025/26:195 s. 8, lagförslag 2",
+       "url": "https://www.regeringen.se/contentassets/90deb85eeb924ac4a4b5ef087529f68a/forbattrat-stod-i-skolan-prop.-202526195.pdf"
+      },
+      "matchning": "textlikhet",
+      "manuell_granskning": true
+     },
+     "beslutad": {
+      "text": "Bestämmelserna om stödundervisning i 5 a-5 c §§ gäller i grundskolan, anpassade grundskolan, specialskolan, sameskolan, gymnasieskolan och anpassade gymnasieskolan. Bestämmelserna gäller endast i ämnena svenska, svenska som andraspråk och matematik. I anpassade grundskolan och i anpassade gymnasieskolan gäller bestämmelserna endast för elever som läser ämnen.",
+      "paragraf": "3 kap. 5 §",
+      "sfs": "2026:1242",
+      "ikraft": "2028-07-01",
+      "likhet_mot_sou": 0.374,
+      "kalla": {
+       "text": "Skollag (2010:800) 3 kap. 5 § i lydelse enligt SFS 2026:1242, träder i kraft 2028-07-01; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "textlikhet",
+      "manuell_granskning": true
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "ersatt",
+       "fore": "För en elev",
+       "efter": "Bestämmelserna om stödundervisning i 5 a-5 c §§ gäller"
+      },
+      {
+       "op": "ersatt",
+       "fore": "specialskolan",
+       "efter": "specialskolan, sameskolan, gymnasieskolan"
+      },
+      {
+       "op": "ersatt",
+       "fore": "sameskolan ska det särskilda stödet ges på det sätt",
+       "efter": "anpassade gymnasieskolan. Bestämmelserna gäller endast i ämnena svenska, svenska som andraspråk och matematik. I anpassade grundskolan"
+      },
+      {
+       "op": "ersatt",
+       "fore": "den omfattning",
+       "efter": "anpassade gymnasieskolan gäller bestämmelserna endast för elever"
+      },
+      {
+       "op": "ersatt",
+       "fore": "behövs för att eleven ska ha möjlighet att tillgodogöra sig kunskaper som minst motsvarar betygskriterierna godtagbara kunskaper eller för att eleven ska ha möjlighet att uppfylla de kriterier för bedömning av kunskaper som minst ska uppfyllas.",
+       "efter": "läser ämnen."
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": true
+    }
+   ],
+   "status": "blandad",
+   "status_per_paragraf": {
+    "ändrad": 3,
+    "oförändrad": 1
+   },
+   "status_kalla": {
+    "text": "Härledd per paragraf: SOU:ns föreslagna lydelse jämförd med beslutad lydelse (SFS 2026:1242). Statusvärdet är mekaniskt (textlikhet), inte en bedömning.",
+    "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+   }
+  },
+  {
+   "forslag": "F07",
+   "sou_avsnitt": "6.7",
+   "forslag_kalla": {
+    "text": "SOU 2025:44 s. 197",
+    "url": "https://www.regeringen.se/contentassets/2cd8d2f5eb0544f3ba50d5f93087dee9/forbattrat-stod-i-skolan-sou-202544.pdf"
+   },
+   "paragrafer": [
+    {
+     "paragraf": "3 kap. 9 §",
+     "sou": {
+      "text": "Ett åtgärdsprogram ska utarbetas för en elev som ska ges särskilt stöd. Av programmet ska behovet av särskilt stöd och hur det ska tillgodoses framgå. Av programmet ska det också framgå när åtgärderna ska följas upp och utvärderas och vem som är ansvarig för uppföljningen respektive utvärderingen. Eleven och elevens vårdnadshavare ska ges möjlighet att delta när ett åtgärdsprogram utarbetas. Åtgärdsprogrammet beslutas av rektorn. Rektorn får inte överlåta sin beslutanderätt till någon annan om beslutet innebär att särskilt stöd ska ges 1. i en särskild undervisningsgrupp eller enskilt enligt 11 §, 2. i form av distansundervisning och annan undervisning enligt 11 a §, eller 3. i form av anpassad studiegång enligt 12 §. Om en utredning enligt 7 § visar att eleven inte behöver särskilt stöd, ska rektorn eller den som rektorn har överlåtit beslutanderätten till i stället besluta att ett åtgärdsprogram inte ska utarbetas.",
+      "kalla": {
+       "text": "SOU 2025:44 s. 221 (författningskommentar 8.1)",
+       "url": "https://www.regeringen.se/contentassets/2cd8d2f5eb0544f3ba50d5f93087dee9/forbattrat-stod-i-skolan-sou-202544.pdf"
+      }
+     },
+     "proposition": {
+      "text": "Ett åtgärdsprogram ska utarbetas för en elev som ska ges särskilt stöd. Av programmet ska behovet av särskilt stöd och hur det ska tillgodoses framgå. Av programmet ska det också framgå när åtgärderna ska följas upp och utvärderas och vem som är ansvarig för uppföljningen respektive utvärderingen. Eleven och elevens vårdnadshavare ska ges möjlighet att delta när ett åtgärdsprogram utarbetas. Åtgärdsprogrammet beslutas av rektorn. Rektorn får inte överlåta sin beslutanderätt till någon annan om beslutet innebär att särskilt stöd ska ges i form av 1. distansundervisning och annan undervisning enligt 11 a §, eller 2. anpassad studiegång enligt 12 §. Om en utredning enligt 7 § visar att eleven inte behöver särskilt stöd, ska rektorn eller den som rektorn har överlåtit beslutanderätten till i stället besluta att ett åtgärdsprogram inte ska utarbetas. Olika former av särskilt stöd",
+      "paragraf": "3 kap. 9 §",
+      "likhet_mot_sou": 0.941,
+      "kalla": {
+       "text": "Prop. 2025/26:195 s. 12, lagförslag 2",
+       "url": "https://www.regeringen.se/contentassets/90deb85eeb924ac4a4b5ef087529f68a/forbattrat-stod-i-skolan-prop.-202526195.pdf"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": false
+     },
+     "beslutad": {
+      "text": "Ett åtgärdsprogram ska utarbetas för en elev som ska ges särskilt stöd. Av programmet ska behovet av särskilt stöd och hur det ska tillgodoses framgå. Av programmet ska det också framgå när åtgärderna ska följas upp och utvärderas och vem som är ansvarig för uppföljningen respektive utvärderingen. Eleven och elevens vårdnadshavare ska ges möjlighet att delta när ett åtgärdsprogram utarbetas. Åtgärdsprogrammet beslutas av rektorn. Rektorn får inte överlåta sin beslutanderätt till någon annan om beslutet innebär att särskilt stöd ska ges i form av 1. distansundervisning och annan undervisning enligt 11 a §, eller 2. anpassad studiegång enligt 12 §. Om en utredning enligt 7 § visar att eleven inte behöver särskilt stöd, ska rektorn eller den som rektorn har överlåtit beslutanderätten till i stället besluta att ett åtgärdsprogram inte ska utarbetas.",
+      "paragraf": "3 kap. 9 §",
+      "sfs": "2026:1242",
+      "ikraft": "2028-07-01",
+      "likhet_mot_sou": 0.956,
+      "kalla": {
+       "text": "Skollag (2010:800) 3 kap. 9 § i lydelse enligt SFS 2026:1242, träder i kraft 2028-07-01; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": false
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "struken",
+       "fore": "1. i en särskild undervisningsgrupp eller enskilt enligt 11 §, 2.",
+       "efter": null
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "1."
+      },
+      {
+       "op": "ersatt",
+       "fore": "3. i form av",
+       "efter": "2."
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": false
+    },
+    {
+     "paragraf": "3 kap. 11 §",
+     "sou": {
+      "text": "Ett beslut enligt 9 § för en elev i grundskolan, anpassade grundskolan, specialskolan eller sameskolan, får innebära att särskilt stöd ska ges som undervisning enskilt eller i en särskild undervisningsgrupp.",
+      "kalla": {
+       "text": "SOU 2025:44 s. 222 (författningskommentar 8.1)",
+       "url": "https://www.regeringen.se/contentassets/2cd8d2f5eb0544f3ba50d5f93087dee9/forbattrat-stod-i-skolan-sou-202544.pdf"
+      }
+     },
+     "proposition": {
+      "text": "Ett åtgärdsprogram enligt 9 § får innebära att särskilt stöd ska ges i form av en mindre undervisningsgrupp eller som enskild undervisning, eller på något annat sätt som är anpassat till elevens behov.",
+      "paragraf": "3 kap. 11 §",
+      "likhet_mot_sou": 0.392,
+      "kalla": {
+       "text": "Prop. 2025/26:195 s. 13, lagförslag 2",
+       "url": "https://www.regeringen.se/contentassets/90deb85eeb924ac4a4b5ef087529f68a/forbattrat-stod-i-skolan-prop.-202526195.pdf"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "beslutad": {
+      "text": "Ett åtgärdsprogram enligt 9 § får innebära att särskilt stöd ska ges i form av en mindre undervisningsgrupp eller som enskild undervisning, eller på något annat sätt som är anpassat till elevens behov.",
+      "paragraf": "3 kap. 11 §",
+      "sfs": "2026:1242",
+      "ikraft": "2028-07-01",
+      "likhet_mot_sou": 0.392,
+      "kalla": {
+       "text": "Skollag (2010:800) 3 kap. 11 § i lydelse enligt SFS 2026:1242, träder i kraft 2028-07-01; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": true
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "ersatt",
+       "fore": "beslut",
+       "efter": "åtgärdsprogram"
+      },
+      {
+       "op": "struken",
+       "fore": "för en elev i grundskolan, anpassade grundskolan, specialskolan eller sameskolan,",
+       "efter": null
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "i form av en mindre undervisningsgrupp eller"
+      },
+      {
+       "op": "ersatt",
+       "fore": "undervisning enskilt",
+       "efter": "enskild undervisning,"
+      },
+      {
+       "op": "ersatt",
+       "fore": "i en särskild undervisningsgrupp.",
+       "efter": "på något annat sätt som är anpassat till elevens behov."
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": true
+    }
+   ],
+   "status": "ändrad",
+   "status_per_paragraf": {
+    "ändrad": 2
+   },
+   "status_kalla": {
+    "text": "Härledd per paragraf: SOU:ns föreslagna lydelse jämförd med beslutad lydelse (SFS 2026:1242). Statusvärdet är mekaniskt (textlikhet), inte en bedömning.",
+    "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+   }
+  },
+  {
+   "forslag": "F08",
+   "sou_avsnitt": "6.8",
+   "forslag_kalla": {
+    "text": "SOU 2025:44 s. 202",
+    "url": "https://www.regeringen.se/contentassets/2cd8d2f5eb0544f3ba50d5f93087dee9/forbattrat-stod-i-skolan-sou-202544.pdf"
+   },
+   "paragrafer": [
+    {
+     "paragraf": "3 kap. 12 §",
+     "sou": {
+      "text": "Ett beslut för en elev i grundskolan, anpassade grundskolan, specialskolan eller sameskolan enligt 7 § får innebära avvikelser från den timplan samt de ämnen och mål som annars gäller för utbildningen (anpassad studiegång). Ett sådant beslut får fattas först om elevens behov inte kunnat tillgodoses genom andra former av särskilt stöd. I grundskolan, specialskolan och sameskolan ska den anpassade studiegången utformas så att eleven så långt som möjligt får förutsättningar att nå behörighet till gymnasieskolans nationella program. Beslutet ska föregås av information till eleven och elevens vårdnadshavare om beslutets konsekvenser. Rektorn ansvarar för att en elev med anpassad studiegång får en utbildning som så långt det är möjligt är likvärdig med övrig utbildning i den aktuella skolformen.",
+      "kalla": {
+       "text": "SOU 2025:44 s. 223 (författningskommentar 8.1)",
+       "url": "https://www.regeringen.se/contentassets/2cd8d2f5eb0544f3ba50d5f93087dee9/forbattrat-stod-i-skolan-sou-202544.pdf"
+      }
+     },
+     "proposition": {
+      "text": "Ett åtgärdsprogram enligt 9 § för en elev i grundskolan, anpassade grundskolan, specialskolan eller sameskolan får innebära avvikelser från den timplan samt de ämnen och mål som annars gäller för utbildningen (anpassad studiegång). Ett sådant beslut får fattas om alla andra möjligheter till särskilt stöd är uttömda eller bedöms olämpliga. I grundskolan, specialskolan och sameskolan ska den anpassade studiegången utformas så att eleven så långt som möjligt får förutsättningar att nå behörighet till gymnasieskolans nationella program. Beslutet ska föregås av information om beslutets konsekvenser till eleven och elevens vårdnadshavare. Rektorn ansvarar för att en elev med anpassad studiegång får en utbildning som så långt det är möjligt är likvärdig med övrig utbildning i den aktuella skolformen.",
+      "paragraf": "3 kap. 12 §",
+      "likhet_mot_sou": 0.881,
+      "kalla": {
+       "text": "Prop. 2025/26:195 s. 13, lagförslag 2",
+       "url": "https://www.regeringen.se/contentassets/90deb85eeb924ac4a4b5ef087529f68a/forbattrat-stod-i-skolan-prop.-202526195.pdf"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": false
+     },
+     "beslutad": {
+      "text": "Ett åtgärdsprogram enligt 9 § för en elev i grundskolan, anpassade grundskolan, specialskolan eller sameskolan får innebära avvikelser från den timplan samt de ämnen och mål som annars gäller för utbildningen (anpassad studiegång). Ett sådant beslut får fattas om alla andra möjligheter till särskilt stöd är uttömda eller bedöms olämpliga. I grundskolan, specialskolan och sameskolan ska den anpassade studiegången utformas så att eleven så långt som möjligt får förutsättningar att nå behörighet till gymnasieskolans nationella program. Beslutet ska föregås av information om beslutets konsekvenser till eleven och elevens vårdnadshavare. Rektorn ansvarar för att en elev med anpassad studiegång får en utbildning som så långt det är möjligt är likvärdig med övrig utbildning i den aktuella skolformen.",
+      "paragraf": "3 kap. 12 §",
+      "sfs": "2026:1242",
+      "ikraft": "2028-07-01",
+      "likhet_mot_sou": 0.881,
+      "kalla": {
+       "text": "Skollag (2010:800) 3 kap. 12 § i lydelse enligt SFS 2026:1242, träder i kraft 2028-07-01; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
+       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+      },
+      "matchning": "nummer",
+      "manuell_granskning": false
+     },
+     "diff_sou_mot_beslutad": [
+      {
+       "op": "ersatt",
+       "fore": "beslut",
+       "efter": "åtgärdsprogram enligt 9 §"
+      },
+      {
+       "op": "struken",
+       "fore": "enligt 7 §",
+       "efter": null
+      },
+      {
+       "op": "struken",
+       "fore": "först",
+       "efter": null
+      },
+      {
+       "op": "ersatt",
+       "fore": "elevens behov inte kunnat tillgodoses genom",
+       "efter": "alla"
+      },
+      {
+       "op": "ersatt",
+       "fore": "former av",
+       "efter": "möjligheter till"
+      },
+      {
+       "op": "ersatt",
+       "fore": "stöd.",
+       "efter": "stöd är uttömda eller bedöms olämpliga."
+      },
+      {
+       "op": "tillagd",
+       "fore": null,
+       "efter": "om beslutets konsekvenser"
+      },
+      {
+       "op": "ersatt",
+       "fore": "vårdnadshavare om beslutets konsekvenser.",
+       "efter": "vårdnadshavare."
+      }
+     ],
+     "status": "ändrad",
+     "manuell_granskning": false
+    }
+   ],
+   "status": "ändrad",
+   "status_per_paragraf": {
+    "ändrad": 1
+   },
+   "status_kalla": {
+    "text": "Härledd per paragraf: SOU:ns föreslagna lydelse jämförd med beslutad lydelse (SFS 2026:1242). Statusvärdet är mekaniskt (textlikhet), inte en bedömning.",
+    "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+   }
+  },
+  {
+   "forslag": "F09",
+   "sou_avsnitt": "7",
+   "forslag_kalla": {
+    "text": "SOU 2025:44 s. 207",
+    "url": "https://www.regeringen.se/contentassets/2cd8d2f5eb0544f3ba50d5f93087dee9/forbattrat-stod-i-skolan-sou-202544.pdf"
+   },
+   "paragrafer": [],
+   "status": "ej i SFS per 2026-11-10",
+   "status_kalla": {
+    "text": "Ingen paragraf i SOU:ns författningskommentar till skollagen (8.1) hänvisar till avsnitt 7 — förslaget avser förordningsnivå. Konsoliderade förordningar hämtade 2026-11-10 (jämförda; ingen markör angiven): Skolförordning (2011:185)",
+    "url": "https://data.riksdagen.se/dokument/sfs-2011-185.text",
+    "ovriga_urler": []
+   }
+  }
+ ]
+}
