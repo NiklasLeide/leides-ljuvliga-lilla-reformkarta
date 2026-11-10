@@ -1,0 +1,1605 @@
+{
+  "propositioner": [
+    {
+      "beteckning": "Prop. 2022/23:54",
+      "hittad": true,
+      "dok_id": "HA0354",
+      "titel": "Nationellt professionsprogram för rektorer, lärare och förskollärare",
+      "datum": "2023-01-31",
+      "publiceringsstatus": "Klar",
+      "url": "https://data.riksdagen.se/dokument/HA0354.html",
+      "betankanden": [
+        {
+          "bet": "2022/23:UbU13",
+          "dok_id": "HA01UbU13",
+          "bes_status": "inträffat",
+          "rskr": "2022/23:206",
+          "beslutsdatum": "2023-05-31",
+          "statustext": "Ärendet är avslutat",
+          "riksdagsbeslut": true,
+          "url": "https://data.riksdagen.se/dokument/HA01UbU13.html"
+        }
+      ],
+      "riksdagsbeslut": true,
+      "reform_ids": [
+        "profession"
+      ],
+      "utrednings_ids": []
+    },
+    {
+      "beteckning": "Prop. 2023/24:20",
+      "hittad": true,
+      "dok_id": "HB0320",
+      "titel": "Bättre anpassad undervisningstid i grundskolan, specialskolan och sameskolan",
+      "datum": "2023-10-03",
+      "publiceringsstatus": "Klar",
+      "url": "https://data.riksdagen.se/dokument/HB0320.html",
+      "betankanden": [
+        {
+          "bet": "2023/24:UbU5",
+          "dok_id": "HB01UbU5",
+          "bes_status": "inträffat",
+          "rskr": "2023/24:106",
+          "beslutsdatum": "2023-12-20",
+          "statustext": "Ärendet är avslutat",
+          "riksdagsbeslut": true,
+          "url": "https://data.riksdagen.se/dokument/HB01UbU5.html"
+        }
+      ],
+      "riksdagsbeslut": true,
+      "reform_ids": [
+        "timplan"
+      ],
+      "utrednings_ids": []
+    },
+    {
+      "beteckning": "Prop. 2024/25:143",
+      "hittad": true,
+      "dok_id": "HC03143",
+      "titel": "En tioårig grundskola",
+      "datum": "2025-03-18",
+      "publiceringsstatus": "Klar",
+      "url": "https://data.riksdagen.se/dokument/HC03143.html",
+      "betankanden": [
+        {
+          "bet": "2024/25:UbU17",
+          "dok_id": "HC01UbU17",
+          "bes_status": "inträffat",
+          "rskr": "2024/25:289",
+          "beslutsdatum": "2025-06-18",
+          "statustext": "Ärendet är avslutat",
+          "riksdagsbeslut": true,
+          "url": "https://data.riksdagen.se/dokument/HC01UbU17.html"
+        }
+      ],
+      "riksdagsbeslut": true,
+      "reform_ids": [
+        "tioarig"
+      ],
+      "utrednings_ids": []
+    },
+    {
+      "beteckning": "Prop. 2025/26:174",
+      "hittad": true,
+      "dok_id": "HD03174",
+      "titel": "Utökade registerkontroller i skolväsendet",
+      "datum": "2026-03-10",
+      "publiceringsstatus": "Klar",
+      "url": "https://data.riksdagen.se/dokument/HD03174.html",
+      "betankanden": [
+        {
+          "bet": "2025/26:UbU29",
+          "dok_id": "HD01UbU29",
+          "bes_status": "inträffat",
+          "rskr": "2025/26:300",
+          "beslutsdatum": "2026-05-27",
+          "statustext": "Ärendet är avslutat",
+          "riksdagsbeslut": true,
+          "url": "https://data.riksdagen.se/dokument/HD01UbU29.html"
+        }
+      ],
+      "riksdagsbeslut": true,
+      "reform_ids": [
+        "register"
+      ],
+      "utrednings_ids": []
+    },
+    {
+      "beteckning": "Prop. 2025/26:191",
+      "hittad": true,
+      "dok_id": "HD03191",
+      "titel": "Offentlighetsprincipen med lättnadsregler för enskilda mindre huvudmän i skolväsendet",
+      "datum": "2026-03-17",
+      "publiceringsstatus": "Klar",
+      "url": "https://data.riksdagen.se/dokument/HD03191.html",
+      "betankanden": [
+        {
+          "bet": "2025/26:UbU20",
+          "dok_id": "HD01UbU20",
+          "bes_status": "inträffat",
+          "rskr": "2025/26:277",
+          "beslutsdatum": "2026-05-26",
+          "statustext": "Ärendet är avslutat",
+          "riksdagsbeslut": true,
+          "url": "https://data.riksdagen.se/dokument/HD01UbU20.html"
+        }
+      ],
+      "riksdagsbeslut": true,
+      "reform_ids": [
+        "offentlighet"
+      ],
+      "utrednings_ids": [
+        "utr-skolinformation"
+      ]
+    },
+    {
+      "beteckning": "Prop. 2025/26:192",
+      "hittad": true,
+      "dok_id": "HD03192",
+      "titel": "Överlämnande av uppgifter mellan skolor i brottsförebyggande syfte",
+      "datum": "2026-03-17",
+      "publiceringsstatus": "Klar",
+      "url": "https://data.riksdagen.se/dokument/HD03192.html",
+      "betankanden": [
+        {
+          "bet": "2025/26:UbU21",
+          "dok_id": "HD01UbU21",
+          "bes_status": "inträffat",
+          "rskr": "2025/26:299",
+          "beslutsdatum": "2026-05-27",
+          "statustext": "Ärendet är avslutat",
+          "riksdagsbeslut": true,
+          "url": "https://data.riksdagen.se/dokument/HD01UbU21.html"
+        }
+      ],
+      "riksdagsbeslut": true,
+      "reform_ids": [
+        "brott"
+      ],
+      "utrednings_ids": [
+        "utr-skolsakerhet"
+      ]
+    },
+    {
+      "beteckning": "Prop. 2025/26:193",
+      "hittad": true,
+      "dok_id": "HD03193",
+      "titel": "Bättre förutsättningar för trygghet och studiero i skolan",
+      "datum": "2026-03-17",
+      "publiceringsstatus": "Klar",
+      "url": "https://data.riksdagen.se/dokument/HD03193.html",
+      "betankanden": [
+        {
+          "bet": "2025/26:UbU22",
+          "dok_id": "HD01UbU22",
+          "bes_status": "inträffat",
+          "rskr": "2025/26:308",
+          "beslutsdatum": "2026-06-03",
+          "statustext": "Ärendet är avslutat",
+          "riksdagsbeslut": true,
+          "url": "https://data.riksdagen.se/dokument/HD01UbU22.html"
+        }
+      ],
+      "riksdagsbeslut": true,
+      "reform_ids": [
+        "studiero"
+      ],
+      "utrednings_ids": [
+        "utr-studiero"
+      ]
+    },
+    {
+      "beteckning": "Prop. 2025/26:194",
+      "hittad": true,
+      "dok_id": "HD03194",
+      "titel": "Nya läroplaner – för en stark kunskapsskola",
+      "datum": "2026-03-17",
+      "publiceringsstatus": "Klar",
+      "url": "https://data.riksdagen.se/dokument/HD03194.html",
+      "betankanden": [
+        {
+          "bet": "2025/26:UbU23",
+          "dok_id": "HD01UbU23",
+          "bes_status": "inträffat",
+          "rskr": "2025/26:327",
+          "beslutsdatum": "2026-06-03",
+          "statustext": "Ärendet är avslutat",
+          "riksdagsbeslut": true,
+          "url": "https://data.riksdagen.se/dokument/HD01UbU23.html"
+        },
+        {
+          "bet": "2025/26:UbU24",
+          "dok_id": "HD01UbU24",
+          "bes_status": "inträffat",
+          "rskr": "2025/26:328",
+          "beslutsdatum": "2026-06-03",
+          "statustext": "Ärendet är avslutat",
+          "riksdagsbeslut": true,
+          "url": "https://data.riksdagen.se/dokument/HD01UbU24.html"
+        },
+        {
+          "bet": "2025/26:UbU25",
+          "dok_id": "HD01UbU25",
+          "bes_status": "inträffat",
+          "rskr": "2025/26:332",
+          "beslutsdatum": "2026-06-09",
+          "statustext": "Ärendet är avslutat",
+          "riksdagsbeslut": true,
+          "url": "https://data.riksdagen.se/dokument/HD01UbU25.html"
+        },
+        {
+          "bet": "2025/26:UbU26",
+          "dok_id": "HD01UbU26",
+          "bes_status": "inträffat",
+          "rskr": "2025/26:335",
+          "beslutsdatum": "2026-06-09",
+          "statustext": "Ärendet är avslutat",
+          "riksdagsbeslut": true,
+          "url": "https://data.riksdagen.se/dokument/HD01UbU26.html"
+        }
+      ],
+      "riksdagsbeslut": true,
+      "reform_ids": [
+        "laroplaner"
+      ],
+      "utrednings_ids": [
+        "utr-laroplan"
+      ]
+    },
+    {
+      "beteckning": "Prop. 2025/26:195",
+      "hittad": true,
+      "dok_id": "HD03195",
+      "titel": "Förbättrat stöd i skolan",
+      "datum": "2026-03-17",
+      "publiceringsstatus": "Klar",
+      "url": "https://data.riksdagen.se/dokument/HD03195.html",
+      "betankanden": [
+        {
+          "bet": "2025/26:UbU24",
+          "dok_id": "HD01UbU24",
+          "bes_status": "inträffat",
+          "rskr": "2025/26:328",
+          "beslutsdatum": "2026-06-03",
+          "statustext": "Ärendet är avslutat",
+          "riksdagsbeslut": true,
+          "url": "https://data.riksdagen.se/dokument/HD01UbU24.html"
+        },
+        {
+          "bet": "2025/26:UbU26",
+          "dok_id": "HD01UbU26",
+          "bes_status": "inträffat",
+          "rskr": "2025/26:335",
+          "beslutsdatum": "2026-06-09",
+          "statustext": "Ärendet är avslutat",
+          "riksdagsbeslut": true,
+          "url": "https://data.riksdagen.se/dokument/HD01UbU26.html"
+        }
+      ],
+      "riksdagsbeslut": true,
+      "reform_ids": [
+        "stod"
+      ],
+      "utrednings_ids": [
+        "utr-elevhalsa"
+      ]
+    },
+    {
+      "beteckning": "Prop. 2025/26:196",
+      "hittad": true,
+      "dok_id": "HD03196",
+      "titel": "Tid för undervisningsuppdraget",
+      "datum": "2026-03-17",
+      "publiceringsstatus": "Klar",
+      "url": "https://data.riksdagen.se/dokument/HD03196.html",
+      "betankanden": [
+        {
+          "bet": "2025/26:UbU25",
+          "dok_id": "HD01UbU25",
+          "bes_status": "inträffat",
+          "rskr": "2025/26:332",
+          "beslutsdatum": "2026-06-09",
+          "statustext": "Ärendet är avslutat",
+          "riksdagsbeslut": true,
+          "url": "https://data.riksdagen.se/dokument/HD01UbU25.html"
+        },
+        {
+          "bet": "2025/26:UbU26",
+          "dok_id": "HD01UbU26",
+          "bes_status": "inträffat",
+          "rskr": "2025/26:335",
+          "beslutsdatum": "2026-06-09",
+          "statustext": "Ärendet är avslutat",
+          "riksdagsbeslut": true,
+          "url": "https://data.riksdagen.se/dokument/HD01UbU26.html"
+        }
+      ],
+      "riksdagsbeslut": true,
+      "reform_ids": [
+        "tid"
+      ],
+      "utrednings_ids": [
+        "utr-tid"
+      ]
+    },
+    {
+      "beteckning": "Prop. 2025/26:197",
+      "hittad": true,
+      "dok_id": "HD03197",
+      "titel": "Ett likvärdigt betygssystem",
+      "datum": "2026-03-17",
+      "publiceringsstatus": "Klar",
+      "url": "https://data.riksdagen.se/dokument/HD03197.html",
+      "betankanden": [
+        {
+          "bet": "2025/26:UbU26",
+          "dok_id": "HD01UbU26",
+          "bes_status": "inträffat",
+          "rskr": "2025/26:335",
+          "beslutsdatum": "2026-06-09",
+          "statustext": "Ärendet är avslutat",
+          "riksdagsbeslut": true,
+          "url": "https://data.riksdagen.se/dokument/HD01UbU26.html"
+        }
+      ],
+      "riksdagsbeslut": true,
+      "reform_ids": [
+        "betyg"
+      ],
+      "utrednings_ids": [
+        "utr-betyg"
+      ]
+    },
+    {
+      "beteckning": "Prop. 2025/26:198",
+      "hittad": true,
+      "dok_id": "HD03198",
+      "titel": "Bättre förutsättningar för yrkesutbildning",
+      "datum": "2026-03-17",
+      "publiceringsstatus": "Klar",
+      "url": "https://data.riksdagen.se/dokument/HD03198.html",
+      "betankanden": [
+        {
+          "bet": "2025/26:UbU26",
+          "dok_id": "HD01UbU26",
+          "bes_status": "inträffat",
+          "rskr": "2025/26:335",
+          "beslutsdatum": "2026-06-09",
+          "statustext": "Ärendet är avslutat",
+          "riksdagsbeslut": true,
+          "url": "https://data.riksdagen.se/dokument/HD01UbU26.html"
+        },
+        {
+          "bet": "2025/26:UbU27",
+          "dok_id": "HD01UbU27",
+          "bes_status": "inträffat",
+          "rskr": "2025/26:307",
+          "beslutsdatum": "2026-05-27",
+          "statustext": "Ärendet är avslutat",
+          "riksdagsbeslut": true,
+          "url": "https://data.riksdagen.se/dokument/HD01UbU27.html"
+        }
+      ],
+      "riksdagsbeslut": true,
+      "reform_ids": [
+        "yrkes"
+      ],
+      "utrednings_ids": [
+        "utr-fler-vagar"
+      ]
+    },
+    {
+      "beteckning": "Prop. 2025/26:292",
+      "hittad": true,
+      "dok_id": "HD03292",
+      "titel": "Skärpta villkor för friskolesektorn",
+      "datum": "2026-06-25",
+      "publiceringsstatus": "Klar",
+      "url": "https://data.riksdagen.se/dokument/HD03292.html",
+      "betankanden": [
+        {
+          "bet": "2025/26:UbU30",
+          "dok_id": "HD01UbU30",
+          "bes_status": "inträffat",
+          "rskr": "2025/26:438",
+          "beslutsdatum": "2026-08-13",
+          "statustext": "Ärendet är avslutat",
+          "riksdagsbeslut": true,
+          "url": "https://data.riksdagen.se/dokument/HD01UbU30.html"
+        }
+      ],
+      "riksdagsbeslut": true,
+      "reform_ids": [
+        "vinst"
+      ],
+      "utrednings_ids": []
+    }
+  ],
+  "utredningar": [
+    {
+      "id": "utr-elevhalsa",
+      "beteckning": "U 2024:01",
+      "titel": "Utredningen om en förbättrad elevhälsa",
+      "status": "avslutad",
+      "direktiv_i_api": [
+        {
+          "nr": "Dir. 2024:93",
+          "datum": "2024-09-26",
+          "titel": "Tilläggsdirektiv till Utredningen om en förbättrad (U 2024:01)"
+        },
+        {
+          "nr": "Dir. 2025:62",
+          "datum": "2025-06-12",
+          "titel": "Tilläggsdirektiv till Utredningen om en förbättrad elevhälsa (U 2024:01)"
+        },
+        {
+          "nr": "Dir. 2025:18",
+          "datum": "2025-02-27",
+          "titel": "Tilläggsdirektiv till Utredningen om en förbättrad elevhälsa (U 2024:01)"
+        }
+      ],
+      "sou_i_api": [
+        {
+          "nr": "SOU 2025:44",
+          "datum": "2025-04-10",
+          "titel": "Förbättrat stöd i skolan ",
+          "typ": "del"
+        },
+        {
+          "nr": "SOU 2025:113",
+          "datum": "2025-11-26",
+          "titel": "En förbättrad elevhälsa",
+          "typ": "slut"
+        }
+      ]
+    },
+    {
+      "id": "utr-betyg",
+      "beteckning": "U 2023:02",
+      "titel": "Utredningen om likvärdiga betyg och meritvärden",
+      "status": "avslutad",
+      "direktiv_i_api": [],
+      "sou_i_api": [
+        {
+          "nr": "SOU 2025:18",
+          "datum": "2025-02-19",
+          "titel": "Ett likvärdigt betygssystem, del 2",
+          "typ": null
+        },
+        {
+          "nr": "SOU 2025:18",
+          "datum": "2025-02-19",
+          "titel": "Ett likvärdigt betygssystem",
+          "typ": null
+        }
+      ]
+    },
+    {
+      "id": "utr-laroplan",
+      "beteckning": "U 2023:09",
+      "titel": "Läroplansutredningen",
+      "status": "avslutad",
+      "direktiv_i_api": [],
+      "sou_i_api": [
+        {
+          "nr": "SOU 2025:19",
+          "datum": "2025-02-26",
+          "titel": "Kunskap för alla ",
+          "typ": null
+        }
+      ]
+    },
+    {
+      "id": "utr-tid",
+      "beteckning": "U 2023:01",
+      "titel": "Utredningen om minskad administration och om reglering av förskollärares och lärares tid",
+      "status": "avslutad",
+      "direktiv_i_api": [
+        {
+          "nr": "Dir. 2024:64",
+          "datum": "2024-06-27",
+          "titel": "Tilläggsdirektiv till Utredningen om en minskad administrativ börda för förskollärare och lärare (U 2023:01)"
+        }
+      ],
+      "sou_i_api": [
+        {
+          "nr": "SOU 2025:26",
+          "datum": "2025-03-03",
+          "titel": "Tid för undervisningsuppdraget",
+          "typ": null
+        }
+      ]
+    },
+    {
+      "id": "utr-studiero",
+      "beteckning": "U 2023:06",
+      "titel": "Utredningen om stärkt trygghet och studiero i skolan",
+      "status": "avslutad",
+      "direktiv_i_api": [
+        {
+          "nr": "Dir. 2024:79",
+          "datum": "2024-08-29",
+          "titel": "Tilläggsdirektiv till utredningen Stärkt trygghet och studiero i skolan (U 2023:06)"
+        }
+      ],
+      "sou_i_api": [
+        {
+          "nr": "SOU 2025:8",
+          "datum": "2025-01-29",
+          "titel": "Bättre förutsättningar för trygghet och studiero i skolan ",
+          "typ": null
+        }
+      ]
+    },
+    {
+      "id": "utr-skolsakerhet",
+      "beteckning": "U 2022:04",
+      "titel": "Skolsäkerhetsutredningen",
+      "status": "avslutad",
+      "direktiv_i_api": [
+        {
+          "nr": "Dir. 2024:7",
+          "datum": "2024-01-18",
+          "titel": "Tilläggsdirektiv till Skolsäkerhetsutredningen (U 2022:04)"
+        },
+        {
+          "nr": "Dir. 2023:120",
+          "datum": "2023-08-10",
+          "titel": "Tilläggsdirektiv till Skolsäkerhetsutredningen (U 2022:04)"
+        },
+        {
+          "nr": "Dir. 2023:22",
+          "datum": "2023-02-09",
+          "titel": "Tilläggsdirektiv till utredningen om att säkerheten i skolan ska förbättras (U 2022:04)"
+        }
+      ],
+      "sou_i_api": [
+        {
+          "nr": "SOU 2023:28",
+          "datum": "2023-06-16",
+          "titel": "Samhället mot skolattacker ",
+          "typ": "del"
+        },
+        {
+          "nr": "SOU 2024:17",
+          "datum": "2024-03-07",
+          "titel": "Skolor mot brott",
+          "typ": "del"
+        },
+        {
+          "nr": "SOU 2024:87",
+          "datum": "2024-12-18",
+          "titel": "Ökat uppgiftsutbyte i det brottsförebyggande arbetet",
+          "typ": "slut"
+        }
+      ]
+    },
+    {
+      "id": "utr-skolinformation",
+      "beteckning": "U 2021:04",
+      "titel": "Skolinformationsutredningen",
+      "status": "avslutad",
+      "direktiv_i_api": [
+        {
+          "nr": "Dir. 2022:10",
+          "datum": "2022-03-10",
+          "titel": "Tilläggsdirektiv till Skolinformationsutredningen (U 2021:04)"
+        },
+        {
+          "nr": "Dir. 2023:34",
+          "datum": "2023-03-02",
+          "titel": "Tilläggsdirektiv till Skolinformationsutredningen (U 2021:04)"
+        },
+        {
+          "nr": "Dir. 2023:23",
+          "datum": "2023-02-09",
+          "titel": "Tilläggsdirektiv till Skolinformationsutredningen (U 2021:04)"
+        }
+      ],
+      "sou_i_api": [
+        {
+          "nr": "SOU 2023:21",
+          "datum": "2023-05-30",
+          "titel": "Informationsförsörjning på skolområdet, Skolverkets ansvar ",
+          "typ": "del"
+        },
+        {
+          "nr": "SOU 2024:28",
+          "datum": "2024-04-19",
+          "titel": "Offentlighetsprincipen eller insynslag, Allmänhetens insyn i enskilda aktörer inom skolväsendet ",
+          "typ": "slut"
+        }
+      ]
+    },
+    {
+      "id": "utr-fler-vagar",
+      "beteckning": "U 2022:03",
+      "titel": "Utredningen om fler vägar till arbetslivet",
+      "status": "avslutad",
+      "direktiv_i_api": [
+        {
+          "nr": "Dir. 2023:114",
+          "datum": "2023-07-13",
+          "titel": "Tilläggsdirektiv till Utredningen om fler vägar till arbetslivet (U 2022:03)"
+        },
+        {
+          "nr": "Dir. 2023:31",
+          "datum": "2023-02-23",
+          "titel": "Tilläggsdirektiv till Utredningen om fler vägar till arbetslivet (U 2022:03)"
+        }
+      ],
+      "sou_i_api": [
+        {
+          "nr": "SOU 2024:74",
+          "datum": "2024-11-22",
+          "titel": "Fler vägar till arbetslivet",
+          "typ": null
+        }
+      ]
+    },
+    {
+      "id": "utr-yrkesvux",
+      "beteckning": "U 2022:05",
+      "titel": "Yrkesvuxutredningen",
+      "status": "avslutad",
+      "direktiv_i_api": [
+        {
+          "nr": "Dir. 2023:110",
+          "datum": "2023-07-06",
+          "titel": "Tilläggsdirektiv till Yrkesvuxutredningen (U 2022:05)"
+        }
+      ],
+      "sou_i_api": [
+        {
+          "nr": "SOU 2024:16",
+          "datum": "2024-02-19",
+          "titel": "Växla yrke som vuxen - en reformerad vuxenutbildning och en ny yrkesskola för vuxna ",
+          "typ": null
+        }
+      ]
+    },
+    {
+      "id": "utr-vinst",
+      "beteckning": "U 2022:08",
+      "titel": "Utredningen om vinst i skolan",
+      "status": "avslutad",
+      "direktiv_i_api": [
+        {
+          "nr": "Dir. 2024:85",
+          "datum": "2024-09-19",
+          "titel": "Tilläggsdirektiv till Utredningen om vinst i skolan (U 2022:08)"
+        },
+        {
+          "nr": "Dir. 2023:109",
+          "datum": "2023-07-06",
+          "titel": "Tilläggsdirektiv till Utredningen om vinst i skolan (U 2022:08)"
+        }
+      ],
+      "sou_i_api": [
+        {
+          "nr": "SOU 2025:37",
+          "datum": "2025-04-08",
+          "titel": "Skärpta villkor för friskolesektorn",
+          "typ": "del"
+        },
+        {
+          "nr": "SOU 2025:123",
+          "datum": "2026-01-01",
+          "titel": "Skärpta villkor för friskolesektorn - ytterligare förslag",
+          "typ": "slut"
+        }
+      ]
+    },
+    {
+      "id": "utr-ai-forordningen",
+      "beteckning": "Fi 2024:05",
+      "titel": "Utredningen om AI-förordningen",
+      "status": "avslutad",
+      "direktiv_i_api": [],
+      "sou_i_api": [
+        {
+          "nr": "SOU 2025:101",
+          "datum": "2025-10-08",
+          "titel": "Anpassningar till AI-förordningen ",
+          "typ": null
+        }
+      ]
+    },
+    {
+      "id": "utr-skolpeng",
+      "beteckning": "U 2023:05",
+      "titel": "Utredningen om en nationell skolpengsnorm för ökad likvärdighet",
+      "status": "pagaende",
+      "direktiv_i_api": [
+        {
+          "nr": "Dir. 2025:23",
+          "datum": "2025-03-06",
+          "titel": "Tilläggsdirektiv till Utredningen om en nationell skolpengsnorm för ökad likvärdighet (U 2023:05)"
+        }
+      ],
+      "sou_i_api": [
+        {
+          "nr": "SOU 2025:72",
+          "datum": "2025-06-13",
+          "titel": "Verktyg för en mer likvärdig resursfördelning till skolan",
+          "typ": "del"
+        },
+        {
+          "nr": "SOU 2026:65",
+          "datum": "2026-10-29",
+          "titel": "Verktyg för en mer likvärdig resursfördelning",
+          "typ": "slut"
+        }
+      ]
+    },
+    {
+      "id": "utr-sprakforskola",
+      "beteckning": "U 2024:04",
+      "titel": "Utredningen om en likvärdig förskola av god kvalitet med obligatorisk språkförskola",
+      "status": "avslutad",
+      "direktiv_i_api": [
+        {
+          "nr": "Dir. 2025:102",
+          "datum": "2025-11-27",
+          "titel": "Tilläggsdirektiv till Utredningen om en likvärdig förskola av god kvalitet med obligatorisk språkförskola (U 2024:04)"
+        }
+      ],
+      "sou_i_api": [
+        {
+          "nr": "SOU 2026:37",
+          "datum": "2026-06-17",
+          "titel": "Förutsättningar för en likvärdig och språkutvecklande förskola",
+          "typ": null
+        }
+      ]
+    },
+    {
+      "id": "utr-komvux",
+      "beteckning": "U 2025:07",
+      "titel": "Utredningen om tydligare ansvar och högre kvalitet i komvux",
+      "status": "pagaende",
+      "direktiv_i_api": [],
+      "sou_i_api": []
+    },
+    {
+      "id": "utr-amnesgymnasiet",
+      "beteckning": "U 2025:06",
+      "titel": "Utredningen om en ämnesutformad gymnasieskola",
+      "status": "pagaende",
+      "direktiv_i_api": [],
+      "sou_i_api": []
+    },
+    {
+      "id": "utr-speciallarare",
+      "beteckning": "U 2025:05",
+      "titel": "Utredningen om speciallärar- och specialpedagogutbildningarna",
+      "status": "avslutad",
+      "direktiv_i_api": [
+        {
+          "nr": "Dir. 2026:39",
+          "datum": "2026-05-28",
+          "titel": "Tilläggsdirektiv till Utredningen om speciallärar- och specialpedagogutbildningarna (U 2025:05)"
+        }
+      ],
+      "sou_i_api": [
+        {
+          "nr": "SOU 2026:50",
+          "datum": "2026-08-14",
+          "titel": "En ny speciallärarutbildning",
+          "typ": null
+        }
+      ]
+    },
+    {
+      "id": "utr-skolplikt",
+      "beteckning": "U 2025:04",
+      "titel": "Utredningen om tydligare regler vid undantag från skolplikten",
+      "status": "pagaende",
+      "direktiv_i_api": [
+        {
+          "nr": "Dir. 2025:111",
+          "datum": "2025-12-18",
+          "titel": "Tilläggsdirektiv till Utredningen om tydligare regler vid undantag från skolplikten (U 2025:04)"
+        },
+        {
+          "nr": "Dir. 2026:117",
+          "datum": "2026-09-03",
+          "titel": "Tilläggsdirektiv till Utredningen om tydligare regler vid undantag från skolplikten (U 2025:04)"
+        }
+      ],
+      "sou_i_api": []
+    },
+    {
+      "id": "utr-heder",
+      "beteckning": "U 2025:02",
+      "titel": "Utredningen om ökade insatser för att motverka hedersrelaterat våld och förtryck i förskolan, skolan och fritidshemmet",
+      "status": "avslutad",
+      "direktiv_i_api": [],
+      "sou_i_api": []
+    },
+    {
+      "id": "utr-stem",
+      "beteckning": "U 2025:01",
+      "titel": "STEM-delegationen",
+      "status": "pagaende",
+      "direktiv_i_api": [],
+      "sou_i_api": []
+    },
+    {
+      "id": "utr-aldersgrans-sociala-medier",
+      "beteckning": "S 2025:11",
+      "titel": "Utredningen om en åldersgräns på sociala medier",
+      "status": "pagaende",
+      "direktiv_i_api": [
+        {
+          "nr": "Dir. 2026:123",
+          "datum": "2026-10-22",
+          "titel": "Tilläggsdirektiv till Utredningen om en åldersgräns på sociala medier (S 2025:11)"
+        }
+      ],
+      "sou_i_api": []
+    },
+    {
+      "id": "utr-barnungdomsvard-styrning",
+      "beteckning": "S 2025:08",
+      "titel": "Utredningen om förstärkt statlig styrning och stöd inom den sociala barn- och ungdomsvården",
+      "status": "pagaende",
+      "direktiv_i_api": [],
+      "sou_i_api": []
+    },
+    {
+      "id": "utr-barnungdomsvard-reform",
+      "beteckning": "S 2024:01",
+      "titel": "Utredningen om en reform av den statliga barn- och ungdomsvården för en trygg och kvalitativ vård",
+      "status": "avslutad",
+      "direktiv_i_api": [
+        {
+          "nr": "Dir. 2025:95",
+          "datum": "2025-10-30",
+          "titel": "Tilläggsdirektiv till utredningen En reform av den statliga barn- och ungdomsvården för en trygg och kvalitativ vård (S 2024:01)"
+        },
+        {
+          "nr": "Dir. 2025:39",
+          "datum": "2025-04-16",
+          "titel": "Tilläggsdirektiv till Utredningen om en reform av den statliga barn- och ungdomsvården för en trygg och kvalitativ vård (S 2024:01)"
+        }
+      ],
+      "sou_i_api": []
+    },
+    {
+      "id": "utr-integritetsbevarande",
+      "beteckning": "Fi 2025:07",
+      "titel": "Utredningen om integritetsfrämjande teknik i förvaltningen",
+      "status": "avslutad",
+      "direktiv_i_api": [],
+      "sou_i_api": [
+        {
+          "nr": "SOU 2026:44",
+          "datum": "2026-07-02",
+          "titel": "En stärkt förmåga till modern datadelning - integritetsfrämjande teknik i offentlig förvaltning",
+          "typ": null
+        }
+      ]
+    },
+    {
+      "id": "utr-rektor",
+      "beteckning": "U 2024:03",
+      "titel": "Utredningen om bättre förutsättningar för rektorerna inom skolväsendet",
+      "status": "avslutad",
+      "direktiv_i_api": [
+        {
+          "nr": "Dir. 2025:50",
+          "datum": "2025-05-22",
+          "titel": "Tilläggsdirektiv till Utredningen om bättre förutsättningar för rektorerna inom skolväsendet (U 2024:03)"
+        }
+      ],
+      "sou_i_api": [
+        {
+          "nr": "SOU 2026:4",
+          "datum": "2026-01-20",
+          "titel": "Rektor i fokus",
+          "typ": null
+        }
+      ]
+    },
+    {
+      "id": "utr-grundlaggande-svenska",
+      "beteckning": "U 2023:08",
+      "titel": "Utredningen om införande av grundläggande svenska och översyn av modersmålsundervisningen",
+      "status": "avslutad",
+      "direktiv_i_api": [
+        {
+          "nr": "Dir. 2024:72",
+          "datum": "2024-08-22",
+          "titel": "Tilläggsdirektiv till Utredningen om införande av grundläggande svenska och översyn av modersmålsundervisningen (U 2023:08)"
+        }
+      ],
+      "sou_i_api": [
+        {
+          "nr": "SOU 2025:9",
+          "datum": "2025-01-31",
+          "titel": "På språklig grund ",
+          "typ": null
+        }
+      ]
+    },
+    {
+      "id": "utr-undervisningstid",
+      "beteckning": "U 2023:07",
+      "titel": "Utredningen om mer obligatorisk undervisningstid för elever som behöver det",
+      "status": "avslutad",
+      "direktiv_i_api": [],
+      "sou_i_api": [
+        {
+          "nr": "SOU 2024:94",
+          "datum": "2024-12-20",
+          "titel": "Förstärkningsundervisning i skolan ",
+          "typ": null
+        }
+      ]
+    },
+    {
+      "id": "utr-lararutbildning",
+      "beteckning": "U 2023:03",
+      "titel": "Utredningen om att utveckla lärar- och förskollärarutbildningarna",
+      "status": "avslutad",
+      "direktiv_i_api": [],
+      "sou_i_api": [
+        {
+          "nr": "SOU 2024:81",
+          "datum": "2024-12-03",
+          "titel": "Ämneskunskaper och lärarskicklighet ",
+          "typ": null
+        }
+      ]
+    },
+    {
+      "id": "utr-aviserad-skolval",
+      "beteckning": null,
+      "titel": "Aviserad utredning om obligatoriskt skolval / gemensamt kösystem",
+      "status": "aviserad",
+      "direktiv_i_api": [],
+      "sou_i_api": []
+    },
+    {
+      "id": "utr-aviserad-uppfoljning",
+      "beteckning": null,
+      "titel": "Aviserad bokstavsutredning om förbättrad uppföljning av barn från skola och socialtjänst",
+      "status": "aviserad",
+      "direktiv_i_api": [],
+      "sou_i_api": []
+    },
+    {
+      "id": "utr-klasstorlekar",
+      "beteckning": "U 2026:04",
+      "titel": "Utredningen om åtgärder för lämpliga klasstorlekar",
+      "status": "pagaende",
+      "direktiv_i_api": [],
+      "sou_i_api": []
+    }
+  ],
+  "fynd": [
+    {
+      "fil": "reforms.json",
+      "post": "profession",
+      "falt": "transition",
+      "nuvarde": "I kraft 1 sep 2025.",
+      "api": "bet. 2022/23:UbU13, rskr. 2022/23:206, beslutsdatum 2023-05-31",
+      "url": "https://data.riksdagen.se/dokument/HA01UbU13.html",
+      "typ": "transition-saknar-riksdagsbeslut",
+      "notering": null
+    },
+    {
+      "fil": "reforms.json",
+      "post": "timplan",
+      "falt": "transition",
+      "nuvarde": "Beslutad. Tillämpas stegvis.",
+      "api": "bet. 2023/24:UbU5, rskr. 2023/24:106, beslutsdatum 2023-12-20",
+      "url": "https://data.riksdagen.se/dokument/HB01UbU5.html",
+      "typ": "transition-saknar-riksdagsbeslut",
+      "notering": null
+    },
+    {
+      "fil": "reforms.json",
+      "post": "tioarig",
+      "falt": "transition",
+      "nuvarde": "Riksdagen har beslutat. Tillämpas fr.o.m. HT 2028.",
+      "api": "bet. 2024/25:UbU17, rskr. 2024/25:289, beslutsdatum 2025-06-18",
+      "url": "https://data.riksdagen.se/dokument/HC01UbU17.html",
+      "typ": "transition-saknar-riksdagsbeslut",
+      "notering": null
+    },
+    {
+      "fil": "reforms.json",
+      "post": "laroplaner",
+      "falt": "transition",
+      "nuvarde": "Riksdagen beslutade 2026-06-03 (bet. 2025/26:UbU23, rskr. 2025/26:327). Merparten 1 juli 2028. Komvux-ändringar 1 jan 2031.",
+      "api": "bet. 2025/26:UbU24, rskr. 2025/26:328, beslutsdatum 2026-06-03",
+      "url": "https://data.riksdagen.se/dokument/HD01UbU24.html",
+      "typ": "ytterligare-betankande",
+      "notering": null
+    },
+    {
+      "fil": "reforms.json",
+      "post": "laroplaner",
+      "falt": "transition",
+      "nuvarde": "Riksdagen beslutade 2026-06-03 (bet. 2025/26:UbU23, rskr. 2025/26:327). Merparten 1 juli 2028. Komvux-ändringar 1 jan 2031.",
+      "api": "bet. 2025/26:UbU25, rskr. 2025/26:332, beslutsdatum 2026-06-09",
+      "url": "https://data.riksdagen.se/dokument/HD01UbU25.html",
+      "typ": "ytterligare-betankande",
+      "notering": null
+    },
+    {
+      "fil": "reforms.json",
+      "post": "laroplaner",
+      "falt": "transition",
+      "nuvarde": "Riksdagen beslutade 2026-06-03 (bet. 2025/26:UbU23, rskr. 2025/26:327). Merparten 1 juli 2028. Komvux-ändringar 1 jan 2031.",
+      "api": "bet. 2025/26:UbU26, rskr. 2025/26:335, beslutsdatum 2026-06-09",
+      "url": "https://data.riksdagen.se/dokument/HD01UbU26.html",
+      "typ": "ytterligare-betankande",
+      "notering": null
+    },
+    {
+      "fil": "reforms.json",
+      "post": "stod",
+      "falt": "transition",
+      "nuvarde": "Riksdagen beslutade 2026-06-03 (bet. 2025/26:UbU24, rskr. 2025/26:328). Ikraftträdande 1 juli 2028.",
+      "api": "bet. 2025/26:UbU26, rskr. 2025/26:335, beslutsdatum 2026-06-09",
+      "url": "https://data.riksdagen.se/dokument/HD01UbU26.html",
+      "typ": "ytterligare-betankande",
+      "notering": null
+    },
+    {
+      "fil": "reforms.json",
+      "post": "tid",
+      "falt": "transition",
+      "nuvarde": "Riksdagen beslutade 2026-06-09 (bet. 2025/26:UbU25, rskr. 2025/26:332). Ikraftträdande stegvis: kränkande behandling 1 augusti 2026 (SFS 2026:1096), undervisningsuppdraget 1 juli 2027 (SFS 2026:1097), övriga ändringar 1 juli 2028 (SFS 2026:1243).",
+      "api": "bet. 2025/26:UbU26, rskr. 2025/26:335, beslutsdatum 2026-06-09",
+      "url": "https://data.riksdagen.se/dokument/HD01UbU26.html",
+      "typ": "ytterligare-betankande",
+      "notering": null
+    },
+    {
+      "fil": "reforms.json",
+      "post": "yrkes",
+      "falt": "transition",
+      "nuvarde": "Riksdagen beslutade 2026-05-27 (bet. 2025/26:UbU27, rskr. 2025/26:307). Entreprenad och rätt att fullfölja: 1 juli 2026. Övriga ändringar: 2 juli 2028.",
+      "api": "bet. 2025/26:UbU26, rskr. 2025/26:335, beslutsdatum 2026-06-09",
+      "url": "https://data.riksdagen.se/dokument/HD01UbU26.html",
+      "typ": "ytterligare-betankande",
+      "notering": null
+    },
+    {
+      "fil": "reforms.json",
+      "post": "vinst",
+      "falt": "transition",
+      "nuvarde": "Riksdagen beslutade 2026-08-13 (bet. 2025/26:UbU30; rskr ej publicerad 2026-08-25). Prop. 2025/26:292, överlämnad 2026-06-25. Ikraftträdande 1 juli 2027.",
+      "api": "rskr. 2025/26:438",
+      "url": "https://data.riksdagen.se/dokument/HD01UbU30.html",
+      "typ": "transition-saknar-rskr",
+      "notering": null
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-elevhalsa",
+      "falt": "direktiv Dir. 2025:18.titel",
+      "nuvarde": null,
+      "api": "Tilläggsdirektiv till Utredningen om en förbättrad elevhälsa (U 2024:01)",
+      "url": "https://data.riksdagen.se/dokument/HDB118.html",
+      "typ": "titel-saknas-i-data",
+      "notering": null
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-elevhalsa",
+      "falt": "direktiv Dir. 2025:62.titel",
+      "nuvarde": null,
+      "api": "Tilläggsdirektiv till Utredningen om en förbättrad elevhälsa (U 2024:01)",
+      "url": "https://data.riksdagen.se/dokument/HDB162.html",
+      "typ": "titel-saknas-i-data",
+      "notering": null
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-elevhalsa",
+      "falt": "betankanden SOU 2025:113.datum",
+      "nuvarde": "2025-11-27",
+      "api": "2025-11-26",
+      "url": "https://data.riksdagen.se/dokument/HDB3113.html",
+      "typ": "datum-avviker",
+      "notering": null
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-laroplan",
+      "falt": "betankanden SOU 2025:19.datum",
+      "nuvarde": "2024-12-20",
+      "api": "2025-02-26",
+      "url": "https://data.riksdagen.se/dokument/HDB319.html",
+      "typ": "datum-avviker",
+      "notering": null
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-studiero",
+      "falt": "direktiv Dir. 2024:79.titel",
+      "nuvarde": null,
+      "api": "Tilläggsdirektiv till utredningen Stärkt trygghet och studiero i skolan (U 2023:06)",
+      "url": "https://data.riksdagen.se/dokument/HCB179.html",
+      "typ": "titel-saknas-i-data",
+      "notering": null
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-studiero",
+      "falt": "betankanden SOU 2025:8.datum",
+      "nuvarde": "2025-01-31",
+      "api": "2025-01-29",
+      "url": "https://data.riksdagen.se/dokument/HDB38.html",
+      "typ": "datum-avviker",
+      "notering": null
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-skolsakerhet",
+      "falt": "direktiv Dir. 2023:22.titel",
+      "nuvarde": null,
+      "api": "Tilläggsdirektiv till utredningen om att säkerheten i skolan ska förbättras (U 2022:04)",
+      "url": "https://data.riksdagen.se/dokument/HBB122.html",
+      "typ": "titel-saknas-i-data",
+      "notering": null
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-skolsakerhet",
+      "falt": "direktiv Dir. 2023:120.datum",
+      "nuvarde": "2023-08-14",
+      "api": "2023-08-10",
+      "url": "https://data.riksdagen.se/dokument/HBB1120.html",
+      "typ": "datum-avviker",
+      "notering": null
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-skolsakerhet",
+      "falt": "betankanden SOU 2023:28.datum",
+      "nuvarde": "2023-06-15",
+      "api": "2023-06-16",
+      "url": "https://data.riksdagen.se/dokument/HBB328.html",
+      "typ": "datum-avviker",
+      "notering": null
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-skolsakerhet",
+      "falt": "betankanden SOU 2024:17.datum",
+      "nuvarde": "2024-02-29",
+      "api": "2024-03-07",
+      "url": "https://data.riksdagen.se/dokument/HCB317.html",
+      "typ": "datum-avviker",
+      "notering": null
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-skolsakerhet",
+      "falt": "betankanden SOU 2024:87.datum",
+      "nuvarde": "2024-12-20",
+      "api": "2024-12-18",
+      "url": "https://data.riksdagen.se/dokument/HCB387.html",
+      "typ": "datum-avviker",
+      "notering": null
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-skolinformation",
+      "falt": "direktiv Dir. 2021:89.datum",
+      "nuvarde": "2021-10-21",
+      "api": "2021-10-20",
+      "url": "https://data.riksdagen.se/dokument/H9B189.html",
+      "typ": "datum-avviker",
+      "notering": null
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-skolinformation",
+      "falt": "direktiv Dir. 2022:10.titel",
+      "nuvarde": null,
+      "api": "Tilläggsdirektiv till Skolinformationsutredningen (U 2021:04)",
+      "url": "https://data.riksdagen.se/dokument/HAB110.html",
+      "typ": "titel-saknas-i-data",
+      "notering": null
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-skolinformation",
+      "falt": "direktiv Dir. 2023:23.titel",
+      "nuvarde": null,
+      "api": "Tilläggsdirektiv till Skolinformationsutredningen (U 2021:04)",
+      "url": "https://data.riksdagen.se/dokument/HBB123.html",
+      "typ": "titel-saknas-i-data",
+      "notering": null
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-skolinformation",
+      "falt": "direktiv Dir. 2023:34.datum",
+      "nuvarde": "2023-03-09",
+      "api": "2023-03-02",
+      "url": "https://data.riksdagen.se/dokument/HBB134.html",
+      "typ": "datum-avviker",
+      "notering": null
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-skolinformation",
+      "falt": "direktiv Dir. 2023:34.titel",
+      "nuvarde": null,
+      "api": "Tilläggsdirektiv till Skolinformationsutredningen (U 2021:04)",
+      "url": "https://data.riksdagen.se/dokument/HBB134.html",
+      "typ": "titel-saknas-i-data",
+      "notering": null
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-skolinformation",
+      "falt": "betankanden SOU 2024:28.datum",
+      "nuvarde": "2024-03-28",
+      "api": "2024-04-19",
+      "url": "https://data.riksdagen.se/dokument/HCB328.html",
+      "typ": "datum-avviker",
+      "notering": null
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-fler-vagar",
+      "falt": "direktiv Dir. 2023:31.datum",
+      "nuvarde": "2023-03-09",
+      "api": "2023-02-23",
+      "url": "https://data.riksdagen.se/dokument/HBB131.html",
+      "typ": "datum-avviker",
+      "notering": null
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-fler-vagar",
+      "falt": "direktiv Dir. 2023:31.titel",
+      "nuvarde": null,
+      "api": "Tilläggsdirektiv till Utredningen om fler vägar till arbetslivet (U 2022:03)",
+      "url": "https://data.riksdagen.se/dokument/HBB131.html",
+      "typ": "titel-saknas-i-data",
+      "notering": null
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-fler-vagar",
+      "falt": "direktiv Dir. 2023:114.datum",
+      "nuvarde": "2023-07-06",
+      "api": "2023-07-13",
+      "url": "https://data.riksdagen.se/dokument/HBB1114.html",
+      "typ": "datum-avviker",
+      "notering": null
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-fler-vagar",
+      "falt": "direktiv Dir. 2023:114.titel",
+      "nuvarde": null,
+      "api": "Tilläggsdirektiv till Utredningen om fler vägar till arbetslivet (U 2022:03)",
+      "url": "https://data.riksdagen.se/dokument/HBB1114.html",
+      "typ": "titel-saknas-i-data",
+      "notering": null
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-fler-vagar",
+      "falt": "betankanden SOU 2024:74.datum",
+      "nuvarde": "2024-11-20",
+      "api": "2024-11-22",
+      "url": "https://data.riksdagen.se/dokument/HCB374.html",
+      "typ": "datum-avviker",
+      "notering": null
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-yrkesvux",
+      "falt": "direktiv Dir. 2023:110.titel",
+      "nuvarde": null,
+      "api": "Tilläggsdirektiv till Yrkesvuxutredningen (U 2022:05)",
+      "url": "https://data.riksdagen.se/dokument/HBB1110.html",
+      "typ": "titel-saknas-i-data",
+      "notering": null
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-yrkesvux",
+      "falt": "betankanden SOU 2024:16.datum",
+      "nuvarde": "2024-02-15",
+      "api": "2024-02-19",
+      "url": "https://data.riksdagen.se/dokument/HCB316.html",
+      "typ": "datum-avviker",
+      "notering": null
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-vinst",
+      "falt": "direktiv Dir. 2022:102.titel",
+      "nuvarde": null,
+      "api": "En skola utan vinstintresse",
+      "url": "https://data.riksdagen.se/dokument/HAB1102.html",
+      "typ": "titel-saknas-i-data",
+      "notering": null
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-vinst",
+      "falt": "direktiv Dir. 2024:85.datum",
+      "nuvarde": "2024-09-26",
+      "api": "2024-09-19",
+      "url": "https://data.riksdagen.se/dokument/HCB185.html",
+      "typ": "datum-avviker",
+      "notering": null
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-vinst",
+      "falt": "direktiv Dir. 2024:85.titel",
+      "nuvarde": null,
+      "api": "Tilläggsdirektiv till Utredningen om vinst i skolan (U 2022:08)",
+      "url": "https://data.riksdagen.se/dokument/HCB185.html",
+      "typ": "titel-saknas-i-data",
+      "notering": null
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-vinst",
+      "falt": "betankanden SOU 2025:123.datum",
+      "nuvarde": "2025-12-31",
+      "api": "2026-01-01",
+      "url": "https://data.riksdagen.se/dokument/HDB3123.html",
+      "typ": "datum-avviker",
+      "notering": null
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-vinst",
+      "falt": "betankanden",
+      "nuvarde": null,
+      "api": "SOU 2025:37 (2025-04-08) Skärpta villkor för friskolesektorn [del]",
+      "url": "https://data.riksdagen.se/dokument/HDB337.html",
+      "typ": "nytt-betankande-i-api",
+      "notering": null
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-ai-forordningen",
+      "falt": "betankanden SOU 2025:101.datum",
+      "nuvarde": "2025-10-06",
+      "api": "2025-10-08",
+      "url": "https://data.riksdagen.se/dokument/HDB3101.html",
+      "typ": "datum-avviker",
+      "notering": null
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-skolpeng",
+      "falt": "direktiv Dir. 2023:153.datum",
+      "nuvarde": "2023-10-19",
+      "api": "2023-11-02",
+      "url": "https://data.riksdagen.se/dokument/HBB1153.html",
+      "typ": "datum-avviker",
+      "notering": null
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-skolpeng",
+      "falt": "betankanden SOU 2025:72.datum",
+      "nuvarde": "2025-06-12",
+      "api": "2025-06-13",
+      "url": "https://data.riksdagen.se/dokument/HDB372.html",
+      "typ": "datum-avviker",
+      "notering": null
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-skolpeng",
+      "falt": "betankanden",
+      "nuvarde": null,
+      "api": "SOU 2026:65 (2026-10-29) Verktyg för en mer likvärdig resursfördelning [slut]",
+      "url": "https://data.riksdagen.se/dokument/HEB365.html",
+      "typ": "nytt-betankande-i-api",
+      "notering": null
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-skolpeng",
+      "falt": "status",
+      "nuvarde": "pagaende",
+      "api": "slutbetänkande finns",
+      "url": null,
+      "typ": "pagaende-med-slutbetankande",
+      "notering": null
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-sprakforskola",
+      "falt": "direktiv Dir. 2025:102.datum",
+      "nuvarde": "2025-12-05",
+      "api": "2025-11-27",
+      "url": "https://data.riksdagen.se/dokument/HDB1102.html",
+      "typ": "datum-avviker",
+      "notering": null
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-amnesgymnasiet",
+      "falt": "direktiv Dir. 2025:98.datum",
+      "nuvarde": "2025-11-17",
+      "api": "2025-11-13",
+      "url": "https://data.riksdagen.se/dokument/HDB198.html",
+      "typ": "datum-avviker",
+      "notering": null
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-speciallarare",
+      "falt": "direktiv Dir. 2026:39.datum",
+      "nuvarde": "2026-05-29",
+      "api": "2026-05-28",
+      "url": "https://data.riksdagen.se/dokument/HEB139.html",
+      "typ": "datum-avviker",
+      "notering": null
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-speciallarare",
+      "falt": "betankanden SOU 2026:50.datum",
+      "nuvarde": "2026-08-13",
+      "api": "2026-08-14",
+      "url": "https://data.riksdagen.se/dokument/HEB350.html",
+      "typ": "datum-avviker",
+      "notering": null
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-skolplikt",
+      "falt": "direktiv Dir. 2025:111.datum",
+      "nuvarde": "2025-12-29",
+      "api": "2025-12-18",
+      "url": "https://data.riksdagen.se/dokument/HDB1111.html",
+      "typ": "datum-avviker",
+      "notering": null
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-skolplikt",
+      "falt": "direktiv",
+      "nuvarde": null,
+      "api": "Dir. 2026:117 (2026-09-03) Tilläggsdirektiv till Utredningen om tydligare regler vid undantag från skolplikten (U 2025:04)",
+      "url": "https://data.riksdagen.se/dokument/HEB1117.html",
+      "typ": "nytt-direktiv-i-api",
+      "notering": null
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-aldersgrans-sociala-medier",
+      "falt": "direktiv",
+      "nuvarde": null,
+      "api": "Dir. 2026:123 (2026-10-22) Tilläggsdirektiv till Utredningen om en åldersgräns på sociala medier (S 2025:11)",
+      "url": "https://data.riksdagen.se/dokument/HEB1123.html",
+      "typ": "nytt-direktiv-i-api",
+      "notering": null
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-aldersgrans-sociala-medier",
+      "falt": "betankanden SOU 2026:35",
+      "nuvarde": "SOU 2026:35",
+      "api": null,
+      "url": "https://data.riksdagen.se/dokumentlista/?doktyp=sou&rm=2026&bet=35&utformat=json&sz=5",
+      "typ": "sou-saknas-i-api",
+      "notering": null
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-barnungdomsvard-styrning",
+      "falt": "direktiv Dir. 2026:98.datum",
+      "nuvarde": "2026-08-28",
+      "api": "2026-08-27",
+      "url": "https://data.riksdagen.se/dokument/HEB198.html",
+      "typ": "datum-avviker",
+      "notering": null
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-barnungdomsvard-styrning",
+      "falt": "direktiv Dir. 2026:98.kommitté",
+      "nuvarde": "S 2025:08",
+      "api": "S 2025:06",
+      "url": "https://data.riksdagen.se/dokument/HEB198.html",
+      "typ": "direktiv-annan-kommitte",
+      "notering": "Tilläggsdirektiv till utredningen om samordning och stöd vid placering av barn och unga (S 2025:08)"
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-barnungdomsvard-reform",
+      "falt": "direktiv Dir. 2025:39.datum",
+      "nuvarde": "2025-04-28",
+      "api": "2025-04-16",
+      "url": "https://data.riksdagen.se/dokument/HDB139.html",
+      "typ": "datum-avviker",
+      "notering": null
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-barnungdomsvard-reform",
+      "falt": "direktiv Dir. 2025:39.titel",
+      "nuvarde": null,
+      "api": "Tilläggsdirektiv till Utredningen om en reform av den statliga barn- och ungdomsvården för en trygg och kvalitativ vård (S 2024:01)",
+      "url": "https://data.riksdagen.se/dokument/HDB139.html",
+      "typ": "titel-saknas-i-data",
+      "notering": null
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-barnungdomsvard-reform",
+      "falt": "direktiv",
+      "nuvarde": null,
+      "api": "Dir. 2025:95 (2025-10-30) Tilläggsdirektiv till utredningen En reform av den statliga barn- och ungdomsvården för en trygg och kvalitativ vård (S 2024:01)",
+      "url": "https://data.riksdagen.se/dokument/HDB195.html",
+      "typ": "nytt-direktiv-i-api",
+      "notering": null
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-integritetsbevarande",
+      "falt": "direktiv Dir. 2025:64.datum",
+      "nuvarde": "2025-06-18",
+      "api": "2025-06-19",
+      "url": "https://data.riksdagen.se/dokument/HDB164.html",
+      "typ": "datum-avviker",
+      "notering": null
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-rektor",
+      "falt": "direktiv Dir. 2024:48.titel",
+      "nuvarde": null,
+      "api": "Bättre förutsättningar för rektorerna inom skolväsendet",
+      "url": "https://data.riksdagen.se/dokument/HCB148.html",
+      "typ": "titel-saknas-i-data",
+      "notering": null
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-rektor",
+      "falt": "direktiv Dir. 2025:50.titel",
+      "nuvarde": null,
+      "api": "Tilläggsdirektiv till Utredningen om bättre förutsättningar för rektorerna inom skolväsendet (U 2024:03)",
+      "url": "https://data.riksdagen.se/dokument/HDB150.html",
+      "typ": "titel-saknas-i-data",
+      "notering": null
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-rektor",
+      "falt": "betankanden SOU 2026:4.datum",
+      "nuvarde": "2026-01-14",
+      "api": "2026-01-20",
+      "url": "https://data.riksdagen.se/dokument/HEB34.html",
+      "typ": "datum-avviker",
+      "notering": null
+    },
+    {
+      "fil": "utredningar.json",
+      "post": "utr-grundlaggande-svenska",
+      "falt": "direktiv",
+      "nuvarde": null,
+      "api": "Dir. 2024:72 (2024-08-22) Tilläggsdirektiv till Utredningen om införande av grundläggande svenska och översyn av modersmålsundervisningen (U 2023:08)",
+      "url": "https://data.riksdagen.se/dokument/HCB172.html",
+      "typ": "nytt-direktiv-i-api",
+      "notering": null
+    }
+  ],
+  "fel": [],
+  "datum": "2026-11-10"
+}
