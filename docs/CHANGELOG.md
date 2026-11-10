@@ -5,6 +5,7 @@ Types: `feat` | `fix` | `refactor` | `docs` | `chore` | `perf`
 
 ---
 
+[2026-11-10] refactor: Sprint 17 — testa-pilotsida.js hämtar förväntade tal (kedja, korpus, matrisstorlek, kontrollcell, radsumma, hämtningsdatum) och testvyer ur datafilen i stället för hårdkodade värden; 52/52 mot nuvarande betygsfil.
 [2026-11-10] feat: Sprint 17 T6 — På språklig grund (SOU 2025:9 → prop. 2025/26:194 avsnitt 7.1, 7.2 och 8; briefens "avsnitt 8" är betänkandets avsnitt 8 enligt propositionens avsnitt 3; eget id i piloten, data/reforms.json orört): 13 förslag, 20 publicerade remissvar (Almega och Idéburna avstod), 140 utmaningar (Övrigt 3,6 %), samstämmighet identifiering 38/40 och typning 38/40, regelprövning 40/0 ändrade; datafil utmaningar-spraklig.json.
 [2026-11-10] feat: Sprint 17 T5 — Kunskap för alla (SOU 2025:19 → prop. 2025/26:194 avsnitt 6.1–6.8 med Läroplansutredningens delar och 8; prop. 195 och 196 för SOU-avsnitt 4.2; avgränsning ur propositionernas egen text): 12 förslag, 24 publicerade remissvar, 284 utmaningar (Övrigt 7,7 %), samstämmighet identifiering 39/40 och typning 36/40, regelprövning 106/2 ändrade; datafil utmaningar-laroplaner.json.
 [2026-11-10] feat: Sprint 17 T4 — Tid för undervisningsuppdraget (SOU 2025:26 → prop. 2025/26:196; skollagen och diskrimineringslagen): 20 förslag, 27 publicerade remissvar, 615 utmaningar (Övrigt 4,7 %), samstämmighet identifiering 37/40 och typning 35/40, regelprövning 159/0 ändrade; datafil utmaningar-tid.json. Första reformen med flera lagar i K8/K10.
