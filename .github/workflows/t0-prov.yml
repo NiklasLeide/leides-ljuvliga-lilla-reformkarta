@@ -16,6 +16,8 @@ permissions:
 
 jobs:
   pages-trigger:
+    # Körs bara när triggerfilen innehåller ordet "pages" (fråga (a) besvarad i första körningen).
+    if: contains(github.event.head_commit.message, '[pages]')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6

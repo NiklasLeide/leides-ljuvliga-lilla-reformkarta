@@ -5,6 +5,7 @@ Types: `feat` | `fix` | `refactor` | `docs` | `chore` | `perf`
 
 ---
 
+[2026-11-10] fix: Sprint 15 T0 — remiss-e2e.js: appfel avgörs av resursens adress (location().url) i stället för felkoden; GitHub-runnern rapporterar blockerade externa resurser som net::ERR_FAILED utan URL, vilket gav falska appfel (25/27 FEL i första runner-körningen). Pages-provjobbet körs nu bara på commits märkta [pages].
 [2026-11-10] chore: Sprint 15 T0 — tillfälligt provarbetsflöde .github/workflows/t0-prov.yml: (a) pushar en ofarlig provfil under docs/automat/ till master med GITHUB_TOKEN för att se om Pages publicerar, (b) kör remiss-e2e med Playwright i Actions. Tas bort efter T0. (Efterskrivet: Sprint 14 A2-synk = merge 0696b04, dev = master, Pages run 134 success.)
 [2026-11-10] docs: Sprint 14 T9 — DoD GODKÄND (oberoende subagent, 0 blockerande). Åtgärdat: A1 remiss-e2e.js path.resolve för --ut; A3 formulering om SFS 2026:1242 i ändringslistan; A2 dev/master synkas till samma SHA efter denna commit. Sprint 14 → Completed.
 [2026-11-10] chore: Sprint 14 T8 — deploy till produktion. dev→master via ./deploy.sh, merge-SHA 6468565, rollback-SHA 37c2616. Pages run 133 success. Live-verifierat: meta.json 2026-11-10 (= deploydatum), remisser.json, 27 ändringsposter, titel 2025–2031, tidslinjerättningar.
