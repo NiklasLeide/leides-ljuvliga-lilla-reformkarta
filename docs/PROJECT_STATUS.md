@@ -1,12 +1,14 @@
 # Project Status — leides-ljuvliga-lilla-reformkarta
 
 > **Last updated:** 2026-11-10
-> **Current sprint:** Sprint 14 — Revisionssprinten (startad 2026-11-10)
+> **Current sprint:** Underhåll — Sprint 14 stängd 2026-11-10 (nästa: Sprint 15, automatpublicering)
 > **Sprint dates:** november 2026
 
 ---
 
-## Current: Sprint 14 — Revisionssprinten
+## Completed: Sprint 14 — Revisionssprinten
+
+DoD-granskad och **GODKÄND** (T9, 2026-11-10, oberoende subagent) — alla delar av stop condition med verktygsbelägg: T0–T8 klara, 0 öppna bevakningsissues, meta.json live = 2026-11-10 = deploydatum, Pages-success för merge-SHA 6468565. Rollback-punkt 37c2616.
 
 **Mål:** Hela sajten är genomgången mot primärkälla och aktuell per deploydatum.
 Skolverkets remiss av nya läroplaner och kursplaner syns på sajten (Remissläge).
@@ -44,7 +46,7 @@ deploydatum, DoD godkänd.
 | T7 | Issues | ✅ Done | #13–#20 har var sin dispositionskommentar per punkt (via GitHub MCP), alla kryssrutor avbockade i issue-bodyn och stängda med state_reason=completed. **0 öppna issues** (list_issues OPEN → totalCount 0). Dispositioner: Dir. 2026:107 → spåras (#13); SOU 2026:65 → skolpeng slutbetänkande (#19); övriga SOU (57, 56, 58×3, 59, 60, 61, 62, 53, 63, 64, 66) → avförda; regleringsbrev FEL → DEC-008, kontroll i chatten. Bevakningsluckor noterade i issues: Dir. 2026:117 (#13), Dir. 2026:123 i tom v.44 (#18), remissen 2026-11-09 (#20). |
 | T7b | Två riktade UI-rättningar | ✅ Done | (1) tidslinje.html: `.sidebar` fick z-index 18 (över gantt-huvudet 15 och markörer/Nu-linje ≤10, under filterraden 20) — endast lagerordning. e2e: elementFromPoint mitt på panelrubriken träffar `detail-title` för både remisshändelse och befintlig händelse (laroplaner-forslag); utan rättningen träffar samma kontroll `gantt-header-chart` (verifierat). Tre tidslinjebilder (desktop) ersatta. (2) reformer.html 375 px: **ingen ändring** — vid öppning överlappar inte stängknappen rubriken (knapp y 16–44, kategorietikett från y 51, rubrik från y 74). Överlappet i oppen-reformer-375.png uppstår för att e2e skrollar remissrutan in i bild (scrollTop 63) och stängknappen är sticky — avsett beteende. Testsvit 82/82, e2e 27/27, 0 appfel. |
 | T8 | Deploy | ✅ Done | Klartecken 2026-11-10 (villkorat av grön T7b → uppfyllt). `./deploy.sh` (normal merge, ingen force): **merge-SHA `6468565`**, **rollback-SHA `37c2616`** (master före deploy; master-egna commits var bara preview-syncar i dev/, verifierat med diff utanför dev/ = tomt). Pages "build and deployment" run 133 för 6468565 = **completed/success** (13:15Z). Hämtat från reformer.leide.se: meta.json `{"senast_uppdaterad": "2026-11-10"}` = deploydatum, remisser.json HTTP 200, andringar.json 27 poster (senaste 2026-11-09), tidslinje.html med z-index-rättningen och NOW=new Date(), index-titel "Skolreformer 2025–2031". |
-| T9 | DoD review | ⬜ Todo | dod-reviewer mot stop condition, avvikelser dokumenterade, sprinten Completed |
+| T9 | DoD review | ✅ Done | Oberoende subagent-granskning: **GODKÄND**, 0 blockerande avvikelser. Egen körning: 82/82 tester, e2e 27/27 (0 konsolfel, okänt reform_id → console.error), JSON 9/9, språkregel 1 träff = dokumenterat riksdagscitat, 0 öppna issues, Pages run 133 success, live meta.json 2026-11-10. Primärkällsstickprov 8/8 stämmer (UbU30 rskr 438, SFS 2026:1243/1242/1634/1198 via lagen.nu, Dir. 2026:107, U2026/01483-PDF, Skolverkets remissida); Dir. 2026:105, U2026/01569, U2026/01573 inte stickprovade av granskaren. Tre icke-blockerande fynd åtgärdade i T9: **A1** remiss-e2e.js använde path.join så att absolut `--ut` hamnade i repot → path.resolve; **A3** ändringslistan kallade SFS 2026:1242 "förordningen" → rättat (lag om ändring i skollagen; datat var redan rätt); **A2** dev ≠ master efter T8-dokcommiten → synkat efter T9 (se CHANGELOG). Accepterade/dokumenterade avvikelser: tidslinjen 1433 px vid äkta mobilemulering, guideposter saknas för gy25/vinst/ai, bevakningsluckor och regleringsbrev/BP27 → Sprint 15-backlogg (ROADMAP); 22 kvarvarande revisionsfynd av klass "lämnas". Sprint 10 T6 (täckningskartan) hanterades enligt F3 genom denna DoD — Sprint 10 räknas därmed stängd. |
 
 ### Specifikation T3 (ändringslistans innehåll)
 En rad per ändring: fil, post, nuvärde, nytt värde, käll-URL, klass. RUTIN = värdet
