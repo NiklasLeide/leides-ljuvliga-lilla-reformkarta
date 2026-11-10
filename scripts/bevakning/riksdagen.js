@@ -75,6 +75,7 @@
 const fs = require('fs');
 const path = require('path');
 const { extractManifest } = require('./extract.js');
+const { arSkolamne } = require('./amne.js');
 
 const API_BASE = 'https://data.riksdagen.se';
 const USER_AGENT = 'reformkartan-bevakning (reformer.leide.se)';
@@ -340,6 +341,41 @@ async function fetchDokumentWindow({ doktyp, from, tom, fetcher, delayMs = REQUE
   return Array.isArray(docs) ? docs : [docs];
 }
 
+// Sprint 15 T5 — DIREKTIV: fönstret läggs i klienten på datum ELLER systemdatum. Rotorsak till missarna
+// 2026: Dir. 2026:117 har datum 2026-09-03 men systemdatum 2026-09-09 (inlagt i riksdagens databas efter
+// v.37-körningen 09-07). API:ts from/tom filtrerar bara på datum, så direktivet föll utanför både v.37
+// och v.38. Regel: med om datum ligger i fönstret, ELLER om systemdatum ligger i fönstret och direktivet
+// är högst SEN_INLAGGNING_DAGAR gammalt. Spärren behövs eftersom riksdagen ibland indexerar om i bulk
+// (alla poster i fixturen dir-dokumentlista-window.json fick systemdatum 2024-06-18) — utan den skulle en
+// omindexering spola in hela årets direktiv i ett veckofönster.
+async function fetchDirektivSystemdatum({ from, tom, fetcher, delayMs = REQUEST_DELAY_MS_DEFAULT }) {
+  const ar = new Set([Number(tom.slice(0, 4)), Number(from.slice(0, 4))]);
+  if (Number(from.slice(5, 7)) <= 2) ar.add(Number(from.slice(0, 4)) - 1); // sena inläggningar över årsskiftet
+  const ut = [];
+  for (const rm of [...ar].sort()) {
+    const params = new URLSearchParams({ doktyp: 'dir', rm: String(rm), sort: 'datum', sortorder: 'desc', sz: '200', utformat: 'json' });
+    const data = await fetcher(`${API_BASE}/dokumentlista/?${params}`);
+    await sleep(delayMs);
+    const docs = (data && data.dokumentlista && data.dokumentlista.dokument) || [];
+    ut.push(...(Array.isArray(docs) ? docs : [docs]));
+  }
+  const sedda = new Set();
+  return ut.filter(d => {
+    const nyckel = d && (d.dok_id || `${d.rm}:${d.beteckning}`);
+    if (!d || sedda.has(nyckel)) return false;
+    sedda.add(nyckel);
+    const datum = String(d.datum || '').slice(0, 10);
+    const sys = String(d.systemdatum || '').slice(0, 10);
+    if (datum >= from && datum <= tom) return true;
+    return sys >= from && sys <= tom && datum >= minusDagar(tom, SEN_INLAGGNING_DAGAR);
+  });
+}
+const SEN_INLAGGNING_DAGAR = 60;
+function minusDagar(iso, n) {
+  const d = new Date(`${iso}T00:00:00Z`); d.setUTCDate(d.getUTCDate() - n);
+  return d.toISOString().slice(0, 10);
+}
+
 const DIR_BET_RE = /^Dir\.\s*(\d{4}:\d+)$/;
 // Kommittébeteckning i tilläggsdir-titlar, t.ex. "(U 2023:05)". Löpnumret kan
 // vara 2–3 siffror (verifierat: zero-paddat till minst 2, men kan vara 3).
@@ -557,6 +593,75 @@ function jobC_tillaggsdirToTracked({ direktivLista, manifest }) {
 
 // ----------------------------- Toppfunktion ---------------------------------
 
+// Jobb B4 (Sprint 15 T5, DEC-020): direktiv från ANDRA departement än U-dep vars titel handlar om
+// skolväsendet (ämnesregeln i amne.js). Kandidater — människan avgör. U-dep täcks redan av jobb B.
+function jobB4_direktivAnnatDepartement({ direktivLista, manifest }) {
+  const kandaDir = new Set(manifest.dir.map(d => d.id));
+  const deltan = [];
+  for (const entry of direktivLista) {
+    const bet = dirBetFromEntry(entry);
+    if (bet && kandaDir.has(bet)) continue;
+    if (isUtbildningsdepOrgan(entry.organ)) continue;
+    if (!arSkolamne({ titel: entry.titel || '' })) continue;
+    deltan.push({
+      typ: 'direktiv-annat-departement',
+      beteckning: bet || entry.beteckning,
+      titel: entry.titel || null,
+      datum: entry.datum || null,
+      departement: entry.organ || null,
+      url: absUrl(entry.dokument_url_html) || `${API_BASE}/dokument/${entry.dok_id}`,
+    });
+  }
+  return deltan;
+}
+
+// Kommittébeteckning ur dir-entryts undertitel ("kommittébeteckning: U 2024:01").
+function kommittebeteckningUrEntry(entry) {
+  const m = /kommittébeteckning:\s*([A-ZÅÄÖ]{1,3}\s+\d{4}:\d+)/i.exec((entry && entry.undertitel) || '');
+  return m ? m[1].replace(/\s+/g, ' ') : null;
+}
+
+// Jobb C2 (Sprint 15 T5): tilläggsdirektiv till spårade utredningar OBEROENDE av fönstret — sökning per
+// kommittébeteckning, samma metod som revisionsskriptet (scripts/revision/revision.js). Fångar
+// direktiv som lagts in sent eller vars kommittébeteckning i riksdagens metadata är fel (Dir. 2026:98).
+// Stateless: rapporteras tills direktivet finns i datafilen (automatfilen lägger till dem där både
+// kommittébeteckning och namn stämmer — de som återstår kräver människa).
+async function jobC2_tillaggsdirSokning({ manifest, fetcher, delayMs, verbose = false }) {
+  const kandaDir = new Set(manifest.dir.map(d => d.id));
+  const deltan = [];
+  for (const u of manifest.utredningar) {
+    const bet = u.id;
+    const params = new URLSearchParams({ doktyp: 'dir', sok: `"${bet}"`, utformat: 'json', sz: '50' });
+    let docs = [];
+    try {
+      const data = await fetcher(`${API_BASE}/dokumentlista/?${params}`);
+      await sleep(delayMs);
+      docs = (data && data.dokumentlista && data.dokumentlista.dokument) || [];
+      docs = Array.isArray(docs) ? docs : [docs];
+    } catch (err) {
+      if (verbose) process.stderr.write(`[jobC2] sökning ${bet} misslyckades: ${err.message}\n`);
+      throw err;
+    }
+    for (const e of docs) {
+      const dbet = dirBetFromEntry(e);
+      if (!dbet || kandaDir.has(dbet)) continue;
+      const titel = e.titel || '';
+      const kb = kommittebeteckningUrEntry(e);
+      if (kb !== bet && !titel.includes(`(${bet})`)) continue;
+      deltan.push({
+        typ: 'tillaggsdir-till-tracked-utredning',
+        direktiv_beteckning: dbet,
+        kopplad_utredning: bet,
+        titel,
+        datum: e.datum || null,
+        kommittebeteckning_riksdagen: kb,
+        url: absUrl(e.dokument_url_html) || `${API_BASE}/dokument/${e.dok_id}`,
+      });
+    }
+  }
+  return deltan;
+}
+
 async function buildReport({ from, tom, dataDir, fetcher, verbose = false, delayMs } = {}) {
   if (!dataDir) dataDir = path.join(__dirname, '..', '..', 'data');
   if (typeof fetcher !== 'function') {
@@ -575,10 +680,15 @@ async function buildReport({ from, tom, dataDir, fetcher, verbose = false, delay
   deltan.push(...jobA.deltan);
 
   // Jobb B + C delar en list-fetch
-  const direktivLista = await fetchDokumentWindow({ doktyp: 'dir', from, tom, fetcher, delayMs });
+  // Sprint 15 T5: direktiv på systemdatum (se fetchDirektivSystemdatum), B4 ämnesord för övriga
+  // departement, C2 fönsteroberoende sökning per spårad utredning (dubbletter mot C tas bort).
+  const direktivLista = await fetchDirektivSystemdatum({ from, tom, fetcher, delayMs });
   const bDeltan = await jobB_nyttDirektivUtbildningsdep({ direktivLista, manifest, fetcher, verbose, delayMs });
+  const b4Deltan = jobB4_direktivAnnatDepartement({ direktivLista, manifest });
   const cDeltan = jobC_tillaggsdirToTracked({ direktivLista, manifest });
-  deltan.push(...bDeltan, ...cDeltan);
+  const c2Deltan = (await jobC2_tillaggsdirSokning({ manifest, fetcher, delayMs, verbose }))
+    .filter(d => !cDeltan.some(c => c.direktiv_beteckning === d.direktiv_beteckning));
+  deltan.push(...bDeltan, ...b4Deltan, ...cDeltan, ...c2Deltan);
 
   // Jobb B2: nya propositioner i samma fönster
   const propLista = await fetchDokumentWindow({ doktyp: 'prop', from, tom, fetcher, delayMs });
@@ -635,6 +745,10 @@ module.exports = {
   jobB2_nyaPropositioner,
   jobB3_souPubliceringar,
   jobC_tillaggsdirToTracked,
+  jobB4_direktivAnnatDepartement,
+  jobC2_tillaggsdirSokning,
+  fetchDirektivSystemdatum,
+  kommittebeteckningUrEntry,
   fetchDokumentWindow,
   lookupProp,
   normalizeDirBet,

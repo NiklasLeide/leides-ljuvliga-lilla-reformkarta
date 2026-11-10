@@ -172,3 +172,13 @@ test('trasig indata kastar — aldrig tom rapport', () => {
   assert.throws(() => buildRapport({ riksdagen: {}, rss: RSS }), /saknar deltan/);
   assert.throws(() => buildRapport({ riksdagen: RIKSDAGEN, rss: null }), /saknar deltan/);
 });
+
+// Sprint 15 T5: täckningskartan i docs/BEVAKNING.md ska matcha rapport.js SEKTIONER exakt (typ och
+// ordning). Förut kontrollerades det för hand vid DoD (Sprint 10 T6) — nu fäller testet vid glidning.
+test('täckningskartan i BEVAKNING.md matchar SEKTIONER exakt', () => {
+  const fsx = require('node:fs');
+  const pathx = require('node:path');
+  const karta = [...fsx.readFileSync(pathx.join(__dirname, '..', '..', 'docs', 'BEVAKNING.md'), 'utf8').matchAll(/^\| `([a-z0-9-]+)` \|/gm)].map(m => m[1]);
+  const sek = [...fsx.readFileSync(pathx.join(__dirname, 'rapport.js'), 'utf8').matchAll(/\{ typ: '([a-z0-9-]+)'/g)].map(m => m[1]);
+  assert.deepEqual(karta, sek);
+});

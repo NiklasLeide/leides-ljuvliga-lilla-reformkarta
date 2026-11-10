@@ -36,9 +36,12 @@ const FIXTURE_RB = fs.readFileSync(
   path.join(__dirname, 'fixtures', 'statskontoret-regleringsbrev.rss.xml'), 'utf8');
 
 // Routar på feed-URL:en — okänd URL kastar (fångar feldragna konfigändringar).
+const FIXTURE_KOMMITTEDIR = fs.readFileSync(path.join(__dirname, 'fixtures', 'regeringen-kommittedirektiv-alla.rss.xml'), 'utf8');
 const fixtureFetcher = async (url) => {
   if (url.includes('preFilteredCategories=2085')) return FIXTURE;
   if (url.includes('preFilteredCategories=1342')) return FIXTURE_UPPDRAG;
+  // Sprint 15 T5: kommittédirektiv alla departement (departementsuppdrag)
+  if (url.includes('preFilteredCategories=1327')) return FIXTURE_KOMMITTEDIR;
   if (url.includes('statskontoret.se')) return FIXTURE_RB;
   throw new Error(`fixtureFetcher: okänd feed-url ${url}`);
 };
@@ -107,7 +110,7 @@ test('buildReport: fönstergränser är inklusiva', async () => {
 test('multi-feed: alla flöden körs, deltan typas per feed-konfig', async () => {
   // 20–31 dec 2025: känd händelse — tioårig grundskola-uppdraget 2025-12-22.
   const rapport = await buildReport({ from: '2025-12-20', tom: '2025-12-31', fetcher: fixtureFetcher });
-  assert.deepEqual(rapport.floden.map(f => f.namn), ['lagradsremiss', 'regeringsuppdrag', 'regleringsbrev']);
+  assert.deepEqual(rapport.floden.map(f => f.namn), ['lagradsremiss', 'regeringsuppdrag', 'departementsuppdrag', 'regleringsbrev']);
   const uppdrag = rapport.deltan.filter(d => d.typ === 'regeringsuppdrag');
   const tioarig = uppdrag.find(d => /tioårig grundskola/.test(d.titel));
   assert.ok(tioarig, 'tioårig grundskola-uppdraget ska fångas');
@@ -203,13 +206,13 @@ test('per-feed-degradering: fallet flöde ger feed_fel, övriga levererar', asyn
   assert.match(rb.feed_fel, /fetch failed/);
   // Övriga flöden opåverkade — uppdrags-deltat finns kvar
   assert.ok(rapport.deltan.some(d => d.typ === 'regeringsuppdrag'));
-  assert.equal(rapport.floden.length, 3);
+  assert.equal(rapport.floden.length, 4);
 });
 
 test('per-feed-degradering: ALLA flöden fallna → throw (aldrig tom rapport)', async () => {
   const fetcher = async () => { throw new Error('Nätverksfel: ECONNRESET'); };
   await assert.rejects(() => buildReport({ from: '2026-06-01', tom: '2026-06-10', fetcher }),
-    /Alla 3 RSS-flöden föll/);
+    /Alla 4 RSS-flöden föll/);
 });
 
 test('uppdrag-fixturen: 100 poster, alla parsas med titel/datum/url', () => {
