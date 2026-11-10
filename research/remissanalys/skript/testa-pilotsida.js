@@ -1,0 +1,121 @@
+// Testar pilot/utmaningar/index.html i headless Chromium (Playwright). Sprint 16 T4.
+// Kör från repo-roten:  node research/remissanalys/skript/testa-pilotsida.js
+// Startar en lokal statisk webbserver för pilot/utmaningar/, laddar sidan i desktop- och 380 px-läge och kontrollerar:
+// inga konsolfel/sidfel, banderoll, noindex, kedja, korpus, staplar = avsändarräkningen i datafilen, matris (riktig tabell),
+// lista under 700 px, filter + URL-hash, detaljvy med citat (sida + länk), ingen modellskriven fritext, metodruta, tangentbord.
+const http = require('http'), fs = require('fs'), path = require('path');
+const { chromium } = require('playwright');
+const ROT = path.resolve(__dirname, '../../../pilot/utmaningar');
+const D = JSON.parse(fs.readFileSync(path.join(ROT, 'data/utmaningar-betyg.json'), 'utf8'));
+const MIME = { '.html': 'text/html; charset=utf-8', '.json': 'application/json' };
+const server = http.createServer((q, r) => {
+  let rel = decodeURIComponent(q.url.split('?')[0].split('#')[0]);
+  if (rel.endsWith('/')) rel += 'index.html';
+  const p = path.join(ROT, rel);
+  if (!p.startsWith(ROT) || !fs.existsSync(p)) { r.writeHead(404); return r.end(); }
+  r.writeHead(200, { 'Content-Type': MIME[path.extname(p)] || 'application/octet-stream' });
+  fs.createReadStream(p).pipe(r);
+});
+const resultat = []; let fel = 0;
+const ok = (namn, villkor, info = '') => { resultat.push(`${villkor ? 'OK ' : 'FEL'} ${namn}${info ? ' — ' + info : ''}`); if (!villkor) fel++; };
+
+(async () => {
+  await new Promise(r => server.listen(0, '127.0.0.1', r));
+  const URL = `http://127.0.0.1:${server.address().port}/`;
+  const browser = await chromium.launch();
+  for (const vy of [{ namn: 'desktop', viewport: { width: 1280, height: 900 } }, { namn: '380px', viewport: { width: 380, height: 800 } }]) {
+    const page = await browser.newPage({ viewport: vy.viewport });
+    const konsol = [];
+    page.on('console', m => { if (m.type() === 'error') konsol.push(m.text()); });
+    page.on('pageerror', e => konsol.push(e.message));
+    page.on('requestfailed', r => konsol.push('requestfailed ' + r.url()));
+    await page.goto(URL); await page.waitForSelector('#staplar button');
+    const v = vy.namn;
+
+    ok(`${v}: banderoll`, (await page.textContent('.banderoll')).includes('Pilot under granskning. Kategoriseringar är maskinellt framtagna och inte kvalitetssäkrade.'));
+    ok(`${v}: banderoll alltid synlig (sticky)`, await page.$eval('.banderoll', e => getComputedStyle(e).position === 'sticky'));
+    ok(`${v}: meta noindex, nofollow`, (await page.getAttribute('meta[name=robots]', 'content')) === 'noindex, nofollow');
+    const kedja = await page.$$eval('#kedja a', as => as.map(a => a.textContent + '|' + a.href));
+    ok(`${v}: kedja med länkar (SOU, prop, bet, rskr)`, ['SOU 2025:18', 'Prop. 2025/26:197', 'UbU26', 'Rskr. 2025/26:335'].every(s => kedja.some(k => k.includes(s) && k.includes('|https://'))), kedja.length + ' länkar');
+    const korpus = await page.textContent('#korpus');
+    ok(`${v}: korpus i klartext`, /29 publicerade remissvar/.test(korpus) && /28 avsändare/.test(korpus) && /6 opublicerade remissvar saknas, varav 5 från enskilda huvudmän/.test(korpus));
+
+    // Översikt 1 mot datafilens avsändarräkning
+    const st = await page.$$eval('#staplar button', bs => bs.map(b => [b.dataset.typ, b.querySelector('.tal').textContent]));
+    const forv = D.utmaningstyper.map(t => [t.namn, `${D.avsandarrakning.per_utmaningstyp[t.namn].antal_avsandare} av ${D.avsandarrakning.totalt.antal_avsandare}`]);
+    ok(`${v}: översikt 1 = avsändarräkningen i datafilen`, JSON.stringify(st) === JSON.stringify(forv), st.map(x => x.join(': ')).join('; '));
+
+    if (v === 'desktop') {
+      ok(`${v}: matris är <table> med th scope (9 kolumnrubriker inkl. sakområde, 13 rader)`,
+        await page.$eval('#matris', t => t.tagName === 'TABLE' && t.querySelectorAll('th[scope=col]').length === 10 && t.querySelectorAll('th[scope=row]').length === 13));
+      ok(`${v}: matrisen synlig, listan dold`, (await page.isVisible('#matris')) && !(await page.isVisible('#matrislista')));
+      const kombo = D.avsandarrakning.per_kombination.find(k => k.utmaningstyp === 'Tidplan och reformtakt' && k.sakomrade === 'Införande och ikraftträdande');
+      const cell = await page.$eval('#matris button[data-sak="20"][data-typ="Tidplan och reformtakt"]', b => b.textContent);
+      ok(`${v}: matriscell kap 20 × Tidplan = datafilen`, String(kombo.antal_avsandare) === cell, `${cell} / ${kombo.antal_avsandare}`);
+      const rad = D.avsandarrakning.per_sakomrade['Förslag på ändringar i det nationella provsystemet'].antal_avsandare;
+      const radcell = await page.$eval('#matris tr:has(th button[data-sak="17"]) td:last-child button', b => b.textContent);
+      ok(`${v}: radsumma kap 17 (alla typer) = datafilen`, String(rad) === radcell, `${radcell} / ${rad}`);
+    } else {
+      ok(`${v}: lista ersätter matrisen under 700 px`, !(await page.isVisible('#matris')) && (await page.isVisible('#matrislista')));
+      ok(`${v}: ingen horisontell sidrullning vid 380 px`, await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1), await page.evaluate(() => document.documentElement.scrollWidth + ' px'));
+    }
+
+    await page.click('#staplar button[data-typ="Kostnader och finansiering"]');
+    ok(`${v}: stapelklick filtrerar och skrivs i URL-hash`, (await page.evaluate(() => decodeURIComponent(location.hash))).includes('typ=Kostnader och finansiering'));
+    ok(`${v}: stapelklick visar detaljvy`, /Utmaningstyp: Kostnader och finansiering/.test(await page.textContent('#detaljrubrik')));
+
+    await page.goto(URL + '#sak=17&fg=kommuner&tolk=0'); await page.waitForSelector('#skrev .citat');
+    ok(`${v}: URL-hash återställer filter`, (await page.$eval('#tolk', i => !i.checked)) && (await page.$eval('input[name=fg][value=kommuner]', i => i.checked)));
+    ok(`${v}: inga tolkade kopplingar när reglaget är av`, (await page.$$('#skrev .etikett.tolkad')).length === 0);
+
+    // varje citat (i flera vyer) har sida och länk
+    let antal = 0, utan = 0;
+    for (const h of ['#sak=17', '#sak=utan', '#typ=Organisation och planering', '#typ=Övrigt']) {
+      await page.goto(URL + h); await page.waitForSelector('#skrev .citat');
+      antal += await page.$$eval('#skrev .citat', c => c.length);
+      utan += await page.$$eval('#skrev .citat', cs => cs.filter(c => !c.querySelector('a[href*="#page="]') || !/s\. \d+/.test(c.textContent)).length);
+    }
+    ok(`${v}: varje visat citat har sida och länk`, utan === 0, `${antal} citat kontrollerade`);
+    ok(`${v}: tolkad koppling markeras när reglaget är på`, (await (async () => { await page.goto(URL + '#typ=Tidplan och reformtakt'); await page.waitForSelector('#skrev .citat'); return (await page.$$('#skrev .etikett.tolkad')).length; })()) > 0);
+    ok(`${v}: "avsändaren nämns" med utfällbar mening`, (await page.$$('#skrev .etikett.namn')).length > 0 && (await page.$$('#skrev details')).length > 0);
+
+    await page.goto(URL + '#sak=16&typ=Organisation och planering'); await page.waitForSelector('#sager .prop');
+    const sager = await page.textContent('#sager');
+    ok(`${v}: proposition och lag (överensstämmelse, Reformkartans koppling, SFS-status)`,
+      /Utredningens förslag stämmer/.test(sager) && /Reformkartans koppling/.test(sager) && /(i beslutad lag|ej i SFS per 2026-11-10|ej lagtext)/.test(sager));
+    ok(`${v}: avvikelsetext och lagtext utfällbara`, (await page.$$('#sager details')).length >= 2);
+
+    await page.goto(URL + '#sak=utan'); await page.waitForSelector('#skrev .citat');
+    ok(`${v}: "Utan koppling" visas`, /Utan koppling till sakområde/.test(await page.textContent('#detaljrubrik')));
+    const jmf = await page.textContent('#jamforelse');
+    const med = D.utmaningar.filter(u => u.namngivning_i_propositionen !== null).length;
+    ok(`${v}: antal med/utan jämförelse mot propositionen (${med}/${D.utmaningar.length - med})`,
+      jmf.includes(`${med} av dem hör till ett propositionsavsnitt`) && jmf.includes(`${D.utmaningar.length - med} saknar`), jmf);
+
+    // Ingen modellskriven fritext ur datafilen
+    let traffar = [];
+    const mot = [...new Set(D.utmaningar.flatMap(u => [u.utmaningstyp.motivering, u.koppling.motivering]).filter(m => m && m.length > 12))];
+    const meta = [D.meta.tolkning, D.meta.ingen_bedomning, D.meta.korpus.beskrivning, ...Object.values(D.meta.kopplingsnivaer)];
+    for (const h of ['#typ=Otydlighet i förslaget', '#typ=Organisation och planering', '#sak=9', '#sak=utan']) {
+      await page.goto(URL + h); await page.waitForSelector('#skrev .citat');
+      const body = await page.textContent('body');
+      traffar = traffar.concat([...mot, ...meta].filter(m => body.includes(m)));
+    }
+    ok(`${v}: ingen modellskriven fritext (motiveringar, meta-texter) visas`, traffar.length === 0, traffar.slice(0, 2).join(' | '));
+
+    const metod = await page.textContent('#metod');
+    ok(`${v}: metodruta`, /Tolkning/.test(metod) && /Saknade remissvar/.test(metod) && /2026-11-10/.test(metod) && /inte att synpunkten har bemötts/.test(metod) && /bedömer inte om utmaningarna är lösta/.test(metod));
+
+    await page.goto(URL); await page.waitForSelector('#staplar button');
+    await page.focus('#staplar button[data-typ="System och teknik"]'); await page.keyboard.press('Enter');
+    ok(`${v}: tangentbord (Enter på stapel)`, (await page.evaluate(() => decodeURIComponent(location.hash))).includes('typ=System och teknik'));
+    ok(`${v}: inga länkar till andra sidor på sajten`, (await page.$$eval('a', as => as.filter(a => new URL(a.href).host === location.host && !a.href.includes('#')).length)) === 0);
+    ok(`${v}: inga konsolfel`, konsol.length === 0, konsol.join(' | '));
+    if (process.env.SKARMBILD) await page.screenshot({ path: path.join(process.env.SKARMBILD, 'pilot-' + v + '.png'), fullPage: false });
+    await page.close();
+  }
+  await browser.close(); server.close();
+  console.log(resultat.join('\n'));
+  console.log(fel ? `\n${fel} FEL av ${resultat.length}` : `\nALLA ${resultat.length} KONTROLLER OK`);
+  process.exit(fel ? 1 : 0);
+})().catch(e => { console.error(e); server.close(); process.exit(1); });
