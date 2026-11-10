@@ -1,0 +1,98 @@
+{
+ "dokumentstatus": {
+  "dokument": {
+   "hangar_id": "5295025",
+   "dok_id": "HD03292",
+   "rm": "2025/26",
+   "beteckning": "292",
+   "typ": "prop",
+   "subtyp": "prop",
+   "doktyp": "prop",
+   "typrubrik": "Proposition 2025/26:292",
+   "dokumentnamn": "Proposition",
+   "debattnamn": "Proposition",
+   "tempbeteckning": "",
+   "organ": "Utbildningsdepartementet",
+   "mottagare": "UbU",
+   "nummer": "292",
+   "slutnummer": "0",
+   "datum": "2026-06-25 00:00:00",
+   "systemdatum": "2026-09-22 09:07:25",
+   "publicerad": "2026-06-25 00:00:00",
+   "titel": "Skärpta villkor för friskolesektorn",
+   "subtitel": "",
+   "status": "Klar",
+   "htmlformat": "html-ec",
+   "relaterat_id": "",
+   "source": "prop-RIM",
+   "sourceid": "c0d0f1d8-5f90-444b-a739-7617a74ced42",
+   "dokument_url_text": "https://data.riksdagen.se/dokument/HD03292/text",
+   "dokument_url_html": "https://data.riksdagen.se/dokument/HD03292",
+   "dokumentstatus_url_xml": "https://data.riksdagen.se/dokumentstatus/HD03292"
+  },
+  "dokreferens": {
+   "referens": [
+    {
+     "referenstyp": "behandlas_i",
+     "uppgift": "2025/26:UbU30",
+     "ref_dok_id": "HD01UbU30",
+     "ref_dok_typ": "bet",
+     "ref_dok_rm": "2025/26",
+     "ref_dok_bet": "UbU30",
+     "ref_dok_titel": "Skärpta villkor för friskolesektorn",
+     "ref_dok_subtitel": "",
+     "ref_dok_subtyp": "bet",
+     "ref_dok_dokumentnamn": "Betänkande"
+    },
+    {
+     "referenstyp": "följdmotion",
+     "uppgift": "av Anders Ygeman m.fl. (S)<br />med anledning av prop. 2025/26:292 Skärpta villkor för friskolesektorn",
+     "ref_dok_id": "HD024214",
+     "ref_dok_typ": "mot",
+     "ref_dok_rm": "2025/26",
+     "ref_dok_bet": "4214",
+     "ref_dok_titel": "med anledning av prop. 2025/26:292 Skärpta villkor för friskolesektorn",
+     "ref_dok_subtitel": "av Anders Ygeman m.fl. (S)",
+     "ref_dok_subtyp": "mot",
+     "ref_dok_dokumentnamn": "Motion"
+    },
+    {
+     "referenstyp": "följdmotion",
+     "uppgift": "av Camilla Hansén m.fl. (MP)<br />med anledning av prop. 2025/26:292 Skärpta villkor för friskolesektorn",
+     "ref_dok_id": "HD024225",
+     "ref_dok_typ": "mot",
+     "ref_dok_rm": "2025/26",
+     "ref_dok_bet": "4225",
+     "ref_dok_titel": "med anledning av prop. 2025/26:292 Skärpta villkor för friskolesektorn",
+     "ref_dok_subtitel": "av Camilla Hansén m.fl. (MP)",
+     "ref_dok_subtyp": "mot",
+     "ref_dok_dokumentnamn": "Motion"
+    },
+    {
+     "referenstyp": "följdmotion",
+     "uppgift": "av Isabell Mixter m.fl. (V)<br />med anledning av prop. 2025/26:292 Skärpta villkor för friskolesektorn",
+     "ref_dok_id": "HD024209",
+     "ref_dok_typ": "mot",
+     "ref_dok_rm": "2025/26",
+     "ref_dok_bet": "4209",
+     "ref_dok_titel": "med anledning av prop. 2025/26:292 Skärpta villkor för friskolesektorn",
+     "ref_dok_subtitel": "av Isabell Mixter m.fl. (V)",
+     "ref_dok_subtyp": "mot",
+     "ref_dok_dokumentnamn": "Motion"
+    },
+    {
+     "referenstyp": "följdmotion",
+     "uppgift": "av Niels Paarup-Petersen m.fl. (C)<br />med anledning av prop. 2025/26:292 Skärpta villkor för friskolesektorn",
+     "ref_dok_id": "HD024215",
+     "ref_dok_typ": "mot",
+     "ref_dok_rm": "2025/26",
+     "ref_dok_bet": "4215",
+     "ref_dok_titel": "med anledning av prop. 2025/26:292 Skärpta villkor för friskolesektorn",
+     "ref_dok_subtitel": "av Niels Paarup-Petersen m.fl. (C)",
+     "ref_dok_subtyp": "mot",
+     "ref_dok_dokumentnamn": "Motion"
+    }
+   ]
+  }
+ }
+}

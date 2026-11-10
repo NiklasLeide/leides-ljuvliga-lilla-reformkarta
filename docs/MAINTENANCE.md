@@ -100,3 +100,13 @@ minst ett API-anrop misslyckades (se avsnittet Fel i rapporten).
 Ny remiss = ny post i `data/remisser.json` (verifiera datum och nästa steg mot remissidan).
 Status räknas i klienten och ska aldrig skrivas in i datafilen. `<remiss-lib>`-blocket finns i fyra
 sidor och måste vara byte-identiskt — `remiss.test.js` fäller annars. Ändra blocket i alla fyra.
+
+## Automatfilen (Sprint 15 T2, DEC-022)
+
+```bash
+node scripts/revision/automat.js                               # torrkörning (standard) — skriver inget
+node scripts/revision/automat.js --tillampa --rapport ut.json  # tillämpar regel 1a–1d (används av arbetsflödet)
+```
+Tillåtna ändringar: beslut + rskr för spårad proposition vid fullt bifall, tilläggsdirektiv när
+kommittébeteckning OCH namn stämmer, nytt betänkande, följdändringar (andringar, meta). Allt annat går
+till veckorutinen. Vakten stoppar körningen om något annat ändras. Exit 3 = STOPP (ingenting skrivet).

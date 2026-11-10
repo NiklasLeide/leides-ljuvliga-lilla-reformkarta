@@ -94,8 +94,19 @@ function betankandeBeslut(betDokstatus) {
     ? (rskrRef.ref_dok_rm && rskrRef.ref_dok_bet ? `${rskrRef.ref_dok_rm}:${rskrRef.ref_dok_bet}` : (rskrRef.uppgift || null))
     : null;
 
+  // Bifallsunderlag (Sprint 15, automatfilen regel 1a): utskottets förslagspunkter och kammarens beslut.
+  const punkter = asArray(ds.dokutskottsforslag && ds.dokutskottsforslag.utskottsforslag);
+  const bifall = {
+    sammanfattning: upg.beslutssammanfattningusk || null, // t.ex. "Bifall till propositionen. Avslag på …"
+    rdbeslut: upg.rdbeslut || null,                       // t.ex. "Kammaren biföll utskottets förslag."
+    antal_punkter: punkter.length,
+    alla_punkter_utskottet: punkter.length > 0 && punkter.every(x => x && x.vinnare === 'utskottet'),
+  };
+
   return {
     bet: dok.rm && dok.beteckning ? `${dok.rm}:${dok.beteckning}` : null,
+    titel: dok.titel || null,
+    bifall,
     dok_id: dok.dok_id || null,
     bes_status: bes ? bes.status || null : null,
     rskr,
@@ -471,4 +482,6 @@ if (require.main === module) {
 module.exports = {
   betankandeBeslut, kommittebeteckning, souAvsandare, souNr, dirNr,
   diffReformMotProp, diffUtredning, buildRevision, renderMarkdown, parseArgs,
+  // Sprint 15: återanvänds av automat.js
+  makeHttpFetcher, propLage, lookupDok, fetchDokumentstatus, allaSou, listDocs, norm, datum10, absUrl, API_BASE,
 };
