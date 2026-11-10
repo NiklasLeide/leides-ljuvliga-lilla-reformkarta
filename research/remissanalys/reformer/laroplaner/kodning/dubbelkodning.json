@@ -1,0 +1,248 @@
+{
+ "_meta": {
+  "steg": "M2b oberoende dubbelkodning av 40 slumpvis valda utmaningar (frö 20261202) för samstämmighet",
+  "tolkning": true
+ },
+ "kodning": [
+  {
+   "id": "U089",
+   "primar": "Organisation och planering",
+   "sekundar": "Tidplan och reformtakt",
+   "motivering": "Förslagen behöver kommuniceras som helhet för genomförande"
+  },
+  {
+   "id": "U168",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Delar av förslaget upplevs otydliga"
+  },
+  {
+   "id": "U006",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Tidplan och reformtakt",
+   "motivering": "Fortbildningsbehov och samtidigt införande med andra reformer"
+  },
+  {
+   "id": "U069",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Terminologin förmedla och förankra är oklar"
+  },
+  {
+   "id": "U276",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Organisation och planering",
+   "motivering": "Kartläggningar tar tid från elevernas mängdträning"
+  },
+  {
+   "id": "U126",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Förändringarna kan påverka framtida styrning och praktik"
+  },
+  {
+   "id": "U296",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Tveksamt om ett år räcker för implementering"
+  },
+  {
+   "id": "U125",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Tidplan och reformtakt",
+   "motivering": "Lärare kan behöva arbeta med två läroplaner parallellt"
+  },
+  {
+   "id": "U005",
+   "primar": "Övrigt",
+   "sekundar": null,
+   "motivering": "Undervisningsmetoder bör avgöras av profession och huvudmän"
+  },
+  {
+   "id": "U163",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Merkostnader för implementering och kompetensutveckling"
+  },
+  {
+   "id": "U259",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Oklart vad eleverna ska lära sig om teknik"
+  },
+  {
+   "id": "U019",
+   "primar": "Övrigt",
+   "sekundar": "System och teknik",
+   "motivering": "Stödmaterial svårt att hitta och osäkert om aktuellt"
+  },
+  {
+   "id": "U179",
+   "primar": "Övrigt",
+   "sekundar": null,
+   "motivering": "Lärares och rektorers professionella frihet riskerar urholkas"
+  },
+  {
+   "id": "U079",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Begreppet stödundervisning behöver förtydligas"
+  },
+  {
+   "id": "U083",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Organisation och planering",
+   "motivering": "Stödundervisning kan bli kostnadsdrivande, oklar statlig kompensation"
+  },
+  {
+   "id": "U040",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Risk för otydlig ansvarsfördelning mellan lärare och stödfunktioner"
+  },
+  {
+   "id": "U036",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Detaljstyrd undervisning riskerar sämre anpassning till elevernas behov"
+  },
+  {
+   "id": "U167",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Oklara konsekvenser av ny form av stödundervisning"
+  },
+  {
+   "id": "U199",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Lärare måste själva ta fram material, kräver kollegial diskussion"
+  },
+  {
+   "id": "U272",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Efterfrågar riktade statsbidrag för implementering och läromedel"
+  },
+  {
+   "id": "U228",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Lärare behöver kompetensutveckling och kollegial samverkan"
+  },
+  {
+   "id": "U119",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Risk för stoffträngsel i SO- och NO-ämnena"
+  },
+  {
+   "id": "U243",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Resurser styrs mot betygsgränser utan hänsyn till elevers förutsättningar"
+  },
+  {
+   "id": "U289",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Organisation och planering",
+   "motivering": "Mer resurser behövs för textsamtal i mindre grupper"
+  },
+  {
+   "id": "U155",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Organisation och planering",
+   "motivering": "Arbetsplatsförlagda moment behöver bli tydliga för handledare"
+  },
+  {
+   "id": "U235",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Samlad påverkan av samtidiga förändringar behöver analyseras"
+  },
+  {
+   "id": "U059",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Delar saknas och anpassad grundskola behöver tydliggöras"
+  },
+  {
+   "id": "U205",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Frekventa ändringar tar tid och resurser från personalen"
+  },
+  {
+   "id": "U071",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Nya begrepp ersätter inarbetade och skapar förvirring"
+  },
+  {
+   "id": "U201",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Odefinierat begrepp kan tolkas olika av huvudmän"
+  },
+  {
+   "id": "U093",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Oklart hur stödundervisning ska fungera och rektors ansvar"
+  },
+  {
+   "id": "U187",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "System och teknik",
+   "motivering": "Huvudmän och lärare behöver bättre stöd kring digital utveckling"
+  },
+  {
+   "id": "U106",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Ytterligare resurser till huvudmännen behövs"
+  },
+  {
+   "id": "U149",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Saknas definition av läsning och vilka texter som avses"
+  },
+  {
+   "id": "U257",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Uppföljning av stödundervisning omöjlig utan dokumentation"
+  },
+  {
+   "id": "U107",
+   "primar": "Organisation och planering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Implementering kräver omfattande lokala insatser och fortbildning"
+  },
+  {
+   "id": "U236",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Oklart hur förändringarna påverkar fritidshemmets uppdrag"
+  },
+  {
+   "id": "U177",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Efterfrågar tydligare stöd och riktning kring digitalisering"
+  },
+  {
+   "id": "U117",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Oklart om betyget F återinförs och varför"
+  },
+  {
+   "id": "U042",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Oklart hur begreppen om beständig kunskap ska tolkas"
+  }
+ ]
+}

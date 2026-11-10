@@ -22,7 +22,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Övrigt",
+    "sekundar": null,
+    "motivering": "Styrning av undervisningsmetoder inkräktar på professionens mandat",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -50,7 +55,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Tidplan och reformtakt",
+    "sekundar": null,
+    "motivering": "Många samtidiga reformer att implementera",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -78,7 +88,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": null,
+    "motivering": "Staten bör bära implementeringskostnader",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -113,7 +128,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": null,
+    "motivering": "Fristående skolor måste anpassa sin undervisning",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -141,7 +161,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Övrigt",
+    "sekundar": null,
+    "motivering": "Undervisningssätt bör avgöras av profession och huvudmän",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -169,7 +194,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": "Tidplan och reformtakt",
+    "motivering": "Fortbildningsbehov vid samtidiga reformer",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -208,7 +238,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": "Personal, kompetens och arbetsbelastning",
+    "motivering": "Merkostnader för implementering och kompetensutveckling",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -236,7 +271,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": null,
+    "motivering": "Kommunernas implementeringsarbete ryms inte i befintliga anslag",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -264,7 +304,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": "Organisation och planering",
+    "motivering": "Stödets praktiska genomförande innebär kostnadsökning",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -299,7 +344,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": "Personal, kompetens och arbetsbelastning",
+    "motivering": "Odefinierat vem som ger stödundervisning, risk obehörig personal",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -334,7 +384,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": null,
+    "motivering": "Risk att elever placeras i stödundervisning felaktigt",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -362,7 +417,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Beskrivningar av digital kompetens är mångbottnade",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -390,7 +450,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": null,
+    "motivering": "Strategier får inte hindra anpassning till elevgruppers behov",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -418,7 +483,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": "Organisation och planering",
+    "motivering": "Likvärdig bedömning av stödbehov kräver elevhälsans medverkan",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -446,7 +516,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Oklart hur området synliggörs i ämnesplanerna",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -474,7 +549,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": "Kostnader och finansiering",
+    "motivering": "Skolskjutsar och lokaler påverkar ekonomi och undervisningstid",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -502,7 +582,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": "Kostnader och finansiering",
+    "motivering": "Personalförsörjning och skattekraft svårt för mindre kommuner",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -530,7 +615,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": "Likvärdighet och konsekvenser för elever",
+    "motivering": "Bemannade skolbibliotek mot kommunernas olika förutsättningar",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -558,7 +648,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Övrigt",
+    "sekundar": null,
+    "motivering": "Stödmaterial svårt att hitta och osäkert aktuellt",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -593,7 +688,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Oklart vad vetenskaplig grund avser",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -629,7 +729,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Övrigt",
+    "sekundar": "Personal, kompetens och arbetsbelastning",
+    "motivering": "Bedömningsstöd bristfälligt och tidskrävande",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -685,7 +790,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Fortbildningsbehov inom phonics-metoden",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -713,7 +823,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Saknas beskrivning av hur färdighetsträning ska ske",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -748,7 +863,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Övrigt",
+    "sekundar": null,
+    "motivering": "Risk för stelhet i digitala inslag i kursplaner",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -776,7 +896,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Begreppet digital kompetens borde definieras",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -804,7 +929,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": "Likvärdighet och konsekvenser för elever",
+    "motivering": "Pedagoger med låg digital kompetens utesluter digitala verktyg",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -832,7 +962,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Tidplan och reformtakt",
+    "sekundar": "Personal, kompetens och arbetsbelastning",
+    "motivering": "Ofärdiga delar under implementering skapar osäkerhet och stress",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -867,7 +1002,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": "Personal, kompetens och arbetsbelastning",
+    "motivering": "Fortbildning ger ökade vikariekostnader",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -895,7 +1035,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": "System och teknik",
+    "motivering": "Ändringar i it-system ger kostsamma uppdateringar",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -923,7 +1068,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": "Personal, kompetens och arbetsbelastning",
+    "motivering": "Stödundervisning ger ökade kostnader och personalbehov",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -951,7 +1101,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": null,
+    "motivering": "Mindre flexibel undervisning, sämre anpassad till elevers behov",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -979,7 +1134,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Centrala begrepp otillräckligt definierade",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -1007,7 +1167,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Samlad läroplan riskerar göra uppdraget otydligt",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -1044,7 +1209,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Risk för snäv tolkning av vetenskaplig grund",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -1081,7 +1251,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": null,
+    "motivering": "Manualstyrd undervisning i stället för anpassning till elever",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -1118,7 +1293,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": "Personal, kompetens och arbetsbelastning",
+    "motivering": "Överlappande begrepp skapar tolkningsproblem och dubbelarbete",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -1146,7 +1326,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Övrigt",
+    "sekundar": null,
+    "motivering": "Bristande stödmaterial för anpassad grundskola",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -1176,7 +1361,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Övrigt",
+    "sekundar": null,
+    "motivering": "Centraliserad styrning ger långsamma beslutsprocesser",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -1214,7 +1404,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Ansvarsfördelning mellan klasslärare och stödfunktioner riskerar oklarhet",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -1249,7 +1444,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": "Likvärdighet och konsekvenser för elever",
+    "motivering": "Resurser för stödundervisning finns inte i hela landet",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -1284,7 +1484,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Oklart hur kunskapsbegreppen ska tolkas i praktiken",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -1322,7 +1527,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Begrepp otillräckligt definierade",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -1360,7 +1570,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": null,
+    "motivering": "Progressionskrav måste förenas med icke-linjärt lärande",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -1398,7 +1613,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Ny terminologi riskerar nya tolkningsproblem",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -1436,7 +1656,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": null,
+    "motivering": "Stoffokus minskar förståelse och elevinflytande",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -1474,7 +1699,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": "Otydlighet i förslaget",
+    "motivering": "Strategier riskerar standardisera yrkesutövning och tolkas obligatoriska",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -1512,7 +1742,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": null,
+    "motivering": "Färdighetsträning svår att anpassa för flerspråkiga elever",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -1550,7 +1785,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Behov av professionell utveckling inklusive förskolepedagogik",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -1588,7 +1828,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Begreppet läsning saknar tydlig definition",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -1626,7 +1871,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": "System och teknik",
+    "motivering": "Digitala prov utan skärmträning ger orättvis bedömning",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -1666,7 +1916,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Garantin är tids- och personalkrävande",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -1704,7 +1959,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Analoga miljöer behöver förtydligas mot misstolkning",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -1742,7 +2002,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Lärare behöver utveckla ämnesintegrerad digital kompetens",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -1780,7 +2045,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Tidplan och reformtakt",
+    "sekundar": null,
+    "motivering": "Ikraftträdande behöver synkroniseras med andra reformer",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -1818,7 +2088,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": null,
+    "motivering": "Staten bör ta ansvar för implementeringsinsatser",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -1854,7 +2129,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Tidplan och reformtakt",
+    "sekundar": null,
+    "motivering": "Trängsel när många utredningar implementeras samtidigt",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -1882,7 +2162,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": "Tidplan och reformtakt",
+    "motivering": "Stor förändring tar mycket tid i anspråk",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -1910,7 +2195,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Delar saknas och anpassad grundskola behöver tydliggöras",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -1941,7 +2231,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": "Likvärdighet och konsekvenser för elever",
+    "motivering": "Svårt för lärare kombinera målstyrning och individuella behov",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -1969,7 +2264,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": "Kostnader och finansiering",
+    "motivering": "Svårt organisera och budgetera stödundervisning",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -1997,7 +2297,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Behov av fler behöriga lärare och speciallärare",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -2025,7 +2330,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Övrigt",
+    "sekundar": null,
+    "motivering": "Fråga om lärarnas friutrymme påverkas",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -2053,7 +2363,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": null,
+    "motivering": "Oklart om timplanen utökas eller annat minskas",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -2081,7 +2396,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": null,
+    "motivering": "Fråga om påverkan på likabehandlingsarbetet",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -2109,7 +2429,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": "Kostnader och finansiering",
+    "motivering": "Svårt organisera och budgetera stödundervisning",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -2137,7 +2462,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": null,
+    "motivering": "Kostnader i tid och pengar för implementering",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -2165,7 +2495,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Övrigt",
+    "sekundar": null,
+    "motivering": "Hård styrning minskar utrymme för professionella bedömningar",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -2193,7 +2528,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Terminologin förmedla och förankra är oklar",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -2221,7 +2561,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": null,
+    "motivering": "Stödundervisning får ekonomiska konsekvenser",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -2249,7 +2594,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Nya begrepp skapar förvirring",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -2277,7 +2627,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": null,
+    "motivering": "Kursplaner riskerar försvåra flexibilitet för elevers behov",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -2305,7 +2660,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": null,
+    "motivering": "Årskursvisa kursplaner försvårar anpassning till utvecklingsnivå",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -2333,7 +2693,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Övrigt",
+    "sekundar": null,
+    "motivering": "Ansvar förskjuts från professionen till staten",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -2361,7 +2726,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Oklart vilka delar som styrs med riktlinjer och strategier",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -2389,7 +2759,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": "Organisation och planering",
+    "motivering": "Oklart rektors mandat när lärare beslutar om stöd",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -2417,7 +2792,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": "Personal, kompetens och arbetsbelastning",
+    "motivering": "Stödundervisning ger merkostnad för personal",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -2445,7 +2825,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": "Tidplan och reformtakt",
+    "motivering": "Lokaler hinner inte anpassas för stödundervisning",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -2473,7 +2858,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Oklart vad begreppet stödundervisning rymmer",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -2541,7 +2931,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Tidplan och reformtakt",
+    "sekundar": "Organisation och planering",
+    "motivering": "Tidsramen tränger undan skolans utvecklingsarbete",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -2576,7 +2971,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": "Organisation och planering",
+    "motivering": "Stödundervisning kostnadsdrivande, oklar statlig kompensation",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -2611,7 +3011,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Delar av förslaget skissartade",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -2646,7 +3051,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": "Kostnader och finansiering",
+    "motivering": "Utökat behov av speciallärare och fortbildningsmedel",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -2674,7 +3084,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Övrigt",
+    "sekundar": null,
+    "motivering": "Läromedel måste överensstämma med läroplanen",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -2702,7 +3117,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Tidplan och reformtakt",
+    "sekundar": null,
+    "motivering": "Detaljerad läroplan kräver tillräcklig tid för implementering",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -2730,7 +3150,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": null,
+    "motivering": "Kräver statliga resurser och stödmaterial vid implementering",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -2758,7 +3183,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": "Tidplan och reformtakt",
+    "motivering": "Flera reformer behöver kommuniceras som helhet",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -2786,7 +3216,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": null,
+    "motivering": "Timplanen behöver ses över",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -2823,7 +3258,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": "Otydlighet i förslaget",
+    "motivering": "Otydliga skrifter från Skolverket ger merarbete",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -2851,7 +3291,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": "Likvärdighet och konsekvenser för elever",
+    "motivering": "Information om elevers behov kan gå förlorad",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -2888,7 +3333,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Oklart hur stödundervisning och rektors ansvar ska fungera",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -2916,7 +3366,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": null,
+    "motivering": "Risk för många anmälningar om stödbehov till rektor",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -2944,7 +3399,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": null,
+    "motivering": "Kräver flexibilitet efter lokala förutsättningar",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -2972,7 +3432,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Facktermer gör läroplanen svårtillgänglig för lärare",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -3009,7 +3474,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": "Personal, kompetens och arbetsbelastning",
+    "motivering": "Dold progression ger merarbete och lokala tolkningar",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -3046,7 +3516,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Beprövad erfarenhet öppnar för godtycke",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -3084,7 +3559,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Tidplan och reformtakt",
+    "sekundar": null,
+    "motivering": "Arbetet behöver synkroniseras med övriga utredningar",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -3112,7 +3592,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Risk för ökat korstryck för rektor",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -3140,7 +3625,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": null,
+    "motivering": "Svåröverskådliga ekonomiska konsekvenser av stödundervisning",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -3168,7 +3658,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Svårare att behålla skolledare",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -3196,7 +3691,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Övrigt",
+    "sekundar": null,
+    "motivering": "Oklar påverkan på lärarrollen och handlingsutrymmet",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -3224,7 +3724,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": "Kostnader och finansiering",
+    "motivering": "Kräver huvudmännens alla resurser för utvecklingsarbete",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -3259,7 +3764,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": null,
+    "motivering": "Ifrågasätter att inga extra resurser behövs",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -3287,7 +3797,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": null,
+    "motivering": "Huvudmännen behöver ytterligare resurser",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -3315,7 +3830,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": "Organisation och planering",
+    "motivering": "Omfattande lokala insatser: fortbildning, ledning, elevhälsa",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -3343,7 +3863,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": "Tidplan och reformtakt",
+    "motivering": "Lärare behöver långsiktigt stöd och tid för anpassning",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -3371,7 +3896,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Tidplan och reformtakt",
+    "sekundar": null,
+    "motivering": "Omfattande reform på kort tidsram",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -3399,7 +3929,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": null,
+    "motivering": "Rollfördelning skola–hem får organisatoriska konsekvenser",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -3427,7 +3962,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": null,
+    "motivering": "Risk att elever faller mellan stolarna",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -3455,7 +3995,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Krav på rätt fortbildning för pedagogiskt ledarskap",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -3483,7 +4028,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Tidplan och reformtakt",
+    "sekundar": null,
+    "motivering": "Omfattande reform på kort tid",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -3511,7 +4061,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Tidplan och reformtakt",
+    "sekundar": "Organisation och planering",
+    "motivering": "Samtidig betygsreform och parallella läroplaner",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -3559,7 +4114,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": "Tidplan och reformtakt",
+    "motivering": "Långsiktigt stöd och tid behövs för nya strategier",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -3587,7 +4147,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Oklart om betyget F återinförs",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -3615,7 +4180,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": null,
+    "motivering": "Olik struktur försvårar samarbete över ämnesgränser",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -3651,7 +4221,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": null,
+    "motivering": "Risk för stoffträngsel i SO och NO",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -3687,7 +4262,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": "Organisation och planering",
+    "motivering": "Undervisning fokuserar på lägsta nivå",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -3723,7 +4303,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Begreppet förbereda behöver definieras",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -3759,7 +4344,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Oklart om blockbetyg fortsätter tillämpas",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -3794,7 +4384,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": null,
+    "motivering": "Vissa elever behöver digitalt stöd som talsyntes",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -3830,7 +4425,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Tidplan och reformtakt",
+    "sekundar": null,
+    "motivering": "Stora förändringar och kort implementeringstid",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -3866,7 +4466,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": "Tidplan och reformtakt",
+    "motivering": "Lärare arbetar med två läroplaner, behov av stödmaterial",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -3902,7 +4507,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": null,
+    "motivering": "Betydande implikationer för styrning och praktik i andra skolformer",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -3937,7 +4547,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": "Kostnader och finansiering",
+    "motivering": "Kräver tid och personal för implementering",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -3973,7 +4588,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Ökad arbetsbörda och fortbildningsbehov under införandet",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -4049,7 +4669,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": null,
+    "motivering": "Krav på kompensation för merkostnader",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -4085,7 +4710,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": "Personal, kompetens och arbetsbelastning",
+    "motivering": "Stöd, fortbildning och resurser för att anpassa organisationen",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -4121,7 +4751,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Tidplan och reformtakt",
+    "sekundar": "Organisation och planering",
+    "motivering": "Många samtidiga förslag ger stora utmaningar",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -4149,7 +4784,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": null,
+    "motivering": "Ökad statlig styrning, krav på kompensation",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -4177,7 +4817,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Saknade utvärderingar försvårar ställningstagande till förslagen",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -4205,7 +4850,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": null,
+    "motivering": "Svårt att föra över förslag till anpassade grundskolan",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -4236,7 +4886,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Tidplan och reformtakt",
+    "sekundar": "Otydlighet i förslaget",
+    "motivering": "Många samtidiga betänkanden riskerar otydlighet",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -4272,7 +4927,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Ändringar för rektor tydliggörs inte i läroplanen",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -4308,7 +4968,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": null,
+    "motivering": "Förändringen problematisk utifrån förskolans uppdrag och förutsättningar",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -4336,7 +5001,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Oklart vad stödundervisning innebär i förskolan",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -4364,7 +5034,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Otydligt hur undervisningsstrategier ska infogas",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -4400,7 +5075,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Övrigt",
+    "sekundar": null,
+    "motivering": "Undervisningsstrategier kan begränsa lärares professionella frihet",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -4436,7 +5116,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": null,
+    "motivering": "Revidering av kursplaner svårare att genomföra",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -4472,7 +5157,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": null,
+    "motivering": "Nya stödmaterial måste samordnas med befintliga",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -4508,7 +5198,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": null,
+    "motivering": "Många ämnesplaner svårhanterliga inom läroplanen",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -4546,7 +5241,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Övrigt",
+    "sekundar": null,
+    "motivering": "Lärares professionella friutrymme vid styrning av undervisningsformer",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -4584,7 +5284,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Oklart hur stödundervisning fungerar och förhåller sig",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -4620,7 +5325,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": "Kostnader och finansiering",
+    "motivering": "Oklart vilka resurser stödundervisning kräver i speciallärare",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -4658,7 +5368,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Behov av definition av läsning i kursplanerna",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -4695,7 +5410,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": null,
+    "motivering": "Läsfokus måste anpassas till förskolans förutsättningar",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -4733,7 +5453,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Tidplan och reformtakt",
+    "sekundar": "Organisation och planering",
+    "motivering": "Många reformer införs inom samma tidsperiod",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -4770,7 +5495,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": null,
+    "motivering": "Stora pedagogiska och organisatoriska konsekvenser för skolorna",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -4807,7 +5537,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Tidplan och reformtakt",
+    "sekundar": null,
+    "motivering": "Samordning med andra reformer kräver ändringar om betyg",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -4844,7 +5579,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": null,
+    "motivering": "Övergång förskola till grundskola kräver styrning och stöd",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -4881,7 +5621,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": "Organisation och planering",
+    "motivering": "Arbetsplatsförlagda moment i ämnesplaner behöver bli tydliga",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -4917,7 +5662,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Tidplan och reformtakt",
+    "sekundar": null,
+    "motivering": "Hänsyn till andra reformförslag och fler konsekvensanalyser",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -4953,7 +5703,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": null,
+    "motivering": "Kompensation för merkostnader enligt proportionalitetsprincipen",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -5009,7 +5764,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": "Organisation och planering",
+    "motivering": "Tid och personal för implementering, nedprioritering av annat",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -5065,7 +5825,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Övrigt",
+    "sekundar": "Otydlighet i förslaget",
+    "motivering": "Lärares friutrymme och ansvar för undervisningens kvalitet",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -5100,7 +5865,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": "Tidplan och reformtakt",
+    "motivering": "Fortbildningsbehov vid samtidiga reformer",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -5137,7 +5907,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": "Personal, kompetens och arbetsbelastning",
+    "motivering": "Merkostnader för implementering och kompetensutveckling",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -5165,7 +5940,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": null,
+    "motivering": "Likvärdiga förutsättningar för stora och små huvudmän",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -5193,7 +5973,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": "Personal, kompetens och arbetsbelastning",
+    "motivering": "Implementering och kompetensutveckling ryms inte i anslag",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -5221,7 +6006,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Tidplan och reformtakt",
+    "sekundar": null,
+    "motivering": "Behov av tidsplan på två år",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -5249,7 +6039,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Frågor om konsekvenser av ny stödundervisning",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -5277,7 +6072,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": "Tidplan och reformtakt",
+    "motivering": "Parallella utredningar gör delar av förslaget otydliga",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -5307,7 +6107,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Behov av stöd för lärare i betyg och bedömning",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -5335,7 +6140,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Behov av att utbilda lärare",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -5363,7 +6173,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": "Organisation och planering",
+    "motivering": "Stödundervisningens resurser och tid påverkar skolornas ekonomi",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -5398,7 +6213,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": "Likvärdighet och konsekvenser för elever",
+    "motivering": "Otydligt vad god gruppundervisning innebär, risk för exkludering",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -5433,7 +6253,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Övrigt",
+    "sekundar": null,
+    "motivering": "Risk att föreskriva en enda läsmetod",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -5468,7 +6293,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Stödundervisning behöver förtydligas",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -5496,7 +6326,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Tidplan och reformtakt",
+    "sekundar": null,
+    "motivering": "Flera parallella utredningar behöver samspela",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -5534,7 +6369,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": "Kostnader och finansiering",
+    "motivering": "Oklart vem som tillhandahåller stödundervisning och resurser",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -5572,7 +6412,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Efterfrågar tydligare stöd och riktning om digitalisering",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -5600,7 +6445,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": "Övrigt",
+    "motivering": "Detaljstyrning och risk att undervisningstiden inte räcker",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -5628,7 +6478,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Övrigt",
+    "sekundar": null,
+    "motivering": "Lärares och rektorers professionella frihet riskerar urholkas",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -5656,7 +6511,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Tidplan och reformtakt",
+    "sekundar": "Kostnader och finansiering",
+    "motivering": "Flera stora förändringar samtidigt kräver samordnade medel",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -5684,7 +6544,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Oklar gräns mellan stödundervisning och särskilt stöd",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -5719,7 +6584,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Övrigt",
+    "sekundar": null,
+    "motivering": "Risk för alltför omfattande detaljstyrning av undervisningen",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -5757,7 +6627,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Övrigt",
+    "sekundar": null,
+    "motivering": "Risk för för stor detaljnivå i kursplanerna",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -5795,7 +6670,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": "Övrigt",
+    "motivering": "Likformig läsundervisning med phonics kan riskera likvärdigheten",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -5833,7 +6713,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Övrigt",
+    "sekundar": null,
+    "motivering": "Behov av frihet för lärare att välja medel",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -5871,7 +6756,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": "System och teknik",
+    "motivering": "Motsägelse mellan digitala bedömningsstöd och digital restriktivitet",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -5909,7 +6799,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "System och teknik",
+    "sekundar": "Personal, kompetens och arbetsbelastning",
+    "motivering": "Svårt att hantera digital utveckling, behov av stöd",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -5947,7 +6842,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Tidplan och reformtakt",
+    "sekundar": "Kostnader och finansiering",
+    "motivering": "Samtidiga förändringar 2028 kräver samordning av medel",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -5985,7 +6885,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": "Organisation och planering",
+    "motivering": "Tid, resurser och omprioriteringar, särskilt för små kommuner",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -6013,7 +6918,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Oklarheter kring avskaffande av extra anpassningar",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -6041,7 +6951,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Gränsen mellan särskilt stöd och stödundervisning suddas ut",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -6069,7 +6984,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Tidplan och reformtakt",
+    "sekundar": "Otydlighet i förslaget",
+    "motivering": "Parallell utredning om elevhälsa behandlar samma stödverksamhet",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -6097,7 +7017,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Ansvaret för ämnesområdet kan bli otydligt",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -6125,7 +7050,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": "Personal, kompetens och arbetsbelastning",
+    "motivering": "Större kostnader i tid och personella resurser",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -6153,7 +7083,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Andra fortbildningsinsatser får stå tillbaka",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -6181,7 +7116,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": "Organisation och planering",
+    "motivering": "Mindre kommuner har sämre förutsättningar att stötta implementering",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -6211,7 +7151,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": "Likvärdighet och konsekvenser för elever",
+    "motivering": "Otydliga ord ger inte förutsättningar för likvärdig bedömning",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -6239,7 +7184,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": "Likvärdighet och konsekvenser för elever",
+    "motivering": "Ojämn utbildning hos musiklärare försvårar bedömning",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -6267,7 +7217,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Lärare måste själva ta fram material, kräver kollegial diskussion",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -6302,7 +7257,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": null,
+    "motivering": "Svenska som norm kan försämra undervisning i andraspråk",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -6340,7 +7300,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": "Likvärdighet och konsekvenser för elever",
+    "motivering": "Odefinierat begrepp kan tolkas olika av huvudmän",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -6378,7 +7343,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Övrigt",
+    "sekundar": "System och teknik",
+    "motivering": "Lärares möjlighet att välja lärverktyg undergrävs",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -6416,7 +7386,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Försvårad återkoppling och ökad arbetsbörda för lärare",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -6454,7 +7429,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Tidskrävande att skapa analogt material",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -6492,7 +7472,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": "Likvärdighet och konsekvenser för elever",
+    "motivering": "Frekventa ändringar tar tid och resurser från personalen",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -6520,7 +7505,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": "Likvärdighet och konsekvenser för elever",
+    "motivering": "Behov av förtydligande för likvärdig tillämpning",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -6557,7 +7547,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": "System och teknik",
+    "motivering": "Oklart underlag för undantag från analog undervisning",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -6594,7 +7589,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Tidplan och reformtakt",
+    "sekundar": "Organisation och planering",
+    "motivering": "Snäv tidsplan och behov av planeringsförutsättningar",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -6629,7 +7629,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Tidplan och reformtakt",
+    "sekundar": "Personal, kompetens och arbetsbelastning",
+    "motivering": "Stödmaterial behöver finnas i god tid för arbetsmiljön",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -6664,7 +7669,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": "Organisation och planering",
+    "motivering": "Beprövad erfarenhet behöver definieras och strukturer byggas",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -6692,7 +7702,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": null,
+    "motivering": "Införandet innebär ökade kostnader för huvudmännen",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -6720,7 +7735,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Betydande kompetensutvecklingsinsatser krävs",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -6748,7 +7768,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": "Tidplan och reformtakt",
+    "motivering": "Parallella läroplaner påverkar lärares arbetsbelastning",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -6776,7 +7801,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": null,
+    "motivering": "Preciserade kursplaner kan innebära kostnadsökningar",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -6844,7 +7874,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Tidplan och reformtakt",
+    "sekundar": "Organisation och planering",
+    "motivering": "Snäv tidsplan och behov av planeringsförutsättningar",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -7000,7 +8035,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Oklart vad som ersätter stödnivån och avgränsningar",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -7028,7 +8068,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": null,
+    "motivering": "Huvudmannen måste sätta sig in och konsekvensbelysa",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -7056,7 +8101,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": null,
+    "motivering": "Staten behöver ansvara för implementeringskostnader",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -7084,7 +8134,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": null,
+    "motivering": "Bearbetning krävs för implementering i anpassade skolformer",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -7112,7 +8167,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Lärare behöver utvecklas genom samverkan och kompetensutveckling",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -7140,7 +8200,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": null,
+    "motivering": "Tydliga processer för beslut om stöd på skolan",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -7168,7 +8233,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": null,
+    "motivering": "Risk för täta revideringar av regeringsbeslutade kursplaner",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -7205,7 +8275,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Strukturerad undervisning svårare för obehöriga lärare",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -7233,7 +8308,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Begrepp riskerar att tolkas olika",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -7261,7 +8341,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": "Personal, kompetens och arbetsbelastning",
+    "motivering": "Oklart hur kravet på rektorn ska tolkas",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -7289,7 +8374,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Inkonsekvent rensning skapar oklarhet om inledande delar",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -7327,7 +8417,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Tidplan och reformtakt",
+    "sekundar": null,
+    "motivering": "Samlad påverkan av samtidiga förändringar behöver analyseras",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -7365,7 +8460,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Oklart hur fritidshemmets undervisning och uppdrag påverkas",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -7403,7 +8503,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": null,
+    "motivering": "Rutiner behövs för löpande förändringar",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -7431,7 +8536,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": null,
+    "motivering": "Implementeringsarbete talar för kontinuerliga förändringar",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -7459,7 +8569,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": "Tidplan och reformtakt",
+    "motivering": "Staten bör stå för implementeringskostnader inför 2028",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -7497,7 +8612,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Tidplan och reformtakt",
+    "sekundar": null,
+    "motivering": "Många reformer kräver statliga insatser för implementering",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -7535,7 +8655,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": "Personal, kompetens och arbetsbelastning",
+    "motivering": "Resurser till kompetensutveckling för lärare",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -7573,7 +8698,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": "System och teknik",
+    "motivering": "Datainsamling får inte ge stor administrativ börda lokalt",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -7609,7 +8739,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": "Kostnader och finansiering",
+    "motivering": "Resurser riktas mot betygsgränser utan hänsyn till elever",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -7637,7 +8772,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": "Likvärdighet och konsekvenser för elever",
+    "motivering": "Samordning betygssystem och kursplaner för rättssäkerhet",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -7665,7 +8805,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Begreppet förstärkningsundervisning behöver förtydligas",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -7693,7 +8838,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Beredskapsbegreppen behöver förtydligas",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -7721,7 +8871,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Målen placeras olika i olika kursplaner",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -7749,7 +8904,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Otydligt vad specifika ämnesrelevanta verktyg avser",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -7777,7 +8937,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": "Kostnader och finansiering",
+    "motivering": "Oklart hur resurser fördelas och vem som ansvarar",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -7815,7 +8980,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": "Organisation och planering",
+    "motivering": "Oklart vad särskilt stöd och stödundervisning innebär",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -7853,7 +9023,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": "Kostnader och finansiering",
+    "motivering": "Oklart vad som gäller huvudman respektive kommun",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -7889,7 +9064,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": "Personal, kompetens och arbetsbelastning",
+    "motivering": "Hur stödundervisning organiseras och ingår i tjänsten",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -7924,7 +9104,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": "Organisation och planering",
+    "motivering": "Lärare med luft i schemat blir mycket kostsamt",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -7959,7 +9144,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": null,
+    "motivering": "Schemaläggning av stödundervisning med skolskjuts",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -7987,7 +9177,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": "Organisation och planering",
+    "motivering": "Rektors roll vid organisering av stöd behöver tydliggöras",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -8015,7 +9210,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Otydliga dokumentationskrav för stödundervisning",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -8043,7 +9243,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": "Otydlighet i förslaget",
+    "motivering": "Uppföljning av stödundervisning omöjlig utan dokumentation",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -8071,7 +9276,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Oklart vilka personalgrupper som avses",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -8107,7 +9317,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Oklart innehåll och ansvar för digital teknik",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -8143,7 +9358,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Oklar prioritering och utrymme i kursplanerna",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -8178,7 +9398,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": "Organisation och planering",
+    "motivering": "Oklart vilka krav på utrustning, lokaler och material",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -8214,7 +9439,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Oklart hur mycket tid olika moment ska få",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -8250,7 +9480,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Oklart hur långt skolans ansvar för fritidsläsning sträcker sig",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -8287,7 +9522,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": "System och teknik",
+    "motivering": "Digital kartläggning riskerar felaktig identifiering av elever",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -8323,7 +9563,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Tidplan och reformtakt",
+    "sekundar": null,
+    "motivering": "Kommentarmaterial måste vara klart vid läroplanens presentation",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -8358,7 +9603,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Oklara utgångspunkter för anpassning efter kognitiv utveckling",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -8386,7 +9636,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "System och teknik",
+    "sekundar": "Organisation och planering",
+    "motivering": "Skolan måste säkra digitala färdigheter för digitala prov",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -8414,7 +9669,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Komplicerat språk försvårar tolkning och tillämpning",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -8442,7 +9702,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": "Kostnader och finansiering",
+    "motivering": "Genomförande i praktiken med nuvarande resurser",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -8470,7 +9735,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": "Personal, kompetens och arbetsbelastning",
+    "motivering": "Stödundervisning utanför lektionstid försvåras av skolskjuts, personal",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -8498,7 +9768,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Tidplan och reformtakt",
+    "sekundar": null,
+    "motivering": "För kort implementeringstid samtidigt med andra reformer",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -8528,7 +9803,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": null,
+    "motivering": "Efterlyser riktade statsbidrag för implementering och läromedel",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -8556,7 +9836,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": null,
+    "motivering": "Stödundervisning utanför lektionstid svår med skolskjuts",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -8584,7 +9869,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": "Personal, kompetens och arbetsbelastning",
+    "motivering": "Betygssystem kräver tydliga kriterier, risk för ökad arbetsbörda",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -8612,7 +9902,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Komplicerat språk i matematikkursplanen ger otydlig tolkning",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -8640,7 +9935,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": null,
+    "motivering": "Digitala kartläggningar tar tid från mängdträning",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -8668,7 +9968,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Oklart vem som avgör vetenskapligt belägg",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -8696,7 +10001,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Tidplan och reformtakt",
+    "sekundar": "Personal, kompetens och arbetsbelastning",
+    "motivering": "Ett år för kort, risk för överbelastning",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -8724,7 +10034,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": null,
+    "motivering": "Behov av statsbidrag för nya läromedel",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -8752,7 +10067,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": "Organisation och planering",
+    "motivering": "Resurser behövs för daglig mängdträning, svårt i praktiken",
+    "tolkning": true
+   },
    "koppling": {
     "niva": null,
     "forslag": [],
@@ -8780,7 +10100,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Tidplan och reformtakt",
+    "sekundar": null,
+    "motivering": "Täta läroplansbyten ger ingen kontinuitet",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -8815,7 +10140,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Omfattande material, osäker tid att ta till sig",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -8850,7 +10180,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Obehöriga lärare och bedömning av stödbehov",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -8887,7 +10222,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Organisation och planering",
+    "sekundar": "Personal, kompetens och arbetsbelastning",
+    "motivering": "Oklart vem ger stödundervisning, skolskjuts försvårar",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -8924,7 +10264,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": "Organisation och planering",
+    "motivering": "Dokumentation av anpassningar viktig för elever och övergångar",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -8962,7 +10307,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Likvärdighet och konsekvenser för elever",
+    "sekundar": "Personal, kompetens och arbetsbelastning",
+    "motivering": "Svårtolkad kursplan kräver diskussioner, risk för olikvärdig tolkning",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -8997,7 +10347,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Behov av tydliga anvisningar för PYS-paragrafen",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -9034,7 +10389,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": "Otydlighet i förslaget",
+    "motivering": "Mer detaljerade kriterier kräver omfattande förarbete",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -9071,7 +10431,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": "Organisation och planering",
+    "motivering": "Resurser behövs för textsamtal i mindre grupper",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -9106,7 +10471,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": "Otydlighet i förslaget",
+    "motivering": "Formellt språk ger lärare merarbete att tolka och förklara",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -9141,7 +10511,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": "System och teknik",
+    "motivering": "Digitala kartläggningar motsäger analogt lågstadium",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -9176,7 +10551,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Övrigt",
+    "sekundar": null,
+    "motivering": "Svårt att få vårdnadshavare att träna hemma",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -9212,7 +10592,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": "Organisation och planering",
+    "motivering": "Resurser för daglig mängdträning svåra att klara",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -9248,7 +10633,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "System och teknik",
+    "sekundar": "Likvärdighet och konsekvenser för elever",
+    "motivering": "Elever behöver digital vana för digitala nationella prov",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "förslag",
     "forslag": [
@@ -9285,7 +10675,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": "Personal, kompetens och arbetsbelastning",
+    "motivering": "Oklart vem som avgör vetenskapliga belägg",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -9321,7 +10716,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Tidplan och reformtakt",
+    "sekundar": null,
+    "motivering": "Osäkert om ett år räcker för implementering",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -9357,7 +10757,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Kostnader och finansiering",
+    "sekundar": null,
+    "motivering": "Ökade kostnader för läromedel, statsbidrag efterfrågas",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -9393,7 +10798,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Personal, kompetens och arbetsbelastning",
+    "sekundar": null,
+    "motivering": "Parallella system ger merarbete för lärare och rektorer",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -9429,7 +10839,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Tidplan och reformtakt",
+    "sekundar": null,
+    "motivering": "Reformer bör inte införas vid olika närliggande tillfällen",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
@@ -9464,7 +10879,12 @@
     "ok": true
    },
    "dublett_av": null,
-   "utmaningstyp": null,
+   "utmaningstyp": {
+    "primar": "Otydlighet i förslaget",
+    "sekundar": null,
+    "motivering": "Oklart vad som får bortses från och vilka skäl",
+    "tolkning": true
+   },
    "koppling": {
     "niva": "kapitel",
     "forslag": [],
