@@ -1,0 +1,449 @@
+{
+ "_meta": {
+  "steg": "M1b oberoende identifiering av 40 slumpvis valda passager (≥ 100 tecken, frö 20261201) med samma instruktion; kodare A = M1",
+  "matt": "överens = båda kodarna anger minst en utmaning, eller ingen av dem",
+  "overens": 39,
+  "antal": 40,
+  "tolkning": true
+ },
+ "passager": [
+  {
+   "id": "hoors-kommun#12",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "lunds-kommun#6",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "hoors-kommun#16",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "lunds-kommun#18",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "kinda-kommun#1",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "hoors-kommun#8",
+   "kodare_a_antal": 2,
+   "kodare_b_antal": 2,
+   "kodare_b": [
+    {
+     "citat": "Tidigare erfarenheter visar att det finns stora variationer avseende olika lärares kompetens att arbeta med ledning och stimulans.",
+     "oppen_kod": "varierande lärarkompetens ledning stimulans"
+    },
+    {
+     "citat": "Om detta inte förtydligas kan det finnas en risk för ett mer kategoriskt synsätt på elevers lärande.",
+     "oppen_kod": "otydliga författningar om lärares ansvar"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "bjuvs-kommun#4",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 2,
+   "kodare_b": [
+    {
+     "citat": "Den har inte lett till att fler elever får stöd under de första skolåren, utan har snarare inneburit en ökad administrativ börda för lärarna, utan tydliga resultat för elevernas utveckling och lärande.",
+     "oppen_kod": "garantins administrativa börda"
+    },
+    {
+     "citat": "Bjuvs kommun lyfter också att de obligatoriska bedömningsstöden har varit svåra att implementera. Regelverket upplevs som komplicerat, och liknande begrepp inom andra delar av skolan har skapat förvirring.",
+     "oppen_kod": "bedömningsstöd svåra att implementera"
+    }
+   ],
+   "overens": false
+  },
+  {
+   "id": "ekero-kommun#13",
+   "kodare_a_antal": 1,
+   "kodare_b_antal": 1,
+   "kodare_b": [
+    {
+     "citat": "En risk är att om utgångspunkten är att särskilt stöd ges utanför den ordinarie klassen kommer antalet särskilda undervisningsgrupper att öka. Det kan innebära svårigheter i en verksamhet som redan idag har en del utmaningar kring resursfördelningen, vi ser att det kan bli svårt för rektor att klara detta inom budget.",
+     "oppen_kod": "fler särskilda grupper spräcker budget"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "lunds-kommun#15",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "hoors-kommun#11",
+   "kodare_a_antal": 6,
+   "kodare_b_antal": 4,
+   "kodare_b": [
+    {
+     "citat": "Vidare ser Höörs kommun organisatoriska svårigheter med förslaget om organiseringen av stödundervisning. Det ställer stora krav på rektor att ha en organisation som finns redo att ta sig an stödundervisning innan elevers eventuella stödbehov har uppstått.",
+     "oppen_kod": "beredskapsorganisation för stödundervisning"
+    },
+    {
+     "citat": "Utifrån förslaget som skrivs fram i utredningen behöver rektor öka den pedagogiska bemanningen i verksamheten vilket kommer att leda till ökade kostnader i skolan.",
+     "oppen_kod": "ökad bemanning ökade kostnader"
+    },
+    {
+     "citat": "En annan utmaning handlar om tillgång till ändamålsenliga lokaler att kunna bedriva stödundervisning i.",
+     "oppen_kod": "brist på lokaler för stödundervisning"
+    },
+    {
+     "citat": "Svårigheter att tillgå fler lokaler försvåras ytterligare för de skolor som ligger utanför en tätort eftersom det där oftast saknas andra kommunala lokaler.",
+     "oppen_kod": "lokalbrist på landsbygdsskolor"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "mariestads-kommun#4",
+   "kodare_a_antal": 1,
+   "kodare_b_antal": 1,
+   "kodare_b": [
+    {
+     "citat": "organisatoriskt för rektor och huvudman kan det bli problematiskt att tillse att resurser, främst i form av speciallärare och specialpedagoger, finns att tillgå.",
+     "oppen_kod": "brist på speciallärare och specialpedagoger"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "almega-utbildning#4",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "sveriges-kommuner-och-regioner#31",
+   "kodare_a_antal": 4,
+   "kodare_b_antal": 3,
+   "kodare_b": [
+    {
+     "citat": "Dessa förslag innebär också ökad administration och det är oklart vem som ska ha ansvar för att arbetet och utvärderingen dokumenteras. Det riskerar att bli en ytterligare belastning för läraren.",
+     "oppen_kod": "ökad administration oklart dokumentationsansvar"
+    },
+    {
+     "citat": "Dessutom behöver skolan organisera för överlämning av vad eleven har tillgodogjort sig under stödundervisningen.",
+     "oppen_kod": "organisera överlämning efter stödundervisning"
+    },
+    {
+     "citat": "SKR pekar på dilemmat med att elever antingen får stödundervisning som gör att de går miste om ordinarie undervisning eller att elever får utökad obligatorisk undervisningstid. Ett sådant beslut kan påverka barnet utöver skolsituationen exempelvis i relation till fritidshemmets planering, skolskjuts eller fritidsaktiviteter.",
+     "oppen_kod": "stödundervisningens placering i schemat"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "karlstads-kommun#10",
+   "kodare_a_antal": 1,
+   "kodare_b_antal": 1,
+   "kodare_b": [
+    {
+     "citat": "för att exempelvis kunna spegla läsförmåga i kommunen mot riket eller andra jämförelsekommuner. Sådan insamling kan därför behöva övervägas om nationella prov i åk 3 avskaffas.",
+     "oppen_kod": "förlorat jämförelseunderlag för kommunen"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "ekero-kommun#8",
+   "kodare_a_antal": 3,
+   "kodare_b_antal": 3,
+   "kodare_b": [
+    {
+     "citat": "En utmaning är att ta fram reliabla och valida standardiserade tester.",
+     "oppen_kod": "reliabla och valida tester"
+    },
+    {
+     "citat": "Vidare är det en utmaning att lyckas knyta insatser till de behov testerna identifierar, det avgör huruvida införandet gagnar eleverna.",
+     "oppen_kod": "koppla insatser till testresultat"
+    },
+    {
+     "citat": "Läraren behöver stöd av specialpedagog/speciallärare för att tolka resultaten och möta identifierade behov med rätt stöd.",
+     "oppen_kod": "specialpedagogiskt stöd för testtolkning"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "mariestads-kommun#29",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "vimmerby-kommun#15",
+   "kodare_a_antal": 2,
+   "kodare_b_antal": 1,
+   "kodare_b": [
+    {
+     "citat": "finansieringsförslag riskerar att påverka kommuner olika - då inte samtliga kommuner har existerande särskilda undervisningsgrupper i egna lokaler. Vimmerby kommun är ett sådant exempel. Det innebär att Vimmerby kommuns ökade kostnader, som en konsekvens av utredningens förslag, överstiger utredningens beräkning och kostnader förskjuts därmed till kommunen.",
+     "oppen_kod": "underfinansiering kostnader förskjuts till kommunen"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "mariestads-kommun#7",
+   "kodare_a_antal": 1,
+   "kodare_b_antal": 1,
+   "kodare_b": [
+    {
+     "citat": "Den ekonomiska dimensionen kring utredningen är svårbedömd när det gäller finansieringen av förändringarna som ska kunna träda i kraft 2028.",
+     "oppen_kod": "svårbedömd finansiering"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "mariestads-kommun#27",
+   "kodare_a_antal": 2,
+   "kodare_b_antal": 3,
+   "kodare_b": [
+    {
+     "citat": "Utbildningsförvaltningen i Mariestad motsätter sig inte att ta bort extra anpassningar, men bedömer att det är överskattat att tro att dokumentationskravet kommer att minska för läraren. I relationen till vårdnadshavare, till övriga kollegor inför anordnande av stödundervisning och för att kunna utvärdera genomfört arbete och överlämna hur man arbetat, kommer det att krävas mer dokumentation än vad utredningen anger.",
+     "oppen_kod": "dokumentationskrav minskar inte"
+    },
+    {
+     "citat": "en farhåga dels i att kunna bemanna denna schemaposition (parallellt eller i anslutning till skoldagen)",
+     "oppen_kod": "bemanna stödundervisning i schemat"
+    },
+    {
+     "citat": "dels att vid mindre enheter kunna tillse att det ryms inom schemaramen innan anordnade skolbussar",
+     "oppen_kod": "schemaram och skolskjuts små enheter"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "mariestads-kommun#11",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "sveriges-kommuner-och-regioner#11",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "sveriges-kommuner-och-regioner#9",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "sodertalje-kommun#19",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "goteborgs-kommun#7",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "kinda-kommun#12",
+   "kodare_a_antal": 1,
+   "kodare_b_antal": 1,
+   "kodare_b": [
+    {
+     "citat": "Det finns en stor risk att fler elever kräver enskilda lösningar vilket också får som konsekvens att skolans bredare uppdrag nedprioriteras.",
+     "oppen_kod": "fler enskilda lösningar"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "sveriges-kommuner-och-regioner#34",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "vimmerby-kommun#5",
+   "kodare_a_antal": 1,
+   "kodare_b_antal": 1,
+   "kodare_b": [
+    {
+     "citat": "Vimmerby kommun anser att ett flertal av utredningens förslag, kommer att medföra en relativt kraftig påverkan på rektors arbetsbörda och ansvar",
+     "oppen_kod": "ökad arbetsbörda för rektor"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "mariestads-kommun#3",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "mariestads-kommun#21",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "mariestads-kommun#24",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "asele-kommun#8",
+   "kodare_a_antal": 2,
+   "kodare_b_antal": 2,
+   "kodare_b": [
+    {
+     "citat": "Stor risk för ökade kostnader för kommunerna som inte kommer att täckas av det ökade statsbidraget.",
+     "oppen_kod": "kostnader täcks inte av statsbidrag"
+    },
+    {
+     "citat": "Utmaning att lyfta den enskilde lärarens kompetens, hur ska det ske samt vad innebär det för den enskilde läraren och organisationen.",
+     "oppen_kod": "höja lärarnas kompetens"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "lunds-kommun#9",
+   "kodare_a_antal": 1,
+   "kodare_b_antal": 1,
+   "kodare_b": [
+    {
+     "citat": "Trots att de, av utredningen, fö reslagna testerna ä r avsedda att vara mindre tidskrä vande ä n nuvarande prov och kartlä ggningar, planeras de att genomfö ras betydligt mer frekvent.",
+     "oppen_kod": "frekventa tester administrativt betungande"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "karlstads-kommun#4",
+   "kodare_a_antal": 2,
+   "kodare_b_antal": 3,
+   "kodare_b": [
+    {
+     "citat": "Flera av utredningens förslag kommer medföra behov av ökade ekonomiska resurser och även tillförsel av kompetens.",
+     "oppen_kod": "behov av resurser och kompetens"
+    },
+    {
+     "citat": "Det gäller i synnerhet förslaget om stödundervisning, som i flera fall kommer kräva en annan typ av organisation och dimensionering av organisation jämfört med dagens.",
+     "oppen_kod": "ny organisation för stödundervisning"
+    },
+    {
+     "citat": "Därtill kommer krävas pedagogisk personal som har god kompetens för uppgiften, vilket redan idag tillhör svårrekryterade bristkompetenser.",
+     "oppen_kod": "svårrekryterad pedagogisk personal"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "mariestads-kommun#10",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "lunds-kommun#10",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "almega-utbildning#16",
+   "kodare_a_antal": 2,
+   "kodare_b_antal": 2,
+   "kodare_b": [
+    {
+     "citat": "Men förbundet bedömer att det föreslagna förtydligandet i 3 kap. 2 § skollagen inte är tillräckligt tydligt.",
+     "oppen_kod": "otydlig bestämmelse om ledning stimulans"
+    },
+    {
+     "citat": "Det finns en risk att lagstiftningen tolkas så att det krävs en diagnostiserad funktionsnedsättning för att en elev ska vara berättigad till stöd.",
+     "oppen_kod": "risk för diagnoskrav vid tolkning"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "sveriges-kommuner-och-regioner#7",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "sodertalje-kommun#21",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  },
+  {
+   "id": "herrljunga-kommun#2",
+   "kodare_a_antal": 3,
+   "kodare_b_antal": 3,
+   "kodare_b": [
+    {
+     "citat": "Med förslaget att avskaffa extra anpassningar följer också ett ökat ansvar för lärare att identifiera stödbehov och initiera pedagogiska utredningar.",
+     "oppen_kod": "ökat ansvar för lärare"
+    },
+    {
+     "citat": "om resurserna till fler tjänster inom speciallärare och specialpedagoger inte utökas riskerar detta att leda till en ökad belastning på skolorna och längre väntetider för utredningar. Det finns således en risk för att det uppstår köer till stödinsatser, vilket kan motverka intentionen om ett snabbt och tillgängligt stöd.",
+     "oppen_kod": "köer utan fler specialpedagoger"
+    },
+    {
+     "citat": "Vi ser också vikten av att utbilda pedagogisk personal inom området ledning och stimulans för att på så vis se till att elevernas förutsättningar och behov verkligen tillgodoses i den ordinarie undervisningen.",
+     "oppen_kod": "kompetensutveckling i ledning stimulans"
+    }
+   ],
+   "overens": true
+  },
+  {
+   "id": "hoors-kommun#3",
+   "kodare_a_antal": 0,
+   "kodare_b_antal": 0,
+   "kodare_b": [],
+   "overens": true
+  }
+ ]
+}

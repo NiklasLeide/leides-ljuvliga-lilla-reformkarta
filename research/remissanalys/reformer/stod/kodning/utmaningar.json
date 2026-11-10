@@ -1,0 +1,2906 @@
+{
+ "_meta": {
+  "steg": "M1 identifiering av utmaningar (modellkodning, Sprint 17; 4 parallella kodare, en per batch av passager, instruktion research/remissanalys/kedja/KODINSTRUKTION.md)",
+  "tolkning": true,
+  "falt": {
+   "uid": "utmaningens id",
+   "id": "passage-id",
+   "citat": "ordagrann delsträng ur passagen",
+   "oppen_kod": "kodarens öppna kod (spårbarhet; visas aldrig)",
+   "beskrivning": "kodarens beskrivning (spårbarhet; visas aldrig)"
+  }
+ },
+ "utmaningar": [
+  {
+   "uid": "U001",
+   "id": "almega-utbildning#11",
+   "citat": "Förbundet bedömer att utredningen underskattat de kostnader som framför allt bestämmelserna om stödundervisning kan medföra, då förslagen med nödvändighet kräver ytterligare behörig personal, alternativt flera specialpedagoger och speciallärare.",
+   "oppen_kod": "underskattade kostnader stödundervisning",
+   "beskrivning": "Stödundervisningen kräver mer behörig personal och kostar mer än utredningen räknat med."
+  },
+  {
+   "uid": "U002",
+   "id": "almega-utbildning#12",
+   "citat": "Det gör att förbundet inte delar utredningens uppfattning om utformningen av förslaget om stödundervisning, då det bryter styrkedjan och inte tar hänsyn till rektors ansvar och beslutanderätt.",
+   "oppen_kod": "stödundervisning bryter styrkedjan",
+   "beskrivning": "Utformningen av stödundervisningen inskränker rektors ansvar och beslutanderätt i styrkedjan."
+  },
+  {
+   "uid": "U003",
+   "id": "almega-utbildning#12",
+   "citat": "Vi bedömer annars att stödundervisning är en bra åtgärd, men oroas också av att förslaget om sådan undervisning är resurskrävande och att utredningen därmed underskattat behovet av finansiering av förslaget.",
+   "oppen_kod": "resurskrävande och underfinansierat",
+   "beskrivning": "Stödundervisningen är resurskrävande och finansieringsbehovet är underskattat."
+  },
+  {
+   "uid": "U004",
+   "id": "almega-utbildning#13",
+   "citat": "Det behöver ytterligare förtydligas i 3 kap 2 § skollagen, än vad som föreslås i avsnitt 6.3. Det finns annars en risk för att stödundervisningen kommer att överutnyttjas för elever som mycket väl skulle kunna delta i ordinarie undervisning och i sin grupp med mindre insatser.",
+   "oppen_kod": "otydlighet kring enklare insatser",
+   "beskrivning": "Utan förtydligande om enklare insatser i ordinarie undervisning riskerar stödundervisningen att överutnyttjas."
+  },
+  {
+   "uid": "U005",
+   "id": "almega-utbildning#16",
+   "citat": "Men förbundet bedömer att det föreslagna förtydligandet i 3 kap. 2 § skollagen inte är tillräckligt tydligt.",
+   "oppen_kod": "otydlig lydelse 3 kap. 2 §",
+   "beskrivning": "Den föreslagna lydelsen om ledning och stimulans är inte tillräckligt tydlig för tillämpningen."
+  },
+  {
+   "uid": "U006",
+   "id": "almega-utbildning#16",
+   "citat": "Det finns en risk att lagstiftningen tolkas så att det krävs en diagnostiserad funktionsnedsättning för att en elev ska vara berättigad till stöd.",
+   "oppen_kod": "risk att diagnos krävs",
+   "beskrivning": "Lagtexten kan tolkas som att stöd kräver en diagnostiserad funktionsnedsättning."
+  },
+  {
+   "uid": "U007",
+   "id": "almega-utbildning#18",
+   "citat": "Därför måste också syftet med proven vara tydligt. Är det en kunskapsuppföljning liknande nationella prov, eller enbart för att stämma av grundläggande kunskapsnivå och att säkerställa att en elev inte är i behov av stödundervisning eller särskilt stöd?",
+   "oppen_kod": "oklart syfte standardiserade tester",
+   "beskrivning": "Syftet med de standardiserade testerna är oklart."
+  },
+  {
+   "uid": "U008",
+   "id": "almega-utbildning#18",
+   "citat": "Vi kan också se att det kan bli svårt för Skolverket att hinna med att färdigställa de standardiserade proven till ikraftträdandet 2028.",
+   "oppen_kod": "tester ej klara till 2028",
+   "beskrivning": "Det är osäkert om de standardiserade testerna hinner bli klara till ikraftträdandet."
+  },
+  {
+   "uid": "U009",
+   "id": "almega-utbildning#19",
+   "citat": "Den här utformningen bryter styrkedjan i skolan, där rektor idag har både ansvar och beslutanderätt kring frågor om stöd.",
+   "oppen_kod": "lärarens bedömning binder rektor",
+   "beskrivning": "Att lärarens bedömning ska styra stödundervisningen inskränker rektors beslutanderätt."
+  },
+  {
+   "uid": "U010",
+   "id": "almega-utbildning#20",
+   "citat": "Det kan också hända att fler lärare i olika ämnen bedömer att eleven är i behov av stödundervisning och även här behövs en överblick av elevens samlade behov och möjligheter till stöd.",
+   "oppen_kod": "samordning mellan ämneslärare",
+   "beskrivning": "Stödundervisning i flera ämnen kräver en samlad överblick som förslaget inte ger."
+  },
+  {
+   "uid": "U011",
+   "id": "almega-utbildning#20",
+   "citat": "Förbundet kan också se att förslaget är resurskrävande, både avseende personal och lokaler. Idag finns en brist på utbildade lärare, specialpedagoger och speciallärare.",
+   "oppen_kod": "personal- och lokalbrist",
+   "beskrivning": "Stödundervisningen kräver personal och lokaler som det redan råder brist på."
+  },
+  {
+   "uid": "U012",
+   "id": "almega-utbildning#20",
+   "citat": "Förslagen sammantaget riskerar att leda till allvarlig lärarbrist där det faktiskt blir omöjligt att tillgodose elevers behov av stödundervisning, eftersom skolhuvudmän i första hand behöver se till att det finns lärare för ordinarie undervisning.",
+   "oppen_kod": "samlad lärarbrist flera reformer",
+   "beskrivning": "Flera samtidiga förslag kräver fler lärare och kan göra stödundervisning omöjlig att bemanna."
+  },
+  {
+   "uid": "U013",
+   "id": "almega-utbildning#20",
+   "citat": "Flertalet skolor är lokalsnålt byggda för att vara effektiva i kostnadshänseende och har inte utrymme för allt för många mindre grupprum.",
+   "oppen_kod": "brist på grupprum",
+   "beskrivning": "Skolornas lokaler saknar utrymme för många mindre grupprum."
+  },
+  {
+   "uid": "U014",
+   "id": "almega-utbildning#20",
+   "citat": "Att försöka reglera undervisningsgruppens storlek enbart utifrån antalet elever kan aldrig leda till effektivitet, utan riskerar att vara resursdrivande.",
+   "oppen_kod": "gruppstorleksreglering resursdrivande",
+   "beskrivning": "En reglering av gruppstorlek riskerar att driva kostnader utan effektivitet."
+  },
+  {
+   "uid": "U015",
+   "id": "almega-utbildning#24",
+   "citat": "Det betyder att förslaget kan läsas på olika sätt.",
+   "oppen_kod": "tvetydig regel anpassad studiegång",
+   "beskrivning": "Förslaget om anpassad studiegång i sista hand kan tolkas på olika sätt."
+  },
+  {
+   "uid": "U016",
+   "id": "almega-utbildning#25",
+   "citat": "Förbundet bedömer att konsekvensbeskrivningen inte tillräckligt tar hänsyn till de krav på utökad personalstyrka (liksom ökade lokalbehov) som bestämmelserna om stödundervisning och i viss mån särskilt stöd för med sig.",
+   "oppen_kod": "underskattat personal- och lokalbehov",
+   "beskrivning": "Konsekvensanalysen tar inte höjd för ökat personal- och lokalbehov."
+  },
+  {
+   "uid": "U017",
+   "id": "almega-utbildning#25",
+   "citat": "Men när flera utredningar inte finansieras fullt ut riskerar det att lämna skolhuvudmännen i en omöjlig sits.",
+   "oppen_kod": "samlad underfinansiering av reformer",
+   "beskrivning": "Flera ofullständigt finansierade reformer sammantaget sätter huvudmännen i en omöjlig sits."
+  },
+  {
+   "uid": "U018",
+   "id": "bjuvs-kommun#2",
+   "citat": "Däremot uppfattas förslaget att helt avskaffa extra anpassningar som väl drastiskt, och det riskerar att leda till alltför stora och ingripande förändringar i skolans verksamhet.",
+   "oppen_kod": "ingripande förändring av verksamheten",
+   "beskrivning": "Att helt avskaffa extra anpassningar innebär stora och ingripande förändringar i skolans verksamhet."
+  },
+  {
+   "uid": "U019",
+   "id": "bjuvs-kommun#5",
+   "citat": "Det finns en oro för att deras kompetens då riskerar att reduceras till en extraresurs i klassrummet, snarare än att användas strategiskt för att utveckla undervisningen och elevhälsoarbetet.",
+   "oppen_kod": "specialpedagoger som extraresurs",
+   "beskrivning": "Specialpedagogers kompetens riskerar att användas som klassrumsresurs i stället för strategiskt."
+  },
+  {
+   "uid": "U020",
+   "id": "bjuvs-kommun#6",
+   "citat": "Även om utredningen framhåller att de standardiserade testerna ska vara enkla att genomföra och följa upp, framgår det inte tydligt hur mycket dokumentation och hantering som kommer att krävas, särskilt med hänsyn till vilken årskurs testerna genomförs i. Tidsåtgången är också oklar.",
+   "oppen_kod": "oklar tidsåtgång för tester",
+   "beskrivning": "Det är oklart hur mycket dokumentation, hantering och tid testerna kräver."
+  },
+  {
+   "uid": "U021",
+   "id": "bjuvs-kommun#6",
+   "citat": "Mot bakgrund av utredningens förslag gör Bjuvs kommun bedömningen att antalet obligatoriska tester troligen kommer att öka jämfört med idag. Det är därför viktigt att ta hänsyn till den arbetsbelastning detta kan medföra för både elever och personal.",
+   "oppen_kod": "fler tester ökar arbetsbelastning",
+   "beskrivning": "Fler obligatoriska tester kan öka personalens arbetsbelastning."
+  },
+  {
+   "uid": "U022",
+   "id": "bjuvs-kommun#6",
+   "citat": "Vid införande av standardiserade tester bör särskild hänsyn tas till redan tillgängliga digitala screeningverktyg, exempelvis att testerna görs tillgängliga för leverantörer av nuvarande digitala screeningverktyg.",
+   "oppen_kod": "befintliga digitala screeningverktyg",
+   "beskrivning": "Huvudmännens befintliga digitala screeningverktyg och kvalitetssystem behöver kunna rymma de nya testerna."
+  },
+  {
+   "uid": "U023",
+   "id": "bjuvs-kommun#7",
+   "citat": "Eftersom stödundervisningen enligt utredningen inte är frivillig, och eleven förväntas delta, uppstår frågor om hur skolan ska agera om eleven inte vill lämna klassrummet.",
+   "oppen_kod": "elev vägrar stödundervisning",
+   "beskrivning": "Det är oklart hur skolan ska agera när en elev inte vill delta i obligatorisk stödundervisning."
+  },
+  {
+   "uid": "U024",
+   "id": "bjuvs-kommun#7",
+   "citat": "En annan risk rör begränsningen till högst tre ämnen per termin och två månader åt gången. Elever med bredare stödbehov riskerar därmed att tappa undervisningstid och klassgemenskap, beroende på hur skolan organiserar stödundervisningen.",
+   "oppen_kod": "organisering av tidsbegränsat stöd",
+   "beskrivning": "Skolans organisering av stödundervisningen kan göra att elever med bredare behov tappar undervisningstid."
+  },
+  {
+   "uid": "U025",
+   "id": "bjuvs-kommun#8",
+   "citat": "Studiero och kontinuitet kan också påverkas negativt om elever rör sig in och ut ur klassrummet i olika ämnen.",
+   "oppen_kod": "studiero vid in- och utflöde",
+   "beskrivning": "Elever som går in och ut ur klassrummet kan störa studiero och kontinuitet."
+  },
+  {
+   "uid": "U026",
+   "id": "bjuvs-kommun#8",
+   "citat": "Förslaget att stödundervisning ska kunna ges i samtliga ämnen och i alla obligatoriska skolformer innebär höga krav på skolans organisation, bemanning och rektorns möjligheter att sätta samman grupper utifrån elevernas ålder, mognad och behov. Även om stödundervisning enligt förslaget ska starta snabbt (inom 1–2 veckor), kan dessa krav göra det svårt att genomföra i praktiken.",
+   "oppen_kod": "krav på organisation och bemanning",
+   "beskrivning": "Stödundervisning i alla ämnen med snabb start ställer svåra krav på organisation, bemanning och gruppsammansättning."
+  },
+  {
+   "uid": "U027",
+   "id": "bjuvs-kommun#8",
+   "citat": "Utan dokumentation om tidigare stödinsatser finns risk att insatserna inte matchar elevens behov. Om dokumentationen tas bort kan det i stället krävas muntliga överlämningar, vilket tar tid från undervisningen.",
+   "oppen_kod": "minskad dokumentation, muntliga överlämningar",
+   "beskrivning": "Utan dokumentation riskerar stödet att inte matcha behoven och muntliga överlämningar tar tid."
+  },
+  {
+   "uid": "U028",
+   "id": "bjuvs-kommun#8",
+   "citat": "Det är dock oklart hur mycket detta förändrar lärarens vardag, då individuellt stöd fortsatt behöver ges – även om det inte längre ska dokumenteras.",
+   "oppen_kod": "oklar förändring av lärarens arbete",
+   "beskrivning": "Det är oklart hur mycket lärarens arbete egentligen förändras."
+  },
+  {
+   "uid": "U029",
+   "id": "bjuvs-kommun#8",
+   "citat": "Utredningens användning av begreppet ”färdighetsämne” kritiseras, eftersom det inte är tydligt definierat, vilket kan skapa tolkningsproblem.",
+   "oppen_kod": "odefinierat begrepp färdighetsämne",
+   "beskrivning": "Begreppet färdighetsämne är inte definierat och kan skapa tolkningsproblem."
+  },
+  {
+   "uid": "U030",
+   "id": "bjuvs-kommun#8",
+   "citat": "Slutligen betonar Bjuvs kommun att även om dokumentationsbördan minskar när extra anpassningar tas bort, får det inte leda till att andra administrativa uppgifter tillkommer och därmed ökar lärarnas totala arbetsbelastning.",
+   "oppen_kod": "ny administration ersätter gammal",
+   "beskrivning": "Nya administrativa uppgifter kan öka lärarnas totala arbetsbelastning."
+  },
+  {
+   "uid": "U031",
+   "id": "bjuvs-kommun#8",
+   "citat": "Samtidigt ser Bjuvs kommun en tydlig risk att sänkt tröskel leder till att elever som upplevs som utmanande i undervisningen i högre grad flyttas till särskilda grupper.",
+   "oppen_kod": "fler placeringar i särskild grupp",
+   "beskrivning": "Sänkt tröskel kan leda till att skolor oftare flyttar elever till särskilda grupper."
+  },
+  {
+   "uid": "U032",
+   "id": "bjuvs-kommun#9",
+   "citat": "Det finns dock en osäkerhet kring konsekvenserna av att nuvarande exempel i 3 kap. 7 § skollagen, som beskriver när behov av utredning kan uppmärksammas, föreslås tas bort.",
+   "oppen_kod": "oklar följd av borttagna exempel",
+   "beskrivning": "Det är oklart vad det innebär att exemplen i 3 kap. 7 § tas bort."
+  },
+  {
+   "uid": "U033",
+   "id": "bjuvs-kommun#9",
+   "citat": "Kommunen bedömer att förslagen kan innebära en risk i att specialpedagoger och speciallärare inte kommer att hinna med arbetsuppgifter som handlar om tillgängliga lärmiljöer för elever med olika funktionsnedsättningar, förebyggande arbete där ett specialpedagogiskt fokus behövs samt att vara en del i skolans systematiska kvalitetsarbete.",
+   "oppen_kod": "ökad belastning på specialpedagoger",
+   "beskrivning": "Obligatoriskt samråd ökar specialpedagogers arbetsbelastning och tränger undan förebyggande arbete."
+  },
+  {
+   "uid": "U034",
+   "id": "bjuvs-kommun#11",
+   "citat": "Bjuvs kommun ser även utmaningar för huvudmän och rektorer i att organisera stödundervisning enligt förslaget, särskilt i kombination med införandet av förstärkt undervisning.",
+   "oppen_kod": "organisera stödundervisning och förstärkt undervisning",
+   "beskrivning": "Det är svårt att organisera stödundervisning samtidigt som förstärkt undervisning införs."
+  },
+  {
+   "uid": "U035",
+   "id": "bjuvs-kommun#12",
+   "citat": "Bjuvs kommun bedömer att de många förslag som riktas mot grundskolorna kommer att få stor inverkan på verksamheten, med omfattande pedagogiska och organisatoriska konsekvenser som följd.",
+   "oppen_kod": "många samtidiga förslag",
+   "beskrivning": "De många förslagen mot grundskolan får omfattande pedagogiska och organisatoriska konsekvenser."
+  },
+  {
+   "uid": "U036",
+   "id": "ekero-kommun#3",
+   "citat": "Bedömningen är att förslaget i sin helhet kommer innebära betydande kostnadsökningar och att utredningen inte tagit tillräcklig höjd för dessa.",
+   "oppen_kod": "betydande kostnadsökningar",
+   "beskrivning": "Förslagen innebär betydande kostnadsökningar som utredningen inte tagit höjd för."
+  },
+  {
+   "uid": "U037",
+   "id": "ekero-kommun#3",
+   "citat": "Vi tror att antalet anmälningar och utredningar om särskilt stöd kommer öka i antal, inte minska, och bedömningen är att utredningens förslag inte heller kommer att leda till att stöd sätts in snabbare.",
+   "oppen_kod": "fler anmälningar och utredningar",
+   "beskrivning": "Antalet anmälningar och utredningar om särskilt stöd väntas öka."
+  },
+  {
+   "uid": "U038",
+   "id": "ekero-kommun#3",
+   "citat": "Vidare anser kommunen att det är bra att minska dokumentationsbördan men behovet av viss kartläggning och dokumentation kvarstår för att stödet som sätts in ska matcha behoven.",
+   "oppen_kod": "behov av dokumentation finns",
+   "beskrivning": "Viss kartläggning och dokumentation behövs fortfarande för att stödet ska matcha behoven."
+  },
+  {
+   "uid": "U039",
+   "id": "ekero-kommun#3",
+   "citat": "Kommunen motsätter sig även förslagen 6.6 och 6.7 då dessa riskerar att skapa många särskilda undervisningsgrupper samt inte ge rätt elever stöd utanför ordinarie klassrum.",
+   "oppen_kod": "många särskilda undervisningsgrupper",
+   "beskrivning": "Förslagen kan leda till många särskilda undervisningsgrupper."
+  },
+  {
+   "uid": "U040",
+   "id": "ekero-kommun#3",
+   "citat": "Vi ser att detta kan bli en utmaning både gällande när och hur, den kompetenshöjningen ska ske, samt vad det innebär för den enskilda läraren och organisationen i stort",
+   "oppen_kod": "lärarnas kompetenshöjning",
+   "beskrivning": "Det är en utmaning när och hur lärarnas kompetens ska höjas och vad det kräver av organisationen."
+  },
+  {
+   "uid": "U041",
+   "id": "ekero-kommun#3",
+   "citat": "På det stora hela anser Ekerö kommun att förslaget i sin helhet innehåller en del motstridigheter. Att förslagen tar ut varandra eller rent av motverkar varandra. Bland annat synen på diagnoser, i vissa delar kan förslaget tolkas som att diagnos krävs för ett visst stöd.",
+   "oppen_kod": "motstridiga förslag om diagnos",
+   "beskrivning": "Förslagen är motstridiga och kan tolkas som att diagnos krävs för visst stöd."
+  },
+  {
+   "uid": "U042",
+   "id": "ekero-kommun#4",
+   "citat": "Det finns en utmaning i att tydliggöra vilket stöd och vilka anpassningar som läraren",
+   "oppen_kod": "oklart lärarens stöd i undervisningen",
+   "beskrivning": "Det är oklart vilket stöd och vilka anpassningar läraren förväntas ge i ordinarie undervisning."
+  },
+  {
+   "uid": "U043",
+   "id": "ekero-kommun#5",
+   "citat": "Båda dessa förslag ställer krav på hög kompetens hos läraren, se resonemang kring detta under 6.3.",
+   "oppen_kod": "krav på hög lärarkompetens",
+   "beskrivning": "Förslagen ställer krav på hög kompetens hos lärarna."
+  },
+  {
+   "uid": "U044",
+   "id": "ekero-kommun#5",
+   "citat": "Ytterligare en utmaning är att säkerställa att läraren har möjlighet att möta elevernas behov genom ledning och stimulans.",
+   "oppen_kod": "förutsättningar för ledning och stimulans",
+   "beskrivning": "Det är svårt att säkerställa att lärare kan möta behoven genom ledning och stimulans."
+  },
+  {
+   "uid": "U045",
+   "id": "ekero-kommun#5",
+   "citat": "När läraren inte behöver visa vilket stöd hen sätter in är risken att fler elever anmäls till rektor för utredning om särskilt stöd.",
+   "oppen_kod": "fler anmälningar till rektor",
+   "beskrivning": "Utan krav på att visa insatt stöd kan fler elever anmälas för utredning."
+  },
+  {
+   "uid": "U046",
+   "id": "ekero-kommun#5",
+   "citat": "Dokumentationsbördan för lärare minskar men det finns risker med att stöd inte dokumenteras.",
+   "oppen_kod": "risker med odokumenterat stöd",
+   "beskrivning": "Odokumenterat stöd gör att tidigare insatser kan upprepas eller förutsättas felaktigt."
+  },
+  {
+   "uid": "U047",
+   "id": "ekero-kommun#5",
+   "citat": "Om förslaget ska fungera är det viktigt att det tydligt framkommer vilka olika former av stöd som förväntas ingå i ordinarie undervisning.",
+   "oppen_kod": "oklart innehåll i ordinarie undervisning",
+   "beskrivning": "Det behöver framgå vilka stödformer som ska ingå i ordinarie undervisning."
+  },
+  {
+   "uid": "U048",
+   "id": "ekero-kommun#6",
+   "citat": "När garantin för tidiga stödinsatser tas bort är det viktigt att det finns rutiner för hur det tidiga stödet skall utformas och sättas in.",
+   "oppen_kod": "nya rutiner för tidigt stöd",
+   "beskrivning": "Huvudmannen behöver nya rutiner för tidigt stöd när garantin tas bort."
+  },
+  {
+   "uid": "U049",
+   "id": "ekero-kommun#7",
+   "citat": "Att anpassa undervisningens form och innehåll utifrån elevernas förutsättningar ställer höga krav på specifik kompetens hos läraren.",
+   "oppen_kod": "krav på specifik lärarkompetens",
+   "beskrivning": "Undervisning som alla kan följa kräver specifik kompetens hos lärarna."
+  },
+  {
+   "uid": "U050",
+   "id": "ekero-kommun#7",
+   "citat": "Utmaningen här blir att hitta rätt kompetensutveckling.",
+   "oppen_kod": "hitta rätt kompetensutveckling",
+   "beskrivning": "Det är svårt att hitta rätt kompetensutveckling för lärarna."
+  },
+  {
+   "uid": "U051",
+   "id": "ekero-kommun#7",
+   "citat": "Kommunen ser att det kan bli utmaningar i praktiken att säkerställa att lärare utvecklas och kompetens höjs inom de områden där behovet finns.",
+   "oppen_kod": "säkerställa kompetenshöjning",
+   "beskrivning": "Det är svårt att i praktiken säkerställa att lärares kompetens höjs där den behövs."
+  },
+  {
+   "uid": "U052",
+   "id": "ekero-kommun#7",
+   "citat": "En utmaning är att det i dagens skola är så stoffyllt vilket gör det svårt för lärare att prioritera tid för relationsskapande aktiviteter.",
+   "oppen_kod": "tidsbrist för relationsskapande",
+   "beskrivning": "Stoffträngsel gör det svårt för lärare att prioritera relationsskapande."
+  },
+  {
+   "uid": "U053",
+   "id": "ekero-kommun#8",
+   "citat": "En utmaning är att ta fram reliabla och valida standardiserade tester.",
+   "oppen_kod": "reliabla och valida tester",
+   "beskrivning": "Det är svårt att ta fram reliabla och valida standardiserade tester."
+  },
+  {
+   "uid": "U054",
+   "id": "ekero-kommun#8",
+   "citat": "Vidare är det en utmaning att lyckas knyta insatser till de behov testerna identifierar, det avgör huruvida införandet gagnar eleverna.",
+   "oppen_kod": "koppla insatser till testresultat",
+   "beskrivning": "Det är svårt att koppla insatser till de behov testerna identifierar."
+  },
+  {
+   "uid": "U055",
+   "id": "ekero-kommun#8",
+   "citat": "Läraren behöver stöd av specialpedagog/speciallärare för att tolka resultaten och möta identifierade behov med rätt stöd.",
+   "oppen_kod": "specialpedagogiskt stöd för tolkning",
+   "beskrivning": "Lärare behöver specialpedagogiskt stöd för att tolka testresultaten."
+  },
+  {
+   "uid": "U056",
+   "id": "ekero-kommun#9",
+   "citat": "Risken finnas att incitamentet för att skapa en undervisning som är varierad och möter alla elevers behov sjunker med stödundervisning som ett alternativ.",
+   "oppen_kod": "minskat incitament för varierad undervisning",
+   "beskrivning": "Stödundervisning kan minska incitamentet att utforma undervisning som möter alla elever."
+  },
+  {
+   "uid": "U057",
+   "id": "ekero-kommun#10",
+   "citat": "Ytterligare svårigheter med förslaget är att läraren ensam ska vara den som bedömer om en elev ska ha stödundervisning och besitta kompetens att avgöra vilka behov eleven har.",
+   "oppen_kod": "lärarens ensamma bedömning",
+   "beskrivning": "Läraren förväntas ensam ha kompetens att bedöma elevens behov av stödundervisning."
+  },
+  {
+   "uid": "U058",
+   "id": "ekero-kommun#10",
+   "citat": "Om den enskilde läraren inte ska dokumentera och kartlägga för att begära stödundervisning behöver rektor på något sätt skaffa sig ovan beskrivna kunskaper om varje enskild elev vilket bedöms utmanande.",
+   "oppen_kod": "rektors underlag för gruppindelning",
+   "beskrivning": "Rektor saknar underlag om eleverna för att sätta samman stödundervisningsgrupper."
+  },
+  {
+   "uid": "U059",
+   "id": "ekero-kommun#11",
+   "citat": "En risk med förslaget är att om läraren inte behöver redogöra för vilket stöd som provats innan eleven anmäls för utredning medför att eleven kan komma att mötas med samma eller liknande stöd som redan provats.",
+   "oppen_kod": "upprepat redan prövat stöd",
+   "beskrivning": "Utan redovisning av prövat stöd kan samma stöd ges igen."
+  },
+  {
+   "uid": "U060",
+   "id": "ekero-kommun#12",
+   "citat": "En annan risk med förslaget är att det blir många fler elever som anmäls och utreds för behov av särskilt stöd än vad som är behövligt eftersom kravet på genomförda insatser av läraren/ledning och stimulans inte behöver redovisas.",
+   "oppen_kod": "onödigt många utredningar",
+   "beskrivning": "Fler elever än nödvändigt kan anmälas och utredas för särskilt stöd."
+  },
+  {
+   "uid": "U061",
+   "id": "ekero-kommun#12",
+   "citat": "Rektor kan ha svårt att möjliggöra och skapa de resurser/förutsättningar som behövs för att kunna ge det särskilda stöd som behövs.",
+   "oppen_kod": "resursbrist för särskilt stöd",
+   "beskrivning": "Rektor har svårt att skapa resurser för det särskilda stöd som behövs."
+  },
+  {
+   "uid": "U062",
+   "id": "ekero-kommun#12",
+   "citat": "Det är också oerhört viktigt är att säkerställa att lärare får den kompetens och det stöd de behöver för att fatta välgrundade beslut i sina anmälningar om stödbehov.",
+   "oppen_kod": "lärarkompetens för anmälningar",
+   "beskrivning": "Lärare behöver kompetens och stöd för välgrundade anmälningar om stödbehov."
+  },
+  {
+   "uid": "U063",
+   "id": "ekero-kommun#13",
+   "citat": "En risk är att om utgångspunkten är att särskilt stöd ges utanför den ordinarie klassen kommer antalet särskilda undervisningsgrupper att öka. Det kan innebära svårigheter i en verksamhet som redan idag har en del utmaningar kring resursfördelningen, vi ser att det kan bli svårt för rektor att klara detta inom budget.",
+   "oppen_kod": "fler särskilda grupper inom budget",
+   "beskrivning": "Fler särskilda undervisningsgrupper blir svåra för rektor att rymma i budgeten."
+  },
+  {
+   "uid": "U064",
+   "id": "goteborgs-kommun#4",
+   "citat": "En annan synpunkt är att begreppet ”ledning och stimulans” behöver förtydligas för att definiera vad som förväntas rymmas inom ordinarie undervisning genom ledning och stimulans respektive nya stödformen stödundervisning.",
+   "oppen_kod": "otydligt begrepp ledning och stimulans",
+   "beskrivning": "Gränsen mellan ledning och stimulans och stödundervisning är otydlig."
+  },
+  {
+   "uid": "U065",
+   "id": "goteborgs-kommun#4",
+   "citat": "Inte minst ser förvaltningen svårigheter för rektor i styrning och organisering av skolan utifrån ekonomi, lärare och lokaler. Förslaget kommer innebära en stor utmaning för rektor att hålla en organisation redo för att under läsåret skyndsamt kunna ta om hand elever som av lärare bedöms behöva stöd utanför klassrummet.",
+   "oppen_kod": "beredskap för skyndsam stödundervisning",
+   "beskrivning": "Rektor måste hålla en organisation redo för skyndsam stödundervisning under läsåret."
+  },
+  {
+   "uid": "U066",
+   "id": "goteborgs-kommun#4",
+   "citat": "Förvaltningen ser även stora svårigheter för huvudman att ge förutsättningar i form av fördelning av resurser, lärarkompetens och lokaler.",
+   "oppen_kod": "huvudmannens resursfördelning",
+   "beskrivning": "Huvudmannen får svårt att ge förutsättningar i resurser, lärarkompetens och lokaler."
+  },
+  {
+   "uid": "U067",
+   "id": "goteborgs-kommun#4",
+   "citat": "När det gäller föreliggande utredning, så är kostnadsberäkningarna för osäkra och behöver ses över.",
+   "oppen_kod": "osäkra kostnadsberäkningar",
+   "beskrivning": "Utredningens kostnadsberäkningar är för osäkra."
+  },
+  {
+   "uid": "U068",
+   "id": "goteborgs-kommun#5",
+   "citat": "Om extra anpassningar försvinner finns en risk att planeringen av undervisningen inte utgår från elevernas behov, vilket kan innebära att fler elever behöver stödundervisning och särskilt stöd.",
+   "oppen_kod": "fler elever behöver stöd",
+   "beskrivning": "Utan extra anpassningar kan fler elever behöva stödundervisning och särskilt stöd."
+  },
+  {
+   "uid": "U069",
+   "id": "goteborgs-kommun#5",
+   "citat": "En utmaning med förslaget är även att det blir svårare att förstå elevens behov och följa upp elevens progression och utveckling, samt risk för bristfälliga underlag vid övergångar då dokumentationskravet minskar.",
+   "oppen_kod": "bristfälliga underlag vid övergångar",
+   "beskrivning": "Minskad dokumentation försvårar uppföljning och ger sämre underlag vid övergångar."
+  },
+  {
+   "uid": "U070",
+   "id": "goteborgs-kommun#8",
+   "citat": "Samtidigt innebär förslaget att lärarens ansvar och krav höjs, vilket innebär ökat behov av att ge lärare stöd och kompetensutveckling för att bättre kunna identifiera och genom ledning och stimulans stödja elever med olika behov.",
+   "oppen_kod": "ökat behov av kompetensutveckling",
+   "beskrivning": "Lärarnas högre ansvar kräver mer stöd och kompetensutveckling."
+  },
+  {
+   "uid": "U071",
+   "id": "goteborgs-kommun#8",
+   "citat": "Förvaltningen ser även en risk i att utredningen tolkar begreppet ”lärarstyrd undervisning” alltför snävt och menar att balansen och kombinationen mellan lärar- och elevcentrerad undervisning behöver skrivas fram tydligare.",
+   "oppen_kod": "snävt begrepp lärarstyrd undervisning",
+   "beskrivning": "Begreppet lärarstyrd undervisning är snävt och otydligt formulerat."
+  },
+  {
+   "uid": "U072",
+   "id": "goteborgs-kommun#9",
+   "citat": "Ytterligare en förutsättning är att testerna prövas i mindre skala innan fullskaligt införande, inte minst med tanke på att de ska genomföras",
+   "oppen_kod": "digitala tester behöver prövas",
+   "beskrivning": "De digitala testerna behöver prövas i mindre skala före fullskaligt införande."
+  },
+  {
+   "uid": "U073",
+   "id": "goteborgs-kommun#10",
+   "citat": "Förslaget om standardiserade tester kräver även att det finns en organisation och resurser på plats som klarar omhänderta resultatet och det stödbehov testerna visar.",
+   "oppen_kod": "resurser för att omhänderta testresultat",
+   "beskrivning": "Huvudmannen behöver organisation och resurser för att möta stödbehoven testerna visar."
+  },
+  {
+   "uid": "U074",
+   "id": "goteborgs-kommun#12",
+   "citat": "Förvaltningen menar att det finns en motsägelse och otydlighet i att utredningen å ena sidan menar att stödundervisning behövs som stödform, då det ställs alltför höga krav på att lärare ska kunna ge varje elev ledning och stimulans inom den ordinarie",
+   "oppen_kod": "motsägelse stödundervisning och ledning",
+   "beskrivning": "Utredningens resonemang om stödundervisning och ledning och stimulans är motsägelsefullt."
+  },
+  {
+   "uid": "U075",
+   "id": "goteborgs-kommun#13",
+   "citat": "Förslaget innebär stora utmaningar för huvudman att skapa förutsättningar för skolorna att klara stödundervisningen i form av resursfördelning, lärarkompetens och lokaler.",
+   "oppen_kod": "huvudmannens förutsättningar för stödundervisning",
+   "beskrivning": "Huvudmannen får svårt att ge skolorna resurser, lärarkompetens och lokaler för stödundervisning."
+  },
+  {
+   "uid": "U076",
+   "id": "goteborgs-kommun#13",
+   "citat": "Utredningens beräkningar för ökade kostnader är enligt förvaltningens mening för översiktlig och kräver mer noggranna beräkningar.",
+   "oppen_kod": "översiktliga kostnadsberäkningar",
+   "beskrivning": "Kostnadsberäkningarna är för översiktliga."
+  },
+  {
+   "uid": "U077",
+   "id": "goteborgs-kommun#13",
+   "citat": "Förslaget innebär en stor utmaning för rektor att hålla en organisation redo för att under läsåret skyndsamt kunna ta om hand elever som av lärare bedöms behöva stöd utanför klassrummet.",
+   "oppen_kod": "organisatorisk beredskap under läsåret",
+   "beskrivning": "Rektor måste ha beredskap för skyndsam stödundervisning under hela läsåret."
+  },
+  {
+   "uid": "U078",
+   "id": "goteborgs-kommun#13",
+   "citat": "Variationen i olika lärares bedömning av elevers stödbehov kan bli stor, vilket gör att antalet elever i behov av stödundervisning är svårbedömt.",
+   "oppen_kod": "svårbedömd omfattning",
+   "beskrivning": "Varierande lärarbedömningar gör behovet av stödundervisning svårt att planera för."
+  },
+  {
+   "uid": "U079",
+   "id": "goteborgs-kommun#13",
+   "citat": "Förslaget riskerar dock att läraren lämnas ensam med ett större ansvar, vilket kan skapa stress och högre arbetsbelastning.",
+   "oppen_kod": "ensamt läraransvar och stress",
+   "beskrivning": "Läraren får ett större ensamt ansvar som kan ge stress och högre arbetsbelastning."
+  },
+  {
+   "uid": "U080",
+   "id": "goteborgs-kommun#13",
+   "citat": "För att lyckas med att anpassa elevens stöd efter behoven, kräver förslaget därför tydligare riktlinjer om hur lärarens samarbete med skolans elevhälsa och ledning ska se ut.",
+   "oppen_kod": "oklart samarbete med elevhälsan",
+   "beskrivning": "Det saknas riktlinjer för lärarens samarbete med elevhälsa och ledning."
+  },
+  {
+   "uid": "U081",
+   "id": "goteborgs-kommun#13",
+   "citat": "Förslaget förutsätter även att resurser för stödundervisning, inte minst speciallärare och specialpedagoger, finns tillgängliga i hela landets skolor vilket inte är en självklarhet.",
+   "oppen_kod": "brist på speciallärare",
+   "beskrivning": "Speciallärare och specialpedagoger finns inte tillgängliga överallt."
+  },
+  {
+   "uid": "U082",
+   "id": "goteborgs-kommun#13",
+   "citat": "Förvaltningen anser även att argumenten i utredningen är alltför vaga för att stödundervisning inte ska gälla för elever i anpassade grundskolan som läser ämnesområden.",
+   "oppen_kod": "vag avgränsning anpassad grundskola",
+   "beskrivning": "Avgränsningen av stödundervisning i anpassade grundskolan är vagt motiverad."
+  },
+  {
+   "uid": "U083",
+   "id": "goteborgs-kommun#14",
+   "citat": "Behovet kvarstår dock att skola och huvudman skapar förutsättningar för särskilt stöd i form av adekvata resurser, bemanning och kompetens som möter elevens behov.",
+   "oppen_kod": "resurser för särskilt stöd",
+   "beskrivning": "Huvudmannen måste skapa resurser, bemanning och kompetens för särskilt stöd."
+  },
+  {
+   "uid": "U084",
+   "id": "goteborgs-kommun#15",
+   "citat": "Risken är överhängande att tröskeln sänks för att sortera ut elever i särskilda grupper, inte minst elever med funktionsnedsättning, som lätt kan bli permanenta.",
+   "oppen_kod": "sänkt tröskel för särskilda grupper",
+   "beskrivning": "Skolor kan lättare sortera ut elever i särskilda grupper som blir permanenta."
+  },
+  {
+   "uid": "U085",
+   "id": "goteborgs-kommun#18",
+   "citat": "Det innebär att antalet elever aktuella för stödundervisning riskerar bli väsentligt större än vad utredningens beräkningar visar.",
+   "oppen_kod": "underskattat elevantal",
+   "beskrivning": "Fler elever än beräknat kan bli aktuella för stödundervisning."
+  },
+  {
+   "uid": "U086",
+   "id": "goteborgs-kommun#19",
+   "citat": "Förslaget är kostnadsdrivande och kan få stora ekonomiska konsekvenser, då behovet av stödundervisning riskerar bli betydligt större i Göteborgs stads skolor än vad utredningens beräkningar säger.",
+   "oppen_kod": "kostnadsdrivande stödundervisning",
+   "beskrivning": "Stödundervisningen kan få stora ekonomiska konsekvenser för kommunen."
+  },
+  {
+   "uid": "U087",
+   "id": "goteborgs-kommun#19",
+   "citat": "Dessutom är stödundervisningen en ny stödform, vars omfattning är mycket svår att prognosticera.",
+   "oppen_kod": "svårprognosticerad omfattning",
+   "beskrivning": "Omfattningen av den nya stödformen är svår att förutse."
+  },
+  {
+   "uid": "U088",
+   "id": "goteborgs-kommun#19",
+   "citat": "Om både föreliggande utredning och andra nämnda utredningar genomförs riskerar det att leda till markant ökad lärarbrist med konsekvensen att förslagen inte är genomförbara så som det är tänkt.",
+   "oppen_kod": "lärarbrist vid flera reformer",
+   "beskrivning": "Flera reformer som räknar med samma minskade elevunderlag kan ge ökad lärarbrist."
+  },
+  {
+   "uid": "U089",
+   "id": "goteborgs-kommun#19",
+   "citat": "Förvaltningen ser en risk i att det blir svårt för rektor och skolan att hantera en så stor mängd styrsignaler samtidigt, som dessutom angränsar till och överlappar varandra.",
+   "oppen_kod": "överlappande styrsignaler",
+   "beskrivning": "Många överlappande reformer blir svåra för rektor och skola att hantera samtidigt."
+  },
+  {
+   "uid": "U090",
+   "id": "herrljunga-kommun#2",
+   "citat": "Vi uppmanar till tydliga riktlinjer för hur särskilda undervisningsgrupper ska användas",
+   "oppen_kod": "riktlinjer särskilda grupper saknas",
+   "beskrivning": "Det saknas tydliga riktlinjer för användningen av särskilda undervisningsgrupper."
+  },
+  {
+   "uid": "U091",
+   "id": "herrljunga-kommun#2",
+   "citat": "Vi ser också vikten av att utbilda pedagogisk personal inom området ledning och stimulans för att på så vis se till att elevernas förutsättningar och behov verkligen tillgodoses i den ordinarie undervisningen.",
+   "oppen_kod": "utbildning i ledning och stimulans",
+   "beskrivning": "Personalen behöver utbildas i ledning och stimulans."
+  },
+  {
+   "uid": "U092",
+   "id": "herrljunga-kommun#2",
+   "citat": "Det kan finnas en potentiell utmaning: om resurserna till fler tjänster inom speciallärare och specialpedagoger inte utökas riskerar detta att leda till en ökad belastning på skolorna och längre väntetider för utredningar.",
+   "oppen_kod": "köer till utredningar",
+   "beskrivning": "Utan fler speciallärare och specialpedagoger ökar belastningen och väntetiderna för utredningar."
+  },
+  {
+   "uid": "U093",
+   "id": "hallefors-kommun#3",
+   "citat": "Kommunen har en liten oro för ansvarsförskjutningen i utredarens förslag.",
+   "oppen_kod": "oro för ansvarsförskjutning",
+   "beskrivning": "Förslaget förskjuter ansvar på ett sätt som oroar kommunen."
+  },
+  {
+   "uid": "U094",
+   "id": "hallefors-kommun#3",
+   "citat": "Antagandet blir att antalet elever som anmäls till särskilt stöd kommer att öka, för att lärare inte vill sätta sig i den situationen.",
+   "oppen_kod": "fler anmälningar om särskilt stöd",
+   "beskrivning": "Fler elever väntas anmälas för särskilt stöd."
+  },
+  {
+   "uid": "U095",
+   "id": "hoors-kommun#2",
+   "citat": "Höörs kommun vill poängtera att det är viktigt att överväga konsekvenserna av de föreslagna åtgärderna och säkerställa att elevhälsans främjande och förebyggande arbete inte försvagas",
+   "oppen_kod": "försvagat förebyggande elevhälsoarbete",
+   "beskrivning": "Elevhälsans främjande och förebyggande arbete riskerar att försvagas."
+  },
+  {
+   "uid": "U096",
+   "id": "hoors-kommun#2",
+   "citat": "Höörs kommun anser även att det föreligger en otydlighet i utredningen avseende ansvarsfördelning gällande stödinsatser.",
+   "oppen_kod": "otydlig ansvarsfördelning",
+   "beskrivning": "Ansvarsfördelningen för stödinsatser är otydlig."
+  },
+  {
+   "uid": "U097",
+   "id": "hoors-kommun#4",
+   "citat": "Förslagen i utredningen innebär däremot ett utökat ansvar och nya arbetsuppgifter för rektorer. Detta kommer att påverka rektorers mandat, försvåra organisation och rektorers möjligheter att vara pedagogiska ledare samt göra nödvändiga uppföljningar av verksamheten.",
+   "oppen_kod": "nya uppgifter för rektorer",
+   "beskrivning": "Rektorer får nya uppgifter som försvårar organisation och pedagogiskt ledarskap."
+  },
+  {
+   "uid": "U098",
+   "id": "hoors-kommun#4",
+   "citat": "Redan idag har rektorer en alltför hög arbetsbelastning utifrån alla de krav som finns reglerade i författningarna. Ytterligare arbetsuppgifter är inte gynnsamt för yrkets attraktionskraft.",
+   "oppen_kod": "rektorers arbetsbelastning",
+   "beskrivning": "Ökad arbetsbelastning för rektorer försämrar yrkets attraktionskraft."
+  },
+  {
+   "uid": "U099",
+   "id": "hoors-kommun#4",
+   "citat": "Förslagen medför ett ökat resursbehov, dels avseende rektorer, dels lärare samt speciallärare och specialpedagoger.",
+   "oppen_kod": "ökat resursbehov personal",
+   "beskrivning": "Förslagen kräver fler rektorer, lärare, speciallärare och specialpedagoger."
+  },
+  {
+   "uid": "U100",
+   "id": "hoors-kommun#4",
+   "citat": "Utifrån förslaget i utredningen gällande att lärare själva ska besluta om stödinsatser och att rektor därefter ska verkställa besluten blir författningarnas formuleringar motstridiga.",
+   "oppen_kod": "motstridiga författningar om beslut",
+   "beskrivning": "Lärarens beslut om stöd krockar med rektors ledningsansvar i författningarna."
+  },
+  {
+   "uid": "U101",
+   "id": "hoors-kommun#5",
+   "citat": "Höörs kommun vill dock betona vikten av att det behöver tydliggöras hur ledning och stimulans ska utformas i den ordinarie undervisningen för att möta alla elever och för att minimera antalet elever som är i behov av den föreslagna stödundervisningen eller särskilt stöd.",
+   "oppen_kod": "oklar utformning ledning och stimulans",
+   "beskrivning": "Det är oklart hur ledning och stimulans ska utformas i ordinarie undervisning."
+  },
+  {
+   "uid": "U102",
+   "id": "hoors-kommun#8",
+   "citat": "Tidigare erfarenheter visar att det finns stora variationer avseende olika lärares kompetens att arbeta med ledning och stimulans.",
+   "oppen_kod": "varierande lärarkompetens",
+   "beskrivning": "Lärarnas kompetens att arbeta med ledning och stimulans varierar stort."
+  },
+  {
+   "uid": "U103",
+   "id": "hoors-kommun#8",
+   "citat": "Om detta inte förtydligas kan det finnas en risk för ett mer kategoriskt synsätt på elevers lärande.",
+   "oppen_kod": "risk för kategoriskt synsätt",
+   "beskrivning": "Utan förtydliganden kan ett kategoriskt synsätt få fäste i skolorna."
+  },
+  {
+   "uid": "U104",
+   "id": "hoors-kommun#11",
+   "citat": "Det handlar om det förslag som anger att läraren är den som är bäst lämpad att avgöra om en elev är i behov av stödundervisning och om det är den mest effektiva stödinsatsen för eleven.",
+   "oppen_kod": "läraren avgör stödundervisning",
+   "beskrivning": "Att läraren ensam avgör stödundervisning tar beslutet från rektor."
+  },
+  {
+   "uid": "U105",
+   "id": "hoors-kommun#11",
+   "citat": "Det ställer stora krav på rektor att ha en organisation som finns redo att ta sig an stödundervisning innan elevers eventuella stödbehov har uppstått. Dels handlar det om personell beredskap, dels om beredskap för ändamålsenliga lokaler.",
+   "oppen_kod": "personell och lokalmässig beredskap",
+   "beskrivning": "Rektor måste ha personal och lokaler i beredskap innan stödbehoven uppstår."
+  },
+  {
+   "uid": "U106",
+   "id": "hoors-kommun#11",
+   "citat": "Utifrån förslaget som skrivs fram i utredningen behöver rektor öka den pedagogiska bemanningen i verksamheten vilket kommer att leda till ökade kostnader i skolan.",
+   "oppen_kod": "ökad bemanning, ökade kostnader",
+   "beskrivning": "Ökad pedagogisk bemanning leder till ökade kostnader."
+  },
+  {
+   "uid": "U107",
+   "id": "hoors-kommun#11",
+   "citat": "Redan idag används skolornas samtliga undervisningslokaler och andra utrymmen.",
+   "oppen_kod": "fullt utnyttjade lokaler",
+   "beskrivning": "Skolornas lokaler är redan fullt utnyttjade."
+  },
+  {
+   "uid": "U108",
+   "id": "hoors-kommun#11",
+   "citat": "Svårigheter att tillgå fler lokaler försvåras ytterligare för de skolor som ligger utanför en tätort eftersom det där oftast saknas andra kommunala lokaler.",
+   "oppen_kod": "lokalbrist utanför tätort",
+   "beskrivning": "Skolor utanför tätort har särskilt svårt att få fler lokaler."
+  },
+  {
+   "uid": "U109",
+   "id": "hoors-kommun#11",
+   "citat": "Höörs kommun ser även svårigheter som kan uppstå för de elever som identifieras vara i behov av stödundervisning i många olika ämnen då det i utredningen föreslås att det ska finnas begränsningar i antalet ämnen en elev får ges stödundervisning i samtidigt.",
+   "oppen_kod": "ämnesbegränsning försvårar",
+   "beskrivning": "Begränsningen av antal ämnen skapar svårigheter för elever med behov i många ämnen."
+  },
+  {
+   "uid": "U110",
+   "id": "hoors-kommun#13",
+   "citat": "Höörs kommun avstyrker denna skrivelse med motiveringen att varje skola bör få möjlighet att utarbeta egna rutiner avseende hur en anmälan ska göras.",
+   "oppen_kod": "skriftlig anmälan låser rutiner",
+   "beskrivning": "Kravet på skriftlig anmälan hindrar skolorna från att utforma egna rutiner."
+  },
+  {
+   "uid": "U111",
+   "id": "ideburna-skolors-riksforbund#3",
+   "citat": "Förslaget med standardiserade tester i olika årskurser är bra om de är träffsäkra och inte tar för mycket värdefull tid från undervisningen.",
+   "oppen_kod": "tester tar undervisningstid",
+   "beskrivning": "De standardiserade testerna riskerar att ta tid från undervisningen."
+  },
+  {
+   "uid": "U112",
+   "id": "ideburna-skolors-riksforbund#4",
+   "citat": "Den utmaningen vi ser handlar om förutsättningar för att skapa en organisation där lärare har utrymme i sina tjänster för det extra stödet. Det kommer kräva att det hela tiden finns tid och plats i lärarnas scheman.",
+   "oppen_kod": "utrymme i lärartjänster och scheman",
+   "beskrivning": "Stödundervisningen kräver ständigt utrymme i lärarnas tjänster och scheman."
+  },
+  {
+   "uid": "U113",
+   "id": "ideburna-skolors-riksforbund#4",
+   "citat": "Vi förutsätter att varje enskild huvudman får rimlig ekonomisk kompensation som möjliggör den förändring i lärarnas tjänster och scheman förslaget innebär.",
+   "oppen_kod": "ekonomisk kompensation till huvudmän",
+   "beskrivning": "Huvudmännen behöver ekonomisk kompensation för förändringarna i lärartjänsterna."
+  },
+  {
+   "uid": "U114",
+   "id": "karlstads-kommun#4",
+   "citat": "Flera av utredningens förslag kommer medföra behov av ökade ekonomiska resurser och även tillförsel av kompetens. Det gäller i synnerhet förslaget om stödundervisning, som i flera fall kommer kräva en annan typ av organisation och dimensionering av organisation jämfört med dagens.",
+   "oppen_kod": "ny organisation och dimensionering",
+   "beskrivning": "Stödundervisningen kräver mer resurser och en annan organisation och dimensionering."
+  },
+  {
+   "uid": "U115",
+   "id": "karlstads-kommun#4",
+   "citat": "Därtill kommer krävas pedagogisk personal som har god kompetens för uppgiften, vilket redan idag tillhör svårrekryterade bristkompetenser.",
+   "oppen_kod": "svårrekryterad kompetens",
+   "beskrivning": "Den pedagogiska kompetens som krävs är redan svår att rekrytera."
+  },
+  {
+   "uid": "U116",
+   "id": "karlstads-kommun#6",
+   "citat": "En alltför långtgående förskjutning av ansvar och bedömningar till enskilda lärare kan medföra risk för att elever ges särskiljande och ingripande stödinsatser även när det inte är befogat.",
+   "oppen_kod": "ansvar förskjuts till enskilda lärare",
+   "beskrivning": "Förskjutning av bedömningar till enskilda lärare kan ge obefogade särskiljande insatser."
+  },
+  {
+   "uid": "U117",
+   "id": "karlstads-kommun#7",
+   "citat": "Kommunen ser utmaningar i att utredningen har bristande underlag rörande Komvux i jämförelse med övriga skolformer.",
+   "oppen_kod": "bristande underlag om komvux",
+   "beskrivning": "Utredningen saknar underlag om hur förslagen fungerar i komvux."
+  },
+  {
+   "uid": "U118",
+   "id": "karlstads-kommun#8",
+   "citat": "Det finns begränsat med utrymme att individanpassa när undervisningstiden är begränsad och lärareelev-tid är knapphändig.",
+   "oppen_kod": "begränsad undervisningstid i komvux",
+   "beskrivning": "Komvux har för lite undervisningstid för att ge stöd inom undervisningen."
+  },
+  {
+   "uid": "U119",
+   "id": "karlstads-kommun#10",
+   "citat": "för att exempelvis kunna spegla läsförmåga i kommunen mot riket eller andra jämförelsekommuner. Sådan insamling kan därför behöva övervägas om nationella prov i åk 3 avskaffas.",
+   "oppen_kod": "förlorat jämförelseunderlag",
+   "beskrivning": "Utan nationella prov i åk 3 förlorar kommunen jämförelseunderlag mot riket."
+  },
+  {
+   "uid": "U120",
+   "id": "karlstads-kommun#11",
+   "citat": "De tidsangivelser som utredningen föreslår kan vara för snäva för att på ett hållbart och kvalitativt sätt kunna planera, organisera, genomföra och följa upp effekten av insatsen.",
+   "oppen_kod": "för snäva tidsangivelser",
+   "beskrivning": "Tidsgränserna för stödundervisning är för snäva för planering och uppföljning."
+  },
+  {
+   "uid": "U121",
+   "id": "karlstads-kommun#11",
+   "citat": "Kommunen bedömer också att genomförbarheten är högre i de lägre årskurserna.",
+   "oppen_kod": "svårare på högstadiet",
+   "beskrivning": "Stödundervisning är svårare att genomföra i högre årskurser."
+  },
+  {
+   "uid": "U122",
+   "id": "karlstads-kommun#11",
+   "citat": "Utredningens skrivningar om när stödundervisning kan tillämpas öppnar för alltför vida tolkningar. Det finns risk för att formuleringen ”inte följa undervisningen” leder till att stödundervisning används som en disciplinliknande åtgärd vid ordningsstörningar snarare än stöd för att nå kunskapsmålen.",
+   "oppen_kod": "vid tolkning av tillämpning",
+   "beskrivning": "Oklara villkor kan leda till att stödundervisning används disciplinärt."
+  },
+  {
+   "uid": "U123",
+   "id": "karlstads-kommun#11",
+   "citat": "Inom gymnasieskolan finns det en risk med att läraren ensam bedömer om en elev ska ges stöd i en särskild undervisningsgrupp.",
+   "oppen_kod": "lärarens ensambedömning i gymnasiet",
+   "beskrivning": "Lärarens ensamma bedömning om särskild grupp är riskabel i gymnasieskolan."
+  },
+  {
+   "uid": "U124",
+   "id": "karlstads-kommun#11",
+   "citat": "Det finns också en utmaning med att ha utbildade lärare/speciallärare som ska undervisa de små grupperna, då stödundervisning ska hålla hög kvalitet.",
+   "oppen_kod": "utbildade lärare för små grupper",
+   "beskrivning": "Det är svårt att bemanna de små grupperna med utbildade lärare och speciallärare."
+  },
+  {
+   "uid": "U125",
+   "id": "karlstads-kommun#11",
+   "citat": "Förslaget att det särskilda stödet ska ges i högst två månader och i högst tre ämnen och ska sättas in inom en till två veckor kommer att kräva mycket flexibla organisationer och utbildade speciallärare.",
+   "oppen_kod": "krav på flexibel organisation",
+   "beskrivning": "Tidsgränserna kräver mycket flexibla organisationer och utbildade speciallärare."
+  },
+  {
+   "uid": "U126",
+   "id": "karlstads-kommun#11",
+   "citat": "Stödundervisning innebär även risk för ökade kostnader och kompetensförsörjningsbrist.",
+   "oppen_kod": "kostnader och kompetensbrist",
+   "beskrivning": "Stödundervisning kan ge ökade kostnader och kompetensförsörjningsbrist."
+  },
+  {
+   "uid": "U127",
+   "id": "kinda-kommun#2",
+   "citat": "Det finns en risk att antalet åtgärdsprogram ökar vilket skulle vara problematiskt då det också medför ökad dokumentation.",
+   "oppen_kod": "fler åtgärdsprogram, mer dokumentation",
+   "beskrivning": "Huvudmannen riskerar fler åtgärdsprogram och därmed ökad dokumentation när extra anpassningar tas bort."
+  },
+  {
+   "uid": "U128",
+   "id": "kinda-kommun#2",
+   "citat": "Det finns fortfarande en gränsdragningsproblematik mellan ledning och stimulans och särskilt stöd som inte försvinner i och med borttagande av extra anpassningar. Här skulle definitioner behöva fastställas",
+   "oppen_kod": "oklar gränsdragning mellan stödnivåer",
+   "beskrivning": "Gränsen mellan ledning och stimulans och särskilt stöd är fortsatt oklar och saknar definitioner."
+  },
+  {
+   "uid": "U129",
+   "id": "kinda-kommun#4",
+   "citat": "Det är svårt att se vilken skillnaden blir med detta förtydligande jämfört med extra anpassningar med undantag av dokumentationen som skulle kunna minskas.",
+   "oppen_kod": "oklar skillnad mot extra anpassningar",
+   "beskrivning": "Det är oklart för kommunen vad förtydligandet om att följa undervisningen ändrar i praktiken."
+  },
+  {
+   "uid": "U130",
+   "id": "kinda-kommun#4",
+   "citat": "Tillsynsmyndigheter ställer krav på dokumentation som bevis på att insatser satts in, exv bevisbördan som åligger en kommun för att visa att en elev inte blivit diskriminerad på grund av funktionsnedsättning, och då blir det svårt att minska dokumentationen i skolan.",
+   "oppen_kod": "tillsynskrav hindrar minskad dokumentation",
+   "beskrivning": "Kommunens bevisbörda gentemot tillsynsmyndigheter gör det svårt att faktiskt minska dokumentationen."
+  },
+  {
+   "uid": "U131",
+   "id": "kinda-kommun#8",
+   "citat": "Särskilt hårt slår konsekvenserna mot mindre kommuner och mindre skolor.",
+   "oppen_kod": "hårdare konsekvenser för små kommuner",
+   "beskrivning": "Stödundervisningens konsekvenser blir särskilt betungande för mindre kommuner och skolor."
+  },
+  {
+   "uid": "U132",
+   "id": "kinda-kommun#8",
+   "citat": "Stödundervisning ska erbjudas i alla ämnen i grundskolan, det innebär att huvudmannen måste överanställa legitimerade lärare för att vid behov snabbt sätta in stöd. Det är en utmaning både utifrån ett ekonomiskt perspektiv och brist på lärare i vissa ämnen.",
+   "oppen_kod": "överanställning av lärare krävs",
+   "beskrivning": "Huvudmannen måste överanställa legitimerade lärare, vilket är kostsamt och försvåras av lärarbrist."
+  },
+  {
+   "uid": "U133",
+   "id": "kinda-kommun#8",
+   "citat": "Det kan också vara en stor utmaning att möta behovet av lokaler under skoldagen när denna stödundervisning sätts in.",
+   "oppen_kod": "lokalbehov för stödundervisning",
+   "beskrivning": "Stödundervisningen kräver lokaler under skoldagen som kan vara svåra att få fram."
+  },
+  {
+   "uid": "U134",
+   "id": "kinda-kommun#8",
+   "citat": "Det finns överhängande risk för att förslaget skapar en åtgärdande organisation istället för en främjande och förebyggande, särskilt om stöd ska ges utanför den ordinarie undervisningstiden.",
+   "oppen_kod": "åtgärdande i stället för förebyggande organisation",
+   "beskrivning": "Förslaget riskerar att driva verksamheten mot en åtgärdande snarare än förebyggande organisation."
+  },
+  {
+   "uid": "U135",
+   "id": "kinda-kommun#8",
+   "citat": "Det kommer bli särskilt utmanande på högstadiet då fler lärare är involverade. Risken är att schemat, som läggs för att elever inte ska få håltimmar, inte rymmer dessa insatser utan att de måste förläggas efter ordinarie skoltid.",
+   "oppen_kod": "schemaläggning på högstadiet",
+   "beskrivning": "Schemat på högstadiet rymmer inte stödundervisningen, som då måste läggas efter skoltid."
+  },
+  {
+   "uid": "U136",
+   "id": "kinda-kommun#8",
+   "citat": "Ett särskilt stort problem i mindre kommuner med en hög andel elever med skolskjuts är kostnad och organisation för denna. Många elever åker inte reguljär kollektivtrafik utan upphandlade småbussar utanför reguljära linjer där elever från alla årskurser samsas. Att individanpassa schemat innebär många fler turer och stora konsekvenser ekonomiskt.",
+   "oppen_kod": "skolskjuts blir dyrare och svårare",
+   "beskrivning": "Individanpassade scheman kräver fler skolskjutsturer med stora kostnader och organisatoriska problem."
+  },
+  {
+   "uid": "U137",
+   "id": "kinda-kommun#8",
+   "citat": "Med de korta handläggningstider kommunen enligt förslaget har för att sätta in intensivundervisning kommer stora organisatoriska problem uppstå.",
+   "oppen_kod": "korta tidsfrister för insats",
+   "beskrivning": "De korta tidsfristerna för att sätta in stödundervisning skapar organisatoriska problem."
+  },
+  {
+   "uid": "U138",
+   "id": "kinda-kommun#8",
+   "citat": "Kinda kommun är också kritisk till den kraftigt detaljerade regleringen av stödundervisningen med maximalt antal veckor, ämnen etc. Detta riskerar att försvåra organisationen utan att det gynnar eleverna.",
+   "oppen_kod": "detaljreglering försvårar organisationen",
+   "beskrivning": "Den detaljerade regleringen av veckor och ämnen försvårar skolans organisering."
+  },
+  {
+   "uid": "U139",
+   "id": "kinda-kommun#8",
+   "citat": "Kinda kommun önskar också ett förtydligande av hur utredaren tänker sig utförandet av stödundervisningen och att alla myndigheter har samma uppfattning om vad ansvaret för undervisningen innebär",
+   "oppen_kod": "oklart utförande av stödundervisning",
+   "beskrivning": "Det är oklart hur stödundervisningen ska utföras och vem som ansvarar för den."
+  },
+  {
+   "uid": "U140",
+   "id": "kinda-kommun#10",
+   "citat": "som tidigare har påpekats behövs en definition av särskilt stöd som tydligt avgränsar det från ledning och stimulans eller extra anpassningar.",
+   "oppen_kod": "saknad definition av särskilt stöd",
+   "beskrivning": "Särskilt stöd saknar en definition som avgränsar det från andra stödnivåer."
+  },
+  {
+   "uid": "U141",
+   "id": "kinda-kommun#11",
+   "citat": "En konsekvens av att öka det enskilda stödet är att det kommer ske en kostnadsförflyttning från det generella till det specifika. Det finns en stor risk för att kostnaden för att ge särskilt stöd i mindre grupp eller enskilt blir på bekostnad av högre lärartäthet inom den egna elevgruppen",
+   "oppen_kod": "kostnadsförflyttning från generellt stöd",
+   "beskrivning": "Kostnaderna för enskilt stöd och mindre grupper tränger undan resurser för lärartäthet i ordinarie grupper."
+  },
+  {
+   "uid": "U142",
+   "id": "kinda-kommun#12",
+   "citat": "Det finns en stor risk att fler elever kräver enskilda lösningar vilket också får som konsekvens att skolans bredare uppdrag nedprioriteras.",
+   "oppen_kod": "fler krav på enskilda lösningar",
+   "beskrivning": "Fler elever kan kräva enskilda lösningar så att skolans bredare uppdrag får stå tillbaka."
+  },
+  {
+   "uid": "U143",
+   "id": "kinda-kommun#14",
+   "citat": "Det finns dock utmaningar i att andra samhällsinstanser ställer krav på skolan gällande anpassad studiegång, det handlar exempelvis om barn- och ungdomspsykiatrin och socialtjänsten.",
+   "oppen_kod": "externa krav om anpassad studiegång",
+   "beskrivning": "Andra instanser som BUP och socialtjänst ställer krav på skolan om anpassad studiegång."
+  },
+  {
+   "uid": "U144",
+   "id": "lunds-kommun#3",
+   "citat": "Det finns en risk att formuleringen kan tolkas som att individuellt stö d inte lä ngre behö ver ges inom ramen fö r undervisningen om inte detta tydliggö rs i fö rfattningen.",
+   "oppen_kod": "otydlig formulering om individuellt stöd",
+   "beskrivning": "Formuleringen kan tolkas som att individuellt stöd inte längre behöver ges i undervisningen."
+  },
+  {
+   "uid": "U145",
+   "id": "lunds-kommun#9",
+   "citat": "Trots att de, av utredningen, fö reslagna testerna ä r avsedda att vara mindre tidskrä vande ä n nuvarande prov och kartlä ggningar, planeras de att genomfö ras betydligt mer frekvent.",
+   "oppen_kod": "tätare tester ger mer administration",
+   "beskrivning": "De standardiserade testerna ska genomföras oftare, vilket ökar administrationen för skolorna."
+  },
+  {
+   "uid": "U146",
+   "id": "lunds-kommun#12",
+   "citat": "Lunds kommun ser positivt på denna intention men bedö mer samtidigt att nu fö reslagen fö rä ndring stä ller hö ga krav på respektive lä rares kompetens.",
+   "oppen_kod": "höga krav på lärarnas kompetens",
+   "beskrivning": "Att läraren ensam bedömer behovet av stödundervisning ställer höga krav på lärarnas kompetens."
+  },
+  {
+   "uid": "U147",
+   "id": "lunds-kommun#12",
+   "citat": "Den nuvarande utformningen riskerar att begrä nsa rektors ansvar fö r det systematiska kvalitetsarbetet och kan fö rsvå ra ledningen av skolans inre organisation.",
+   "oppen_kod": "försvagad rektorsstyrning",
+   "beskrivning": "Lärarens beslutsrätt kan försvåra rektors ledning av skolans organisation och kvalitetsarbete."
+  },
+  {
+   "uid": "U148",
+   "id": "lunds-kommun#13",
+   "citat": "Samtidigt finns det risker med utredningens bedö mning om att det endast behö vs en anteckning fö r att bå de kunna planera och utvä rdera stö dundervisningen.",
+   "oppen_kod": "enkel anteckning otillräcklig",
+   "beskrivning": "En enkel anteckning räcker inte för att planera och utvärdera stödundervisningen."
+  },
+  {
+   "uid": "U149",
+   "id": "lunds-kommun#13",
+   "citat": "Fö r att sä kerstä lla att utbildningen i stö dundervisningen blir ”effektiv, ä ndamå lsenlig och trä ffsä ker” (s 173) behö ver informationsö verfö ringen annars ske på annat sä tt som kommer ta tid frå n lä rarna.",
+   "oppen_kod": "informationsöverföring tar lärartid",
+   "beskrivning": "Informationsöverföringen till den som ger stödundervisning tar tid från lärarna."
+  },
+  {
+   "uid": "U150",
+   "id": "lunds-kommun#13",
+   "citat": "Att skapa en elevgrupp med ”lä mplig sammansä ttning och storlek”, som samtidigt erbjuder goda fö rutsä ttningar fö r studiero och koncentration, kan komma att utgö ra en betydande utmaning – sä rskilt i situationer dä r elevsammansä ttningen ä r fö rä nderlig (s. 173).",
+   "oppen_kod": "gruppsammansättning för stödundervisning",
+   "beskrivning": "Det är svårt att skapa lämpligt sammansatta grupper för stödundervisning när elevsammansättningen skiftar."
+  },
+  {
+   "uid": "U151",
+   "id": "lunds-kommun#13",
+   "citat": "Fö r att sä kerstä lla kvalitet och kontinuitet krä vs tydliga strukturer fö r samverkan mellan stö dundervisning och ordinarie undervisning.",
+   "oppen_kod": "samverkan med ordinarie undervisning",
+   "beskrivning": "Skolan måste bygga strukturer för samverkan mellan stödundervisning och ordinarie undervisning."
+  },
+  {
+   "uid": "U152",
+   "id": "lunds-kommun#13",
+   "citat": "Dä rutö ver finns en risk att skoldagarna blir onö digt lå nga, sä rskilt fö r ä ldre elever, om stö dundervisningen fö rlä ggs utanfö r den ordinarie timplanen.",
+   "oppen_kod": "längre skoldagar",
+   "beskrivning": "Stödundervisning utanför timplanen kan göra skoldagarna onödigt långa."
+  },
+  {
+   "uid": "U153",
+   "id": "lunds-kommun#14",
+   "citat": "Det ä r dä rfö r angelä get att tydliggö ra hur stö dundervisningens frekvens ska fö rhå lla sig till den totala rekommenderade tiden fö r insatsen.",
+   "oppen_kod": "oklar frekvens och tidsram",
+   "beskrivning": "Det är oklart hur stödundervisningens frekvens förhåller sig till den rekommenderade tidsramen."
+  },
+  {
+   "uid": "U154",
+   "id": "lunds-kommun#14",
+   "citat": "Gymnasieskolans undervisning skiljer sig frå n grundskolans på flera sä tt, till exempel hur lä nge eleverna lä ser ett ä mne, indelningen i kurser/nivå er, hur må nga lä rare varje elev mö ter och undervisningsgruppernas storlek.",
+   "oppen_kod": "stödundervisning passar ej gymnasieskolan",
+   "beskrivning": "Förslaget är inte anpassat till gymnasieskolans organisation av kurser, lärare och grupper."
+  },
+  {
+   "uid": "U155",
+   "id": "lunds-kommun#16",
+   "citat": "Rutiner fö r hur anmä lningar och liknande bö r gå till bö r fortsatt vara en frå ga om hur rektor styr sin verksamhet och att en så dan reglering utgö r onö dig detaljstyrning.",
+   "oppen_kod": "detaljstyrning av anmälningsrutiner",
+   "beskrivning": "Regleringen av hur anmälan ska göras är onödig detaljstyrning av rektors verksamhet."
+  },
+  {
+   "uid": "U156",
+   "id": "lunds-kommun#16",
+   "citat": "Vidare anser Lunds kommun att det behö vs en djupare utredning och analys av hur den fö reslagna ä ndringen gä llande det tredje stycket kommer att på verka tillä mpningen av ö vriga stö dbestä mmelser i praktiken.",
+   "oppen_kod": "oklar påverkan på stödbestämmelser",
+   "beskrivning": "Det är oklart hur ändringen påverkar tillämpningen av övriga stödbestämmelser i praktiken."
+  },
+  {
+   "uid": "U157",
+   "id": "lunds-kommun#16",
+   "citat": "Fö rslaget harmonierar inte heller med utredningens skrivning i avsnitt 6.3",
+   "oppen_kod": "motsägelse mellan förslagen",
+   "beskrivning": "Förslaget om särskilt stöd går emot utredningens egen skrivning i avsnitt 6.3."
+  },
+  {
+   "uid": "U158",
+   "id": "lunds-kommun#20",
+   "citat": "Fö r att underlä tta en placering i en sä rskild undervisningsgrupp utifrå n en ny skrivning/formulering behö ver detta å tfö ljas av centrala dokument fö r utvä rdering av placering och kartlä ggning infö r placering, samt en dokumentation som beskriver utformningen av den sä rskilda undervisningsgrupp som eleven placeras i.",
+   "oppen_kod": "behov av centrala placeringsunderlag",
+   "beskrivning": "Placeringar kräver centrala underlag och dokumentation som i dag saknas."
+  },
+  {
+   "uid": "U159",
+   "id": "lunds-kommun#21",
+   "citat": "Skillnaden frå n nuvarande skrivelse ä r inte tydlig men samtidigt anger nu gä llande lagtext egentligen redan att anpassad studiegå ng ska ses som en sista å tgä rd. Det ä r dä rfö r osä kert om fö rslaget kommer få den avsedda effekten.",
+   "oppen_kod": "otydlig skillnad mot nuvarande lag",
+   "beskrivning": "Det är oklart vad förslaget om anpassad studiegång ändrar jämfört med i dag."
+  },
+  {
+   "uid": "U160",
+   "id": "lunds-kommun#22",
+   "citat": "Dä rtill ä r det oklart hur bestä mmelsen om specialklass (9 kap. 8 § gymnasiefö rordningen) fö rhå ller sig till 2 kap. 9 § och 3 kap. 8 § skollagen",
+   "oppen_kod": "oklar reglering av specialklass",
+   "beskrivning": "Det är oklart hur specialklass i gymnasieskolan förhåller sig till skollagens bestämmelser."
+  },
+  {
+   "uid": "U161",
+   "id": "lunds-kommun#22",
+   "citat": "Att få stö då tgä rder inom gymnasieskolans fö rfattningar definieras som sä rskilt stö d, innebä r att det kan vara svå rt fö r skolan att vidta å tgä rder som mö ter elevens behov och ä ven svå rt fö r skolan att uppfylla sina skyldigheter enligt skollagen.",
+   "oppen_kod": "få stödåtgärder i gymnasieskolan",
+   "beskrivning": "Gymnasieskolan har få definierade stödåtgärder och kan få svårt att uppfylla skollagens krav."
+  },
+  {
+   "uid": "U162",
+   "id": "lunds-kommun#23",
+   "citat": "Utredningens fö rslag innebä r ekonomiska konsekvenser fö r kommunala huvudmä n, frä mst kopplat till fö rstä rkta insatser inom stö dundervisning i grupp eller enskilt samt borttagande av krav på sä rskilda skä l fö r placering i sä rskild undervisningsgrupp.",
+   "oppen_kod": "ökade kostnader för huvudmän",
+   "beskrivning": "Stödundervisning och fler placeringar i särskild undervisningsgrupp ger kommunerna ökade kostnader."
+  },
+  {
+   "uid": "U163",
+   "id": "lunds-kommun#23",
+   "citat": "Det framgå r inte av de ekonomiska berä kningarna huruvida resurserna kommer att fö rdelas till kommunerna utifrå n socioekonomiska faktorer eller baserat på invå narantal 1-19 å r.",
+   "oppen_kod": "oklar fördelning av statliga medel",
+   "beskrivning": "Det är oklart hur tillskottet till kommunerna ska fördelas."
+  },
+  {
+   "uid": "U164",
+   "id": "lunds-kommun#23",
+   "citat": "Det framgå r inte hur denna procentsats har faststä llts eller vilket underlag som anvä nts.",
+   "oppen_kod": "osäkra kostnadsberäkningar",
+   "beskrivning": "Kostnadsberäkningarna vilar på antaganden med oklart underlag."
+  },
+  {
+   "uid": "U165",
+   "id": "malmo-kommun#5",
+   "citat": "Vidare noterar Malmö stad ett behov av samordning av de många förslagen (enligt föreliggande utredning och enligt andra) som riktas till utbildningssektorn.",
+   "oppen_kod": "många samtidiga förslag",
+   "beskrivning": "Många samtidiga förslag till utbildningssektorn behöver samordnas."
+  },
+  {
+   "uid": "U166",
+   "id": "malmo-kommun#5",
+   "citat": "Slutligen vill kommunen betona att finansieringsprincipen bör gälla vid eventuella ökade kostnader för kommunerna i genomförandet av förslagen.",
+   "oppen_kod": "finansieringsprincipen vid ökade kostnader",
+   "beskrivning": "Genomförandet kan ge kommunerna ökade kostnader som behöver finansieras."
+  },
+  {
+   "uid": "U167",
+   "id": "malmo-kommun#6",
+   "citat": "Kommunen vill dock lyfta att utredningen inte i tillräckligt stor utsträckning tagit hänsyn till förskolans uppdrag och förutsättningar.",
+   "oppen_kod": "förskolans förutsättningar ej beaktade",
+   "beskrivning": "Förslagen tar inte tillräcklig hänsyn till förskolans uppdrag och förutsättningar."
+  },
+  {
+   "uid": "U168",
+   "id": "malmo-kommun#7",
+   "citat": "Malmö stad bedömer att de många förslag (enligt föreliggande utredning och enligt andra) som är riktade till skolorna idag kommer att ha stor påverkan på skolornas verksamheter och medföra betydande pedagogiska och organisatoriska konsekvenser.",
+   "oppen_kod": "stor påverkan av många reformer",
+   "beskrivning": "De många samtidiga förslagen får stora pedagogiska och organisatoriska konsekvenser för skolorna."
+  },
+  {
+   "uid": "U169",
+   "id": "malmo-kommun#7",
+   "citat": "Malmö stad bedömer att utredningens förslag är resurskrävande och att de kommer att leda till ökad undervisningstid och behov av fler lärare, specialpedagoger och speciallärare. Ekonomiska konsekvenser och ersättning till kommuner behöver utredas ytterligare.",
+   "oppen_kod": "resurskrävande, fler lärare behövs",
+   "beskrivning": "Förslagen kräver fler lärare, specialpedagoger och speciallärare och ersättningen är outredd."
+  },
+  {
+   "uid": "U170",
+   "id": "malmo-kommun#7",
+   "citat": "På ett mer allmänt plan riskerar det stora antalet betänkanden som under en tid remitterats från utbildningsdepartementet att medföra en otydlighet.",
+   "oppen_kod": "otydlighet av många betänkanden",
+   "beskrivning": "Det stora antalet betänkanden skapar otydlighet för skolväsendet."
+  },
+  {
+   "uid": "U171",
+   "id": "malmo-kommun#7",
+   "citat": "Malmö stad finner det viktigt att extra anpassningar dokumenteras för att kunna följa upp elevers lärande och underlätta informationsöverföring.",
+   "oppen_kod": "försvårad uppföljning utan dokumentation",
+   "beskrivning": "Utan dokumentation av anpassningar blir uppföljning och informationsöverföring svårare."
+  },
+  {
+   "uid": "U172",
+   "id": "malmo-kommun#8",
+   "citat": "Malmö stad vill i sammanhanget lyfta att oavsett arbetssätt och underlag för bedömning av elevers stödbehov behöver det finnas tillräckligt med resurser för att göra tidiga och träffsäkra bedömningar och för att rätt stöd kan sättas in i tid.",
+   "oppen_kod": "resurser för tidiga bedömningar",
+   "beskrivning": "Tidiga och träffsäkra bedömningar av stödbehov kräver tillräckliga resurser."
+  },
+  {
+   "uid": "U173",
+   "id": "malmo-kommun#8",
+   "citat": "Att ge specialpedagogen uppdrag att finnas med i undervisningen kan leda till att specialpedagogers kompetens inte används enligt professionens uppdrag.",
+   "oppen_kod": "felanvändning av specialpedagoger",
+   "beskrivning": "Specialpedagogers kompetens riskerar att användas fel om de ska delta i undervisningen."
+  },
+  {
+   "uid": "U174",
+   "id": "malmo-kommun#8",
+   "citat": "Utifrån utredningens förslag bedömer Malmö stad dock att de obligatoriska testerna kommer att bli fler än i dagsläget.",
+   "oppen_kod": "fler obligatoriska tester",
+   "beskrivning": "De obligatoriska testerna blir fler än i dag."
+  },
+  {
+   "uid": "U175",
+   "id": "malmo-kommun#9",
+   "citat": "det är av vikt att ta hänsyn till det merarbete som detta kommer att medföra för elever och personal.",
+   "oppen_kod": "merarbete för personal av tester",
+   "beskrivning": "Testerna medför merarbete för personalen."
+  },
+  {
+   "uid": "U176",
+   "id": "malmo-kommun#9",
+   "citat": "Kommunen ser också att det behöver förtydligas hur testerna ska utformas och genomföras.",
+   "oppen_kod": "oklar utformning av tester",
+   "beskrivning": "Det är oklart hur de standardiserade testerna ska utformas och genomföras."
+  },
+  {
+   "uid": "U177",
+   "id": "malmo-kommun#9",
+   "citat": "Malmö stad tolkar det som att det som idag benämns som extra anpassningar kommer att innefattas i begreppet ledning och stimulans så att alla elever ska kunna följa undervisningen. Om så är fallet kan detta behöva förtydligas.",
+   "oppen_kod": "oklart vart extra anpassningar tar vägen",
+   "beskrivning": "Det är oklart om extra anpassningar ska rymmas i ledning och stimulans."
+  },
+  {
+   "uid": "U178",
+   "id": "malmo-kommun#10",
+   "citat": "Malmö stad vill betona vikten och behovet av rätt förutsättningar i skolorna och för den pedagogiska personalen att genomföra stödundervisning på det sätt som det är tänkt.",
+   "oppen_kod": "förutsättningar för stödundervisning",
+   "beskrivning": "Skolorna och personalen behöver förutsättningar för att kunna genomföra stödundervisning som tänkt."
+  },
+  {
+   "uid": "U179",
+   "id": "malmo-kommun#10",
+   "citat": "Malmö stad bedömer att det finns en risk att detta kommer att innebära att olika elever kommer och går till klassrummet för att få stödundervisning i olika ämnen.",
+   "oppen_kod": "elever som kommer och går",
+   "beskrivning": "Stödundervisningen leder till att elever ständigt lämnar och återvänder till klassrummet."
+  },
+  {
+   "uid": "U180",
+   "id": "malmo-kommun#10",
+   "citat": "En risk är att denna rotation av elever kommer att påverka studieron i klassrummet.",
+   "oppen_kod": "sämre studiero i klassrummet",
+   "beskrivning": "Rotationen av elever kan försämra studieron i klassrummet."
+  },
+  {
+   "uid": "U181",
+   "id": "malmo-kommun#10",
+   "citat": "Malmö stad menar att det är svårt att få en bild av om det kommer att bli många elever som behöver stödundervisning. Det är också svårt att bedöma om förslaget kommer innebära att fler elever kommer att utredas för särskilt stöd.",
+   "oppen_kod": "oklar omfattning av stödbehov",
+   "beskrivning": "Det går inte att bedöma hur många elever som kommer att behöva stödundervisning eller utredas."
+  },
+  {
+   "uid": "U182",
+   "id": "malmo-kommun#10",
+   "citat": "Detta behöver ses i ljuset av att skolan utöver att organisera för stödundervisning också ska organisera förstärkt undervisning och för att kunna tillgodose elevers behov av särskilt stöd.",
+   "oppen_kod": "parallella stödformer att organisera",
+   "beskrivning": "Skolan ska samtidigt organisera stödundervisning, förstärkt undervisning och särskilt stöd."
+  },
+  {
+   "uid": "U183",
+   "id": "malmo-kommun#11",
+   "citat": "bedömer att det här kan finnas en risk för att lärare kommer behöva vara en slags koordinator för att hålla reda på elevers olika schema när de ska gå i väg att få stöd utanför klassrummet.",
+   "oppen_kod": "lärare blir koordinatorer",
+   "beskrivning": "Lärare riskerar att behöva samordna elevers olika scheman för stöd utanför klassrummet."
+  },
+  {
+   "uid": "U184",
+   "id": "malmo-kommun#11",
+   "citat": "Malmö stad bedömer att det finns en stor risk att den lärare som ska genomföra stödundervisningen inte ger stöd på en nivå som motsvarar elevens behov. Om inte information sker via dokumentation är kommunens bedömning att det kan behövas en annan variant av informationsöverlämning.",
+   "oppen_kod": "informationsöverlämning vid lite dokumentation",
+   "beskrivning": "Med minimal dokumentation behövs annan informationsöverlämning för att stödet ska träffa rätt."
+  },
+  {
+   "uid": "U185",
+   "id": "malmo-kommun#11",
+   "citat": "Malmö stad bedömer här att det finns en risk att stödundervisningen kommer att ta längre tid att sätta i gång än extra anpassningar inom ramen för den ordinarie undervisningen.",
+   "oppen_kod": "trögstartad stödundervisning",
+   "beskrivning": "Stödundervisningen kan ta längre tid att starta än dagens extra anpassningar."
+  },
+  {
+   "uid": "U186",
+   "id": "malmo-kommun#11",
+   "citat": "Kommunen bedömer också att det finns en risk att utredningens förslag att stödundervisning vid behov ska ges i alla ämnen kommer att ställa ouppnåeliga krav på rektor när det gäller att organisera och bemanna stödundervisningen.",
+   "oppen_kod": "ouppnåeliga bemanningskrav på rektor",
+   "beskrivning": "Stödundervisning i alla ämnen ställer ouppnåeliga krav på rektors organisering och bemanning."
+  },
+  {
+   "uid": "U187",
+   "id": "malmo-kommun#11",
+   "citat": "Malmö stad menar att det finns en risk med utredningens användning av begreppet ”färdighetsämne” när det inte finns en entydig definition av vad begreppet innebär i skolans kontext och när inte heller utredningen definierar tydligt vad begreppet syftar till.",
+   "oppen_kod": "odefinierat begrepp färdighetsämne",
+   "beskrivning": "Begreppet färdighetsämne saknar definition och kan tolkas olika."
+  },
+  {
+   "uid": "U188",
+   "id": "malmo-kommun#11",
+   "citat": "Kommunen efterlyser här ett tydliggörande om stödåtgärder som särskild undervisningsgrupp och enskild undervisning får ges till elever i gymnasieskolan.",
+   "oppen_kod": "oklart stöd i gymnasieskolan",
+   "beskrivning": "Det är oklart om särskild undervisningsgrupp och enskild undervisning får ges i gymnasieskolan."
+  },
+  {
+   "uid": "U189",
+   "id": "malmo-kommun#12",
+   "citat": "Liksom utredningen ser dock kommunen också konsekvenser i form av en ökad arbetsbelastning för specialpedagoger och speciallärare. De lokala erfarenheterna är att specialpedagoger och speciallärare redan har svårt att få tiden att räcka till eftersom de redan idag används i undervisningen och vid nationella prov.",
+   "oppen_kod": "ökad belastning på specialpedagoger",
+   "beskrivning": "Specialpedagoger och speciallärare får ökad arbetsbelastning trots att tiden redan inte räcker."
+  },
+  {
+   "uid": "U190",
+   "id": "malmo-kommun#12",
+   "citat": "Det finns en risk att specialpedagoger och speciallärare inte kommer att hinna med arbetsuppgifter som handlar om att tillgängliggöra undervisning och lärmiljöer för elever med olika funktionsnedsättningar",
+   "oppen_kod": "förebyggande arbete trängs undan",
+   "beskrivning": "Specialpedagogernas främjande och förebyggande arbete riskerar att trängas undan."
+  },
+  {
+   "uid": "U191",
+   "id": "malmo-kommun#12",
+   "citat": "Ur gymnasieskolans perspektiv ställer sig Malmö stad tveksam till förslaget eftersom gymnasieskolan har färre åtgärder att sätta in inom ramen för särskilt stöd än vad grundskolan har. Kommunen bedömer att utredningsarbete är resurskrävande",
+   "oppen_kod": "resurskrävande utredningar i gymnasiet",
+   "beskrivning": "Utredningar utan föregående stöd blir resurskrävande, särskilt i gymnasieskolan med få åtgärder."
+  },
+  {
+   "uid": "U192",
+   "id": "malmo-kommun#12",
+   "citat": "Malmö stad efterlyser förtydligande huruvida stödundervisning får ges under längre tid än två månader om en utredning om särskilt stöd bedömer att det är gynnsamt för eleven.",
+   "oppen_kod": "oklar tidsgräns för stödundervisning",
+   "beskrivning": "Det är oklart om stödundervisning får förlängas utöver två månader."
+  },
+  {
+   "uid": "U193",
+   "id": "malmo-kommun#12",
+   "citat": "Det behöver dock tydliggöras huruvida åtgärder enligt förslaget ska finnas även inom gymnasieskolan.",
+   "oppen_kod": "oklar tillämpning i gymnasieskolan",
+   "beskrivning": "Det är oklart om förslaget om enskild undervisning och särskild grupp gäller gymnasieskolan."
+  },
+  {
+   "uid": "U194",
+   "id": "malmo-kommun#13",
+   "citat": "Kommunen ser också att det är en utmaning för huvudmannen och rektor att organisera stödundervisning enligt utredningens förslag – särskilt i kombination med att förstärkt undervisning införs.",
+   "oppen_kod": "organisering ihop med förstärkt undervisning",
+   "beskrivning": "Att organisera stödundervisning samtidigt som förstärkt undervisning införs är en utmaning för huvudmannen."
+  },
+  {
+   "uid": "U195",
+   "id": "mariestads-kommun#4",
+   "citat": "men organisatoriskt för rektor och huvudman kan det bli problematiskt att tillse att resurser, främst i form av speciallärare och specialpedagoger, finns att tillgå.",
+   "oppen_kod": "tillgång till speciallärare",
+   "beskrivning": "Det blir svårt för huvudmannen att säkra tillgång till speciallärare och specialpedagoger."
+  },
+  {
+   "uid": "U196",
+   "id": "mariestads-kommun#7",
+   "citat": "Den ekonomiska dimensionen kring utredningen är svårbedömd när det gäller finansieringen av förändringarna som ska kunna träda i kraft 2028.",
+   "oppen_kod": "svårbedömd finansiering",
+   "beskrivning": "Finansieringen av förändringarna är svår att bedöma för kommunen."
+  },
+  {
+   "uid": "U197",
+   "id": "mariestads-kommun#17",
+   "citat": "Dels utifrån att det redan idag råder kompetensbrist av behörig personal, speciallärare och specialpedagoger inkluderat i detta",
+   "oppen_kod": "kompetensbrist på behörig personal",
+   "beskrivning": "Det råder redan brist på behörig personal, inklusive speciallärare och specialpedagoger."
+  },
+  {
+   "uid": "U198",
+   "id": "mariestads-kommun#17",
+   "citat": "dels att utredningen utgår från ett storstadsperspektiv där skolskjuts inte är en daglig organisatorisk fråga. Att schematekniskt kunna organisera skoldagen för de berörda eleverna så att det ryms inom elevernas schemaram kan bli svårt att realisera.",
+   "oppen_kod": "storstadsperspektiv, skolskjuts och schema",
+   "beskrivning": "Med skolskjuts blir det svårt att rymma stödundervisningen inom elevernas schemaram."
+  },
+  {
+   "uid": "U199",
+   "id": "mariestads-kommun#17",
+   "citat": "Utredningens förslag kan leda till att fler elever kommer utredas för särskilt stöd, vilket kan leda till fler åtgärds-program.",
+   "oppen_kod": "fler utredningar och åtgärdsprogram",
+   "beskrivning": "Förslaget kan leda till fler utredningar om särskilt stöd och fler åtgärdsprogram."
+  },
+  {
+   "uid": "U200",
+   "id": "mariestads-kommun#17",
+   "citat": "Eftersom utredningen kring elevhälsans roll inte är klar blir det otydligt vems arbetsbörda som egentligen ökas, lärarens eller rektors?",
+   "oppen_kod": "oklart vems arbetsbörda ökar",
+   "beskrivning": "Det är oklart om det är lärarens eller rektors arbetsbörda som ökar."
+  },
+  {
+   "uid": "U201",
+   "id": "mariestads-kommun#17",
+   "citat": "Ett tydliggörande av hur skolan ska förstärkas med resurser till förebyggande arbete i form av fler vuxna i skolan, mindre klasser, fler speciallärare/specialpedagoger saknas i utredningen.",
+   "oppen_kod": "saknade resurser för förebyggande arbete",
+   "beskrivning": "Utredningen anger inte hur skolan ska få resurser till förebyggande arbete."
+  },
+  {
+   "uid": "U202",
+   "id": "mariestads-kommun#22",
+   "citat": "Farhågor inom detta är att det inte finns tillräcklig tillgång på utbildade medarbetare inom detta område då det redan råder brist på dessa kompetenser.",
+   "oppen_kod": "brist på speciallärare och specialpedagoger",
+   "beskrivning": "Det finns inte tillräckligt med utbildade speciallärare och specialpedagoger."
+  },
+  {
+   "uid": "U203",
+   "id": "mariestads-kommun#25",
+   "citat": "Utbildningsförvaltningen i Mariestad bedömer att när testerna i viss mån ska göras individuellt med elever i de lägre årskurserna, finns farhågor att detta kommer att bli ett tidskrävande arbete som inte utjämnas av att nationella proven tagits bort.",
+   "oppen_kod": "tidskrävande individuella tester",
+   "beskrivning": "Individuella tester i de lägre årskurserna blir tidskrävande."
+  },
+  {
+   "uid": "U204",
+   "id": "mariestads-kommun#27",
+   "citat": "bedömer att det är överskattat att tro att dokumentationskravet kommer att minska för läraren. I relationen till vårdnadshavare, till övriga kollegor inför anordnande av stödundervisning och för att kunna utvärdera genomfört arbete och överlämna hur man arbetat, kommer det att krävas mer dokumentation än vad utredningen anger.",
+   "oppen_kod": "dokumentation minskar inte",
+   "beskrivning": "Dokumentationen kommer i praktiken att behövas i större omfattning än utredningen anger."
+  },
+  {
+   "uid": "U205",
+   "id": "mariestads-kommun#27",
+   "citat": "När det gäller hur stödundervisningen ska organiseras på en skolenhet ser utbildningsförvaltningen i Mariestad en farhåga dels i att kunna bemanna denna schemaposition (parallellt eller i anslutning till skoldagen), dels att vid mindre enheter kunna tillse att det ryms inom schemaramen innan anordnade skolbussar",
+   "oppen_kod": "bemanning och schema för stödundervisning",
+   "beskrivning": "Det är svårt att bemanna stödundervisningen och rymma den före skolbussarnas avgång."
+  },
+  {
+   "uid": "U206",
+   "id": "mariestads-kommun#28",
+   "citat": "Enskild undervisning på mindre enheter behöver organiseras att ske samtidigt som övriga elever får sin undervisning i helklass, vilket gör att det måste finnas ytterligare lärare eller speciallärare att tillgå.",
+   "oppen_kod": "extra lärare på små enheter",
+   "beskrivning": "Små enheter behöver ytterligare lärare för enskild undervisning parallellt med helklass."
+  },
+  {
+   "uid": "U207",
+   "id": "mariestads-kommun#28",
+   "citat": "En farhåga är att kompetensbrister gör att elever ändå kommer att sitta med outbildad personal i stödundervisningen.",
+   "oppen_kod": "outbildad personal i stödundervisning",
+   "beskrivning": "Kompetensbrist kan leda till att outbildad personal ger stödundervisningen."
+  },
+  {
+   "uid": "U208",
+   "id": "mariestads-kommun#30",
+   "citat": "Utbildningsförvaltningen i Mariestad bedömer i likhet med tidigare kommentarer, att resurserna i form av utbildade speciallärare och specialpedagoger medför att utredning av elevs behov av särskilt stöd fortsatt behöver ske som idag",
+   "oppen_kod": "otillräckliga resurser för utredning",
+   "beskrivning": "Bristen på speciallärare och specialpedagoger gör att utredningar inte kan ske enligt förslaget."
+  },
+  {
+   "uid": "U209",
+   "id": "mariestads-kommun#32",
+   "citat": "Utbildningsförvaltningen i Mariestad ser en farhåga med detta förfaringssätt om det inte blir korrekt utrett om det är för elevens bästa eller för kamraternas studiero som det fattas beslut om särskild undervisningsgrupp eller enskild undervisning.",
+   "oppen_kod": "risk för felaktiga placeringsbeslut",
+   "beskrivning": "Utan krav på särskilda skäl kan placeringsbeslut fattas på fel grunder."
+  },
+  {
+   "uid": "U210",
+   "id": "mariestads-kommun#35",
+   "citat": "Utbildningsförvaltningen i Mariestad ifrågasätter hur det ska vara möjligt att utvärdera de olika insatserna stödundervisning samtidigt som man inför förstärknings-undervisning.",
+   "oppen_kod": "svår utvärdering av parallella insatser",
+   "beskrivning": "Det blir svårt att utvärdera stödundervisning när förstärkningsundervisning införs samtidigt."
+  },
+  {
+   "uid": "U211",
+   "id": "mariestads-kommun#37",
+   "citat": "Utbildningsförvaltningen i Mariestad befarar att speciallärare och specialpedagoger som redan idag är en yrkeskategori där det råder brist på medarbetare kommer att bli hårt belastade om de även ska vara den resurs som tar hand om undervisningen för elever som behöver stöd.",
+   "oppen_kod": "hård belastning på speciallärare",
+   "beskrivning": "Speciallärare och specialpedagoger, som redan är en bristyrkesgrupp, blir hårt belastade."
+  },
+  {
+   "uid": "U212",
+   "id": "mariestads-kommun#37",
+   "citat": "Här krävs att resurser läggs på fler undervisande lärare som i sitt schema får både undervisning och stödundervisning upptill när kollegorna undervisar i helklass.",
+   "oppen_kod": "resurser för fler lärare",
+   "beskrivning": "Huvudmannen måste lägga resurser på fler undervisande lärare."
+  },
+  {
+   "uid": "U213",
+   "id": "mariestads-kommun#37",
+   "citat": "Även rektors ansvar påverkas och det blir i utredningen otydligt vilket stöd rektor kan ha av övrig personal inom elevhälsan när det ännu inte tydliggjorts hur denna organisering ska se ut.",
+   "oppen_kod": "oklart elevhälsostöd till rektor",
+   "beskrivning": "Det är oklart vilket stöd rektor får av elevhälsan."
+  },
+  {
+   "uid": "U214",
+   "id": "mariestads-kommun#37",
+   "citat": "Arbetsbelastningen för rektor bedöms öka gällande organisering, schema och arbetsfördelning.",
+   "oppen_kod": "ökad arbetsbelastning för rektor",
+   "beskrivning": "Rektors arbetsbelastning ökar för organisering, schema och arbetsfördelning."
+  },
+  {
+   "uid": "U215",
+   "id": "mariestads-kommun#39",
+   "citat": "Utbildningsförvaltningen i Mariestad anser att det utav beräkningarna i utredningen inte är möjligt att fullt ut se vilka konsekvenser det blir för enskilda kommuner och enheter.",
+   "oppen_kod": "oklara konsekvenser per kommun",
+   "beskrivning": "Beräkningarna visar inte konsekvenserna för enskilda kommuner och enheter."
+  },
+  {
+   "uid": "U216",
+   "id": "mariestads-kommun#39",
+   "citat": "Det ökade behovet av medarbetare kommer att se olika ut på olika enheter och det kan bli svårt att rekrytera till tjänster där medarbetare behöver delas mellan flera enheter.",
+   "oppen_kod": "svårrekryterade delade tjänster",
+   "beskrivning": "Det blir svårt att rekrytera till tjänster som delas mellan flera enheter."
+  },
+  {
+   "uid": "U217",
+   "id": "mariestads-kommun#39",
+   "citat": "De ekonomiska frågorna kring hur elever ska bussas till och från skolan, om behoven visar att det organisatoriskt inte är möjligt att lägga stödundervisningen inom dagens schemaramar, belyses inte alls.",
+   "oppen_kod": "obelysta skolskjutskostnader",
+   "beskrivning": "Kostnaderna för skolskjuts när stödundervisning hamnar utanför schemaramen är obelysta."
+  },
+  {
+   "uid": "U218",
+   "id": "smedjebackens-kommun#2",
+   "citat": "likvärdighet mellan stora och små kommuner förutsätter att specialpedagogisk kompetens finns att tillgå i hela landet.",
+   "oppen_kod": "ojämn tillgång till specialpedagogik",
+   "beskrivning": "Små kommuner har sämre tillgång till specialpedagogisk kompetens än stora."
+  },
+  {
+   "uid": "U219",
+   "id": "smedjebackens-kommun#2",
+   "citat": "Landsbygdshuvudmän med begränsad rekryteringsbas riskerar att få svårare att möta nya krav utan särskilt stöd under övergångstiden.",
+   "oppen_kod": "begränsad rekryteringsbas på landsbygden",
+   "beskrivning": "Landsbygdshuvudmän får svårare att möta de nya kraven på grund av begränsad rekryteringsbas."
+  },
+  {
+   "uid": "U220",
+   "id": "smedjebackens-kommun#4",
+   "citat": "hög och varierar kraftigt mellan huvudmän. Vi ser därför ett fortsatt behov av statlig medfinansiering enligt finansieringsprincipen.",
+   "oppen_kod": "höga kostnader för smågrupper",
+   "beskrivning": "Kostnaderna för enskild undervisning och smågrupper är höga och kräver statlig medfinansiering."
+  },
+  {
+   "uid": "U221",
+   "id": "smedjebackens-kommun#4",
+   "citat": "Samtidigt finns en risk att avsaknaden av formella anpassningar leder till att lärare snabbare hänvisar elever till smågruppslösningar.",
+   "oppen_kod": "snabbare hänvisning till smågrupper",
+   "beskrivning": "Utan extra anpassningar kan lärare snabbare hänvisa elever till smågruppslösningar."
+  },
+  {
+   "uid": "U222",
+   "id": "smedjebackens-kommun#4",
+   "citat": "Genomförandet vilar dock på att kommunerna kan rekrytera behöriga speciallärare.",
+   "oppen_kod": "rekrytering av speciallärare",
+   "beskrivning": "Stödundervisningen förutsätter att kommunerna kan rekrytera behöriga speciallärare."
+  },
+  {
+   "uid": "U223",
+   "id": "smedjebackens-kommun#4",
+   "citat": "Tydligare anmälningsskyldighet och krav på samråd ökar transparensen men riskerar också att öka lärarnas dokumentation.",
+   "oppen_kod": "mer dokumentation vid anmälan",
+   "beskrivning": "Anmälningsskyldighet och samrådskrav kan öka lärarnas dokumentation."
+  },
+  {
+   "uid": "U224",
+   "id": "smedjebackens-kommun#5",
+   "citat": "Begreppet enskild undervisning är dessutom otydligt reglerat. Det används redan i dag i utlåtanden från exempelvis regionernas hälso- och sjukvård, ofta med långtgående förväntningar på skolan. Utan en gemensam definition riskerar kostnader och kvalitet att variera kraftigt mellan huvudmän.",
+   "oppen_kod": "otydligt begrepp enskild undervisning",
+   "beskrivning": "Enskild undervisning är otydligt reglerat och driver förväntningar och kostnader från vården."
+  },
+  {
+   "uid": "U225",
+   "id": "smedjebackens-kommun#5",
+   "citat": "Utan statliga satsningar på utbildning och rekrytering kan bristen kvarstå eller tillta.",
+   "oppen_kod": "brist på elevhälsa i små kommuner",
+   "beskrivning": "Bristen på elevhälsa och specialpedagogik i små kommuner kan bestå eller öka."
+  },
+  {
+   "uid": "U226",
+   "id": "smedjebackens-kommun#5",
+   "citat": "Om digitala lösningar uteblir riskerar en ny pappersbörda att ersätta den gamla.",
+   "oppen_kod": "ny pappersbörda utan digitala verktyg",
+   "beskrivning": "Utan digitala lösningar riskerar en ny administrativ börda."
+  },
+  {
+   "uid": "U227",
+   "id": "smedjebackens-kommun#5",
+   "citat": "Skolinspektionen har påtalat svag måluppfyllelse i särskilda grupper; fler placeringar kan förstärka problemet.",
+   "oppen_kod": "kvalitetsrisk i smågrupper",
+   "beskrivning": "Fler placeringar i särskilda grupper kan förstärka problemet med svag måluppfyllelse där."
+  },
+  {
+   "uid": "U228",
+   "id": "smedjebackens-kommun#5",
+   "citat": "Åtgärden är dyr och saknar tydlig nationell uppföljning.",
+   "oppen_kod": "dyr enskild undervisning",
+   "beskrivning": "Enskild undervisning är dyr och saknar nationell uppföljning."
+  },
+  {
+   "uid": "U229",
+   "id": "smedjebackens-kommun#6",
+   "citat": "I dagens läge kostar en elev i heltids enskild undervisning ca 800 0001 kr per år för vår kommun. Om tröskeln sänks utan kostnadsskydd riskerar redan trängd skolbudget att påverka ordinarie verksamhet.",
+   "oppen_kod": "kostnad för enskild undervisning",
+   "beskrivning": "Lägre tröskel för enskild undervisning utan kostnadsskydd belastar en redan trängd skolbudget."
+  },
+  {
+   "uid": "U230",
+   "id": "stockholms-kommun#2",
+   "citat": "men ser behov av tydliggörande avseende när och hur stödundervisningen ska sättas in",
+   "oppen_kod": "oklart när stödundervisning sätts in",
+   "beskrivning": "Det är oklart för huvudmannen när och hur stödundervisningen ska sättas in."
+  },
+  {
+   "uid": "U231",
+   "id": "stockholms-kommun#2",
+   "citat": "Stadsledningskontoret bedömer också att kostnaderna för stödundervisning enligt utredningens förslag i praktiken kommer att vara högre än vad utredningens beräkningar visar.",
+   "oppen_kod": "underskattade kostnader för stödundervisning",
+   "beskrivning": "Huvudmannens kostnader för stödundervisning bedöms bli högre än utredningen beräknat."
+  },
+  {
+   "uid": "U232",
+   "id": "stockholms-kommun#3",
+   "citat": "Det krävs dock tydlighet i lagstiftningen gällande innebörden av ”ledning och stimulans” respektive ”stödundervisning” för att undvika att stödundervisningen ersätter de extra anpassningarna eller det som de extra anpassningarna genererat i termer av en utveckling av lärmiljön.",
+   "oppen_kod": "otydliga begrepp ledning och stimulans",
+   "beskrivning": "Begreppen ledning och stimulans och stödundervisning är otydliga i lagstiftningen."
+  },
+  {
+   "uid": "U233",
+   "id": "stockholms-kommun#3",
+   "citat": "När det gäller förslaget om den nya stödformen stödundervisning finns dock flera obesvarade frågor och oklarheter. Hur stödundervisningen innehållsmässigt ska utformas, hur beslut om stödundervisning fattas och vilket professionellt stöd som rektor har i dessa bedömningar samt hur stödundervisningen ska utvärderas och avgränsas i tid är bara några av de frågor som är nödvändiga att reda ut för att faktiskt kunna uppnå ambitionen om ett förbättrat stöd i skolan.",
+   "oppen_kod": "oklarheter kring stödundervisningens utformning",
+   "beskrivning": "Utformning, beslut, rektors stöd och utvärdering av stödundervisning är oklara för huvudmannen."
+  },
+  {
+   "uid": "U234",
+   "id": "stockholms-kommun#3",
+   "citat": "Utan ett arbete för tillgängliga lärmiljöer så att alla elever kan följa undervisningen finns en överhängande risk att fler elever än nödvändigt kommer vara i behov av stödundervisning.",
+   "oppen_kod": "risk för många stödundervisningsbehov",
+   "beskrivning": "Skolorna riskerar att få fler elever än nödvändigt i behov av stödundervisning."
+  },
+  {
+   "uid": "U235",
+   "id": "stockholms-kommun#3",
+   "citat": "Slutligen vill jag lyfta stadsledningskontorets bedömning att skolornas sammantagna extra kostnader för stödundervisning kan bli 30 till 50 procent högre än utredningens beräkningar. Dessa ökade kostnader behöver kommunerna kompenseras för.",
+   "oppen_kod": "kostnader 30–50 procent högre",
+   "beskrivning": "Skolornas extra kostnader för stödundervisning bedöms bli 30–50 procent högre och behöver kompenseras."
+  },
+  {
+   "uid": "U236",
+   "id": "stockholms-kommun#4",
+   "citat": "Vi instämmer i utbildningsförvaltningens bedömning att om förslagen ska implementeras fullt ut krävs det verklig full kostnadstäckning från staten.",
+   "oppen_kod": "krav på full statlig kostnadstäckning",
+   "beskrivning": "Genomförandet kräver full kostnadstäckning från staten för huvudmännen."
+  },
+  {
+   "uid": "U237",
+   "id": "stockholms-kommun#4",
+   "citat": "Det framstår som oklart vad denna stödundervisningsform består i.",
+   "oppen_kod": "oklart vad stödundervisning är",
+   "beskrivning": "Det är oklart för huvudmannen vad stödundervisningen består i."
+  },
+  {
+   "uid": "U238",
+   "id": "stockholms-kommun#4",
+   "citat": "Det innebär att ständiga utvärderingar, som ska dokumenteras fullt ut upp till sex gånger per år, kan bli mycket resurskrävande.",
+   "oppen_kod": "resurskrävande upprepade utvärderingar",
+   "beskrivning": "Upprepade dokumenterade utvärderingar av stödundervisning blir resurskrävande för skolorna."
+  },
+  {
+   "uid": "U239",
+   "id": "stockholms-kommun#4",
+   "citat": "Det behöver tydliggöras hur skolorna och framför allt rektorerna ska prioritera när anmälningarna om stödundervisning blir väldigt många.",
+   "oppen_kod": "prioritering vid många anmälningar",
+   "beskrivning": "Rektorer saknar vägledning för hur de ska prioritera när anmälningarna om stödundervisning blir många."
+  },
+  {
+   "uid": "U240",
+   "id": "stockholms-kommun#4",
+   "citat": "Vi ser även att förslaget har oklarheter kring hur det passar ihop med andra former av behovsbedömning och resurstilldelning vid särskilda behov för en elev, exempelvis genom underlag för att tilldela tilläggsbelopp eller verksamhetsstöd.",
+   "oppen_kod": "oklar koppling till resurstilldelning",
+   "beskrivning": "Det är oklart hur förslaget passar ihop med huvudmannens resurstilldelning som tilläggsbelopp."
+  },
+  {
+   "uid": "U241",
+   "id": "stockholms-kommun#8",
+   "citat": "Stadsledningskontoret vill därför understryka vikten av tydlighet i lagstiftningen gällande ”ledning och stimulans” samt ”stödundervisning” för att undvika att stödundervisningen ersätter de extra anpassningarna eller det som de extra anpassningarna genererat i termer av en utveckling av lärmiljön.",
+   "oppen_kod": "otydliga begrepp ledning och stimulans",
+   "beskrivning": "Lagstiftningen behöver vara tydlig om ledning och stimulans och stödundervisning."
+  },
+  {
+   "uid": "U242",
+   "id": "stockholms-kommun#8",
+   "citat": "Om inte skolan förmår att utveckla den tillgängliga lärmiljön så att alla elever kan följa undervisningen finns en stor risk att många elever kommer vara i behov av stödundervisning.",
+   "oppen_kod": "risk för många stödundervisningsbehov",
+   "beskrivning": "Skolor som inte utvecklar lärmiljön riskerar att få många elever i behov av stödundervisning."
+  },
+  {
+   "uid": "U243",
+   "id": "stockholms-kommun#9",
+   "citat": "Uppdraget ställer höga krav på samverkan och systematiskt kvalitetsarbete där elevhälsan är en viktig del.",
+   "oppen_kod": "höga krav på samverkan",
+   "beskrivning": "Uppdraget ställer höga krav på samverkan och kvalitetsarbete med elevhälsan."
+  },
+  {
+   "uid": "U244",
+   "id": "stockholms-kommun#9",
+   "citat": "Stadsledningskontoret ställer sig emellertid frågande till hur likvärdighet säkerställs vad gäller andra skolämnen kopplat till elevens eventuella behov av stödundervisning",
+   "oppen_kod": "likvärdighet i andra ämnen oklar",
+   "beskrivning": "Det är oklart hur likvärdighet säkras för stödundervisningsbehov i ämnen utan standardiserade tester."
+  },
+  {
+   "uid": "U245",
+   "id": "stockholms-kommun#9",
+   "citat": "Stadsledningskontoret anser att en påtaglig konsekvens av förslaget är att det kan bli många elever som bedöms behöva stödundervisning",
+   "oppen_kod": "många elever behöver stödundervisning",
+   "beskrivning": "Förslaget kan leda till att skolorna får många elever som bedöms behöva stödundervisning."
+  },
+  {
+   "uid": "U246",
+   "id": "stockholms-kommun#9",
+   "citat": "Rektors ansvar att fatta beslut om undantag från stödundervisning kan innebära en komplex bedömningssituation, särskilt när det gäller att avgränsa ämnesspecifika svårigheter från mer generella eller sociala problem. Det ställer höga krav på rektors förmåga att både stödja lärarna i deras bedömningar och samtidigt fatta rättssäkra beslut.",
+   "oppen_kod": "komplexa bedömningar för rektor",
+   "beskrivning": "Rektors beslut om undantag från stödundervisning blir komplexa och ställer höga krav."
+  },
+  {
+   "uid": "U247",
+   "id": "stockholms-kommun#9",
+   "citat": "Att beslut inte får grunda sig på organisatoriska eller ekonomiska skäl är viktigt, men kan i praktiken utmana skolans resurstilldelning och förmåga att möta behoven.",
+   "oppen_kod": "utmanad resurstilldelning",
+   "beskrivning": "Förbudet mot organisatoriska och ekonomiska skäl kan utmana skolans resurstilldelning."
+  },
+  {
+   "uid": "U248",
+   "id": "stockholms-kommun#9",
+   "citat": "Stadsledningskontoret anser att det är oklart i vilken utsträckning utredningen har tagit hänsyn till utredningen SOU 2024:94 - Förstärkningsundervisning i skolan – en",
+   "oppen_kod": "oklar relation till förstärkningsundervisning",
+   "beskrivning": "Det är oklart hur förslaget förhåller sig till förstärkningsundervisningen i SOU 2024:94."
+  },
+  {
+   "uid": "U249",
+   "id": "stockholms-kommun#10",
+   "citat": "För att säkerställa samordning och undvika överlappningar bör det klargöras hur reformerna förhåller sig till varandra.",
+   "oppen_kod": "överlappande reformer",
+   "beskrivning": "Det behöver klargöras hur parallella reformer förhåller sig till varandra för att undvika överlappning."
+  },
+  {
+   "uid": "U250",
+   "id": "stockholms-kommun#10",
+   "citat": "Stadsledningskontoret ser att skolornas extra kostnader kommer bli betydligt högre, då behovet av stödundervisning kommer variera under läsåret. När behoven är högre krävs extra insatser.",
+   "oppen_kod": "varierande behov höjer kostnader",
+   "beskrivning": "Varierande behov av stödundervisning under läsåret ger skolorna högre kostnader."
+  },
+  {
+   "uid": "U251",
+   "id": "stockholms-kommun#10",
+   "citat": "Vidare kommer gruppstorlekarna skilja sig åt där många grupper kommer bli mindre, särskilt på mindre skolor.",
+   "oppen_kod": "små grupper på små skolor",
+   "beskrivning": "Mindre grupper, särskilt på små skolor, gör stödundervisningen dyrare."
+  },
+  {
+   "uid": "U252",
+   "id": "stockholms-kommun#10",
+   "citat": "Stadsledningskontoret ser också att behoven av främst speciallärare och/eller specialpedagoger blir betydligt högre än utredningens uppskattningar.",
+   "oppen_kod": "större behov av speciallärare",
+   "beskrivning": "Behovet av speciallärare och specialpedagoger blir större än utredningen uppskattat."
+  },
+  {
+   "uid": "U253",
+   "id": "stockholms-kommun#10",
+   "citat": "Vidare tillkommer extra kostnader för handledning av lärarna. Det kommer behövas fler lärare med specialpedagogisk kompetens för att uppfylla förslagen. Dessa kostnader är inte medräknade i utredningen.",
+   "oppen_kod": "ej medräknade handledningskostnader",
+   "beskrivning": "Kostnader för handledning och fler lärare med specialpedagogisk kompetens är inte medräknade."
+  },
+  {
+   "uid": "U254",
+   "id": "stockholms-kommun#10",
+   "citat": "Utredningen har inte heller tagit höjd för några extra lokalkostnader. Stödundervisningen kommer behöva bedrivas i andra lokaler, vilket ger högre kostnader för huvudmännen.",
+   "oppen_kod": "extra lokalkostnader",
+   "beskrivning": "Stödundervisning kräver andra lokaler, vilket ger huvudmännen högre kostnader."
+  },
+  {
+   "uid": "U255",
+   "id": "stockholms-kommun#10",
+   "citat": "Sammantaget bedömer stadsledningskontoret att skolornas extra kostnader kan bli 30 till 50 procent högre än utredningens beräkningar, beroende på stödundervisningens utformning.",
+   "oppen_kod": "kostnader 30–50 procent högre",
+   "beskrivning": "Skolornas extra kostnader bedöms bli 30–50 procent högre än beräknat."
+  },
+  {
+   "uid": "U256",
+   "id": "stockholms-kommun#10",
+   "citat": "Stadsledningskontoret ställer sig därför frågande till hur en utvärdering av insatsen stödundervisning ska genomföras om insatsen inte dokumenterats och följts upp systematiskt.",
+   "oppen_kod": "utvärdering utan dokumentationskrav",
+   "beskrivning": "Det är oklart hur stödundervisning ska utvärderas när dokumentationskrav saknas."
+  },
+  {
+   "uid": "U257",
+   "id": "stockholms-kommun#11",
+   "citat": "Det är också viktigt att utredningen tydliggör förslagen gällande skillnader i särskilt stöd i de olika skolformerna då det är otydligt gällande dessa skillnader, vilket leder till svårheter för tillämpning och utrymme för tolkning.",
+   "oppen_kod": "otydliga skillnader mellan skolformer",
+   "beskrivning": "Otydliga skillnader i särskilt stöd mellan skolformer försvårar tillämpningen."
+  },
+  {
+   "uid": "U258",
+   "id": "stockholms-kommun#11",
+   "citat": "Det bör även övervägas hur man i genomförandet av förslaget kan motverka risken för att det särskilda stödet organiseras på ett sätt som bidrar till exkludering snarare än inkludering.",
+   "oppen_kod": "risk för exkluderande organisering",
+   "beskrivning": "Genomförandet riskerar att särskilt stöd organiseras exkluderande."
+  },
+  {
+   "uid": "U259",
+   "id": "stockholms-kommun#11",
+   "citat": "Samtidigt motsätter sig stadsledningskontoret förslaget att det inte behöver finnas särskilda skäl för att fatta beslut om enskild undervisning eller undervisning i särskild undervisningsgrupp, då det kan leda till rättsosäker hantering av enskilda elever och en oönskad normalisering av att placera elever utanför den ordinarie gruppen, vilket i sin tur riskerar att underminera skolans inkluderande uppdrag.",
+   "oppen_kod": "rättsosäker placering utan särskilda skäl",
+   "beskrivning": "Slopade särskilda skäl kan ge rättsosäker hantering och undergräva skolans inkluderande uppdrag."
+  },
+  {
+   "uid": "U260",
+   "id": "stockholms-kommun#11",
+   "citat": "En utökning av antal särskilda undervisningsgrupper i grundskolan leder sannolikt till att behoven på sikt även ökar i gymnasieskolan.",
+   "oppen_kod": "ökade behov i gymnasieskolan",
+   "beskrivning": "Fler särskilda undervisningsgrupper i grundskolan ökar på sikt behoven i gymnasieskolan."
+  },
+  {
+   "uid": "U261",
+   "id": "stockholms-kommun#12",
+   "citat": "att förtydliga vad anpassad studiegång innebär i praktiken med hänvisning till timplanen",
+   "oppen_kod": "oklar anpassad studiegång",
+   "beskrivning": "Det är oklart vad anpassad studiegång innebär i praktiken i förhållande till timplanen."
+  },
+  {
+   "uid": "U262",
+   "id": "stockholms-kommun#15",
+   "citat": "Förvaltningen vill därför understryka vikten av tydlighet i lagstiftningen gällande ”ledning och stimulans” samt ”stödundervisning” för att undvika att stödundervisningen ersätter de extra anpassningarna",
+   "oppen_kod": "otydliga begrepp ledning och stimulans",
+   "beskrivning": "Lagstiftningen behöver vara tydlig om ledning och stimulans och stödundervisning."
+  },
+  {
+   "uid": "U263",
+   "id": "stockholms-kommun#15",
+   "citat": "Om inte skolan förmår att utveckla den tillgängliga lärmiljön så att alla elever kan följa undervisningen finns en stor risk att många elever kommer vara i behov av stödundervisning.",
+   "oppen_kod": "risk för många stödundervisningsbehov",
+   "beskrivning": "Skolor som inte utvecklar lärmiljön riskerar många elever i behov av stödundervisning."
+  },
+  {
+   "uid": "U264",
+   "id": "stockholms-kommun#16",
+   "citat": "Uppdraget ställer höga krav på samverkan och systematiskt kvalitetsarbete där elevhälsan är en viktig del.",
+   "oppen_kod": "höga krav på samverkan",
+   "beskrivning": "Uppdraget ställer höga krav på samverkan och kvalitetsarbete med elevhälsan."
+  },
+  {
+   "uid": "U265",
+   "id": "stockholms-kommun#16",
+   "citat": "Förvaltningen ställer sig emellertid frågande till hur likvärdighet säkerställs vad gäller andra skolämnen kopplat till elevens eventuella behov av stödundervisning",
+   "oppen_kod": "likvärdighet i andra ämnen oklar",
+   "beskrivning": "Det är oklart hur likvärdighet säkras för stödundervisning i ämnen utan tester."
+  },
+  {
+   "uid": "U266",
+   "id": "stockholms-kommun#16",
+   "citat": "Förvaltningen anser att en påtaglig konsekvens av förslaget är att det kan bli många elever som bedöms behöva stödundervisning",
+   "oppen_kod": "många elever behöver stödundervisning",
+   "beskrivning": "Förslaget kan ge skolorna många elever som bedöms behöva stödundervisning."
+  },
+  {
+   "uid": "U267",
+   "id": "stockholms-kommun#17",
+   "citat": "Rektors ansvar att fatta beslut om undantag från stödundervisning kan innebära en komplex bedömningssituation, särskilt när det gäller att avgränsa ämnesspecifika svårigheter från mer generella eller sociala problem. Det ställer höga krav på rektors förmåga att både stödja lärarna i deras bedömningar och samtidigt fatta rättssäkra beslut.",
+   "oppen_kod": "komplexa bedömningar för rektor",
+   "beskrivning": "Rektors beslut om undantag från stödundervisning blir komplexa."
+  },
+  {
+   "uid": "U268",
+   "id": "stockholms-kommun#17",
+   "citat": "Att beslut inte får grunda sig på organisatoriska eller ekonomiska skäl är viktigt, men kan i praktiken utmana skolans resurstilldelning och förmåga att möta behoven.",
+   "oppen_kod": "utmanad resurstilldelning",
+   "beskrivning": "Förbudet mot ekonomiska skäl kan utmana skolans resurstilldelning."
+  },
+  {
+   "uid": "U269",
+   "id": "stockholms-kommun#17",
+   "citat": "Förvaltningen uppmärksammar att det är oklart i vilken utsträckning utredning har tagit hänsyn till utredningen SOU 2024:94 - Förstärkningsundervisning i skolan – en försöksverksamhet för fler behöriga elever. För att säkerställa samordning och undvika överlappningar bör det klargöras hur de två reformspåren förhåller sig till varandra.",
+   "oppen_kod": "oklar relation till förstärkningsundervisning",
+   "beskrivning": "Det är oklart hur reformen förhåller sig till förstärkningsundervisningen."
+  },
+  {
+   "uid": "U270",
+   "id": "stockholms-kommun#17",
+   "citat": "Förvaltningen ser att skolornas extra kostnader kommer bli betydligt högre då behovet av stödundervisningen naturligt kommer att variera under läsåret.",
+   "oppen_kod": "varierande behov höjer kostnader",
+   "beskrivning": "Varierande behov under läsåret ger skolorna högre kostnader."
+  },
+  {
+   "uid": "U271",
+   "id": "stockholms-kommun#17",
+   "citat": "Vidare kommer gruppstorlekarna att skilja sig åt där många grupper kommer bli mindre. Speciellt tydligt blir det på mindre skolor.",
+   "oppen_kod": "små grupper på små skolor",
+   "beskrivning": "Mindre grupper på små skolor gör stödundervisningen dyrare."
+  },
+  {
+   "uid": "U272",
+   "id": "stockholms-kommun#17",
+   "citat": "Förvaltningen ser också att behoven av främst speciallärare och/eller specialpedagoger blir betydligt högre än utredningens uppskattningar.",
+   "oppen_kod": "större behov av speciallärare",
+   "beskrivning": "Behovet av speciallärare och specialpedagoger blir större än uppskattat."
+  },
+  {
+   "uid": "U273",
+   "id": "stockholms-kommun#17",
+   "citat": "Vidare tillkommer extra kostnader för handledning av lärarna. Det kommer att behövas fler med specialpedagogisk kompetens för att uppfylla förslagen. Dessa kostnader är inte medräknade i utredningen.",
+   "oppen_kod": "ej medräknade handledningskostnader",
+   "beskrivning": "Kostnader för handledning och specialpedagogisk kompetens är inte medräknade."
+  },
+  {
+   "uid": "U274",
+   "id": "stockholms-kommun#17",
+   "citat": "Utredningen har inte heller tagit höjd för några extra lokalkostnader. Stödundervisningen kommer att behöva bedrivas i andra lokaler vilket ger högre kostnader för huvudmännen.",
+   "oppen_kod": "extra lokalkostnader",
+   "beskrivning": "Stödundervisning i andra lokaler ger huvudmännen högre kostnader."
+  },
+  {
+   "uid": "U275",
+   "id": "stockholms-kommun#18",
+   "citat": "Förvaltningen uppskattar skolornas extra kostnader till mellan 30 och 50 procent högre än vad utredningen gör beroende på stödundervisningens utformning.",
+   "oppen_kod": "kostnader 30–50 procent högre",
+   "beskrivning": "Skolornas extra kostnader bedöms bli 30–50 procent högre än beräknat."
+  },
+  {
+   "uid": "U276",
+   "id": "stockholms-kommun#18",
+   "citat": "Förvaltningen ställer sig därför frågande till hur en utvärdering av insatsen stödundervisning ska genomföras om insatsen inte dokumenterats och följts upp systematiskt.",
+   "oppen_kod": "utvärdering utan dokumentationskrav",
+   "beskrivning": "Det är oklart hur stödundervisning ska utvärderas utan dokumentationskrav."
+  },
+  {
+   "uid": "U277",
+   "id": "stockholms-kommun#18",
+   "citat": "Det är också viktigt att utredningen tydliggör förslagen gällande skillnader i särskilt stöd i de olika skolformerna då det i dag redan är otydligt gällande dessa skillnader vilket leder till svårheter för tillämpning och utrymme för tolkning.",
+   "oppen_kod": "otydliga skillnader mellan skolformer",
+   "beskrivning": "Otydliga skillnader mellan skolformer försvårar tillämpningen."
+  },
+  {
+   "uid": "U278",
+   "id": "stockholms-kommun#18",
+   "citat": "Det bör även övervägas hur man i genomförandet av förslaget kan motverka risken för att det särskilda stödet organiseras på ett sätt som bidrar till exkludering snarare än inkludering.",
+   "oppen_kod": "risk för exkluderande organisering",
+   "beskrivning": "Genomförandet riskerar exkluderande organisering av särskilt stöd."
+  },
+  {
+   "uid": "U279",
+   "id": "stockholms-kommun#18",
+   "citat": "Samtidigt motsätter sig förvaltningen förslaget att det inte behöver finnas särskilda skäl för att fatta beslut om enskild undervisning eller undervisning i särskild undervisningsgrupp då det kan leda till rättsosäker hantering av enskilda elever och en oönskad normalisering av att placera elever utanför den ordinarie gruppen, vilket i sin tur riskerar att underminera skolans inkluderande uppdrag.",
+   "oppen_kod": "rättsosäker placering utan särskilda skäl",
+   "beskrivning": "Slopade särskilda skäl kan ge rättsosäker hantering och undergräva inkluderingen."
+  },
+  {
+   "uid": "U280",
+   "id": "stockholms-kommun#19",
+   "citat": "En utökning av antal särskilda undervisningsgrupper i grundskolan leder sannolikt till att behoven på sikt också ökar i gymnasieskolan.",
+   "oppen_kod": "ökade behov i gymnasieskolan",
+   "beskrivning": "Fler särskilda undervisningsgrupper ökar på sikt behoven i gymnasieskolan."
+  },
+  {
+   "uid": "U281",
+   "id": "stockholms-kommun#19",
+   "citat": "Förvaltningens anser samtidigt att det finns behov av att förtydliga vad anpassad studiegång innebär i praktiken med hänvisning till timplanen",
+   "oppen_kod": "oklar anpassad studiegång",
+   "beskrivning": "Det är oklart vad anpassad studiegång innebär i praktiken."
+  },
+  {
+   "uid": "U282",
+   "id": "stockholms-kommun#21",
+   "citat": "Vi instämmer i förvaltningens bedömning att om förslagen ska implementeras fullt ut krävs det verklig full kostnadstäckning från staten.",
+   "oppen_kod": "krav på full statlig kostnadstäckning",
+   "beskrivning": "Genomförandet kräver full kostnadstäckning från staten."
+  },
+  {
+   "uid": "U283",
+   "id": "stockholms-kommun#21",
+   "citat": "Det framstår som oklart vad denna stödundervisningsform består i.",
+   "oppen_kod": "oklart vad stödundervisning är",
+   "beskrivning": "Det är oklart vad stödundervisningen består i."
+  },
+  {
+   "uid": "U284",
+   "id": "stockholms-kommun#21",
+   "citat": "Det innebär att ständiga utvärderingar, som ska dokumenteras fullt ut upp till sex gånger per år, kan bli mycket resurskrävande.",
+   "oppen_kod": "resurskrävande upprepade utvärderingar",
+   "beskrivning": "Upprepade dokumenterade utvärderingar blir resurskrävande för skolorna."
+  },
+  {
+   "uid": "U285",
+   "id": "stockholms-kommun#21",
+   "citat": "Det behöver tydliggöras hur skolorna och framför allt rektorerna ska prioritera när anmälningarna om stödundervisning blir väldigt många.",
+   "oppen_kod": "prioritering vid många anmälningar",
+   "beskrivning": "Rektorer saknar vägledning för prioritering vid många anmälningar."
+  },
+  {
+   "uid": "U286",
+   "id": "stockholms-kommun#21",
+   "citat": "Vi ser även att förslaget har oklarheter kring hur det passar ihop med andra former av behovsbedömning och resurstilldelning vid särskilda behov för en elev, exempelvis genom underlag för att tilldela tilläggsbelopp eller verksamhetsstöd.",
+   "oppen_kod": "oklar koppling till resurstilldelning",
+   "beskrivning": "Det är oklart hur förslaget passar ihop med tilläggsbelopp och verksamhetsstöd."
+  },
+  {
+   "uid": "U287",
+   "id": "sveriges-kommuner-och-regioner#10",
+   "citat": "mot bakgrund av att det kan medföra förändringar i rektors möjligheter att planera och styra verksamheten.",
+   "oppen_kod": "rätt till stödundervisning begränsar rektor",
+   "beskrivning": "Regleringen av rätten till stödundervisning kan begränsa rektors möjlighet att planera och styra verksamheten."
+  },
+  {
+   "uid": "U288",
+   "id": "sveriges-kommuner-och-regioner#14",
+   "citat": "SKR anser att utredningens ekonomiska beräkningar underskattar behovet av lärare och därmed också de kostnadsökningar i kommunerna som förslagen genererar.",
+   "oppen_kod": "underskattat lärarbehov och kostnader",
+   "beskrivning": "Utredningen underskattar lärarbehovet och kommunernas kostnadsökningar."
+  },
+  {
+   "uid": "U289",
+   "id": "sveriges-kommuner-och-regioner#18",
+   "citat": "SKR anser att utredningen har fokus på åtgärdande insatser. Detta riskerar leda till att kommunernas arbete med att utveckla lärmiljöerna för att möta elevernas olika behov stannar av.",
+   "oppen_kod": "lärmiljöarbetet riskerar avstanna",
+   "beskrivning": "Fokus på åtgärdande insatser riskerar att kommunernas arbete med lärmiljöer avstannar."
+  },
+  {
+   "uid": "U290",
+   "id": "sveriges-kommuner-och-regioner#18",
+   "citat": "Förslagen riskerar dock att flytta fokus från det förebyggande och främjande arbetet, till ett mer formaliserat system där stödundervisning och särskilt stöd ökar.",
+   "oppen_kod": "mer formaliserat stödsystem",
+   "beskrivning": "Förslagen riskerar ett mer formaliserat system med ökad stödundervisning och särskilt stöd."
+  },
+  {
+   "uid": "U291",
+   "id": "sveriges-kommuner-och-regioner#18",
+   "citat": "Men administrationen får inte bli så betungande att det påverkar lärares möjligheter att prioritera insatser för eleverna.",
+   "oppen_kod": "betungande administration",
+   "beskrivning": "Dokumentation och administration riskerar att bli betungande för lärarna."
+  },
+  {
+   "uid": "U292",
+   "id": "sveriges-kommuner-och-regioner#19",
+   "citat": "Det finns en risk för att utredningens förslag blir resursdrivande.",
+   "oppen_kod": "resursdrivande förslag",
+   "beskrivning": "Förslagen riskerar att bli resursdrivande för huvudmännen."
+  },
+  {
+   "uid": "U293",
+   "id": "sveriges-kommuner-och-regioner#19",
+   "citat": "SKR anser att gymnasieskolans perspektiv är svagt i utredningens förslag och skulle behöva utvecklas. I gymnasieskolan har elever inte rätt till enskild undervisning eller i särskild undervisningsgrupp. Hur eleverna i gymnasieskolan ska ges särskilt stöd behöver ses över.",
+   "oppen_kod": "svagt gymnasieperspektiv",
+   "beskrivning": "Det är oklart hur särskilt stöd ska ges i gymnasieskolan."
+  },
+  {
+   "uid": "U294",
+   "id": "sveriges-kommuner-och-regioner#19",
+   "citat": "Resonemang kring stöd till eleverna i den anpassade grundskolan och den anpassade gymnasieskolan saknas i förslagen.",
+   "oppen_kod": "anpassade skolformer saknas",
+   "beskrivning": "Förslagen saknar resonemang om stöd i de anpassade skolformerna."
+  },
+  {
+   "uid": "U295",
+   "id": "sveriges-kommuner-och-regioner#20",
+   "citat": "SKR föreslår att det tydliggörs hur ledning och stimulans ska utformas i den ordinarie undervisningen för att möta elever som är i behov av stöd i klassrummet under hela sin skoltid men som varken är i behov av den stödundervisning som utredningen föreslår eller särskilt stöd.",
+   "oppen_kod": "oklar utformning av ledning och stimulans",
+   "beskrivning": "Det är oklart hur ledning och stimulans ska utformas för elever med långvarigt behov av stöd i klassrummet."
+  },
+  {
+   "uid": "U296",
+   "id": "sveriges-kommuner-och-regioner#22",
+   "citat": "För att säkerställa att prov kan genomföras väl och ge den information som behövs utan att ta för mycket tid från undervisningen bör de standardiserade proven först utprövas i försöksverksamhet innan de implementeras i större skala.",
+   "oppen_kod": "standardiserade prov tar tid",
+   "beskrivning": "De standardiserade proven riskerar att ta tid från undervisningen om de inte prövas först."
+  },
+  {
+   "uid": "U297",
+   "id": "sveriges-kommuner-och-regioner#24",
+   "citat": "SKR anser dock att det behöver tydliggöras i lagtexten att en lärare har skyldighet att ge eleven anpassningar och stöd i klassrummet.",
+   "oppen_kod": "otydlig skyldighet till anpassningar",
+   "beskrivning": "Lagtexten är otydlig om lärarens skyldighet att ge anpassningar och stöd i klassrummet."
+  },
+  {
+   "uid": "U298",
+   "id": "sveriges-kommuner-och-regioner#24",
+   "citat": "SKR anser att det inte enbart bör vara den enskilda lärarens bedömning som ligger till grund för sådant stöd. Dels kan stödbehovet minska genom att undervisningen utformas på annat sätt, något som den enskilda läraren inte alltid ensam kan bedöma.",
+   "oppen_kod": "ensam lärarbedömning otillräcklig",
+   "beskrivning": "Den enskilda läraren kan inte alltid ensam bedöma behovet av stödundervisning."
+  },
+  {
+   "uid": "U299",
+   "id": "sveriges-kommuner-och-regioner#25",
+   "citat": "Samtidigt anser SKR att utredningens förslag medför en förskjutning av ansvaret för att undervisningen ska utformas för att bemöta elevgruppen till att det är elevernas begränsningar som ska hanteras. Det gör att fokus förändras från att utveckla undervisningen och lärmiljöer till att ge enskilda elever stöd i särskilda sammanhang.",
+   "oppen_kod": "fokusförskjutning från lärmiljö",
+   "beskrivning": "Förslagen förskjuter skolans fokus från att utveckla undervisning och lärmiljöer till individuellt stöd."
+  },
+  {
+   "uid": "U300",
+   "id": "sveriges-kommuner-och-regioner#26",
+   "citat": "SKR är emellertid tveksam till att de standardiserade tester som utredningen beskriver (ska genomföras i helklass, under en lektion från årskurs 3) tillräckligt tydligt kan ge den information som önskas. Det är möjligt att de kan behöva kompletteras med andra underlag eller bedömningar från lärare.",
+   "oppen_kod": "osäker informationsvärde i tester",
+   "beskrivning": "Det är osäkert om de standardiserade testerna ger tillräcklig information utan kompletterande bedömningar."
+  },
+  {
+   "uid": "U301",
+   "id": "sveriges-kommuner-och-regioner#29",
+   "citat": "SKR menar att regleringens utformning kan medföra förändringar i rektors möjligheter att planera och styra verksamheten.",
+   "oppen_kod": "rätt till stödundervisning begränsar rektor",
+   "beskrivning": "Regleringen kan begränsa rektors möjligheter att planera och styra verksamheten."
+  },
+  {
+   "uid": "U302",
+   "id": "sveriges-kommuner-och-regioner#29",
+   "citat": "Utan rektorns tydliga beslutsmandat kan det annars skapa svårigheter att skyndsamt se till att det finns lärare som kan genomföra den stödundervisning utanför klassrummet som efterfrågas.",
+   "oppen_kod": "svårt att skyndsamt bemanna",
+   "beskrivning": "Utan rektors beslutsmandat blir det svårt att skyndsamt ordna lärare för stödundervisning."
+  },
+  {
+   "uid": "U303",
+   "id": "sveriges-kommuner-och-regioner#29",
+   "citat": "Det finns också en risk att den enskilda lärarens kompetens och syn på undervisningens utformning kan påverka om elever får ett bra stöd och anpassningar inom ramen för den ordinarie undervisningen eller anses behöva stödundervisning. SKR menar att det därmed finns risker när det gäller elevernas rättssäkerhet med en sådan ordning.",
+   "oppen_kod": "lärarberoende bedömning och rättssäkerhet",
+   "beskrivning": "Att den enskilda läraren avgör behovet ger skolan problem med rättssäkerhet och likvärdighet."
+  },
+  {
+   "uid": "U304",
+   "id": "sveriges-kommuner-och-regioner#29",
+   "citat": "Utredningens förslag ställer höga krav på rektor att tillgodose behovet av stödundervisning, samtidigt som rektors inflytande över om beslutet om stödundervisning är begränsat.",
+   "oppen_kod": "rektors ansvar utan inflytande",
+   "beskrivning": "Rektor ska tillgodose behovet av stödundervisning men har begränsat inflytande över besluten."
+  },
+  {
+   "uid": "U305",
+   "id": "sveriges-kommuner-och-regioner#29",
+   "citat": "Det finns en risk att vissa lärare i högre utsträckning än andra ställer krav på stödundervisning",
+   "oppen_kod": "ojämn efterfrågan mellan lärare",
+   "beskrivning": "Vissa lärare kan i högre grad än andra kräva stödundervisning, vilket skolan måste hantera."
+  },
+  {
+   "uid": "U306",
+   "id": "sveriges-kommuner-och-regioner#30",
+   "citat": "Förslaget om stödundervisning ställer vidare höga krav på skolan organisatoriskt och kompetensmässigt. Det krävs lokaler och tillräckligt med behöriga lärare för att kunna bedriva stödundervisning. Förutsättningarna för att hantera detta varierar mellan skolor och kommuner.",
+   "oppen_kod": "krav på lokaler och behöriga lärare",
+   "beskrivning": "Stödundervisning kräver lokaler och behöriga lärare, och förutsättningarna varierar mellan skolor och kommuner."
+  },
+  {
+   "uid": "U307",
+   "id": "sveriges-kommuner-och-regioner#30",
+   "citat": "SKR föreslår att resurser för kompetensutveckling tillförs huvudmännen.",
+   "oppen_kod": "behov av kompetensutvecklingsresurser",
+   "beskrivning": "Huvudmännen behöver resurser för kompetensutveckling."
+  },
+  {
+   "uid": "U308",
+   "id": "sveriges-kommuner-och-regioner#30",
+   "citat": "SRK anser att regelverket därmed endast är lämpligt för vissa former av behov. Den lämpar sig till exempel sämre för elever som behöver kontinuerligt men mindre stöd i de flesta ämnen.",
+   "oppen_kod": "regelverket passar vissa behov",
+   "beskrivning": "Stödundervisningens regelverk passar dåligt för elever med kontinuerligt stödbehov i många ämnen."
+  },
+  {
+   "uid": "U309",
+   "id": "sveriges-kommuner-och-regioner#30",
+   "citat": "Om den stödundervisning som föreslås sker parallellt med den ordinarie undervisningen riskerar eleverna att missa viktig undervisning, vilket ytterligare kan öka elevens stödbehov.",
+   "oppen_kod": "parallell stödundervisning ökar behov",
+   "beskrivning": "Stödundervisning parallellt med ordinarie undervisning kan öka elevernas stödbehov."
+  },
+  {
+   "uid": "U310",
+   "id": "sveriges-kommuner-och-regioner#30",
+   "citat": "SKR ser stora svårigheter med den föreslagna ordningen, till exempel för att kunna planera omfattningen av stödundervisning och schemaläggning över tid.",
+   "oppen_kod": "svår planering och schemaläggning",
+   "beskrivning": "Det blir svårt att planera omfattning och schemaläggning av stödundervisning över tid."
+  },
+  {
+   "uid": "U311",
+   "id": "sveriges-kommuner-och-regioner#30",
+   "citat": "om det visar sig finnas behov av ett stort antal stödgrupper under en viss tid kan det bli mycket svårt att genomföra.",
+   "oppen_kod": "många stödgrupper svåra att genomföra",
+   "beskrivning": "Ett stort antal stödgrupper under en period kan bli mycket svårt att genomföra."
+  },
+  {
+   "uid": "U312",
+   "id": "sveriges-kommuner-och-regioner#30",
+   "citat": "Det är även otydligt vem som ska utvärdera, hur det ska gå till och vem som ska ansvara för stödundervisningen.",
+   "oppen_kod": "oklart ansvar för utvärdering",
+   "beskrivning": "Det är otydligt vem som utvärderar och ansvarar för stödundervisningen."
+  },
+  {
+   "uid": "U313",
+   "id": "sveriges-kommuner-och-regioner#31",
+   "citat": "Dessa förslag innebär också ökad administration och det är oklart vem som ska ha ansvar för att arbetet och utvärderingen dokumenteras. Det riskerar att bli en ytterligare belastning för läraren.",
+   "oppen_kod": "ökad administration för lärare",
+   "beskrivning": "Utvärdering och dokumentation av stödundervisning ökar administrationen och belastar lärarna."
+  },
+  {
+   "uid": "U314",
+   "id": "sveriges-kommuner-och-regioner#31",
+   "citat": "Dessutom behöver skolan organisera för överlämning av vad eleven har tillgodogjort sig under stödundervisningen.",
+   "oppen_kod": "organisering av överlämning",
+   "beskrivning": "Skolan måste organisera överlämning av resultat från stödundervisningen."
+  },
+  {
+   "uid": "U315",
+   "id": "sveriges-kommuner-och-regioner#31",
+   "citat": "SKR pekar på dilemmat med att elever antingen får stödundervisning som gör att de går miste om ordinarie undervisning eller att elever får utökad obligatorisk undervisningstid. Ett sådant beslut kan påverka barnet utöver skolsituationen exempelvis i relation till fritidshemmets planering, skolskjuts eller fritidsaktiviteter.",
+   "oppen_kod": "påverkan på skolskjuts och fritidshem",
+   "beskrivning": "Stödundervisning utöver ordinarie tid påverkar fritidshemmets planering och skolskjuts."
+  },
+  {
+   "uid": "U316",
+   "id": "sveriges-kommuner-och-regioner#31",
+   "citat": "SKR ifrågasätter begränsningen av stödundervisning till vissa ämnen i gymnasieskolan. Elever kan ha behov av stöd även i andra ämnen exempelvis engelska, för att nå en examen och en snäv tillämpning riskerar att skapa ojämlika förutsättningar.",
+   "oppen_kod": "ämnesbegränsning i gymnasieskolan",
+   "beskrivning": "Begränsningen av stödundervisning till vissa ämnen i gymnasieskolan riskerar ojämlika förutsättningar."
+  },
+  {
+   "uid": "U317",
+   "id": "sveriges-kommuner-och-regioner#32",
+   "citat": "Utredningen föreslår att en lärare ska vara skyldig att skriftligt anmäla till rektorn att en elevs behov av särskilt stöd behöver utredas. Det är en ny skyldighet som kommer innebära ökad administration.",
+   "oppen_kod": "skriftlig anmälan ökar administration",
+   "beskrivning": "Den nya skyldigheten att skriftligt anmäla behov av särskilt stöd ökar administrationen."
+  },
+  {
+   "uid": "U318",
+   "id": "sveriges-kommuner-och-regioner#33",
+   "citat": "Regelverket måste ge skolhuvudmän handlingsutrymme att organisera stödet på ett sätt som fungerar lokalt, utan att driva på ytterligare särskiljning eller öka den administrativa belastningen.",
+   "oppen_kod": "begränsat lokalt handlingsutrymme",
+   "beskrivning": "Regelverket riskerar att minska huvudmännens handlingsutrymme och öka administrationen."
+  },
+  {
+   "uid": "U319",
+   "id": "sveriges-kommuner-och-regioner#35",
+   "citat": "För att särskilda undervisningsgrupper ska ge eleverna god undervisning krävs att de bemannas med legitimerade och behöriga lärare, vilket behöver säkerställas innan sådana lösningar etableras.",
+   "oppen_kod": "behöriga lärare i särskilda grupper",
+   "beskrivning": "Särskilda undervisningsgrupper måste bemannas med behöriga lärare."
+  },
+  {
+   "uid": "U320",
+   "id": "sveriges-kommuner-och-regioner#35",
+   "citat": "Sammantaget innebär förslagen att elever i gymnasieskolan får betydligt sämre möjligheter att få stöd och fullfölja sin utbildning.",
+   "oppen_kod": "sämre stödmöjligheter i gymnasieskolan",
+   "beskrivning": "Gymnasieskolan får sämre möjligheter att ge särskilt stöd enskilt eller i särskild grupp."
+  },
+  {
+   "uid": "U321",
+   "id": "sveriges-kommuner-och-regioner#36",
+   "citat": "En motsvarighet till anpassad studiegång är reducerat program i gymnasieskolan. Denna åtgärd borde utredningen har resonerat om i detta sammanhang eftersom den resulterar till att eleven inte uppnår gymnasieexamen.",
+   "oppen_kod": "reducerat program ej behandlat",
+   "beskrivning": "Utredningen behandlar inte reducerat program i gymnasieskolan."
+  },
+  {
+   "uid": "U322",
+   "id": "sveriges-kommuner-och-regioner#38",
+   "citat": "SKR vill särskilt poängtera vikten av samordning för att underlätta införandet av dessa förslag.",
+   "oppen_kod": "samordning med andra reformer",
+   "beskrivning": "Införandet behöver samordnas med den tioåriga grundskolan."
+  },
+  {
+   "uid": "U323",
+   "id": "sveriges-kommuner-och-regioner#39",
+   "citat": "SKR vill uppmärksamma att flera av de föreslagna förändringarna riskerar att bli kostnadsdrivande för kommunerna. Förslaget om stödundervisning innebär i praktiken att insatsen kan begäras utan tydliga begränsningar vad gäller antal elever, ämnen eller varaktighet, vilket kan medföra en omfattande ökning av lärarbehov och lokalkapacitet.",
+   "oppen_kod": "obegränsad stödundervisning driver kostnader",
+   "beskrivning": "Stödundervisning utan tydliga begränsningar kan kraftigt öka behovet av lärare och lokaler."
+  },
+  {
+   "uid": "U324",
+   "id": "sveriges-kommuner-och-regioner#39",
+   "citat": "Därtill föreslås att det särskilda stödet i större utsträckning ska ges enskilt eller i särskild undervisningsgrupp, vilket ytterligare driver på kostnaderna.",
+   "oppen_kod": "särskilda grupper driver kostnader",
+   "beskrivning": "Mer särskilt stöd enskilt eller i särskild grupp ökar kostnaderna."
+  },
+  {
+   "uid": "U325",
+   "id": "sveriges-kommuner-och-regioner#39",
+   "citat": "är det SKR:s bedömning att förslagen innebär ett ökat resursbehov som inte fullt ut kompenseras enligt finansieringsprincipen.",
+   "oppen_kod": "ofullständig kompensation enligt finansieringsprincipen",
+   "beskrivning": "Det ökade resursbehovet kompenseras inte fullt ut enligt finansieringsprincipen."
+  },
+  {
+   "uid": "U326",
+   "id": "sveriges-kommuner-och-regioner#39",
+   "citat": "SKR anser att andelarna är för lågt räknade för att uppnå syftet med reformen och de utökade resurser som kommer att krävas.",
+   "oppen_kod": "för lågt beräknade elevandelar",
+   "beskrivning": "Utredningen räknar med för låga andelar elever i stödundervisning, vilket underskattar kostnaderna."
+  },
+  {
+   "uid": "U327",
+   "id": "sveriges-kommuner-och-regioner#40",
+   "citat": "Variationer över läsåret och olika förutsättningar mellan olika skolor i landet kan leda till att genomsnittet blir lägre, och kostnaderna därmed ytterligare högre än vad utredningen beräknat.",
+   "oppen_kod": "mindre grupper ger högre kostnader",
+   "beskrivning": "Variationer över läsåret och mellan skolor ger mindre grupper och högre kostnader."
+  },
+  {
+   "uid": "U328",
+   "id": "sveriges-kommuner-och-regioner#40",
+   "citat": "Förslaget om att det ska inte längre krävas särskilda skäl för att särskilt stöd ska kunna ges enskilt eller i en särskild undervisningsgrupp beräknas också medföra utökat behov av lärartid och därmed ökade kostnader.",
+   "oppen_kod": "slopade särskilda skäl kostar",
+   "beskrivning": "Slopade särskilda skäl ökar behovet av lärartid och kostnaderna."
+  },
+  {
+   "uid": "U329",
+   "id": "sveriges-kommuner-och-regioner#40",
+   "citat": "Det finns vidare en risk att de ekonomiska konsekvenserna av genomförande av standardiserade tester i kommunerna är underskattade.",
+   "oppen_kod": "underskattade testkostnader",
+   "beskrivning": "Kostnaderna för standardiserade tester i kommunerna kan vara underskattade."
+  },
+  {
+   "uid": "U330",
+   "id": "sveriges-kommuner-och-regioner#40",
+   "citat": "Sammantaget beräknas förslagen enligt SKRs beräkningar uppgå till nära 4 miljarder kronor, istället för utredningens drygt 2 miljarder.",
+   "oppen_kod": "nära 4 miljarder i kostnad",
+   "beskrivning": "Förslagen beräknas kosta nära 4 miljarder kronor i stället för drygt 2 miljarder."
+  },
+  {
+   "uid": "U331",
+   "id": "sveriges-kommuner-och-regioner#40",
+   "citat": "SKR ser även en risk att en större andel av resurserna riktas mot undervisning i mindre sammanhang, vilket kan ske på bekostnad av utvecklingen av tillgänglig undervisning inom ordinarie verksamhet. Detta riskerar att leda till minskad likvärdighet, ökade särskiljande insatser och långsiktigt växande kostnader.",
+   "oppen_kod": "resurser flyttas från ordinarie undervisning",
+   "beskrivning": "Resurser riskerar att flyttas från ordinarie undervisning, med växande kostnader på sikt."
+  },
+  {
+   "uid": "U332",
+   "id": "sveriges-kommuner-och-regioner#40",
+   "citat": "Kommunerna har idag olika förutsättningar att rekrytera utbildade lärare till skolorna. SKR anser att just förutsättningarna för kompetensförsörjning inte är tillräckligt beskrivna i utredningen.",
+   "oppen_kod": "kompetensförsörjning otillräckligt belyst",
+   "beskrivning": "Kommunernas olika förutsättningar att rekrytera lärare är otillräckligt belysta."
+  },
+  {
+   "uid": "U333",
+   "id": "sveriges-kommuner-och-regioner#47",
+   "citat": "Det kommer att ta tid och resurser i anspråk att implementera framför allt bestämmelsen om stödundervisning.",
+   "oppen_kod": "implementering tar tid och resurser",
+   "beskrivning": "Implementeringen av stödundervisning kräver tid och resurser."
+  },
+  {
+   "uid": "U334",
+   "id": "sveriges-kommuner-och-regioner#47",
+   "citat": "Många mindre kommuner, landsbygdskommuner eller kommuner som ligger långt ifrån ett lärosäte har redan idag svårt att rekrytera behöriga lärare i alla ämnen. Stödundervisningen kommer ytterligare förstärka denna utmaning.",
+   "oppen_kod": "lärarrekrytering i små kommuner",
+   "beskrivning": "Små kommuner och landsbygdskommuner får ännu svårare att rekrytera behöriga lärare."
+  },
+  {
+   "uid": "U335",
+   "id": "sveriges-kommuner-och-regioner#47",
+   "citat": "Utredningens förslag kommer dessutom att öka kommunernas kostnader betydligt.",
+   "oppen_kod": "betydligt ökade kostnader",
+   "beskrivning": "Förslagen ökar kommunernas kostnader betydligt."
+  },
+  {
+   "uid": "U336",
+   "id": "sveriges-kommuner-och-regioner#50",
+   "citat": "Ett sådant synsätt riskerar att cementera ett system där stora resurser sätts in för att uppnå formella betygsmål, utan hänsyn till elevernas faktiska kognitiva förutsättningar eller egen arbetsinsats.",
+   "oppen_kod": "resurser till formella betygsmål",
+   "beskrivning": "Rätten till stödundervisning riskerar att binda stora resurser till formella betygsmål."
+  },
+  {
+   "uid": "U337",
+   "id": "sodertalje-kommun#2",
+   "citat": "Samtidigt anser utbildningsnämnden att elevhälsans roll i förslaget är otillräckligt beaktad. Det finns en risk att ansvaret för identifiering och hantering av elevers stödbehov koncentreras till enskilda professioner (lärare och specialpedagoger), vilket riskerar att utesluta elevhälsans övriga professioner (psykolog, kurator och skolsköterska).",
+   "oppen_kod": "elevhälsans roll otillräckligt beaktad",
+   "beskrivning": "Ansvaret för stödbehov riskerar att koncentreras till lärare och specialpedagoger och utesluta elevhälsans övriga professioner."
+  },
+  {
+   "uid": "U338",
+   "id": "sodertalje-kommun#2",
+   "citat": "Förslagen gällande särskild undervisningsgrupp och anpassad studiegång behöver förtydligas avseende elevhälsans medverkan, för att säkerställa rättssäkerhet, delaktighet och ett helhetsperspektiv kring eleven.",
+   "oppen_kod": "oklar elevhälsomedverkan i beslut",
+   "beskrivning": "Det är oklart hur elevhälsan ska medverka i beslut om särskild undervisningsgrupp och anpassad studiegång."
+  },
+  {
+   "uid": "U339",
+   "id": "sodertalje-kommun#2",
+   "citat": "Utbildningsnämnden kan se ett behov av att elevhälsan har en mer framträdande roll i denna process och att läraren inte lämnas ensam i överväganden som ibland är svåra. Farhågan finns att det kan bli för lätt att förflytta elever som inte ”passar in i undervisningsmallen” till stödundervisning innan anpassningar inom undervisningens ram prövats i tillräcklig utsträckning.",
+   "oppen_kod": "läraren ensam i svåra bedömningar",
+   "beskrivning": "Läraren riskerar att lämnas ensam i svåra bedömningar och elever kan för lätt flyttas till stödundervisning."
+  },
+  {
+   "uid": "U340",
+   "id": "sodertalje-kommun#3",
+   "citat": "Utredningens delbetänkande fokuserar i huvudsak på det pedagogiska stödet, vilket är centralt, men riskerar att förringa behovet av ett sammanhållet psykosocialt, medicinskt och pedagogiskt stöd för elever med komplexa behov.",
+   "oppen_kod": "psykosocialt stöd förringas",
+   "beskrivning": "Fokus på pedagogiskt stöd riskerar att förringa skolans behov av sammanhållet psykosocialt och medicinskt stöd."
+  },
+  {
+   "uid": "U341",
+   "id": "sodertalje-kommun#5",
+   "citat": "Utbildningsnämnden vill i sammanhanget lyfta avsaknaden av resonemang kring distansundervisning som stödform i detta delbetänkande.",
+   "oppen_kod": "distansundervisning saknas som stödform",
+   "beskrivning": "Förslaget saknar resonemang om distansundervisning som stödform för elever med omfattande frånvaro."
+  },
+  {
+   "uid": "U342",
+   "id": "sodertalje-kommun#6",
+   "citat": "Utbildningsnämnden vill framhålla att det är av vikt att huvudmän ges vägledning kring hur man ska säkerställa en bibehållen, eller ökad, kvalitet inom ledning och stimulans i och med detta. Det är också viktigt att det finns metoder för att säkerställa att lärare ges stöd i att utveckla sin undervisningspraktik inom ledning och stimulans, i de fall det behövs.",
+   "oppen_kod": "vägledning om ledning och stimulans",
+   "beskrivning": "Huvudmännen behöver vägledning för att säkra kvaliteten i ledning och stimulans och stödja lärarna."
+  },
+  {
+   "uid": "U343",
+   "id": "sodertalje-kommun#8",
+   "citat": "Det finns en farhåga att detta uttryck kan förstås som att ”följa undervisningen” pekar på att en förskjutning i lärandebegreppet, mot att titta mer på elevens förmåga, snarare än elevens behov av stöd och lärarens ansvar att pröva och ompröva i sin undervisningspraktik",
+   "oppen_kod": "otydlig formulering följa undervisningen",
+   "beskrivning": "Formuleringen att elever ska kunna följa undervisningen kan tolkas som en förskjutning av lärandebegreppet."
+  },
+  {
+   "uid": "U344",
+   "id": "sodertalje-kommun#9",
+   "citat": "Det aktualiserar frågan kring att det kan finnas behov av kompetenshöjning inom relationskompetens både på grupp- och individnivå.",
+   "oppen_kod": "kompetenshöjning i relationskompetens",
+   "beskrivning": "Huvudmannen kan behöva höja lärarnas relationskompetens."
+  },
+  {
+   "uid": "U345",
+   "id": "sodertalje-kommun#10",
+   "citat": "Utbildningsnämnden vill framhålla att de standardiserade tester som införs inte får vara sämre än de alternativ som står till buds idag och som är välfungerande för att identifiera behöv av stöd, exempelvis Legilexi. Det finns också klara fördelar med att få behålla de standardiserade tester som redan används idag och som fungerar väl för att identifiera elever i behov av stöd.",
+   "oppen_kod": "risk att förlora fungerande tester",
+   "beskrivning": "Nya standardiserade tester riskerar att ersätta väl fungerande tester som skolorna redan använder."
+  },
+  {
+   "uid": "U346",
+   "id": "sodertalje-kommun#10",
+   "citat": "I sammanhanget vill utbildningsnämnden lyfta en risk: att ett ökat fokus på tester – i kombination med pågående betygsutredning – kan driva skolan mot ett systematiskt 'teaching to the test'.",
+   "oppen_kod": "risk för teaching to the test",
+   "beskrivning": "Ökat testfokus kan driva skolan mot undervisning inriktad på testerna."
+  },
+  {
+   "uid": "U347",
+   "id": "sodertalje-kommun#13",
+   "citat": "att det krävs tydlig vägledning till huvudmän om resursfördelning, bemanningsbehov och rektors ansvar för planering och uppföljning. Det behöver också finnas tydlig vägledning i hur övergången mellan klassrumsundervisning och stödundervisning och tillbaka ska hanteras för elever som ges stödundervisning.",
+   "oppen_kod": "vägledning om resurser och bemanning",
+   "beskrivning": "Huvudmännen behöver vägledning om resursfördelning, bemanning, rektors ansvar och övergångar."
+  },
+  {
+   "uid": "U348",
+   "id": "sodertalje-kommun#13",
+   "citat": "Det vill säga, då dokumentationskravet är mycket begränsat kan huvudmän inte förväntas redogöra för omfattande dokumentation kring stödundervisning vid en eventuell granskning eller tillsyn.",
+   "oppen_kod": "dokumentationskrav och tillsyn",
+   "beskrivning": "Huvudmännen riskerar att tillsynen kräver mer dokumentation än regelverket föreskriver."
+  },
+  {
+   "uid": "U349",
+   "id": "sodertalje-kommun#13",
+   "citat": "Det har i praktiken varit en utmaning vad gäller dokumentationen kring extra anpassningar att skolmyndigheterna inte dragit åt samma håll i tolkningen av skollagens bestämmelser gällande extra anpassningar.",
+   "oppen_kod": "olika myndighetstolkningar",
+   "beskrivning": "Skolmyndigheternas olika tolkningar av dokumentationskraven har gjort det svårt för huvudmän att tillämpa reglerna."
+  },
+  {
+   "uid": "U350",
+   "id": "sodertalje-kommun#14",
+   "citat": "Inte desto mindre behöver det finnas riktlinjer kring stödstrukturer inom huvudmannens organisation i de fall där läraren behöver stöttning i denna bedömning.",
+   "oppen_kod": "stödstrukturer för lärarens bedömning",
+   "beskrivning": "Huvudmannen behöver stödstrukturer för lärare som behöver hjälp att bedöma behov av stödundervisning."
+  },
+  {
+   "uid": "U351",
+   "id": "sodertalje-kommun#14",
+   "citat": "Utbildningsnämnden anser att det i utredningen behöver förtydligas hur stödundervisningen kan organiseras för att fungera i praktiken. Det finns också ett behov av att utredningen förtydligar vad som kan utgöra stödundervisning på exempelvis låg-mellan- eller högstadiet",
+   "oppen_kod": "oklar organisering av stödundervisning",
+   "beskrivning": "Det är oklart hur stödundervisningen ska organiseras och vad den kan innehålla i olika stadier."
+  },
+  {
+   "uid": "U352",
+   "id": "sodertalje-kommun#14",
+   "citat": "Om stödundervisningen överlåts till en annan lärare, eller en speciallärare, finns risk att den kan anta karaktären av läxhjälp, vilket inte alltid visat sig leda till ett ökat lärande hos eleverna.",
+   "oppen_kod": "risk för läxhjälpskaraktär",
+   "beskrivning": "Stödundervisning med annan lärare riskerar att bli läxhjälp med svag effekt."
+  },
+  {
+   "uid": "U353",
+   "id": "sodertalje-kommun#15",
+   "citat": "Utbildningsnämnden avstyrker dock att övriga elevhälsoprofessioner inte ges en uttalad roll i beslut om särskild undervisningsgrupp eller enskild undervisning.",
+   "oppen_kod": "elevhälsan saknar roll i placeringsbeslut",
+   "beskrivning": "Övriga elevhälsoprofessioner saknar uttalad roll i beslut om särskild undervisningsgrupp."
+  },
+  {
+   "uid": "U354",
+   "id": "sodertalje-kommun#15",
+   "citat": "Det förefaller dock oklart vem det är som sedan är ansvarig för själva utredningen om en elev är i behov av särskilt stöd.",
+   "oppen_kod": "oklart ansvar för utredning",
+   "beskrivning": "Det är oklart vem som ansvarar för utredningen av behov av särskilt stöd."
+  },
+  {
+   "uid": "U355",
+   "id": "sodertalje-kommun#16",
+   "citat": "genomförandet av utredningen kan det innebära ett ökat administrativt arbete för läraren. Det förutsätter också en bred kompetens och kunskap inom området särskilt stöd",
+   "oppen_kod": "ökad administration och kompetenskrav",
+   "beskrivning": "Ett utökat läraransvar för utredningar ger mer administration och kräver bred kompetens."
+  },
+  {
+   "uid": "U356",
+   "id": "sodertalje-kommun#16",
+   "citat": "Möjligen kan det finnas en risk att antalet utredningar om särskilt stöd ökar, åtminstone inledningsvis till dess att den nya stödordningen satt sig.",
+   "oppen_kod": "fler utredningar om särskilt stöd",
+   "beskrivning": "Antalet utredningar om särskilt stöd kan öka, åtminstone inledningsvis."
+  },
+  {
+   "uid": "U357",
+   "id": "sodertalje-kommun#17",
+   "citat": "Ett skolsystem mer styrt av tester riskerar att skapa stress hos eleverna och skolorna behöver från start en hälsofrämjande organisation för att möta upp detta behov.",
+   "oppen_kod": "teststress kräver hälsofrämjande organisation",
+   "beskrivning": "Skolorna behöver en hälsofrämjande organisation för att möta elevstress från tester."
+  },
+  {
+   "uid": "U358",
+   "id": "sodertalje-kommun#18",
+   "citat": "Utbildningsnämnden anser att utredningen samtidigt behöver tydliggöra vilket ansvar elevhälsan har i beslutsprocessen, samt hur åtgärden ska följas upp ur ett bredare elevhälso- och utbildningsperspektiv.",
+   "oppen_kod": "oklart elevhälsoansvar vid anpassad studiegång",
+   "beskrivning": "Det är oklart vilket ansvar elevhälsan har i beslut om anpassad studiegång."
+  },
+  {
+   "uid": "U359",
+   "id": "sodertalje-kommun#18",
+   "citat": "Utbildningsnämnden kan se en utmaning med utredningens förslag i de fall stödet i form av anpassad studiegång används för att hjälpa elever med en omfattande skolfrånvaro för att eleven stegvis ska kunna öka sin skolnärvaro.",
+   "oppen_kod": "anpassad studiegång vid skolfrånvaro",
+   "beskrivning": "Skolan får svårare att använda anpassad studiegång för elever med omfattande skolfrånvaro."
+  },
+  {
+   "uid": "U360",
+   "id": "sodertalje-kommun#18",
+   "citat": "Utbildningsnämnden vill lyfta fram att det är fortsatt oroande och otydligt på vilka grunder, samt vem/vilka, som beslutar att särskilt stöd i 3 kap. skollagen är uttömt eller bedöms olämpligt.",
+   "oppen_kod": "oklart när stöd är uttömt",
+   "beskrivning": "Det är otydligt på vilka grunder och av vem det avgörs att särskilt stöd är uttömt."
+  },
+  {
+   "uid": "U361",
+   "id": "sodertalje-kommun#22",
+   "citat": "Staten avsätter medel för implementering, inklusive bemanning, screeningverktyg och strukturer för samverkan.",
+   "oppen_kod": "behov av statliga implementeringsmedel",
+   "beskrivning": "Genomförandet förutsätter statliga medel för bemanning, screeningverktyg och samverkan."
+  },
+  {
+   "uid": "U362",
+   "id": "upplands-bro-kommun#3",
+   "citat": "Samtidigt kräver det stora investeringar i kompetens, resurser och implementeringsstöd för att undvika att elever med störst behov faller mellan stolarna.",
+   "oppen_kod": "stora investeringar krävs",
+   "beskrivning": "Reformen kräver stora investeringar i kompetens, resurser och implementeringsstöd."
+  },
+  {
+   "uid": "U363",
+   "id": "upplands-bro-kommun#5",
+   "citat": "Risk: Standardiserade tester kan leda till ökad fokus på mätbara resultat snarare än formativ bedömning då en helhetssyn på elevens kunskapsutveckling bör vara i fokus.",
+   "oppen_kod": "fokus på mätbara resultat",
+   "beskrivning": "Standardiserade tester kan förskjuta skolans fokus mot mätbara resultat."
+  },
+  {
+   "uid": "U364",
+   "id": "upplands-bro-kommun#5",
+   "citat": "Ytterligare en risk är att detta ökar den administrativa bördan på läraren vilket bör tas med i beaktning vid framtagandet av dessa.",
+   "oppen_kod": "tester ökar administration",
+   "beskrivning": "Standardiserade tester kan öka lärarnas administrativa börda."
+  },
+  {
+   "uid": "U365",
+   "id": "upplands-bro-kommun#5",
+   "citat": "Vi ser dock en risk med att dessa typer av standardiserade tester fungerar bäst på en viss typ av frågor (korta svar, ja / nej / flervalsfrågor) och därigenom ger en ytlig",
+   "oppen_kod": "ytliga självrättande tester",
+   "beskrivning": "Självrättande tester riskerar att ge en ytlig kunskapsbedömning."
+  },
+  {
+   "uid": "U366",
+   "id": "upplands-bro-kommun#7",
+   "citat": "Vidare krävs det att de digitala verktygen är kompatibla så att nätverk och systemfel inte stör provtillfället.",
+   "oppen_kod": "kompatibla digitala verktyg",
+   "beskrivning": "Digitala tester kräver kompatibla verktyg så att nätverk och systemfel inte stör."
+  },
+  {
+   "uid": "U367",
+   "id": "upplands-bro-kommun#7",
+   "citat": "Risk: Då likheterna är många avseende stödinsatser via extra anpassningar och stödinsatser via ledning och stimulans, kan konsekvensen bli att lärares arbetsbelastning inte minskas i den grad som utredningen förespråkar.",
+   "oppen_kod": "arbetsbelastningen minskar inte",
+   "beskrivning": "Lärarnas arbetsbelastning kanske inte minskar eftersom ledning och stimulans liknar extra anpassningar."
+  },
+  {
+   "uid": "U368",
+   "id": "upplands-bro-kommun#7",
+   "citat": "Här finns en risk för bristande likvärdighet kopplat till rektorers förmåga att organisera för flexibla undervisningsgrupper samt ett ökat tryck på lärare att utöver ordinarie undervisning skapa möjlighet till stödundervisning.",
+   "oppen_kod": "organisering av flexibla grupper",
+   "beskrivning": "Rektorers olika förmåga att organisera flexibla grupper och ökat tryck på lärare hotar likvärdigheten."
+  },
+  {
+   "uid": "U369",
+   "id": "upplands-bro-kommun#7",
+   "citat": "Ytterligare en risk är att stödundervisning kräver fler lärare, specialpedagoger och speciallärare. Om skolor inte får tillräckliga resurser kan stödet prioriteras till de mest akuta fallen medan andra elever får vänta eller inte får stöd alls.",
+   "oppen_kod": "behov av fler lärare och specialpedagoger",
+   "beskrivning": "Stödundervisning kräver fler lärare och specialpedagoger, och utan resurser måste skolor prioritera."
+  },
+  {
+   "uid": "U370",
+   "id": "upplands-bro-kommun#8",
+   "citat": "Upplands-Bro kommun vill framhålla behovet av att stödundervisning även ges i engelska och i övriga ämnen som krävs för att gymnasieexamen ska uppnås",
+   "oppen_kod": "ämnesbegränsning i gymnasieskolan",
+   "beskrivning": "Begränsningen av stödundervisning till vissa ämnen i gymnasieskolan räcker inte för examen."
+  },
+  {
+   "uid": "U371",
+   "id": "upplands-bro-kommun#8",
+   "citat": "Risk: Om läraren är överbelastad, saknar stöd från elevhälsan eller inte har tillräcklig kompetens, kan behov förbises – särskilt hos elever med mindre tydliga svårigheter.",
+   "oppen_kod": "överbelastade lärare förbiser behov",
+   "beskrivning": "Överbelastade lärare utan stöd eller kompetens kan förbise elevers behov."
+  },
+  {
+   "uid": "U372",
+   "id": "upplands-bro-kommun#8",
+   "citat": "Risk: Upplands – Bro kommun ser att detta blir en genomgripande påverkan på rektors arbetsbelastning och ansvar. Vi ser flera svårigheter att samordna denna stödorganisation som med kort varsel skall ge förutsättningar att ta emot ett skiftande antal elever i ett flertal olika ämnen.",
+   "oppen_kod": "ökad arbetsbelastning för rektor",
+   "beskrivning": "Skyndsam stödundervisning påverkar rektors arbetsbelastning och är svår att samordna med kort varsel."
+  },
+  {
+   "uid": "U373",
+   "id": "upplands-bro-kommun#8",
+   "citat": "Här finns risk att detta medför svårigheter gällande bemanning, kompetens och lokaler. Extra utmaning för små skolor.",
+   "oppen_kod": "bemanning och lokaler, små skolor",
+   "beskrivning": "Skyndsam stödundervisning ger svårigheter med bemanning, kompetens och lokaler, särskilt för små skolor."
+  },
+  {
+   "uid": "U374",
+   "id": "upplands-bro-kommun#9",
+   "citat": "Övergången från etablerade stödformer till nya kan skapa osäkerhet i skolorna och kräver omfattande implementeringsstöd.",
+   "oppen_kod": "osäkerhet vid övergången",
+   "beskrivning": "Övergången till nya stödformer skapar osäkerhet och kräver omfattande implementeringsstöd."
+  },
+  {
+   "uid": "U375",
+   "id": "upplands-bro-kommun#9",
+   "citat": "Införandet av stödundervisning kräver stora personalresurser, vilket kan vara en utmaning för resursbegränsade kommuner.",
+   "oppen_kod": "personalresurser i resurssvaga kommuner",
+   "beskrivning": "Stödundervisning kräver stora personalresurser, vilket är svårt för resursbegränsade kommuner."
+  },
+  {
+   "uid": "U376",
+   "id": "upplands-bro-kommun#9",
+   "citat": "ökat ansvar för att identifiera och initiera stöd kan öka pressen på lärarna.",
+   "oppen_kod": "ökad press på lärarna",
+   "beskrivning": "Ökat ansvar för att identifiera och initiera stöd ökar pressen på lärarna."
+  },
+  {
+   "uid": "U377",
+   "id": "upplands-bro-kommun#9",
+   "citat": "Det finns också en risk att skolor tolkar de nya reglerna olika, vilket kan leda till ojämlik tillämpning.",
+   "oppen_kod": "olika tolkning av regler",
+   "beskrivning": "Skolor kan tolka de nya reglerna olika, vilket ger ojämlik tillämpning."
+  },
+  {
+   "uid": "U378",
+   "id": "upplands-bro-kommun#9",
+   "citat": "Upplands – Bro kommun anser att denna beräkning är väl optimistisk. Stödbehovet kommer att variera under läsårets gång och kompetens och ämneskunskaper krävs inom flera olika ämnen samtidigt. Risken är att denna beräkning är för snäv med resultat att kostnaderna inte täcks av det ökade statsbidraget.",
+   "oppen_kod": "optimistisk kostnadsberäkning",
+   "beskrivning": "Kostnadsberäkningen är för optimistisk och kostnaderna riskerar att inte täckas av statsbidraget."
+  },
+  {
+   "uid": "U379",
+   "id": "vimmerby-kommun#4",
+   "citat": "Sammanfattningsvis ser dock nämnden risker med att rektors arbetsbelastning och arbetsbörda ökar relativt kraftigt, som en konsekvens av utredningens förslag.",
+   "oppen_kod": "ökad arbetsbelastning för rektor",
+   "beskrivning": "Förslagen riskerar att kraftigt öka rektors arbetsbelastning och arbetsbörda."
+  },
+  {
+   "uid": "U380",
+   "id": "vimmerby-kommun#5",
+   "citat": "Vimmerby kommun anser att ett flertal av utredningens förslag, kommer att medföra en relativt kraftig påverkan på rektors arbetsbörda och ansvar",
+   "oppen_kod": "rektors arbetsbörda och ansvar ökar",
+   "beskrivning": "Flera förslag påverkar rektors arbetsbörda och ansvar kraftigt."
+  },
+  {
+   "uid": "U381",
+   "id": "vimmerby-kommun#6",
+   "citat": "Kraven som utredningen ställer på lärare när det gäller exempelvis stödinsatser inom ramen för ledning och stimulans, samt att avgöra elevs behov av stödundervisning, är inte applicerbara på obehöriga lärare. Då antas kraven på rektor öka för att hitta alternativa lösningar då en obehörig lärare ej kan förväntas uppfylla kravbilden som ställs på behöriga lärare.",
+   "oppen_kod": "obehöriga lärare klarar inte kraven",
+   "beskrivning": "Med många obehöriga lärare måste rektor hitta alternativa lösningar när lärarna inte kan uppfylla kraven."
+  },
+  {
+   "uid": "U382",
+   "id": "vimmerby-kommun#6",
+   "citat": "Ytterligare ett krav på rektor som, vid kompetensförsörjningsproblematik, kan bli utmanade och svår att lösa.",
+   "oppen_kod": "handledningskrav svårt vid kompetensbrist",
+   "beskrivning": "Kravet att säkerställa handledning för lärare blir svårt att uppfylla för rektor vid kompetensförsörjningsproblem."
+  },
+  {
+   "uid": "U383",
+   "id": "vimmerby-kommun#7",
+   "citat": "Säkerställa att det finns lämpligt antal schemalagda positioner för stödundervisning som ej kan ske inom den ordinarie undervisningen. Detta skall göras utan att rektor kan ha vetskap om hur stort behovet kommer att vara, eller i vilka ämnen som kan vara aktuella.",
+   "oppen_kod": "schemalägga stödundervisning utan behovskunskap",
+   "beskrivning": "Rektor ska schemalägga stödundervisning utan att veta hur stort behovet blir eller i vilka ämnen."
+  },
+  {
+   "uid": "U384",
+   "id": "vimmerby-kommun#7",
+   "citat": "Säkerställa att det finns lämpliga lokaler som skulle kunna nyttjas för stödundervisning i mindre grupper, parallellt med ordinarie undervisning.",
+   "oppen_kod": "lokaler för stödundervisning",
+   "beskrivning": "Rektor måste säkerställa lokaler för stödundervisning i mindre grupper parallellt med ordinarie undervisning."
+  },
+  {
+   "uid": "U385",
+   "id": "vimmerby-kommun#7",
+   "citat": "Säkerställa att det finns behöriga lärare med rätt ämneskompetens att bedriva stödundervisningen, utan att ha förhandskunskap om vilka ämnen, och därmed ämneskompetens, som kommer att krävas.",
+   "oppen_kod": "behöriga lärare för stödundervisning",
+   "beskrivning": "Rektor ska ha behöriga lärare med rätt ämneskompetens utan att veta vilka ämnen som kommer att krävas."
+  },
+  {
+   "uid": "U386",
+   "id": "vimmerby-kommun#7",
+   "citat": "Vad lämplig storlek innebär, framkommer inte i utredningen.",
+   "oppen_kod": "oklar lämplig gruppstorlek",
+   "beskrivning": "Det är oklart vad lämplig gruppstorlek för stödundervisning innebär."
+  },
+  {
+   "uid": "U387",
+   "id": "vimmerby-kommun#8",
+   "citat": "Osäkerheten inför planering och dimensionering av stödundervisningen kommer att påverka rektors upplevda arbetsbelastning och arbetsmiljö.",
+   "oppen_kod": "osäker dimensionering av stödundervisning",
+   "beskrivning": "Osäkerheten i planering och dimensionering av stödundervisningen belastar rektors arbetsmiljö."
+  },
+  {
+   "uid": "U388",
+   "id": "vimmerby-kommun#8",
+   "citat": "Svårigheten för rektor att bemanna stödundervisning med behöriga lärare, möter utredningen med utsagan att den omfattande lärarbristen förväntas minska de kommande åren på grund av minskade barnkullar. Vimmerby kommun anser att det uttalandet tar lite för lätt på rektors utökade ansvar kopplat till stödundervisning.",
+   "oppen_kod": "bemanna stödundervisning trots lärarbrist",
+   "beskrivning": "Det är svårt för rektor att bemanna stödundervisningen med behöriga lärare."
+  },
+  {
+   "uid": "U389",
+   "id": "vimmerby-kommun#8",
+   "citat": "Vimmerby kommun anser att rektors arbetsbelastning totalt sett behöver utredas vidare och ses över, för att skapa en hållbar och mer realistisk arbetssituation för rektorerna.",
+   "oppen_kod": "ohållbar arbetssituation för rektorer",
+   "beskrivning": "Rektorernas samlade arbetsbelastning riskerar att bli ohållbar och orealistisk."
+  },
+  {
+   "uid": "U390",
+   "id": "vimmerby-kommun#10",
+   "citat": "Då likheterna är många avseende stödinsatser via extra anpassningar och stödinsatser via ledning och stimulans, kan konsekvensen bli att lärares arbetsbelastning inte minskas i den grad som utredningen för fram.",
+   "oppen_kod": "lärares arbetsbelastning minskar inte",
+   "beskrivning": "Eftersom ledning och stimulans liknar extra anpassningar kan lärares arbetsbelastning minska mindre än väntat."
+  },
+  {
+   "uid": "U391",
+   "id": "vimmerby-kommun#11",
+   "citat": "Att testa elever kräver ofta mycket resurs för genomförandet. Många elever behöver stöttning i testsituationer.",
+   "oppen_kod": "standardiserade tester resurskrävande",
+   "beskrivning": "Genomförandet av standardiserade tester kräver mycket resurser och stöttning av elever."
+  },
+  {
+   "uid": "U392",
+   "id": "vimmerby-kommun#11",
+   "citat": "Pedagogerna ser dem tidigt, men skolan kan sakna resurser att sätta in.",
+   "oppen_kod": "resurser saknas för stödinsatser",
+   "beskrivning": "Skolan kan sakna resurser att sätta in stöd för elever som uppmärksammats."
+  },
+  {
+   "uid": "U393",
+   "id": "vimmerby-kommun#11",
+   "citat": "Om resultat från tester ska bestämma vilka elever som behöver stöd riskerar detta att bli missvisande då alla elever inte har förutsättning att genomföra sådana tester.",
+   "oppen_kod": "missvisande testresultat",
+   "beskrivning": "Testresultat kan ge en missvisande bild av vilka elever som behöver stöd."
+  },
+  {
+   "uid": "U394",
+   "id": "vimmerby-kommun#12",
+   "citat": "Enligt utredningens förslag ska stödundervisning kunna genomföras i alla ämnen inom grundskolan och ges inom 1–2 veckor, vilket är orimligt om det finns många elever på en skola som inte når målen.",
+   "oppen_kod": "stödundervisning i alla ämnen inom 1–2 veckor",
+   "beskrivning": "Kravet på stödundervisning i alla ämnen inom 1–2 veckor är svårt att klara när många elever inte når målen."
+  },
+  {
+   "uid": "U395",
+   "id": "vimmerby-kommun#12",
+   "citat": "Hur ska stödundervisning se ut i idrott, slöjd med mera?",
+   "oppen_kod": "oklar stödundervisning i praktiska ämnen",
+   "beskrivning": "Det är oklart hur stödundervisning ska utformas i ämnen som idrott och slöjd."
+  },
+  {
+   "uid": "U396",
+   "id": "vimmerby-kommun#12",
+   "citat": "Det kan bli missvisande om skolan bara har en månad på sig att utvärdera insatt stöd. Det behövs minst 6–8 veckor.",
+   "oppen_kod": "för kort utvärderingstid",
+   "beskrivning": "En månad är för kort tid för skolan att utvärdera insatt stöd."
+  },
+  {
+   "uid": "U397",
+   "id": "vimmerby-kommun#12",
+   "citat": "Vimmerby kommun ser stora svårigheter med att organisera stödundervisningen då det är många elever som riskerar att inte nå kunskapskriterierna.",
+   "oppen_kod": "svårt organisera stödundervisning",
+   "beskrivning": "Det blir svårt att organisera stödundervisningen när många elever riskerar att inte nå kunskapskriterierna."
+  },
+  {
+   "uid": "U398",
+   "id": "vimmerby-kommun#13",
+   "citat": "Det finns risk för att skolor kommer att “lösa problem” genom att förpassa elever till en tillvaro utanför sin ordinarie klass. Den risken förstärks genom att stödundervisning kan ske utanför den ordinarie undervisningen, samt att beslut om placering i särskild undervisningsgrupp skall underlättas.",
+   "oppen_kod": "risk för särskiljande lösningar",
+   "beskrivning": "Skolor kan komma att lösa problem genom att placera elever utanför ordinarie klass."
+  },
+  {
+   "uid": "U399",
+   "id": "vimmerby-kommun#14",
+   "citat": "Men risken är stor att stödbehovet för elever i behov av stöd, i form av stödundervisning, överstiger utredningens beräkning (fyra heldagar stödundervisning under ett läsår). Det innebär då att förslaget förskjuter kostnader till kommunerna, som inte täcks av det ökade statsbidraget.",
+   "oppen_kod": "underskattade kostnader för stödundervisning",
+   "beskrivning": "Stödbehovet kan överstiga beräkningen så att kostnader som inte täcks av statsbidraget förskjuts till kommunerna."
+  },
+  {
+   "uid": "U400",
+   "id": "vimmerby-kommun#14",
+   "citat": "Detta antagande bygger på att kommunen har befintliga särskilda undervisningsgrupper.",
+   "oppen_kod": "lokalkostnadsantagande förutsätter befintliga grupper",
+   "beskrivning": "Kostnadsberäkningen för lokaler förutsätter att kommunen redan har särskilda undervisningsgrupper."
+  },
+  {
+   "uid": "U401",
+   "id": "vimmerby-kommun#15",
+   "citat": "Det innebär att Vimmerby kommuns ökade kostnader, som en konsekvens av utredningens förslag, överstiger utredningens beräkning och kostnader förskjuts därmed till kommunen.",
+   "oppen_kod": "kostnader förskjuts till kommunen",
+   "beskrivning": "Kommunens ökade kostnader överstiger utredningens beräkning och förskjuts till kommunen."
+  },
+  {
+   "uid": "U402",
+   "id": "vimmerby-kommun#15",
+   "citat": "Dock kan antagandet stämma för andra kommuner, vilket leder till att förslaget påverkar kommuners ekonomi olika.",
+   "oppen_kod": "olika ekonomisk påverkan mellan kommuner",
+   "beskrivning": "Förslaget påverkar kommunernas ekonomi olika beroende på befintliga särskilda undervisningsgrupper."
+  },
+  {
+   "uid": "U403",
+   "id": "vaxjo-kommun#2",
+   "citat": "De potentiella risker som kan ses är att förslag till hur beslut om stödundervisning tas inte tillräckligt tydligt beaktar skollagens krav på samverkan och dialog med vårdnadshavare och elev (elevinflytande).",
+   "oppen_kod": "otydlig samverkan vid stödundervisningsbeslut",
+   "beskrivning": "Förslaget om beslut om stödundervisning beaktar inte tydligt kravet på samverkan med vårdnadshavare och elev."
+  },
+  {
+   "uid": "U404",
+   "id": "vaxjo-kommun#2",
+   "citat": "Det finns likaså en risk att stödundervisning används på ett ogynnsamt sätt genom att placera en utåtagerande elev i stödundervisning.",
+   "oppen_kod": "stödundervisning används ogynnsamt",
+   "beskrivning": "Stödundervisning riskerar att användas för att placera utåtagerande elever."
+  },
+  {
+   "uid": "U405",
+   "id": "vaxjo-kommun#2",
+   "citat": "Det framgår inte tillräckligt tydligt att en elev i stödundervisning inte ska placeras på grund av en diagnos, utan endast att en diagnos inte bör vara grunden (det ska vara behovet av undervisningen i ämnet). Här finns en möjlig öppning för missgynnande tolkning.",
+   "oppen_kod": "otydlig grund för placering",
+   "beskrivning": "Det är otydligt att diagnos inte får vara grund för placering i stödundervisning."
+  },
+  {
+   "uid": "U406",
+   "id": "asele-kommun#5",
+   "citat": "Risk finns för en ökad arbetsbörda för lärare/elevhälsa om inte resurser och stödstrukturer ökas/stärks parallellt.",
+   "oppen_kod": "ökad arbetsbörda lärare och elevhälsa",
+   "beskrivning": "Arbetsbördan för lärare och elevhälsa riskerar att öka utan förstärkta resurser."
+  },
+  {
+   "uid": "U407",
+   "id": "asele-kommun#5",
+   "citat": "Rektors arbetsbelastning och arbetsbörda kommer troligtvis att öka utifrån att skolenheterna inte når en behörighet på 100% utan man har obehöriga lärare anställda.",
+   "oppen_kod": "rektors arbetsbörda ökar vid obehöriga",
+   "beskrivning": "Rektors arbetsbelastning ökar eftersom skolenheterna har obehöriga lärare."
+  },
+  {
+   "uid": "U408",
+   "id": "asele-kommun#5",
+   "citat": "Tydliggöra ansvarsfördelningen och samverkan mellan de berörda yrkesgrupperna.",
+   "oppen_kod": "otydlig ansvarsfördelning mellan yrkesgrupper",
+   "beskrivning": "Ansvarsfördelningen och samverkan mellan berörda yrkesgrupper är otydlig."
+  },
+  {
+   "uid": "U409",
+   "id": "asele-kommun#5",
+   "citat": "Tydliggöra skillnaden mellan specialpedagogens och speciallärares roll och ansvar.",
+   "oppen_kod": "otydliga roller specialpedagog/speciallärare",
+   "beskrivning": "Skillnaden mellan specialpedagogens och speciallärarens roll och ansvar är otydlig."
+  },
+  {
+   "uid": "U410",
+   "id": "asele-kommun#5",
+   "citat": "Förtydliga elevhälsans roll och ta i beaktande alla yrkesprofessioner som finns i elevhälsan.",
+   "oppen_kod": "otydlig roll för elevhälsan",
+   "beskrivning": "Elevhälsans roll och alla dess yrkesprofessioner behöver förtydligas."
+  },
+  {
+   "uid": "U411",
+   "id": "asele-kommun#5",
+   "citat": "Svårigheter för små inlandskommuner att rekrytera behöriga lärare, specialpedagoger och speciallärare.",
+   "oppen_kod": "rekryteringssvårigheter i inlandskommuner",
+   "beskrivning": "Små inlandskommuner har svårt att rekrytera behöriga lärare, specialpedagoger och speciallärare."
+  },
+  {
+   "uid": "U412",
+   "id": "asele-kommun#8",
+   "citat": "Stor risk för ökade kostnader för kommunerna som inte kommer att täckas av det ökade statsbidraget.",
+   "oppen_kod": "kostnader täcks inte av statsbidrag",
+   "beskrivning": "Kommunernas ökade kostnader riskerar att inte täckas av statsbidraget."
+  },
+  {
+   "uid": "U413",
+   "id": "asele-kommun#8",
+   "citat": "Utmaning att lyfta den enskilde lärarens kompetens, hur ska det ske samt vad innebär det för den enskilde läraren och organisationen.",
+   "oppen_kod": "lyfta lärarnas kompetens",
+   "beskrivning": "Det är en utmaning och oklart hur den enskilde lärarens kompetens ska lyftas och vad det innebär för organisationen."
+  }
+ ]
+}
