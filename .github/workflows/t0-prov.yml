@@ -1,0 +1,48 @@
+# Sprint 15 T0 — TILLFÄLLIGT provarbetsflöde. Tas bort när T0 är besvarad.
+# (a) Startar en push till master med GITHUB_TOKEN en GitHub Pages-publicering?
+#     Jobbet ändrar en ofarlig provfil under docs/automat/ på master och pushar.
+#     Svaret avläses som en "pages build and deployment"-körning för bot-commiten
+#     och som provfilens innehåll på reformer.leide.se.
+# (b) Kör Playwright i Actions? Jobbet kör remissens e2e-test på runnern.
+name: T0-prov (Sprint 15)
+
+on:
+  push:
+    branches: [dev]
+    paths: ['docs/automat/t0-trigger.txt']
+
+permissions:
+  contents: write
+
+jobs:
+  pages-trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: master
+      - name: Ofarlig ändring under docs/ och push till master med GITHUB_TOKEN
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898273+github-actions[bot]@users.noreply.github.com"
+          mkdir -p docs/automat
+          echo "T0-prov ${GITHUB_RUN_ID} $(date -u +%Y-%m-%dT%H:%M:%SZ)" > docs/automat/t0-pages-probe.txt
+          git add docs/automat/t0-pages-probe.txt
+          git commit -m "automat: T0 Pages-prov (ofarlig ändring under docs/, run ${GITHUB_RUN_ID})"
+          git push origin HEAD:master
+          echo "Bot-commit på master: $(git rev-parse HEAD)" >> "$GITHUB_STEP_SUMMARY"
+          cat docs/automat/t0-pages-probe.txt >> "$GITHUB_STEP_SUMMARY"
+
+  playwright:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '20'
+      - name: Installera Playwright + Chromium
+        run: |
+          npm install --no-save playwright@1.49.1
+          npx playwright install --with-deps chromium
+      - name: Remissläge e2e (alla sidor, 0 appfel)
+        run: node scripts/revision/remiss-e2e.js --ut /tmp/skarmbilder

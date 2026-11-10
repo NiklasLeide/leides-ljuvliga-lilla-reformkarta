@@ -5,6 +5,7 @@ Types: `feat` | `fix` | `refactor` | `docs` | `chore` | `perf`
 
 ---
 
+[2026-11-10] chore: Sprint 15 T0 — tillfälligt provarbetsflöde .github/workflows/t0-prov.yml: (a) pushar en ofarlig provfil under docs/automat/ till master med GITHUB_TOKEN för att se om Pages publicerar, (b) kör remiss-e2e med Playwright i Actions. Tas bort efter T0. (Efterskrivet: Sprint 14 A2-synk = merge 0696b04, dev = master, Pages run 134 success.)
 [2026-11-10] docs: Sprint 14 T9 — DoD GODKÄND (oberoende subagent, 0 blockerande). Åtgärdat: A1 remiss-e2e.js path.resolve för --ut; A3 formulering om SFS 2026:1242 i ändringslistan; A2 dev/master synkas till samma SHA efter denna commit. Sprint 14 → Completed.
 [2026-11-10] chore: Sprint 14 T8 — deploy till produktion. dev→master via ./deploy.sh, merge-SHA 6468565, rollback-SHA 37c2616. Pages run 133 success. Live-verifierat: meta.json 2026-11-10 (= deploydatum), remisser.json, 27 ändringsposter, titel 2025–2031, tidslinjerättningar.
 [2026-11-10] fix: Sprint 14 T7b — tidslinjens detaljpanel (desktop) ligger nu över tidsaxeln, Nu-linjen och markörerna (z-index på .sidebar, ingen layoutändring); e2e med elementFromPoint för remisshändelse och befintlig händelse, nya tidslinjeskärmbilder. reformer.html 375 px: stängknappens överlapp var en följd av skrollad sticky knapp i skärmbilden, inte sidans utseende vid öppning — ingen ändring. Sprint 15-backlogg registrerad i ROADMAP.
