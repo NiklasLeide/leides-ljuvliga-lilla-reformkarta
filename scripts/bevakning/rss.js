@@ -63,6 +63,8 @@
 
 'use strict';
 
+const { arSkolamne } = require('./amne.js');
+
 function feedUrl(preFilteredCategories) {
   return 'https://www.regeringen.se/Filter/RssFeed'
     + '?filterType=Taxonomy'
@@ -71,6 +73,38 @@ function feedUrl(preFilteredCategories) {
     + '&rootPageReference=0'
     + '&filteredContentCategories=1294' // taxonomi-id: Utbildningsdepartementet
     + '&displayLimited=true';
+}
+
+// Sprint 15 T5: kommittédirektiv från ALLA departement (taxonomi 1327 = Kommittédirektiv, utan
+// departementsfilter). Riksdagens data saknar departementsuppdrag (en utredare biträder Regeringskansliet,
+// inget Dir.-nummer — U2026/01573, 01569, 01547 missades 2026), så de hämtas här.
+function feedUrlAllaDepartement(preFilteredCategories) {
+  return 'https://www.regeringen.se/Filter/RssFeed'
+    + '?filterType=Taxonomy'
+    + '&filterByType=FilterablePageBase'
+    + `&preFilteredCategories=${preFilteredCategories}`
+    + '&rootPageReference=0'
+    + '&displayLimited=true';
+}
+
+// Departementsuppdrag = kommittédirektivsida UTAN Dir.-nummer i adressen. Sidor med "dir…" i adressen
+// (t.ex. 2026/09/dir.-2026105, 2026/08/dir2.-202696) är numrerade direktiv som riksdagens data redan
+// täcker (jobb B/B4/C/C2) — de släpps här. Ämnesregeln (DEC-020) avgör: regeringen.se:s policyområden
+// (Barn- och ungdomsutbildning, Utbildning för vuxna) eller titelord; yrkeshögskola m.m. släpps.
+function transformDepartementsuppdrag(item) {
+  const slug = (item.url.split('/kommittedirektiv/')[1] || '').replace(/\/$/, '');
+  if (!slug || /^\d{4}\/\d{2}\/dir/i.test(slug)) return null;
+  const kategorier = (item.extra && item.extra['category*']) || [];
+  if (!arSkolamne({ titel: item.titel, kategorier })) return null;
+  // Diarienummer ur adressen: "u202601573" → "U2026/01573"
+  const m = /\/([a-zåäö]{1,3})(\d{4})(\d{5})$/i.exec('/' + slug.split('/').pop());
+  return {
+    titel: item.titel,
+    datum: item.datum,
+    url: item.url,
+    dnr: m ? `${m[1].toUpperCase()}${m[2]}/${m[3]}` : null,
+    departement: kategorier.find(k => /departementet$/.test(k)) || null,
+  };
 }
 
 // Myndighetsfilter för statsliggaren-flödet (T9). Motivering: U-dep omfattar
@@ -112,6 +146,8 @@ function transformRegleringsbrev(item) {
 const FEEDS = [
   { namn: 'lagradsremiss', deltatyp: 'lagradsremiss', url: feedUrl(2085) },
   { namn: 'regeringsuppdrag', deltatyp: 'regeringsuppdrag', url: feedUrl(1342) },
+  { namn: 'departementsuppdrag', deltatyp: 'departementsuppdrag', url: feedUrlAllaDepartement(1327),
+    extraTaggar: ['category*'], transform: transformDepartementsuppdrag },
   {
     namn: 'regleringsbrev',
     deltatyp: 'regleringsbrev',
@@ -155,6 +191,18 @@ function extractTag(fragment, tag) {
   const cdata = /^<!\[CDATA\[([\s\S]*?)\]\]>$/.exec(inner);
   if (cdata) inner = cdata[1].trim();
   return decodeEntities(inner);
+}
+
+function extractAllTags(fragment, tag) {
+  const re = new RegExp(`<${tag}(?:\\s[^>]*)?>([\\s\\S]*?)</${tag}>`, 'gi');
+  const ut = []; let m;
+  while ((m = re.exec(fragment)) !== null) {
+    let inner = m[1].trim();
+    const cdata = /^<!\[CDATA\[([\s\S]*?)\]\]>$/.exec(inner);
+    if (cdata) inner = cdata[1].trim();
+    ut.push(decodeEntities(inner));
+  }
+  return ut;
 }
 
 function decodeEntities(s) {
@@ -203,7 +251,10 @@ function parseFeed(xml, { extraTaggar = [] } = {}) {
     const item = { titel, datum, url };
     if (extraTaggar.length > 0) {
       item.extra = {};
-      for (const tagg of extraTaggar) item.extra[tagg] = extractTag(block, tagg);
+      for (const tagg of extraTaggar) {
+        // "tagg*" = alla förekomster som lista (t.ex. category* — ett item har flera kategorier)
+        item.extra[tagg] = tagg.endsWith('*') ? extractAllTags(block, tagg.slice(0, -1)) : extractTag(block, tagg);
+      }
     }
     return item;
   });
@@ -298,6 +349,9 @@ function defaultWindow() {
 }
 
 module.exports = {
+  transformDepartementsuppdrag,
+  extractAllTags,
+  feedUrlAllaDepartement,
   FEEDS,
   REGLERINGSBREV_MYNDIGHETER,
   buildReport,

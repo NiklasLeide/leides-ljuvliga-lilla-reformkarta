@@ -18,6 +18,35 @@ Record of key decisions made during the project. **Newest first.**
 
 ---
 
+### DEC-022: Automatik i två led — deterministiskt skript publicerar rutin, veckorutin öppnar PR
+**Date:** 2026-11-10
+**Decision:** (Sprint 15 T1, genomför DEC-019)
+1. **Automatfilen** är ett deterministiskt skript (scripts/revision/, körs i GitHub Actions vardagar) som
+   publicerar utan klick, men bara de ändringstyper som regel 1 i Sprint 15-briefen tillåter: rskr/beslut
+   för spårad proposition vid fullt bifall, tilläggsdirektiv när kommittébeteckning OCH utredningens namn
+   stämmer, nytt betänkande för spårad utredning, samt följdändringar (andringar, meta). Aldrig SFS,
+   ikraftträdanden, övergångsbestämmelser, nya poster, strykningar eller fritext; ifyllda värden skrivs aldrig
+   över (utom statusbytet vid riksdagsbeslut); fasta textmallar; högst 5 ändringar per körning; JSON +
+   testsvit + renderingstest före publicering; vid stopp/fel publiceras inget och en automat-stopp-issue
+   öppnas; avstängning via repovariabeln AUTOMAT_AKTIV; spårbarhet via "automat:"-commits, märkta
+   andringar-poster och en fast Automatlogg-issue. **Ingen AI-agent publicerar utan klick.**
+2. **Veckorutinen** är en schemalagd Claude Code-körning i molnmiljön Reformkartan
+   (.claude/commands/veckorutin.md). Den tar det automatfilen inte tar, verifierar mot primärkälla, tillämpar
+   DEC-020 och **öppnar en PR mot master** — den pushar aldrig till master eller dev och mergar aldrig.
+   Osäkra fall blir ja/nej-frågor under "Behöver Niklas". Niklas mergar med ett klick.
+3. **Chatten** granskar på begäran och äger regleringsbrev (statskontoret.se nås inte från molnmiljön).
+**Förutsättningar verifierade (Sprint 15 T0):** en push till master med GITHUB_TOKEN startar GitHub Pages
+(run 135); Playwright kör på GitHub-runnern (renderingstestet går att köra före publicering).
+**Reasoning:** Rutinändringar är mekaniska avläsningar av strukturerade fält och ska inte köa på ett klick
+(DEC-019). Allt som kräver tolkning, relevansbedömning eller egen text ska ha en människa — men som ett
+klick på en färdig PR, inte som manuellt arbete. Ett deterministiskt skript är testbart regel för regel och
+kan backtestas mot historiskt data; en AI-agent som publicerar direkt kan inte garantera samma sak.
+**Alternatives considered:** AI-agent som publicerar rutinändringar direkt (inte deterministisk, svår att
+testa och spåra); allt via PR (återskapar klick-kön för rutin); bara veckovis bevakningsissue som i dag
+(beprövad flaskhals, missade flera ärenden 2026).
+
+---
+
 ### DEC-021: Remissläge — status räknas i klienten, logiken som byte-identiskt block i fyra sidor
 **Date:** 2026-11-10
 **Decision:** (Sprint 14 T5) Ny datafil `data/remisser.json` (en post per remiss: datum, omfattning,

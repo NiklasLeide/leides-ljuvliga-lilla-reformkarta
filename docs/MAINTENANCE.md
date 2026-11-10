@@ -100,3 +100,43 @@ minst ett API-anrop misslyckades (se avsnittet Fel i rapporten).
 Ny remiss = ny post i `data/remisser.json` (verifiera datum och nästa steg mot remissidan).
 Status räknas i klienten och ska aldrig skrivas in i datafilen. `<remiss-lib>`-blocket finns i fyra
 sidor och måste vara byte-identiskt — `remiss.test.js` fäller annars. Ändra blocket i alla fyra.
+
+## Automatfilen (Sprint 15 T2, DEC-022)
+
+```bash
+node scripts/revision/automat.js                               # torrkörning (standard) — skriver inget
+node scripts/revision/automat.js --tillampa --rapport ut.json  # tillämpar regel 1a–1d (används av arbetsflödet)
+```
+Tillåtna ändringar: beslut + rskr för spårad proposition vid fullt bifall, tilläggsdirektiv när
+kommittébeteckning OCH namn stämmer, nytt betänkande, följdändringar (andringar, meta). Allt annat går
+till veckorutinen. Vakten stoppar körningen om något annat ändras. Exit 3 = STOPP (ingenting skrivet).
+
+## Slå av eller på automatfilen (AUTOMAT_AKTIV) — fungerar från mobilen
+
+Automatfilen (`.github/workflows/automat.yml`) publicerar **bara** när repovariabeln
+`AUTOMAT_AKTIV` har värdet `true`. Allt annat — `false`, tomt, eller ingen variabel — ger torrkörning:
+den kontrollerar och rapporterar men skriver ingenting.
+
+**Stänga av (från mobilen):**
+1. Öppna github.com/NiklasLeide/leides-ljuvliga-lilla-reformkarta i mobilens webbläsare
+   (GitHub-appen saknar variabelinställningen — välj "Desktop site" om menyn inte syns).
+2. Settings → Secrets and variables → Actions → fliken **Variables**.
+3. Klicka på `AUTOMAT_AKTIV` → ändra värdet till `false` → **Update variable**.
+   Gäller från nästa körning. (Att radera variabeln stänger också av.)
+
+**Slå på:** samma väg, värdet `true` (finns inte variabeln: **New repository variable**, namn
+`AUTOMAT_AKTIV`, värde `true`).
+
+**Köra direkt:** Actions → Automat → Run workflow → läge `torr` (bara kontroll) eller `tillampa`
+(publicerar, kräver `AUTOMAT_AKTIV=true`).
+
+**När något stoppar:** en issue med etiketten `automat-stopp` öppnas och ingenting publiceras.
+Veckorutinen läser dessa. Varje publicering kommenteras i issuen **Automatlogg**.
+
+## Veckorutinen (Sprint 15 T6, DEC-022)
+
+Schemalagd Claude Code-körning i molnmiljön Reformkartan med instruktionen `/veckorutin`
+(`.claude/commands/veckorutin.md`). Den öppnar en PR mot master (gren `claude/vecka-ÅÅÅÅ-VV`) — mergas av
+Niklas med ett klick när PR-CI är grön; dev synkas då automatiskt. Den pushar aldrig till master eller dev.
+Fynd som redan är beslutade att lämnas listas i `docs/automat/accepterade.json` — lägg till där när ett
+fynd avgörs som "lämnas", så att det inte tas upp igen.

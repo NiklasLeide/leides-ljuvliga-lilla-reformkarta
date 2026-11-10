@@ -82,7 +82,16 @@ function renderNySou(d) {
 }
 
 function renderTillaggsdir(d) {
-  return [`- [ ] **${d.direktiv_beteckning}** → spårad utredning **${d.kopplad_utredning}**: ${mdEscape(d.titel || '')} (${d.datum || 'datum saknas'}) — [källa](${d.url})`];
+  // Sprint 15 T5: avvikande kommittébeteckning i riksdagens metadata markeras (Dir. 2026:98-fallet).
+  const avvik = d.kommittebeteckning_riksdagen && d.kommittebeteckning_riksdagen !== d.kopplad_utredning
+    ? ` ⚠️ riksdagens kommittébeteckning: ${d.kommittebeteckning_riksdagen}` : '';
+  return [`- [ ] **${d.direktiv_beteckning}** → spårad utredning **${d.kopplad_utredning}**: ${mdEscape(d.titel || '')} (${d.datum || 'datum saknas'})${avvik} — [källa](${d.url})`];
+}
+function renderAnnatDep(d) {
+  return [`- [ ] **${d.beteckning}** ${mdEscape(d.titel || '(titel saknas)')} (${d.datum || 'datum saknas'}, ${d.departement || 'departement saknas'}) — [källa](${d.url})`];
+}
+function renderDepartementsuppdrag(d) {
+  return [`- [ ] **${d.dnr || '(dnr saknas)'}** ${mdEscape(d.titel)} (${d.datum}${d.departement ? `, ${d.departement}` : ''}) — [regeringen.se](${d.url})`];
 }
 
 function renderLagradsremiss(d) {
@@ -101,6 +110,7 @@ function renderRegleringsbrev(d) {
 const SEKTIONER = [
   { typ: 'prop-status', rubrik: 'A. Propositionsstatus — betänkandebeslut att triagera', render: renderPropStatus },
   { typ: 'nytt-direktiv', rubrik: 'B. Nya direktiv (Utbildningsdep.)', render: renderEnkel },
+  { typ: 'direktiv-annat-departement', rubrik: 'B4. Direktiv från andra departement om skolväsendet (ämnesregeln, DEC-020)', render: renderAnnatDep },
   { typ: 'ny-proposition', rubrik: 'B2. Nya propositioner (Utbildningsdep.)', render: renderEnkel },
   // SOU bär inget departement i riksdagens data (se riksdagen.js EMPIRI SOU)
   // — ny-sou listar därför alla departement och människan avgör scope.
@@ -109,6 +119,7 @@ const SEKTIONER = [
   { typ: 'tillaggsdir-till-tracked-utredning', rubrik: 'C. Tilläggsdirektiv till spårade utredningar', render: renderTillaggsdir },
   { typ: 'lagradsremiss', rubrik: 'Lagrådsremisser (Utbildningsdep.)', render: renderLagradsremiss },
   { typ: 'regeringsuppdrag', rubrik: 'Regeringsuppdrag (Utbildningsdep.)', render: renderUppdrag },
+  { typ: 'departementsuppdrag', rubrik: 'Departementsuppdrag om skolväsendet (regeringen.se, alla departement — inget Dir.-nummer)', render: renderDepartementsuppdrag },
   { typ: 'regleringsbrev', rubrik: 'Regleringsbrev & ändringsbeslut (skolmyndigheterna)', render: renderRegleringsbrev },
 ];
 

@@ -65,13 +65,15 @@ samma commit.
 | Deltatyp | Jobb | Källa | Täckning |
 |---|---|---|---|
 | `prop-status` | A | data.riksdagen.se | Betänkandebeslut för manifest-props (fönsteroberoende) |
-| `nytt-direktiv` | B | data.riksdagen.se | Nya U-dep-direktiv i fönstret |
+| `nytt-direktiv` | B | data.riksdagen.se | Nya U-dep-direktiv i fönstret (fönster på datum ELLER systemdatum ≤ 60 dagar — Sprint 15 T5, fångar sent inlagda direktiv) |
+| `direktiv-annat-departement` | B4 | data.riksdagen.se | Direktiv från andra departement vars titel handlar om skolväsendet (ämnesregeln, DEC-020, scripts/bevakning/amne.js) |
 | `ny-proposition` | B2 | data.riksdagen.se | Nya U-dep-props i fönstret, ej i manifestet |
 | `sou-levererad` | B3 | data.riksdagen.se | SOU i fönstret som matchar spårat betankanden[].nr |
 | `ny-sou` | B3 | data.riksdagen.se | Okända SOU i fönstret — ALLA departement (SOU saknar departementsdata) |
-| `tillaggsdir-till-tracked-utredning` | C | data.riksdagen.se | Tilläggsdir till spårade utredningar, alla departement |
+| `tillaggsdir-till-tracked-utredning` | C + C2 | data.riksdagen.se | Tilläggsdir till spårade utredningar, alla departement. C: i fönstret. C2: fönsteroberoende sökning per kommittébeteckning, rapporteras tills direktivet finns i datafilen; avvikande kommittébeteckning i riksdagens metadata markeras ⚠️ |
 | `lagradsremiss` | rss.js | regeringen.se RSS | Nya U-dep-lagrådsremisser i fönstret |
 | `regeringsuppdrag` | rss.js | regeringen.se RSS | Nya U-dep-regeringsuppdrag i fönstret (alla myndigheter, inte bara Skolverket — även ändringsbeslut flödar här) |
+| `departementsuppdrag` | rss.js | regeringen.se RSS (kommittédirektiv, alla departement) | Uppdrag utan Dir.-nummer (en utredare biträder Regeringskansliet), ämnesregeln DEC-020 via policyområde eller titel; numrerade direktiv släpps (riksdagen täcker dem) |
 | `regleringsbrev` | rss.js | statsliggaren RSS (statskontoret.se) | Regleringsbrev + ändringsbeslut för skolmyndigheterna (REGLERINGSBREV_MYNDIGHETER-konfig; lärosäten bortfiltrerade — fast scopegräns). OBS grunt flöde ~3 mån; delta-datum = beslutsdatum ur titeln. **CI-LUCKA: statskontoret.se blockerar GitHub-runners (DEC-008) — i veckorapporten syns flödet som 🔴 feed_fel; täckningen kräver lokal körning tills blockeringen löses** |
 
 ---

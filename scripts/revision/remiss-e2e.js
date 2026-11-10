@@ -27,6 +27,15 @@ const VYER = [
 ];
 const TYPER = { '.html': 'text/html', '.json': 'application/json', '.png': 'image/png', '.css': 'text/css', '.js': 'text/javascript' };
 const EXTERNT = /ERR_TUNNEL|ERR_NAME|ERR_CONNECTION|cloudflareinsights|fonts\.(googleapis|gstatic)/;
+// Appfel = konsolfel som inte gäller en extern resurs. Felkoden för blockerade externa resurser
+// skiljer sig mellan miljöer (sandbox: ERR_TUNNEL_CONNECTION_FAILED, GitHub-runner: ERR_FAILED utan
+// URL i texten), så resursens adress (location().url) avgör: allt som inte är localhost är externt.
+function arAppfel(m) {
+  if (m.type() !== 'error') return false;
+  const url = (m.location && m.location().url) || '';
+  if (/^Failed to load resource/.test(m.text()) && url && !/^https?:\/\/(localhost|127\.0\.0\.1)(:|\/)/.test(url)) return false;
+  return !EXTERNT.test(m.text());
+}
 
 function server() {
   return new Promise(res => {
@@ -84,7 +93,7 @@ const SIDOR = {
     pg.setDefaultTimeout(8000);
     await pg.clock.setFixedTime(new Date(l.klocka));
     const konsol = [];
-    pg.on('console', m => { if (m.type() === 'error' && !EXTERNT.test(m.text())) konsol.push(m.text()); });
+    pg.on('console', m => { if (arAppfel(m)) konsol.push(m.text() + (m.location().url ? ` [${m.location().url}]` : '')); });
     pg.on('pageerror', e => konsol.push('pageerror: ' + e.message));
     pg.on('requestfailed', () => {}); // externa resurser blockeras av sandboxen — inte appfel
     await pg.goto(bas + sida, { waitUntil: 'networkidle' });
@@ -137,7 +146,7 @@ const SIDOR = {
     data[0].reform_ids = ['laroplaner', 'finns-inte'];
     await pg.route('**/data/remisser.json*', r => r.fulfill({ contentType: 'application/json', body: JSON.stringify(data) }));
     const konsol = [];
-    pg.on('console', m => { if (m.type() === 'error' && !EXTERNT.test(m.text())) konsol.push(m.text()); });
+    pg.on('console', m => { if (arAppfel(m)) konsol.push(m.text() + (m.location().url ? ` [${m.location().url}]` : '')); });
     await pg.goto(bas + 'reformer.html', { waitUntil: 'networkidle' });
     await pg.click('tr[data-id="laroplaner"]'); await pg.waitForTimeout(300);
     const rutor = await pg.locator('#detailPanel [data-test="remiss"]').count();

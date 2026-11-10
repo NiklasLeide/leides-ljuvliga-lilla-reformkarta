@@ -1,0 +1,30 @@
+# Synkar dev efter att en PR mergats till master (Sprint 15 T6) — t.ex. veckorutinens PR.
+# Triggas BARA av mergade PR:er, inte av varje push till master: commit.sh:s preview-syncar (mappen
+# dev/) och deploy.sh pushar också till master, och en synk på dem skulle skapa merge-commits i dev
+# som avvisar nästa push från sessionen. Automatfilen synkar dev själv (automat-publicera.sh).
+# Snabbspolning om dev ligger bakom, annars merge; aldrig force. Konflikt → rött jobb, dev orörd.
+name: Synka dev efter merge
+
+on:
+  pull_request:
+    types: [closed]
+    branches: [master]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: synka-dev
+  cancel-in-progress: false
+
+jobs:
+  synka:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: master
+          fetch-depth: 0
+      - name: Synka dev mot master
+        run: scripts/revision/synka-dev.sh "$(git rev-parse HEAD)"
