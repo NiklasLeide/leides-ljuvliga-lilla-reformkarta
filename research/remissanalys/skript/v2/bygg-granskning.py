@@ -7,7 +7,8 @@ Del 2, missade utmaningar: 20 passager ur förstudie 2:s 714 passager som inte k
   minst 200 tecken, och inte passager som bara återger utredningens förslag (regler nedan).
 
 Användning (från repo-roten):
-  python3 research/remissanalys/skript/v2/bygg-granskning.py <sökväg till passager.json från förstudie 2>
+  python3 research/remissanalys/skript/v2/bygg-granskning.py            (läser research/remissanalys/arbetsfiler/passager-forstudie2.json)
+  python3 research/remissanalys/skript/v2/bygg-granskning.py <passagefil>
 Slumpfrö: SEED nedan (anges även i granskning/README.md). CSV: semikolon, UTF-8 med BOM."""
 import csv, json, os, random, re, sys, urllib.parse
 
@@ -18,7 +19,10 @@ PILOT = 'https://reformer.leide.se/dev/utmaningar-pilot/'
 
 D = json.load(open(os.path.join(ROT, 'pilot/utmaningar/data/utmaningar-betyg.json'), encoding='utf-8'))
 V1 = json.load(open(os.path.join(ROT, 'research/remissanalys/utmaningar-betyg.json'), encoding='utf-8'))
-PASSAGER = json.load(open(sys.argv[1], encoding='utf-8'))
+# Passagefilen från förstudie 2 är incheckad (Sprint 16 T7); en annan sökväg kan anges som argument.
+_pf = sys.argv[1] if len(sys.argv) > 1 else os.path.join(ROT, 'research/remissanalys/arbetsfiler/passager-forstudie2.json')
+PASSAGER = json.load(open(_pf, encoding='utf-8'))
+if isinstance(PASSAGER, dict): PASSAGER = PASSAGER['passager']
 assert len(PASSAGER) == 714, f'väntade 714 passager, fick {len(PASSAGER)}'
 rng = random.Random(SEED)
 
