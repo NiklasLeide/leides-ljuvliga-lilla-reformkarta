@@ -1,0 +1,112 @@
+# Automatfilen (Sprint 15, DEC-019/DEC-022) — publicerar RUTINändringar ur riksdagens öppna data
+# utan mänskligt klick. Allt annat går till veckorutinen (PR) eller chatten.
+#
+# Säkerhetsräcken (Sprint 15-briefen, regel 5–9):
+#   5  automat.js stoppar vid fler än 5 ändringar (exit 3).
+#   6  Före publicering: JSON-validering, hela testsviten och renderingstest (alla sidor 0 appfel).
+#   7  Stopp eller fel → ingenting publiceras och en issue med etiketten automat-stopp öppnas.
+#   8  Avstängning: repovariabeln AUTOMAT_AKTIV. Bara värdet "true" publicerar; allt annat (eller
+#      ingen variabel) = torrkörning. Se docs/MAINTENANCE.md (går att ändra från mobilen).
+#   9  Commit "automat: …" med käll-URL:er; andringar-posterna märks; kommentar i issuen "Automatlogg".
+# Publiceringen pushar till master (startar GitHub Pages — verifierat i Sprint 15 T0) och synkar dev
+# (snabbspolning eller merge, aldrig force). Bara data/ committas; mappen dev/ rörs inte.
+
+name: Automat
+
+on:
+  schedule:
+    - cron: '23 5 * * 1-5' # vardagar 05:23 UTC (06:23 svensk vintertid)
+  workflow_dispatch:
+    inputs:
+      lage:
+        description: 'torr = skriv inget. tillampa = publicera (kräver AUTOMAT_AKTIV=true).'
+        type: choice
+        options: [torr, tillampa]
+        default: torr
+  # TILLFÄLLIG (Sprint 15 T4): provkörning av kedjan i torrläge från dev. Tas bort efter T4.
+  push:
+    branches: [dev]
+    paths: ['docs/automat/automat-prov.txt']
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: automat
+  cancel-in-progress: false
+
+jobs:
+  automat:
+    runs-on: ubuntu-latest
+    env:
+      # Regel 8: publicera bara om variabeln är exakt "true" och körningen är schemalagd eller
+      # uttryckligen startad i läget tillampa.
+      AKTIV: ${{ vars.AUTOMAT_AKTIV == 'true' && (github.event_name == 'schedule' || inputs.lage == 'tillampa') }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          # Vid provkörning (push på dev) checkas den pushade commiten ut; annars master.
+          ref: ${{ github.event_name == 'push' && github.sha || 'master' }}
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '20'
+
+      - name: Playwright (installeras utanför repot)
+        run: |
+          mkdir -p "$RUNNER_TEMP/pw" && cd "$RUNNER_TEMP/pw"
+          npm init -y >/dev/null
+          npm install --no-audit --no-fund playwright@1.49.1 >/dev/null
+          npx playwright install --with-deps chromium >/dev/null
+          echo "NODE_PATH=$RUNNER_TEMP/pw/node_modules" >> "$GITHUB_ENV"
+
+      - name: Automatfilen
+        id: automat
+        run: |
+          set +e
+          FLAGGA=""; [ "$AKTIV" = "true" ] && FLAGGA="--tillampa"
+          node scripts/revision/automat.js $FLAGGA --rapport "$RUNNER_TEMP/rapport.json"
+          echo "kod=$?" >> "$GITHUB_OUTPUT"
+
+      - name: Validering före publicering (regel 6)
+        id: validering
+        if: steps.automat.outputs.kod == '0'
+        run: |
+          for f in data/*.json; do node -e "JSON.parse(require('fs').readFileSync('$f','utf8'))" || { echo "Ogiltig JSON: $f"; exit 1; }; done
+          node --test scripts/revision/*.test.js scripts/bevakning/*.test.js
+          node scripts/revision/render-test.js
+
+      - name: Publicera (regel 9)
+        id: publicera
+        if: env.AKTIV == 'true' && steps.automat.outputs.kod == '0' && steps.validering.outcome == 'success'
+        run: |
+          scripts/revision/automat-publicera.sh "$RUNNER_TEMP/rapport.json" | tee "$RUNNER_TEMP/publicera.log"
+          SHA=$(grep -o 'PUBLICERAD_SHA=.*' "$RUNNER_TEMP/publicera.log" | cut -d= -f2 || true)
+          echo "sha=$SHA" >> "$GITHUB_OUTPUT"
+
+      - name: Automatlogg (regel 9)
+        if: steps.publicera.outcome == 'success' && steps.publicera.outputs.sha != ''
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/revision/automat-github.js logg --rapport "$RUNNER_TEMP/rapport.json" --sha "${{ steps.publicera.outputs.sha }}" --run-url "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+
+      - name: Stopp → automat-stopp-issue (regel 7)
+        if: always() && env.AKTIV == 'true' && (failure() || steps.automat.outputs.kod != '0')
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/revision/automat-github.js stopp --rapport "$RUNNER_TEMP/rapport.json" --run-url "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+
+      - name: Sammanfattning
+        if: always()
+        run: |
+          {
+            echo "### Automatfilen — läge: $([ "$AKTIV" = "true" ] && echo tillämpa || echo torr)"
+            echo "AUTOMAT_AKTIV=${{ vars.AUTOMAT_AKTIV }} · exit automat.js: ${{ steps.automat.outputs.kod }} · validering: ${{ steps.validering.outcome }} · publicering: ${{ steps.publicera.outcome }}"
+            echo '```json'
+            cat "$RUNNER_TEMP/rapport.json" 2>/dev/null || echo '(ingen rapport)'
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+          # Stopp (exit 3) eller fel (exit 1) ska synas som rött även i torrläge.
+          [ "${{ steps.automat.outputs.kod }}" = "0" ] || exit 1

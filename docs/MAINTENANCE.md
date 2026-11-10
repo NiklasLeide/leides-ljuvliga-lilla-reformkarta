@@ -110,3 +110,25 @@ node scripts/revision/automat.js --tillampa --rapport ut.json  # tillämpar rege
 Tillåtna ändringar: beslut + rskr för spårad proposition vid fullt bifall, tilläggsdirektiv när
 kommittébeteckning OCH namn stämmer, nytt betänkande, följdändringar (andringar, meta). Allt annat går
 till veckorutinen. Vakten stoppar körningen om något annat ändras. Exit 3 = STOPP (ingenting skrivet).
+
+## Slå av eller på automatfilen (AUTOMAT_AKTIV) — fungerar från mobilen
+
+Automatfilen (`.github/workflows/automat.yml`) publicerar **bara** när repovariabeln
+`AUTOMAT_AKTIV` har värdet `true`. Allt annat — `false`, tomt, eller ingen variabel — ger torrkörning:
+den kontrollerar och rapporterar men skriver ingenting.
+
+**Stänga av (från mobilen):**
+1. Öppna github.com/NiklasLeide/leides-ljuvliga-lilla-reformkarta i mobilens webbläsare
+   (GitHub-appen saknar variabelinställningen — välj "Desktop site" om menyn inte syns).
+2. Settings → Secrets and variables → Actions → fliken **Variables**.
+3. Klicka på `AUTOMAT_AKTIV` → ändra värdet till `false` → **Update variable**.
+   Gäller från nästa körning. (Att radera variabeln stänger också av.)
+
+**Slå på:** samma väg, värdet `true` (finns inte variabeln: **New repository variable**, namn
+`AUTOMAT_AKTIV`, värde `true`).
+
+**Köra direkt:** Actions → Automat → Run workflow → läge `torr` (bara kontroll) eller `tillampa`
+(publicerar, kräver `AUTOMAT_AKTIV=true`).
+
+**När något stoppar:** en issue med etiketten `automat-stopp` öppnas och ingenting publiceras.
+Veckorutinen läser dessa. Varje publicering kommenteras i issuen **Automatlogg**.
