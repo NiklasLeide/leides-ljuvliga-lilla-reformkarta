@@ -1,0 +1,267 @@
+{
+ "_meta": {
+  "steg": "R1 redaktionell koppling mellan utredningsförslag och propositionsavsnitt (Sprint 17, ämnesmatchning mot propositionens rutor och rubriker)",
+  "redaktionell": true,
+  "matchningstyper": [
+   "förslagsruta",
+   "avsnittsnivå",
+   "osäker ämnesmatchning",
+   "övergripande avsnitt, detalj ej behandlad",
+   "ingen"
+  ]
+ },
+ "forslag": [
+  {
+   "id": "F01",
+   "propositionsavsnitt": [
+    "196:7.1"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Regeringens förslag i avsnitt 7.1: information om barnets eller elevens utveckling ges vid tillfällen som bestäms av personal på förskolan, fritidshemmet eller skolan i stället för fortlöpande (3 kap. 3 §). Enligt propositionen stämmer utredningens förslag i huvudsak överens; regeringen låter personalen bestämma tillfällena och tar inte med förskoleklassen.",
+   "rubriker": [
+    "7.1 Information ska ges vid tillfällen som bestäms av personal på förskolan, fritidshemmet eller skolan och det ska bli färre utvecklingssamtal",
+    "Regeringens förslag",
+    "Utredningens förslag"
+   ]
+  },
+  {
+   "id": "F02",
+   "propositionsavsnitt": [
+    "196:7.1",
+    "196:9"
+   ],
+   "matchning": "övergripande avsnitt, detalj ej behandlad",
+   "grund": "Läroplansformuleringen om att fortlöpande informera föräldrar behandlas inte uttryckligen. Avsnitt 7.1 tar bort kravet på fortlöpande information i skollagen, och avsnitt 9 konstaterar bara att förslagen i avsnitt 7 kräver följdändringar i läroplanerna.",
+   "rubriker": [
+    "7.1 Information ska ges vid tillfällen som bestäms av personal på förskolan, fritidshemmet eller skolan och det ska bli färre utvecklingssamtal",
+    "Regeringens förslag",
+    "9 Ikraftträdande",
+    "Skälen för regeringens förslag"
+   ]
+  },
+  {
+   "id": "F03",
+   "propositionsavsnitt": [
+    "196:7.1",
+    "196:9"
+   ],
+   "matchning": "övergripande avsnitt, detalj ej behandlad",
+   "grund": "Som F02: läroplansformuleringarna om att fortlöpande informera om studieresultat och utvecklingsbehov behandlas inte uttryckligen; propositionen tar bara ställning till kravet på fortlöpande information i skollagen (7.1) och nämner följdändringar i läroplanerna (9).",
+   "rubriker": [
+    "7.1 Information ska ges vid tillfällen som bestäms av personal på förskolan, fritidshemmet eller skolan och det ska bli färre utvecklingssamtal",
+    "Regeringens förslag",
+    "9 Ikraftträdande",
+    "Skälen för regeringens förslag"
+   ]
+  },
+  {
+   "id": "F04",
+   "propositionsavsnitt": [
+    "196:7.1"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Regeringens förslag i avsnitt 7.1: det ska inte längre krävas att personalens samtal med vårdnadshavare i förskolan sker fortlöpande (8 kap. 11 §). Den föreslagna ändringen i förskolans läroplan behandlas inte särskilt.",
+   "rubriker": [
+    "7.1 Information ska ges vid tillfällen som bestäms av personal på förskolan, fritidshemmet eller skolan och det ska bli färre utvecklingssamtal",
+    "Regeringens förslag",
+    "Utredningens förslag"
+   ]
+  },
+  {
+   "id": "F05",
+   "propositionsavsnitt": [
+    "196:7.1"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Regeringens förslag i avsnitt 7.1: utvecklingssamtal i grundskolan, anpassade grundskolan, specialskolan, sameskolan, gymnasieskolan och anpassade gymnasieskolan ska äga rum minst en gång per läsår i stället för varje termin. Enligt propositionen stämmer förslaget i huvudsak överens med utredningens.",
+   "rubriker": [
+    "7.1 Information ska ges vid tillfällen som bestäms av personal på förskolan, fritidshemmet eller skolan och det ska bli färre utvecklingssamtal",
+    "Regeringens förslag",
+    "Utredningens förslag"
+   ]
+  },
+  {
+   "id": "F06",
+   "propositionsavsnitt": [
+    "196:7.2"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Regeringens förslag i avsnitt 7.2: IUP byter namn och innehållet koncentreras till kunskapsutveckling. Enligt propositionen stämmer förslaget i huvudsak överens med utredningens, men planen heter skriftlig plan för kunskapsutveckling i stället för skriftlig kunskapsutvecklingsplan.",
+   "rubriker": [
+    "7.2 De skriftliga planerna ska fokusera på elevers kunskapsutveckling",
+    "Regeringens förslag",
+    "Utredningens förslag"
+   ]
+  },
+  {
+   "id": "F07",
+   "propositionsavsnitt": [],
+   "matchning": "ingen",
+   "grund": "Förslaget att utreda digitala system och verktyg i särskild ordning tas inte upp i propositionens avsnitt med förslagsruta; det finns bara med i sammanfattningen av betänkandet (bilaga 1).",
+   "rubriker": []
+  },
+  {
+   "id": "F08",
+   "propositionsavsnitt": [
+    "196:8"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Regeringens förslag i avsnitt 8: skyldigheten att aktivt motverka kränkande behandling flyttas från 1 kap. 5 § till 6 kap. skollagen, förstärks och gäller även annan skollagsreglerad verksamhet. Enligt propositionen stämmer förslagen delvis överens; regeringen tar även med trakasserier och sexuella trakasserier.",
+   "rubriker": [
+    "8 Tydligare ansvar och minskad dokumentation vid kränkande behandling",
+    "Regeringens förslag",
+    "Förslag från Utredningen om minskad administration och om reglering av förskollärares och lärares tid (SOU 2025:26)"
+   ]
+  },
+  {
+   "id": "F09",
+   "propositionsavsnitt": [
+    "196:8"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Regeringens förslag i avsnitt 8: personalens anmälningsskyldighet blir en informationsskyldighet mot rektorn vid allvarlig eller upprepad kränkande behandling eller kränkning av personal, och rektorns och huvudmannens skyldigheter anpassas efter den. Enligt propositionen stämmer förslagen delvis överens.",
+   "rubriker": [
+    "8 Tydligare ansvar och minskad dokumentation vid kränkande behandling",
+    "Regeringens förslag",
+    "Förslag från Utredningen om minskad administration och om reglering av förskollärares och lärares tid (SOU 2025:26)"
+   ]
+  },
+  {
+   "id": "F10",
+   "propositionsavsnitt": [
+    "196:8"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Propositionen redovisar under utredningens förslag i avsnitt 8 att utredningen vill ändra \"i samband med verksamheten\" till \"i verksamheten\". Regeringen avvisar ändringen i skälen med hänvisning till HFD 2014 ref. 47, och regeringens förslag behåller \"i samband med verksamheten\".",
+   "rubriker": [
+    "8 Tydligare ansvar och minskad dokumentation vid kränkande behandling",
+    "Regeringens förslag",
+    "Förslag från Utredningen om minskad administration och om reglering av förskollärares och lärares tid (SOU 2025:26)",
+    "Skälen för regeringens förslag"
+   ]
+  },
+  {
+   "id": "F11",
+   "propositionsavsnitt": [
+    "196:6"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Regeringens förslag i avsnitt 6: undervisningsuppdraget definieras i skollagen (undervisning samt planering och uppföljning), och regeringen bemyndigas att meddela föreskrifter om tiden. Enligt propositionen stämmer förslagen i huvudsak överens; förskoleklassen omfattas inte, och upplysningsbestämmelser tillkommer.",
+   "rubriker": [
+    "6 Tiden för undervisningsuppdraget ska regleras",
+    "Regeringens förslag",
+    "Utredningens förslag"
+   ]
+  },
+  {
+   "id": "F12",
+   "propositionsavsnitt": [
+    "196:6"
+   ],
+   "matchning": "avsnittsnivå",
+   "grund": "Förordningsförslag. I skälen i avsnitt 6 anges samma faktorer för lärarens undervisningstid: elevgruppernas storlek, antalet elever som läraren regelbundet möter och antal elever i behov av särskilt stöd. Rutan innehåller bara bemyndigandet.",
+   "rubriker": [
+    "6 Tiden för undervisningsuppdraget ska regleras",
+    "Skälen för regeringens förslag",
+    "Undervisningstiden behöver anpassas efter lärarens förutsättningar"
+   ]
+  },
+  {
+   "id": "F13",
+   "propositionsavsnitt": [
+    "196:6"
+   ],
+   "matchning": "övergripande avsnitt, detalj ej behandlad",
+   "grund": "Förordningsförslag om timintervall för högsta undervisningstid. Avsnitt 6 anser att regleringen ska ange intervall per skolform och stadium, men nämner inga timtal och lämnar detaljerna till regeringens föreskrifter. Förskoleklassen undantas.",
+   "rubriker": [
+    "6 Tiden för undervisningsuppdraget ska regleras",
+    "Skälen för regeringens förslag",
+    "Undervisningstiden behöver anpassas efter lärarens förutsättningar"
+   ]
+  },
+  {
+   "id": "F14",
+   "propositionsavsnitt": [
+    "196:6"
+   ],
+   "matchning": "övergripande avsnitt, detalj ej behandlad",
+   "grund": "Förordningsförslag om minsta tid för planering och uppföljning i förhållande till undervisningstiden. Avsnitt 6 anger som lämplig utgångspunkt minst lika mycket tid som undervisningstiden men tar inte upp tillägget om 10 procent; detaljerna lämnas till föreskrifter.",
+   "rubriker": [
+    "6 Tiden för undervisningsuppdraget ska regleras",
+    "Skälen för regeringens förslag",
+    "Utöver tiden för undervisningen behöver även tiden för planering och uppföljning säkerställas"
+   ]
+  },
+  {
+   "id": "F15",
+   "propositionsavsnitt": [
+    "196:6"
+   ],
+   "matchning": "övergripande avsnitt, detalj ej behandlad",
+   "grund": "Förordningsförslag om minst 5 timmar per vecka i fritidshemmet. Avsnitt 6 säger att regleringen för fritidshemmet ska ange en minsta tid vid heltid och ta hänsyn till gruppens storlek och barn i behov av stöd, men nämner inget timtal.",
+   "rubriker": [
+    "6 Tiden för undervisningsuppdraget ska regleras",
+    "Skälen för regeringens förslag",
+    "Utöver tiden för undervisningen behöver även tiden för planering och uppföljning säkerställas"
+   ]
+  },
+  {
+   "id": "F16",
+   "propositionsavsnitt": [
+    "196:6"
+   ],
+   "matchning": "övergripande avsnitt, detalj ej behandlad",
+   "grund": "Förordningsförslag om minst 5 timmar per vecka för förskollärare i förskolan. Avsnitt 6 säger att regleringen för förskolan ska ange en minsta tid vid heltid och ta hänsyn till omständigheterna, men nämner inget timtal.",
+   "rubriker": [
+    "6 Tiden för undervisningsuppdraget ska regleras",
+    "Skälen för regeringens förslag",
+    "Utöver tiden för undervisningen behöver även tiden för planering och uppföljning säkerställas"
+   ]
+  },
+  {
+   "id": "F17",
+   "propositionsavsnitt": [
+    "196:6"
+   ],
+   "matchning": "osäker ämnesmatchning",
+   "grund": "Den föreslagna läroplansskrivningen om rektorns ansvar behandlas inte. I avsnitt 6 diskuteras rektorns roll att fördela tiden för undervisningsuppdraget och huvudmannens stöd till rektor, men inte som en läroplansändring.",
+   "rubriker": [
+    "6 Tiden för undervisningsuppdraget ska regleras",
+    "Skälen för regeringens förslag",
+    "Rektorer behöver kunna organisera verksamheten så att hela uppdraget kan genomföras och behöver stöd från huvudmannen för det"
+   ]
+  },
+  {
+   "id": "F18",
+   "propositionsavsnitt": [
+    "196:9"
+   ],
+   "matchning": "osäker ämnesmatchning",
+   "grund": "Inget uppdrag till Skolverket föreslås. I avsnitt 9 konstaterar regeringen bara att det finns tid för t.ex. Skolverket att vid behov ta fram stödmaterial, som Malmö kommun efterfrågat.",
+   "rubriker": [
+    "9 Ikraftträdande",
+    "Skälen för regeringens förslag"
+   ]
+  },
+  {
+   "id": "F19",
+   "propositionsavsnitt": [],
+   "matchning": "ingen",
+   "grund": "Uppföljning och utvärdering av regleringen genom en myndighet tas inte upp i propositionens avsnitt med förslagsruta; förslaget finns bara i sammanfattningen av betänkandet (bilaga 1).",
+   "rubriker": []
+  },
+  {
+   "id": "F20",
+   "propositionsavsnitt": [
+    "196:9"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Regeringens förslag i avsnitt 9: ändringarna om kränkande behandling träder i kraft den 1 augusti 2026, undervisningsuppdraget den 1 juli 2027 och information, utvecklingssamtal och plan den 1 juli 2028. Enligt propositionen stämmer det delvis överens med utredningens förslag om 1 juli 2027 för alla ändringar. Läroplansändringarna och förordningens ikraftträdande regleras inte i rutan.",
+   "rubriker": [
+    "9 Ikraftträdande",
+    "Regeringens förslag",
+    "Förslag från Utredningen om minskad administration och om reglering av förskollärares och lärares tid (SOU 2025:26)"
+   ]
+  }
+ ]
+}
