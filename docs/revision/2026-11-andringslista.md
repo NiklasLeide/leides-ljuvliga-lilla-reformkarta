@@ -28,6 +28,38 @@ Förkortningar för återkommande källor:
 
 ---
 
+## Beslut 2026-11-10 (Niklas via chatten) och utfall i T4
+
+Alla RUTIN-rader godkända. BEDÖMNING-rader märkta Godkänn/Avförs/Lämnas/Ingen ändring: enligt
+förslaget. Avgöranden:
+1. **U15, G4, A4, R8 + tid steg 3:** SFS är högsta källa. Datum per lag enligt lagen.nu:s
+   förarbetesregister: SFS 2026:1242 (prop. 194, 195, 198) = 1 juli 2028; SFS 2026:1243
+   (prop. 194, 196, 197, 198) = 2 juli 2028. Reformer i båda lagarna (laroplaner, yrkes) visar
+   båda datumen med SFS-nummer. Noteringen "Riksdagens betänkande anger att ändringarna i huvudsak
+   träder i kraft den 1 juli 2028. Samordningslagen SFS 2026:1243 träder i kraft den 2 juli 2028."
+   ligger på betyg, tid, laroplaner och yrkes (reforms.transition + guide.noteringar).
+   Tillämpning från HT 2028 oförändrad.
+2. **T7, R11 (studiero):** struket. andringar-posten säger nu "Lagändringarna börjar gälla 1 augusti 2026".
+3. **T10:** båda central rättning-posterna strukna, inga nya datum.
+4.–6. **B1, B4, B5:** spåras (laroplaner, brott, yrkes). B2, B3 enligt förslag (sprak, vinst).
+7.–8. **B8, B10:** avförda.
+9. **S4, S5:** godkända. **S6–S8:** lämnas (SOU-datum ändras bara när källan visar överlämningsdatum).
+10. **G14 och yrkes-steg:** förarbetena anger prop. 192 (SFS 2026:737) resp. prop. 198 (SFS 2026:1242,
+    2026:1245) → lagda som steg.
+11. Regleringsbrev- och budgetfält oförändrade.
+Relevansregeln registrerad som **DEC-020**.
+
+**Tillämpningsval i T4 (rapporterade):**
+- Tidslinjen: laroplaner-ikraft behåller 1 juli 2028 med källa SFS 2026:1242; ingen separat 2 juli-markör
+  för laroplaner/yrkes (tidslinjen är översikt; båda datumen visas i reformkort, guide och ändringar).
+- F1 utfört även i de fyra synliga `<h1>`-rubrikerna (index, reformer, uppdrag, utredningar), inte bara `<title>`.
+- U21 (fortbildning, tioarig): dnr U2026/01202 och redovisningsdatum kunde inte omkontrolleras
+  (rapport-PDF:en går inte att hämta härifrån) → posten saknar dnr och datum (null före gissning).
+- G4: bara övergångspunkt 1–2 fick källa SFS 2026:1243 (kontrollerad text); punkt 3–4 behåller prop.-källan.
+- Patchen gjordes med `docs/revision/2026-11-t4-patch.py` (168 operationer, varje sträng exakt en gång).
+
+---
+
 ## Tvärgående fynd (påverkar flera filer)
 
 **X1. Augustiändringen av läroplansuppdraget har fel dnr och fel datum i tre filer.** ✓ omkontrollerat.

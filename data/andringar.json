@@ -11,14 +11,14 @@
     }
   },
   {
-    "datum": "2026-08-24",
+    "datum": "2026-08-20",
     "text": "Regeringen ändrade Skolverkets uppdrag om tioårig grundskola och nya läroplaner: redovisningen av läroplansförslagen senareläggs till 14 maj 2027.",
     "reform_ids": [
       "laroplaner",
       "tioarig"
     ],
     "kalla": {
-      "text": "Regeringsuppdrag (U2026/00888)",
+      "text": "Regeringsuppdrag (U2026/01483)",
       "url": "https://www.regeringen.se/regeringsuppdrag/2026/08/andring-av-uppdraget-till-statens-skolverk-att-forbereda-inforandet-av-en-tioarig-grundskola-och-ta-fram-forslag-pa-nya-laroplaner/"
     }
   },
@@ -47,7 +47,7 @@
       "vinst"
     ],
     "kalla": {
-      "text": "Riksdagsbeslut — bet. 2025/26:UbU30",
+      "text": "Riksdagsbeslut — bet. 2025/26:UbU30, rskr. 2025/26:438",
       "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/skarpta-villkor-for-friskolesektorn_hd01ubu30/"
     }
   },
@@ -82,7 +82,7 @@
   },
   {
     "datum": "2026-06-09",
-    "text": "Riksdagen beslutade om ett nytt betygssystem med skalan 1–10 (prop. 2025/26:197). Skollagsändringarna träder i kraft 1 juli 2028; ny betygsskala införs stegvis från höstterminen 2027.",
+    "text": "Riksdagen beslutade om ett nytt betygssystem med skalan 1–10 (prop. 2025/26:197). Skollagsändringarna träder i kraft 2 juli 2028 (SFS 2026:1243); ny betygsskala införs stegvis från höstterminen 2027.",
     "reform_ids": [
       "betyg"
     ],
@@ -93,7 +93,7 @@
   },
   {
     "datum": "2026-06-09",
-    "text": "Riksdagen beslutade om propositionen Tid för undervisningsuppdraget (prop. 2025/26:196). Ikraftträdande stegvis: 1 augusti 2026, 1 juli 2027 och 1 juli 2028 (SFS 2026:1096/1097/1243).",
+    "text": "Riksdagen beslutade om propositionen Tid för undervisningsuppdraget (prop. 2025/26:196). Ikraftträdande stegvis: 1 augusti 2026, 1 juli 2027 och 2 juli 2028 (SFS 2026:1096/1097/1243).",
     "reform_ids": [
       "tid"
     ],
@@ -104,7 +104,7 @@
   },
   {
     "datum": "2026-06-03",
-    "text": "Riksdagen beslutade om förbättrat stöd och stärkt elevhälsa (prop. 2025/26:195). Ikraftträdande 1 juli 2028.",
+    "text": "Riksdagen beslutade om förbättrat stöd och stärkt elevhälsa (prop. 2025/26:195). Ikraftträdande 1 juli 2028 (SFS 2026:1242).",
     "reform_ids": [
       "stod"
     ],
@@ -115,7 +115,7 @@
   },
   {
     "datum": "2026-06-03",
-    "text": "Riksdagen beslutade om nya läroplaner och en tydligare kunskapsinriktning (prop. 2025/26:194). Merparten träder i kraft 1 juli 2028.",
+    "text": "Riksdagen beslutade om nya läroplaner och en tydligare kunskapsinriktning (prop. 2025/26:194). Ikraftträdande 1 juli 2028 (SFS 2026:1242) och 2 juli 2028 (SFS 2026:1243).",
     "reform_ids": [
       "laroplaner"
     ],
@@ -126,7 +126,7 @@
   },
   {
     "datum": "2026-06-03",
-    "text": "Riksdagen beslutade om stärkt trygghet och studiero i skolan (prop. 2025/26:193). Merparten träder i kraft 1 augusti 2026.",
+    "text": "Riksdagen beslutade om stärkt trygghet och studiero i skolan (prop. 2025/26:193). Lagändringarna börjar gälla 1 augusti 2026.",
     "reform_ids": [
       "studiero"
     ],
@@ -148,7 +148,7 @@
   },
   {
     "datum": "2026-05-27",
-    "text": "Riksdagen beslutade om en reformerad yrkesutbildning (prop. 2025/26:198). Entreprenad och rätt att fullfölja träder i kraft 1 juli 2026; övriga ändringar 2 juli 2028.",
+    "text": "Riksdagen beslutade om en reformerad yrkesutbildning (prop. 2025/26:198). Entreprenad och rätt att fullfölja träder i kraft 1 juli 2026; övriga ändringar 1 juli 2028 (SFS 2026:1242) och 2 juli 2028 (SFS 2026:1243).",
     "reform_ids": [
       "yrkes"
     ],

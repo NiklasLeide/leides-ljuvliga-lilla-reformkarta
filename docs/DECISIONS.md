@@ -18,6 +18,29 @@ Record of key decisions made during the project. **Newest first.**
 
 ---
 
+### DEC-020: Relevansregel för spårade utredningar och lagstiftningsärenden
+**Date:** 2026-11-10
+**Decision:** (Niklas beslut 2026-11-10, registrerat i Sprint 14 T4) Utredningar spåras när
+**huvudämnet är skolväsendet, från förskola till komvux, oavsett departement**. Det gäller både
+numrerade kommittédirektiv och departementsuppdrag utan Dir.-nummer (t.ex. U2026/01573). Spåras
+**inte**: högskola, yrkeshögskola, studiemedel och statsbidragsförordningar. Lagstiftningsärenden
+(lagrådsremisser, propositioner) utan reformnod på kartan avförs och listas i rapporten/issue-
+dispositionen, så att avförandet syns.
+**Reasoning:** Sprint 14:s revision visade att departementsfiltret både missade skolrelevanta
+ärenden från andra departement (Dir. 2026:105, Ju-dep) och släppte in sådant som inte hör till
+kartan (yrkeshögskola, statsbidragsförordningar). En ämnesregel är stabilare än en
+departementsregel och kan tillämpas av automatik i Sprint 15 (DEC-019) med människa på
+gränsfallen.
+**Alternatives considered:** Departementsfilter (U-dep) som enda kriterium (missar
+tvärdepartementala skolärenden — känd lucka sedan Sprint 13); spåra allt som nämner skola
+(för brett, kartan tappar fokus).
+**Tillämpat i Sprint 14:** spåras: Dir. 2026:107 (laroplaner), Dir. 2026:105 (brott), U2026/01569
+(yrkes), U2026/01573 (sprak), U2026/01547 (vinst). Avförda: Dir. 2026:121 (yrkeshögskola),
+U2026/01571 (judiska studier, ingen reformnod), lagrådsremissen om utbildning i
+kriminalvårdsanstalt (ingen reformnod), förordning (2026:1751) (statsbidragsförordning).
+
+---
+
 ### DEC-019: Automatnivå — rutinändringar ur riksdagens strukturerade data publiceras utan mänskligt klick
 **Date:** 2026-11-10
 **Decision:** (Niklas beslut 2026-11-10, registrerat Sprint 14 T1) Rutinändringar
