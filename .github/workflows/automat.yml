@@ -64,6 +64,9 @@ jobs:
           FLAGGA=""; [ "$AKTIV" = "true" ] && FLAGGA="--tillampa"
           node scripts/revision/automat.js $FLAGGA --rapport "$RUNNER_TEMP/rapport.json"
           echo "kod=$?" >> "$GITHUB_OUTPUT"
+          # Antal innehållsändringar (regel 1a–1c) — Automatlogg kommenteras bara när det finns sådana;
+          # körningar som enbart sätter senast_kontrollerad (T7) loggas inte, för att inte skapa en notis per vardag.
+          echo "antal=$(node -e "try{process.stdout.write(String(require(process.argv[1]).andringar.length))}catch(e){process.stdout.write('0')}" "$RUNNER_TEMP/rapport.json")" >> "$GITHUB_OUTPUT"
 
       - name: Validering före publicering (regel 6)
         id: validering
@@ -82,7 +85,7 @@ jobs:
           echo "sha=$SHA" >> "$GITHUB_OUTPUT"
 
       - name: Automatlogg (regel 9)
-        if: steps.publicera.outcome == 'success' && steps.publicera.outputs.sha != ''
+        if: steps.publicera.outcome == 'success' && steps.publicera.outputs.sha != '' && steps.automat.outputs.antal != '0'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/revision/automat-github.js logg --rapport "$RUNNER_TEMP/rapport.json" --sha "${{ steps.publicera.outputs.sha }}" --run-url "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"

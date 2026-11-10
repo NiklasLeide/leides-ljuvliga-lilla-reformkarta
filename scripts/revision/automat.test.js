@@ -286,3 +286,36 @@ test('fel vid hämtning → STOPP och ingenting skrivs', async () => {
   assert.match(rap.stopp, /fel vid hämtning/);
   assert.deepEqual(lasAlla(dir), fore);
 });
+
+// ---------------------------- T7: senast_kontrollerad --------------------------
+test('T7: grön körning utan ändringar → bara meta.senast_kontrollerad skrivs; senast_uppdaterad orörd', async () => {
+  const dir = datakatalog();
+  // Datat innehåller redan allt API:t visar: ta bort det som skulle ge ändringar
+  fs.writeFileSync(path.join(dir, 'reforms.json'), JSON.stringify([{ id: 'skolpeng', ref: 'SOU 2025:72', status: 'utredning', transition: 'x' }], null, 2));
+  const tomFetcher = async (url) => (url.includes('doktyp=sou') || url.includes('doktyp=dir') ? { dokumentlista: {} } : fetcher()(url));
+  const fore = lasAlla(dir);
+  const rap = await A.kor({ dataDir: dir, fetcher: tomFetcher, tillampaLage: true, idag: '2026-11-12', delayMs: 0 });
+  assert.equal(rap.stopp, null); assert.equal(rap.andringar.length, 0);
+  assert.equal(rap.commit, 'automat: senast kontrollerad 2026-11-12');
+  const meta = JSON.parse(fs.readFileSync(path.join(dir, 'meta.json'), 'utf8'));
+  assert.deepEqual(meta, { senast_uppdaterad: '2026-11-01', senast_kontrollerad: '2026-11-12' });
+  for (const f of ['reforms.json', 'utredningar.json', 'andringar.json']) assert.equal(lasAlla(dir)[f], fore[f]);
+});
+
+test('T7: torrkörning skriver inte senast_kontrollerad', async () => {
+  const dir = datakatalog(); const fore = lasAlla(dir);
+  await A.kor({ dataDir: dir, fetcher: fetcher(), idag: '2026-11-12', delayMs: 0 });
+  assert.equal(lasAlla(dir)['meta.json'], fore['meta.json']);
+});
+
+test('T7: grön körning med ändringar → både senast_uppdaterad och senast_kontrollerad = idag', async () => {
+  const dir = datakatalog();
+  await A.kor({ dataDir: dir, fetcher: fetcher(), tillampaLage: true, idag: '2026-11-12', delayMs: 0 });
+  assert.deepEqual(JSON.parse(fs.readFileSync(path.join(dir, 'meta.json'), 'utf8')), { senast_uppdaterad: '2026-11-12', senast_kontrollerad: '2026-11-12' });
+});
+
+test('T7: STOPP skriver inte heller senast_kontrollerad (bara gröna körningar)', async () => {
+  const dir = datakatalog(); const fore = lasAlla(dir);
+  await A.kor({ dataDir: dir, fetcher: async (u) => { if (u.includes('doktyp=sou')) throw new Error('HTTP 503'); return fetcher()(u); }, tillampaLage: true, idag: '2026-11-12', delayMs: 0 });
+  assert.equal(lasAlla(dir)['meta.json'], fore['meta.json']);
+});

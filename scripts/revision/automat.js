@@ -15,7 +15,7 @@
 //  1c Spårad utredning: nytt betänkande (SOU-nr, titel, typ ur titelsidan, riksdagens datum).
 //     Utredningens status ändras inte. Finns en betänkanderad utan nummer → veckorutinen.
 //  1d Följdändringar: andringar-post (märkt "Hämtat automatiskt från riksdagens öppna data.") och
-//     meta.json senast_uppdaterad. Ingen andringar-post för händelser före loggens första datum.
+//     meta.json senast_uppdaterad. Varje grön körning i tillämpningsläge sätter senast_kontrollerad (T7). Ingen andringar-post för händelser före loggens första datum.
 //  2  Aldrig: SFS, ikraftträdanden, övergångsbestämmelser, nya poster, strykningar, fritext.
 //  3  Ett ifyllt värde skrivs aldrig över (utom statusbytet i 1a). Upprätthålls av vakt() som jämför
 //     filerna före och efter — allt utanför de tillåtna ändringarna stoppar körningen.
@@ -235,6 +235,7 @@ function tillampa(filer, plan, idag) {
   }
   const allaAndringar = nyaPoster.concat(andringar).sort((x, y) => (x.datum < y.datum ? 1 : x.datum > y.datum ? -1 : 0));
   if (plan.andringar.length) meta.senast_uppdaterad = idag;
+  meta.senast_kontrollerad = idag; // T7: varje grön körning (bara tillämpningsläget skriver filen)
   return { reforms, utredningarText: utrText, andringar: allaAndringar, meta, nyaPoster };
 }
 
@@ -310,16 +311,19 @@ async function kor({ dataDir, fetcher, tillampaLage = false, idag, delayMs }) {
   const brott = vakt(fore, efter);
   if (brott.length) { rapport.stopp = 'vakt: ' + brott.join('; '); return rapport; }
   rapport.nya_andringar_poster = efter.nyaPoster;
-  if (tillampaLage && plan.andringar.length) {
-    skriv(dataDir, 'reforms.json', efter.reforms, fore.reformsText);
-    fs.writeFileSync(path.join(dataDir, 'utredningar.json'), efter.utredningarText);
-    skriv(dataDir, 'andringar.json', efter.andringar, fore.andringarText);
+  if (tillampaLage) {
+    if (plan.andringar.length) {
+      skriv(dataDir, 'reforms.json', efter.reforms, fore.reformsText);
+      fs.writeFileSync(path.join(dataDir, 'utredningar.json'), efter.utredningarText);
+      skriv(dataDir, 'andringar.json', efter.andringar, fore.andringarText);
+    }
+    // T7: meta.json skrivs vid varje grön körning (senast_kontrollerad), även utan innehållsändringar.
     skriv(dataDir, 'meta.json', efter.meta, fore.metaText);
     rapport.skrivet = true;
   }
   rapport.commit = plan.andringar.length
-    ? `automat: ${plan.andringar.map(a => `${a.post} ${a.regel === '1a' ? 'beslutad' : a.regel === '1b' ? a.nytt.nr : a.nytt.nr}`).join(', ')}`
-    : null;
+    ? `automat: ${plan.andringar.map(a => `${a.post} ${a.regel === '1a' ? 'beslutad' : a.nytt.nr}`).join(', ')}`
+    : `automat: senast kontrollerad ${idag}`;
   return rapport;
 }
 
