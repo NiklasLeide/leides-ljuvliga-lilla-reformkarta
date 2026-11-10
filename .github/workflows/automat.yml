@@ -23,10 +23,6 @@ on:
         type: choice
         options: [torr, tillampa]
         default: torr
-  # TILLFÄLLIG (Sprint 15 T4): provkörning av kedjan i torrläge från dev. Tas bort efter T4.
-  push:
-    branches: [dev]
-    paths: ['docs/automat/automat-prov.txt']
 
 permissions:
   contents: write
@@ -46,8 +42,7 @@ jobs:
     steps:
       - uses: actions/checkout@v6
         with:
-          # Vid provkörning (push på dev) checkas den pushade commiten ut; annars master.
-          ref: ${{ github.event_name == 'push' && github.sha || 'master' }}
+          ref: master
           fetch-depth: 0
 
       - uses: actions/setup-node@v5

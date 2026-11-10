@@ -5,6 +5,7 @@ Types: `feat` | `fix` | `refactor` | `docs` | `chore` | `perf`
 
 ---
 
+[2026-11-10] chore: Sprint 15 T4 (del 2) — provkörning av automat.yml i torrläge grön i Actions (run 42839921434: 114/114 tester, render 8/8, publicering/stopp skipped). Tillfällig push-trigger och provfil borttagna; checkout = master.
 [2026-11-10] feat: Sprint 15 T4 (del 1) — .github/workflows/automat.yml (vardagar 05:23 UTC + workflow_dispatch): automatfilen → JSON-validering + testsvit + render-test.js (regel 6) → automat-publicera.sh (commit "automat: …" med käll-URL:er, push master, dev snabbspolas/mergas, bara data/) → Automatlogg-kommentar (regel 9); stopp/fel → automat-stopp-issue (regel 7); AUTOMAT_AKTIV styr (regel 8, MAINTENANCE.md). Nya skript med tester: render-test.js, automat-publicera.sh (6 tester mot lokala git-repon), automat-github.js (4 tester, fejkad fetch). Tillfällig push-trigger på dev för provkörning i torrläge.
 [2026-11-10] fix: Sprint 15 T3 — backtestrapporten (docs/automat/backtest.md + backtest-rapport.json) saknades i T3-commiten: katalogen docs/automat/ hade försvunnit med provfilerna i T0. Nu incheckad.
 [2026-11-10] docs: Sprint 15 T3 — backtest av automatfilen mot data ur 37c2616 (docs/automat/backtest.md): 5/5 föreslagna ändringar är RUTIN-rader i Sprint 14-listan och byte-identiska med handpatchen, 0 BEDÖMNING, 0 överskrivningar.
