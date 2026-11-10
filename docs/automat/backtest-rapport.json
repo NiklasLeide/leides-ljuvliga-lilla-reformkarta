@@ -1,0 +1,166 @@
+{
+  "datum": "2026-11-10",
+  "lage": "torr",
+  "andringar": [
+    {
+      "regel": "1c",
+      "fil": "utredningar.json",
+      "post": "utr-skolpeng",
+      "falt": "betankanden (ny rad)",
+      "nuvarde": null,
+      "nytt": {
+        "nr": "SOU 2026:65",
+        "titel": "Verktyg för en mer likvärdig resursfördelning",
+        "typ": "slut",
+        "datum": "2026-10-29"
+      },
+      "kalla_url": "https://data.riksdagen.se/dokument/HEB365.html",
+      "andringar_post": {
+        "datum": "2026-10-29",
+        "text": "Slutbetänkandet SOU 2026:65 (Verktyg för en mer likvärdig resursfördelning) från Utredningen om en nationell skolpengsnorm för ökad likvärdighet publicerades. Hämtat automatiskt från riksdagens öppna data.",
+        "reform_ids": [
+          "skolpeng"
+        ],
+        "kalla": {
+          "text": "SOU 2026:65",
+          "url": "https://data.riksdagen.se/dokument/HEB365.html"
+        }
+      }
+    },
+    {
+      "regel": "1b",
+      "fil": "utredningar.json",
+      "post": "utr-skolplikt",
+      "falt": "direktiv (ny rad)",
+      "nuvarde": null,
+      "nytt": {
+        "nr": "Dir. 2026:117",
+        "datum": "2026-09-03",
+        "typ": "tilläggs",
+        "titel": "Tilläggsdirektiv till Utredningen om tydligare regler vid undantag från skolplikten"
+      },
+      "kalla_url": "https://data.riksdagen.se/dokument/HEB1117.html",
+      "andringar_post": {
+        "datum": "2026-09-03",
+        "text": "Regeringen beslutade tilläggsdirektiv till Utredningen om tydligare regler vid undantag från skolplikten (Dir. 2026:117). Hämtat automatiskt från riksdagens öppna data.",
+        "reform_ids": [],
+        "kalla": {
+          "text": "Dir. 2026:117",
+          "url": "https://data.riksdagen.se/dokument/HEB1117.html"
+        }
+      }
+    },
+    {
+      "regel": "1b",
+      "fil": "utredningar.json",
+      "post": "utr-aldersgrans-sociala-medier",
+      "falt": "direktiv (ny rad)",
+      "nuvarde": null,
+      "nytt": {
+        "nr": "Dir. 2026:123",
+        "datum": "2026-10-22",
+        "typ": "tilläggs",
+        "titel": "Tilläggsdirektiv till Utredningen om en åldersgräns på sociala medier"
+      },
+      "kalla_url": "https://data.riksdagen.se/dokument/HEB1123.html",
+      "andringar_post": {
+        "datum": "2026-10-22",
+        "text": "Regeringen beslutade tilläggsdirektiv till Utredningen om en åldersgräns på sociala medier (Dir. 2026:123). Hämtat automatiskt från riksdagens öppna data.",
+        "reform_ids": [],
+        "kalla": {
+          "text": "Dir. 2026:123",
+          "url": "https://data.riksdagen.se/dokument/HEB1123.html"
+        }
+      }
+    },
+    {
+      "regel": "1b",
+      "fil": "utredningar.json",
+      "post": "utr-barnungdomsvard-reform",
+      "falt": "direktiv (ny rad)",
+      "nuvarde": null,
+      "nytt": {
+        "nr": "Dir. 2025:95",
+        "datum": "2025-10-30",
+        "typ": "tilläggs",
+        "titel": "Tilläggsdirektiv till utredningen En reform av den statliga barn- och ungdomsvården för en trygg och kvalitativ vård"
+      },
+      "kalla_url": "https://data.riksdagen.se/dokument/HDB195.html",
+      "andringar_post": {
+        "datum": "2025-10-30",
+        "text": "Regeringen beslutade tilläggsdirektiv till Utredningen om en reform av den statliga barn- och ungdomsvården för en trygg och kvalitativ vård (Dir. 2025:95). Hämtat automatiskt från riksdagens öppna data.",
+        "reform_ids": [],
+        "kalla": {
+          "text": "Dir. 2025:95",
+          "url": "https://data.riksdagen.se/dokument/HDB195.html"
+        }
+      }
+    },
+    {
+      "regel": "1b",
+      "fil": "utredningar.json",
+      "post": "utr-grundlaggande-svenska",
+      "falt": "direktiv (ny rad)",
+      "nuvarde": null,
+      "nytt": {
+        "nr": "Dir. 2024:72",
+        "datum": "2024-08-22",
+        "typ": "tilläggs",
+        "titel": "Tilläggsdirektiv till Utredningen om införande av grundläggande svenska och översyn av modersmålsundervisningen"
+      },
+      "kalla_url": "https://data.riksdagen.se/dokument/HCB172.html",
+      "andringar_post": {
+        "datum": "2024-08-22",
+        "text": "Regeringen beslutade tilläggsdirektiv till Utredningen om införande av grundläggande svenska och översyn av modersmålsundervisningen (Dir. 2024:72). Hämtat automatiskt från riksdagens öppna data.",
+        "reform_ids": [],
+        "kalla": {
+          "text": "Dir. 2024:72",
+          "url": "https://data.riksdagen.se/dokument/HCB172.html"
+        }
+      }
+    }
+  ],
+  "veckorutin": [
+    {
+      "post": "utr-vinst",
+      "regel": "1c",
+      "url": "https://data.riksdagen.se/dokument/HDB337.html",
+      "skal": "SOU 2025:37: utredningen har en betänkanderad utan nummer — kan vara samma betänkande"
+    }
+  ],
+  "fel": [],
+  "stopp": null,
+  "skrivet": false,
+  "nya_andringar_poster": [
+    {
+      "datum": "2026-10-29",
+      "text": "Slutbetänkandet SOU 2026:65 (Verktyg för en mer likvärdig resursfördelning) från Utredningen om en nationell skolpengsnorm för ökad likvärdighet publicerades. Hämtat automatiskt från riksdagens öppna data.",
+      "reform_ids": [
+        "skolpeng"
+      ],
+      "kalla": {
+        "text": "SOU 2026:65",
+        "url": "https://data.riksdagen.se/dokument/HEB365.html"
+      }
+    },
+    {
+      "datum": "2026-09-03",
+      "text": "Regeringen beslutade tilläggsdirektiv till Utredningen om tydligare regler vid undantag från skolplikten (Dir. 2026:117). Hämtat automatiskt från riksdagens öppna data.",
+      "reform_ids": [],
+      "kalla": {
+        "text": "Dir. 2026:117",
+        "url": "https://data.riksdagen.se/dokument/HEB1117.html"
+      }
+    },
+    {
+      "datum": "2026-10-22",
+      "text": "Regeringen beslutade tilläggsdirektiv till Utredningen om en åldersgräns på sociala medier (Dir. 2026:123). Hämtat automatiskt från riksdagens öppna data.",
+      "reform_ids": [],
+      "kalla": {
+        "text": "Dir. 2026:123",
+        "url": "https://data.riksdagen.se/dokument/HEB1123.html"
+      }
+    }
+  ],
+  "commit": "automat: utr-skolpeng SOU 2026:65, utr-skolplikt Dir. 2026:117, utr-aldersgrans-sociala-medier Dir. 2026:123, utr-barnungdomsvard-reform Dir. 2025:95, utr-grundlaggande-svenska Dir. 2024:72"
+}
