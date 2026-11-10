@@ -1,0 +1,670 @@
+{
+ "_meta": {
+  "steg": "R1 redaktionell koppling mellan utredningsförslag och propositionsavsnitt (Sprint 17, ämnesmatchning mot propositionens rutor och rubriker)",
+  "redaktionell": true,
+  "matchningstyper": [
+   "förslagsruta",
+   "avsnittsnivå",
+   "osäker ämnesmatchning",
+   "övergripande avsnitt, detalj ej behandlad",
+   "ingen"
+  ]
+ },
+ "forslag": [
+  {
+   "id": "F01",
+   "propositionsavsnitt": [
+    "143:6.1"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Regeringens förslag i prop. 143 avsnitt 6.1: förskoleklassen upphör och grundskolan, anpassade grundskolan, specialskolan och sameskolan utökas med en ny årskurs 1; lågstadiet blir årskurs 1–4 (1–5 i specialskolan). Utredningens förslag överensstämmer med regeringens.",
+   "rubriker": [
+    "6.1 Förskoleklassen ersätts av en ny årskurs 1 i lågstadiet",
+    "Regeringens förslag",
+    "Utredningens förslag"
+   ]
+  },
+  {
+   "id": "F02",
+   "propositionsavsnitt": [
+    "143:6.3"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Regeringens förslag i avsnitt 6.3 anger att bestämmelserna om bl.a. utbildningens syfte ska gälla även nya årskurs 1; skälen behandlar att syftet kvarstår. Utredningens förslag överensstämmer.",
+   "rubriker": [
+    "6.3 Den nya första årskursen ska vara en integrerad del av skolan",
+    "Regeringens förslag",
+    "Utredningens förslag",
+    "Syftet med utbildningen i grundskolan och motsvarande skolformer kvarstår"
+   ]
+  },
+  {
+   "id": "F03",
+   "propositionsavsnitt": [
+    "143:6.3"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Bestämmelser om ämnen och ämnesområden ska gälla nya årskurs 1 (regeringens förslag i avsnitt 6.3); att undervisningen ska variera i uttrycksform och arbetssätt och introducera eleverna till skolmiljön motsvaras av regeringens bedömning i samma avsnitt.",
+   "rubriker": [
+    "6.3 Den nya första årskursen ska vara en integrerad del av skolan",
+    "Regeringens förslag",
+    "Regeringens bedömning",
+    "Utredningens förslag",
+    "Undervisningen i nya årskurs 1 ska ske i ämnen och ämnesområden"
+   ]
+  },
+  {
+   "id": "F04",
+   "propositionsavsnitt": [
+    "143:6.2"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Utökningen av den garanterade undervisningstiden med 534 timmar finns i regeringens förslag i avsnitt 6.2 (överensstämmer med utredningens). Timplanerna och uppdraget till Skolverket om fördelning i ämnen behandlas inte i rutan; timplanen nämns bara som förordningsreglering i skälen.",
+   "rubriker": [
+    "6.2 Den garanterade undervisningstiden utökas",
+    "Regeringens förslag",
+    "Utredningens förslag"
+   ]
+  },
+  {
+   "id": "F05",
+   "propositionsavsnitt": [
+    "143:6.3"
+   ],
+   "matchning": "övergripande avsnitt, detalj ej behandlad",
+   "grund": "Avsnitt 6.3 (regeringens bedömning) säger att utbildningen i nya årskurs 1 bör präglas av variation, lek och rörelse och att detta kan främjas genom bl.a. skrivningar i läroplaner, men att det hanteras i föreskrifter utanför propositionen. Uppdraget till Skolverket om läroplansändringar behandlas inte.",
+   "rubriker": [
+    "6.3 Den nya första årskursen ska vara en integrerad del av skolan",
+    "Regeringens bedömning",
+    "Undervisningen i nya årskurs 1 ska ske i ämnen och ämnesområden"
+   ]
+  },
+  {
+   "id": "F06",
+   "propositionsavsnitt": [
+    "143:6.4.2"
+   ],
+   "matchning": "avsnittsnivå",
+   "grund": "Avsnitt 6.4.2 utgår från kriterier för bedömning av kunskaper i nya årskurs 2 (årskurs 3 i specialskolan) och skälen anger att kriterier och bedömningsstöd ska användas det andra skolåret. Själva kunskapskraven och uppdraget till Skolverket fastställs inte i propositionen.",
+   "rubriker": [
+    "6.4.2 Garantin för tidiga stödinsatser ska fortsätta gälla i lågstadiet",
+    "Regeringens förslag",
+    "Garantin för tidiga stödinsatser behöver även i övrigt anpassas till det utvidgade lågstadiet..."
+   ]
+  },
+  {
+   "id": "F07",
+   "propositionsavsnitt": [
+    "143:6.4.2"
+   ],
+   "matchning": "osäker ämnesmatchning",
+   "grund": "Regeringens förslag i avsnitt 6.4.2 hänvisar till kriterierna för årskurs 4 (årskurs 5 i specialskolan), vilket förutsätter att nuvarande kunskapskrav i årskurs 3 flyttas. Flytten av kunskapskraven till årskurs 7 och 10 (och specialskolans 8 och 11) behandlas inte.",
+   "rubriker": [
+    "6.4.2 Garantin för tidiga stödinsatser ska fortsätta gälla i lågstadiet",
+    "Regeringens förslag"
+   ]
+  },
+  {
+   "id": "F08",
+   "propositionsavsnitt": [
+    "143:6.4.2"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Regeringens förslag i avsnitt 6.4.2: bemyndigandet justeras så att nationella kartläggningsmaterial används i nya årskurs 1 (även för elever som läser enligt anpassade grundskolans kursplaner). Utredningens förslag överensstämmer i huvudsak. Revideringen av kartläggningsmaterialet behandlas inte.",
+   "rubriker": [
+    "6.4.2 Garantin för tidiga stödinsatser ska fortsätta gälla i lågstadiet",
+    "Regeringens förslag",
+    "Utredningens förslag",
+    "Kartläggningen i dagens förskoleklass ska i stället göras i nya årskurs 1"
+   ]
+  },
+  {
+   "id": "F09",
+   "propositionsavsnitt": [
+    "143:6.4.2"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Regeringens förslag i avsnitt 6.4.2: skyldighet att använda nationella bedömningsstöd i årskurs 2 i grundskolan och sameskolan, årskurs 3 i specialskolan och årskurs 2 och 4 i anpassade grundskolan. Utredningens förslag överensstämmer i huvudsak.",
+   "rubriker": [
+    "6.4.2 Garantin för tidiga stödinsatser ska fortsätta gälla i lågstadiet",
+    "Regeringens förslag",
+    "Utredningens förslag"
+   ]
+  },
+  {
+   "id": "F10",
+   "propositionsavsnitt": [],
+   "matchning": "ingen",
+   "grund": "De nationella provens årskurser behandlas inte i propositionen; skyldigheten att delta i nationella prov nämns bara som nuvarande reglering (avsnitt 6.4.1, som inte har någon förslagsruta).",
+   "rubriker": []
+  },
+  {
+   "id": "F11",
+   "propositionsavsnitt": [
+    "143:6.4.2"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Regeringens förslag i avsnitt 6.4.2: garantin för tidiga stödinsatser anpassas till lågstadiet och uppföljningen av extra anpassningar görs i slutet av lågstadiet. Utredningens förslag överensstämmer i huvudsak (omfattade inte anpassade grundskolan).",
+   "rubriker": [
+    "6.4.2 Garantin för tidiga stödinsatser ska fortsätta gälla i lågstadiet",
+    "Regeringens förslag",
+    "Utredningens förslag"
+   ]
+  },
+  {
+   "id": "F12",
+   "propositionsavsnitt": [
+    "143:6.3"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Regeringens förslag i avsnitt 6.3 nämner uttryckligen utvecklingssamtal och individuella utvecklingsplaner för nya årskurs 1. Utredningens förslag överensstämmer.",
+   "rubriker": [
+    "6.3 Den nya första årskursen ska vara en integrerad del av skolan",
+    "Regeringens förslag",
+    "Utredningens förslag",
+    "Befintliga bestämmelser om utvecklingssamtal och individuella utvecklingsplaner ska även omfatta nya årskurs 1"
+   ]
+  },
+  {
+   "id": "F13",
+   "propositionsavsnitt": [
+    "143:6.5"
+   ],
+   "matchning": "avsnittsnivå",
+   "grund": "Skälen i avsnitt 6.5 (följdändringar) behandlar att skolplikten ska börja fullgöras i grundskolan eller motsvarande skolform i stället för i förskoleklassen och att uppskjuten skolplikt och tidigare skolstart inte ändras. Rutan nämner bara följdändringar i allmänhet.",
+   "rubriker": [
+    "6.5 Följdändringar i skollagen och andra lagar",
+    "Regeringens förslag",
+    "Införandet av en tioårig grundskola kräver en lång rad följdändringar i skollagen"
+   ]
+  },
+  {
+   "id": "F14",
+   "propositionsavsnitt": [
+    "143:6.1"
+   ],
+   "matchning": "avsnittsnivå",
+   "grund": "Skälen i avsnitt 6.1 behandlar att barn i anpassade grundskolans och specialskolans målgrupper kan börja fullgöra skolplikten direkt i skolformen, utredning före mottagande och integrerade elever. Uppdraget till Skolverket om stödmaterial behandlas inte.",
+   "rubriker": [
+    "6.1 Förskoleklassen ersätts av en ny årskurs 1 i lågstadiet",
+    "En samlad skolgång är särskilt positiv för elever i den anpassade grundskolan...",
+    "... och även för elever i specialskolan"
+   ]
+  },
+  {
+   "id": "F15",
+   "propositionsavsnitt": [
+    "143:7.2"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Regeringens förslag i avsnitt 7.2: förskoleenheten eller verksamheten ska överlämna uppgifter till den mottagande skolenheten. Utredningens förslag överensstämmer huvudsakligen (\"När\" i stället för \"Inför eller i samband med att\").",
+   "rubriker": [
+    "7.2 Uppgifter ska överlämnas från förskola till skola för att underlätta skolstarten för barnet",
+    "Regeringens förslag",
+    "Utredningens förslag"
+   ]
+  },
+  {
+   "id": "F16",
+   "propositionsavsnitt": [
+    "143:7.2"
+   ],
+   "matchning": "osäker ämnesmatchning",
+   "grund": "Avsnitt 7.2 nämner läroplanernas krav på samverkan vid övergångar och att Skolverkets stödmaterial om överlämning behöver uppdateras. Uppdraget om reviderade läroplaner i delarna övergång och samverkan behandlas inte.",
+   "rubriker": [
+    "7.2 Uppgifter ska överlämnas från förskola till skola för att underlätta skolstarten för barnet"
+   ]
+  },
+  {
+   "id": "F17",
+   "propositionsavsnitt": [
+    "143:6.3"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Regeringens förslag i avsnitt 6.3 nämner modersmålsundervisning för nya årskurs 1. Utredningens förslag överensstämmer.",
+   "rubriker": [
+    "6.3 Den nya första årskursen ska vara en integrerad del av skolan",
+    "Regeringens förslag",
+    "Utredningens förslag",
+    "Befintliga bestämmelser om modersmålsundervisning ska även omfatta nya årskurs 1"
+   ]
+  },
+  {
+   "id": "F18",
+   "propositionsavsnitt": [
+    "143:6.3"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Regeringens förslag i avsnitt 6.3 nämner särskilt stöd för nya årskurs 1. Utredningens förslag överensstämmer.",
+   "rubriker": [
+    "6.3 Den nya första årskursen ska vara en integrerad del av skolan",
+    "Regeringens förslag",
+    "Utredningens förslag",
+    "Befintliga bestämmelser om särskilt stöd ska även omfatta nya årskurs 1"
+   ]
+  },
+  {
+   "id": "F19",
+   "propositionsavsnitt": [
+    "143:6.5"
+   ],
+   "matchning": "avsnittsnivå",
+   "grund": "Skälen i avsnitt 6.5 behandlar ändrad definition av nyanländ (höstterminen det kalenderår eleven fyller sex år) och bedömning av kunskaper för elever som bott utomlands. Rutan nämner bara följdändringar i skollagen.",
+   "rubriker": [
+    "6.5 Följdändringar i skollagen och andra lagar",
+    "Regeringens förslag",
+    "Införandet av en tioårig grundskola kräver en lång rad följdändringar i skollagen"
+   ]
+  },
+  {
+   "id": "F20",
+   "propositionsavsnitt": [
+    "143:6.3"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Regeringens förslag i avsnitt 6.3 nämner disciplinära åtgärder för nya årskurs 1; skälen behandlar avstängning, utvisning och kvarsittning. Utredningens förslag överensstämmer.",
+   "rubriker": [
+    "6.3 Den nya första årskursen ska vara en integrerad del av skolan",
+    "Regeringens förslag",
+    "Utredningens förslag",
+    "Befintliga bestämmelser om disciplinära åtgärder ska även omfatta nya årskurs 1"
+   ]
+  },
+  {
+   "id": "F21",
+   "propositionsavsnitt": [
+    "143:6.3"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Regeringens förslag i avsnitt 6.3 nämner fjärrundervisning för nya årskurs 1. Utredningens förslag överensstämmer.",
+   "rubriker": [
+    "6.3 Den nya första årskursen ska vara en integrerad del av skolan",
+    "Regeringens förslag",
+    "Utredningens förslag",
+    "Befintliga bestämmelser om fjärr- och distansundervisning ska även omfatta nya årskurs 1"
+   ]
+  },
+  {
+   "id": "F22",
+   "propositionsavsnitt": [
+    "143:10"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Ikraftträdandet behandlas i regeringens förslag i avsnitt 10; enligt propositionen stämmer utredningens förslag delvis överens (regeringen: ikraftträdande 1 juli 2026, tillämpning efter 30 juni 2028, 3 kap. 12 j § från 1 januari 2028).",
+   "rubriker": [
+    "10 Ikraftträdande- och övergångsbestämmelser",
+    "Regeringens förslag",
+    "Utredningens förslag",
+    "En tioårig grundskola kräver omfattande förberedelser och bör införas läsåret 2028/29"
+   ]
+  },
+  {
+   "id": "F23",
+   "propositionsavsnitt": [
+    "143:10"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Befintliga godkännanden av enskilda huvudmän behandlas i regeringens förslag i avsnitt 10; regeringen avvisar utredningens ansökningsförfarande och låter godkännande för årskurs 1 även gälla nya årskurs 1.",
+   "rubriker": [
+    "10 Ikraftträdande- och övergångsbestämmelser",
+    "Regeringens förslag",
+    "Utredningens förslag",
+    "Befintliga godkännanden av enskilda som huvudmän för grundskola och anpassad grundskola ska respekteras"
+   ]
+  },
+  {
+   "id": "F24",
+   "propositionsavsnitt": [
+    "143:10"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Regeringens förslag i avsnitt 10: äldre bestämmelser om rätt att gå kvar vid en skolenhet fortsätter att gälla för elever i förskoleklassen läsåret 2027/28 (utredningen: 2025/26).",
+   "rubriker": [
+    "10 Ikraftträdande- och övergångsbestämmelser",
+    "Regeringens förslag",
+    "Äldre bestämmelser om rätt att gå kvar vid en skolenhet ska fortsätta att gälla för elever som har tagits emot i förskoleklassen läsåret 2027/28"
+   ]
+  },
+  {
+   "id": "F25",
+   "propositionsavsnitt": [
+    "143:10"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Regeringens förslag i avsnitt 10: färdighetsprov i musik får inte användas som villkor för fortsatt utbildning för elev som tagits emot i förskoleklassen läsåret 2027/28.",
+   "rubriker": [
+    "10 Ikraftträdande- och övergångsbestämmelser",
+    "Regeringens förslag",
+    "Färdighetsprov i musik ska inte få användas om en elev har tagits emot i förskoleklassen efter färdighetsprov läsåret 2027/28"
+   ]
+  },
+  {
+   "id": "F26",
+   "propositionsavsnitt": [
+    "143:10"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Regeringens förslag i avsnitt 10: en elev som gått i förskoleklassen läsåret 2027/28 börjar direkt i årskurs 2, om inte annat beslutas. Enligt Utredningens förslag-delen föreslog utredningen inga bestämmelser om hur elever i det gamla systemet ska fortsätta.",
+   "rubriker": [
+    "10 Ikraftträdande- och övergångsbestämmelser",
+    "Regeringens förslag",
+    "Utredningens förslag"
+   ]
+  },
+  {
+   "id": "F27",
+   "propositionsavsnitt": [
+    "143:10"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Regeringens förslag i avsnitt 10: äldre bestämmelser om tystnadsplikt fortsätter att gälla för uppgifter som hänför sig till förskoleklassen.",
+   "rubriker": [
+    "10 Ikraftträdande- och övergångsbestämmelser",
+    "Regeringens förslag",
+    "Äldre bestämmelser om sekretess och tystnadsplikt ska fortsätta att gälla för uppgifter som hänför sig till förskoleklassen"
+   ]
+  },
+  {
+   "id": "F28",
+   "propositionsavsnitt": [
+    "143:10"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Regeringens förslag i avsnitt 10: övergångsbestämmelse i offentlighets- och sekretesslagen om att äldre bestämmelser gäller för uppgifter som hänför sig till förskoleklassen.",
+   "rubriker": [
+    "10 Ikraftträdande- och övergångsbestämmelser",
+    "Regeringens förslag",
+    "Äldre bestämmelser om sekretess och tystnadsplikt ska fortsätta att gälla för uppgifter som hänför sig till förskoleklassen"
+   ]
+  },
+  {
+   "id": "F29",
+   "propositionsavsnitt": [
+    "143:10"
+   ],
+   "matchning": "övergripande avsnitt, detalj ej behandlad",
+   "grund": "Skälen i avsnitt 10 återger utredningens förslag om att lärare som är behöriga i lågstadiet ska vara behöriga i nya årskurs 1, men regeringen avser att reglera behörigheten på förordningsnivå och tar inte ställning till de enskilda behörighetsreglerna.",
+   "rubriker": [
+    "10 Ikraftträdande- och övergångsbestämmelser",
+    "Det behöver inte införas några övergångsbestämmelser till skollagen i fråga om legitimation och behörighet att undervisa som lärare"
+   ]
+  },
+  {
+   "id": "F30",
+   "propositionsavsnitt": [
+    "143:10"
+   ],
+   "matchning": "övergripande avsnitt, detalj ej behandlad",
+   "grund": "Skälen i avsnitt 10 nämner att utredningen föreslår att vissa förskollärare under en övergångsperiod ska vara behöriga i nya årskurs 1; regeringen avser att reglera behörigheten på förordningsnivå. Den femåriga övergångsbehörigheten i grundskolan och sameskolan behandlas inte.",
+   "rubriker": [
+    "10 Ikraftträdande- och övergångsbestämmelser",
+    "Det behöver inte införas några övergångsbestämmelser till skollagen i fråga om legitimation och behörighet att undervisa som lärare"
+   ]
+  },
+  {
+   "id": "F31",
+   "propositionsavsnitt": [
+    "143:10"
+   ],
+   "matchning": "övergripande avsnitt, detalj ej behandlad",
+   "grund": "Skälen i avsnitt 10 nämner övergångsbehörighet för vissa förskollärare men hänvisar behörighetsfrågan till förordningsnivå; övergångsbehörigheten i anpassade grundskolan (åtta respektive fem år) behandlas inte.",
+   "rubriker": [
+    "10 Ikraftträdande- och övergångsbestämmelser",
+    "Det behöver inte införas några övergångsbestämmelser till skollagen i fråga om legitimation och behörighet att undervisa som lärare"
+   ]
+  },
+  {
+   "id": "F32",
+   "propositionsavsnitt": [
+    "143:10"
+   ],
+   "matchning": "övergripande avsnitt, detalj ej behandlad",
+   "grund": "Skälen i avsnitt 10 nämner övergångsbehörighet för vissa förskollärare men hänvisar behörighetsfrågan till förordningsnivå; behörigheten i specialskolan behandlas inte.",
+   "rubriker": [
+    "10 Ikraftträdande- och övergångsbestämmelser",
+    "Det behöver inte införas några övergångsbestämmelser till skollagen i fråga om legitimation och behörighet att undervisa som lärare"
+   ]
+  },
+  {
+   "id": "F33",
+   "propositionsavsnitt": [
+    "143:10"
+   ],
+   "matchning": "övergripande avsnitt, detalj ej behandlad",
+   "grund": "Skälen i avsnitt 10 hänvisar behörighetsfrågan till förordningsnivå; övergångsbehörigheten som speciallärare i årskurs 1 behandlas inte.",
+   "rubriker": [
+    "10 Ikraftträdande- och övergångsbestämmelser",
+    "Det behöver inte införas några övergångsbestämmelser till skollagen i fråga om legitimation och behörighet att undervisa som lärare"
+   ]
+  },
+  {
+   "id": "F34",
+   "propositionsavsnitt": [
+    "143:10"
+   ],
+   "matchning": "övergripande avsnitt, detalj ej behandlad",
+   "grund": "Skälen i avsnitt 10 nämner att vissa förskollärare enligt utredningen ska kunna få viss behörighet genom kompletterande utbildning, men regeringen avser att reglera detta på förordningsnivå; behörigheten i årskurs 1 och 2 behandlas inte i sak.",
+   "rubriker": [
+    "10 Ikraftträdande- och övergångsbestämmelser",
+    "Det behöver inte införas några övergångsbestämmelser till skollagen i fråga om legitimation och behörighet att undervisa som lärare"
+   ]
+  },
+  {
+   "id": "F35",
+   "propositionsavsnitt": [
+    "143:10"
+   ],
+   "matchning": "övergripande avsnitt, detalj ej behandlad",
+   "grund": "Skälen i avsnitt 10 nämner komplettering till behörighet för förskollärare men hänvisar till förordningsnivå; behörigheten i anpassade grundskolans årskurs 1 och 2 behandlas inte.",
+   "rubriker": [
+    "10 Ikraftträdande- och övergångsbestämmelser",
+    "Det behöver inte införas några övergångsbestämmelser till skollagen i fråga om legitimation och behörighet att undervisa som lärare"
+   ]
+  },
+  {
+   "id": "F36",
+   "propositionsavsnitt": [
+    "143:10"
+   ],
+   "matchning": "övergripande avsnitt, detalj ej behandlad",
+   "grund": "Skälen i avsnitt 10 nämner komplettering till behörighet för förskollärare men hänvisar till förordningsnivå; behörigheten i specialskolans årskurs 1 och 2 behandlas inte.",
+   "rubriker": [
+    "10 Ikraftträdande- och övergångsbestämmelser",
+    "Det behöver inte införas några övergångsbestämmelser till skollagen i fråga om legitimation och behörighet att undervisa som lärare"
+   ]
+  },
+  {
+   "id": "F37",
+   "propositionsavsnitt": [
+    "143:10"
+   ],
+   "matchning": "övergripande avsnitt, detalj ej behandlad",
+   "grund": "Skälen i avsnitt 10 nämner komplettering till behörighet för förskollärare men hänvisar till förordningsnivå; ämnesbehörighet i årskurs 1–4 genom kompletterande högskoleutbildning behandlas inte.",
+   "rubriker": [
+    "10 Ikraftträdande- och övergångsbestämmelser",
+    "Det behöver inte införas några övergångsbestämmelser till skollagen i fråga om legitimation och behörighet att undervisa som lärare"
+   ]
+  },
+  {
+   "id": "F38",
+   "propositionsavsnitt": [
+    "143:10"
+   ],
+   "matchning": "övergripande avsnitt, detalj ej behandlad",
+   "grund": "Skälen i avsnitt 10 nämner komplettering till behörighet för förskollärare men hänvisar till förordningsnivå; ämnesbehörigheten i anpassade grundskolans årskurs 1–4 behandlas inte.",
+   "rubriker": [
+    "10 Ikraftträdande- och övergångsbestämmelser",
+    "Det behöver inte införas några övergångsbestämmelser till skollagen i fråga om legitimation och behörighet att undervisa som lärare"
+   ]
+  },
+  {
+   "id": "F39",
+   "propositionsavsnitt": [
+    "143:10"
+   ],
+   "matchning": "övergripande avsnitt, detalj ej behandlad",
+   "grund": "Skälen i avsnitt 10 nämner komplettering till behörighet för förskollärare men hänvisar till förordningsnivå; ämnesbehörigheten i specialskolans årskurs 1–5 behandlas inte.",
+   "rubriker": [
+    "10 Ikraftträdande- och övergångsbestämmelser",
+    "Det behöver inte införas några övergångsbestämmelser till skollagen i fråga om legitimation och behörighet att undervisa som lärare"
+   ]
+  },
+  {
+   "id": "F40",
+   "propositionsavsnitt": [
+    "143:10"
+   ],
+   "matchning": "övergripande avsnitt, detalj ej behandlad",
+   "grund": "Skälen i avsnitt 10 hänvisar behörighetsfrågan till förordningsnivå; speciallärarbehörighet för förskollärare i årskurs 1–4 behandlas inte.",
+   "rubriker": [
+    "10 Ikraftträdande- och övergångsbestämmelser",
+    "Det behöver inte införas några övergångsbestämmelser till skollagen i fråga om legitimation och behörighet att undervisa som lärare"
+   ]
+  },
+  {
+   "id": "F41",
+   "propositionsavsnitt": [
+    "143:6.1"
+   ],
+   "matchning": "osäker ämnesmatchning",
+   "grund": "Skälen i avsnitt 6.1 beskriver Skolverkets befintliga uppdrag sedan 2021 att erbjuda förskollärare i förskoleklassen fortbildning i läs- och skrivinlärning (15 hp) och matematikinlärning (15 hp). Det är ett redan givet uppdrag, inte ett ställningstagande till utredningens förslag om behörighetsgivande fortbildning.",
+   "rubriker": [
+    "6.1 Förskoleklassen ersätts av en ny årskurs 1 i lågstadiet",
+    "Även vid en sammanhållen skolgång ska undervisningen vara åldersanpassad"
+   ]
+  },
+  {
+   "id": "F42",
+   "propositionsavsnitt": [],
+   "matchning": "ingen",
+   "grund": "Fortbildning för förskollärare till ämnesbehörighet i lågstadiet behandlas inte i propositionen; avsnitt 6.1 nämner bara den befintliga fortbildningen i läs-, skriv- och matematikinlärning.",
+   "rubriker": []
+  },
+  {
+   "id": "F43",
+   "propositionsavsnitt": [],
+   "matchning": "ingen",
+   "grund": "Statsbidrag för fortbildning av förskollärare behandlas inte i propositionen. Statsbidrag nämns bara i konsekvensavsnitten 11.3 och 11.5, som inte finns i prop-avsnitt.json.",
+   "rubriker": []
+  },
+  {
+   "id": "F44",
+   "propositionsavsnitt": [
+    "143:6.3"
+   ],
+   "matchning": "övergripande avsnitt, detalj ej behandlad",
+   "grund": "Enligt avsnitt 6.3 kan förskolans och grundskolans arbetssätt i nya årskurs 1 främjas genom bl.a. fortbildning och kompetensutveckling, men det hanteras utanför propositionen. Den kompetensutvecklande insatsen (Förskolepedagogiskt lyft) behandlas inte.",
+   "rubriker": [
+    "6.3 Den nya första årskursen ska vara en integrerad del av skolan",
+    "Undervisningen i nya årskurs 1 ska ske i ämnen och ämnesområden"
+   ]
+  },
+  {
+   "id": "F45",
+   "propositionsavsnitt": [],
+   "matchning": "ingen",
+   "grund": "Ikraftträdande av ändringarna i behörighetsförordningen, högskoleförordningen och förordningen om statsbidrag behandlas inte; avsnitt 10 gäller bara lagändringarna och hänvisar behörighetsfrågor till förordningsnivå.",
+   "rubriker": []
+  },
+  {
+   "id": "F46",
+   "propositionsavsnitt": [
+    "143:10"
+   ],
+   "matchning": "avsnittsnivå",
+   "grund": "Avsnitt 10 behandlar utredningens förslag om befintliga lärarlegitimationer (anges i Utredningens förslag-delen). Regeringen anser att inga övergångsbestämmelser behövs i skollagen och avser att reglera befintliga legitimationer på förordningsnivå.",
+   "rubriker": [
+    "10 Ikraftträdande- och övergångsbestämmelser",
+    "Utredningens förslag",
+    "Det behöver inte införas några övergångsbestämmelser till skollagen i fråga om legitimation och behörighet att undervisa som lärare"
+   ]
+  },
+  {
+   "id": "F47",
+   "propositionsavsnitt": [],
+   "matchning": "ingen",
+   "grund": "Övergångsbestämmelser om examen enligt högskoleförordningen behandlas inte i propositionen.",
+   "rubriker": []
+  },
+  {
+   "id": "F48",
+   "propositionsavsnitt": [
+    "143:10"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Ikraftträdande och tillämpning av en tioårig grundskola behandlas i regeringens förslag i avsnitt 10; enligt propositionen stämmer utredningens förslag delvis överens (regeringen: tillämpning från läsåret 2028/29 i stället för 2026/27).",
+   "rubriker": [
+    "10 Ikraftträdande- och övergångsbestämmelser",
+    "Regeringens förslag",
+    "Utredningens förslag",
+    "En tioårig grundskola kräver omfattande förberedelser och bör införas läsåret 2028/29"
+   ]
+  },
+  {
+   "id": "F49",
+   "propositionsavsnitt": [
+    "143:10"
+   ],
+   "matchning": "avsnittsnivå",
+   "grund": "Skälen i avsnitt 10 anger, i likhet med utredningen, att reformen bör införas nationellt och samlat vid ett tillfälle för alla huvudmän. En nationellt samlad reformstrategi nämns inte uttryckligen.",
+   "rubriker": [
+    "10 Ikraftträdande- och övergångsbestämmelser",
+    "En tioårig grundskola bör införas nationellt och samlat vid ett tillfälle"
+   ]
+  },
+  {
+   "id": "F50",
+   "propositionsavsnitt": [
+    "143:10"
+   ],
+   "matchning": "övergripande avsnitt, detalj ej behandlad",
+   "grund": "Skälen i avsnitt 10 nämner att Skolverket ska ta fram förslag till ändringar i tim-, läro- och kursplaner och att myndigheterna behöver två år för förberedande åtgärder. De enskilda uppdragen till Skolverket och Skolinspektionen behandlas inte.",
+   "rubriker": [
+    "10 Ikraftträdande- och övergångsbestämmelser",
+    "En tioårig grundskola kräver omfattande förberedelser och bör införas läsåret 2028/29"
+   ]
+  },
+  {
+   "id": "F51",
+   "propositionsavsnitt": [
+    "143:6.3",
+    "143:10"
+   ],
+   "matchning": "övergripande avsnitt, detalj ej behandlad",
+   "grund": "Avsnitt 6.3 nämner stöd för huvudmännens lokala implementering och avsnitt 10 insatser, information, stöd, fortbildning och kompetensutveckling från Skolverket, men inget uppdrag om implementeringsinsatser behandlas.",
+   "rubriker": [
+    "6.3 Den nya första årskursen ska vara en integrerad del av skolan",
+    "10 Ikraftträdande- och övergångsbestämmelser",
+    "En tioårig grundskola bör införas nationellt och samlat vid ett tillfälle"
+   ]
+  },
+  {
+   "id": "F52",
+   "propositionsavsnitt": [],
+   "matchning": "ingen",
+   "grund": "Statsbidrag till huvudmännen för kapacitetsförstärkning under implementeringen behandlas inte i propositionen. Ekonomisk kompensation till kommunerna behandlas i avsnitt 11.3, som inte finns i prop-avsnitt.json.",
+   "rubriker": []
+  },
+  {
+   "id": "F53",
+   "propositionsavsnitt": [],
+   "matchning": "ingen",
+   "grund": "Uppdrag till Skolverket om årlig uppföljning av personalens behörighet behandlas inte i propositionen.",
+   "rubriker": []
+  },
+  {
+   "id": "F54",
+   "propositionsavsnitt": [],
+   "matchning": "ingen",
+   "grund": "Processutvärderingar av reformen behandlas inte i propositionen.",
+   "rubriker": []
+  },
+  {
+   "id": "F55",
+   "propositionsavsnitt": [],
+   "matchning": "ingen",
+   "grund": "En summativ reformutvärdering av IFAU behandlas inte. IFAU nämns i avsnitt 10 bara som remissinstans om att ett stegvis införande skulle underlätta utvärdering.",
+   "rubriker": []
+  }
+ ]
+}
