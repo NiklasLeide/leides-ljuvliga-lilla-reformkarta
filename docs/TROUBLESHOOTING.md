@@ -169,3 +169,9 @@ misslyckats tyst körs reset på dev och kastar lokalt arbete (origin/dev rädda
 **Symptom:** Commits saknar tyst .html-/rotfilsändringar trots att commit.sh kördes utan synligt fel; "Dev-preview redan i synk" trots ändrade sidor. Upptäckt 2026-06-12: T4+T5/T5.1-commitarna innehöll bara docs/ + manuellt stageade filer — korslänkarna i fem sidfiler var ocommittade.
 **Cause:** `git add *.json *.ts *.js *.sh *.md *.toml *.py *.html` — git add ABORTERAR HELA anropet med "fatal: pathspec '*.ts' did not match any files" så fort EN glob saknar träffar (inga .ts-filer finns i repot → raden har aldrig stageat något). Felet doldes av `2>/dev/null || true`. Samma rotorsak som T1-fix åtgärdade för katalogerna, men glob-raden lämnades samlad.
 **Solution:** Loopa globbarna individuellt med `[ -e "$pat" ] || continue` (oexpanderad glob förblir literal i bash och filtreras av -e-testet) — fixat i commit.sh 2026-06-12. Lärdom för rapportering: verifiera commit-INNEHÅLLET (`git show --stat`), inte bara att en commit skapades.
+
+
+### Utmaningskartans kedja: olika utdata mellan körningar (Sprint 17)
+**Symptom:** regressionen från ren klon gav en annan nyckelordning i `reformer/<id>/sfs-diff.json` (`status_per_paragraf`).
+**Orsak:** en dict byggdes genom att iterera en `set`, vars ordning för strängar beror på `PYTHONHASHSEED`.
+**Lösning:** iterera i första förekomstens ordning (`dict.fromkeys`). Kör regressionen med flera `PYTHONHASHSEED`-värden.
