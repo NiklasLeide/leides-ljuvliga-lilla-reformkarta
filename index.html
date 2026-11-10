@@ -728,6 +728,21 @@ footer {
   margin-top: 1rem;
   border-top: 1px solid var(--border);
 }
+/* <remiss-css> Remissläge (Sprint 14 T5) — samma regler i alla sidor som visar remisser */
+.remiss-box{border:1px solid var(--border);border-left:3px solid var(--kunskap);border-radius:6px;background:var(--card);padding:.55rem .75rem;margin:.6rem 0;text-align:left}
+.remiss-box.remiss-oppnar{border-left-color:var(--muted)}
+.remiss-box.remiss-avslutad{border-left-color:var(--muted);background:var(--bg)}
+.remiss-etikett{font-size:.62rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:var(--kunskap)}
+.remiss-avslutad .remiss-etikett,.remiss-oppnar .remiss-etikett{color:var(--muted)}
+.remiss-status{font-weight:600;font-size:.86rem;margin:.15rem 0 .2rem;line-height:1.3}
+.remiss-titel{font-size:.74rem;color:var(--muted);line-height:1.35;margin-bottom:.3rem}
+.remiss-nasta{font-size:.76rem;line-height:1.4;margin-bottom:.15rem}
+.remiss-lankar,.remiss-skolformer{font-size:.74rem;line-height:1.3}
+.remiss-lankar a,.remiss-skolformer a{color:var(--kunskap);display:inline-flex;align-items:center;min-height:44px;margin-right:.75rem;text-decoration:underline;text-underline-offset:2px}
+.remiss-skolformer{color:var(--muted);display:flex;flex-wrap:wrap;align-items:center;column-gap:.75rem}
+.remiss-skolformer span{flex-basis:100%;padding-top:.2rem}
+.remiss-skolformer a{margin-right:0}
+/* </remiss-css> */
 </style>
 </head>
 <body>
@@ -826,6 +841,99 @@ footer {
   </footer>
 </div>
 
+<script>
+// <remiss-lib> Remissläge (Sprint 14 T5). Blocket är BYTE-IDENTISKT i index.html, reformer.html,
+// tidslinje.html och guide.html (DEC-001: ingen delad JS-fil). scripts/revision/remiss.test.js
+// extraherar blocket ur alla fyra sidorna, kräver att kopiorna är lika och testar logiken med
+// styrbart datum. Ändra här → ändra i alla fyra (testet fäller annars).
+// Status lagras ALDRIG i data — den räknas ur datumen i klienten.
+function remissEsc(s) {
+  return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+const REMISS_MANADER = ['januari','februari','mars','april','maj','juni','juli','augusti','september','oktober','november','december'];
+function remissDatumText(iso) {
+  // Parsar YYYY-MM-DD manuellt (ingen new Date()-tidszonglidning).
+  const [y, m, d] = String(iso).split('-').map(Number);
+  return `${d} ${REMISS_MANADER[m - 1]} ${y}`;
+}
+function remissIdag() {
+  // Lokalt datum (svensk användare) som YYYY-MM-DD.
+  const n = new Date();
+  return `${n.getFullYear()}-${String(n.getMonth() + 1).padStart(2, '0')}-${String(n.getDate()).padStart(2, '0')}`;
+}
+// Tre lägen: före öppning / öppen t.o.m. sista svarsdag / avslutad dagen efter.
+function remissStatus(r, idag) {
+  if (idag < r.oppnar) return { lage: 'oppnar', datum: r.oppnar, text: `Remiss öppnar ${remissDatumText(r.oppnar)}` };
+  if (idag <= r.svar_senast) return { lage: 'oppen', datum: r.svar_senast, text: `Remiss öppen till och med ${remissDatumText(r.svar_senast)}` };
+  return { lage: 'avslutad', datum: r.svar_senast, text: `Remiss avslutad ${remissDatumText(r.svar_senast)}` };
+}
+function remissNastaSteg(r) {
+  const n = r.nasta_steg || {};
+  const delar = [];
+  if (n.forslag_till_regeringen) delar.push(`${n.forslag_text || 'Förslag till regeringen'} ${remissDatumText(n.forslag_till_regeringen)}.`);
+  if (n.regeringsbeslut) delar.push(`Regeringsbeslut ${remissDatumText(n.regeringsbeslut)}.`);
+  if (n.tillampning) delar.push(`Tillämpning från ${n.tillampning}.`);
+  return delar.join(' ');
+}
+// Validering mot reforms.json. Returnerar felmeddelanden; sidorna loggar dem med console.error
+// (fail-loud, samma mönster som andringar/guide) och visar bara giltiga remisser.
+function remissValidera(remisser, reformIds) {
+  const fel = [];
+  const kanda = new Set(reformIds);
+  const iso = /^\d{4}-\d{2}-\d{2}$/;
+  if (!Array.isArray(remisser)) return ['remisser.json: förväntade en lista'];
+  remisser.forEach((r, i) => {
+    const namn = r && r.id ? r.id : `#${i}`;
+    for (const f of ['id', 'titel', 'avsandare', 'oppnar', 'svar_senast', 'url']) {
+      if (!r || !r[f]) fel.push(`Remiss ${namn}: fältet "${f}" saknas`);
+    }
+    if (r && r.oppnar && !iso.test(r.oppnar)) fel.push(`Remiss ${namn}: oppnar "${r.oppnar}" är inte YYYY-MM-DD`);
+    if (r && r.svar_senast && !iso.test(r.svar_senast)) fel.push(`Remiss ${namn}: svar_senast "${r.svar_senast}" är inte YYYY-MM-DD`);
+    if (r && r.oppnar && r.svar_senast && r.oppnar > r.svar_senast) fel.push(`Remiss ${namn}: oppnar efter svar_senast`);
+    if (!r || !Array.isArray(r.reform_ids) || r.reform_ids.length === 0) fel.push(`Remiss ${namn}: reform_ids saknas`);
+    else for (const id of r.reform_ids) if (!kanda.has(id)) fel.push(`Remiss ${namn}: okänt reform_id "${id}"`);
+  });
+  return fel;
+}
+// Giltiga remisser (de med fel sorteras bort) — anropas efter remissValidera.
+function remissGiltiga(remisser, reformIds) {
+  if (!Array.isArray(remisser)) return [];
+  return remisser.filter(r => remissValidera([r], reformIds).length === 0);
+}
+function remisserForReform(remisser, reformId) {
+  return remisser.filter(r => r.reform_ids.includes(reformId));
+}
+// Ruta på reformkort. Länkar till Skolverket; återger varken svarsinstruktioner eller förslagens innehåll.
+function remissKortHtml(r, idag) {
+  const esc = remissEsc;
+  const s = remissStatus(r, idag);
+  const skolformer = (r.dokument_per_skolform || [])
+    .map(d => `<a href="${esc(d.url)}" target="_blank" rel="noopener">${esc(d.skolform)}</a>`).join('');
+  return `<div class="remiss-box remiss-${s.lage}" data-test="remiss" data-lage="${s.lage}">
+    <div class="remiss-etikett">Remiss · ${esc(r.avsandare)}</div>
+    <div class="remiss-status">${esc(s.text)}</div>
+    <div class="remiss-titel">${esc(r.titel)}</div>
+    <div class="remiss-nasta">Nästa steg: ${esc(remissNastaSteg(r))}</div>
+    <div class="remiss-lankar"><a href="${esc(r.url)}" target="_blank" rel="noopener">Remissen hos ${esc(r.avsandare)} ↗</a>${r.url_oversikt ? ` <a href="${esc(r.url_oversikt)}" target="_blank" rel="noopener">Om förslagen ↗</a>` : ''}</div>
+    ${skolformer ? `<div class="remiss-skolformer"><span>Dokument per skolform:</span>${skolformer}</div>` : ''}
+  </div>`;
+}
+// Läser remisser.json, validerar mot reform-id:n och loggar fel högljutt. Fel i filen får inte
+// stoppa sidan: då visas inga remisser (tom lista) men felet syns i konsolen.
+async function remissLadda(url, reformIds) {
+  try {
+    const res = await fetch(url);
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const data = await res.json();
+    remissValidera(data, reformIds).forEach(f => console.error('Remissläge:', f));
+    return remissGiltiga(data, reformIds);
+  } catch (err) {
+    console.error('Remissläge: remisser.json kunde inte läsas —', err);
+    return [];
+  }
+}
+// </remiss-lib>
+</script>
 <script>
 // Data loaded from JSON files
 let reforms = [];
@@ -933,6 +1041,7 @@ function renderListView() {
             <div class="detail-label">Övergångsbestämmelser</div>
             <div class="detail-box-val">${r.transition}</div>
           </div>
+          ${remissBoxarFor(r.id)}
           <div class="detail-box">
             <div class="detail-label">Budget</div>
             <div class="detail-box-val">${r.budget}</div>
@@ -1422,6 +1531,7 @@ function renderDetail(r, related) {
       <div class="detail-label">Övergångsbestämmelser</div>
       <div class="detail-box-val">${r.transition}</div>
     </div>
+    ${remissBoxarFor(r.id)}
     <div class="detail-box">
       <div class="detail-label">Budget</div>
       <div class="detail-box-val">${r.budget}</div>
@@ -1494,6 +1604,8 @@ function dataPath(file) {
 }
 
 let guideIds = new Set(); // reform-id:n med guidepost — driver Guiden-länken i detaljpanelen
+let remisser = []; // Remissläge (Sprint 14 T5) — giltiga poster ur data/remisser.json
+function remissBoxarFor(id) { return remisserForReform(remisser, id).map(x => remissKortHtml(x, remissIdag())).join(''); }
 
 async function loadData() {
   try {
@@ -1507,6 +1619,7 @@ async function loadData() {
     connections = c;
     skolverketUppdrag = u;
     guideIds = new Set(g.map(x => x.reform_id));
+    remisser = await remissLadda(dataPath('remisser.json'), reforms.map(x => x.id));
     init();
     // Inkommande deeplink ?reform=<id> (bl.a. från guiden) → markera noden
     const reformParam = new URLSearchParams(window.location.search).get('reform');

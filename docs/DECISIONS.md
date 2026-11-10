@@ -18,6 +18,27 @@ Record of key decisions made during the project. **Newest first.**
 
 ---
 
+### DEC-021: Remissläge — status räknas i klienten, logiken som byte-identiskt block i fyra sidor
+**Date:** 2026-11-10
+**Decision:** (Sprint 14 T5) Ny datafil `data/remisser.json` (en post per remiss: datum, omfattning,
+nästa steg, reform_ids, länkar). Status lagras aldrig — den räknas ur `oppnar`/`svar_senast` mot
+dagens datum: "Remiss öppnar …" / "Remiss öppen till och med …" / "Remiss avslutad …" + nästa steg.
+Logiken (status, validering, inläsning, kortruta) ligger som ett `<remiss-lib>`-block som är
+**byte-identiskt** i index.html, reformer.html, tidslinje.html och guide.html.
+`scripts/revision/remiss.test.js` extraherar blocket ur alla fyra sidor och fäller om kopiorna
+skiljer sig, och testar logiken med styrbart datum. Okänt reform_id → console.error och remissen
+visas inte (fail-loud). Sajten länkar till Skolverket och återger varken svarsinstruktioner eller
+förslagens innehåll. I guidehjulet placeras remissen på öppningsdagen före öppning, annars på sista
+svarsdag; verksamhetsfiltret använder `omfattar` (samma råvärden som guidens `berors`).
+**Reasoning:** DEC-001 (self-contained sidor, ingen delad JS) gör duplicering oundviklig. Att
+låta ett test kräva identiska kopior tvingar fram synk med verktyg i stället för minne (CLAUDE.md:
+"prompts get forgotten, hooks don't"). Status ur datum gör att sajten byter läge själv 9 november
+och 21 januari utan datapatch.
+**Alternatives considered:** Delad remiss.js (bryter DEC-001); lagrat statusfält (blir inaktuellt
+utan patch); bygga in remisser i tidslinje.json/guide.json (dubbellagring av samma datum i flera filer).
+
+---
+
 ### DEC-020: Relevansregel för spårade utredningar och lagstiftningsärenden
 **Date:** 2026-11-10
 **Decision:** (Niklas beslut 2026-11-10, registrerat i Sprint 14 T4) Utredningar spåras när
