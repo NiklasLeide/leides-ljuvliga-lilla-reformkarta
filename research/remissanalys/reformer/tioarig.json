@@ -1,0 +1,110 @@
+{
+ "id": "tioarig",
+ "namn": null,
+ "namn_i_brief": "Tioårig grundskola",
+ "reforms_json_id": "tioarig",
+ "status": "mall — fylls i när reformen tas fram",
+ "sou": {
+  "nr": "SOU 2021:33",
+  "titel": "En tioårig grundskola – Införandet av en ny årskurs 1 i grundskolan, grundsärskolan, specialskolan och sameskolan",
+  "sida_url": "https://www.regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2021/05/sou-202133/",
+  "pdf": null,
+  "innehall_sidor": null,
+  "forslagskapitel": null,
+  "forfattningskommentar": null
+ },
+ "remiss": {
+  "url": "https://www.regeringen.se/remisser/2021/06/remiss-av-sou-202133-en-tioarig-grundskola--inforandet-av-en-ny-arskurs-1-i-grundskolan-grundsarskolan-specialskolan-och-sameskolan/",
+  "diarienummer": "U2021/02645"
+ },
+ "propositioner": [
+  {
+   "nr": "Prop. 2024/25:143",
+   "sida_url": "https://www.regeringen.se/rattsliga-dokument/proposition/2025/03/prop.-202425143",
+   "pdf_url": null,
+   "avsnitt": null,
+   "utredningens_forslag_rubrik": null,
+   "remissinstanser_rubrik": null,
+   "hoppa_delar_vid_namnsokning": [],
+   "lagtext_sidor": null,
+   "forteckning_remissinstanser_sida": null
+  }
+ ],
+ "layout": {
+  "spaltforskjutning_pt": null,
+  "ord_y_intervall_pt": null
+ },
+ "lagar": null,
+ "forordningar": null,
+ "forordning_markor": null,
+ "fokusorganisationer": {
+  "skr": "Sveriges Kommuner och Regioner",
+  "almega": null,
+  "ideburna": "Idéburna skolors riksförbund"
+ },
+ "kedja": {
+  "utredningsbetankande": {
+   "nr": "SOU 2021:33",
+   "titel": "En tioårig grundskola – Införandet av en ny årskurs 1 i grundskolan, grundsärskolan, specialskolan och sameskolan",
+   "kalla": {
+    "text": "SOU 2021:33 En tioårig grundskola – Införandet av en ny årskurs 1 i grundskolan, grundsärskolan, specialskolan och sameskolan (regeringen.se)",
+    "url": "https://www.regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2021/05/sou-202133/"
+   }
+  },
+  "remiss": {
+   "url": "https://www.regeringen.se/remisser/2021/06/remiss-av-sou-202133-en-tioarig-grundskola--inforandet-av-en-ny-arskurs-1-i-grundskolan-grundsarskolan-specialskolan-och-sameskolan/",
+   "diarienummer": "U2021/02645",
+   "publicerad": "01 juni 2021",
+   "svar_senast": null,
+   "kalla": {
+    "text": "Remiss U2021/02645 på regeringen.se",
+    "url": "https://www.regeringen.se/remisser/2021/06/remiss-av-sou-202133-en-tioarig-grundskola--inforandet-av-en-ny-arskurs-1-i-grundskolan-grundsarskolan-specialskolan-och-sameskolan/"
+   }
+  },
+  "proposition": [
+   {
+    "nr": "Prop. 2024/25:143",
+    "titel": "En tioårig grundskola",
+    "kalla": {
+     "text": "Prop. 2024/25:143 (regeringen.se)",
+     "url": "https://www.regeringen.se/rattsliga-dokument/proposition/2025/03/prop.-202425143"
+    },
+    "riksdagen": {
+     "text": "Prop. 2024/25:143 (riksdagens öppna data)",
+     "url": "https://data.riksdagen.se/dokument/HC03143"
+    },
+    "anm": "Remissen är från 2021; remisslistan använder delvis andra organisationsnamn (t.ex. \"Friskolornas riksförbund\", \"Lärarförbundet\", \"Sveriges Skolledarförbund\")."
+   }
+  ],
+  "utskottsbetankande": {
+   "bet": "2024/25:UbU17",
+   "kalla": {
+    "text": "Bet. 2024/25:UbU17 (riksdagens öppna data)",
+    "url": "https://data.riksdagen.se/dokument/HC01UbU17"
+   },
+   "status": {
+    "text": "Dokumentstatus bet. 2024/25:UbU17",
+    "url": "https://data.riksdagen.se/dokumentstatus/HC01UbU17"
+   }
+  },
+  "rskr": {
+   "nr": "2024/25:289",
+   "beslutsdatum": "2025-06-18",
+   "status": "inträffat",
+   "kalla": {
+    "text": "Rskr. 2024/25:289; beslutsaktivitet (BES) 2025-06-18 status inträffat i dokumentstatus för bet. 2024/25:UbU17",
+    "url": "https://data.riksdagen.se/dokumentstatus/HC01UbU17"
+   },
+   "dokument": {
+    "text": "Rskr. 2024/25:289",
+    "url": "https://data.riksdagen.se/dokument/HC0K289"
+   }
+  }
+ },
+ "hamtningsdatum": null,
+ "korrigeringar": {
+  "ocr_citat_manuellt_kontrollerade": [],
+  "motivering_omformulerad": {}
+ },
+ "forordning_markor_beskrivning": null
+}

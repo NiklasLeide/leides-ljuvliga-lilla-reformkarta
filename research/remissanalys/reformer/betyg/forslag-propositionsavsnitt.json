@@ -1,0 +1,602 @@
+{
+ "_meta": {
+  "steg": "R1 redaktionell koppling mellan utredningsförslag och propositionsavsnitt (förstudie 1, manuell ämnesmatchning)",
+  "redaktionell": true,
+  "matchningstyper": [
+   "förslagsruta",
+   "avsnittsnivå",
+   "osäker ämnesmatchning",
+   "övergripande avsnitt, detalj ej behandlad",
+   "ingen"
+  ]
+ },
+ "forslag": [
+  {
+   "id": "F01",
+   "propositionsavsnitt": [
+    "197:6.2"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Ämne: betygsskala 1–10 (prop. rutan \"Regeringens förslag\" avsnitt 6.2)."
+  },
+  {
+   "id": "F02",
+   "propositionsavsnitt": [
+    "197:6.2"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Ämne: betygskriterier på förordningsnivå (prop. rutan \"Regeringens bedömning\" avsnitt 6.2)."
+  },
+  {
+   "id": "F03",
+   "propositionsavsnitt": [
+    "194:6.7"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Prop. 2025/26:194 avsnitt 6.7, regeringens förslag om den s.k. undantagsbestämmelsen (bortse från enstaka delar)."
+  },
+  {
+   "id": "F04",
+   "propositionsavsnitt": [
+    "194:6.8"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Prop. 2025/26:194 avsnitt 6.8 Sammantagen bedömning; prop. 2025/26:197 anger att avsnitt 9.3.7 inte behandlas där."
+  },
+  {
+   "id": "F05",
+   "propositionsavsnitt": [
+    "194:6.7"
+   ],
+   "matchning": "avsnittsnivå",
+   "grund": "Avsnittsnivå: prop. 2025/26:194 anger att den behandlar SOU 2025:18 avsnitt 9.3 och 9.4 om att ändra uttrycket \"uppfylla kriterier\"; prop. 2025/26:197 behandlar inte avsnitt 9.4.2. Att just detta förslag ingår är inte uttryckligt."
+  },
+  {
+   "id": "F06",
+   "propositionsavsnitt": [
+    "194:6.7"
+   ],
+   "matchning": "avsnittsnivå",
+   "grund": "Som F05 (SOU avsnitt 9.4.3, ej lovskola)."
+  },
+  {
+   "id": "F07",
+   "propositionsavsnitt": [
+    "194:6.7"
+   ],
+   "matchning": "avsnittsnivå",
+   "grund": "Som F05 (SOU avsnitt 9.4.3, ej lovskola)."
+  },
+  {
+   "id": "F08",
+   "propositionsavsnitt": [
+    "194:6.7"
+   ],
+   "matchning": "avsnittsnivå",
+   "grund": "Som F05 (SOU avsnitt 9.4.3, ej lovskola)."
+  },
+  {
+   "id": "F09",
+   "propositionsavsnitt": [
+    "197:6.7"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Ämne: lovskola (prop. 2025/26:197 behandlar lagförslagen i 9.4.3 som rör lovskola)."
+  },
+  {
+   "id": "F10",
+   "propositionsavsnitt": [
+    "197:6.13"
+   ],
+   "matchning": "osäker ämnesmatchning",
+   "grund": "OSÄKER ämnesmatchning: följdändringar E→4. Propositionen nämner inte förslaget uttryckligen."
+  },
+  {
+   "id": "F11",
+   "propositionsavsnitt": [
+    "197:6.8"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Ämne: gymnasiearbetet betyg 1–4. Obs: SOU-förslaget omfattar även komvuxarbetet, som inte nämns i propositionens ruta."
+  },
+  {
+   "id": "F12",
+   "propositionsavsnitt": [
+    "197:6.1"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Ämne: ny meritvärdesmodell grundskola (prop. lämnar bedömning, inte lagförslag)."
+  },
+  {
+   "id": "F13",
+   "propositionsavsnitt": [
+    "197:6.1"
+   ],
+   "matchning": "övergripande avsnitt, detalj ej behandlad",
+   "grund": "Detalj i meritvärdesmodellen; propositionen tar ställning övergripande i avsnitt 6.1 och hänvisar detaljreglering till förordning."
+  },
+  {
+   "id": "F14",
+   "propositionsavsnitt": [
+    "197:6.1"
+   ],
+   "matchning": "övergripande avsnitt, detalj ej behandlad",
+   "grund": "Detalj i meritvärdesmodellen; propositionen tar ställning övergripande i avsnitt 6.1 och hänvisar detaljreglering till förordning."
+  },
+  {
+   "id": "F15",
+   "propositionsavsnitt": [
+    "197:6.1"
+   ],
+   "matchning": "övergripande avsnitt, detalj ej behandlad",
+   "grund": "Detalj i meritvärdesmodellen; propositionen tar ställning övergripande i avsnitt 6.1 och hänvisar detaljreglering till förordning."
+  },
+  {
+   "id": "F16",
+   "propositionsavsnitt": [
+    "197:6.1"
+   ],
+   "matchning": "övergripande avsnitt, detalj ej behandlad",
+   "grund": "Detalj i meritvärdesmodellen; propositionen tar ställning övergripande i avsnitt 6.1 och hänvisar detaljreglering till förordning."
+  },
+  {
+   "id": "F17",
+   "propositionsavsnitt": [
+    "197:6.1"
+   ],
+   "matchning": "övergripande avsnitt, detalj ej behandlad",
+   "grund": "Detalj i meritvärdesmodellen; propositionen tar ställning övergripande i avsnitt 6.1 och hänvisar detaljreglering till förordning."
+  },
+  {
+   "id": "F18",
+   "propositionsavsnitt": [
+    "197:6.1"
+   ],
+   "matchning": "övergripande avsnitt, detalj ej behandlad",
+   "grund": "Detalj i meritvärdesmodellen; propositionen tar ställning övergripande i avsnitt 6.1 och hänvisar detaljreglering till förordning."
+  },
+  {
+   "id": "F19",
+   "propositionsavsnitt": [
+    "197:6.1"
+   ],
+   "matchning": "övergripande avsnitt, detalj ej behandlad",
+   "grund": "Detalj i meritvärdesmodellen; propositionen tar ställning övergripande i avsnitt 6.1 och hänvisar detaljreglering till förordning."
+  },
+  {
+   "id": "F20",
+   "propositionsavsnitt": [
+    "197:6.1"
+   ],
+   "matchning": "övergripande avsnitt, detalj ej behandlad",
+   "grund": "Detalj i meritvärdesmodellen; propositionen tar ställning övergripande i avsnitt 6.1 och hänvisar detaljreglering till förordning."
+  },
+  {
+   "id": "F21",
+   "propositionsavsnitt": [
+    "197:6.1"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Ämne: ny meritvärdesmodell gymnasieskola/högre utbildning (prop. lämnar bedömning)."
+  },
+  {
+   "id": "F22",
+   "propositionsavsnitt": [
+    "197:6.1"
+   ],
+   "matchning": "övergripande avsnitt, detalj ej behandlad",
+   "grund": "Detalj i meritvärdesmodellen; propositionen tar ställning övergripande i avsnitt 6.1 och hänvisar detaljreglering till förordning."
+  },
+  {
+   "id": "F23",
+   "propositionsavsnitt": [
+    "197:6.1"
+   ],
+   "matchning": "övergripande avsnitt, detalj ej behandlad",
+   "grund": "Detalj i meritvärdesmodellen; propositionen tar ställning övergripande i avsnitt 6.1 och hänvisar detaljreglering till förordning."
+  },
+  {
+   "id": "F24",
+   "propositionsavsnitt": [
+    "197:6.1"
+   ],
+   "matchning": "övergripande avsnitt, detalj ej behandlad",
+   "grund": "Detalj i meritvärdesmodellen; propositionen tar ställning övergripande i avsnitt 6.1 och hänvisar detaljreglering till förordning."
+  },
+  {
+   "id": "F25",
+   "propositionsavsnitt": [
+    "197:6.1"
+   ],
+   "matchning": "övergripande avsnitt, detalj ej behandlad",
+   "grund": "Detalj i meritvärdesmodellen; propositionen tar ställning övergripande i avsnitt 6.1 och hänvisar detaljreglering till förordning."
+  },
+  {
+   "id": "F26",
+   "propositionsavsnitt": [
+    "197:6.1"
+   ],
+   "matchning": "övergripande avsnitt, detalj ej behandlad",
+   "grund": "Detalj i meritvärdesmodellen; propositionen tar ställning övergripande i avsnitt 6.1 och hänvisar detaljreglering till förordning."
+  },
+  {
+   "id": "F27",
+   "propositionsavsnitt": [
+    "197:6.1"
+   ],
+   "matchning": "övergripande avsnitt, detalj ej behandlad",
+   "grund": "Detalj i meritvärdesmodellen; propositionen tar ställning övergripande i avsnitt 6.1 och hänvisar detaljreglering till förordning."
+  },
+  {
+   "id": "F28",
+   "propositionsavsnitt": [
+    "197:6.1"
+   ],
+   "matchning": "övergripande avsnitt, detalj ej behandlad",
+   "grund": "Detalj i meritvärdesmodellen; propositionen tar ställning övergripande i avsnitt 6.1 och hänvisar detaljreglering till förordning."
+  },
+  {
+   "id": "F29",
+   "propositionsavsnitt": [
+    "197:6.4.1"
+   ],
+   "matchning": "övergripande avsnitt, detalj ej behandlad",
+   "grund": "Detalj om vilka/hur många slutprov; propositionens bedömning i 6.4.1 är övergripande."
+  },
+  {
+   "id": "F30",
+   "propositionsavsnitt": [
+    "197:6.4.1"
+   ],
+   "matchning": "övergripande avsnitt, detalj ej behandlad",
+   "grund": "Detalj om vilka/hur många slutprov; propositionens bedömning i 6.4.1 är övergripande."
+  },
+  {
+   "id": "F31",
+   "propositionsavsnitt": [],
+   "matchning": "ingen",
+   "grund": "Propositionen nämner meritpoäng endast i beskrivningen av nuvarande reglering (avsnitt 5)."
+  },
+  {
+   "id": "F32",
+   "propositionsavsnitt": [
+    "197:6.1"
+   ],
+   "matchning": "övergripande avsnitt, detalj ej behandlad",
+   "grund": "Detalj i meritvärdesmodellen; propositionen tar ställning övergripande i avsnitt 6.1 och hänvisar detaljreglering till förordning."
+  },
+  {
+   "id": "F33",
+   "propositionsavsnitt": [
+    "197:6.1"
+   ],
+   "matchning": "övergripande avsnitt, detalj ej behandlad",
+   "grund": "Detalj i meritvärdesmodellen; propositionen tar ställning övergripande i avsnitt 6.1 och hänvisar detaljreglering till förordning."
+  },
+  {
+   "id": "F34",
+   "propositionsavsnitt": [],
+   "matchning": "ingen",
+   "grund": null
+  },
+  {
+   "id": "F35",
+   "propositionsavsnitt": [
+    "197:6.5"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Ämne: inrapportering av betyg."
+  },
+  {
+   "id": "F36",
+   "propositionsavsnitt": [
+    "197:6.1"
+   ],
+   "matchning": "övergripande avsnitt, detalj ej behandlad",
+   "grund": "Detalj i meritvärdesmodellen; propositionen tar ställning övergripande i avsnitt 6.1 och hänvisar detaljreglering till förordning."
+  },
+  {
+   "id": "F37",
+   "propositionsavsnitt": [],
+   "matchning": "ingen",
+   "grund": null
+  },
+  {
+   "id": "F38",
+   "propositionsavsnitt": [
+    "197:6.1"
+   ],
+   "matchning": "övergripande avsnitt, detalj ej behandlad",
+   "grund": "Detalj i meritvärdesmodellen; propositionen tar ställning övergripande i avsnitt 6.1 och hänvisar detaljreglering till förordning."
+  },
+  {
+   "id": "F39",
+   "propositionsavsnitt": [],
+   "matchning": "ingen",
+   "grund": null
+  },
+  {
+   "id": "F40",
+   "propositionsavsnitt": [],
+   "matchning": "ingen",
+   "grund": null
+  },
+  {
+   "id": "F41",
+   "propositionsavsnitt": [],
+   "matchning": "ingen",
+   "grund": null
+  },
+  {
+   "id": "F42",
+   "propositionsavsnitt": [
+    "197:6.5"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Ämne: inrapportering av betyg (komvux omfattas av propositionens förslag)."
+  },
+  {
+   "id": "F43",
+   "propositionsavsnitt": [],
+   "matchning": "ingen",
+   "grund": null
+  },
+  {
+   "id": "F44",
+   "propositionsavsnitt": [],
+   "matchning": "ingen",
+   "grund": null
+  },
+  {
+   "id": "F45",
+   "propositionsavsnitt": [],
+   "matchning": "ingen",
+   "grund": null
+  },
+  {
+   "id": "F46",
+   "propositionsavsnitt": [],
+   "matchning": "ingen",
+   "grund": null
+  },
+  {
+   "id": "F47",
+   "propositionsavsnitt": [],
+   "matchning": "ingen",
+   "grund": null
+  },
+  {
+   "id": "F48",
+   "propositionsavsnitt": [],
+   "matchning": "ingen",
+   "grund": null
+  },
+  {
+   "id": "F49",
+   "propositionsavsnitt": [
+    "197:6.4.2"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Ämne: göra om/genomföra nationella slutprov efter avslutad utbildning."
+  },
+  {
+   "id": "F50",
+   "propositionsavsnitt": [
+    "197:6.4.2"
+   ],
+   "matchning": "osäker ämnesmatchning",
+   "grund": "OSÄKER ämnesmatchning: tillgodoräkna senare provresultat; propositionens ruta reglerar rätten att göra om prov, inte meritvärdesberäkningen."
+  },
+  {
+   "id": "F51",
+   "propositionsavsnitt": [
+    "197:6.4.2"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Ämne: avgift för slutprov."
+  },
+  {
+   "id": "F52",
+   "propositionsavsnitt": [
+    "197:6.6"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Ämne: behörighet meritvärde minst 4."
+  },
+  {
+   "id": "F53",
+   "propositionsavsnitt": [
+    "197:6.12.1",
+    "197:6.12.2"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Ämne: programinriktat val tas bort (6.12.2) och språkintroduktion (6.12.1)."
+  },
+  {
+   "id": "F54",
+   "propositionsavsnitt": [],
+   "matchning": "ingen",
+   "grund": "Fritextsökning i propositionen: 0 träffar på \"spetsutbildning\" och \"riksrekryterande\"."
+  },
+  {
+   "id": "F55",
+   "propositionsavsnitt": [],
+   "matchning": "ingen",
+   "grund": null
+  },
+  {
+   "id": "F56",
+   "propositionsavsnitt": [
+    "197:6.9"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Ämne: gymnasieexamen."
+  },
+  {
+   "id": "F57",
+   "propositionsavsnitt": [
+    "197:6.10"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Ämne: gymnasieingenjörsexamen."
+  },
+  {
+   "id": "F58",
+   "propositionsavsnitt": [],
+   "matchning": "ingen",
+   "grund": null
+  },
+  {
+   "id": "F59",
+   "propositionsavsnitt": [],
+   "matchning": "ingen",
+   "grund": null
+  },
+  {
+   "id": "F60",
+   "propositionsavsnitt": [
+    "197:6.11"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Ämne: meritvärde som urvalsgrund till högskolan."
+  },
+  {
+   "id": "F61",
+   "propositionsavsnitt": [
+    "197:6.3"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Ämne: bedömningssamråd grundskola/specialskola."
+  },
+  {
+   "id": "F62",
+   "propositionsavsnitt": [
+    "197:6.3"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Ämne: bedömningssamråd gymnasieskola."
+  },
+  {
+   "id": "F63",
+   "propositionsavsnitt": [
+    "197:6.4.3"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Ämne: nationella prov ska inte särskilt beaktas."
+  },
+  {
+   "id": "F64",
+   "propositionsavsnitt": [
+    "197:6.4.1"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Ämne: nationellt slutprovsystem (prop. lämnar bedömning)."
+  },
+  {
+   "id": "F65",
+   "propositionsavsnitt": [],
+   "matchning": "ingen",
+   "grund": null
+  },
+  {
+   "id": "F66",
+   "propositionsavsnitt": [],
+   "matchning": "ingen",
+   "grund": null
+  },
+  {
+   "id": "F67",
+   "propositionsavsnitt": [],
+   "matchning": "ingen",
+   "grund": null
+  },
+  {
+   "id": "F68",
+   "propositionsavsnitt": [],
+   "matchning": "ingen",
+   "grund": null
+  },
+  {
+   "id": "F69",
+   "propositionsavsnitt": [
+    "197:6.4.1"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Ämne: central bedömning av slutprov (prop. bedömning: \"De nationella slutproven bör bedömas centralt\")."
+  },
+  {
+   "id": "F70",
+   "propositionsavsnitt": [],
+   "matchning": "ingen",
+   "grund": null
+  },
+  {
+   "id": "F71",
+   "propositionsavsnitt": [
+    "197:6.4.1"
+   ],
+   "matchning": "övergripande avsnitt, detalj ej behandlad",
+   "grund": "Detalj om vilka/hur många slutprov; propositionens bedömning i 6.4.1 är övergripande."
+  },
+  {
+   "id": "F72",
+   "propositionsavsnitt": [
+    "197:6.4.1"
+   ],
+   "matchning": "övergripande avsnitt, detalj ej behandlad",
+   "grund": "Detalj om vilka/hur många slutprov; propositionens bedömning i 6.4.1 är övergripande."
+  },
+  {
+   "id": "F73",
+   "propositionsavsnitt": [],
+   "matchning": "ingen",
+   "grund": null
+  },
+  {
+   "id": "F74",
+   "propositionsavsnitt": [],
+   "matchning": "ingen",
+   "grund": null
+  },
+  {
+   "id": "F75",
+   "propositionsavsnitt": [],
+   "matchning": "ingen",
+   "grund": null
+  },
+  {
+   "id": "F76",
+   "propositionsavsnitt": [],
+   "matchning": "ingen",
+   "grund": null
+  },
+  {
+   "id": "F77",
+   "propositionsavsnitt": [
+    "197:8"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Ämne: ikraftträdande."
+  },
+  {
+   "id": "F78",
+   "propositionsavsnitt": [
+    "197:8"
+   ],
+   "matchning": "förslagsruta",
+   "grund": "Ämne: övergångsbestämmelser."
+  },
+  {
+   "id": "F79",
+   "propositionsavsnitt": [],
+   "matchning": "ingen",
+   "grund": null
+  },
+  {
+   "id": "F80",
+   "propositionsavsnitt": [],
+   "matchning": "ingen",
+   "grund": null
+  }
+ ]
+}

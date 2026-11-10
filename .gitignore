@@ -16,3 +16,6 @@ build/
 *.egg-info/
 .coverage
 htmlcov/
+
+# Utmaningskartans kedja: nedladdade källor (PDF, sidtext) cachas här och checkas inte in
+research/remissanalys/reformer/*/kallor/

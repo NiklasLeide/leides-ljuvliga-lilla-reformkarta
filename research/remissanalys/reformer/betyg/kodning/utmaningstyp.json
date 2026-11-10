@@ -1,0 +1,3088 @@
+{
+ "_meta": {
+  "steg": "M2 utmaningstyp (modellkodning genom läsning, Sprint 16 T2; fyra kodare med samma instruktion)",
+  "tolkning": true
+ },
+ "kodning": [
+  {
+   "id": "U001",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Nya betygskriterier krockar med GY25-kriterier hösten 2025",
+   "kodare": 1
+  },
+  {
+   "id": "U002",
+   "primar": "System och teknik",
+   "sekundar": null,
+   "motivering": "Digitalt provsystem måste vara utprovat och störningssäkert",
+   "kodare": 1
+  },
+  {
+   "id": "U003",
+   "primar": "System och teknik",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Backup krävs om digitala slutprov fallerar",
+   "kodare": 1
+  },
+  {
+   "id": "U004",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Elever och vårdnadshavare förstår inte meritvärdesberäkningen",
+   "kodare": 1
+  },
+  {
+   "id": "U005",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Senarelagd antagning skapar problem för gymnasium och högskola",
+   "kodare": 1
+  },
+  {
+   "id": "U006",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Organisation och planering",
+   "motivering": "Sen antagning försvårar lärarbemanning och rekrytering",
+   "kodare": 1
+  },
+  {
+   "id": "U007",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Slutprovsresultat måste återföras för att undvika egna prov",
+   "kodare": 1
+  },
+  {
+   "id": "U008",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Kalibreringens effekter för enskilda elever obegripliga",
+   "kodare": 1
+  },
+  {
+   "id": "U009",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Tidplan och reformtakt",
+   "motivering": "Motstridiga förslag om IMV mellan utredningar",
+   "kodare": 1
+  },
+  {
+   "id": "U010",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Ny ämnesplanskonstruktion oprövad innan nästa förändring",
+   "kodare": 1
+  },
+  {
+   "id": "U011",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Systemets verkan svår att överblicka även för personal",
+   "kodare": 1
+  },
+  {
+   "id": "U012",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Inget konkret förslag på hur kalibreringen ska ske",
+   "kodare": 1
+  },
+  {
+   "id": "U013",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Lokal kalibrering kräver mycket och tidskrävande personalarbete",
+   "kodare": 1
+  },
+  {
+   "id": "U016",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Komvux behöver provtillfälle även på höstterminen",
+   "kodare": 1
+  },
+  {
+   "id": "U017",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Egna slutprov skulle öka provpressen på eleverna",
+   "kodare": 1
+  },
+  {
+   "id": "U018",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Huvudmän behöver lokal frihet att lägga upp yrkesprogram",
+   "kodare": 1
+  },
+  {
+   "id": "U019",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Förutsättningar för yrkesprov varierar, relevanta prov saknas",
+   "kodare": 1
+  },
+  {
+   "id": "U020",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Skolverkets hantering av undantagsansökningar måste vara skyndsam",
+   "kodare": 1
+  },
+  {
+   "id": "U021",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Likvärdig bedömning och provpress för elever",
+   "kodare": 1
+  },
+  {
+   "id": "U022",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Bara ett halvår mellan ikraftträdande och tillämpning",
+   "kodare": 1
+  },
+  {
+   "id": "U023",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Reformernas införande måste samordnas för att undvika mellansystem",
+   "kodare": 1
+  },
+  {
+   "id": "U024",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Oklart hur blandbetyg kombineras till jämförbart meritvärde",
+   "kodare": 1
+  },
+  {
+   "id": "U025",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "Första årskullar på yrkesprogram antas under annat regelverk",
+   "kodare": 1
+  },
+  {
+   "id": "U026",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Två betygssystem försvårar samläsning mellan program",
+   "kodare": 1
+  },
+  {
+   "id": "U027",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Andra reformens övergångsbestämmelser förvärrar problemen",
+   "kodare": 1
+  },
+  {
+   "id": "U028",
+   "primar": "Organisation och planering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Behov av lokala gemensamma slutprov underskattas",
+   "kodare": 1
+  },
+  {
+   "id": "U029",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Huvudmän behöver individresultat för uppföljning",
+   "kodare": 1
+  },
+  {
+   "id": "U030",
+   "primar": "Organisation och planering",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Förslagen försämrar kraftigt förutsättningarna för komvux",
+   "kodare": 1
+  },
+  {
+   "id": "U031",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Samtidig implementering av många reformer ställer enorma krav",
+   "kodare": 1
+  },
+  {
+   "id": "U032",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Flera omfattande utredningar expedieras samtidigt",
+   "kodare": 1
+  },
+  {
+   "id": "U033",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Kort tidshorisont för omfattande ändringar",
+   "kodare": 1
+  },
+  {
+   "id": "U034",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Komplext system svårt för elever och vårdnadshavare",
+   "kodare": 1
+  },
+  {
+   "id": "U035",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Ingen möjlighet att stämma av betygssättning före införandet",
+   "kodare": 1
+  },
+  {
+   "id": "U036",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Risk för initiala kostnadsökningar under implementeringen",
+   "kodare": 1
+  },
+  {
+   "id": "U037",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Försvårad planering och dimensionering av gymnasieutbildningar",
+   "kodare": 1
+  },
+  {
+   "id": "U038",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Behov av studie- och yrkesvägledare under sommaren",
+   "kodare": 1
+  },
+  {
+   "id": "U039",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Återkoppling utan individnivå begränsar huvudmannens uppföljning",
+   "kodare": 1
+  },
+  {
+   "id": "U040",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Tidplan och reformtakt",
+   "motivering": "Lärare behöver stödmaterial och diagnostiska prov i god tid",
+   "kodare": 1
+  },
+  {
+   "id": "U041",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Tidplan och reformtakt",
+   "motivering": "Borttaget programinriktat val strider mot annan utredning",
+   "kodare": 1
+  },
+  {
+   "id": "U042",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Bedömningssamråd kräver löpande tid för lärare",
+   "kodare": 1
+  },
+  {
+   "id": "U043",
+   "primar": "Organisation och planering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Bedömningssamråd svårt på små skolor med få lärare",
+   "kodare": 1
+  },
+  {
+   "id": "U044",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Organisation och planering",
+   "motivering": "Provgenomförande kräver bemanning, kompetens och lokaler",
+   "kodare": 1
+  },
+  {
+   "id": "U045",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Två provtillfällen begränsar komvux flexibla utbildning",
+   "kodare": 1
+  },
+  {
+   "id": "U046",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Otydligt vad slutproven ska pröva",
+   "kodare": 1
+  },
+  {
+   "id": "U047",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Många samtidiga förändringar svåra att överblicka och genomföra",
+   "kodare": 1
+  },
+  {
+   "id": "U048",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Nytt system innan ämnesbetygsreformen hunnit på plats",
+   "kodare": 1
+  },
+  {
+   "id": "U049",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Tidplan och reformtakt",
+   "motivering": "Förslaget ökar lärares arbetstid, motsatt annan reform",
+   "kodare": 1
+  },
+  {
+   "id": "U050",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Komvux kapacitet räcker inte vid provanpassade studier",
+   "kodare": 1
+  },
+  {
+   "id": "U054",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Komplext system svårt för elever och vårdnadshavare",
+   "kodare": 1
+  },
+  {
+   "id": "U065",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Oro för komplexitet vid genomförandet av proven",
+   "kodare": 1
+  },
+  {
+   "id": "U066",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Tveksamt om tidsplanen räcker",
+   "kodare": 1
+  },
+  {
+   "id": "U067",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Komplext system kräver stödmaterial och tid för personal",
+   "kodare": 1
+  },
+  {
+   "id": "U068",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Ökad arbetsbörda och administration",
+   "kodare": 1
+  },
+  {
+   "id": "U069",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Tveksamt om tillräckligt många lärare vill rätta proven",
+   "kodare": 1
+  },
+  {
+   "id": "U070",
+   "primar": "System och teknik",
+   "sekundar": null,
+   "motivering": "Tekniska frågor om samverkande system och digitala standarder",
+   "kodare": 1
+  },
+  {
+   "id": "U071",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Förlängd tidplan och informationsinsatser behövs",
+   "kodare": 1
+  },
+  {
+   "id": "U072",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Lärare måste förklara nedkalibrering som kan upplevas orättvis",
+   "kodare": 1
+  },
+  {
+   "id": "U073",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Fasta slutprov passar inte komvux flexibla upplägg",
+   "kodare": 1
+  },
+  {
+   "id": "U074",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Finare skala kräver mer sambedömning för likvärdighet",
+   "kodare": 1
+  },
+  {
+   "id": "U075",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Högre krav på lärare att förklara betygsstegen",
+   "kodare": 1
+  },
+  {
+   "id": "U076",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Svårförklarade resultat kan minska elevernas motivation",
+   "kodare": 1
+  },
+  {
+   "id": "U077",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Kalibrering på små skolor ger risk för orättvisor",
+   "kodare": 1
+  },
+  {
+   "id": "U078",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Begränsade provtillfällen passar inte komvux verksamhet",
+   "kodare": 1
+  },
+  {
+   "id": "U079",
+   "primar": "Övrigt",
+   "sekundar": null,
+   "motivering": "Komvux riskerar att inte möta näringslivets kompetensbehov",
+   "kodare": 1
+  },
+  {
+   "id": "U080",
+   "primar": "System och teknik",
+   "sekundar": "Tidplan och reformtakt",
+   "motivering": "Kräver utbyggd digital teknik; tidsramen för snäv",
+   "kodare": 1
+  },
+  {
+   "id": "U081",
+   "primar": "System och teknik",
+   "sekundar": null,
+   "motivering": "Tekniska standarder för samverkande provsystem saknas",
+   "kodare": 1
+  },
+  {
+   "id": "U082",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Huvudmännens investeringar måste finansieras enligt finansieringsprincipen",
+   "kodare": 1
+  },
+  {
+   "id": "U083",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Reformiver riskerar göra arbetet i skolan övermäktigt",
+   "kodare": 1
+  },
+  {
+   "id": "U084",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Huvudmännens implementeringskostnader måste beaktas och finansieras",
+   "kodare": 1
+  },
+  {
+   "id": "U085",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Stödmaterial konkurrerar med andra reformers implementering",
+   "kodare": 1
+  },
+  {
+   "id": "U086",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Tveksamt om föreslagen tidsplan går att hålla",
+   "kodare": 1
+  },
+  {
+   "id": "U087",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Svårförstådd kalibreringsmodell försämrar transparensen",
+   "kodare": 1
+  },
+  {
+   "id": "U088",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Organisation och planering",
+   "motivering": "Ovisshet för elever, svårt dimensionera utbildningsplatser",
+   "kodare": 1
+  },
+  {
+   "id": "U089",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Tidsaspekten för införande optimistisk",
+   "kodare": 1
+  },
+  {
+   "id": "U090",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Delar måste samspela med andra pågående förslag",
+   "kodare": 1
+  },
+  {
+   "id": "U091",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Oklart vilket implementeringsstöd som kommer finnas",
+   "kodare": 1
+  },
+  {
+   "id": "U092",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Oklar tillämpning där nationella slutprov saknas",
+   "kodare": 1
+  },
+  {
+   "id": "U093",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Bedömningssamrådskrav ger skillnader mellan stora och små enheter",
+   "kodare": 1
+  },
+  {
+   "id": "U094",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Oklart hur bedömningssamrådens kvalitet säkerställs",
+   "kodare": 1
+  },
+  {
+   "id": "U095",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Lärare kan behöva ta fram ytterligare bedömningsunderlag",
+   "kodare": 1
+  },
+  {
+   "id": "U096",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "Minskad finansiering till kommuner på oklara grunder",
+   "kodare": 1
+  },
+  {
+   "id": "U097",
+   "primar": "System och teknik",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Antagningssystem måste justeras, oklart vem bär kostnaden",
+   "kodare": 1
+  },
+  {
+   "id": "U098",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Fler betygssteg upplevs mer komplext för elever och lärare",
+   "kodare": 1
+  },
+  {
+   "id": "U099",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Bedömningsstöd nödvändigt vid nya betygskriterier",
+   "kodare": 1
+  },
+  {
+   "id": "U100",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Organisation och planering",
+   "motivering": "Komplex modell svår att förklara, kräver stora insatser",
+   "kodare": 1
+  },
+  {
+   "id": "U101",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Elever kan välja skola för att undvika nedkalibrering",
+   "kodare": 1
+  },
+  {
+   "id": "U102",
+   "primar": "Organisation och planering",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Huvudmannens organisering av små enheter påverkar resultat",
+   "kodare": 1
+  },
+  {
+   "id": "U103",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Få elever ger annan beräkningsgrund med oklara konsekvenser",
+   "kodare": 1
+  },
+  {
+   "id": "U104",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Få provresultat som grund för genomsnittet",
+   "kodare": 1
+  },
+  {
+   "id": "U105",
+   "primar": "Övrigt",
+   "sekundar": null,
+   "motivering": "Färre elever väljer språk och högre nivåer; strategier behövs",
+   "kodare": 1
+  },
+  {
+   "id": "U106",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Gemensamma provtillfällen passar inte komvux flexibilitet",
+   "kodare": 1
+  },
+  {
+   "id": "U107",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Oklart hur omprov organiseras; kostnad för huvudman",
+   "kodare": 1
+  },
+  {
+   "id": "U108",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Oklart hur avgiftsregleringen ska ske",
+   "kodare": 1
+  },
+  {
+   "id": "U109",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Elever på programinriktat val behöver alternativ",
+   "kodare": 1
+  },
+  {
+   "id": "U110",
+   "primar": "Organisation och planering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Bedömningssamråd problematiskt för små enheter och ensamlärare",
+   "kodare": 1
+  },
+  {
+   "id": "U111",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Bedömningssamråd kan uppfattas som utökad arbetsmängd",
+   "kodare": 1
+  },
+  {
+   "id": "U112",
+   "primar": "System och teknik",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "Oklart om ny provplattform behövs; risk för provläckor",
+   "kodare": 1
+  },
+  {
+   "id": "U113",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Undantagsansökan till Skolverket riskerar bli lång process",
+   "kodare": 1
+  },
+  {
+   "id": "U114",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Ökad arbetsbörda vid dokumentation av anpassningar",
+   "kodare": 1
+  },
+  {
+   "id": "U115",
+   "primar": "Organisation och planering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Skolors möjlighet möta fördjupningsönskemål och lärarbehov",
+   "kodare": 1
+  },
+  {
+   "id": "U116",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Rättvisa och jämförbarhet på små gymnasieprogram",
+   "kodare": 1
+  },
+  {
+   "id": "U117",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Komvux kompensatoriska roll riskerar försvagas",
+   "kodare": 1
+  },
+  {
+   "id": "U118",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Organisation och planering",
+   "motivering": "Omfattande stöd behövs för analys, samråd och kommunikation",
+   "kodare": 1
+  },
+  {
+   "id": "U119",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Reformen bör samordnas med andra pågående förändringar",
+   "kodare": 1
+  },
+  {
+   "id": "U120",
+   "primar": "Organisation och planering",
+   "sekundar": "Tidplan och reformtakt",
+   "motivering": "Informations- och stödmaterial måste finnas i god tid",
+   "kodare": 1
+  },
+  {
+   "id": "U121",
+   "primar": "System och teknik",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Kräver ändamålsenliga analysverktyg och pedagogiskt stödmaterial",
+   "kodare": 1
+  },
+  {
+   "id": "U122",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Komplex statistisk logik måste kunna förklaras för elever",
+   "kodare": 1
+  },
+  {
+   "id": "U123",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Kräver transparens och tydlig rollfördelning stat–huvudman",
+   "kodare": 1
+  },
+  {
+   "id": "U124",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Finare skala ställer ökade krav på samsyn",
+   "kodare": 1
+  },
+  {
+   "id": "U125",
+   "primar": "Organisation och planering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Svårt ordna regelbundna samråd på små skolor",
+   "kodare": 1
+  },
+  {
+   "id": "U126",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Samråd riskerar bli ytterligare administrativt krav",
+   "kodare": 2
+  },
+  {
+   "id": "U127",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Huvudman måste möjliggöra samråd i planering och organisering",
+   "kodare": 2
+  },
+  {
+   "id": "U128",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Stöd och verktyg i god tid; parallella reformer",
+   "kodare": 2
+  },
+  {
+   "id": "U129",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Organisation och planering",
+   "motivering": "Begränsad administrativ och analytisk kapacitet hos vissa verksamheter",
+   "kodare": 2
+  },
+  {
+   "id": "U130",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Påverkar möjlighet att planera, genomföra och följa upp",
+   "kodare": 2
+  },
+  {
+   "id": "U131",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Behov av riktlinjer för kalibrering i små grupper",
+   "kodare": 2
+  },
+  {
+   "id": "U132",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Vuxenelever behöver stöd, provförberedelser och alternativa prövningsformer",
+   "kodare": 2
+  },
+  {
+   "id": "U133",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Olikheter mellan gymnasie- och komvuxstrukturer",
+   "kodare": 2
+  },
+  {
+   "id": "U134",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Samma provtider i komvux som gymnasieskolan passar inte",
+   "kodare": 2
+  },
+  {
+   "id": "U135",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "För kort implementeringsperiod, tid för kompetensutveckling behövs",
+   "kodare": 2
+  },
+  {
+   "id": "U136",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Standardiserat system ger vuxenstuderande ojämlik bedömning",
+   "kodare": 2
+  },
+  {
+   "id": "U137",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Kontinuerliga kursstarter krockar med fasta provtider",
+   "kodare": 2
+  },
+  {
+   "id": "U138",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Anpassad tidsplan och samordning av reformer krävs",
+   "kodare": 2
+  },
+  {
+   "id": "U139",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Tidsplanen alltför snäv för reformens omfattning",
+   "kodare": 2
+  },
+  {
+   "id": "U140",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Organisation och planering",
+   "motivering": "Kräver omfattande fortbildning och organisatorisk anpassning",
+   "kodare": 2
+  },
+  {
+   "id": "U141",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Parallella skolutredningar utan samordning",
+   "kodare": 2
+  },
+  {
+   "id": "U142",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Komplex modell, svår att förstå och förklara",
+   "kodare": 2
+  },
+  {
+   "id": "U143",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "System och teknik",
+   "motivering": "Behov av pedagogiskt och tekniskt implementeringsstöd",
+   "kodare": 2
+  },
+  {
+   "id": "U144",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Förstärkt resurstilldelning under övergångsperioden",
+   "kodare": 2
+  },
+  {
+   "id": "U145",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Komvux uppdrag i nya systemet behöver klargöras",
+   "kodare": 2
+  },
+  {
+   "id": "U146",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Introduktionsprogrammens uppdrag behöver förtydligas",
+   "kodare": 2
+  },
+  {
+   "id": "U147",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Komvuxelever bedöms enbart på slutprov vid urval",
+   "kodare": 2
+  },
+  {
+   "id": "U148",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Snäv tidsplan, införandet bör senareläggas",
+   "kodare": 2
+  },
+  {
+   "id": "U149",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Meritvärden dröjer, gymnasieantagningen kan förskjutas",
+   "kodare": 2
+  },
+  {
+   "id": "U150",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Modellen svår att förklara för elever och personal",
+   "kodare": 2
+  },
+  {
+   "id": "U151",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Förväntan att huvudman organiserar undervisning inför slutprov",
+   "kodare": 2
+  },
+  {
+   "id": "U152",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Elever samlas kring kursstarter nära antagningstillfällen",
+   "kodare": 2
+  },
+  {
+   "id": "U153",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": "Organisation och planering",
+   "motivering": "Tre betygssystem tillämpas samtidigt hösten 2027",
+   "kodare": 2
+  },
+  {
+   "id": "U154",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "System och teknik",
+   "motivering": "Kräver resurser för kompetensutveckling och studieadministrativa system",
+   "kodare": 2
+  },
+  {
+   "id": "U155",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Begränsad mottagarkapacitet för samtidiga förändringar",
+   "kodare": 2
+  },
+  {
+   "id": "U156",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Införandet bör senareläggas för att ge förberedelsetid",
+   "kodare": 2
+  },
+  {
+   "id": "U157",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Oklart hur yrkesprov ska utformas",
+   "kodare": 2
+  },
+  {
+   "id": "U158",
+   "primar": "System och teknik",
+   "sekundar": null,
+   "motivering": "Digitala system måste vara robusta och användarvänliga",
+   "kodare": 2
+  },
+  {
+   "id": "U159",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "System och teknik",
+   "motivering": "Kompetensutveckling, nya rutiner och anpassade IT-system krävs",
+   "kodare": 2
+  },
+  {
+   "id": "U160",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Kostnader kräver statlig finansiering, särskilt små kommuner",
+   "kodare": 2
+  },
+  {
+   "id": "U161",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Ny skala riskerar oro och missförstånd",
+   "kodare": 2
+  },
+  {
+   "id": "U162",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Lärare behöver sätta sig in; risk för varierande tolkning",
+   "kodare": 2
+  },
+  {
+   "id": "U163",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Införandet bör koordineras med andra förändringar",
+   "kodare": 2
+  },
+  {
+   "id": "U164",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Tidsramen riskerar vara alltför snäv",
+   "kodare": 2
+  },
+  {
+   "id": "U165",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "Beskrivning av finansieringen saknas",
+   "kodare": 2
+  },
+  {
+   "id": "U166",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Lärare måste lägga mer tid på att skapa och rätta prov",
+   "kodare": 2
+  },
+  {
+   "id": "U167",
+   "primar": "Organisation och planering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Små enheter med en lärare kräver mer organisation för samråd",
+   "kodare": 2
+  },
+  {
+   "id": "U168",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Kalibreringsmodellen är inte lättbegriplig",
+   "kodare": 2
+  },
+  {
+   "id": "U169",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Organisation och planering",
+   "motivering": "Utbud och genomströmning för kommuninvånare begränsas",
+   "kodare": 2
+  },
+  {
+   "id": "U170",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Lärares kompetens nedvärderas, yrkets attraktivitet minskar",
+   "kodare": 2
+  },
+  {
+   "id": "U171",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Meritvärdesberäkningen svår att förstå och förklara",
+   "kodare": 2
+  },
+  {
+   "id": "U172",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Kalibreringens tillförlitlighet vid få elever eller provbortfall",
+   "kodare": 2
+  },
+  {
+   "id": "U173",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Lärare behöver stöd för att förstå nya systemet",
+   "kodare": 2
+  },
+  {
+   "id": "U174",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Oklarhet om Skolverkets undantag från nationella prov",
+   "kodare": 2
+  },
+  {
+   "id": "U175",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Beräkning av genomsnittligt provresultat behöver förtydligas",
+   "kodare": 2
+  },
+  {
+   "id": "U176",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Regelverket för undantag behöver utvecklas",
+   "kodare": 2
+  },
+  {
+   "id": "U177",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Föreskrifter bör redovisas innan beslut om införande",
+   "kodare": 2
+  },
+  {
+   "id": "U178",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Organisation och planering",
+   "motivering": "Koncentrerat komvuxutbud hindrar heltidsstudier med studiemedel",
+   "kodare": 2
+  },
+  {
+   "id": "U179",
+   "primar": "Organisation och planering",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Slutprov en gång per termin minskar flexibilitet och genomströmning",
+   "kodare": 2
+  },
+  {
+   "id": "U180",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Elever måste vänta månader på examination",
+   "kodare": 2
+  },
+  {
+   "id": "U181",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Studerande koncentreras kring provtillfällen, alla kan ej antas",
+   "kodare": 2
+  },
+  {
+   "id": "U182",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Svårare rekrytera komvuxlärare när bedömning inte räknas",
+   "kodare": 2
+  },
+  {
+   "id": "U183",
+   "primar": "Organisation och planering",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Provmodellen försämrar flexibilitet och genomströmning",
+   "kodare": 2
+  },
+  {
+   "id": "U184",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Risk att studiesvaga komvuxelever utestängs från högre utbildning",
+   "kodare": 2
+  },
+  {
+   "id": "U185",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Försämrade möjligheter till försörjning och kompetensväxling",
+   "kodare": 2
+  },
+  {
+   "id": "U186",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Oklart hur omprov för fler provskrivare ska organiseras",
+   "kodare": 2
+  },
+  {
+   "id": "U187",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Organisation och planering",
+   "motivering": "Höga marginalkostnader för lokaler och provvakter",
+   "kodare": 2
+  },
+  {
+   "id": "U188",
+   "primar": "Organisation och planering",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Små skolor med ensamma ämneslärare undantas sambedömning",
+   "kodare": 2
+  },
+  {
+   "id": "U189",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Kommunikation om undantag mellan Skolverket och skola",
+   "kodare": 2
+  },
+  {
+   "id": "U190",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "För många mätningar och prov för eleverna",
+   "kodare": 2
+  },
+  {
+   "id": "U191",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Tidplan och reformtakt",
+   "motivering": "Kostsamt att byta betygssystem för ofta",
+   "kodare": 2
+  },
+  {
+   "id": "U192",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Provsystemet måste anpassas till vuxenutbildningens förutsättningar",
+   "kodare": 2
+  },
+  {
+   "id": "U193",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "System och teknik",
+   "motivering": "Ökade kostnader för teknisk infrastruktur och provpersonal",
+   "kodare": 2
+  },
+  {
+   "id": "U194",
+   "primar": "System och teknik",
+   "sekundar": "Organisation och planering",
+   "motivering": "Slutprov kräver förberedelser och teknisk kapacitet",
+   "kodare": 2
+  },
+  {
+   "id": "U195",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Egna lokala modeller ger omfattande merarbete",
+   "kodare": 2
+  },
+  {
+   "id": "U196",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Två provperioder per år begränsar komvux flexibilitet",
+   "kodare": 2
+  },
+  {
+   "id": "U197",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Heterogen elevgrupp med stora stödbehov på 1900-program",
+   "kodare": 2
+  },
+  {
+   "id": "U198",
+   "primar": "Organisation och planering",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Ökat hemkommunsansvar och begränsade valmöjligheter för elever",
+   "kodare": 2
+  },
+  {
+   "id": "U199",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Tydlig vägledning om samrådens syfte efterfrågas",
+   "kodare": 2
+  },
+  {
+   "id": "U200",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Egna slutprov inför samråd ger stress för lärare och elever",
+   "kodare": 2
+  },
+  {
+   "id": "U201",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Slutprovens nya syfte måste klargöras och kommuniceras",
+   "kodare": 2
+  },
+  {
+   "id": "U202",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Alla provdelar samma dag ger praktiska utmaningar",
+   "kodare": 2
+  },
+  {
+   "id": "U203",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Ökade kostnader för huvudmännen",
+   "kodare": 2
+  },
+  {
+   "id": "U204",
+   "primar": "System och teknik",
+   "sekundar": "Organisation och planering",
+   "motivering": "Datorer, programvara och lokaler för distanselevers prov",
+   "kodare": 2
+  },
+  {
+   "id": "U205",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Organisatoriska utmaningar när ämnen avslutas före slutprov",
+   "kodare": 2
+  },
+  {
+   "id": "U206",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Rättning och kalibrering inom kort tidsfönster före antagning",
+   "kodare": 2
+  },
+  {
+   "id": "U207",
+   "primar": "Organisation och planering",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Slutproven styr planering och elevers studieval i komvux",
+   "kodare": 2
+  },
+  {
+   "id": "U208",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Ökad risk för fusk när proven väger tyngre",
+   "kodare": 2
+  },
+  {
+   "id": "U209",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Mer administration, ökad lärarbelastning och betygsstress",
+   "kodare": 2
+  },
+  {
+   "id": "U210",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Omfattande förändringar på kort tid",
+   "kodare": 2
+  },
+  {
+   "id": "U211",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Förändringar genomförs för snabbt",
+   "kodare": 2
+  },
+  {
+   "id": "U212",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Begreppet betygskriterier saknar definition",
+   "kodare": 2
+  },
+  {
+   "id": "U213",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Oklart när streck ska ges",
+   "kodare": 2
+  },
+  {
+   "id": "U214",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Tidplan och reformtakt",
+   "motivering": "Utredningarnas förslag måste synkroniseras för tydlighet",
+   "kodare": 2
+  },
+  {
+   "id": "U215",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Samråd kräver stor organisatorisk omställning på vissa skolor",
+   "kodare": 2
+  },
+  {
+   "id": "U216",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Lärarnas tid är begränsad",
+   "kodare": 2
+  },
+  {
+   "id": "U217",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Lärare har olika arbetstider, svårt samordna samråd",
+   "kodare": 2
+  },
+  {
+   "id": "U218",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Oreglerade samrådsmetoder ger olika förfaranden mellan skolor",
+   "kodare": 2
+  },
+  {
+   "id": "U219",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Central rättning som bisyssla ger orimlig arbetsbelastning",
+   "kodare": 2
+  },
+  {
+   "id": "U220",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Oklart vilka prov som ska rättas centralt",
+   "kodare": 2
+  },
+  {
+   "id": "U221",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Jämförelsestress för lärare och rektorer",
+   "kodare": 2
+  },
+  {
+   "id": "U222",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Försvagade professionella lärandegemenskaper",
+   "kodare": 2
+  },
+  {
+   "id": "U223",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Begreppen betygskriterier saknar definition",
+   "kodare": 2
+  },
+  {
+   "id": "U224",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Minskat statsbidrag måste finansieras på annat sätt",
+   "kodare": 2
+  },
+  {
+   "id": "U225",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Minskad ersättning i kommunala utjämningssystemet",
+   "kodare": 2
+  },
+  {
+   "id": "U226",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Lärartjänster kan inte minskas marginellt; ingen besparing",
+   "kodare": 2
+  },
+  {
+   "id": "U227",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Minskade intäkter men oförändrade lärarkostnader",
+   "kodare": 2
+  },
+  {
+   "id": "U228",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Saknad helhet mellan samtidiga utredningar",
+   "kodare": 2
+  },
+  {
+   "id": "U229",
+   "primar": "Organisation och planering",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Nytt arbetssätt kräver tid och resurser, svårt på små skolor",
+   "kodare": 2
+  },
+  {
+   "id": "U230",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Tidplan och reformtakt",
+   "motivering": "Behov av tid och stödmaterial för lärare",
+   "kodare": 2
+  },
+  {
+   "id": "U231",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Osäkerhet vid betygssättningen",
+   "kodare": 2
+  },
+  {
+   "id": "U232",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Måste synkroniseras med Läroplansutredningen",
+   "kodare": 2
+  },
+  {
+   "id": "U233",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Svårare behålla flexibel studietakt och kontinuerlig antagning",
+   "kodare": 2
+  },
+  {
+   "id": "U234",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Organisation och planering",
+   "motivering": "Svårare med individuella lösningar för heterogen målgrupp",
+   "kodare": 2
+  },
+  {
+   "id": "U235",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Behov av tydliga riktlinjer och omräkningsverktyg",
+   "kodare": 2
+  },
+  {
+   "id": "U236",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Ett provtillfälle per termin passar inte komvux",
+   "kodare": 3
+  },
+  {
+   "id": "U237",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Organisation och planering",
+   "motivering": "Yrkespaketselever fördröjs i väntan på slutprov",
+   "kodare": 3
+  },
+  {
+   "id": "U238",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Mindre kommuner kan behöva minska programutbud",
+   "kodare": 3
+  },
+  {
+   "id": "U239",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Yrkesprogram blir mer resurskrävande",
+   "kodare": 3
+  },
+  {
+   "id": "U240",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Föreskrifter för yrkesprov behöver bli tydliga",
+   "kodare": 3
+  },
+  {
+   "id": "U241",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Organisation och planering",
+   "motivering": "Risk för sena antagningsbesked till gymnasiet",
+   "kodare": 3
+  },
+  {
+   "id": "U242",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Kostnad för program med få elever",
+   "kodare": 3
+  },
+  {
+   "id": "U243",
+   "primar": "Organisation och planering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Tjänstefördelning hinns inte, mindre förberedelsetid",
+   "kodare": 3
+  },
+  {
+   "id": "U244",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Riktlinjer saknas för lika provmöjligheter",
+   "kodare": 3
+  },
+  {
+   "id": "U245",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Tidplanen orealistisk med Gy25 och andra reformer",
+   "kodare": 3
+  },
+  {
+   "id": "U246",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "Stödmaterial måste finnas före införandet",
+   "kodare": 3
+  },
+  {
+   "id": "U248",
+   "primar": "Organisation och planering",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Två provtillfällen ger ojämna flöden och planeringssvårigheter",
+   "kodare": 3
+  },
+  {
+   "id": "U249",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Fler kan välja bort komvux",
+   "kodare": 3
+  },
+  {
+   "id": "U250",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Svårt planera personal och lokaler, överbelastning",
+   "kodare": 3
+  },
+  {
+   "id": "U251",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Organisation och planering",
+   "motivering": "Ojämnt elevantal ger ekonomisk osäkerhet och kostnader",
+   "kodare": 3
+  },
+  {
+   "id": "U252",
+   "primar": "Organisation och planering",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Ytterligare tryck på få provtillfällen",
+   "kodare": 3
+  },
+  {
+   "id": "U253",
+   "primar": "Organisation och planering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Kräver planerad implementering, resurser och utbildning",
+   "kodare": 3
+  },
+  {
+   "id": "U254",
+   "primar": "Organisation och planering",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Avidentifiering organisatoriskt och ekonomiskt krävande",
+   "kodare": 3
+  },
+  {
+   "id": "U255",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "Behov av riktlinjer och kompetensutveckling för lärare",
+   "kodare": 3
+  },
+  {
+   "id": "U256",
+   "primar": "Organisation och planering",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Varierande elevantal ger organisatoriska och ekonomiska utmaningar",
+   "kodare": 3
+  },
+  {
+   "id": "U257",
+   "primar": "Organisation och planering",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Avidentifiering resurskrävande och kräver rutiner",
+   "kodare": 3
+  },
+  {
+   "id": "U258",
+   "primar": "System och teknik",
+   "sekundar": null,
+   "motivering": "Kräver stabil plattform för nationella prov",
+   "kodare": 3
+  },
+  {
+   "id": "U259",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Oklart hur ansvar för bedömningsråd blir likvärdigt",
+   "kodare": 3
+  },
+  {
+   "id": "U260",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Ökad administrativ arbetsbörda för lärare och skolor",
+   "kodare": 3
+  },
+  {
+   "id": "U261",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Tidplan och reformtakt",
+   "motivering": "Reformen tar tid och blir kostsam",
+   "kodare": 3
+  },
+  {
+   "id": "U262",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Implementering tar mycket lärartid i anspråk",
+   "kodare": 3
+  },
+  {
+   "id": "U263",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Varning för reformiver",
+   "kodare": 3
+  },
+  {
+   "id": "U264",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "System och teknik",
+   "motivering": "Svårförståelig reform beroende av stabil plattform",
+   "kodare": 3
+  },
+  {
+   "id": "U265",
+   "primar": "System och teknik",
+   "sekundar": null,
+   "motivering": "Tvivel på stabil digital provplattform",
+   "kodare": 3
+  },
+  {
+   "id": "U266",
+   "primar": "Organisation och planering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Små skolor har svårt bilda bedömningsråd",
+   "kodare": 3
+  },
+  {
+   "id": "U267",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Oklart ansvar för likvärdiga bedömningsråd",
+   "kodare": 3
+  },
+  {
+   "id": "U268",
+   "primar": "Övrigt",
+   "sekundar": null,
+   "motivering": "Mindre information om undervisningens kvalitet",
+   "kodare": 3
+  },
+  {
+   "id": "U269",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Meritpoängsystemet svårt att förklara",
+   "kodare": 3
+  },
+  {
+   "id": "U270",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Systemet krångligt och svårt att förstå",
+   "kodare": 3
+  },
+  {
+   "id": "U271",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Rimlig implementeringstid och stöd behövs",
+   "kodare": 3
+  },
+  {
+   "id": "U272",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Kräver tillräckligt med studie- och yrkesvägledare",
+   "kodare": 3
+  },
+  {
+   "id": "U273",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Olika tolkning av betygsstegen ger osäkerhet",
+   "kodare": 3
+  },
+  {
+   "id": "U274",
+   "primar": "System och teknik",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Tekniska störningar vid digitala prov",
+   "kodare": 3
+  },
+  {
+   "id": "U275",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Bedömningssamråd kräver tid och engagemang",
+   "kodare": 3
+  },
+  {
+   "id": "U276",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Tidsplanen orimlig för alla delar",
+   "kodare": 3
+  },
+  {
+   "id": "U277",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Tidplan och reformtakt",
+   "motivering": "Kompetensutveckling kräver tid och material",
+   "kodare": 3
+  },
+  {
+   "id": "U278",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Flera samtidiga reformer hotar kvaliteten",
+   "kodare": 3
+  },
+  {
+   "id": "U279",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Ekonomisk konsekvensanalys för kommunerna saknas",
+   "kodare": 3
+  },
+  {
+   "id": "U280",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Anslag för provhantering behövs fortsatt",
+   "kodare": 3
+  },
+  {
+   "id": "U281",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Riktlinjer behövs för skillnad betyg och provresultat",
+   "kodare": 3
+  },
+  {
+   "id": "U282",
+   "primar": "System och teknik",
+   "sekundar": "Organisation och planering",
+   "motivering": "Teknisk och organisatorisk support behövs för digitala prov",
+   "kodare": 3
+  },
+  {
+   "id": "U283",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Konsekvenser för meritvärdesberäkning behöver förtydligas",
+   "kodare": 3
+  },
+  {
+   "id": "U284",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Betygssystem och läroplan måste samordnas",
+   "kodare": 3
+  },
+  {
+   "id": "U285",
+   "primar": "Organisation och planering",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Små gymnasieskolor får svårt planera organisationen",
+   "kodare": 3
+  },
+  {
+   "id": "U286",
+   "primar": "System och teknik",
+   "sekundar": null,
+   "motivering": "Alla system måste fungera före genomförande",
+   "kodare": 3
+  },
+  {
+   "id": "U287",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Implementeringsstöd behövs snarast efter beslut",
+   "kodare": 3
+  },
+  {
+   "id": "U288",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Tidplan och reformtakt",
+   "motivering": "Stödmaterial som förtydligar betygskriterier behövs",
+   "kodare": 3
+  },
+  {
+   "id": "U289",
+   "primar": "System och teknik",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Stabil plattform och likvärdiga prov över tid",
+   "kodare": 3
+  },
+  {
+   "id": "U290",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Återkoppling behövs för lärares bedömarkompetens",
+   "kodare": 3
+  },
+  {
+   "id": "U291",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Regelverket för provundantag måste vara tydligt",
+   "kodare": 3
+  },
+  {
+   "id": "U292",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Svårt skapa förståelse för meritvärdeskalibreringen",
+   "kodare": 3
+  },
+  {
+   "id": "U293",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Behov av kontroll vid felberäknat meritvärde",
+   "kodare": 3
+  },
+  {
+   "id": "U294",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Rektors ansvar för betygssamråd behöver förtydligas",
+   "kodare": 3
+  },
+  {
+   "id": "U295",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Organisation och planering",
+   "motivering": "Oklara krav på små enheter",
+   "kodare": 3
+  },
+  {
+   "id": "U296",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Flera stora reformer påverkar samtidigt",
+   "kodare": 3
+  },
+  {
+   "id": "U297",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Tidplan och reformtakt",
+   "motivering": "Hög arbetsbelastning under övergångsperiod",
+   "kodare": 3
+  },
+  {
+   "id": "U298",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Bedömningskrav för språkintroduktion behöver förtydligas",
+   "kodare": 3
+  },
+  {
+   "id": "U299",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Undantagsbeslut av Skolverket utan kännedom om eleven",
+   "kodare": 3
+  },
+  {
+   "id": "U300",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Organisation och planering",
+   "motivering": "Oklart när och hur omprov genomförs",
+   "kodare": 3
+  },
+  {
+   "id": "U301",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Oklart hur betygsstegen ska konkretiseras",
+   "kodare": 3
+  },
+  {
+   "id": "U302",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Betydligt mer förberedelsetid krävs",
+   "kodare": 3
+  },
+  {
+   "id": "U303",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "Svåröverblickbara konsekvenser och samtida reformtryck",
+   "kodare": 3
+  },
+  {
+   "id": "U304",
+   "primar": "Övrigt",
+   "sekundar": null,
+   "motivering": "Informationsinsatser behövs för systemets legitimitet",
+   "kodare": 3
+  },
+  {
+   "id": "U305",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Organisation och planering",
+   "motivering": "Komvux kompletterande uppdrag riskerar förändras",
+   "kodare": 3
+  },
+  {
+   "id": "U306",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Tidplanen för ikraftträdande inte realistisk",
+   "kodare": 3
+  },
+  {
+   "id": "U307",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "System och teknik",
+   "motivering": "Oberäknade kostnader för antagningssystem, kompensation krävs",
+   "kodare": 3
+  },
+  {
+   "id": "U308",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Delar inte kostnadsbedömningen för digitala prov",
+   "kodare": 3
+  },
+  {
+   "id": "U309",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Kostnader enligt finansieringsprincipen, inklusive kompetensutveckling",
+   "kodare": 3
+  },
+  {
+   "id": "U310",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Samtidigt med nya läroplaner kräver kompetensutveckling",
+   "kodare": 3
+  },
+  {
+   "id": "U311",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Samtidiga förslag påverkar varandra, svåröverblickbart",
+   "kodare": 3
+  },
+  {
+   "id": "U312",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Höga krav på alla aktörer vid implementering",
+   "kodare": 3
+  },
+  {
+   "id": "U313",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Tidplanen orealistisk, behöver förlängas",
+   "kodare": 3
+  },
+  {
+   "id": "U314",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Kompetensutvecklingstid måste samordnas med andra reformer",
+   "kodare": 3
+  },
+  {
+   "id": "U315",
+   "primar": "Organisation och planering",
+   "sekundar": "Tidplan och reformtakt",
+   "motivering": "Huvudmän behöver kunna planera sina insatser",
+   "kodare": 3
+  },
+  {
+   "id": "U316",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": "Organisation och planering",
+   "motivering": "Längre förberedelsetid för att organisera gymnasieantagning",
+   "kodare": 3
+  },
+  {
+   "id": "U317",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Systemet hotar komvux andra-chans-uppdrag",
+   "kodare": 3
+  },
+  {
+   "id": "U318",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Oro för påverkan på komvux som skolform",
+   "kodare": 3
+  },
+  {
+   "id": "U319",
+   "primar": "Övrigt",
+   "sekundar": null,
+   "motivering": "Osäkert om slutproven kan utvecklas som föreslaget",
+   "kodare": 3
+  },
+  {
+   "id": "U320",
+   "primar": "Organisation och planering",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Påverkar komvux undervisning och utbud",
+   "kodare": 3
+  },
+  {
+   "id": "U321",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Senare skolstart påverkar läsårsplanering",
+   "kodare": 3
+  },
+  {
+   "id": "U322",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Slutantagningen måste senareläggas",
+   "kodare": 3
+  },
+  {
+   "id": "U323",
+   "primar": "Övrigt",
+   "sekundar": "Tidplan och reformtakt",
+   "motivering": "Osäkert om ändamålsenliga prov kan införas i närtid",
+   "kodare": 3
+  },
+  {
+   "id": "U324",
+   "primar": "Organisation och planering",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Provtillfällen vid terminsslut påverkar komvux utbud",
+   "kodare": 3
+  },
+  {
+   "id": "U325",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Förslaget motstrider gällande lagstiftning för komvux",
+   "kodare": 3
+  },
+  {
+   "id": "U326",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Fler elever kan behöva stöd och misslyckas",
+   "kodare": 3
+  },
+  {
+   "id": "U327",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "Svårt förutse effekter på genomströmning och avhopp",
+   "kodare": 3
+  },
+  {
+   "id": "U328",
+   "primar": "Organisation och planering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Samråd på små skolor med få lärare",
+   "kodare": 3
+  },
+  {
+   "id": "U329",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Detaljreglering av samrådens deltagare avstyrks",
+   "kodare": 3
+  },
+  {
+   "id": "U330",
+   "primar": "System och teknik",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Prov bör vara digitala med minimal administration",
+   "kodare": 3
+  },
+  {
+   "id": "U331",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Samtidiga reformer gör tidplanen orealistisk",
+   "kodare": 3
+  },
+  {
+   "id": "U332",
+   "primar": "System och teknik",
+   "sekundar": "Tidplan och reformtakt",
+   "motivering": "Risk för komplikationer liknande digitala nationella prov",
+   "kodare": 3
+  },
+  {
+   "id": "U333",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Komplex modell kräver omfattande information",
+   "kodare": 3
+  },
+  {
+   "id": "U334",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Konsekvenser av fler prov otillräckligt beskrivna",
+   "kodare": 3
+  },
+  {
+   "id": "U335",
+   "primar": "System och teknik",
+   "sekundar": null,
+   "motivering": "Antagningssystem kräver omfattande utveckling",
+   "kodare": 3
+  },
+  {
+   "id": "U336",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Ökade kostnader, huvudmän behöver kompenseras",
+   "kodare": 3
+  },
+  {
+   "id": "U337",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Undervisning i ämnen utan prov kan hämmas",
+   "kodare": 3
+  },
+  {
+   "id": "U338",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Besparingsberäkningar för höga, lokal hantering kvarstår",
+   "kodare": 3
+  },
+  {
+   "id": "U339",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Personalkostnader för implementering initialt",
+   "kodare": 3
+  },
+  {
+   "id": "U340",
+   "primar": "Organisation och planering",
+   "sekundar": "Tidplan och reformtakt",
+   "motivering": "Omfattande förberedelse- och implementeringsinsatser krävs",
+   "kodare": 3
+  },
+  {
+   "id": "U341",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Organisation och planering",
+   "motivering": "Stress, komvux, förskjuten antagning och snäv tidplan",
+   "kodare": 3
+  },
+  {
+   "id": "U342",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Minskade statliga anslag till kommunerna",
+   "kodare": 3
+  },
+  {
+   "id": "U343",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Ekonomiska konsekvenser för huvudmän underskattade",
+   "kodare": 3
+  },
+  {
+   "id": "U344",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Behov att ta fram egna alternativa prov",
+   "kodare": 3
+  },
+  {
+   "id": "U345",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Fortbildning, information och system kostar tid och pengar",
+   "kodare": 3
+  },
+  {
+   "id": "U346",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Organisation och planering",
+   "motivering": "Anpassad gymnasieantagning ger kostnader för huvudmän",
+   "kodare": 3
+  },
+  {
+   "id": "U347",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Många samtidiga reformer 2028–2030 ställer stora krav",
+   "kodare": 4
+  },
+  {
+   "id": "U348",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Kommuner kompenseras inte för kostnader av ökad arbetsbelastning",
+   "kodare": 4
+  },
+  {
+   "id": "U349",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Oförutsägbara meritvärden hotar legitimitet för elever",
+   "kodare": 4
+  },
+  {
+   "id": "U350",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Inkonsekvent betygsättning kan missgynna enskilda elever",
+   "kodare": 4
+  },
+  {
+   "id": "U351",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Enskilda provresultat påverkar meritvärden för mycket på små skolor",
+   "kodare": 4
+  },
+  {
+   "id": "U352",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Organisation och planering",
+   "motivering": "Påverkar elevers ämnesval och skolors resursfördelning",
+   "kodare": 4
+  },
+  {
+   "id": "U353",
+   "primar": "Organisation och planering",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Gymnasieantagning förskjuts, organisationsplanering försenas",
+   "kodare": 4
+  },
+  {
+   "id": "U354",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Konsekvenser för gymnasieantagningsarbetet ej beaktade",
+   "kodare": 4
+  },
+  {
+   "id": "U355",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Preliminärantagningens nytta begränsas",
+   "kodare": 4
+  },
+  {
+   "id": "U356",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Förslaget utgår från läsårsbundna skolformer, inte Komvux",
+   "kodare": 4
+  },
+  {
+   "id": "U357",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Två provtillfällen begränsar Komvux flexibla utbildning",
+   "kodare": 4
+  },
+  {
+   "id": "U358",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Kräver helt ny organisering av Komvux",
+   "kodare": 4
+  },
+  {
+   "id": "U359",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Komvux förmåga att starta utbildningar efter behov minskar",
+   "kodare": 4
+  },
+  {
+   "id": "U360",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Komvux roll som andra chans för elever försvåras",
+   "kodare": 4
+  },
+  {
+   "id": "U361",
+   "primar": "Organisation och planering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Logistik, lokaler, utrustning och personal för samtidiga slutprov",
+   "kodare": 4
+  },
+  {
+   "id": "U362",
+   "primar": "Organisation och planering",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "Behov av rutiner och stöd för provsäkerhet",
+   "kodare": 4
+  },
+  {
+   "id": "U363",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Oklart ansvar för utredning av fusk",
+   "kodare": 4
+  },
+  {
+   "id": "U364",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Organisation och planering",
+   "motivering": "Provorganisationen kräver statsbidrag eller ersättning",
+   "kodare": 4
+  },
+  {
+   "id": "U365",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Saknade individresultat försvårar analys- och utvecklingsarbete",
+   "kodare": 4
+  },
+  {
+   "id": "U366",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Minskad lärararbetsbörda blir mindre än utredningen bedömer",
+   "kodare": 4
+  },
+  {
+   "id": "U367",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Snäv tidsplan för införande",
+   "kodare": 4
+  },
+  {
+   "id": "U368",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": "Organisation och planering",
+   "motivering": "Tre betygssystem parallellt under en period",
+   "kodare": 4
+  },
+  {
+   "id": "U369",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Samtidiga reformer riskerar bristande kvalitet",
+   "kodare": 4
+  },
+  {
+   "id": "U370",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "System och teknik",
+   "motivering": "Kompetensutveckling och justering av studieadministrativa system",
+   "kodare": 4
+  },
+  {
+   "id": "U371",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Omfattande implementerings- och informationsarbete krävs",
+   "kodare": 4
+  },
+  {
+   "id": "U372",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Snäv tidsplan saknar marginal för förseningar",
+   "kodare": 4
+  },
+  {
+   "id": "U373",
+   "primar": "System och teknik",
+   "sekundar": "Organisation och planering",
+   "motivering": "Miljontals prov på kort tid, störningskänsligt",
+   "kodare": 4
+  },
+  {
+   "id": "U374",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Ofinansierade reformer belastar redan hårt belastad yrkeskår",
+   "kodare": 4
+  },
+  {
+   "id": "U375",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Lärare får lägga tid på egna prov och samråd",
+   "kodare": 4
+  },
+  {
+   "id": "U376",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Skolor behöver kunskap om elevers prestationsstress",
+   "kodare": 4
+  },
+  {
+   "id": "U377",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Minskat underlag för systematiskt kvalitetsarbete",
+   "kodare": 4
+  },
+  {
+   "id": "U378",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Risk för ny omfattande dokumentation",
+   "kodare": 4
+  },
+  {
+   "id": "U379",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Fler steg försvårar rättvisa och likvärdiga betyg",
+   "kodare": 4
+  },
+  {
+   "id": "U380",
+   "primar": "Övrigt",
+   "sekundar": null,
+   "motivering": "Vårdnadshavares förtroende minskar av otydlig information",
+   "kodare": 4
+  },
+  {
+   "id": "U381",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Fasta provtillfällen minskar Komvux flexibilitet",
+   "kodare": 4
+  },
+  {
+   "id": "U382",
+   "primar": "Övrigt",
+   "sekundar": null,
+   "motivering": "Risk för minskad yrkesstatus om syftet inte kommuniceras",
+   "kodare": 4
+  },
+  {
+   "id": "U383",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Samsyn kring tiogradig skala tar lärartid",
+   "kodare": 4
+  },
+  {
+   "id": "U384",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Central rättning måste hinnas före antagningen",
+   "kodare": 4
+  },
+  {
+   "id": "U385",
+   "primar": "System och teknik",
+   "sekundar": null,
+   "motivering": "Tekniska förutsättningar och provplattform fungerar inte",
+   "kodare": 4
+  },
+  {
+   "id": "U386",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "System och teknik",
+   "motivering": "Nuvarande verktyg ökat arbetsbelastning för personal",
+   "kodare": 4
+  },
+  {
+   "id": "U387",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Svårt hinna implementera under kort tid",
+   "kodare": 4
+  },
+  {
+   "id": "U388",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Finansiering via minskade statsbidrag tvingar neddragningar",
+   "kodare": 4
+  },
+  {
+   "id": "U389",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Större elevgrupper eller minskad stödpersonal",
+   "kodare": 4
+  },
+  {
+   "id": "U390",
+   "primar": "Organisation och planering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Kalibrering kräver omfattande samarbete mellan lärare",
+   "kodare": 4
+  },
+  {
+   "id": "U391",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "Ökad arbetsbörda och otydlig lärarroll",
+   "kodare": 4
+  },
+  {
+   "id": "U392",
+   "primar": "Övrigt",
+   "sekundar": null,
+   "motivering": "Pedagogiska och kommunikativa utmaningar mot elever, vårdnadshavare",
+   "kodare": 4
+  },
+  {
+   "id": "U393",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Oklar tidsram försvårar vägledning inför gymnasieval",
+   "kodare": 4
+  },
+  {
+   "id": "U394",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Små skolor behöver centralt organiserade samråd",
+   "kodare": 4
+  },
+  {
+   "id": "U395",
+   "primar": "Organisation och planering",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Samråd kräver kostnadsdrivande organisatoriska förändringar",
+   "kodare": 4
+  },
+  {
+   "id": "U396",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Samråd tar tid från tidspressad lärarkår",
+   "kodare": 4
+  },
+  {
+   "id": "U397",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Organisation och planering",
+   "motivering": "Slutprov administrativt betungande och kostsamt",
+   "kodare": 4
+  },
+  {
+   "id": "U398",
+   "primar": "System och teknik",
+   "sekundar": null,
+   "motivering": "Tekniska lösningar svåra att få på plats",
+   "kodare": 4
+  },
+  {
+   "id": "U399",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Central rättning kompenserar inte ökad arbetsbörda",
+   "kodare": 4
+  },
+  {
+   "id": "U400",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Medel behöver tillföras huvudmännen",
+   "kodare": 4
+  },
+  {
+   "id": "U401",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Söktoppar i Komvux kring slutprovsperioder",
+   "kodare": 4
+  },
+  {
+   "id": "U402",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Komvux behöver bygga upp provorganisation",
+   "kodare": 4
+  },
+  {
+   "id": "U403",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Fler slutprovselever på Komvux kräver organisering",
+   "kodare": 4
+  },
+  {
+   "id": "U404",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Fortsatt behov av bedömningskompetensutveckling",
+   "kodare": 4
+  },
+  {
+   "id": "U405",
+   "primar": "Organisation och planering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Komvuxlärare ensamma i ämnet utan bedömningskollegor",
+   "kodare": 4
+  },
+  {
+   "id": "U406",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Tidplanen för stegvis införande mycket snäv",
+   "kodare": 4
+  },
+  {
+   "id": "U407",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Organisation och planering",
+   "motivering": "Kräver omfattande informations- och utbildningsinsatser",
+   "kodare": 4
+  },
+  {
+   "id": "U408",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Krockande implementeringar överbelastar verksamheterna",
+   "kodare": 4
+  },
+  {
+   "id": "U409",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Huvudmän måste få kompensation",
+   "kodare": 4
+  },
+  {
+   "id": "U410",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Tidplan och reformtakt",
+   "motivering": "Oklart tidsåtgång och implementeringsstöd",
+   "kodare": 4
+  },
+  {
+   "id": "U411",
+   "primar": "Organisation och planering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Kräver omfattande stödmaterial från skolmyndigheter",
+   "kodare": 4
+  },
+  {
+   "id": "U412",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Kompetensutveckling för lärare och rektorer krävs",
+   "kodare": 4
+  },
+  {
+   "id": "U413",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Ikraftträdande bör senareläggas för förberedelse",
+   "kodare": 4
+  },
+  {
+   "id": "U414",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Tidplan och reformtakt",
+   "motivering": "Elever bedöms i två betygssystem under grundskolan",
+   "kodare": 4
+  },
+  {
+   "id": "U415",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Organisation och planering",
+   "motivering": "Kräver fortbildning och kommunikationsinsats",
+   "kodare": 4
+  },
+  {
+   "id": "U416",
+   "primar": "System och teknik",
+   "sekundar": "Organisation och planering",
+   "motivering": "Nya rutiner och digitala lösningar krävs",
+   "kodare": 4
+  },
+  {
+   "id": "U417",
+   "primar": "System och teknik",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Behov av statligt stöd för IT och fortbildning",
+   "kodare": 4
+  },
+  {
+   "id": "U418",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Krav på kommunikation och informationsmaterial",
+   "kodare": 4
+  },
+  {
+   "id": "U419",
+   "primar": "System och teknik",
+   "sekundar": null,
+   "motivering": "Antagningssystemen behöver anpassas",
+   "kodare": 4
+  },
+  {
+   "id": "U420",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Central rättning kan fördröja antagningsbesked",
+   "kodare": 4
+  },
+  {
+   "id": "U421",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Ekonomiska konsekvenser för kommuner behöver utredas",
+   "kodare": 4
+  },
+  {
+   "id": "U422",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Oklart om Komvux omfattas av digitala prov",
+   "kodare": 4
+  },
+  {
+   "id": "U423",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Utmaning kopplad till vuxenutbildningens flexibilitet",
+   "kodare": 4
+  },
+  {
+   "id": "U424",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Oklar hantering av yrkeskurser utan nationella prov",
+   "kodare": 4
+  },
+  {
+   "id": "U425",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": "Organisation och planering",
+   "motivering": "Parallella reformer behöver samordnas i tid",
+   "kodare": 4
+  },
+  {
+   "id": "U426",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Tidplan och reformtakt",
+   "motivering": "Mindre transparent, kräver informations- och utbildningsinsatser",
+   "kodare": 4
+  },
+  {
+   "id": "U427",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Tidplan och reformtakt",
+   "motivering": "Genomgripande förändring med nya läroplaner kräver fortbildning",
+   "kodare": 4
+  },
+  {
+   "id": "U428",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Kvalitetsarbetet saknar meritvärdesutfall vid läsårsslut",
+   "kodare": 4
+  },
+  {
+   "id": "U429",
+   "primar": "System och teknik",
+   "sekundar": null,
+   "motivering": "Risk att Skolverket inte levererar fungerande provplattform",
+   "kodare": 4
+  },
+  {
+   "id": "U430",
+   "primar": "System och teknik",
+   "sekundar": null,
+   "motivering": "Koncentrerade prov ställer höga krav på plattform",
+   "kodare": 4
+  },
+  {
+   "id": "U431",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Omfattande informationsarbete krävs för förtroende",
+   "kodare": 4
+  },
+  {
+   "id": "U432",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Förslaget går inte ihop med annat betänkande",
+   "kodare": 4
+  },
+  {
+   "id": "U433",
+   "primar": "Organisation och planering",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Små skolor och ensamlärare hamnar utanför samtalen",
+   "kodare": 4
+  },
+  {
+   "id": "U434",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Gymnasieantagningen försenas",
+   "kodare": 4
+  },
+  {
+   "id": "U435",
+   "primar": "Organisation och planering",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Preliminärantagning ger större osäkerhet",
+   "kodare": 4
+  },
+  {
+   "id": "U436",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Samtidiga reformer ger påfrestningar för huvudman och lärare",
+   "kodare": 4
+  },
+  {
+   "id": "U437",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Ansträngd ekonomi och arbetsbelastning kräver ekonomiskt tillskott",
+   "kodare": 4
+  },
+  {
+   "id": "U438",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Organisation och planering",
+   "motivering": "Modellen kräver större skolor för likvärdighet",
+   "kodare": 4
+  },
+  {
+   "id": "U439",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Lärare vill ha egna bekräftande prov",
+   "kodare": 4
+  },
+  {
+   "id": "U440",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Kostnader får inte landa på enskilda skolor",
+   "kodare": 4
+  },
+  {
+   "id": "U441",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Räcker legitimerade lärare för rättning efter läsåret",
+   "kodare": 4
+  },
+  {
+   "id": "U442",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Krångligt system påverkar tilltron",
+   "kodare": 4
+  },
+  {
+   "id": "U443",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Tidplanen alltför optimistisk",
+   "kodare": 4
+  },
+  {
+   "id": "U444",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": "System och teknik",
+   "motivering": "Orealistiskt hinna prov, rättning och plattform",
+   "kodare": 4
+  },
+  {
+   "id": "U445",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Ännu en omställning för lärare, elever, vårdnadshavare",
+   "kodare": 4
+  },
+  {
+   "id": "U446",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Tveksamt om kriterier kan skilja alla steg",
+   "kodare": 4
+  },
+  {
+   "id": "U447",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Rimlig tidsplan krävs för stödmaterial och fortbildning",
+   "kodare": 4
+  },
+  {
+   "id": "U448",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Riktade statliga resurser krävs",
+   "kodare": 4
+  },
+  {
+   "id": "U449",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Organisation och planering",
+   "motivering": "Kalibrering svår att förstå och tar tid",
+   "kodare": 4
+  },
+  {
+   "id": "U450",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Omöjligt för liten kommun att överblicka konsekvenserna",
+   "kodare": 4
+  },
+  {
+   "id": "U451",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Organisering av bedömningssamråd",
+   "kodare": 4
+  },
+  {
+   "id": "U452",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": "System och teknik",
+   "motivering": "Tveksamt att Skolverket hinner inom tre år",
+   "kodare": 4
+  },
+  {
+   "id": "U453",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Hantering i särskild ordning otydlig",
+   "kodare": 4
+  },
+  {
+   "id": "U454",
+   "primar": "Organisation och planering",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Små skolor gör att samråd sker enskilt",
+   "kodare": 4
+  },
+  {
+   "id": "U455",
+   "primar": "System och teknik",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Misslyckade digitala prov kostade förlorad arbetstid",
+   "kodare": 4
+  },
+  {
+   "id": "U456",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Kritisk till ikraftträdande 2027 respektive 2028",
+   "kodare": 4
+  }
+ ]
+}

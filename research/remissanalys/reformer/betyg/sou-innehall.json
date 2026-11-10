@@ -1,0 +1,3037 @@
+{
+ "_meta": {
+  "kalla": {
+   "text": "SOU 2025:18, innehållsförteckning",
+   "url": "https://www.regeringen.se/contentassets/56408e57ea8e4954bf38491c8bc33d4c/ett-likvardigt-betygssystem-sou-202518-volym-1.pdf"
+  },
+  "forslagskapitel": [
+   9,
+   20
+  ]
+ },
+ "lista": [
+  {
+   "avsnitt": "1.1",
+   "rubrik": "Förslag till lag om ändring i skollagen (2010:800)",
+   "sida": 87
+  },
+  {
+   "avsnitt": "1.2",
+   "rubrik": "Förslag till förordning om avgifter vid genomförande av nationella slutprov inom kommunal vuxenutbildning",
+   "sida": 143
+  },
+  {
+   "avsnitt": "1.3",
+   "rubrik": "Förslag till förordning om ändring i Högskoleförordningen (1993:100)",
+   "sida": 144
+  },
+  {
+   "avsnitt": "1.4",
+   "rubrik": "Förslag till förordning om ändring i förordningen (SKOLFS 2010:37) om läroplan för grundskolan, förskoleklassen och fritidshemmet",
+   "sida": 158
+  },
+  {
+   "avsnitt": "1.5",
+   "rubrik": "Förslag till förordning om ändring i förordning (SKOLFS 2010:250) om läroplan för specialskolan samt för förskoleklassen och fritidshemmet i vissa fall",
+   "sida": 163
+  },
+  {
+   "avsnitt": "1.6",
+   "rubrik": "Förslag till förordning om ändring i förordningen (SKOLFS 2010:251) om läroplan för sameskolan samt förskoleklassen och fritidshemmet i vissa fall",
+   "sida": 169
+  },
+  {
+   "avsnitt": "1.7",
+   "rubrik": "Förslag till förordning om ändring i förordningen (SKOLFS 2010:255) om läroplan för anpassade grundskolan",
+   "sida": 174
+  },
+  {
+   "avsnitt": "1.8",
+   "rubrik": "Förslag till förordning om ändring i gymnasieförordningen (2010:2039)",
+   "sida": 177
+  },
+  {
+   "avsnitt": "1.9",
+   "rubrik": "Förslag till förordning om ändring i förordningen (SKOLFS 2011:144) om läroplan för gymnasieskolan",
+   "sida": 204
+  },
+  {
+   "avsnitt": "1.10",
+   "rubrik": "Förslag till förordning om ändring i skolförordningen (2011:185)",
+   "sida": 207
+  },
+  {
+   "avsnitt": "1.11",
+   "rubrik": "Förslag till förordning om ändring av förordningen (2011:1108) om vuxenutbildning",
+   "sida": 217
+  },
+  {
+   "avsnitt": "1.12",
+   "rubrik": "Förslag till förordning om ändring i förordning (2014:854) om vidareutbildning i form av ett fjärde tekniskt år och statsbidrag för sådan utbildning",
+   "sida": 225
+  },
+  {
+   "avsnitt": "1.13",
+   "rubrik": "Förslag till förordning om ändring i förordningen (2015:1047) med instruktion för Statens skolverk",
+   "sida": 228
+  },
+  {
+   "avsnitt": "1.14",
+   "rubrik": "Förslag till förordning om ändring av förordningen (SKOLFS 2023:130) om ämnesplaner för de gymnasiegemensamma ämnena",
+   "sida": 230
+  },
+  {
+   "avsnitt": "2",
+   "rubrik": "Utredningens arbete",
+   "sida": 257
+  },
+  {
+   "avsnitt": "2.1",
+   "rubrik": "Aktörer och representanter som vi har träffat",
+   "sida": 257
+  },
+  {
+   "avsnitt": "2.1.1",
+   "rubrik": "Kontakter med forskare",
+   "sida": 257
+  },
+  {
+   "avsnitt": "2.1.2",
+   "rubrik": "Uppdrag",
+   "sida": 258
+  },
+  {
+   "avsnitt": "2.1.3",
+   "rubrik": "Studiebesök",
+   "sida": 259
+  },
+  {
+   "avsnitt": "2.1.4",
+   "rubrik": "Internationella kontakter",
+   "sida": 259
+  },
+  {
+   "avsnitt": "2.1.5",
+   "rubrik": "Andra pågående utredningar",
+   "sida": 260
+  },
+  {
+   "avsnitt": "2.1.6",
+   "rubrik": "Övriga möten",
+   "sida": 261
+  },
+  {
+   "avsnitt": "2.2",
+   "rubrik": "Betänkandets disposition",
+   "sida": 262
+  },
+  {
+   "avsnitt": "3",
+   "rubrik": "Utredningens uppdrag och utgångspunkter",
+   "sida": 265
+  },
+  {
+   "avsnitt": "3.1",
+   "rubrik": "Uppdraget enligt direktivet",
+   "sida": 265
+  },
+  {
+   "avsnitt": "3.1.1",
+   "rubrik": "Uppdragets kopplingar till undervisningen",
+   "sida": 265
+  },
+  {
+   "avsnitt": "3.2",
+   "rubrik": "Utredningens utgångspunkter",
+   "sida": 267
+  },
+  {
+   "avsnitt": "3.2.1",
+   "rubrik": "Förslagen ska bidra till ett kunskapsutvecklande skolsystem",
+   "sida": 269
+  },
+  {
+   "avsnitt": "3.2.2",
+   "rubrik": "Förslagen ska främja ämneskunskap och öka likvärdigheten med stöd i nationella prov",
+   "sida": 273
+  },
+  {
+   "avsnitt": "3.2.3",
+   "rubrik": "Förslagen ska bidra till att motverka stress",
+   "sida": 274
+  },
+  {
+   "avsnitt": "3.2.4",
+   "rubrik": "Förslagen ska öka förutsättningarna för mer likvärdiga meritvärden",
+   "sida": 275
+  },
+  {
+   "avsnitt": "3.2.5",
+   "rubrik": "Förslagen ska minimera kryphålen",
+   "sida": 276
+  },
+  {
+   "avsnitt": "3.2.6",
+   "rubrik": "Förslagen ska medföra att rätt personer får rätt utbildningsplatser",
+   "sida": 278
+  },
+  {
+   "avsnitt": "3.3",
+   "rubrik": "Antaganden om, och behov av, parallella reformer",
+   "sida": 279
+  },
+  {
+   "avsnitt": "4",
+   "rubrik": "Bestämmelser om betyg och betygssättning",
+   "sida": 281
+  },
+  {
+   "avsnitt": "4.1",
+   "rubrik": "Bestämmelser om betyg återfinns i lag, förordning och läroplaner",
+   "sida": 282
+  },
+  {
+   "avsnitt": "4.2",
+   "rubrik": "Betyg, betygsskala och betygskriterier",
+   "sida": 283
+  },
+  {
+   "avsnitt": "4.2.1",
+   "rubrik": "Skolformer där betyg sätts",
+   "sida": 283
+  },
+  {
+   "avsnitt": "4.2.2",
+   "rubrik": "Betygsskalan, betygskriterier och betygssättning",
+   "sida": 283
+  },
+  {
+   "avsnitt": "4.3",
+   "rubrik": "Bestämmelser om betyg i de olika skolformerna",
+   "sida": 286
+  },
+  {
+   "avsnitt": "4.3.1",
+   "rubrik": "Betyg i grundskolan, specialskolan, sameskolan och anpassade grundskolan",
+   "sida": 286
+  },
+  {
+   "avsnitt": "4.3.2",
+   "rubrik": "Betyg i gymnasieskolan och anpassade gymnasieskolan",
+   "sida": 288
+  },
+  {
+   "avsnitt": "4.3.3",
+   "rubrik": "Betyg i kommunal vuxenutbildning",
+   "sida": 291
+  },
+  {
+   "avsnitt": "4.4",
+   "rubrik": "Nationella prov, nationella bedömningsstöd och nationella kartläggningsmaterial",
+   "sida": 293
+  },
+  {
+   "avsnitt": "4.4.1",
+   "rubrik": "Nationella prov",
+   "sida": 294
+  },
+  {
+   "avsnitt": "4.4.2",
+   "rubrik": "Resultat på nationella prov ska särskilt beaktas vid betygssättning",
+   "sida": 294
+  },
+  {
+   "avsnitt": "4.4.3",
+   "rubrik": "Nationella bedömningsstöd och kartläggningsmaterial",
+   "sida": 295
+  },
+  {
+   "avsnitt": "4.5",
+   "rubrik": "Behörighet och urval till gymnasieskolan",
+   "sida": 296
+  },
+  {
+   "avsnitt": "4.5.1",
+   "rubrik": "Behörighet och urval till nationella program i gymnasieskolan",
+   "sida": 296
+  },
+  {
+   "avsnitt": "4.5.2",
+   "rubrik": "Behörighet och urval till introduktionsprogram",
+   "sida": 297
+  },
+  {
+   "avsnitt": "4.6",
+   "rubrik": "Behörighet och urval till högskolan",
+   "sida": 297
+  },
+  {
+   "avsnitt": "4.6.1",
+   "rubrik": "Grundläggande behörighet",
+   "sida": 298
+  },
+  {
+   "avsnitt": "4.6.2",
+   "rubrik": "Särskild behörighet",
+   "sida": 298
+  },
+  {
+   "avsnitt": "4.7",
+   "rubrik": "Behörighet och urval till yrkeshögskolan",
+   "sida": 299
+  },
+  {
+   "avsnitt": "4.7.1",
+   "rubrik": "Grundläggande behörighet",
+   "sida": 299
+  },
+  {
+   "avsnitt": "4.7.2",
+   "rubrik": "Behörighet i övrigt",
+   "sida": 300
+  },
+  {
+   "avsnitt": "4.7.3",
+   "rubrik": "Urval",
+   "sida": 300
+  },
+  {
+   "avsnitt": "5",
+   "rubrik": "Fördjupad beskrivning av dagens betygssystem",
+   "sida": 301
+  },
+  {
+   "avsnitt": "5.1",
+   "rubrik": "Tidigare betygssystem i Sverige",
+   "sida": 301
+  },
+  {
+   "avsnitt": "5.1.1",
+   "rubrik": "De tidiga bokstavsbetygen",
+   "sida": 302
+  },
+  {
+   "avsnitt": "5.1.2",
+   "rubrik": "Vägen till ett relativt betygssystem",
+   "sida": 304
+  },
+  {
+   "avsnitt": "5.1.3",
+   "rubrik": "Det relativa betygssystemets utveckling",
+   "sida": 305
+  },
+  {
+   "avsnitt": "5.1.4",
+   "rubrik": "Mot målrelaterade betyg",
+   "sida": 307
+  },
+  {
+   "avsnitt": "5.1.5",
+   "rubrik": "Antagningssystemet i relation till målrelaterade betyg",
+   "sida": 309
+  },
+  {
+   "avsnitt": "5.1.6",
+   "rubrik": "Transparens och måluppfyllelse",
+   "sida": 311
+  },
+  {
+   "avsnitt": "5.1.7",
+   "rubrik": "Stödsystemet bidrar till betygens bristande likvärdighet",
+   "sida": 315
+  },
+  {
+   "avsnitt": "5.2",
+   "rubrik": "Prövning",
+   "sida": 317
+  },
+  {
+   "avsnitt": "5.2.1",
+   "rubrik": "Lärare med erfarenhet av prövning i grundskolan",
+   "sida": 318
+  },
+  {
+   "avsnitt": "5.2.2",
+   "rubrik": "Lärare med erfarenhet av prövning i gymnasieskolan",
+   "sida": 319
+  },
+  {
+   "avsnitt": "5.2.3",
+   "rubrik": "Prövning i komvux",
+   "sida": 320
+  },
+  {
+   "avsnitt": "5.3",
+   "rubrik": "Effekter av att dagens betyg inte är likvärdiga",
+   "sida": 322
+  },
+  {
+   "avsnitt": "5.3.1",
+   "rubrik": "Olikvärdiga betyg påverkar tillträde till utbildning",
+   "sida": 326
+  },
+  {
+   "avsnitt": "5.3.2",
+   "rubrik": "”Särskilt beakta” har inte gjort jobbet såsom avsett",
+   "sida": 327
+  },
+  {
+   "avsnitt": "5.3.3",
+   "rubrik": "Är betygsinflation och glädjebetyg ett problem som berör alla skolor?",
+   "sida": 329
+  },
+  {
+   "avsnitt": "5.3.4",
+   "rubrik": "Räcker det inte att förtydliga betygskriterierna?",
+   "sida": 330
+  },
+  {
+   "avsnitt": "5.3.5",
+   "rubrik": "Kopplingar till Läroplansutredningen",
+   "sida": 335
+  },
+  {
+   "avsnitt": "5.4",
+   "rubrik": "De nationella provens införande och syften",
+   "sida": 337
+  },
+  {
+   "avsnitt": "5.4.1",
+   "rubrik": "Grundskolan",
+   "sida": 338
+  },
+  {
+   "avsnitt": "5.4.2",
+   "rubrik": "Gymnasial nivå",
+   "sida": 339
+  },
+  {
+   "avsnitt": "5.4.3",
+   "rubrik": "Ytterligare syften genom uppdrag till Skolverket",
+   "sida": 340
+  },
+  {
+   "avsnitt": "5.4.4",
+   "rubrik": "Begränsning och förtydligande av provens syften",
+   "sida": 341
+  },
+  {
+   "avsnitt": "5.4.5",
+   "rubrik": "Införande av att nationella provresultat särskilt ska beaktas vid betygssättningen/dagens reglering",
+   "sida": 342
+  },
+  {
+   "avsnitt": "5.5",
+   "rubrik": "Dagens regelverk för nationella prov",
+   "sida": 343
+  },
+  {
+   "avsnitt": "5.5.1",
+   "rubrik": "Ansvaret för nationella prov",
+   "sida": 344
+  },
+  {
+   "avsnitt": "5.5.2",
+   "rubrik": "De nationella provens funktion i dag",
+   "sida": 344
+  },
+  {
+   "avsnitt": "5.5.3",
+   "rubrik": "När de nationella proven inte fungerar som avsett",
+   "sida": 351
+  },
+  {
+   "avsnitt": "5.6",
+   "rubrik": "Olika syften kräver olika utformning av prov",
+   "sida": 357
+  },
+  {
+   "avsnitt": "5.6.1",
+   "rubrik": "Syftet att kartlägga elevernas kunskaper",
+   "sida": 358
+  },
+  {
+   "avsnitt": "5.6.2",
+   "rubrik": "Syftet att konkretisera kursmål och betygskriterier",
+   "sida": 360
+  },
+  {
+   "avsnitt": "5.6.3",
+   "rubrik": "Syftet att använda nationella prov för resultatuppföljning",
+   "sida": 362
+  },
+  {
+   "avsnitt": "5.6.4",
+   "rubrik": "Syftet att stödja likvärdig och rättvis bedömning och betygssättning",
+   "sida": 363
+  },
+  {
+   "avsnitt": "6",
+   "rubrik": "Betyg, bedömning och centrala prov i andra utbildningssystem",
+   "sida": 369
+  },
+  {
+   "avsnitt": "6.1",
+   "rubrik": "Centrala prov och examensprov i OECD-länderna",
+   "sida": 369
+  },
+  {
+   "avsnitt": "6.2",
+   "rubrik": "Urval av länder",
+   "sida": 371
+  },
+  {
+   "avsnitt": "6.3",
+   "rubrik": "Det finns inte ett rätt sätt",
+   "sida": 372
+  },
+  {
+   "avsnitt": "6.4",
+   "rubrik": "Olika länder har olika elever, med olika förutsättningar, i olika skolformer",
+   "sida": 372
+  },
+  {
+   "avsnitt": "6.5",
+   "rubrik": "Examinationer och bedömning i grundskolan",
+   "sida": 374
+  },
+  {
+   "avsnitt": "6.5.1",
+   "rubrik": "Inga länder tillämpar samma betygsskala",
+   "sida": 374
+  },
+  {
+   "avsnitt": "6.5.2",
+   "rubrik": "Betygen i grundskolan är ofta olikvärdiga",
+   "sida": 375
+  },
+  {
+   "avsnitt": "6.6",
+   "rubrik": "Antagning till gymnasial utbildning baseras sällan på godkända betyg eller betygsgenomsnitt",
+   "sida": 376
+  },
+  {
+   "avsnitt": "6.7",
+   "rubrik": "Betygsinflation förekommer och diskuteras ur olika perspektiv",
+   "sida": 377
+  },
+  {
+   "avsnitt": "6.8",
+   "rubrik": "Studentexamen från högskoleförberedande gymnasial utbildning kräver examensprov",
+   "sida": 378
+  },
+  {
+   "avsnitt": "6.9",
+   "rubrik": "Provkonstruktionen varierar",
+   "sida": 380
+  },
+  {
+   "avsnitt": "6.10",
+   "rubrik": "Extern bedömning är norm",
+   "sida": 380
+  },
+  {
+   "avsnitt": "6.11",
+   "rubrik": "Lärare har status och undervisar, de examinerar inte",
+   "sida": 380
+  },
+  {
+   "avsnitt": "6.12",
+   "rubrik": "Decentraliserad och kvotgruppsbaserad antagning till högskolan är norm",
+   "sida": 382
+  },
+  {
+   "avsnitt": "7",
+   "rubrik": "Utredningens sammanfattande vägval",
+   "sida": 385
+  },
+  {
+   "avsnitt": "7.1",
+   "rubrik": "Sverige sticker ut",
+   "sida": 385
+  },
+  {
+   "avsnitt": "7.2",
+   "rubrik": "Sammanfattande slutsatser av analysen av modeller",
+   "sida": 387
+  },
+  {
+   "avsnitt": "7.3",
+   "rubrik": "Sammanfattning av statistiska analyser, internationell jämförelse och vetenskapliga underlag per delområde",
+   "sida": 390
+  },
+  {
+   "avsnitt": "7.3.1",
+   "rubrik": "Ta vara på lärarbetygen men utnyttja externa prov som gemensam måttstock",
+   "sida": 390
+  },
+  {
+   "avsnitt": "7.3.2",
+   "rubrik": "Kalibrering av meritvärden i sin helhet",
+   "sida": 395
+  },
+  {
+   "avsnitt": "7.3.3",
+   "rubrik": "En hybridmodell för grundskolan och gymnasieskolan",
+   "sida": 396
+  },
+  {
+   "avsnitt": "7.3.4",
+   "rubrik": "En betygsskala med jämna skalsteg",
+   "sida": 397
+  },
+  {
+   "avsnitt": "7.4",
+   "rubrik": "Ett nytt provsystem",
+   "sida": 408
+  },
+  {
+   "avsnitt": "8",
+   "rubrik": "Val av modell och redogörelse för alternativ",
+   "sida": 411
+  },
+  {
+   "avsnitt": "8.1",
+   "rubrik": "Huvudförslag: Meritvärdeskalibrering",
+   "sida": 411
+  },
+  {
+   "avsnitt": "8.1.1",
+   "rubrik": "Meritvärdeskalibreringsmodellen – steg för steg",
+   "sida": 414
+  },
+  {
+   "avsnitt": "8.1.2",
+   "rubrik": "Skäl för meritvärdeskalibrering som utredningens huvudalternativ",
+   "sida": 420
+  },
+  {
+   "avsnitt": "8.1.3",
+   "rubrik": "De lärarsatta betygens funktion som mål- och resultatmått",
+   "sida": 429
+  },
+  {
+   "avsnitt": "8.1.4",
+   "rubrik": "Meritvärdeskalibrering – några exempel",
+   "sida": 429
+  },
+  {
+   "avsnitt": "8.1.5",
+   "rubrik": "Meritvärdeskalibrering i olika scenarier",
+   "sida": 437
+  },
+  {
+   "avsnitt": "8.2",
+   "rubrik": "Alternativt förslag grundskolan och specialskolan: direktstyrningsmodellen",
+   "sida": 440
+  },
+  {
+   "avsnitt": "8.2.1",
+   "rubrik": "Skälen för direktstyrningsmodellen som alternativt förslag",
+   "sida": 440
+  },
+  {
+   "avsnitt": "8.2.2",
+   "rubrik": "Fördelar jämfört med huvudförslaget",
+   "sida": 442
+  },
+  {
+   "avsnitt": "8.2.3",
+   "rubrik": "Nackdelar jämfört med huvudförslaget",
+   "sida": 442
+  },
+  {
+   "avsnitt": "8.3",
+   "rubrik": "Alternativt förslag för gymnasieskolan: Examensprovsmodellen",
+   "sida": 445
+  },
+  {
+   "avsnitt": "8.3.1",
+   "rubrik": "Skäl för examensprov som alternativt förslag i gymnasieskolan",
+   "sida": 445
+  },
+  {
+   "avsnitt": "8.3.2",
+   "rubrik": "Fördelar jämfört med huvudförslaget",
+   "sida": 447
+  },
+  {
+   "avsnitt": "8.3.3",
+   "rubrik": "Nackdelar jämfört med huvudförslaget",
+   "sida": 448
+  },
+  {
+   "avsnitt": "8.4",
+   "rubrik": "Andra förslag som utretts",
+   "sida": 454
+  },
+  {
+   "avsnitt": "8.4.1",
+   "rubrik": "Examensprov i grundskolan och specialskolan",
+   "sida": 454
+  },
+  {
+   "avsnitt": "8.4.2",
+   "rubrik": "Direktstyrningsmodell i gymnasieskolan",
+   "sida": 454
+  },
+  {
+   "avsnitt": "8.4.3",
+   "rubrik": "Sammanvägningsmodellen",
+   "sida": 457
+  },
+  {
+   "avsnitt": "8.4.4",
+   "rubrik": "Högskoleprovet som kalibreringsverktyg för gymnasiebetygen",
+   "sida": 458
+  },
+  {
+   "avsnitt": "8.4.5",
+   "rubrik": "Inspektion/granskning enligt tidigare förslag",
+   "sida": 459
+  },
+  {
+   "avsnitt": "9",
+   "rubrik": "Förslag på en numerisk betygsskala och nya betygskriterier",
+   "sida": 463
+  },
+  {
+   "avsnitt": "9.1",
+   "rubrik": "Problematik med dagens betygsskala i den föreslagna modellen",
+   "sida": 463
+  },
+  {
+   "avsnitt": "9.1.1",
+   "rubrik": "Ojämna skalsteg",
+   "sida": 463
+  },
+  {
+   "avsnitt": "9.1.2",
+   "rubrik": "Olika principer för olika betygssteg",
+   "sida": 464
+  },
+  {
+   "avsnitt": "9.1.3",
+   "rubrik": "Få betygssteg är inte optimalt för betyg som ska användas för urval",
+   "sida": 465
+  },
+  {
+   "avsnitt": "9.2",
+   "rubrik": "En betygsskala 1–10",
+   "sida": 465
+  },
+  {
+   "avsnitt": "9.2.1",
+   "rubrik": "Jämna och fler steg i betygsskalan",
+   "sida": 466
+  },
+  {
+   "avsnitt": "9.2.2",
+   "rubrik": "Betyg enligt anpassade grundskolans kursplaner eller anpassade gymnasieskolans ämnesplaner samt för vidareutbildning i form av ett fjärde tekniskt år",
+   "sida": 467
+  },
+  {
+   "avsnitt": "9.2.3",
+   "rubrik": "Minskade golv- och takeffekter",
+   "sida": 467
+  },
+  {
+   "avsnitt": "9.2.4",
+   "rubrik": "Konsekvenser av införandet av godtagbar nivå",
+   "sida": 468
+  },
+  {
+   "avsnitt": "9.2.5",
+   "rubrik": "Optimering för urval",
+   "sida": 469
+  },
+  {
+   "avsnitt": "9.3",
+   "rubrik": "Betygskriteriernas utformning och den nya betygsskalan",
+   "sida": 470
+  },
+  {
+   "avsnitt": "9.3.1",
+   "rubrik": "Nya betygskriterier som är stödjande vid betygssättningen",
+   "sida": 470
+  },
+  {
+   "avsnitt": "9.3.2",
+   "rubrik": "Hur ska fler steg i betygsskalan tolkas utifrån betygskriterierna?",
+   "sida": 473
+  },
+  {
+   "avsnitt": "9.3.3",
+   "rubrik": "Lärares betygssättning och kommunikation till eleverna med stöd av ny betygsskala och nya betygskriterier",
+   "sida": 474
+  },
+  {
+   "avsnitt": "9.3.4",
+   "rubrik": "Provresultat från tidigare årskohorter kan ge lärare stöd vid kommande betygssättning",
+   "sida": 475
+  },
+  {
+   "avsnitt": "9.3.5",
+   "rubrik": "Lärare ska fortsatt kunna göra undantag vid betygssättningen",
+   "sida": 477
+  },
+  {
+   "avsnitt": "9.3.6",
+   "rubrik": "Betygssättning kan förbättras med ändrade kurs- och ämnesplaner",
+   "sida": 479
+  },
+  {
+   "avsnitt": "9.3.7",
+   "rubrik": "Sammantagen bedömning över hela betygsskalan",
+   "sida": 482
+  },
+  {
+   "avsnitt": "9.4",
+   "rubrik": "Konsekvenser och följdändringar av en ny betygsskala och nya betygskriterier",
+   "sida": 484
+  },
+  {
+   "avsnitt": "9.4.1",
+   "rubrik": "Konsekvenser för stödsystemet",
+   "sida": 484
+  },
+  {
+   "avsnitt": "9.4.2",
+   "rubrik": "Extra anpassningar och särskilt stöd",
+   "sida": 487
+  },
+  {
+   "avsnitt": "9.4.3",
+   "rubrik": "Mottagande i anpassade grundskolan och anpassade gymnasieskolan, placering i resursskola, skolpliktens upphörande i förtid, rätten att slutföra grundskolan efter skolpliktens upphörande och lovskolan",
+   "sida": 491
+  },
+  {
+   "avsnitt": "9.4.4",
+   "rubrik": "Konsekvenser för ämnesbetyg och rätten att gå om en nivå i ett ämne i gymnasieskolan",
+   "sida": 494
+  },
+  {
+   "avsnitt": "9.4.5",
+   "rubrik": "Konsekvenser för betygssättning av gymnasiearbetet och komvuxarbetet",
+   "sida": 497
+  },
+  {
+   "avsnitt": "9.5",
+   "rubrik": "Andra förslag som har utretts",
+   "sida": 498
+  },
+  {
+   "avsnitt": "9.5.1",
+   "rubrik": "En betygsskala med fler eller färre skalsteg",
+   "sida": 498
+  },
+  {
+   "avsnitt": "9.5.2",
+   "rubrik": "En betygsskala utan godtagbara kunskaper",
+   "sida": 499
+  },
+  {
+   "avsnitt": "9.5.3",
+   "rubrik": "Andra betygskriterier",
+   "sida": 502
+  },
+  {
+   "avsnitt": "10",
+   "rubrik": "Förslag på betygsmodell för grundskolan",
+   "sida": 505
+  },
+  {
+   "avsnitt": "10.1",
+   "rubrik": "Huvudförslag: meritvärdeskalibrering",
+   "sida": 505
+  },
+  {
+   "avsnitt": "10.1.1",
+   "rubrik": "Exempel på kalibrering",
+   "sida": 513
+  },
+  {
+   "avsnitt": "10.1.2",
+   "rubrik": "Elever utan provresultat",
+   "sida": 514
+  },
+  {
+   "avsnitt": "10.2",
+   "rubrik": "Alternativt förslag för grundskolan: Ämnesvis kalibrering",
+   "sida": 516
+  },
+  {
+   "avsnitt": "10.2.1",
+   "rubrik": "Ämnen med prov",
+   "sida": 516
+  },
+  {
+   "avsnitt": "10.2.2",
+   "rubrik": "Kalibrering av betyg med nationella slutprovresultat i närliggande ämnen",
+   "sida": 517
+  },
+  {
+   "avsnitt": "10.2.3",
+   "rubrik": "Kalibrera betyg som inte har nationella provresultat i närliggande ämnen",
+   "sida": 519
+  },
+  {
+   "avsnitt": "10.2.4",
+   "rubrik": "Antalet prov behöver inte öka",
+   "sida": 520
+  },
+  {
+   "avsnitt": "10.2.5",
+   "rubrik": "Provbetygen räknas in i meritvärdet",
+   "sida": 520
+  },
+  {
+   "avsnitt": "10.2.6",
+   "rubrik": "Elever utan provresultat",
+   "sida": 524
+  },
+  {
+   "avsnitt": "10.3",
+   "rubrik": "Andra förslag som har utretts",
+   "sida": 524
+  },
+  {
+   "avsnitt": "10.3.1",
+   "rubrik": "Viktning av ämnen i grundskolan utifrån ankring i prov",
+   "sida": 524
+  },
+  {
+   "avsnitt": "10.3.2",
+   "rubrik": "Alternativ för ämnen utan nationella prov",
+   "sida": 525
+  },
+  {
+   "avsnitt": "10.3.3",
+   "rubrik": "Införande av ett särskilt gymnasieförberedelseprov",
+   "sida": 527
+  },
+  {
+   "avsnitt": "11",
+   "rubrik": "Förslag på betygsmodell för gymnasieskolan",
+   "sida": 529
+  },
+  {
+   "avsnitt": "11.1",
+   "rubrik": "Den svenska gymnasieskolans förutsättningar för förslagen",
+   "sida": 529
+  },
+  {
+   "avsnitt": "11.1.1",
+   "rubrik": "Ämnesbetygsreformen",
+   "sida": 530
+  },
+  {
+   "avsnitt": "11.2",
+   "rubrik": "Meritvärdeskalibrering i gymnasieskolan",
+   "sida": 530
+  },
+  {
+   "avsnitt": "11.2.1",
+   "rubrik": "Exempel på meritvärdesberäkning",
+   "sida": 538
+  },
+  {
+   "avsnitt": "11.2.2",
+   "rubrik": "Nationella slutprov på gymnasial nivå",
+   "sida": 540
+  },
+  {
+   "avsnitt": "11.2.3",
+   "rubrik": "Provgenomförande och prov",
+   "sida": 542
+  },
+  {
+   "avsnitt": "11.2.4",
+   "rubrik": "Meritpoängen avskaffas",
+   "sida": 545
+  },
+  {
+   "avsnitt": "11.2.5",
+   "rubrik": "Elever utan provresultat",
+   "sida": 549
+  },
+  {
+   "avsnitt": "11.2.6",
+   "rubrik": "Elever som byter skola",
+   "sida": 551
+  },
+  {
+   "avsnitt": "11.2.7",
+   "rubrik": "Det finns möjlighet att sprida ut elevers provgenomförande på flera år",
+   "sida": 552
+  },
+  {
+   "avsnitt": "11.3",
+   "rubrik": "Mer regelbunden inrapportering av betyg på gymnasial nivå",
+   "sida": 557
+  },
+  {
+   "avsnitt": "11.4",
+   "rubrik": "Övergripande konsekvenser av meritvärdeskalibrering för gymnasieskolan",
+   "sida": 558
+  },
+  {
+   "avsnitt": "11.5",
+   "rubrik": "Alternativt förslag: Examensprov för meritvärdering",
+   "sida": 558
+  },
+  {
+   "avsnitt": "11.5.1",
+   "rubrik": "Samma prov och provgenomförande som i huvudförslaget",
+   "sida": 560
+  },
+  {
+   "avsnitt": "11.5.2",
+   "rubrik": "Behov av förändringar jämfört med huvudförslaget",
+   "sida": 560
+  },
+  {
+   "avsnitt": "12",
+   "rubrik": "Förslag på hantering när betygsvärden inte kan kalibreras eller nationella slutprov inte kan genomföras",
+   "sida": 563
+  },
+  {
+   "avsnitt": "12.1",
+   "rubrik": "Utgångspunkter för förslagen om undantag förskolenheter",
+   "sida": 563
+  },
+  {
+   "avsnitt": "12.2",
+   "rubrik": "Specialskolan och resursskolor",
+   "sida": 564
+  },
+  {
+   "avsnitt": "12.2.1",
+   "rubrik": "Specialskolan",
+   "sida": 565
+  },
+  {
+   "avsnitt": "12.2.2",
+   "rubrik": "Resursskolor",
+   "sida": 566
+  },
+  {
+   "avsnitt": "12.3",
+   "rubrik": "Särskilda utbildningsformer",
+   "sida": 567
+  },
+  {
+   "avsnitt": "12.3.1",
+   "rubrik": "Utbildning vid särskilda ungdomshem",
+   "sida": 567
+  },
+  {
+   "avsnitt": "12.3.2",
+   "rubrik": "Utbildning för intagna i kriminalvårdsanstalt",
+   "sida": 567
+  },
+  {
+   "avsnitt": "12.4",
+   "rubrik": "Introduktionsprogram",
+   "sida": 568
+  },
+  {
+   "avsnitt": "12.5",
+   "rubrik": "Skolenheter eller program med få elever",
+   "sida": 569
+  },
+  {
+   "avsnitt": "12.6",
+   "rubrik": "Enskilda elever vars provresultat kraftigt avviker från de lärarsatta betygen",
+   "sida": 570
+  },
+  {
+   "avsnitt": "13",
+   "rubrik": "Förslag på betygsmodell för kommunal vuxenutbildning på gymnasial nivå",
+   "sida": 573
+  },
+  {
+   "avsnitt": "13.1",
+   "rubrik": "Bakgrund",
+   "sida": 573
+  },
+  {
+   "avsnitt": "13.1.1",
+   "rubrik": "Betygssättning och meritvärdesberäkning",
+   "sida": 576
+  },
+  {
+   "avsnitt": "13.2",
+   "rubrik": "Problem med likvärdig betygssättning inom komvux",
+   "sida": 578
+  },
+  {
+   "avsnitt": "13.2.1",
+   "rubrik": "Tillämpning av utredningens förslag om meritvärdering inom komvux",
+   "sida": 579
+  },
+  {
+   "avsnitt": "13.3",
+   "rubrik": "Meritvärdering i komvux på gymnasial nivå",
+   "sida": 580
+  },
+  {
+   "avsnitt": "13.3.1",
+   "rubrik": "Utfärdande av gymnasieexamen från komvux",
+   "sida": 583
+  },
+  {
+   "avsnitt": "13.3.2",
+   "rubrik": "Provgenomförande",
+   "sida": 586
+  },
+  {
+   "avsnitt": "13.4",
+   "rubrik": "Mer regelbunden inrapportering av betyg på gymnasial nivå",
+   "sida": 587
+  },
+  {
+   "avsnitt": "13.5",
+   "rubrik": "Konsekvenser för komvux",
+   "sida": 588
+  },
+  {
+   "avsnitt": "13.5.1",
+   "rubrik": "Bättre förkunskaper i högre utbildning",
+   "sida": 588
+  },
+  {
+   "avsnitt": "13.5.2",
+   "rubrik": "Konsekvenser för komvux organisation",
+   "sida": 589
+  },
+  {
+   "avsnitt": "13.5.3",
+   "rubrik": "Avsmalning mot ämnen som har nationella slutprov",
+   "sida": 590
+  },
+  {
+   "avsnitt": "13.5.4",
+   "rubrik": "Risk för att genomströmningen minskar",
+   "sida": 590
+  },
+  {
+   "avsnitt": "13.5.5",
+   "rubrik": "Examinationen bygger endast på delar av ämnesplanen",
+   "sida": 591
+  },
+  {
+   "avsnitt": "13.6",
+   "rubrik": "Andra förslag som har övervägts",
+   "sida": 592
+  },
+  {
+   "avsnitt": "13.6.1",
+   "rubrik": "Alternativa modeller",
+   "sida": 592
+  },
+  {
+   "avsnitt": "14",
+   "rubrik": "Förslag på regelverk för betyg efter prövning och möjligheter att göra om nationella slutprov",
+   "sida": 595
+  },
+  {
+   "avsnitt": "14.1",
+   "rubrik": "Bestämmelser om prövning i grundskolan, specialskolan, gymnasieskolan och komvux",
+   "sida": 595
+  },
+  {
+   "avsnitt": "14.1.1",
+   "rubrik": "Meritvärdering vid ansökan till gymnasieskolan eller högre utbildning",
+   "sida": 598
+  },
+  {
+   "avsnitt": "14.2",
+   "rubrik": "Utredningens utgångspunkter och förslag om prövning",
+   "sida": 599
+  },
+  {
+   "avsnitt": "14.2.1",
+   "rubrik": "Prövning för betyg i grundskolan och specialskolan",
+   "sida": 600
+  },
+  {
+   "avsnitt": "14.2.2",
+   "rubrik": "Prövning i gymnasieskolan",
+   "sida": 602
+  },
+  {
+   "avsnitt": "14.2.3",
+   "rubrik": "Prövning i komvux på gymnasial nivå",
+   "sida": 604
+  },
+  {
+   "avsnitt": "14.3",
+   "rubrik": "Det blir fortfarande möjligt att höja sitt meritvärde",
+   "sida": 605
+  },
+  {
+   "avsnitt": "14.3.1",
+   "rubrik": "Möjlighet att göra nya respektive att göra om nationella slutprov",
+   "sida": 606
+  },
+  {
+   "avsnitt": "14.3.2",
+   "rubrik": "Avgift vid genomförande av nationella slutprov",
+   "sida": 613
+  },
+  {
+   "avsnitt": "14.4",
+   "rubrik": "Andra förslag som har utretts",
+   "sida": 615
+  },
+  {
+   "avsnitt": "15",
+   "rubrik": "Förslag på ändrade behörighetsregler för antagning till gymnasieskolan och till högre utbildning",
+   "sida": 617
+  },
+  {
+   "avsnitt": "15.1",
+   "rubrik": "Bakgrund",
+   "sida": 617
+  },
+  {
+   "avsnitt": "15.1.1",
+   "rubrik": "Dagens behörighetskrav till gymnasieskolan stänger ute elever i onödan",
+   "sida": 617
+  },
+  {
+   "avsnitt": "15.1.2",
+   "rubrik": "Behov av förändrade behörighetskrav till följd av våra förslag",
+   "sida": 620
+  },
+  {
+   "avsnitt": "15.2",
+   "rubrik": "Ändrade behörighetsregler för tillträde till gymnasieskolan",
+   "sida": 621
+  },
+  {
+   "avsnitt": "15.2.1",
+   "rubrik": "Andelen behöriga till gymnasieskolans nationella program",
+   "sida": 624
+  },
+  {
+   "avsnitt": "15.2.2",
+   "rubrik": "Behörighetsregler för introduktionsprogrammet språkintroduktion",
+   "sida": 626
+  },
+  {
+   "avsnitt": "15.2.3",
+   "rubrik": "Riksrekryterande spetsutbildning",
+   "sida": 627
+  },
+  {
+   "avsnitt": "15.2.4",
+   "rubrik": "Vikten av nya yrkesutbildningar och ett nytt introduktionsprogram",
+   "sida": 628
+  },
+  {
+   "avsnitt": "15.2.5",
+   "rubrik": "Behörighet och meritvärde för elever på introduktionsprogram och nya yrkesprogram",
+   "sida": 630
+  },
+  {
+   "avsnitt": "15.3",
+   "rubrik": "Examenskraven för en gymnasieexamen behöver anpassas till meritvärdeskalibreringsmodellen",
+   "sida": 632
+  },
+  {
+   "avsnitt": "15.3.1",
+   "rubrik": "Förslag om en ändrad gymnasieexamen",
+   "sida": 633
+  },
+  {
+   "avsnitt": "15.3.2",
+   "rubrik": "Bedömning om en anpassning av förslaget om gymnasialt yrkesutbildningsbevis",
+   "sida": 635
+  },
+  {
+   "avsnitt": "15.3.3",
+   "rubrik": "Konsekvenser för vidareutbildning i form av ett fjärde tekniskt år",
+   "sida": 635
+  },
+  {
+   "avsnitt": "15.4",
+   "rubrik": "Tillträde till högre utbildning",
+   "sida": 637
+  },
+  {
+   "avsnitt": "15.4.1",
+   "rubrik": "Ändrade behörighetsregler samt ändrade regler vid platsfördelning vid urval",
+   "sida": 637
+  },
+  {
+   "avsnitt": "15.4.2",
+   "rubrik": "Förslag gällande grundläggande behörighet",
+   "sida": 638
+  },
+  {
+   "avsnitt": "15.4.3",
+   "rubrik": "Förslag gällande särskild behörighet",
+   "sida": 639
+  },
+  {
+   "avsnitt": "15.4.4",
+   "rubrik": "Förslag gällande urval",
+   "sida": 641
+  },
+  {
+   "avsnitt": "15.5",
+   "rubrik": "Behörighetsregler för tillträde till yrkeshögskolan behöver inte ändras",
+   "sida": 642
+  },
+  {
+   "avsnitt": "15.6",
+   "rubrik": "Alternativt förslag för behörighet till gymnasieskolan",
+   "sida": 644
+  },
+  {
+   "avsnitt": "15.7",
+   "rubrik": "Andra förslag som har övervägts men avfärdats",
+   "sida": 646
+  },
+  {
+   "avsnitt": "16",
+   "rubrik": "Förslag på reglering av betygssättning",
+   "sida": 649
+  },
+  {
+   "avsnitt": "16.1",
+   "rubrik": "Inledande överväganden och utgångspunkter",
+   "sida": 649
+  },
+  {
+   "avsnitt": "16.2",
+   "rubrik": "Utgångspunkter för betygssättningen i meritvärdeskalibreringsmodellen",
+   "sida": 650
+  },
+  {
+   "avsnitt": "16.2.1",
+   "rubrik": "Fortfarande ett mål- och kunskapsrelaterat betygssystem",
+   "sida": 650
+  },
+  {
+   "avsnitt": "16.2.2",
+   "rubrik": "Hantering av olikvärdighet inom en skola",
+   "sida": 650
+  },
+  {
+   "avsnitt": "16.2.3",
+   "rubrik": "De lärarsatta betygen ska bygga på relevanta underlag",
+   "sida": 651
+  },
+  {
+   "avsnitt": "16.2.4",
+   "rubrik": "Det ska vara tydligt för eleverna när deras kunskaper bedöms för betygssättning",
+   "sida": 652
+  },
+  {
+   "avsnitt": "16.3",
+   "rubrik": "Utgångspunkter för betygssättningen i komvux på gymnasial nivå",
+   "sida": 653
+  },
+  {
+   "avsnitt": "16.4",
+   "rubrik": "Reglering av betygssättning",
+   "sida": 654
+  },
+  {
+   "avsnitt": "16.4.1",
+   "rubrik": "Bedömningssamråd för likvärdighet inom skolor och program",
+   "sida": 654
+  },
+  {
+   "avsnitt": "16.4.2",
+   "rubrik": "Betygsunderlag",
+   "sida": 657
+  },
+  {
+   "avsnitt": "16.4.3",
+   "rubrik": "Ökad transparens ur ett elevperspektiv",
+   "sida": 658
+  },
+  {
+   "avsnitt": "16.4.4",
+   "rubrik": "Att särskilt beakta nationella prov",
+   "sida": 660
+  },
+  {
+   "avsnitt": "16.4.5",
+   "rubrik": "Yrkesprov",
+   "sida": 661
+  },
+  {
+   "avsnitt": "17",
+   "rubrik": "Förslag på ändringar i det nationella provsystemet",
+   "sida": 663
+  },
+  {
+   "avsnitt": "17.1",
+   "rubrik": "Förslag om nationella prov och nationella slutprov",
+   "sida": 663
+  },
+  {
+   "avsnitt": "17.1.1",
+   "rubrik": "Ansvar och organisation för nationella slutprov",
+   "sida": 664
+  },
+  {
+   "avsnitt": "17.1.2",
+   "rubrik": "Justera ramverk och informera om det nya syftet",
+   "sida": 666
+  },
+  {
+   "avsnitt": "17.1.3",
+   "rubrik": "Poäng för varje provutgåva ska skalas om efter provens genomförande",
+   "sida": 668
+  },
+  {
+   "avsnitt": "17.1.4",
+   "rubrik": "Utprövning av uppgifter i nationella slutprov",
+   "sida": 675
+  },
+  {
+   "avsnitt": "17.1.5",
+   "rubrik": "Central rättning ska införas för samtliga nationella slutprov",
+   "sida": 677
+  },
+  {
+   "avsnitt": "17.1.6",
+   "rubrik": "Nationella slutprov ska konstrueras för att automaträttas och bedömas centralt",
+   "sida": 678
+  },
+  {
+   "avsnitt": "17.1.7",
+   "rubrik": "Återkoppling från nationella slutprov",
+   "sida": 679
+  },
+  {
+   "avsnitt": "17.1.8",
+   "rubrik": "Överklaga nationella slutprovresultat",
+   "sida": 681
+  },
+  {
+   "avsnitt": "17.1.9",
+   "rubrik": "Antalet prov i grundskolan",
+   "sida": 683
+  },
+  {
+   "avsnitt": "17.1.10",
+   "rubrik": "Nya prov i gymnasieskolan och komvux",
+   "sida": 684
+  },
+  {
+   "avsnitt": "17.1.11",
+   "rubrik": "Samma prov i komvux som i gymnasieskolan",
+   "sida": 685
+  },
+  {
+   "avsnitt": "17.1.12",
+   "rubrik": "Anpassningar ska beslutas av rektor och undantag ska beslutas av Skolverket",
+   "sida": 686
+  },
+  {
+   "avsnitt": "17.1.13",
+   "rubrik": "Nödvändiga åtgärder för nationella slutprov i komvux och för prövning",
+   "sida": 688
+  },
+  {
+   "avsnitt": "17.1.14",
+   "rubrik": "Antalet provtillfällen ska begränsas",
+   "sida": 688
+  },
+  {
+   "avsnitt": "17.1.15",
+   "rubrik": "Möjlighet att göra om prov",
+   "sida": 690
+  },
+  {
+   "avsnitt": "17.2",
+   "rubrik": "Nödvändiga åtgärder för nationella slutprov enligt alternativt förslag till betygsmodell för grundskolan",
+   "sida": 691
+  },
+  {
+   "avsnitt": "17.2.1",
+   "rubrik": "Skolverket behöver fastställa de olika provens svårighetsgrad",
+   "sida": 691
+  },
+  {
+   "avsnitt": "17.2.2",
+   "rubrik": "Kravgränserna för varje provutgåva ska sättas genom ankring till tidigare provutgåvor",
+   "sida": 691
+  },
+  {
+   "avsnitt": "17.2.3",
+   "rubrik": "Poängskalor som bibehåller, och undviker att reducera, mängden information",
+   "sida": 693
+  },
+  {
+   "avsnitt": "17.2.4",
+   "rubrik": "Rättning under terminstid",
+   "sida": 694
+  },
+  {
+   "avsnitt": "17.2.5",
+   "rubrik": "Muntliga delprov utgår från nationella slutprov",
+   "sida": 694
+  },
+  {
+   "avsnitt": "17.3",
+   "rubrik": "Prov som inte berörs av utredningens förslag",
+   "sida": 694
+  },
+  {
+   "avsnitt": "17.4",
+   "rubrik": "Oegentligheter och fusk ska förebyggas och åtgärdas",
+   "sida": 696
+  },
+  {
+   "avsnitt": "17.4.1",
+   "rubrik": "Skolor som fuskar",
+   "sida": 696
+  },
+  {
+   "avsnitt": "17.4.2",
+   "rubrik": "Individer som fuskar",
+   "sida": 697
+  },
+  {
+   "avsnitt": "17.4.3",
+   "rubrik": "Regelverk för och hantering av oegentligheter i andra länder",
+   "sida": 697
+  },
+  {
+   "avsnitt": "17.4.4",
+   "rubrik": "Hur fusk hanteras vid högskoleprovet",
+   "sida": 701
+  },
+  {
+   "avsnitt": "17.4.5",
+   "rubrik": "Förslag om hur oegentligheter vid nationella slutprov ska förebyggas och åtgärdas",
+   "sida": 701
+  },
+  {
+   "avsnitt": "17.4.6",
+   "rubrik": "Uppföljning av oegentligheter och fusk",
+   "sida": 705
+  },
+  {
+   "avsnitt": "17.5",
+   "rubrik": "En framtid med ökad automaträttning och bedömning av artificiell intelligens",
+   "sida": 706
+  },
+  {
+   "avsnitt": "17.5.1",
+   "rubrik": "Vad går att mäta med uppgifter med fasta svarsalternativ?",
+   "sida": 706
+  },
+  {
+   "avsnitt": "17.5.2",
+   "rubrik": "Hur fungerar AI-bedömning?",
+   "sida": 709
+  },
+  {
+   "avsnitt": "17.5.3",
+   "rubrik": "Effektiv och konsistent bedömning",
+   "sida": 710
+  },
+  {
+   "avsnitt": "17.6",
+   "rubrik": "Andra förslag som har utretts",
+   "sida": 711
+  },
+  {
+   "avsnitt": "17.6.1",
+   "rubrik": "Nollalternativet",
+   "sida": 711
+  },
+  {
+   "avsnitt": "17.6.2",
+   "rubrik": "Alternativet att genomföra prov under hela året i komvux",
+   "sida": 711
+  },
+  {
+   "avsnitt": "18",
+   "rubrik": "Ett nytt system för trendmätning av kunskaper",
+   "sida": 713
+  },
+  {
+   "avsnitt": "18.1",
+   "rubrik": "Meritvärdeskalibreringsmodellen accentuerar ett tidigare identifierat behov",
+   "sida": 713
+  },
+  {
+   "avsnitt": "18.2",
+   "rubrik": "Nationell trendmätning",
+   "sida": 714
+  },
+  {
+   "avsnitt": "18.2.1",
+   "rubrik": "Varför kan de nationella proven inte mäta trend?",
+   "sida": 715
+  },
+  {
+   "avsnitt": "18.3",
+   "rubrik": "Systemet ska utformas optimalt för syftet",
+   "sida": 715
+  },
+  {
+   "avsnitt": "18.4",
+   "rubrik": "Begränsad nedbrytning av resultaten",
+   "sida": 716
+  },
+  {
+   "avsnitt": "18.5",
+   "rubrik": "Incitament att delta i proven",
+   "sida": 717
+  },
+  {
+   "avsnitt": "18.6",
+   "rubrik": "Införandet kräver viss fortsatt utredning",
+   "sida": 717
+  },
+  {
+   "avsnitt": "19",
+   "rubrik": "Prov-, betygs- och bedömningsstress",
+   "sida": 721
+  },
+  {
+   "avsnitt": "19.1",
+   "rubrik": "Skolan är barn och ungdomars obligatoriska arbetsplats",
+   "sida": 721
+  },
+  {
+   "avsnitt": "19.2",
+   "rubrik": "Psykisk ohälsa bland unga globalt",
+   "sida": 722
+  },
+  {
+   "avsnitt": "19.2.1",
+   "rubrik": "Psykisk ohälsa och skolrelaterad stress bland svenska barn och unga",
+   "sida": 723
+  },
+  {
+   "avsnitt": "19.2.2",
+   "rubrik": "Internetanvändning och sociala medier?",
+   "sida": 725
+  },
+  {
+   "avsnitt": "19.3",
+   "rubrik": "Prov-, bedömnings- och betygsstress",
+   "sida": 726
+  },
+  {
+   "avsnitt": "19.3.1",
+   "rubrik": "Utmärkande för high stakes-provstress",
+   "sida": 728
+  },
+  {
+   "avsnitt": "19.3.2",
+   "rubrik": "Svenska elevers relation till bedömning och nationella prov",
+   "sida": 729
+  },
+  {
+   "avsnitt": "19.3.3",
+   "rubrik": "Skillnader mellan flickor och pojkar",
+   "sida": 731
+  },
+  {
+   "avsnitt": "19.3.4",
+   "rubrik": "Elever med funktionsnedsättningar och särskilda behov",
+   "sida": 732
+  },
+  {
+   "avsnitt": "19.4",
+   "rubrik": "Att främja psykisk hälsa och minska stress hos barn och unga behöver prioriteras generellt",
+   "sida": 733
+  },
+  {
+   "avsnitt": "19.4.1",
+   "rubrik": "Hälsofrämjande insatser för psykisk hälsa",
+   "sida": 733
+  },
+  {
+   "avsnitt": "19.5",
+   "rubrik": "Vad kan utredningens förslag bidra med?",
+   "sida": 734
+  },
+  {
+   "avsnitt": "19.5.1",
+   "rubrik": "Läroplaner, mål och en skarp godkäntgräns för behörighet",
+   "sida": 734
+  },
+  {
+   "avsnitt": "19.5.2",
+   "rubrik": "Tydligare roll för de nationella proven",
+   "sida": 736
+  },
+  {
+   "avsnitt": "19.5.3",
+   "rubrik": "Det behöver bli tydligt när elevers kunskaper bedöms för betyg",
+   "sida": 736
+  },
+  {
+   "avsnitt": "19.5.4",
+   "rubrik": "”Det är inte farligt att skriva prov”",
+   "sida": 738
+  },
+  {
+   "avsnitt": "19.5.5",
+   "rubrik": "Provkonstruktion och provtillfällen behöver utvecklas för att inte öka stress",
+   "sida": 739
+  },
+  {
+   "avsnitt": "19.5.6",
+   "rubrik": "Lärare har särskild potential",
+   "sida": 740
+  },
+  {
+   "avsnitt": "19.5.7",
+   "rubrik": "Känsla av sammanhang främjar både lärande och välbefinnande",
+   "sida": 742
+  },
+  {
+   "avsnitt": "19.5.8",
+   "rubrik": "Alternativa bedömningsformer",
+   "sida": 743
+  },
+  {
+   "avsnitt": "19.5.9",
+   "rubrik": "Vikten av att inte utestängas från fortsatt utbildning",
+   "sida": 744
+  },
+  {
+   "avsnitt": "20",
+   "rubrik": "Införande och ikraftträdande",
+   "sida": 747
+  },
+  {
+   "avsnitt": "20.1",
+   "rubrik": "Tidsplan",
+   "sida": 747
+  },
+  {
+   "avsnitt": "20.1.1",
+   "rubrik": "Ikraftträdande och tillämpning av förslagen",
+   "sida": 747
+  },
+  {
+   "avsnitt": "20.2",
+   "rubrik": "Övergångsbestämmelser",
+   "sida": 750
+  },
+  {
+   "avsnitt": "20.2.1",
+   "rubrik": "Elever ska slutföra utbildning inom samma betygssystem",
+   "sida": 750
+  },
+  {
+   "avsnitt": "20.3",
+   "rubrik": "Genomförande",
+   "sida": 756
+  },
+  {
+   "avsnitt": "20.3.1",
+   "rubrik": "Skolverket ska ansvara för genomförande och implementering av förslagen",
+   "sida": 756
+  },
+  {
+   "avsnitt": "20.3.2",
+   "rubrik": "UHR ska ansvara för genomförande och implementering av förslagen",
+   "sida": 758
+  },
+  {
+   "avsnitt": "20.3.3",
+   "rubrik": "Skolinspektionen ska genomföra inspektioner",
+   "sida": 759
+  },
+  {
+   "avsnitt": "21",
+   "rubrik": "Konsekvenser",
+   "sida": 761
+  },
+  {
+   "avsnitt": "21.1",
+   "rubrik": "Nollalternativet",
+   "sida": 761
+  },
+  {
+   "avsnitt": "21.2",
+   "rubrik": "Alternativa lösningar",
+   "sida": 762
+  },
+  {
+   "avsnitt": "21.3",
+   "rubrik": "En reform som förändrar synen på vad betyg är",
+   "sida": 763
+  },
+  {
+   "avsnitt": "21.4",
+   "rubrik": "Framför allt elever och lärare berörs av förslagen",
+   "sida": 765
+  },
+  {
+   "avsnitt": "21.4.1",
+   "rubrik": "Antalet elever och lärare i grundskolan och gymnasieskolan",
+   "sida": 765
+  },
+  {
+   "avsnitt": "21.5",
+   "rubrik": "Konsekvenser för elever i grundskolan och gymnasieskolan",
+   "sida": 767
+  },
+  {
+   "avsnitt": "21.5.1",
+   "rubrik": "Ett betygssystem som främjar likvärdighet och rättvisa",
+   "sida": 767
+  },
+  {
+   "avsnitt": "21.5.2",
+   "rubrik": "Meritvärdeskalibrering kan uppfattas som svår att förstå",
+   "sida": 768
+  },
+  {
+   "avsnitt": "21.5.3",
+   "rubrik": "Bedömning och betyg är naturliga och viktiga inslag i skolgången – men de kan skapa stress",
+   "sida": 769
+  },
+  {
+   "avsnitt": "21.5.4",
+   "rubrik": "Den skarpa godkäntgränsen i enskilda ämnen tas bort för tillträde till nationella program i gymnasieskolan",
+   "sida": 773
+  },
+  {
+   "avsnitt": "21.5.5",
+   "rubrik": "Betygsskalan utformas så att elever kan se att ansträngning lönar sig",
+   "sida": 775
+  },
+  {
+   "avsnitt": "21.5.6",
+   "rubrik": "Likvärdiga förutsättningar att genomföra nationella slutprov",
+   "sida": 775
+  },
+  {
+   "avsnitt": "21.5.7",
+   "rubrik": "Nationella slutprovresultat och meritvärden delges efter vårterminsslutet",
+   "sida": 779
+  },
+  {
+   "avsnitt": "21.5.8",
+   "rubrik": "Lovskolan som väg till behörighet blir överflödig",
+   "sida": 780
+  },
+  {
+   "avsnitt": "21.5.9",
+   "rubrik": "Efterfrågan på prövning bedöms minska",
+   "sida": 780
+  },
+  {
+   "avsnitt": "21.5.10",
+   "rubrik": "Konkurrerens om utbildningsplatser i gymnasieskolan på mer likvärdiga villkor",
+   "sida": 781
+  },
+  {
+   "avsnitt": "21.5.11",
+   "rubrik": "Kompensatoriska behörighets- och examenskrav till och i gymnasieskolan",
+   "sida": 783
+  },
+  {
+   "avsnitt": "21.5.12",
+   "rubrik": "Kraven för gymnasieexamen och behörighet till högre utbildning separeras",
+   "sida": 784
+  },
+  {
+   "avsnitt": "21.5.13",
+   "rubrik": "Gymnasieelever kan komma att vilja fördjupa sig i provämnen",
+   "sida": 785
+  },
+  {
+   "avsnitt": "21.5.14",
+   "rubrik": "Olika grupper av elever väntas påverkas olika av förslagen",
+   "sida": 785
+  },
+  {
+   "avsnitt": "21.6",
+   "rubrik": "Konsekvenser för elever i komvux på gymnasial nivå",
+   "sida": 791
+  },
+  {
+   "avsnitt": "21.6.1",
+   "rubrik": "Nationella prov blir mer high stakes för komvuxelever",
+   "sida": 793
+  },
+  {
+   "avsnitt": "21.6.2",
+   "rubrik": "Nationella slutprov kan genomföras minst tre gånger per år",
+   "sida": 794
+  },
+  {
+   "avsnitt": "21.6.3",
+   "rubrik": "Ämnen utan nationella slutprov",
+   "sida": 795
+  },
+  {
+   "avsnitt": "21.7",
+   "rubrik": "Elever i specialskolan och i riksgymnasieskolan",
+   "sida": 796
+  },
+  {
+   "avsnitt": "21.8",
+   "rubrik": "Konsekvenser för lärare",
+   "sida": 798
+  },
+  {
+   "avsnitt": "21.8.1",
+   "rubrik": "Reella möjligheter att ansvara för betygens likvärdighet",
+   "sida": 798
+  },
+  {
+   "avsnitt": "21.8.2",
+   "rubrik": "Bättre arbetsvillkor och minskad risk för påtryckningar",
+   "sida": 799
+  },
+  {
+   "avsnitt": "21.8.3",
+   "rubrik": "Lärares förutsättningar att minska stress samt öka trygghet och studiero",
+   "sida": 800
+  },
+  {
+   "avsnitt": "21.8.4",
+   "rubrik": "Inga ytterligare administrativa arbetsuppgifter",
+   "sida": 802
+  },
+  {
+   "avsnitt": "21.8.5",
+   "rubrik": "En ny betygsskala",
+   "sida": 803
+  },
+  {
+   "avsnitt": "21.8.6",
+   "rubrik": "Nationella prov försvinner som stöd för lärares betygssättning",
+   "sida": 804
+  },
+  {
+   "avsnitt": "21.8.7",
+   "rubrik": "Central rättning",
+   "sida": 804
+  },
+  {
+   "avsnitt": "21.8.8",
+   "rubrik": "Vad händer med undervisningen?",
+   "sida": 804
+  },
+  {
+   "avsnitt": "21.9",
+   "rubrik": "Vad säger elever och lärare som vi mött?",
+   "sida": 806
+  },
+  {
+   "avsnitt": "21.9.1",
+   "rubrik": "Betygsskalan",
+   "sida": 807
+  },
+  {
+   "avsnitt": "21.9.2",
+   "rubrik": "Bedömningssamråd",
+   "sida": 809
+  },
+  {
+   "avsnitt": "21.9.3",
+   "rubrik": "Provsystemet",
+   "sida": 809
+  },
+  {
+   "avsnitt": "21.9.4",
+   "rubrik": "Kalibrering av betygsvärden för likvärdighet",
+   "sida": 812
+  },
+  {
+   "avsnitt": "21.9.5",
+   "rubrik": "Ny meritvärdesberäkning för urval",
+   "sida": 812
+  },
+  {
+   "avsnitt": "21.10",
+   "rubrik": "Konsekvenser för uppföljning och utvärdering av elevers kunskapsutveckling",
+   "sida": 814
+  },
+  {
+   "avsnitt": "21.10.1",
+   "rubrik": "Det nya nationella provsystemet kan inte användas för nationell kunskapsutvärdering",
+   "sida": 814
+  },
+  {
+   "avsnitt": "21.10.2",
+   "rubrik": "Kommer betyg och nationella slutprov kunna användas för resultatuppföljning?",
+   "sida": 815
+  },
+  {
+   "avsnitt": "21.11",
+   "rubrik": "Konsekvenser av avskaffade meritpoäng",
+   "sida": 815
+  },
+  {
+   "avsnitt": "21.12",
+   "rubrik": "Konsekvenser för tillträde till högre utbildning och yrkeshögskoleutbildning",
+   "sida": 817
+  },
+  {
+   "avsnitt": "21.13",
+   "rubrik": "Offentligfinansiella konsekvenser",
+   "sida": 818
+  },
+  {
+   "avsnitt": "21.13.1",
+   "rubrik": "Antaganden och grunder för kostnadsberäkningarna",
+   "sida": 821
+  },
+  {
+   "avsnitt": "21.13.2",
+   "rubrik": "Förslagen minskar statens utgifter",
+   "sida": 834
+  },
+  {
+   "avsnitt": "21.13.3",
+   "rubrik": "Finansiering av förslagen fram till 2028",
+   "sida": 838
+  },
+  {
+   "avsnitt": "21.14",
+   "rubrik": "Samhällsekonomiska konsekvenser",
+   "sida": 839
+  },
+  {
+   "avsnitt": "21.14.1",
+   "rubrik": "Nyttan är principiell",
+   "sida": 839
+  },
+  {
+   "avsnitt": "21.14.2",
+   "rubrik": "Vikten av att inte utestänga från utbildning som leder till arbete",
+   "sida": 840
+  },
+  {
+   "avsnitt": "21.14.3",
+   "rubrik": "Gymnasieexamen och behörighet till högre utbildning",
+   "sida": 846
+  },
+  {
+   "avsnitt": "21.14.4",
+   "rubrik": "Antagning och urval till högre utbildning på mer likvärdiga villkor",
+   "sida": 847
+  },
+  {
+   "avsnitt": "21.15",
+   "rubrik": "Konsekvenser för jämställdhet",
+   "sida": 849
+  },
+  {
+   "avsnitt": "21.16",
+   "rubrik": "Konsekvenser i förhållande till EU:s dataskyddsförordning",
+   "sida": 850
+  },
+  {
+   "avsnitt": "21.17",
+   "rubrik": "Barnrättsperspektiv",
+   "sida": 854
+  },
+  {
+   "avsnitt": "21.18",
+   "rubrik": "Konsekvenser för Skolverket",
+   "sida": 856
+  },
+  {
+   "avsnitt": "21.19",
+   "rubrik": "Konsekvenser för UHR",
+   "sida": 858
+  },
+  {
+   "avsnitt": "21.20",
+   "rubrik": "Konsekvenser för Statens skolinspektion",
+   "sida": 858
+  },
+  {
+   "avsnitt": "21.21",
+   "rubrik": "Konsekvenser för SPSM",
+   "sida": 859
+  },
+  {
+   "avsnitt": "21.22",
+   "rubrik": "Konsekvenser för Yrkeshögskolan",
+   "sida": 859
+  },
+  {
+   "avsnitt": "21.23",
+   "rubrik": "Konsekvenser för högskolor",
+   "sida": 860
+  },
+  {
+   "avsnitt": "21.24",
+   "rubrik": "Konsekvenser för relationen mellan staten och andra aktörer",
+   "sida": 861
+  },
+  {
+   "avsnitt": "21.24.1",
+   "rubrik": "Konsekvenser för kommuner och regioner",
+   "sida": 861
+  },
+  {
+   "avsnitt": "21.24.2",
+   "rubrik": "Konsekvenser för statlig skolverksamhet",
+   "sida": 864
+  },
+  {
+   "avsnitt": "21.24.3",
+   "rubrik": "Konsekvenser för fristående skolhuvudmän",
+   "sida": 865
+  },
+  {
+   "avsnitt": "21.24.4",
+   "rubrik": "Konsekvenser för andra företag",
+   "sida": 865
+  },
+  {
+   "avsnitt": "21.25",
+   "rubrik": "Konsekvenser gällande oegentligheter",
+   "sida": 866
+  },
+  {
+   "avsnitt": "21.25.1",
+   "rubrik": "Digitala prov på fasta provdatum minskar riskerna för fusk vid provgenomförandet",
+   "sida": 866
+  },
+  {
+   "avsnitt": "21.25.2",
+   "rubrik": "Central rättning förhindrar fusk och felaktigheter vid bedömning av prov",
+   "sida": 867
+  },
+  {
+   "avsnitt": "21.25.3",
+   "rubrik": "Lärarsatta betyg och rektors roll",
+   "sida": 868
+  },
+  {
+   "avsnitt": "21.26",
+   "rubrik": "Uppföljning och utvärdering",
+   "sida": 868
+  },
+  {
+   "avsnitt": "21.26.1",
+   "rubrik": "Meritpoäng i språk och matematik",
+   "sida": 868
+  },
+  {
+   "avsnitt": "21.26.2",
+   "rubrik": "Muntlig förmåga",
+   "sida": 869
+  },
+  {
+   "avsnitt": "21.26.3",
+   "rubrik": "Komvuxelever",
+   "sida": 869
+  },
+  {
+   "avsnitt": "21.26.4",
+   "rubrik": "Löpande behov av uppföljning",
+   "sida": 870
+  },
+  {
+   "avsnitt": "21.26.5",
+   "rubrik": "När och hur kan reformen utvärderas?",
+   "sida": 871
+  },
+  {
+   "avsnitt": "22",
+   "rubrik": "Författningskommentar",
+   "sida": 875
+  },
+  {
+   "avsnitt": "22.1",
+   "rubrik": "Förslaget till lag om ändring i skollagen (2010:800)",
+   "sida": 875
+  },
+  {
+   "avsnitt": "22.2",
+   "rubrik": "Övriga förordningsändringar",
+   "sida": 927
+  }
+ ],
+ "kapitel": {
+  "2": "Utredningens arbete",
+  "3": "Utredningens uppdrag och utgångspunkter",
+  "4": "Bestämmelser om betyg och betygssättning",
+  "5": "Fördjupad beskrivning av dagens betygssystem",
+  "6": "Betyg, bedömning och centrala prov i andra utbildningssystem",
+  "7": "Utredningens sammanfattande vägval",
+  "8": "Val av modell och redogörelse för alternativ",
+  "9": "Förslag på en numerisk betygsskala och nya betygskriterier",
+  "10": "Förslag på betygsmodell för grundskolan",
+  "11": "Förslag på betygsmodell för gymnasieskolan",
+  "12": "Förslag på hantering när betygsvärden inte kan kalibreras eller nationella slutprov inte kan genomföras",
+  "13": "Förslag på betygsmodell för kommunal vuxenutbildning på gymnasial nivå",
+  "14": "Förslag på regelverk för betyg efter prövning och möjligheter att göra om nationella slutprov",
+  "15": "Förslag på ändrade behörighetsregler för antagning till gymnasieskolan och till högre utbildning",
+  "16": "Förslag på reglering av betygssättning",
+  "17": "Förslag på ändringar i det nationella provsystemet",
+  "18": "Ett nytt system för trendmätning av kunskaper",
+  "19": "Prov-, betygs- och bedömningsstress",
+  "20": "Införande och ikraftträdande",
+  "21": "Konsekvenser",
+  "22": "Författningskommentar"
+ },
+ "avsnitt": {
+  "9": {
+   "rubrik": "Förslag på en numerisk betygsskala och nya betygskriterier",
+   "sida": 463
+  },
+  "9.1": {
+   "rubrik": "Problematik med dagens betygsskala i den föreslagna modellen",
+   "sida": 463
+  },
+  "9.1.1": {
+   "rubrik": "Ojämna skalsteg",
+   "sida": 463
+  },
+  "9.1.2": {
+   "rubrik": "Olika principer för olika betygssteg",
+   "sida": 464
+  },
+  "9.1.3": {
+   "rubrik": "Få betygssteg är inte optimalt för betyg som ska användas för urval",
+   "sida": 465
+  },
+  "9.2": {
+   "rubrik": "En betygsskala 1–10",
+   "sida": 465
+  },
+  "9.2.1": {
+   "rubrik": "Jämna och fler steg i betygsskalan",
+   "sida": 466
+  },
+  "9.2.2": {
+   "rubrik": "Betyg enligt anpassade grundskolans kursplaner eller anpassade gymnasieskolans ämnesplaner samt för vidareutbildning i form av ett fjärde tekniskt år",
+   "sida": 467
+  },
+  "9.2.3": {
+   "rubrik": "Minskade golv- och takeffekter",
+   "sida": 467
+  },
+  "9.2.4": {
+   "rubrik": "Konsekvenser av införandet av godtagbar nivå",
+   "sida": 468
+  },
+  "9.2.5": {
+   "rubrik": "Optimering för urval",
+   "sida": 469
+  },
+  "9.3": {
+   "rubrik": "Betygskriteriernas utformning och den nya betygsskalan",
+   "sida": 470
+  },
+  "9.3.1": {
+   "rubrik": "Nya betygskriterier som är stödjande vid betygssättningen",
+   "sida": 470
+  },
+  "9.3.2": {
+   "rubrik": "Hur ska fler steg i betygsskalan tolkas utifrån betygskriterierna?",
+   "sida": 473
+  },
+  "9.3.3": {
+   "rubrik": "Lärares betygssättning och kommunikation till eleverna med stöd av ny betygsskala och nya betygskriterier",
+   "sida": 474
+  },
+  "9.3.4": {
+   "rubrik": "Provresultat från tidigare årskohorter kan ge lärare stöd vid kommande betygssättning",
+   "sida": 475
+  },
+  "9.3.5": {
+   "rubrik": "Lärare ska fortsatt kunna göra undantag vid betygssättningen",
+   "sida": 477
+  },
+  "9.3.6": {
+   "rubrik": "Betygssättning kan förbättras med ändrade kurs- och ämnesplaner",
+   "sida": 479
+  },
+  "9.3.7": {
+   "rubrik": "Sammantagen bedömning över hela betygsskalan",
+   "sida": 482
+  },
+  "9.4": {
+   "rubrik": "Konsekvenser och följdändringar av en ny betygsskala och nya betygskriterier",
+   "sida": 484
+  },
+  "9.4.1": {
+   "rubrik": "Konsekvenser för stödsystemet",
+   "sida": 484
+  },
+  "9.4.2": {
+   "rubrik": "Extra anpassningar och särskilt stöd",
+   "sida": 487
+  },
+  "9.4.3": {
+   "rubrik": "Mottagande i anpassade grundskolan och anpassade gymnasieskolan, placering i resursskola, skolpliktens upphörande i förtid, rätten att slutföra grundskolan efter skolpliktens upphörande och lovskolan",
+   "sida": 491
+  },
+  "9.4.4": {
+   "rubrik": "Konsekvenser för ämnesbetyg och rätten att gå om en nivå i ett ämne i gymnasieskolan",
+   "sida": 494
+  },
+  "9.4.5": {
+   "rubrik": "Konsekvenser för betygssättning av gymnasiearbetet och komvuxarbetet",
+   "sida": 497
+  },
+  "9.5": {
+   "rubrik": "Andra förslag som har utretts",
+   "sida": 498
+  },
+  "9.5.1": {
+   "rubrik": "En betygsskala med fler eller färre skalsteg",
+   "sida": 498
+  },
+  "9.5.2": {
+   "rubrik": "En betygsskala utan godtagbara kunskaper",
+   "sida": 499
+  },
+  "9.5.3": {
+   "rubrik": "Andra betygskriterier",
+   "sida": 502
+  },
+  "10": {
+   "rubrik": "Förslag på betygsmodell för grundskolan",
+   "sida": 505
+  },
+  "10.1": {
+   "rubrik": "Huvudförslag: meritvärdeskalibrering",
+   "sida": 505
+  },
+  "10.1.1": {
+   "rubrik": "Exempel på kalibrering",
+   "sida": 513
+  },
+  "10.1.2": {
+   "rubrik": "Elever utan provresultat",
+   "sida": 514
+  },
+  "10.2": {
+   "rubrik": "Alternativt förslag för grundskolan: Ämnesvis kalibrering",
+   "sida": 516
+  },
+  "10.2.1": {
+   "rubrik": "Ämnen med prov",
+   "sida": 516
+  },
+  "10.2.2": {
+   "rubrik": "Kalibrering av betyg med nationella slutprovresultat i närliggande ämnen",
+   "sida": 517
+  },
+  "10.2.3": {
+   "rubrik": "Kalibrera betyg som inte har nationella provresultat i närliggande ämnen",
+   "sida": 519
+  },
+  "10.2.4": {
+   "rubrik": "Antalet prov behöver inte öka",
+   "sida": 520
+  },
+  "10.2.5": {
+   "rubrik": "Provbetygen räknas in i meritvärdet",
+   "sida": 520
+  },
+  "10.2.6": {
+   "rubrik": "Elever utan provresultat",
+   "sida": 524
+  },
+  "10.3": {
+   "rubrik": "Andra förslag som har utretts",
+   "sida": 524
+  },
+  "10.3.1": {
+   "rubrik": "Viktning av ämnen i grundskolan utifrån ankring i prov",
+   "sida": 524
+  },
+  "10.3.2": {
+   "rubrik": "Alternativ för ämnen utan nationella prov",
+   "sida": 525
+  },
+  "10.3.3": {
+   "rubrik": "Införande av ett särskilt gymnasieförberedelseprov",
+   "sida": 527
+  },
+  "11": {
+   "rubrik": "Förslag på betygsmodell för gymnasieskolan",
+   "sida": 529
+  },
+  "11.1": {
+   "rubrik": "Den svenska gymnasieskolans förutsättningar för förslagen",
+   "sida": 529
+  },
+  "11.1.1": {
+   "rubrik": "Ämnesbetygsreformen",
+   "sida": 530
+  },
+  "11.2": {
+   "rubrik": "Meritvärdeskalibrering i gymnasieskolan",
+   "sida": 530
+  },
+  "11.2.1": {
+   "rubrik": "Exempel på meritvärdesberäkning",
+   "sida": 538
+  },
+  "11.2.2": {
+   "rubrik": "Nationella slutprov på gymnasial nivå",
+   "sida": 540
+  },
+  "11.2.3": {
+   "rubrik": "Provgenomförande och prov",
+   "sida": 542
+  },
+  "11.2.4": {
+   "rubrik": "Meritpoängen avskaffas",
+   "sida": 545
+  },
+  "11.2.5": {
+   "rubrik": "Elever utan provresultat",
+   "sida": 549
+  },
+  "11.2.6": {
+   "rubrik": "Elever som byter skola",
+   "sida": 551
+  },
+  "11.2.7": {
+   "rubrik": "Det finns möjlighet att sprida ut elevers provgenomförande på flera år",
+   "sida": 552
+  },
+  "11.3": {
+   "rubrik": "Mer regelbunden inrapportering av betyg på gymnasial nivå",
+   "sida": 557
+  },
+  "11.4": {
+   "rubrik": "Övergripande konsekvenser av meritvärdeskalibrering för gymnasieskolan",
+   "sida": 558
+  },
+  "11.5": {
+   "rubrik": "Alternativt förslag: Examensprov för meritvärdering",
+   "sida": 558
+  },
+  "11.5.1": {
+   "rubrik": "Samma prov och provgenomförande som i huvudförslaget",
+   "sida": 560
+  },
+  "11.5.2": {
+   "rubrik": "Behov av förändringar jämfört med huvudförslaget",
+   "sida": 560
+  },
+  "12": {
+   "rubrik": "Förslag på hantering när betygsvärden inte kan kalibreras eller nationella slutprov inte kan genomföras",
+   "sida": 563
+  },
+  "12.1": {
+   "rubrik": "Utgångspunkter för förslagen om undantag förskolenheter",
+   "sida": 563
+  },
+  "12.2": {
+   "rubrik": "Specialskolan och resursskolor",
+   "sida": 564
+  },
+  "12.2.1": {
+   "rubrik": "Specialskolan",
+   "sida": 565
+  },
+  "12.2.2": {
+   "rubrik": "Resursskolor",
+   "sida": 566
+  },
+  "12.3": {
+   "rubrik": "Särskilda utbildningsformer",
+   "sida": 567
+  },
+  "12.3.1": {
+   "rubrik": "Utbildning vid särskilda ungdomshem",
+   "sida": 567
+  },
+  "12.3.2": {
+   "rubrik": "Utbildning för intagna i kriminalvårdsanstalt",
+   "sida": 567
+  },
+  "12.4": {
+   "rubrik": "Introduktionsprogram",
+   "sida": 568
+  },
+  "12.5": {
+   "rubrik": "Skolenheter eller program med få elever",
+   "sida": 569
+  },
+  "12.6": {
+   "rubrik": "Enskilda elever vars provresultat kraftigt avviker från de lärarsatta betygen",
+   "sida": 570
+  },
+  "13": {
+   "rubrik": "Förslag på betygsmodell för kommunal vuxenutbildning på gymnasial nivå",
+   "sida": 573
+  },
+  "13.1": {
+   "rubrik": "Bakgrund",
+   "sida": 573
+  },
+  "13.1.1": {
+   "rubrik": "Betygssättning och meritvärdesberäkning",
+   "sida": 576
+  },
+  "13.2": {
+   "rubrik": "Problem med likvärdig betygssättning inom komvux",
+   "sida": 578
+  },
+  "13.2.1": {
+   "rubrik": "Tillämpning av utredningens förslag om meritvärdering inom komvux",
+   "sida": 579
+  },
+  "13.3": {
+   "rubrik": "Meritvärdering i komvux på gymnasial nivå",
+   "sida": 580
+  },
+  "13.3.1": {
+   "rubrik": "Utfärdande av gymnasieexamen från komvux",
+   "sida": 583
+  },
+  "13.3.2": {
+   "rubrik": "Provgenomförande",
+   "sida": 586
+  },
+  "13.4": {
+   "rubrik": "Mer regelbunden inrapportering av betyg på gymnasial nivå",
+   "sida": 587
+  },
+  "13.5": {
+   "rubrik": "Konsekvenser för komvux",
+   "sida": 588
+  },
+  "13.5.1": {
+   "rubrik": "Bättre förkunskaper i högre utbildning",
+   "sida": 588
+  },
+  "13.5.2": {
+   "rubrik": "Konsekvenser för komvux organisation",
+   "sida": 589
+  },
+  "13.5.3": {
+   "rubrik": "Avsmalning mot ämnen som har nationella slutprov",
+   "sida": 590
+  },
+  "13.5.4": {
+   "rubrik": "Risk för att genomströmningen minskar",
+   "sida": 590
+  },
+  "13.5.5": {
+   "rubrik": "Examinationen bygger endast på delar av ämnesplanen",
+   "sida": 591
+  },
+  "13.6": {
+   "rubrik": "Andra förslag som har övervägts",
+   "sida": 592
+  },
+  "13.6.1": {
+   "rubrik": "Alternativa modeller",
+   "sida": 592
+  },
+  "14": {
+   "rubrik": "Förslag på regelverk för betyg efter prövning och möjligheter att göra om nationella slutprov",
+   "sida": 595
+  },
+  "14.1": {
+   "rubrik": "Bestämmelser om prövning i grundskolan, specialskolan, gymnasieskolan och komvux",
+   "sida": 595
+  },
+  "14.1.1": {
+   "rubrik": "Meritvärdering vid ansökan till gymnasieskolan eller högre utbildning",
+   "sida": 598
+  },
+  "14.2": {
+   "rubrik": "Utredningens utgångspunkter och förslag om prövning",
+   "sida": 599
+  },
+  "14.2.1": {
+   "rubrik": "Prövning för betyg i grundskolan och specialskolan",
+   "sida": 600
+  },
+  "14.2.2": {
+   "rubrik": "Prövning i gymnasieskolan",
+   "sida": 602
+  },
+  "14.2.3": {
+   "rubrik": "Prövning i komvux på gymnasial nivå",
+   "sida": 604
+  },
+  "14.3": {
+   "rubrik": "Det blir fortfarande möjligt att höja sitt meritvärde",
+   "sida": 605
+  },
+  "14.3.1": {
+   "rubrik": "Möjlighet att göra nya respektive att göra om nationella slutprov",
+   "sida": 606
+  },
+  "14.3.2": {
+   "rubrik": "Avgift vid genomförande av nationella slutprov",
+   "sida": 613
+  },
+  "14.4": {
+   "rubrik": "Andra förslag som har utretts",
+   "sida": 615
+  },
+  "15": {
+   "rubrik": "Förslag på ändrade behörighetsregler för antagning till gymnasieskolan och till högre utbildning",
+   "sida": 617
+  },
+  "15.1": {
+   "rubrik": "Bakgrund",
+   "sida": 617
+  },
+  "15.1.1": {
+   "rubrik": "Dagens behörighetskrav till gymnasieskolan stänger ute elever i onödan",
+   "sida": 617
+  },
+  "15.1.2": {
+   "rubrik": "Behov av förändrade behörighetskrav till följd av våra förslag",
+   "sida": 620
+  },
+  "15.2": {
+   "rubrik": "Ändrade behörighetsregler för tillträde till gymnasieskolan",
+   "sida": 621
+  },
+  "15.2.1": {
+   "rubrik": "Andelen behöriga till gymnasieskolans nationella program",
+   "sida": 624
+  },
+  "15.2.2": {
+   "rubrik": "Behörighetsregler för introduktionsprogrammet språkintroduktion",
+   "sida": 626
+  },
+  "15.2.3": {
+   "rubrik": "Riksrekryterande spetsutbildning",
+   "sida": 627
+  },
+  "15.2.4": {
+   "rubrik": "Vikten av nya yrkesutbildningar och ett nytt introduktionsprogram",
+   "sida": 628
+  },
+  "15.2.5": {
+   "rubrik": "Behörighet och meritvärde för elever på introduktionsprogram och nya yrkesprogram",
+   "sida": 630
+  },
+  "15.3": {
+   "rubrik": "Examenskraven för en gymnasieexamen behöver anpassas till meritvärdeskalibreringsmodellen",
+   "sida": 632
+  },
+  "15.3.1": {
+   "rubrik": "Förslag om en ändrad gymnasieexamen",
+   "sida": 633
+  },
+  "15.3.2": {
+   "rubrik": "Bedömning om en anpassning av förslaget om gymnasialt yrkesutbildningsbevis",
+   "sida": 635
+  },
+  "15.3.3": {
+   "rubrik": "Konsekvenser för vidareutbildning i form av ett fjärde tekniskt år",
+   "sida": 635
+  },
+  "15.4": {
+   "rubrik": "Tillträde till högre utbildning",
+   "sida": 637
+  },
+  "15.4.1": {
+   "rubrik": "Ändrade behörighetsregler samt ändrade regler vid platsfördelning vid urval",
+   "sida": 637
+  },
+  "15.4.2": {
+   "rubrik": "Förslag gällande grundläggande behörighet",
+   "sida": 638
+  },
+  "15.4.3": {
+   "rubrik": "Förslag gällande särskild behörighet",
+   "sida": 639
+  },
+  "15.4.4": {
+   "rubrik": "Förslag gällande urval",
+   "sida": 641
+  },
+  "15.5": {
+   "rubrik": "Behörighetsregler för tillträde till yrkeshögskolan behöver inte ändras",
+   "sida": 642
+  },
+  "15.6": {
+   "rubrik": "Alternativt förslag för behörighet till gymnasieskolan",
+   "sida": 644
+  },
+  "15.7": {
+   "rubrik": "Andra förslag som har övervägts men avfärdats",
+   "sida": 646
+  },
+  "16": {
+   "rubrik": "Förslag på reglering av betygssättning",
+   "sida": 649
+  },
+  "16.1": {
+   "rubrik": "Inledande överväganden och utgångspunkter",
+   "sida": 649
+  },
+  "16.2": {
+   "rubrik": "Utgångspunkter för betygssättningen i meritvärdeskalibreringsmodellen",
+   "sida": 650
+  },
+  "16.2.1": {
+   "rubrik": "Fortfarande ett mål- och kunskapsrelaterat betygssystem",
+   "sida": 650
+  },
+  "16.2.2": {
+   "rubrik": "Hantering av olikvärdighet inom en skola",
+   "sida": 650
+  },
+  "16.2.3": {
+   "rubrik": "De lärarsatta betygen ska bygga på relevanta underlag",
+   "sida": 651
+  },
+  "16.2.4": {
+   "rubrik": "Det ska vara tydligt för eleverna när deras kunskaper bedöms för betygssättning",
+   "sida": 652
+  },
+  "16.3": {
+   "rubrik": "Utgångspunkter för betygssättningen i komvux på gymnasial nivå",
+   "sida": 653
+  },
+  "16.4": {
+   "rubrik": "Reglering av betygssättning",
+   "sida": 654
+  },
+  "16.4.1": {
+   "rubrik": "Bedömningssamråd för likvärdighet inom skolor och program",
+   "sida": 654
+  },
+  "16.4.2": {
+   "rubrik": "Betygsunderlag",
+   "sida": 657
+  },
+  "16.4.3": {
+   "rubrik": "Ökad transparens ur ett elevperspektiv",
+   "sida": 658
+  },
+  "16.4.4": {
+   "rubrik": "Att särskilt beakta nationella prov",
+   "sida": 660
+  },
+  "16.4.5": {
+   "rubrik": "Yrkesprov",
+   "sida": 661
+  },
+  "17": {
+   "rubrik": "Förslag på ändringar i det nationella provsystemet",
+   "sida": 663
+  },
+  "17.1": {
+   "rubrik": "Förslag om nationella prov och nationella slutprov",
+   "sida": 663
+  },
+  "17.1.1": {
+   "rubrik": "Ansvar och organisation för nationella slutprov",
+   "sida": 664
+  },
+  "17.1.2": {
+   "rubrik": "Justera ramverk och informera om det nya syftet",
+   "sida": 666
+  },
+  "17.1.3": {
+   "rubrik": "Poäng för varje provutgåva ska skalas om efter provens genomförande",
+   "sida": 668
+  },
+  "17.1.4": {
+   "rubrik": "Utprövning av uppgifter i nationella slutprov",
+   "sida": 675
+  },
+  "17.1.5": {
+   "rubrik": "Central rättning ska införas för samtliga nationella slutprov",
+   "sida": 677
+  },
+  "17.1.6": {
+   "rubrik": "Nationella slutprov ska konstrueras för att automaträttas och bedömas centralt",
+   "sida": 678
+  },
+  "17.1.7": {
+   "rubrik": "Återkoppling från nationella slutprov",
+   "sida": 679
+  },
+  "17.1.8": {
+   "rubrik": "Överklaga nationella slutprovresultat",
+   "sida": 681
+  },
+  "17.1.9": {
+   "rubrik": "Antalet prov i grundskolan",
+   "sida": 683
+  },
+  "17.1.10": {
+   "rubrik": "Nya prov i gymnasieskolan och komvux",
+   "sida": 684
+  },
+  "17.1.11": {
+   "rubrik": "Samma prov i komvux som i gymnasieskolan",
+   "sida": 685
+  },
+  "17.1.12": {
+   "rubrik": "Anpassningar ska beslutas av rektor och undantag ska beslutas av Skolverket",
+   "sida": 686
+  },
+  "17.1.13": {
+   "rubrik": "Nödvändiga åtgärder för nationella slutprov i komvux och för prövning",
+   "sida": 688
+  },
+  "17.1.14": {
+   "rubrik": "Antalet provtillfällen ska begränsas",
+   "sida": 688
+  },
+  "17.1.15": {
+   "rubrik": "Möjlighet att göra om prov",
+   "sida": 690
+  },
+  "17.2": {
+   "rubrik": "Nödvändiga åtgärder för nationella slutprov enligt alternativt förslag till betygsmodell för grundskolan",
+   "sida": 691
+  },
+  "17.2.1": {
+   "rubrik": "Skolverket behöver fastställa de olika provens svårighetsgrad",
+   "sida": 691
+  },
+  "17.2.2": {
+   "rubrik": "Kravgränserna för varje provutgåva ska sättas genom ankring till tidigare provutgåvor",
+   "sida": 691
+  },
+  "17.2.3": {
+   "rubrik": "Poängskalor som bibehåller, och undviker att reducera, mängden information",
+   "sida": 693
+  },
+  "17.2.4": {
+   "rubrik": "Rättning under terminstid",
+   "sida": 694
+  },
+  "17.2.5": {
+   "rubrik": "Muntliga delprov utgår från nationella slutprov",
+   "sida": 694
+  },
+  "17.3": {
+   "rubrik": "Prov som inte berörs av utredningens förslag",
+   "sida": 694
+  },
+  "17.4": {
+   "rubrik": "Oegentligheter och fusk ska förebyggas och åtgärdas",
+   "sida": 696
+  },
+  "17.4.1": {
+   "rubrik": "Skolor som fuskar",
+   "sida": 696
+  },
+  "17.4.2": {
+   "rubrik": "Individer som fuskar",
+   "sida": 697
+  },
+  "17.4.3": {
+   "rubrik": "Regelverk för och hantering av oegentligheter i andra länder",
+   "sida": 697
+  },
+  "17.4.4": {
+   "rubrik": "Hur fusk hanteras vid högskoleprovet",
+   "sida": 701
+  },
+  "17.4.5": {
+   "rubrik": "Förslag om hur oegentligheter vid nationella slutprov ska förebyggas och åtgärdas",
+   "sida": 701
+  },
+  "17.4.6": {
+   "rubrik": "Uppföljning av oegentligheter och fusk",
+   "sida": 705
+  },
+  "17.5": {
+   "rubrik": "En framtid med ökad automaträttning och bedömning av artificiell intelligens",
+   "sida": 706
+  },
+  "17.5.1": {
+   "rubrik": "Vad går att mäta med uppgifter med fasta svarsalternativ?",
+   "sida": 706
+  },
+  "17.5.2": {
+   "rubrik": "Hur fungerar AI-bedömning?",
+   "sida": 709
+  },
+  "17.5.3": {
+   "rubrik": "Effektiv och konsistent bedömning",
+   "sida": 710
+  },
+  "17.6": {
+   "rubrik": "Andra förslag som har utretts",
+   "sida": 711
+  },
+  "17.6.1": {
+   "rubrik": "Nollalternativet",
+   "sida": 711
+  },
+  "17.6.2": {
+   "rubrik": "Alternativet att genomföra prov under hela året i komvux",
+   "sida": 711
+  },
+  "18": {
+   "rubrik": "Ett nytt system för trendmätning av kunskaper",
+   "sida": 713
+  },
+  "18.1": {
+   "rubrik": "Meritvärdeskalibreringsmodellen accentuerar ett tidigare identifierat behov",
+   "sida": 713
+  },
+  "18.2": {
+   "rubrik": "Nationell trendmätning",
+   "sida": 714
+  },
+  "18.2.1": {
+   "rubrik": "Varför kan de nationella proven inte mäta trend?",
+   "sida": 715
+  },
+  "18.3": {
+   "rubrik": "Systemet ska utformas optimalt för syftet",
+   "sida": 715
+  },
+  "18.4": {
+   "rubrik": "Begränsad nedbrytning av resultaten",
+   "sida": 716
+  },
+  "18.5": {
+   "rubrik": "Incitament att delta i proven",
+   "sida": 717
+  },
+  "18.6": {
+   "rubrik": "Införandet kräver viss fortsatt utredning",
+   "sida": 717
+  },
+  "19": {
+   "rubrik": "Prov-, betygs- och bedömningsstress",
+   "sida": 721
+  },
+  "19.1": {
+   "rubrik": "Skolan är barn och ungdomars obligatoriska arbetsplats",
+   "sida": 721
+  },
+  "19.2": {
+   "rubrik": "Psykisk ohälsa bland unga globalt",
+   "sida": 722
+  },
+  "19.2.1": {
+   "rubrik": "Psykisk ohälsa och skolrelaterad stress bland svenska barn och unga",
+   "sida": 723
+  },
+  "19.2.2": {
+   "rubrik": "Internetanvändning och sociala medier?",
+   "sida": 725
+  },
+  "19.3": {
+   "rubrik": "Prov-, bedömnings- och betygsstress",
+   "sida": 726
+  },
+  "19.3.1": {
+   "rubrik": "Utmärkande för high stakes-provstress",
+   "sida": 728
+  },
+  "19.3.2": {
+   "rubrik": "Svenska elevers relation till bedömning och nationella prov",
+   "sida": 729
+  },
+  "19.3.3": {
+   "rubrik": "Skillnader mellan flickor och pojkar",
+   "sida": 731
+  },
+  "19.3.4": {
+   "rubrik": "Elever med funktionsnedsättningar och särskilda behov",
+   "sida": 732
+  },
+  "19.4": {
+   "rubrik": "Att främja psykisk hälsa och minska stress hos barn och unga behöver prioriteras generellt",
+   "sida": 733
+  },
+  "19.4.1": {
+   "rubrik": "Hälsofrämjande insatser för psykisk hälsa",
+   "sida": 733
+  },
+  "19.5": {
+   "rubrik": "Vad kan utredningens förslag bidra med?",
+   "sida": 734
+  },
+  "19.5.1": {
+   "rubrik": "Läroplaner, mål och en skarp godkäntgräns för behörighet",
+   "sida": 734
+  },
+  "19.5.2": {
+   "rubrik": "Tydligare roll för de nationella proven",
+   "sida": 736
+  },
+  "19.5.3": {
+   "rubrik": "Det behöver bli tydligt när elevers kunskaper bedöms för betyg",
+   "sida": 736
+  },
+  "19.5.4": {
+   "rubrik": "”Det är inte farligt att skriva prov”",
+   "sida": 738
+  },
+  "19.5.5": {
+   "rubrik": "Provkonstruktion och provtillfällen behöver utvecklas för att inte öka stress",
+   "sida": 739
+  },
+  "19.5.6": {
+   "rubrik": "Lärare har särskild potential",
+   "sida": 740
+  },
+  "19.5.7": {
+   "rubrik": "Känsla av sammanhang främjar både lärande och välbefinnande",
+   "sida": 742
+  },
+  "19.5.8": {
+   "rubrik": "Alternativa bedömningsformer",
+   "sida": 743
+  },
+  "19.5.9": {
+   "rubrik": "Vikten av att inte utestängas från fortsatt utbildning",
+   "sida": 744
+  },
+  "20": {
+   "rubrik": "Införande och ikraftträdande",
+   "sida": 747
+  },
+  "20.1": {
+   "rubrik": "Tidsplan",
+   "sida": 747
+  },
+  "20.1.1": {
+   "rubrik": "Ikraftträdande och tillämpning av förslagen",
+   "sida": 747
+  },
+  "20.2": {
+   "rubrik": "Övergångsbestämmelser",
+   "sida": 750
+  },
+  "20.2.1": {
+   "rubrik": "Elever ska slutföra utbildning inom samma betygssystem",
+   "sida": 750
+  },
+  "20.3": {
+   "rubrik": "Genomförande",
+   "sida": 756
+  },
+  "20.3.1": {
+   "rubrik": "Skolverket ska ansvara för genomförande och implementering av förslagen",
+   "sida": 756
+  },
+  "20.3.2": {
+   "rubrik": "UHR ska ansvara för genomförande och implementering av förslagen",
+   "sida": 758
+  },
+  "20.3.3": {
+   "rubrik": "Skolinspektionen ska genomföra inspektioner",
+   "sida": 759
+  }
+ }
+}

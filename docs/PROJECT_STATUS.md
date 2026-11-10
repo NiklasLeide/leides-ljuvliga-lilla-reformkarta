@@ -6,9 +6,32 @@
 
 ---
 
+## Sprint 17 — Utmaningskartan, alla reformer
+
+**Mål:** Alla sju reformer i piloten under /dev/utmaningar-pilot/ med samma låsta metod som betyg.
+
+**Stoppvillkor:** Alla sju reformer visas under /dev/, inget i produktionsroten, därefter manuell granskning. En reform stoppas och rapporteras om Övrigt överstiger 10 % eller samstämmigheten mellan kodare understiger 80 %.
+
+| # | Task | Status |
+|---|------|--------|
+| 1 | Parametrisk kedja per reform, regressionstest mot betyg | Klar |
+| 2 | Trygghet och studiero (SOU 2025:8) | Ej påbörjad |
+| 3 | Förbättrat stöd (SOU 2025:44) | Ej påbörjad |
+| 4 | Tid för undervisningsuppdraget (SOU 2025:26) | Ej påbörjad |
+| 5 | Kunskap för alla (SOU 2025:19) | Ej påbörjad |
+| 6 | På språklig grund (SOU 2025:9) | Ej påbörjad |
+| 7 | Tioårig grundskola (SOU 2021:33) | Ej påbörjad |
+| 8 | Pilotsidan: reformväljare, jämförelse mellan reformer, förslag som propositionen inte tar upp, klickytor | Ej påbörjad |
+| 9 | Granskningsunderlag för alla reformer | Ej påbörjad |
+| 10 | Dokumentation och hygien | Ej påbörjad |
+| 11 | Synk till /dev/utmaningar-pilot/ | Ej påbörjad |
+| 12 | Run DoD review for this sprint | Ej påbörjad |
+
+---
+
 ## Sprint 16 — Utmaningskartan (pilot betyg)
 
-**Status:** Stoppad för manuell granskning
+**Status:** Klar. Manuell granskning flyttad till efter nästa sprint enligt beslut av Niklas.
 
 **Mål:** pilotsida på dev som för reformen betyg visar huvudmännens utmaningar ur remissvaren mot proposition och lag, granskningsbar för Niklas och Cecilia.
 

@@ -1,0 +1,110 @@
+{
+ "id": "laroplaner",
+ "namn": null,
+ "namn_i_brief": "Kunskap för alla",
+ "reforms_json_id": "laroplaner",
+ "status": "mall — fylls i när reformen tas fram",
+ "sou": {
+  "nr": "SOU 2025:19",
+  "titel": "Kunskap för alla – nya läroplaner med fokus på undervisning och lärande",
+  "sida_url": "https://www.regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2025/02/sou-202519/",
+  "pdf": null,
+  "innehall_sidor": null,
+  "forslagskapitel": null,
+  "forfattningskommentar": null
+ },
+ "remiss": {
+  "url": "https://www.regeringen.se/remisser/2025/03/remiss-av-betankandet-kunskap-for-alla--nya-laroplaner-med-fokus-pa-undervisning-och-larande-sou-202519/",
+  "diarienummer": "U2025/00630"
+ },
+ "propositioner": [
+  {
+   "nr": "Prop. 2025/26:194",
+   "sida_url": "https://www.regeringen.se/rattsliga-dokument/proposition/2026/03/prop.-202526194",
+   "pdf_url": null,
+   "avsnitt": null,
+   "utredningens_forslag_rubrik": null,
+   "remissinstanser_rubrik": null,
+   "hoppa_delar_vid_namnsokning": [],
+   "lagtext_sidor": null,
+   "forteckning_remissinstanser_sida": null
+  }
+ ],
+ "layout": {
+  "spaltforskjutning_pt": null,
+  "ord_y_intervall_pt": null
+ },
+ "lagar": null,
+ "forordningar": null,
+ "forordning_markor": null,
+ "fokusorganisationer": {
+  "skr": "Sveriges Kommuner och Regioner",
+  "almega": "Almega utbildning",
+  "ideburna": "Idéburna skolors riksförbund"
+ },
+ "kedja": {
+  "utredningsbetankande": {
+   "nr": "SOU 2025:19",
+   "titel": "Kunskap för alla – nya läroplaner med fokus på undervisning och lärande",
+   "kalla": {
+    "text": "SOU 2025:19 Kunskap för alla – nya läroplaner med fokus på undervisning och lärande (regeringen.se)",
+    "url": "https://www.regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2025/02/sou-202519/"
+   }
+  },
+  "remiss": {
+   "url": "https://www.regeringen.se/remisser/2025/03/remiss-av-betankandet-kunskap-for-alla--nya-laroplaner-med-fokus-pa-undervisning-och-larande-sou-202519/",
+   "diarienummer": "U2025/00630",
+   "publicerad": "14 mars 2025",
+   "svar_senast": "13 juni 2025",
+   "kalla": {
+    "text": "Remiss U2025/00630 på regeringen.se",
+    "url": "https://www.regeringen.se/remisser/2025/03/remiss-av-betankandet-kunskap-for-alla--nya-laroplaner-med-fokus-pa-undervisning-och-larande-sou-202519/"
+   }
+  },
+  "proposition": [
+   {
+    "nr": "Prop. 2025/26:194",
+    "titel": "Nya läroplaner – för en stark kunskapsskola",
+    "kalla": {
+     "text": "Prop. 2025/26:194 (regeringen.se)",
+     "url": "https://www.regeringen.se/rattsliga-dokument/proposition/2026/03/prop.-202526194"
+    },
+    "riksdagen": {
+     "text": "Prop. 2025/26:194 (riksdagens öppna data)",
+     "url": "https://data.riksdagen.se/dokument/HD03194"
+    },
+    "anm": "Delar av SOU 2025:19 behandlas även i prop. 2025/26:195 (avsnitt 4.2) och prop. 2025/26:196 (bilaga 6)."
+   }
+  ],
+  "utskottsbetankande": {
+   "bet": "2025/26:UbU23",
+   "kalla": {
+    "text": "Bet. 2025/26:UbU23 (riksdagens öppna data)",
+    "url": "https://data.riksdagen.se/dokument/HD01UbU23"
+   },
+   "status": {
+    "text": "Dokumentstatus bet. 2025/26:UbU23",
+    "url": "https://data.riksdagen.se/dokumentstatus/HD01UbU23"
+   }
+  },
+  "rskr": {
+   "nr": "2025/26:327",
+   "beslutsdatum": "2026-06-03",
+   "status": "inträffat",
+   "kalla": {
+    "text": "Rskr. 2025/26:327; beslutsaktivitet (BES) 2026-06-03 status inträffat i dokumentstatus för bet. 2025/26:UbU23",
+    "url": "https://data.riksdagen.se/dokumentstatus/HD01UbU23"
+   },
+   "dokument": {
+    "text": "Rskr. 2025/26:327",
+    "url": "https://data.riksdagen.se/dokument/HD0K327"
+   }
+  }
+ },
+ "hamtningsdatum": null,
+ "korrigeringar": {
+  "ocr_citat_manuellt_kontrollerade": [],
+  "motivering_omformulerad": {}
+ },
+ "forordning_markor_beskrivning": null
+}

@@ -1,0 +1,3207 @@
+{
+ "_meta": {
+  "steg": "M1 identifiering av utmaningar (modellkodning, förstudie 2; fyra parallella kodare, en per batch av passager)",
+  "tolkning": true,
+  "falt": {
+   "uid": "utmaningens id",
+   "id": "passage-id",
+   "citat": "ordagrann delsträng ur passagen",
+   "oppen_kod": "kodarens öppna kod (spårbarhet; visas aldrig)",
+   "beskrivning": "kodarens beskrivning (spårbarhet; visas aldrig)"
+  }
+ },
+ "utmaningar": [
+  {
+   "uid": "U001",
+   "id": "gislaveds-kommun#8",
+   "citat": "Det vore också olyckligt att införa radikalt annorlunda betygskriterier när förändrade betygskriterier ska börja tillämpas inom gymnasieskolan med start höstterminen 2025.",
+   "oppen_kod": "reformtäthet med GY25",
+   "beskrivning": "Nya betygskriterier skulle införas strax efter att GY25:s nya ämnesplaner börjat tillämpas, vilket ger upprepade omställningar för skolorna."
+  },
+  {
+   "uid": "U002",
+   "id": "gislaveds-kommun#9",
+   "citat": "Givet vad vi har sett vid genomförandet av centralt rättade nationella prov (där såväl enskilda digitala nationella prov som resterande digitala prov under terminen har fått ställas in på grund av tekniska problem) behöver det dock understrykas att systemet som används måste vara tillräckligt utprovat och störningssäkert för att de digitala nationella slutproven säkert ska kunna genomföras på samtliga skolor i samtliga ämnen i samtliga skolformer vid samtliga provtillfällen.",
+   "oppen_kod": "risk för tekniska provstörningar",
+   "beskrivning": "Erfarenheter av inställda digitala prov gör att skolorna riskerar att inte kunna genomföra digitala slutprov säkert."
+  },
+  {
+   "uid": "U003",
+   "id": "gislaveds-kommun#9",
+   "citat": "Om detta inte säkert kan garanteras måste det finnas någon typ av backupalternativ som kan användas för att säkerställa att alla elever får en möjlighet att genomföra alla delar av det som deras meritvärden ska baseras på.",
+   "oppen_kod": "behov av reservrutin vid provavbrott",
+   "beskrivning": "Skolorna behöver reservlösningar om digitala slutprov inte kan genomföras."
+  },
+  {
+   "uid": "U004",
+   "id": "gislaveds-kommun#9",
+   "citat": "Det är ett problem om elever, vårdnadshavare och även personal inom skolan inte kan få ett tydligt grepp om hur man får fram det meritvärde som utgör grund för antagning till nästa nivå.",
+   "oppen_kod": "svårbegriplig kalibreringsmodell",
+   "beskrivning": "Skolans personal kan inte förstå eller förklara hur meritvärdet räknas fram."
+  },
+  {
+   "uid": "U005",
+   "id": "gislaveds-kommun#9",
+   "citat": "Såväl för gymnasieskolan som för högskolan uppstår också väsentliga problem om antagningen väsentligt måste senareläggas för att de sökandes",
+   "oppen_kod": "senarelagd antagning försvårar planering",
+   "beskrivning": "Sena slutprovsresultat skjuter upp antagningen och skapar problem för gymnasieskolans planering."
+  },
+  {
+   "uid": "U006",
+   "id": "gislaveds-kommun#10",
+   "citat": "Det kan då sent vara oklart om utbildningar kan starta eller inte. Detta kan i sin tur få till följd antingen att det finns en övertalighet bland lärare som upptäcks så sent att det inte inom rimlig tid går att åtgärda den eller att det blir svårt att ha kompetenta lärare på plats vid skolstart för att rekryteringsprocesser inte hinns med eller inte ger tillräckligt gott utfall.",
+   "oppen_kod": "osäker utbildningsstart och lärarbemanning",
+   "beskrivning": "Sen antagning gör det oklart vilka utbildningar som startar och försvårar bemanning och rekrytering av lärare."
+  },
+  {
+   "uid": "U007",
+   "id": "gislaveds-kommun#10",
+   "citat": "För att undvika att stora slutprov läggs in i många ämnen så behöver de enskilda elevernas resultat på nationella slutprov också återföras till lärare, rektorer och huvudmän",
+   "oppen_kod": "behov av egna slutprov",
+   "beskrivning": "Utan återförda individresultat kan skolorna behöva lägga in egna stora slutprov i många ämnen."
+  },
+  {
+   "uid": "U008",
+   "id": "gislaveds-kommun#10",
+   "citat": "För många kommer det inte att vara begripligt hur en kalibrering genomförs och vilka effekter en kalibrering får för enskilda elever.",
+   "oppen_kod": "svårbegriplig kalibreringsmodell",
+   "beskrivning": "Kalibreringens funktion och effekter blir svåra att förstå och förklara."
+  },
+  {
+   "uid": "U009",
+   "id": "gislaveds-kommun#12",
+   "citat": "Det finns till exempel vad gäller programinriktat val (IMV) skillnader mellan utredningarnas förslag där betygsutredningen föreslår att IMV avskaffas samtidigt som utredningen om fler vägar till arbetslivet föreslår att IMV bibehålls med skärpta behörighetskrav.",
+   "oppen_kod": "motstridiga utredningsförslag om IMV",
+   "beskrivning": "Parallella utredningar ger motstridiga besked om IMV, vilket gör huvudmannens programplanering oklar."
+  },
+  {
+   "uid": "U010",
+   "id": "gislaveds-kommun#18",
+   "citat": "Denna nya konstruktion av ämnesplanerna i dessa skolformer har ännu inte hunnit prövas och det blir då märkligt att åter i grunden förändra betygskriteriernas innehåll och funktion i ämnesplanerna som föreslås av utredningen.",
+   "oppen_kod": "reformtäthet med GY25",
+   "beskrivning": "Skolorna hinner inte pröva GY25:s ämnesplaner innan betygskriterierna åter ska göras om."
+  },
+  {
+   "uid": "U011",
+   "id": "gislaveds-kommun#36",
+   "citat": "Svårigheten att se hur systemet slår gäller inte bara för elever och vårdnadshavare utan även för personal inom skolan och andra intressenter.",
+   "oppen_kod": "svårbegriplig kalibreringsmodell",
+   "beskrivning": "Skolpersonalen får svårt att överblicka hur meritvärdessystemet slår i grundskolan."
+  },
+  {
+   "uid": "U012",
+   "id": "gislaveds-kommun#36",
+   "citat": "Det läggs inte något konkret förslag på hur kalibreringen ska ske även om det pekas på några möjliga alternativ.",
+   "oppen_kod": "oklar kalibreringsalgoritm",
+   "beskrivning": "Det saknas ett konkret förslag på hur kalibreringen ska gå till."
+  },
+  {
+   "uid": "U013",
+   "id": "gislaveds-kommun#39",
+   "citat": "Den lokala kalibreringen kan i och för sig kanske göra systemet något mer lättbegripligt framför allt för skolans personal men ställer samtidigt stora krav på skolans personal (och är tidskrävande) för att en korrekt genomförd kalibrering ska kunna ske.",
+   "oppen_kod": "tidskrävande lokal kalibrering",
+   "beskrivning": "Ämnesvis kalibrering ställer stora krav på och tar mycket tid för skolans personal."
+  },
+  {
+   "uid": "U014",
+   "id": "gislaveds-kommun#42",
+   "citat": "Det läggs inte något konkret förslag på hur kalibreringen ska ske även om det pekas på några möjliga alternativ.",
+   "oppen_kod": "oklar kalibreringsalgoritm",
+   "beskrivning": "För gymnasieskolan saknas ett konkret förslag på hur kalibreringen ska ske."
+  },
+  {
+   "uid": "U015",
+   "id": "gislaveds-kommun#43",
+   "citat": "Svårigheten att se hur systemet slår gäller inte bara för elever utan även för personal inom skolan och andra intressenter.",
+   "oppen_kod": "svårbegriplig kalibreringsmodell",
+   "beskrivning": "Gymnasieskolans personal får svårt att överblicka hur meritvärdessystemet slår."
+  },
+  {
+   "uid": "U016",
+   "id": "gislaveds-kommun#56",
+   "citat": "Beroende på hur undervisningen på komvux är upplagd där nivåer inom ämnen normalt läses mer komprimerat än i gymnasieskolan bör det utöver två tillfällen då varje nationellt slutprov skrivs under vårterminen också finnas ett tillfälle under höstterminen.",
+   "oppen_kod": "slutprov anpassade till komvux",
+   "beskrivning": "Komvux komprimerade studiegång kräver fler provtillfällen än gymnasieskolan."
+  },
+  {
+   "uid": "U017",
+   "id": "gislaveds-kommun#76",
+   "citat": "Det är också högst rimligt för att inte skapa behov av större egna slutprov för att få ett bedömningsunderlag ,vilket ytterligare skulle öka provpressen på eleverna",
+   "oppen_kod": "behov av egna slutprov",
+   "beskrivning": "Om slutprovsresultat inte når lärarna före betygssättning måste skolorna skapa egna större slutprov."
+  },
+  {
+   "uid": "U018",
+   "id": "gislaveds-kommun#77",
+   "citat": "Yrkesprogram ska inte styras upp så att de endast kan genomföras utifrån nationella utgångar utan det är viktigt att de enskilda huvudmännen kan lägga upp hur programfördjupningen används utifrån lokala förutsättningar.",
+   "oppen_kod": "minskad lokal flexibilitet yrkesprogram",
+   "beskrivning": "Nationellt styrda yrkesprov riskerar att begränsa huvudmannens möjlighet att utforma programfördjupning lokalt."
+  },
+  {
+   "uid": "U019",
+   "id": "gislaveds-kommun#77",
+   "citat": "Det kan också konstateras att förutsättningarna för genomförande av yrkesprov varierar väsentligt mellan olika program och inriktningar. I vissa fall finns utarbetade yrkesprov som vore fullt möjliga att använda som ett alternativ till gymnasiearbetet. I andra fall saknas helt relevanta yrkesprov att anordna eller så fångas inte de olika möjligheter som kan rymmas inom ett yrkesprogram upp på ett bra sätt.",
+   "oppen_kod": "saknade yrkesprov för vissa program",
+   "beskrivning": "För vissa program saknas relevanta yrkesprov för huvudmannen att anordna."
+  },
+  {
+   "uid": "U020",
+   "id": "gislaveds-kommun#82",
+   "citat": "Vad gäller möjligheten att undanta elever från att skriva slutprov kan det vara rimligt att Skolverket ska besluta om detta efter ansökan från rektor men det är då viktigt att sådana ansökningar hanteras skyndsamt av Skolverket.",
+   "oppen_kod": "administration av undantagsansökningar",
+   "beskrivning": "Rektor måste ansöka hos Skolverket om undantag och är beroende av snabb handläggning."
+  },
+  {
+   "uid": "U021",
+   "id": "gislaveds-kommun#84",
+   "citat": "Det är viktigt för att öka likvärdigheten i bedömningar och också högst rimligt för att inte skapa behov av större egna slutprov för att få ett bedömningsunderlag, vilket ytterligare skulle öka provpressen på eleverna.",
+   "oppen_kod": "behov av egna slutprov",
+   "beskrivning": "Om provet i åk 6 blir diagnostiskt kan skolorna behöva ta fram egna större prov som bedömningsunderlag."
+  },
+  {
+   "uid": "U022",
+   "id": "gislaveds-kommun#92",
+   "citat": "Man kan möjligen ifrågasätta att det bara är ett halvår mellan ikraftträdandet och när huvuddelen av förslagen ska börja gälla för gymnasieskolan och anpassad gymnasieskola. I och med att förslagen innebär en förändring av vilka utbildningar som ska erbjudas inom gymnasieskolan i vissa delar så borde förslaget ha trätt i kraft innan ansökningsprocessen till gymnasieskolan påbörjas.",
+   "oppen_kod": "kort tid för införande",
+   "beskrivning": "Kort tid mellan ikraftträdande och tillämpning hinner inte med gymnasieskolans ansöknings- och utbudsplanering."
+  },
+  {
+   "uid": "U023",
+   "id": "gislaveds-kommun#92",
+   "citat": "Det är viktigt att samordna införandet av de olika reformer som nu planeras så att vi inte får mellansystem som varar något eller några enstaka år.",
+   "oppen_kod": "osamordnade parallella reformer",
+   "beskrivning": "Flera parallella reformer riskerar att ge kortvariga mellansystem som skolorna måste hantera."
+  },
+  {
+   "uid": "U024",
+   "id": "gislaveds-kommun#93",
+   "citat": "Dessa elevers betyg kommer ju också att bli blandbetyg där dels betyg från grundskolan som är enligt den nuvarande betygsskalan och dels betyg från IM som är tiogradiga och ska vägas samman med nationella slutprov ingår. Hur ska dessa kombineras för att få fram ett meritvärde som kan jämföras med meritvärdet (enligt det nuvarande systemet) för elever som söker direkt från grundskolan vid antagning till gymnasieskolans nationella program?",
+   "oppen_kod": "blandbetyg på introduktionsprogram",
+   "beskrivning": "Oklart hur IM-elevers blandade betyg från två skalor ska hanteras vid meritvärdering och antagning."
+  },
+  {
+   "uid": "U025",
+   "id": "gislaveds-kommun#93",
+   "citat": "Det skulle då innebära att de två första årskullarna på yrkesprogram 1900 poäng måste antas utifrån ett annat regelverk än det som utredningen föreslår.",
+   "oppen_kod": "oklara antagningsregler under övergång",
+   "beskrivning": "Under övergångsåren blir det oklart vilket regelverk som gäller för antagning till yrkesprogram 1900 poäng."
+  },
+  {
+   "uid": "U026",
+   "id": "gislaveds-kommun#94",
+   "citat": "men då skulle samläsning med elever på yrkesprogram 2700/2800 poäng försvåras (i och med användningen av två olika betygssystem i samläsningsgrupperna).",
+   "oppen_kod": "samläsning med olika betygssystem",
+   "beskrivning": "Två betygssystem i samma undervisningsgrupp försvårar skolornas samläsning."
+  },
+  {
+   "uid": "U027",
+   "id": "gislaveds-kommun#95",
+   "citat": "Skulle övergångsbestämmelserna som föreslås i Kunskap för alla – nya läroplaner med fokus på undervisning och lärande (SOU 2025:19) gälla förvärras den problematiken.",
+   "oppen_kod": "osynkade övergångsbestämmelser",
+   "beskrivning": "Olika övergångsbestämmelser i parallella utredningar förvärrar problemen vid införandet."
+  },
+  {
+   "uid": "U028",
+   "id": "gislaveds-kommun#97",
+   "citat": "Gislaveds kommun anser att utredningen underskattar behovet ute på de olika skolenheterna av att införa nya gemensamma slutprov i ett flertal ämnen om undervisande lärare och rektorer inte får tillgång till elevernas individuella slutprov i god tid före betygssättningen.",
+   "oppen_kod": "behov av egna slutprov",
+   "beskrivning": "Skolenheterna kan behöva införa egna gemensamma slutprov i flera ämnen om de inte får individresultaten i tid."
+  },
+  {
+   "uid": "U029",
+   "id": "gislaveds-kommun#97",
+   "citat": "Det är även en väsentlig del av huvudmännens och rektorernas uppföljning av elevresultaten att ha tillgång till dessa individuella resultat från de nationella slutproven för att kunna se på avvikelser för individer och könsbaserade resultatskillnader",
+   "oppen_kod": "försvårad uppföljning utan individresultat",
+   "beskrivning": "Utan tillgång till individuella slutprovsresultat försvåras huvudmannens och rektorns resultatuppföljning."
+  },
+  {
+   "uid": "U030",
+   "id": "stockholms-kommun#2",
+   "citat": "Arbetsmarknadsnämnden anser att förslagen kraftigt försämrar förutsättningarna för komvux",
+   "oppen_kod": "försämrade förutsättningar för komvux",
+   "beskrivning": "Komvux verksamhetsförutsättningar försämras kraftigt av förslagen."
+  },
+  {
+   "uid": "U031",
+   "id": "stockholms-kommun#3",
+   "citat": "Att samtidigt implementera alla dessa ändringar ställer enorma krav på huvudmän och andra myndigheter och innebär stora risker för skolverksamheterna.",
+   "oppen_kod": "många parallella reformer",
+   "beskrivning": "Samtidig implementering av flera reformer ställer enorma krav på huvudmännen."
+  },
+  {
+   "uid": "U032",
+   "id": "stockholms-kommun#9",
+   "citat": "Stadsledningskontoret vill inledningsvis lyfta komplexiteten i att flera omfattande utredningar med betydande förändringar expedieras samtidigt.",
+   "oppen_kod": "många parallella reformer",
+   "beskrivning": "Flera omfattande utredningar som ska genomföras samtidigt gör införandet komplext."
+  },
+  {
+   "uid": "U033",
+   "id": "stockholms-kommun#9",
+   "citat": "Stadsledningskontoret är tveksam till den korta tidshorisont som utredningen anger för dessa omfattande ändringar. Detta ställer höga krav på huvudmän och andra myndigheter att noga förbereda för ett genomförande.",
+   "oppen_kod": "kort tid för införande",
+   "beskrivning": "Den korta tidshorisonten ställer höga krav på huvudmannens förberedelser."
+  },
+  {
+   "uid": "U034",
+   "id": "stockholms-kommun#10",
+   "citat": "Stadsledningskontoret anser att kommunikation och transparens är särskilt viktigt i samband med införandet av det nya betygssystemet. Systemet som föreslås är komplext och kan vara svårt för både elever och vårdnadshavare att förstå.",
+   "oppen_kod": "komplex modell att kommunicera",
+   "beskrivning": "Huvudmannen behöver kommunicera ett komplext system som är svårt att förstå."
+  },
+  {
+   "uid": "U035",
+   "id": "stockholms-kommun#10",
+   "citat": "Det betyder att skolor kommer att ha begränsade möjligheter att stämma av sin betygssättning mot riksnormen innan det nya systemet börjar tillämpas.",
+   "oppen_kod": "ingen avstämning mot riksnorm före start",
+   "beskrivning": "Skolorna kan inte stämma av sin betygssättning innan kalibreringen börjar gälla."
+  },
+  {
+   "uid": "U036",
+   "id": "stockholms-kommun#10",
+   "citat": "Stadsledningskontoret ser dock att det finns risk för initiala kostnadsökningar, innan implementering av de omfattande förslagen är fullt genomförd.",
+   "oppen_kod": "initiala kostnadsökningar",
+   "beskrivning": "Införandet riskerar att ge initiala kostnadsökningar för kommunen."
+  },
+  {
+   "uid": "U037",
+   "id": "stockholms-kommun#10",
+   "citat": "Detta kommer innebära ytterligare utmaningar med planering och dimensionering av gymnasieutbildningar i Stockholms läns gymnasieregion.",
+   "oppen_kod": "svårare dimensionering av gymnasieplatser",
+   "beskrivning": "Skillnad mellan preliminära och slutliga betyg försvårar dimensionering av gymnasieutbildningar."
+  },
+  {
+   "uid": "U038",
+   "id": "stockholms-kommun#10",
+   "citat": "kommer att finnas behov av tillgängliga studie- och yrkesvägledare under sommartid som kan stödja och vägleda de elever som inte kommer in på sökta gymnasieutbildningar.",
+   "oppen_kod": "behov av SYV sommartid",
+   "beskrivning": "Huvudmannen behöver ha studie- och yrkesvägledare tillgängliga under sommaren."
+  },
+  {
+   "uid": "U039",
+   "id": "stockholms-kommun#11",
+   "citat": "Om huvudmannen enbart får återkoppling på skol- och ämnesnivå, och inte på individnivå, som utredningen tycks föreslå, begränsas möjligheten till uppföljning och förbättring av betygspraxis på ett olyckligt och onödigt sätt.",
+   "oppen_kod": "begränsad återkoppling till huvudman",
+   "beskrivning": "Huvudmannens uppföljning av betygspraxis begränsas om återkopplingen inte sker på individnivå."
+  },
+  {
+   "uid": "U040",
+   "id": "stockholms-kommun#12",
+   "citat": "Stadsledningskontoret menar att det i god tid inför införandet finns behov för skolorna att få tillgång till stödmaterial och diagnostiska prov för lärarnas bedömningsråd att använda och bedöma elevernas kunskaper med utifrån den nya betygsskalan och de nya betygskriterierna.",
+   "oppen_kod": "behov av stödmaterial i god tid",
+   "beskrivning": "Skolorna behöver stödmaterial och diagnostiska prov i god tid före införandet."
+  },
+  {
+   "uid": "U041",
+   "id": "stockholms-kommun#14",
+   "citat": "Stadsledningskontoret noterar att förslaget att ta bort programinriktat val inte överensstämmer med förslag i utredningen ”Fler vägar till arbetslivet (SOU 2024:74)”.",
+   "oppen_kod": "osynkade reformförslag",
+   "beskrivning": "Förslaget om introduktionsprogram krockar med en annan utrednings förslag."
+  },
+  {
+   "uid": "U042",
+   "id": "stockholms-kommun#15",
+   "citat": "Detta innebär att en skolas bedömningssamråd måste ges tid och förutsättningar, inte enbart i samband med betygssättning.",
+   "oppen_kod": "tid för bedömningssamråd",
+   "beskrivning": "Bedömningssamråd kräver löpande tid och förutsättningar i organisationen."
+  },
+  {
+   "uid": "U043",
+   "id": "stockholms-kommun#15",
+   "citat": "Stadsledningskontoret ser att det kan bli utmanande att genomföra bedömningssamråd för små skolor där få lärare undervisar i samma ämne.",
+   "oppen_kod": "bedömningssamråd på små skolor",
+   "beskrivning": "Små skolor med få lärare per ämne har svårt att genomföra bedömningssamråd."
+  },
+  {
+   "uid": "U044",
+   "id": "stockholms-kommun#17",
+   "citat": "Detta kräver bemanning och rätt kompetens, vilket kan bli utmanande för mindre kommuner och skolor utan lämpliga lokaler.",
+   "oppen_kod": "provvakter och lokaler för slutprov",
+   "beskrivning": "Rättssäkert provgenomförande kräver bemanning och lokaler som mindre kommuner kan sakna."
+  },
+  {
+   "uid": "U045",
+   "id": "stockholms-kommun#17",
+   "citat": "Förslaget med endast två provtillfällen om året begränsar komvux möjligheter att erbjuda en flexibel och kontinuerlig utbildning under året.",
+   "oppen_kod": "få provtillfällen hämmar komvux",
+   "beskrivning": "Två provtillfällen per år begränsar komvux flexibla organisering."
+  },
+  {
+   "uid": "U046",
+   "id": "stockholms-kommun#18",
+   "citat": "Stadsledningskontoret ser även problem med att de nationella slutproven inte behandlar hela innehållet i ämnesplanerna, vilket innebär att det är otydligt vad som ska prövas",
+   "oppen_kod": "oklart vad slutproven prövar",
+   "beskrivning": "Det är otydligt för verksamheten vad slutproven ska pröva."
+  },
+  {
+   "uid": "U047",
+   "id": "stockholms-kommun#21",
+   "citat": "Sammantaget bidrar detta till en mängd förslag och förändringar under kommande år som blir svåra att överblicka och vars implementering och genomförande tar och kommer att ta mycket tid i anspråk.",
+   "oppen_kod": "många parallella reformer",
+   "beskrivning": "Mängden samtidiga förändringar är svår att överblicka och tar mycket tid att implementera."
+  },
+  {
+   "uid": "U048",
+   "id": "stockholms-kommun#21",
+   "citat": "Betygsutredningen föreslår att deras förslag ska börja gälla redan 1 januari 2030 vilket innebär att lärare, rektorer och huvudmän kommer att behöva sätta sig in i ytterligare ett omfattande system innan det första ens helt har kommit på plats.",
+   "oppen_kod": "överlapp med ämnesbetygsreformen",
+   "beskrivning": "Huvudmannen måste införa ett nytt system innan ämnesbetygsreformen är på plats."
+  },
+  {
+   "uid": "U049",
+   "id": "stockholms-kommun#21",
+   "citat": "Betänkandet Tid för läraruppdraget (SOU 2025:26) som också är ute på remiss nu syftar till att värna lärares arbetstid och tid för undervisning, men betygsutredningen kommer med förändringsförslag som går i direkt motsatt riktning.",
+   "oppen_kod": "ökad arbetsbelastning för lärare",
+   "beskrivning": "Förslagen ökar lärares arbetsbelastning i strid med andra reformers mål."
+  },
+  {
+   "uid": "U050",
+   "id": "stockholms-kommun#22",
+   "citat": "För att genomföra slutproven behöver komvux prioritera och styra stora resurser till både genomförandet av proven men också för att möta den efterfrågan av att läsa ämnesnivåer i nära anslutning till nästa provtillfälle som vi bedömer kommer att inträffa. Risken är att komvux kapacitet att ta emot studerande inte räcker till för alla som behöver.",
+   "oppen_kod": "resurser och kapacitet i komvux",
+   "beskrivning": "Slutproven kräver stora resurser i komvux och kapaciteten riskerar att inte räcka."
+  },
+  {
+   "uid": "U051",
+   "id": "stockholms-kommun#22",
+   "citat": "Förslaget med endast två provtillfällen om året begränsar komvux möjligheter att erbjuda flexibel och kontinuerlig utbildning under året.",
+   "oppen_kod": "få provtillfällen hämmar komvux",
+   "beskrivning": "Två provtillfällen per år begränsar komvux flexibla organisering."
+  },
+  {
+   "uid": "U052",
+   "id": "stockholms-kommun#26",
+   "citat": "Utbildningsförvaltningen vill inledningsvis lyfta komplexiteten i att flera omfattande utredningar med betydande förändringar expedieras samtidigt.",
+   "oppen_kod": "många parallella reformer",
+   "beskrivning": "Flera omfattande utredningar som ska genomföras samtidigt gör införandet komplext."
+  },
+  {
+   "uid": "U053",
+   "id": "stockholms-kommun#26",
+   "citat": "Förvaltningen är tveksam till den korta tidshorisont som utredningen anger för dessa omfattande ändringar. Detta ställer höga krav på huvudmän och andra myndigheter att noga förbereda för ett genomförande.",
+   "oppen_kod": "kort tid för införande",
+   "beskrivning": "Den korta tidshorisonten ställer höga krav på huvudmannens förberedelser."
+  },
+  {
+   "uid": "U054",
+   "id": "stockholms-kommun#26",
+   "citat": "Kommunikation och transparens blir särskilt viktiga i samband med införandet av det nya betygssystemet, enligt förvaltningens bedömning. Systemet som föreslås är komplext och kan vara svårt för både elever och vårdnadshavare att förstå.",
+   "oppen_kod": "komplex modell att kommunicera",
+   "beskrivning": "Huvudmannen behöver kommunicera ett komplext system som är svårt att förstå."
+  },
+  {
+   "uid": "U055",
+   "id": "stockholms-kommun#26",
+   "citat": "Det betyder att skolor kommer att ha begränsade möjligheter att stämma av sin betygssättning mot riksnormen innan det nya systemet börjar tillämpas.",
+   "oppen_kod": "ingen avstämning mot riksnorm före start",
+   "beskrivning": "Skolorna kan inte stämma av sin betygssättning innan kalibreringen börjar gälla."
+  },
+  {
+   "uid": "U056",
+   "id": "stockholms-kommun#27",
+   "citat": "Förvaltningen ser dock att det finns risk för initiala kostnadsökningar, innan implementering av de omfattande förslagen är fullt genomförd.",
+   "oppen_kod": "initiala kostnadsökningar",
+   "beskrivning": "Införandet riskerar att ge initiala kostnadsökningar för kommunen."
+  },
+  {
+   "uid": "U057",
+   "id": "stockholms-kommun#27",
+   "citat": "Detta kommer innebära ytterligare utmaningar med planering och dimensionering av gymnasieutbildningar i Stockholms läns gymnasieregion.",
+   "oppen_kod": "svårare dimensionering av gymnasieplatser",
+   "beskrivning": "Skillnad mellan preliminära och slutliga betyg försvårar dimensionering av gymnasieutbildningar."
+  },
+  {
+   "uid": "U058",
+   "id": "stockholms-kommun#27",
+   "citat": "kommer att finnas behov av tillgängliga studie- och yrkesvägledare under sommartid som kan stödja och vägleda de elever som inte kommer in på sökta gymnasieutbildningar.",
+   "oppen_kod": "behov av SYV sommartid",
+   "beskrivning": "Huvudmannen behöver ha studie- och yrkesvägledare tillgängliga under sommaren."
+  },
+  {
+   "uid": "U059",
+   "id": "stockholms-kommun#27",
+   "citat": "Om huvudmannen enbart får återkoppling på skol- och ämnesnivå, och inte på individnivå, som utredningen tycks föreslå, begränsas möjligheten till uppföljning och förbättring av betygspraxis på ett olyckligt och onödigt sätt.",
+   "oppen_kod": "begränsad återkoppling till huvudman",
+   "beskrivning": "Huvudmannens uppföljning av betygspraxis begränsas om återkopplingen inte sker på individnivå."
+  },
+  {
+   "uid": "U060",
+   "id": "stockholms-kommun#29",
+   "citat": "Förvaltningen menar att det i god tid inför införandet finns behov för skolorna att få tillgång till stödmaterial och diagnostiska prov för lärarnas bedömningsråd att använda och bedöma elevernas kunskaper med utifrån den nya betygsskalan och de nya betygskriterierna.",
+   "oppen_kod": "behov av stödmaterial i god tid",
+   "beskrivning": "Skolorna behöver stödmaterial och diagnostiska prov i god tid före införandet."
+  },
+  {
+   "uid": "U061",
+   "id": "stockholms-kommun#30",
+   "citat": "Förvaltningen noterar att förslaget att ta bort programinriktat val inte överensstämmer med utredningen ”Fler vägar till arbetslivet (SOU 2024:74)”.",
+   "oppen_kod": "osynkade reformförslag",
+   "beskrivning": "Förslaget om introduktionsprogram krockar med en annan utrednings förslag."
+  },
+  {
+   "uid": "U062",
+   "id": "stockholms-kommun#32",
+   "citat": "Detta innebär att en skolas bedömningssamråd måste ges tid och förutsättningar, inte enbart i samband med betygssättning.",
+   "oppen_kod": "tid för bedömningssamråd",
+   "beskrivning": "Bedömningssamråd kräver löpande tid och förutsättningar i organisationen."
+  },
+  {
+   "uid": "U063",
+   "id": "stockholms-kommun#32",
+   "citat": "Förvaltningen ser att det kan bli utmanande att genomföra bedömningssamråd för små skolor där få lärare undervisar i samma ämne.",
+   "oppen_kod": "bedömningssamråd på små skolor",
+   "beskrivning": "Små skolor med få lärare per ämne har svårt att genomföra bedömningssamråd."
+  },
+  {
+   "uid": "U064",
+   "id": "stockholms-kommun#33",
+   "citat": "Detta kräver bemanning och rätt kompetens, vilket kan bli utmanande för mindre kommuner och skolor utan lämpliga lokaler.",
+   "oppen_kod": "provvakter och lokaler för slutprov",
+   "beskrivning": "Rättssäkert provgenomförande kräver bemanning och lokaler som mindre kommuner kan sakna."
+  },
+  {
+   "uid": "U065",
+   "id": "almega-utbildning#3",
+   "citat": "Förslag om nationella prov och nationella slutprov, med viss oro för komplexiteten vid genomförandet",
+   "oppen_kod": "komplext provgenomförande",
+   "beskrivning": "Genomförandet av nationella slutprov bedöms som komplext."
+  },
+  {
+   "uid": "U066",
+   "id": "almega-utbildning#3",
+   "citat": "Förbundet ställer sig dock tvekande till om tidsplanen är tillräcklig.",
+   "oppen_kod": "kort tid för införande",
+   "beskrivning": "Tidsplanen bedöms möjligen inte räcka för införandet."
+  },
+  {
+   "uid": "U067",
+   "id": "almega-utbildning#6",
+   "citat": "Men vi kan se att både det nya betygssystemet med en numerisk och utökad betygsskala och själva meritvärdeskalibreringsmodellen är komplext och initialt svårt att tillämpa. Det kräver tydliga och genomarbetade stödmaterial och tid för lärare och skolledare att ta till sig den nya reformen.",
+   "oppen_kod": "komplext system att tillämpa",
+   "beskrivning": "Systemet är svårt att tillämpa och kräver stödmaterial och tid för personalen."
+  },
+  {
+   "uid": "U068",
+   "id": "almega-utbildning#6",
+   "citat": "Det finns en risk för att det nya systemet kommer att innebära en ökad arbetsbörda och administration som kan bli svår att hantera.",
+   "oppen_kod": "ökad arbetsbörda och administration",
+   "beskrivning": "Det nya systemet riskerar att ge en ohanterlig arbetsbörda och administration."
+  },
+  {
+   "uid": "U069",
+   "id": "almega-utbildning#6",
+   "citat": "När slutproven skett ska dessa rättas centralt av Skolverket och till det krävs legitimerade lärare. Kommer det att finnas tillräckligt många lärare som vill bidra och rätta proven?",
+   "oppen_kod": "brist på lärare för central rättning",
+   "beskrivning": "Det är osäkert om det finns tillräckligt med legitimerade lärare för att rätta slutproven."
+  },
+  {
+   "uid": "U070",
+   "id": "almega-utbildning#6",
+   "citat": "Det är möjligt att det på ett enkelt sätt går att hantera genom digitala verktyg, men det handlar om ett stort antal tekniska frågor, exempelvis om system ”som pratar med varandra” och krav på digitala standarder som gör att genomförandet kompliceras.",
+   "oppen_kod": "IT-system och digitala standarder",
+   "beskrivning": "Inrapportering och kalibrering kräver samverkande IT-system och standarder."
+  },
+  {
+   "uid": "U071",
+   "id": "almega-utbildning#6",
+   "citat": "Förbundet vill därför betona vikten av en förlängd tidplan för införandet och omfattande informationsinsatser för att säkerställa att alla berörda parter är väl förberedda på de förändringar som föreslås.",
+   "oppen_kod": "kort tid för införande",
+   "beskrivning": "Tidplanen behöver förlängas för att verksamheterna ska hinna förbereda sig."
+  },
+  {
+   "uid": "U072",
+   "id": "almega-utbildning#6",
+   "citat": "Till det kommer att det innebär ett extra pedagogiskt krav på lärarna att verkligen förklara för elever och vårdnadshavare varför både elevens betyg och provresultat ändå kan kalibreras nedåt till ett lägre resultat på det slutliga meritvärdet, då det riskerar upplevas som orättvist, om än matematiskt korrekt.",
+   "oppen_kod": "förklara kalibrering för elever",
+   "beskrivning": "Lärarna får ett extra krav att förklara nedkalibrerade meritvärden för elever och vårdnadshavare."
+  },
+  {
+   "uid": "U073",
+   "id": "almega-utbildning#6",
+   "citat": "När det gäller systemet med fasta slutprov osv på den kommunala vuxenutbildningen (komvux) vill vi påtala att förslagen inte stämmer med det flexibla upplägg komvux:s läroplan Lvux12 föreskriver.",
+   "oppen_kod": "fasta slutprov passar inte komvux",
+   "beskrivning": "Fasta slutprov är oförenliga med komvux flexibla organisering."
+  },
+  {
+   "uid": "U074",
+   "id": "almega-utbildning#7",
+   "citat": "En mer fingradig skala kommer troligen att ställa ännu högre krav än idag på skolornas arbete med sambedömning och likvärdighet.",
+   "oppen_kod": "ökade krav på sambedömning",
+   "beskrivning": "En fingradigare skala ställer högre krav på skolornas sambedömningsarbete."
+  },
+  {
+   "uid": "U075",
+   "id": "almega-utbildning#7",
+   "citat": "Det kommer också att ställas högre krav på lärarna att förklara för elever och föräldrar skillnaderna i bedömning mellan de olika betygsstegen och vad som krävs för att eleven ska kunna höja sitt betyg.",
+   "oppen_kod": "förklara fler betygssteg",
+   "beskrivning": "Lärare måste förklara skillnaderna mellan fler betygssteg för elever och föräldrar."
+  },
+  {
+   "uid": "U076",
+   "id": "almega-utbildning#9",
+   "citat": "Det kan bli svårt för lärare och skola att förklara resultaten och det finns risk att elevernas motivation minskar.",
+   "oppen_kod": "förklara kalibrering för elever",
+   "beskrivning": "Skolan får svårt att förklara kalibrerade resultat som upplevs orättvisa."
+  },
+  {
+   "uid": "U077",
+   "id": "almega-utbildning#12",
+   "citat": "Många av förbundets medlemmar utgörs av små skolenheter, drygt 90 procent av medlemmarna har bara en eller två enheter. Många av dessa har färre än 100 elever på grundskolan. Risken för ytterligare problem med kalibreringen och upplevda orättvisor kan uppstå just när färre elever ska få sina betygsvärden kalibrerade efter skolans genomsnitt.",
+   "oppen_kod": "kalibrering på små skolor",
+   "beskrivning": "Små skolenheter riskerar missvisande kalibrering och upplevda orättvisor."
+  },
+  {
+   "uid": "U078",
+   "id": "almega-utbildning#13",
+   "citat": "Det innebär att enbart låta slutprov under vissa begränsade tillfällen utgöra möjlighet för eleverna att få sitt meritvärde inte passar utbildningens natur och läroplanens syfte med verksamheten.",
+   "oppen_kod": "fasta slutprov passar inte komvux",
+   "beskrivning": "Begränsade provtillfällen passar inte komvux löpande kursstarter."
+  },
+  {
+   "uid": "U079",
+   "id": "almega-utbildning#13",
+   "citat": "I så fall finns också risk att komvux inte på ett tillräckligt bra sätt uppfyller näringslivets kompetensbehov.",
+   "oppen_kod": "komvux kompetensförsörjningsuppdrag",
+   "beskrivning": "Komvux riskerar att inte kunna möta näringslivets kompetensbehov."
+  },
+  {
+   "uid": "U080",
+   "id": "almega-utbildning#15",
+   "citat": "Det kräver en mycket väl utbyggd digital teknik, men även resurser för rättning och administration kring kalibreringen. Av det skälet finner förbundet att tidsramen för genomförande är alldeles för snäv.",
+   "oppen_kod": "kort tid för införande",
+   "beskrivning": "Digital teknik och administration gör tidsramen för snäv."
+  },
+  {
+   "uid": "U081",
+   "id": "almega-utbildning#15",
+   "citat": "För att kunna genomföra slutprov (och även andra nationella prov) digitalt, krävs tekniska standarder så att systemen samverkar mellan deltagande skolor och skolmyndigheten som ska ta emot och rätta proven. Det är ett svårt uppdrag och har hittills inte fungerat.",
+   "oppen_kod": "IT-system och digitala standarder",
+   "beskrivning": "Digitala slutprov kräver samverkande system mellan skolor och myndighet, vilket hittills inte fungerat."
+  },
+  {
+   "uid": "U082",
+   "id": "almega-utbildning#15",
+   "citat": "Enligt finansieringsprincipen måste det också stå klart att de investeringar som skolhuvudmännen måste göra inför genomförandet måste finansieras fullt ut.",
+   "oppen_kod": "finansiering av huvudmannens investeringar",
+   "beskrivning": "Huvudmännen måste göra investeringar som behöver finansieras fullt ut."
+  },
+  {
+   "uid": "U083",
+   "id": "almega-utbildning#19",
+   "citat": "Men med omtanke om huvudmän, skolledare och lärare samt inte minst eleverna, bör nya reformer införas på ett sätt som gör det möjligt att ta till sig det nya och att arbetet i skolan inte blir övermäktigt genom just reformivern.",
+   "oppen_kod": "många parallella reformer",
+   "beskrivning": "Reformivern riskerar att göra arbetet i skolan övermäktigt."
+  },
+  {
+   "uid": "U084",
+   "id": "almega-utbildning#19",
+   "citat": "Här måste också beaktas alla de kostnader som uppstår för huvudmännen vid implementering av nya förslag, där ett bra genomförande också är beroende av finansieringen för det.",
+   "oppen_kod": "implementeringskostnader för huvudmän",
+   "beskrivning": "Implementeringen medför kostnader för huvudmännen som måste finansieras."
+  },
+  {
+   "uid": "U085",
+   "id": "almega-utbildning#19",
+   "citat": "Även om det tas fram stödmaterial för det nya betygssystemet och ny betygssättning, ska det också sättas i relation till alla andra stödmaterial för skolledares och lärares arbete som måste implementeras",
+   "oppen_kod": "många parallella reformer",
+   "beskrivning": "Stödmaterialet konkurrerar med många andra reformers material som ska implementeras."
+  },
+  {
+   "uid": "U086",
+   "id": "almega-utbildning#19",
+   "citat": "Tiden för genomförandet av en ny betygsreform måste därför få ta tid och förbundet ställer sig därför tveksamt till om den föreslagna tidsplanen är möjlig att hålla.",
+   "oppen_kod": "kort tid för införande",
+   "beskrivning": "Den föreslagna tidsplanen bedöms svår att hålla."
+  },
+  {
+   "uid": "U087",
+   "id": "kristianstads-kommun#7",
+   "citat": "Modellen för meritvärdeskalibrering är svår och komplex att förstå. Det riskerar att transparensen blir sämre och svårigheter med att förklara, förstå och motivera modellen för lärare, vårdnadshavare och elever.",
+   "oppen_kod": "komplex modell att kommunicera",
+   "beskrivning": "Kalibreringsmodellen är svår att förklara och motivera för lärare, vårdnadshavare och elever."
+  },
+  {
+   "uid": "U088",
+   "id": "kristianstads-kommun#8",
+   "citat": "Det kan medföra känsla av ovisshet och oro för elever samt svårigheter för huvudmän att dimensionera antal utbildningsplatser.",
+   "oppen_kod": "svårare dimensionering av gymnasieplatser",
+   "beskrivning": "Senare och osäkrare antagning försvårar dimensionering av utbildningsplatser."
+  },
+  {
+   "uid": "U089",
+   "id": "kristianstads-kommun#9",
+   "citat": "Tidsaspekten för införande ses som optimistisk då de föreslagna förändringarna är omfattande. Det behövs tid för implementering och stöd.",
+   "oppen_kod": "kort tid för införande",
+   "beskrivning": "Tidplanen är optimistisk för så omfattande förändringar."
+  },
+  {
+   "uid": "U090",
+   "id": "kristianstads-kommun#9",
+   "citat": "Det är flera delar som ska vara på plats tillsammans med andra förslag/utredningar som hänger samman och påverkar varandra.",
+   "oppen_kod": "många parallella reformer",
+   "beskrivning": "Flera sammanhängande reformer ska införas samtidigt."
+  },
+  {
+   "uid": "U091",
+   "id": "kristianstads-kommun#10",
+   "citat": "Det är oklart vilket stöd för implementering som kommer att finnas.",
+   "oppen_kod": "oklart implementeringsstöd",
+   "beskrivning": "Huvudmannen vet inte vilket implementeringsstöd som kommer att finnas."
+  },
+  {
+   "uid": "U092",
+   "id": "kristianstads-kommun#12",
+   "citat": "Det är oklart hur detta ska appliceras och stödja likvärdig betygssättning i årskurser och ämnen där nationella slutprov inte förekommer.",
+   "oppen_kod": "oklart stöd i ämnen utan slutprov",
+   "beskrivning": "Det är oklart hur betygssättning stöds i ämnen och årskurser utan slutprov."
+  },
+  {
+   "uid": "U093",
+   "id": "kristianstads-kommun#12",
+   "citat": "Kravet på bedömningssamråd gäller enbart om det finns flera lärare i ämnet, vilket kan innebära skillnader mellan stora och mindre enheter gällande likvärdig bedömning.",
+   "oppen_kod": "bedömningssamråd på små skolor",
+   "beskrivning": "Mindre enheter med en lärare per ämne kan inte genomföra bedömningssamråd på samma sätt."
+  },
+  {
+   "uid": "U094",
+   "id": "kristianstads-kommun#12",
+   "citat": "Det är oklart hur det säkerställs att bedömningssamråden sker med god kvalitet",
+   "oppen_kod": "oklar kvalitet i bedömningssamråd",
+   "beskrivning": "Det är oklart hur kvaliteten i bedömningssamråden ska säkras."
+  },
+  {
+   "uid": "U095",
+   "id": "kristianstads-kommun#12",
+   "citat": "En farhåga är dock att lärare ser större behov av ytterligare underlag när nationella",
+   "oppen_kod": "ökad arbetsbörda för lärare",
+   "beskrivning": "Lärare kan behöva fler egna underlag, vilket inte minskar arbetsbördan."
+  },
+  {
+   "uid": "U096",
+   "id": "kristianstads-kommun#14",
+   "citat": "Minskad finansiering till kommuner föreslås. Det är oklart på vilka grunder det görs i relation till de kostnader som kommunerna kommer att bära, särskilt i övergång till nytt system.",
+   "oppen_kod": "minskad statlig finansiering",
+   "beskrivning": "Kommunernas finansiering föreslås minska trots kostnader vid övergången."
+  },
+  {
+   "uid": "U097",
+   "id": "kristianstads-kommun#14",
+   "citat": "Det kommer att medföra justeringar i system för antagning till gymnasiet. Det är oklart hur detta sker och var kostnaderna för detta hamnar.",
+   "oppen_kod": "kostnad för antagningssystem",
+   "beskrivning": "Gymnasieantagningens system måste justeras med oklar kostnadsfördelning."
+  },
+  {
+   "uid": "U098",
+   "id": "kristianstads-kommun#15",
+   "citat": "Dock kan det också finnas en risk för att det upplevs svårare och mer komplext med fler betygssteg eftersom det blir fler nivåer att förhålla sig till för lärare, elever och vårdnadshavare. Därför poängterar Kristianstads kommun vikten av implementering och information.",
+   "oppen_kod": "förklara fler betygssteg",
+   "beskrivning": "Fler betygssteg kräver implementerings- och informationsinsatser."
+  },
+  {
+   "uid": "U099",
+   "id": "kristianstads-kommun#18",
+   "citat": "Stöd för bedömning genom exempelvis kommentarmaterial och bedömningsstöd är nödvändigt vid införandet av nya betygskriterier.",
+   "oppen_kod": "behov av bedömningsstöd",
+   "beskrivning": "Skolorna behöver bedömningsstöd vid införandet av nya betygskriterier."
+  },
+  {
+   "uid": "U100",
+   "id": "kristianstads-kommun#20",
+   "citat": "Dock är modellen komplex och svår att förstå och förklara, vilket kommer kräva stora insatser.",
+   "oppen_kod": "komplex modell att kommunicera",
+   "beskrivning": "Att förklara kalibreringsmodellen kräver stora insatser."
+  },
+  {
+   "uid": "U101",
+   "id": "kristianstads-kommun#20",
+   "citat": "Funderingar kring vilken skola är bäst att gå på för att inte mitt meritvärde ska kalibreras ner kommer att väckas och behöva mötas",
+   "oppen_kod": "skolvalsfrågor att bemöta",
+   "beskrivning": "Skolorna måste bemöta elevers oro för att skolvalet påverkar kalibreringen."
+  },
+  {
+   "uid": "U102",
+   "id": "kristianstads-kommun#21",
+   "citat": "På vilket sätt huvudmannen kan organisera hur mindre enheter ändå kan ingå i kalibrering kommer att påverka resultat.",
+   "oppen_kod": "kalibrering på små skolor",
+   "beskrivning": "Huvudmannen måste organisera hur små enheter ska ingå i kalibreringen."
+  },
+  {
+   "uid": "U103",
+   "id": "kristianstads-kommun#23",
+   "citat": "Risk för att det är få elever inom en programenhet, vilket genererar att kalibrering och sammanräkning beräknas 50% betygsvärde och 50% nationella slutprovsresultat. Vilka konsekvenser kan det få?",
+   "oppen_kod": "kalibrering på små program",
+   "beskrivning": "Oklart vad det får för konsekvenser när program har för få elever för kalibrering."
+  },
+  {
+   "uid": "U104",
+   "id": "kristianstads-kommun#24",
+   "citat": "Det kan leda till lågt antal resultat som ligger till grund för det genomsnittliga provresultatet, vilket behöver beaktas.",
+   "oppen_kod": "få provresultat på yrkesprogram",
+   "beskrivning": "Få provskrivande elever på yrkesprogram ger ett svagt underlag för kalibrering."
+  },
+  {
+   "uid": "U105",
+   "id": "kristianstads-kommun#25",
+   "citat": "Strategier för att möta detta behövs då efterfrågan på kunskaper inom dessa områden fortfarande efterfrågas exempelvis genom den nationella STEMstrategin.",
+   "oppen_kod": "minskat intresse för språk och fördjupning",
+   "beskrivning": "Skolorna behöver strategier när meritpoäng för språk och fördjupning försvinner."
+  },
+  {
+   "uid": "U106",
+   "id": "kristianstads-kommun#28",
+   "citat": "Samma provtillfällen för komvux som för gymnasiet. Det passar inte den flexibilitet som komvux erbjuder idag.",
+   "oppen_kod": "fasta slutprov passar inte komvux",
+   "beskrivning": "Gemensamma provtillfällen passar inte komvux flexibilitet."
+  },
+  {
+   "uid": "U107",
+   "id": "kristianstads-kommun#29",
+   "citat": "Hur detta ska organiseras inom ramen för exempelvis grundskola är inte tydligt framskrivet och kan medföra en kostnad för huvudman.",
+   "oppen_kod": "organisering och kostnad för omprov",
+   "beskrivning": "Organisering av nya och omgjorda slutprov är oklar och kan kosta huvudmannen."
+  },
+  {
+   "uid": "U108",
+   "id": "kristianstads-kommun#29",
+   "citat": "Enligt utredningen kan huvudmannen ta ut en avgift, varav en del dock tillfaller Skolverket. Det är oklart hur denna reglering ska ske.",
+   "oppen_kod": "oklar avgiftsreglering",
+   "beskrivning": "Det är oklart hur avgifter för omprov ska regleras mellan huvudman och Skolverket."
+  },
+  {
+   "uid": "U109",
+   "id": "kristianstads-kommun#30",
+   "citat": "Om introduktionsprogrammet programinriktat val tas bort är det viktigt att säkerställa att även elever som antas där idag har alternativ.",
+   "oppen_kod": "borttaget programinriktat val",
+   "beskrivning": "Huvudmannen måste säkra alternativ för elever när programinriktat val tas bort."
+  },
+  {
+   "uid": "U110",
+   "id": "kristianstads-kommun#33",
+   "citat": "Samtidigt kan det vara problematiskt exempelvis för mindre enheter eller i ämnen med enstaka undervisande lärare.",
+   "oppen_kod": "bedömningssamråd på små skolor",
+   "beskrivning": "Bedömningssamråd är svåra att genomföra på små enheter med enstaka lärare."
+  },
+  {
+   "uid": "U111",
+   "id": "kristianstads-kommun#33",
+   "citat": "Det finns också risk att bedömningssamråd kan uppfattas som en utökad arbetsmängd.",
+   "oppen_kod": "bedömningssamråd ökar arbetsbördan",
+   "beskrivning": "Bedömningssamråd riskerar att upplevas som ökad arbetsmängd."
+  },
+  {
+   "uid": "U112",
+   "id": "kristianstads-kommun#38",
+   "citat": "Oklart om det behövs en ny provplattform samt hur risk med prov som läcker och sprids undviks.",
+   "oppen_kod": "oklart behov av provplattform",
+   "beskrivning": "Det är oklart om ny provplattform behövs och hur provläckor förhindras."
+  },
+  {
+   "uid": "U113",
+   "id": "kristianstads-kommun#39",
+   "citat": "Att ansöka till Skolverket om elev ska undantas från att skriva prov riskerar att bli en lång process.",
+   "oppen_kod": "lång process för undantag",
+   "beskrivning": "Ansökan om undantag hos Skolverket riskerar att bli en lång process."
+  },
+  {
+   "uid": "U114",
+   "id": "kristianstads-kommun#39",
+   "citat": "Ökad arbetsbörda när anpassningar ska dokumenteras.",
+   "oppen_kod": "dokumentation av anpassningar",
+   "beskrivning": "Krav på dokumentation av anpassningar ökar arbetsbördan."
+  },
+  {
+   "uid": "U115",
+   "id": "kristianstads-kommun#43",
+   "citat": "Hur det scenariot kan påverkas av vilka möjligheter en skola har att tillmötesgå detta samt hur det eventuellt påverkar efterfrågan av vissa lärares ämneskunskaper och inriktningar.",
+   "oppen_kod": "ändrat behov av lärarkompetens",
+   "beskrivning": "Ökad efterfrågan på provämnen kan påverka skolans möjligheter och lärarbehov."
+  },
+  {
+   "uid": "U116",
+   "id": "motala-kommun#4",
+   "citat": "Det väcker frågor om hur rättvisa och jämförbarhet ska säkerställas på exempelvis små gymnasieprogram.",
+   "oppen_kod": "kalibrering på små program",
+   "beskrivning": "Det är oklart hur kalibrering ska fungera rättvist på små gymnasieprogram."
+  },
+  {
+   "uid": "U117",
+   "id": "motala-kommun#4",
+   "citat": "Komvux kompensatoriska roll riskerar därmed att försvagas, om inte riktade stödinsatser och tydliga anpassningar tillförsäkras.",
+   "oppen_kod": "försvagad kompensatorisk roll för komvux",
+   "beskrivning": "Komvux kompensatoriska uppdrag försvagas utan riktade stödinsatser."
+  },
+  {
+   "uid": "U118",
+   "id": "motala-kommun#4",
+   "citat": "Införandet av modellen kräver omfattande stöd till skolor och huvudmän – särskilt avseende analysarbete, bedömningssamråd samt kommunikationen med elever och vårdnadshavare.",
+   "oppen_kod": "behov av omfattande implementeringsstöd",
+   "beskrivning": "Huvudmännen behöver omfattande stöd för analys, bedömningssamråd och kommunikation."
+  },
+  {
+   "uid": "U119",
+   "id": "motala-kommun#5",
+   "citat": "Reformen bör dessutom samordnas med andra pågående förändringar inom skolområdet.",
+   "oppen_kod": "många parallella reformer",
+   "beskrivning": "Reformen måste samordnas med andra pågående förändringar."
+  },
+  {
+   "uid": "U120",
+   "id": "motala-kommun#5",
+   "citat": "Informations- och stödmaterial måste vara tillgängligt i god tid för att säkerställa ett välfungerande lokalt genomförande.",
+   "oppen_kod": "behov av stödmaterial i god tid",
+   "beskrivning": "Lokalt genomförande kräver informations- och stödmaterial i god tid."
+  },
+  {
+   "uid": "U121",
+   "id": "motala-kommun#6",
+   "citat": "För att modellen ska kunna fungera i praktiken krävs att skolor och huvudmän har tillgång till ändamålsenliga analysverktyg och pedagogiskt stödmaterial.",
+   "oppen_kod": "behov av analysverktyg",
+   "beskrivning": "Huvudmännen behöver analysverktyg och stödmaterial för att modellen ska fungera."
+  },
+  {
+   "uid": "U122",
+   "id": "motala-kommun#6",
+   "citat": "Den statistiska logik som ligger till grund för kalibreringen – med begrepp som normering, standardavvikelse och rangjustering – är komplex och måste kunna förklaras på ett begripligt sätt, inte minst för elever och vårdnadshavare.",
+   "oppen_kod": "komplex modell att kommunicera",
+   "beskrivning": "Kalibreringens statistiska logik är komplex att förklara."
+  },
+  {
+   "uid": "U123",
+   "id": "motala-kommun#6",
+   "citat": "För att denna förändring ska uppfattas som legitim krävs full transparens i beräkningsprinciper, tillgång till lokal resultatdata och en tydlig rollfördelning mellan stat och huvudman.",
+   "oppen_kod": "oklar rollfördelning stat–huvudman",
+   "beskrivning": "Huvudmannen behöver tillgång till lokal data och tydlig rollfördelning gentemot staten."
+  },
+  {
+   "uid": "U124",
+   "id": "motala-kommun#8",
+   "citat": "En mer finfördelad skala ställer dock ökade krav på samsyn inom och mellan skolor.",
+   "oppen_kod": "ökade krav på sambedömning",
+   "beskrivning": "En finfördelad skala kräver ökad samsyn inom och mellan skolor."
+  },
+  {
+   "uid": "U125",
+   "id": "motala-kommun#9",
+   "citat": "För mindre skolor eller verksamheter med splittrade tjänstefördelningar kan det vara svårt att skapa förutsättningar för regelbundna och kvalitativa samråd.",
+   "oppen_kod": "bedömningssamråd på små skolor",
+   "beskrivning": "Små skolor och splittrade tjänster försvårar regelbundna bedömningssamråd."
+  },
+  {
+   "uid": "U126",
+   "id": "motala-kommun#9",
+   "citat": "Det finns en risk att samråden uppfattas som ytterligare ett administrativt krav, snarare än som ett stöd i det pedagogiska arbetet.",
+   "oppen_kod": "bedömningssamråd ökar arbetsbördan",
+   "beskrivning": "Bedömningssamråd riskerar att bli ytterligare ett administrativt krav."
+  },
+  {
+   "uid": "U127",
+   "id": "motala-kommun#9",
+   "citat": "För att kravet på samråd ska få genomslag i praktiken måste det även finnas ett tydligt ansvar på huvudmannanivå att möjliggöra detta i skolornas planering och organisering.",
+   "oppen_kod": "huvudmannaansvar för samråd",
+   "beskrivning": "Huvudmannen måste möjliggöra samråd i skolornas planering och organisering."
+  },
+  {
+   "uid": "U128",
+   "id": "motala-kommun#12",
+   "citat": "För att huvudmän och skolor ska kunna genomföra reformen på ett rättssäkert och pedagogiskt välgrundat sätt krävs att styrdokument, stödmaterial och digitala verktyg görs tillgängliga i god tid före ikraftträdande. Detta är särskilt viktigt mot bakgrund av att flera andra större reformer genomförs parallellt.",
+   "oppen_kod": "behov av stödmaterial i god tid",
+   "beskrivning": "Huvudmännen behöver styrdokument, stöd och digitala verktyg i god tid när flera reformer pågår."
+  },
+  {
+   "uid": "U129",
+   "id": "motala-kommun#12",
+   "citat": "Det gäller inte minst mindre skolor, vuxenutbildningen samt verksamheter med begränsad administrativ eller analytisk kapacitet.",
+   "oppen_kod": "begränsad kapacitet hos små huvudmän",
+   "beskrivning": "Små skolor och verksamheter med begränsad administrativ kapacitet behöver anpassat stöd."
+  },
+  {
+   "uid": "U130",
+   "id": "motala-kommun#13",
+   "citat": "Flera av dessa har direkt påverkan på kommunens möjlighet att planera, genomföra och följa upp utbildning i olika skolformer.",
+   "oppen_kod": "försvårad planering och uppföljning",
+   "beskrivning": "Reformens konsekvenser påverkar kommunens planering och uppföljning av utbildning."
+  },
+  {
+   "uid": "U131",
+   "id": "motala-kommun#14",
+   "citat": "För att systemet ska uppfattas som legitimt och förutsägbart i hela landet anser Motala kommun att staten bör utveckla riktlinjer för hur kalibreringen bör hanteras i sådana sammanhang.",
+   "oppen_kod": "kalibrering på små program",
+   "beskrivning": "Riktlinjer saknas för kalibrering i verksamheter med små elevgrupper."
+  },
+  {
+   "uid": "U132",
+   "id": "motala-kommun#14",
+   "citat": "Motala kommun vill understryka behovet av riktade stödinsatser till vuxenutbildningen, särskilt vad gäller provförberedelser, kommunikation om systemets logik och möjligheter till alternativa prövningsformer inom ramen för regelverket.",
+   "oppen_kod": "stödbehov i komvux",
+   "beskrivning": "Vuxenutbildningen behöver riktat stöd för provförberedelser och kommunikation."
+  },
+  {
+   "uid": "U133",
+   "id": "skovde-kommun#3",
+   "citat": "Vi ser möjligheter med nationella slutprov för likvärdighet men varnar för olikheter mellan gymnasie- och Komvuxstrukturer.",
+   "oppen_kod": "fasta slutprov passar inte komvux",
+   "beskrivning": "Slutprovsmodellen passar inte komvux struktur."
+  },
+  {
+   "uid": "U134",
+   "id": "skovde-kommun#4",
+   "citat": "Vi ser stora risker med att nationella slutprov i Komvux ska genomföras på samma sätt och samma tider som i gymnasieskolan eftersom det är två olika skolformer med helt olika struktur.",
+   "oppen_kod": "fasta slutprov passar inte komvux",
+   "beskrivning": "Samma provtider som gymnasiet passar inte komvux helårsverksamhet."
+  },
+  {
+   "uid": "U135",
+   "id": "skovde-kommun#4",
+   "citat": "En alltför kort implementeringsperiod riskerar att skapa osäkerhet och försvåra för skolor och lärare att anpassa sina arbetsformer på ett hållbart sätt. Därför är det viktigt att ge tillräckligt med tid för kompetensutveckling och för att systemen ska kunna integreras på ett kvalitativt sätt.",
+   "oppen_kod": "kort tid för införande",
+   "beskrivning": "En kort implementeringsperiod försvårar anpassning och kompetensutveckling."
+  },
+  {
+   "uid": "U136",
+   "id": "skovde-kommun#5",
+   "citat": "Komvux, som ofta omfattar vuxenstuderande med varierande bakgrund och erfarenheter, möter unika utmaningar när det gäller att tillämpa ett standardiserat system.",
+   "oppen_kod": "standardiserat system passar inte komvux",
+   "beskrivning": "Komvux har svårt att tillämpa ett standardiserat betygssystem."
+  },
+  {
+   "uid": "U137",
+   "id": "skovde-kommun#6",
+   "citat": "Eftersom vuxenstuderande ofta startar och avslutar sina kurser kontinuerligt under hela året, skapas en mängd praktiska och pedagogiska hinder när slutprov ska genomföras enligt fasta tider.",
+   "oppen_kod": "fasta slutprov passar inte komvux",
+   "beskrivning": "Fasta provtider skapar praktiska hinder för komvux löpande kurser."
+  },
+  {
+   "uid": "U138",
+   "id": "falu-kommun#3",
+   "citat": "För att uppnå detta krävs dock en anpassad tidsplan, samordning av pågående reformer och ett starkt fokus på elevens perspektiv.",
+   "oppen_kod": "kort tid för införande",
+   "beskrivning": "Reformen kräver anpassad tidsplan och samordning med andra reformer."
+  },
+  {
+   "uid": "U139",
+   "id": "falu-kommun#4",
+   "citat": "Falu kommun anser att den föreslagna tidsplanen är alltför snäv i förhållande till reformens omfattning och komplexitet.",
+   "oppen_kod": "kort tid för införande",
+   "beskrivning": "Tidsplanen är för snäv för reformens omfattning."
+  },
+  {
+   "uid": "U140",
+   "id": "falu-kommun#4",
+   "citat": "De föreslagna förändringarna förutsätter såväl organisatorisk anpassning som omfattande fortbildning av personal.",
+   "oppen_kod": "behov av fortbildning och omorganisation",
+   "beskrivning": "Förändringarna kräver organisatorisk anpassning och omfattande fortbildning."
+  },
+  {
+   "uid": "U141",
+   "id": "falu-kommun#5",
+   "citat": "Det pågår för närvarande flera parallella skolutredningar utan tydlig samordning.",
+   "oppen_kod": "många parallella reformer",
+   "beskrivning": "Flera parallella reformer saknar samordning."
+  },
+  {
+   "uid": "U142",
+   "id": "falu-kommun#10",
+   "citat": "Den föreslagna modellen för betygssättning är komplex och är både svår att förstå och förklara. Det är därför nödvändigt med en kommunikationsstrategi som förklarar kalibreringsmodell och hur provresultat vägs in i slutbetyget.",
+   "oppen_kod": "komplex modell att kommunicera",
+   "beskrivning": "Modellen är svår att förklara och kräver en kommunikationsstrategi."
+  },
+  {
+   "uid": "U143",
+   "id": "falu-kommun#11",
+   "citat": "Ett välfungerande implementeringsstöd – både pedagogiskt och tekniskt – är en förutsättning för att modellen ska fungera i praktiken.",
+   "oppen_kod": "behov av omfattande implementeringsstöd",
+   "beskrivning": "Modellen kräver pedagogiskt och tekniskt implementeringsstöd."
+  },
+  {
+   "uid": "U144",
+   "id": "falu-kommun#11",
+   "citat": "Under den övergångsperiod då två system är i bruk samtidigt krävs dessutom förstärkt resurstilldelning till skolorna.",
+   "oppen_kod": "parallella betygssystem kräver resurser",
+   "beskrivning": "Två samtidiga system under övergången kräver förstärkta resurser."
+  },
+  {
+   "uid": "U145",
+   "id": "falu-kommun#20",
+   "citat": "Uppdraget för kommunal vuxenutbildning (Komvux) i relation till det nya betygssystemet.",
+   "oppen_kod": "oklart komvuxuppdrag",
+   "beskrivning": "Komvux uppdrag i relation till det nya systemet är oklart."
+  },
+  {
+   "uid": "U146",
+   "id": "falu-kommun#21",
+   "citat": "Lagstiftning och förtydligande av uppdraget för introduktionsprogrammen.",
+   "oppen_kod": "oklart uppdrag för introduktionsprogram",
+   "beskrivning": "Lagstiftning och uppdrag för introduktionsprogrammen behöver förtydligas."
+  },
+  {
+   "uid": "U147",
+   "id": "malmo-kommun#4",
+   "citat": "Vidare ser Malmö stad flera utmaningar med förslagen som omfattar komvux, bland annat att enbart nationella slutprov ska användas för urval till högskolan.",
+   "oppen_kod": "slutprovsmodell i komvux",
+   "beskrivning": "Förslagen för komvux medför flera utmaningar."
+  },
+  {
+   "uid": "U148",
+   "id": "malmo-kommun#4",
+   "citat": "Malmö stad bedömer även att tidsplanen för införande av reformen är snäv och att införandet bör senareläggas.",
+   "oppen_kod": "kort tid för införande",
+   "beskrivning": "Tidsplanen är snäv och införandet bör skjutas upp."
+  },
+  {
+   "uid": "U149",
+   "id": "malmo-kommun#6",
+   "citat": "Malmö stad anser därtill att det finns en risk för att det nya systemet kommer medföra att det tar längre tid för att få fram elevernas meritvärde vilket kan leda till att antagningen till gymnasieskolan förskjuts så att antagningen inte blir klar till den 1 juli.",
+   "oppen_kod": "försenad gymnasieantagning",
+   "beskrivning": "Senare meritvärden riskerar att försena gymnasieantagningen."
+  },
+  {
+   "uid": "U150",
+   "id": "malmo-kommun#6",
+   "citat": "Malmö stad bedömer också att modellen kan komma att innebära en utmaning att förklara för elever, vårdnadshavare och personal.",
+   "oppen_kod": "komplex modell att kommunicera",
+   "beskrivning": "Modellen är svår att förklara för elever, vårdnadshavare och personal."
+  },
+  {
+   "uid": "U151",
+   "id": "malmo-kommun#7",
+   "citat": "Det kan också medföra att det skapas förväntningar på huvudmannen att organisera undervisning inför slutproven.",
+   "oppen_kod": "förväntan på provförberedande undervisning",
+   "beskrivning": "Huvudmannen kan förväntas organisera undervisning inför slutproven i komvux."
+  },
+  {
+   "uid": "U152",
+   "id": "malmo-kommun#7",
+   "citat": "Det finns en tydlig risk för att elever i hög grad kommer att välja de kursstarter som ligger närmast i tid till ett av högskolans antagningstillfällen.",
+   "oppen_kod": "ojämn efterfrågan på kursstarter",
+   "beskrivning": "Elevtillströmningen kan koncentreras till vissa kursstarter, vilket påverkar komvux planering."
+  },
+  {
+   "uid": "U153",
+   "id": "malmo-kommun#10",
+   "citat": "För de icke obligatoriska skolformerna innebär utredningens förslag att tre betygssystem kommer tillämpas samtidigt - betyg enligt 2011 års läroplan, ämnesbetyg (Gy25/Komvux25) och betyg enligt det nya förslaget med tio steg under hösten 2027.",
+   "oppen_kod": "parallella betygssystem kräver resurser",
+   "beskrivning": "Tre betygssystem ska hanteras samtidigt i de frivilliga skolformerna."
+  },
+  {
+   "uid": "U154",
+   "id": "malmo-kommun#10",
+   "citat": "Malmö stad vill också framhålla att implementeringen av dessa förslag kräver tid och resurser hos huvudmännen för kompetensutveckling av personal, beslutsstöd och digitala studieadministrativa system som kan hantera de nya betygen.",
+   "oppen_kod": "IT-system och kompetensutveckling",
+   "beskrivning": "Huvudmännen behöver resurser för kompetensutveckling och nya studieadministrativa system."
+  },
+  {
+   "uid": "U155",
+   "id": "malmo-kommun#10",
+   "citat": "Malmö stad anser att det är viktigt att regeringen tar hänsyn till mottagarkapacitet, det vill säga att det krävs kapacitet för att bedriva skola samtidigt som nya förslag ska implementeras och förberedas för kommande förändringar.",
+   "oppen_kod": "begränsad mottagarkapacitet",
+   "beskrivning": "Huvudmannen har begränsad kapacitet att driva skola och samtidigt implementera reformer."
+  },
+  {
+   "uid": "U156",
+   "id": "malmo-kommun#10",
+   "citat": "Malmö stad föreslår att införande av förslagen senareläggs för att minska risken för fel i implementering och ge utrymme för huvudmännen att förbereda för förändringarna.",
+   "oppen_kod": "kort tid för införande",
+   "beskrivning": "Huvudmännen behöver mer tid att förbereda sig för att undvika implementeringsfel."
+  },
+  {
+   "uid": "U157",
+   "id": "malmo-kommun#11",
+   "citat": "Malmö stad anser att det är oklart hur yrkesprov för elever på yrkesprogram ska utformas och vad det innebär för antalet prov som elever på yrkesprogrammen ska skriva.",
+   "oppen_kod": "oklara yrkesprov",
+   "beskrivning": "Utformningen av yrkesprov och antalet prov på yrkesprogram är oklar."
+  },
+  {
+   "uid": "U158",
+   "id": "tingsryds-kommun#1",
+   "citat": "Förslagen innebär nya krav på digital hantering av betygsunderlag och kommunikation. Bildningsnämnden vill betona vikten av att dessa system utvecklas med hög användarvänlighet, dataintegritet och driftssäkerhet. En implementering utan fungerande teknik riskerar att försvåra snarare än stödja lärarnas arbete.",
+   "oppen_kod": "IT-system och digitala standarder",
+   "beskrivning": "Nya krav på digital hantering kräver robusta system, annars försvåras arbetet."
+  },
+  {
+   "uid": "U159",
+   "id": "tingsryds-kommun#1",
+   "citat": "Utredningens förslag innebär ett omfattande förändringsarbete för skolhuvudmän, både vad gäller kompetensutveckling, införande av nya rutiner och anpassning av befintliga IT-system.",
+   "oppen_kod": "omfattande förändringsarbete",
+   "beskrivning": "Huvudmannen måste genomföra kompetensutveckling, nya rutiner och IT-anpassning."
+  },
+  {
+   "uid": "U160",
+   "id": "tingsryds-kommun#1",
+   "citat": "Dessa är förenade med kostnader och kräver att staten säkerställer tillräcklig finansiering, särskilt för mindre kommuner med begränsad förvaltningskapacitet.",
+   "oppen_kod": "implementeringskostnader för huvudmän",
+   "beskrivning": "Förändringarna medför kostnader som särskilt mindre kommuner behöver finansiering för."
+  },
+  {
+   "uid": "U161",
+   "id": "tingsryds-kommun#1",
+   "citat": "En förändrad betygsskala riskerar att skapa oro eller missförstånd bland elever, vårdnadshavare och skolpersonal.",
+   "oppen_kod": "komplex modell att kommunicera",
+   "beskrivning": "Den nya skalan riskerar missförstånd och kräver tydlig kommunikation."
+  },
+  {
+   "uid": "U162",
+   "id": "tingsryds-kommun#1",
+   "citat": "Lärare behöver ges möjlighet att på djupet sätta sig in i hur den nya skalan fungerar. Risken för varierande tolkning är särskilt stor i en övergångsfas, vilket kan underminera syftet med reformen.",
+   "oppen_kod": "behov av fortbildning och omorganisation",
+   "beskrivning": "Lärare behöver tid och kompetensutveckling för att tolka den nya skalan."
+  },
+  {
+   "uid": "U163",
+   "id": "tingsryds-kommun#1",
+   "citat": "Införandet bör koordineras med andra pågående förändringar inom skolan.",
+   "oppen_kod": "många parallella reformer",
+   "beskrivning": "Införandet måste samordnas med andra pågående förändringar."
+  },
+  {
+   "uid": "U164",
+   "id": "harnosands-kommun#4",
+   "citat": "Med tanke på det försenade genomförandet av nationella prov i grundskolan vårterminen 2025, riskerar föreslagen tidsram vara alltför snäv.",
+   "oppen_kod": "kort tid för införande",
+   "beskrivning": "Tidsramen bedöms för snäv med tanke på tidigare provproblem."
+  },
+  {
+   "uid": "U165",
+   "id": "harnosands-kommun#4",
+   "citat": "Dock saknas beskrivning vari själva finansieringen består av.",
+   "oppen_kod": "oklar finansiering",
+   "beskrivning": "Det är oklart hur reformen ska finansieras."
+  },
+  {
+   "uid": "U166",
+   "id": "harnosands-kommun#9",
+   "citat": "I syfte att i högre grad träna eleverna i provsituationer måste lärarna ägna mer tid till att skapa och rätta dessa prov.",
+   "oppen_kod": "ökad arbetsbörda för lärare",
+   "beskrivning": "Lärarna måste lägga mer tid på att skapa och rätta övningsprov."
+  },
+  {
+   "uid": "U167",
+   "id": "harnosands-kommun#9",
+   "citat": "Det är en utmaning för små enheter som bara har en lärare i ett eller flera ämnen. För att möjliggöra dessa samråd kommer en mer omfattande organisation att krävas.",
+   "oppen_kod": "bedömningssamråd på små skolor",
+   "beskrivning": "Små enheter behöver en mer omfattande organisation för bedömningssamråd."
+  },
+  {
+   "uid": "U168",
+   "id": "ale-kommun#6",
+   "citat": "Ale kommun ser en risk med att beräkningsmodellen för meritvärdeskalibrering inte är lättbegriplig. Ale kommun ser därför ett behov av ett tydligt och lättbegripligt informationsmaterial som förser huvudman, skolledare, pedagogisk personal, vårdnadshavare och inte minst elever med klarhet om hur kalibreringsberäkningen fungerar.",
+   "oppen_kod": "svårbegriplig kalibreringsmodell",
+   "beskrivning": "Huvudmannen behöver informationsmaterial för att kunna förklara en svårbegriplig kalibreringsmodell."
+  },
+  {
+   "uid": "U169",
+   "id": "ale-kommun#6",
+   "citat": "Ale kommun ser en överhängande risk där genomströmningen och utbudet för kommuninvånare kommer att begränsas mot enbart de ämnen som behövs för behörighet till högre studier för en stor del av målgruppen.",
+   "oppen_kod": "begränsat komvuxutbud",
+   "beskrivning": "Komvux utbud riskerar att begränsas till ämnen med slutprov."
+  },
+  {
+   "uid": "U170",
+   "id": "ale-kommun#6",
+   "citat": "Ale kommun ser en risk med att lärares upplevelse av sin kompetens nedvärderas och attraktiviteten till yrket minskar.",
+   "oppen_kod": "minskad attraktivitet läraryrket",
+   "beskrivning": "Minskat lärarmandat kan försvåra lärarförsörjningen."
+  },
+  {
+   "uid": "U171",
+   "id": "ale-kommun#8",
+   "citat": "Ale kommun ser dock en svårighet i att förstå meritvärdesberäkning både för elever, vårdnadshavare, pedagoger och SYV samt att förtroendefullt förklara detta för elever och vårdnadshavare.",
+   "oppen_kod": "svårt förklara meritvärdesberäkning",
+   "beskrivning": "Personal och SYV får svårt att förstå och förklara meritvärdesberäkningen."
+  },
+  {
+   "uid": "U172",
+   "id": "ale-kommun#9",
+   "citat": "Vidare vill Ale kommun problematisera kring om en hög andel elever inte genomför det nationella provet eller skolenheter med få elever inom ett program och vad det innebär för resultatet i meritvärdeskalibreringens tillförlitlighet.",
+   "oppen_kod": "kalibrering vid få elever",
+   "beskrivning": "Små skolenheter och lågt provdeltagande gör kalibreringen osäker."
+  },
+  {
+   "uid": "U173",
+   "id": "ale-kommun#11",
+   "citat": "I ett inledningsskede kommer det att behövas stöd till lärare som sätter betyg så att intentionerna med det nya betygssystemet förstås fullt ut.",
+   "oppen_kod": "behov av stöd till lärare",
+   "beskrivning": "Lärare behöver stöd i inledningsskedet för att förstå det nya betygssystemet."
+  },
+  {
+   "uid": "U174",
+   "id": "ale-kommun#14",
+   "citat": "Dock finns det en oklarhet rörande detta när utredningen skriver att Statens skolverk kan bevilja undantag från de nationella proven (10.1).",
+   "oppen_kod": "oklara undantag från slutprov",
+   "beskrivning": "Det är oklart hur Skolverkets undantag från proven ska fungera."
+  },
+  {
+   "uid": "U175",
+   "id": "ale-kommun#16",
+   "citat": "Ale kommun ser behovet av ett förtydligande runt detta och hur regleringen kring ett sådant genomsnitt skall beräknas",
+   "oppen_kod": "oklar beräkning av genomsnitt",
+   "beskrivning": "Regleringen av genomsnittligt provresultat för elever som missat prov är oklar."
+  },
+  {
+   "uid": "U176",
+   "id": "ale-kommun#17",
+   "citat": "Ale kommun efterlyser en djupare genomgång och förslag på hur regelverket för dessa undantag ska göras.",
+   "oppen_kod": "oklart regelverk för undantag",
+   "beskrivning": "Regelverket för undantag för skolenheter är otydligt."
+  },
+  {
+   "uid": "U177",
+   "id": "ale-kommun#20",
+   "citat": "Ale kommun ser gärna att de föreskrifter som ska tas fram redovisas innan beslut om införande av modellen tas och att det ges möjlighet att reflektera över dem från huvudmannaperspektivet.",
+   "oppen_kod": "föreskrifter saknas inför beslut",
+   "beskrivning": "Huvudmannen saknar kommande föreskrifter att ta ställning till."
+  },
+  {
+   "uid": "U178",
+   "id": "ale-kommun#23",
+   "citat": "Ale kommun ser att det kan finnas en risk att utbudet inom kommunal vuxenutbildning koncentreras till enbart dessa ämnen och att det kan innebära en risk att elever inte kan skapa ett utbildningspaket på heltid med olika kurser för att få studiemedel.",
+   "oppen_kod": "begränsat komvuxutbud",
+   "beskrivning": "Komvux utbud riskerar att koncentreras till ämnen med slutprov."
+  },
+  {
+   "uid": "U179",
+   "id": "ale-kommun#23",
+   "citat": "Ale kommun ser att det finns en risk att genomströmning och flexibilitet kommer att påverkas i hög grad av att enbart ha nationella slutprov en gång per termin.",
+   "oppen_kod": "minskad flexibilitet i komvux",
+   "beskrivning": "Få provtillfällen minskar komvux genomströmning och flexibilitet."
+  },
+  {
+   "uid": "U180",
+   "id": "ale-kommun#23",
+   "citat": "Det kommer även innebära en fördröjning av utbildad personal då dessa elever enligt förslaget behöver vänta flera månader på att kunna examineras, vilket kommer påverka kompetensförsörjningen negativt.",
+   "oppen_kod": "försämrad kompetensförsörjning",
+   "beskrivning": "Fördröjd examination försämrar den lokala kompetensförsörjningen."
+  },
+  {
+   "uid": "U181",
+   "id": "ale-kommun#23",
+   "citat": "Vidare ser Ale kommun att det skulle kunna innebära en större koncentration av studerande i nära anslutning till de nationella slutprovstillfällena och därmed medföra att det inte kommer att vara möjligt att anta samtliga sökande.",
+   "oppen_kod": "kapacitetsbrist vid provtillfällen",
+   "beskrivning": "Koncentration av studerande kring provtillfällen gör att komvux inte kan anta alla sökande."
+  },
+  {
+   "uid": "U182",
+   "id": "ale-kommun#23",
+   "citat": "Exempelvis så ser Ale kommun att den enskilde lärarens professionella kompetens inom komvux inte räknas för betygsättningen vilket i förlängningen kan göra det svårare att rekrytera kompetent pedagogisk personal till kommunal vuxenutbildning.",
+   "oppen_kod": "svårare rekrytera komvuxlärare",
+   "beskrivning": "Minskad lärarroll i betygssättningen försvårar rekrytering till komvux."
+  },
+  {
+   "uid": "U183",
+   "id": "ale-kommun#27",
+   "citat": "Slutsatsen Ale kommun drar av det utredarna beskriver under punkten är att flexibilitet och genomströmningen kommer att påverkas negativ utifrån den föreslagna modellen för provgenomförande.",
+   "oppen_kod": "minskad flexibilitet i komvux",
+   "beskrivning": "Slutprovsmodellen styr komvux planering och minskar flexibilitet."
+  },
+  {
+   "uid": "U184",
+   "id": "ale-kommun#29",
+   "citat": "Utredningen väljer att enbart lägga det ansvaret på komvux som organisation och lyfter fram att de inte kan avgöra om den föreslagna modellen kan innebära en risk för utestängande till högre utbildning för denna grupp elever.",
+   "oppen_kod": "ansvar läggs på komvux",
+   "beskrivning": "Ansvaret för att motverka utestängning läggs på komvux som organisation."
+  },
+  {
+   "uid": "U185",
+   "id": "ale-kommun#29",
+   "citat": "Ale kommun ser att det i slutändan ger negativa kompetenser för kommunmedborgaren i möjligheten att komma i egen hållbar försörjning och för kommunens behov av tillgång till utbildande medarbetare både inom kommunens egen organisation och för näringslivet.",
+   "oppen_kod": "försämrad kompetensförsörjning",
+   "beskrivning": "Kommunens tillgång till utbildade medarbetare kan försämras."
+  },
+  {
+   "uid": "U186",
+   "id": "ale-kommun#31",
+   "citat": "En farhåga som Ale kommun ser är dock hur dessa omprov eller nya prov skall organiseras. Potentiellt kan det vara en stor ökning av antalet individer som skall skriva prov.",
+   "oppen_kod": "organisering av omprov",
+   "beskrivning": "Det är oklart hur omprov för många externa provskrivare ska organiseras."
+  },
+  {
+   "uid": "U187",
+   "id": "ale-kommun#31",
+   "citat": "Om skolan får ett stort antal externa individer som vill skriva prov kan marginalkostnaderna bli mycket höga sett till lokaler och provvakter.",
+   "oppen_kod": "kostnad lokaler och provvakter",
+   "beskrivning": "Externa provskrivare kan ge höga kostnader för lokaler och provvakter."
+  },
+  {
+   "uid": "U188",
+   "id": "ale-kommun#33",
+   "citat": "Ale kommun ställer sig positiva till utredningens förslag om bedömningssamråd som metod för att minska inomskolsvariationen men ser utmaningen för mindre skolenheter som kan ha fler ensamma ämneslärare och som då undantas sambedömningen.",
+   "oppen_kod": "bedömningssamråd på små skolor",
+   "beskrivning": "Små skolenheter med ensamma ämneslärare har svårt med bedömningssamråd."
+  },
+  {
+   "uid": "U189",
+   "id": "ale-kommun#36",
+   "citat": "Att eleven skall kunna undantas från vissa av delproven i ett ämne och sedan få sitt individuella provresultat baserat på de delar som redan genomförts kan dock innebära vissa utmaningar i hur kommunikationen runt enskilda elevers behov och hinder skall bedrivas mellan Skolverket och den enskilda skolan.",
+   "oppen_kod": "kommunikation med Skolverket om undantag",
+   "beskrivning": "Kommunikationen mellan skola och Skolverket om elevers undantag blir utmanande."
+  },
+  {
+   "uid": "U190",
+   "id": "ale-kommun#38",
+   "citat": "Ett potentiellt problem som Ale kommun identifierat är att trendmätningen kommer att konkurrera tidsmässigt med flera andra kunskapsmätningar och att omfattade elever kan uppleva att antalet mätningar, prov och tester blir för många.",
+   "oppen_kod": "konkurrerande kunskapsmätningar",
+   "beskrivning": "Trendmätning konkurrerar tidsmässigt med andra mätningar i skolan."
+  },
+  {
+   "uid": "U191",
+   "id": "linkopings-kommun#4",
+   "citat": "Det är både kostsamt och ogynnsamt att byta system allt för ofta.",
+   "oppen_kod": "kostnad för systembyte",
+   "beskrivning": "Täta byten av betygssystem är kostsamma för huvudmannen."
+  },
+  {
+   "uid": "U192",
+   "id": "linkopings-kommun#8",
+   "citat": "I det fortsatta arbetet är det därför nödvändigt att det nya systemet med nationella prov även utvecklas och anpassas utifrån vuxenutbildningens specifika förutsättningar.",
+   "oppen_kod": "anpassning till vuxenutbildningen",
+   "beskrivning": "Provsystemet måste anpassas till vuxenutbildningens förutsättningar."
+  },
+  {
+   "uid": "U193",
+   "id": "linkopings-kommun#8",
+   "citat": "Linköpings kommun befarar att införandet av samordnade nationella slutprov med mer reglerade tidsramar kan innebära ökade kostnader i form av att genomförandet ställer högre krav på teknisk infrastruktur och ett eventuellt ökat behov av personalresurser under provgenomförandet.",
+   "oppen_kod": "kostnad teknik och personal vid prov",
+   "beskrivning": "Samordnade slutprov kan kräva mer teknisk infrastruktur och personal."
+  },
+  {
+   "uid": "U194",
+   "id": "linkopings-kommun#8",
+   "citat": "Införandet av samordnade nationella slutprov kräver även betydande förberedelser och teknisk kapacitet.",
+   "oppen_kod": "förberedelser och teknisk kapacitet",
+   "beskrivning": "Slutproven kräver betydande förberedelser och teknisk kapacitet."
+  },
+  {
+   "uid": "U195",
+   "id": "linkopings-kommun#15",
+   "citat": "Detta kan motverka att varje skolenhet behöver arbeta fram egna modeller/stöd för detta vilket bedöms leda till omfattande merarbete i verksamheterna.",
+   "oppen_kod": "merarbete utan bedömningsstöd",
+   "beskrivning": "Utan nationellt bedömningsstöd måste varje skolenhet ta fram egna modeller."
+  },
+  {
+   "uid": "U196",
+   "id": "linkopings-kommun#17",
+   "citat": "Förslaget med endast två nationella provperioder per år kommer att begränsa vuxenutbildningen flexibilitet.",
+   "oppen_kod": "minskad flexibilitet i komvux",
+   "beskrivning": "Två provperioder per år begränsar komvux flexibilitet."
+  },
+  {
+   "uid": "U197",
+   "id": "linkopings-kommun#20",
+   "citat": "Elevgruppen på dessa program kommer sannolikt vara mycket heterogen där många elever både har behov av generella och individualiserade stödinsatser i olika utsträckning.",
+   "oppen_kod": "heterogen elevgrupp med stödbehov",
+   "beskrivning": "Yrkesprogram 1900 poäng får en heterogen elevgrupp med stora stödbehov."
+  },
+  {
+   "uid": "U198",
+   "id": "linkopings-kommun#20",
+   "citat": "Linköping ser, likt kommunens tidigare yttrande av delbetänkandet Fler vägar till arbetslivet, att förslaget kan innebära ett ökat hemkommunsansvar avseende yrkesprogram 1900 poäng och att elevernas valmöjligheter riskeras att begränsas.",
+   "oppen_kod": "ökat hemkommunsansvar",
+   "beskrivning": "Förslaget kan öka hemkommunens ansvar för yrkesprogram 1900 poäng."
+  },
+  {
+   "uid": "U199",
+   "id": "linkopings-kommun#23",
+   "citat": "En tydlig vägledning kring samråden efterfrågas för att undvika sammanblandning av olika syften och att varje enhet behöver arbeta fram lokala modeller (s. 655).",
+   "oppen_kod": "vägledning för bedömningssamråd saknas",
+   "beskrivning": "Utan vägledning måste varje enhet ta fram egna modeller för bedömningssamråd."
+  },
+  {
+   "uid": "U200",
+   "id": "linkopings-kommun#23",
+   "citat": "En risk kan finnas att egna omfattande slutprov skapas på skolorna inför bedömningssamråden, vilket kan skapa onödig stress hos lärare och elever.",
+   "oppen_kod": "egna slutprov inför samråd",
+   "beskrivning": "Skolor riskerar att skapa omfattande egna prov inför bedömningssamråd."
+  },
+  {
+   "uid": "U201",
+   "id": "linkopings-kommun#25",
+   "citat": "Det kommer att finnas ett omfattande behov av att klargöra och kommunicera kring det nya syftet med de nationella slutproven.",
+   "oppen_kod": "kommunikationsbehov om provens syfte",
+   "beskrivning": "Det nya syftet med proven kräver omfattande kommunikation."
+  },
+  {
+   "uid": "U202",
+   "id": "linkopings-kommun#27",
+   "citat": "I de fall samtliga provdelar behöver genomföras på samma dag (Matematik, SO och NO) finns risken att detta kommer innebära praktiska utmaningar.",
+   "oppen_kod": "praktiska utmaningar provdag",
+   "beskrivning": "Att genomföra alla provdelar samma dag är praktiskt svårt."
+  },
+  {
+   "uid": "U203",
+   "id": "linkopings-kommun#27",
+   "citat": "Detta kommer sannolikt innebära ökade kostnader för huvudmännen.",
+   "oppen_kod": "ökade kostnader för huvudmän",
+   "beskrivning": "Provgenomförandet medför ökade kostnader för huvudmännen."
+  },
+  {
+   "uid": "U204",
+   "id": "linkopings-kommun#27",
+   "citat": "Här behöver man då organisera provtillfällen med lokaler samt tillse att det finns datorer för eleverna att tillgå då deras privata inte kan förutsättas ha den programvara som behövs för att genomföra proven rättssäkert.",
+   "oppen_kod": "lokaler och datorer för distanselever",
+   "beskrivning": "Komvux måste ordna lokaler och datorer för distanselever vid prov."
+  },
+  {
+   "uid": "U205",
+   "id": "linkopings-kommun#27",
+   "citat": "I gymnasieskolan kan det innebära organisatoriska utmaningar när ämnen avslutas i förhållande till nationella slutproven.",
+   "oppen_kod": "organisering av kursavslut i gymnasiet",
+   "beskrivning": "Ämnesavslut i förhållande till slutproven ger organisatoriska utmaningar."
+  },
+  {
+   "uid": "U206",
+   "id": "linkopings-kommun#29",
+   "citat": "I praktiken innebär detta att rättningen och kalibreringen behöver ske under ett kort tidsfönster givet att eleverna ska få besked och antas till utbildning inför höstterminen.",
+   "oppen_kod": "kort tidsfönster för rättning",
+   "beskrivning": "Rättning och kalibrering måste ske på kort tid före antagning."
+  },
+  {
+   "uid": "U207",
+   "id": "linkopings-kommun#31",
+   "citat": "De nationella slutproven kan komma att bli styrande för planering och genomförande av utbildning i komvux, både för kommunernas anordnande och för hur elever väljer att läsa.",
+   "oppen_kod": "slutprov styr komvux planering",
+   "beskrivning": "Slutproven blir styrande för kommunernas anordnande av komvux."
+  },
+  {
+   "uid": "U208",
+   "id": "linkopings-kommun#37",
+   "citat": "Linköpings kommun tillstyrker utredningens förslag och delar bedömningen att riskerna för fusk ökar väsentligen när de nationella slutproven får större betydelse för både skolan och enskilda elever.",
+   "oppen_kod": "ökad fuskrisk vid prov",
+   "beskrivning": "Risken för fusk ökar när slutproven får större betydelse."
+  },
+  {
+   "uid": "U209",
+   "id": "vallentuna-kommun#3",
+   "citat": "Vallentuna kommun ser dock att det även finns nackdelar med förslaget, såsom risk för betygsstress för eleverna, mer administration för skolorna och ökad arbetsbelastning för lärare.",
+   "oppen_kod": "ökad administration och arbetsbelastning",
+   "beskrivning": "Förslaget ger mer administration för skolor och ökad lärarbelastning."
+  },
+  {
+   "uid": "U210",
+   "id": "vallentuna-kommun#3",
+   "citat": "finns en stor risk med att mycket omfattandet förändringar kommer att ske på kort tid.",
+   "oppen_kod": "många samtidiga reformer",
+   "beskrivning": "Flera samtidiga utredningar ger omfattande förändringar på kort tid."
+  },
+  {
+   "uid": "U211",
+   "id": "vallentuna-kommun#3",
+   "citat": "Det finns en påtaglig risk att förändringarna genomförs så snabbt att viktiga aspekter inte hinner beaktas.",
+   "oppen_kod": "för snabbt införande",
+   "beskrivning": "Förändringarna kan genomföras för snabbt för att viktiga aspekter ska beaktas."
+  },
+  {
+   "uid": "U212",
+   "id": "vallentuna-kommun#8",
+   "citat": "Vallentuna kommun anser att regeringen bör överväga att införa en definition av betygskriterier för att undvika feltolkningar av begreppet och dess användning i skollagstiftningen.",
+   "oppen_kod": "oklar definition av betygskriterier",
+   "beskrivning": "Begreppet betygskriterier saknar definition i skollagen."
+  },
+  {
+   "uid": "U213",
+   "id": "vallentuna-kommun#9",
+   "citat": "Här ser Vallentuna kommun ett behov av en tydlighet i när ett streck ska ges. Utredningen anger att det ska ges när det helt saknas underlag för en betygsbedömning men det ges inte en entydig förklaring vad som avses med att underlag helt saknas.",
+   "oppen_kod": "oklar regel för streck",
+   "beskrivning": "Det är oklart när ett streck ska ges."
+  },
+  {
+   "uid": "U214",
+   "id": "vallentuna-kommun#10",
+   "citat": "Vallentuna kommun understryker vikten av att de två olika förslagen i de två utredningarna behöver synkroniseras med varandra för att tydliggöra vilken väg regeringen väljer.",
+   "oppen_kod": "osynkroniserade utredningsförslag",
+   "beskrivning": "Förslagen om introduktionsprogram i olika utredningar är inte samordnade."
+  },
+  {
+   "uid": "U215",
+   "id": "vallentuna-kommun#13",
+   "citat": "medan det på andra skolor kan innebära en stor organisatorisk och tidskrävande omställning.",
+   "oppen_kod": "omställning för bedömningssamråd",
+   "beskrivning": "Bedömningssamråd kan kräva en stor organisatorisk omställning på vissa skolor."
+  },
+  {
+   "uid": "U216",
+   "id": "vallentuna-kommun#13",
+   "citat": "Det måste dock belysas att lärarnas tid är begränsad, och införandet av bedömningssamråd får inte riskera att gå ut över lärarnas övriga arbetsuppgifter.",
+   "oppen_kod": "lärartid för bedömningssamråd",
+   "beskrivning": "Bedömningssamråd tar lärartid från andra uppgifter."
+  },
+  {
+   "uid": "U217",
+   "id": "vallentuna-kommun#13",
+   "citat": "Skolorna har olika omfattning och omfång i alla kursplaner och timplaner och lärare på högstadiet i dagens skolsystem arbetar inte samma tider och är inte tillgängliga samma tider.",
+   "oppen_kod": "schemaläggning av samråd",
+   "beskrivning": "Lärare är inte tillgängliga samtidigt för samråd."
+  },
+  {
+   "uid": "U218",
+   "id": "vallentuna-kommun#13",
+   "citat": "Vallentuna kommun menar dock att genom att föreslå att rektor ansvarar för att bedömningssamråden genomförs utan att det finns någon närmare reglering av med vilka metoder och i vilken omfattning dessa samråd ska genomföras, riskerar att leda till olika förfaranden på olika skolor",
+   "oppen_kod": "oreglerade bedömningssamråd",
+   "beskrivning": "Bristande reglering av samråden leder till olika förfaranden."
+  },
+  {
+   "uid": "U219",
+   "id": "vallentuna-kommun#16",
+   "citat": "Central rättning som bisyssla för lärare kan medföra en orimlig arbetsbelastning, vilket i sin tur kan få en negativ påverkan på lärarnas förutsättningar att utföra sitt kärnuppdrag.",
+   "oppen_kod": "central rättning utanför arbetstid",
+   "beskrivning": "Central rättning som bisyssla ger orimlig arbetsbelastning för lärare."
+  },
+  {
+   "uid": "U220",
+   "id": "vallentuna-kommun#16",
+   "citat": "Det är en stor skillnad i tidsåtgång och resurser att endast ha central rättning av de föreslagna nationella slutproven jämfört med att även de övriga nationella proven ska rättas centralt. Detta behöver förtydligas.",
+   "oppen_kod": "oklar omfattning central rättning",
+   "beskrivning": "Det är oklart vilka prov som ska rättas centralt, vilket påverkar resurser."
+  },
+  {
+   "uid": "U221",
+   "id": "vallentuna-kommun#16",
+   "citat": "identifiera eventuella negativa effekter, såsom en jämförelsestress för lärare och rektorer.",
+   "oppen_kod": "jämförelsestress för personal",
+   "beskrivning": "Redovisning av resultat kan skapa jämförelsestress för lärare och rektorer."
+  },
+  {
+   "uid": "U222",
+   "id": "vallentuna-kommun#20",
+   "citat": "Det riskerar också att försvaga de professionella lärandegemenskaper som bygger på gemensam sambedömning och kontinuerlig utveckling av undervisningen.",
+   "oppen_kod": "försvagade lärandegemenskaper",
+   "beskrivning": "Central rättning riskerar att försvaga skolornas professionella lärandegemenskaper."
+  },
+  {
+   "uid": "U223",
+   "id": "vallentuna-kommun#20",
+   "citat": "Begreppen Betygskriterier och Nationella betygskriterier förekommer frekvent men det saknas förtydliganden eller definition av vad de två olika begreppen avser eller om de är samma sak.",
+   "oppen_kod": "oklara begrepp i författningsförslag",
+   "beskrivning": "Centrala begrepp i författningsförslaget saknar definition."
+  },
+  {
+   "uid": "U224",
+   "id": "vallentuna-kommun#21",
+   "citat": "Minskas detta bidrag behöver Vallentuna kommun istället finansiera insatserna på annat sätt.",
+   "oppen_kod": "minskat statsbidrag",
+   "beskrivning": "Minskat statsbidrag tvingar kommunen att finansiera insatser på annat sätt."
+  },
+  {
+   "uid": "U225",
+   "id": "vallentuna-kommun#22",
+   "citat": "Enligt förslaget minskas ersättningen till kommunen i det kommunala utjämningssystemet. Det kommer att påverka kommunens gemensamma ekonomi eftersom dessa medel inte är specifikt kopplade till utbildningssektorn.",
+   "oppen_kod": "minskad ersättning i utjämningssystemet",
+   "beskrivning": "Minskad ersättning i utjämningssystemet påverkar kommunens ekonomi."
+  },
+  {
+   "uid": "U226",
+   "id": "vallentuna-kommun#22",
+   "citat": "Kommunen kan aldrig minska en tjänst med exempelvis 10 procent för att arbetsuppgiften med rättningen av prov till viss del minskar.",
+   "oppen_kod": "orealistiska besparingar på rättning",
+   "beskrivning": "Minskad rättningstid ger inte minskade lärarkostnader i praktiken."
+  },
+  {
+   "uid": "U227",
+   "id": "vallentuna-kommun#22",
+   "citat": "Sammanfattningsvis innebär förslaget minskade intäkter för kommunen, samtidigt som kostnaderna för lärare förblir oförändrade.",
+   "oppen_kod": "underfinansiering av reformen",
+   "beskrivning": "Minskade intäkter medan lärarkostnaderna förblir oförändrade."
+  },
+  {
+   "uid": "U228",
+   "id": "sala-kommun#4",
+   "citat": "Vi anser att det hade varit önskvärt om det funnits en större helhet kring dessa utredningar för att lättare få en överblick och kunna göra en bedömning av de sammantagna konsekvenserna av förslagen.",
+   "oppen_kod": "bristande helhet mellan utredningar",
+   "beskrivning": "Svårt att överblicka de sammantagna konsekvenserna av parallella utredningar."
+  },
+  {
+   "uid": "U229",
+   "id": "sala-kommun#6",
+   "citat": "Att implementera ett nytt arbetssätt tar tid och kräver resurser. Detta kan vara extra utmanande på små skolenheter, vilket vi har i Sala kommun.",
+   "oppen_kod": "tid och resurser för implementering",
+   "beskrivning": "Införandet tar tid och kräver resurser, särskilt på små skolenheter."
+  },
+  {
+   "uid": "U230",
+   "id": "sala-kommun#6",
+   "citat": "Om detta system ska införas anser vi att det behövs tid samt bra centrala stödmaterial som stöttar lärarna och som även underlättar för elever och vårdnadshavare att förstå det nya systemet.",
+   "oppen_kod": "behov av centralt stödmaterial",
+   "beskrivning": "Införandet kräver tid och centralt stödmaterial för lärare."
+  },
+  {
+   "uid": "U231",
+   "id": "sala-kommun#7",
+   "citat": "Det vi tror kan skapa osäkerhet vid betygssättningen utifrån",
+   "oppen_kod": "osäkerhet vid betygssättning",
+   "beskrivning": "Borttagna ämnesspecifika kriterier kan skapa osäkerhet vid betygssättning."
+  },
+  {
+   "uid": "U232",
+   "id": "sala-kommun#8",
+   "citat": "Det är viktigt att detta synkroniseras med det som framkommer i Läroplansutredningen (U 2023:09) som just nu ser över konstruktionen av kursplanernas och betygskriteriernas konstruktion för grundskoleutbildning.",
+   "oppen_kod": "synkronisering med läroplansutredningen",
+   "beskrivning": "Betygssystemet måste samordnas med nya kursplaner för att lärarna ska få förutsättningar."
+  },
+  {
+   "uid": "U233",
+   "id": "sala-kommun#9",
+   "citat": "Med detta förslag ser vi att det kan blir svårare att behålla den flexibilitet som finns idag gällande studietakt och kontinuerlig antagning.",
+   "oppen_kod": "minskad flexibilitet i komvux",
+   "beskrivning": "Svårare att behålla flexibel studietakt och kontinuerlig antagning."
+  },
+  {
+   "uid": "U234",
+   "id": "sala-kommun#9",
+   "citat": "Eftersom målgruppen är väldigt heterogen behöver man göra individuella lösningar för att eleven ska nå målen. Detta ser vi kan bli svårare med det som föreslås i utredningen.",
+   "oppen_kod": "svårare individuella lösningar",
+   "beskrivning": "Svårare att göra individuella lösningar för en heterogen komvuxgrupp."
+  },
+  {
+   "uid": "U235",
+   "id": "sala-kommun#9",
+   "citat": "Eftersom många som läser på komvux har betyg sedan tidigare är det viktigt med tydliga riktlinjer och omräkningsverktyg som studie- och yrkesvägledarna kan använda sig av då de planerar kurser tillsammans med personer samt då de räknar på betyg.",
+   "oppen_kod": "omräkningsverktyg för SYV",
+   "beskrivning": "SYV behöver riktlinjer och omräkningsverktyg för tidigare betyg."
+  },
+  {
+   "uid": "U236",
+   "id": "sala-kommun#10",
+   "citat": "Som utredningen konstaterar kan det bli svårigheter att få genomföra de nationella slutproven inom komvux enbart en gång per termin.",
+   "oppen_kod": "få provtillfällen i komvux",
+   "beskrivning": "Slutprov en gång per termin är svårt att genomföra i komvux."
+  },
+  {
+   "uid": "U237",
+   "id": "sala-kommun#10",
+   "citat": "Vi befarar även att de som läser sammanhållna yrkespaket, där det ofta ingår fler av de ämnen där slutprov föreslås, blir fördröjda i sin utbildning i ”väntan” på att få göra slutprov.",
+   "oppen_kod": "fördröjda yrkespaket",
+   "beskrivning": "Elever i yrkespaket fördröjs i väntan på slutprov."
+  },
+  {
+   "uid": "U238",
+   "id": "sala-kommun#13",
+   "citat": "Införandet av ett mer ”riktat” introduktionsprogram kan leda till att en skola i en mindre kommun kan behöva minska sitt utbud av program på 2700 poäng för att kunna erbjuda yrkesprogram med 1 900 poäng.",
+   "oppen_kod": "minskat programutbud i liten kommun",
+   "beskrivning": "En mindre kommun kan behöva minska utbudet av högskoleförberedande program."
+  },
+  {
+   "uid": "U239",
+   "id": "sala-kommun#14",
+   "citat": "Detta kan medföra att Yrkesprogram som omfattar 1 900 poäng kommer att vara betydligt mer resurskrävande än idag.",
+   "oppen_kod": "resurskrävande yrkesprogram 1900p",
+   "beskrivning": "Yrkesprogram 1900 poäng blir mer resurskrävande."
+  },
+  {
+   "uid": "U240",
+   "id": "sala-kommun#17",
+   "citat": "Det är viktigt att föreskrifterna gällande yrkesprov blir tydliga så det blir en likvärdighet mellan olika utbildningsanordnare.",
+   "oppen_kod": "oklara föreskrifter för yrkesprov",
+   "beskrivning": "Otydliga föreskrifter för yrkesprov hotar likvärdighet mellan anordnare."
+  },
+  {
+   "uid": "U241",
+   "id": "sala-kommun#18",
+   "citat": "En risk med detta förslag är att eleverna får sent antagningsbesked till gymnasiet",
+   "oppen_kod": "sena antagningsbesked",
+   "beskrivning": "Central rättning ger sena antagningsbesked till gymnasiet."
+  },
+  {
+   "uid": "U242",
+   "id": "sala-kommun#20",
+   "citat": "en större kostnad för skolan om de tvingas starta program med väldigt få elever",
+   "oppen_kod": "kostnad för små programgrupper",
+   "beskrivning": "Sena besked kan tvinga skolan att starta program med få elever."
+  },
+  {
+   "uid": "U243",
+   "id": "sala-kommun#20",
+   "citat": "Rektor inte kan göra färdigt tjänstefördelningen innan lärarna har sitt ferieuppehåll, vilket ger mindre förberedelsetid.",
+   "oppen_kod": "försenad tjänstefördelning",
+   "beskrivning": "Rektor hinner inte göra tjänstefördelning före lärarnas ferier."
+  },
+  {
+   "uid": "U244",
+   "id": "sala-kommun#22",
+   "citat": "Det behövs tydliga riktlinjer för hur skolorna ska hantera dessa prov så att alla elever, oavsett behov, ges samma möjlighet att prestera optimalt.",
+   "oppen_kod": "riktlinjer för provgenomförande",
+   "beskrivning": "Skolorna behöver riktlinjer för hur slutproven ska hanteras."
+  },
+  {
+   "uid": "U245",
+   "id": "sala-kommun#23",
+   "citat": "Med tanke på att vi nu ska införa gy25 samt alla andra utredningar som pågår gällande skolan anser vi dock att den tänkta tidsplanen inte är realistisk.",
+   "oppen_kod": "orealistisk tidsplan",
+   "beskrivning": "Tidsplanen är orealistisk med Gy25 och andra reformer samtidigt."
+  },
+  {
+   "uid": "U246",
+   "id": "sala-kommun#23",
+   "citat": "Det är även viktigt att stödmaterial och olika typer av riktlinjer finns på plats innan införandet.",
+   "oppen_kod": "stödmaterial före införande",
+   "beskrivning": "Stödmaterial och riktlinjer måste finnas innan införandet."
+  },
+  {
+   "uid": "U247",
+   "id": "sala-kommun#26",
+   "citat": "Vi anser att det hade varit önskvärt om det funnits en större helhet kring dessa utredningar för att lättare få en överblick och kunna göra en bedömning av de sammantagna konsekvenserna av förslagen.",
+   "oppen_kod": "bristande helhet mellan utredningar",
+   "beskrivning": "Svårt att överblicka de sammantagna konsekvenserna av parallella utredningar."
+  },
+  {
+   "uid": "U248",
+   "id": "botkyrka-kommun#4",
+   "citat": "Begränsningen till två nationella provtillfällen per år hotar vuxenutbildningens flexibilitet och kan leda till ojämna elevflöden, fördröjda studier och svårigheter i planering och genomströmning.",
+   "oppen_kod": "ojämna elevflöden i komvux",
+   "beskrivning": "Två provtillfällen per år ger ojämna elevflöden och planeringssvårigheter."
+  },
+  {
+   "uid": "U249",
+   "id": "botkyrka-kommun#7",
+   "citat": "En möjlig konsekvens är att fler väljer bort Komvux till förmån för andra skolformer, såsom folkhögskola: en skolform begränsade möjligheter till vidare studier på eftergymnasial nivå.",
+   "oppen_kod": "färre söker komvux",
+   "beskrivning": "Fler kan välja bort komvux till förmån för andra skolformer."
+  },
+  {
+   "uid": "U250",
+   "id": "botkyrka-kommun#8",
+   "citat": "För utbildningsanordnare innebär det utmaningar i form av ojämna elevflöden, stora svårigheter att planera personal och lokaler samt risk för överbelastning vid provtillfällena.",
+   "oppen_kod": "planering av personal och lokaler",
+   "beskrivning": "Ojämna elevflöden försvårar planering av personal och lokaler."
+  },
+  {
+   "uid": "U251",
+   "id": "botkyrka-kommun#8",
+   "citat": "Under högtrycksperioder kan det bli svårt att erbjuda plats åt alla, medan lågintensiva perioder kan leda till underutnyttjade resurser och ekonomisk osäkerhet. Sammantaget riskerar det leda till kostsamma tillfälliga lösningar för att kunna balansera det ojämna elevantalet.",
+   "oppen_kod": "ekonomisk osäkerhet av ojämnt elevantal",
+   "beskrivning": "Hög- och lågperioder ger underutnyttjade resurser och kostsamma tillfälliga lösningar."
+  },
+  {
+   "uid": "U252",
+   "id": "botkyrka-kommun#8",
+   "citat": "Förslaget att prövning för de med betyg 4-10 ska bort och elevers enda alternativ till att höja sitt meritvärde blir att genomföra nationella slutprov lägger ytterligare tryck på provtillfällen om de bara ska hållas två gånger per år.",
+   "oppen_kod": "ökat tryck på provtillfällen",
+   "beskrivning": "Borttagen prövning ökar trycket på de få provtillfällena."
+  },
+  {
+   "uid": "U253",
+   "id": "botkyrka-kommun#9",
+   "citat": "För att denna reform ska få önskad effekt krävs dock en noggrant planerad implementering, med tillräckliga resurser och utbildningsinsatser.",
+   "oppen_kod": "resurser för implementering",
+   "beskrivning": "Implementeringen kräver tillräckliga resurser och utbildningsinsatser."
+  },
+  {
+   "uid": "U254",
+   "id": "botkyrka-kommun#9",
+   "citat": "Vidare bör det uppmärksammas att avidentifiering av elevuppgifter inför bedömning av nationella prov kan vara både organisatoriskt och ekonomiskt krävande.",
+   "oppen_kod": "resurskrävande avidentifiering",
+   "beskrivning": "Avidentifiering av elevuppgifter är organisatoriskt och ekonomiskt krävande."
+  },
+  {
+   "uid": "U255",
+   "id": "botkyrka-kommun#9",
+   "citat": "För att säkerställa en rättvis och likvärdig betygssättning även inom vuxenutbildningen behöver det utvecklas tydliga riktlinjer och erbjudas kontinuerlig kompetensutveckling för lärare.",
+   "oppen_kod": "kompetensutveckling komvuxlärare",
+   "beskrivning": "Komvux behöver riktlinjer och kontinuerlig kompetensutveckling för lärare."
+  },
+  {
+   "uid": "U256",
+   "id": "botkyrka-kommun#19",
+   "citat": "Variationer i elevantal skapa organisatoriska och ekonomiska utmaningar för utbildningsanordnare.",
+   "oppen_kod": "ekonomisk osäkerhet av ojämnt elevantal",
+   "beskrivning": "Variationer i elevantal ger organisatoriska och ekonomiska utmaningar."
+  },
+  {
+   "uid": "U257",
+   "id": "botkyrka-kommun#19",
+   "citat": "Avidentifiering av prov ses som viktig men resurskrävande, och kräver tydliga rutiner.",
+   "oppen_kod": "resurskrävande avidentifiering",
+   "beskrivning": "Avidentifiering av prov är resurskrävande och kräver rutiner."
+  },
+  {
+   "uid": "U258",
+   "id": "gotlands-kommun#5",
+   "citat": "Förslaget innebär en omfattande reform av betygssystemet och kräver en stabil plattform för genomförande av nationella prov.",
+   "oppen_kod": "beroende av stabil provplattform",
+   "beskrivning": "Reformen kräver en stabil plattform för nationella prov."
+  },
+  {
+   "uid": "U259",
+   "id": "gotlands-kommun#5",
+   "citat": "Det behöver förtydligas hur skolornas ansvar för bedömningsråd skall göras likvärdigt",
+   "oppen_kod": "oklart ansvar för bedömningsråd",
+   "beskrivning": "Det är oklart hur skolornas ansvar för bedömningsråd blir likvärdigt."
+  },
+  {
+   "uid": "U260",
+   "id": "gotlands-kommun#5",
+   "citat": "Det finns delar av förslaget som ökar lärares och skolors administrativa arbetsbörda",
+   "oppen_kod": "ökad administrativ börda",
+   "beskrivning": "Delar av förslaget ökar lärares och skolors administrativa börda."
+  },
+  {
+   "uid": "U261",
+   "id": "gotlands-kommun#5",
+   "citat": "En reform av den här omfattningen kommer att ta tid och vara kostsam att implementera",
+   "oppen_kod": "kostsam och tidskrävande implementering",
+   "beskrivning": "Reformen tar tid och är kostsam att implementera."
+  },
+  {
+   "uid": "U262",
+   "id": "gotlands-kommun#6",
+   "citat": "Att implementera ett nytt betygssystem är en omfattande process som över flera år kommer att ta mycket av lärares tid i anspråk.",
+   "oppen_kod": "lärartid för implementering",
+   "beskrivning": "Implementeringen tar mycket lärartid i anspråk under flera år."
+  },
+  {
+   "uid": "U263",
+   "id": "gotlands-kommun#12",
+   "citat": "då en ny betygsreform kräver omfattande arbete med implementering måste man vara försiktig med reformivern.",
+   "oppen_kod": "omfattande implementeringsarbete",
+   "beskrivning": "En ny betygsreform kräver omfattande implementeringsarbete."
+  },
+  {
+   "uid": "U264",
+   "id": "gotlands-kommun#15",
+   "citat": "Region Gotland ställer sig tvekande till delar av betänkandet då det är en så pass omfattande reform som är tekniskt svår att förstå samtidigt som den är beroende av en stabil plattform för genomförande och bedömning av nationella prov.",
+   "oppen_kod": "tekniskt svårbegriplig reform",
+   "beskrivning": "Reformen är tekniskt svår att förstå och beroende av stabil plattform."
+  },
+  {
+   "uid": "U265",
+   "id": "gotlands-kommun#16",
+   "citat": "Det är i dagsläget svårt att se att Skolverket kommer att kunna leverera en tillräckligt stabil plattform för genomförandet av digitala nationella prov.",
+   "oppen_kod": "beroende av stabil provplattform",
+   "beskrivning": "Osäkert om Skolverket kan leverera en stabil digital provplattform."
+  },
+  {
+   "uid": "U266",
+   "id": "gotlands-kommun#18",
+   "citat": "Mindre skolor med endast en lärare per ämne kommer att ha svårt att bilda ett bedömningsråd.",
+   "oppen_kod": "bedömningssamråd på små skolor",
+   "beskrivning": "Små skolor med en lärare per ämne har svårt att bilda bedömningsråd."
+  },
+  {
+   "uid": "U267",
+   "id": "gotlands-kommun#18",
+   "citat": "Hur säkerställs att bedömningsråd blir likvärdiga mellan skolor och huvudmän? Vem ansvarar för uppföljning av det?",
+   "oppen_kod": "oklart ansvar för bedömningsråd",
+   "beskrivning": "Oklart vem som ansvarar för uppföljning av bedömningsrådens likvärdighet."
+  },
+  {
+   "uid": "U268",
+   "id": "gotlands-kommun#19",
+   "citat": "Skolorna kommer att få mindre kvalitativ information om undervisningens kvalité.",
+   "oppen_kod": "förlorad återkoppling till skolan",
+   "beskrivning": "Central rättning ger skolorna mindre information om undervisningens kvalitet."
+  },
+  {
+   "uid": "U269",
+   "id": "gotlands-kommun#20",
+   "citat": "Utredaren föreslår ett system för beräkning av meritpoäng som är tekniskt och svårt att förklara för elever och vårdnadshavare.",
+   "oppen_kod": "svårt förklara meritvärdesberäkning",
+   "beskrivning": "Meritpoängsberäkningen är svår att förklara för elever och vårdnadshavare."
+  },
+  {
+   "uid": "U270",
+   "id": "orebro-kommun#3",
+   "citat": "Det föreslagna systemet är krångligt att sätta sig i och kan bli svårt för lärare och för elever att förstå.",
+   "oppen_kod": "komplicerat betygssystem",
+   "beskrivning": "Systemet är krångligt och svårt för lärare att förstå."
+  },
+  {
+   "uid": "U271",
+   "id": "orebro-kommun#3",
+   "citat": "Rimlig implementeringstid och stöd från Skolverket för införande och förankring i verksamheterna är avgörande för att införandet av ett nytt betygssystem ska fungera.",
+   "oppen_kod": "implementeringstid och stöd",
+   "beskrivning": "Införandet kräver rimlig tid och stöd från Skolverket."
+  },
+  {
+   "uid": "U272",
+   "id": "orebro-kommun#6",
+   "citat": "Detta ställer höga krav på att studie- och yrkesvägledare finns i tillräcklig omfattning i grundskolan för att vägleda elever i ansökan till gymnasiet.",
+   "oppen_kod": "behov av fler SYV",
+   "beskrivning": "Kompensatorisk behörighet kräver tillräckligt med SYV i grundskolan."
+  },
+  {
+   "uid": "U273",
+   "id": "orebro-kommun#7",
+   "citat": "Tolkningstvister: Skillnader i hur elever och lärare uppfattar betygsstegen kan leda till oenighet och osäkerhet.",
+   "oppen_kod": "tolkningstvister om betygssteg",
+   "beskrivning": "Olika uppfattningar om betygsstegen kan ge oenighet och osäkerhet i skolan."
+  },
+  {
+   "uid": "U274",
+   "id": "orebro-kommun#8",
+   "citat": "Tekniska och praktiska problem: Digitala prov kan drabbas av tekniska störningar, särskilt på skolor med bristande IT-resurser.",
+   "oppen_kod": "tekniska störningar vid digitala prov",
+   "beskrivning": "Digitala prov kan drabbas av störningar på skolor med svaga IT-resurser."
+  },
+  {
+   "uid": "U275",
+   "id": "orebro-kommun#8",
+   "citat": "Resurskrävande samarbete: Bedömningssamråd kräver tid och engagemang, och riskerar att skapa oenighet mellan lärare vid olika tolkningar.",
+   "oppen_kod": "resurskrävande bedömningssamråd",
+   "beskrivning": "Bedömningssamråd kräver tid och kan skapa oenighet mellan lärare."
+  },
+  {
+   "uid": "U276",
+   "id": "orebro-kommun#9",
+   "citat": "Tidsplanen är inte rimlig för implementering av betygsskala, kalibrering, att nationella prov påverkar meritvärde, bedömningssamråd och nytt antagningsförfarande till gymnasiet.",
+   "oppen_kod": "orealistisk tidsplan",
+   "beskrivning": "Tidsplanen för införandet är inte rimlig."
+  },
+  {
+   "uid": "U277",
+   "id": "orebro-kommun#9",
+   "citat": "För att lyckas med implementering behövs tid och material för kompetensutveckling för lärare, rektorer och förvaltning för att känna trygghet i ett komplicerat betygssystem.",
+   "oppen_kod": "kompetensutveckling för personal",
+   "beskrivning": "Lärare, rektorer och förvaltning behöver tid och material för kompetensutveckling."
+  },
+  {
+   "uid": "U278",
+   "id": "orebro-kommun#9",
+   "citat": "Risken är att kvaliteten i undervisningen påverkas negativt när flera reformer ska genomföras samtidigt.",
+   "oppen_kod": "många samtidiga reformer",
+   "beskrivning": "Flera samtidiga reformer riskerar undervisningens kvalitet."
+  },
+  {
+   "uid": "U279",
+   "id": "orebro-kommun#9",
+   "citat": "Trots detta saknar utredningen en analys av de ekonomiska konsekvenserna för implementering och genomförande i kommunerna. Kostnader uppkommer i hela processen från sambedömningsråd till antagning till gymnasieskola.",
+   "oppen_kod": "kostnadsanalys saknas",
+   "beskrivning": "Ekonomiska konsekvenser för kommunerna är inte analyserade."
+  },
+  {
+   "uid": "U280",
+   "id": "orebro-kommun#9",
+   "citat": "De anslag som kommunerna idag får för rättning av nationella prov kommer fortsätta att behövas för att kunna planera, genomföra och följa upp proven rättssäkert och likvärdigt.",
+   "oppen_kod": "minskat statsbidrag",
+   "beskrivning": "Anslagen för provrättning behövs fortsatt för att genomföra proven."
+  },
+  {
+   "uid": "U281",
+   "id": "orebro-kommun#11",
+   "citat": "Det är av stor betydelse att det finns riktlinjer och tydlig information hur lärare ska hantera skillnader mellan egna betyg och provresultaten.",
+   "oppen_kod": "riktlinjer för avvikelser prov och betyg",
+   "beskrivning": "Lärare behöver riktlinjer för att hantera skillnader mellan betyg och provresultat."
+  },
+  {
+   "uid": "U282",
+   "id": "orebro-kommun#11",
+   "citat": "Det är av vikt att god teknisk och organisatorisk support finns för att de digitala proven ska kunna genomföras.",
+   "oppen_kod": "teknisk och organisatorisk support",
+   "beskrivning": "Digitala prov kräver god teknisk och organisatorisk support."
+  },
+  {
+   "uid": "U283",
+   "id": "ale-kommun#15",
+   "citat": "kommenteras inte vidare men behöver förtydligas rörande dess konsekvenser för uträkningen av det individuella meritvärdet.",
+   "oppen_kod": "oklar beräkning av genomsnitt",
+   "beskrivning": "Konsekvenserna av undantag för meritvärdesberäkningen behöver förtydligas."
+  },
+  {
+   "uid": "U284",
+   "id": "vallentuna-kommun#12",
+   "citat": "Antingen behöver läroplanen kalibreras utifrån det nya betygssystemet, eller tvärtom.",
+   "oppen_kod": "synkronisering med läroplansutredningen",
+   "beskrivning": "Läroplan och betygssystem måste samordnas."
+  },
+  {
+   "uid": "U285",
+   "id": "sala-kommun#19",
+   "citat": "små gymnasieskolor får svårt att sätta sin organisation och veta vilka program som kan starta, elever behöver göra omval och får kortare tid att förbereda sig.",
+   "oppen_kod": "osäker programplanering små gymnasieskolor",
+   "beskrivning": "Sena besked gör att små gymnasieskolor inte vet vilka program som kan starta."
+  },
+  {
+   "uid": "U286",
+   "id": "sala-kommun#21",
+   "citat": "Innan detta kan genomföras utgår vi ifrån att alla system är på plats och fungerar så att tiden blir så kort som möjligt innan besked om antagning kan lämnas.",
+   "oppen_kod": "fungerande system före införande",
+   "beskrivning": "Alla system måste fungera för att antagningsbesked inte ska dröja."
+  },
+  {
+   "uid": "U287",
+   "id": "norrkopings-kommun#8",
+   "citat": "För att skapa goda förutsättningar för implementeringen är det av stor vikt att implementeringsstöd publiceras så snart som möjligt efter fattade beslut.",
+   "oppen_kod": "implementeringsstöd i tid",
+   "beskrivning": "Implementeringsstöd behöver publiceras snabbt efter beslut."
+  },
+  {
+   "uid": "U288",
+   "id": "norrkopings-kommun#12",
+   "citat": "Utbildningsnämnden i Norrköping vill understryka vikten av att stödmaterial eller allmänt råd utformas där betygskriterierna förtydligas och att stödmaterialet blir tillgängligt i samband med införandet.",
+   "oppen_kod": "behov av centralt stödmaterial",
+   "beskrivning": "Stödmaterial om betygskriterierna måste finnas vid införandet."
+  },
+  {
+   "uid": "U289",
+   "id": "norrkopings-kommun#16",
+   "citat": "Utbildningsnämnden i Norrköping påtalar vikten av en stabil plattform och arbetet med att säkerställa att nationella proven blir likvärdiga över tid.",
+   "oppen_kod": "beroende av stabil provplattform",
+   "beskrivning": "Reformen kräver stabil plattform och likvärdiga prov över tid."
+  },
+  {
+   "uid": "U290",
+   "id": "norrkopings-kommun#17",
+   "citat": "Det är av vikt att skolorna får återkoppling av enskilda elevers resultat efter genomfört prov för att skapa ett lärande hos den enskilde läraren och till skolornas bedömningssamråd för att öka samsyn och bedömarkompetens.",
+   "oppen_kod": "förlorad återkoppling till skolan",
+   "beskrivning": "Skolorna behöver återkoppling på elevresultat för lärarnas och samrådens lärande."
+  },
+  {
+   "uid": "U291",
+   "id": "norrkopings-kommun#18",
+   "citat": "Utbildningsnämnden i Norrköping ser att regelverket kring detta behöver vara mycket tydligt.",
+   "oppen_kod": "oklart regelverk för undantag",
+   "beskrivning": "Regelverket för undantag från slutprov behöver vara tydligt."
+  },
+  {
+   "uid": "U292",
+   "id": "norrkopings-kommun#19",
+   "citat": "Det kommer dock att vara en utmaning att skapa förståelse för meritvärdeskalibreringen och tydligt stödmaterial till alla som omfattas behövs.",
+   "oppen_kod": "svårbegriplig kalibreringsmodell",
+   "beskrivning": "Det blir en utmaning att skapa förståelse för kalibreringen."
+  },
+  {
+   "uid": "U293",
+   "id": "norrkopings-kommun#21",
+   "citat": "Utbildningsnämnden i Norrköpings kommun vill också påtala behovet av insyn eller kontrollfunktion om elevens kalibrerade betygsvärde misstänks vara felaktigt beräknat.",
+   "oppen_kod": "insyn i kalibreringsberäkning",
+   "beskrivning": "Huvudmannen saknar insyn om kalibrerat betygsvärde misstänks vara fel."
+  },
+  {
+   "uid": "U294",
+   "id": "norrkopings-kommun#23",
+   "citat": "Utbildningsnämnden i Norrköpings kommun påtalar vikten av att skapa tydliga ramar för att förtydliga rektors och skolornas ansvar gällande betygssamråden.",
+   "oppen_kod": "oklart ansvar för bedömningsråd",
+   "beskrivning": "Rektors och skolornas ansvar för samråden behöver tydliga ramar."
+  },
+  {
+   "uid": "U295",
+   "id": "norrkopings-kommun#23",
+   "citat": "Det behöver också bli tydligt vilka krav på genomförande små enheter har.",
+   "oppen_kod": "bedömningssamråd på små skolor",
+   "beskrivning": "Oklart vilka krav som gäller för små enheter."
+  },
+  {
+   "uid": "U296",
+   "id": "norrkopings-kommun#24",
+   "citat": "Flera stora reformer kommer dock påverka elever, skolor och kommuner vilket",
+   "oppen_kod": "många samtidiga reformer",
+   "beskrivning": "Flera stora reformer påverkar skolor och kommuner samtidigt."
+  },
+  {
+   "uid": "U297",
+   "id": "norrkopings-kommun#27",
+   "citat": "riskerar att medföra hög arbetsbelastning under en övergångsperiod.",
+   "oppen_kod": "hög arbetsbelastning vid övergång",
+   "beskrivning": "Övergångsperioden riskerar hög arbetsbelastning."
+  },
+  {
+   "uid": "U298",
+   "id": "norrkopings-kommun#33",
+   "citat": "Utbildningsnämnden i Norrköpings kommun påtalar vikten av att förtydliga bedömningskraven för vilka elever som tillhör språkintroduktion för att skapa likvärdighet.",
+   "oppen_kod": "oklara bedömningskrav språkintroduktion",
+   "beskrivning": "Bedömningskraven för språkintroduktion behöver förtydligas."
+  },
+  {
+   "uid": "U299",
+   "id": "soderhamns-kommun#8",
+   "citat": "Att hädanefter behöva ansöka till Skolverket riskerar att bli en längre process där beslut fattas av någon som inte är insatt i elevens specifika behov.",
+   "oppen_kod": "undantag via Skolverket",
+   "beskrivning": "Undantag via ansökan till Skolverket blir en längre process än rektorsbeslut."
+  },
+  {
+   "uid": "U300",
+   "id": "soderhamns-kommun#11",
+   "citat": "När och hur ska omprov kunna genomföras? Ska detta då ske i slutet av sommaren efter genomförd central rättning?",
+   "oppen_kod": "organisering av omprov",
+   "beskrivning": "Det är oklart när och hur omprov ska genomföras."
+  },
+  {
+   "uid": "U301",
+   "id": "soderhamns-kommun#13",
+   "citat": "Hur ska skillnaderna mellan betygsstegen konkretiseras? Det kan redan i dag upplevas som en utmaning att tolka betygskriterierna och skillnaderna mellan dessa.",
+   "oppen_kod": "konkretisering av betygssteg",
+   "beskrivning": "Svårt att konkretisera skillnaderna mellan tio betygssteg."
+  },
+  {
+   "uid": "U302",
+   "id": "sveriges-kommuner-och-regioner#4",
+   "citat": "Betydligt mer förberedelsetid kommer att krävas för en lyckad implementering.",
+   "oppen_kod": "kort tid för införande",
+   "beskrivning": "Huvudmännen behöver betydligt mer förberedelsetid för att kunna implementera systemet."
+  },
+  {
+   "uid": "U303",
+   "id": "sveriges-kommuner-och-regioner#4",
+   "citat": "Detta på grund av systemets många och svåröverblickbara konsekvenser samt det samtida reformtrycket på skolområdet.",
+   "oppen_kod": "reformträngsel",
+   "beskrivning": "Många samtidiga reformer och svåröverblickbara konsekvenser försvårar införandet för huvudmännen."
+  },
+  {
+   "uid": "U304",
+   "id": "sveriges-kommuner-och-regioner#6",
+   "citat": "SKR poängterar vikten av omfattande informationsinsatser för att betygssystemet ska få legitimitet",
+   "oppen_kod": "behov av informationsinsatser",
+   "beskrivning": "Omfattande informationsinsatser krävs för att systemet ska få legitimitet."
+  },
+  {
+   "uid": "U305",
+   "id": "sveriges-kommuner-och-regioner#13",
+   "citat": "Det finns en överhängande risk att komvux kompletterande uppdrag kommer ändras då höjda ämnesbetyg inte kommer kunna ingå i kalibreringen av elevernas meritvärde.",
+   "oppen_kod": "komvux uppdrag förändras",
+   "beskrivning": "Komvux kompletterande uppdrag riskerar att förändras för huvudmannen."
+  },
+  {
+   "uid": "U306",
+   "id": "sveriges-kommuner-och-regioner#20",
+   "citat": "SKR avstyrker tidplanen för införande och ikraftträdande då den inte bedöms vara realistisk.",
+   "oppen_kod": "orealistisk tidplan",
+   "beskrivning": "Tidplanen för införande bedöms orealistisk för en lyckad implementering."
+  },
+  {
+   "uid": "U307",
+   "id": "sveriges-kommuner-och-regioner#22",
+   "citat": "SKR konstaterar att kostnaden för anpassning av systemen för gymnasieantagning inte har beräknats och menar att skolhuvudmännen behöver kompenseras för dessa kostnadsökningar",
+   "oppen_kod": "kostnad antagningssystem",
+   "beskrivning": "Huvudmännen får ofinansierade kostnader för att anpassa gymnasieantagningens system."
+  },
+  {
+   "uid": "U308",
+   "id": "sveriges-kommuner-och-regioner#23",
+   "citat": "SKR delar inte utredarens bedömning om kostnader och finansiering för digitala nationella prov med central rättning.",
+   "oppen_kod": "underskattade kostnader för prov",
+   "beskrivning": "Kostnaderna för digitala centralt rättade prov bedöms felaktigt, vilket påverkar huvudmännens finansiering."
+  },
+  {
+   "uid": "U309",
+   "id": "sveriges-kommuner-och-regioner#24",
+   "citat": "SKR menar att de kostnader som uppstår av att implementera reformen bör prövas enligt finansieringsprincipen. I detta bör kompetensutveckling vara en särskild post.",
+   "oppen_kod": "kostnad för kompetensutveckling",
+   "beskrivning": "Implementeringen och kompetensutvecklingen medför kostnader som bör finansieras av staten."
+  },
+  {
+   "uid": "U310",
+   "id": "sveriges-kommuner-och-regioner#25",
+   "citat": "Det ställs särskilda krav på såväl kompetensutveckling som förberedelsearbete att införa ett nytt betygssystem samtidigt med nya läroplaner, kursplaner och ämnesplaner.",
+   "oppen_kod": "reformträngsel",
+   "beskrivning": "Att införa betygssystemet samtidigt med nya läroplaner ställer stora krav på kompetensutveckling och förberedelser."
+  },
+  {
+   "uid": "U311",
+   "id": "sveriges-kommuner-och-regioner#25",
+   "citat": "En rad utredningarna har nyligen presenterat förslag som omfattar stora delar av skolväsendet och påverkar varandra, vilket gör att det är svårt att överblicka konsekvenserna av enskilda förslag.",
+   "oppen_kod": "svåröverblickbara konsekvenser",
+   "beskrivning": "Samverkande reformförslag gör konsekvenserna svåra att överblicka för huvudmännen."
+  },
+  {
+   "uid": "U312",
+   "id": "sveriges-kommuner-och-regioner#26",
+   "citat": "Det kommer att ställas höga krav på alla aktörer när systemet ska implementeras.",
+   "oppen_kod": "höga implementeringskrav",
+   "beskrivning": "Implementeringen ställer höga krav på bl.a. skolhuvudmännen."
+  },
+  {
+   "uid": "U313",
+   "id": "sveriges-kommuner-och-regioner#27",
+   "citat": "SKR anser därför att tidplanen för införandet är orealistisk och behöver förlängas betydligt.",
+   "oppen_kod": "orealistisk tidplan",
+   "beskrivning": "Tidplanen för införandet är orealistisk."
+  },
+  {
+   "uid": "U314",
+   "id": "sveriges-kommuner-och-regioner#30",
+   "citat": "Detta behöver samordnas med hur övriga reformer implementeras, då tiden för kompetensutveckling även behöver tas i anspråk för exempelvis läroplansförändringar och det kommande professionsprogrammet.",
+   "oppen_kod": "konkurrerande tid för kompetensutveckling",
+   "beskrivning": "Tiden för kompetensutveckling konkurrerar med andra reformer."
+  },
+  {
+   "uid": "U315",
+   "id": "sveriges-kommuner-och-regioner#30",
+   "citat": "Det skulle även ge skolhuvudmännen förbättrade möjligheter att planera och organisera sina egna insatser på ett bra sätt.",
+   "oppen_kod": "planering av kompetensinsatser",
+   "beskrivning": "Huvudmännen behöver tid för att planera och organisera egna kompetensinsatser."
+  },
+  {
+   "uid": "U316",
+   "id": "sveriges-kommuner-och-regioner#32",
+   "citat": "En förlängd förberedelsetid med succesivt införande kan ge skolhuvudmännen möjligheter att organisera gymnasieantagningen på ett bra sätt.",
+   "oppen_kod": "organisering av gymnasieantagning",
+   "beskrivning": "Huvudmännen behöver tid för att organisera gymnasieantagningen."
+  },
+  {
+   "uid": "U317",
+   "id": "sveriges-kommuner-och-regioner#33",
+   "citat": "SKR anser att utredningens föreslagna system inte är tillämpbart på komvux då det påverkar detta övergripande uppdrag.",
+   "oppen_kod": "systemet ej anpassat för komvux",
+   "beskrivning": "Systemet passar inte komvux och påverkar skolformens uppdrag."
+  },
+  {
+   "uid": "U318",
+   "id": "sveriges-kommuner-och-regioner#33",
+   "citat": "SKR bedömer att det idag finns en stor oro inom komvux för hur det föreslagna betygssystemet kommer att påverka den kommunala vuxenutbildningen som skolform.",
+   "oppen_kod": "oro inom komvux",
+   "beskrivning": "Det finns stor oro inom komvux för hur skolformen påverkas."
+  },
+  {
+   "uid": "U319",
+   "id": "sveriges-kommuner-och-regioner#36",
+   "citat": "Framförallt är det osäkert om slutproven kommer att kunna utvecklas på det sätt som förslås",
+   "oppen_kod": "osäker slutprovsutveckling",
+   "beskrivning": "Det är osäkert om slutproven kan utvecklas som föreslaget, vilket påverkar kalibreringen."
+  },
+  {
+   "uid": "U320",
+   "id": "sveriges-kommuner-och-regioner#37",
+   "citat": "Det kommer att påverka undervisningen i komvux och sannolikt även utbudet av ämnen/nivåer",
+   "oppen_kod": "komvux utbud påverkas",
+   "beskrivning": "Komvux undervisning och utbud av ämnen/nivåer påverkas."
+  },
+  {
+   "uid": "U321",
+   "id": "sveriges-kommuner-och-regioner#37",
+   "citat": "En konsekvens av en senare slutantagning är att gymnasieskolorna troligen behöver senarelägga sin skolstart, vilket i sin tur kan påverka såväl läsårsplanering som planering av undervisningstid.",
+   "oppen_kod": "senare skolstart och läsårsplanering",
+   "beskrivning": "Senare slutantagning kan tvinga fram senare skolstart och påverkar läsårsplaneringen."
+  },
+  {
+   "uid": "U322",
+   "id": "sveriges-kommuner-och-regioner#37",
+   "citat": "Utifrån utredningens förslag kommer en slutantagning inte längre att kunna genomföras i enlighet med regelverket t.ex. 7 kap. 7 § gymnasieförordningen, utan behöver senareläggas.",
+   "oppen_kod": "senarelagd gymnasieantagning",
+   "beskrivning": "Slutantagningen till gymnasiet måste senareläggas och kan inte följa nuvarande regelverk."
+  },
+  {
+   "uid": "U323",
+   "id": "sveriges-kommuner-och-regioner#38",
+   "citat": "Det är osäkert i vilken grad man i närtid kan introducera prov som kan mäta breda kunskaper, standardiseras årsvis samt med automaträttning.",
+   "oppen_kod": "osäker slutprovsutveckling",
+   "beskrivning": "Det är osäkert om lämpliga slutprov kan tas fram i närtid."
+  },
+  {
+   "uid": "U324",
+   "id": "sveriges-kommuner-och-regioner#40",
+   "citat": "Om proven endast ska kunna genomföras i slutet av vår- respektive höstterminen kommer det att påverka komvux hela utbud, vilket försvårar komvux kompletterande uppdrag.",
+   "oppen_kod": "provtillfällen passar ej komvux",
+   "beskrivning": "Fasta provtillfällen påverkar komvux hela utbud och kontinuerliga kursstarter."
+  },
+  {
+   "uid": "U325",
+   "id": "sveriges-kommuner-och-regioner#40",
+   "citat": "SKR vill här påtala att det finns uppenbara motstridigheter mellan utredningens förslag och gällande lagstiftning då läroplanen anger att komvux ska stäva efter flexibla lösningar med utgångspunkt i individens behov och förutsättningar.",
+   "oppen_kod": "motstridig reglering komvux",
+   "beskrivning": "Förslaget står i motsats till läroplanens krav på flexibilitet i komvux."
+  },
+  {
+   "uid": "U326",
+   "id": "sveriges-kommuner-och-regioner#42",
+   "citat": "En ökad betoning på genomsnittet kan därmed leda till att fler elever kommer att behöva stöd och riskera att inte klara en gymnasieexamen eller behörighet till högre utbildning.",
+   "oppen_kod": "ökat stödbehov i gymnasiet",
+   "beskrivning": "Fler elever med svaga förkunskaper kan behöva stöd i gymnasieskolan."
+  },
+  {
+   "uid": "U327",
+   "id": "sveriges-kommuner-och-regioner#42",
+   "citat": "När det gäller behörighetsreglerna till högskolan är det svårt att förutse hur de nya behörighetsreglerna kommer att påverka genomströmningen och avhoppen i gymnasieskolan och därefter söktrycket till komvux.",
+   "oppen_kod": "svårt att planera komvux söktryck",
+   "beskrivning": "Svårt att förutse effekter på avhopp och söktryck till komvux."
+  },
+  {
+   "uid": "U328",
+   "id": "sveriges-kommuner-och-regioner#44",
+   "citat": "På så sätt går det att lösa frågan om hur samråden ska genomföras på mindre skolor där det bara finns en eller få lärare i samma ämne.",
+   "oppen_kod": "bedömningssamråd på små skolor",
+   "beskrivning": "Bedömningssamråd är svåra att genomföra på små skolor med få lärare i ämnet."
+  },
+  {
+   "uid": "U329",
+   "id": "sveriges-kommuner-och-regioner#44",
+   "citat": "SKR avstyrker dock förslaget om att det i skollagen ska regleras detaljerat vilka som ska ingå i samråden.",
+   "oppen_kod": "detaljreglering av samråd",
+   "beskrivning": "Detaljerad reglering av samråden passar inte alla skolors personella förutsättningar."
+  },
+  {
+   "uid": "U330",
+   "id": "sveriges-kommuner-och-regioner#45",
+   "citat": "Sådana prov bör genomförs digitalt och medföra ett minimum av administration för skolhuvudmännen.",
+   "oppen_kod": "administration trendmätning",
+   "beskrivning": "Trendmätningarna riskerar att ge administrativ börda för huvudmännen."
+  },
+  {
+   "uid": "U331",
+   "id": "sveriges-kommuner-och-regioner#46",
+   "citat": "Med tanke på att flera reformer som påverkar varandra ska genomföras samtidigt och det förarbete som behövs för en god implementering bedöms den föreslagna tidplanen inte vara realistisk.",
+   "oppen_kod": "orealistisk tidplan",
+   "beskrivning": "Samtidiga reformer och förarbete gör tidplanen orealistisk."
+  },
+  {
+   "uid": "U332",
+   "id": "sveriges-kommuner-och-regioner#46",
+   "citat": "En sådan är om det uppstår komplikationer med att utforma slutproven enligt alla önskemål till systemet införande. Detta kan bl.a. ses i ljuset av införandet av digitala nationella prov.",
+   "oppen_kod": "risk för förseningar av slutprov",
+   "beskrivning": "Komplikationer vid framtagandet av digitala slutprov kan störa införandet."
+  },
+  {
+   "uid": "U333",
+   "id": "sveriges-kommuner-och-regioner#47",
+   "citat": "för att modellen ska få legitimitet är det därför avgörande att omfattande informationsinsatser genomförs till elever, vårdnadshavare och personal i skolan.",
+   "oppen_kod": "behov av informationsinsatser",
+   "beskrivning": "Komplex modell kräver omfattande information till elever, vårdnadshavare och personal."
+  },
+  {
+   "uid": "U334",
+   "id": "sveriges-kommuner-och-regioner#48",
+   "citat": "Konsekvenser av ett ökat antal prov för elever och lärare är inte tillräckligt beskrivet",
+   "oppen_kod": "ökad provbelastning för lärare",
+   "beskrivning": "Fler prov kan öka lärares och elevers belastning."
+  },
+  {
+   "uid": "U335",
+   "id": "sveriges-kommuner-och-regioner#48",
+   "citat": "SKR menar att det nya betygssystemet också kommer att kräva en omfattande utveckling av de antagningssystem som används till gymnasieskolan.",
+   "oppen_kod": "utveckling av antagningssystem",
+   "beskrivning": "Antagningssystemen för gymnasiet måste utvecklas omfattande."
+  },
+  {
+   "uid": "U336",
+   "id": "sveriges-kommuner-och-regioner#48",
+   "citat": "Detta kommer sammantaget att medföra ökade kostnader. SKR menar att skolhuvudmännen behöver kompenseras för dessa kostnadsökningar om det nya betygssystemet införs.",
+   "oppen_kod": "kostnad antagningssystem",
+   "beskrivning": "Anpassning av antagningssystem ger ökade kostnader för huvudmännen."
+  },
+  {
+   "uid": "U337",
+   "id": "sveriges-kommuner-och-regioner#48",
+   "citat": "Här kan konsekvensen bli att undervisning i vissa ämnen hämmas samtidigt som undervisningen i de ämnen som omfattas av nationella prov premieras.",
+   "oppen_kod": "ämnesobalans i undervisningen",
+   "beskrivning": "Gymnasieskolans undervisning kan snedvridas mot provämnen."
+  },
+  {
+   "uid": "U338",
+   "id": "sveriges-kommuner-och-regioner#49",
+   "citat": "beräkningar är för högt räknade då även slutprov kommer att kräva hantering lokalt.",
+   "oppen_kod": "lokal hantering av slutprov",
+   "beskrivning": "Slutproven kräver lokal hantering, så besparingen blir mindre."
+  },
+  {
+   "uid": "U339",
+   "id": "sveriges-kommuner-och-regioner#49",
+   "citat": "Inledningsvis kommer tid och därmed kostnader för personal snarare att behöva läggas på att implementera utredningens alla förslag, och först på flera års sikt kan en eventuell kostnadsneutralitet uppnås.",
+   "oppen_kod": "personalkostnader vid implementering",
+   "beskrivning": "Implementeringen kräver personaltid och kostnader de första åren."
+  },
+  {
+   "uid": "U340",
+   "id": "sveriges-kommuner-och-regioner#54",
+   "citat": "Detta kommer att fordra omfattande insatser för förberedelse och implementering för att bli framgångsrik.",
+   "oppen_kod": "omfattande implementeringsinsatser",
+   "beskrivning": "Införandet kräver omfattande förberedelse- och implementeringsinsatser."
+  },
+  {
+   "uid": "U341",
+   "id": "goteborgs-kommun#3",
+   "citat": "Andra uppenbara risker är att införandet av nationella slutprov kan få oönskade konsekvenser för undervisningen och skapa ökad stress hos elever, att den föreslagna modellen inte är anpassad efter Komvux särskilda förutsättningar, att antagningen till gymnasieskolan förskjuts vilket påverkar såväl elever som huvudmännens möjligheter att organisera verksamheten samt att den tidplan för införande som anges i utredningen är alltför snäv.",
+   "oppen_kod": "flera implementeringsrisker",
+   "beskrivning": "Komvux, förskjuten antagning och snäv tidplan försvårar huvudmannens organisering."
+  },
+  {
+   "uid": "U342",
+   "id": "goteborgs-kommun#3",
+   "citat": "Enligt utredningens beräkningar skulle förslagen innebära att de statliga anslagen till kommunerna minskar med 361,5 mnkr kronor per år, vilket för Göteborgs Stads del skulle innebära minskade statliga anslag med cirka 20 mnkr per år.",
+   "oppen_kod": "minskade statliga anslag",
+   "beskrivning": "Kommunen förlorar statliga anslag trots ökade kostnader."
+  },
+  {
+   "uid": "U343",
+   "id": "goteborgs-kommun#3",
+   "citat": "Ur ett ekonomiskt perspektiv bedömer Göteborgs Stad att utredningen underskattat de konsekvenser förslagen medför för skolans huvudmän.",
+   "oppen_kod": "underskattade kostnader",
+   "beskrivning": "De ekonomiska konsekvenserna för huvudmännen är underskattade."
+  },
+  {
+   "uid": "U344",
+   "id": "goteborgs-kommun#3",
+   "citat": "När nuvarande nationella prov inte längre kommer att kunna användas i bedömningssyfte kommer det att uppstå ett behov att ta fram egna alternativa prov som bedömningsstöd.",
+   "oppen_kod": "behov av egna prov",
+   "beskrivning": "Skolorna behöver ta fram egna prov som bedömningsstöd."
+  },
+  {
+   "uid": "U345",
+   "id": "goteborgs-kommun#3",
+   "citat": "Dessutom kommer betydande insatser att behöva genomföras inom en rad områden som fortbildning, information till personal, elever och vårdnadshavare, anpassning av verksamhetssystem samt utveckling av rutiner och arbetssätt. Samtliga insatser kommer att ta både tid och ekonomiska resurser i anspråk.",
+   "oppen_kod": "resurskrävande implementering",
+   "beskrivning": "Fortbildning, information, verksamhetssystem och rutiner kräver tid och pengar."
+  },
+  {
+   "uid": "U346",
+   "id": "goteborgs-kommun#5",
+   "citat": "Därtill medför förslagen ett behov av att anpassa arbetet kring gymnasieantagningen vilket i slutändan innebär kostnader som kommer att belasta skolans huvudmän.",
+   "oppen_kod": "kostnad gymnasieantagning",
+   "beskrivning": "Anpassad gymnasieantagning medför kostnader för huvudmännen."
+  },
+  {
+   "uid": "U347",
+   "id": "goteborgs-kommun#5",
+   "citat": "Göteborgs Stad kan konstatera att ett stort antal reformer inom skolans område är planerade att genomföras under perioden 2028-2030 vilket kommer att ställa stora krav på samtliga skolhuvudmän.",
+   "oppen_kod": "reformträngsel",
+   "beskrivning": "Många samtidiga reformer ställer stora krav på huvudmännen."
+  },
+  {
+   "uid": "U348",
+   "id": "goteborgs-kommun#5",
+   "citat": "Utifrån vad som framkommer i de betänkanden som är presenterade kommer inte kommunsektorn kompenseras för de ökade kostnader som den ökade arbetsbelastningen medför.",
+   "oppen_kod": "ofinansierade reformer",
+   "beskrivning": "Kommunerna kompenseras inte för ökade kostnader."
+  },
+  {
+   "uid": "U349",
+   "id": "goteborgs-kommun#6",
+   "citat": "För att denna oförutsägbarhet inte ska komma att påverka legitimiteten för det nya betygssystemet krävs det omfattande information om hur systemet fungerar men även tydlig återkoppling till eleverna som förklarar vad som ligger till grund för det meritvärde eleven fått.",
+   "oppen_kod": "behov av informationsinsatser",
+   "beskrivning": "Svårförståelig kalibrering kräver omfattande information och återkoppling."
+  },
+  {
+   "uid": "U350",
+   "id": "goteborgs-kommun#7",
+   "citat": "Göteborgs Stad ser dock att det finns utmaningar med att säkerställa den höga grad av konsekvent betygsättning som krävs för att enskilda elever inte ska riskera att bli missgynnade i den föreslagna modellen.",
+   "oppen_kod": "krav på konsekvent betygsättning",
+   "beskrivning": "Skolorna måste säkerställa mycket konsekvent betygsättning."
+  },
+  {
+   "uid": "U351",
+   "id": "goteborgs-kommun#7",
+   "citat": "Göteborgs Stads bedömning är att elevernas meritvärden i allt för hög grad kan komma att påverkas av enskilda elevers provresultat på mindre skolor.",
+   "oppen_kod": "kalibrering på små skolor",
+   "beskrivning": "Kalibreringen blir osäker på små skolor."
+  },
+  {
+   "uid": "U352",
+   "id": "goteborgs-kommun#7",
+   "citat": "I förlängningen kan detta påverka såväl elevernas ämnesval som skolornas resursfördelning.",
+   "oppen_kod": "snedvriden resursfördelning",
+   "beskrivning": "Skolornas resursfördelning kan snedvridas mot provämnen."
+  },
+  {
+   "uid": "U353",
+   "id": "goteborgs-kommun#8",
+   "citat": "Detta innebär att antagningsprocessen till gymnasieskolan behöver förskjutas vilket i sin tur innebär att eleverna behöver vänta längre på sina antagningsbesked och att skolornas organisationsplanering försenas.",
+   "oppen_kod": "försenad organisationsplanering",
+   "beskrivning": "Förskjuten antagning försenar skolornas organisationsplanering."
+  },
+  {
+   "uid": "U354",
+   "id": "goteborgs-kommun#8",
+   "citat": "Göteborgs Stad bedömer att utredningen inte har beaktat vilka konsekvenser utredningens förslag får för antagningsarbetet till gymnasieskolan och efterfrågar vidare utredning av detta.",
+   "oppen_kod": "oklara konsekvenser för antagning",
+   "beskrivning": "Konsekvenserna för antagningsarbetet är outredda."
+  },
+  {
+   "uid": "U355",
+   "id": "goteborgs-kommun#8",
+   "citat": "Detta innebär att nyttan med att genomföra en preliminärantagning begränsas.",
+   "oppen_kod": "preliminärantagning försvagas",
+   "beskrivning": "Preliminärantagningen blir mindre användbar."
+  },
+  {
+   "uid": "U356",
+   "id": "goteborgs-kommun#8",
+   "citat": "Den allvarligaste bristen i utredningens förslag gällande meritvärdering inom Komvux är dock att förslagen utgår från läsårsbundna skolformer och inte från de särskilda förutsättningar Komvux har.",
+   "oppen_kod": "systemet ej anpassat för komvux",
+   "beskrivning": "Förslaget utgår från läsårsbundna skolformer, inte komvux."
+  },
+  {
+   "uid": "U357",
+   "id": "goteborgs-kommun#10",
+   "citat": "Utredningens förslag om att elevernas meritvärde enbart ska baseras på resultaten i de nationella slutproven samtidigt som det endast ska erbjudas två ordinarie provtillfällen per läsår kommer att vara starkt begränsande för Komvux möjligheter att erbjuda en flexibel och kontinuerlig utbildning under året.",
+   "oppen_kod": "provtillfällen passar ej komvux",
+   "beskrivning": "Två provtillfällen per år begränsar komvux flexibla utbildning."
+  },
+  {
+   "uid": "U358",
+   "id": "goteborgs-kommun#10",
+   "citat": "Göteborgs Stad bedömer att utredningens förslag i förlängningen kommer att kräva en helt ny organisering av Komvux.",
+   "oppen_kod": "omorganisering av komvux",
+   "beskrivning": "Komvux måste organiseras om helt."
+  },
+  {
+   "uid": "U359",
+   "id": "goteborgs-kommun#10",
+   "citat": "Komvux förmåga att starta och genomföra utbildningar efter individers och arbetsmarknadens behov kommer därmed att minska avsevärt.",
+   "oppen_kod": "komvux flexibilitet minskar",
+   "beskrivning": "Komvux förmåga att anpassa utbildningar till behov minskar."
+  },
+  {
+   "uid": "U360",
+   "id": "goteborgs-kommun#10",
+   "citat": "det innebär även att Komvux uppgift att utgöra en annan och en andra chans för elever som av någon anledning inte lyckats med sina studier på gymnasiet försvåras.",
+   "oppen_kod": "komvux uppdrag försvåras",
+   "beskrivning": "Komvux andra-chansuppdrag försvåras av begränsad prövning."
+  },
+  {
+   "uid": "U361",
+   "id": "goteborgs-kommun#13",
+   "citat": "I en stor kommun som Göteborg kommer organiseringen av slutprov att kräva hög grad av logistik och planering för att samtliga elever ska kunna genomföra sina prov samtidigt. För att genomföra proven krävs tillgång till lämpliga lokaler, utrustning och personal i en omfattning som utgör en reell utmaning.",
+   "oppen_kod": "logistik för slutprov",
+   "beskrivning": "Samtidiga slutprov kräver lokaler, utrustning och personal i stor omfattning."
+  },
+  {
+   "uid": "U362",
+   "id": "goteborgs-kommun#13",
+   "citat": "Göteborgs Stad ser här att det finns behov av tydliga rutiner och statligt stöd för att säkerställa provsäkerheten.",
+   "oppen_kod": "provsäkerhet och fusk",
+   "beskrivning": "Ökade fuskincitament kräver rutiner och stöd för provsäkerhet."
+  },
+  {
+   "uid": "U363",
+   "id": "goteborgs-kommun#14",
+   "citat": "Av samma anledning finns det behov att klargöra vem som ska ansvara för utredning av eventuellt fusk under slutproven.",
+   "oppen_kod": "oklart ansvar för fuskutredning",
+   "beskrivning": "Det är oklart vem som ansvarar för att utreda fusk."
+  },
+  {
+   "uid": "U364",
+   "id": "goteborgs-kommun#14",
+   "citat": "Sammantaget ser Göteborgs Stad att den föreslagna ordningen för de nationella slutproven kommer att ställa stora krav på utbildningsanordnarna och staden gör bedömningen att de behöver få stöd i form av statsbidrag eller annan ersättning för att hantera provorganisationen.",
+   "oppen_kod": "kostnad för provorganisation",
+   "beskrivning": "Provorganisationen kräver resurser som behöver ersättas."
+  },
+  {
+   "uid": "U365",
+   "id": "goteborgs-kommun#14",
+   "citat": "Sammantaget kommer detta att försvåra enheternas analysarbete och på sikt vara negativt för den löpande undervisningsutvecklingen.",
+   "oppen_kod": "försvårat analysarbete",
+   "beskrivning": "Utan individresultat försvåras skolornas analys och kvalitetsarbete."
+  },
+  {
+   "uid": "U366",
+   "id": "goteborgs-kommun#14",
+   "citat": "Den minskade arbetsbörda för lärare som central rättning av nationella slutprov medför kan därför bli betydligt mindre än vad utredningen bedömer.",
+   "oppen_kod": "egna prov ökar lärares arbete",
+   "beskrivning": "Lärares arbetsbörda minskar mindre än utredningen tror."
+  },
+  {
+   "uid": "U367",
+   "id": "goteborgs-kommun#14",
+   "citat": "Göteborgs Stad bedömer att den snäva tidsplan för införande som föreslås i utredningen medför stora utmaningar.",
+   "oppen_kod": "snäv tidplan",
+   "beskrivning": "Den snäva tidsplanen medför stora utmaningar."
+  },
+  {
+   "uid": "U368",
+   "id": "goteborgs-kommun#15",
+   "citat": "Detta innebär att tre betygssystem under en period behöver tillämpas parallellt inom gymnasieskolan och kommunal vuxenutbildning",
+   "oppen_kod": "parallella betygssystem",
+   "beskrivning": "Tre betygssystem måste hanteras parallellt."
+  },
+  {
+   "uid": "U369",
+   "id": "goteborgs-kommun#15",
+   "citat": "Varje reform kräver tid för omställning och det finns en risk att reformerna inte går att genomföra med tillfredställande kvalitet om allt ska ske samtidigt.",
+   "oppen_kod": "reformträngsel",
+   "beskrivning": "Samtidiga reformer riskerar att genomföras med låg kvalitet."
+  },
+  {
+   "uid": "U370",
+   "id": "goteborgs-kommun#15",
+   "citat": "Huvudmännen behöver avsätta tid och resurser för kompetensutveckling av personal samt justeringar i studieadministrativa system och beslutsstöd för att de ska kunna hantera de nya betygen.",
+   "oppen_kod": "kompetensutveckling och IT-system",
+   "beskrivning": "Huvudmännen behöver resurser för kompetensutveckling och anpassning av studieadministrativa system."
+  },
+  {
+   "uid": "U371",
+   "id": "goteborgs-kommun#16",
+   "citat": "Ett omfattande implementerings- och informationsarbete behöver därför genomföras av samtliga skolans aktörer.",
+   "oppen_kod": "behov av informationsinsatser",
+   "beskrivning": "Omfattande implementerings- och informationsarbete krävs."
+  },
+  {
+   "uid": "U372",
+   "id": "goteborgs-kommun#16",
+   "citat": "Den snäva tidsplan för införande som föreslås i utredningen medger inte utrymme för anpassningar om någon av delarna i förslagen försenas.",
+   "oppen_kod": "snäv tidplan",
+   "beskrivning": "Tidsplanen saknar marginal för förseningar."
+  },
+  {
+   "uid": "U373",
+   "id": "goteborgs-kommun#16",
+   "citat": "När väl de nationella slutproven är införda är det bara inom grund- och gymnasieskolan över en miljon prov som ska hanteras under kort tid vilket innebär att även små störningar kan komma att få stora konsekvenser.",
+   "oppen_kod": "störningskänsligt provgenomförande",
+   "beskrivning": "Stora provvolymer gör genomförandet sårbart för störningar."
+  },
+  {
+   "uid": "U374",
+   "id": "goteborgs-kommun#20",
+   "citat": "Vi konstaterar därutöver att ett nytt betygssystem bara är en av ett flertal reformer inom skolområdet som regeringen föreslår utan tillkommande finansiering, vilket kommer innebära påfrestningar på en redan hårt belastad yrkeskår.",
+   "oppen_kod": "ofinansierade reformer",
+   "beskrivning": "Ofinansierade reformer belastar lärarkåren."
+  },
+  {
+   "uid": "U375",
+   "id": "vimmerby-kommun#4",
+   "citat": "Samtidigt kommer lärarna behöva lägga tid på att genomföra egna prov för bedömning, samt genomföra de föreslagna bedömningssamråden.",
+   "oppen_kod": "lärartid för prov och samråd",
+   "beskrivning": "Lärare behöver tid för egna prov och bedömningssamråd."
+  },
+  {
+   "uid": "U376",
+   "id": "vimmerby-kommun#5",
+   "citat": "Skolorna kommer därmed behöva ha en ytterligare beredskap, kunskap och stöd i hur man kan jobba med dessa problem.",
+   "oppen_kod": "beredskap för elevstress",
+   "beskrivning": "Skolorna behöver kunskap och stöd för att hantera prestationsstress."
+  },
+  {
+   "uid": "U377",
+   "id": "vimmerby-kommun#5",
+   "citat": "Vad gäller förslaget kring hur betygskriterier och bedömningen ska gå till så kommer det visserligen leda till minskad dokumentation, men samtidigt minska underlaget för det systematiska kvalitetsarbetet.",
+   "oppen_kod": "försvagat kvalitetsarbete",
+   "beskrivning": "Underlaget för huvudmannens systematiska kvalitetsarbete minskar."
+  },
+  {
+   "uid": "U378",
+   "id": "vimmerby-kommun#5",
+   "citat": "Risken finns att det kommer leda till uppkomsten av en massa annan dokumentation.",
+   "oppen_kod": "ny dokumentationsbörda",
+   "beskrivning": "Krav på kvalitetsarbete kan skapa ny dokumentation."
+  },
+  {
+   "uid": "U379",
+   "id": "vimmerby-kommun#5",
+   "citat": "Fler betygssteg upplevs av lärarna kunna bidra till att det blir svårare att sätta rättvisa och likvärdiga betyg.",
+   "oppen_kod": "svårare betygssättning",
+   "beskrivning": "Fler betygssteg gör betygssättningen svårare för lärarna."
+  },
+  {
+   "uid": "U380",
+   "id": "vimmerby-kommun#6",
+   "citat": "Vidare kan vårdnadshavares förtroende för skolan minska, då den komplicerade meritvärdeskalibreringen och osäkerheten kring antagning gör att skolan inte kan ge någon tydlig information till vårdnadshavarna.",
+   "oppen_kod": "svårt att informera vårdnadshavare",
+   "beskrivning": "Skolan kan inte ge tydlig information om kalibreringen."
+  },
+  {
+   "uid": "U381",
+   "id": "vimmerby-kommun#8",
+   "citat": "För komvux del innebär förslaget om att de nationella slutproven genomförs vid bestämda tidpunkter och vid ett fåtal tillfällen att den flexibilitet som utmärker komvux minskar.",
+   "oppen_kod": "provtillfällen passar ej komvux",
+   "beskrivning": "Fasta provtillfällen minskar komvux flexibilitet."
+  },
+  {
+   "uid": "U382",
+   "id": "vimmerby-kommun#9",
+   "citat": "Detta kan leda till minskad status för yrket om syftet med förslagen enligt ovan inte kommuniceras tillräckligt tydligt.",
+   "oppen_kod": "minskad läraryrkesstatus",
+   "beskrivning": "Lärarnas status i komvux kan minska."
+  },
+  {
+   "uid": "U383",
+   "id": "vimmerby-kommun#10",
+   "citat": "Lärarna vill lyfta en oro kring att det kommer ta mycket tid för lärarna att skapa en samsyn kring en tiogradig betygsskala i varje ämne, vilket riskerar att ta tid från undervisningen.",
+   "oppen_kod": "tidskrävande samsyn",
+   "beskrivning": "Samsyn kring tiogradig skala tar lärartid."
+  },
+  {
+   "uid": "U384",
+   "id": "vimmerby-kommun#12",
+   "citat": "Vad gäller själva genomförandet så vill vi lyfta att det är viktigt att säkerställa att förutsättningarna finns för att centralt hinna rätta och återkoppla resultaten inom den korta tidsperiod som är från läsårets slut till antagningen.",
+   "oppen_kod": "kort tid rättning före antagning",
+   "beskrivning": "Kort tid mellan läsårsslut och antagning för rättning och återkoppling."
+  },
+  {
+   "uid": "U385",
+   "id": "vimmerby-kommun#12",
+   "citat": "Vidare behöver de tekniska förutsättningarna finnas för att kunna genomföra slutproven digitalt på skolorna. Provplattformen som togs fram för de nationella proven har ju inte fungerat tillfredsställande, minst sagt.",
+   "oppen_kod": "bristande provplattform",
+   "beskrivning": "Tekniska förutsättningar och provplattform för digitala slutprov är osäkra."
+  },
+  {
+   "uid": "U386",
+   "id": "vimmerby-kommun#12",
+   "citat": "Nuvarande verktyg har lett till en ökad arbetsbelastning för både rektorer, administratörer och lärare.",
+   "oppen_kod": "administrativ börda digitala prov",
+   "beskrivning": "Digitala provverktyg ökar arbetsbelastningen för skolans personal."
+  },
+  {
+   "uid": "U387",
+   "id": "vimmerby-kommun#12",
+   "citat": "Vi anser att det kan blir svårt att hinna ta fram och implementera alla förändringar under den korta tidsperiod som är föreslagen.",
+   "oppen_kod": "kort tid för införande",
+   "beskrivning": "Det blir svårt att hinna implementera förändringarna."
+  },
+  {
+   "uid": "U388",
+   "id": "vimmerby-kommun#13",
+   "citat": "Förslaget att finansiera förändringarna genom minskade statsbidrag kommer få som konsekvens att skolorna behöver göra neddragningar.",
+   "oppen_kod": "minskade statsbidrag",
+   "beskrivning": "Minskade statsbidrag tvingar skolorna till neddragningar."
+  },
+  {
+   "uid": "U389",
+   "id": "vimmerby-kommun#13",
+   "citat": "Följden kan bli större elevgrupper eller minskad personal för stöd.",
+   "oppen_kod": "större grupper och mindre stöd",
+   "beskrivning": "Neddragningar kan ge större elevgrupper och mindre stödpersonal."
+  },
+  {
+   "uid": "U390",
+   "id": "katrineholms-kommun#10",
+   "citat": "Införandet av kalibrering bedöms kunna bidra till ökad rättssäkerhet i betygssättningen, men kräver en hög grad av samarbete och samråd mellan lärare på både ämnes- och skolnivå.",
+   "oppen_kod": "krav på lärarsamverkan",
+   "beskrivning": "Kalibreringen kräver omfattande samarbete mellan lärare."
+  },
+  {
+   "uid": "U391",
+   "id": "katrineholms-kommun#10",
+   "citat": "Initialt bedöms arbetsbördan för lärarna öka och lärarens roll i betygssättningen riskerar att bli otydlig; något som i förlängningen kan påverka läraryrkets status.",
+   "oppen_kod": "ökad arbetsbörda för lärare",
+   "beskrivning": "Lärarnas arbetsbörda ökar och deras roll blir otydlig."
+  },
+  {
+   "uid": "U392",
+   "id": "katrineholms-kommun#10",
+   "citat": "Utredningens förslag kan även medföra pedagogiska och kommunikativa utmaningar, särskilt i dialogen med elever och vårdnadshavare.",
+   "oppen_kod": "kommunikation med vårdnadshavare",
+   "beskrivning": "Skolan får kommunikativa utmaningar med elever och vårdnadshavare."
+  },
+  {
+   "uid": "U393",
+   "id": "katrineholms-kommun#10",
+   "citat": "Tidsramen för slutprov, kalibrering och betygssättning är också oklar. Det väcker frågor om hur studie- och yrkesvägledare ska kunna stödja elevernas gymnasieval när de endast har tillgång till lärarbedömda betygsvärden inför valen.",
+   "oppen_kod": "försvårad studievägledning",
+   "beskrivning": "Oklar tidsram försvårar studie- och yrkesvägledningen."
+  },
+  {
+   "uid": "U394",
+   "id": "katrineholms-kommun#11",
+   "citat": "Särskilt mindre skolor, med få ämneskollegor, kommer att behöva stöd genom centralt organiserade samråd. Detta ansvar bör inte ligga enbart på rektor utan delas av huvudmannen.",
+   "oppen_kod": "bedömningssamråd på små skolor",
+   "beskrivning": "Små skolor behöver huvudmannaorganiserade samråd."
+  },
+  {
+   "uid": "U395",
+   "id": "katrineholms-kommun#11",
+   "citat": "Detta betyder att förslaget om krav på samråd kommer kräva organisatoriska förändringar som kan vara kostnadsdrivande för huvudmannen.",
+   "oppen_kod": "kostnad för bedömningssamråd",
+   "beskrivning": "Samråd kräver organisatoriska förändringar som driver kostnader."
+  },
+  {
+   "uid": "U396",
+   "id": "katrineholms-kommun#11",
+   "citat": "Det är dock viktigt att beakta att samråden kommer ta en hel del tid i anspråk från en lärarkår där tidsbrist redan är ett etablerat faktum.",
+   "oppen_kod": "lärartid för samråd",
+   "beskrivning": "Samråden tar tid från en redan tidspressad lärarkår."
+  },
+  {
+   "uid": "U397",
+   "id": "katrineholms-kommun#11",
+   "citat": "Bedömningen är att slutproven kan bidra till ökad likvärdighet, men att genomförandet riskerar att bli administrativt betungande och kostsamt.",
+   "oppen_kod": "administrativ börda slutprov",
+   "beskrivning": "Slutprovens genomförande blir administrativt betungande och kostsamt."
+  },
+  {
+   "uid": "U398",
+   "id": "katrineholms-kommun#11",
+   "citat": "En rad tekniska lösningar behöver utvecklas och implementeras och erfarenheterna från digitala nationella prov visar med all tydlighet svårigheten och komplexiteten i att få liknande system på plats.",
+   "oppen_kod": "tekniska lösningar för prov",
+   "beskrivning": "Tekniska lösningar är svåra att få på plats."
+  },
+  {
+   "uid": "U399",
+   "id": "katrineholms-kommun#11",
+   "citat": "Vidare delar inte Katrineholm utredningens uppfattning att den centrala rättningen i sig kompenserar för den ökade arbetsbördan som kalibrering och samråd innebär.",
+   "oppen_kod": "ökad arbetsbörda för lärare",
+   "beskrivning": "Kalibrering och samråd ökar arbetsbördan mer än central rättning sparar."
+  },
+  {
+   "uid": "U400",
+   "id": "katrineholms-kommun#11",
+   "citat": "För att reformen ska bli framgångsrik är bedömningen att det krävs att medel tillförs huvudmännen snarare än att resurser omfördelas till staten.",
+   "oppen_kod": "behov av statlig finansiering",
+   "beskrivning": "Huvudmännen behöver tillföras medel i stället för att resurser flyttas till staten."
+  },
+  {
+   "uid": "U401",
+   "id": "katrineholms-kommun#11",
+   "citat": "Detta kan innebära att elever söker vissa ämnen under vissa perioder varje år för att matcha tiden för slutproven, vilket troligtvis kan leda till söktoppar för perioder i ämnen där slutprov ges.",
+   "oppen_kod": "söktoppar i komvux",
+   "beskrivning": "Komvux kan få ojämna söktoppar kring slutprovsperioder."
+  },
+  {
+   "uid": "U402",
+   "id": "katrineholms-kommun#12",
+   "citat": "För komvux del behöver troligtvis en organisation för nationella slutprov byggas upp.",
+   "oppen_kod": "provorganisation i komvux",
+   "beskrivning": "Komvux behöver bygga upp en organisation för slutprov."
+  },
+  {
+   "uid": "U403",
+   "id": "katrineholms-kommun#12",
+   "citat": "Däremot kanske antalet elever som vill genomföra slutprov på komvux kommer öka eftersom poängen vid nationella slutprov blir avgörande vid ansökan till högre utbildning. Detta är något som behöver tas i beaktande när komvux organiserar inför nationella slutprov.",
+   "oppen_kod": "fler slutprovsskrivare i komvux",
+   "beskrivning": "Fler elever kan vilja skriva slutprov på komvux, vilket kräver planering."
+  },
+  {
+   "uid": "U404",
+   "id": "katrineholms-kommun#12",
+   "citat": "Däremot kommer det alltid behövas arbete med bedömningsfrågor i syfte att utveckla lärarnas bedömningskompetens",
+   "oppen_kod": "behov av bedömningskompetens",
+   "beskrivning": "Komvux behöver fortsatt utveckla lärarnas bedömningskompetens."
+  },
+  {
+   "uid": "U405",
+   "id": "katrineholms-kommun#13",
+   "citat": "Vissa lärare inom komvux blir ofta ensamma i sitt ämne och får således ingen att diskutera och arbeta med när det gäller bedömningsfrågor i ämnet.",
+   "oppen_kod": "ensamlärare i komvux",
+   "beskrivning": "Ensamma lärare i komvux saknar kollegor för bedömningsarbete."
+  },
+  {
+   "uid": "U406",
+   "id": "katrineholms-kommun#13",
+   "citat": "Avslutningsvis anser Katrineholm att den föreslagna tidplanen för stegvis införande är, trots intentionen, mycket snäv.",
+   "oppen_kod": "snäv tidplan",
+   "beskrivning": "Tidplanen för införandet är mycket snäv."
+  },
+  {
+   "uid": "U407",
+   "id": "katrineholms-kommun#13",
+   "citat": "Förslagen innebär genomgripande förändringar för skolorganisationer och lärare och kräver omfattande informations- och utbildningsinsatser.",
+   "oppen_kod": "behov av informations- och utbildningsinsatser",
+   "beskrivning": "Förändringarna kräver omfattande information och utbildning."
+  },
+  {
+   "uid": "U408",
+   "id": "katrineholms-kommun#13",
+   "citat": "Det finns därför en påtaglig risk att implementeringar krockar och leder till överbelastning i verksamheterna samt att det blir övermäktigt för skolorganisationer att hinna med.",
+   "oppen_kod": "reformträngsel",
+   "beskrivning": "Krockande implementeringar riskerar att överbelasta verksamheterna."
+  },
+  {
+   "uid": "U409",
+   "id": "katrineholms-kommun#13",
+   "citat": "Skolhuvudmännen måste ges kompensation och rimliga förutsättningar för att säkerställa ett likvärdigt och hållbart införande.",
+   "oppen_kod": "behov av statlig finansiering",
+   "beskrivning": "Huvudmännen behöver kompensation för införandet."
+  },
+  {
+   "uid": "U410",
+   "id": "varbergs-kommun#5",
+   "citat": "Samtidigt finns frågor kring tidsåtgången för implementeringen och vilket implementeringsstöd som kommer att ges till samtliga målgrupper.",
+   "oppen_kod": "oklart implementeringsstöd",
+   "beskrivning": "Oklart vilken tid och vilket stöd implementeringen kräver."
+  },
+  {
+   "uid": "U411",
+   "id": "varbergs-kommun#5",
+   "citat": "Ett förändrat betygssystem måste åtföljas av omfattande stödmaterial från skolmyndigheterna, kontinuerlig",
+   "oppen_kod": "behov av stödmaterial",
+   "beskrivning": "Huvudmännen behöver omfattande stödmaterial."
+  },
+  {
+   "uid": "U412",
+   "id": "varbergs-kommun#6",
+   "citat": "kompetensutveckling för lärare och rektorer inför och under implementeringen samt information till elever och vårdnadshavare.",
+   "oppen_kod": "behov av kompetensutveckling",
+   "beskrivning": "Lärare och rektorer behöver kompetensutveckling och elever/vårdnadshavare information."
+  },
+  {
+   "uid": "U413",
+   "id": "varbergs-kommun#6",
+   "citat": "Därför anses att ikraftträdandet ska senareläggas för att ge professionen och verksamheterna möjlighet att förstå förändringen och kunna tillämpa det nya systemet på ett rättssäkert sätt.",
+   "oppen_kod": "kort tid för införande",
+   "beskrivning": "Verksamheterna behöver mer tid för att förstå och tillämpa systemet."
+  },
+  {
+   "uid": "U414",
+   "id": "varbergs-kommun#7",
+   "citat": "Detta för att elevernas kunskaper inte ska bedömas utifrån två skilda betygssystem under grundskoletiden.",
+   "oppen_kod": "parallella betygssystem",
+   "beskrivning": "Två betygssystem under samma grundskoletid ska undvikas."
+  },
+  {
+   "uid": "U415",
+   "id": "varbergs-kommun#7",
+   "citat": "Ett förändrat system måste åtföljas av en tydlig kommunikationsinsats och fortbildning för att skapa förståelse och tillit bland såväl elever som personal.",
+   "oppen_kod": "behov av informations- och utbildningsinsatser",
+   "beskrivning": "Kommunikation och fortbildning krävs för förståelse och tillit."
+  },
+  {
+   "uid": "U416",
+   "id": "varbergs-kommun#9",
+   "citat": "Bland annat förändras förutsättningarna för kompletteringar och meritvärdering, vilket kräver nya rutiner och digitala lösningar.",
+   "oppen_kod": "nya rutiner och IT i komvux",
+   "beskrivning": "Komvux behöver nya rutiner och digitala lösningar."
+  },
+  {
+   "uid": "U417",
+   "id": "varbergs-kommun#9",
+   "citat": "Utbildnings- och arbetsmarknadsförvaltningen ser behov av stöd från statlig nivå för implementeringen, särskilt vad gäller ITstöd och lärarfortbildning.",
+   "oppen_kod": "behov av IT-stöd och fortbildning",
+   "beskrivning": "Statligt stöd behövs för IT och lärarfortbildning."
+  },
+  {
+   "uid": "U418",
+   "id": "varbergs-kommun#9",
+   "citat": "En ny skala och förändrade kriterier ställer höga krav på tydlig kommunikation och lättillgängligt informationsmaterial.",
+   "oppen_kod": "behov av informationsinsatser",
+   "beskrivning": "Ny skala kräver tydlig kommunikation och informationsmaterial."
+  },
+  {
+   "uid": "U419",
+   "id": "varbergs-kommun#9",
+   "citat": "Ett nytt system där meritvärden kombinerar betyg och provresultat kommer att kräva anpassningar av antagningssystemen.",
+   "oppen_kod": "utveckling av antagningssystem",
+   "beskrivning": "Antagningssystemen måste anpassas."
+  },
+  {
+   "uid": "U420",
+   "id": "varbergs-kommun#9",
+   "citat": "Det finns en risk att centralt rättade prov och nya bedömningsrutiner kan fördröja besked om antagning",
+   "oppen_kod": "senarelagd gymnasieantagning",
+   "beskrivning": "Antagningsbesked kan fördröjas."
+  },
+  {
+   "uid": "U421",
+   "id": "varbergs-kommun#9",
+   "citat": "Ekonomiska och resursmässiga konsekvenser för kommunerna för att kunna implementera förslagen bör utredas vidare.",
+   "oppen_kod": "outredda kostnader",
+   "beskrivning": "Kommunernas kostnader för implementeringen är outredda."
+  },
+  {
+   "uid": "U422",
+   "id": "varbergs-kommun#9",
+   "citat": "Det är i nuläget oklart om vuxenstuderande inom Komvux fullt ut kommer att omfattas av digitala, centralt rättade nationella prov.",
+   "oppen_kod": "oklart regelverk komvux",
+   "beskrivning": "Det är oklart hur slutproven ska gälla komvux."
+  },
+  {
+   "uid": "U423",
+   "id": "varbergs-kommun#10",
+   "citat": "Samtidigt finns det en betydande utmaning kopplad till flexibiliteten inom vuxenutbildningen.",
+   "oppen_kod": "provtillfällen passar ej komvux",
+   "beskrivning": "Fasta provtillfällen utmanar komvux flexibilitet."
+  },
+  {
+   "uid": "U424",
+   "id": "varbergs-kommun#10",
+   "citat": "Särskild uppmärksamhet bör också riktas mot yrkeskurser, där nationella prov generellt saknas.",
+   "oppen_kod": "yrkeskurser saknar prov",
+   "beskrivning": "Yrkeskurser utan prov kräver särskild hantering i implementeringen."
+  },
+  {
+   "uid": "U425",
+   "id": "varbergs-kommun#10",
+   "citat": "Utbildnings- och arbetsmarknadsnämnden vill även lyfta att det pågår flera parallella reformer inom skolområdet som på olika sätt tangerar betygsreformen Det är av yttersta vikt att dessa reformer samordnas, både tidsmässigt och innehållsmässigt.",
+   "oppen_kod": "reformträngsel",
+   "beskrivning": "Parallella reformer behöver samordnas."
+  },
+  {
+   "uid": "U426",
+   "id": "tierps-kommun#1",
+   "citat": "Utredningens förslag är mindre transparent än nuvarande system, vilket tillsammans med nya läroplaner och betygskriterier kommer att kräva stora informations- och utbildningsinsatser.",
+   "oppen_kod": "behov av informations- och utbildningsinsatser",
+   "beskrivning": "Mindre transparent system kräver stora informations- och utbildningsinsatser."
+  },
+  {
+   "uid": "U427",
+   "id": "tierps-kommun#1",
+   "citat": "Vår bedömning är att denna förändring är så genomgripande att den tillsammans med en nyligen införd läroplan för gymnasieskolan och en kommande ny läroplan för grundskolan kommer att kräva ett omfattande förändringsarbete och en gedigen fortbildningsinsats.",
+   "oppen_kod": "omfattande fortbildningsbehov",
+   "beskrivning": "Förändringen kräver omfattande förändringsarbete och fortbildning."
+  },
+  {
+   "uid": "U428",
+   "id": "tierps-kommun#2",
+   "citat": "Vi ser också vissa svårigheter med skolans kvalitetsarbete då slutproven rättas och redovisas efter det att skolan har slutat, vilket innebär att den nödvändiga utvärderingen av läsårets arbete inte omfattar meritvärdesutfallet.",
+   "oppen_kod": "försvagat kvalitetsarbete",
+   "beskrivning": "Sena provresultat försvårar skolans utvärdering av läsåret."
+  },
+  {
+   "uid": "U429",
+   "id": "tierps-kommun#2",
+   "citat": "Den största risken med detta förslag är dock Skolverkets oförmåga att leverera en fungerande provplattform med stabilitet och säkerhet.",
+   "oppen_kod": "bristande provplattform",
+   "beskrivning": "Risk att provplattformen inte fungerar stabilt."
+  },
+  {
+   "uid": "U430",
+   "id": "tierps-kommun#2",
+   "citat": "När alla prov koncentreras i tid med ett stort antal elever som samtidigt ska genomföra dessa prov ökar kraven på att plattformen och tekniken fungerar.",
+   "oppen_kod": "störningskänsligt provgenomförande",
+   "beskrivning": "Samtidiga prov ställer höga krav på teknik."
+  },
+  {
+   "uid": "U431",
+   "id": "tierps-kommun#3",
+   "citat": "Förtroendet från alla inblandade parter är nödvändigt för att system ska kunna genomföras på ett effektivt sätt, vilket kommer att kräva ett omfattande informationsarbete.",
+   "oppen_kod": "behov av informationsinsatser",
+   "beskrivning": "Omfattande informationsarbete krävs för förtroende."
+  },
+  {
+   "uid": "U432",
+   "id": "tierps-kommun#3",
+   "citat": "Tierps kommun konstaterar att detta förslag inte överensstämmer med betänkandet Fler vägar till Arbetslivet, vilket måste redas ut.",
+   "oppen_kod": "motstridiga reformförslag",
+   "beskrivning": "Behörighetsreglerna krockar med andra reformförslag."
+  },
+  {
+   "uid": "U433",
+   "id": "tierps-kommun#3",
+   "citat": "Det gör att skolor med ett lägre elevantal och med lärare som är ensamma i sitt ämne hamnar utanför samtalen.",
+   "oppen_kod": "bedömningssamråd på små skolor",
+   "beskrivning": "Små skolor med ensamlärare hamnar utanför samråden."
+  },
+  {
+   "uid": "U434",
+   "id": "tierps-kommun#3",
+   "citat": "Det innebär att antagningen till gymnasieskolan kommer att försenas jämfört med idag.",
+   "oppen_kod": "senarelagd gymnasieantagning",
+   "beskrivning": "Gymnasieantagningen försenas."
+  },
+  {
+   "uid": "U435",
+   "id": "tierps-kommun#4",
+   "citat": "Det nya förslaget innebär också att den preliminära antagningen utifrån höstterminens betyg kan ge en större osäkerhet gällande hur den slutliga antagningen kommer att falla ut då meritvärdesberäkningen inte är klar.",
+   "oppen_kod": "preliminärantagning försvagas",
+   "beskrivning": "Preliminärantagningen blir osäkrare."
+  },
+  {
+   "uid": "U436",
+   "id": "tierps-kommun#4",
+   "citat": "Utredningens förslag innebär inom flera områden genomgripande förändringar som tillsammans med nya läroplaner och en tioårig grundskola innebär betydande påfrestningar för såväl skolhuvudmannen som för lärarna.",
+   "oppen_kod": "reformträngsel",
+   "beskrivning": "Samtidiga reformer innebär betydande påfrestningar för huvudmannen."
+  },
+  {
+   "uid": "U437",
+   "id": "tierps-kommun#4",
+   "citat": "En redan idag ansträngd situation vad gäller ekonomi och arbetsbelastning kommer att kräva omfattande fortbildningsinsatser, ett väl avvägt och utvecklat stöd från Skolverket, ett fungerande och förenklat system för statsbidrag samt ett betydande ekonomiskt tillskott.",
+   "oppen_kod": "ansträngd ekonomi",
+   "beskrivning": "Ansträngd ekonomi kräver fortbildning, stöd och ekonomiskt tillskott."
+  },
+  {
+   "uid": "U438",
+   "id": "ideburna-skolors-riksforbund#7",
+   "citat": "ISR representerar till stor del små skolor, där avgående årskurs 9 kan bestå av en enda klass och ibland med så få som 6-7 elever. Den modell som utredningen föreslår bygger på att det är större skolor med flera klasser, annars kan likvärdigheten inte garanteras.",
+   "oppen_kod": "kalibrering på små skolor",
+   "beskrivning": "Kalibreringsmodellen fungerar dåligt för små fristående skolor."
+  },
+  {
+   "uid": "U439",
+   "id": "ideburna-skolors-riksforbund#7",
+   "citat": "För att säkerställa att de gör en rättvis bedömning är risken stor att de kommer att vilja ha andra prov som bekräftar elevernas kunskaper innan de sätter betyg.",
+   "oppen_kod": "behov av egna prov",
+   "beskrivning": "Lärare kan behöva konstruera fler egna prov."
+  },
+  {
+   "uid": "U440",
+   "id": "ideburna-skolors-riksforbund#8",
+   "citat": "I samband med detta vill vi också påtala vikten av att kostnader för lösningar för att få det nya systemet att fungera, inte landar på de enskilda skolorna.",
+   "oppen_kod": "kostnader för enskilda skolor",
+   "beskrivning": "Risk att kostnader för systemet hamnar på enskilda skolor."
+  },
+  {
+   "uid": "U441",
+   "id": "ideburna-skolors-riksforbund#8",
+   "citat": "Finns det tillräckligt många legitimerade lärare som vill ta på sig uppdraget att rätta nationella prov efter läsårets slut?",
+   "oppen_kod": "lärare för central rättning",
+   "beskrivning": "Osäkert om det finns tillräckligt med legitimerade lärare för rättning."
+  },
+  {
+   "uid": "U442",
+   "id": "ideburna-skolors-riksforbund#8",
+   "citat": "När något är alltför krångligt eller svårbegripligt, påverkar det tilltron hos dem som ska praktisera systemet.",
+   "oppen_kod": "komplext system svårt att tillämpa",
+   "beskrivning": "Ett komplicerat system minskar tilltron hos dem som ska tillämpa det."
+  },
+  {
+   "uid": "U443",
+   "id": "ideburna-skolors-riksforbund#8",
+   "citat": "Vi anser också att tidplanen är alltför optimistisk. Att implementera ett nytt betygssystem, som dessutom är så pass komplicerat, kommer att ta tid och måste få göra det.",
+   "oppen_kod": "orealistisk tidplan",
+   "beskrivning": "Tidplanen för implementering är för optimistisk."
+  },
+  {
+   "uid": "U444",
+   "id": "ideburna-skolors-riksforbund#8",
+   "citat": "Innan detta kan påbörjas ska det finnas en ny modell för nationella prov, ett system för automatisk och central rättning och en fungerande provplattform… Det känns minst sagt orealistiskt, inte minst med haveriet med de nationella proven i färskt minne.",
+   "oppen_kod": "bristande provplattform",
+   "beskrivning": "Provplattform och rättningssystem bedöms orealistiska att få på plats."
+  },
+  {
+   "uid": "U445",
+   "id": "olofstroms-kommun#18",
+   "citat": "Om en ny betygsskala införs igen kommer det att kräva ännu en omställning för lärare, elever och vårdnadshavare.",
+   "oppen_kod": "upprepad omställning",
+   "beskrivning": "Ännu ett betygsbyte kräver ny omställning för lärare m.fl."
+  },
+  {
+   "uid": "U446",
+   "id": "olofstroms-kommun#18",
+   "citat": "Vi ställer oss frågande till om det kommer att vara möjligt med tolkningsbara betygskriterier för alla betygssteg, detta då det finns begränsningar i språkliga nyanser för att göra skillnad på alla steg.",
+   "oppen_kod": "otydliga betygskriterier",
+   "beskrivning": "Svårt att tolka kriterier för alla betygssteg."
+  },
+  {
+   "uid": "U447",
+   "id": "olofstroms-kommun#19",
+   "citat": "Vi anser att det krävs en rimlig tidsplan som ger möjlighet för Skolverket att ta fram stödmaterial och för kommuner att genomföra förberedelser och fortbildning i god tid.",
+   "oppen_kod": "kort tid för införande",
+   "beskrivning": "Kommuner behöver tid för förberedelser och fortbildning."
+  },
+  {
+   "uid": "U448",
+   "id": "olofstroms-kommun#19",
+   "citat": "För att möjliggöra en god implementering är det även av yttersta vikt att det tillförs riktade statliga resurser, exempelvis genom riktade statsbidrag till kommunerna.",
+   "oppen_kod": "behov av statlig finansiering",
+   "beskrivning": "Implementeringen kräver riktade statsbidrag."
+  },
+  {
+   "uid": "U449",
+   "id": "olofstroms-kommun#19",
+   "citat": "Nackdelar med meritvärdeskalibrering kan vara svårt att förstå och tar tid efter skolavslutning och antagning till högre studier.",
+   "oppen_kod": "komplex kalibrering tar tid",
+   "beskrivning": "Kalibreringen är svår att förstå och tar tid efter skolavslutning."
+  },
+  {
+   "uid": "U450",
+   "id": "stromsunds-kommun#4",
+   "citat": "Kommunen bedriver grundskola, gymnasieskola, komvux samt anpassad grundskola - vilka berörs i den här utredningen och det blir i princip omöjligt för en kommun i Strömsunds storlek att överblicka konsekvenserna.",
+   "oppen_kod": "svåröverblickbara konsekvenser",
+   "beskrivning": "En liten kommun kan inte överblicka konsekvenserna för alla skolformer."
+  },
+  {
+   "uid": "U451",
+   "id": "stromsunds-kommun#4",
+   "citat": "De saker som går att peka på konkret handlar om till exempel organiseringen av bedömningssamråd.",
+   "oppen_kod": "organisering av bedömningssamråd",
+   "beskrivning": "Bedömningssamråden blir svåra att organisera."
+  },
+  {
+   "uid": "U452",
+   "id": "stromsunds-kommun#4",
+   "citat": "I fråga om genomförande är också Strömsunds kommun tveksam till om Skolverket kan genomföra nödvändiga reformer inom tre (3) år då myndigheten inte lyckats med digitala nationella prov på sju (7) år.",
+   "oppen_kod": "kort tid för införande",
+   "beskrivning": "Tveksamt om reformen hinner genomföras på tre år."
+  },
+  {
+   "uid": "U453",
+   "id": "stromsunds-kommun#5",
+   "citat": "Det är för otydligt och ospecificerat med att hantering ska ske i särskild ordning.",
+   "oppen_kod": "oklara undantag för små skolor",
+   "beskrivning": "Undantagsreglerna för små skolenheter är oklara."
+  },
+  {
+   "uid": "U454",
+   "id": "stromsunds-kommun#6",
+   "citat": "Flertalet av skolorna inom kommunen är så små att bedömningssamråd sker enskilt av en betygssättande lärare om upplägget som föreslås blir verklighet.",
+   "oppen_kod": "bedömningssamråd på små skolor",
+   "beskrivning": "Kommunens små skolor kan inte genomföra meningsfulla samråd."
+  },
+  {
+   "uid": "U455",
+   "id": "stromsunds-kommun#8",
+   "citat": "Debaclet med digitala nationella prov läsåret 2024/25 har kostat kommunen väldigt mycket i framför allt förlorad arbetstid i förberedelsearbetet för något som inte blev av.",
+   "oppen_kod": "bristande provplattform",
+   "beskrivning": "Misslyckade digitala prov har kostat kommunen mycket arbetstid."
+  },
+  {
+   "uid": "U456",
+   "id": "stromsunds-kommun#9",
+   "citat": "Strömsunds kommun är kritisk till att en så omfattande reform som utredningen innebär ska verkställas från 1 januari 2027 i skollagen och i praktiken för elever i åk 1-8 i grundskolan från höstterminen 2028.",
+   "oppen_kod": "kort tid för införande",
+   "beskrivning": "Den omfattande reformen ska verkställas för snabbt."
+  }
+ ]
+}

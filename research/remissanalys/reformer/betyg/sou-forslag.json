@@ -1,0 +1,814 @@
+{
+ "_meta": {
+  "kalla": {
+   "text": "SOU 2025:18, förslagsrutor (\"Förslag:\")",
+   "url": "https://www.regeringen.se/contentassets/56408e57ea8e4954bf38491c8bc33d4c/ett-likvardigt-betygssystem-sou-202518-volym-1.pdf"
+  },
+  "pdf": {
+   "volym-1": "https://www.regeringen.se/contentassets/56408e57ea8e4954bf38491c8bc33d4c/ett-likvardigt-betygssystem-sou-202518-volym-1.pdf",
+   "volym-2": "https://www.regeringen.se/contentassets/56408e57ea8e4954bf38491c8bc33d4c/ett-likvardigt-betygssystem-sou-202518-volym-2.pdf"
+  }
+ },
+ "forslag": [
+  {
+   "vol": "volym-1",
+   "pdfsida": 465,
+   "sida": 465,
+   "avsnitt": "9.2",
+   "avsnittsrubrik": "En betygsskala 1–10",
+   "typ": "Förslag",
+   "text": "Vid betygssättning inom grundskolan, anpassad grundskola, sameskolan, specialskolan, gymnasieskolan, anpassad gymnasieskola, kommunal vuxenutbildning på gymnasial nivå och anpassad utbildning på gymnasial nivå ska tio betygssteg användas. Betygsskalan ska gå från 1 till 10. Om det helt saknas underlag för bedömning av elevens kunskaper, t.ex. till följd av en elevs frånvaro ska detta markeras i betygskatalogen med streck. Detta ger värdet 0 vid meritvärdering.",
+   "id": "F01"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 470,
+   "sida": 470,
+   "avsnitt": "9.3.1",
+   "avsnittsrubrik": "Nya betygskriterier som är stödjande vid betygssättningen",
+   "typ": "Förslag",
+   "text": "Betygskriterierna ska vara desamma för samtliga ämnen och årskurser i grundskolan, anpassad grundskola, sameskolan, specialskolan, gymnasieskolan, anpassad gymnasieskola, kommunal vuxenutbildning på gymnasial nivå och anpassad utbildning på gymnasial nivå. De ska regleras på förordningsnivå och uttryckas på följande sätt:",
+   "id": "F02"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 471,
+   "sida": 471,
+   "avsnitt": "9.3.1",
+   "avsnittsrubrik": "Nya betygskriterier som är stödjande vid betygssättningen",
+   "typ": "Förslag",
+   "text": "Regleringen i skollagen gällande lärarens möjlighet att om särskilda skäl föreligger kunna bortse från enstaka delar av betygskriterierna ska i stället utformas på så sätt att lärare vid betygssättningen ska kunna bortse från enstaka delar av ett ämnes mål eller innehåll.",
+   "id": "F03"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 482,
+   "sida": 482,
+   "avsnitt": "9.3.7",
+   "avsnittsrubrik": "Sammantagen bedömning över hela betygsskalan",
+   "typ": "Förslag",
+   "text": "Den sammantagna betygssättningsprincipen ska tillämpas för hela betygsskalan. Läraren ska, för samtliga betygssteg, vid betygssättningen göra en sammantagen bedömning av elevens kunskaper i förhållande till ämnets syfte och centrala innehåll och utifrån betygskriterierna sätta det betyg som bäst motsvarar elevens kunskaper. En elev i gymnasieskolan eller i kommunal vuxenutbildning på gymnasial nivå måste dock vid betygssättningen ha godtagbara kunskaper i sådana delar av ämnets innehåll som avser säkerhetsaspekter eller myndigheters föreskrifter för att betyget 4 ska kunna sättas.",
+   "id": "F04"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 487,
+   "sida": 487,
+   "avsnitt": "9.4.2",
+   "avsnittsrubrik": "Extra anpassningar och särskilt stöd",
+   "typ": "Förslag",
+   "text": "Skollagens övergripande målsättning om stöd för att motverka konsekvenser av en funktionsnedsättning ska utgå från om eleven har svårt att tillgodogöra sig kunskaper i förhållande till ämnets syfte och centrala innehåll. En elevs rätt till ledning och stimulans ska utgå från en bedömning av om eleven lätt tillgodogör sig kunskaper motsvarande betygskriteriet godtagbara kunskaper. Bedömningen av om en elev ska ges stöd i form av extra anpassningar, eller om en elevs behov av särskilt stöd ska utredas, ska för de årskurser där betyg sätts utgå ifrån en bedömning av om det kan befaras att en elev inte kommer att tillgodogöra sig kunskaper som minst motsvarar betygskriteriet godtagbara kunskaper. Det särskilda stödet för en elev i grundskolan, anpassade grundskolan och sameskolan ska utformas på ett sådant sätt att eleven ska ha möjlighet att tillgodogöra sig kunskaper som minst motsvarar betygskriteriet godtagbara kunskaper. Nationella prov i grundskolans årskurs 9 och specialskolans årskurs 10 ersätts av nationella slutprov. Det finns därmed inte längre prov som kan utgöra grund för bedömning av om en elev i årskurs 7–9 i grundskolan och årskurs 8–10 i specialskolan är i behov av extra anpassningar eller för utredning av en elevs behov av särskilt stöd.",
+   "id": "F05"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 491,
+   "sida": 491,
+   "avsnitt": "9.4.3",
+   "avsnittsrubrik": "Mottagande i anpassade grundskolan och anpassade gymnasieskolan, placering i resursskola, skolpliktens upphörande i förtid, rätten att slutföra grundskolan efter skolpliktens upphörande och lovskolan",
+   "typ": "Förslag",
+   "text": "Bedömningarna inför mottagande i anpassade grundskolan och anpassade gymnasieskolan eller placering i resursskola ska inte längre utgå från uppfyllande av betygskriterier. Vid mottagande till anpassade grundskolan och anpassade gymnasieskolan ska bedömningen i stället utgå från om barnet eller ungdomen har förutsättningar att tillgodogöra sig kunskaper som minst motsvarar betygskriteriet godtagbara kunskaper. Inför beslut om placering vid resursskola ska kommunen, eller huvudmannen om det rör en fristående skola, bedöma om det stöd som resursskolan erbjuder är sådant stöd som eleven är i behov av för att kunna tillgodogöra sig kunskaper som minst motsvarar betygskriteriet godtagbara kunskaper eller för att eleven ska undvika svårigheter i skolsituationen.",
+   "id": "F06"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 492,
+   "sida": 492,
+   "avsnitt": "9.4.3",
+   "avsnittsrubrik": "Mottagande i anpassade grundskolan och anpassade gymnasieskolan, placering i resursskola, skolpliktens upphörande i förtid, rätten att slutföra grundskolan efter skolpliktens upphörande och lovskolan",
+   "typ": "Förslag",
+   "text": "Om en elev före skolpliktens upphörande enligt 7 kap. 12 eller 13 §§ skollagen tillgodogör sig kunskaper som minst motsvarar betygskriteriet godtagbara kunskaper för den skolform där eleven fullgör sin skolplikt ska skolplikten kunna upphöra. En elev ska ha rätt att efter skolpliktens upphörande slutföra utbildningen om eleven inte har tillgodogjort sig kunskaper som minst motsvarar betygskriteriet godtagbara kunskaper.",
+   "id": "F07"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 492,
+   "sida": 492,
+   "avsnitt": "9.4.3",
+   "avsnittsrubrik": "Mottagande i anpassade grundskolan och anpassade gymnasieskolan, placering i resursskola, skolpliktens upphörande i förtid, rätten att slutföra grundskolan efter skolpliktens upphörande och lovskolan",
+   "typ": "Förslag",
+   "text": "För en nyanländ elev som ska få studiehandledning på sitt modersmål ska studiehandledningen syfta till att ge eleven förutsättningar att tillgodogöra sig kunskaper som minst motsvarar betygskriteriet godtagbara kunskaper eller ge eleven förutsättningar att uppfylla de kriterier för bedömning av kunskaper som minst ska uppfyllas.",
+   "id": "F08"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 492,
+   "sida": 492,
+   "avsnitt": "9.4.3",
+   "avsnittsrubrik": "Mottagande i anpassade grundskolan och anpassade gymnasieskolan, placering i resursskola, skolpliktens upphörande i förtid, rätten att slutföra grundskolan efter skolpliktens upphörande och lovskolan",
+   "typ": "Förslag",
+   "text": "Erbjudande om lovskola ska ges till elever i årskurs 8 och 9 som riskerar att inte tillgodogöra sig kunskaper som minst motsvarar betygskriteriet godtagbara kunskaper och som därmed riskerar att inte uppnå behörighet till ett nationellt program i gymnasieskolan. Lovskola ska inte längre erbjudas till elever som avslutat årskurs 9 utan endast till elever som fortfarande går i skolan.",
+   "id": "F09"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 494,
+   "sida": 494,
+   "avsnitt": "9.4.4",
+   "avsnittsrubrik": "Konsekvenser för ämnesbetyg och rätten att gå om en nivå i ett ämne i gymnasieskolan",
+   "typ": "Förslag",
+   "text": "När ett betyg på skalan 1–10 sätts på en högre nivå i ett ämne med flera nivåer ska betyget anses omfatta lägre nivåer i ämnet och ersätta betyg som har satts på sådana nivåer. För en elev som efter avslutad nivå i ett ämne eller ett genomfört gymnasiearbete i gymnasieskolan eller anpassade gymnasieskolan har fått lägst betyget 4 är huvudmannen inte skyldig att erbjuda ytterligare utbildning av samma slag om inte annat följer av föreskrifter. En elev som har fått betygen 1–3 har rätt att läsa den aktuella nivån på nytt en gång. Har eleven slutfört samma nivå i ett ämne två gånger och inte fått ett betyg 1–3 kan eleven få läsa om nivån ytterligare en gång om det finns särskilda skäl för det. En elev som har fått låga betyg, 1–3, i ett stort antal ämnen under ett läsår får, om det finns särskilda skäl, på nytt läsa sådana nivåer i ämnen som eleven har fått betyget 4 och högre på.",
+   "id": "F10"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 497,
+   "sida": 497,
+   "avsnitt": "9.4.5",
+   "avsnittsrubrik": "Konsekvenser för betygssättning av gymnasiearbetet och komvuxarbetet",
+   "typ": "Förslag",
+   "text": "Gymnasiearbetet och komvuxarbetet ska betygssättas med betygen 1–4. En elev som inte klarar av sitt gymnasiearbete eller komvuxarbete med betyget 4 första gången kan genomföra det på nytt en gång.",
+   "id": "F11"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 505,
+   "sida": 505,
+   "avsnitt": "10.1",
+   "avsnittsrubrik": "Huvudförslag: meritvärdeskalibrering",
+   "typ": "Förslag",
+   "text": "Det ska införas en ny modell för beräkning av det meritvärde som ska ligga till grund för antagning och urval till gymnasieskolan. Elevens meritvärde ska utgöras av två delar, ett kalibrerat betygsvärde och ett genomsnittligt provresultat. Modellen bygger på en ny numerisk betygsskala 1–10 samt ett nytt provsystem bestående av nationella slutprov i fem ämnen vilka alla elever ska genomföra i slutet av årskurs 9 i grundskolan. Resultaten från proven ska användas både för att kalibrera elevers betygsvärden och som en egen komponent i meritvärdet. Betygsvärdet ska utgöras av elevens betyg i 16 ämnen, vilka räknas samman till ett genomsnittligt betygsvärde. Kapitel 12.",
+   "id": "F12"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 508,
+   "sida": 508,
+   "avsnitt": "10.1",
+   "avsnittsrubrik": "Huvudförslag: meritvärdeskalibrering",
+   "typ": "Förslag",
+   "text": "En elevs individuella betygsvärde i årskurs 9 i grundskolan ska utgöras av summan av de 16 högsta betygen dividerat med 16. I de 16 ämnena ska alltid betyg i ämnena biologi, engelska, fysik, geografi, historia, kemi, matematik, religionskunskap, svenska eller svenska som andraspråk samt samhällskunskap ingå. För en sökande som gått förberedande dansarutbildning och fått färre än 16 betyg i sitt slutbetyg ska summan av betygen i stället divideras med antalet ämnen som den sökande har fått betyg i om de är färre än 16.",
+   "id": "F13"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 508,
+   "sida": 508,
+   "avsnitt": "10.1",
+   "avsnittsrubrik": "Huvudförslag: meritvärdeskalibrering",
+   "typ": "Förslag",
+   "text": "En skolenhets genomsnittliga betygsvärde ska utgöras av de sammanlagda individuella betygsvärdena för de elever på skolenheten som har genomfört samtliga slutprov dividerat med antalet elever.",
+   "id": "F14"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 509,
+   "sida": 509,
+   "avsnitt": "10.1",
+   "avsnittsrubrik": "Huvudförslag: meritvärdeskalibrering",
+   "typ": "Förslag",
+   "text": "En elevs individuella provresultat ska utgöras av resultaten på nationella slutprov i ämnena svenska/svenska som andraspråk, matematik, engelska, SO och NO som eleven genomför i slutet av årskurs 9 i grundskolan respektive årskurs 10 i specialskolan. Elevens samlade individuella provresultat ska beräknas som ett genomsnitt av elevens fem provresultat.",
+   "id": "F15"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 509,
+   "sida": 509,
+   "avsnitt": "10.1",
+   "avsnittsrubrik": "Huvudförslag: meritvärdeskalibrering",
+   "typ": "Förslag",
+   "text": "Skolenhetens genomsnittliga provresultat ska utgöras av genomsnittet av de individuella provresultaten för de elever som har deltagit på samtliga fem nationella slutprov.",
+   "id": "F16"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 511,
+   "sida": 511,
+   "avsnitt": "10.1",
+   "avsnittsrubrik": "Huvudförslag: meritvärdeskalibrering",
+   "typ": "Förslag",
+   "text": "De individuella betygsvärdena ska kalibreras. Kalibreringen ska utgå från den skillnad som fås fram vid en jämförelse mellan skolenhetens genomsnittliga provresultat och skolenhetens genomsnittliga betygsvärde. Om det föreligger en avvikelse ska skolenhetens genomsnittliga betygsvärde justeras så att det hamnar på samma nivå som skolenhetens genomsnittliga provresultat. Detta görs genom att varje elevs individuella betygsvärde kalibreras så att skolenhetens genomsnittliga provresultat överensstämmer med skolenhetens genomsnittliga betygsvärde. Kalibreringen ska tillämpas på ett sätt så att spridningen i betygsvärdena på skolenheten justeras till spridningen i skolenhetens provresultat.",
+   "id": "F17"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 512,
+   "sida": 512,
+   "avsnitt": "10.1",
+   "avsnittsrubrik": "Huvudförslag: meritvärdeskalibrering",
+   "typ": "Förslag",
+   "text": "Elevens meritvärde ska utgöras av elevens individuella kalibrerade betygsvärde och elevens samlade individuella provresultat där det kalibrerade betygsvärdet ges vikten 70 % och det individuella provresultatet ges vikten 30 %. Meritvärdet anges på en skala 1–10 med två decimaler.",
+   "id": "F18"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 514,
+   "sida": 514,
+   "avsnitt": "10.1.2",
+   "avsnittsrubrik": "Elever utan provresultat",
+   "typ": "Förslag",
+   "text": "En elev som helt saknar resultat på ett visst prov får vid beräkning av meritvärdet värdet 0 som provresultat. Provresultatet 0 kommer därmed att räknas in i de 30 % av meritvärdet som utgörs av elevens provresultat.",
+   "id": "F19"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 514,
+   "sida": 514,
+   "avsnitt": "10.1.2",
+   "avsnittsrubrik": "Elever utan provresultat",
+   "typ": "Förslag",
+   "text": "Om bortfallet är större än 50 % på skolenheten, dvs. om färre än hälften av eleverna har gjort samtliga nationella slutprov, beräknas inget kalibrerat betygsvärde för de elever som varit frånvarande vid något av proven. För dessa beräknas meritvärdet i stället på 50 % okalibrerade betyg och 50 % provresultat.",
+   "id": "F20"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 530,
+   "sida": 530,
+   "avsnitt": "11.2",
+   "avsnittsrubrik": "Meritvärdeskalibrering i gymnasieskolan",
+   "typ": "Förslag",
+   "text": "Det ska införas en ny modell för beräkning av det meritvärde som ska ligga till grund för antagning och urval till högre utbildning. Meritvärdet ska bestå av två delar, ett kalibrerat individuellt betygsvärde och ett individuellt provresultat. Modellen bygger på en ny numerisk betygsskala 1–10 och ett nytt provsystem bestående av nationella slutprov i fem till åtta ämnen. Resultaten på samtliga prov räknas samman till ett genomsnittligt individuellt provresultat. Vilka nationella slutprov en elev genomför beror på elevens studieväg. Resultaten på proven ska användas både för att kalibrera de lärarsatta betygen och som en egen komponent i meritvärdet.",
+   "id": "F21"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 532,
+   "sida": 532,
+   "avsnitt": "11.2",
+   "avsnittsrubrik": "Meritvärdeskalibrering i gymnasieskolan",
+   "typ": "Förslag",
+   "text": "Elevens lärarsatta betyg räknas samman till ett individuellt betygsvärde. Det individuella betygsvärdet beräknas enligt följande: Betyget från den avslutande nivån i ämnet (på skala 1–10) multipliceras med antalet poäng från de nivåer som eleven har läst. Beräkningen görs för samtliga ämnen och nivåer",
+   "id": "F22"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 533,
+   "sida": 533,
+   "avsnitt": "11.2",
+   "avsnittsrubrik": "Meritvärdeskalibrering i gymnasieskolan",
+   "typ": "Förslag",
+   "text": "Det individuella betygsvärdet för de elever på respektive program på en skolenhet som genomfört samtliga för programmet obligatoriska prov, läggs ihop och ett genomsnitt räknas fram vilket blir programmets genomsnittliga betygsvärde.",
+   "id": "F23"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 533,
+   "sida": 533,
+   "avsnitt": "11.2",
+   "avsnittsrubrik": "Meritvärdeskalibrering i gymnasieskolan",
+   "typ": "Förslag",
+   "text": "En elevs individuella provresultat ska utgöras av resultatet på det nationella slutprovet (eller proven om eleven skrivit två prov i matematik) i respektive ämne. Elevens samlade individuella provresultat ska beräknas som ett genomsnitt av elevens nationella slutprovresultat.",
+   "id": "F24"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 533,
+   "sida": 533,
+   "avsnitt": "11.2",
+   "avsnittsrubrik": "Meritvärdeskalibrering i gymnasieskolan",
+   "typ": "Förslag",
+   "text": "Programskolenhetens genomsnittliga provresultat ska utgöras av genomsnittet av de individuella provresultaten för de elever som har deltagit på samtliga nationella slutprov.",
+   "id": "F25"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 535,
+   "sida": 535,
+   "avsnitt": "11.2",
+   "avsnittsrubrik": "Meritvärdeskalibrering i gymnasieskolan",
+   "typ": "Förslag",
+   "text": "Elever som går ett yrkesprogram med grundläggande behörighet genomför nationella slutprov i engelska, matematik, naturkunskap, svenska/svenska som andraspråk och kombinerat prov i historia och samhällskunskap. Om en elev väljer bort grundläggande behörighet kan den välja bort att genomföra slutprov. Elever på de högskoleförberedande naturvetenskapsoch teknikprogrammen genomför nationella slutprov i engelska, matematik, svenska/svenska som andraspråk, kombinerat prov i historia och samhällskunskap samt fysik och kemi. Inom det naturvetenskapliga programmet genomförs även nationella slutprov i biologi. Elever på de högskoleförberedande ekonomi-, estetiska-, humanistiskaoch samhällsvetenskapsprogrammet genomför nationella slutprov i engelska, historia, matematik, naturkunskap, samhällskunskap och svenska/svenska som andraspråk. Särskilda programvarianter ska genomföra de nationella slutproven för det program som utbildningen huvudsakligen motsvarar. Undantag från att genomföra de för programmet beslutade nationella slutproven ska ansökas om hos Statens skolverk.",
+   "id": "F26"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 536,
+   "sida": 536,
+   "avsnitt": "11.2",
+   "avsnittsrubrik": "Meritvärdeskalibrering i gymnasieskolan",
+   "typ": "Förslag",
+   "text": "De individuella betygsvärdena ska kalibreras. Kalibreringen ska utgå från den skillnad som fås fram vid en jämförelse mellan programskolans genomsnittliga provresultat och programskolans genomsnittliga betygsvärde. Om det föreligger en differens ska betygsvärdet justeras så att det hamnar på samma nivå som provvärdet genom att varje elevs individuella betygsvärde kalibreras. Kalibreringen görs på ett sådant sätt att spridningen i betygsvärdena på programskolan justeras till spridningen i programskolans provresultat.",
+   "id": "F27"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 537,
+   "sida": 537,
+   "avsnitt": "11.2",
+   "avsnittsrubrik": "Meritvärdeskalibrering i gymnasieskolan",
+   "typ": "Förslag",
+   "text": "Elevens meritvärde ska utgöras av elevens kalibrerade individuella betygsvärdet och elevens samlade individuella provresultat där betygsvärdet ska ges vikten 70 % och det individuella provresultatet ska ges vikten 30 %.",
+   "id": "F28"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 540,
+   "sida": 540,
+   "avsnitt": "11.2.2",
+   "avsnittsrubrik": "Nationella slutprov på gymnasial nivå",
+   "typ": "Förslag",
+   "text": "Nationella slutprov införs i nedanstående ämnen. Dessa prov utformas som ämnesprov i gymnasiegemensamma ämnen (exklusive idrott och hälsa samt religionskunskap):",
+   "id": "F29"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 542,
+   "sida": 542,
+   "avsnitt": "11.2.3",
+   "avsnittsrubrik": "Provgenomförande och prov",
+   "typ": "Förslag",
+   "text": "Antalet prov för respektive program ska minst vara följande:",
+   "id": "F30"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 545,
+   "sida": 545,
+   "avsnitt": "11.2.4",
+   "avsnittsrubrik": "Meritpoängen avskaffas",
+   "typ": "Förslag",
+   "text": "Systemet med meritpoäng och meritpoängskompensation ska avskaffas.",
+   "id": "F31"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 549,
+   "sida": 549,
+   "avsnitt": "11.2.5",
+   "avsnittsrubrik": "Elever utan provresultat",
+   "typ": "Förslag",
+   "text": "En elev som saknar resultat på ett nationellt slutprov får, vid beräkning av meritvärde, ett värde om 0 som provresultat.",
+   "id": "F32"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 549,
+   "sida": 549,
+   "avsnitt": "11.2.5",
+   "avsnittsrubrik": "Elever utan provresultat",
+   "typ": "Förslag",
+   "text": "Om färre än 50 % av eleverna på programmet har deltagit på samtliga slutprov beräknas inget kalibrerat betygsvärde för de elever som varit frånvarande vid något av proven. Beräkningen utgår från hälften av eleverna på programmet exklusive elever som på ett yrkesprogram har valt bort den grundläggande behörigheten. En sammanvägningsmodell tillämpas om kalibrering av betygsvärden inte är möjlig på grund av ett stort bortfall. Elevens betygsvärde ges 50 % vikt och elevens slutprovsresultat 50 % vikt.",
+   "id": "F33"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 552,
+   "sida": 552,
+   "avsnitt": "11.2.7",
+   "avsnittsrubrik": "Det finns möjlighet att sprida ut elevers provgenomförande på flera år",
+   "typ": "Förslag",
+   "text": "Om ett program avslutar den högsta nivån i ett ämne, där nationella slutprov ska genomföras, före det tredje gymnasieåret, kan rektor besluta att nationella slutprov genomförs i slutet av det första eller andra året på gymnasieprogrammet.",
+   "id": "F34"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 557,
+   "sida": 557,
+   "avsnitt": "11.3",
+   "avsnittsrubrik": "Mer regelbunden inrapportering av betyg på gymnasial nivå",
+   "typ": "Förslag",
+   "text": "I skollagen ska det införas en skyldighet för huvudmän att lämna in uppgifter om betyg från avslutade nivåer i ett ämne till Statens skolverk. Regeringen eller den myndighet som regeringen bestämmer får meddela föreskrifter om vilka uppgifter och när det ska lämnas in.",
+   "id": "F35"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 564,
+   "sida": 564,
+   "avsnitt": "12.2",
+   "avsnittsrubrik": "Specialskolan och resursskolor",
+   "typ": "Förslag",
+   "text": "Sökande från specialskolan och resursskolor ska få ett meritvärde baserat på sitt genomsnittliga resultat på nationella slutprov till 50 % och sitt individuella betygsvärde till 50 %.",
+   "id": "F36"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 568,
+   "sida": 568,
+   "avsnitt": "12.4",
+   "avsnittsrubrik": "Introduktionsprogram",
+   "typ": "Förslag",
+   "text": "En elev som går introduktionsprogram och på nytt ska ansöka till gymnasieskolan avlägger de nationella slutproven i de ämnen där eleven behövt komplettera sina betyg från grundskolan. En elev som sedan tidigare har genomfört slutprov kan genomföra dem på nytt. Elevens meritvärde uppdateras då med det nya individuella provresultatet. En elev kan även få ett meritvärde beräknat genom sammanvägning: 50 % betygsvärde och 50 % individuella nationella slutprovsresultat. En elev som under ett läsår på ett introduktionsprogram har kompletterat sina betyg från grundskolan kan bli antagen i efterhand till ett nationellt program i gymnasieskolan utan att avlägga de nationella slutproven på nytt för behörighet. En elev som går ett introduktionsprogram och vill genomföra slutprov ska kunna göra det på sin gymnasieskola samtidigt som ordinarie provgenomförande för grundskolan.",
+   "id": "F37"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 569,
+   "sida": 569,
+   "avsnitt": "12.5",
+   "avsnittsrubrik": "Skolenheter eller program med få elever",
+   "typ": "Förslag",
+   "text": "På grundskolor där det ett visst år går färre än sex elever i årskurs 9 eller på ett program i gymnasieskolan ska elevernas betygsvärde inte kalibreras. Elevernas meritvärden beräknas i stället som en sammanvägning av elevens betygsvärde med 50 % och elevens nationella slutprovsresultat med 50 %.",
+   "id": "F38"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 580,
+   "sida": 580,
+   "avsnitt": "13.3",
+   "avsnittsrubrik": "Meritvärdering i komvux på gymnasial nivå",
+   "typ": "Förslag",
+   "text": "I kommunal vuxenutbildning på gymnasial nivå ska meritvärden beräknas enbart utifrån en elevs genomförda nationella slutprov. Det ska införas nationella slutprov i samma ämnen som i gymnasieskolan.",
+   "id": "F39"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 583,
+   "sida": 583,
+   "avsnitt": "13.3.1",
+   "avsnittsrubrik": "Utfärdande av gymnasieexamen från komvux",
+   "typ": "Förslag",
+   "text": "För utfärdande av en gymnasieexamen från kommunal vuxenutbildning på gymnasial nivå ska det krävas betyg i minst 2 400 gymnasiepoäng med genomsnittsbetyget godtagbara kunskaper, betyg 4, på 2 250 av de ingående poängen.",
+   "id": "F40"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 586,
+   "sida": 586,
+   "avsnitt": "13.3.2",
+   "avsnittsrubrik": "Provgenomförande",
+   "typ": "Förslag",
+   "text": "Nationella slutprov som ska genomföras i kommunal vuxenutbildning på gymnasial nivå ska genomföras samtidigt som de nationella slutproven genomförs i gymnasieskolan under en provperiod i slutet av gymnasieskolans vårtermin. Nationella slutprov ska även ges en gång på hösten för elever i kommunal vuxenutbildning på gymnasial nivå.",
+   "id": "F41"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 587,
+   "sida": 587,
+   "avsnitt": "13.4",
+   "avsnittsrubrik": "Mer regelbunden inrapportering av betyg på gymnasial nivå",
+   "typ": "Förslag",
+   "text": "I skollagen ska det införas en skyldighet för huvudmän att lämna in uppgifter om betyg från avslutade nivåer i ett ämne till Statens skolverk. Regeringen eller den myndighet som regeringen bestämmer får meddela föreskrifter om vilka uppgifter och när det ska lämnas in.",
+   "id": "F42"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 600,
+   "sida": 600,
+   "avsnitt": "14.2.1",
+   "avsnittsrubrik": "Prövning för betyg i grundskolan och specialskolan",
+   "typ": "Förslag",
+   "text": "Ett betyg efter prövning i något av grundskolans ämnen som en sökande fått efter avslutad grundskoleutbildning ska inte kunna tillgodoräknas vid beräkning av meritvärdet. Detta ska dock inte gälla elever på introduktionsprogram som ska kunna använda betyg efter prövning i grundskolans ämnen vid en ny ansökan till ett nationellt program i gymnasieskolan.",
+   "id": "F43"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 602,
+   "sida": 602,
+   "avsnitt": "14.2.2",
+   "avsnittsrubrik": "Prövning i gymnasieskolan",
+   "typ": "Förslag",
+   "text": "En elev i gymnasieskolan får inte genomgå prövning för betyg på en viss nivå i ett ämne om eleven tidigare har fått betyg 4 eller högre på den nivån.",
+   "id": "F44"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 602,
+   "sida": 602,
+   "avsnitt": "14.2.2",
+   "avsnittsrubrik": "Prövning i gymnasieskolan",
+   "typ": "Förslag",
+   "text": "Rektorn ska fortsatt kunna ge en elev som inte har följt undervisningen på en nivå i ett ämne betyget 4 i ämnet på den aktuella nivån utan att eleven genomgår prövning.",
+   "id": "F45"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 603,
+   "sida": 603,
+   "avsnitt": "14.2.2",
+   "avsnittsrubrik": "Prövning i gymnasieskolan",
+   "typ": "Förslag",
+   "text": "För den som vid tiden för prövningen inte är elev i gymnasieskolan ska det betyg som erhållits genom prövning inte kunna ersätta ett tidigare betyg som den sökande fått på samma nivå i ett ämne som sedan tidigare ingår i det kalibrerade betygsvärdet.",
+   "id": "F46"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 604,
+   "sida": 604,
+   "avsnitt": "14.2.3",
+   "avsnittsrubrik": "Prövning i komvux på gymnasial nivå",
+   "typ": "Förslag",
+   "text": "Den som är elev i gymnasieskolan får inte genomgå prövning på en viss nivå i ett ämne i kommunal vuxenutbildning eller prövning i komvuxarbete om eleven tidigare har fått betyget 4 eller högre på den nivån eller på gymnasiearbete eller gymnasiearbete i anpassad gymnasieskola.",
+   "id": "F47"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 604,
+   "sida": 604,
+   "avsnitt": "14.2.3",
+   "avsnittsrubrik": "Prövning i komvux på gymnasial nivå",
+   "typ": "Förslag",
+   "text": "För den som har genomfört prövning i kommunal vuxenutbildning på gymnasial nivå ska det betyg som erhållits genom prövning inte kunna ersätta ett tidigare betyg som den sökande fått på samma nivå i ett ämne som sedan tidigare ingår i ett kalibrerat betygsvärde från gymnasieskolan.",
+   "id": "F48"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 606,
+   "sida": 606,
+   "avsnitt": "14.3.1",
+   "avsnittsrubrik": "Möjlighet att göra nya respektive att göra om nationella slutprov",
+   "typ": "Förslag",
+   "text": "Den som efter avslutad utbildning vill genomföra ett nationellt slutprov som den sedan tidigare inte har genomfört ska ha möjlighet att göra detta. Den som efter avslutad utbildning vill göra om ett nationellt slutprov i ett eller flera ämnen i grundskolan eller specialskolan eller göra om ett eller flera nationella slutprov på gymnasial nivå ska ha möjlighet att genomföra nya nationella slutprov. Nationella slutprov ska endast kunna genomföras vid de tillfällen proven anordnas för elever i grundskolan och specialskolan respektive för elever i gymnasieskolan och inom kommunal vuxenutbildning. Den som vill genomföra ett nationellt slutprov från grundskolan får vända sig till en grundskola. En elev i gymnasieskolan som inte har påbörjat ett nationellt program ska få genomföra ett nationellt slutprov från grundskolan i sin gymnasieskola. De nationella slutproven för grundskolan och specialskolan kan senast genomföras det år han eller hon fyller 20 år. Den som inte är elev i gymnasieskolan ska vända sig till den kommunala vuxenutbildningen för att genomföra ett nytt nationellt slutprov på gymnasial nivå. En person som vill genomföra ett slutprov i kommunal vuxenutbildning i ett ämne där denne redan har avlagt ett nationellt slutprov får genomföra slutprovet som tidigast det andra kalenderhalvåret det år han eller hon fyller 20 år.",
+   "id": "F49"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 606,
+   "sida": 606,
+   "avsnitt": "14.3.1",
+   "avsnittsrubrik": "Möjlighet att göra nya respektive att göra om nationella slutprov",
+   "typ": "Förslag",
+   "text": "En sökande som efter avslutad grundskoleutbildning eller motsvarande har genomfört ett nationellt slutprov i något av grundskolans ämnen ska vid uträkning av meritvärdet kunna tillgodogöra sig resultatet av detta prov. Om den sökande redan har ett resultat på ett nationellt slutprov i samma ämne ska det senare provresultatet, om det är högre, ersätta det tidigare provresultatet vid beräkning av det genomsnittliga provresultatet. En sökande som efter avslutad utbildning i gymnasieskolan har genomfört ett nationellt slutprov i något av gymnasieskolans ämnen ska vid uträkning av meritvärdet kunna tillgodogöra sig resultatet av detta prov i den del av meritvärdet som utgörs av",
+   "id": "F50"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 613,
+   "sida": 613,
+   "avsnitt": "14.3.2",
+   "avsnittsrubrik": "Avgift vid genomförande av nationella slutprov",
+   "typ": "Förslag",
+   "text": "Huvudmannen ska få ta ut en avgift av den som ska genomgå ett nationellt slutprov och inte är elev i grundskolan eller motsvarande, gymnasieskolan eller kommunal vuxenutbildning. Avgift får dock inte tas ut av den som för första gången genomför ett nationellt slutprov i ett visst ämne.",
+   "id": "F51"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 621,
+   "sida": 621,
+   "avsnitt": "15.2",
+   "avsnittsrubrik": "Ändrade behörighetsregler för tillträde till gymnasieskolan",
+   "typ": "Förslag",
+   "text": "För behörighet till ett nationellt program i gymnasieskolan ska en elev ha ett meritvärde på minst 4. Regeringen eller den myndighet regeringen bestämmer ska med stöd av 8 kap. 7 § regeringsformen kunna meddela föreskrifter om beräkning av meritvärde.",
+   "id": "F52"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 621,
+   "sida": 621,
+   "avsnitt": "15.2",
+   "avsnittsrubrik": "Ändrade behörighetsregler för tillträde till gymnasieskolan",
+   "typ": "Förslag",
+   "text": "Introduktionsprogrammet programinriktat val ska tas bort som introduktionsprogram. Introduktionsprogrammet språkintroduktion ska stå öppet för en elev som inte har godtagbara kunskaper i svenska eller svenska som andraspråk eller inte har det meritvärde som krävs för behörighet till ett nationellt program.",
+   "id": "F53"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 621,
+   "sida": 621,
+   "avsnitt": "15.2",
+   "avsnittsrubrik": "Ändrade behörighetsregler för tillträde till gymnasieskolan",
+   "typ": "Förslag",
+   "text": "För behörighet till riksrekryterande spetsutbildning ska krav ställas på att den sökandes kunskapsnivå ska motsvara det som krävs för betyget 10 i förhållande till betygskriterierna.",
+   "id": "F54"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 630,
+   "sida": 630,
+   "avsnitt": "15.2.5",
+   "avsnittsrubrik": "Behörighet och meritvärde för elever på introduktionsprogram och nya yrkesprogram",
+   "typ": "Förslag",
+   "text": "En elev som går ett introduktionsprogram och vill komplettera sin behörighet för att bli antagen till ett nationellt program i gymnasieskolan ska kunna bli behörig till ett nationellt program genom att komplettera sina betyg och/eller genomföra slutproven för ett nytt meritvärde. Beräkningen av meritvärde för en elev på ett introduktionsprogram ska ske genom en sammanvägningsmodell där betyg och slutprov väger 50/50.",
+   "id": "F55"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 633,
+   "sida": 633,
+   "avsnitt": "15.3.1",
+   "avsnittsrubrik": "Förslag om en ändrad gymnasieexamen",
+   "typ": "Förslag",
+   "text": "För en gymnasieexamen från gymnasieskolan ska det krävas betyg i minst 2 500 gymnasiepoäng med lägst betygsvärdet (genomsnittet av de lärarsatta betygen) 4 på 2 250 av de ingående poängen.",
+   "id": "F56"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 635,
+   "sida": 635,
+   "avsnitt": "15.3.3",
+   "avsnittsrubrik": "Konsekvenser för vidareutbildning i form av ett fjärde tekniskt år",
+   "typ": "Förslag",
+   "text": "En gymnasieingenjörsexamen ska utfärdas om eleven har gått igenom en fullständig vidareutbildning med godtagbara kunskaper. Motsvarande ändringar som de som föreslås för gymnasieskolan rörande betyg, betygskriterier, behörighet och urval ska införas i förordning (2014:854) om vidareutbildning i form av ett fjärde tekniskt år och statsbidrag för sådan utbildning. För behörighet till vidareutbildning i form av ett fjärde tekniskt år ska Skolverket kunna föreskriva om krav på godtagbara kunskaper från vissa nivåer i ämnen.",
+   "id": "F57"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 637,
+   "sida": 637,
+   "avsnitt": "15.4.1",
+   "avsnittsrubrik": "Ändrade behörighetsregler samt ändrade regler vid platsfördelning vid urval",
+   "typ": "Förslag",
+   "text": "En sökande ska anses ha de nödvändiga kompetenser som krävs för grundläggande behörighet om sökanden har avlagt en yrkeseller högskoleförberedande examen i gymnasieskolan eller i kommunal vuxenutbildning på gymnasial nivå och har ett godtagbart resultat, provresultat 4, på de nationella slutproven i ämnena engelska, grundläggande matematik och svenska eller svenska som andraspråk samt har godtagbara kunskaper, betyg 4, i svenska nivå 3, engelska nivå 2 och matematik nivå 1 a–c.",
+   "id": "F58"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 637,
+   "sida": 637,
+   "avsnitt": "15.4.1",
+   "avsnittsrubrik": "Ändrade behörighetsregler samt ändrade regler vid platsfördelning vid urval",
+   "typ": "Förslag",
+   "text": "De krav på särskild behörighet som kan ställas ska, utöver godtagbara kunskaper från en eller flera nivåer i ämnen i gymnasieskolan eller motsvarande kunskaper, även avse krav på",
+   "id": "F59"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 638,
+   "sida": 638,
+   "avsnitt": "15.4.1",
+   "avsnittsrubrik": "Ändrade behörighetsregler samt ändrade regler vid platsfördelning vid urval",
+   "typ": "Förslag",
+   "text": "För tillträde till utbildning som påbörjas på grundnivå ska urvalsgrunden betyg ersättas med urvalsgrunden meritvärden vid urval. Vid urval till en utbildning ska platserna därmed fördelas med minst en tredjedel på grundval av meritvärden. Bestämmelser om beräkning av meritvärden ska finnas i bilaga 3 till högskoleförordningen. Platsfördelning på grundval av meritvärden ska göras genom indelning i nuvarande betygsgrupperna I och II. Indelningen ska dock göras på grundval av betyg och nationella slutprovsresultat. För sökande med betyg som inte omfattas av bilaga 3 ska Universitetsoch högskolerådet få meddela föreskrifter om i vilken av de grupper som anges i bilaga 3 punkten 1 som platsfördelning ska ske. Universitetsoch högskolerådet ska även få meddela de föreskrifter i övrigt som behövs för beräkning av meritvärden utifrån betyg som inte omfattas av bilaga 3.",
+   "id": "F60"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 654,
+   "sida": 654,
+   "avsnitt": "16.4.1",
+   "avsnittsrubrik": "Bedömningssamråd för likvärdighet inom skolor och program",
+   "typ": "Förslag",
+   "text": "Inför betygssättning, när ämnen avslutas i grundskolan och specialskolan, ska bedömningssamråd genomföras mellan lärare som undervisar och sätter betyg i samma ämne inom en skolenhet. Rektor ska vara ansvarig för att bedömningssamråd sker.",
+   "id": "F61"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 654,
+   "sida": 654,
+   "avsnitt": "16.4.1",
+   "avsnittsrubrik": "Bedömningssamråd för likvärdighet inom skolor och program",
+   "typ": "Förslag",
+   "text": "Inför betygssättning i nivåer i ämnen i gymnasieskolan, ska bedömningssamråd genomföras mellan lärare som undervisar och sätter betyg i samma nivå i ett ämne inom ett program på en skolenhet. Rektor ska vara ansvarig för att bedömningssamråd sker.",
+   "id": "F62"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 660,
+   "sida": 660,
+   "avsnitt": "16.4.4",
+   "avsnittsrubrik": "Att särskilt beakta nationella prov",
+   "typ": "Förslag",
+   "text": "Bestämmelsen om att lärare i ett ämne eller på en nivå i ett ämne som det ges ett nationellt prov i särskilt ska beakta elevens resultat på det nationella provet ska tas bort. De nationella proven i årskurs 6 i grundskolan och årskurs 7 specialskolan ska inte längre utgöra ett stöd för lärares betygssättning.",
+   "id": "F63"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 664,
+   "sida": 664,
+   "avsnitt": "17.1",
+   "avsnittsrubrik": "Förslag om nationella prov och nationella slutprov",
+   "typ": "Förslag",
+   "text": "Ett nytt nationellt slutprovsystem ska införas i grundskolans årskurs 9, specialskolans årskurs 10, gymnasieskolan och kommunal vuxenutbildning på gymnasial nivå. De nationella slutprovens syfte ska vara att kalibrera betygsvärden samt ge oberoende information om elevers kunskapsnivå som kan utgöra en komponent i enskilda elevers meritvärden.",
+   "id": "F64"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 664,
+   "sida": 664,
+   "avsnitt": "17.1.1",
+   "avsnittsrubrik": "Ansvar och organisation för nationella slutprov",
+   "typ": "Förslag",
+   "text": "Statens skolverk ska ansvara för en enhetlig utveckling av samtliga nationella slutprov. Detta inkluderar formulering, konstruktion och sammansättning av uppgifter till respektive prov. Dessutom ska Statens skolverk ansvara för enhetlig standardisering och efterföljande analys. Statens skolverk ska även föreskriva om hantering och genomförande av nationella slutprov. Regeringen eller den myndighet regeringen bestämmer ska få meddela föreskrifter om skyldighet att delta i nationella slutprov.",
+   "id": "F65"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 666,
+   "sida": 666,
+   "avsnitt": "17.1.2",
+   "avsnittsrubrik": "Justera ramverk och informera om det nya syftet",
+   "typ": "Förslag",
+   "text": "Statens skolverk ska ges i uppgift att justera systemramverket för de nationella proven så att de även fungerar i enlighet med det nya syftet som de nationella slutproven får. Myndigheten ska informera om det nya syftet för relevanta målgrupper. Det gäller såväl information till rektor, lärare och elever som till samarbetspartner inom provkonstruktion.",
+   "id": "F66"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 668,
+   "sida": 668,
+   "avsnitt": "17.1.3",
+   "avsnittsrubrik": "Poäng för varje provutgåva ska skalas om efter provens genomförande",
+   "typ": "Förslag",
+   "text": "Statens skolverk ska ges i uppgift att tillämpa kvantitativa metoder för ekvivalering efter det att proven är genomförda och bedömda.",
+   "id": "F67"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 670,
+   "sida": 670,
+   "avsnitt": "17.1.3",
+   "avsnittsrubrik": "Poäng för varje provutgåva ska skalas om efter provens genomförande",
+   "typ": "Förslag",
+   "text": "Statens skolverk ska ges i uppgift att ekvivalera de prov eller provdelar som innehåller flera korta uppgifter (matematik, NO, SO, engelska höroch läsförståelse samt svenska och svenska som andraspråk läsförståelse) på ett enhetligt sätt genom årsvis standardisering.",
+   "id": "F68"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 677,
+   "sida": 677,
+   "avsnitt": "17.1.5",
+   "avsnittsrubrik": "Central rättning ska införas för samtliga nationella slutprov",
+   "typ": "Förslag",
+   "text": "Statens skolverk ska ansvara för att samtliga nationella slutprov bedöms centralt.",
+   "id": "F69"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 681,
+   "sida": 681,
+   "avsnitt": "17.1.8",
+   "avsnittsrubrik": "Överklaga nationella slutprovresultat",
+   "typ": "Förslag",
+   "text": "Det ska inte gå att överklaga bedömning av prestationer från central rättning av nationella slutprov.",
+   "id": "F70"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 683,
+   "sida": 683,
+   "avsnitt": "17.1.9",
+   "avsnittsrubrik": "Antalet prov i grundskolan",
+   "typ": "Förslag",
+   "text": "Antalet nationella slutprov i grundskolan ska vara detsamma, fem stycken, som nuvarande antal nationella slutprov. De tre proven i ämnena biologi, fysik och kemi bör ersättas med ett sammanfattande NO-prov och de fyra proven i ämnena geografi, historia, religionskunskap och samhällskunskap bör ersättas med ett sammanfattande SO-prov.",
+   "id": "F71"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 684,
+   "sida": 684,
+   "avsnitt": "17.1.10",
+   "avsnittsrubrik": "Nya prov i gymnasieskolan och komvux",
+   "typ": "Förslag",
+   "text": "De nationella slutproven ska konstrueras som ämnessammanfattande prov i de gymnasiegemensamma ämnena engelska, historia, matematik, naturkunskap, samhällskunskap, svenska eller svenska som andraspråk samt biologi, fysik och kemi.",
+   "id": "F72"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 686,
+   "sida": 686,
+   "avsnitt": "17.1.12",
+   "avsnittsrubrik": "Anpassningar ska beslutas av rektor och undantag ska beslutas av Skolverket",
+   "typ": "Förslag",
+   "text": "Det ska på förordningsnivå regleras att rektor ska besluta om anpassningar vid en elevs provgenomförande. Beslutade anpassningar ska dokumenteras. Statens skolverk ska föreskriva vilka anpassningar som ska tillåtas vid provgenomförande.",
+   "id": "F73"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 686,
+   "sida": 686,
+   "avsnitt": "17.1.12",
+   "avsnittsrubrik": "Anpassningar ska beslutas av rektor och undantag ska beslutas av Skolverket",
+   "typ": "Förslag",
+   "text": "Det ska finnas möjlighet att undanta en elev från att genomföra ett nationellt slutprov. Elevens samlade provresultat beräknas då som ett genomsnitt av resultatet på de prov eleven genomfört. Statens skolverk ska ges i uppgift att hantera ansökningar och besluta om undantag från genomförande av ett eller",
+   "id": "F74"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 688,
+   "sida": 688,
+   "avsnitt": "17.1.14",
+   "avsnittsrubrik": "Antalet provtillfällen ska begränsas",
+   "typ": "Förslag",
+   "text": "Antalet provtillfällen ska begränsas till fasta provdatum och tider under året. Provgenomförandet regleras för att minimera möjligheterna för spridning av provens innehåll. Statens skolverk ska närmare kunna föreskriva vilka datum proven ska genomföras och om möjlighet att genomföra proven vid andra tillfällen än de som föreskrivs av Statens skolverk.",
+   "id": "F75"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 701,
+   "sida": 701,
+   "avsnitt": "17.4.5",
+   "avsnittsrubrik": "Förslag om hur oegentligheter vid nationella slutprov ska förebyggas och åtgärdas",
+   "typ": "Förslag",
+   "text": "Regeringen ska ge Statens skolverk i uppdrag att utreda hur fusk och oegentligheter vid nationella slutprov ska hanteras och definieras, vilka konsekvenser som ska kunna följa vid oegentligheter, vem som ska fatta beslut om eventuella konsekvenser av fusk och andra oegentligheter och hur en eventuell överklagandeprocess bör utformas. I uppdraget ska ingå att analysera om regelverk och konsekvenser bör vara desamma för genomförande av nationella slutprov i grundskolan och motsvarande skolformer som i övriga utbildningsformer. Utifrån resultatet ska myndigheten ta fram nödvändiga föreskrifter och vid behov lämna förslag på ytterligare hantering.",
+   "id": "F76"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 747,
+   "sida": 747,
+   "avsnitt": "20.1.1",
+   "avsnittsrubrik": "Ikraftträdande och tillämpning av förslagen",
+   "typ": "Förslag",
+   "text": "Ändringarna i skollagen ska träda i kraft den 1 januari 2027. Ändringarna som gäller gymnasieskolan och anpassade gymnasieskolan ska tillämpas för första gången för utbildning som påbörjas höstterminen 2027. Ändringarna i bestämmelserna om meritvärdering i 16 kap. 30 och 34 §§ ska dock tillämpas för första gången för utbildning som påbörjas höstterminen 2030. De upphävda bestämmelserna i 16 kap. 31 och 32 §§ ska fortfarande gälla för utbildning som påbörjats före den 1 juli 2030. Ändringarna för grundskolan, anpassade grundskolan, sameskolan och specialskolan ska tillämpas för första gången för utbildning i årskurs 1–8, respektive 1–9 som påbörjas höstterminen 2028. För kommunal vuxenutbildning på gymnasial nivå ska ändringarna tillämpas för första gången på utbildning som påbörjas efter den 31 december 2029. Ändringarna i förordning om instruktion för Statens skolverk ska träda i kraft den 1 januari 2027. Ändringarna i skolförordningen ska träda i kraft den 1 januari 2027 och tillämpas för första gången på utbildning som påbörjas höstterminen 2028 i årskurs 1–8 i grundskolan och anpassade grundskolan och sameskolan samt i årskurs 1–9 i specialskolan. Ändringarna i gymnasie-",
+   "id": "F77"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 750,
+   "sida": 750,
+   "avsnitt": "20.2.1",
+   "avsnittsrubrik": "Elever ska slutföra utbildning inom samma betygssystem",
+   "typ": "Förslag",
+   "text": "För elever i grundskolan och anpassade grundskolan ska äldre bestämmelser tillämpas i årkurs 9 under läsåret 2028/29. För elever i specialskolan ska äldre bestämmelser tillämpas i årskurs 10 under läsåret 2028/29.",
+   "id": "F78"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 756,
+   "sida": 756,
+   "avsnitt": "20.3.1",
+   "avsnittsrubrik": "Skolverket ska ansvara för genomförande och implementering av förslagen",
+   "typ": "Förslag",
+   "text": "Det ska införas i Statens skolverks instruktion att myndigheten ansvarar för att utveckla och hantera kalibrering av betygsvärden och beräkning av meritvärden. Statens skolverk ska ges i uppdrag av regeringen att, med utgångspunkt i utredningens förslag, förbereda en övergång till ny betygsskala och meritvärdering. Myndigheten ska också föreslå eventuella behov av förändringar i de föreskrifter som regeringen beslutar om.",
+   "id": "F79"
+  },
+  {
+   "vol": "volym-1",
+   "pdfsida": 758,
+   "sida": 758,
+   "avsnitt": "20.3.2",
+   "avsnittsrubrik": "UHR ska ansvara för genomförande och implementering av förslagen",
+   "typ": "Förslag",
+   "text": "Universitetsoch högskolerådet ska ges i uppdrag av regeringen att, med utgångspunkt i utredningens förslag, förbereda en övergång till ny betygsskala och meritvärdering. Myndigheten ska också föreslå eventuella behov av förändringar i de föreskrifter som regeringen beslutar om.",
+   "id": "F80"
+  }
+ ]
+}

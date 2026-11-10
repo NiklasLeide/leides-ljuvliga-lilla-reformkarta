@@ -114,7 +114,7 @@ python3 research/remissanalys/skript/validera-pilot.py  # 440 utmaningar, 28 avs
 node research/remissanalys/skript/testa-pilotsida.js    # headless-test av sidan (Playwright), desktop och 380 px
 ```
 
-- `bygg-pilot.py` läser bara incheckade filer, under `research/remissanalys/` och dess `arbetsfiler/`.
+- `bygg-pilot.py` läser bara incheckade filer. Sedan Sprint 17 T1 är det ett omslag kring den parametriska kedjan (`kedja/kor.py betyg`), som läser `research/remissanalys/reformer/betyg/`. Stegen, kommandona och stoppreglerna står i `research/remissanalys/KEDJA.md`.
 - Utdata är deterministisk, så ett bygge från en ren utcheckning ger en identisk fil.
 - Arbetsfilerna `propositionsavsnitt-text.json`, `propositioner-innehall.json` och `sou-innehall.json` togs fram en gång med `skript/v2/forbered_arbetsfiler.py` ur pdftotext-utdata av propositionerna och SOU:n.
 - `passager-forstudie2.json` är förstudie 2:s segmentering (714 passager). Den läses av `skript/v2/bygg-granskning.py`, som bygger granskningsunderlaget:

@@ -1,0 +1,110 @@
+{
+ "id": "stod",
+ "namn": null,
+ "namn_i_brief": "Förbättrat stöd",
+ "reforms_json_id": "stod",
+ "status": "mall — fylls i när reformen tas fram",
+ "sou": {
+  "nr": "SOU 2025:44",
+  "titel": "Förbättrat stöd i skolan",
+  "sida_url": "https://www.regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2025/04/sou-202544/",
+  "pdf": null,
+  "innehall_sidor": null,
+  "forslagskapitel": null,
+  "forfattningskommentar": null
+ },
+ "remiss": {
+  "url": "https://www.regeringen.se/remisser/2025/04/remiss-av-forbattrat-stod-i-skolan-sou-202544/",
+  "diarienummer": "U2025/01067"
+ },
+ "propositioner": [
+  {
+   "nr": "Prop. 2025/26:195",
+   "sida_url": "https://www.regeringen.se/rattsliga-dokument/proposition/2026/03/prop.-202526195",
+   "pdf_url": null,
+   "avsnitt": null,
+   "utredningens_forslag_rubrik": null,
+   "remissinstanser_rubrik": null,
+   "hoppa_delar_vid_namnsokning": [],
+   "lagtext_sidor": null,
+   "forteckning_remissinstanser_sida": null
+  }
+ ],
+ "layout": {
+  "spaltforskjutning_pt": null,
+  "ord_y_intervall_pt": null
+ },
+ "lagar": null,
+ "forordningar": null,
+ "forordning_markor": null,
+ "fokusorganisationer": {
+  "skr": "Sveriges Kommuner och Regioner",
+  "almega": "Almega Utbildning",
+  "ideburna": "Idéburna skolors riksförbund"
+ },
+ "kedja": {
+  "utredningsbetankande": {
+   "nr": "SOU 2025:44",
+   "titel": "Förbättrat stöd i skolan",
+   "kalla": {
+    "text": "SOU 2025:44 Förbättrat stöd i skolan (regeringen.se)",
+    "url": "https://www.regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2025/04/sou-202544/"
+   }
+  },
+  "remiss": {
+   "url": "https://www.regeringen.se/remisser/2025/04/remiss-av-forbattrat-stod-i-skolan-sou-202544/",
+   "diarienummer": "U2025/01067",
+   "publicerad": "11 april 2025",
+   "svar_senast": "27 juni 2025",
+   "kalla": {
+    "text": "Remiss U2025/01067 på regeringen.se",
+    "url": "https://www.regeringen.se/remisser/2025/04/remiss-av-forbattrat-stod-i-skolan-sou-202544/"
+   }
+  },
+  "proposition": [
+   {
+    "nr": "Prop. 2025/26:195",
+    "titel": "Förbättrat stöd i skolan",
+    "kalla": {
+     "text": "Prop. 2025/26:195 (regeringen.se)",
+     "url": "https://www.regeringen.se/rattsliga-dokument/proposition/2026/03/prop.-202526195"
+    },
+    "riksdagen": {
+     "text": "Prop. 2025/26:195 (riksdagens öppna data)",
+     "url": "https://data.riksdagen.se/dokument/HD03195"
+    },
+    "anm": "SOU 2025:44 är ett delbetänkande; slutbetänkandet SOU 2025:113 bereds (enligt utredningar.json)."
+   }
+  ],
+  "utskottsbetankande": {
+   "bet": "2025/26:UbU24",
+   "kalla": {
+    "text": "Bet. 2025/26:UbU24 (riksdagens öppna data)",
+    "url": "https://data.riksdagen.se/dokument/HD01UbU24"
+   },
+   "status": {
+    "text": "Dokumentstatus bet. 2025/26:UbU24",
+    "url": "https://data.riksdagen.se/dokumentstatus/HD01UbU24"
+   }
+  },
+  "rskr": {
+   "nr": "2025/26:328",
+   "beslutsdatum": "2026-06-03",
+   "status": "inträffat",
+   "kalla": {
+    "text": "Rskr. 2025/26:328; beslutsaktivitet (BES) 2026-06-03 status inträffat i dokumentstatus för bet. 2025/26:UbU24",
+    "url": "https://data.riksdagen.se/dokumentstatus/HD01UbU24"
+   },
+   "dokument": {
+    "text": "Rskr. 2025/26:328",
+    "url": "https://data.riksdagen.se/dokument/HD0K328"
+   }
+  }
+ },
+ "hamtningsdatum": null,
+ "korrigeringar": {
+  "ocr_citat_manuellt_kontrollerade": [],
+  "motivering_omformulerad": {}
+ },
+ "forordning_markor_beskrivning": null
+}

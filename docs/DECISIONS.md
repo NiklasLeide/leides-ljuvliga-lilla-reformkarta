@@ -18,6 +18,14 @@ Record of key decisions made during the project. **Newest first.**
 
 ---
 
+### DEC-024: Utmaningskartans kedja parametrisk per reform; källcache utanför git, mellanfiler och kodning incheckade
+**Date:** 2026-11-10
+**Decision:** Kedjan (`research/remissanalys/kedja/`) körs per reform med id som argument och har en konfiguration per reform (`reformer/<id>.json`) samt en gemensam låst metodfil (`kedja/gemensamt.json`). Nedladdade källor ligger i `reformer/<id>/kallor/`. Katalogen är gitignorerad men ligger inne i repot, så inget steg läser filer utanför repot. Extraktionernas utdata (K2–K6), modellkodningen (M1–M3) och den redaktionella förslagsmatchningen (R1) checkas in. Därför går K6–K10 att köra deterministiskt från en ren utcheckning, och betygsfilen blir byte-identisk. `skript/bygg-pilot.py` är ett omslag. KEDJA.md och KODINSTRUKTION.md är de kanoniska beskrivningarna.
+**Reasoning:** Regressionen måste gå att köra utan nät och utan förstudiens scratch-filer. PDF:er och OCR-bilder är stora och går att hämta igen, medan extraherad text är liten och gör stegen granskningsbara. Sprint 16:s urvalsregel till SFS-jämförelsen behålls som legacy för betyg så att filen blir identisk. För nya reformer ska det avgöras när den första körs.
+**Alternatives considered:** Checka in PDF:erna (stora, onödigt). Låta kedjan läsa scratch-kataloger (bryter mot kravet att allt finns i repot). Skriva om betyg med en ny, renare urvalsregel (bryter regressionen och ändrar data, utanför scope).
+
+---
+
 ### DEC-023: Pilotsidor i pilot/ utanför Pages, förhandsvisning via pilot-sync.sh
 **Date:** 2026-11-10
 **Decision:** (Sprint 16, Utmaningskartan)

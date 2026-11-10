@@ -1,0 +1,133 @@
+{
+ "_meta": {
+  "beskrivning": "Gemensam, låst konfiguration för Utmaningskartans kedja (alla reformer)."
+ },
+ "utmaningstyper": [
+  [
+   "Kostnader och finansiering",
+   "utgifter, ersättning, finansieringsprincipen, resursbehov i pengar"
+  ],
+  [
+   "Tidplan och reformtakt",
+   "ikraftträdande, förberedelsetid, samtidiga reformer"
+  ],
+  [
+   "Personal, kompetens och arbetsbelastning",
+   "bemanning, kompetensutveckling, lärares och rektorers arbetsbörda"
+  ],
+  [
+   "System och teknik",
+   "digitala system, provplattform, infrastruktur, utrustning"
+  ],
+  [
+   "Organisation och planering",
+   "schemaläggning, lokaler, genomförande i verksamheten, samordning mellan enheter"
+  ],
+  [
+   "Otydlighet i förslaget",
+   "oklara begrepp, oklart ansvar, oklar tillämpning"
+  ],
+  [
+   "Likvärdighet och konsekvenser för elever",
+   "effekter för elevgrupper, rättssäkerhet, likvärdig bedömning"
+  ],
+  [
+   "Övrigt",
+   "inget av ovanstående"
+  ]
+ ],
+ "avgorande_regel": "Citat vars huvudpoäng är att modellen, regleringen eller begreppen är svåra att förstå eller förklara kodas som Otydlighet i förslaget, även när elever eller vårdnadshavare nämns som de som ska förstå. Likvärdighet och konsekvenser för elever kräver att citatet beskriver en effekt för elever eller skilda utfall mellan elevgrupper, skolor eller huvudmän.",
+ "kopplingsnivaer": [
+  "förslag",
+  "avsnitt",
+  "kapitel",
+  "tolkad",
+  null
+ ],
+ "fokusgrupper": {
+  "kommuner": [
+   "Kommuner",
+   "huvudman"
+  ],
+  "enskilda_huvudman": [
+   "Enskilda huvudmän",
+   "huvudman"
+  ],
+  "skr": [
+   "Sveriges Kommuner och Regioner (SKR)",
+   "huvudmannaorganisation"
+  ],
+  "almega": [
+   "Almega",
+   "huvudmannaorganisation"
+  ],
+  "ideburna": [
+   "Idéburna skolors riksförbund",
+   "huvudmannaorganisation"
+  ]
+ },
+ "klassning": {
+  "enskilda_huvudman": [
+   "Academedia AB",
+   "Frida Utbildning AB",
+   "Fridaskolorna AB",
+   "Internationella Engelska Skolan",
+   "Internationella Engelska Skolan AB",
+   "Internationella Engelska Skolan i Sverige AB",
+   "Internationella Engelska skolan i Sverige AB",
+   "Kunskapsskolan i Sverige AB",
+   "Lärandegruppen i Sverige AB",
+   "OneSchool Global",
+   "Stiftelsen Viktor Rydberg skolor"
+  ],
+  "myndigheter_exakt": [
+   "Arbetsmiljöverket",
+   "Barnombudsmannen",
+   "Brottsförebyggande rådet",
+   "Centrala studiestödsnämnden",
+   "Diskrimineringsombudsmannen",
+   "Folkhälsomyndigheten",
+   "Gymnastik- och idrottshögskolan",
+   "Institutet för arbetsmarknads- och utbildningspolitisk utvärdering",
+   "Institutet för arbetsmarknadsoch utbildningspolitisk utvärdering",
+   "Institutet för mänskliga rättigheter",
+   "Institutet för språk och folkminnen",
+   "Integritetsskyddsmyndigheten",
+   "Justitiekanslern",
+   "Jämställdhetsmyndigheten",
+   "Karolinska institutet",
+   "Konstfack",
+   "Kriminalvården",
+   "Kungliga Musikhögskolan i Stockholm",
+   "Kungliga biblioteket",
+   "Linnéuniversitetet",
+   "Mittuniversitetet",
+   "Nationellt centrum för kvinnofrid",
+   "Polismyndigheten",
+   "Regelrådet",
+   "Riksdagens ombudsmän",
+   "Riksdagens ombudsmän (JO)",
+   "Sameskolstyrelsen",
+   "Sametinget",
+   "Skolforskningsinstitutet",
+   "Skolväsendets överklagandenämnd",
+   "Socialstyrelsen",
+   "Specialpedagogiska skolmyndigheten",
+   "Statistiska centralbyrån",
+   "Statskontoret",
+   "Tillväxtverket",
+   "Universitets- och högskolerådet",
+   "Universitetskanslersämbetet"
+  ],
+  "anm": "Enskilda huvudmän och myndigheter klassas mot listor (extern kunskap, ska verifieras). Kommuner, regioner och SKR/Almega/Idéburna på namnet."
+ },
+ "stoppregler": {
+  "ovrigt_max_andel": 0.1,
+  "samstammighet_min_andel": 0.8
+ },
+ "forbjudna_ord": [
+  "löst",
+  "kvarstår",
+  "bemött tillräckligt"
+ ]
+}

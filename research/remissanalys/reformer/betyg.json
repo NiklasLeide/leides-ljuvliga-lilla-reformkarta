@@ -1,0 +1,236 @@
+{
+ "id": "betyg",
+ "namn": "Ett likvärdigt betygssystem",
+ "namn_i_brief": "Betygsuppdraget",
+ "reforms_json_id": "betyg",
+ "status": "klar (pilot Sprint 16)",
+ "sou": {
+  "nr": "SOU 2025:18",
+  "titel": "Ett likvärdigt betygssystem",
+  "sida_url": "https://www.regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2025/02/sou-202518/",
+  "pdf": [
+   {
+    "vol": "volym-1",
+    "url": "https://www.regeringen.se/contentassets/56408e57ea8e4954bf38491c8bc33d4c/ett-likvardigt-betygssystem-sou-202518-volym-1.pdf"
+   },
+   {
+    "vol": "volym-2",
+    "url": "https://www.regeringen.se/contentassets/56408e57ea8e4954bf38491c8bc33d4c/ett-likvardigt-betygssystem-sou-202518-volym-2.pdf"
+   }
+  ],
+  "innehall_sidor": [
+   1,
+   25
+  ],
+  "forslagskapitel": [
+   9,
+   20
+  ],
+  "forfattningskommentar": {
+   "avsnitt": "22.1",
+   "slut_avsnitt": "22.2",
+   "lag": "Skollag (2010:800)"
+  }
+ },
+ "remiss": {
+  "url": "https://www.regeringen.se/remisser/2025/03/remiss-av-ett-likvardigt-betygsystem-sou-202518/",
+  "diarienummer": "U2025/00401"
+ },
+ "propositioner": [
+  {
+   "nr": "Prop. 2025/26:197",
+   "kort": "197",
+   "sida_url": "https://www.regeringen.se/rattsliga-dokument/proposition/2026/03/prop.-202526197",
+   "pdf_url": "https://www.regeringen.se/contentassets/a37af6932a5f4cf794499eb68a798d63/ett-likvardigt-betygssystem-prop.-202526197.pdf",
+   "avsnitt": "alla",
+   "utredningens_forslag_rubrik": [
+    "Utredningens förslag",
+    "Utredningens bedömning"
+   ],
+   "remissinstanser_rubrik": "Remissinstanserna",
+   "hoppa_delar_vid_namnsokning": [],
+   "lagtext_sidor": [
+    6,
+    40
+   ],
+   "forteckning_remissinstanser_sida": 226,
+   "ovriga_delrubriker": [],
+   "forteckning_bilaga": 3
+  },
+  {
+   "nr": "Prop. 2025/26:194",
+   "kort": "194",
+   "sida_url": "https://www.regeringen.se/rattsliga-dokument/proposition/2026/03/prop.-202526194",
+   "pdf_url": "https://www.regeringen.se/contentassets/42c1e2e4596b4f8682e3d8283b91a138/nya-laroplaner--for-en-stark-kunskapsskola-prop.-202526194.pdf",
+   "avsnitt": [
+    "6.7",
+    "6.8"
+   ],
+   "utredningens_forslag_rubrik": [
+    "Utredningen om likvärdiga betyg och meritvärdens förslag"
+   ],
+   "remissinstanser_rubrik": "Remissinstanserna#2",
+   "hoppa_delar_vid_namnsokning": [
+    "Läroplansutredningens"
+   ],
+   "lagtext_sidor": [
+    6,
+    43
+   ],
+   "forteckning_remissinstanser_sida": null,
+   "anm": "Delad proposition: behandlar SOU 2025:18 avsnitt 9.3 och 9.4 (propositionens avsnitt 6.7–6.8) tillsammans med SOU 2025:19 och 2025:8.",
+   "ovriga_delrubriker": [
+    "Utredningen om likvärdiga betyg och meritvärdens bedömning",
+    "Läroplansutredningens förslag",
+    "Läroplansutredningens bedömning"
+   ],
+   "forteckning_bilaga": null,
+   "hoppade_delar_beskrivning": "delar om SOU 2025:19"
+  }
+ ],
+ "layout": {
+  "spaltforskjutning_pt": 154.0,
+  "ord_y_intervall_pt": [
+   30,
+   640
+  ],
+  "anm": "Propositionernas tvåspaltiga lagförslag: högerspalten börjar spaltforskjutning_pt till höger om vänstermarginalen."
+ },
+ "lagar": [
+  {
+   "namn": "Skollag (2010:800)",
+   "riksdagen_id": "sfs-2010-800",
+   "andringar": [
+    "2026:1242",
+    "2026:1243",
+    "2026:1245"
+   ],
+   "bestamd_form": "skollagen"
+  }
+ ],
+ "forordningar": [
+  {
+   "namn": "Gymnasieförordning (2010:2039)",
+   "riksdagen_id": "sfs-2010-2039"
+  },
+  {
+   "namn": "Skolförordning (2011:185)",
+   "riksdagen_id": "sfs-2011-185"
+  },
+  {
+   "namn": "Högskoleförordning (1993:100)",
+   "riksdagen_id": "sfs-1993-100"
+  },
+  {
+   "namn": "Förordning (2011:1108) om vuxenutbildning",
+   "riksdagen_id": "sfs-2011-1108"
+  },
+  {
+   "namn": "Förordning (2014:854) om vidareutbildning i form av ett fjärde tekniskt år",
+   "riksdagen_id": "sfs-2014-854"
+  }
+ ],
+ "forordning_markor": [
+  "betyget 4"
+ ],
+ "fokusorganisationer": {
+  "skr": "Sveriges Kommuner och Regioner",
+  "almega": "Almega Utbildning",
+  "ideburna": "Idéburna skolors riksförbund"
+ },
+ "kedja": {
+  "utredningsbetankande": {
+   "nr": "SOU 2025:18",
+   "titel": "Ett likvärdigt betygssystem",
+   "kalla": {
+    "text": "SOU 2025:18 Ett likvärdigt betygssystem (regeringen.se)",
+    "url": "https://www.regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2025/02/sou-202518/"
+   }
+  },
+  "remiss": {
+   "url": "https://www.regeringen.se/remisser/2025/03/remiss-av-ett-likvardigt-betygsystem-sou-202518/",
+   "diarienummer": "U2025/00401",
+   "publicerad": "19 mars 2025",
+   "svar_senast": "19 juni 2025",
+   "kalla": {
+    "text": "Remiss U2025/00401 på regeringen.se",
+    "url": "https://www.regeringen.se/remisser/2025/03/remiss-av-ett-likvardigt-betygsystem-sou-202518/"
+   }
+  },
+  "proposition": [
+   {
+    "nr": "Prop. 2025/26:197",
+    "titel": "Ett likvärdigt betygssystem",
+    "kalla": {
+     "text": "Prop. 2025/26:197 (regeringen.se)",
+     "url": "https://www.regeringen.se/rattsliga-dokument/proposition/2026/03/prop.-202526197"
+    },
+    "riksdagen": {
+     "text": "Prop. 2025/26:197 (riksdagens öppna data)",
+     "url": "https://data.riksdagen.se/dokument/HD03197"
+    },
+    "anm": "Delar av SOU 2025:18 (avsnitt 9.3 och 9.4) behandlas i prop. 2025/26:194; prop. 2025/26:197 behandlar \"alla lagförslag i betänkandet, utom de som lämnas i avsnitt 9.3.7 och 9.4.2 och de lagförslag i avsnitt 9.4.3 som rör annat än lovskola\"."
+   },
+   {
+    "nr": "Prop. 2025/26:194",
+    "anm": "Behandlar SOU 2025:18 avsnitt 9.3 och 9.4 (avsnitt 6.7–6.8 i propositionen).",
+    "kalla": {
+     "text": "Prop. 2025/26:194 (regeringen.se)",
+     "url": "https://www.regeringen.se/rattsliga-dokument/proposition/2026/03/prop.-202526194"
+    }
+   }
+  ],
+  "utskottsbetankande": {
+   "bet": "2025/26:UbU26",
+   "kalla": {
+    "text": "Bet. 2025/26:UbU26 (riksdagens öppna data)",
+    "url": "https://data.riksdagen.se/dokument/HD01UbU26"
+   },
+   "status": {
+    "text": "Dokumentstatus bet. 2025/26:UbU26",
+    "url": "https://data.riksdagen.se/dokumentstatus/HD01UbU26"
+   }
+  },
+  "rskr": {
+   "nr": "2025/26:335",
+   "beslutsdatum": "2026-06-09",
+   "status": "inträffat",
+   "kalla": {
+    "text": "Rskr. 2025/26:335; beslutsaktivitet (BES) 2026-06-09 status inträffat i dokumentstatus för bet. 2025/26:UbU26",
+    "url": "https://data.riksdagen.se/dokumentstatus/HD01UbU26"
+   },
+   "dokument": {
+    "text": "Rskr. 2025/26:335",
+    "url": "https://data.riksdagen.se/dokument/HD0K335"
+   }
+  }
+ },
+ "hamtningsdatum": "2026-11-10",
+ "korrigeringar": {
+  "ocr_citat_manuellt_kontrollerade": [
+   "U287",
+   "U288",
+   "U289",
+   "U290",
+   "U291",
+   "U292",
+   "U293",
+   "U294",
+   "U295",
+   "U296"
+  ],
+  "motivering_omformulerad": {
+   "U338": [
+    "lokal hantering kvarstår",
+    "lokal hantering finns kvar"
+   ]
+  }
+ },
+ "forteckning_korrigeringar": {},
+ "forordning_markor_beskrivning": "den nya betygsskalan",
+ "legacy_sokvagar": {
+  "_anm": "Sökvägar som betygsfilen från Sprint 16 refererar till (belagg, byggd_av). Behålls för identisk regression; nya reformer pekar på reformer/<id>/sfs-diff.json och kedja/bygg.py.",
+  "sfs_diff_belagg": "research/remissanalys/sfs-diff-betyg.json",
+  "byggd_av": "research/remissanalys/skript/bygg-pilot.py"
+ }
+}

@@ -1,0 +1,119 @@
+#!/usr/bin/env python3
+"""Steg K8 (deterministiskt): sfs-diff.json — per utredningsförslag med kodade utmaningar:
+SOU:ns föreslagna paragraf (författningskommentaren) → propositionens lagförslag → beslutad lydelse (konsoliderad SFS).
+Paragrafer knyts till förslag via författningskommentarens avsnittshänvisningar (avsnittsnivå). Matchning: kapitel + nummer,
+annars högst textlikhet inom kapitlet; likhet < 0,80 ⇒ manuell_granskning. Statusvärdet är mekaniskt.
+
+URVAL (legacy-regel från Sprint 16, inte generaliserad metod): förslag som någon kodad utmaning (dubbletter inräknade) pekar på via
+passagens förankring i förstudie 2 (passager.json forankrade_forslag, där en avsnittshänvisning utan förslagsruta faller tillbaka på
+förälderavsnittet) eller paragrafhänvisning; saknas sådan används den tolkade kopplingen. Regeln behålls för att betygsfilen ska bli
+identisk; för nya reformer bör urvalet i stället bli alla förslag (se KEDJA.md).
+
+Konfiguration: sou.nr, sou.forfattningskommentar, lagar (bara en lag stöds), forordning_markor, hamtningsdatum.
+Förutsättning: sou-forslag/sou-paragrafer (K2), prop-lagtext (K3), sfs (K4), passager (K6), kodning/utmaningar + tolkad-koppling (M1, M3).
+Användning: python3 research/remissanalys/kedja/sfs_diff.py <reform-id>"""
+import collections, difflib, os, re, sys
+sys.path.insert(0, os.path.dirname(__file__))
+from gemensamt import reform_id, config, las, skriv, kravs
+
+EJ_LAGTEXT = r'ska ges i uppgift|ges i uppdrag|ska ge Statens skolverk i uppdrag|ska ansvara för|instruktion'
+def n(t): return re.sub(r'[\s\-–­]', '', t.lower())
+def sim(a, b): return difflib.SequenceMatcher(None, n(a), n(b), autojunk=False).ratio()
+def wdiff(a, b):
+    A = a.split(); B = b.split(); out = []
+    for op, i1, i2, j1, j2 in difflib.SequenceMatcher(None, A, B, autojunk=False).get_opcodes():
+        if op != 'equal': out.append({'op': {'replace': 'ersatt', 'delete': 'struken', 'insert': 'tillagd'}[op], 'fore': ' '.join(A[i1:i2]) or None, 'efter': ' '.join(B[j1:j2]) or None})
+    return out
+def match(cands, text):
+    best = None
+    for c in cands:
+        r = sim(text, c['text'])
+        if best is None or r > best[0]: best = (r, c)
+    return best
+def sfs_lista(a):
+    """['2026:1242','2026:1243'] → '2026:1242/1243' (samma år), annars '/'-separerat."""
+    ar = {x.split(':')[0] for x in a}
+    return a[0] + ''.join('/' + x.split(':')[1] for x in a[1:]) if len(ar) == 1 else '/'.join(a)
+
+if __name__ == '__main__':
+    rid = reform_id(); c = config(rid)
+    HAMTAT = kravs(c, 'hamtningsdatum'); SOUNR = kravs(c, 'sou', 'nr'); FK = kravs(c, 'sou', 'forfattningskommentar')
+    lagar = kravs(c, 'lagar')
+    if len(lagar) != 1: sys.exit('sfs_diff.py stöder bara en lag (författningskommentaren och SFS-jämförelsen för en lag) — generalisera före användning.')
+    LAG = lagar[0]; LAGNAMN = LAG['namn']; LAG_BEST = LAG.get('bestamd_form') or sys.exit('lagar[0].bestamd_form saknas i konfigurationen.'); ANDR = tuple(LAG['andringar'])
+    boxes = las(rid, 'sou-forslag.json'); U_SOU = boxes['_meta']['pdf']; boxes = {b['id']: b for b in boxes['forslag']}
+    sou = las(rid, 'sou-paragrafer.json')['paragrafer']
+    sfsd = las(rid, 'sfs.json'); sl = sfsd['lagar'][0]; sfs = sl['versioner'] + sl['overgangsbestammelser']; U_SFS = sl['url']
+    FORORD = [(f['namn'], f['url'], f['markor']) for f in sfsd['forordningar']]
+    props = list(las(rid, 'prop-lagtext.json')['propositioner'].values()); U_P = {p['proposition']: p['url'] for p in props}
+    # --- urval (legacy-regel, se docstring) ---
+    P = {p['id']: p for p in las(rid, 'passager.json')['passager']}
+    KT = {x['uid']: x for x in las(rid, 'kodning/tolkad-koppling.json')['kopplingar']}
+    PAR = {(p['kap'], p['par'].replace(' ', '')): p['avsnitt'] for p in sou if p['kap'] != 'ikraft'}
+    f_exact = lambda sec: [b['id'] for b in boxes.values() if b['avsnitt'] == sec or b['avsnitt'].startswith(sec + '.')]
+    FIDS = set()
+    for x in las(rid, 'kodning/utmaningar.json')['utmaningar']:
+        p = P[x['id']]
+        fids = set(p['forankrade_forslag']) | {f for m in re.finditer(r'(\d{1,2}) kap\.\s*(\d{1,3}(?:\s?[a-z])?)\s*§', p['text'])
+                                              for k in [(m.group(1), m.group(2).replace(' ', ''))] if k in PAR for a in PAR[k] for f in f_exact(a)}
+        FIDS |= fids if fids else set((KT.get(x['uid']) or {}).get('forslag') or [])
+    # --- jämförelse ---
+    fk_text = f"författningskommentar {FK['avsnitt']}"
+    andr_txt = sfs_lista(list(ANDR))
+    def paragrafer_for(f):
+        a = boxes[f]['avsnitt']
+        return [p for p in sou if any(x == a or x.startswith(a + '.') or a.startswith(x + '.') for x in p['avsnitt'])]
+    res = []
+    for f in sorted(FIDS, key=lambda x: int(x[1:])):
+        b = boxes[f]; pp = paragrafer_for(f)
+        post = {'forslag': f, 'sou_avsnitt': b['avsnitt'], 'forslag_kalla': {'text': f"{SOUNR} s. {b['sida']}", 'url': U_SOU[b['vol']]}, 'paragrafer': []}
+        if not pp:
+            if re.search(EJ_LAGTEXT, b['text']):
+                post.update(status='ej lagtext', status_kalla={'text': f"Förslaget gäller uppdrag/ansvar för myndighet; ingen paragraf i SOU:ns författningskommentar till {LAG_BEST} (avsnitt {FK['avsnitt']}) hänvisar till avsnitt " + b['avsnitt'], 'url': U_SOU[b['vol']]})
+            else:
+                mk = '; '.join(f'{sum(fo[2].get(m, 0) for fo in FORORD)} träffar på "{m}"' for m in c.get('forordning_markor') or [])
+                post.update(status=f'ej i SFS per {HAMTAT}', status_kalla={'text': f"Ingen paragraf i SOU:ns författningskommentar till {LAG_BEST} ({FK['avsnitt']}) hänvisar till avsnitt " + b['avsnitt'] + ' — förslaget avser förordningsnivå. Konsoliderade förordningar hämtade ' + HAMTAT + f" innehåller inte {kravs(c, 'forordning_markor_beskrivning')} ({mk}): " + '; '.join(x[0] for x in FORORD),
+                                                                              'url': FORORD[0][1], 'ovriga_urler': [x[1] for x in FORORD[1:]]})
+            res.append(post); continue
+        stats = []
+        for p in pp:
+            rad = {'paragraf': f"{p['kap']} kap. {p['par']} §", 'sou': {'text': p['text'], 'kalla': {'text': f"{SOUNR} s. {p['sida']} ({fk_text})", 'url': U_SOU[FK.get('vol', 'volym-1')]}}}
+            pc = [dict(text=q['foreslagen'], kap=q['kap'], par=q['par'], sida=q['sida'], prop=pr['proposition'], lf=lf['lagforslag']) for pr in props for lf in pr['lagforslag'] for q in lf['paragrafer'] if q['kap'] == p['kap']]
+            same = [x for x in pc if x['par'] == p['par'].replace(' ', '')]
+            m = match(same, p['text']) or match(pc, p['text'])
+            if m:
+                r, x = m
+                rad['proposition'] = {'text': x['text'], 'paragraf': f"{x['kap']} kap. {x['par']} §", 'likhet_mot_sou': round(r, 3), 'kalla': {'text': f"{x['prop']} s. {x['sida']}, lagförslag {x['lf']}", 'url': U_P[x['prop']]},
+                                      'matchning': 'nummer' if x['par'] == p['par'].replace(' ', '') else 'textlikhet', 'manuell_granskning': r < 0.8}
+            else: rad['proposition'] = None
+            sc = [v for v in sfs if v['kap'] == p['kap'] and v['lag'] in ANDR]
+            same = [v for v in sc if v['par'] == p['par'].replace(' ', '')]
+            ms = match(same, p['text']) or match(sc, p['text'])
+            cur = [v for v in sfs if v['kap'] == p['kap'] and v['par'] == p['par'].replace(' ', '') and v['ikraft'] is None]
+            if ms:
+                r, v = ms
+                rad['beslutad'] = {'text': v['text'], 'paragraf': f"{v['kap']} kap. {v['par']} §", 'sfs': v['lag'], 'ikraft': v['ikraft'], 'likhet_mot_sou': round(r, 3),
+                                   'kalla': {'text': f"{LAGNAMN} {v['kap']} kap. {v['par']} § i lydelse enligt SFS {v['lag']}" + (f", träder i kraft {v['ikraft']}" if v['ikraft'] else '') + f"; konsoliderad text hämtad {HAMTAT} ({sl['andrad_tom']})", 'url': U_SFS},
+                                   'matchning': 'nummer' if v['par'] == p['par'].replace(' ', '') else 'textlikhet', 'manuell_granskning': r < 0.8}
+                if r >= 0.999: st = 'oförändrad'
+                else: st = 'ändrad'; rad['diff_sou_mot_beslutad'] = wdiff(p['text'], v['text'])
+            else:
+                rad['beslutad'] = None
+                if cur: rad['nuvarande_sfs'] = {'text': cur[0]['text'], 'sfs': cur[0]['lag'], 'kalla': {'text': f"{LAGNAMN} {p['kap']} kap. {p['par']} §, gällande lydelse (SFS {cur[0]['lag']}), hämtad {HAMTAT}", 'url': U_SFS}}
+                st = 'ej med'
+            rad['status'] = st; stats.append(st)
+            rad['manuell_granskning'] = bool((rad.get('proposition') or {}).get('manuell_granskning') or (rad.get('beslutad') or {}).get('manuell_granskning'))
+            post['paragrafer'].append(rad)
+        us = set(stats)
+        post['status'] = stats[0] if len(us) == 1 else 'blandad'
+        post['status_per_paragraf'] = {s: stats.count(s) for s in us}
+        post['status_kalla'] = {'text': f'Härledd per paragraf: SOU:ns föreslagna lydelse jämförd med beslutad lydelse (SFS {andr_txt}). Statusvärdet är mekaniskt (textlikhet), inte en bedömning.', 'url': U_SFS}
+        res.append(post)
+    meta = {'hamtningsdatum': HAMTAT, 'beslutad_lydelse_kalla': f"{LAGNAMN} konsoliderad, riksdagens öppna data (Källa: Regeringskansliet / Lagrummet), " + sl['andrad_tom'] + '. Ändrings-SFS i original (svenskforfattningssamling.se) nåddes inte från miljön.',
+            'statusregler': {'oförändrad': 'SOU:ns föreslagna paragraf = beslutad lydelse (normaliserad textlikhet ≥ 0,999)', 'ändrad': 'beslutad lydelse finns men skiljer sig; ordagrann ord-diff sparas',
+                             'ej med': f'ingen version införd genom SFS {andr_txt} för paragrafen', 'ej lagtext': 'förslaget är inte författningstext (uppdrag/ansvar)', f'ej i SFS per {HAMTAT}': 'förslaget avser förordning som ännu inte finns i SFS'},
+            'matchning': 'Paragrafer matchas på kapitel + nummer; saknas samma nummer används högst textlikhet inom kapitlet. Likhet < 0,80 ⇒ manuell_granskning: true.',
+            'forslag_till_paragraf': 'Paragrafer knyts till förslag via SOU:ns författningskommentar ("Bestämmelsen behandlas i avsnitt …"), dvs. på avsnittsnivå — flera förslag i samma avsnitt delar paragrafer.'}
+    skriv(rid, 'sfs-diff.json', {'_meta': meta, 'forslag': res})
+    rows = [x for r in res for x in r['paragrafer']]
+    print(f"{rid}: förslag {len(res)} {dict(collections.Counter(r['status'] for r in res))}; paragrafrader {len(rows)}, manuell granskning {sum(x['manuell_granskning'] for x in rows)}")

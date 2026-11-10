@@ -1,0 +1,110 @@
+{
+ "id": "tid",
+ "namn": null,
+ "namn_i_brief": "Tid för undervisningsuppdraget",
+ "reforms_json_id": "tid",
+ "status": "mall — fylls i när reformen tas fram",
+ "sou": {
+  "nr": "SOU 2025:26",
+  "titel": "Tid för undervisningsuppdraget – åtgärder för god undervisning och läraryrkenas attraktivitet",
+  "sida_url": "https://www.regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2025/03/sou-202526/",
+  "pdf": null,
+  "innehall_sidor": null,
+  "forslagskapitel": null,
+  "forfattningskommentar": null
+ },
+ "remiss": {
+  "url": "https://www.regeringen.se/remisser/2025/03/remiss-av-betankandet-tid-for-undervisningsuppdraget--atgarder-for-god-undervisning-och-lararyrkenas-attraktivitet-sou-202526/",
+  "diarienummer": "U2025/00740"
+ },
+ "propositioner": [
+  {
+   "nr": "Prop. 2025/26:196",
+   "sida_url": "https://www.regeringen.se/rattsliga-dokument/proposition/2026/03/prop.-202526196",
+   "pdf_url": null,
+   "avsnitt": null,
+   "utredningens_forslag_rubrik": null,
+   "remissinstanser_rubrik": null,
+   "hoppa_delar_vid_namnsokning": [],
+   "lagtext_sidor": null,
+   "forteckning_remissinstanser_sida": null
+  }
+ ],
+ "layout": {
+  "spaltforskjutning_pt": null,
+  "ord_y_intervall_pt": null
+ },
+ "lagar": null,
+ "forordningar": null,
+ "forordning_markor": null,
+ "fokusorganisationer": {
+  "skr": "Sveriges Kommuner och Regioner",
+  "almega": "Almega utbildning",
+  "ideburna": "Idéburna skolors riksförbund"
+ },
+ "kedja": {
+  "utredningsbetankande": {
+   "nr": "SOU 2025:26",
+   "titel": "Tid för undervisningsuppdraget – åtgärder för god undervisning och läraryrkenas attraktivitet",
+   "kalla": {
+    "text": "SOU 2025:26 Tid för undervisningsuppdraget – åtgärder för god undervisning och läraryrkenas attraktivitet (regeringen.se)",
+    "url": "https://www.regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2025/03/sou-202526/"
+   }
+  },
+  "remiss": {
+   "url": "https://www.regeringen.se/remisser/2025/03/remiss-av-betankandet-tid-for-undervisningsuppdraget--atgarder-for-god-undervisning-och-lararyrkenas-attraktivitet-sou-202526/",
+   "diarienummer": "U2025/00740",
+   "publicerad": "12 mars 2025",
+   "svar_senast": "senast  den 10 juni 2025",
+   "kalla": {
+    "text": "Remiss U2025/00740 på regeringen.se",
+    "url": "https://www.regeringen.se/remisser/2025/03/remiss-av-betankandet-tid-for-undervisningsuppdraget--atgarder-for-god-undervisning-och-lararyrkenas-attraktivitet-sou-202526/"
+   }
+  },
+  "proposition": [
+   {
+    "nr": "Prop. 2025/26:196",
+    "titel": "Tid för undervisningsuppdraget",
+    "kalla": {
+     "text": "Prop. 2025/26:196 (regeringen.se)",
+     "url": "https://www.regeringen.se/rattsliga-dokument/proposition/2026/03/prop.-202526196"
+    },
+    "riksdagen": {
+     "text": "Prop. 2025/26:196 (riksdagens öppna data)",
+     "url": "https://data.riksdagen.se/dokument/HD03196"
+    },
+    "anm": null
+   }
+  ],
+  "utskottsbetankande": {
+   "bet": "2025/26:UbU25",
+   "kalla": {
+    "text": "Bet. 2025/26:UbU25 (riksdagens öppna data)",
+    "url": "https://data.riksdagen.se/dokument/HD01UbU25"
+   },
+   "status": {
+    "text": "Dokumentstatus bet. 2025/26:UbU25",
+    "url": "https://data.riksdagen.se/dokumentstatus/HD01UbU25"
+   }
+  },
+  "rskr": {
+   "nr": "2025/26:332",
+   "beslutsdatum": "2026-06-09",
+   "status": "inträffat",
+   "kalla": {
+    "text": "Rskr. 2025/26:332; beslutsaktivitet (BES) 2026-06-09 status inträffat i dokumentstatus för bet. 2025/26:UbU25",
+    "url": "https://data.riksdagen.se/dokumentstatus/HD01UbU25"
+   },
+   "dokument": {
+    "text": "Rskr. 2025/26:332",
+    "url": "https://data.riksdagen.se/dokument/HD0K332"
+   }
+  }
+ },
+ "hamtningsdatum": null,
+ "korrigeringar": {
+  "ocr_citat_manuellt_kontrollerade": [],
+  "motivering_omformulerad": {}
+ },
+ "forordning_markor_beskrivning": null
+}
