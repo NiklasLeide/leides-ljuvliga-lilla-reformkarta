@@ -1,0 +1,182 @@
+{
+ "beskrivning": "Fynd i revisionsskriptet som redan är beslutade att lämnas. Matchas på fil+post+falt+api; ändras källans värde blir fyndet nytt igen. Veckorutinen tar inte upp dessa.",
+ "beslutade": "2026-11-10",
+ "fynd": [
+  {
+   "fil": "reforms.json",
+   "post": "laroplaner",
+   "falt": "transition",
+   "typ": "ytterligare-betankande",
+   "api": "bet. 2025/26:UbU24, rskr. 2025/26:328, beslutsdatum 2026-06-03",
+   "skal": "Sprint 14 R6: utskottet samordnade lagtexten i UbU26; reformens huvudbeslut står redan i transition."
+  },
+  {
+   "fil": "reforms.json",
+   "post": "laroplaner",
+   "falt": "transition",
+   "typ": "ytterligare-betankande",
+   "api": "bet. 2025/26:UbU25, rskr. 2025/26:332, beslutsdatum 2026-06-09",
+   "skal": "Sprint 14 R6: utskottet samordnade lagtexten i UbU26; reformens huvudbeslut står redan i transition."
+  },
+  {
+   "fil": "reforms.json",
+   "post": "laroplaner",
+   "falt": "transition",
+   "typ": "ytterligare-betankande",
+   "api": "bet. 2025/26:UbU26, rskr. 2025/26:335, beslutsdatum 2026-06-09",
+   "skal": "Sprint 14 R6: utskottet samordnade lagtexten i UbU26; reformens huvudbeslut står redan i transition."
+  },
+  {
+   "fil": "reforms.json",
+   "post": "stod",
+   "falt": "transition",
+   "typ": "ytterligare-betankande",
+   "api": "bet. 2025/26:UbU26, rskr. 2025/26:335, beslutsdatum 2026-06-09",
+   "skal": "Sprint 14 R6: utskottet samordnade lagtexten i UbU26; reformens huvudbeslut står redan i transition."
+  },
+  {
+   "fil": "reforms.json",
+   "post": "tid",
+   "falt": "transition",
+   "typ": "ytterligare-betankande",
+   "api": "bet. 2025/26:UbU26, rskr. 2025/26:335, beslutsdatum 2026-06-09",
+   "skal": "Sprint 14 R6: utskottet samordnade lagtexten i UbU26; reformens huvudbeslut står redan i transition."
+  },
+  {
+   "fil": "reforms.json",
+   "post": "yrkes",
+   "falt": "transition",
+   "typ": "ytterligare-betankande",
+   "api": "bet. 2025/26:UbU26, rskr. 2025/26:335, beslutsdatum 2026-06-09",
+   "skal": "Sprint 14 R6: utskottet samordnade lagtexten i UbU26; reformens huvudbeslut står redan i transition."
+  },
+  {
+   "fil": "utredningar.json",
+   "post": "utr-elevhalsa",
+   "falt": "betankanden SOU 2025:113.datum",
+   "typ": "datum-avviker",
+   "api": "2025-11-26",
+   "skal": "Beslut 2026-11-10 (Sprint 14 S6–S9): ett SOU-datum ändras bara när källan visar överlämningsdatum — riksdagens datum är publiceringsdatum."
+  },
+  {
+   "fil": "utredningar.json",
+   "post": "utr-studiero",
+   "falt": "betankanden SOU 2025:8.datum",
+   "typ": "datum-avviker",
+   "api": "2025-01-29",
+   "skal": "Beslut 2026-11-10 (Sprint 14 S6–S9): ett SOU-datum ändras bara när källan visar överlämningsdatum — riksdagens datum är publiceringsdatum."
+  },
+  {
+   "fil": "utredningar.json",
+   "post": "utr-skolsakerhet",
+   "falt": "betankanden SOU 2023:28.datum",
+   "typ": "datum-avviker",
+   "api": "2023-06-16",
+   "skal": "Beslut 2026-11-10 (Sprint 14 S6–S9): ett SOU-datum ändras bara när källan visar överlämningsdatum — riksdagens datum är publiceringsdatum."
+  },
+  {
+   "fil": "utredningar.json",
+   "post": "utr-skolsakerhet",
+   "falt": "betankanden SOU 2024:17.datum",
+   "typ": "datum-avviker",
+   "api": "2024-03-07",
+   "skal": "Beslut 2026-11-10 (Sprint 14 S6–S9): ett SOU-datum ändras bara när källan visar överlämningsdatum — riksdagens datum är publiceringsdatum."
+  },
+  {
+   "fil": "utredningar.json",
+   "post": "utr-skolsakerhet",
+   "falt": "betankanden SOU 2024:87.datum",
+   "typ": "datum-avviker",
+   "api": "2024-12-18",
+   "skal": "Beslut 2026-11-10 (Sprint 14 S6–S9): ett SOU-datum ändras bara när källan visar överlämningsdatum — riksdagens datum är publiceringsdatum."
+  },
+  {
+   "fil": "utredningar.json",
+   "post": "utr-skolinformation",
+   "falt": "betankanden SOU 2024:28.datum",
+   "typ": "datum-avviker",
+   "api": "2024-04-19",
+   "skal": "Beslut 2026-11-10 (Sprint 14 S6–S9): ett SOU-datum ändras bara när källan visar överlämningsdatum — riksdagens datum är publiceringsdatum."
+  },
+  {
+   "fil": "utredningar.json",
+   "post": "utr-fler-vagar",
+   "falt": "betankanden SOU 2024:74.datum",
+   "typ": "datum-avviker",
+   "api": "2024-11-22",
+   "skal": "Beslut 2026-11-10 (Sprint 14 S6–S9): ett SOU-datum ändras bara när källan visar överlämningsdatum — riksdagens datum är publiceringsdatum."
+  },
+  {
+   "fil": "utredningar.json",
+   "post": "utr-yrkesvux",
+   "falt": "betankanden SOU 2024:16.datum",
+   "typ": "datum-avviker",
+   "api": "2024-02-19",
+   "skal": "Beslut 2026-11-10 (Sprint 14 S6–S9): ett SOU-datum ändras bara när källan visar överlämningsdatum — riksdagens datum är publiceringsdatum."
+  },
+  {
+   "fil": "utredningar.json",
+   "post": "utr-vinst",
+   "falt": "betankanden SOU 2025:37.datum",
+   "typ": "datum-avviker",
+   "api": "2025-04-08",
+   "skal": "Beslut 2026-11-10 (Sprint 14 S6–S9): ett SOU-datum ändras bara när källan visar överlämningsdatum — riksdagens datum är publiceringsdatum."
+  },
+  {
+   "fil": "utredningar.json",
+   "post": "utr-vinst",
+   "falt": "betankanden SOU 2025:123.datum",
+   "typ": "datum-avviker",
+   "api": "2026-01-01",
+   "skal": "Beslut 2026-11-10 (Sprint 14 S6–S9): ett SOU-datum ändras bara när källan visar överlämningsdatum — riksdagens datum är publiceringsdatum."
+  },
+  {
+   "fil": "utredningar.json",
+   "post": "utr-ai-forordningen",
+   "falt": "betankanden SOU 2025:101.datum",
+   "typ": "datum-avviker",
+   "api": "2025-10-08",
+   "skal": "Beslut 2026-11-10 (Sprint 14 S6–S9): ett SOU-datum ändras bara när källan visar överlämningsdatum — riksdagens datum är publiceringsdatum."
+  },
+  {
+   "fil": "utredningar.json",
+   "post": "utr-skolpeng",
+   "falt": "betankanden SOU 2025:72.datum",
+   "typ": "datum-avviker",
+   "api": "2025-06-13",
+   "skal": "Beslut 2026-11-10 (Sprint 14 S6–S9): ett SOU-datum ändras bara när källan visar överlämningsdatum — riksdagens datum är publiceringsdatum."
+  },
+  {
+   "fil": "utredningar.json",
+   "post": "utr-speciallarare",
+   "falt": "betankanden SOU 2026:50.datum",
+   "typ": "datum-avviker",
+   "api": "2026-08-14",
+   "skal": "Beslut 2026-11-10 (Sprint 14 S6–S9): ett SOU-datum ändras bara när källan visar överlämningsdatum — riksdagens datum är publiceringsdatum."
+  },
+  {
+   "fil": "utredningar.json",
+   "post": "utr-aldersgrans-sociala-medier",
+   "falt": "betankanden SOU 2026:35",
+   "typ": "sou-saknas-i-api",
+   "api": null,
+   "skal": "Sprint 14 S4: SOU 2026:35 saknas i riksdagens öppna data; datum verifierat på regeringen.se."
+  },
+  {
+   "fil": "utredningar.json",
+   "post": "utr-barnungdomsvard-styrning",
+   "falt": "direktiv Dir. 2026:98.kommitté",
+   "typ": "direktiv-annan-kommitte",
+   "api": "S 2025:06",
+   "skal": "Sprint 14 D36: riksdagens metadata anger S 2025:06, men direktivets titel och text anger S 2025:08 — källfel."
+  },
+  {
+   "fil": "utredningar.json",
+   "post": "utr-rektor",
+   "falt": "betankanden SOU 2026:4.datum",
+   "typ": "datum-avviker",
+   "api": "2026-01-20",
+   "skal": "Beslut 2026-11-10 (Sprint 14 S6–S9): ett SOU-datum ändras bara när källan visar överlämningsdatum — riksdagens datum är publiceringsdatum."
+  }
+ ]
+}

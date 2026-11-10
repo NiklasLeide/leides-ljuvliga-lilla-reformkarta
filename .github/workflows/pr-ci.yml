@@ -1,0 +1,34 @@
+# CI på PR mot master (Sprint 15 T6). Veckorutinens PR:er (claude/vecka-ÅÅÅÅ-VV) — och alla andra —
+# mergas först när detta är grönt: JSON-validering, hela testsviten och renderingstest (alla sidor
+# laddar med 0 appfel mot PR:ens datafiler). Samma kontroller som automatfilen kör före publicering.
+name: PR-CI
+
+on:
+  pull_request:
+    branches: [master]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '20'
+      - name: Playwright (installeras utanför repot)
+        run: |
+          mkdir -p "$RUNNER_TEMP/pw" && cd "$RUNNER_TEMP/pw"
+          npm init -y >/dev/null
+          npm install --no-audit --no-fund playwright@1.49.1 >/dev/null
+          npx playwright install --with-deps chromium >/dev/null
+          echo "NODE_PATH=$RUNNER_TEMP/pw/node_modules" >> "$GITHUB_ENV"
+      - name: JSON-validering
+        run: |
+          for f in data/*.json; do node -e "JSON.parse(require('fs').readFileSync('$f','utf8'))" || { echo "Ogiltig JSON: $f"; exit 1; }; done
+      - name: Testsvit
+        run: node --test scripts/revision/*.test.js scripts/bevakning/*.test.js
+      - name: Renderingstest (alla sidor, 0 appfel)
+        run: node scripts/revision/render-test.js

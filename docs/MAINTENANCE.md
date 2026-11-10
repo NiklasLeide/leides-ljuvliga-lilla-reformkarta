@@ -132,3 +132,11 @@ den kontrollerar och rapporterar men skriver ingenting.
 
 **När något stoppar:** en issue med etiketten `automat-stopp` öppnas och ingenting publiceras.
 Veckorutinen läser dessa. Varje publicering kommenteras i issuen **Automatlogg**.
+
+## Veckorutinen (Sprint 15 T6, DEC-022)
+
+Schemalagd Claude Code-körning i molnmiljön Reformkartan med instruktionen `/veckorutin`
+(`.claude/commands/veckorutin.md`). Den öppnar en PR mot master (gren `claude/vecka-ÅÅÅÅ-VV`) — mergas av
+Niklas med ett klick när PR-CI är grön; dev synkas då automatiskt. Den pushar aldrig till master eller dev.
+Fynd som redan är beslutade att lämnas listas i `docs/automat/accepterade.json` — lägg till där när ett
+fynd avgörs som "lämnas", så att det inte tas upp igen.

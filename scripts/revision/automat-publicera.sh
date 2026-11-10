@@ -45,20 +45,6 @@ fi
 NY=$(git rev-parse HEAD)
 echo "[publicera] master: $FORE → $NY"
 
-# --- Synka dev ---
-git fetch -q origin dev
-DEV=$(git rev-parse origin/dev)
-if [ "$DEV" = "$FORE" ] || git merge-base --is-ancestor "$DEV" "$NY"; then
-  git push -q origin "$NY:refs/heads/dev"
-  echo "[publicera] dev snabbspolad till $NY"
-else
-  git checkout -q -B automat-dev-synk origin/dev
-  if ! git merge -q --no-edit "$NY"; then
-    git merge --abort || true
-    echo "[publicera] STOPP: konflikt när master mergades in i dev — dev orörd" >&2
-    exit 4
-  fi
-  git push -q origin HEAD:dev
-  echo "[publicera] master mergad in i dev ($(git rev-parse --short HEAD))"
-fi
+# --- Synka dev (gemensamt skript, även för PR-merge) ---
+"$(dirname "$0")/synka-dev.sh" "$NY" || exit 4
 echo "PUBLICERAD_SHA=$NY"

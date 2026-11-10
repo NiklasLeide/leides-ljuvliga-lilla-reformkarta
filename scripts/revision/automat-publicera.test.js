@@ -91,3 +91,16 @@ test('otrackade filer (t.ex. node_modules) stoppar inte publiceringen', () => {
   fs.writeFileSync(path.join(m.arbete, 'data', 'meta.json'), '{\n  "senast_uppdaterad": "2026-11-11"\n}\n');
   assert.equal(kor(m).status, 0);
 });
+
+test('synka-dev.sh: konflikt mellan dev och master → exit 4, dev orörd (ingen force)', () => {
+  const m = miljo();
+  const d = path.join(m.rot, 'devklon'); git(m.rot, 'clone', '-q', '-b', 'dev', m.origin, d);
+  fs.writeFileSync(path.join(d, 'data', 'meta.json'), '{\n  "senast_uppdaterad": "dev-version"\n}\n');
+  git(d, 'commit', '-q', '-am', 'dev ändrar samma rad'); git(d, 'push', '-q', 'origin', 'dev');
+  const devFore = ref(m, 'dev');
+  fs.writeFileSync(path.join(m.arbete, 'data', 'meta.json'), '{\n  "senast_uppdaterad": "2026-11-11"\n}\n');
+  git(m.arbete, 'commit', '-q', '-am', 'master ändrar'); git(m.arbete, 'push', '-q', 'origin', 'master');
+  const r = spawnSync('bash', [path.join(__dirname, 'synka-dev.sh'), git(m.arbete, 'rev-parse', 'HEAD')], { cwd: m.arbete, encoding: 'utf8' });
+  assert.equal(r.status, 4); assert.match(r.stderr, /konflikt/);
+  assert.equal(ref(m, 'dev'), devFore);
+});

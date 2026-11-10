@@ -404,18 +404,34 @@ async function buildRevision({ dataDir, fetcher, delayMs = DELAY_MS_DEFAULT, ver
 const cell = (v) => (v == null ? '—' : String(v).replace(/\|/g, '\\|').replace(/\n/g, ' '));
 const kort = (v, n = 120) => { const s = cell(v); return s.length > n ? `${s.slice(0, n)}…` : s; };
 
+// Sprint 15 T6: fynd som redan är beslutade att lämnas (docs/automat/accepterade.json) märks
+// `accepterad` med beslutets skäl. Nyckel: fil + post + falt + api — ändras källans värde blir fyndet nytt.
+const fyndNyckel = (f) => JSON.stringify([f.fil, f.post, f.falt, f.api]);
+function markeraAccepterade(rapport, accepterade) {
+  const karta = new Map(((accepterade && accepterade.fynd) || []).map(a => [fyndNyckel(a), a.skal]));
+  for (const f of rapport.fynd) if (karta.has(fyndNyckel(f))) f.accepterad = karta.get(fyndNyckel(f));
+  return rapport;
+}
+
 function renderMarkdown(rapport, { datum }) {
   const L = [];
   L.push(`# Revisionsrapport ${datum}`, '');
   L.push('Genererad av `scripts/revision/revision.js` mot riksdagens öppna data. Skriptet ändrar inga datafiler.');
   L.push('Rskr-regeln: riksdagsbeslut räknas först när betänkandet har BES-aktivitet med status "inträffat" OCH rskr-referens.', '');
-  L.push(`Sammanfattning: ${rapport.propositioner.length} propositioner, ${rapport.utredningar.length} utredningar, ${rapport.fynd.length} fynd, ${rapport.fel.length} fel.`, '');
+  const nya = rapport.fynd.filter(f => !f.accepterad), acc = rapport.fynd.filter(f => f.accepterad);
+  L.push(`Sammanfattning: ${rapport.propositioner.length} propositioner, ${rapport.utredningar.length} utredningar, ${nya.length} nya fynd, ${acc.length} accepterade, ${rapport.fel.length} fel.`, '');
 
   L.push('## Fynd', '');
-  if (!rapport.fynd.length) L.push('Inga avvikelser.', '');
+  if (!nya.length) L.push('Inga nya avvikelser.', '');
   else {
     L.push('| # | Fil | Post | Fält | Nuvärde | Riksdagen | Typ | Källa |', '|---|---|---|---|---|---|---|---|');
-    rapport.fynd.forEach((f, i) => L.push(`| ${i + 1} | ${f.fil} | ${f.post} | ${cell(f.falt)} | ${kort(f.nuvarde)} | ${kort(f.api)}${f.notering ? ` (${kort(f.notering, 80)})` : ''} | ${f.typ} | ${f.url || '—'} |`));
+    nya.forEach((f, i) => L.push(`| ${i + 1} | ${f.fil} | ${f.post} | ${cell(f.falt)} | ${kort(f.nuvarde)} | ${kort(f.api)}${f.notering ? ` (${kort(f.notering, 80)})` : ''} | ${f.typ} | ${f.url || '—'} |`));
+    L.push('');
+  }
+  if (acc.length) {
+    L.push('## Accepterade (redan beslutade att lämnas)', '');
+    L.push('| Post | Fält | Typ | Skäl |', '|---|---|---|---|');
+    acc.forEach(f => L.push(`| ${f.post} | ${cell(f.falt)} | ${f.typ} | ${cell(f.accepterad)} |`));
     L.push('');
   }
 
@@ -446,12 +462,13 @@ function renderMarkdown(rapport, { datum }) {
 // ----------------------------- CLI -------------------------------------------
 
 function parseArgs(argv) {
-  const a = { data: path.join(__dirname, '..', '..', 'data'), out: path.join(__dirname, '..', '..', 'docs', 'revision'), datum: new Date().toISOString().slice(0, 10), verbose: false };
+  const a = { data: path.join(__dirname, '..', '..', 'data'), out: path.join(__dirname, '..', '..', 'docs', 'revision'), datum: new Date().toISOString().slice(0, 10), verbose: false, accepterade: null };
   for (let i = 0; i < argv.length; i++) {
     if (argv[i] === '--data') a.data = argv[++i];
     else if (argv[i] === '--out') a.out = argv[++i];
     else if (argv[i] === '--datum') a.datum = argv[++i];
     else if (argv[i] === '--verbose') a.verbose = true;
+    else if (argv[i] === '--accepterade') a.accepterade = argv[++i];
     else throw new Error(`Okänt argument: ${argv[i]}`);
   }
   if (!/^\d{4}-\d{2}-\d{2}$/.test(a.datum)) throw new Error(`--datum måste vara YYYY-MM-DD: ${a.datum}`);
@@ -466,6 +483,7 @@ async function main() {
     log: (m) => process.stderr.write(`[revision] ${m}\n`),
   });
   rapport.datum = args.datum;
+  if (args.accepterade) markeraAccepterade(rapport, JSON.parse(fs.readFileSync(args.accepterade, 'utf8')));
   fs.mkdirSync(args.out, { recursive: true });
   const base = path.join(args.out, `revision-${args.datum}`);
   fs.writeFileSync(`${base}.json`, JSON.stringify(rapport, null, 2) + '\n');
@@ -483,5 +501,5 @@ module.exports = {
   betankandeBeslut, kommittebeteckning, souAvsandare, souNr, dirNr,
   diffReformMotProp, diffUtredning, buildRevision, renderMarkdown, parseArgs,
   // Sprint 15: återanvänds av automat.js
-  makeHttpFetcher, propLage, lookupDok, fetchDokumentstatus, allaSou, listDocs, norm, datum10, absUrl, API_BASE,
+  markeraAccepterade, makeHttpFetcher, propLage, lookupDok, fetchDokumentstatus, allaSou, listDocs, norm, datum10, absUrl, API_BASE,
 };

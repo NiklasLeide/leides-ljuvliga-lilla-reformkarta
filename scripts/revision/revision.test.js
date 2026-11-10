@@ -153,3 +153,20 @@ test('buildRevision är deterministisk: två körningar mot samma svar ger ident
     ['nytt-betankande-i-api', 'pagaende-med-slutbetankande', 'transition-saknar-beslutsdatum', 'transition-saknar-rskr']);
   assert.equal(r.renderMarkdown(a, { datum: '2026-11-10' }), r.renderMarkdown(b, { datum: '2026-11-10' }));
 });
+
+test('markeraAccepterade: beslutade fynd märks med skäl; ändrat källvärde gör fyndet nytt igen', () => {
+  const rap = { propositioner: [], utredningar: [], fel: [], fynd: [
+    { fil: 'utredningar.json', post: 'utr-x', falt: 'betankanden SOU 2025:8.datum', api: '2025-01-29', typ: 'datum-avviker' },
+    { fil: 'utredningar.json', post: 'utr-y', falt: 'betankanden SOU 2026:4.datum', api: '2026-01-21', typ: 'datum-avviker' },
+  ] };
+  const acc = { fynd: [
+    { fil: 'utredningar.json', post: 'utr-x', falt: 'betankanden SOU 2025:8.datum', api: '2025-01-29', skal: 'beslutat' },
+    { fil: 'utredningar.json', post: 'utr-y', falt: 'betankanden SOU 2026:4.datum', api: '2026-01-20', skal: 'beslutat' },
+  ] };
+  r.markeraAccepterade(rap, acc);
+  assert.equal(rap.fynd[0].accepterad, 'beslutat');
+  assert.equal(rap.fynd[1].accepterad, undefined); // källan säger nu 01-21 → nytt fynd
+  const md = r.renderMarkdown(rap, { datum: '2026-11-10' });
+  assert.match(md, /1 nya fynd, 1 accepterade/);
+  assert.match(md, /## Accepterade \(redan beslutade att lämnas\)/);
+});
