@@ -153,6 +153,10 @@ header h1 { font-family: 'Source Serif 4', serif; font-size: 1.55rem; font-weigh
 
 /* ── Datumlistan ──────────────────────────────────────────── */
 .lista { margin-top: 1.8rem; }
+/* Sprint 15 T8: remissektionen ovanför datumlistan */
+.ga-remisser { margin-top: 1.8rem; }
+.ga-remisser:empty { display: none; }
+.ga-remisser-rubrik { font-family: 'Source Serif 4', serif; font-size: 1.15rem; font-weight: 600; margin: 0 0 .3rem; }
 .ar-avdelare {
   font-family: 'Source Serif 4', serif; font-size: 1rem; font-weight: 600;
   color: var(--muted); padding: 1.1rem 0 0.35rem; border-bottom: 1px solid var(--border);
@@ -264,6 +268,30 @@ footer { max-width: 860px; margin: 0 auto; padding: 1rem 1.5rem 2rem; font-size:
   .niva2 { padding-left: 0.3rem; }
   .start-datum { font-size: 1.25rem; }
 }
+/* <remiss-css> Remissläge (Sprint 14 T5) — samma regler i alla sidor som visar remisser */
+.remiss-box{border:1px solid var(--border);border-left:3px solid var(--kunskap);border-radius:6px;background:var(--card);padding:.55rem .75rem;margin:.6rem 0;text-align:left}
+.remiss-box.remiss-oppnar{border-left-color:var(--muted)}
+.remiss-box.remiss-avslutad{border-left-color:var(--muted);background:var(--bg)}
+.remiss-etikett{font-size:.62rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:var(--kunskap)}
+.remiss-avslutad .remiss-etikett,.remiss-oppnar .remiss-etikett{color:var(--muted)}
+.remiss-status{font-weight:600;font-size:.86rem;margin:.15rem 0 .2rem;line-height:1.3}
+.remiss-titel{font-size:.74rem;color:var(--muted);line-height:1.35;margin-bottom:.3rem}
+.remiss-nasta{font-size:.76rem;line-height:1.4;margin-bottom:.15rem}
+.remiss-lankar,.remiss-skolformer{font-size:.74rem;line-height:1.3}
+.remiss-lankar a,.remiss-skolformer a{color:var(--kunskap);display:inline-flex;align-items:center;min-height:44px;margin-right:.75rem;text-decoration:underline;text-underline-offset:2px}
+.remiss-skolformer{color:var(--muted);display:flex;flex-wrap:wrap;align-items:center;column-gap:.75rem}
+.remiss-skolformer span{flex-basis:100%;padding-top:.2rem}
+.remiss-skolformer a{margin-right:0}
+/* Vänsterkanten linjerar med sidhuvudets text: varje sida sätter --remiss-aktuellt-x(-mobil) och ev. --remiss-aktuellt-max utanför blocket. */
+.remiss-aktuellt{background:var(--card);border-bottom:1px solid var(--border);padding:0 var(--remiss-aktuellt-x,1.5rem)}
+.remiss-aktuellt-inner{max-width:var(--remiss-aktuellt-max,none);margin:0 auto}
+.remiss-aktuellt-rad{display:flex;align-items:center;flex-wrap:wrap;gap:.25rem .4rem;min-height:44px;padding:.35rem 0;color:var(--ink);text-decoration:none;font-size:.82rem;line-height:1.35}
+.remiss-aktuellt-rad+.remiss-aktuellt-rad{border-top:1px solid var(--border)}
+.remiss-aktuellt-rad:hover .remiss-aktuellt-status,.remiss-aktuellt-rad:focus .remiss-aktuellt-status{text-decoration:underline}
+.remiss-aktuellt-status{font-weight:600;color:var(--kunskap)}
+.remiss-markering{display:inline-block;font-size:.58rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--kunskap);border:1px solid var(--kunskap);border-radius:3px;padding:0 .3rem;margin-left:.35rem;vertical-align:middle;line-height:1.5;background:var(--card)}
+@media(max-width:800px){.remiss-aktuellt{padding:0 var(--remiss-aktuellt-x-mobil,1rem)}}
+/* </remiss-css> */
 </style>
 </head>
 <body>
@@ -305,6 +333,7 @@ footer { max-width: 860px; margin: 0 auto; padding: 1rem 1.5rem 2rem; font-size:
 
   <div class="oversikt" data-test="oversikt" id="oversikt"></div>
 
+  <div class="ga-remisser" id="remisser" data-test="remisser"></div><!-- Sprint 15 T8: remisser (remisser.json) -->
   <div class="lista" id="lista"></div>
 
   <div class="efter" id="pavag"></div>
@@ -318,6 +347,122 @@ footer { max-width: 860px; margin: 0 auto; padding: 1rem 1.5rem 2rem; font-size:
 <footer>Datakälla: data/guide.json — varje uppgift spårbar till riksdagens/regeringens dokument via källänkarna. Datum av typen "tillämpas" är det som träffar verksamheten.<p class="caveat-fot stampel-fot">Reformkartan<span data-fresh></span><span data-kontroll></span></p>
 </footer>
 
+<script>
+// <remiss-lib> Remissläge (Sprint 14 T5). Blocket är BYTE-IDENTISKT i index.html, reformer.html,
+// tidslinje.html och guide.html (DEC-001: ingen delad JS-fil). scripts/revision/remiss.test.js
+// extraherar blocket ur alla fyra sidorna, kräver att kopiorna är lika och testar logiken med
+// styrbart datum. Ändra här → ändra i alla fyra (testet fäller annars).
+// Status lagras ALDRIG i data — den räknas ur datumen i klienten.
+function remissEsc(s) {
+  return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+const REMISS_MANADER = ['januari','februari','mars','april','maj','juni','juli','augusti','september','oktober','november','december'];
+function remissDatumText(iso) {
+  // Parsar YYYY-MM-DD manuellt (ingen new Date()-tidszonglidning).
+  const [y, m, d] = String(iso).split('-').map(Number);
+  return `${d} ${REMISS_MANADER[m - 1]} ${y}`;
+}
+function remissIdag() {
+  // Lokalt datum (svensk användare) som YYYY-MM-DD.
+  const n = new Date();
+  return `${n.getFullYear()}-${String(n.getMonth() + 1).padStart(2, '0')}-${String(n.getDate()).padStart(2, '0')}`;
+}
+// Tre lägen: före öppning / öppen t.o.m. sista svarsdag / avslutad dagen efter.
+function remissStatus(r, idag) {
+  if (idag < r.oppnar) return { lage: 'oppnar', datum: r.oppnar, text: `Remiss öppnar ${remissDatumText(r.oppnar)}` };
+  if (idag <= r.svar_senast) return { lage: 'oppen', datum: r.svar_senast, text: `Remiss öppen till och med ${remissDatumText(r.svar_senast)}` };
+  return { lage: 'avslutad', datum: r.svar_senast, text: `Remiss avslutad ${remissDatumText(r.svar_senast)}` };
+}
+function remissNastaSteg(r) {
+  const n = r.nasta_steg || {};
+  const delar = [];
+  if (n.forslag_till_regeringen) delar.push(`${n.forslag_text || 'Förslag till regeringen'} ${remissDatumText(n.forslag_till_regeringen)}.`);
+  if (n.regeringsbeslut) delar.push(`Regeringsbeslut ${remissDatumText(n.regeringsbeslut)}.`);
+  if (n.tillampning) delar.push(`Tillämpning från ${n.tillampning}.`);
+  return delar.join(' ');
+}
+// Validering mot reforms.json. Returnerar felmeddelanden; sidorna loggar dem med console.error
+// (fail-loud, samma mönster som andringar/guide) och visar bara giltiga remisser.
+function remissValidera(remisser, reformIds) {
+  const fel = [];
+  const kanda = new Set(reformIds);
+  const iso = /^\d{4}-\d{2}-\d{2}$/;
+  if (!Array.isArray(remisser)) return ['remisser.json: förväntade en lista'];
+  remisser.forEach((r, i) => {
+    const namn = r && r.id ? r.id : `#${i}`;
+    for (const f of ['id', 'titel', 'avsandare', 'oppnar', 'svar_senast', 'url']) {
+      if (!r || !r[f]) fel.push(`Remiss ${namn}: fältet "${f}" saknas`);
+    }
+    if (r && r.oppnar && !iso.test(r.oppnar)) fel.push(`Remiss ${namn}: oppnar "${r.oppnar}" är inte YYYY-MM-DD`);
+    if (r && r.svar_senast && !iso.test(r.svar_senast)) fel.push(`Remiss ${namn}: svar_senast "${r.svar_senast}" är inte YYYY-MM-DD`);
+    if (r && r.oppnar && r.svar_senast && r.oppnar > r.svar_senast) fel.push(`Remiss ${namn}: oppnar efter svar_senast`);
+    if (!r || !Array.isArray(r.reform_ids) || r.reform_ids.length === 0) fel.push(`Remiss ${namn}: reform_ids saknas`);
+    else for (const id of r.reform_ids) if (!kanda.has(id)) fel.push(`Remiss ${namn}: okänt reform_id "${id}"`);
+  });
+  return fel;
+}
+// Giltiga remisser (de med fel sorteras bort) — anropas efter remissValidera.
+function remissGiltiga(remisser, reformIds) {
+  if (!Array.isArray(remisser)) return [];
+  return remisser.filter(r => remissValidera([r], reformIds).length === 0);
+}
+function remisserForReform(remisser, reformId) {
+  return remisser.filter(r => r.reform_ids.includes(reformId));
+}
+// Ruta på reformkort. Länkar till Skolverket; återger varken svarsinstruktioner eller förslagens innehåll.
+function remissKortHtml(r, idag) {
+  const esc = remissEsc;
+  const s = remissStatus(r, idag);
+  const skolformer = (r.dokument_per_skolform || [])
+    .map(d => `<a href="${esc(d.url)}" target="_blank" rel="noopener">${esc(d.skolform)}</a>`).join('');
+  return `<div class="remiss-box remiss-${s.lage}" data-test="remiss" data-lage="${s.lage}">
+    <div class="remiss-etikett">Remiss · ${esc(r.avsandare)}</div>
+    <div class="remiss-status">${esc(s.text)}</div>
+    <div class="remiss-titel">${esc(r.titel)}</div>
+    <div class="remiss-nasta">Nästa steg: ${esc(remissNastaSteg(r))}</div>
+    <div class="remiss-lankar"><a href="${esc(r.url)}" target="_blank" rel="noopener">Remissen hos ${esc(r.avsandare)} ↗</a>${r.url_oversikt ? ` <a href="${esc(r.url_oversikt)}" target="_blank" rel="noopener">Om förslagen ↗</a>` : ''}</div>
+    ${skolformer ? `<div class="remiss-skolformer"><span>Dokument per skolform:</span>${skolformer}</div>` : ''}
+  </div>`;
+}
+// Läser remisser.json, validerar mot reform-id:n och loggar fel högljutt. Fel i filen får inte
+// stoppa sidan: då visas inga remisser (tom lista) men felet syns i konsolen.
+async function remissLadda(url, reformIds) {
+  try {
+    const res = await fetch(url);
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const data = await res.json();
+    remissValidera(data, reformIds).forEach(f => console.error('Remissläge:', f));
+    return remissGiltiga(data, reformIds);
+  } catch (err) {
+    console.error('Remissläge: remisser.json kunde inte läsas —', err);
+    return [];
+  }
+}
+// Sprint 15 T8 punkt 3 — remissen ska gå att hitta utan att öppna ett kort.
+// Aktuella = lägena öppnar och öppen (inte avslutad), sorterade på sista svarsdag.
+function remissAktuella(remisser, idag) {
+  return remisser.filter(r => remissStatus(r, idag).lage !== 'avslutad')
+    .slice().sort((a, b) => (a.svar_senast < b.svar_senast ? -1 : a.svar_senast > b.svar_senast ? 1 : 0));
+}
+function remissTitelUtanLedord(r) { return String(r.titel || '').replace(/^Remiss:\s*/, ''); }
+// Aktuellt-rad direkt under sidhuvudet: "{statusrubrik}: {titel utan ledordet Remiss:}", en rad per remiss.
+// Text ur remisser.json och remissStatus — ingen handskriven text.
+function remissAktuelltHtml(remisser, idag) {
+  const aktuella = remissAktuella(remisser, idag);
+  if (!aktuella.length) return '';
+  const esc = remissEsc;
+  return `<div class="remiss-aktuellt" data-test="remiss-aktuellt"><div class="remiss-aktuellt-inner">${aktuella.map(r => {
+    const s = remissStatus(r, idag);
+    return `<a class="remiss-aktuellt-rad" data-test="remiss-aktuellt-rad" data-lage="${s.lage}" href="reformer.html?reform=${encodeURIComponent(r.reform_ids[0])}"><span class="remiss-aktuellt-status">${esc(s.text)}:</span> ${esc(remissTitelUtanLedord(r))}</a>`;
+  }).join('')}</div></div>`;
+}
+// Markering "Remiss" på reformens nod/rad i samma två lägen.
+function remissMarkering(remisser, reformId, idag) {
+  return remisserForReform(remisser, reformId).some(r => remissStatus(r, idag).lage !== 'avslutad')
+    ? '<span class="remiss-markering" data-test="remiss-markering">Remiss</span>' : '';
+}
+// </remiss-lib>
+</script>
 <script>
 'use strict';
 
@@ -469,6 +614,11 @@ async function init() {
   }
 
   const reformById = Object.fromEntries(reforms.map(r => [r.id, r]));
+  // Sprint 15 T8 punkt 2: remisserna (alla lägen) som egen sektion ovanför datumlistan — samma ruta som
+  // på reformkorten (remissKortHtml), bara länkar till avsändaren.
+  const remisser = await remissLadda(dataPath('remisser.json'), reforms.map(r => r.id));
+  document.getElementById('remisser').innerHTML = remisser.length
+    ? `<h2 class="ga-remisser-rubrik">Remisser</h2>${remisser.map(r => remissKortHtml(r, remissIdag())).join('')}` : '';
   const guideIds = new Set(guide.map(g => g.reform_id));
 
   // Runtime-validering (DEC-009): id-mismatchar loggas högljutt, aldrig tyst.
