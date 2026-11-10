@@ -1,0 +1,248 @@
+{
+ "_meta": {
+  "steg": "M2b oberoende dubbelkodning av 40 slumpvis valda utmaningar (frö 20261202) för samstämmighet",
+  "tolkning": true
+ },
+ "kodning": [
+  {
+   "id": "U055",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Nya ämnet ställer höga krav på skolornas organisation"
+  },
+  {
+   "id": "U094",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Risk att bristen på behöriga sva-lärare förstärks"
+  },
+  {
+   "id": "U003",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Oenhetliga begrepp ger olika tolkningar av målgruppen"
+  },
+  {
+   "id": "U046",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Onödig administration och tid för juridiskt hållbara beslut"
+  },
+  {
+   "id": "U145",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Organisation och planering",
+   "motivering": "Extra undervisningsgrupp blir kostsam i landsbygdskommun"
+  },
+  {
+   "id": "U073",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Organisation och planering",
+   "motivering": "Liten åldersblandad elevgrupp blir kostsam att organisera"
+  },
+  {
+   "id": "U150",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Utökad tid kostar; svårt organisera och hitta behöriga lärare"
+  },
+  {
+   "id": "U153",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Merkostnad för tre parallella svenskundervisningsformer"
+  },
+  {
+   "id": "U092",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Kostnadsberäkningen bör räknas upp till 2028 års löneläge"
+  },
+  {
+   "id": "U137",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Svårt för skolorna att identifiera språkstörning hos flerspråkiga"
+  },
+  {
+   "id": "U010",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Vägledning om svenskämne sker på högstadiet, inte gymnasiet"
+  },
+  {
+   "id": "U101",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Två parallella kursplaner påverkar undervisningens organisation"
+  },
+  {
+   "id": "U051",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Ökad administrativ börda på enhets- och förvaltningsnivå"
+  },
+  {
+   "id": "U032",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Stort och långvarigt behov av andraspråksdidaktisk kompetens"
+  },
+  {
+   "id": "U151",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Ökad administrativ börda av datainsamling och fler beslut"
+  },
+  {
+   "id": "U084",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Två kursplaner ger organisatoriska utmaningar och resursfördelning"
+  },
+  {
+   "id": "U009",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Kartläggningsmaterialet får inte bli alltför omfattande"
+  },
+  {
+   "id": "U103",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Kostnadsberäkningen bör räknas upp till 2028 års löneläge"
+  },
+  {
+   "id": "U155",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Risk att resurser saknas för modersmålsundervisningens kvalitet"
+  },
+  {
+   "id": "U052",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Resurser behövs för personalens kompetensutveckling"
+  },
+  {
+   "id": "U144",
+   "primar": "Organisation och planering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Enda behöriga sva-läraren måste tas ur ordinarie grupp"
+  },
+  {
+   "id": "U102",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Kompetensutveckling krävs; implementeringskostnader ofinansierade"
+  },
+  {
+   "id": "U060",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Rektor och personal behöver stöd och kompetensutveckling"
+  },
+  {
+   "id": "U076",
+   "primar": "Organisation och planering",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Åldersblandad undervisning kräver planering, kompetens, ger kostnader"
+  },
+  {
+   "id": "U065",
+   "primar": "System och teknik",
+   "sekundar": "Organisation och planering",
+   "motivering": "Förutsättningar för fjärrundervisning i modersmål behöver ses över"
+  },
+  {
+   "id": "U041",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Oklart hur betygskatalogen utformas utan betyg"
+  },
+  {
+   "id": "U069",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Implementering kräver stöd och kompetensutveckling av personal"
+  },
+  {
+   "id": "U134",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Landsbygdskommuner: skolskjutsar, små enheter, arbetstidsavtal"
+  },
+  {
+   "id": "U081",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Påverkar skolors organisation och tjänstefördelning"
+  },
+  {
+   "id": "U050",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "Ökade kostnader; oklart hur kompensationen beräknas"
+  },
+  {
+   "id": "U067",
+   "primar": "Organisation och planering",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Gruppindelning, behörighet och schemaläggning; ekonomiska konsekvenser"
+  },
+  {
+   "id": "U027",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Utredningen beaktar otillräckligt modersmålsundervisningens kostnader"
+  },
+  {
+   "id": "U062",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Definitionen av behov av andraspråksdidaktik måste vara tydlig"
+  },
+  {
+   "id": "U082",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Kostnadsökningar, exempelvis för kompetensutveckling, behöver finansieras"
+  },
+  {
+   "id": "U128",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Oklart om ny bedömning ska göras vid skolbyte"
+  },
+  {
+   "id": "U097",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "System och teknik",
+   "motivering": "Brist på modersmålslärare; nationell plattform kunde förbättra tillgång"
+  },
+  {
+   "id": "U086",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Kostnader för lärares kompetensutveckling behöver täckas"
+  },
+  {
+   "id": "U030",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Varje huvudman ansvarar själv för implementeringen"
+  },
+  {
+   "id": "U061",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Organisation och planering",
+   "motivering": "Elevens eget val kräver ökade vägledningsresurser"
+  },
+  {
+   "id": "U149",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Ökad kostnad för behörighet och kompetenshöjning"
+  }
+ ]
+}

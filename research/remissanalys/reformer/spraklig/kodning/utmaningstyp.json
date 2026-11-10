@@ -1,0 +1,988 @@
+{
+ "_meta": {
+  "steg": "M2 utmaningstyp (modellkodning genom läsning, Sprint 17; 2 kodare med samma instruktion, KODINSTRUKTION.md)",
+  "tolkning": true
+ },
+ "kodning": [
+  {
+   "id": "U001",
+   "primar": "Organisation och planering",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Organisatoriska och ekonomiska konsekvenser för huvudmännen",
+   "kodare": 1
+  },
+  {
+   "id": "U002",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Svårt bedöma språkliga utmaningar hos elever i anpassade skolformer",
+   "kodare": 1
+  },
+  {
+   "id": "U003",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Oenhetliga begrepp ger olika tolkningar av målgruppen",
+   "kodare": 1
+  },
+  {
+   "id": "U004",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Organisation och planering",
+   "motivering": "Ny kursplan medför kostnader för planering och kompetensutveckling",
+   "kodare": 1
+  },
+  {
+   "id": "U005",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Bedömningarna ger ökade kostnader för skolhuvudmännen",
+   "kodare": 1
+  },
+  {
+   "id": "U006",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Organisation och planering",
+   "motivering": "Lärare undervisar enligt tre kursplaner parallellt i samma grupp",
+   "kodare": 1
+  },
+  {
+   "id": "U007",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Oklart om nuvarande kursplan i svenska som andraspråk revideras",
+   "kodare": 1
+  },
+  {
+   "id": "U008",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Kursplan gäller alla elever oavsett ålder ger utmaningar",
+   "kodare": 1
+  },
+  {
+   "id": "U009",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Kartläggningsmaterialet får inte bli alltför omfattande att använda",
+   "kodare": 1
+  },
+  {
+   "id": "U010",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Vägledning sker på högstadiet, materialet måste passa där",
+   "kodare": 1
+  },
+  {
+   "id": "U011",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Stora skillnader i behov mellan skolor vid stödinsatser",
+   "kodare": 1
+  },
+  {
+   "id": "U012",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Rättslig reglering leder till ökade kostnader för huvudmännen",
+   "kodare": 1
+  },
+  {
+   "id": "U013",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Lärarutbildningens andraspråksdel föreslås minska, motstridigt mot bedömningen",
+   "kodare": 1
+  },
+  {
+   "id": "U018",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Modersmålsundervisningen kostar över hundra miljoner kronor årligen",
+   "kodare": 1
+  },
+  {
+   "id": "U027",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Kostnader för modersmålsundervisning beaktas otillräckligt",
+   "kodare": 1
+  },
+  {
+   "id": "U028",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Organisation och planering",
+   "motivering": "Tidsgräns blir normerande, elever läser två år oavsett behov",
+   "kodare": 1
+  },
+  {
+   "id": "U029",
+   "primar": "Organisation och planering",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Huvudmän måste följa progression och säkra övergångar",
+   "kodare": 1
+  },
+  {
+   "id": "U030",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Varje huvudman ansvarar själv för implementeringen i organisationen",
+   "kodare": 1
+  },
+  {
+   "id": "U031",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Bristande kompetens i andraspråksdidaktik hos lärare",
+   "kodare": 1
+  },
+  {
+   "id": "U032",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Stort och långvarigt behov av andraspråksdidaktik",
+   "kodare": 1
+  },
+  {
+   "id": "U033",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Lärare har olika förkunskaper, lokala förutsättningar varierar",
+   "kodare": 1
+  },
+  {
+   "id": "U034",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Kursplanen ställer krav på implementering, stöd förutsätts",
+   "kodare": 1
+  },
+  {
+   "id": "U035",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Kompetensutveckling krävs för lärare i grundläggande svenska",
+   "kodare": 1
+  },
+  {
+   "id": "U036",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Förslaget ger viss ökad administrativ börda",
+   "kodare": 1
+  },
+  {
+   "id": "U037",
+   "primar": "Organisation och planering",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "Direkt överflyttning mellan undervisningsgrupper kräver hållbara rutiner",
+   "kodare": 1
+  },
+  {
+   "id": "U038",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Oklart om grundläggande svenska är obligatoriskt efter rektors bedömning",
+   "kodare": 1
+  },
+  {
+   "id": "U039",
+   "primar": "Övrigt",
+   "sekundar": null,
+   "motivering": "Känsligt för elever och vårdnadshavare, invändningar mot beslut",
+   "kodare": 1
+  },
+  {
+   "id": "U040",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Oklara bestämmelser om nationella prov i övriga ämnen",
+   "kodare": 1
+  },
+  {
+   "id": "U041",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Oklart hur betygskatalogen ska utformas utan betyg",
+   "kodare": 1
+  },
+  {
+   "id": "U042",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Oklart hur betygsstatistik och måluppfyllelse ska beräknas",
+   "kodare": 1
+  },
+  {
+   "id": "U043",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Oklart om stödmaterialet är obligatoriskt eller rektors beslut",
+   "kodare": 1
+  },
+  {
+   "id": "U044",
+   "primar": "Tidplan och reformtakt",
+   "sekundar": null,
+   "motivering": "Ikraftträdande bör vänta tills kartläggningsmaterial och stöd finns",
+   "kodare": 1
+  },
+  {
+   "id": "U045",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Oklart vad studiehandledning i samtliga årskurser avser",
+   "kodare": 1
+  },
+  {
+   "id": "U046",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "Splittrade bestämmelser ger onödig administration och tidsåtgång",
+   "kodare": 1
+  },
+  {
+   "id": "U047",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Fjärrundervisning begränsar skolans styrning av undervisningstidpunkt",
+   "kodare": 1
+  },
+  {
+   "id": "U048",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Organisation och planering",
+   "motivering": "Oklart om elever får lämna annan undervisning för modersmål",
+   "kodare": 1
+  },
+  {
+   "id": "U049",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Organisation och planering",
+   "motivering": "Oklart var elever ska befinna sig vid fjärrundervisning",
+   "kodare": 1
+  },
+  {
+   "id": "U050",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "Ökade kommunala kostnader, oklart hur kompensation beräknas",
+   "kodare": 1
+  },
+  {
+   "id": "U051",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Ökad administrativ börda på enhets- och förvaltningsnivå",
+   "kodare": 1
+  },
+  {
+   "id": "U052",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Resurser behövs till kompetensutveckling för berörd personal",
+   "kodare": 1
+  },
+  {
+   "id": "U053",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Administratörer och vägledare behöver resurser för kompetensutveckling",
+   "kodare": 1
+  },
+  {
+   "id": "U054",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Elever efterfrågar bekräftelse på kunskaper utan betyg",
+   "kodare": 1
+  },
+  {
+   "id": "U055",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Skolor kan få svårt att organisera det nya ämnet",
+   "kodare": 1
+  },
+  {
+   "id": "U056",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Organisation och planering",
+   "motivering": "Elever i svenska som andraspråk kan få behov otillgodosedda",
+   "kodare": 1
+  },
+  {
+   "id": "U057",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Organisation och planering",
+   "motivering": "Oklart hur grundläggande svenska förhåller sig till timplanen",
+   "kodare": 1
+  },
+  {
+   "id": "U058",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Andraspråksbehov blandas ihop med specialpedagogiska behov",
+   "kodare": 1
+  },
+  {
+   "id": "U059",
+   "primar": "Organisation och planering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Kartläggnings- och stödmaterial behövs även för vägledande personal",
+   "kodare": 1
+  },
+  {
+   "id": "U060",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Rektor och personal behöver stöd och kompetensutveckling",
+   "kodare": 1
+  },
+  {
+   "id": "U061",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Kräver ökade vägledningsresurser i gymnasieskolan",
+   "kodare": 1
+  },
+  {
+   "id": "U062",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Definitionen av behovsbedömningen måste vara tydlig",
+   "kodare": 1
+  },
+  {
+   "id": "U063",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Kompetensutveckling behövs, stor brist på behöriga lärare",
+   "kodare": 1
+  },
+  {
+   "id": "U064",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Oklar skillnad jämfört med anpassad eller prioriterad timplan",
+   "kodare": 1
+  },
+  {
+   "id": "U065",
+   "primar": "System och teknik",
+   "sekundar": "Organisation och planering",
+   "motivering": "Förutsättningar för fjärrundervisning måste anpassas till modersmål",
+   "kodare": 1
+  },
+  {
+   "id": "U066",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Organisation och planering",
+   "motivering": "Genomförandet av förändringar i styrning behöver förtydligas",
+   "kodare": 1
+  },
+  {
+   "id": "U067",
+   "primar": "Organisation och planering",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Gruppindelning, behörighet och schemaläggning ger ekonomiska konsekvenser",
+   "kodare": 1
+  },
+  {
+   "id": "U068",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Flera professioner behöver kännedom om kartläggningsmaterialet",
+   "kodare": 1
+  },
+  {
+   "id": "U069",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Implementering kräver stödinsatser och kompetensutveckling",
+   "kodare": 1
+  },
+  {
+   "id": "U070",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Tvåårsgränsen riskerar att bli nedre och övre gräns",
+   "kodare": 1
+  },
+  {
+   "id": "U071",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Ny kursplan och kompetensutveckling innebär kostnader",
+   "kodare": 1
+  },
+  {
+   "id": "U072",
+   "primar": "Organisation och planering",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Organisatoriska och ekonomiska utmaningar för mindre kommuner",
+   "kodare": 1
+  },
+  {
+   "id": "U073",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Organisation och planering",
+   "motivering": "Liten åldersblandad elevgrupp blir kostsam att organisera",
+   "kodare": 1
+  },
+  {
+   "id": "U074",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Regelverket bör tydligt skilja grundskola och gymnasieskola",
+   "kodare": 1
+  },
+  {
+   "id": "U075",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Organisation och planering",
+   "motivering": "Ökade kostnader för lärare och skolskjutsar",
+   "kodare": 1
+  },
+  {
+   "id": "U076",
+   "primar": "Organisation och planering",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Åldersblandad undervisning kräver planering och ökar kostnad per elev",
+   "kodare": 1
+  },
+  {
+   "id": "U077",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Modersmålsundervisning kan inte fullt tillgodose elevernas behov",
+   "kodare": 1
+  },
+  {
+   "id": "U078",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Organisation och planering",
+   "motivering": "Mindre kommuner behöver extern finansiering, skolskjuts och bemanning",
+   "kodare": 1
+  },
+  {
+   "id": "U079",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "Efterfrågar tydligare besked om finansiering och genomförande",
+   "kodare": 1
+  },
+  {
+   "id": "U080",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Två kursplaner ger utmaningar för resursfördelning och organisering",
+   "kodare": 1
+  },
+  {
+   "id": "U081",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Påverkar skolors organisation och tjänstefördelning",
+   "kodare": 1
+  },
+  {
+   "id": "U082",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Kostnadsökningar som behöver finansieras, exempelvis kompetensutveckling",
+   "kodare": 1
+  },
+  {
+   "id": "U083",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Ökade kostnader för utökad rätt till studiehandledning",
+   "kodare": 1
+  },
+  {
+   "id": "U084",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Två kursplaner ger organisatoriska utmaningar för grundskolan",
+   "kodare": 1
+  },
+  {
+   "id": "U086",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Kostnader tillkommer, exempelvis för lärares kompetensutveckling",
+   "kodare": 1
+  },
+  {
+   "id": "U088",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Utan betyg blir gymnasieexamen i princip omöjlig",
+   "kodare": 1
+  },
+  {
+   "id": "U089",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Bör framgå att beslut fattas i samråd med hemkommunen",
+   "kodare": 1
+  },
+  {
+   "id": "U090",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Får inte ge väsentligt ökad uppgiftslämnarbörda för kommunerna",
+   "kodare": 1
+  },
+  {
+   "id": "U091",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Implementeringskostnader redovisas inte, finansiering saknas",
+   "kodare": 1
+  },
+  {
+   "id": "U092",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Kostnadsberäkning bör räknas upp till 2028 års löneläge",
+   "kodare": 1
+  },
+  {
+   "id": "U093",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Kartläggningsmaterialet kan ge viss ökad administration",
+   "kodare": 1
+  },
+  {
+   "id": "U094",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Risk att bristen på behöriga lärare förstärks",
+   "kodare": 1
+  },
+  {
+   "id": "U095",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Förlängd skoltid ger ökade kostnader för hemkommunen",
+   "kodare": 1
+  },
+  {
+   "id": "U096",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Undervisningen måste möta elever med grav språkstörning",
+   "kodare": 1
+  },
+  {
+   "id": "U097",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Organisation och planering",
+   "motivering": "Huvudmän har brist på modersmålslärare",
+   "kodare": 1
+  },
+  {
+   "id": "U099",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Implementeringskostnader för kursplan och kartläggningsmaterial",
+   "kodare": 1
+  },
+  {
+   "id": "U100",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Två kursplaner och kartläggning ökar lärarnas administration",
+   "kodare": 1
+  },
+  {
+   "id": "U101",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Två parallella kursplaner påverkar organisationen av undervisningen",
+   "kodare": 1
+  },
+  {
+   "id": "U102",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Tid för kompetensutveckling behövs, kostnader redovisas inte",
+   "kodare": 1
+  },
+  {
+   "id": "U103",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Kostnadsberäkning bör räknas upp till 2028 års löneläge",
+   "kodare": 1
+  },
+  {
+   "id": "U104",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "Otydligt material hotar likvärdig behovsprövning över landet",
+   "kodare": 1
+  },
+  {
+   "id": "U105",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Egen kursplan resurskrävande, kräver utbildad SVA-lärare",
+   "kodare": 1
+  },
+  {
+   "id": "U106",
+   "primar": "Organisation och planering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Separat undervisning kräver fler SVA-lärare och schemalogistik",
+   "kodare": 1
+  },
+  {
+   "id": "U107",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Organisering vid enstaka elever och åldersblandning",
+   "kodare": 1
+  },
+  {
+   "id": "U108",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Organisation och planering",
+   "motivering": "Undervisning enligt tre kursplaner i samma klassrum belastar lärare",
+   "kodare": 1
+  },
+  {
+   "id": "U109",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Utan kunskapsintyg förlängd utbildning och merjobb för mottagande skola",
+   "kodare": 1
+  },
+  {
+   "id": "U110",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Strategiska val och kompisval av svenskämne i gymnasiet",
+   "kodare": 1
+  },
+  {
+   "id": "U111",
+   "primar": "Övrigt",
+   "sekundar": null,
+   "motivering": "Timplanereglering nödvändig för att bevara minoritetsspråksundervisning",
+   "kodare": 1
+  },
+  {
+   "id": "U112",
+   "primar": "Organisation och planering",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Stora avstånd och skolskjuts försvårar modersmålsundervisning",
+   "kodare": 1
+  },
+  {
+   "id": "U113",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": null,
+   "motivering": "Gymnasieelever kan behöva mer än två år",
+   "kodare": 1
+  },
+  {
+   "id": "U114",
+   "primar": "System och teknik",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Kommunen har investerat resurser i befintligt material Bygga svenska",
+   "kodare": 1
+  },
+  {
+   "id": "U115",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Kompetensutvecklingen bör inte bli för omfattande",
+   "kodare": 1
+  },
+  {
+   "id": "U116",
+   "primar": "Övrigt",
+   "sekundar": null,
+   "motivering": "Konsekvensanalyser behövs för känsliga uppgifter i resultatuppföljning",
+   "kodare": 1
+  },
+  {
+   "id": "U117",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Organisation och planering",
+   "motivering": "Genomförbarhet, kompetens och ökad administrativ börda för rektorer",
+   "kodare": 1
+  },
+  {
+   "id": "U118",
+   "primar": "Organisation och planering",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Utmaningar för landsortskommun organisatoriskt och för eleven",
+   "kodare": 1
+  },
+  {
+   "id": "U119",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Organisation och planering",
+   "motivering": "Oklart hur undervisningen ska genomföras och organiseras",
+   "kodare": 1
+  },
+  {
+   "id": "U120",
+   "primar": "Övrigt",
+   "sekundar": null,
+   "motivering": "Svårt formulera stringent och åldersneutral kursplan",
+   "kodare": 1
+  },
+  {
+   "id": "U121",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Kursplanens benämning liknar befintliga komvuxkurser",
+   "kodare": 1
+  },
+  {
+   "id": "U122",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "Rektorer behöver stöd för bedömning och dokumentation",
+   "kodare": 1
+  },
+  {
+   "id": "U123",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Utredningen saknar beskrivning av bryggan mellan kursplanerna",
+   "kodare": 1
+  },
+  {
+   "id": "U124",
+   "primar": "Likvärdighet och konsekvenser för elever",
+   "sekundar": "Organisation och planering",
+   "motivering": "Överlämning vid skolbyte bör standardiseras för likvärdighet",
+   "kodare": 1
+  },
+  {
+   "id": "U125",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Målgruppsformuleringen riskerar otydlighet och godtyckliga beslut",
+   "kodare": 1
+  },
+  {
+   "id": "U126",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Likvärdighet och konsekvenser för elever",
+   "motivering": "Kompetens för korrekta beslut saknas och är ojämnt fördelad",
+   "kodare": 1
+  },
+  {
+   "id": "U127",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Fler övergångar för rektor, oklart när elev övergår",
+   "kodare": 1
+  },
+  {
+   "id": "U128",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": null,
+   "motivering": "Oklart om ny bedömning ska göras vid skolbyte",
+   "kodare": 1
+  },
+  {
+   "id": "U129",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Organisation och planering",
+   "motivering": "Administrativ börda måste vara hanterbar på små enheter",
+   "kodare": 1
+  },
+  {
+   "id": "U130",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Förslagen förutsätter hög kompetens hos rektorer och lärare",
+   "kodare": 1
+  },
+  {
+   "id": "U131",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Lärare behöriga utan utbildning i andraspråksdidaktik",
+   "kodare": 1
+  },
+  {
+   "id": "U132",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Oklart vilken kompetens som krävs för kursplansbedömningar",
+   "kodare": 1
+  },
+  {
+   "id": "U133",
+   "primar": "Organisation och planering",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Elevens förutsättningar vägs mot resurser, stöd för organisering behövs",
+   "kodare": 1
+  },
+  {
+   "id": "U134",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Landsbygdskommuner: skolskjutsar, små enheter, arbetstidsavtal",
+   "kodare": 1
+  },
+  {
+   "id": "U135",
+   "primar": "Organisation och planering",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Organisera undervisning när lärare studerar, resurskonsekvenser",
+   "kodare": 1
+  },
+  {
+   "id": "U136",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Tidplan och reformtakt",
+   "motivering": "Höjda behörighetskrav medför kostnader och kräver flerårigt införande",
+   "kodare": 2
+  },
+  {
+   "id": "U137",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Skolornas förmåga att identifiera språkstörning är begränsad",
+   "kodare": 2
+  },
+  {
+   "id": "U138",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Oklart hur uppenbart obehövligt bedöms och vilken kompetens krävs",
+   "kodare": 2
+  },
+  {
+   "id": "U139",
+   "primar": "Otydlighet i förslaget",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Oklart vilka krav som ställs på lärare för dessa elever",
+   "kodare": 2
+  },
+  {
+   "id": "U140",
+   "primar": "Övrigt",
+   "sekundar": null,
+   "motivering": "Hantering av känsliga personuppgifter om språk behöver beaktas",
+   "kodare": 2
+  },
+  {
+   "id": "U141",
+   "primar": "Organisation och planering",
+   "sekundar": null,
+   "motivering": "Flexibel studiehandledning gör statistikinsamling svår i praktiken",
+   "kodare": 2
+  },
+  {
+   "id": "U142",
+   "primar": "Organisation och planering",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "Organisation och praktiskt genomförande av ny kursplan obesvarat",
+   "kodare": 2
+  },
+  {
+   "id": "U143",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Lärare måste balansera tre kursplaner samtidigt",
+   "kodare": 2
+  },
+  {
+   "id": "U144",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Kostnader och finansiering",
+   "motivering": "Enda behöriga SvA-lärare måste flyttas utan tillförda resurser",
+   "kodare": 2
+  },
+  {
+   "id": "U145",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Organisation och planering",
+   "motivering": "Extra undervisningsgrupp blir kostsam för landsbygdskommun",
+   "kodare": 2
+  },
+  {
+   "id": "U146",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Kräver kompetenshöjning eller fler lärare, redan svårt att rekrytera",
+   "kodare": 2
+  },
+  {
+   "id": "U147",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Rektor får fler bedömningar och behöver implementeringsstöd",
+   "kodare": 2
+  },
+  {
+   "id": "U148",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": "Otydlighet i förslaget",
+   "motivering": "Åldersneutral kursplan kräver resurskrävande tolkningar av lärare",
+   "kodare": 2
+  },
+  {
+   "id": "U149",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Behörighetskrav och kompetenshöjning ger ökade kostnader för kommunen",
+   "kodare": 2
+  },
+  {
+   "id": "U150",
+   "primar": "Kostnader och finansiering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Utökad undervisningstid kostar och kräver ersättning samt lärare",
+   "kodare": 2
+  },
+  {
+   "id": "U151",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Ökad administrativ börda genom datainsamling och motiverade beslut",
+   "kodare": 2
+  },
+  {
+   "id": "U152",
+   "primar": "Organisation och planering",
+   "sekundar": "Personal, kompetens och arbetsbelastning",
+   "motivering": "Lärare kan inte frigöras för studier när vikarier saknas",
+   "kodare": 2
+  },
+  {
+   "id": "U153",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Oro för merkostnad för tre parallella svenskundervisningsformer",
+   "kodare": 2
+  },
+  {
+   "id": "U154",
+   "primar": "Personal, kompetens och arbetsbelastning",
+   "sekundar": null,
+   "motivering": "Stort ökat behov av behöriga SvA-lärare",
+   "kodare": 2
+  },
+  {
+   "id": "U155",
+   "primar": "Kostnader och finansiering",
+   "sekundar": null,
+   "motivering": "Risk att resurser saknas för att höja kvaliteten",
+   "kodare": 2
+  }
+ ]
+}
