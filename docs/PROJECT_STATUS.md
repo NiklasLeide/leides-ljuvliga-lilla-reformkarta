@@ -1,7 +1,7 @@
 # Project Status — leides-ljuvliga-lilla-reformkarta
 
-> **Last updated:** 2026-11-10
-> **Current sprint:** Sprint 15 — Automatsprinten (startad 2026-11-10)
+> **Last updated:** 2026-11-11
+> **Current sprint:** Sprint 17 — Utmaningskartan, alla reformer (stoppad för manuell granskning)
 > **Sprint dates:** november 2026
 
 ---
@@ -9,6 +9,8 @@
 ## Sprint 17 — Utmaningskartan, alla reformer
 
 **Mål:** Alla sju reformer i piloten under /dev/utmaningar-pilot/ med samma låsta metod som betyg.
+
+**Status:** Stoppad för manuell granskning (2026-11-11). Sprinten är inte stängd.
 
 **Stoppvillkor:** Alla sju reformer visas under /dev/, inget i produktionsroten, därefter manuell granskning. En reform stoppas och rapporteras om Övrigt överstiger 10 % eller samstämmigheten mellan kodare understiger 80 %.
 
@@ -20,20 +22,20 @@
 | 4 | Tid för undervisningsuppdraget (SOU 2025:26) | Klar — 27 publicerade remissvar, 615 utmaningar, Övrigt 4,7 %, samstämmighet identifiering 37/40, typning 35/40 |
 | 5 | Kunskap för alla (SOU 2025:19) | Klar — 24 publicerade remissvar, 284 utmaningar, Övrigt 7,7 %, samstämmighet identifiering 39/40, typning 36/40 |
 | 6 | På språklig grund (SOU 2025:9) | Klar — 20 publicerade remissvar (bland organisationerna bara SKR), 140 utmaningar, Övrigt 3,6 %, samstämmighet identifiering 38/40, typning 38/40 |
-| 7 | Tioårig grundskola (SOU 2021:33) | Klar — 22 publicerade remissvar (Friskolornas riksförbund egen fokusgrupp, avstod), 166 utmaningar, Övrigt 0 %, samstämmighet identifiering 36/40, typning 34/40 |
+| 7 | Tioårig grundskola (SOU 2021:33) | Klar — 22 publicerade remissvar (Friskolornas riksförbund egen fokusgrupp, på remisslistan utan svar), 166 utmaningar, Övrigt 0 %, samstämmighet identifiering 36/40, typning 34/40 |
 | 7b | Omkodning av betyg med gemensam kodinstruktion | Klar — omkodningen används (regel A4): M1–M3 fullföljda, samstämmighet för typning efter regelprövning 71/80 (88,8 %, gräns 75 %); före regelprövning 31/40. 490 utmaningar (Sprint 16: 440). Sprint 16-filen sparad i research/remissanalys/reformer/betyg/fore-omkodning/ med jamforelse.json |
 | 7c | Datarättningar | Klar |
 | 8 | Pilotsidan: reformväljare, jämförelse mellan reformer, förslag som propositionen inte tar upp, klickytor | Klar — reformväljare (#reform=…), startvy reform × typ ("x av y", lista under 700 px) ur data/oversikt.json, vy per reform, "Förslag som propositionen inte tar upp", organisationernas status, metodruta per reform med begränsningskoder, klickytor ≥ 44 px; testa-pilotsida.js 323/323 för alla sju reformer i 1280 och 375 px |
 | 9 | Granskningsunderlag för alla reformer | Klar — research/remissanalys/granskning/: sju csv (betyg 40 + 20, övriga 15 + 5) ur aktuella datafiler med fasta slumpfrön och länk till rätt vy (130/130 länkar visar citatet), gemensam README, rakna-granskning.py per reform och totalt |
 | 10 | Dokumentation och hygien | Klar — utmaningskartan-metod.md, pilot/utmaningar/README.md och KEDJA.md för alla sju reformer (inkl. A4-regeln för betyg), DEC-026, CLAUDE.md-trädet (pilot/, research/, pilot-sync.sh; godkänt av Niklas) och _config.yml-kommentaren. Ingen skriven Definition of Done finns, så .claude/agents/dod-reviewer.md skapades inte. CLAUDE.md är 160 rader (riktlinje < 150) |
 | 11 | Synk till /dev/utmaningar-pilot/ | Klar — ./pilot-sync.sh (torrkörning listade bara index.html och data/*): master 88d393e ändrar bara dev/utmaningar-pilot/ (9 filer, byte-identiska med dev 8cfc031) |
-| 12 | Run DoD review for this sprint | Ej påbörjad |
+| 12 | Run DoD review for this sprint | Klar — oberoende subagent (ingen skriven DoD finns; granskat mot stoppvillkor och acceptanskriterier): GODKÄND MED ANMÄRKNINGAR. Alla tio kriterier godkända; fyra dokumentationsfel rättade (denna tabell rad 7, filhuvudet, Sprint 16-avsnittet, källnot i tioarig.json 92→94). Ej verifierbart: live-sajten (proxy 403). Anmärkningar: SFS-kopplingen är härledd ur konsoliderad text (SFS-registret onåbart), docs/ exkluderas inte från Pages, dev ligger före master (avsiktligt före granskning) |
 
 ---
 
 ## Sprint 16 — Utmaningskartan (pilot betyg)
 
-**Status:** Klar. Manuell granskning flyttad till efter nästa sprint enligt beslut av Niklas.
+**Status:** Klar (inte stängd). Manuell granskning flyttad till efter nästa sprint enligt beslut av Niklas.
 
 **Mål:** pilotsida på dev som för reformen betyg visar huvudmännens utmaningar ur remissvaren mot proposition och lag, granskningsbar för Niklas och Cecilia.
 
@@ -58,9 +60,9 @@
 - **Lämnade avvikelser:**
   - Sprintens commits gjordes med vanliga git-kommandon, inte med `commit.sh` (se DEC-023).
   - `_config.yml` på master exkluderar ännu inte research/pilot. Det rättas vid nästa deploy och exponerar inget i dag.
-  - Sidtestet körs i 380 px i stället för 375 px, och 84 klickbara element är lägre än 44 px. Det ska åtgärdas före produktionsflytt.
+  - Sidtestet körs i 380 px i stället för 375 px, och 84 klickbara element är lägre än 44 px. *Åtgärdat i Sprint 17 task 8 (375 px, alla klickytor ≥ 44 px).*
   - `docs/` exkluderas inte från Pages, så metodbeskrivningen publiceras vid nästa deploy. Niklas avgör.
-  - CLAUDE.md:s katalogträd och kommentaren i `_config.yml` nämner inte pilot/ och research/.
+  - CLAUDE.md:s katalogträd och kommentaren i `_config.yml` nämner inte pilot/ och research/. *Åtgärdat i Sprint 17 task 10.*
 - **Nästa steg:** Cecilias granskning av sidan och `research/remissanalys/v2/granskning/granskning-betyg.csv`. Sprinten är inte stängd.
 
 ---
