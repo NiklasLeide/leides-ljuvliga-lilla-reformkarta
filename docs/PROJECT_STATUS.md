@@ -23,7 +23,7 @@
 | 7 | Tioårig grundskola (SOU 2021:33) | Klar — 22 publicerade remissvar (Friskolornas riksförbund egen fokusgrupp, avstod), 166 utmaningar, Övrigt 0 %, samstämmighet identifiering 36/40, typning 34/40 |
 | 7b | Omkodning av betyg med gemensam kodinstruktion | Klar — omkodningen används (regel A4): M1–M3 fullföljda, samstämmighet för typning efter regelprövning 71/80 (88,8 %, gräns 75 %); före regelprövning 31/40. 490 utmaningar (Sprint 16: 440). Sprint 16-filen sparad i research/remissanalys/reformer/betyg/fore-omkodning/ med jamforelse.json |
 | 7c | Datarättningar | Klar |
-| 8 | Pilotsidan: reformväljare, jämförelse mellan reformer, förslag som propositionen inte tar upp, klickytor | Ej påbörjad |
+| 8 | Pilotsidan: reformväljare, jämförelse mellan reformer, förslag som propositionen inte tar upp, klickytor | Klar — reformväljare (#reform=…), startvy reform × typ ("x av y", lista under 700 px) ur data/oversikt.json, vy per reform, "Förslag som propositionen inte tar upp", organisationernas status, metodruta per reform med begränsningskoder, klickytor ≥ 44 px; testa-pilotsida.js 323/323 för alla sju reformer i 1280 och 375 px |
 | 9 | Granskningsunderlag för alla reformer | Ej påbörjad |
 | 10 | Dokumentation och hygien | Ej påbörjad |
 | 11 | Synk till /dev/utmaningar-pilot/ | Ej påbörjad |

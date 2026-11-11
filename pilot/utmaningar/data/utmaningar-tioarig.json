@@ -161,10 +161,22 @@
    "instruktion": "research/remissanalys/kedja/KODINSTRUKTION.md"
   },
   "begransningar": [
-   "SOU 2021:33 återger inte paragraftexterna i författningskommentaren; ingen maskinell jämförelse med beslutad lydelse är gjord.",
-   "Remisslistan har Friskolornas riksförbund, inte Almega; förbundet redovisas under eget namn och avstod.",
-   "Remissen gjordes 2021 och propositionen 2025; terminologin skiljer sig (grundsärskolan → anpassade grundskolan).",
-   "Spontana yttranden publiceras inte på regeringen.se; enskilda huvudmän som yttrat sig spontant saknas därför i korpusen."
+   {
+    "kod": "ingen_paragraftext"
+   },
+   {
+    "kod": "egen_fokusgrupp",
+    "namn": "Friskolornas riksförbund",
+    "i_stallet_for": "Almega"
+   },
+   {
+    "kod": "aldre_remiss",
+    "remissar": "2021",
+    "proposition": "2025"
+   },
+   {
+    "kod": "spontana_ej_publicerade"
+   }
   ],
   "tolkning": "Fält med tolkning: true är tolkning (utmaningstyp; koppling med nivå \"tolkad\"). Kopplingen mellan utredningsförslag och propositionsavsnitt är redaktionell: true. Övrigt är mekaniskt härlett ur källtext.",
   "ingen_bedomning": "Inget fält anger om en utmaning har lösts eller om propositionen har bemött den i sak.",

@@ -155,10 +155,20 @@
    "instruktion": "research/remissanalys/kedja/KODINSTRUKTION.md"
   },
   "begransningar": [
-   "Utredningens förslagsrutor är grova: 8 rutor, varav flera med många punkter.",
-   "Prop. 2025/26:193 behandlar även Ds 2025:9 (mobilförbud); de delarna ingår inte. SOU-avsnitt 3.2 behandlas i prop. 2025/26:194 avsnitt 6.2.",
-   "Förordningsförslagen om frånvaro jämförs med markören \"ogiltig frånvaro\" i de angivna förordningarna.",
-   "Spontana yttranden publiceras inte på regeringen.se; enskilda huvudmän som yttrat sig spontant saknas därför i korpusen."
+   {
+    "kod": "grova_forslagsrutor",
+    "antal": 8
+   },
+   {
+    "kod": "delad_proposition",
+    "propositioner": [
+     "Prop. 2025/26:193",
+     "Prop. 2025/26:194"
+    ]
+   },
+   {
+    "kod": "spontana_ej_publicerade"
+   }
   ],
   "tolkning": "Fält med tolkning: true är tolkning (utmaningstyp; koppling med nivå \"tolkad\"). Kopplingen mellan utredningsförslag och propositionsavsnitt är redaktionell: true. Övrigt är mekaniskt härlett ur källtext.",
   "ingen_bedomning": "Inget fält anger om en utmaning har lösts eller om propositionen har bemött den i sak.",

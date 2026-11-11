@@ -4,10 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="noindex, nofollow">
-<title>Utmaningskartan (pilot) — Ett likvärdigt betygssystem</title>
+<title>Utmaningskartan (pilot)</title>
 <style>
-/* Pilot, Sprint 16 T4. Design tokens kopierade från rotsidorna (reformer.html). Inga externa beroenden:
-   typsnitten DM Sans / Source Serif 4 används om de finns lokalt, annars systemtypsnitt. */
+/* Pilot, Sprint 16 T4 / Sprint 17 del B (sju reformer). Design tokens kopierade från rotsidorna (reformer.html).
+   Inga externa beroenden: typsnitten DM Sans / Source Serif 4 används om de finns lokalt, annars systemtypsnitt. */
 :root {
   --ink: #1c1c1c;
   --bg: #f7f6f3;
@@ -28,7 +28,10 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body { font-family: 'DM Sans', system-ui, sans-serif; background: var(--bg); color: var(--ink); line-height: 1.5; -webkit-font-smoothing: antialiased; }
 a { color: var(--kunskap); }
+/* B7: alla länkar är minst 44×44 px som klickyta (inline-flex så att texten fortfarande kan radbrytas inuti). */
+a { display: inline-flex; align-items: center; min-height: 44px; min-width: 44px; max-width: 100%; vertical-align: middle; }
 a:focus-visible, button:focus-visible, summary:focus-visible, input:focus-visible, select:focus-visible { outline: 3px solid var(--kunskap); outline-offset: 2px; }
+[hidden] { display: none !important; }
 .banderoll { position: sticky; top: 0; z-index: 10; background: var(--varn-bg); color: var(--varn); border-bottom: 1px solid #f3d38a; padding: .55rem 1.5rem; font-size: .82rem; font-weight: 600; }
 header { background: var(--ink); color: #fff; padding: 1.6rem 1.5rem 1.4rem; }
 .header-inner { max-width: 1200px; margin: 0 auto; }
@@ -36,7 +39,11 @@ header { background: var(--ink); color: #fff; padding: 1.6rem 1.5rem 1.4rem; }
 header h1 { font-family: 'Source Serif 4', Georgia, serif; font-size: 1.6rem; font-weight: 600; line-height: 1.2; margin-bottom: .5rem; }
 header p { font-size: .85rem; color: rgba(255,255,255,.75); max-width: 760px; }
 header a { color: #fff; }
-.kedja { list-style: none; display: flex; flex-wrap: wrap; gap: .35rem .9rem; margin: .4rem 0 .6rem; font-size: .82rem; }
+.valjare { display: flex; flex-wrap: wrap; align-items: center; gap: .3rem .7rem; margin-bottom: .8rem; font-size: .8rem; }
+.valjare label { font-weight: 600; text-transform: uppercase; letter-spacing: .06em; font-size: .68rem; color: rgba(255,255,255,.7); }
+.valjare select { font: inherit; font-size: .88rem; min-height: 44px; padding: .4rem .6rem; border-radius: 6px; border: 1px solid #fff; background: #fff; color: var(--ink); max-width: 100%; width: 34rem; }
+.kedja { list-style: none; display: flex; flex-wrap: wrap; gap: 0 .9rem; margin: .2rem 0 .4rem; font-size: .82rem; }
+.kedja li { display: flex; align-items: center; }
 .kedja li::after { content: '→'; margin-left: .9rem; color: rgba(255,255,255,.5); }
 .kedja li:last-child::after { content: ''; }
 .container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem 3rem; }
@@ -48,19 +55,35 @@ h3 { font-size: .95rem; font-weight: 600; margin: 1.2rem 0 .4rem; }
 
 /* Filter */
 .filter { display: flex; flex-wrap: wrap; gap: 1rem 1.6rem; align-items: flex-start; }
-.filter fieldset { border: 0; }
-.filter legend, .filter label.rubrik { font-size: .7rem; font-weight: 600; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin-bottom: .3rem; display: block; }
-.filter .val { display: flex; flex-wrap: wrap; gap: .3rem .8rem; font-size: .85rem; }
-.filter .val label { display: inline-flex; align-items: center; gap: .3rem; min-height: 32px; cursor: pointer; }
-.filter select { font: inherit; font-size: .85rem; padding: .35rem .5rem; border: 1px solid var(--border); border-radius: 6px; background: var(--card); min-height: 36px; }
-.reglage { display: inline-flex; align-items: center; gap: .5rem; font-size: .85rem; min-height: 36px; cursor: pointer; }
+.filter fieldset { border: 0; min-width: 0; }
+.filter legend, .filter .rubrik { font-size: .7rem; font-weight: 600; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin-bottom: .3rem; display: block; }
+.filter .val { display: flex; flex-wrap: wrap; gap: 0 .9rem; font-size: .85rem; }
+.filter .val label { display: inline-flex; align-items: center; gap: .4rem; min-height: 44px; min-width: 44px; cursor: pointer; }
+.filter .val input { width: 18px; height: 18px; }
+.filter select { font: inherit; font-size: .85rem; padding: .35rem .5rem; border: 1px solid var(--border); border-radius: 6px; background: var(--card); min-height: 44px; max-width: 100%; }
+.reglage { display: inline-flex; align-items: center; gap: .5rem; font-size: .85rem; min-height: 44px; cursor: pointer; }
 .reglage input { width: 18px; height: 18px; }
-.aterstall { font: inherit; font-size: .8rem; background: none; border: 1px solid var(--border); border-radius: 6px; padding: .35rem .7rem; cursor: pointer; min-height: 36px; }
+.aterstall { font: inherit; font-size: .8rem; background: none; border: 1px solid var(--border); border-radius: 6px; padding: .35rem .8rem; cursor: pointer; min-height: 44px; min-width: 44px; }
 .jamforelse { font-size: .85rem; margin-top: .8rem; }
+
+/* Startvy: jämförelsetabell reform × utmaningstyp */
+table.jmf { min-width: 980px; }
+.jmf tbody th { padding: .35rem .5rem; font-weight: 600; font-size: .8rem; }
+.jmf tbody th a { color: var(--ink); }
+.jmf tbody th .sou { display: block; font-weight: 400; color: var(--muted); font-size: .72rem; }
+.jmf td a { width: 100%; justify-content: center; text-decoration: none; color: var(--ink); font-weight: 600; white-space: nowrap; padding: 0 .3rem; }
+.jmf td a:hover { text-decoration: underline; }
+.jmf-lista { display: none; list-style: none; }
+.jmf-lista > li { border-top: 1px solid var(--border); padding: .5rem 0 .7rem; }
+.jmf-lista h3 { margin: 0 0 .2rem; font-size: .92rem; }
+.jmf-lista h3 a { color: var(--ink); }
+.jmf-lista ul { list-style: none; display: grid; gap: .25rem; }
+.jmf-lista ul a { display: flex; justify-content: space-between; gap: .6rem; width: 100%; color: var(--ink); text-decoration: none; font-size: .82rem; padding: 0 .5rem; border-radius: 4px; border: 1px solid var(--border); }
+.jmf-lista ul a strong { white-space: nowrap; }
 
 /* Översikt 1 */
 .staplar { list-style: none; display: grid; gap: .35rem; }
-.stapel { display: grid; grid-template-columns: minmax(150px, 280px) 1fr; gap: .6rem; align-items: center; width: 100%; font: inherit; text-align: left; background: none; border: 1px solid transparent; border-radius: 6px; padding: .3rem .4rem; cursor: pointer; min-height: 40px; }
+.stapel { display: grid; grid-template-columns: minmax(150px, 280px) 1fr; gap: .6rem; align-items: center; width: 100%; font: inherit; text-align: left; background: none; border: 1px solid transparent; border-radius: 6px; padding: .3rem .4rem; cursor: pointer; min-height: 44px; color: var(--ink); }
 .stapel:hover { background: #efede8; }
 .stapel[aria-pressed="true"] { border-color: var(--ink); background: var(--card); }
 .stapel .namn { font-size: .85rem; }
@@ -69,48 +92,62 @@ h3 { font-size: .95rem; font-weight: 600; margin: 1.2rem 0 .4rem; }
 .stapel .tal { position: absolute; left: .4rem; top: 0; line-height: 20px; font-size: .78rem; font-weight: 600; color: #fff; text-shadow: 0 0 2px rgba(0,0,0,.6); white-space: nowrap; }
 .stapel[aria-pressed="true"] .namn::before { content: '✓ '; }
 
-/* Översikt 2: matris */
+/* Översikt 2: matris (och jämförelsetabellen i startvyn) */
 .matris-wrap { overflow-x: auto; }
 table.matris { border-collapse: collapse; font-size: .8rem; min-width: 760px; width: 100%; background: var(--card); }
 .matris caption { text-align: left; font-size: .8rem; color: var(--muted); padding: .3rem 0 .5rem; }
 .matris th, .matris td { border: 1px solid var(--border); padding: 0; }
 .matris thead th { font-weight: 600; font-size: .72rem; padding: .4rem .3rem; vertical-align: bottom; text-align: center; }
 .matris tbody th { text-align: left; font-weight: 400; }
-.matris tbody th button { font: inherit; text-align: left; background: none; border: 0; padding: .45rem .5rem; width: 100%; cursor: pointer; min-height: 40px; color: var(--ink); }
-.matris td button { font: inherit; font-weight: 600; width: 100%; min-height: 40px; border: 0; cursor: pointer; color: var(--ink); background: transparent; }
-.matris td button[data-tom="1"] { color: #b9b5ad; font-weight: 400; }
+.matris tbody th button { font: inherit; text-align: left; background: none; border: 0; padding: .45rem .5rem; width: 100%; cursor: pointer; min-height: 44px; color: var(--ink); }
+.matris td button { font: inherit; font-weight: 600; width: 100%; min-height: 44px; min-width: 44px; border: 0; cursor: pointer; color: var(--ink); background: transparent; }
+.matris td button[data-tom="1"] { color: #6b6b6b; font-weight: 400; }
 .matris button[aria-pressed="true"] { outline: 3px solid var(--ink); outline-offset: -3px; }
 .matris tbody th button[aria-pressed="true"]::before { content: '▸ '; }
 .matris td button[aria-pressed="true"]::after { content: ' ✓'; }
 .matris-lista { display: none; list-style: none; }
 .matris-lista > li { border-top: 1px solid var(--border); padding: .6rem 0; }
-.matris-lista .sak { font: inherit; font-size: .88rem; font-weight: 600; background: none; border: 0; text-align: left; cursor: pointer; padding: .2rem 0; min-height: 40px; color: var(--ink); }
+.matris-lista .sak { font: inherit; font-size: .88rem; font-weight: 600; background: none; border: 0; text-align: left; cursor: pointer; padding: .2rem 0; min-height: 44px; width: 100%; color: var(--ink); }
 .matris-lista .sak[aria-pressed="true"]::before { content: '▸ '; }
 .mini { list-style: none; display: grid; gap: .2rem; }
-.mini button { display: grid; grid-template-columns: 1fr 70px 2.2rem; gap: .4rem; align-items: center; width: 100%; font: inherit; font-size: .78rem; background: none; border: 0; text-align: left; cursor: pointer; min-height: 32px; color: var(--ink); }
+.mini button { display: grid; grid-template-columns: 1fr 70px 2.2rem; gap: .4rem; align-items: center; width: 100%; font: inherit; font-size: .78rem; background: none; border: 0; text-align: left; cursor: pointer; min-height: 44px; color: var(--ink); }
 .mini button[aria-pressed="true"] { font-weight: 700; }
 .mini .s { height: 8px; background: #ece9e3; border-radius: 2px; position: relative; }
 .mini .s i { position: absolute; inset: 0 auto 0 0; background: var(--kunskap); border-radius: 2px; }
 @media (max-width: 699px) {
   .matris-wrap { display: none; }
-  .matris-lista { display: block; }
+  .matris-lista, .jmf-lista { display: block; }
   .stapel { grid-template-columns: 1fr; gap: .2rem; }
   header h1 { font-size: 1.3rem; }
   .container, header, .banderoll { padding-left: 1rem; padding-right: 1rem; }
 }
 
+/* Organisationer och förslag som propositionen inte tar upp */
+.org { list-style: none; display: grid; gap: .5rem; }
+.org > li { display: flex; flex-wrap: wrap; align-items: center; gap: 0 .6rem; font-size: .86rem; border-top: 1px solid var(--border); padding-top: .4rem; }
+.org > li:first-child { border-top: 0; padding-top: 0; }
+.org .avst { flex-basis: 100%; margin: .1rem 0 0; padding-left: .7rem; border-left: 3px solid var(--border); font-size: .82rem; }
+.org .avst blockquote { font-family: 'Source Serif 4', Georgia, serif; }
+.ingen-tal { font-size: .9rem; margin-bottom: .5rem; }
+.fast { font-size: .85rem; font-weight: 600; margin-bottom: .6rem; }
+.knapp { font: inherit; font-size: .85rem; background: var(--card); border: 1px solid var(--ink); border-radius: 6px; padding: .35rem .9rem; cursor: pointer; min-height: 44px; min-width: 44px; color: var(--ink); }
+.knapp[aria-pressed="true"] { background: var(--ink); color: #fff; }
+.knapp[aria-pressed="true"]::before { content: '✓ '; }
+.ingen-lista { list-style: none; display: grid; gap: .5rem; margin-top: .4rem; }
+
 /* Detaljvy */
 .detalj-rubrik { font-size: .9rem; margin-bottom: .6rem; }
 section { scroll-margin-top: 3.2rem; }   /* rubriken hamnar inte under den fasta banderollen vid scrollIntoView */
 .delar { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; align-items: start; }
+.delar > * { min-width: 0; }
 @media (max-width: 980px) { .delar { grid-template-columns: 1fr; } }
 .avsandare { border-top: 1px solid var(--border); padding: .7rem 0; }
 .avsandare:first-of-type { border-top: 0; }
 .avsandare h4 { font-size: .88rem; font-weight: 600; }
 .avsandare .grupp { font-size: .72rem; color: var(--muted); font-weight: 400; margin-left: .3rem; }
 .citat { margin: .5rem 0 0; padding-left: .7rem; border-left: 3px solid var(--border); }
-.citat blockquote { font-family: 'Source Serif 4', Georgia, serif; font-size: .9rem; }
-.citat .rad { display: flex; flex-wrap: wrap; gap: .3rem .5rem; align-items: center; margin-top: .25rem; font-size: .72rem; }
+.citat blockquote { font-family: 'Source Serif 4', Georgia, serif; font-size: .9rem; overflow-wrap: anywhere; }
+.citat .rad, .rad { display: flex; flex-wrap: wrap; gap: .1rem .5rem; align-items: center; margin-top: .25rem; font-size: .72rem; }
 .etikett { display: inline-block; font-size: .68rem; font-weight: 600; padding: .05rem .4rem; border-radius: 3px; border: 1px solid var(--border); background: #f3f1ec; }
 .etikett.typ { background: var(--kunskap-bg); border-color: #bfd3f6; color: #1e3a8a; }
 .etikett.typ2 { background: #fff; color: #1e3a8a; border-style: dashed; }
@@ -120,12 +157,15 @@ section { scroll-margin-top: 3.2rem; }   /* rubriken hamnar inte under den fasta
 .etikett.redak { background: var(--styrning-bg); border-color: #d5ccfb; color: #4c1d95; }
 .etikett.oe { background: #fff; border-color: var(--ink); color: var(--ink); }
 details { margin-top: .35rem; font-size: .8rem; }
-details summary { cursor: pointer; color: var(--kunskap); min-height: 28px; }
-details .innehall { padding: .4rem 0 .2rem .8rem; border-left: 2px solid var(--border); }
+details summary { cursor: pointer; color: var(--kunskap); min-height: 44px; display: flex; align-items: center; }
+details summary::before { content: '▸'; margin-right: .4rem; }
+details[open] > summary::before { content: '▾'; }
+details summary::-webkit-details-marker { display: none; }
+details .innehall { padding: .4rem 0 .2rem .8rem; border-left: 2px solid var(--border); overflow-wrap: anywhere; }
 .prop { border-top: 1px solid var(--border); padding: .8rem 0; }
 .prop:first-of-type { border-top: 0; }
 .prop h4 { font-size: .88rem; font-weight: 600; }
-.forslag { margin: .55rem 0 0 .2rem; padding: .5rem .7rem; background: #faf9f6; border: 1px solid var(--border); border-radius: 6px; font-size: .82rem; }
+.forslag { margin: .55rem 0 0 .2rem; padding: .5rem .7rem; background: #faf9f6; border: 1px solid var(--border); border-radius: 6px; font-size: .82rem; overflow-wrap: anywhere; }
 .forslag .f-text { font-family: 'Source Serif 4', Georgia, serif; font-size: .85rem; }
 .sfs { margin-top: .3rem; font-size: .78rem; }
 .lagpar { margin-top: .4rem; }
@@ -147,7 +187,8 @@ footer { font-size: .72rem; color: var(--muted); margin-top: 2rem; }
 <header>
   <div class="header-inner">
     <div class="header-badge">Utmaningskartan · pilot · Privatprojekt av Niklas Leide</div>
-    <h1 id="reformnamn">Ett likvärdigt betygssystem</h1>
+    <h1 id="reformnamn">Utmaningskartan</h1>
+    <div class="valjare"><label for="reformval">Reform</label><select id="reformval"></select></div>
     <ul class="kedja" id="kedja" aria-label="Kedjan från utredning till riksdagsbeslut"></ul>
     <p id="korpus"></p>
   </div>
@@ -156,140 +197,284 @@ footer { font-size: .72rem; color: var(--muted); margin-top: 2rem; }
 <main class="container" id="main">
   <p class="tom" id="laddar">Läser in data …</p>
 
-  <section aria-labelledby="h-filter">
-    <h2 id="h-filter">Filter</h2>
-    <div class="kort filter" id="filter"></div>
-    <p class="jamforelse" id="jamforelse" aria-live="polite"></p>
-  </section>
+  <!-- Startvy: jämförelse mellan reformerna (läser bara data/oversikt.json) -->
+  <div id="startvy" hidden>
+    <section aria-labelledby="h-jmf">
+      <h2 id="h-jmf">Utmaningar per reform och typ</h2>
+      <p class="ingress">Varje cell visar hur många avsändare som lyft minst en utmaning av typen, av reformens totala antal avsändare med utmaningar. Färgen förstärker bara andelen; talet står alltid i cellen. Välj en cell för att öppna reformen filtrerad på typen, eller välj en reform.</p>
+      <div class="matris-wrap"><table class="matris jmf" id="jmftabell"></table></div>
+      <ul class="jmf-lista" id="jmflista" aria-label="Reformer med antal avsändare per utmaningstyp"></ul>
+    </section>
+    <section aria-labelledby="h-startmetod">
+      <h2 id="h-startmetod">Om jämförelsen</h2>
+      <div class="kort metod" id="startmetod"></div>
+    </section>
+  </div>
 
-  <section aria-labelledby="h-o1">
-    <h2 id="h-o1">Utmaningar per typ</h2>
-    <p class="ingress">Antal avsändare som lyft minst en utmaning av typen. Klicka på en typ för att filtrera.</p>
-    <ul class="staplar" id="staplar"></ul>
-  </section>
+  <!-- Reformvy: läser reformens fullständiga datafil när reformen öppnas -->
+  <div id="reformvy" hidden>
+    <section aria-labelledby="h-org">
+      <h2 id="h-org">Huvudmannaorganisationerna och remissen</h2>
+      <p class="ingress">Organisationer i urvalet för den här reformen och deras status enligt källan.</p>
+      <div class="kort"><ul class="org" id="org"></ul></div>
+    </section>
 
-  <section aria-labelledby="h-o2">
-    <h2 id="h-o2">Sakområde och typ</h2>
-    <p class="ingress">Rader: kapitelrubriker i SOU 2025:18. Kolumner: utmaningstyp. Talet är antal avsändare; färgen förstärker bara talet. Välj en cell eller ett sakområde för att se citaten.</p>
-    <div class="matris-wrap"><table class="matris" id="matris"></table></div>
-    <ul class="matris-lista" id="matrislista" aria-label="Sakområden med antal avsändare per utmaningstyp"></ul>
-  </section>
+    <section aria-labelledby="h-filter">
+      <h2 id="h-filter">Filter</h2>
+      <div class="kort filter" id="filter"></div>
+      <p class="jamforelse" id="jamforelse" aria-live="polite"></p>
+    </section>
 
-  <section aria-labelledby="h-detalj" id="detaljsektion">
-    <h2 id="h-detalj">Detaljer</h2>
-    <p class="detalj-rubrik" id="detaljrubrik" aria-live="polite"></p>
-    <div class="delar">
-      <div class="kort" aria-labelledby="h-skrev"><h3 id="h-skrev">Vad huvudmännen skrev</h3><div id="skrev"></div></div>
-      <div class="kort" aria-labelledby="h-sager"><h3 id="h-sager">Vad proposition och lag säger</h3><div id="sager"></div></div>
-    </div>
-  </section>
+    <section aria-labelledby="h-o1">
+      <h2 id="h-o1">Utmaningar per typ</h2>
+      <p class="ingress">Antal avsändare som lyft minst en utmaning av typen. Klicka på en typ för att filtrera.</p>
+      <ul class="staplar" id="staplar"></ul>
+    </section>
 
-  <section aria-labelledby="h-metod">
-    <h2 id="h-metod">Metod och begränsningar</h2>
-    <div class="kort metod" id="metod"></div>
-  </section>
+    <section aria-labelledby="h-ingen" id="ingensektion">
+      <h2 id="h-ingen">Förslag som propositionen inte tar upp</h2>
+      <div class="kort" id="ingen"></div>
+    </section>
+
+    <section aria-labelledby="h-o2">
+      <h2 id="h-o2">Sakområde och typ</h2>
+      <p class="ingress" id="matrisingress"></p>
+      <div class="matris-wrap"><table class="matris" id="matris"></table></div>
+      <ul class="matris-lista" id="matrislista" aria-label="Sakområden med antal avsändare per utmaningstyp"></ul>
+    </section>
+
+    <section aria-labelledby="h-detalj" id="detaljsektion">
+      <h2 id="h-detalj">Detaljer</h2>
+      <p class="detalj-rubrik" id="detaljrubrik" aria-live="polite"></p>
+      <div class="delar">
+        <div class="kort" aria-labelledby="h-skrev"><h3 id="h-skrev">Vad huvudmännen skrev</h3><div id="skrev"></div></div>
+        <div class="kort" aria-labelledby="h-sager"><h3 id="h-sager">Vad proposition och lag säger</h3><div id="sager"></div></div>
+      </div>
+    </section>
+
+    <section aria-labelledby="h-metod">
+      <h2 id="h-metod">Metod och begränsningar</h2>
+      <div class="kort metod" id="metod"></div>
+    </section>
+  </div>
 
   <footer id="sidfot"></footer>
 </main>
 
 <script>
 'use strict';
-// Pilotsida, Utmaningskartan (betyg). Läser data/utmaningar-betyg.json. Visar endast citat, källtexter, etiketter och tal
-// — kodarnas motiveringar och annan modellskriven fritext i datafilen visas aldrig.
-const S = { typ: null, sak: null, fg: [], sf: '', tolk: true };   // sak: kapitelnummer | 'utan' | null
-let D = null, TYP = [], SAK = [], FORSLAG = {}, PROP = {}, AVS = {};
+// Pilotsida, Utmaningskartan (sju reformer). Startvyn läser data/oversikt.json; en reforms fullständiga datafil
+// (data/utmaningar-<id>.json) läses först när reformen öppnas. Visar endast citat, källtexter, etiketter, tal och
+// fasta sidtexter — kodarnas motiveringar och annan modellskriven fritext i datafilerna visas aldrig.
+//
+// Tillstånd i URL-hash: reform=<id>&typ=…&sak=…&fg=…&sf=…&tolk=0&forslag=ingen. Utan reform visas startvyn.
+// När en vy är färdigritad sätts <html data-klar="<location.hash>"> (används av testet för att veta när sidan är klar).
+const S = { reform: null, typ: null, sak: null, fg: [], sf: '', tolk: true, ingen: false };   // sak: kapitelnummer | 'utan' | null
+let OV = null, REF = {}, D = null, TYP = [], SAK = [], FORSLAG = {}, PROP = {}, AVS = {}, FG = {}, INGEN = new Set(), SOU = '';
+const CACHE = {};
+let rutt = 0;   // ökar vid varje navigering, så att ett sent svar från en äldre hämtning inte ritas
 const el = id => document.getElementById(id);
 const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const FGNAMN = { kommuner: 'Kommun', enskilda_huvudman: 'Enskild huvudman', skr: 'SKR', almega: 'Almega', ideburna: 'Idéburna skolors riksförbund' };
 const sidlank = (url, sida) => `${esc(url)}#page=${encodeURIComponent(sida)}`;
+const hashFor = par => '#' + par.filter(([, v]) => v !== null && v !== '' && v !== undefined).map(([k, v]) => k + '=' + encodeURIComponent(v)).join('&');
+const klar = () => { document.documentElement.dataset.klar = location.hash; };
+// Singularform för citatens avsändarrad; övriga fokusgrupper visas med namnet ur datafilen.
+const FGSING = { kommuner: 'Kommun', enskilda_huvudman: 'Enskild huvudman' };
+const fgEtikett = id => FGSING[id] || (FG[id] ? FG[id].namn : id);
+// Fokusgruppens namn i löptext ("från kommuner", "från Almega").
+const fgLop = id => { const g = FG[id]; if (!g) return id; return g.grupp === 'huvudman' ? g.namn.charAt(0).toLowerCase() + g.namn.slice(1) : g.namn; };
+const tal = (x, y) => `${x} av ${y}`;
+const lista = arr => arr.length < 2 ? arr.join('') : arr.slice(0, -1).join(', ') + ' och ' + arr[arr.length - 1];
 
-fetch('data/utmaningar-betyg.json').then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
-  .then(d => { D = d; init(); })
-  .catch(e => { el('laddar').textContent = 'Datafilen kunde inte läsas (' + e.message + ').'; console.error(e); });
+fetch('data/oversikt.json').then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+  .then(ov => { OV = ov; OV.reformer.forEach(r => REF[r.id] = r); start(); })
+  .catch(e => { el('laddar').textContent = 'Översiktsfilen kunde inte läsas (' + e.message + ').'; console.error(e); });
 
-function init() {
+function start() {
+  el('reformval').innerHTML = `<option value="">Alla reformer (jämförelse)</option>`
+    + OV.reformer.map(r => `<option value="${esc(r.id)}">${esc(r.sou)} ${esc(r.namn)}</option>`).join('');
+  el('reformval').addEventListener('change', e => { location.hash = e.target.value ? hashFor([['reform', e.target.value]]) : ''; });
+  ritaStart();
+  window.addEventListener('hashchange', route);
+  route();
+}
+
+function hamta(id) {
+  if (!CACHE[id]) CACHE[id] = fetch('data/' + REF[id].fil).then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+    .catch(e => { delete CACHE[id]; throw e; });
+  return CACHE[id];
+}
+
+function route() {
+  const nr = ++rutt;
+  const p = new URLSearchParams(location.hash.slice(1));
+  const rid = p.get('reform');
+  if (!rid || !REF[rid]) { visaStart(); klar(); return; }
+  el('laddar').hidden = false; el('laddar').textContent = 'Läser in data …';
+  hamta(rid).then(d => {
+    if (nr !== rutt) return;                       // användaren har hunnit navigera vidare
+    el('laddar').hidden = true;
+    if (D !== d) { D = d; S.reform = rid; forbered(); byggReform(); }
+    lasHash(p);
+    el('startvy').hidden = true; el('reformvy').hidden = false;
+    el('reformval').value = rid;
+    rita(); klar();
+  }).catch(e => { el('laddar').textContent = 'Datafilen kunde inte läsas (' + e.message + ').'; console.error(e); });
+}
+
+// ---------- startvy ----------
+function visaStart() {
+  S.reform = null; D = null;
+  el('laddar').hidden = true;
+  el('reformvy').hidden = true; el('startvy').hidden = false;
+  el('reformval').value = '';
+  document.title = 'Utmaningskartan (pilot) — jämförelse mellan reformer';
+  el('reformnamn').textContent = 'Utmaningskartan: utmaningar som huvudmännen pekade ut i remissvaren';
+  el('kedja').innerHTML = '';
+  const utm = OV.reformer.reduce((s, r) => s + r.utmaningar, 0);
+  el('korpus').textContent = `${OV.reformer.length} reformer med ${utm} utmaningar ur publicerade remissvar från huvudmän och deras organisationer. Välj en reform för citat, kedjan till riksdagsbeslut och metod.`;
+  el('sidfot').textContent = 'Siffrorna i jämförelsen kommer från varje reforms avsändarräkning.';
+}
+
+function ritaStart() {
+  const T = OV.utmaningstyper;
+  // Färgintensitet = andel (x/y). Mörkaste nyansen ger fortfarande god kontrast mot den mörka texten.
+  const bg = (x, y) => y && x ? `rgba(29,78,216,${(0.06 + 0.5 * x / y).toFixed(2)})` : 'transparent';
+  const cellLank = (r, t) => hashFor([['reform', r.id], ['typ', t]]);
+  el('jmftabell').innerHTML = `<caption>Antal avsändare med minst en utmaning av typen, av reformens totala antal avsändare</caption>
+    <thead><tr><th scope="col">Reform</th>${T.map(t => `<th scope="col">${esc(t)}</th>`).join('')}</tr></thead>
+    <tbody>${OV.reformer.map(r => `<tr><th scope="row"><a href="${esc(hashFor([['reform', r.id]]))}" data-reform="${esc(r.id)}">${esc(r.namn)}</a><span class="sou">${esc(r.sou)} · ${r.totalt_avsandare} avsändare</span></th>
+      ${T.map(t => { const x = r.per_utmaningstyp[t]; return `<td style="background:${bg(x, r.totalt_avsandare)}"><a href="${esc(cellLank(r, t))}" data-reform="${esc(r.id)}" data-typ="${esc(t)}" aria-label="${esc(r.namn)}, ${esc(t)}: ${x} av ${r.totalt_avsandare} avsändare">${tal(x, r.totalt_avsandare)}</a></td>`; }).join('')}</tr>`).join('')}</tbody>`;
+  el('jmflista').innerHTML = OV.reformer.map(r => `<li><h3><a href="${esc(hashFor([['reform', r.id]]))}" data-reform="${esc(r.id)}">${esc(r.namn)}</a></h3>
+    <p class="tom">${esc(r.sou)} · ${r.totalt_avsandare} avsändare med utmaningar</p>
+    <ul>${T.map(t => { const x = r.per_utmaningstyp[t]; return `<li><a href="${esc(cellLank(r, t))}" data-reform="${esc(r.id)}" data-typ="${esc(t)}" style="background:${bg(x, r.totalt_avsandare)}"><span>${esc(t)}</span><strong>${tal(x, r.totalt_avsandare)}</strong></a></li>`; }).join('')}</ul></li>`).join('');
+  el('startmetod').innerHTML = `<ul>
+    <li>En avsändare räknas en gång per utmaningstyp, efter utmaningens primära typ. En avsändare kan ha utmaningar av flera typer, så raderna summerar inte till totalen.</li>
+    <li>Reformerna har olika många avsändare. Jämför därför andelen (talet ”x av y”) snarare än antalet.</li>
+    <li>Utmaningstyp är maskinellt satt och inte kvalitetssäkrad. Varje reforms metodruta redovisar underlag, saknade remissvar, samstämmighet och begränsningar.</li>
+    <li><strong>Ingen bedömning.</strong> Sidan bedömer inte om utmaningarna är lösta eller om propositionerna har tagit hänsyn till dem.</li></ul>`;
+}
+
+// ---------- reformvy: förberedelser när en ny reformfil har lästs ----------
+function forbered() {
   TYP = D.utmaningstyper.map(t => t.namn);
   SAK = D.sakomraden.map(s => ({ id: s.kapitel, rubrik: s.rubrik, kalla: s.kalla }));
+  FORSLAG = {}; PROP = {}; AVS = {}; FG = {};
   D.utredningsforslag.forEach(f => FORSLAG[f.id] = f);
   D.propositionsavsnitt.forEach(p => PROP[p.ref] = p);
   D.avsandare.forEach(a => AVS[a.namn] = a);
-  el('laddar').remove();
-  sidhuvud(); filter(); metod();
-  lasHash();
-  window.addEventListener('hashchange', () => { lasHash(); rita(); });
-  rita();
+  D.fokusgrupper.forEach(g => FG[g.id] = g);
+  // Förslag som propositionen inte tar upp: Reformkartans (redaktionella) koppling har matchning "ingen".
+  INGEN = new Set(D.utredningsforslag.filter(f => f.propositionsavsnitt && f.propositionsavsnitt.matchning === 'ingen').map(f => f.id));
+  SOU = D.meta.kedja.utredningsbetankande.nr;
+}
+function byggReform() {
+  sidhuvud(); organisationer(); filter(); ingenGrupp(); metod();
+  el('matrisingress').textContent = `Rader: kapitelrubriker i ${SOU}. Kolumner: utmaningstyp. Talet är antal avsändare; färgen förstärker bara talet. Välj en cell eller ett sakområde för att se citaten.`;
 }
 
 // ---------- tillstånd i URL-hash ----------
-function lasHash() {
-  const p = new URLSearchParams(location.hash.slice(1));
+function lasHash(p) {
   S.typ = TYP.includes(p.get('typ')) ? p.get('typ') : null;
   const sak = p.get('sak'); S.sak = (sak === 'utan' || SAK.some(s => s.id === sak)) ? sak : null;
-  S.fg = (p.get('fg') || '').split(',').filter(x => FGNAMN[x]);
+  S.fg = (p.get('fg') || '').split(',').filter(x => FG[x]);
   S.sf = p.get('sf') || '';
   S.tolk = p.get('tolk') !== '0';
+  S.ingen = p.get('forslag') === 'ingen';
   synkaFilter();
 }
 function skrivHash() {
   // Kodas med encodeURIComponent (mellanslag som %20, inte +) så att länkade vyer blir läsbara.
-  const p = [];
-  if (S.typ) p.push(['typ', S.typ]); if (S.sak) p.push(['sak', S.sak]);
-  if (S.fg.length) p.push(['fg', S.fg.join(',')]); if (S.sf) p.push(['sf', S.sf]); if (!S.tolk) p.push(['tolk', '0']);
-  const h = p.map(([k, v]) => k + '=' + encodeURIComponent(v)).join('&');
-  history.replaceState(null, '', h ? '#' + h : location.pathname + location.search);
-  rita();
+  const h = hashFor([['reform', S.reform], ['typ', S.typ], ['sak', S.sak], ['forslag', S.ingen ? 'ingen' : null],
+    ['fg', S.fg.join(',')], ['sf', S.sf], ['tolk', S.tolk ? null : '0']]);
+  history.replaceState(null, '', h);
+  rita(); klar();
 }
 
 // ---------- urval ----------
 const aktivKoppling = u => (u.koppling.niva === 'tolkad' && !S.tolk) ? null : u.koppling.niva;
+const forslagsniva = n => n === 'förslag' || n === 'avsnitt' || n === 'tolkad';
 const sakFor = u => aktivKoppling(u) && u.sakomrade ? u.sakomrade.map(s => s.kapitel) : [];
+const tillIngen = u => forslagsniva(aktivKoppling(u)) && u.koppling.forslag.some(f => INGEN.has(f));
 function filtrerade() {
   return D.utmaningar.filter(u => (!S.fg.length || S.fg.includes(u.fokusgrupp)) && (!S.sf || u.skolform.includes(S.sf)));
 }
-const harJamforelse = u => { const n = aktivKoppling(u); return (n === 'förslag' || n === 'avsnitt' || n === 'tolkad') && u.namngivning_i_propositionen !== null; };
+const harJamforelse = u => forslagsniva(aktivKoppling(u)) && u.namngivning_i_propositionen !== null;
 const unika = arr => new Set(arr.map(u => u.avsandare)).size;
 
 // ---------- sidhuvud ----------
 function sidhuvud() {
   const m = D.meta, k = m.kedja;
+  document.title = 'Utmaningskartan (pilot) — ' + m.reform.namn;
   el('reformnamn').textContent = m.reform.namn;
   const led = [
     [k.utredningsbetankande.nr, k.utredningsbetankande.kalla.url],
-    ...k.proposition.map(p => [p.nr, p.kalla.url]),
+    ...[].concat(k.proposition).map(p => [p.nr, p.kalla.url]),
     ['Bet. ' + k.utskottsbetankande.bet, k.utskottsbetankande.kalla.url],
-    ['Rskr. ' + k.rskr.nr + ' (' + k.rskr.beslutsdatum + ')', k.rskr.kalla.url]];
+    ['Rskr. ' + k.rskr.nr + (k.rskr.beslutsdatum ? ' (' + k.rskr.beslutsdatum + ')' : ''), k.rskr.kalla.url]];
   el('kedja').innerHTML = led.map(([t, u]) => `<li><a href="${esc(u)}">${esc(t)}</a></li>`).join('');
-  const op = m.korpus.opublicerade_remissvar_som_saknas;
-  const enskilda = op.per_grupp.enskilda_huvudman || 0;
   el('korpus').textContent = `Underlag: ${m.korpus.publicerade_remissvar} publicerade remissvar från huvudmän och deras organisationer på remissen ${k.remiss.diarienummer}, `
-    + `med utmaningar från ${D.avsandare.length} avsändare. ${op.antal} opublicerade remissvar saknas, varav ${enskilda} från enskilda huvudmän `
-    + `(spontana yttranden som inte publiceras på regeringen.se).`;
+    + `med utmaningar från ${D.avsandare.length} avsändare. ` + opubliceradeText(m.korpus.opublicerade_remissvar_som_saknas);
   el('sidfot').innerHTML = `Data hämtad ${esc(m.hamtningsdatum)}. Remiss: <a href="${esc(k.remiss.url)}">${esc(k.remiss.diarienummer)}</a>.`;
+}
+function opubliceradeText(op) {
+  if (!op || !op.antal) return 'Inga opublicerade remissvar saknas i underlaget.';
+  const delar = Object.entries(op.per_grupp || {}).map(([g, n]) => `${n} från ${fgLop(g)}`);
+  return `${op.antal} opublicerade remissvar saknas (spontana yttranden som inte publiceras på regeringen.se)${delar.length ? ', varav ' + lista(delar) : ''}.`;
+}
+
+// ---------- organisationer (B5) ----------
+function organisationer() {
+  const org = D.meta.organisationer || [];
+  el('org').innerHTML = org.length ? org.map(o => `<li data-org="${esc(o.id)}"><strong>${esc(o.namn)}</strong>
+    <span class="etikett">${esc(o.status)}</span>
+    ${o.kalla ? `<a href="${esc(o.kalla.url)}">${esc(o.kalla.text)}</a>` : ''}
+    ${o.status === 'avstått' && o.avstaende ? `<div class="avst"><blockquote>”${esc(o.avstaende.citat)}”</blockquote>${o.avstaende.kalla ? `<a href="${esc(o.avstaende.kalla.url)}">${esc(o.avstaende.kalla.text)}</a>` : ''}</div>` : ''}</li>`).join('')
+    : '<li class="tom">Inga organisationer angivna för reformen.</li>';
 }
 
 // ---------- filter ----------
 function filter() {
   const fgCount = g => D.avsandare.filter(a => a.fokusgrupp === g).length;
-  const skolformer = [...new Set(D.utmaningar.flatMap(u => u.skolform))].sort();
+  const skolformer = [...new Set(D.utmaningar.flatMap(u => u.skolform))].sort((a, b) => a.localeCompare(b, 'sv'));
   el('filter').innerHTML = `
     <fieldset><legend>Fokusgrupp</legend><div class="val">
-      ${D.fokusgrupper.map(g => `<label><input type="checkbox" name="fg" value="${esc(g.id)}" ${fgCount(g.id) ? '' : 'disabled'}> ${esc(g.namn)} (${fgCount(g.id)}${fgCount(g.id) ? '' : ', svar ej publicerade'})</label>`).join('')}
+      ${D.fokusgrupper.map(g => `<label><input type="checkbox" name="fg" value="${esc(g.id)}" ${fgCount(g.id) ? '' : 'disabled'}> ${esc(g.namn)} (${fgCount(g.id)})</label>`).join('')}
     </div></fieldset>
     <div><label class="rubrik" for="sf">Skolform som nämns i citatet</label>
       <select id="sf"><option value="">Alla</option>${skolformer.map(s => `<option value="${esc(s)}">${esc(s)}</option>`).join('')}</select></div>
-    <div><span class="rubrik" style="font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);display:block;margin-bottom:.3rem">Koppling</span>
+    <div><span class="rubrik">Koppling</span>
       <label class="reglage"><input type="checkbox" id="tolk" role="switch"> Visa tolkade kopplingar</label></div>
-    <div><span class="rubrik" style="display:block;height:1.2rem"></span><button type="button" class="aterstall" id="aterstall">Återställ val</button></div>`;
+    <div><span class="rubrik" aria-hidden="true">&nbsp;</span><button type="button" class="aterstall" id="aterstall">Återställ val</button></div>`;
   el('filter').querySelectorAll('input[name=fg]').forEach(i => i.addEventListener('change', () => {
     S.fg = [...el('filter').querySelectorAll('input[name=fg]:checked')].map(x => x.value); skrivHash(); }));
   el('sf').addEventListener('change', e => { S.sf = e.target.value; skrivHash(); });
   el('tolk').addEventListener('change', e => { S.tolk = e.target.checked; skrivHash(); });
-  el('aterstall').addEventListener('click', () => { Object.assign(S, { typ: null, sak: null, fg: [], sf: '', tolk: true }); synkaFilter(); skrivHash(); });
+  el('aterstall').addEventListener('click', () => { Object.assign(S, { typ: null, sak: null, fg: [], sf: '', tolk: true, ingen: false }); synkaFilter(); skrivHash(); });
 }
 function synkaFilter() {
   if (!el('tolk')) return;
   el('filter').querySelectorAll('input[name=fg]').forEach(i => i.checked = S.fg.includes(i.value));
   el('sf').value = S.sf; el('tolk').checked = S.tolk;
+}
+
+// ---------- förslag som propositionen inte tar upp (B4) ----------
+function ingenGrupp() {
+  const ff = D.utredningsforslag.filter(f => INGEN.has(f.id));
+  const uu = D.utmaningar.filter(u => forslagsniva(u.koppling.niva) && u.koppling.forslag.some(f => INGEN.has(f)));
+  const fast = 'Att propositionen inte tar upp ett förslag betyder inte att förslaget har fallit.';
+  if (!ff.length) {
+    el('ingen').innerHTML = `<p class="ingen-tal" data-forslag="0" data-utmaningar="0">Enligt Reformkartans koppling tas alla ${D.utredningsforslag.length} förslag i ${esc(SOU)} upp i något propositionsavsnitt. 0 utmaningar är kopplade till förslag som propositionen inte tar upp.</p><p class="fast">${fast}</p>`;
+    return;
+  }
+  el('ingen').innerHTML = `<p class="ingen-tal" data-forslag="${ff.length}" data-utmaningar="${uu.length}"><strong>${uu.length} utmaningar</strong> från ${unika(uu)} avsändare är kopplade till <strong>${ff.length} av ${D.utredningsforslag.length} förslag</strong> i ${esc(SOU)} som propositionen inte tar upp enligt Reformkartans koppling mellan förslag och propositionsavsnitt.</p>
+    <p class="fast">${fast}</p>
+    <button type="button" class="knapp" id="ingenknapp" aria-pressed="false">Visa de ${uu.length} utmaningarna</button>
+    <details><summary>Visa de ${ff.length} förslagen</summary><ul class="ingen-lista">${ff.map(f => `<li class="forslag" data-forslag="${esc(f.id)}"><div><strong>Utredningsförslag ${esc(f.id)}</strong> (${esc(SOU)} avsnitt ${esc(f.sou_avsnitt)}, <a href="${sidlank(f.kalla.url, f.sou_sida)}">s. ${esc(f.sou_sida)}</a>) <span class="etikett redak">Reformkartans koppling</span></div><p class="f-text">”${esc(f.text)}”</p></li>`).join('')}</ul></details>`;
+  el('ingenknapp').addEventListener('click', () => {
+    if (S.ingen) S.ingen = false; else Object.assign(S, { ingen: true, sak: null });
+    skrivHash(); if (S.ingen) el('detaljsektion').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
 }
 
 // ---------- ritning ----------
@@ -298,6 +483,7 @@ function rita() {
   const med = U.filter(harJamforelse).length;
   el('jamforelse').textContent = `${U.length} utmaningar i urvalet. ${med} av dem hör till ett propositionsavsnitt och kan jämföras mot propositionen; ${U.length - med} saknar sådan jämförelse.`
     + (U.length === D.utmaningar.length ? '' : ` (Av samtliga ${D.utmaningar.length}: ${D.utmaningar.filter(harJamforelse).length} med och ${D.utmaningar.length - D.utmaningar.filter(harJamforelse).length} utan jämförelse.)`);
+  if (el('ingenknapp')) el('ingenknapp').setAttribute('aria-pressed', String(S.ingen));
   staplar(U); matris(U); detalj(U);
 }
 
@@ -322,29 +508,31 @@ function matris(U) {
   const typer = S.typ ? [S.typ] : TYP;
   const max = Math.max(1, ...rader.flatMap(r => typer.map(t => cellAntal(U, r.id, t))));
   const bg = n => n ? `rgba(29,78,216,${(0.08 + 0.5 * n / max).toFixed(2)})` : 'transparent';
+  const vald = (r, t) => !S.ingen && S.sak === r && S.typ === t;
   el('matris').innerHTML = `<caption>Antal avsändare per sakområde och utmaningstyp${S.typ ? ' (filtrerat på ' + esc(S.typ) + ')' : ''}</caption>
-    <thead><tr><th scope="col">Sakområde (kapitel i SOU 2025:18)</th>${typer.map(t => `<th scope="col">${esc(t)}</th>`).join('')}<th scope="col">Alla typer</th></tr></thead>
-    <tbody>${rader.map(r => `<tr><th scope="row"><button type="button" data-sak="${esc(r.id)}" aria-pressed="${S.sak === r.id && !S.typ}">${r.id === 'utan' ? '' : esc(r.id) + ' '}${esc(r.rubrik)}</button></th>
-      ${typer.map(t => { const n = cellAntal(U, r.id, t); return `<td style="background:${bg(n)}"><button type="button" data-sak="${esc(r.id)}" data-typ="${esc(t)}" data-tom="${n ? 0 : 1}" aria-pressed="${S.sak === r.id && S.typ === t}" aria-label="${esc(r.rubrik)}, ${esc(t)}: ${n} avsändare">${n}</button></td>`; }).join('')}
-      <td><button type="button" data-sak="${esc(r.id)}" aria-pressed="${S.sak === r.id && !S.typ}" aria-label="${esc(r.rubrik)}, alla typer: ${cellAntal(U, r.id, null)} avsändare">${cellAntal(U, r.id, null)}</button></td></tr>`).join('')}</tbody>`;
-  el('matrislista').innerHTML = rader.map(r => `<li><button type="button" class="sak" data-sak="${esc(r.id)}" aria-pressed="${S.sak === r.id && !S.typ}">${esc(r.rubrik)} (${cellAntal(U, r.id, null)} avsändare)</button>
-    <ul class="mini">${typer.map(t => { const n = cellAntal(U, r.id, t); return n ? `<li><button type="button" data-sak="${esc(r.id)}" data-typ="${esc(t)}" aria-pressed="${S.sak === r.id && S.typ === t}" aria-label="${esc(t)}: ${n} avsändare"><span>${esc(t)}</span><span class="s" aria-hidden="true"><i style="width:${Math.round(100 * n / max)}%"></i></span><span>${n}</span></button></li>` : ''; }).join('')}</ul></li>`).join('');
+    <thead><tr><th scope="col">Sakområde (kapitel i ${esc(SOU)})</th>${typer.map(t => `<th scope="col">${esc(t)}</th>`).join('')}<th scope="col">Alla typer</th></tr></thead>
+    <tbody>${rader.map(r => `<tr><th scope="row"><button type="button" data-sak="${esc(r.id)}" aria-pressed="${vald(r.id, null)}">${r.id === 'utan' ? '' : esc(r.id) + ' '}${esc(r.rubrik)}</button></th>
+      ${typer.map(t => { const n = cellAntal(U, r.id, t); return `<td style="background:${bg(n)}"><button type="button" data-sak="${esc(r.id)}" data-typ="${esc(t)}" data-tom="${n ? 0 : 1}" aria-pressed="${vald(r.id, t)}" aria-label="${esc(r.rubrik)}, ${esc(t)}: ${n} avsändare">${n}</button></td>`; }).join('')}
+      <td><button type="button" data-sak="${esc(r.id)}" aria-pressed="${vald(r.id, null)}" aria-label="${esc(r.rubrik)}, alla typer: ${cellAntal(U, r.id, null)} avsändare">${cellAntal(U, r.id, null)}</button></td></tr>`).join('')}</tbody>`;
+  el('matrislista').innerHTML = rader.map(r => `<li><button type="button" class="sak" data-sak="${esc(r.id)}" aria-pressed="${vald(r.id, null)}">${esc(r.rubrik)} (${cellAntal(U, r.id, null)} avsändare)</button>
+    <ul class="mini">${typer.map(t => { const n = cellAntal(U, r.id, t); return n ? `<li><button type="button" data-sak="${esc(r.id)}" data-typ="${esc(t)}" aria-pressed="${vald(r.id, t)}" aria-label="${esc(t)}: ${n} avsändare"><span>${esc(t)}</span><span class="s" aria-hidden="true"><i style="width:${Math.round(100 * n / max)}%"></i></span><span>${n}</span></button></li>` : ''; }).join('')}</ul></li>`).join('');
   document.querySelectorAll('#matris button, #matrislista button').forEach(b => b.addEventListener('click', () => {
-    S.sak = b.dataset.sak; S.typ = b.dataset.typ || null; skrivHash();
+    S.sak = b.dataset.sak; S.typ = b.dataset.typ || null; S.ingen = false; skrivHash();
     el('detaljsektion').scrollIntoView({ behavior: 'smooth', block: 'start' }); }));
 }
 
 // ---------- detaljvy ----------
 function urvalsText() {
   const sak = S.sak === 'utan' ? 'Utan koppling till sakområde' : S.sak ? (SAK.find(s => s.id === S.sak) || {}).rubrik : null;
-  return [sak ? 'Sakområde: ' + sak : null, S.typ ? 'Utmaningstyp: ' + S.typ : null].filter(Boolean).join(' · ');
+  return [S.ingen ? 'Förslag som propositionen inte tar upp' : null, sak ? 'Sakområde: ' + sak : null, S.typ ? 'Utmaningstyp: ' + S.typ : null].filter(Boolean).join(' · ');
 }
 function detalj(U) {
-  if (!S.sak && !S.typ) {
+  if (!S.sak && !S.typ && !S.ingen) {
     el('detaljrubrik').textContent = 'Välj en utmaningstyp, ett sakområde eller en cell i matrisen.';
     el('skrev').innerHTML = '<p class="tom">Inget valt.</p>'; el('sager').innerHTML = '<p class="tom">Inget valt.</p>'; return;
   }
-  const V = U.filter(u => (!S.typ || u.utmaningstyp.primar === S.typ) && (!S.sak || (S.sak === 'utan' ? sakFor(u).length === 0 : sakFor(u).includes(S.sak))));
+  const V = U.filter(u => (!S.typ || u.utmaningstyp.primar === S.typ) && (!S.ingen || tillIngen(u))
+    && (!S.sak || (S.sak === 'utan' ? sakFor(u).length === 0 : sakFor(u).includes(S.sak))));
   el('detaljrubrik').textContent = `${urvalsText()} — ${V.length} utmaningar från ${unika(V)} avsändare.`;
   skrev(V); sager(V);
 }
@@ -355,8 +543,8 @@ function skrev(V) {
   V.forEach(u => (per[u.avsandare] = per[u.avsandare] || []).push(u));
   const namn = Object.keys(per).sort((a, b) => per[b].length - per[a].length || a.localeCompare(b, 'sv'));
   el('skrev').innerHTML = namn.map(n => {
-    const a = AVS[n];
-    return `<div class="avsandare"><h4>${esc(n)}<span class="grupp">${esc(FGNAMN[a.fokusgrupp])} · ${per[n].length} citat · <a href="${esc(a.remissvar.url)}">remissvaret</a></span></h4>
+    const a = AVS[n] || { fokusgrupp: per[n][0].fokusgrupp, remissvar: null };
+    return `<div class="avsandare"><h4>${esc(n)}<span class="grupp">${esc(fgEtikett(a.fokusgrupp))} · ${per[n].length} citat${a.remissvar ? ` · <a href="${esc(a.remissvar.url)}">remissvaret</a>` : ''}</span></h4>
       ${per[n].map(citat).join('')}</div>`;
   }).join('');
 }
@@ -376,10 +564,10 @@ function citat(u) {
 function sager(V) {
   // förslag som urvalets utmaningar är kopplade till (förslag, avsnitt, tolkad om reglaget är på)
   const fids = new Set(), kapitelUtan = [];
-  V.forEach(u => { const n = aktivKoppling(u); if (n === 'förslag' || n === 'avsnitt' || n === 'tolkad') u.koppling.forslag.forEach(f => fids.add(f)); else if (n === 'kapitel') kapitelUtan.push(u); });
+  V.forEach(u => { const n = aktivKoppling(u); if (forslagsniva(n)) u.koppling.forslag.forEach(f => fids.add(f)); else if (n === 'kapitel') kapitelUtan.push(u); });
   const perProp = {}, utanProp = [];
-  [...fids].sort((a, b) => +a.slice(1) - +b.slice(1)).forEach(f => {
-    const refs = FORSLAG[f].propositionsavsnitt.refs;
+  [...fids].filter(f => FORSLAG[f]).sort((a, b) => +a.slice(1) - +b.slice(1)).forEach(f => {
+    const refs = FORSLAG[f].propositionsavsnitt.refs || [];
     if (refs.length) refs.forEach(r => (perProp[r] = perProp[r] || []).push(f)); else utanProp.push(f);
   });
   const refs = Object.keys(perProp).sort((a, b) => D.propositionsavsnitt.findIndex(p => p.ref === a) - D.propositionsavsnitt.findIndex(p => p.ref === b));
@@ -389,28 +577,30 @@ function sager(V) {
     const p = PROP[r];
     if (!p) return `<div class="prop"><h4>${esc(r)}</h4>${perProp[r].map(forslag).join('')}</div>`;
     return `<div class="prop"><h4>${esc(p.proposition)} avsnitt ${esc(p.avsnitt)} ${esc(p.rubrik)}</h4>
-      <div class="rad" style="margin-top:.25rem"><span class="etikett oe">Utredningens förslag ${esc(p.overensstammelse || '–')} med regeringens</span></div>
+      <div class="rad" style="margin-top:.25rem">${p.overensstammelse ? `<span class="etikett oe">Propositionen om utredningens förslag: ”${esc(p.overensstammelse)}”</span>` : '<span class="etikett oe">Överensstämmelsefras saknas i datafilen</span>'}</div>
       <details><summary>Propositionens text om utredningens förslag (s. ${esc(p.sida.join(', '))})</summary><div class="innehall"><p>”${esc(p.avvikelsetext)}”</p>
         <p><a href="${sidlank(p.url, p.sida[0])}">${esc(p.kalla.text)}</a></p></div></details>
       ${perProp[r].map(forslag).join('')}</div>`;
   }).join('');
-  if (utanProp.length) h += `<div class="prop"><h4>Utredningsförslag som inte motsvaras av något propositionsavsnitt</h4>${utanProp.map(forslag).join('')}</div>`;
+  if (utanProp.length) h += `<div class="prop"><h4>Utredningsförslag som propositionen inte tar upp</h4><p class="tom">Att propositionen inte tar upp ett förslag betyder inte att förslaget har fallit.</p>${utanProp.map(forslag).join('')}</div>`;
   if (kapitelUtan.length) h += `<p class="tom" style="margin-top:.6rem">${kapitelUtan.length} utmaningar i urvalet hänvisar bara till ett kapitel och kopplas inte till enskilda förslag.</p>`;
   el('sager').innerHTML = h;
 }
 function forslag(fid) {
-  const f = FORSLAG[fid], s = f.sfs;
+  const f = FORSLAG[fid], s = f.sfs || {};
+  const kalla = s.kalla ? ` <a href="${esc(s.kalla.url)}">källa</a>` : '';
   let sfs = '';
   if (s.status === 'i beslutad lag') {
-    sfs = `<div class="sfs"><span class="etikett">i beslutad lag</span> ${s.paragrafer.map(p => `${esc(p.paragraf)}: ${p.textlikhet_procent == null ? '–' : esc(String(p.textlikhet_procent).replace('.', ','))} % textlikhet med utredningens lydelse`).join('; ')}
-      <details><summary>Lagtext: utredningens förslag och beslutad lydelse</summary><div class="innehall">${s.paragrafer.map(p => lagpar(p.paragraf)).join('')}
-      <p><a href="${esc(s.kalla.url)}">${esc(s.kalla.text)}</a></p></div></details></div>`;
+    const par = s.paragrafer || [];
+    sfs = `<div class="sfs"><span class="etikett">i beslutad lag</span> ${par.map(p => `${esc(p.paragraf)}: ${p.textlikhet_procent == null ? '–' : esc(String(p.textlikhet_procent).replace('.', ','))} % textlikhet med utredningens lydelse`).join('; ')}
+      <details><summary>Lagtext: utredningens förslag och beslutad lydelse</summary><div class="innehall">${par.map(p => lagpar(p.paragraf)).join('')}
+      ${s.kalla ? `<p><a href="${esc(s.kalla.url)}">${esc(s.kalla.text)}</a></p>` : ''}</div></details></div>`;
   } else if (s.status) {
-    sfs = `<div class="sfs"><span class="etikett">${esc(s.status)}</span> <a href="${esc(s.kalla.url)}">källa</a></div>`;
+    sfs = `<div class="sfs"><span class="etikett">${esc(s.status)}</span>${kalla}</div>`;
   } else {
     sfs = `<div class="sfs"><span class="etikett">SFS-status saknas</span></div>`;
   }
-  return `<div class="forslag"><div><strong>Utredningsförslag ${esc(fid)}</strong> (SOU 2025:18 avsnitt ${esc(f.sou_avsnitt)}, <a href="${sidlank(f.kalla.url, f.sou_sida)}">s. ${esc(f.sou_sida)}</a>)
+  return `<div class="forslag"><div><strong>Utredningsförslag ${esc(fid)}</strong> (${esc(SOU)} avsnitt ${esc(f.sou_avsnitt)}, <a href="${sidlank(f.kalla.url, f.sou_sida)}">s. ${esc(f.sou_sida)}</a>)
     <span class="etikett redak">Reformkartans koppling</span></div>
     <p class="f-text">”${esc(f.text)}”</p>${sfs}</div>`;
 }
@@ -419,21 +609,46 @@ function lagpar(key) {
   const b = p.beslutad;
   const ops = (p.diff_sou_mot_beslutad || []).map(o => `<li class="andring">${o.fore ? `<del>${esc(o.fore)}</del>` : ''} ${o.efter ? `<ins>${esc(o.efter)}</ins>` : ''} <span class="sr-only">(${esc(o.op)})</span></li>`).join('');
   return `<div class="lagpar"><h5>${esc(key)}${p.manuell_granskning ? ' <span class="etikett">paragrafmatchning flaggad för manuell granskning</span>' : ''}</h5>
-    <h5>Utredningens lydelse</h5><p>”${esc(p.sou.text)}” <a href="${esc(p.sou.kalla.url)}">${esc(p.sou.kalla.text)}</a></p>
-    ${b ? `<h5>Beslutad lydelse (SFS ${esc(b.sfs)}${b.ikraft ? ', träder i kraft ' + esc(b.ikraft) : ''})</h5><p>”${esc(b.text)}” <a href="${esc(b.kalla.url)}">källa</a></p>` : ''}
+    ${p.sou ? `<h5>Utredningens lydelse</h5><p>”${esc(p.sou.text)}” <a href="${esc(p.sou.kalla.url)}">${esc(p.sou.kalla.text)}</a></p>` : ''}
+    ${b ? `<h5>Beslutad lydelse (SFS ${esc(b.sfs)}${b.ikraft ? ', träder i kraft ' + esc(b.ikraft) : ''})</h5><p>”${esc(b.text)}” <a href="${esc(b.kalla.url)}">källa</a></p>` : '<h5>Beslutad lydelse saknas i jämförelsen</h5>'}
     ${ops ? `<h5>Skillnader (struket <del>så här</del>, tillagt <ins>så här</ins>)</h5><ul style="list-style:none">${ops}</ul>` : ''}</div>`;
 }
 
-// ---------- metodruta ----------
+// ---------- metodruta (B6) ----------
+// En fast, neutral mening per begränsningskod. Parametrarna kommer ur datafilen; ingen fritext ur datan visas.
+const BEGR = {
+  omkodad: (b, m) => { const k = m.kodning || {}, t = k.samstammighet_typning, e = k.samstammighet_typning_efter_regelprovning;
+    return 'Utmaningarna har kodats om med den gemensamma kodinstruktionen.' + (t ? ` Samstämmighet i typning: ${tal(t.overens, t.antal)} före regelprövningen` + (e ? ` och ${tal(e.overens, e.antal)} efter.` : '.') : ''); },
+  delad_proposition: b => { const p = b.propositioner || [];
+    return p.length > 1 ? `Utredningen behandlas i flera propositioner som även tar upp annat: ${lista(p)}. Bara delar som gäller utredningen ingår.`
+      : `Propositionen (${p.join('')}) behandlar även annat än utredningen. Bara delar som gäller utredningen ingår.`; },
+  spontana_ej_publicerade: () => 'Spontana yttranden publiceras inte på regeringen.se och ingår därför inte i underlaget.',
+  grova_forslagsrutor: b => `Utredningen har ${b.antal} förslagsrutor, flera med många punkter. Kopplingen gäller hela rutan, inte enskilda punkter.`,
+  forordning_ej_jamford: () => 'Förslag på förordningsnivå har inte jämförts maskinellt med beslutad förordningstext.',
+  skolfs_ej_jamford: () => 'Läroplaner och kursplaner kungörs i SKOLFS och finns inte i riksdagens öppna data. Förslag som gäller dem har inte jämförts.',
+  lag_utan_andring: b => `Utredningens förslag till ändring i ${b.lag} genomfördes inte; lagen har ingen ändring från reformens SFS-nummer.`,
+  beslutad_lydelse_saknas: b => `Beslutad lydelse för ${b.paragraf} från reformens SFS-nummer finns inte i den konsoliderade lagtexten.`,
+  samordnad_lag: b => `SFS ${b.sfs} innehåller även ändringar från andra propositioner (samordnad lag, bet. ${b.bet}).`,
+  ingen_paragraftext: () => 'Betänkandets författningskommentar återger inte paragraftexterna, så ingen jämförelse med beslutad lydelse är gjord.',
+  egen_fokusgrupp: b => `För den här reformen ingår ${b.namn} som fokusgrupp i stället för ${b.i_stallet_for}.`,
+  aldre_remiss: b => `Remissen är från ${b.remissar} och propositionen från ${b.proposition}. Benämningar kan skilja sig mellan dokumenten, till exempel grundsärskolan och anpassade grundskolan.`,
+};
 function metod() {
-  const m = D.meta, op = m.korpus.opublicerade_remissvar_som_saknas;
+  const m = D.meta, kp = m.korpus, op = kp.opublicerade_remissvar_som_saknas || { antal: 0, per_grupp: {}, avsandare: [] }, k = m.kodning || {};
+  const sam = x => x ? tal(x.overens, x.antal) : 'inte mätt';
+  const begr = (m.begransningar || []).map(b => BEGR[b.kod] ? `<li data-kod="${esc(b.kod)}">${esc(BEGR[b.kod](b, m))}</li>` : (console.error('Okänd begränsningskod: ' + b.kod), '')).join('');
+  const avst = m.publicerade_avstaenden || [];
   el('metod').innerHTML = `<ul>
-    <li><strong>Tolkning.</strong> Utmaningstyp är maskinellt satt genom läsning av varje citat mot åtta definitioner (se nedan). Kopplingar märkta ”Tolkad koppling” är gjorda genom tolkning när remissvaret saknar egen hänvisning till betänkandet. Kopplingen mellan utredningsförslag och propositionsavsnitt (”Reformkartans koppling”) är redaktionell. Inget av detta är kvalitetssäkrat.</li>
-    <li><strong>Saknade remissvar.</strong> ${op.antal} remissvar saknas eftersom de är spontana yttranden som inte publiceras på regeringen.se: ${op.avsandare.map(a => esc(a.avsandare)).join(', ')}. Enskilda huvudmän finns därför inte med bland avsändarna.</li>
+    <li><strong>Underlag.</strong> ${kp.publicerade_remissvar} publicerade remissvar, ${kp.avsandare_med_utmaningar} avsändare med utmaningar, ${kp.utmaningar} utmaningar.</li>
+    <li><strong>Opublicerade yttranden.</strong> ${op.antal ? `${op.antal} saknas eftersom spontana yttranden inte publiceras på regeringen.se: ${esc(lista(Object.entries(op.per_grupp || {}).map(([g, n]) => `${n} från ${fgLop(g)}`)))} (${esc((op.avsandare || []).map(a => a.avsandare).join(', '))}).` : 'Inga saknas.'}</li>
+    ${avst.length ? `<li><strong>Publicerade avståenden.</strong> Följande dokument på remissidan är avståenden och ingår inte i underlaget: ${avst.map(a => `${esc(a.avsandare)}: ”${esc(a.citat)}” <a href="${esc(a.kalla.url)}">${esc(a.kalla.text)}</a>`).join('; ')}</li>` : ''}
+    <li><strong>Samstämmighet.</strong> En kontrollkodning av ett urval gav samstämmighet för identifiering av utmaningar ${sam(k.samstammighet_identifiering)} och för typning ${sam(k.samstammighet_typning)}${k.samstammighet_typning_efter_regelprovning ? `, efter regelprövning ${sam(k.samstammighet_typning_efter_regelprovning)}` : ''}.</li>
+    <li><strong>Hämtning.</strong> Data hämtad ${esc(m.hamtningsdatum)}.${m.remissida_kontroll ? ` Remissidan kontrollerad ${esc(m.remissida_kontroll.datum)}.` : ''}</li>
+    <li><strong>Tolkning.</strong> Utmaningstyp är maskinellt satt genom läsning av varje citat mot ${D.utmaningstyper.length} definitioner (se nedan). Kopplingar märkta ”Tolkad koppling” är gjorda genom tolkning när remissvaret saknar egen hänvisning till betänkandet. Kopplingen mellan utredningsförslag och propositionsavsnitt (”Reformkartans koppling”) är redaktionell. Inget av detta är kvalitetssäkrat.</li>
     <li><strong>Namngivning.</strong> ”Avsändaren nämns i propositionens avsnitt” betyder bara att avsändarens namn förekommer i avsnittets text. Det innebär inte att synpunkten har bemötts.</li>
     <li><strong>Ingen bedömning.</strong> Sidan bedömer inte om utmaningarna är lösta eller om propositionen har tagit hänsyn till dem. Textlikhet mellan utredningens och den beslutade lydelsen säger inget om huruvida skillnaden är saklig.</li>
-    <li><strong>Citat och källor.</strong> Citat är ordagranna ur publicerade remissvar och propositioner, med sida och länk. Citat märkta ”OCR-citat” kommer från ett inskannat remissvar.</li>
-    <li><strong>Hämtning.</strong> Data hämtad ${esc(m.hamtningsdatum)}. Beslutad lydelse avser skollagen i konsoliderad form från riksdagens öppna data.</li></ul>
+    <li><strong>Citat och källor.</strong> Citat är ordagranna ur publicerade remissvar och propositioner, med sida och länk. Citat märkta ”OCR-citat” kommer från ett inskannat remissvar.</li></ul>
+    <h3>Begränsningar för den här reformen</h3>${begr ? `<ul id="begransningar">${begr}</ul>` : '<p class="tom">Inga särskilda begränsningar angivna.</p>'}
     <h3>Utmaningstyper</h3><ul>${D.utmaningstyper.map(t => `<li><strong>${esc(t.namn)}:</strong> ${esc(t.definition)}</li>`).join('')}</ul>`;
 }
 </script>

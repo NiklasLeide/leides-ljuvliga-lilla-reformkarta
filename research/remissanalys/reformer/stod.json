@@ -227,8 +227,18 @@
   ]
  },
  "begransningar": [
-  "Prop. 2025/26:195 behandlar även delar av SOU 2025:19 och SOU 2024:16; de delarna ingår inte.",
-  "Förordningsförslag (skolförordningen) jämförs inte maskinellt: ingen textmarkör finns; status null med förklaring.",
-  "Spontana yttranden publiceras inte på regeringen.se; enskilda huvudmän som yttrat sig spontant saknas därför i korpusen."
- ]
+  {
+   "kod": "delad_proposition",
+   "propositioner": [
+    "Prop. 2025/26:195"
+   ]
+  },
+  {
+   "kod": "forordning_ej_jamford"
+  },
+  {
+   "kod": "spontana_ej_publicerade"
+  }
+ ],
+ "begransningar_anm": "Koder; sidan visar en fast text per kod (pilot/utmaningar/index.html), ingen fritext ur datan."
 }

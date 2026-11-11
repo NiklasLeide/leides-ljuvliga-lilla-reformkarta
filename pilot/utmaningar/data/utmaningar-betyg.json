@@ -197,9 +197,19 @@
    }
   },
   "begransningar": [
-   "Omkodad med den gemensamma kodinstruktionen (Sprint 17). Samstämmighet för typning var 31/40 före regelprövningen och 71/80 efter; regeln för betyg är minst 75 % efter regelprövningen.",
-   "Delad proposition: SOU 2025:18 behandlas i prop. 2025/26:197 och i prop. 2025/26:194 avsnitt 6.7–6.8.",
-   "Spontana yttranden publiceras inte på regeringen.se; enskilda huvudmän som yttrat sig spontant saknas därför i korpusen."
+   {
+    "kod": "omkodad"
+   },
+   {
+    "kod": "delad_proposition",
+    "propositioner": [
+     "Prop. 2025/26:197",
+     "Prop. 2025/26:194"
+    ]
+   },
+   {
+    "kod": "spontana_ej_publicerade"
+   }
   ],
   "tolkning": "Fält med tolkning: true är tolkning (utmaningstyp; koppling med nivå \"tolkad\"). Kopplingen mellan utredningsförslag och propositionsavsnitt är redaktionell: true. Övrigt är mekaniskt härlett ur källtext.",
   "ingen_bedomning": "Inget fält anger om en utmaning har lösts eller om propositionen har bemött den i sak.",

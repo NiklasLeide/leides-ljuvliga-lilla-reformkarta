@@ -258,8 +258,19 @@
   ]
  },
  "begransningar": [
-  "Två lagar (skollagen och diskrimineringslagen); utredningens förslag om diskrimineringslagen 2 kap. 7 § genomfördes inte.",
-  "Förslag som genomförs i förordning (2026:1487) eller i läroplaner (SKOLFS, inte i riksdagens öppna data) jämförs inte maskinellt; status null med förklaring.",
-  "Spontana yttranden publiceras inte på regeringen.se; enskilda huvudmän som yttrat sig spontant saknas därför i korpusen."
- ]
+  {
+   "kod": "lag_utan_andring",
+   "lag": "Diskrimineringslag (2008:567)"
+  },
+  {
+   "kod": "forordning_ej_jamford"
+  },
+  {
+   "kod": "skolfs_ej_jamford"
+  },
+  {
+   "kod": "spontana_ej_publicerade"
+  }
+ ],
+ "begransningar_anm": "Koder; sidan visar en fast text per kod (pilot/utmaningar/index.html), ingen fritext ur datan."
 }

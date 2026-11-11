@@ -238,9 +238,23 @@
   ]
  },
  "begransningar": [
-  "Bland huvudmannaorganisationerna lämnade bara SKR ett publicerat remissvar; Almega Utbildning och Idéburna skolors riksförbund avstod.",
-  "Prop. 2025/26:194 behandlar betänkandets avsnitt 8 (grundläggande svenska som andraspråk); förslag om modersmålsundervisning tas inte upp.",
-  "SFS 2026:1243 innehåller även ändringar från andra propositioner (samordnad lag, bet. 2025/26:UbU26).",
-  "Spontana yttranden publiceras inte på regeringen.se; enskilda huvudmän som yttrat sig spontant saknas därför i korpusen."
- ]
+  {
+   "kod": "delad_proposition",
+   "propositioner": [
+    "Prop. 2025/26:194"
+   ]
+  },
+  {
+   "kod": "samordnad_lag",
+   "sfs": "2026:1243",
+   "bet": "2025/26:UbU26"
+  },
+  {
+   "kod": "skolfs_ej_jamford"
+  },
+  {
+   "kod": "spontana_ej_publicerade"
+  }
+ ],
+ "begransningar_anm": "Koder; sidan visar en fast text per kod (pilot/utmaningar/index.html), ingen fritext ur datan."
 }

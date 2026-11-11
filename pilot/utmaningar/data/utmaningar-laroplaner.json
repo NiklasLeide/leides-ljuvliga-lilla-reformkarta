@@ -175,10 +175,24 @@
    "instruktion": "research/remissanalys/kedja/KODINSTRUKTION.md"
   },
   "begransningar": [
-   "Delad proposition: Läroplansutredningens delar av prop. 2025/26:194 samt prop. 2025/26:195 och 196 för SOU-avsnitt 4.2.",
-   "Läroplaner och kursplaner beslutas i SKOLFS och finns inte i riksdagens öppna data; de jämförs inte.",
-   "1 kap. 3 § skollagen saknar beslutad lydelse från reformens SFS-nummer i den konsoliderade texten (se konfigurationens andringar_anm).",
-   "Spontana yttranden publiceras inte på regeringen.se; enskilda huvudmän som yttrat sig spontant saknas därför i korpusen."
+   {
+    "kod": "delad_proposition",
+    "propositioner": [
+     "Prop. 2025/26:194",
+     "Prop. 2025/26:195",
+     "Prop. 2025/26:196"
+    ]
+   },
+   {
+    "kod": "skolfs_ej_jamford"
+   },
+   {
+    "kod": "beslutad_lydelse_saknas",
+    "paragraf": "1 kap. 3 § skollagen"
+   },
+   {
+    "kod": "spontana_ej_publicerade"
+   }
   ],
   "tolkning": "Fält med tolkning: true är tolkning (utmaningstyp; koppling med nivå \"tolkad\"). Kopplingen mellan utredningsförslag och propositionsavsnitt är redaktionell: true. Övrigt är mekaniskt härlett ur källtext.",
   "ingen_bedomning": "Inget fält anger om en utmaning har lösts eller om propositionen har bemött den i sak.",
