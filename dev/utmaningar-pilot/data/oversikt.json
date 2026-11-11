@@ -1,0 +1,152 @@
+{
+ "_meta": {
+  "beskrivning": "Översikt för pilotsidans startvy: per reform antal avsändare totalt och per primär utmaningstyp (ur avsandarrakning) samt antal utmaningar. Byggd av research/remissanalys/kedja/oversikt.py.",
+  "källa": [
+   "pilot/utmaningar/data/utmaningar-betyg.json",
+   "pilot/utmaningar/data/utmaningar-studiero.json",
+   "pilot/utmaningar/data/utmaningar-stod.json",
+   "pilot/utmaningar/data/utmaningar-tid.json",
+   "pilot/utmaningar/data/utmaningar-laroplaner.json",
+   "pilot/utmaningar/data/utmaningar-spraklig.json",
+   "pilot/utmaningar/data/utmaningar-tioarig.json"
+  ]
+ },
+ "reformer": [
+  {
+   "id": "betyg",
+   "namn": "Ett likvärdigt betygssystem",
+   "sou": "SOU 2025:18",
+   "fil": "utmaningar-betyg.json",
+   "totalt_avsandare": 28,
+   "utmaningar": 490,
+   "per_utmaningstyp": {
+    "Kostnader och finansiering": 21,
+    "Tidplan och reformtakt": 24,
+    "Personal, kompetens och arbetsbelastning": 24,
+    "System och teknik": 17,
+    "Organisation och planering": 25,
+    "Otydlighet i förslaget": 25,
+    "Likvärdighet och konsekvenser för elever": 24,
+    "Övrigt": 4
+   }
+  },
+  {
+   "id": "studiero",
+   "namn": "Bättre förutsättningar för trygghet och studiero i skolan",
+   "sou": "SOU 2025:8",
+   "fil": "utmaningar-studiero.json",
+   "totalt_avsandare": 22,
+   "utmaningar": 257,
+   "per_utmaningstyp": {
+    "Kostnader och finansiering": 13,
+    "Tidplan och reformtakt": 4,
+    "Personal, kompetens och arbetsbelastning": 15,
+    "System och teknik": 6,
+    "Organisation och planering": 15,
+    "Otydlighet i förslaget": 20,
+    "Likvärdighet och konsekvenser för elever": 15,
+    "Övrigt": 9
+   }
+  },
+  {
+   "id": "stod",
+   "namn": "Förbättrat stöd i skolan",
+   "sou": "SOU 2025:44",
+   "fil": "utmaningar-stod.json",
+   "totalt_avsandare": 21,
+   "utmaningar": 395,
+   "per_utmaningstyp": {
+    "Kostnader och finansiering": 17,
+    "Tidplan och reformtakt": 7,
+    "Personal, kompetens och arbetsbelastning": 19,
+    "System och teknik": 5,
+    "Organisation och planering": 17,
+    "Otydlighet i förslaget": 18,
+    "Likvärdighet och konsekvenser för elever": 16,
+    "Övrigt": 6
+   }
+  },
+  {
+   "id": "tid",
+   "namn": "Tid för undervisningsuppdraget – åtgärder för god undervisning och läraryrkenas attraktivitet",
+   "sou": "SOU 2025:26",
+   "fil": "utmaningar-tid.json",
+   "totalt_avsandare": 26,
+   "utmaningar": 615,
+   "per_utmaningstyp": {
+    "Kostnader och finansiering": 22,
+    "Tidplan och reformtakt": 7,
+    "Personal, kompetens och arbetsbelastning": 25,
+    "System och teknik": 5,
+    "Organisation och planering": 23,
+    "Otydlighet i förslaget": 24,
+    "Likvärdighet och konsekvenser för elever": 19,
+    "Övrigt": 15
+   }
+  },
+  {
+   "id": "laroplaner",
+   "namn": "Kunskap för alla – nya läroplaner med fokus på undervisning och lärande",
+   "sou": "SOU 2025:19",
+   "fil": "utmaningar-laroplaner.json",
+   "totalt_avsandare": 24,
+   "utmaningar": 284,
+   "per_utmaningstyp": {
+    "Kostnader och finansiering": 19,
+    "Tidplan och reformtakt": 17,
+    "Personal, kompetens och arbetsbelastning": 15,
+    "System och teknik": 3,
+    "Organisation och planering": 14,
+    "Otydlighet i förslaget": 20,
+    "Likvärdighet och konsekvenser för elever": 11,
+    "Övrigt": 14
+   }
+  },
+  {
+   "id": "spraklig",
+   "namn": "På språklig grund",
+   "sou": "SOU 2025:9",
+   "fil": "utmaningar-spraklig.json",
+   "totalt_avsandare": 17,
+   "utmaningar": 140,
+   "per_utmaningstyp": {
+    "Kostnader och finansiering": 10,
+    "Tidplan och reformtakt": 1,
+    "Personal, kompetens och arbetsbelastning": 12,
+    "System och teknik": 2,
+    "Organisation och planering": 12,
+    "Otydlighet i förslaget": 7,
+    "Likvärdighet och konsekvenser för elever": 10,
+    "Övrigt": 4
+   }
+  },
+  {
+   "id": "tioarig",
+   "namn": "En tioårig grundskola – Införandet av en ny årskurs 1 i grundskolan, grundsärskolan, specialskolan och sameskolan",
+   "sou": "SOU 2021:33",
+   "fil": "utmaningar-tioarig.json",
+   "totalt_avsandare": 18,
+   "utmaningar": 166,
+   "per_utmaningstyp": {
+    "Kostnader och finansiering": 13,
+    "Tidplan och reformtakt": 5,
+    "Personal, kompetens och arbetsbelastning": 12,
+    "System och teknik": 0,
+    "Organisation och planering": 9,
+    "Otydlighet i förslaget": 8,
+    "Likvärdighet och konsekvenser för elever": 9,
+    "Övrigt": 0
+   }
+  }
+ ],
+ "utmaningstyper": [
+  "Kostnader och finansiering",
+  "Tidplan och reformtakt",
+  "Personal, kompetens och arbetsbelastning",
+  "System och teknik",
+  "Organisation och planering",
+  "Otydlighet i förslaget",
+  "Likvärdighet och konsekvenser för elever",
+  "Övrigt"
+ ]
+}
