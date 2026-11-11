@@ -17,7 +17,8 @@ Kontroller:
  6. varje propositionsavsnitts rubrik återfinns, fullständig, i respektive propositions innehållsförteckning
     (research/remissanalys/reformer/<id>/propositioner-innehall.json, extraherad oberoende av avsnittstexten)
  7. varje utmanings och avsändares fokusgrupp finns i datafilens fokusgrupper, och fokusgrupperna är gemensamt.json:s
-    plus reformens config extra_fokusgrupper (t.ex. Friskolornas riksförbund för tioarig; utan nyckeln bara gemensamt.json)
+    plus reformens config extra_fokusgrupper (t.ex. Friskolornas riksförbund för tioarig; utan nyckeln bara gemensamt.json),
+    utom organisationer som är null i config fokusorganisationer (t.ex. almega för tioarig)
 Avslutar med kod 0 om allt går igenom, annars 1 och en lista över fel."""
 import json, os, re, sys
 
@@ -105,6 +106,8 @@ for p in d.get('propositionsavsnitt', []):
 _cfg = json.load(open(os.path.join(ROT, f'research/remissanalys/reformer/{RID}.json'), encoding='utf-8'))
 _g0 = json.load(open(os.path.join(ROT, 'research/remissanalys/kedja/gemensamt.json'), encoding='utf-8'))
 _fg_vantad = list(_g0['fokusgrupper']) + list(_cfg.get('extra_fokusgrupper') or {})
+_fo = _cfg.get('fokusorganisationer') or {}
+_fg_vantad = [g for g in _fg_vantad if not (g in _fo and _fo[g] is None)]   # uttryckligen null i config = hör inte till remissen (Sprint 17 D)
 _fg = [g.get('id') for g in d.get('fokusgrupper', [])]
 if _fg != _fg_vantad: F(f'fokusgrupper {_fg} ≠ gemensamt.json + config extra_fokusgrupper {_fg_vantad}')
 for x in U + A:

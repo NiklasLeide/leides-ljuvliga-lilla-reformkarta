@@ -18,9 +18,23 @@ Record of key decisions made during the project. **Newest first.**
 
 ---
 
+### DEC-026: Utmaningskartan — datarättningar och pilotsida för sju reformer (Sprint 17 del A–D)
+**Date:** 2026-11-11
+**Decision:**
+1. **SFS-nummer per reform** står i reformens config med källa (`lagar[].andringar_kalla`). K4 och K8 använder bara paragrafversioner från reformens egna SFS-nummer; textlikhetsmatchning mot en annan paragraf görs bara när paragrafnumret saknas i lagen. Riksdagens dokumentstatus för UbU17/UbU22–26 anger inga SFS-nummer, så kopplingen härleds ur konsoliderad text ("Lag (…)"), betänkandenas beslutstext och propositionerna.
+2. **Publicerade yttranden utanför förteckningen** ingår om de har sakinnehåll; rena avståendebrev ingår inte men redovisas med ordagrann mening i config och datafilens meta. Kontrollen 2026-11-11 gav sju avståenden och inga tillägg (Ale kommun i stod är ett avstående).
+3. **Överensstämmelse (K9)** tas som propositionen skriver den, utan krav på ordföljd.
+4. **Betyg** kodas med den gemensamma kodinstruktionen. För betyg gäller att samstämmigheten i typning mäts på 80 dubbelkodade utmaningar efter regelprövningen med gränsen 75 %. Utfallet blev 71/80, så omkodningen används; Sprint 16-filen sparas i `reformer/betyg/fore-omkodning/`.
+5. **Pilotsidan** visar reformens begränsningar som fasta texter per kod i `index.html`; datan bär bara koder och parametrar, så att ingen fritext ur datan visas. Startvyn läser en liten deterministisk `data/oversikt.json` i stället för alla sju datafiler.
+6. **Ingen dod-reviewer-agent skapas**: projektet har ingen skriven Definition of Done; DoD-granskningen görs som tidigare av en oberoende subagent mot sprintens stoppvillkor.
+**Reasoning:** Datakraven (primärkälla, ordagrant, null i stället för gissning) och att varje reform ska vara spårbar till exakt sitt riksdagsbeslut. Regeln för betyg skiljer sig från övriga reformers 80 %-regel och är satt i sprintens brief; den mäter samstämmighet efter regelprövning på ett dubbelt så stort urval.
+**Alternatives considered:** Behålla alla versioner i konsoliderad text (blandar in andra beslut). Lägga in Ale kommun utan att läsa dokumentet (det är ett avstående). Fritext om begränsningar i datan (bryter regeln om ingen modellskriven fritext).
+
+---
+
 ### DEC-025: Utmaningskartan för alla reformer — regler som tillkom i Sprint 17 T2–T7b
 **Date:** 2026-11-10
-**Decision:** (1) K8 jämför alla utredningsförslag (betyg behåller Sprint 16-urvalet, `sfs_urval: "kodade"`). (2) SFS-status blir null med förklaring i stället för "ej i SFS" när en förordningsmarkör saknas eller har träffar, och när SOU:n inte återger paragraftexten. (3) Reformspecifika fokusorganisationer (Friskolornas riksförbund i tioarig) läggs i reformens config som `extra_fokusgrupper`; den låsta `gemensamt.json` ändras inte och organisationer med olika namn likställs inte. (4) `validera-pilot.py` kontrollerar antal mot mellanfilerna och undantar ordagrann källtext (citat m.fl.) från ordkontrollen. (5) Samstämmighet för identifiering mäts på 40 passager (två oberoende kodare). (6) En stoppad omkodning (betyg T7b) checkas in separat och ersätter inte den publicerade datafilen.
+**Decision:** (1) K8 jämför alla utredningsförslag (betyg behöll först Sprint 16-urvalet, `sfs_urval: "kodade"`; sedan omkodningen i DEC-026 gäller "alla" även för betyg). (2) SFS-status blir null med förklaring i stället för "ej i SFS" när en förordningsmarkör saknas eller har träffar, och när SOU:n inte återger paragraftexten. (3) Reformspecifika fokusorganisationer (Friskolornas riksförbund i tioarig) läggs i reformens config som `extra_fokusgrupper`; den låsta `gemensamt.json` ändras inte och organisationer med olika namn likställs inte. (4) `validera-pilot.py` kontrollerar antal mot mellanfilerna och undantar ordagrann källtext (citat m.fl.) från ordkontrollen. (5) Samstämmighet för identifiering mäts på 40 passager (två oberoende kodare). (6) En stoppad omkodning (betyg T7b) checkas in separat och ersätter inte den publicerade datafilen.
 **Reasoning:** Datakraven (ordagrant, källa, null i stället för uppskattning) väger tyngre än fullständiga statusfält. Den publicerade betygsfilen ska inte bytas mot en kodning som inte klarade stoppregeln.
 **Alternatives considered:** Låta markörlösa förordningsförslag stå som "ej i SFS" (obelagt). Lägga Friskolornas i Almegas plats (likställer olika organisationer). Bygga om betyg trots stoppregeln (bryter regeln).
 

@@ -267,11 +267,6 @@
    "grupp": "huvudmannaorganisation"
   },
   {
-   "id": "almega",
-   "namn": "Almega",
-   "grupp": "huvudmannaorganisation"
-  },
-  {
    "id": "ideburna",
    "namn": "Idéburna skolors riksförbund",
    "grupp": "huvudmannaorganisation"
@@ -14762,10 +14757,6 @@
       "Sveriges Kommuner och Regioner"
      ]
     },
-    "almega": {
-     "antal_avsandare": 0,
-     "avsandare": []
-    },
     "ideburna": {
      "antal_avsandare": 1,
      "avsandare": [
@@ -14810,10 +14801,6 @@
        "Sveriges Kommuner och Regioner"
       ]
      },
-     "almega": {
-      "antal_avsandare": 0,
-      "avsandare": []
-     },
      "ideburna": {
       "antal_avsandare": 0,
       "avsandare": []
@@ -14846,10 +14833,6 @@
       "avsandare": [
        "Sveriges Kommuner och Regioner"
       ]
-     },
-     "almega": {
-      "antal_avsandare": 0,
-      "avsandare": []
      },
      "ideburna": {
       "antal_avsandare": 0,
@@ -14890,10 +14873,6 @@
        "Sveriges Kommuner och Regioner"
       ]
      },
-     "almega": {
-      "antal_avsandare": 0,
-      "avsandare": []
-     },
      "ideburna": {
       "antal_avsandare": 1,
       "avsandare": [
@@ -14919,10 +14898,6 @@
       "avsandare": []
      },
      "skr": {
-      "antal_avsandare": 0,
-      "avsandare": []
-     },
-     "almega": {
       "antal_avsandare": 0,
       "avsandare": []
      },
@@ -14963,10 +14938,6 @@
        "Sveriges Kommuner och Regioner"
       ]
      },
-     "almega": {
-      "antal_avsandare": 0,
-      "avsandare": []
-     },
      "ideburna": {
       "antal_avsandare": 0,
       "avsandare": []
@@ -15001,10 +14972,6 @@
       "avsandare": [
        "Sveriges Kommuner och Regioner"
       ]
-     },
-     "almega": {
-      "antal_avsandare": 0,
-      "avsandare": []
      },
      "ideburna": {
       "antal_avsandare": 1,
@@ -15044,10 +15011,6 @@
       "antal_avsandare": 0,
       "avsandare": []
      },
-     "almega": {
-      "antal_avsandare": 0,
-      "avsandare": []
-     },
      "ideburna": {
       "antal_avsandare": 0,
       "avsandare": []
@@ -15071,10 +15034,6 @@
       "avsandare": []
      },
      "skr": {
-      "antal_avsandare": 0,
-      "avsandare": []
-     },
-     "almega": {
       "antal_avsandare": 0,
       "avsandare": []
      },
@@ -15118,10 +15077,6 @@
        "Sveriges Kommuner och Regioner"
       ]
      },
-     "almega": {
-      "antal_avsandare": 0,
-      "avsandare": []
-     },
      "ideburna": {
       "antal_avsandare": 1,
       "avsandare": [
@@ -15163,10 +15118,6 @@
        "Sveriges Kommuner och Regioner"
       ]
      },
-     "almega": {
-      "antal_avsandare": 0,
-      "avsandare": []
-     },
      "ideburna": {
       "antal_avsandare": 1,
       "avsandare": [
@@ -15203,10 +15154,6 @@
       "avsandare": [
        "Sveriges Kommuner och Regioner"
       ]
-     },
-     "almega": {
-      "antal_avsandare": 0,
-      "avsandare": []
      },
      "ideburna": {
       "antal_avsandare": 0,
@@ -15246,10 +15193,6 @@
       "Sveriges Kommuner och Regioner"
      ]
     },
-    "almega": {
-     "antal_avsandare": 0,
-     "avsandare": []
-    },
     "ideburna": {
      "antal_avsandare": 0,
      "avsandare": []
@@ -15286,10 +15229,6 @@
        "Sveriges Kommuner och Regioner"
       ]
      },
-     "almega": {
-      "antal_avsandare": 0,
-      "avsandare": []
-     },
      "ideburna": {
       "antal_avsandare": 0,
       "avsandare": []
@@ -15323,10 +15262,6 @@
       "avsandare": [
        "Sveriges Kommuner och Regioner"
       ]
-     },
-     "almega": {
-      "antal_avsandare": 0,
-      "avsandare": []
      },
      "ideburna": {
       "antal_avsandare": 0,
@@ -15363,10 +15298,6 @@
       "antal_avsandare": 0,
       "avsandare": []
      },
-     "almega": {
-      "antal_avsandare": 0,
-      "avsandare": []
-     },
      "ideburna": {
       "antal_avsandare": 0,
       "avsandare": []
@@ -15394,10 +15325,6 @@
       "avsandare": []
      },
      "skr": {
-      "antal_avsandare": 0,
-      "avsandare": []
-     },
-     "almega": {
       "antal_avsandare": 0,
       "avsandare": []
      },
@@ -15433,10 +15360,6 @@
        "Sveriges Kommuner och Regioner"
       ]
      },
-     "almega": {
-      "antal_avsandare": 0,
-      "avsandare": []
-     },
      "ideburna": {
       "antal_avsandare": 0,
       "avsandare": []
@@ -15465,10 +15388,6 @@
       "avsandare": []
      },
      "skr": {
-      "antal_avsandare": 0,
-      "avsandare": []
-     },
-     "almega": {
       "antal_avsandare": 0,
       "avsandare": []
      },
@@ -15506,10 +15425,6 @@
       "avsandare": [
        "Sveriges Kommuner och Regioner"
       ]
-     },
-     "almega": {
-      "antal_avsandare": 0,
-      "avsandare": []
      },
      "ideburna": {
       "antal_avsandare": 0,
@@ -15550,10 +15465,6 @@
        "Sveriges Kommuner och Regioner"
       ]
      },
-     "almega": {
-      "antal_avsandare": 0,
-      "avsandare": []
-     },
      "ideburna": {
       "antal_avsandare": 1,
       "avsandare": [
@@ -15585,10 +15496,6 @@
       "avsandare": [
        "Sveriges Kommuner och Regioner"
       ]
-     },
-     "almega": {
-      "antal_avsandare": 0,
-      "avsandare": []
      },
      "ideburna": {
       "antal_avsandare": 0,
@@ -15626,10 +15533,6 @@
        "Sveriges Kommuner och Regioner"
       ]
      },
-     "almega": {
-      "antal_avsandare": 0,
-      "avsandare": []
-     },
      "ideburna": {
       "antal_avsandare": 0,
       "avsandare": []
@@ -15662,10 +15565,6 @@
       "antal_avsandare": 0,
       "avsandare": []
      },
-     "almega": {
-      "antal_avsandare": 0,
-      "avsandare": []
-     },
      "ideburna": {
       "antal_avsandare": 0,
       "avsandare": []
@@ -15693,10 +15592,6 @@
       "avsandare": []
      },
      "skr": {
-      "antal_avsandare": 0,
-      "avsandare": []
-     },
-     "almega": {
       "antal_avsandare": 0,
       "avsandare": []
      },
@@ -15736,10 +15631,6 @@
        "Sveriges Kommuner och Regioner"
       ]
      },
-     "almega": {
-      "antal_avsandare": 0,
-      "avsandare": []
-     },
      "ideburna": {
       "antal_avsandare": 1,
       "avsandare": [
@@ -15769,10 +15660,6 @@
       "avsandare": []
      },
      "skr": {
-      "antal_avsandare": 0,
-      "avsandare": []
-     },
-     "almega": {
       "antal_avsandare": 0,
       "avsandare": []
      },
@@ -15811,10 +15698,6 @@
       "antal_avsandare": 0,
       "avsandare": []
      },
-     "almega": {
-      "antal_avsandare": 0,
-      "avsandare": []
-     },
      "ideburna": {
       "antal_avsandare": 0,
       "avsandare": []
@@ -15842,10 +15725,6 @@
       "avsandare": []
      },
      "skr": {
-      "antal_avsandare": 0,
-      "avsandare": []
-     },
-     "almega": {
       "antal_avsandare": 0,
       "avsandare": []
      },

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Steg K8 (deterministiskt): sfs-diff.json — per utredningsförslag med kodade utmaningar:
+"""Steg K8 (deterministiskt): sfs-diff.json — per utredningsförslag (urval nedan):
 SOU:ns föreslagna paragraf (författningskommentaren) → propositionens lagförslag → beslutad lydelse (konsoliderad SFS).
 Paragrafer knyts till förslag via författningskommentarens avsnittshänvisningar (avsnittsnivå). Matchning: kapitel + nummer,
 annars högst textlikhet inom kapitlet; likhet < 0,80 ⇒ manuell_granskning. Statusvärdet är mekaniskt.
@@ -12,7 +12,7 @@ Textlikhetsmatchningen mot en annan paragraf i kapitlet används bara när parag
 (sfs.json paragrafer_i_lagen), dvs. när utredningens paragraf kan ha införts under ett annat nummer. Finns paragrafen men saknar
 version från reformens SFS-nummer blir den 'ej med' i stället för att matchas mot en annan paragraf.
 
-URVAL: alla utredningsförslag (standard). Med config sfs_urval = "kodade" gäller legacy-regeln från Sprint 16: förslag som någon kodad utmaning (dubbletter inräknade) pekar på via
+URVAL: alla utredningsförslag (standard; alla sju reformer sedan Sprint 17). Med config sfs_urval = "kodade" gäller i stället legacy-regeln från Sprint 16 (används inte längre): förslag som någon kodad utmaning (dubbletter inräknade) pekar på via
 passagens förankring i förstudie 2 (passager.json forankrade_forslag, där en avsnittshänvisning utan förslagsruta faller tillbaka på
 förälderavsnittet) eller paragrafhänvisning; saknas sådan används den tolkade kopplingen. Regeln behålls för att betygsfilen ska bli
 identisk; för nya reformer bör urvalet i stället bli alla förslag (se KEDJA.md).

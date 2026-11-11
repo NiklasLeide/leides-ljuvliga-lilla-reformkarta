@@ -42,6 +42,9 @@ if __name__ == '__main__':
     UT = f'pilot/utmaningar/data/utmaningar-{rid}.json'
     TYPER = [tuple(t) for t in g0['utmaningstyper']]
     FG = fokusgrupper(c, g0); FOKUS = list(FG)   # gemensamma + config extra_fokusgrupper (oförändrat utan nyckeln)
+    # Sprint 17 D: en organisationsgrupp som uttryckligen är null i config fokusorganisationer hör inte till reformens remiss
+    # (t.ex. almega för tioarig) och tas bort ur fokusgrupperna och räkningen.
+    FOKUS = [g for g in FOKUS if not (g in (c.get('fokusorganisationer') or {}) and c['fokusorganisationer'][g] is None)]
     FORBJUDET = re.compile(r'\b(' + '|'.join(re.escape(o) for o in g0['forbjudna_ord'] if ' ' not in o) + r')\b|' + '|'.join(re.escape(o) for o in g0['forbjudna_ord'] if ' ' in o), re.I)
     OMFORM = {k: tuple(v) for k, v in ((c.get('korrigeringar') or {}).get('motivering_omformulerad') or {}).items()}
 

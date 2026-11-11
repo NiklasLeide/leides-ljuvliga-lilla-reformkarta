@@ -58,9 +58,12 @@ leides-ljuvliga-lilla-reformkarta/
 │   ├── andringar.json     ← ändringslogg (datum, text, reform_ids, kalla)
 │   ├── meta.json          ← { senast_uppdaterad } — driver färskhetsstämpeln
 │   └── tidslinje.json     ← 30 händelser (ikraftträdanden, redovisningar, milstolpar)
-├── _config.yml            ← Jekyll: exkluderar docs/mockups ur Pages-bygget
+├── pilot/utmaningar/      ← Utmaningskartan (pilot, 7 reformer): index.html + data/ (ej i Pages)
+├── research/remissanalys/ ← kedjan (kedja/, KEDJA.md), reformer/<id>/, granskning/ (ej i Pages)
+├── _config.yml            ← Jekyll: exkluderar docs/mockups, research/ och pilot/ ur Pages-bygget
 ├── commit.sh              ← commit + push till dev + synka dev-preview
 ├── deploy.sh              ← merga dev → master (interaktiv)
+├── pilot-sync.sh          ← kopierar pilot/utmaningar till master:dev/utmaningar-pilot/
 ├── docs/
 │   ├── DECISIONS.md       ← decision log — WHY choices were made
 │   ├── PROJECT_STATUS.md  ← sprint tasks, blockers, what's working

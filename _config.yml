@@ -1,7 +1,8 @@
 # GitHub Pages (Jekyll) — minimal config.
-# Enda syftet: exkludera det arkiverade mockup-materialet ur den serverade sajten
-# (Sprint 12 T6). docs/mockups/ innehåller historiska/spec-filer som ska finnas
-# kvar i repot men ALDRIG vara nåbara på reformer.leide.se.
+# Enda syftet: exkludera material som ska finnas i repot men ALDRIG vara nåbart på reformer.leide.se:
+#  - docs/mockups/  arkiverade mockup-/specfiler (Sprint 12 T6)
+#  - research/      Utmaningskartans kedja, mellanfiler och granskningsunderlag (Sprint 16–17)
+#  - pilot/         Utmaningskartans pilotsida; förhandsvisas bara via pilot-sync.sh under dev/utmaningar-pilot/ (Sprint 16–17)
 exclude:
   - docs/mockups
   - research
