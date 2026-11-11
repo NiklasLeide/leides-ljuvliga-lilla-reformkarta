@@ -24,7 +24,7 @@
 | 7b | Omkodning av betyg med gemensam kodinstruktion | Klar — omkodningen används (regel A4): M1–M3 fullföljda, samstämmighet för typning efter regelprövning 71/80 (88,8 %, gräns 75 %); före regelprövning 31/40. 490 utmaningar (Sprint 16: 440). Sprint 16-filen sparad i research/remissanalys/reformer/betyg/fore-omkodning/ med jamforelse.json |
 | 7c | Datarättningar | Klar |
 | 8 | Pilotsidan: reformväljare, jämförelse mellan reformer, förslag som propositionen inte tar upp, klickytor | Klar — reformväljare (#reform=…), startvy reform × typ ("x av y", lista under 700 px) ur data/oversikt.json, vy per reform, "Förslag som propositionen inte tar upp", organisationernas status, metodruta per reform med begränsningskoder, klickytor ≥ 44 px; testa-pilotsida.js 323/323 för alla sju reformer i 1280 och 375 px |
-| 9 | Granskningsunderlag för alla reformer | Ej påbörjad |
+| 9 | Granskningsunderlag för alla reformer | Klar — research/remissanalys/granskning/: sju csv (betyg 40 + 20, övriga 15 + 5) ur aktuella datafiler med fasta slumpfrön och länk till rätt vy (130/130 länkar visar citatet), gemensam README, rakna-granskning.py per reform och totalt |
 | 10 | Dokumentation och hygien | Ej påbörjad |
 | 11 | Synk till /dev/utmaningar-pilot/ | Ej påbörjad |
 | 12 | Run DoD review for this sprint | Ej påbörjad |
