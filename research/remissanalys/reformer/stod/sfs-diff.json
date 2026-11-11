@@ -5,11 +5,11 @@
   "statusregler": {
    "oförändrad": "SOU:ns föreslagna paragraf = beslutad lydelse (normaliserad textlikhet ≥ 0,999)",
    "ändrad": "beslutad lydelse finns men skiljer sig; ordagrann ord-diff sparas",
-   "ej med": "ingen version införd genom SFS 2026:1242 för paragrafen",
+   "ej med": "ingen version införd genom SFS 2026:1242 för paragrafen (lydelser från andra SFS-nummer används inte)",
    "ej lagtext": "förslaget är inte författningstext (uppdrag/ansvar)",
    "ej i SFS per 2026-11-10": "förslaget avser förordning som ännu inte finns i SFS"
   },
-  "matchning": "Paragrafer matchas på kapitel + nummer; saknas samma nummer används högst textlikhet inom kapitlet. Likhet < 0,80 ⇒ manuell_granskning: true.",
+  "matchning": "Paragrafer matchas på kapitel + nummer bland lydelser införda genom reformens ändrings-SFS; saknas paragrafnumret helt i den konsoliderade texten används högst textlikhet inom kapitlet (bland samma lydelser). Likhet < 0,80 ⇒ manuell_granskning: true.",
   "forslag_till_paragraf": "Paragrafer knyts till förslag via SOU:ns författningskommentar (\"Bestämmelsen behandlas i avsnitt …\"), dvs. på avsnittsnivå — flera förslag i samma avsnitt delar paragrafer."
  },
  "forslag": [
@@ -707,54 +707,20 @@
       "matchning": "textlikhet",
       "manuell_granskning": true
      },
-     "beslutad": {
-      "text": "Bestämmelserna om stödundervisning i 5 a-5 c §§ gäller i grundskolan, anpassade grundskolan, specialskolan, sameskolan, gymnasieskolan och anpassade gymnasieskolan. Bestämmelserna gäller endast i ämnena svenska, svenska som andraspråk och matematik. I anpassade grundskolan och i anpassade gymnasieskolan gäller bestämmelserna endast för elever som läser ämnen.",
-      "paragraf": "3 kap. 5 §",
-      "sfs": "2026:1242",
-      "ikraft": "2028-07-01",
-      "likhet_mot_sou": 0.374,
-      "kalla": {
-       "text": "Skollag (2010:800) 3 kap. 5 § i lydelse enligt SFS 2026:1242, träder i kraft 2028-07-01; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
-       "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
-      },
-      "matchning": "textlikhet",
-      "manuell_granskning": true
+     "beslutad": null,
+     "status_kalla": {
+      "text": "Skollag (2010:800) 3 kap. 10 § finns i den konsoliderade texten hämtad 2026-11-10 (t.o.m. SFS 2026:1636), men ingen av dess lydelser är införd genom reformens ändrings-SFS (2026:1242); paragrafen ändras alltså inte genom dessa SFS-nummer. Lydelser införda genom andra SFS-nummer används inte eftersom de genomför andra riksdagsbeslut.",
+      "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
      },
-     "diff_sou_mot_beslutad": [
-      {
-       "op": "ersatt",
-       "fore": "För en elev",
-       "efter": "Bestämmelserna om stödundervisning i 5 a-5 c §§ gäller"
-      },
-      {
-       "op": "ersatt",
-       "fore": "specialskolan",
-       "efter": "specialskolan, sameskolan, gymnasieskolan"
-      },
-      {
-       "op": "ersatt",
-       "fore": "sameskolan ska det särskilda stödet ges på det sätt",
-       "efter": "anpassade gymnasieskolan. Bestämmelserna gäller endast i ämnena svenska, svenska som andraspråk och matematik. I anpassade grundskolan"
-      },
-      {
-       "op": "ersatt",
-       "fore": "den omfattning",
-       "efter": "anpassade gymnasieskolan gäller bestämmelserna endast för elever"
-      },
-      {
-       "op": "ersatt",
-       "fore": "behövs för att eleven ska ha möjlighet att tillgodogöra sig kunskaper som minst motsvarar betygskriterierna godtagbara kunskaper eller för att eleven ska ha möjlighet att uppfylla de kriterier för bedömning av kunskaper som minst ska uppfyllas.",
-       "efter": "läser ämnen."
-      }
-     ],
-     "status": "ändrad",
+     "status": "ej med",
      "manuell_granskning": true
     }
    ],
    "status": "blandad",
    "status_per_paragraf": {
-    "ändrad": 3,
-    "oförändrad": 1
+    "ändrad": 2,
+    "oförändrad": 1,
+    "ej med": 1
    },
    "status_kalla": {
     "text": "Härledd per paragraf: SOU:ns föreslagna lydelse jämförd med beslutad lydelse (SFS 2026:1242). Statusvärdet är mekaniskt (textlikhet), inte en bedömning.",

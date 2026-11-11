@@ -1,7 +1,7 @@
 {
  "_meta": {
   "beskrivning": "Propositionens stycke \"Läroplansutredningens förslag\" (prop. 195: \"Läroplansutredningens förslag\"; prop. 196: \"Läroplansutredningens förslag (SOU 2025:19)\") per avsnitt med regeringens förslags-/bedömningsruta, ordagrant fram till nästa underrubrik.",
-  "overensstammelse": "propositionens exakta fras",
+  "overensstammelse": "propositionens exakta fras (verbet stämmer/överensstämmer med bestämningar, som det står)",
   "avvikelse_beskriven": "true om stycket innehåller fler meningar än den inledande om överensstämmelse (mekaniskt)"
  },
  "avsnitt": [
@@ -271,7 +271,7 @@
    ],
    "rubrik_i_propositionen": "Läroplansutredningens förslag",
    "text": "Förslaget från utredningen stämmer inte överens med regeringens förslag. Utredningen föreslår att ändringarna i skollagen ska träda i kraft den 1 januari 2027 och tillämpas första gången på utbildning som påbörjas efter den 30 juni 2028.",
-   "overensstammelse": null,
+   "overensstammelse": "stämmer inte överens",
    "avvikelse_beskriven": true,
    "kalla": {
     "text": "Prop. 2025/26:195 s. 124, avsnitt 8 ”Läroplansutredningens förslag”",

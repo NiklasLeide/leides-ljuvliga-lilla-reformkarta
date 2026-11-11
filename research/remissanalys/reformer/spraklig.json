@@ -98,7 +98,21 @@
     "2026:1243"
    ],
    "bestamd_form": "skollagen",
-   "anm": "Ändringslag verifierad med \"Lag (2026:1243)\" i den konsoliderade texten (ändrad t.o.m. SFS 2026:1636) på paragrafer som utredningens författningskommentar tar upp: 15 kap. 22 §, 16 kap. 27 och 28 §§, 18 kap. 22 § (i kraft 2028-07-02; samlad ändringslag som också innehåller ändringar från prop. 2025/26:197, t.ex. \"betyget 4\"). 10 kap. 15 §, 11 kap. 19 §, 12 kap. 15 § och 13 kap. 16 § har bara lydelsen enligt 2025:729: utredningens upplysningsbestämmelser genomfördes inte; i stället infördes nya paragrafer 10 kap. 16 a §, 11 kap. 19 a §, 12 kap. 16 a §, 13 kap. 17 b §, 15 kap. 22 b § och 18 kap. 22 b § (Lag 2026:1243, \"Betyg ska inte sättas … grundläggande svenska\"). 2026:1245 (prop. 194 lagförslag 2.2, 20 kap.) tas inte med: författningskommentaren berör inte 20 kap."
+   "anm": "Ändringslag verifierad med \"Lag (2026:1243)\" i den konsoliderade texten (ändrad t.o.m. SFS 2026:1636) på paragrafer som utredningens författningskommentar tar upp: 15 kap. 22 §, 16 kap. 27 och 28 §§, 18 kap. 22 § (i kraft 2028-07-02; samlad ändringslag som också innehåller ändringar från prop. 2025/26:197, t.ex. \"betyget 4\"). 10 kap. 15 §, 11 kap. 19 §, 12 kap. 15 § och 13 kap. 16 § har bara lydelsen enligt 2025:729: utredningens upplysningsbestämmelser genomfördes inte; i stället infördes nya paragrafer 10 kap. 16 a §, 11 kap. 19 a §, 12 kap. 16 a §, 13 kap. 17 b §, 15 kap. 22 b § och 18 kap. 22 b § (Lag 2026:1243, \"Betyg ska inte sättas … grundläggande svenska\"). 2026:1245 (prop. 194 lagförslag 2.2, 20 kap.) tas inte med: författningskommentaren berör inte 20 kap.",
+   "andringar_kalla": [
+    {
+     "sfs": "2026:1243",
+     "prop": "Prop. 2025/26:194 (lagförslag 2.1, avsnitt 7)",
+     "text": "Skollag (2010:800) konsoliderad, riksdagens öppna data (Ändrad: t.o.m. SFS 2026:1636), hämtad 2026-11-11: 94 paragrafversioner har \"Lag (2026:1243)\" (90 med /Träder i kraft I:2028-07-02/) och övergångsbestämmelserna har ett block 2026:1243 med nio punkter (\"1. Denna lag träder i kraft den 2 juli 2028.\") = den lag \"som träder i kraft den 2 juli 2028 och har ett flertal övergångsbestämmelser\" i Bet. 2025/26:UbU26 (Utskottets överväganden): \"Det innebär att utskottet föreslår att samordningen av lagstiftningen sker i en lag som träder i kraft den 1 juli 2028 och saknar övergångsbestämmelser, en lag som träder i kraft den 2 juli 2028 och har ett flertal övergångsbestämmelser samt en lag som träder i kraft den 1 januari 2031 och har en övergångsbestämmelse.\". Prop. 2025/26:194 lagförslag 2.1: \"dels att det ska införas sex nya paragrafer, 10 kap. 16 a §, 11 kap. 19 a §, 12 kap. 16 a §, 13 kap. 17 b §, 15 kap. 22 b § och 18 kap. 22 b §\"; i den konsoliderade texten har 11 kap. 19 a §, 12 kap. 16 a §, 13 kap. 17 b §, 15 kap. 22 b § och 18 kap. 22 b § \"Lag (2026:1243)\" med /Träder i kraft I:2028-07-02/ (\"Betyg ska inte sättas för en elev i [...] svenska som andraspråk [...]\"). De paragrafer som utredningens författningskommentar tar upp och som har lydelse 2026:1243 (15 kap. 22 §, 16 kap. 27 och 28 §§, 18 kap. 22 §) finns inte i prop. 2025/26:194:s ingress; deras 2026:1243-lydelse kommer från prop. 2025/26:197 (samma samordnade lag). Beslut (dokumentstatus, utskottsförslag punkt 1, BES 2026-06-09): \"a) antar utskottets förslag i bilaga 3 till 1. lag om ändring i skollagen (2010:800), 2. lag om ändring i skollagen (2010:800), 3. lag om ändring i skollagen (2010:800), b) antar regeringens förslag till lag om ändring i skollagen (2010:800) (proposition 2025/26:197 lagförslag 2) [...] Därmed bifaller riksdagen propositionerna 2025/26:194 punkterna 1.2 och 2.2, 2025/26:195 delpunkt 2, 2025/26:196 punkt 3.2, 2025/26:197 punkterna 1-4 och 2025/26:198 punkterna 2.2 och 3.2.\" Ändrings-SFS i original (svenskforfattningssamling.se) och SFS-registret (rkrattsbaser.gov.se) nåddes inte från miljön (proxy 403); riksdagens dokumentstatus för betänkandena anger inga SFS-nummer. Kopplingen SFS-nummer → lag i riksdagsbeslutet bygger därför på ikraftträdandedag, övergångsblock och paragrafuppsättning i den konsoliderade texten jämförda med betänkandets och propositionens text.",
+     "url": "https://data.riksdagen.se/dokument/HD01UbU26",
+     "ovriga_urler": [
+      "https://data.riksdagen.se/dokumentstatus/HD01UbU26",
+      "https://data.riksdagen.se/dokument/sfs-2010-800.text",
+      "https://data.riksdagen.se/dokument/HD03194"
+     ]
+    }
+   ],
+   "andringar_anm": "2026:1242 och 2026:1245 (också prop. 2025/26:194) tas inte med: deras prop. 194-paragrafer (1 kap. 3–4 §§, 3 kap., 20 kap.) hör enligt propositionens författningskommentar till avsnitt 6.1/6.7/6.8, inte till avsnitt 7 som behandlar SOU 2025:9."
   }
  ],
  "forordningar": [
@@ -191,5 +205,42 @@
  "anm": "Saknar egen post i data/reforms.json (reforms_json_id null). Behandlas i Prop. 2025/26:194 avsnitt 7.1, 7.2 och 8; \"avsnitt 8\" i kedjor.json/briefen är betänkandets avsnitt 8 (propositionens avsnitt 3: \"förslag från betänkandets avsnitt 8\"), se propositioner[0].anm.",
  "forordning_markor_beskrivning": null,
  "forordning_markor_anm": "Ingen markör: förordningsförslagen spretar (tidsgräns, nationella prov, målgrupper, rektorns beslut, kartläggningsmaterial, parallell läsning, examen). En markör som \"grundläggande svenska\" (0 träffar) skulle ge sfs_diff.py:s \"ej i SFS … innehåller inte\" även för 8.1.7–8.1.8, som delvis har genomförts i skolförordningen 5 kap. 14 § (Förordning 2026:1386); \"andraspråksdidaktik\" (1 träff) skulle bara gälla 8.1.7. Utan markör får förordningsförslagen status null med förklaring.",
- "fokusorganisationer_anm": "Stavning enligt remissens lista över remissinstanser (remissmissinstanser-for-pa-spraklig-grund-sou-20259.pdf: \"1. Almega Utbildning\", \"17. Idéburna skolors riksförbund\", \"52. Sveriges Kommuner och Regioner\"), samma i förteckningen i prop. 194 bilaga 12. Almega Utbildning och Idéburna skolors riksförbund står i förteckningen bland dem som avstått; Almegas publicerade PDF på remissidan är ett e-postmeddelande om att förbundet \"avstår från att lämna synpunkter\"."
+ "fokusorganisationer_anm": "Stavning enligt remissens lista över remissinstanser (remissmissinstanser-for-pa-spraklig-grund-sou-20259.pdf: \"1. Almega Utbildning\", \"17. Idéburna skolors riksförbund\", \"52. Sveriges Kommuner och Regioner\"), samma i förteckningen i prop. 194 bilaga 12. Almega Utbildning och Idéburna skolors riksförbund står i förteckningen bland dem som avstått; Almegas publicerade PDF på remissidan är ett e-postmeddelande om att förbundet \"avstår från att lämna synpunkter\".",
+ "remissida_kontroll": {
+  "datum": "2026-11-11",
+  "regel": "Sprint 17 A2: yttranden från fokusgrupper som är publicerade på remissidan men inte ingår i korpusen enligt förteckningen har lästs. Ett yttrande med sakinnehåll ska ingå även om förteckningen anger att instansen avstått; rena avståendebrev ingår inte.",
+  "tillagda_yttranden": [],
+  "ej_med_avstaenden": [
+   {
+    "avsandare": "Almega Utbildning",
+    "fokusgrupp": "almega",
+    "forteckning": "ej_svarat (förklarat sig avstå eller inte inkommit med yttrande)",
+    "klassning": "avstående",
+    "sidor": 1,
+    "citat": "Jag får härmed meddela att Almega Utbildning avstår från att lämna synpunkter på utredningens förslag i detta betänkande.",
+    "kalla": {
+     "text": "Dokument från Almega Utbildning på remissidan",
+     "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/almega-utbildning.pdf"
+    }
+   },
+   {
+    "avsandare": "Mullsjö kommun",
+    "fokusgrupp": "kommuner",
+    "forteckning": "ej_svarat (förklarat sig avstå eller inte inkommit med yttrande)",
+    "klassning": "avstående",
+    "sidor": 1,
+    "citat": "Barn- och utbildningsnämnden i Mullsjö kommun har inga synpunkter på remissen och kommer därmed inte inkomma med något yttrande.",
+    "kalla": {
+     "text": "Dokument från Mullsjö kommun på remissidan",
+     "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/mullsjo-kommun.pdf"
+    }
+   }
+  ]
+ },
+ "begransningar": [
+  "Bland huvudmannaorganisationerna lämnade bara SKR ett publicerat remissvar; Almega Utbildning och Idéburna skolors riksförbund avstod.",
+  "Prop. 2025/26:194 behandlar betänkandets avsnitt 8 (grundläggande svenska som andraspråk); förslag om modersmålsundervisning tas inte upp.",
+  "SFS 2026:1243 innehåller även ändringar från andra propositioner (samordnad lag, bet. 2025/26:UbU26).",
+  "Spontana yttranden publiceras inte på regeringen.se; enskilda huvudmän som yttrat sig spontant saknas därför i korpusen."
+ ]
 }

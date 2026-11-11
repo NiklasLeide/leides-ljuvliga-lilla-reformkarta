@@ -5,11 +5,11 @@
   "statusregler": {
    "oförändrad": "SOU:ns föreslagna paragraf = beslutad lydelse (normaliserad textlikhet ≥ 0,999)",
    "ändrad": "beslutad lydelse finns men skiljer sig; ordagrann ord-diff sparas",
-   "ej med": "ingen version införd genom SFS diskrimineringslagen: ingen; skollagen: 2026:1096/1097/1243 för paragrafen",
+   "ej med": "ingen version införd genom SFS diskrimineringslagen: ingen; skollagen: 2026:1096/1097/1243 för paragrafen (lydelser från andra SFS-nummer används inte)",
    "ej lagtext": "förslaget är inte författningstext (uppdrag/ansvar)",
    "ej i SFS per 2026-11-10": "förslaget avser förordning som ännu inte finns i SFS"
   },
-  "matchning": "Paragrafer matchas på kapitel + nummer; saknas samma nummer används högst textlikhet inom kapitlet. Likhet < 0,80 ⇒ manuell_granskning: true.",
+  "matchning": "Paragrafer matchas på kapitel + nummer bland lydelser införda genom reformens ändrings-SFS; saknas paragrafnumret helt i den konsoliderade texten används högst textlikhet inom kapitlet (bland samma lydelser). Likhet < 0,80 ⇒ manuell_granskning: true.",
   "forslag_till_paragraf": "Paragrafer knyts till förslag via SOU:ns författningskommentar (\"Bestämmelsen behandlas i avsnitt …\"), dvs. på avsnittsnivå — flera förslag i samma avsnitt delar paragrafer."
  },
  "forslag": [
@@ -1391,13 +1391,9 @@
      "lag": "Diskrimineringslag (2008:567)",
      "proposition": null,
      "beslutad": null,
-     "nuvarande_sfs": {
-      "text": "Om en utbildningsanordnare får kännedom om att ett barn eller en elev, student eller studerande som deltar i eller söker till utbildningsanordnarens verksamhet anser sig i samband med verksamheten ha blivit utsatt för trakasserier eller sexuella trakasserier, är utbildningsanordnaren skyldig att utreda omständigheterna kring de uppgivna trakasserierna och i förekommande fall vidta de åtgärder som skäligen kan krävas för att förhindra trakasserier i framtiden. Uppgift om meriter",
-      "sfs": null,
-      "kalla": {
-       "text": "Diskrimineringslag (2008:567) 2 kap. 7 §, gällande lydelse (SFS None), hämtad 2026-11-10",
-       "url": "https://data.riksdagen.se/dokument/sfs-2008-567.text"
-      }
+     "status_kalla": {
+      "text": "Diskrimineringslag (2008:567) 2 kap. 7 § finns i den konsoliderade texten hämtad 2026-11-10 (t.o.m. SFS 2025:736), men ingen av dess lydelser är införd genom reformens ändrings-SFS (inga); paragrafen ändras alltså inte genom dessa SFS-nummer. Lydelser införda genom andra SFS-nummer används inte eftersom de genomför andra riksdagsbeslut.",
+      "url": "https://data.riksdagen.se/dokument/sfs-2008-567.text"
      },
      "status": "ej med",
      "manuell_granskning": false

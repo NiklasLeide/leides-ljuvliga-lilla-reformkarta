@@ -29,7 +29,13 @@ if __name__ == '__main__':
     print(f"{rid}: Övrigt {prim.count('Övrigt')}/{len(prim)} = {ovr:.1%} (max {sr['ovrigt_max_andel']:.0%}); "
           f"samstämmighet {lika}/{len(dubbel)} = " + (f"{sam:.1%}" if sam is not None else 'saknas') + f" (min {sr['samstammighet_min_andel']:.0%})")
     if ovr > sr['ovrigt_max_andel']: fel.append('andelen Övrigt överstiger gränsen')
-    if sam is None: fel.append('dubbelkodning saknas')
+    pefter = os.path.join(os.path.dirname(__file__), '..', 'reformer', rid, 'kodning', 'dubbelkodning-efter-regelprovning.json')
+    if os.path.exists(pefter):
+        # Sprint 17 A4 (betyg): typning mäts på 80 utmaningar efter regelprövningen, gräns 75 %; 40-stickprovet redovisas ovan som information.
+        de = las(rid, 'kodning/dubbelkodning-efter-regelprovning.json')['_meta']; sam_e = de['overens'] / de['antal']
+        print(f"{rid}: samstämmighet typning efter regelprövning {de['overens']}/{de['antal']} = {sam_e:.1%} (min 75 %, regel A4)")
+        if sam_e < 0.75: fel.append('samstämmigheten för typning efter regelprövning understiger 75 %')
+    elif sam is None: fel.append('dubbelkodning saknas')
     elif sam < sr['samstammighet_min_andel']: fel.append('samstämmigheten understiger gränsen')
     pid = os.path.join(os.path.dirname(__file__), '..', 'reformer', rid, 'kodning', 'dubbelidentifiering.json')
     if os.path.exists(pid):

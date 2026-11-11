@@ -4,6 +4,14 @@ SOU:ns föreslagna paragraf (författningskommentaren) → propositionens lagfö
 Paragrafer knyts till förslag via författningskommentarens avsnittshänvisningar (avsnittsnivå). Matchning: kapitel + nummer,
 annars högst textlikhet inom kapitlet; likhet < 0,80 ⇒ manuell_granskning. Statusvärdet är mekaniskt.
 
+BESLUTAD LYDELSE kommer bara från reformens egna ändrings-SFS (config lagar[].andringar, belagda i lagar[].andringar_kalla;
+sfs.json från K4 innehåller bara sådana versioner). Lydelser från andra SFS-nummer genomför andra riksdagsbeslut och används
+inte, inte heller som "gällande lydelse": en paragraf utan version från de egna SFS-numren får beslutad = null, status 'ej med'
+och en status_kalla som säger att paragrafen inte ändras genom reformens SFS-nummer (Sprint 17, A1; ersätter nuvarande_sfs).
+Textlikhetsmatchningen mot en annan paragraf i kapitlet används bara när paragrafnumret inte finns alls i den konsoliderade texten
+(sfs.json paragrafer_i_lagen), dvs. när utredningens paragraf kan ha införts under ett annat nummer. Finns paragrafen men saknar
+version från reformens SFS-nummer blir den 'ej med' i stället för att matchas mot en annan paragraf.
+
 URVAL: alla utredningsförslag (standard). Med config sfs_urval = "kodade" gäller legacy-regeln från Sprint 16: förslag som någon kodad utmaning (dubbletter inräknade) pekar på via
 passagens förankring i förstudie 2 (passager.json forankrade_forslag, där en avsnittshänvisning utan förslagsruta faller tillbaka på
 förälderavsnittet) eller paragrafhänvisning; saknas sådan används den tolkade kopplingen. Regeln behålls för att betygsfilen ska bli
@@ -124,8 +132,9 @@ if __name__ == '__main__':
             else: rad['proposition'] = None
             sc = [v for v in sfs if v['kap'] == p['kap'] and v['lag'] in ANDR_]
             same = [v for v in sc if v['par'] == p['par'].replace(' ', '')]
-            ms = match(same, p['text']) or match(sc, p['text'])
-            cur = [v for v in sfs if v['kap'] == p['kap'] and v['par'] == p['par'].replace(' ', '') and v['ikraft'] is None]
+            finns = f"{p['kap']}:{p['par'].replace(' ', '')}" in set(sl.get('paragrafer_i_lagen') or [])
+            # Samma nummer från egna SFS → nummermatchning. Annars textlikhet inom kapitlet bara om paragrafnumret saknas i lagen.
+            ms = match(same, p['text']) or (None if finns else match(sc, p['text']))
             if ms:
                 r, v = ms
                 rad['beslutad'] = {'text': v['text'], 'paragraf': f"{v['kap']} kap. {v['par']} §", 'sfs': v['lag'], 'ikraft': v['ikraft'], 'likhet_mot_sou': round(r, 3),
@@ -135,7 +144,12 @@ if __name__ == '__main__':
                 else: st = 'ändrad'; rad['diff_sou_mot_beslutad'] = wdiff(p['text'], v['text'])
             else:
                 rad['beslutad'] = None
-                if cur: rad['nuvarande_sfs'] = {'text': cur[0]['text'], 'sfs': cur[0]['lag'], 'kalla': {'text': f"{LAGNAMN_} {p['kap']} kap. {p['par']} §, gällande lydelse (SFS {cur[0]['lag']}), hämtad {HAMTAT}", 'url': U_SFS}}
+                # Ingen version i kapitlet från reformens egna ändrings-SFS. Gällande lydelse från andra SFS-nummer redovisas inte
+                # (den genomför andra beslut); förklaringen anger vilka SFS-nummer som har prövats.
+                egna_txt = sfs_lista(list(ANDR_)) if ANDR_ else 'inga'
+                if finns: vad = f"{LAGNAMN_} {p['kap']} kap. {p['par']} § finns i den konsoliderade texten hämtad {HAMTAT} ({sl['andrad_tom']}), men ingen av dess lydelser är införd genom reformens ändrings-SFS ({egna_txt})"
+                else: vad = f"{LAGNAMN_} {p['kap']} kap. {p['par']} § finns inte i den konsoliderade texten hämtad {HAMTAT} ({sl['andrad_tom']}), och {p['kap']} kap. har ingen lydelse införd genom reformens ändrings-SFS ({egna_txt})"
+                rad['status_kalla'] = {'text': vad + '; paragrafen ändras alltså inte genom dessa SFS-nummer. Lydelser införda genom andra SFS-nummer används inte eftersom de genomför andra riksdagsbeslut.', 'url': U_SFS}
                 st = 'ej med'
             rad['status'] = st; stats.append(st)
             rad['manuell_granskning'] = bool((rad.get('proposition') or {}).get('manuell_granskning') or (rad.get('beslutad') or {}).get('manuell_granskning'))
@@ -149,8 +163,8 @@ if __name__ == '__main__':
           '; '.join(f"{x['namn']} konsoliderad, " + x['sl']['andrad_tom'] for x in LI.values()) + ' (riksdagens öppna data, Källa: Regeringskansliet / Lagrummet)'
     meta = {'hamtningsdatum': HAMTAT, 'beslutad_lydelse_kalla': blk + '. Ändrings-SFS i original (svenskforfattningssamling.se) nåddes inte från miljön.',
             'statusregler': {'oförändrad': 'SOU:ns föreslagna paragraf = beslutad lydelse (normaliserad textlikhet ≥ 0,999)', 'ändrad': 'beslutad lydelse finns men skiljer sig; ordagrann ord-diff sparas',
-                             'ej med': f'ingen version införd genom SFS {andr_txt} för paragrafen', 'ej lagtext': 'förslaget är inte författningstext (uppdrag/ansvar)', f'ej i SFS per {HAMTAT}': 'förslaget avser förordning som ännu inte finns i SFS'},
-            'matchning': 'Paragrafer matchas på kapitel + nummer; saknas samma nummer används högst textlikhet inom kapitlet. Likhet < 0,80 ⇒ manuell_granskning: true.',
+                             'ej med': f'ingen version införd genom SFS {andr_txt} för paragrafen (lydelser från andra SFS-nummer används inte)', 'ej lagtext': 'förslaget är inte författningstext (uppdrag/ansvar)', f'ej i SFS per {HAMTAT}': 'förslaget avser förordning som ännu inte finns i SFS'},
+            'matchning': 'Paragrafer matchas på kapitel + nummer bland lydelser införda genom reformens ändrings-SFS; saknas paragrafnumret helt i den konsoliderade texten används högst textlikhet inom kapitlet (bland samma lydelser). Likhet < 0,80 ⇒ manuell_granskning: true.',
             'forslag_till_paragraf': 'Paragrafer knyts till förslag via SOU:ns författningskommentar ("Bestämmelsen behandlas i avsnitt …"), dvs. på avsnittsnivå — flera förslag i samma avsnitt delar paragrafer.'}
     skriv(rid, 'sfs-diff.json', {'_meta': meta, 'forslag': res})
     rows = [x for r in res for x in r['paragrafer']]

@@ -143,7 +143,29 @@
     "2026:1243"
    ],
    "bestamd_form": "skollagen",
-   "anm": "2026:1198 = prop. 2025/26:193 (i kraft 2026-08-01). 2026:1243 = prop. 2025/26:194 (i kraft 2028-07-02), varav bara 4 kap. 12 § (vårdnadshavares inflytande) genomför SOU 2025:8."
+   "anm": "2026:1198 = prop. 2025/26:193 (i kraft 2026-08-01). 2026:1243 = prop. 2025/26:194 (i kraft 2028-07-02), varav bara 4 kap. 12 § (vårdnadshavares inflytande) genomför SOU 2025:8.",
+   "andringar_kalla": [
+    {
+     "sfs": "2026:1198",
+     "prop": "Prop. 2025/26:193",
+     "text": "Bet. 2025/26:UbU22, beslut (dokumentstatus, utskottsförslag punkt 1, BES 2026-06-03): \"Riksdagen antar regeringens förslag till lag om ändring i skollagen (2010:800). Därmed bifaller riksdagen proposition 2025/26:193\". Skollag (2010:800) konsoliderad, riksdagens öppna data (Ändrad: t.o.m. SFS 2026:1636), hämtad 2026-11-11: 30 paragrafversioner har \"Lag (2026:1198)\"; 28 av dem finns i prop. 2025/26:193:s lagförslag (övriga två, 5 kap. 3 a och 13 b §§, är omnumrerade paragrafer enligt propositionens ingress \"nuvarande 5 kap. 4, 4 e och 21 a §§ ska betecknas 5 kap. 3 a, 4 d och 13 b §§\"); övergångsblocket 2026:1198 lyder \"1. Denna lag träder i kraft den 1 augusti 2026.\" som propositionens lagförslag. Ändrings-SFS i original (svenskforfattningssamling.se) och SFS-registret (rkrattsbaser.gov.se) nåddes inte från miljön (proxy 403); riksdagens dokumentstatus för betänkandena anger inga SFS-nummer. Kopplingen SFS-nummer → lag i riksdagsbeslutet bygger därför på ikraftträdandedag, övergångsblock och paragrafuppsättning i den konsoliderade texten jämförda med betänkandets och propositionens text.",
+     "url": "https://data.riksdagen.se/dokumentstatus/HD01UbU22",
+     "ovriga_urler": [
+      "https://data.riksdagen.se/dokument/sfs-2010-800.text",
+      "https://data.riksdagen.se/dokument/HD03193"
+     ]
+    },
+    {
+     "sfs": "2026:1243",
+     "prop": "Prop. 2025/26:194 (lagförslag 2.1, avsnitt 6.2: 4 kap. 12 §)",
+     "text": "Skollag (2010:800) konsoliderad, riksdagens öppna data (Ändrad: t.o.m. SFS 2026:1636), hämtad 2026-11-11: 94 paragrafversioner har \"Lag (2026:1243)\" (90 med /Träder i kraft I:2028-07-02/) och övergångsbestämmelserna har ett block 2026:1243 med nio punkter (\"1. Denna lag träder i kraft den 2 juli 2028.\") = den lag \"som träder i kraft den 2 juli 2028 och har ett flertal övergångsbestämmelser\" i Bet. 2025/26:UbU26 (Utskottets överväganden): \"Det innebär att utskottet föreslår att samordningen av lagstiftningen sker i en lag som träder i kraft den 1 juli 2028 och saknar övergångsbestämmelser, en lag som träder i kraft den 2 juli 2028 och har ett flertal övergångsbestämmelser samt en lag som träder i kraft den 1 januari 2031 och har en övergångsbestämmelse.\". 4 kap. 12 § (prop. 2025/26:194 lagförslag 2.1; författningskommentaren: \"Övervägandena finns i avsnitt 6.2\") har lydelse \"Lag (2026:1243)\" med /Träder i kraft I:2028-07-02/. Beslut (dokumentstatus, utskottsförslag punkt 1, BES 2026-06-09): \"a) antar utskottets förslag i bilaga 3 till 1. lag om ändring i skollagen (2010:800), 2. lag om ändring i skollagen (2010:800), 3. lag om ändring i skollagen (2010:800), b) antar regeringens förslag till lag om ändring i skollagen (2010:800) (proposition 2025/26:197 lagförslag 2) [...] Därmed bifaller riksdagen propositionerna 2025/26:194 punkterna 1.2 och 2.2, 2025/26:195 delpunkt 2, 2025/26:196 punkt 3.2, 2025/26:197 punkterna 1-4 och 2025/26:198 punkterna 2.2 och 3.2.\" Ändrings-SFS i original (svenskforfattningssamling.se) och SFS-registret (rkrattsbaser.gov.se) nåddes inte från miljön (proxy 403); riksdagens dokumentstatus för betänkandena anger inga SFS-nummer. Kopplingen SFS-nummer → lag i riksdagsbeslutet bygger därför på ikraftträdandedag, övergångsblock och paragrafuppsättning i den konsoliderade texten jämförda med betänkandets och propositionens text.",
+     "url": "https://data.riksdagen.se/dokument/HD01UbU26",
+     "ovriga_urler": [
+      "https://data.riksdagen.se/dokumentstatus/HD01UbU26",
+      "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+     ]
+    }
+   ]
   }
  ],
  "forordningar": [
@@ -233,5 +255,17 @@
   "motivering_omformulerad": {}
  },
  "forordning_markor_beskrivning": "utredningens föreslagna bestämmelser om giltig och ogiltig frånvaro",
- "forteckning_korrigeringar": {}
+ "forteckning_korrigeringar": {},
+ "remissida_kontroll": {
+  "datum": "2026-11-11",
+  "regel": "Sprint 17 A2: yttranden från fokusgrupper som är publicerade på remissidan men inte ingår i korpusen enligt förteckningen har lästs. Ett yttrande med sakinnehåll ska ingå även om förteckningen anger att instansen avstått; rena avståendebrev ingår inte.",
+  "tillagda_yttranden": [],
+  "ej_med_avstaenden": []
+ },
+ "begransningar": [
+  "Utredningens förslagsrutor är grova: 8 rutor, varav flera med många punkter.",
+  "Prop. 2025/26:193 behandlar även Ds 2025:9 (mobilförbud); de delarna ingår inte. SOU-avsnitt 3.2 behandlas i prop. 2025/26:194 avsnitt 6.2.",
+  "Förordningsförslagen om frånvaro jämförs med markören \"ogiltig frånvaro\" i de angivna förordningarna.",
+  "Spontana yttranden publiceras inte på regeringen.se; enskilda huvudmän som yttrat sig spontant saknas därför i korpusen."
+ ]
 }

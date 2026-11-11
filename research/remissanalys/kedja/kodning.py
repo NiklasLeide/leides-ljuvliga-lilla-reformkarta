@@ -13,6 +13,8 @@ Användning: python3 research/remissanalys/kedja/kodning.py <reform-id> <kommand
   m2-ihop         m2-resultat-<n>.json → kodning/utmaningstyp.json, m2-dubbel-resultat.json → kodning/dubbelkodning.json
   m2c-underlag    utmaningar med primär typ Otydlighet/Likvärdighet → m2c-underlag.json
   m2c-ihop        m2c-resultat.json → kodning/regelprovning.json
+  m2d-underlag    (efter M2c) 80 slumpvis valda utmaningar (frö SEED_TYP_EFTER) för oberoende typning efter regelprövning
+  m2d-ihop        m2d-resultat.json → kodning/dubbelkodning-efter-regelprovning.json (jämförs med primär typ efter M2c)
   m3-underlag     (efter K7 med typ) utmaningar utan egen hänvisning → m3-batch-1/2.json + m3-forslag.json
   m3-ihop         m3-resultat-<n>.json → kodning/tolkad-koppling.json
 Samstämmighet för identifiering: andel av de 40 passagerna där M1-kodaren och den oberoende kodaren är överens om huruvida
@@ -22,6 +24,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 from gemensamt import config, gemensamt, las, skriv, mapp
 
 SEED_ID, SEED_TYP, N_STICKPROV = 20261201, 20261202, 40
+SEED_TYP_EFTER, N_STICKPROV_EFTER = 20261203, 80   # Sprint 17 A4: typning efter regelprövning (betyg)
 OT, LI = 'Otydlighet i förslaget', 'Likvärdighet och konsekvenser för elever'
 
 def k(rid, namn): return mapp(rid, 'kallor', 'kodning', namn)
@@ -146,8 +149,25 @@ def m3_ihop(rid):
     skriv(rid, 'kodning/tolkad-koppling.json', {'_meta': {'steg': 'M3 tolkad koppling till utredningsförslag för utmaningar utan egen hänvisning (modellkodning, Sprint 17; två kodare, KODINSTRUKTION.md)', 'tolkning': True}, 'kopplingar': rader})
     print(f'{rid}: {len(rader)} kopplingar, varav null {sum(1 for x in rader if not x["forslag"])}')
 
+def m2d_underlag(rid):
+    uu, _ = ej_dubbletter(rid)
+    ut(rid, 'm2d-underlag.json', random.Random(SEED_TYP_EFTER).sample(uu, min(N_STICKPROV_EFTER, len(uu))))
+    print(f'{rid}: {min(N_STICKPROV_EFTER, len(uu))} utmaningar för typning efter regelprövning')
+
+def m2d_ihop(rid):
+    typer = {t[0] for t in gemensamt()['utmaningstyper']}
+    d = inn(rid, 'm2d-underlag.json'); b = lista(inn(rid, 'm2d-resultat.json')); kontrollera_typ(b, [x['id'] for x in d], 'm2d-resultat', typer)
+    KOD = {x['id']: x['primar'] for x in las(rid, 'kodning/utmaningstyp.json')['kodning']}
+    LOGG = {x['id']: x['ny'] for x in las(rid, 'kodning/regelprovning.json')['andringar']}
+    ordn = {x['id']: i for i, x in enumerate(d)}; b = sorted(b, key=lambda x: ordn[x['id']])
+    lika = sum(1 for x in b if LOGG.get(x['id'], KOD[x['id']]) == x['primar'])
+    skriv(rid, 'kodning/dubbelkodning-efter-regelprovning.json', {'_meta': {'steg': f'M2d oberoende typning av {len(b)} slumpvis valda utmaningar (frö {SEED_TYP_EFTER}) jämförd med primär typ efter regelprövning (Sprint 17 A4)',
+        'overens': lika, 'antal': len(b), 'tolkning': True}, 'kodning': [{'id': x['id'], 'primar': x['primar'], 'sekundar': x.get('sekundar'), 'motivering': x['motivering'],
+        'efter_regelprovning': LOGG.get(x['id'], KOD[x['id']])} for x in b]})
+    print(f'{rid}: typning efter regelprövning överens {lika}/{len(b)}')
+
 KOM = {'m1-underlag': m1_underlag, 'm1-ihop': m1_ihop, 'm2-underlag': m2_underlag, 'm2-ihop': m2_ihop, 'm2c-underlag': m2c_underlag,
-       'm2c-ihop': m2c_ihop, 'm3-underlag': m3_underlag, 'm3-ihop': m3_ihop}
+       'm2c-ihop': m2c_ihop, 'm2d-underlag': m2d_underlag, 'm2d-ihop': m2d_ihop, 'm3-underlag': m3_underlag, 'm3-ihop': m3_ihop}
 if __name__ == '__main__':
     if len(sys.argv) < 3 or sys.argv[2] not in KOM: sys.exit(__doc__)
     config(sys.argv[1]); os.makedirs(mapp(sys.argv[1], 'kallor', 'kodning'), exist_ok=True); KOM[sys.argv[2]](sys.argv[1])

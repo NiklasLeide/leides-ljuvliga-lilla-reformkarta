@@ -109,6 +109,57 @@
     ]
    }
   },
+  "publicerade_avstaenden": [],
+  "remissida_kontroll": {
+   "datum": "2026-11-11",
+   "regel": "Sprint 17 A2: yttranden från fokusgrupper som är publicerade på remissidan men inte ingår i korpusen enligt förteckningen har lästs. Ett yttrande med sakinnehåll ska ingå även om förteckningen anger att instansen avstått; rena avståendebrev ingår inte."
+  },
+  "organisationer": [
+   {
+    "id": "skr",
+    "namn": "Sveriges Kommuner och Regioner",
+    "status": "svarat",
+    "kalla": {
+     "text": "Prop. 2025/26:193 bilaga 3 (förteckning över remissinstanserna)",
+     "url": "https://www.regeringen.se/contentassets/7edd1011af6944eda73e62aea7897f04/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-prop.-202526193.pdf"
+    }
+   },
+   {
+    "id": "almega",
+    "namn": "Almega Utbildning",
+    "status": "svarat",
+    "kalla": {
+     "text": "Prop. 2025/26:193 bilaga 3 (förteckning över remissinstanserna)",
+     "url": "https://www.regeringen.se/contentassets/7edd1011af6944eda73e62aea7897f04/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-prop.-202526193.pdf"
+    }
+   },
+   {
+    "id": "ideburna",
+    "namn": "Idéburna skolors riksförbund",
+    "status": "svarat",
+    "kalla": {
+     "text": "Prop. 2025/26:193 bilaga 3 (förteckning över remissinstanserna)",
+     "url": "https://www.regeringen.se/contentassets/7edd1011af6944eda73e62aea7897f04/battre-forutsattningar-for-trygghet-och-studiero-i-skolan-prop.-202526193.pdf"
+    }
+   }
+  ],
+  "kodning": {
+   "samstammighet_identifiering": {
+    "overens": 37,
+    "antal": 40
+   },
+   "samstammighet_typning": {
+    "overens": 35,
+    "antal": 40
+   },
+   "instruktion": "research/remissanalys/kedja/KODINSTRUKTION.md"
+  },
+  "begransningar": [
+   "Utredningens förslagsrutor är grova: 8 rutor, varav flera med många punkter.",
+   "Prop. 2025/26:193 behandlar även Ds 2025:9 (mobilförbud); de delarna ingår inte. SOU-avsnitt 3.2 behandlas i prop. 2025/26:194 avsnitt 6.2.",
+   "Förordningsförslagen om frånvaro jämförs med markören \"ogiltig frånvaro\" i de angivna förordningarna.",
+   "Spontana yttranden publiceras inte på regeringen.se; enskilda huvudmän som yttrat sig spontant saknas därför i korpusen."
+  ],
   "tolkning": "Fält med tolkning: true är tolkning (utmaningstyp; koppling med nivå \"tolkad\"). Kopplingen mellan utredningsförslag och propositionsavsnitt är redaktionell: true. Övrigt är mekaniskt härlett ur källtext.",
   "ingen_bedomning": "Inget fält anger om en utmaning har lösts eller om propositionen har bemött den i sak.",
   "kopplingsnivaer": {
@@ -25679,21 +25730,18 @@
     "redaktionell": true
    },
    "sfs": {
-    "status": "i beslutad lag",
+    "status": null,
     "paragrafer": [
      {
       "paragraf": "1 kap. 3 §",
-      "textlikhet_procent": 15.2
+      "textlikhet_procent": null
      },
      {
       "paragraf": "4 kap. 12 §",
       "textlikhet_procent": 90.0
      }
     ],
-    "kalla": {
-     "text": "Skollag (2010:800) konsoliderad, riksdagens öppna data, hämtad 2026-11-10 (lydelser enligt SFS 2026:1198, 2026:1243)",
-     "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
-    }
+    "forklaring": "Minst en paragraf saknar beslutad lydelse; se diff."
    }
   },
   {
@@ -25831,11 +25879,11 @@
     "redaktionell": true
    },
    "sfs": {
-    "status": "i beslutad lag",
+    "status": null,
     "paragrafer": [
      {
       "paragraf": "1 kap. 3 §",
-      "textlikhet_procent": 15.2
+      "textlikhet_procent": null
      },
      {
       "paragraf": "5 kap. 12 §",
@@ -25878,10 +25926,7 @@
       "textlikhet_procent": 80.3
      }
     ],
-    "kalla": {
-     "text": "Skollag (2010:800) konsoliderad, riksdagens öppna data, hämtad 2026-11-10 (lydelser enligt SFS 2026:1198, 2026:1243)",
-     "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
-    }
+    "forklaring": "Minst en paragraf saknar beslutad lydelse; se diff."
    }
   },
   {
@@ -25901,25 +25946,22 @@
     "redaktionell": true
    },
    "sfs": {
-    "status": "i beslutad lag",
+    "status": null,
     "paragrafer": [
      {
       "paragraf": "7 kap. 17 §",
-      "textlikhet_procent": 20.2
+      "textlikhet_procent": null
      },
      {
       "paragraf": "15 kap. 16 §",
-      "textlikhet_procent": 25.2
+      "textlikhet_procent": null
      },
      {
       "paragraf": "18 kap. 16 §",
-      "textlikhet_procent": 28.7
+      "textlikhet_procent": null
      }
     ],
-    "kalla": {
-     "text": "Skollag (2010:800) konsoliderad, riksdagens öppna data, hämtad 2026-11-10 (lydelser enligt SFS 2026:1198, 2026:1243)",
-     "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
-    }
+    "forklaring": "Minst en paragraf saknar beslutad lydelse; se diff."
    }
   },
   {
@@ -26036,53 +26078,10 @@
     "matchning": "nummer",
     "manuell_granskning": false
    },
-   "beslutad": {
-    "text": "För varje skolform och för fritidshemmet ska en läroplan gälla som utgår från bestämmelserna i denna lag. Läroplanen ska ange utbildningens värdegrund och uppdrag. Den ska också ange mål och riktlinjer för utbildningen. Läroplanerna för grundskolan, anpassade grundskolan, specialskolan och sameskolan ska också innehålla kursplaner och fördelningar av undervisningstiden (timplaner). Regeringen får meddela föreskrifter om de delar av läroplanerna för grundskolan och anpassade grundskolan som innehåller timplaner. I 10 kap. 8 §, 11 kap. 11 §, 12 kap. 8 § och 13 kap. 8 § finns bestämmelser om kursplaner för grundskolan, anpassade grundskolan, specialskolan och sameskolan. Regeringen eller den myndighet som regeringen bestämmer kan med stöd av 8 kap. 7 § regeringsformen meddela föreskrifter om läroplaner i övrigt.",
-    "paragraf": "1 kap. 11 §",
-    "sfs": "2026:1243",
-    "ikraft": "2028-07-02",
-    "likhet_mot_sou": 0.152,
-    "kalla": {
-     "text": "Skollag (2010:800) 1 kap. 11 § i lydelse enligt SFS 2026:1243, träder i kraft 2028-07-02; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
-     "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
-    },
-    "matchning": "textlikhet",
-    "manuell_granskning": true
-   },
-   "textlikhet_procent": 15.2,
-   "diff_sou_mot_beslutad": [
-    {
-     "op": "tillagd",
-     "fore": null,
-     "efter": "För varje skolform och för fritidshemmet ska en läroplan gälla som utgår från bestämmelserna i denna lag. Läroplanen ska ange utbildningens värdegrund och uppdrag. Den ska också ange mål och riktlinjer för utbildningen. Läroplanerna för grundskolan, anpassade grundskolan, specialskolan och sameskolan ska också innehålla kursplaner och fördelningar av undervisningstiden (timplaner). Regeringen får meddela föreskrifter om de delar av läroplanerna för grundskolan och anpassade grundskolan som innehåller timplaner."
-    },
-    {
-     "op": "ersatt",
-     "fore": "denna lag avses",
-     "efter": "10 kap. 8 §, 11 kap. 11 §, 12 kap. 8 § och 13 kap. 8 § finns bestämmelser om kursplaner för grundskolan, anpassade grundskolan, specialskolan och sameskolan. Regeringen eller den myndighet som regeringen bestämmer kan"
-    },
-    {
-     "op": "ersatt",
-     "fore": "– akutskola: en organisatorisk lösning som är knuten till en skolenhet där en elev i grundskolan tillfälligt ska ges undervisning utanför den egna skolenheten enligt 5 kap. 13 §, – distansundervisning: interaktiv undervisning som bedrivs med informationsoch kommunikationsteknik där elever och lärare är åtskilda i både rum och tid, – elev: den som deltar i utbildning enligt denna lag med undantag för barn i förskolan, – fjärrundervisning: interaktiv undervisning som bedrivs med informationsoch kommunikationsteknik där elever och lärare är åtskilda i rum men inte i tid, – fristående fritidshem: sådant fritidshem som bedrivs",
-     "efter": "stöd"
-    },
-    {
-     "op": "ersatt",
-     "fore": "en enskild och som avses i 2",
-     "efter": "8"
-    },
-    {
-     "op": "ersatt",
-     "fore": "andra stycket, – fristående förskola: förskoleenhet vid vilken en enskild bedriver utbildning",
-     "efter": "regeringsformen meddela föreskrifter om läroplaner"
-    },
-    {
-     "op": "ersatt",
-     "fore": "form av förskola, – fristående skola: skolenhet vid vilken en enskild bedriver utbildning inom skolväsendet i form av förskoleklass, grundskola, anpassad grundskola, gymnasieskola, anpassad gymnasieskola eller sådant fritidshem som avses i 2 kap. 7 § första stycket, – förskoleenhet: av huvudman för förskola organiserad enhet som omfattar verksamhet i en eller flera förskolebyggnader som ligger nära varandra och till enheten knuten verksamhet som inte bedrivs i någon förskolebyggnad, – konfessionell inriktning: inriktning på verksamhet som innebär att det där förekommer konfessionella inslag, – konfessionella inslag: bekännande eller förkunnande inslag som tillhör en viss religion och som initieras och genomförs av huvudmannen eller på dennes uppdrag, – lovskola: undervisning inom grundskolan som anordnas enligt denna lag under lov under en termin eller utanför terminstid och som inte är obligatorisk för elever, – lärobok: tryckt läromedel, med eller utan digitala komponenter, – läromedel: helt eller delvis tryckt eller digitalt verk som är avsett att användas i undervisningen, som överensstämmer med relevanta delar av tillämplig kurs-, ämneseller ämnesområdesplan och läroplanen, och som är utgivet av någon som bedriver utgivningsverksamhet av professionell art, – lärverktyg: läroböcker, andra läromedel och andra tryckta eller digitala verk samt utrustning och material som används i undervisningen, – skolenhet: av huvudman för annan skolform än förskola organiserad enhet som omfattar verksamhet i en eller flera skolbyggnader som ligger nära varandra och till enheten knuten verksamhet som inte bedrivs i någon skolbyggnad, – undervisning: processer som på lektioner eller vid andra lärtillfällen bestäms och leds av lärare eller förskollärare mot mål som anges i förordningar och andra författningar som ansluter till denna lag och som syftar till utveckling och lärande genom att barn eller elever inhämtar och utvecklar kunskaper och värden, och – utbildning: verksamhet som bedrivs av en huvudman enligt denna lag inom vilken barn eller elever deltar i undervisning och andra aktiviteter.",
-     "efter": "övrigt."
-    }
-   ],
-   "manuell_granskning": true,
+   "beslutad": null,
+   "textlikhet_procent": null,
+   "diff_sou_mot_beslutad": [],
+   "manuell_granskning": false,
    "belagg": "research/remissanalys/reformer/studiero/sfs-diff.json#/forslag/1/paragrafer/0"
   },
   "4 kap. 12 §": {
@@ -27133,122 +27132,9 @@
     "matchning": "textlikhet",
     "manuell_granskning": true
    },
-   "beslutad": {
-    "text": "En elev i grundskolan, anpassade grundskolan eller specialskolan har rätt att slutföra den högsta årskursen, även om skolplikten upphör dessförinnan. En elev i grundskolan, anpassade grundskolan eller specialskolan har också rätt att efter skolpliktens upphörande slutföra utbildningen under ytterligare två år, om eleven inte har tillgodogjort sig de kunskaper som i ämnenas eller ämnesområdenas kursplaner anges i den del som avser mål och innehåll till en nivå som lägst motsvarar betyget 4 eller motsvarande bedömningskriterium för respektive skolform. En elev i anpassade grundskolan har under denna tid rätt till minst 800 timmars undervisning utöver den i 11 kap. 7 § första stycket garanterade undervisningstiden, om eleven inte dessförinnan har tillgodogjort sig de kunskaper som i ämnenas eller ämnesområdenas kursplaner anges i den del som avser mål och innehåll till en nivå som lägst motsvarar betyget 4 eller motsvarande bedömningskriterium. En elev som har tagits emot i specialskolan enligt 6 § första stycket 1 och som på grund av sina funktionsnedsättningar inte kan få tillfredsställande förhållanden i anpassade gymnasieskolan eller gymnasieskolan, får efter det att skolplikten har upphört och i mån av plats genomgå ytterligare utbildning i specialskolan till och med vårterminen det kalenderår eleven fyller 21 år, om eleven inte bedöms ha förmåga att fullfölja utbildningen enligt andra stycket.",
-    "paragraf": "7 kap. 15 §",
-    "sfs": "2026:1243",
-    "ikraft": "2028-07-02",
-    "likhet_mot_sou": 0.202,
-    "kalla": {
-     "text": "Skollag (2010:800) 7 kap. 15 § i lydelse enligt SFS 2026:1243, träder i kraft 2028-07-02; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
-     "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
-    },
-    "matchning": "textlikhet",
-    "manuell_granskning": true
-   },
-   "textlikhet_procent": 20.2,
-   "diff_sou_mot_beslutad": [
-    {
-     "op": "struken",
-     "fore": "förskoleklassen,",
-     "efter": null
-    },
-    {
-     "op": "tillagd",
-     "fore": null,
-     "efter": "grundskolan eller specialskolan har rätt att slutföra den högsta årskursen, även om skolplikten upphör dessförinnan. En elev i"
-    },
-    {
-     "op": "tillagd",
-     "fore": null,
-     "efter": "anpassade grundskolan eller"
-    },
-    {
-     "op": "ersatt",
-     "fore": "eller sameskolan ska delta i den verksamhet som anordnas för",
-     "efter": "har också rätt"
-    },
-    {
-     "op": "ersatt",
-     "fore": "ge den avsedda utbildningen,",
-     "efter": "efter skolpliktens upphörande slutföra utbildningen under ytterligare två år,"
-    },
-    {
-     "op": "ersatt",
-     "fore": "giltig frånvaro. Den obligatoriska verksamheten får omfatta högst 190 dagar per läsår",
-     "efter": "tillgodogjort sig de kunskaper som i ämnenas eller ämnesområdenas kursplaner anges i den del som avser mål"
-    },
-    {
-     "op": "ersatt",
-     "fore": "åtta timmar eller,",
-     "efter": "innehåll till en nivå som lägst motsvarar betyget 4 eller motsvarande bedömningskriterium för respektive skolform. En elev"
-    },
-    {
-     "op": "ersatt",
-     "fore": "förskoleklassen och de två lägsta årskurserna, sex timmar per dag. Sådan verksamhet får inte förläggas",
-     "efter": "anpassade grundskolan har under denna tid rätt"
-    },
-    {
-     "op": "ersatt",
-     "fore": "lördagar, söndagar eller andra helgdagar. Regeringen eller",
-     "efter": "minst 800 timmars undervisning utöver"
-    },
-    {
-     "op": "ersatt",
-     "fore": "myndighet som regeringen bestämmer får meddela föreskrifter om giltig frånvaro enligt",
-     "efter": "i 11 kap. 7 §"
-    },
-    {
-     "op": "tillagd",
-     "fore": null,
-     "efter": "garanterade undervisningstiden, om eleven inte dessförinnan har tillgodogjort sig de kunskaper som i ämnenas eller ämnesområdenas kursplaner anges i den del som avser mål"
-    },
-    {
-     "op": "ersatt",
-     "fore": "om avvikelser från andra",
-     "efter": "innehåll till en nivå som lägst motsvarar betyget 4 eller motsvarande bedömningskriterium. En elev som har tagits emot i specialskolan enligt 6 § första"
-    },
-    {
-     "op": "ersatt",
-     "fore": "för 1. elever i grundskolan, specialskolan",
-     "efter": "1"
-    },
-    {
-     "op": "struken",
-     "fore": "sameskolan",
-     "efter": null
-    },
-    {
-     "op": "struken",
-     "fore": "läser",
-     "efter": null
-    },
-    {
-     "op": "ersatt",
-     "fore": "en högre nivå och även i andra fall för elever i specialskolan, och 2. elever",
-     "efter": "grund av sina funktionsnedsättningar inte kan få tillfredsställande förhållanden"
-    },
-    {
-     "op": "ersatt",
-     "fore": "grundskolan. Om en elev",
-     "efter": "gymnasieskolan eller gymnasieskolan, får efter det att skolplikten har upphört och"
-    },
-    {
-     "op": "ersatt",
-     "fore": "förskoleklassen, grundskolan, anpassade grundskolan,",
-     "efter": "mån av plats genomgå ytterligare utbildning i"
-    },
-    {
-     "op": "ersatt",
-     "fore": "eller sameskolan utan",
-     "efter": "till och med vårterminen det kalenderår eleven fyller 21 år, om eleven inte bedöms ha förmåga"
-    },
-    {
-     "op": "ersatt",
-     "fore": "ha giltig frånvaro uteblir från den obligatoriska verksamheten, ska rektorn se till att elevens vårdnadshavare samma dag informeras om att eleven har varit frånvarande. Om det finns särskilda skäl behöver elevens vårdnadshavare inte informeras samma dag.",
-     "efter": "fullfölja utbildningen enligt andra stycket."
-    }
-   ],
+   "beslutad": null,
+   "textlikhet_procent": null,
+   "diff_sou_mot_beslutad": [],
    "manuell_granskning": true,
    "belagg": "research/remissanalys/reformer/studiero/sfs-diff.json#/forslag/6/paragrafer/0"
   },
@@ -27272,52 +27158,9 @@
     "matchning": "textlikhet",
     "manuell_granskning": true
    },
-   "beslutad": {
-    "text": "Ungdomar som har ett svårt rörelsehinder har rätt att få utbildning vid en gymnasieskola med Rh-anpassad utbildning om de 1. har slutfört sista årskursen i grundskolan eller motsvarande, 2. kan påbörja utbildningen senast under det första kalenderhalvåret det år de fyller 21 år, och 3. uppfyller de övriga behörighetsvillkor som följer av 16 kap. 29 och 30 §§, när det gäller nationella program. Första stycket 1 gäller inte utbildning i form av ett introduktionsprogram. För att ha rätt till sådan utbildning krävs att grundskoleutbildning eller motsvarande har avslutats.",
-    "paragraf": "15 kap. 36 §",
-    "sfs": "2026:1243",
-    "ikraft": "2028-07-02",
-    "likhet_mot_sou": 0.252,
-    "kalla": {
-     "text": "Skollag (2010:800) 15 kap. 36 § i lydelse enligt SFS 2026:1243, träder i kraft 2028-07-02; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
-     "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
-    },
-    "matchning": "textlikhet",
-    "manuell_granskning": true
-   },
-   "textlikhet_procent": 25.2,
-   "diff_sou_mot_beslutad": [
-    {
-     "op": "ersatt",
-     "fore": "En elev",
-     "efter": "Ungdomar som har ett svårt rörelsehinder har rätt att få utbildning vid en gymnasieskola med Rh-anpassad utbildning om de 1. har slutfört sista årskursen"
-    },
-    {
-     "op": "ersatt",
-     "fore": "gymnasieskolan ska delta",
-     "efter": "grundskolan eller motsvarande, 2. kan påbörja utbildningen senast under det första kalenderhalvåret det år de fyller 21 år, och 3. uppfyller de övriga behörighetsvillkor som följer av 16 kap. 29 och 30 §§, när det gäller nationella program. Första stycket 1 gäller inte utbildning"
-    },
-    {
-     "op": "ersatt",
-     "fore": "den verksamhet som anordnas för att ge den avsedda utbildningen, om eleven inte har giltig frånvaro. Regeringen eller den myndighet som regeringen bestämmer får meddela föreskrifter om giltig frånvaro enligt första stycket. Om en elev i gymnasieskolan utan",
-     "efter": "form av ett introduktionsprogram. För"
-    },
-    {
-     "op": "ersatt",
-     "fore": "giltig frånvaro uteblir från den verksamhet som anordnas för",
-     "efter": "rätt till sådan utbildning krävs"
-    },
-    {
-     "op": "ersatt",
-     "fore": "ge den avsedda utbildningen, ska rektorn se till att elevens vårdnadshavare samma dag informeras om att eleven",
-     "efter": "grundskoleutbildning eller motsvarande"
-    },
-    {
-     "op": "ersatt",
-     "fore": "varit frånvarande. Om det finns särskilda skäl behöver elevens vårdnadshavare inte informeras samma dag. Vid upprepad eller längre frånvaro ska rektorn, oavsett om det är fråga om giltig eller ogiltig frånvaro, se till att frånvaron skyndsamt utreds om det inte är obehövligt. Om förutsättningarna för en utredning om särskilt stöd enligt 3 kap. 7 § är uppfyllda ska även en sådan utredning inledas.",
-     "efter": "avslutats."
-    }
-   ],
+   "beslutad": null,
+   "textlikhet_procent": null,
+   "diff_sou_mot_beslutad": [],
    "manuell_granskning": true,
    "belagg": "research/remissanalys/reformer/studiero/sfs-diff.json#/forslag/6/paragrafer/1"
   },
@@ -27341,72 +27184,9 @@
     "matchning": "textlikhet",
     "manuell_granskning": true
    },
-   "beslutad": {
-    "text": "Utbildningen i anpassade gymnasieskolan ska vara öppen för ungdomar vars skolplikt har upphört och som på grund av att de har en intellektuell funktionsnedsättning inte bedöms ha förutsättningar att i gymnasieskolan tillgodogöra sig de kunskaper som i ämnesplanerna anges i den del som avser syfte och centralt innehåll till en nivå som lägst motsvarar betyget 4. De ungdomar som tillhör målgruppen för anpassade gymnasieskolan har rätt att bli mottagna i anpassad gymnasieskola om utbildningen påbörjas före utgången av det första kalenderhalvåret det år de fyller 20 år.",
-    "paragraf": "18 kap. 4 §",
-    "sfs": "2026:1243",
-    "ikraft": "2028-07-02",
-    "likhet_mot_sou": 0.287,
-    "kalla": {
-     "text": "Skollag (2010:800) 18 kap. 4 § i lydelse enligt SFS 2026:1243, träder i kraft 2028-07-02; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
-     "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
-    },
-    "matchning": "textlikhet",
-    "manuell_granskning": true
-   },
-   "textlikhet_procent": 28.7,
-   "diff_sou_mot_beslutad": [
-    {
-     "op": "ersatt",
-     "fore": "En elev",
-     "efter": "Utbildningen"
-    },
-    {
-     "op": "ersatt",
-     "fore": "delta",
-     "efter": "vara öppen för ungdomar vars skolplikt har upphört och som på grund av att de har en intellektuell funktionsnedsättning inte bedöms ha förutsättningar att i gymnasieskolan tillgodogöra sig de kunskaper som i ämnesplanerna anges"
-    },
-    {
-     "op": "ersatt",
-     "fore": "verksamhet",
-     "efter": "del"
-    },
-    {
-     "op": "ersatt",
-     "fore": "anordnas",
-     "efter": "avser syfte och centralt innehåll till en nivå som lägst motsvarar betyget 4. De ungdomar som tillhör målgruppen"
-    },
-    {
-     "op": "struken",
-     "fore": "att ge den avsedda utbildningen, om eleven inte har giltig frånvaro. Regeringen eller den myndighet som regeringen bestämmer får meddela föreskrifter om giltig frånvaro enligt första stycket. Om en elev i",
-     "efter": null
-    },
-    {
-     "op": "ersatt",
-     "fore": "utan",
-     "efter": "har rätt"
-    },
-    {
-     "op": "ersatt",
-     "fore": "ha giltig frånvaro uteblir från den verksamhet som anordnas för att ge den avsedda utbildningen, ska rektorn se till att elevens vårdnadshavare samma dag informeras",
-     "efter": "bli mottagna i anpassad gymnasieskola"
-    },
-    {
-     "op": "ersatt",
-     "fore": "att eleven har varit frånvarande. Om",
-     "efter": "utbildningen påbörjas före utgången av"
-    },
-    {
-     "op": "ersatt",
-     "fore": "finns särskilda skäl behöver elevens vårdnadshavare inte informeras samma dag. Vid upprepad eller längre frånvaro ska rektorn, oavsett om",
-     "efter": "första kalenderhalvåret"
-    },
-    {
-     "op": "ersatt",
-     "fore": "är fråga om giltig eller ogiltig frånvaro, se till att frånvaron skyndsamt utreds om det inte är obehövligt. Om förutsättningarna för en utredning om särskilt stöd enligt 3 kap. 7 § är uppfyllda ska även en sådan utredning inledas.",
-     "efter": "år de fyller 20 år."
-    }
-   ],
+   "beslutad": null,
+   "textlikhet_procent": null,
+   "diff_sou_mot_beslutad": [],
    "manuell_granskning": true,
    "belagg": "research/remissanalys/reformer/studiero/sfs-diff.json#/forslag/6/paragrafer/2"
   }

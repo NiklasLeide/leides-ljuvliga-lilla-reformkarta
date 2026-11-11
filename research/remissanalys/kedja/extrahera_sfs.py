@@ -1,7 +1,13 @@
 #!/usr/bin/env python3
 """Steg K4 (deterministiskt, kräver kallor/): konsoliderade författningar (riksdagens öppna data) → sfs.json
   lagar:        per lag paragrafversioner (inkl. framtida lydelser '/Träder i kraft I:…/') i de kapitel som utredningens
-                författningskommentar berör (per lag när sou-paragrafer.json har fältet 'lag', dvs. flera lagar), samt övergångsbestämmelserna för ändringslagarna i config lagar[].andringar
+                författningskommentar berör (per lag när sou-paragrafer.json har fältet 'lag', dvs. flera lagar), samt övergångsbestämmelserna för ändringslagarna i config lagar[].andringar.
+                Bara versioner som är införda genom reformens egna ändrings-SFS (config lagar[].andringar, belagda i lagar[].andringar_kalla)
+                sparas: en version vars "Lag (…)"-rad anger ett annat SFS-nummer genomför ett annat riksdagsbeslut och tas inte med
+                (Sprint 17, A1). Lagar utan egna ändrings-SFS (andringar = []) får därför inga versioner.
+                'paragrafer_i_lagen' listar bara beteckningarna ("kap:par") på alla paragrafer som finns i de kapitlen i den konsoliderade
+                texten, oavsett SFS-nummer och utan text: K8 behöver veta om en paragraf finns (men inte ändras av reformens SFS) eller
+                saknas helt (kan ha fått ett annat nummer).
   forordningar: per förordning antal träffar på markörerna i config forordning_markor (t.ex. ny betygsbeteckning) och "Ändrad t.o.m."
 Förutsättning: sou-paragrafer.json (steg K2). Användning: python3 research/remissanalys/kedja/extrahera_sfs.py <reform-id>"""
 import os, re, sys
@@ -51,9 +57,12 @@ if __name__ == '__main__':
         kaps = {p['kap'] for p in souparagrafer if p['kap'] != 'ikraft' and p.get('lag', l['namn']) == l['namn']}
         txt = open(mapp(rid, 'kallor', 'sfs', l['riksdagen_id'] + '.text'), encoding='utf-8').read()
         meta, vers = versioner(txt)
+        egna = set(l['andringar'])   # reformens egna ändrings-SFS; versioner från andra SFS-nummer (andra beslut) tas inte med
         lagar.append({'namn': l['namn'], 'riksdagen_id': l['riksdagen_id'], 'url': f"https://data.riksdagen.se/dokument/{l['riksdagen_id']}.text",
-                      'andrad_tom': meta['andrad_tom'], 'andringar': l['andringar'],
-                      'versioner': [v for v in vers if v['kap'] in kaps], 'overgangsbestammelser': overgang(txt, l['andringar'])})
+                      'andrad_tom': meta['andrad_tom'], 'andringar': l['andringar'], 'andringar_kalla': l.get('andringar_kalla') or [],
+                      'versioner': [v for v in vers if v['kap'] in kaps and v['lag'] in egna],
+                      'paragrafer_i_lagen': list(dict.fromkeys(f"{v['kap']}:{v['par']}" for v in vers if v['kap'] in kaps)),
+                      'overgangsbestammelser': overgang(txt, l['andringar'])})
     markor = c.get('forordning_markor') or []; ford = []
     for f in c.get('forordningar') or []:
         txt = open(mapp(rid, 'kallor', 'sfs', f['riksdagen_id'] + '.text'), encoding='utf-8').read()

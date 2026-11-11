@@ -27,11 +27,16 @@ if __name__ == '__main__':
             d = s['delar'][lab]; t = d['text']
             m = re.search(r'stämmer (?:också )?(?:i huvudsak |delvis )?överens', t)
             first = re.match(r'(.+?\.)(\s|$)', t)
+            if not m and first:
+                # Sprint 17 A3: propositionens formulering som den står, utan krav på ordföljd, i första meningen:
+                # verbet (över)ensstämmer/stämmer och eventuella bestämningar fram till "överens" eller "med"
+                # (t.ex. "Överensstämmer i huvudsak", "stämmer inte överens", "överensstämmer i sak").
+                m = re.search(r'\b(?:[Öö]verensstämmer|[Ss]tämmer)\b(?:\s+(?!med\b)[\wåäöÅÄÖ]+){0,4}?(?:\s+överens\b|(?=\s+med\b))', first.group(1))
             rest = t[first.end():].strip() if first else ''
             post.update(rubrik_i_propositionen=lab, text=t, overensstammelse=m.group(0) if m else None, avvikelse_beskriven=bool(rest),
                         kalla={'text': f"{pr['proposition']} s. {', '.join(map(str, d['sidor']))}, avsnitt {s['avsnitt']} ”{lab}”", 'url': pr['url']}, sida=d['sidor'], kontroll=d['kontroll'])
             out.append(post)
     rub = ' (' + '; '.join(f"prop. {p['kort']}: \"{p['utredningens_forslag_rubrik'][0]}\"" for p in c['propositioner'][1:]) + ')' if len(c['propositioner']) > 1 else ''
     skriv(rid, 'avvikelser.json', {'_meta': {'beskrivning': f'Propositionens stycke "{c["propositioner"][0]["utredningens_forslag_rubrik"][0]}"{rub} per avsnitt med regeringens förslags-/bedömningsruta, ordagrant fram till nästa underrubrik.',
-                                            'overensstammelse': 'propositionens exakta fras', 'avvikelse_beskriven': 'true om stycket innehåller fler meningar än den inledande om överensstämmelse (mekaniskt)'}, 'avsnitt': out})
+                                            'overensstammelse': 'propositionens exakta fras (verbet stämmer/överensstämmer med bestämningar, som det står)', 'avvikelse_beskriven': 'true om stycket innehåller fler meningar än den inledande om överensstämmelse (mekaniskt)'}, 'avsnitt': out})
     print(f"{rid}: {len(out)} avsnitt, stycke saknas i {sum(1 for o in out if not o['text'])}; {dict(collections.Counter(o['overensstammelse'] for o in out))}; kontroll ej hela: {[o['avsnitt'] for o in out if o.get('kontroll') and not o['kontroll']['hela_stycket']]}")

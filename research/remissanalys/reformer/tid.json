@@ -103,7 +103,9 @@
    "riksdagen_id": "sfs-2008-567",
    "andringar": [],
    "bestamd_form": "diskrimineringslagen",
-   "anm": "Utredningens förslag 1.1 (2 kap. 7 § diskrimineringslagen, anmälningsskyldighet för trakasserier flyttas från 6 kap. 10 § skollagen) genomfördes inte: prop. 2025/26:196 har bara lagförslag till skollagen och behåller trakasserierna i 6 kap. skollagen (avsnitt 8). 2 kap. 7 § i den konsoliderade texten (ändrad t.o.m. SFS 2025:736) har ursprunglig lydelse utan \"Lag (…)\". Lagen finns med för att K8 ska kunna jämföra utredningens paragraf (status \"ej med\")."
+   "anm": "Utredningens förslag 1.1 (2 kap. 7 § diskrimineringslagen, anmälningsskyldighet för trakasserier flyttas från 6 kap. 10 § skollagen) genomfördes inte: prop. 2025/26:196 har bara lagförslag till skollagen och behåller trakasserierna i 6 kap. skollagen (avsnitt 8). 2 kap. 7 § i den konsoliderade texten (ändrad t.o.m. SFS 2025:736) har ursprunglig lydelse utan \"Lag (…)\". Lagen finns med för att K8 ska kunna jämföra utredningens paragraf (status \"ej med\").",
+   "andringar_kalla": [],
+   "andringar_anm": "Ingen ändrings-SFS: prop. 2025/26:196 har bara lagförslag till skollagen (bet. 2025/26:UbU25 punkt 1 antar/godtar tre lagar om ändring i skollagen), så riksdagsbeslutet ledde inte till någon ändring i diskrimineringslagen. Värdet är [] (inget SFS-nummer), inte okänt."
   },
   {
    "namn": "Skollag (2010:800)",
@@ -114,7 +116,40 @@
     "2026:1243"
    ],
    "bestamd_form": "skollagen",
-   "anm": "2026:1096 = lagförslag 2.1 (kränkande behandling, i kraft 2026-08-01): 1 kap. 5 §, 6 kap. 1, 2, 10 och 10 a §§ har \"Lag (2026:1096)\". 2026:1097 = lagförslag 2.2 (undervisningsuppdraget, i kraft 2027-07-01): 2 kap. 1 § och 12 a § har \"Lag (2026:1097)\" med /Träder i kraft I:2027-07-01/. Lagförslag 2.3 (information, utvecklingssamtal, plan för kunskapsutveckling) antogs formellt genom bet. 2025/26:UbU26 för lagteknisk samordning med prop. 194, 195, 197 och 198 (bet. 2025/26:UbU25 s. 1, \"godtar\" lagförslag 3); paragraferna 3 kap. 3 §, 8 kap. 11 §, 10 kap. 12–13 §§, 11 kap. 15 §, 12 kap. 12–13 a §§, 13 kap. 12 §, 15 kap. 20 § och 18 kap. 20 § har därför \"Lag (2026:1243)\" (samlad ändringslag, i kraft 2028-07-02, inte 2028-07-01 som i propositionen). 2026:1243 innehåller också ändringar från andra propositioner (betyg, studiero); K8 jämför bara paragrafer som författningskommentaren tar upp. Den konsoliderade texten saknar övergångsblock för 2026:1096 och 2026:1097. Datafel i den konsoliderade texten: 11 kap. 16 a § /Träder i kraft I:2028-07-02/ har rubriken bruten (\"16 a /Träder i kraft …/\" + \"§ I årskurs …\") och känns inte igen av K4."
+   "anm": "2026:1096 = lagförslag 2.1 (kränkande behandling, i kraft 2026-08-01): 1 kap. 5 §, 6 kap. 1, 2, 10 och 10 a §§ har \"Lag (2026:1096)\". 2026:1097 = lagförslag 2.2 (undervisningsuppdraget, i kraft 2027-07-01): 2 kap. 1 § och 12 a § har \"Lag (2026:1097)\" med /Träder i kraft I:2027-07-01/. Lagförslag 2.3 (information, utvecklingssamtal, plan för kunskapsutveckling) antogs formellt genom bet. 2025/26:UbU26 för lagteknisk samordning med prop. 194, 195, 197 och 198 (bet. 2025/26:UbU25 s. 1, \"godtar\" lagförslag 3); paragraferna 3 kap. 3 §, 8 kap. 11 §, 10 kap. 12–13 §§, 11 kap. 15 §, 12 kap. 12–13 a §§, 13 kap. 12 §, 15 kap. 20 § och 18 kap. 20 § har därför \"Lag (2026:1243)\" (samlad ändringslag, i kraft 2028-07-02, inte 2028-07-01 som i propositionen). 2026:1243 innehåller också ändringar från andra propositioner (betyg, studiero); K8 jämför bara paragrafer som författningskommentaren tar upp. Den konsoliderade texten saknar övergångsblock för 2026:1096 och 2026:1097. Datafel i den konsoliderade texten: 11 kap. 16 a § /Träder i kraft I:2028-07-02/ har rubriken bruten (\"16 a /Träder i kraft …/\" + \"§ I årskurs …\") och känns inte igen av K4.",
+   "andringar_kalla": [
+    {
+     "sfs": "2026:1096",
+     "prop": "Prop. 2025/26:196 (lagförslag 2.1)",
+     "text": "Bet. 2025/26:UbU25, beslut (dokumentstatus, utskottsförslag punkt 1, BES 2026-06-09): \"a) antar regeringens förslag till 1. lag om ändring i skollagen (2010:800) (lagförslag 1), 2. lag om ändring i skollagen (2010:800) (lagförslag 2), b) godtar det som utskottet anför om regeringens förslag till lag om ändring i skollagen (2010:800) (lagförslag 3).\" Skollag (2010:800) konsoliderad, riksdagens öppna data (Ändrad: t.o.m. SFS 2026:1636), hämtad 2026-11-11: de sex paragrafversioner som har \"Lag (2026:1096)\" (1 kap. 5 §, 6 kap. 1, 2, 10, 10 a och 12 §§) är exakt de paragrafer som lagförslag 2.1 tar upp (\"1 kap. 5 §, 6 kap. 1, 2, 10 och 12 §§ [...] ska ha följande lydelse, dels att det ska införas en ny paragraf, 6 kap. 10 a §\"; \"Denna lag träder i kraft den 1 augusti 2026.\"). Ändrings-SFS i original (svenskforfattningssamling.se) och SFS-registret (rkrattsbaser.gov.se) nåddes inte från miljön (proxy 403); riksdagens dokumentstatus för betänkandena anger inga SFS-nummer. Kopplingen SFS-nummer → lag i riksdagsbeslutet bygger därför på ikraftträdandedag, övergångsblock och paragrafuppsättning i den konsoliderade texten jämförda med betänkandets och propositionens text.",
+     "url": "https://data.riksdagen.se/dokumentstatus/HD01UbU25",
+     "ovriga_urler": [
+      "https://data.riksdagen.se/dokument/sfs-2010-800.text",
+      "https://data.riksdagen.se/dokument/HD03196"
+     ]
+    },
+    {
+     "sfs": "2026:1097",
+     "prop": "Prop. 2025/26:196 (lagförslag 2.2)",
+     "text": "Bet. 2025/26:UbU25 punkt 1 a) 2 antar lagförslag 2 (se 2026:1096). Skollag (2010:800) konsoliderad, riksdagens öppna data (Ändrad: t.o.m. SFS 2026:1636), hämtad 2026-11-11: 2 kap. 1 § och 2 kap. 12 a § har \"Lag (2026:1097)\" med /Träder i kraft I:2027-07-01/, samma dag som lagförslag 2.2 (\"Denna lag träder i kraft den 1 juli 2027.\"). Ändrings-SFS i original (svenskforfattningssamling.se) och SFS-registret (rkrattsbaser.gov.se) nåddes inte från miljön (proxy 403); riksdagens dokumentstatus för betänkandena anger inga SFS-nummer. Kopplingen SFS-nummer → lag i riksdagsbeslutet bygger därför på ikraftträdandedag, övergångsblock och paragrafuppsättning i den konsoliderade texten jämförda med betänkandets och propositionens text.",
+     "url": "https://data.riksdagen.se/dokumentstatus/HD01UbU25",
+     "ovriga_urler": [
+      "https://data.riksdagen.se/dokument/sfs-2010-800.text",
+      "https://data.riksdagen.se/dokument/HD03196"
+     ]
+    },
+    {
+     "sfs": "2026:1243",
+     "prop": "Prop. 2025/26:196 (lagförslag 2.3)",
+     "text": "Bet. 2025/26:UbU25 punkt 1 b) \"godtar\" lagförslag 3; Beslut (dokumentstatus, utskottsförslag punkt 1, BES 2026-06-09): \"a) antar utskottets förslag i bilaga 3 till 1. lag om ändring i skollagen (2010:800), 2. lag om ändring i skollagen (2010:800), 3. lag om ändring i skollagen (2010:800), b) antar regeringens förslag till lag om ändring i skollagen (2010:800) (proposition 2025/26:197 lagförslag 2) [...] Därmed bifaller riksdagen propositionerna 2025/26:194 punkterna 1.2 och 2.2, 2025/26:195 delpunkt 2, 2025/26:196 punkt 3.2, 2025/26:197 punkterna 1-4 och 2025/26:198 punkterna 2.2 och 3.2.\" Skollag (2010:800) konsoliderad, riksdagens öppna data (Ändrad: t.o.m. SFS 2026:1636), hämtad 2026-11-11: 94 paragrafversioner har \"Lag (2026:1243)\" (90 med /Träder i kraft I:2028-07-02/) och övergångsbestämmelserna har ett block 2026:1243 med nio punkter (\"1. Denna lag träder i kraft den 2 juli 2028.\") = den lag \"som träder i kraft den 2 juli 2028 och har ett flertal övergångsbestämmelser\" i Bet. 2025/26:UbU26 (Utskottets överväganden): \"Det innebär att utskottet föreslår att samordningen av lagstiftningen sker i en lag som träder i kraft den 1 juli 2028 och saknar övergångsbestämmelser, en lag som träder i kraft den 2 juli 2028 och har ett flertal övergångsbestämmelser samt en lag som träder i kraft den 1 januari 2031 och har en övergångsbestämmelse.\". alla 14 extraherade paragrafer (prop-lagtext.json) i lagförslag 2.3 har lydelse \"Lag (2026:1243)\". Ändrings-SFS i original (svenskforfattningssamling.se) och SFS-registret (rkrattsbaser.gov.se) nåddes inte från miljön (proxy 403); riksdagens dokumentstatus för betänkandena anger inga SFS-nummer. Kopplingen SFS-nummer → lag i riksdagsbeslutet bygger därför på ikraftträdandedag, övergångsblock och paragrafuppsättning i den konsoliderade texten jämförda med betänkandets och propositionens text.",
+     "url": "https://data.riksdagen.se/dokument/HD01UbU26",
+     "ovriga_urler": [
+      "https://data.riksdagen.se/dokumentstatus/HD01UbU26",
+      "https://data.riksdagen.se/dokumentstatus/HD01UbU25",
+      "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+     ]
+    }
+   ]
   }
  ],
  "forordningar": [
@@ -202,5 +237,29 @@
    "en privatperson"
   ]
  },
- "forteckning_korrigeringar_anm": "Förteckningen slutar \"… Waldorflärarhögskolan och Waldorfsfederationen samt en privatperson.\"; dela() delar inte på \"samt\" före gemen, så Waldorfsfederationen skulle annars försvinna med privatpersonen."
+ "forteckning_korrigeringar_anm": "Förteckningen slutar \"… Waldorflärarhögskolan och Waldorfsfederationen samt en privatperson.\"; dela() delar inte på \"samt\" före gemen, så Waldorfsfederationen skulle annars försvinna med privatpersonen.",
+ "remissida_kontroll": {
+  "datum": "2026-11-11",
+  "regel": "Sprint 17 A2: yttranden från fokusgrupper som är publicerade på remissidan men inte ingår i korpusen enligt förteckningen har lästs. Ett yttrande med sakinnehåll ska ingå även om förteckningen anger att instansen avstått; rena avståendebrev ingår inte.",
+  "tillagda_yttranden": [],
+  "ej_med_avstaenden": [
+   {
+    "avsandare": "Bromölla kommun",
+    "fokusgrupp": "kommuner",
+    "forteckning": "ej_svarat (förklarat sig avstå eller inte inkommit med yttrande)",
+    "klassning": "avstående",
+    "sidor": 1,
+    "citat": "Kommunstyrelsen beslutar att Bromölla kommun avstår från att besvara remissen.",
+    "kalla": {
+     "text": "Dokument från Bromölla kommun på remissidan",
+     "url": "https://www.regeringen.se/contentassets/71983b04ad68455a913b800227c99598/bromolla-kommun.pdf"
+    }
+   }
+  ]
+ },
+ "begransningar": [
+  "Två lagar (skollagen och diskrimineringslagen); utredningens förslag om diskrimineringslagen 2 kap. 7 § genomfördes inte.",
+  "Förslag som genomförs i förordning (2026:1487) eller i läroplaner (SKOLFS, inte i riksdagens öppna data) jämförs inte maskinellt; status null med förklaring.",
+  "Spontana yttranden publiceras inte på regeringen.se; enskilda huvudmän som yttrat sig spontant saknas därför i korpusen."
+ ]
 }

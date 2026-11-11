@@ -1,211 +1,114 @@
 {
  "_meta": {
-  "steg": "M3 tolkad koppling till utredningsförslag för utmaningar utan egen hänvisning (modellkodning, förstudie 2; två kodare)",
+  "steg": "M3 tolkad koppling till utredningsförslag för utmaningar utan egen hänvisning (modellkodning, Sprint 17; två kodare, KODINSTRUKTION.md)",
   "tolkning": true
  },
  "kopplingar": [
   {
    "uid": "U001",
    "forslag": [
-    "F02"
+    "F39",
+    "F41"
    ],
-   "motivering": "Nya betygskriterier krockar med gy25-kriterier"
+   "motivering": "Nationella slutprov i komvux begränsar flexibiliteten"
   },
   {
    "uid": "U002",
    "forslag": [
-    "F64",
-    "F65"
+    "F17",
+    "F27"
    ],
-   "motivering": "Driftsäkerhet i digitalt slutprovsystem"
+   "motivering": "Kalibreringsmodellens beräkning svår att förstå"
   },
   {
    "uid": "U003",
    "forslag": [
-    "F64",
-    "F65"
+    "F64"
    ],
-   "motivering": "Reservlösning för slutprovsgenomförande"
+   "motivering": "Slutprovens ökade betydelse ger risk för provstyrd undervisning"
   },
   {
    "uid": "U004",
    "forslag": [
-    "F12",
-    "F21"
+    "F39"
    ],
-   "motivering": "Begriplighet i meritvärdesmodellen"
+   "motivering": "Komvux meritvärde via slutprov begränsar utbudet"
   },
   {
    "uid": "U005",
-   "forslag": null,
-   "motivering": "Senarelagd antagning regleras inte av enskilt förslag"
-  },
-  {
-   "uid": "U006",
-   "forslag": null,
-   "motivering": "Följd av sen antagning, inget förslag reglerar tidpunkten"
-  },
-  {
-   "uid": "U007",
-   "forslag": [
-    "F63"
-   ],
-   "motivering": "Vill att slutprovsresultat beaktas vid betygssättning"
-  },
-  {
-   "uid": "U008",
    "forslag": [
     "F17",
-    "F27"
+    "F18"
    ],
-   "motivering": "Kalibreringens begriplighet"
+   "motivering": "Kalibrering minskar lärarbetygens vikt i meritvärdet"
   },
   {
-   "uid": "U009",
+   "uid": "U044",
    "forslag": [
-    "F53"
+    "F01"
    ],
-   "motivering": "Avskaffat programinriktat val krockar med annan utredning"
+   "motivering": "Tiogradig skala kräver mer sambedömning"
   },
   {
-   "uid": "U010",
+   "uid": "U045",
    "forslag": [
+    "F01",
     "F02"
    ],
-   "motivering": "Ändrade betygskriterier i nya ämnesplaner"
+   "motivering": "Fler betygssteg och nya kriterier svårare att förklara"
   },
   {
-   "uid": "U013",
-   "forslag": null,
-   "motivering": "Gäller alternativt förslag, ej i förslagslistan"
-  },
-  {
-   "uid": "U014",
-   "forslag": null,
-   "motivering": "Gäller alternativt förslag om ämnesvis kalibrering"
-  },
-  {
-   "uid": "U015",
-   "forslag": null,
-   "motivering": "Allmän svårighet att överblicka systemet"
-  },
-  {
-   "uid": "U017",
+   "uid": "U046",
    "forslag": [
-    "F63"
+    "F17"
    ],
-   "motivering": "Slutprovsresultat bör beaktas vid betygssättning"
+   "motivering": "Kalibrerade betygsvärden svåra att förklara för elever"
   },
   {
-   "uid": "U018",
-   "forslag": null,
-   "motivering": "Yrkesprogrammens utformning, inget förslag här"
-  },
-  {
-   "uid": "U019",
-   "forslag": null,
-   "motivering": "Yrkesprov ingår inte i förslagen"
-  },
-  {
-   "uid": "U020",
+   "uid": "U047",
    "forslag": [
-    "F74"
+    "F12",
+    "F21"
    ],
-   "motivering": "Skolverkets hantering av undantag från slutprov"
+   "motivering": "Beräkning av nytt meritvärde fördröjer antagningsbesked"
   },
   {
-   "uid": "U021",
+   "uid": "U058",
    "forslag": [
-    "F63"
+    "F41"
    ],
-   "motivering": "Nationella prov årskurs 6 och beaktande"
+   "motivering": "Två provtillfällen per år i komvux"
   },
   {
-   "uid": "U022",
-   "forslag": [
-    "F77"
-   ],
-   "motivering": "Kort tid mellan ikraftträdande och tillämpning"
-  },
-  {
-   "uid": "U023",
-   "forslag": null,
-   "motivering": "Allmän samordning av reformer"
-  },
-  {
-   "uid": "U024",
-   "forslag": [
-    "F55",
-    "F78"
-   ],
-   "motivering": "IM-elevers blandbetyg under övergången"
-  },
-  {
-   "uid": "U025",
-   "forslag": [
-    "F77"
-   ],
-   "motivering": "Första årskullar antas under annat regelverk, tidpunkt"
-  },
-  {
-   "uid": "U026",
-   "forslag": [
-    "F77"
-   ],
-   "motivering": "Två betygssystem samtidigt pga tillämpningstidpunkt"
-  },
-  {
-   "uid": "U030",
+   "uid": "U059",
    "forslag": [
     "F39"
    ],
-   "motivering": "Komvux meritvärdering försämrar förutsättningar"
-  },
-  {
-   "uid": "U031",
-   "forslag": null,
-   "motivering": "Många samtidiga ändringar, allmänt"
-  },
-  {
-   "uid": "U032",
-   "forslag": null,
-   "motivering": "Parallella utredningar, allmänt"
-  },
-  {
-   "uid": "U033",
-   "forslag": [
-    "F77"
-   ],
-   "motivering": "Kort tidshorisont för ikraftträdande"
-  },
-  {
-   "uid": "U067",
-   "forslag": null,
-   "motivering": "Allmänt behov av stödmaterial"
+   "motivering": "Slutprovsbaserat meritvärde kan avskräcka från komvux"
   },
   {
    "uid": "U068",
-   "forslag": null,
-   "motivering": "Allmän arbetsbörda"
+   "forslag": [
+    "F41"
+   ],
+   "motivering": "Fasta provtillfällen i komvux ger varierande elevantal"
   },
   {
    "uid": "U069",
-   "forslag": [
-    "F69"
-   ],
-   "motivering": "Lärarresurser för central rättning"
+   "forslag": null,
+   "motivering": "Generell tidsplan och reformsamordning"
   },
   {
    "uid": "U070",
-   "forslag": null,
-   "motivering": "Allmänna tekniska systemfrågor"
-  },
-  {
-   "uid": "U071",
    "forslag": [
     "F77"
    ],
-   "motivering": "Vill förlänga tidplanen för införandet"
+   "motivering": "Ikraftträdandet bedöms för snävt"
+  },
+  {
+   "uid": "U071",
+   "forslag": null,
+   "motivering": "Parallella utredningar, inget enskilt förslag"
   },
   {
    "uid": "U072",
@@ -213,35 +116,96 @@
     "F17",
     "F18"
    ],
-   "motivering": "Svårt förklara nedkalibrering av meritvärde"
+   "motivering": "Kalibreringsmodell och provens vägning svåra att förklara"
   },
   {
    "uid": "U073",
-   "forslag": [
-    "F41"
-   ],
-   "motivering": "Fasta slutprovstider passar inte komvux flexibilitet"
+   "forslag": null,
+   "motivering": "Generellt behov av implementeringsstöd"
   },
   {
    "uid": "U074",
    "forslag": [
-    "F01"
+    "F78"
    ],
-   "motivering": "Mer fingradig skala kräver sambedömning"
+   "motivering": "Övergångsperiod med två betygssystem parallellt"
   },
   {
    "uid": "U075",
    "forslag": [
-    "F01"
+    "F64"
    ],
-   "motivering": "Förklara skillnader mellan betygssteg"
+   "motivering": "Slutprov riskerar provstyrd undervisning"
   },
   {
    "uid": "U076",
+   "forslag": null,
+   "motivering": "Vag fråga om komvux uppdrag"
+  },
+  {
+   "uid": "U077",
+   "forslag": null,
+   "motivering": "Vag fråga om introduktionsprogrammens uppdrag"
+  },
+  {
+   "uid": "U078",
    "forslag": [
-    "F17"
+    "F17",
+    "F27",
+    "F68"
    ],
-   "motivering": "Kalibreringsresultat svåra att förklara"
+   "motivering": "Kalibrering och årsvis standardisering ifrågasätts"
+  },
+  {
+   "uid": "U079",
+   "forslag": [
+    "F02"
+   ],
+   "motivering": "Nya generella betygskriterier öppna för tolkning"
+  },
+  {
+   "uid": "U080",
+   "forslag": [
+    "F02"
+   ],
+   "motivering": "Nya betygskriterier kort efter tidigare ändring"
+  },
+  {
+   "uid": "U081",
+   "forslag": null,
+   "motivering": "Digital provplattform, inget enskilt förslag reglerar"
+  },
+  {
+   "uid": "U082",
+   "forslag": null,
+   "motivering": "Reservlösning för digitala prov saknas i förslagen"
+  },
+  {
+   "uid": "U083",
+   "forslag": [
+    "F12",
+    "F21"
+   ],
+   "motivering": "Meritvärdesberäkningen svår att förstå"
+  },
+  {
+   "uid": "U084",
+   "forslag": [
+    "F69"
+   ],
+   "motivering": "Sen central rättning gör behörighet okänd"
+  },
+  {
+   "uid": "U085",
+   "forslag": [
+    "F69"
+   ],
+   "motivering": "Sena slutprovsresultat försvårar lärarplanering"
+  },
+  {
+   "uid": "U086",
+   "forslag": null,
+   "motivering": "Återföring av resultat regleras inte av enskilt förslag"
   },
   {
    "uid": "U087",
@@ -249,500 +213,98 @@
     "F17",
     "F27"
    ],
-   "motivering": "Kalibreringsmodellen svår att förstå"
+   "motivering": "Kalibreringen svårbegriplig"
   },
   {
    "uid": "U088",
-   "forslag": null,
-   "motivering": "Senare gymnasieantagning, inget förslag reglerar tidpunkten"
+   "forslag": [
+    "F20",
+    "F33",
+    "F38"
+   ],
+   "motivering": "Många undantag från kalibreringsmodellen"
   },
   {
    "uid": "U089",
    "forslag": [
-    "F77"
+    "F53"
    ],
-   "motivering": "Tidplanen för införande optimistisk"
+   "motivering": "Borttagande av programinriktat val krockar med annan utredning"
   },
   {
    "uid": "U090",
-   "forslag": null,
-   "motivering": "Beroenden mellan reformer, allmänt"
-  },
-  {
-   "uid": "U091",
-   "forslag": null,
-   "motivering": "Oklart implementeringsstöd, allmänt"
-  },
-  {
-   "uid": "U092",
-   "forslag": null,
-   "motivering": "Stöd i ämnen utan slutprov, inget specifikt förslag"
-  },
-  {
-   "uid": "U093",
-   "forslag": [
-    "F61",
-    "F62"
-   ],
-   "motivering": "Bedömningssamråd på små enheter"
-  },
-  {
-   "uid": "U094",
-   "forslag": [
-    "F61",
-    "F62"
-   ],
-   "motivering": "Kvalitet i bedömningssamråd"
-  },
-  {
-   "uid": "U095",
-   "forslag": [
-    "F69"
-   ],
-   "motivering": "Central rättning kan öka lärares behov av underlag"
-  },
-  {
-   "uid": "U096",
-   "forslag": null,
-   "motivering": "Finansiering allmänt"
-  },
-  {
-   "uid": "U097",
-   "forslag": null,
-   "motivering": "Kostnader för antagningssystem, allmänt"
-  },
-  {
-   "uid": "U099",
    "forslag": [
     "F02"
    ],
-   "motivering": "Stöd vid införande av nya betygskriterier"
+   "motivering": "Betygskriteriernas funktion i ämnesplaner ändras igen"
+  },
+  {
+   "uid": "U091",
+   "forslag": [
+    "F02"
+   ],
+   "motivering": "Kriteriebeskrivningar i icke bindande kommentarmaterial"
+  },
+  {
+   "uid": "U110",
+   "forslag": null,
+   "motivering": "Provplattform generellt, inget enskilt förslag"
+  },
+  {
+   "uid": "U111",
+   "forslag": [
+    "F61",
+    "F62"
+   ],
+   "motivering": "Likvärdighet i bedömningssamråd oklar"
+  },
+  {
+   "uid": "U112",
+   "forslag": null,
+   "motivering": "Generell administrativ arbetsbörda"
+  },
+  {
+   "uid": "U113",
+   "forslag": null,
+   "motivering": "Generella kostnader och tid"
+  },
+  {
+   "uid": "U114",
+   "forslag": null,
+   "motivering": "Generell tidsåtgång för lärare"
   },
   {
    "uid": "U115",
    "forslag": null,
-   "motivering": "Fördjupning i provämnen, inget specifikt förslag"
+   "motivering": "Generell reformiver"
   },
   {
    "uid": "U116",
-   "forslag": [
-    "F38",
-    "F17"
-   ],
-   "motivering": "Kalibrering på små program"
+   "forslag": null,
+   "motivering": "Reformens omfattning och plattform generellt"
   },
   {
    "uid": "U117",
-   "forslag": [
-    "F39"
-   ],
-   "motivering": "Komvux kompensatoriska roll vid slutprovsbaserat meritvärde"
+   "forslag": null,
+   "motivering": "Skolverkets provplattform, inget enskilt förslag"
   },
   {
    "uid": "U118",
-   "forslag": null,
-   "motivering": "Allmänt behov av stöd"
+   "forslag": [
+    "F67"
+   ],
+   "motivering": "Provens svårighetsgrad mellan år påverkar meritvärden"
   },
   {
    "uid": "U119",
-   "forslag": null,
-   "motivering": "Samordning med andra reformer"
+   "forslag": [
+    "F61",
+    "F62"
+   ],
+   "motivering": "Små skolor svårt bilda bedömningssamråd"
   },
   {
    "uid": "U120",
-   "forslag": null,
-   "motivering": "Behov av informationsmaterial"
-  },
-  {
-   "uid": "U121",
-   "forslag": null,
-   "motivering": "Allmänt behov av analysverktyg"
-  },
-  {
-   "uid": "U122",
-   "forslag": [
-    "F17",
-    "F27"
-   ],
-   "motivering": "Kalibreringens statistiska logik komplex"
-  },
-  {
-   "uid": "U123",
-   "forslag": [
-    "F17"
-   ],
-   "motivering": "Transparens i kalibreringens beräkningsprinciper"
-  },
-  {
-   "uid": "U133",
-   "forslag": [
-    "F39",
-    "F41"
-   ],
-   "motivering": "Slutprov i komvux jämfört med gymnasiet"
-  },
-  {
-   "uid": "U134",
-   "forslag": [
-    "F41"
-   ],
-   "motivering": "Komvux slutprov samtidigt som gymnasiet"
-  },
-  {
-   "uid": "U135",
-   "forslag": [
-    "F77"
-   ],
-   "motivering": "För kort implementeringsperiod"
-  },
-  {
-   "uid": "U138",
-   "forslag": [
-    "F77"
-   ],
-   "motivering": "Behov av anpassad tidsplan"
-  },
-  {
-   "uid": "U139",
-   "forslag": [
-    "F77"
-   ],
-   "motivering": "Tidsplanen för snäv"
-  },
-  {
-   "uid": "U140",
-   "forslag": null,
-   "motivering": "Fortbildningsbehov, allmänt"
-  },
-  {
-   "uid": "U141",
-   "forslag": null,
-   "motivering": "Parallella utredningar, allmänt"
-  },
-  {
-   "uid": "U142",
-   "forslag": [
-    "F17",
-    "F18"
-   ],
-   "motivering": "Kalibrering och provvikt svår att förklara"
-  },
-  {
-   "uid": "U143",
-   "forslag": null,
-   "motivering": "Implementeringsstöd, allmänt"
-  },
-  {
-   "uid": "U144",
-   "forslag": null,
-   "motivering": "Resurser under övergång, allmänt"
-  },
-  {
-   "uid": "U145",
-   "forslag": null,
-   "motivering": "Vag rubrik om komvux uppdrag"
-  },
-  {
-   "uid": "U146",
-   "forslag": null,
-   "motivering": "Vag rubrik om introduktionsprogram"
-  },
-  {
-   "uid": "U147",
-   "forslag": [
-    "F39"
-   ],
-   "motivering": "Komvux meritvärde enbart slutprov"
-  },
-  {
-   "uid": "U148",
-   "forslag": [
-    "F77"
-   ],
-   "motivering": "Tidsplan snäv, bör senareläggas"
-  },
-  {
-   "uid": "U149",
-   "forslag": null,
-   "motivering": "Gymnasieantagningens tidpunkt regleras inte av förslag"
-  },
-  {
-   "uid": "U150",
-   "forslag": [
-    "F17"
-   ],
-   "motivering": "Kalibreringsmodellen svår att förklara"
-  },
-  {
-   "uid": "U158",
-   "forslag": null,
-   "motivering": "Digitala system allmänt"
-  },
-  {
-   "uid": "U159",
-   "forslag": null,
-   "motivering": "Förändringsarbete och IT allmänt"
-  },
-  {
-   "uid": "U160",
-   "forslag": null,
-   "motivering": "Finansiering allmänt"
-  },
-  {
-   "uid": "U161",
-   "forslag": [
-    "F01"
-   ],
-   "motivering": "Ny betygsskala skapar oro"
-  },
-  {
-   "uid": "U162",
-   "forslag": [
-    "F01"
-   ],
-   "motivering": "Tolkning av nya skalan"
-  },
-  {
-   "uid": "U163",
-   "forslag": null,
-   "motivering": "Samordning med andra reformer"
-  },
-  {
-   "uid": "U164",
-   "forslag": [
-    "F77"
-   ],
-   "motivering": "Tidsram för införande för snäv"
-  },
-  {
-   "uid": "U165",
-   "forslag": null,
-   "motivering": "Finansiering allmänt"
-  },
-  {
-   "uid": "U166",
-   "forslag": null,
-   "motivering": "Lärares egna prov, inget specifikt förslag"
-  },
-  {
-   "uid": "U167",
-   "forslag": [
-    "F61",
-    "F62"
-   ],
-   "motivering": "Bedömningssamråd på små enheter"
-  },
-  {
-   "uid": "U168",
-   "forslag": [
-    "F17",
-    "F27"
-   ],
-   "motivering": "Kalibreringsberäkning svårbegriplig"
-  },
-  {
-   "uid": "U169",
-   "forslag": [
-    "F39"
-   ],
-   "motivering": "Komvux utbud vid slutprovsbaserat meritvärde"
-  },
-  {
-   "uid": "U170",
-   "forslag": [
-    "F18",
-    "F28"
-   ],
-   "motivering": "Lärarsatta betyg får mindre vikt i meritvärdet"
-  },
-  {
-   "uid": "U177",
-   "forslag": null,
-   "motivering": "Avvikande provresultat, avsnitt saknar förslag i listan"
-  },
-  {
-   "uid": "U184",
-   "forslag": [
-    "F39"
-   ],
-   "motivering": "Komvux genomströmning vid slutprovskrav"
-  },
-  {
-   "uid": "U185",
-   "forslag": [
-    "F39"
-   ],
-   "motivering": "Följd av komvux slutprovskrav"
-  },
-  {
-   "uid": "U190",
-   "forslag": null,
-   "motivering": "Trendmätning är inget förslag i listan"
-  },
-  {
-   "uid": "U191",
-   "forslag": null,
-   "motivering": "Systembyten allmänt"
-  },
-  {
-   "uid": "U192",
-   "forslag": [
-    "F39",
-    "F41"
-   ],
-   "motivering": "Slutprov anpassade till vuxenutbildning"
-  },
-  {
-   "uid": "U193",
-   "forslag": [
-    "F75",
-    "F41"
-   ],
-   "motivering": "Samordnade provtider kostar i komvux"
-  },
-  {
-   "uid": "U194",
-   "forslag": [
-    "F64"
-   ],
-   "motivering": "Teknisk kapacitet för slutprov"
-  },
-  {
-   "uid": "U209",
-   "forslag": null,
-   "motivering": "Stress och arbetsbörda allmänt"
-  },
-  {
-   "uid": "U210",
-   "forslag": [
-    "F77"
-   ],
-   "motivering": "Omfattande förändringar på kort tid"
-  },
-  {
-   "uid": "U211",
-   "forslag": [
-    "F77"
-   ],
-   "motivering": "Förändringar genomförs för snabbt"
-  },
-  {
-   "uid": "U213",
-   "forslag": [
-    "F01"
-   ],
-   "motivering": "Oklart när streck ges"
-  },
-  {
-   "uid": "U228",
-   "forslag": null,
-   "motivering": "Helhet kring utredningar, allmänt"
-  },
-  {
-   "uid": "U242",
-   "forslag": null,
-   "motivering": "Programstart och antagningstidpunkt, inget förslag"
-  },
-  {
-   "uid": "U243",
-   "forslag": null,
-   "motivering": "Tjänstefördelning vid sen antagning, inget förslag"
-  },
-  {
-   "uid": "U247",
-   "forslag": null,
-   "motivering": "Helhet kring utredningar, allmänt"
-  },
-  {
-   "uid": "U248",
-   "forslag": [
-    "F41"
-   ],
-   "motivering": "Två provtillfällen per år i komvux"
-  },
-  {
-   "uid": "U249",
-   "forslag": [
-    "F39"
-   ],
-   "motivering": "Slutprov avskräcker från komvux"
-  },
-  {
-   "uid": "U256",
-   "forslag": [
-    "F41"
-   ],
-   "motivering": "Elevflöden pga begränsade provtillfällen i komvux"
-  },
-  {
-   "uid": "U257",
-   "forslag": [
-    "F69"
-   ],
-   "motivering": "Avidentifiering vid central bedömning"
-  },
-  {
-   "uid": "U258",
-   "forslag": [
-    "F64",
-    "F65"
-   ],
-   "motivering": "Stabil plattform för nationella prov"
-  },
-  {
-   "uid": "U259",
-   "forslag": [
-    "F61",
-    "F62"
-   ],
-   "motivering": "Likvärdiga bedömningssamråd"
-  },
-  {
-   "uid": "U260",
-   "forslag": null,
-   "motivering": "Administrativ arbetsbörda allmänt"
-  },
-  {
-   "uid": "U261",
-   "forslag": null,
-   "motivering": "Kostnad och tid allmänt"
-  },
-  {
-   "uid": "U262",
-   "forslag": null,
-   "motivering": "Lärares tid vid implementering, allmänt"
-  },
-  {
-   "uid": "U263",
-   "forslag": null,
-   "motivering": "Reformiver allmänt"
-  },
-  {
-   "uid": "U264",
-   "forslag": [
-    "F64",
-    "F65"
-   ],
-   "motivering": "Beroende av stabil provplattform"
-  },
-  {
-   "uid": "U265",
-   "forslag": [
-    "F64",
-    "F65"
-   ],
-   "motivering": "Skolverkets digitala provplattform"
-  },
-  {
-   "uid": "U266",
-   "forslag": [
-    "F61",
-    "F62"
-   ],
-   "motivering": "Bedömningssamråd på små skolor"
-  },
-  {
-   "uid": "U267",
    "forslag": [
     "F61",
     "F62"
@@ -750,53 +312,1401 @@
    "motivering": "Likvärdighet och uppföljning av bedömningssamråd"
   },
   {
-   "uid": "U268",
+   "uid": "U121",
    "forslag": [
     "F69"
    ],
-   "motivering": "Central rättning minskar återkoppling till lärare"
+   "motivering": "Central rättning minskar återkoppling till skolor"
   },
   {
-   "uid": "U269",
+   "uid": "U122",
+   "forslag": [
+    "F17"
+   ],
+   "motivering": "Kalibreringsberäkningen tekniskt svår att förklara"
+  },
+  {
+   "uid": "U123",
+   "forslag": [
+    "F17"
+   ],
+   "motivering": "Kalibrering utifrån skolors medelvärden ger skillnader"
+  },
+  {
+   "uid": "U124",
+   "forslag": null,
+   "motivering": "Generell legitimitetsfråga"
+  },
+  {
+   "uid": "U125",
+   "forslag": [
+    "F39",
+    "F77"
+   ],
+   "motivering": "Komvuxmodell och snäv tidplan"
+  },
+  {
+   "uid": "U126",
+   "forslag": null,
+   "motivering": "Generella ekonomiska konsekvenser"
+  },
+  {
+   "uid": "U127",
+   "forslag": null,
+   "motivering": "Minskade statsbidrag, inget enskilt förslag tydligt"
+  },
+  {
+   "uid": "U128",
+   "forslag": [
+    "F63"
+   ],
+   "motivering": "Nationella prov upphör som bedömningsstöd"
+  },
+  {
+   "uid": "U129",
+   "forslag": null,
+   "motivering": "Generella implementeringsinsatser"
+  },
+  {
+   "uid": "U133",
+   "forslag": [
+    "F17",
+    "F69"
+   ],
+   "motivering": "Central rättning och kalibrering gör meritvärde oförutsägbart"
+  },
+  {
+   "uid": "U134",
+   "forslag": [
+    "F17"
+   ],
+   "motivering": "Kalibreringens oförutsägbarhet kräver information"
+  },
+  {
+   "uid": "U135",
+   "forslag": [
+    "F17"
+   ],
+   "motivering": "Kalibrering kräver konsekvent betygssättning"
+  },
+  {
+   "uid": "U136",
+   "forslag": [
+    "F17"
+   ],
+   "motivering": "Kalibreringsfunktioner kräver pilottestning"
+  },
+  {
+   "uid": "U137",
+   "forslag": [
+    "F17",
+    "F38"
+   ],
+   "motivering": "Kalibrering på små skolor känslig för enskilda resultat"
+  },
+  {
+   "uid": "U138",
+   "forslag": [
+    "F64"
+   ],
+   "motivering": "Slutprov ger provorienterad undervisning"
+  },
+  {
+   "uid": "U139",
    "forslag": [
     "F17",
     "F18"
    ],
-   "motivering": "Meritvärdesberäkningen svår att förklara"
+   "motivering": "Kalibreringsmodellen försvagar lärarnas roll"
   },
   {
-   "uid": "U270",
+   "uid": "U140",
+   "forslag": [
+    "F18",
+    "F71",
+    "F72"
+   ],
+   "motivering": "Provvikten skapar obalans mellan provämnen och övriga"
+  },
+  {
+   "uid": "U147",
+   "forslag": [
+    "F64",
+    "F75"
+   ],
+   "motivering": "Samtidiga slutprov kräver lokaler, utrustning, personal"
+  },
+  {
+   "uid": "U148",
+   "forslag": [
+    "F75",
+    "F76"
+   ],
+   "motivering": "Provsäkerhet vid slutprov"
+  },
+  {
+   "uid": "U149",
+   "forslag": [
+    "F76"
+   ],
+   "motivering": "Ansvar för utredning av fusk oklart"
+  },
+  {
+   "uid": "U150",
+   "forslag": [
+    "F64"
+   ],
+   "motivering": "Provorganisation för slutprov kräver resurser"
+  },
+  {
+   "uid": "U151",
    "forslag": null,
-   "motivering": "Systemet krångligt, allmänt"
+   "motivering": "Analysarbete, ingen enskild förslagsreglering tydlig"
   },
   {
-   "uid": "U271",
+   "uid": "U152",
+   "forslag": [
+    "F69"
+   ],
+   "motivering": "Central rättning minskar arbetsbördan mindre än bedömt"
+  },
+  {
+   "uid": "U153",
    "forslag": [
     "F77"
    ],
-   "motivering": "Rimlig implementeringstid"
+   "motivering": "Snäv tidsplan för ikraftträdande"
   },
   {
-   "uid": "U272",
+   "uid": "U154",
+   "forslag": [
+    "F77"
+   ],
+   "motivering": "Tillämpningsstart ger tre parallella betygssystem"
+  },
+  {
+   "uid": "U155",
    "forslag": null,
-   "motivering": "Studie- och yrkesvägledning, inget förslag"
+   "motivering": "Många samtidiga reformer"
+  },
+  {
+   "uid": "U156",
+   "forslag": null,
+   "motivering": "Generell kompetensutveckling och systemanpassning"
+  },
+  {
+   "uid": "U157",
+   "forslag": null,
+   "motivering": "Provvolym och störningskänslighet generellt"
+  },
+  {
+   "uid": "U158",
+   "forslag": null,
+   "motivering": "Generellt informationsbehov"
+  },
+  {
+   "uid": "U159",
+   "forslag": [
+    "F77"
+   ],
+   "motivering": "Snäv tidsplan för införande"
+  },
+  {
+   "uid": "U160",
+   "forslag": [
+    "F01"
+   ],
+   "motivering": "Fler betygssteg kan försvåra bedömningen"
+  },
+  {
+   "uid": "U161",
+   "forslag": null,
+   "motivering": "Flera reformer utan finansiering"
+  },
+  {
+   "uid": "U162",
+   "forslag": [
+    "F77"
+   ],
+   "motivering": "Tidsramen för införande snäv"
+  },
+  {
+   "uid": "U163",
+   "forslag": null,
+   "motivering": "Finansiering generellt"
+  },
+  {
+   "uid": "U164",
+   "forslag": null,
+   "motivering": "Egna övningsprov, inget enskilt förslag tydligt"
+  },
+  {
+   "uid": "U165",
+   "forslag": [
+    "F61",
+    "F62"
+   ],
+   "motivering": "Bedömningssamråd svårt på små enheter"
+  },
+  {
+   "uid": "U166",
+   "forslag": [
+    "F17",
+    "F38"
+   ],
+   "motivering": "Kalibreringsmodellen förutsätter större skolor"
+  },
+  {
+   "uid": "U167",
+   "forslag": null,
+   "motivering": "Oklart vilket förslag som avses"
+  },
+  {
+   "uid": "U168",
+   "forslag": [
+    "F64"
+   ],
+   "motivering": "Slutprov styr undervisningen"
+  },
+  {
+   "uid": "U169",
+   "forslag": [
+    "F69"
+   ],
+   "motivering": "Lärarresurser för central rättning"
+  },
+  {
+   "uid": "U170",
+   "forslag": null,
+   "motivering": "Generell komplexitet"
+  },
+  {
+   "uid": "U171",
+   "forslag": [
+    "F77"
+   ],
+   "motivering": "Tidplanen för optimistisk"
+  },
+  {
+   "uid": "U172",
+   "forslag": null,
+   "motivering": "Generella kostnader"
+  },
+  {
+   "uid": "U173",
+   "forslag": [
+    "F17",
+    "F61"
+   ],
+   "motivering": "Kalibrering och samråd kräver lärarsamarbete"
+  },
+  {
+   "uid": "U174",
+   "forslag": [
+    "F18"
+   ],
+   "motivering": "Lärarbetyg väger fortsatt tungt i meritvärdet"
+  },
+  {
+   "uid": "U175",
+   "forslag": null,
+   "motivering": "Generella kommunikativa utmaningar"
+  },
+  {
+   "uid": "U176",
+   "forslag": null,
+   "motivering": "Generell arbetsbörda och lärarroll"
+  },
+  {
+   "uid": "U177",
+   "forslag": [
+    "F12",
+    "F17"
+   ],
+   "motivering": "Oklar tidsram för slutprov och kalibrering"
+  },
+  {
+   "uid": "U178",
+   "forslag": [
+    "F61",
+    "F62"
+   ],
+   "motivering": "Rektors ansvar för samråd på små skolor"
+  },
+  {
+   "uid": "U179",
+   "forslag": [
+    "F61",
+    "F62"
+   ],
+   "motivering": "Bedömningssamråd tar lärartid"
+  },
+  {
+   "uid": "U180",
+   "forslag": [
+    "F64"
+   ],
+   "motivering": "Slutprovens genomförande administrativt betungande"
+  },
+  {
+   "uid": "U181",
+   "forslag": null,
+   "motivering": "Tekniska lösningar generellt"
+  },
+  {
+   "uid": "U182",
+   "forslag": [
+    "F61",
+    "F62",
+    "F69"
+   ],
+   "motivering": "Central rättning kompenserar inte samrådens arbetsbörda"
+  },
+  {
+   "uid": "U183",
+   "forslag": [
+    "F41"
+   ],
+   "motivering": "Fasta provperioder i komvux ger söktoppar"
+  },
+  {
+   "uid": "U184",
+   "forslag": [
+    "F39",
+    "F41"
+   ],
+   "motivering": "Komvux behöver provorganisation för slutprov"
+  },
+  {
+   "uid": "U185",
+   "forslag": [
+    "F39"
+   ],
+   "motivering": "Fler komvuxelever vill göra slutprov"
+  },
+  {
+   "uid": "U186",
+   "forslag": [
+    "F64"
+   ],
+   "motivering": "Slutprov snedvrider undervisningen"
+  },
+  {
+   "uid": "U187",
+   "forslag": [
+    "F01"
+   ],
+   "motivering": "Nya betygsskalan i komvux bedömningspraktik"
+  },
+  {
+   "uid": "U188",
+   "forslag": null,
+   "motivering": "Komvux bedömningsförutsättningar generellt"
+  },
+  {
+   "uid": "U189",
+   "forslag": null,
+   "motivering": "Ensamma komvuxlärare, inget förslag reglerar"
+  },
+  {
+   "uid": "U190",
+   "forslag": [
+    "F77"
+   ],
+   "motivering": "Tidplanen för stegvis införande snäv"
+  },
+  {
+   "uid": "U191",
+   "forslag": null,
+   "motivering": "Krockande implementeringar"
+  },
+  {
+   "uid": "U192",
+   "forslag": null,
+   "motivering": "Generell kompensation till huvudmän"
+  },
+  {
+   "uid": "U193",
+   "forslag": [
+    "F17",
+    "F27"
+   ],
+   "motivering": "Kalibreringsmodellen svår att förstå"
+  },
+  {
+   "uid": "U194",
+   "forslag": [
+    "F12"
+   ],
+   "motivering": "Senare gymnasieantagning försvårar dimensionering"
+  },
+  {
+   "uid": "U195",
+   "forslag": [
+    "F77"
+   ],
+   "motivering": "Tidsaspekten för införande optimistisk"
+  },
+  {
+   "uid": "U196",
+   "forslag": null,
+   "motivering": "Samspel med andra utredningar"
+  },
+  {
+   "uid": "U197",
+   "forslag": null,
+   "motivering": "Implementeringsstöd generellt"
+  },
+  {
+   "uid": "U198",
+   "forslag": null,
+   "motivering": "Betygsstöd utan slutprov, inget enskilt förslag tydligt"
+  },
+  {
+   "uid": "U199",
+   "forslag": [
+    "F61",
+    "F62"
+   ],
+   "motivering": "Bedömningssamråd kräver flera lärare i ämnet"
+  },
+  {
+   "uid": "U200",
+   "forslag": [
+    "F61",
+    "F62"
+   ],
+   "motivering": "Kvaliteten i bedömningssamråd oklar"
+  },
+  {
+   "uid": "U201",
+   "forslag": [
+    "F63"
+   ],
+   "motivering": "Slutprov ej betygsunderlag, arbetsbörda kvar"
+  },
+  {
+   "uid": "U202",
+   "forslag": null,
+   "motivering": "Minskad finansiering generellt"
+  },
+  {
+   "uid": "U203",
+   "forslag": [
+    "F12"
+   ],
+   "motivering": "Nytt meritvärde kräver ändrade antagningssystem"
+  },
+  {
+   "uid": "U221",
+   "forslag": null,
+   "motivering": "Generella styrdokument"
+  },
+  {
+   "uid": "U222",
+   "forslag": null,
+   "motivering": "Oklart vilket förslag som avses"
+  },
+  {
+   "uid": "U223",
+   "forslag": null,
+   "motivering": "Generellt om systembyten"
+  },
+  {
+   "uid": "U224",
+   "forslag": [
+    "F39",
+    "F41"
+   ],
+   "motivering": "Slutprovssystemet anpassas till vuxenutbildningen"
+  },
+  {
+   "uid": "U225",
+   "forslag": [
+    "F41",
+    "F75"
+   ],
+   "motivering": "Fasta provtider kräver infrastruktur och personal"
+  },
+  {
+   "uid": "U226",
+   "forslag": null,
+   "motivering": "Generell teknisk kapacitet"
+  },
+  {
+   "uid": "U242",
+   "forslag": [
+    "F64"
+   ],
+   "motivering": "Provstyrd undervisning"
+  },
+  {
+   "uid": "U243",
+   "forslag": [
+    "F39"
+   ],
+   "motivering": "Komvux meritvärde enbart från slutprov"
+  },
+  {
+   "uid": "U244",
+   "forslag": [
+    "F77"
+   ],
+   "motivering": "Tidsplanen för införande snäv"
+  },
+  {
+   "uid": "U245",
+   "forslag": [
+    "F12",
+    "F17"
+   ],
+   "motivering": "Kalibrerat meritvärde kan försena gymnasieantagningen"
+  },
+  {
+   "uid": "U246",
+   "forslag": [
+    "F17"
+   ],
+   "motivering": "Kalibreringsmodellen svår att förklara"
+  },
+  {
+   "uid": "U256",
+   "forslag": [
+    "F17",
+    "F27",
+    "F38"
+   ],
+   "motivering": "Kalibrering i små elevgrupper"
+  },
+  {
+   "uid": "U257",
+   "forslag": [
+    "F39"
+   ],
+   "motivering": "Komvux meritvärde enbart från nationella prov"
+  },
+  {
+   "uid": "U258",
+   "forslag": null,
+   "motivering": "Generellt stödbehov"
+  },
+  {
+   "uid": "U259",
+   "forslag": null,
+   "motivering": "Reformsamordning och informationsmaterial generellt"
+  },
+  {
+   "uid": "U260",
+   "forslag": [
+    "F17"
+   ],
+   "motivering": "Analysverktyg krävs för kalibreringsmodellen i grundskolan"
+  },
+  {
+   "uid": "U261",
+   "forslag": [
+    "F17"
+   ],
+   "motivering": "Kalibreringens statistiska logik svår att förklara"
+  },
+  {
+   "uid": "U262",
+   "forslag": [
+    "F17"
+   ],
+   "motivering": "Transparens i kalibreringens beräkningsprinciper efterfrågas"
   },
   {
    "uid": "U273",
+   "forslag": null,
+   "motivering": "Generellt behov av implementeringsstöd"
+  },
+  {
+   "uid": "U274",
+   "forslag": [
+    "F02"
+   ],
+   "motivering": "Stödmaterial som förtydligar de nya betygskriterierna"
+  },
+  {
+   "uid": "U275",
+   "forslag": [
+    "F67"
+   ],
+   "motivering": "Slutprovens likvärdighet över tid, ekvivalering"
+  },
+  {
+   "uid": "U276",
+   "forslag": [
+    "F69"
+   ],
+   "motivering": "Återkoppling av elevresultat vid central rättning"
+  },
+  {
+   "uid": "U277",
+   "forslag": [
+    "F74"
+   ],
+   "motivering": "Regelverk för undantag från nationella slutprov"
+  },
+  {
+   "uid": "U278",
+   "forslag": [
+    "F12",
+    "F17"
+   ],
+   "motivering": "Förståelse för meritvärdeskalibreringen"
+  },
+  {
+   "uid": "U279",
+   "forslag": [
+    "F17"
+   ],
+   "motivering": "Kontroll av felaktigt beräknat kalibrerat betygsvärde"
+  },
+  {
+   "uid": "U280",
+   "forslag": [
+    "F61",
+    "F62"
+   ],
+   "motivering": "Rektors ansvar och små enheter vid bedömningssamråd"
+  },
+  {
+   "uid": "U281",
+   "forslag": null,
+   "motivering": "Arbetsbelastning under övergång, inget enskilt förslag"
+  },
+  {
+   "uid": "U282",
+   "forslag": [
+    "F52"
+   ],
+   "motivering": "Behörighet via meritvärde utan krav i karaktärsämnen"
+  },
+  {
+   "uid": "U283",
+   "forslag": [
+    "F53"
+   ],
+   "motivering": "Bedömningskrav för språkintroduktion"
+  },
+  {
+   "uid": "U284",
+   "forslag": [
+    "F01"
+   ],
+   "motivering": "Omställning till ny betygsskala"
+  },
+  {
+   "uid": "U285",
+   "forslag": [
+    "F02"
+   ],
+   "motivering": "Betygskriterier för alla tio steg"
+  },
+  {
+   "uid": "U286",
+   "forslag": [
+    "F64"
+   ],
+   "motivering": "Provträning till följd av nationella slutprov"
+  },
+  {
+   "uid": "U287",
+   "forslag": [
+    "F12",
+    "F21"
+   ],
+   "motivering": "Meritvärdeskalibrering svår att förstå och tidskrävande"
+  },
+  {
+   "uid": "U288",
+   "forslag": [
+    "F17"
+   ],
+   "motivering": "Kalibrering kan minska värdet av lärares bedömningar"
+  },
+  {
+   "uid": "U289",
+   "forslag": [
+    "F77"
+   ],
+   "motivering": "Tidsplanen för införandet"
+  },
+  {
+   "uid": "U290",
+   "forslag": null,
+   "motivering": "Generellt behov av statliga resurser"
+  },
+  {
+   "uid": "U291",
+   "forslag": null,
+   "motivering": "Samlad överblick över flera utredningar"
+  },
+  {
+   "uid": "U303",
+   "forslag": null,
+   "motivering": "Organisationsproblem för små gymnasieskolor, oklar förslagskoppling"
+  },
+  {
+   "uid": "U304",
+   "forslag": null,
+   "motivering": "Kostnad för små program, oklar förslagskoppling"
+  },
+  {
+   "uid": "U305",
+   "forslag": null,
+   "motivering": "Tjänstefördelning försenas, oklar förslagskoppling"
+  },
+  {
+   "uid": "U306",
+   "forslag": null,
+   "motivering": "System för antagningsbesked, oklart vilket förslag"
+  },
+  {
+   "uid": "U311",
+   "forslag": [
+    "F41"
+   ],
+   "motivering": "Slutprov i komvux trots annan struktur"
+  },
+  {
+   "uid": "U312",
+   "forslag": [
+    "F39"
+   ],
+   "motivering": "Komvux meritvärdering endast via slutprov"
+  },
+  {
+   "uid": "U313",
+   "forslag": [
+    "F41"
+   ],
+   "motivering": "Slutprov i komvux samtidigt som gymnasieskolan"
+  },
+  {
+   "uid": "U314",
+   "forslag": [
+    "F64"
+   ],
+   "motivering": "Slutprov kan minska formativ bedömning"
+  },
+  {
+   "uid": "U315",
+   "forslag": [
+    "F77"
+   ],
+   "motivering": "För kort implementeringsperiod"
+  },
+  {
+   "uid": "U322",
+   "forslag": [
+    "F39"
+   ],
+   "motivering": "Försämrade förutsättningar för komvux meritvärdering"
+  },
+  {
+   "uid": "U323",
+   "forslag": null,
+   "motivering": "Systemet som helhet komplext"
+  },
+  {
+   "uid": "U324",
+   "forslag": [
+    "F69"
+   ],
+   "motivering": "Robusta system för central rättning krävs"
+  },
+  {
+   "uid": "U325",
+   "forslag": null,
+   "motivering": "Många samtidiga ändringar"
+  },
+  {
+   "uid": "U326",
+   "forslag": null,
+   "motivering": "Allmänt behov av tydliggörande"
+  },
+  {
+   "uid": "U327",
+   "forslag": null,
+   "motivering": "Flera utredningar samtidigt"
+  },
+  {
+   "uid": "U328",
+   "forslag": [
+    "F77"
+   ],
+   "motivering": "Kort tidshorisont för ikraftträdande"
+  },
+  {
+   "uid": "U365",
+   "forslag": null,
+   "motivering": "Mängden förslag svår att överblicka"
+  },
+  {
+   "uid": "U366",
+   "forslag": [
+    "F77"
+   ],
+   "motivering": "Tveksamt om genomförande hinns inom tidplanen"
+  },
+  {
+   "uid": "U371",
+   "forslag": [
+    "F77"
+   ],
+   "motivering": "Tidplan för införande och ikraftträdande"
+  },
+  {
+   "uid": "U372",
+   "forslag": [
+    "F39"
+   ],
+   "motivering": "Förslagen för komvux oproportionerligt långtgående"
+  },
+  {
+   "uid": "U373",
+   "forslag": [
+    "F39",
+    "F48"
+   ],
+   "motivering": "Uppläsning på komvux ingår ej i kalibrerat meritvärde"
+  },
+  {
+   "uid": "U374",
+   "forslag": [
+    "F12"
+   ],
+   "motivering": "Meritvärderingsmodellen påverkar gymnasieantagningen"
+  },
+  {
+   "uid": "U375",
+   "forslag": [
+    "F77"
+   ],
+   "motivering": "Tidplan för införande och ikraftträdande"
+  },
+  {
+   "uid": "U376",
+   "forslag": [
+    "F12"
+   ],
+   "motivering": "Kostnad för antagningssystem vid ny meritvärdering"
+  },
+  {
+   "uid": "U377",
+   "forslag": [
+    "F69"
+   ],
+   "motivering": "Kostnader för centralt rättade slutprov"
+  },
+  {
+   "uid": "U378",
+   "forslag": null,
+   "motivering": "Kostnader och finansieringsprincipen generellt"
+  },
+  {
+   "uid": "U379",
+   "forslag": null,
+   "motivering": "Många samtidiga utredningar och reformer"
+  },
+  {
+   "uid": "U380",
+   "forslag": null,
+   "motivering": "Systemet som helhet svårt att förstå"
+  },
+  {
+   "uid": "U381",
+   "forslag": null,
+   "motivering": "Allmänna krav vid implementering"
+  },
+  {
+   "uid": "U382",
+   "forslag": [
+    "F77"
+   ],
+   "motivering": "Tidplanen för införandet"
+  },
+  {
+   "uid": "U383",
+   "forslag": [
+    "F17",
+    "F64"
+   ],
+   "motivering": "Slutprov och kalibrering behöver prövas först"
+  },
+  {
+   "uid": "U384",
+   "forslag": null,
+   "motivering": "Samordning av kompetensutveckling med andra reformer"
+  },
+  {
+   "uid": "U385",
+   "forslag": [
+    "F77"
+   ],
+   "motivering": "Förberedelsetid för gymnasieantagningen"
+  },
+  {
+   "uid": "U386",
+   "forslag": [
+    "F39"
+   ],
+   "motivering": "Endast slutprov som meritvärde i komvux"
+  },
+  {
+   "uid": "U387",
+   "forslag": [
+    "F64",
+    "F17"
+   ],
+   "motivering": "Slutprovens utveckling avgörande för kalibreringen"
+  },
+  {
+   "uid": "U388",
+   "forslag": [
+    "F64"
+   ],
+   "motivering": "Slutprovens utformning kan påverka undervisningen"
+  },
+  {
+   "uid": "U389",
+   "forslag": [
+    "F39"
+   ],
+   "motivering": "Komvux undervisning styrs mot slutproven"
+  },
+  {
+   "uid": "U390",
+   "forslag": [
+    "F12"
+   ],
+   "motivering": "Senare slutantagning genom ny meritvärdering"
+  },
+  {
+   "uid": "U391",
+   "forslag": [
+    "F12"
+   ],
+   "motivering": "Senare slutantagning påverkar skolstart"
+  },
+  {
+   "uid": "U394",
+   "forslag": [
+    "F41"
+   ],
+   "motivering": "Fasta provtillfällen i komvux"
+  },
+  {
+   "uid": "U395",
+   "forslag": [
+    "F41"
+   ],
+   "motivering": "Fasta provtillfällen strider mot komvux flexibilitet"
+  },
+  {
+   "uid": "U396",
+   "forslag": [
+    "F52"
+   ],
+   "motivering": "Behörighet med meritvärde 4 trots svaga ämneskunskaper"
+  },
+  {
+   "uid": "U397",
+   "forslag": [
+    "F58"
+   ],
+   "motivering": "Nya behörighetsregler till högskolan"
+  },
+  {
+   "uid": "U398",
+   "forslag": [
+    "F61",
+    "F62"
+   ],
+   "motivering": "Detaljreglering av bedömningssamråd"
+  },
+  {
+   "uid": "U399",
+   "forslag": [
+    "F61",
+    "F62"
+   ],
+   "motivering": "Bedömningssamråd på små skolor"
+  },
+  {
+   "uid": "U402",
+   "forslag": [
+    "F12"
+   ],
+   "motivering": "Meritvärderingsmodellen komplex, kräver information"
+  },
+  {
+   "uid": "U403",
+   "forslag": [
+    "F30"
+   ],
+   "motivering": "Ökat antal prov för elever och lärare"
+  },
+  {
+   "uid": "U404",
+   "forslag": [
+    "F29"
+   ],
+   "motivering": "Ämnen med slutprov premieras på gymnasiet"
+  },
+  {
+   "uid": "U405",
+   "forslag": [
+    "F12"
+   ],
+   "motivering": "Antagningssystem anpassas till nya meritvärden"
+  },
+  {
+   "uid": "U406",
+   "forslag": [
+    "F12"
+   ],
+   "motivering": "Antagningssystem och senare slutantagning"
+  },
+  {
+   "uid": "U407",
+   "forslag": null,
+   "motivering": "Personalkostnader vid implementering generellt"
+  },
+  {
+   "uid": "U408",
+   "forslag": [
+    "F77"
+   ],
+   "motivering": "Tidsplan för ikraftträdande"
+  },
+  {
+   "uid": "U409",
+   "forslag": [
+    "F05"
+   ],
+   "motivering": "Stöd till elever under godtagbara kunskaper"
+  },
+  {
+   "uid": "U410",
+   "forslag": [
+    "F64"
+   ],
+   "motivering": "Undervisning fokuseras mot slutproven"
+  },
+  {
+   "uid": "U411",
+   "forslag": [
+    "F74"
+   ],
+   "motivering": "Undantag från prov beslutas av Skolverket"
+  },
+  {
+   "uid": "U412",
+   "forslag": [
+    "F71"
+   ],
+   "motivering": "Sammanfattande NO- och SO-prov"
+  },
+  {
+   "uid": "U413",
+   "forslag": [
+    "F49"
+   ],
+   "motivering": "När omprov av slutprov kan göras"
+  },
+  {
+   "uid": "U414",
+   "forslag": [
+    "F01",
+    "F02"
+   ],
+   "motivering": "Skillnader mellan tio betygssteg"
+  },
+  {
+   "uid": "U415",
+   "forslag": null,
+   "motivering": "Förslagen generellt mindre transparenta"
+  },
+  {
+   "uid": "U416",
+   "forslag": null,
+   "motivering": "Flera samtidiga reformer"
+  },
+  {
+   "uid": "U417",
+   "forslag": [
+    "F69"
+   ],
+   "motivering": "Slutprov rättas efter skolavslutning"
+  },
+  {
+   "uid": "U418",
+   "forslag": [
+    "F65"
+   ],
+   "motivering": "Konstruktion av slutprov som mäter kunskaper"
+  },
+  {
+   "uid": "U419",
+   "forslag": null,
+   "motivering": "Provplattform regleras inte i något förslag"
+  },
+  {
+   "uid": "U420",
+   "forslag": [
+    "F17",
+    "F18"
+   ],
+   "motivering": "Meritvärdets beräkning svår att förstå"
+  },
+  {
+   "uid": "U421",
+   "forslag": null,
+   "motivering": "Generellt behov av informationsarbete"
+  },
+  {
+   "uid": "U422",
+   "forslag": [
+    "F52"
+   ],
+   "motivering": "Behörighetsregler till gymnasiet"
+  },
+  {
+   "uid": "U423",
+   "forslag": [
+    "F61",
+    "F62"
+   ],
+   "motivering": "Bedömningssamråd begränsade till skolenheten"
+  },
+  {
+   "uid": "U424",
+   "forslag": [
+    "F12"
+   ],
+   "motivering": "Meritvärde klart först efter skolslut"
+  },
+  {
+   "uid": "U425",
+   "forslag": [
+    "F12"
+   ],
+   "motivering": "Osäker preliminär antagning med ny meritvärdering"
+  },
+  {
+   "uid": "U426",
+   "forslag": null,
+   "motivering": "Flera samtidiga reformer"
+  },
+  {
+   "uid": "U427",
+   "forslag": null,
+   "motivering": "Generella resurs- och stödbehov"
+  },
+  {
+   "uid": "U428",
+   "forslag": null,
+   "motivering": "Digitala system generellt"
+  },
+  {
+   "uid": "U429",
+   "forslag": null,
+   "motivering": "Förändringsarbete och kostnader generellt"
+  },
+  {
+   "uid": "U430",
+   "forslag": [
+    "F01"
+   ],
+   "motivering": "Ny betygsskala kan skapa oro"
+  },
+  {
+   "uid": "U431",
+   "forslag": [
+    "F01"
+   ],
+   "motivering": "Varierande tolkning av ny skala"
+  },
+  {
+   "uid": "U432",
+   "forslag": null,
+   "motivering": "Samordning med andra förändringar"
+  },
+  {
+   "uid": "U438",
+   "forslag": null,
+   "motivering": "Allmänna nackdelar, inget enskilt förslag"
+  },
+  {
+   "uid": "U439",
+   "forslag": null,
+   "motivering": "Flera utredningar samtidigt"
+  },
+  {
+   "uid": "U440",
+   "forslag": null,
+   "motivering": "Allmän förändringstakt"
+  },
+  {
+   "uid": "U441",
+   "forslag": null,
+   "motivering": "Samordning mellan utredningar"
+  },
+  {
+   "uid": "U461",
+   "forslag": null,
+   "motivering": "Generellt implementeringsstöd och tid"
+  },
+  {
+   "uid": "U464",
+   "forslag": [
+    "F77"
+   ],
+   "motivering": "Tillämpningsstart i grundskolan"
+  },
+  {
+   "uid": "U465",
+   "forslag": null,
+   "motivering": "Generellt behov av kommunikation och fortbildning"
+  },
+  {
+   "uid": "U466",
+   "forslag": [
+    "F64"
+   ],
+   "motivering": "Nya slutprov kräver förberedelse"
+  },
+  {
+   "uid": "U467",
+   "forslag": [
+    "F39",
+    "F48"
+   ],
+   "motivering": "Komvux kompletteringar och meritvärdering"
+  },
+  {
+   "uid": "U468",
+   "forslag": null,
+   "motivering": "Generellt statligt stöd"
+  },
+  {
+   "uid": "U469",
+   "forslag": null,
+   "motivering": "Generellt informationsbehov"
+  },
+  {
+   "uid": "U470",
+   "forslag": null,
+   "motivering": "Stödinsatser generellt"
+  },
+  {
+   "uid": "U471",
+   "forslag": [
+    "F12",
+    "F69"
+   ],
+   "motivering": "Antagningssystem och fördröjda besked"
+  },
+  {
+   "uid": "U472",
+   "forslag": null,
+   "motivering": "Ekonomiska konsekvenser generellt"
+  },
+  {
+   "uid": "U473",
+   "forslag": [
+    "F39",
+    "F69"
+   ],
+   "motivering": "Oklart om komvux omfattas av centralt rättade prov"
+  },
+  {
+   "uid": "U474",
+   "forslag": [
+    "F41"
+   ],
+   "motivering": "Fasta provtillfällen i komvux"
+  },
+  {
+   "uid": "U475",
+   "forslag": null,
+   "motivering": "Ämnen utan prov, oklar förslagskoppling"
+  },
+  {
+   "uid": "U476",
+   "forslag": null,
+   "motivering": "Parallella reformer"
+  },
+  {
+   "uid": "U477",
+   "forslag": [
+    "F61"
+   ],
+   "motivering": "Tid för bedömningssamråd"
+  },
+  {
+   "uid": "U478",
+   "forslag": [
+    "F52"
+   ],
+   "motivering": "Behörighet via sammanlagt meritvärde"
+  },
+  {
+   "uid": "U498",
+   "forslag": null,
+   "motivering": "Systemet som helhet svårt att förstå"
+  },
+  {
+   "uid": "U499",
+   "forslag": null,
+   "motivering": "Generell implementeringstid och stöd"
+  },
+  {
+   "uid": "U500",
+   "forslag": [
+    "F52"
+   ],
+   "motivering": "Vägledning när meritvärde ger behörighet"
+  },
+  {
+   "uid": "U501",
    "forslag": [
     "F01"
    ],
    "motivering": "Tolkning av betygsstegen"
   },
   {
-   "uid": "U274",
+   "uid": "U502",
    "forslag": [
     "F64"
    ],
-   "motivering": "Tekniska störningar vid digitala prov"
+   "motivering": "Stress och provfokus vid slutprov"
   },
   {
-   "uid": "U275",
+   "uid": "U503",
+   "forslag": [
+    "F64"
+   ],
+   "motivering": "Provfokus och prestationsångest vid slutprov"
+  },
+  {
+   "uid": "U504",
+   "forslag": null,
+   "motivering": "Digitala prov regleras inte i något förslag"
+  },
+  {
+   "uid": "U505",
+   "forslag": [
+    "F17"
+   ],
+   "motivering": "Kalibrering kan åsidosätta lärarens omdöme"
+  },
+  {
+   "uid": "U506",
    "forslag": [
     "F61",
     "F62"
@@ -804,950 +1714,50 @@
    "motivering": "Bedömningssamråd resurskrävande"
   },
   {
-   "uid": "U276",
+   "uid": "U507",
    "forslag": [
     "F77"
    ],
-   "motivering": "Tidsplanen orimlig"
+   "motivering": "Tidsplanen för implementering"
   },
   {
-   "uid": "U277",
+   "uid": "U508",
    "forslag": null,
-   "motivering": "Kompetensutveckling allmänt"
+   "motivering": "Generellt behov av kompetensutveckling"
   },
   {
-   "uid": "U278",
+   "uid": "U509",
    "forslag": null,
-   "motivering": "Samtidiga reformer allmänt"
+   "motivering": "Flera samtidiga reformer"
   },
   {
-   "uid": "U279",
+   "uid": "U510",
+   "forslag": [
+    "F74"
+   ],
+   "motivering": "Ansökan om undantag hos Skolverket"
+  },
+  {
+   "uid": "U511",
    "forslag": null,
-   "motivering": "Ekonomiska konsekvenser allmänt"
+   "motivering": "Ekonomiska konsekvenser generellt"
   },
   {
-   "uid": "U280",
+   "uid": "U512",
    "forslag": [
     "F69"
    ],
    "motivering": "Anslag för rättning vid central rättning"
   },
   {
-   "uid": "U281",
-   "forslag": [
-    "F63"
-   ],
-   "motivering": "Hantera skillnad mellan betyg och provresultat"
-  },
-  {
-   "uid": "U282",
-   "forslag": [
-    "F64"
-   ],
-   "motivering": "Teknisk support för digitala slutprov"
-  },
-  {
-   "uid": "U284",
+   "uid": "U513",
    "forslag": null,
-   "motivering": "Läroplan och betygssystem, vagt"
+   "motivering": "Hantering av skillnader betyg och prov, oklart förslag"
   },
   {
-   "uid": "U285",
+   "uid": "U514",
    "forslag": null,
-   "motivering": "Antagningstidpunkt små skolor, inget förslag"
-  },
-  {
-   "uid": "U286",
-   "forslag": null,
-   "motivering": "Antagningsbesked, inget förslag"
-  },
-  {
-   "uid": "U287",
-   "forslag": null,
-   "motivering": "Implementeringsstöd allmänt"
-  },
-  {
-   "uid": "U288",
-   "forslag": [
-    "F02"
-   ],
-   "motivering": "Stödmaterial för att förtydliga betygskriterierna"
-  },
-  {
-   "uid": "U289",
-   "forslag": [
-    "F64",
-    "F67"
-   ],
-   "motivering": "Stabil provplattform och likvärdiga prov över tid"
-  },
-  {
-   "uid": "U290",
-   "forslag": [
-    "F69"
-   ],
-   "motivering": "Återkoppling av elevresultat efter centralt rättade slutprov"
-  },
-  {
-   "uid": "U291",
-   "forslag": [
-    "F74"
-   ],
-   "motivering": "Regelverk för undantag från nationellt slutprov"
-  },
-  {
-   "uid": "U292",
-   "forslag": [
-    "F17"
-   ],
-   "motivering": "Svårt skapa förståelse för meritvärdeskalibreringen"
-  },
-  {
-   "uid": "U293",
-   "forslag": [
-    "F17"
-   ],
-   "motivering": "Insyn i beräkning av kalibrerat betygsvärde"
-  },
-  {
-   "uid": "U294",
-   "forslag": [
-    "F61",
-    "F62"
-   ],
-   "motivering": "Rektors ansvar för bedömningssamråd"
-  },
-  {
-   "uid": "U295",
-   "forslag": [
-    "F61",
-    "F62"
-   ],
-   "motivering": "Krav på bedömningssamråd för små enheter"
-  },
-  {
-   "uid": "U296",
-   "forslag": null,
-   "motivering": "Allmänt om flera parallella reformer"
-  },
-  {
-   "uid": "U297",
-   "forslag": null,
-   "motivering": "Allmän arbetsbelastning under övergångsperiod"
-  },
-  {
-   "uid": "U298",
-   "forslag": [
-    "F53"
-   ],
-   "motivering": "Bedömningskrav för tillhörighet till språkintroduktion"
-  },
-  {
-   "uid": "U299",
-   "forslag": [
-    "F74"
-   ],
-   "motivering": "Skolverket beslutar om undantag från slutprov"
-  },
-  {
-   "uid": "U300",
-   "forslag": [
-    "F49",
-    "F75"
-   ],
-   "motivering": "Tidpunkt för omprov efter central rättning"
-  },
-  {
-   "uid": "U301",
-   "forslag": [
-    "F01",
-    "F02"
-   ],
-   "motivering": "Tiostegsskala och tolkning av betygskriterier"
-  },
-  {
-   "uid": "U302",
-   "forslag": [
-    "F77"
-   ],
-   "motivering": "Tidplan för ikraftträdande behöver förlängas"
-  },
-  {
-   "uid": "U303",
-   "forslag": [
-    "F77"
-   ],
-   "motivering": "Motivering till förlängd tidplan för ikraftträdande"
-  },
-  {
-   "uid": "U304",
-   "forslag": null,
-   "motivering": "Allmänt behov av informationsinsatser"
-  },
-  {
-   "uid": "U305",
-   "forslag": [
-    "F48",
-    "F39"
-   ],
-   "motivering": "Komvuxbetyg ingår inte i kalibrerat meritvärde"
-  },
-  {
-   "uid": "U306",
-   "forslag": [
-    "F77"
-   ],
-   "motivering": "Avstyrker tidplanen för ikraftträdande"
-  },
-  {
-   "uid": "U307",
-   "forslag": null,
-   "motivering": "Kostnader för antagningssystem, ingen enskild förslagspunkt"
-  },
-  {
-   "uid": "U308",
-   "forslag": [
-    "F64",
-    "F69"
-   ],
-   "motivering": "Kostnader för digitala slutprov med central rättning"
-  },
-  {
-   "uid": "U309",
-   "forslag": null,
-   "motivering": "Reformens kostnader generellt, finansieringsprincipen"
-  },
-  {
-   "uid": "U310",
-   "forslag": null,
-   "motivering": "Allmän kompetensutveckling vid samtidiga reformer"
-  },
-  {
-   "uid": "U311",
-   "forslag": null,
-   "motivering": "Många parallella utredningar, allmänt"
-  },
-  {
-   "uid": "U312",
-   "forslag": null,
-   "motivering": "Allmänt höga krav vid implementering"
-  },
-  {
-   "uid": "U313",
-   "forslag": [
-    "F77"
-   ],
-   "motivering": "Tidplanen för införandet orealistisk"
-  },
-  {
-   "uid": "U314",
-   "forslag": null,
-   "motivering": "Samordning av kompetensutveckling med andra reformer"
-  },
-  {
-   "uid": "U315",
-   "forslag": [
-    "F77"
-   ],
-   "motivering": "Argument för förlängd tid till ikraftträdande"
-  },
-  {
-   "uid": "U316",
-   "forslag": null,
-   "motivering": "Gymnasieantagningens organisering, ingen förslagspunkt täcker"
-  },
-  {
-   "uid": "U317",
-   "forslag": [
-    "F39"
-   ],
-   "motivering": "Meritvärdesmodellen ej tillämpbar på komvux"
-  },
-  {
-   "uid": "U318",
-   "forslag": [
-    "F39"
-   ],
-   "motivering": "Oro för hur betygssystemet påverkar komvux"
-  },
-  {
-   "uid": "U319",
-   "forslag": [
-    "F64",
-    "F65"
-   ],
-   "motivering": "Osäkert om slutproven kan utvecklas som föreslås"
-  },
-  {
-   "uid": "U320",
-   "forslag": [
-    "F48",
-    "F39"
-   ],
-   "motivering": "Komvuxbetyg utanför kalibrering påverkar komvux utbud"
-  },
-  {
-   "uid": "U321",
-   "forslag": null,
-   "motivering": "Senare slutantagning till gymnasiet, ingen förslagspunkt täcker"
-  },
-  {
-   "uid": "U322",
-   "forslag": null,
-   "motivering": "Slutantagning måste senareläggas, ingen förslagspunkt täcker"
-  },
-  {
-   "uid": "U324",
-   "forslag": [
-    "F41"
-   ],
-   "motivering": "Slutprov i komvux endast vid fasta terminstillfällen"
-  },
-  {
-   "uid": "U325",
-   "forslag": [
-    "F41"
-   ],
-   "motivering": "Fasta provtillfällen strider mot komvux flexibilitet"
-  },
-  {
-   "uid": "U326",
-   "forslag": [
-    "F52",
-    "F56"
-   ],
-   "motivering": "Genomsnittskrav meritvärde 4 för behörighet och examen"
-  },
-  {
-   "uid": "U327",
-   "forslag": [
-    "F58"
-   ],
-   "motivering": "Nya behörighetsregler till högskolan"
-  },
-  {
-   "uid": "U328",
-   "forslag": [
-    "F61",
-    "F62"
-   ],
-   "motivering": "Bedömningssamråd på små skolor med få lärare"
-  },
-  {
-   "uid": "U329",
-   "forslag": [
-    "F61",
-    "F62"
-   ],
-   "motivering": "Detaljreglering av vilka som ingår i bedömningssamråd"
-  },
-  {
-   "uid": "U330",
-   "forslag": null,
-   "motivering": "Trendmätning är bedömning, inte förslag"
-  },
-  {
-   "uid": "U333",
-   "forslag": [
-    "F17"
-   ],
-   "motivering": "Meritvärdeskalibreringen komplex, kräver information"
-  },
-  {
-   "uid": "U334",
-   "forslag": [
-    "F64"
-   ],
-   "motivering": "Konsekvenser av ökat antal slutprov"
-  },
-  {
-   "uid": "U335",
-   "forslag": null,
-   "motivering": "Utveckling av antagningssystem, ingen förslagspunkt"
-  },
-  {
-   "uid": "U336",
-   "forslag": null,
-   "motivering": "Allmänna kostnadsökningar för huvudmän"
-  },
-  {
-   "uid": "U337",
-   "forslag": [
-    "F64"
-   ],
-   "motivering": "Slutprovsämnen premieras på andra ämnens bekostnad"
-  },
-  {
-   "uid": "U338",
-   "forslag": null,
-   "motivering": "Allmän kostnadsberäkning, ingen tydlig förslagspunkt"
-  },
-  {
-   "uid": "U339",
-   "forslag": null,
-   "motivering": "Allmänna implementeringskostnader"
-  },
-  {
-   "uid": "U340",
-   "forslag": [
-    "F77"
-   ],
-   "motivering": "Införandetidplan bör samordnas med läroplan"
-  },
-  {
-   "uid": "U341",
-   "forslag": null,
-   "motivering": "Uppräkning av flera risker, för bred"
-  },
-  {
-   "uid": "U342",
-   "forslag": null,
-   "motivering": "Minskade statliga anslag generellt"
-  },
-  {
-   "uid": "U343",
-   "forslag": null,
-   "motivering": "Ekonomiska konsekvenser underskattade generellt"
-  },
-  {
-   "uid": "U344",
-   "forslag": [
-    "F63"
-   ],
-   "motivering": "Nationella prov upphör som bedömningsstöd"
-  },
-  {
-   "uid": "U345",
-   "forslag": null,
-   "motivering": "Allmänna implementeringsinsatser och resurser"
-  },
-  {
-   "uid": "U349",
-   "forslag": [
-    "F17"
-   ],
-   "motivering": "Kalibrerat meritvärde svårt att förutse"
-  },
-  {
-   "uid": "U350",
-   "forslag": [
-    "F17"
-   ],
-   "motivering": "Kalibrering kräver konsekvent betygssättning"
-  },
-  {
-   "uid": "U351",
-   "forslag": [
-    "F38",
-    "F17"
-   ],
-   "motivering": "Kalibrering på små skolor påverkas av enskilda"
-  },
-  {
-   "uid": "U352",
-   "forslag": [
-    "F17"
-   ],
-   "motivering": "Kalibreringens effekter på ämnesval och resurser"
-  },
-  {
-   "uid": "U361",
-   "forslag": [
-    "F75"
-   ],
-   "motivering": "Logistik för samtidigt slutprovsgenomförande"
-  },
-  {
-   "uid": "U362",
-   "forslag": [
-    "F75",
-    "F76"
-   ],
-   "motivering": "Rutiner för provsäkerhet vid slutprov"
-  },
-  {
-   "uid": "U363",
-   "forslag": [
-    "F76"
-   ],
-   "motivering": "Ansvar för utredning av fusk vid slutprov"
-  },
-  {
-   "uid": "U364",
-   "forslag": null,
-   "motivering": "Krav på statsbidrag, finansieringsfråga"
-  },
-  {
-   "uid": "U365",
-   "forslag": [
-    "F69",
-    "F63"
-   ],
-   "motivering": "Inga individresultat från slutprov, nationella prov tas bort"
-  },
-  {
-   "uid": "U366",
-   "forslag": [
-    "F69"
-   ],
-   "motivering": "Central rättning minskar arbetsbördan mindre än bedömt"
-  },
-  {
-   "uid": "U367",
-   "forslag": [
-    "F77"
-   ],
-   "motivering": "Snäv tidsplan för införande"
-  },
-  {
-   "uid": "U368",
-   "forslag": [
-    "F77"
-   ],
-   "motivering": "Gymnasial tillämpning 2027 ger tre parallella betygssystem"
-  },
-  {
-   "uid": "U369",
-   "forslag": null,
-   "motivering": "Allmänt reformtryck"
-  },
-  {
-   "uid": "U370",
-   "forslag": null,
-   "motivering": "Allmän kompetensutveckling och systemanpassning"
-  },
-  {
-   "uid": "U371",
-   "forslag": null,
-   "motivering": "Allmänt implementerings- och informationsarbete"
-  },
-  {
-   "uid": "U372",
-   "forslag": [
-    "F77"
-   ],
-   "motivering": "Snäv tidsplan, införandet bör senareläggas"
-  },
-  {
-   "uid": "U373",
-   "forslag": [
-    "F64",
-    "F69"
-   ],
-   "motivering": "Miljontals slutprov hanteras under kort tid"
-  },
-  {
-   "uid": "U374",
-   "forslag": null,
-   "motivering": "Allmänt reformtryck utan finansiering"
-  },
-  {
-   "uid": "U375",
-   "forslag": [
-    "F61",
-    "F62"
-   ],
-   "motivering": "Lärartid för bedömningssamråd"
-  },
-  {
-   "uid": "U381",
-   "forslag": [
-    "F41",
-    "F75"
-   ],
-   "motivering": "Fasta slutprovstillfällen minskar komvux flexibilitet"
-  },
-  {
-   "uid": "U390",
-   "forslag": [
-    "F17",
-    "F61"
-   ],
-   "motivering": "Kalibrering kräver samråd mellan lärare"
-  },
-  {
-   "uid": "U391",
-   "forslag": null,
-   "motivering": "Allmän arbetsbörda och lärarroll"
-  },
-  {
-   "uid": "U392",
-   "forslag": null,
-   "motivering": "Allmänna kommunikativa utmaningar"
-  },
-  {
-   "uid": "U393",
-   "forslag": null,
-   "motivering": "Tidsram och gymnasieval, ingen förslagspunkt täcker"
-  },
-  {
-   "uid": "U394",
-   "forslag": [
-    "F61",
-    "F62"
-   ],
-   "motivering": "Små skolor behöver stöd för samråd"
-  },
-  {
-   "uid": "U395",
-   "forslag": [
-    "F61",
-    "F62"
-   ],
-   "motivering": "Samrådskrav kostnadsdrivande för huvudman"
-  },
-  {
-   "uid": "U396",
-   "forslag": [
-    "F61",
-    "F62"
-   ],
-   "motivering": "Samråden tar lärartid"
-  },
-  {
-   "uid": "U397",
-   "forslag": [
-    "F64"
-   ],
-   "motivering": "Slutprovens genomförande administrativt betungande"
-  },
-  {
-   "uid": "U398",
-   "forslag": [
-    "F64",
-    "F65"
-   ],
-   "motivering": "Tekniska lösningar för digitala slutprov"
-  },
-  {
-   "uid": "U399",
-   "forslag": [
-    "F69",
-    "F61"
-   ],
-   "motivering": "Central rättning kompenserar inte samrådens arbetsbörda"
-  },
-  {
-   "uid": "U400",
-   "forslag": null,
-   "motivering": "Allmän finansiering till huvudmän"
-  },
-  {
-   "uid": "U401",
-   "forslag": [
-    "F41"
-   ],
-   "motivering": "Söktoppar i komvux kring slutprovstider"
-  },
-  {
-   "uid": "U402",
-   "forslag": [
-    "F39",
-    "F41"
-   ],
-   "motivering": "Komvux behöver organisation för slutprov"
-  },
-  {
-   "uid": "U403",
-   "forslag": [
-    "F39"
-   ],
-   "motivering": "Fler vill skriva slutprov på komvux"
-  },
-  {
-   "uid": "U404",
-   "forslag": null,
-   "motivering": "Allmänt behov av bedömningskompetens"
-  },
-  {
-   "uid": "U405",
-   "forslag": null,
-   "motivering": "Ensamma komvuxlärare, inget förslag om samråd i komvux"
-  },
-  {
-   "uid": "U406",
-   "forslag": [
-    "F77"
-   ],
-   "motivering": "Tidplan för stegvis införande snäv"
-  },
-  {
-   "uid": "U407",
-   "forslag": null,
-   "motivering": "Allmänt behov av information och utbildning"
-  },
-  {
-   "uid": "U408",
-   "forslag": null,
-   "motivering": "Parallella reformer riskerar överbelastning"
-  },
-  {
-   "uid": "U409",
-   "forslag": null,
-   "motivering": "Allmän kompensation till huvudmän"
-  },
-  {
-   "uid": "U410",
-   "forslag": null,
-   "motivering": "Allmänt implementeringsstöd och tidsåtgång"
-  },
-  {
-   "uid": "U411",
-   "forslag": null,
-   "motivering": "Allmänt behov av stödmaterial"
-  },
-  {
-   "uid": "U414",
-   "forslag": [
-    "F77",
-    "F78"
-   ],
-   "motivering": "Tillämpningsstart ger två betygssystem under grundskolan"
-  },
-  {
-   "uid": "U415",
-   "forslag": null,
-   "motivering": "Allmän kommunikation och fortbildning"
-  },
-  {
-   "uid": "U416",
-   "forslag": [
-    "F39"
-   ],
-   "motivering": "Komvux meritvärdering kräver nya rutiner"
-  },
-  {
-   "uid": "U417",
-   "forslag": null,
-   "motivering": "Allmänt statligt implementeringsstöd"
-  },
-  {
-   "uid": "U418",
-   "forslag": null,
-   "motivering": "Allmänt behov av kommunikation"
-  },
-  {
-   "uid": "U419",
-   "forslag": null,
-   "motivering": "Anpassning av antagningssystem, ingen förslagspunkt"
-  },
-  {
-   "uid": "U420",
-   "forslag": null,
-   "motivering": "Fördröjd antagning, ingen förslagspunkt täcker tidpunkt"
-  },
-  {
-   "uid": "U421",
-   "forslag": null,
-   "motivering": "Kommunala kostnader generellt"
-  },
-  {
-   "uid": "U422",
-   "forslag": [
-    "F39",
-    "F64"
-   ],
-   "motivering": "Oklart om komvux omfattas av digitala slutprov"
-  },
-  {
-   "uid": "U423",
-   "forslag": [
-    "F41"
-   ],
-   "motivering": "Fasta slutprovstillfällen och komvux flexibilitet"
-  },
-  {
-   "uid": "U424",
-   "forslag": null,
-   "motivering": "Yrkeskurser saknar prov, ingen tydlig förslagspunkt"
-  },
-  {
-   "uid": "U425",
-   "forslag": null,
-   "motivering": "Samordning av parallella reformer"
-  },
-  {
-   "uid": "U426",
-   "forslag": null,
-   "motivering": "Allmänt informationsbehov"
-  },
-  {
-   "uid": "U427",
-   "forslag": null,
-   "motivering": "Allmänt förändringsarbete och fortbildning"
-  },
-  {
-   "uid": "U428",
-   "forslag": [
-    "F69"
-   ],
-   "motivering": "Slutprov rättas centralt efter skolavslutning"
-  },
-  {
-   "uid": "U429",
-   "forslag": [
-    "F64",
-    "F65"
-   ],
-   "motivering": "Skolverkets förmåga leverera provplattform"
-  },
-  {
-   "uid": "U430",
-   "forslag": [
-    "F64",
-    "F75"
-   ],
-   "motivering": "Samtidiga prov ställer krav på plattformen"
-  },
-  {
-   "uid": "U431",
-   "forslag": null,
-   "motivering": "Allmänt informationsarbete"
-  },
-  {
-   "uid": "U432",
-   "forslag": [
-    "F52"
-   ],
-   "motivering": "Behörighetskrav meritvärde 4 till gymnasiet"
-  },
-  {
-   "uid": "U433",
-   "forslag": [
-    "F61",
-    "F62"
-   ],
-   "motivering": "Lärare ensamma i ämnet utanför bedömningssamråd"
-  },
-  {
-   "uid": "U434",
-   "forslag": null,
-   "motivering": "Försenad gymnasieantagning, ingen förslagspunkt täcker"
-  },
-  {
-   "uid": "U435",
-   "forslag": null,
-   "motivering": "Osäker preliminär antagning, ingen förslagspunkt täcker"
-  },
-  {
-   "uid": "U436",
-   "forslag": null,
-   "motivering": "Allmänt reformtryck"
-  },
-  {
-   "uid": "U437",
-   "forslag": null,
-   "motivering": "Allmän ekonomi och fortbildning"
-  },
-  {
-   "uid": "U438",
-   "forslag": [
-    "F38",
-    "F17"
-   ],
-   "motivering": "Kalibrering på små skolor med få elever"
-  },
-  {
-   "uid": "U439",
-   "forslag": [
-    "F63"
-   ],
-   "motivering": "Lärare vill ha egna prov när nationella prov upphör"
-  },
-  {
-   "uid": "U440",
-   "forslag": null,
-   "motivering": "Allmänna kostnader"
-  },
-  {
-   "uid": "U441",
-   "forslag": [
-    "F69"
-   ],
-   "motivering": "Lärartillgång för central rättning"
-  },
-  {
-   "uid": "U442",
-   "forslag": null,
-   "motivering": "Systemets komplexitet generellt"
-  },
-  {
-   "uid": "U443",
-   "forslag": [
-    "F77"
-   ],
-   "motivering": "Tidplanen alltför optimistisk"
-  },
-  {
-   "uid": "U444",
-   "forslag": [
-    "F77",
-    "F64",
-    "F69"
-   ],
-   "motivering": "Provsystem och central rättning ej klart före start"
-  },
-  {
-   "uid": "U445",
-   "forslag": [
-    "F01"
-   ],
-   "motivering": "Ny betygsskala kräver omställning"
-  },
-  {
-   "uid": "U446",
-   "forslag": [
-    "F02",
-    "F01"
-   ],
-   "motivering": "Betygskriterier för alla tio steg"
-  },
-  {
-   "uid": "U447",
-   "forslag": [
-    "F77"
-   ],
-   "motivering": "Rimlig tidsplan för förberedelser"
-  },
-  {
-   "uid": "U448",
-   "forslag": null,
-   "motivering": "Riktade statsbidrag generellt"
-  },
-  {
-   "uid": "U449",
-   "forslag": [
-    "F17"
-   ],
-   "motivering": "Kalibrering svår att förstå och tar tid"
-  },
-  {
-   "uid": "U450",
-   "forslag": null,
-   "motivering": "Konsekvenser svåra att överblicka generellt"
-  },
-  {
-   "uid": "U451",
-   "forslag": [
-    "F61",
-    "F62"
-   ],
-   "motivering": "Organisering av bedömningssamråd"
-  },
-  {
-   "uid": "U452",
-   "forslag": [
-    "F77",
-    "F64"
-   ],
-   "motivering": "Tveksamt att digitala slutprov hinns inom tidplanen"
-  },
-  {
-   "uid": "U453",
-   "forslag": [
-    "F38"
-   ],
-   "motivering": "Otydligt undantag för små skolenheter"
+   "motivering": "Teknisk support generellt"
   }
  ]
 }

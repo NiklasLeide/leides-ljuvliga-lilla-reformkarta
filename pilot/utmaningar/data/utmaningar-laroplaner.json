@@ -129,6 +129,57 @@
     ]
    }
   },
+  "publicerade_avstaenden": [],
+  "remissida_kontroll": {
+   "datum": "2026-11-11",
+   "regel": "Sprint 17 A2: yttranden från fokusgrupper som är publicerade på remissidan men inte ingår i korpusen enligt förteckningen har lästs. Ett yttrande med sakinnehåll ska ingå även om förteckningen anger att instansen avstått; rena avståendebrev ingår inte."
+  },
+  "organisationer": [
+   {
+    "id": "skr",
+    "namn": "Sveriges Kommuner och Regioner",
+    "status": "svarat",
+    "kalla": {
+     "text": "Prop. 2025/26:194 bilaga 3 (förteckning över remissinstanserna)",
+     "url": "https://www.regeringen.se/contentassets/42c1e2e4596b4f8682e3d8283b91a138/nya-laroplaner--for-en-stark-kunskapsskola-prop.-202526194.pdf"
+    }
+   },
+   {
+    "id": "almega",
+    "namn": "Almega utbildning",
+    "status": "svarat",
+    "kalla": {
+     "text": "Prop. 2025/26:194 bilaga 3 (förteckning över remissinstanserna)",
+     "url": "https://www.regeringen.se/contentassets/42c1e2e4596b4f8682e3d8283b91a138/nya-laroplaner--for-en-stark-kunskapsskola-prop.-202526194.pdf"
+    }
+   },
+   {
+    "id": "ideburna",
+    "namn": "Idéburna skolors riksförbund",
+    "status": "svarat",
+    "kalla": {
+     "text": "Prop. 2025/26:194 bilaga 3 (förteckning över remissinstanserna)",
+     "url": "https://www.regeringen.se/contentassets/42c1e2e4596b4f8682e3d8283b91a138/nya-laroplaner--for-en-stark-kunskapsskola-prop.-202526194.pdf"
+    }
+   }
+  ],
+  "kodning": {
+   "samstammighet_identifiering": {
+    "overens": 39,
+    "antal": 40
+   },
+   "samstammighet_typning": {
+    "overens": 36,
+    "antal": 40
+   },
+   "instruktion": "research/remissanalys/kedja/KODINSTRUKTION.md"
+  },
+  "begransningar": [
+   "Delad proposition: Läroplansutredningens delar av prop. 2025/26:194 samt prop. 2025/26:195 och 196 för SOU-avsnitt 4.2.",
+   "Läroplaner och kursplaner beslutas i SKOLFS och finns inte i riksdagens öppna data; de jämförs inte.",
+   "1 kap. 3 § skollagen saknar beslutad lydelse från reformens SFS-nummer i den konsoliderade texten (se konfigurationens andringar_anm).",
+   "Spontana yttranden publiceras inte på regeringen.se; enskilda huvudmän som yttrat sig spontant saknas därför i korpusen."
+  ],
   "tolkning": "Fält med tolkning: true är tolkning (utmaningstyp; koppling med nivå \"tolkad\"). Kopplingen mellan utredningsförslag och propositionsavsnitt är redaktionell: true. Övrigt är mekaniskt härlett ur källtext.",
   "ingen_bedomning": "Inget fält anger om en utmaning har lösts eller om propositionen har bemött den i sak.",
   "kopplingsnivaer": {
@@ -23071,7 +23122,7 @@
    "proposition": "Prop. 2025/26:195",
    "avsnitt": "8",
    "rubrik": "Ikraftträdande",
-   "overensstammelse": null,
+   "overensstammelse": "stämmer inte överens",
    "avvikelse_beskriven": true,
    "avvikelsetext": "Förslaget från utredningen stämmer inte överens med regeringens förslag. Utredningen föreslår att ändringarna i skollagen ska träda i kraft den 1 januari 2027 och tillämpas första gången på utbildning som påbörjas efter den 30 juni 2028.",
    "sida": [
@@ -23180,7 +23231,7 @@
      }
     ],
     "kalla": {
-     "text": "Skollag (2010:800) konsoliderad, riksdagens öppna data, hämtad 2026-11-10 (lydelser enligt SFS 2026:1096, 2026:1242, 2026:1243, 2026:1636)",
+     "text": "Skollag (2010:800) konsoliderad, riksdagens öppna data, hämtad 2026-11-10 (lydelser enligt SFS 2026:1096, 2026:1242, 2026:1243, 2026:1245)",
      "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
     }
    }
@@ -23224,7 +23275,7 @@
      }
     ],
     "kalla": {
-     "text": "Skollag (2010:800) konsoliderad, riksdagens öppna data, hämtad 2026-11-10 (lydelser enligt SFS 2026:1096, 2026:1242, 2026:1243, 2026:1636)",
+     "text": "Skollag (2010:800) konsoliderad, riksdagens öppna data, hämtad 2026-11-10 (lydelser enligt SFS 2026:1096, 2026:1242, 2026:1243, 2026:1245)",
      "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
     }
    }
@@ -23250,11 +23301,11 @@
     "redaktionell": true
    },
    "sfs": {
-    "status": "i beslutad lag",
+    "status": null,
     "paragrafer": [
      {
       "paragraf": "1 kap. 3 §",
-      "textlikhet_procent": 98.7
+      "textlikhet_procent": null
      },
      {
       "paragraf": "1 kap. 4 §",
@@ -23285,10 +23336,7 @@
       "textlikhet_procent": 36.2
      }
     ],
-    "kalla": {
-     "text": "Skollag (2010:800) konsoliderad, riksdagens öppna data, hämtad 2026-11-10 (lydelser enligt SFS 2026:1096, 2026:1242, 2026:1243, 2026:1636)",
-     "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
-    }
+    "forklaring": "Minst en paragraf saknar beslutad lydelse; se diff."
    }
   },
   {
@@ -23345,7 +23393,7 @@
      }
     ],
     "kalla": {
-     "text": "Skollag (2010:800) konsoliderad, riksdagens öppna data, hämtad 2026-11-10 (lydelser enligt SFS 2026:1096, 2026:1242, 2026:1243, 2026:1636)",
+     "text": "Skollag (2010:800) konsoliderad, riksdagens öppna data, hämtad 2026-11-10 (lydelser enligt SFS 2026:1096, 2026:1242, 2026:1243, 2026:1245)",
      "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
     }
    }
@@ -23780,7 +23828,7 @@
      }
     ],
     "kalla": {
-     "text": "Skollag (2010:800) konsoliderad, riksdagens öppna data, hämtad 2026-11-10 (lydelser enligt SFS 2026:1096, 2026:1242, 2026:1243, 2026:1636)",
+     "text": "Skollag (2010:800) konsoliderad, riksdagens öppna data, hämtad 2026-11-10 (lydelser enligt SFS 2026:1096, 2026:1242, 2026:1243, 2026:1245)",
      "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
     }
    }
@@ -24263,172 +24311,9 @@
     "matchning": "nummer",
     "manuell_granskning": false
    },
-   "beslutad": {
-    "text": "I denna lag avses med - distansundervisning: interaktiv undervisning som bedrivs med informations- och kommunikationsteknik där elever och lärare är åtskilda i både rum och tid, - elev: den som deltar i utbildning enligt denna lag med undantag för barn i förskolan, - fjärrundervisning: interaktiv undervisning som bedrivs med informations- och kommunikationsteknik där elever och lärare är åtskilda i rum men inte i tid, - fristående fritidshem: sådant fritidshem som bedrivs av en enskild och som avses i 2 a kap. 13 § andra stycket, - fristående förskola: förskoleenhet vid vilken en enskild bedriver utbildning i form av förskola, - fristående skola: skolenhet vid vilken en enskild bedriver utbildning inom skolväsendet i form av grundskola, anpassad grundskola, gymnasieskola, anpassad gymnasieskola eller sådant fritidshem som avses i 2 a kap. 13 § första stycket, - förskoleenhet: av huvudman för förskola organiserad enhet som omfattar verksamhet i en eller flera förskolebyggnader som ligger nära varandra och till enheten knuten verksamhet som inte bedrivs i någon förskolebyggnad, - konfessionell inriktning: inriktning på verksamhet som innebär att det där förekommer konfessionella inslag, - konfessionella inslag: bekännande eller förkunnande inslag som tillhör en viss religion och som initieras och genomförs av huvudmannen eller på dennes uppdrag, - lovskola: undervisning inom grundskolan som anordnas enligt denna lag under lov under en termin eller utanför terminstid och som inte är obligatorisk för elever, - lärobok: tryckt läromedel, med eller utan digitala komponenter, - läromedel: helt eller delvis tryckt eller digitalt verk som är avsett att användas i undervisningen, som överensstämmer med relevanta delar av tillämplig kurs-, ämnes- eller ämnesområdesplan och läroplanen, och som är utgivet av någon som bedriver utgivningsverksamhet av professionell art, - lärverktyg: läroböcker, andra läromedel och andra tryckta eller digitala verk samt utrustning och material som används i undervisningen, - skolenhet: av huvudman för annan skolform än förskola organiserad enhet som omfattar verksamhet i en eller flera skolbyggnader som ligger nära varandra och till enheten knuten verksamhet som inte bedrivs i någon skolbyggnad, - undervisning: processer som på lektioner eller vid andra lärtillfällen bestäms och leds av lärare eller förskollärare, och som syftar till barns eller elevers utveckling och lärande mot mål som anges i denna lag samt i förordningar och andra författningar som ansluter till lagen, genom att lärarna och förskollärarna förmedlar och förankrar kunskaper och värden hos barnen och eleverna, och - utbildning: verksamhet som bedrivs av en huvudman enligt denna lag inom vilken barn eller elever deltar i undervisning och andra aktiviteter.",
-    "paragraf": "1 kap. 3 §",
-    "sfs": "2026:1636",
-    "ikraft": "2028-07-01",
-    "likhet_mot_sou": 0.987,
-    "kalla": {
-     "text": "Skollag (2010:800) 1 kap. 3 § i lydelse enligt SFS 2026:1636, träder i kraft 2028-07-01; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
-     "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
-    },
-    "matchning": "nummer",
-    "manuell_granskning": false
-   },
-   "textlikhet_procent": 98.7,
-   "diff_sou_mot_beslutad": [
-    {
-     "op": "ersatt",
-     "fore": "–",
-     "efter": "-"
-    },
-    {
-     "op": "ersatt",
-     "fore": "informationsoch",
-     "efter": "informations- och"
-    },
-    {
-     "op": "ersatt",
-     "fore": "–",
-     "efter": "-"
-    },
-    {
-     "op": "ersatt",
-     "fore": "–",
-     "efter": "-"
-    },
-    {
-     "op": "ersatt",
-     "fore": "informationsoch",
-     "efter": "informations- och"
-    },
-    {
-     "op": "ersatt",
-     "fore": "–",
-     "efter": "-"
-    },
-    {
-     "op": "tillagd",
-     "fore": null,
-     "efter": "a"
-    },
-    {
-     "op": "ersatt",
-     "fore": "7",
-     "efter": "13"
-    },
-    {
-     "op": "ersatt",
-     "fore": "–",
-     "efter": "-"
-    },
-    {
-     "op": "ersatt",
-     "fore": "–",
-     "efter": "-"
-    },
-    {
-     "op": "struken",
-     "fore": "förskoleklass,",
-     "efter": null
-    },
-    {
-     "op": "tillagd",
-     "fore": null,
-     "efter": "a"
-    },
-    {
-     "op": "ersatt",
-     "fore": "7",
-     "efter": "13 §"
-    },
-    {
-     "op": "ersatt",
-     "fore": "–",
-     "efter": "-"
-    },
-    {
-     "op": "ersatt",
-     "fore": "om fattar",
-     "efter": "omfattar"
-    },
-    {
-     "op": "ersatt",
-     "fore": "förskolebyggnad –",
-     "efter": "förskolebyggnad, -"
-    },
-    {
-     "op": "ersatt",
-     "fore": "–",
-     "efter": "-"
-    },
-    {
-     "op": "ersatt",
-     "fore": "–",
-     "efter": "-"
-    },
-    {
-     "op": "ersatt",
-     "fore": "elever –",
-     "efter": "elever, -"
-    },
-    {
-     "op": "ersatt",
-     "fore": "–",
-     "efter": "-"
-    },
-    {
-     "op": "ersatt",
-     "fore": "ämneseller",
-     "efter": "ämnes- eller"
-    },
-    {
-     "op": "ersatt",
-     "fore": "–",
-     "efter": "-"
-    },
-    {
-     "op": "ersatt",
-     "fore": "–",
-     "efter": "-"
-    },
-    {
-     "op": "ersatt",
-     "fore": "–",
-     "efter": "-"
-    },
-    {
-     "op": "ersatt",
-     "fore": "förskollärare",
-     "efter": "förskollärare,"
-    },
-    {
-     "op": "ersatt",
-     "fore": "och",
-     "efter": "eller"
-    },
-    {
-     "op": "ersatt",
-     "fore": "lagen",
-     "efter": "lagen,"
-    },
-    {
-     "op": "ersatt",
-     "fore": "förmedla",
-     "efter": "lärarna"
-    },
-    {
-     "op": "ersatt",
-     "fore": "förankra",
-     "efter": "förskollärarna förmedlar och förankrar"
-    },
-    {
-     "op": "ersatt",
-     "fore": "–",
-     "efter": "-"
-    }
-   ],
+   "beslutad": null,
+   "textlikhet_procent": null,
+   "diff_sou_mot_beslutad": [],
    "manuell_granskning": false,
    "belagg": "research/remissanalys/reformer/laroplaner/sfs-diff.json#/forslag/2/paragrafer/0"
   },

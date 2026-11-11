@@ -1,7 +1,7 @@
 {
  "_meta": {
   "beskrivning": "Propositionens stycke \"Förslag från Utredningen om införande av grundläggande svenska och översyn av modersmålsundervisningen\" per avsnitt med regeringens förslags-/bedömningsruta, ordagrant fram till nästa underrubrik.",
-  "overensstammelse": "propositionens exakta fras",
+  "overensstammelse": "propositionens exakta fras (verbet stämmer/överensstämmer med bestämningar, som det står)",
   "avvikelse_beskriven": "true om stycket innehåller fler meningar än den inledande om överensstämmelse (mekaniskt)"
  },
  "avsnitt": [
@@ -43,7 +43,7 @@
    ],
    "rubrik_i_propositionen": "Förslag från Utredningen om införande av grundläggande svenska och översyn av modersmålsundervisningen",
    "text": "Utredningens förslag överensstämmer i sak med regeringens. Utredningen föreslår dock lagtekniskt att det ska införas upplysningsbestämmelser i skollagen om att regeringen eller den myndighet som regeringen bestämmer kan meddela föreskrifter som innebär undantag från att betyg ska sättas i ämnen.",
-   "overensstammelse": null,
+   "overensstammelse": "överensstämmer i sak",
    "avvikelse_beskriven": true,
    "kalla": {
     "text": "Prop. 2025/26:194 s. 165, avsnitt 7.2 ”Förslag från Utredningen om införande av grundläggande svenska och översyn av modersmålsundervisningen”",

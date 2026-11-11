@@ -142,10 +142,33 @@
    "namn": "Skollag (2010:800)",
    "riksdagen_id": "sfs-2010-800",
    "andringar": [
-    "2025:729"
+    "2025:729",
+    "2025:730"
    ],
    "bestamd_form": "skollagen",
-   "anm": "Ändringslag verifierad med \"Lag (2025:729)\" i den konsoliderade texten (ändrad t.o.m. SFS 2026:1636): 85 av de 95 skollagsparagrafer som utredningens författningskommentar (9.2) tar upp har en version enligt 2025:729 (prop. 2024/25:143 lagförslag 2.1; i kraft 2026-07-01, tillämpas efter 2028-06-30; övergångsblock finns). 9 kap. har \"upphävts genom lag (2025:729)\". Nio kommenterade paragrafer har ingen 2025:729-version kvar eftersom senare lagar ändrat dem (2 kap. 31 § 2026:760/2026:1634; 3 kap. 1 § 2026:735/2026:1242; 3 kap. 12 j § 2026:736/2026:1242; 5 kap. 12 § 2026:1198/2026:1242; 10 kap. 16 § och 11 kap. 16 a § 2026:1243; 28 kap. 12 § 2025:1312; 29 kap. 3 § 2026:388); de lagarna genomför andra reformer och tas inte med. 26 a kap. 5 § kommer inte med i sfs.json (kapitelbeteckningen \"26 a\" i sou-paragrafer.json mot \"26a\" i den konsoliderade texten, samma begränsning som \"17 a\" i betyg). 2025:730 (6 a kap. 5 och 10 §§, förskoleklassen stryks, samma ikraftträdande) gäller ett kapitel som inte fanns 2021 och som utredningens författningskommentar inte tar upp; tas inte med."
+   "anm": "Ändrat i Sprint 17 A1: 2025:730 (utskottets lagförslag 2 i bet. 2024/25:UbU17, 6 a kap.) har lagts till. Nio kommenterade paragrafer har ingen 2025:729-version kvar eftersom senare lagar ändrat dem (2 kap. 31 § 2026:760/2026:1634; 3 kap. 1 § 2026:735/2026:1242; 3 kap. 12 j § 2026:736/2026:1242; 5 kap. 12 § 2026:1198/2026:1242; 10 kap. 16 § och 11 kap. 16 a § 2026:1243; 28 kap. 12 § 2025:1312; 29 kap. 3 § 2026:388); de lagarna genomför andra reformer och används inte (de paragraferna får status \"ej med\"). 26 a kap. 5 § kommer inte med i sfs.json (kapitelbeteckningen \"26 a\" i sou-paragrafer.json mot \"26a\" i den konsoliderade texten).",
+   "andringar_kalla": [
+    {
+     "sfs": "2025:729",
+     "prop": "Prop. 2024/25:143 (lagförslag 2.1)",
+     "text": "Bet. 2024/25:UbU17, beslut (dokumentstatus, utskottsförslag punkt 1, BES 2025-06-18): \"Riksdagen antar a) regeringens förslag till 1. lag om ändring i skollagen (2010:800) med den ändringen att 1 kap. 12 § ska ha den lydelse som utskottet föreslår i bilaga 3, [...] b) utskottets förslag i bilaga 3 till lag om ändring i skollagen (2010:800). Därmed bifaller riksdagen propositionerna 2024/25:143 punkterna 1-8 och 2024/25:160 punkterna 2.2 och 3.2.\" Skollag (2010:800) konsoliderad (Ändrad: t.o.m. SFS 2026:1636): 92 paragrafversioner har \"Lag (2025:729)\", 91 av dem finns bland de 101 paragrafer som K3 (prop-lagtext.json) har extraherat ur prop. 2024/25:143 lagförslag 2.1; övergångsblocket 2025:729 börjar \"1. Denna lag träder i kraft den 1 juli 2026.\" som lagförslaget. Prop. 2025/26:292 (2026) hänvisar till \"lagen (2025:729) om ändring i skollagen (2010:800)\" som den lag som gör grundskolan tioårig (\"Den nya regleringen träder i kraft den 1 juli 2026 och tillämpas första gången i fråga om utbildning och annan verksamhet som bedrivs efter den 30 juni 2028, se lagen (2025:729) om ändring i skollagen.\"). Ändrings-SFS i original (svenskforfattningssamling.se) och SFS-registret (rkrattsbaser.gov.se) nåddes inte från miljön (proxy 403); riksdagens dokumentstatus för betänkandena anger inga SFS-nummer. Kopplingen SFS-nummer → lag i riksdagsbeslutet bygger därför på ikraftträdandedag, övergångsblock och paragrafuppsättning i den konsoliderade texten jämförda med betänkandets och propositionens text.",
+     "url": "https://data.riksdagen.se/dokumentstatus/HC01UbU17",
+     "ovriga_urler": [
+      "https://data.riksdagen.se/dokument/sfs-2010-800.text",
+      "https://data.riksdagen.se/dokument/HD03292"
+     ]
+    },
+    {
+     "sfs": "2025:730",
+     "prop": "Prop. 2024/25:143 och prop. 2024/25:160 punkt 3.2 (utskottets lagförslag 2 i bilaga 3, bet. 2024/25:UbU17)",
+     "text": "Bet. 2024/25:UbU17 punkt 1 b) antar \"utskottets förslag i bilaga 3 till lag om ändring i skollagen (2010:800)\"; bilaga 3: \"2. Förslag till lag om ändring i skollagen (2010:800) Härigenom föreskrivs att 6 a kap. 5 och 10 §§ skollagen (2010:800) ska ha följande lydelse. Lydelse enligt bet. 2024/25:UbU21 Utskottets förslag\" (förskoleklassen stryks; samordning av prop. 2024/25:160 med prop. 2024/25:143). Konsoliderad text: 6 a kap. 5 och 10 §§ är de enda paragraferna med \"Lag (2025:730)\" (utan \"förskoleklassen\"), och övergångsblocket 2025:730 har samma tre punkter som 2025:729 (\"1. Denna lag träder i kraft den 1 juli 2026. 2. Lagen tillämpas första gången på utbildning och annan verksamhet som bedrivs efter den 30 juni 2028.\"). Utredningens författningskommentar (2021) berör inte 6 a kap., så lagen ger inga paragrafversioner i jämförelsen. Ändrings-SFS i original (svenskforfattningssamling.se) och SFS-registret (rkrattsbaser.gov.se) nåddes inte från miljön (proxy 403); riksdagens dokumentstatus för betänkandena anger inga SFS-nummer. Kopplingen SFS-nummer → lag i riksdagsbeslutet bygger därför på ikraftträdandedag, övergångsblock och paragrafuppsättning i den konsoliderade texten jämförda med betänkandets och propositionens text.",
+     "url": "https://data.riksdagen.se/dokument/HC01UbU17",
+     "ovriga_urler": [
+      "https://data.riksdagen.se/dokumentstatus/HC01UbU17",
+      "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+     ]
+    }
+   ]
   },
   {
    "namn": "Offentlighets- och sekretesslag (2009:400)",
@@ -154,7 +177,18 @@
     "2025:737"
    ],
    "bestamd_form": "offentlighets- och sekretesslagen",
-   "anm": "Ändringslag verifierad med \"Lag (2025:737)\" i den konsoliderade texten (ändrad t.o.m. SFS 2026:1648): 23 kap. 2 § (författningskommentar 9.1; prop. 2024/25:143 lagförslag 2.8), i kraft 2028-07-01; övergångsblock finns. Utredningen föreslog ikraftträdande 2026-07-01."
+   "anm": "Ändringslag verifierad med \"Lag (2025:737)\" i den konsoliderade texten (ändrad t.o.m. SFS 2026:1648): 23 kap. 2 § (författningskommentar 9.1; prop. 2024/25:143 lagförslag 2.8), i kraft 2028-07-01; övergångsblock finns. Utredningen föreslog ikraftträdande 2026-07-01.",
+   "andringar_kalla": [
+    {
+     "sfs": "2025:737",
+     "prop": "Prop. 2024/25:143 (lagförslag 2.8)",
+     "text": "Bet. 2024/25:UbU17 punkt 1 a) 8: \"lag om ändring i offentlighets- och sekretesslagen (2009:400)\". Offentlighets- och sekretesslag (2009:400) konsoliderad (Ändrad: t.o.m. SFS 2026:1648): 23 kap. 2 § är den enda paragrafen med \"Lag (2025:737)\", /Träder i kraft I:2028-07-01/, samma dag som lagförslag 2.8 (\"1. Denna lag träder i kraft den 1 juli 2028.\"). Ändrings-SFS i original (svenskforfattningssamling.se) och SFS-registret (rkrattsbaser.gov.se) nåddes inte från miljön (proxy 403); riksdagens dokumentstatus för betänkandena anger inga SFS-nummer. Kopplingen SFS-nummer → lag i riksdagsbeslutet bygger därför på ikraftträdandedag, övergångsblock och paragrafuppsättning i den konsoliderade texten jämförda med betänkandets och propositionens text.",
+     "url": "https://data.riksdagen.se/dokumentstatus/HC01UbU17",
+     "ovriga_urler": [
+      "https://data.riksdagen.se/dokument/sfs-2009-400.text"
+     ]
+    }
+   ]
   }
  ],
  "forordningar": [
@@ -250,5 +284,43 @@
    "Waldorfskolefederationen (WSF)"
   ]
  },
- "forteckning_korrigeringar_anm": "Förteckningen räknar upp \"… Valfrihetens vänner och Waldorfskolefederationen (WSF), Riksföreningen Waldorfförskolornas samråd (RWS) och Waldorflärarhögskolan (WLH)\"; uppdelningen behandlar Valfrihetens vänner som egen avsändare (osäkert om de tre waldorforganisationerna lämnat ett gemensamt yttrande). Ingen av dem är fokusgrupp."
+ "forteckning_korrigeringar_anm": "Förteckningen räknar upp \"… Valfrihetens vänner och Waldorfskolefederationen (WSF), Riksföreningen Waldorfförskolornas samråd (RWS) och Waldorflärarhögskolan (WLH)\"; uppdelningen behandlar Valfrihetens vänner som egen avsändare (osäkert om de tre waldorforganisationerna lämnat ett gemensamt yttrande). Ingen av dem är fokusgrupp.",
+ "remissida_kontroll": {
+  "datum": "2026-11-11",
+  "regel": "Sprint 17 A2: yttranden från fokusgrupper som är publicerade på remissidan men inte ingår i korpusen enligt förteckningen har lästs. Ett yttrande med sakinnehåll ska ingå även om förteckningen anger att instansen avstått; rena avståendebrev ingår inte.",
+  "tillagda_yttranden": [],
+  "ej_med_avstaenden": [
+   {
+    "avsandare": "Härryda kommun",
+    "fokusgrupp": "kommuner",
+    "forteckning": "ej_svarat (förklarat sig avstå eller inte inkommit med yttrande)",
+    "klassning": "avstående",
+    "sidor": 5,
+    "citat": "Välfärdsnämnden beslutar att Härryda kommun avstår från att lämna yttrande i ärendet.",
+    "kalla": {
+     "text": "Dokument från Härryda kommun på remissidan",
+     "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/harryda-kommun.pdf"
+    },
+    "anm": "Protokollet återger förvaltningens ståndpunkt och ett avslaget förslag om att lämna förvaltningens yttrande (7–6 för att avstå); instansens beslut är att avstå, därför inte med."
+   },
+   {
+    "avsandare": "Mörbylånga kommun",
+    "fokusgrupp": "kommuner",
+    "forteckning": "ej_svarat (förklarat sig avstå eller inte inkommit med yttrande)",
+    "klassning": "avstående",
+    "sidor": 1,
+    "citat": "Mörbylånga kommun har inte möjlighet att lämna några synpunkter på denna remiss på grund av kort handläggningstid och rådande bemanningssituation.",
+    "kalla": {
+     "text": "Dokument från Mörbylånga kommun på remissidan",
+     "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/morbylanga-kommun.pdf"
+    }
+   }
+  ]
+ },
+ "begransningar": [
+  "SOU 2021:33 återger inte paragraftexterna i författningskommentaren; ingen maskinell jämförelse med beslutad lydelse är gjord.",
+  "Remisslistan har Friskolornas riksförbund, inte Almega; förbundet redovisas under eget namn och avstod.",
+  "Remissen gjordes 2021 och propositionen 2025; terminologin skiljer sig (grundsärskolan → anpassade grundskolan).",
+  "Spontana yttranden publiceras inte på regeringen.se; enskilda huvudmän som yttrat sig spontant saknas därför i korpusen."
+ ]
 }

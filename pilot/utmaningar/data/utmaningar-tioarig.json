@@ -88,6 +88,84 @@
     ]
    }
   },
+  "publicerade_avstaenden": [
+   {
+    "avsandare": "Härryda kommun",
+    "fokusgrupp": "kommuner",
+    "forteckning": "ej_svarat (förklarat sig avstå eller inte inkommit med yttrande)",
+    "klassning": "avstående",
+    "sidor": 5,
+    "citat": "Välfärdsnämnden beslutar att Härryda kommun avstår från att lämna yttrande i ärendet.",
+    "kalla": {
+     "text": "Dokument från Härryda kommun på remissidan",
+     "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/harryda-kommun.pdf"
+    },
+    "anm": "Protokollet återger förvaltningens ståndpunkt och ett avslaget förslag om att lämna förvaltningens yttrande (7–6 för att avstå); instansens beslut är att avstå, därför inte med."
+   },
+   {
+    "avsandare": "Mörbylånga kommun",
+    "fokusgrupp": "kommuner",
+    "forteckning": "ej_svarat (förklarat sig avstå eller inte inkommit med yttrande)",
+    "klassning": "avstående",
+    "sidor": 1,
+    "citat": "Mörbylånga kommun har inte möjlighet att lämna några synpunkter på denna remiss på grund av kort handläggningstid och rådande bemanningssituation.",
+    "kalla": {
+     "text": "Dokument från Mörbylånga kommun på remissidan",
+     "url": "https://www.regeringen.se/contentassets/5787ca62fd6242df94ad7b09833113a0/morbylanga-kommun.pdf"
+    }
+   }
+  ],
+  "remissida_kontroll": {
+   "datum": "2026-11-11",
+   "regel": "Sprint 17 A2: yttranden från fokusgrupper som är publicerade på remissidan men inte ingår i korpusen enligt förteckningen har lästs. Ett yttrande med sakinnehåll ska ingå även om förteckningen anger att instansen avstått; rena avståendebrev ingår inte."
+  },
+  "organisationer": [
+   {
+    "id": "skr",
+    "namn": "Sveriges Kommuner och Regioner",
+    "status": "svarat",
+    "kalla": {
+     "text": "Prop. 2024/25:143 bilaga 3 (förteckning över remissinstanserna)",
+     "url": "https://www.regeringen.se/contentassets/d2251095089b425f941b0cde4c33f388/en-tioarig-grundskola-prop.-202425143.pdf"
+    }
+   },
+   {
+    "id": "ideburna",
+    "namn": "Idéburna skolors riksförbund",
+    "status": "svarat",
+    "kalla": {
+     "text": "Prop. 2024/25:143 bilaga 3 (förteckning över remissinstanserna)",
+     "url": "https://www.regeringen.se/contentassets/d2251095089b425f941b0cde4c33f388/en-tioarig-grundskola-prop.-202425143.pdf"
+    }
+   },
+   {
+    "id": "friskolornas",
+    "namn": "Friskolornas riksförbund",
+    "status": "på remisslistan utan svar",
+    "kalla": {
+     "text": "Prop. 2024/25:143 bilaga 3 (förteckning över remissinstanserna)",
+     "url": "https://www.regeringen.se/contentassets/d2251095089b425f941b0cde4c33f388/en-tioarig-grundskola-prop.-202425143.pdf"
+    },
+    "anm": "Förteckningen anger \"har förklarat sig avstå eller har inte inkommit med yttrande\" och skiljer inte mellan de två."
+   }
+  ],
+  "kodning": {
+   "samstammighet_identifiering": {
+    "overens": 36,
+    "antal": 40
+   },
+   "samstammighet_typning": {
+    "overens": 34,
+    "antal": 40
+   },
+   "instruktion": "research/remissanalys/kedja/KODINSTRUKTION.md"
+  },
+  "begransningar": [
+   "SOU 2021:33 återger inte paragraftexterna i författningskommentaren; ingen maskinell jämförelse med beslutad lydelse är gjord.",
+   "Remisslistan har Friskolornas riksförbund, inte Almega; förbundet redovisas under eget namn och avstod.",
+   "Remissen gjordes 2021 och propositionen 2025; terminologin skiljer sig (grundsärskolan → anpassade grundskolan).",
+   "Spontana yttranden publiceras inte på regeringen.se; enskilda huvudmän som yttrat sig spontant saknas därför i korpusen."
+  ],
   "tolkning": "Fält med tolkning: true är tolkning (utmaningstyp; koppling med nivå \"tolkad\"). Kopplingen mellan utredningsförslag och propositionsavsnitt är redaktionell: true. Övrigt är mekaniskt härlett ur källtext.",
   "ingen_bedomning": "Inget fält anger om en utmaning har lösts eller om propositionen har bemött den i sak.",
   "kopplingsnivaer": {
@@ -13156,7 +13234,7 @@
    "proposition": "Prop. 2024/25:143",
    "avsnitt": "6.1",
    "rubrik": "Förskoleklassen ersätts av en ny årskurs 1 i lågstadiet",
-   "overensstammelse": null,
+   "overensstammelse": "Överensstämmer",
    "avvikelse_beskriven": false,
    "avvikelsetext": "Överensstämmer med regeringens förslag.",
    "sida": [
@@ -13181,7 +13259,7 @@
    "proposition": "Prop. 2024/25:143",
    "avsnitt": "6.2",
    "rubrik": "Den garanterade undervisningstiden utökas",
-   "overensstammelse": null,
+   "overensstammelse": "Överensstämmer",
    "avvikelse_beskriven": false,
    "avvikelsetext": "Överensstämmer med regeringens förslag.",
    "sida": [
@@ -13204,7 +13282,7 @@
    "proposition": "Prop. 2024/25:143",
    "avsnitt": "6.3",
    "rubrik": "Den nya första årskursen ska vara en integrerad del av skolan",
-   "overensstammelse": null,
+   "overensstammelse": "Överensstämmer",
    "avvikelse_beskriven": false,
    "avvikelsetext": "Överensstämmer med regeringens förslag.",
    "sida": [
@@ -13236,7 +13314,7 @@
    "proposition": "Prop. 2024/25:143",
    "avsnitt": "6.4.2",
    "rubrik": "Garantin för tidiga stödinsatser ska fortsätta gälla i lågstadiet",
-   "overensstammelse": null,
+   "overensstammelse": "Överensstämmer i huvudsak",
    "avvikelse_beskriven": true,
    "avvikelsetext": "Överensstämmer i huvudsak med regeringens förslag. Utredningens förslag bygger dock på dåvarande gällande rätt då garantin för tidiga stödinsatser inte omfattade den anpassade grundskolan.",
    "sida": [
@@ -13263,7 +13341,7 @@
    "proposition": "Prop. 2024/25:143",
    "avsnitt": "6.5",
    "rubrik": "Följdändringar i skollagen och andra lagar",
-   "overensstammelse": null,
+   "overensstammelse": "Överensstämmer delvis",
    "avvikelse_beskriven": true,
    "avvikelsetext": "Överensstämmer delvis med regeringens förslag. Utredningen föreslår till skillnad från regeringen ändringar i lagen (2010:801) om införande av skollagen (2010:800), men inte några ändringar i socialförsäkringsbalken, arbetsmiljölagen (1977:1160), föräldraledighetslagen (1995:584), lagen (2004:773) om kommunalekonomisk utjämning, diskrimineringslagen (2008:567) och smittskyddslagen (2004:168).",
    "sida": [
@@ -13287,7 +13365,7 @@
    "proposition": "Prop. 2024/25:143",
    "avsnitt": "7.2",
    "rubrik": "Uppgifter ska överlämnas från förskola till skola för att underlätta skolstarten för barnet",
-   "overensstammelse": null,
+   "overensstammelse": "Överensstämmer huvudsakligen",
    "avvikelse_beskriven": true,
    "avvikelsetext": "Överensstämmer huvudsakligen med regeringens förslag. Utredningen har föreslagit ordet ”När” i stället för formuleringen ”Inför eller i samband med att”. Utredningen har inte heller föreslagit att följdändringar ska göras i en av de befintliga bestämmelserna.",
    "sida": [
@@ -13311,7 +13389,7 @@
    "proposition": "Prop. 2024/25:143",
    "avsnitt": "10",
    "rubrik": "Ikraftträdande- och övergångsbestämmelser",
-   "overensstammelse": null,
+   "overensstammelse": "Överensstämmer delvis",
    "avvikelse_beskriven": true,
    "avvikelsetext": "Överensstämmer delvis med regeringens förslag. Utredningen föreslår att ändringarna i skollagen ska träda i kraft den 1 augusti 2024 och tillämpas första gången på utbildning och annan verksamhet som påbörjas efter den 30 juni 2026. Bestämmelserna i 3 kap. 12 j § om skyldighet att lämna över viss information om barn och elever vid övergångar föreslås dock tillämpas från den 1 januari 2026. Utredningen föreslår inte några bestämmelser om hur elever som påbörjat sin skolgång i det gamla systemet ska fortsätta skolgången i det nya systemet. Utredningen föreslår en övergångsbestämmelse som bl.a. innebär att en enskild huvudman som har godkännande för förskoleklass och grundskola eller anpassad grundskola efter ansökan till Statens skolinspektion och en förenklad prövning ska få godkännande för nya årskurs 1 och att regeringen ska bemyndigas att meddela föreskrifter om den förenklade prövningen. Vidare föreslår utredningen att det i övergångsbestämmelser till skollagen ska regleras vad som ska gälla för befintliga lärarlegitimationer med behörighet att undervisa i grundskolan, anpassade grundskolan, specialskolan eller sameskolan. Utredningen föreslår inte någon övergångsbestämmelse i fråga om överlämning av uppgifter om en elev som ska övergå från förskoleklassen till skolan när reformen införs. Utredningen föreslår inte heller några övergångsbestämmelser som reglerar vad som ska gälla för beslut som har fattats enligt äldre bestämmelser om att betyg ska sättas redan i årskurs 4 och 5 vid en skolenhet inom grundskolan, anpassade grundskolan eller sameskolan eller i årskurs 5 och 6 vid en skolenhet inom specialskolan eller vad som ska gälla för befintliga tillstånd att använda färdighetsprov i musik i förskoleklassen eller i årskurs 1, 2 eller 3 i grundskolan. Utredningens förslag innehåller inte heller någon övergångsbestämmelse som innebär att äldre bestämmelser om minsta totala undervisningstid ska fortsätta att gälla för elever som höstterminen 2028 påbörjar årskurs 2 eller en högre årskurs i grundskolan eller i en motsvarande skolform. Utredningen föreslår i vissa fall även en annan utformning av ikraftträdande- och övergångsbestämmelserna till skollagen. Ändringarna i offentlighets- och sekretesslagen (2009:400) föreslås träda i kraft den 1 juli 2026.",
    "sida": [

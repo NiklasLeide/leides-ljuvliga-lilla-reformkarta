@@ -1,7 +1,7 @@
 {
  "_meta": {
   "beskrivning": "Propositionens stycke \"Utredningens förslag\" (prop. 194: \"Utredningen om likvärdiga betyg och meritvärdens förslag\") per avsnitt med regeringens förslags-/bedömningsruta, ordagrant fram till nästa underrubrik.",
-  "overensstammelse": "propositionens exakta fras",
+  "overensstammelse": "propositionens exakta fras (verbet stämmer/överensstämmer med bestämningar, som det står)",
   "avvikelse_beskriven": "true om stycket innehåller fler meningar än den inledande om överensstämmelse (mekaniskt)"
  },
  "avsnitt": [

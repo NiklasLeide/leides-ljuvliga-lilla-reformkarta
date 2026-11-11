@@ -12,15 +12,20 @@
    "andringar": [
     "2026:1242"
    ],
-   "versioner": [
+   "andringar_kalla": [
     {
-     "kap": "3",
-     "par": "1",
-     "ikraft": null,
-     "upphor": "2028-07-01",
-     "lag": "2026:735",
-     "text": "I detta kapitel finns bestämmelser om - barnens och elevernas lärande och personliga utveckling (2 §), - information om barnets och elevens utveckling (3 §), - garanti för tidiga stödinsatser i lågstadiet (4-4 b §§), - stöd i form av extra anpassningar (5 §), - särskilt stöd (6-12 §§), - mottagande och undervisning av nyanlända elever (12 a- 12 i §§), - överlämning av uppgifter vid övergångar (12 j-12 l §§), och - allmänna bestämmelser om betyg (13-21 §§)."
-    },
+     "sfs": "2026:1242",
+     "prop": "Prop. 2025/26:195",
+     "text": "Bet. 2025/26:UbU24, beslut punkt 1: \"Riksdagen godtar det som utskottet anför om regeringens förslag till lag om ändring i skollagen (2010:800). Därmed bifaller riksdagen proposition 2025/26:195 delpunkt 1\" (dvs. lagen antogs inte i UbU24). Beslut (dokumentstatus, utskottsförslag punkt 1, BES 2026-06-09): \"a) antar utskottets förslag i bilaga 3 till 1. lag om ändring i skollagen (2010:800), 2. lag om ändring i skollagen (2010:800), 3. lag om ändring i skollagen (2010:800), b) antar regeringens förslag till lag om ändring i skollagen (2010:800) (proposition 2025/26:197 lagförslag 2) [...] Därmed bifaller riksdagen propositionerna 2025/26:194 punkterna 1.2 och 2.2, 2025/26:195 delpunkt 2, 2025/26:196 punkt 3.2, 2025/26:197 punkterna 1-4 och 2025/26:198 punkterna 2.2 och 3.2.\" Skollag (2010:800) konsoliderad, riksdagens öppna data (Ändrad: t.o.m. SFS 2026:1636), hämtad 2026-11-11: 31 paragrafversioner har \"Lag (2026:1242)\", alla med /Träder i kraft I:2028-07-01/, och övergångsbestämmelserna har inget block för 2026:1242 = den lag \"som träder i kraft den 1 juli 2028 och saknar övergångsbestämmelser\" i Bet. 2025/26:UbU26 (Utskottets överväganden): \"Det innebär att utskottet föreslår att samordningen av lagstiftningen sker i en lag som träder i kraft den 1 juli 2028 och saknar övergångsbestämmelser, en lag som träder i kraft den 2 juli 2028 och har ett flertal övergångsbestämmelser samt en lag som träder i kraft den 1 januari 2031 och har en övergångsbestämmelse.\". alla 25 paragrafer som K3 (prop-lagtext.json) har extraherat ur prop. 2025/26:195:s enda lagförslag har lydelse \"Lag (2026:1242)\" (propositionen: \"Denna lag träder i kraft den 1 juli 2028.\"; lagförslaget har inga övergångsbestämmelser). 3 kap. 7 § har därtill en senare lydelse \"Lag (2026:1243)\" (2028-07-02) som bara skiljer sig genom prop. 2025/26:197:s ändring (\"minst ... E\" → \"lägst ... 4\"). Ändrings-SFS i original (svenskforfattningssamling.se) och SFS-registret (rkrattsbaser.gov.se) nåddes inte från miljön (proxy 403); riksdagens dokumentstatus för betänkandena anger inga SFS-nummer. Kopplingen SFS-nummer → lag i riksdagsbeslutet bygger därför på ikraftträdandedag, övergångsblock och paragrafuppsättning i den konsoliderade texten jämförda med betänkandets och propositionens text.",
+     "url": "https://data.riksdagen.se/dokument/HD01UbU26",
+     "ovriga_urler": [
+      "https://data.riksdagen.se/dokumentstatus/HD01UbU24",
+      "https://data.riksdagen.se/dokumentstatus/HD01UbU26",
+      "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+     ]
+    }
+   ],
+   "versioner": [
     {
      "kap": "3",
      "par": "1",
@@ -32,42 +37,10 @@
     {
      "kap": "3",
      "par": "2",
-     "ikraft": null,
-     "upphor": "2028-07-01",
-     "lag": "2022:146",
-     "text": "Alla barn och elever i samtliga skolformer och i fritidshemmet ska ges den ledning och stimulans som de behöver i sitt lärande och sin personliga utveckling för att de utifrån sina egna förutsättningar ska kunna utvecklas så långt som möjligt enligt utbildningens mål. Elever som till följd av en funktionsnedsättning har svårt att uppfylla de olika betygskriterier eller kriterier för bedömning av kunskaper som gäller, ska ges stöd som syftar till att så långt som möjligt motverka funktionsnedsättningens konsekvenser. Elever som lätt uppfyller de betygskriterier eller kriterier för bedömning av kunskaper som minst ska uppfyllas ska ges ledning och stimulans för att kunna nå längre i sin kunskapsutveckling."
-    },
-    {
-     "kap": "3",
-     "par": "2",
      "ikraft": "2028-07-01",
      "upphor": null,
      "lag": "2026:1242",
      "text": "Alla barn och elever i samtliga skolformer och i fritidshemmet ska i undervisningen ges den ledning och stimulans som de behöver i sitt lärande och sin personliga utveckling i syfte att de ska kunna följa undervisningen och utifrån sina egna förutsättningar utvecklas så långt som möjligt enligt utbildningens mål. Elever som till följd av en funktionsnedsättning har svårt att tillgodogöra sig de kunskaper som anges i kurs-, ämnes- eller ämnesområdesplanerna, ska ges stöd som syftar till att så långt som möjligt motverka funktionsnedsättningens konsekvenser. Elever som lätt tillgodogör sig de kunskaper som anges i kurs-, ämnes- eller ämnesområdesplanerna, ska ges ledning och stimulans för att kunna nå längre i sin kunskapsutveckling."
-    },
-    {
-     "kap": "3",
-     "par": "3",
-     "ikraft": null,
-     "upphor": "2028-07-02",
-     "lag": "2025:729",
-     "text": "Vårdnadshavare för ett barn i förskolan samt eleven och elevens vårdnadshavare i grundskolan, anpassade grundskolan, specialskolan, sameskolan, fritidshemmet, gymnasieskolan och anpassade gymnasieskolan ska fortlöpande informeras om barnets eller elevens utveckling."
-    },
-    {
-     "kap": "3",
-     "par": "3",
-     "ikraft": "2028-07-02",
-     "upphor": null,
-     "lag": "2026:1243",
-     "text": "Vårdnadshavare för ett barn i förskolan samt eleven och elevens vårdnadshavare i grundskolan, anpassade grundskolan, specialskolan, sameskolan, fritidshemmet, gymnasieskolan och anpassade gymnasieskolan ska vid tillfällen som bestäms av personal vid förskolan, fritidshemmet eller skolan informeras om barnets eller elevens utveckling."
-    },
-    {
-     "kap": "3",
-     "par": "4",
-     "ikraft": null,
-     "upphor": "2028-07-01",
-     "lag": "2025:729",
-     "text": "Det ska göras en särskild bedömning av en elevs kunskapsutveckling i 1. lågstadiet i grundskolan, i anpassade grundskolan och i sameskolan, om det utifrån användning av ett nationellt kartläggningsmaterial, ett nationellt bedömningsstöd eller ett nationellt prov i svenska, svenska som andraspråk eller matematik, finns en indikation på att eleven inte kommer att uppfylla kriterierna för bedömning av kunskaper för årskurs 2 eller 4, och 2. lågstadiet i specialskolan, om det utifrån användning av ett nationellt kartläggningsmaterial, ett nationellt bedömningsstöd eller ett nationellt prov i svenska, svenska som andraspråk eller matematik, finns en indikation på att eleven inte kommer att uppfylla kriterierna för bedömning av kunskaper för årskurs 3 eller 5. Om det efter en sådan bedömning kan befaras att eleven inte kommer att uppfylla de kriterier för bedömning av kunskaper som gäller för den aktuella skolformen, ska det skyndsamt planeras sådant stöd som anges i 5 § eller göras en anmälan till rektorn enligt 7 §. Det behöver inte göras någon särskild bedömning om förutsättningarna i 5 eller 7 § redan är uppfyllda. Det ska i så fall skyndsamt planeras sådant stöd som anges i 5 § eller göras en anmälan till rektorn enligt 7 §."
     },
     {
      "kap": "3",
@@ -76,30 +49,6 @@
      "upphor": null,
      "lag": "2026:1242",
      "text": "Det ska genomföras standardiserade tester för att identifiera elever som har behov av stöd i läs-, skriv- och matematikutveckling. Testerna ska genomföras i början av höstterminen i - grundskolans och anpassade grundskolans årskurs 1, 2, 3, 5 och 8, - specialskolans årskurs 1, 2, 3, 6 och 9, och - sameskolans årskurs 1, 2, 3 och 5. I anpassade grundskolan ska standardiserade tester endast genomföras av de elever som läser ämnen. Om resultatet från ett standardiserat test visar att eleven har större behov än vad som rimligen kan hanteras inom ramen för ledning och stimulans eller stöd enligt 2 § ska det skyndsamt planeras stödundervisning enligt 5 a § eller göras en anmälan till rektorn enligt 7 §."
-    },
-    {
-     "kap": "3",
-     "par": "4a",
-     "ikraft": null,
-     "upphor": null,
-     "lag": "2025:729",
-     "text": "/Upphör att gälla U:2028-07-01 genom lag (2026:1242)./ Ansvarig lärare ska samråda med personal med specialpedagogisk kompetens vid 1. en särskild bedömning enligt 4 §, 2. planering av stöd som anges i 5 § när det i lågstadiet upptäcks att sådant stöd behöver ges i svenska, svenska som andraspråk eller matematik, och 3. uppföljning enligt 4 b §. Sådant samråd behöver inte genomföras om den ansvariga läraren har specialpedagogisk kompetens."
-    },
-    {
-     "kap": "3",
-     "par": "4b",
-     "ikraft": null,
-     "upphor": null,
-     "lag": "2025:729",
-     "text": "/Upphör att gälla U:2028-07-01 genom lag (2026:1242)./ I slutet av lågstadiet i grundskolan, anpassade grundskolan, specialskolan och sameskolan, ska det genomföras en uppföljning av sådant stöd som getts enligt 5 § i svenska, svenska som andraspråk och matematik. Resultatet av denna uppföljning ska överföras till den lärare som ska ansvara för eleven i nästa årskurs."
-    },
-    {
-     "kap": "3",
-     "par": "5",
-     "ikraft": null,
-     "upphor": "2028-07-01",
-     "lag": "2022:146",
-     "text": "Om det inom ramen för undervisningen, genom användning av ett nationellt kartläggningsmaterial eller ett nationellt bedömningsstöd, resultatet på ett nationellt prov eller uppgifter från lärare, övrig skolpersonal, en elev eller en elevs vårdnadshavare eller på annat sätt framkommer att det kan befaras att en elev inte kommer att uppfylla de betygskriterier eller kriterier för bedömning av kunskaper som minst ska uppfyllas, och inte annat följer av 7 §, ska eleven skyndsamt ges stöd i form av extra anpassningar inom ramen för den ordinarie undervisningen. Stödet ska ges med utgångspunkt i elevens utbildning i dess helhet, om det inte är uppenbart obehövligt. Detta gäller elever i samtliga skolformer och i fritidshemmet."
     },
     {
      "kap": "3",
@@ -135,43 +84,11 @@
     },
     {
      "kap": "3",
-     "par": "6",
-     "ikraft": null,
-     "upphor": null,
-     "lag": "2025:729",
-     "text": "Bestämmelserna i 7-12 §§ gäller endast i grundskolan, anpassade grundskolan, specialskolan, sameskolan, fritidshemmet, gymnasieskolan och anpassade gymnasieskolan."
-    },
-    {
-     "kap": "3",
-     "par": "7",
-     "ikraft": null,
-     "upphor": "2028-07-01",
-     "lag": "2022:724",
-     "text": "Om det inom ramen för undervisningen, genom användning av ett nationellt kartläggningsmaterial eller ett nationellt bedömningsstöd, resultatet på ett nationellt prov eller uppgifter från lärare, övrig skolpersonal, en elev eller en elevs vårdnadshavare eller på annat sätt framkommer att det kan befaras att en elev inte kommer att uppfylla de betygskriterier eller kriterier för bedömning av kunskaper som minst ska uppfyllas, trots att stöd har getts i form av extra anpassningar inom ramen för den ordinarie undervisningen enligt 5 §, ska detta anmälas till rektorn. Detsamma gäller om det finns särskilda skäl att anta att sådana anpassningar inte skulle vara tillräckliga. Rektorn ska se till att elevens behov av särskilt stöd skyndsamt utreds. Behovet av särskilt stöd ska även utredas om eleven uppvisar andra svårigheter i sin skolsituation. Samråd ska ske med elevhälsan, om det inte är uppenbart obehövligt. Om en utredning visar att en elev är i behov av särskilt stöd, ska han eller hon ges sådant stöd. Vid skolenheter där utbildningen är begränsad till att avse elever som är i behov av särskilt stöd (resursskolor) gäller i stället för första-tredje styckena att varje elev vid resursskolan ska ges särskilt stöd. Det särskilda stödet ska ges med utgångspunkt i elevens utbildning i dess helhet, om det inte är uppenbart obehövligt. Bestämmelserna i första-tredje styckena och i 9-12 §§ ska inte tillämpas, om en elevs stödbehov bedöms kunna tillgodoses genom en åtgärd till stöd för nyanlända och andra elever vars kunskaper har bedömts enligt 12 c §."
-    },
-    {
-     "kap": "3",
      "par": "7",
      "ikraft": "2028-07-01",
      "upphor": null,
      "lag": "2026:1242",
      "text": "/Upphör att gälla U:2028-07-02/ Om ansvarig lärare eller mentor inom ramen för undervisningen, eller på grund av resultatet på ett standardiserat test eller ett nationellt prov eller av andra skäl befarar att en elev inte kommer att tillgodogöra sig de kunskaper som anges i kurs-, ämnes- eller ämnesområdesplanerna till en nivå som minst motsvarar betyget E eller motsvarande bedömningskriterium, ska läraren eller mentorn göra en skriftlig anmälan till rektorn om att elevens behov av särskilt stöd behöver utredas. En sådan anmälan ska också göras om stödundervisning enligt 5 a § inte bedöms innebära tillräckligt stöd och en anmälan till rektorn enligt 5 a § därför inte görs, eller om eleven uppvisar andra svårigheter i sin skolsituation. Rektorn ska se till att elevens behov av särskilt stöd utreds skyndsamt. Samråd ska alltid ske med speciallärare eller specialpedagog. Samråd ska även ske med andra delar av elevhälsan, om det inte är uppenbart obehövligt."
-    },
-    {
-     "kap": "3",
-     "par": "7",
-     "ikraft": "2028-07-02",
-     "upphor": null,
-     "lag": "2026:1243",
-     "text": "Om ansvarig lärare eller mentor inom ramen för undervisningen, eller på grund av resultatet på ett standardiserat test eller ett nationellt prov eller av andra skäl befarar att en elev inte kommer att tillgodogöra sig de kunskaper som anges i kurs-, ämnes- eller ämnesområdesplanerna till en nivå som lägst motsvarar betyget 4 eller motsvarande bedömningskriterium, ska läraren eller mentorn göra en skriftlig anmälan till rektorn om att elevens behov av särskilt stöd behöver utredas. En sådan anmälan ska också göras om stödundervisning enligt 5 a § inte bedöms innebära tillräckligt stöd och en anmälan till rektorn enligt 5 a § därför inte görs, eller om eleven uppvisar andra svårigheter i sin skolsituation. Rektorn ska se till att elevens behov av särskilt stöd utreds skyndsamt. Samråd ska alltid ske med speciallärare eller specialpedagog. Samråd ska även ske med andra delar av elevhälsan, om det inte är uppenbart obehövligt."
-    },
-    {
-     "kap": "3",
-     "par": "8",
-     "ikraft": null,
-     "upphor": "2028-07-01",
-     "lag": "2018:1098",
-     "text": "Särskilt stöd får ges i stället för den undervisning eleven annars skulle ha deltagit i eller som komplement till denna. Det särskilda stödet ska ges inom den elevgrupp som eleven tillhör om inte annat följer av denna lag eller annan författning."
     },
     {
      "kap": "3",
@@ -200,42 +117,10 @@
     {
      "kap": "3",
      "par": "9",
-     "ikraft": null,
-     "upphor": "2028-07-01",
-     "lag": "2020:605",
-     "text": "Ett åtgärdsprogram ska utarbetas för en elev som ska ges särskilt stöd. Av programmet ska behovet av särskilt stöd och hur det ska tillgodoses framgå. Av programmet ska det också framgå när åtgärderna ska följas upp och utvärderas och vem som är ansvarig för uppföljningen respektive utvärderingen. Eleven och elevens vårdnadshavare ska ges möjlighet att delta när ett åtgärdsprogram utarbetas. Åtgärdsprogrammet beslutas av rektorn. Rektorn får inte överlåta sin beslutanderätt till någon annan om beslutet innebär att särskilt stöd ska ges 1. i en annan elevgrupp eller enskilt enligt 11 §, 2. i form av distansundervisning och annan undervisning enligt 11 a §, eller 3. i form av anpassad studiegång enligt 12 §. Om en utredning enligt 7 § visar att eleven inte behöver särskilt stöd, ska rektorn eller den som rektorn har överlåtit beslutanderätten till i stället besluta att ett åtgärdsprogram inte ska utarbetas."
-    },
-    {
-     "kap": "3",
-     "par": "9",
      "ikraft": "2028-07-01",
      "upphor": null,
      "lag": "2026:1242",
      "text": "Ett åtgärdsprogram ska utarbetas för en elev som ska ges särskilt stöd. Av programmet ska behovet av särskilt stöd och hur det ska tillgodoses framgå. Av programmet ska det också framgå när åtgärderna ska följas upp och utvärderas och vem som är ansvarig för uppföljningen respektive utvärderingen. Eleven och elevens vårdnadshavare ska ges möjlighet att delta när ett åtgärdsprogram utarbetas. Åtgärdsprogrammet beslutas av rektorn. Rektorn får inte överlåta sin beslutanderätt till någon annan om beslutet innebär att särskilt stöd ska ges i form av 1. distansundervisning och annan undervisning enligt 11 a §, eller 2. anpassad studiegång enligt 12 §. Om en utredning enligt 7 § visar att eleven inte behöver särskilt stöd, ska rektorn eller den som rektorn har överlåtit beslutanderätten till i stället besluta att ett åtgärdsprogram inte ska utarbetas."
-    },
-    {
-     "kap": "3",
-     "par": "10",
-     "ikraft": null,
-     "upphor": "2028-07-02",
-     "lag": "2022:1315",
-     "text": "För en elev i grundskolan, anpassade grundskolan, specialskolan och sameskolan ska det särskilda stödet ges på det sätt och i den omfattning som behövs för att eleven ska ha möjlighet att uppfylla de betygskriterier eller kriterier för bedömning av kunskaper som minst ska uppfyllas."
-    },
-    {
-     "kap": "3",
-     "par": "10",
-     "ikraft": "2028-07-02",
-     "upphor": null,
-     "lag": "2026:1243",
-     "text": "För en elev i grundskolan, anpassade grundskolan, specialskolan och sameskolan ska det särskilda stödet ges på det sätt och i den omfattning som behövs för att eleven ska ha möjlighet att tillgodogöra sig de kunskaper som i ämnenas eller ämnesområdenas kursplaner anges i den del som avser mål och innehåll till en nivå som lägst motsvarar betyget 4 eller motsvarande bedömningskriterium."
-    },
-    {
-     "kap": "3",
-     "par": "11",
-     "ikraft": null,
-     "upphor": "2028-07-01",
-     "lag": "2022:1315",
-     "text": "Om det finns särskilda skäl, får ett beslut enligt 9 § för en elev i grundskolan, anpassade grundskolan, specialskolan eller sameskolan innebära att särskilt stöd ska ges enskilt eller i en annan undervisningsgrupp (särskild undervisningsgrupp) än den som eleven normalt hör till."
     },
     {
      "kap": "3",
@@ -248,14 +133,6 @@
     {
      "kap": "3",
      "par": "11a",
-     "ikraft": null,
-     "upphor": "2028-07-01",
-     "lag": "2020:605",
-     "text": "Ett beslut enligt 9 § får innebära att särskilt stöd ska ges i form av distansundervisning och annan undervisning enligt 22 kap., om kraven i 22 kap. 5 eller 7 § är uppfyllda. Ett beslut enligt första stycket får avse högst en termin åt gången."
-    },
-    {
-     "kap": "3",
-     "par": "11a",
      "ikraft": "2028-07-01",
      "upphor": null,
      "lag": "2026:1242",
@@ -264,98 +141,10 @@
     {
      "kap": "3",
      "par": "12",
-     "ikraft": null,
-     "upphor": "2028-07-01",
-     "lag": "2022:1315",
-     "text": "Om det särskilda stödet för en elev i grundskolan, anpassade grundskolan, specialskolan eller sameskolan inte i rimlig grad kan anpassas efter elevens behov och förutsättningar, får ett beslut enligt 7 § innebära avvikelser från den timplan samt de ämnen och mål som annars gäller för utbildningen (anpassad studiegång). I grundskolan, specialskolan och sameskolan ska den anpassade studiegången utformas så att eleven så långt som möjligt får förutsättningar att nå behörighet till gymnasieskolans nationella program. Rektorn ansvarar för att en elev med anpassad studiegång får en utbildning som så långt det är möjligt är likvärdig med övrig utbildning i den aktuella skolformen."
-    },
-    {
-     "kap": "3",
-     "par": "12",
      "ikraft": "2028-07-01",
      "upphor": null,
      "lag": "2026:1242",
      "text": "Ett åtgärdsprogram enligt 9 § för en elev i grundskolan, anpassade grundskolan, specialskolan eller sameskolan får innebära avvikelser från den timplan samt de ämnen och mål som annars gäller för utbildningen (anpassad studiegång). Ett sådant beslut får fattas om alla andra möjligheter till särskilt stöd är uttömda eller bedöms olämpliga. I grundskolan, specialskolan och sameskolan ska den anpassade studiegången utformas så att eleven så långt som möjligt får förutsättningar att nå behörighet till gymnasieskolans nationella program. Beslutet ska föregås av information om beslutets konsekvenser till eleven och elevens vårdnadshavare. Rektorn ansvarar för att en elev med anpassad studiegång får en utbildning som så långt det är möjligt är likvärdig med övrig utbildning i den aktuella skolformen."
-    },
-    {
-     "kap": "3",
-     "par": "12a",
-     "ikraft": null,
-     "upphor": null,
-     "lag": "2025:729",
-     "text": "Med nyanländ avses i denna lag den som 1. har varit bosatt utomlands, 2. nu är bosatt i landet, och 3. har påbörjat sin utbildning här senare än höstterminens start det kalenderår då han eller hon fyller sex år. En elev ska inte längre anses vara nyanländ efter fyra års skolgång här i landet. Som bosatt utomlands anses den som inte anses bosatt i landet enligt 29 kap. 2 §."
-    },
-    {
-     "kap": "3",
-     "par": "12b",
-     "ikraft": null,
-     "upphor": null,
-     "lag": "2022:1315",
-     "text": "Bestämmelserna i 12 c-12 i §§ gäller, om inte annat anges, i grundskolan, anpassade grundskolan, specialskolan och sameskolan."
-    },
-    {
-     "kap": "3",
-     "par": "12c",
-     "ikraft": null,
-     "upphor": null,
-     "lag": "2025:729",
-     "text": "En nyanländ elevs kunskaper ska bedömas om en sådan bedömning inte är uppenbart onödig. Om det behövs ska en sådan bedömning göras även för en elev som 1. har varit bosatt utomlands och som har påbörjat sin utbildning här senast vid höstterminens start det kalenderår då han eller hon fyller sex år, eller 2. efter skolgång i Sverige har varit bosatt utomlands och därefter har återvänt till Sverige för att återuppta sin utbildning här. Rektorn ansvarar för att bedömningar görs enligt första och andra styckena. Regeringen eller den myndighet som regeringen bestämmer får meddela föreskrifter om underlag för sådana bedömningar."
-    },
-    {
-     "kap": "3",
-     "par": "12d",
-     "ikraft": null,
-     "upphor": null,
-     "lag": "2018:1303",
-     "text": "En bedömning enligt 12 c § ska göras skyndsamt. För en nyanländ elev och för en elev som avses i 12 c § andra stycket 2 ska bedömningen göras i sådan tid att beslut om placering i årskurs och undervisningsgrupp kan fattas enligt 12 e §. För en elev som avses i 12 c § andra stycket 1 ska bedömningen göras senast inom två månader från det att eleven har tagits emot inom skolväsendet i någon av de skolformer som anges i 12 b §. Resultatet av en bedömning enligt 12 c § ska beaktas vid beslut enligt 12 e och h §§, upprättande av individuell studieplan enligt 12 g § och bedömning av behov av studiehandledning på modersmålet enligt 12 i § samt vid övrig planering av undervisningen och vid fördelning av undervisningstiden."
-    },
-    {
-     "kap": "3",
-     "par": "12e",
-     "ikraft": null,
-     "upphor": null,
-     "lag": "2015:246",
-     "text": "En nyanländ elev och en elev, vars kunskaper har bedömts enligt 12 c § andra stycket 2 ska placeras i den årskurs som är lämplig med hänsyn till elevens ålder, förkunskaper och personliga förhållanden i övrigt. Rektorn ska besluta om en sådan elevs placering i årskurs så snart som möjligt och senast inom två månader från det att eleven har tagits emot inom skolväsendet i någon av de skolformer som anges i 12 b §. Eleven ska inom samma tid placeras i den undervisningsgrupp som eleven normalt ska tillhöra."
-    },
-    {
-     "kap": "3",
-     "par": "12f",
-     "ikraft": null,
-     "upphor": null,
-     "lag": "2015:246",
-     "text": "Rektorn får besluta att en elev vars kunskaper bedömts enligt 12 c § delvis ska undervisas i förberedelseklass, om eleven saknar tillräckliga kunskaper i svenska för att kunna tillgodogöra sig den ordinarie undervisningen. En elevs undervisning i förberedelseklass i ett visst ämne ska avbrytas så snart eleven bedöms ha tillräckliga kunskaper i svenska för att på heltid kunna delta i undervisningen i det ämnet i den undervisningsgrupp som eleven normalt hör till. En elev får inte ges undervisning i förberedelseklass längre tid än två år."
-    },
-    {
-     "kap": "3",
-     "par": "12g",
-     "ikraft": null,
-     "upphor": null,
-     "lag": "2018:1303",
-     "text": "För en nyanländ elev som har tagits emot inom skolväsendet i högstadiet i grundskolan eller specialskolan och vars kunskaper har bedömts enligt 12 c §, ska en individuell studieplan upprättas senast inom två månader från mottagandet. Studieplanen ska vara långsiktig och beskriva hur eleven ska uppnå behörighet till gymnasieskolans nationella program utifrån elevens mål. Den ska innehålla uppgifter om utbildningens huvudsakliga innehåll och planerade stödåtgärder. Studieplanen ska revideras löpande utifrån de bedömningar som görs av elevens ämneskunskaper."
-    },
-    {
-     "kap": "3",
-     "par": "12h",
-     "ikraft": null,
-     "upphor": null,
-     "lag": "2018:1303",
-     "text": "Rektorn får besluta att en nyanländ elev som har tagits emot inom skolväsendet i högstadiet i grundskolan eller specialskolan, ska ges undervisning som avviker från den timplan samt de ämnen och mål som annars gäller för utbildningen (anpassad timplan), om 1. rektorn efter att elevens kunskaper har bedömts enligt 12 c § eller senare, bedömer att eleven kommer att ha svårt att nå behörighet till ett nationellt program i gymnasieskolan inom ramen för skolplikten eller motsvarande rätt till utbildning enligt 7 kap. 2 §, och 2. eleven och elevens vårdnadshavare har samtyckt till den anpassade timplanen. En anpassad timplan ska utformas så att 1. eleven ges undervisning i sådana ämnen och minst det antal ämnen som krävs för att nå behörighet till ett nationellt program i gymnasieskolan, 2. ett av de ämnen som avses i 1 är idrott och hälsa, och 3. eleven ges minst den totala undervisningstid som återstår för övriga elever i den årskursen hos huvudmannen under den kvarvarande skoltiden."
-    },
-    {
-     "kap": "3",
-     "par": "12i",
-     "ikraft": null,
-     "upphor": "2028-07-02",
-     "lag": "2026:1243",
-     "text": "En nyanländ elev, som har tagits emot inom skolväsendet i högstadiet i grundskolan, anpassade grundskolan eller specialskolan och vars kunskaper har bedömts enligt 12 c §, ska få studiehandledning på modersmålet om det inte är uppenbart obehövligt. Studiehandledningen ska syfta till att ge eleven förutsättningar att uppfylla de betygskriterier eller kriterier för bedömning av kunskaper som minst ska uppfyllas. Studiehandledningen får ges på elevens starkaste skolspråk, om det är ett annat än modersmålet. Lag (2022:1315). 12 i /Träder i kraft I:2028-07-02/ § En nyanländ elev, som har tagits emot inom skolväsendet i högstadiet i grundskolan, anpassade grundskolan eller specialskolan och vars kunskaper har bedömts enligt 12 c §, ska få studiehandledning på modersmålet om det inte är uppenbart obehövligt. Studiehandledningen ska syfta till att ge eleven förutsättningar att tillgodogöra sig de kunskaper som i ämnenas eller ämnesområdenas kursplaner anges i den del som avser mål och innehåll till en nivå som lägst motsvarar betyget 4 eller motsvarande bedömningskriterium. Studiehandledningen får ges på elevens starkaste skolspråk, om det är ett annat än modersmålet."
-    },
-    {
-     "kap": "3",
-     "par": "12j",
-     "ikraft": null,
-     "upphor": "2028-07-01",
-     "lag": "2026:736",
-     "text": "Inför eller i samband med att ett barn i förskolan eller i pedagogisk omsorg enligt 25 kap. 2 § övergår till grundskolan, anpassade grundskolan, specialskolan eller sameskolan ska den förskoleenhet eller verksamhet som barnet lämnar till den mottagande skolenheten överlämna sådana uppgifter om barnet som behövs för att underlätta övergången för barnet. Inför eller i samband med att en elev i grundskolan, anpassade grundskolan, specialskolan, sameskolan, gymnasieskolan eller anpassade gymnasieskolan övergår från skolformen till en annan av de angivna skolformerna ska den skolenhet som eleven lämnar, utöver vad som följer av 4 b §, till den mottagande skolenheten överlämna sådana uppgifter om eleven som behövs för att underlätta övergången för eleven. Detsamma gäller om eleven byter skolenhet inom skolformen. När en elev i grundskolan, anpassade grundskolan, specialskolan, sameskolan, gymnasieskolan eller anpassade gymnasieskolan övergår från skolformen till en annan av de angivna skolformerna, ska den mottagande skolenheten skyndsamt informera den överlämnande skolenheten om att skolenheten har tagit emot eleven, om det inte är obehövligt. Detsamma gäller om eleven byter skolenhet inom skolformen."
     },
     {
      "kap": "3",
@@ -368,26 +157,10 @@
     {
      "kap": "3",
      "par": "12k",
-     "ikraft": null,
-     "upphor": "2028-07-01",
-     "lag": "2026:737",
-     "text": "När en elev övergår från en skolform som avses i 12 j § andra stycket till en annan sådan skolform, eller byter skolenhet inom en sådan skolform, ska den skolenhet som eleven lämnar, utöver vad som följer av 4 b och 12 j §§, till den mottagande skolenheten överlämna uppgifter som rör eleven om det på grund av konkreta omständigheter finns risk för att eleven kommer att begå eller utsättas för brott, och uppgifterna behövs i den mottagande skolenhetens verksamhet för att förebygga eller förhindra detta."
-    },
-    {
-     "kap": "3",
-     "par": "12k",
      "ikraft": "2028-07-01",
      "upphor": null,
      "lag": "2026:1242",
      "text": "När en elev övergår från en skolform som avses i 12 j § andra stycket till en annan sådan skolform, eller byter skolenhet inom en sådan skolform, ska den skolenhet som eleven lämnar, utöver vad som följer av 12 j §, till den mottagande skolenheten överlämna uppgifter som rör eleven om det på grund av konkreta omständigheter finns risk för att eleven kommer att begå eller utsättas för brott, och uppgifterna behövs i den mottagande skolenhetens verksamhet för att förebygga eller förhindra detta."
-    },
-    {
-     "kap": "3",
-     "par": "12l",
-     "ikraft": null,
-     "upphor": null,
-     "lag": "2026:734",
-     "text": "När den som deltar eller har deltagit i kommunal vuxenutbildning i svenska för invandrare övergår till sådan utbildning hos en annan huvudman, ska den huvudman som personen lämnar överlämna en kopia av den individuella studieplanen enligt 20 kap. 8 a § till den mottagande huvudmannen."
     },
     {
      "kap": "3",
@@ -398,268 +171,12 @@
      "text": "Lärare inom kommunal vuxenutbildning ska ha tillgång till eller möjlighet till samråd med personal med specialpedagogisk kompetens i syfte att eleverna ska tillgodogöra sig de kunskaper som anges i kurs- eller ämnesplanerna. Sådan tillgång eller möjlighet till samråd behöver inte finnas om läraren har specialpedagogisk kompetens."
     },
     {
-     "kap": "3",
-     "par": "13",
-     "ikraft": null,
-     "upphor": null,
-     "lag": "2022:1315",
-     "text": "I grundskolan, anpassade grundskolan, specialskolan, sameskolan, gymnasieskolan, anpassade gymnasieskolan och kommunal vuxenutbildning ska betyg sättas i den utsträckning och form som följer av denna lag eller annan författning. Regeringen eller den myndighet som regeringen bestämmer får meddela föreskrifter om undantag från första stycket för fristående skolor med särskild pedagogisk inriktning."
-    },
-    {
-     "kap": "3",
-     "par": "13a",
-     "ikraft": null,
-     "upphor": null,
-     "lag": null,
-     "text": "Har upphävts genom lag (2021:191). Rektorns ansvar"
-    },
-    {
-     "kap": "3",
-     "par": "14",
-     "ikraft": null,
-     "upphor": null,
-     "lag": null,
-     "text": "Rektorn ska se till att betyg sätts i enlighet med denna lag och andra författningar."
-    },
-    {
-     "kap": "3",
-     "par": "14a",
-     "ikraft": null,
-     "upphor": null,
-     "lag": "2025:729",
-     "text": "En rektor får besluta att betyg ska sättas i årskurs 5 och 6 i grundskolan, anpassade grundskolan och sameskolan och i årskurs 6 och 7 i specialskolan, vid en skolenhet som rektorn ansvarar för. Beslutsunderlaget ska dokumenteras. En rektor som överväger att fatta ett sådant beslut ska ge lärarna vid berörd skolenhet tillfälle att yttra sig. Rektorn ska snarast underrätta huvudmannen skriftligen om ett beslut enligt första stycket. Huvudmannen ska anmäla beslutet till Statens skolverk. Regeringen eller den myndighet som regeringen bestämmer får meddela föreskrifter om när rektorn senast ska fatta ett beslut enligt första stycket inför ett läsår."
-    },
-    {
-     "kap": "3",
-     "par": "14b",
-     "ikraft": null,
-     "upphor": null,
-     "lag": "2025:729",
-     "text": "Ett beslut om att betygssättning enligt 14 a § ska upphöra att gälla ska fattas i samma ordning som beslutet om att införa sådan betygssättning. Ett sådant beslut kan avse endast kommande årskullar som ännu inte har fått betyg eller även omfatta elever som redan har fått terminsbetyg i årskurs 5 i grundskolan, anpassade grundskolan eller sameskolan eller i årskurs 6 i specialskolan med stöd av ett beslut enligt 14 a §. Regeringen eller den myndighet som regeringen bestämmer får meddela föreskrifter om när rektorn senast ska fatta ett beslut enligt första stycket inför ett läsår."
-    },
-    {
-     "kap": "3",
-     "par": "15",
-     "ikraft": null,
-     "upphor": null,
-     "lag": null,
-     "text": "Eleverna ska informeras om de grunder som tillämpas vid betygssättningen. Beslut om betyg"
-    },
-    {
-     "kap": "3",
-     "par": "16",
-     "ikraft": null,
-     "upphor": null,
-     "lag": "2013:823",
-     "text": "Betyg ska beslutas av den eller de lärare som bedriver undervisningen vid den tidpunkt när betyg ska sättas. Om läraren eller lärarna inte är legitimerade, ska beslutet fattas tillsammans med en lärare som är legitimerad. Kan dessa inte enas ska betyget beslutas av den legitimerade läraren under förutsättning att han eller hon är behörig att undervisa i det ämne som betyget avser. I annat fall ska betyget beslutas av rektorn. Regeringen eller den myndighet som regeringen bestämmer meddelar närmare föreskrifter om vem som beslutar betyg när mer än en lärare bedriver undervisningen vid den tidpunkt när betyg ska sättas. Regeringen eller den myndighet som regeringen bestämmer får meddela föreskrifter om undantag från andra stycket för lärare som saknar legitimation."
-    },
-    {
-     "kap": "3",
-     "par": "17",
-     "ikraft": null,
-     "upphor": null,
-     "lag": null,
-     "text": "Den som har beslutat betyget ska på begäran upplysa eleven och elevens vårdnadshavare om skälen för betyget. Utfärdande av betyg"
-    },
-    {
-     "kap": "3",
-     "par": "18",
-     "ikraft": null,
-     "upphor": null,
-     "lag": null,
-     "text": "Betyg ska utfärdas skriftligt. Rättelse av skrivfel och liknande förbiseende"
-    },
-    {
-     "kap": "3",
-     "par": "19",
-     "ikraft": null,
-     "upphor": null,
-     "lag": null,
-     "text": "Ett betyg som innehåller en uppenbar oriktighet till följd av ett skrivfel eller liknande förbiseende får rättas av rektorn. Innan rättelse görs ska rektorn ge eleven och elevens vårdnadshavare tillfälle att yttra sig, om det inte är obehövligt. Vid rättelse ska ett nytt skriftligt betyg utfärdas och den oriktiga betygshandlingen om möjligt förstöras. Ändring av uppenbart oriktiga betyg"
-    },
-    {
-     "kap": "3",
-     "par": "20",
-     "ikraft": null,
-     "upphor": null,
-     "lag": null,
-     "text": "Finner den eller de som har fattat ett beslut om betyg att beslutet är uppenbart oriktigt på grund av nya omständigheter eller av någon annan anledning, ska denne eller dessa ändra beslutet, om det kan ske snabbt och enkelt. En sådan ändring får inte innebära att betyget sänks. Ändring enligt första stycket ska göras av rektorn om 1. den som har fattat det ursprungliga beslutet inte längre är anställd av huvudmannen eller är förhindrad på grund av något annat liknande skäl, 2. det ursprungliga beslutet har fattats av flera personer och någon eller några av dem inte längre är anställda av huvudmannen eller är förhindrade på grund av något annat liknande skäl, eller 3. det ursprungliga beslutet har fattats av flera personer och dessa inte kan enas. Prövning för betyg"
-    },
-    {
-     "kap": "3",
-     "par": "21",
-     "ikraft": null,
-     "upphor": null,
-     "lag": null,
-     "text": "För den som vill genomgå prövning för betyg finns särskilda bestämmelser i denna lag. Regeringen får trots bestämmelser i denna lag om avgiftsfrihet meddela föreskrifter om skyldighet för den som vill genomgå prövning för betyg att betala en avgift som tillfaller huvudmannen."
-    },
-    {
-     "kap": "5",
-     "par": "1",
-     "ikraft": null,
-     "upphor": null,
-     "lag": "2026:1198",
-     "text": "I detta kapitel finns bestämmelser om - tillämpningsområde (2 § ), - arbetsmiljö (3-4 d §§ ), - skolregler (5 och 5 a §§ ), - förväntansdokument (5 b § ) - disciplinära och andra särskilda åtgärder (6-23 §§ ), och - dokumentation (24 § )."
-    },
-    {
-     "kap": "5",
-     "par": "2",
-     "ikraft": null,
-     "upphor": null,
-     "lag": "2026:1198",
-     "text": "Om inte annat anges i respektive paragraf gäller bestämmelserna i detta kapitel alla skolformer utom förskolan. Bestämmelserna i 1-5 a, 6 och 22-24 §§ gäller också för fritidshemmet."
-    },
-    {
-     "kap": "5",
-     "par": "3",
-     "ikraft": null,
-     "upphor": null,
-     "lag": "2026:1198",
-     "text": "Alla elever ska tillförsäkras en skolmiljö där utbildningen präglas av trygghet och undervisningen av studiero. Med studiero avses att det finns goda förutsättningar för eleverna att koncentrera sig på undervisningen. Det ska på skolenheten bedrivas både ett förebyggande arbete som syftar till att skapa trygghet och studiero och ett arbete för att upprätthålla tryggheten och studieron. Huvudmannen ska säkerställa att arbetet bedrivs och rektorn ska ansvara för arbetet. Regeringen eller den myndighet som regeringen bestämmer får meddela föreskrifter om det förebyggande och det upprätthållande arbetet."
-    },
-    {
-     "kap": "5",
-     "par": "3a",
-     "ikraft": null,
-     "upphor": null,
-     "lag": "2026:1198",
-     "text": "I arbetsmiljölagen (1977:1160) finns bestämmelser om kraven på en god arbetsmiljö. I vissa frågor som rör arbetsmiljön finns bestämmelser även i denna lag."
-    },
-    {
-     "kap": "5",
-     "par": "4",
-     "ikraft": null,
-     "upphor": null,
-     "lag": "2026:1198",
-     "text": "I grundskolan, anpassade grundskolan, specialskolan, sameskolan, fritidshemmet och öppen fritidsverksamhet ska elevers mobiltelefoner samlas in vid elevens skoldags början och återlämnas vid elevens skoldags slut. Rektorn får i samma skolformer och verksamheter besluta att även elevers övriga elektroniska kommunikationsutrustning ska samlas in vid elevens skoldags början och återlämnas senast vid elevens skoldags slut. Rektorns beslut får avse högst ett år i taget. Rektorn eller en lärare får göra undantag från insamling enligt första eller andra stycket för sådan användning av mobiltelefoner och annan elektronisk kommunikationsutrustning som avses i 4 a §, eller för en enskild elev om det i övrigt finns särskilda skäl. Rektorn eller en lärare får även göra undantag från insamling enligt första stycket vid utbildning utanför skolenheten om insamlingen eller återlämnandet skulle medföra betydande praktiska svårigheter. Vid tillämpningen av denna paragraf ska barn jämställas med elev, och fritidshem som inte är integrerade med en skolenhet och öppen fritidsverksamhet ska jämställas med skolenhet. För dessa verksamheter gäller andra-fjärde styckena för den personal som huvudmannen utser."
-    },
-    {
-     "kap": "5",
-     "par": "4a",
-     "ikraft": null,
-     "upphor": "2028-07-01",
-     "lag": "2022:940",
-     "text": "Vid undervisning får endast sådan användning av mobiltelefoner och annan elektronisk kommunikationsutrustning förekomma som 1. sker enligt lärarens instruktioner i syfte att främja elevernas utveckling och lärande, eller 2. utgör extra anpassningar eller särskilt stöd enligt 3 kap. Om det finns särskilda skäl får dock rektorn eller en lärare tillåta en enskild elev att använda en mobiltelefon eller annan elektronisk kommunikationsutrustning även i andra fall än som avses i första stycket. Denna paragraf gäller inte för kommunal vuxenutbildning."
-    },
-    {
      "kap": "5",
      "par": "4a",
      "ikraft": "2028-07-01",
      "upphor": null,
      "lag": "2026:1242",
      "text": "Vid undervisning får endast sådan användning av mobiltelefoner och annan elektronisk kommunikationsutrustning förekomma som 1. sker enligt lärarens instruktioner i syfte att främja elevernas utveckling och lärande, 2. utgör stöd enligt 3 kap. 2 § andra stycket, 3. enligt läraren bedöms behövas vid stödundervisning enligt 3 kap. 5 a §, eller 4. utgör särskilt stöd enligt ett åtgärdsprogram enligt 3 kap. 9 §. Om det finns särskilda skäl får dock rektorn eller en lärare tillåta en enskild elev att använda en mobiltelefon eller annan elektronisk kommunikationsutrustning även i andra fall än som avses i första stycket. Denna paragraf gäller inte för kommunal vuxenutbildning."
-    },
-    {
-     "kap": "5",
-     "par": "4b",
-     "ikraft": null,
-     "upphor": null,
-     "lag": "2022:940",
-     "text": "Rektorn, en lärare eller en handledare som avses i 21 kap. 13 § får omhänderta mobiltelefoner eller annan elektronisk kommunikationsutrustning för att förebygga störningar i undervisningen. Rektorn eller en lärare får omhänderta sådan utrustning även för att förebygga kränkande fotografering enligt 4 kap. 6 a § brottsbalken eller annan kränkande fotografering eller filmning av någon som inför eller efter en idrottslektion befinner sig i ett omklädningsrum, en dusch eller ett annat liknande utrymme. Rektorn eller en lärare får även i andra liknande situationer eller om det finns särskilda skäl omhänderta mobiltelefoner eller annan elektronisk kommunikationsutrustning för att förebygga kränkande fotografering eller filmning. Den som får omhänderta mobiltelefoner eller annan elektronisk kommunikationsutrustning enligt första, andra eller tredje stycket får även uppdra åt någon annan att göra detta. Denna paragraf gäller inte för kommunal vuxenutbildning."
-    },
-    {
-     "kap": "5",
-     "par": "4c",
-     "ikraft": null,
-     "upphor": null,
-     "lag": "2022:940",
-     "text": "Ett föremål som har omhändertagits enligt - 4 b § första stycket ska återlämnas till eleven senast i samband med att undervisningspasset har avslutats för eleven, - 4 b § andra stycket ska återlämnas till eleven senast i nära anslutning till att eleven har lämnat utrymmet efter idrottslektionen, - 4 b § tredje stycket ska återlämnas när skälet för omhändertagandet har upphört."
-    },
-    {
-     "kap": "5",
-     "par": "4d",
-     "ikraft": null,
-     "upphor": null,
-     "lag": "2026:1198",
-     "text": "Det ska för varje skolenhet och fritidshem som inte är integrerade med en skolenhet finnas skriftliga rutiner för att hantera omhändertagande av mobiltelefoner och annan elektronisk kommunikationsutrustning enligt 4, 4 b och 4 c §§. För öppen fritidsverksamhet ska det finnas skriftliga rutiner för att hantera omhändertagande av mobiltelefoner och annan elektronisk kommunikationsutrustning enligt 4 §. Rektorn beslutar om de skriftliga rutinerna. För fritidshem som inte är integrerade med en skolenhet och för öppen fritidsverksamhet ska rutinerna beslutas av den personal som huvudmannen utser."
-    },
-    {
-     "kap": "5",
-     "par": "4e",
-     "ikraft": null,
-     "upphor": null,
-     "lag": null,
-     "text": "Har betecknats 5 kap. 4 d § enligt lag (2026:1198). Skolregler"
-    },
-    {
-     "kap": "5",
-     "par": "5",
-     "ikraft": null,
-     "upphor": null,
-     "lag": "2026:1198",
-     "text": "Skolregler ska finnas för varje skolenhet, för fritidshem som inte är integrerade med en skolenhet och för öppen fritidsverksamhet. Skolreglerna ska innehålla skolgemensamma förhållningsregler som syftar till att upprätthålla trygghet och studiero. I skolreglerna ska det ingå en plan för konsekvenser vid överträdelser av reglerna. Denna paragraf gäller inte för kommunal vuxenutbildning."
-    },
-    {
-     "kap": "5",
-     "par": "5a",
-     "ikraft": null,
-     "upphor": null,
-     "lag": "2026:1198",
-     "text": "Rektorn ansvarar för att skolreglerna tas fram och beslutar om dem. Rektorn ansvarar också för att det på skolenheten finns gemensamma rutiner och förhållningssätt för arbetet med att upprätthålla skolreglerna. Skolreglerna ska förankras hos eleverna. Skolreglerna och hur de efterlevs ska regelbundet följas upp. Orsakerna till uppföljningens resultat ska analyseras. Vid tillämpningen av denna paragraf ska barn jämställas med elev, och fritidshem som inte är integrerade med en skolenhet samt öppen fritidsverksamhet ska jämställas med skolenhet. För dessa verksamheter gäller första stycket för den personal som huvudmannen utser."
-    },
-    {
-     "kap": "5",
-     "par": "5b",
-     "ikraft": null,
-     "upphor": null,
-     "lag": "2026:1198",
-     "text": "Ett förväntansdokument ska finnas för varje skolenhet. Förväntansdokumentet ska innehålla 1. information om innehållet i skolreglerna, 2. information om skolenhetens gemensamma rutiner och förhållningssätt i arbetet med att upprätthålla skolreglerna, och 3. en påminnelse om vårdnadshavares ansvar enligt 6 kap. föräldrabalken. Förväntansdokumentet får även innehålla annan information som är relevant för att förtydliga de ömsesidiga förväntningarna mellan skolan och eleverna respektive skolan och vårdnadshavarna. Rektorn ansvarar för att förväntansdokumentet tas fram. Elever och vårdnadshavare ska under varje läsår informeras om innehållet i förväntansdokumentet. Denna paragraf gäller inte för kommunal vuxenutbildning."
-    },
-    {
-     "kap": "5",
-     "par": "6",
-     "ikraft": null,
-     "upphor": null,
-     "lag": "2026:1198",
-     "text": "Personalen får vidta en sådan omedelbar och tillfällig åtgärd som 1. är befogad för att tillförsäkra eleverna trygghet och studiero, och 2. står i rimlig proportion till sitt syfte och övriga omständigheter. Befogenheten enligt första stycket innefattar en befogenhet att ingripa fysiskt för att avvärja våld, kränkningar eller andra ordningsstörningar. Enligt de förutsättningar som anges i 7-23 §§ får det beslutas om utvisning ur undervisningslokalen, kvarsittning, tillfällig omplacering, tillfällig placering utanför den egna skolenheten, nekat tillträde till skolenheten, avstängning och omhändertagande av föremål, om åtgärden står i rimlig proportion till sitt syfte och övriga omständigheter."
-    },
-    {
-     "kap": "5",
-     "par": "7",
-     "ikraft": null,
-     "upphor": null,
-     "lag": "2026:1198",
-     "text": "I grundskolan, anpassade grundskolan, specialskolan, sameskolan, gymnasieskolan och anpassade gymnasieskolan får en lärare eller en handledare som avses i 21 kap. 13 § visa ut en elev från undervisningslokalen för högst återstoden av ett undervisningspass, om 1. eleven stör undervisningen eller på annat sätt uppträder olämpligt, och 2. eleven inte har ändrat sitt uppförande efter uppmaning från läraren eller handledaren. Om elevens olämpliga uppträdande innebär våld, hot eller kränkning får eleven visas ut utan att först ha uppmanats att ändra sitt beteende. Om läraren eller handledaren inte är närvarande i undervisningslokalen får annan personal visa ut en elev från lokalen under motsvarande förutsättningar som anges i första och andra styckena. I sådana fall ska läraren eller handledaren underrättas i efterhand."
-    },
-    {
-     "kap": "5",
-     "par": "8",
-     "ikraft": null,
-     "upphor": null,
-     "lag": "2022:1315",
-     "text": "Under samma förutsättningar som i 7 § får en lärare eller rektor i grundskolan, anpassade grundskolan, specialskolan, sameskolan, gymnasieskolan eller anpassade gymnasieskolan besluta att en elev ska stanna kvar i skolan under uppsikt högst en timme efter att skoldagens undervisning har avslutats eller infinna sig i skolan högst en timme innan undervisningen börjar."
-    },
-    {
-     "kap": "5",
-     "par": "9",
-     "ikraft": null,
-     "upphor": null,
-     "lag": "2025:729",
-     "text": "Om en elev i grundskolan, anpassade grundskolan, specialskolan, sameskolan, gymnasieskolan eller anpassade gymnasieskolan vid upprepade tillfällen stört ordningen eller uppträtt olämpligt eller om eleven gjort sig skyldig till en allvarligare förseelse, ska rektorn se till att saken utreds. Samråd ska ske med elevens vårdnadshavare. Om förutsättningarna för en utredning om särskilt stöd enligt 3 kap. 7 § är uppfyllda ska även en sådan utredning inledas."
-    },
-    {
-     "kap": "5",
-     "par": "10",
-     "ikraft": null,
-     "upphor": null,
-     "lag": null,
-     "text": "Med utgångspunkt i vad som har framkommit vid en utredning enligt 9 § första stycket ska rektorn se till att åtgärder genomförs för att få eleven att ändra sitt beteende. Skriftlig varning"
-    },
-    {
-     "kap": "5",
-     "par": "11",
-     "ikraft": null,
-     "upphor": null,
-     "lag": null,
-     "text": "Efter en utredning enligt 9 § första stycket får rektorn besluta att tilldela eleven en skriftlig varning. En sådan varning ska innehålla information om vilka åtgärder som kan komma att vidtas om eleven inte ändrar sitt beteende. Elevens vårdnadshavare ska informeras om rektorns beslut. Tillfällig omplacering"
-    },
-    {
-     "kap": "5",
-     "par": "12",
-     "ikraft": null,
-     "upphor": "2028-07-01",
-     "lag": "2026:1198",
-     "text": "I grundskolan, anpassade grundskolan, specialskolan, sameskolan, gymnasieskolan och anpassade gymnasieskolan får rektorn besluta att en elev ska följa undervisningen i en annan undervisningsgrupp än den eleven annars hör till eller undervisas på annan plats inom samma skolenhet om åtgärderna som gjorts efter en sådan utredning som avses i 9 § första stycket inte varit tillräckliga eller om det annars är nödvändigt för att tillförsäkra de andra eleverna trygghet och studiero. Ett beslut enligt första stycket får innebära att eleven ges enskild undervisning eller undervisning i en särskild undervisningsgrupp enligt 3 kap. 11 §. De förutsättningar som anges i 3 kap. för sådan undervisning behöver inte vara uppfyllda inför ett sådant beslut. Innan rektorn fattar ett beslut som innebär undervisning i en annan undervisningsgrupp ska rektorn bedöma hur åtgärden kan påverka övriga elevers utbildning i den gruppen. Elevens vårdnadshavare ska informeras om rektorns beslut. En åtgärd som rektorn vidtagit med stöd av första stycket får inte gälla för en längre tid än återstoden av terminen. Om det återstår kortare tid än fyra veckor av terminen när åtgärden vidtas får den i stället gälla som längst fyra veckor in på nästa termin."
     },
     {
      "kap": "5",
@@ -672,179 +189,99 @@
     {
      "kap": "5",
      "par": "13",
-     "ikraft": null,
-     "upphor": "2028-07-01",
-     "lag": "2026:1198",
-     "text": "Om åtgärder enligt 12 § inte är tillräckligt ingripande för att tillförsäkra andra elever trygghet och studiero eller inte är möjliga att genomföra, får rektorn besluta att en elev tillfälligt ska ges undervisning vid en annan skolenhet eller på en annan plats inom huvudmannens organisation. Ett beslut enligt första stycket får innebära att eleven ges enskild undervisning eller undervisning i en särskild undervisningsgrupp enligt 3 kap. 11 §. De förutsättningar som anges i 3 kap. för sådan undervisning behöver inte vara uppfyllda inför ett sådant beslut. Innan rektorn fattar ett beslut som innebär undervisning i en annan undervisningsgrupp ska rektorn bedöma hur åtgärden kan påverka övriga elevers utbildning i den gruppen. Ett beslut om tillfällig placering vid en annan skolenhet fattas gemensamt med rektorn vid den mottagande skolenheten. Elevens vårdnadshavare ska informeras om ett beslut enligt första stycket innan placeringen genomförs. En åtgärd som rektorn vidtagit med stöd av första stycket får inte gälla för en längre tid än fyra veckor. Om det finns särskilda skäl får åtgärden dock gälla som längst i åtta veckor."
-    },
-    {
-     "kap": "5",
-     "par": "13",
      "ikraft": "2028-07-01",
      "upphor": null,
      "lag": "2026:1242",
      "text": "Om åtgärder enligt 12 § inte är tillräckligt ingripande för att tillförsäkra andra elever trygghet och studiero eller inte är möjliga att genomföra, får rektorn besluta att en elev tillfälligt ska ges undervisning vid en annan skolenhet eller på en annan plats inom huvudmannens organisation. Ett beslut enligt första stycket får innebära att eleven ges enskild undervisning eller undervisning i en mindre undervisningsgrupp enligt 3 kap. 11 §. De förutsättningar som anges i 3 kap. för sådan undervisning behöver inte vara uppfyllda inför ett sådant beslut. Innan rektorn fattar ett beslut som innebär undervisning i en annan undervisningsgrupp ska rektorn bedöma hur åtgärden kan påverka övriga elevers utbildning i den gruppen. Ett beslut om tillfällig placering vid en annan skolenhet fattas gemensamt med rektorn vid den mottagande skolenheten. Elevens vårdnadshavare ska informeras om ett beslut enligt första stycket innan placeringen genomförs. En åtgärd som rektorn vidtagit med stöd av första stycket får inte gälla för en längre tid än fyra veckor. Om det finns särskilda skäl får åtgärden dock gälla som längst i åtta veckor."
-    },
-    {
-     "kap": "5",
-     "par": "13a",
-     "ikraft": null,
-     "upphor": null,
-     "lag": "2026:1198",
-     "text": "Om en elev tillfälligt har placerats utanför den egna skolenheten enligt 13 § ska det utarbetas en plan för att stödja elevens återgång till ordinarie skolgång efter den tillfälliga placeringen. Rektorn vid den skolenhet som eleven hör till när placeringsbeslutet fattas ansvarar för att planen utarbetas. Rektorn ska även samråda med rektorn vid den skolenhet där eleven är tillfälligt placerad. Om eleven efter den tillfälliga placeringen ska placeras vid en annan skolenhet än den som eleven hörde till när beslutet om tillfällig placering fattades ska samråd även ske med rektorn vid den skolenhet där eleven placeras."
-    },
-    {
-     "kap": "5",
-     "par": "13b",
-     "ikraft": null,
-     "upphor": null,
-     "lag": "2026:1198",
-     "text": "I 10 kap. 30 och 31 §§ och 11 kap. 29 och 30 §§ finns bestämmelser om placering utan tidsbegränsning av en elev i grundskolan eller anpassade grundskolan vid en annan skolenhet än den som elevens vårdnadshavare har önskat, om det är nödvändigt med hänsyn till övriga elevers trygghet och studiero."
-    },
-    {
-     "kap": "5",
-     "par": "13c",
-     "ikraft": null,
-     "upphor": null,
-     "lag": "2026:1198",
-     "text": "I grundskolans årskurs 8-10, specialskolans årskurs 8- 11 och i gymnasieskolan får rektorn besluta att en elev ska nekas tillträde till skolenheten om 1. åtgärder enligt 13 § inte är tillräckligt ingripande för att tillförsäkra andra elever trygghet och studiero eller inte är möjliga att genomföra, och 2. det finns synnerliga skäl för detta med hänsyn till andra elevers eller personals säkerhet. Rektorn får inte uppdra åt någon annan att fatta beslut enligt första stycket."
-    },
-    {
-     "kap": "5",
-     "par": "13d",
-     "ikraft": null,
-     "upphor": null,
-     "lag": "2026:1198",
-     "text": "En åtgärd i form av nekat tillträde till skolenheten enligt 13 c § får inte gälla för en längre tid än återstoden av terminen. Om det återstår kortare tid än fyra veckor av terminen när åtgärden vidtas får den i stället gälla som längst fyra veckor in på nästa termin. Ett beslut om nekat tillträde till skolenheten enligt 13 c § gäller omedelbart om inte annat beslutas."
-    },
-    {
-     "kap": "5",
-     "par": "13e",
-     "ikraft": null,
-     "upphor": null,
-     "lag": "2026:1198",
-     "text": "Av ett beslut om nekat tillträde till skolenheten enligt 13 c § ska det framgå 1. under vilken tid beslutet gäller, och 2. vilka av skolenhetens lokaler och ytor utomhus som beslutet gäller."
-    },
-    {
-     "kap": "5",
-     "par": "13f",
-     "ikraft": null,
-     "upphor": null,
-     "lag": "2026:1198",
-     "text": "Rektorn ska kontinuerligt följa upp om förutsättningarna för att neka eleven tillträde till skolenheten enligt 13 c § fortfarande är uppfyllda och upphäva beslutet när de inte längre är det."
-    },
-    {
-     "kap": "5",
-     "par": "13g",
-     "ikraft": null,
-     "upphor": null,
-     "lag": "2026:1198",
-     "text": "Innan rektorn beslutar om nekat tillträde till skolenheten enligt 13 c § ska eleven och elevens vårdnadshavare beredas tillfälle att yttra sig. Rektorn ska informera huvudmannen när han eller hon har fattat ett beslut att neka tillträde till skolenheten enligt 13 c §. Om eleven är under 18 år ska samråd ske med socialnämnden innan ett beslut fattas."
-    },
-    {
-     "kap": "5",
-     "par": "13h",
-     "ikraft": null,
-     "upphor": null,
-     "lag": "2026:1198",
-     "text": "En elev som har nekats tillträde till skolenheten enligt 13 c § ska få fjärr- eller distansundervisning enligt bestämmelserna i 21 och 22 kap."
-    },
-    {
-     "kap": "5",
-     "par": "14",
-     "ikraft": null,
-     "upphor": null,
-     "lag": "2026:1198",
-     "text": "I grundskolan, specialskolan och sameskolan får rektorn besluta att stänga av en elev helt eller delvis om eleven agerar på ett sådant sätt att andra elevers eller personals säkerhet bedöms vara hotad. Rektorn får även besluta att stänga av en elev helt eller delvis om 1. åtgärder enligt 13 § inte är tillräckligt ingripande eller inte är möjliga att genomföra eller det finns särskilda skäl med hänsyn till elevens beteende, och 2. det är nödvändigt med hänsyn till övriga elevers trygghet och studiero. Eleven ska erbjudas kompensationsundervisning för den undervisning som han eller hon går miste om på grund av avstängningen. Rektorn avgör tidpunkten för kompensationsundervisningen och i vilken form den ska erbjudas. Rektorn får inte uppdra åt någon annan att fatta beslut enligt första eller andra stycket. Ett beslut om avstängning gäller omedelbart om inte annat beslutas."
-    },
-    {
-     "kap": "5",
-     "par": "15",
-     "ikraft": null,
-     "upphor": null,
-     "lag": "2026:1198",
-     "text": "Ett beslut enligt 14 § får innebära avstängning endast under den tid som behövs för en skyndsam utredning av vilka andra åtgärder som kan behövas. En elev får inte stängas av för en längre tidsperiod än två veckor och inte heller vid fler tillfällen än tre gånger per kalenderhalvår."
-    },
-    {
-     "kap": "5",
-     "par": "16",
-     "ikraft": null,
-     "upphor": null,
-     "lag": null,
-     "text": "Innan rektorn beslutar om avstängning enligt 14 § ska eleven och elevens vårdnadshavare beredas tillfälle att yttra sig. Rektorn ska informera huvudmannen när han eller hon har fattat ett beslut om avstängning. Om eleven är under 18 år ska även socialnämnden informeras om beslutet. Avstängning i de frivilliga skolformerna"
-    },
-    {
-     "kap": "5",
-     "par": "17",
-     "ikraft": null,
-     "upphor": null,
-     "lag": "2022:1315",
-     "text": "I gymnasieskolan, anpassade gymnasieskolan och kommunal vuxenutbildning får huvudmannen eller rektorn besluta att stänga av en elev helt eller delvis om 1. eleven agerar på ett sådant sätt att andra elevers eller personals säkerhet bedöms vara hotad, 2. eleven med otillåtna hjälpmedel eller på annat sätt försöker vilseleda vid bedömningen av elevens måluppfyllelse och kunskaper, 3. eleven stör eller hindrar utbildningens bedrivande, 4. eleven utsätter någon annan elev eller av utbildningen berörd person för kränkande behandling, 5. eleven kan antas ha begått en brottslig handling inom skolans område, eller 6. elevens uppförande på annat sätt inverkar negativt på övriga elevers trygghet och studiero. Huvudmannen eller rektorn får besluta att ett beslut om avstängning ska gälla omedelbart. En förutsättning för avstängning enligt första stycket 3, 4 eller 6 är att syftet med andra åtgärder inte har uppnåtts. Rektorn får inte uppdra åt någon annan att fatta beslut enligt denna paragraf."
-    },
-    {
-     "kap": "5",
-     "par": "18",
-     "ikraft": null,
-     "upphor": null,
-     "lag": "2022:940",
-     "text": "Beslut enligt 17 § får inte avse avstängning under längre tid än två veckor under ett kalenderhalvår, om inte annat följer av andra stycket. Huvudmannen får besluta att förlänga avstängningen om syftet med en kortare avstängningstid inte har uppnåtts eller om det av någon annan anledning bedöms som nödvändigt med hänsyn till elevens uppträdande. Ett beslut om avstängning enligt 17 § får dock inte avse längre tid än återstoden av pågående kalenderhalvår och tre ytterligare kalenderhalvår."
-    },
-    {
-     "kap": "5",
-     "par": "19",
-     "ikraft": null,
-     "upphor": null,
-     "lag": "2022:1315",
-     "text": "Huvudmannen eller rektorn får, utöver vad som anges i 17 § första-tredje styckena, besluta att helt eller delvis stänga av en elev från en viss utbildning i gymnasieskolan, anpassade gymnasieskolan eller kommunal vuxenutbildning, om 1. det i utbildningen ingår praktik eller delar av utbildningen är arbetsplatsförlagd, och 2. det är uppenbart olämpligt att eleven deltar i den praktiska tjänstgöringen. Huvudmannen eller rektorn får besluta att ett beslut om avstängning ska gälla omedelbart. Rektorn får inte uppdra åt någon annan att fatta beslut enligt denna paragraf."
-    },
-    {
-     "kap": "5",
-     "par": "20",
-     "ikraft": null,
-     "upphor": null,
-     "lag": "2022:940",
-     "text": "Huvudmannens beslut om avstängning enligt 19 § ska avse viss tid eller gälla utan tidsbegränsning. Rektorns beslut om avstängning enligt 19 § får inte avse längre tid än två veckor."
-    },
-    {
-     "kap": "5",
-     "par": "21",
-     "ikraft": null,
-     "upphor": null,
-     "lag": "2022:940",
-     "text": "Innan huvudmannen eller rektorn beslutar om avstängning enligt 17 eller 19 § ska eleven och elevens vårdnadshavare beredas tillfälle att yttra sig. Rektorn ska informera huvudmannen när han eller hon har fattat ett beslut om avstängning enligt 17 eller 19 §. Om eleven är under 18 år och den sammanlagda tiden för avstängning under ett kalenderhalvår inte överstiger två veckor ska socialnämnden informeras om ett beslut enligt 17 eller 19 §. Om eleven är under 18 år ska samråd ske med socialnämnden innan ett beslut fattas enligt 17 eller 19 § som innebär att den sammanlagda tiden för avstängning under ett kalenderhalvår överstiger två veckor."
-    },
-    {
-     "kap": "5",
-     "par": "21a",
-     "ikraft": null,
-     "upphor": null,
-     "lag": null,
-     "text": "Har betecknats 5 kap. 13 b § enligt lag (2026:1198). Omhändertagande av föremål"
-    },
-    {
-     "kap": "5",
-     "par": "22",
-     "ikraft": null,
-     "upphor": null,
-     "lag": "2022:940",
-     "text": "Personal får från en elev omhänderta föremål som används på ett sätt som är störande för utbildningen, kränkande för elever eller personal eller som kan utgöra en fara för säkerheten i utbildningen. Föremål som annan personal än rektorn, en lärare eller en handledare som avses i 21 kap. 13 § har omhändertagit med stöd av första stycket ska, om det inte omedelbart kan lämnas tillbaka, utan onödigt dröjsmål överlämnas till rektorn, en lärare eller en sådan handledare för prövning av när föremålet ska lämnas tillbaka enligt 23 §. Denna paragraf gäller inte för kommunal vuxenutbildning."
-    },
-    {
-     "kap": "5",
-     "par": "23",
-     "ikraft": null,
-     "upphor": null,
-     "lag": "2026:420",
-     "text": "Ett föremål som har omhändertagits enligt 22 § ska återlämnas till eleven senast vid den tidpunkt skoldagen är slut för eleven. Om eleven vid upprepade tillfällen tagit med sig föremål som omfattas av 22 § eller om det med hänsyn till föremålets beskaffenhet finns särskild anledning att inte återlämna det, behöver dock inte föremålet lämnas tillbaka förrän elevens vårdnadshavare har informerats om omhändertagandet. Ett omhändertagande får inte bestå längre än till och med fjärde dagen efter verkställandet av omhändertagandet. Om ett föremål som har omhändertagits enligt 22 § kan antas bli förverkat enligt 36 kap. 9, 10 eller 12 § brottsbalken, 6 § narkotikastrafflagen (1968:64) eller 18 kap. 12 § vapenlagen (2026:408), ska rektorn eller den som rektorn har bestämt skyndsamt anmäla omhändertagandet till Polismyndigheten. Omhändertagandet får i dessa fall bestå tills frågan om föremålet ska tas i beslag har prövats."
-    },
-    {
-     "kap": "5",
-     "par": "24",
-     "ikraft": null,
-     "upphor": null,
-     "lag": "2026:1198",
-     "text": "Om en åtgärd har vidtagits enligt 12, 13, 13 c, 14, 15, 16, 17, 18, 19, 20, 21, 22 eller 23 §, ska den dokumenteras skriftligt av den som har genomfört åtgärden. Om åtgärden rör omhändertagande av föremål enligt 22 §, gäller denna skyldighet endast om föremålet inte har återlämnats efter lektionens slut."
     }
+   ],
+   "paragrafer_i_lagen": [
+    "3:1",
+    "3:2",
+    "3:3",
+    "3:4",
+    "3:4a",
+    "3:4b",
+    "3:5",
+    "3:5a",
+    "3:5b",
+    "3:5c",
+    "3:6",
+    "3:7",
+    "3:8",
+    "3:8a",
+    "3:8b",
+    "3:9",
+    "3:10",
+    "3:11",
+    "3:11a",
+    "3:12",
+    "3:12a",
+    "3:12b",
+    "3:12c",
+    "3:12d",
+    "3:12e",
+    "3:12f",
+    "3:12g",
+    "3:12h",
+    "3:12i",
+    "3:12j",
+    "3:12k",
+    "3:12l",
+    "3:12m",
+    "3:13",
+    "3:13a",
+    "3:14",
+    "3:14a",
+    "3:14b",
+    "3:15",
+    "3:16",
+    "3:17",
+    "3:18",
+    "3:19",
+    "3:20",
+    "3:21",
+    "5:1",
+    "5:2",
+    "5:3",
+    "5:3a",
+    "5:4",
+    "5:4a",
+    "5:4b",
+    "5:4c",
+    "5:4d",
+    "5:4e",
+    "5:5",
+    "5:5a",
+    "5:5b",
+    "5:6",
+    "5:7",
+    "5:8",
+    "5:9",
+    "5:10",
+    "5:11",
+    "5:12",
+    "5:13",
+    "5:13a",
+    "5:13b",
+    "5:13c",
+    "5:13d",
+    "5:13e",
+    "5:13f",
+    "5:13g",
+    "5:13h",
+    "5:14",
+    "5:15",
+    "5:16",
+    "5:17",
+    "5:18",
+    "5:19",
+    "5:20",
+    "5:21",
+    "5:21a",
+    "5:22",
+    "5:23",
+    "5:24"
    ],
    "overgangsbestammelser": []
   }

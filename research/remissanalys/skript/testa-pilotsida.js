@@ -115,7 +115,7 @@ const ok = (namn, villkor, info = '') => { resultat.push(`${villkor ? 'OK ' : 'F
 
     // Ingen modellskriven fritext ur datafilen
     let traffar = [];
-    const mot = [...new Set(D.utmaningar.flatMap(u => [u.utmaningstyp.motivering, u.koppling.motivering]).filter(m => m && m.length > 12))];
+    const mot = [...new Set(D.utmaningar.flatMap(u => [u.utmaningstyp.motivering, u.koppling.motivering]).filter(m => m && m.length > 12 && !D.utmaningar.some(u => u.citat.includes(m))))];   // motivering som är ordagrann del av ett citat är källtext, inte fritext
     const meta = [D.meta.tolkning, D.meta.ingen_bedomning, D.meta.korpus.beskrivning, ...Object.values(D.meta.kopplingsnivaer)];
     for (const h of [`#typ=${TYP_ANDRA}`, `#typ=${TYP_MEST}`, `#sak=${SAK_FORST}`, '#sak=utan']) {
       await page.goto(URL + h); await page.waitForSelector('#skrev .citat');

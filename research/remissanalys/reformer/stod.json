@@ -99,7 +99,20 @@
     "2026:1242"
    ],
    "bestamd_form": "skollagen",
-   "anm": "2026:1242 = prop. 2025/26:195 (i kraft 2028-07-01): de nya paragraferna 3 kap. 5 a–5 c, 8 a, 8 b och 12 m §§ har \"Lag (2026:1242)\" i den konsoliderade texten. Den konsoliderade texten har inget övergångsblock för 2026:1242."
+   "anm": "2026:1242 = prop. 2025/26:195 (i kraft 2028-07-01): de nya paragraferna 3 kap. 5 a–5 c, 8 a, 8 b och 12 m §§ har \"Lag (2026:1242)\" i den konsoliderade texten. Den konsoliderade texten har inget övergångsblock för 2026:1242.",
+   "andringar_kalla": [
+    {
+     "sfs": "2026:1242",
+     "prop": "Prop. 2025/26:195",
+     "text": "Bet. 2025/26:UbU24, beslut punkt 1: \"Riksdagen godtar det som utskottet anför om regeringens förslag till lag om ändring i skollagen (2010:800). Därmed bifaller riksdagen proposition 2025/26:195 delpunkt 1\" (dvs. lagen antogs inte i UbU24). Beslut (dokumentstatus, utskottsförslag punkt 1, BES 2026-06-09): \"a) antar utskottets förslag i bilaga 3 till 1. lag om ändring i skollagen (2010:800), 2. lag om ändring i skollagen (2010:800), 3. lag om ändring i skollagen (2010:800), b) antar regeringens förslag till lag om ändring i skollagen (2010:800) (proposition 2025/26:197 lagförslag 2) [...] Därmed bifaller riksdagen propositionerna 2025/26:194 punkterna 1.2 och 2.2, 2025/26:195 delpunkt 2, 2025/26:196 punkt 3.2, 2025/26:197 punkterna 1-4 och 2025/26:198 punkterna 2.2 och 3.2.\" Skollag (2010:800) konsoliderad, riksdagens öppna data (Ändrad: t.o.m. SFS 2026:1636), hämtad 2026-11-11: 31 paragrafversioner har \"Lag (2026:1242)\", alla med /Träder i kraft I:2028-07-01/, och övergångsbestämmelserna har inget block för 2026:1242 = den lag \"som träder i kraft den 1 juli 2028 och saknar övergångsbestämmelser\" i Bet. 2025/26:UbU26 (Utskottets överväganden): \"Det innebär att utskottet föreslår att samordningen av lagstiftningen sker i en lag som träder i kraft den 1 juli 2028 och saknar övergångsbestämmelser, en lag som träder i kraft den 2 juli 2028 och har ett flertal övergångsbestämmelser samt en lag som träder i kraft den 1 januari 2031 och har en övergångsbestämmelse.\". alla 25 paragrafer som K3 (prop-lagtext.json) har extraherat ur prop. 2025/26:195:s enda lagförslag har lydelse \"Lag (2026:1242)\" (propositionen: \"Denna lag träder i kraft den 1 juli 2028.\"; lagförslaget har inga övergångsbestämmelser). 3 kap. 7 § har därtill en senare lydelse \"Lag (2026:1243)\" (2028-07-02) som bara skiljer sig genom prop. 2025/26:197:s ändring (\"minst ... E\" → \"lägst ... 4\"). Ändrings-SFS i original (svenskforfattningssamling.se) och SFS-registret (rkrattsbaser.gov.se) nåddes inte från miljön (proxy 403); riksdagens dokumentstatus för betänkandena anger inga SFS-nummer. Kopplingen SFS-nummer → lag i riksdagsbeslutet bygger därför på ikraftträdandedag, övergångsblock och paragrafuppsättning i den konsoliderade texten jämförda med betänkandets och propositionens text.",
+     "url": "https://data.riksdagen.se/dokument/HD01UbU26",
+     "ovriga_urler": [
+      "https://data.riksdagen.se/dokumentstatus/HD01UbU24",
+      "https://data.riksdagen.se/dokumentstatus/HD01UbU26",
+      "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+     ]
+    }
+   ]
   }
  ],
  "forordningar": [
@@ -180,5 +193,42 @@
  },
  "forordning_markor_beskrivning": null,
  "forordning_markor_anm": "Utredningens förordningsförslag (1.2, skolförordningen) avskaffar bestämmelser (nationella prov i årskurs 3, 9 kap. 22 b–c §§ m.fl.); det finns ingen ny formulering som kan användas som markör för att förslaget har genomförts.",
- "forteckning_korrigeringar": {}
+ "forteckning_korrigeringar": {},
+ "remissida_kontroll": {
+  "datum": "2026-11-11",
+  "regel": "Sprint 17 A2: yttranden från fokusgrupper som är publicerade på remissidan men inte ingår i korpusen enligt förteckningen har lästs. Ett yttrande med sakinnehåll ska ingå även om förteckningen anger att instansen avstått; rena avståendebrev ingår inte.",
+  "tillagda_yttranden": [],
+  "ej_med_avstaenden": [
+   {
+    "avsandare": "Ale kommun",
+    "fokusgrupp": "kommuner",
+    "forteckning": "ej_svarat (förklarat sig avstå eller inte inkommit med yttrande)",
+    "klassning": "avstående",
+    "sidor": 1,
+    "citat": "Ale kommun har tagit del av remissen Förbättrat stöd i skolan (SOU 2025/44) och har beslutat att inte lämna några synpunkter.",
+    "kalla": {
+     "text": "Dokument från Ale kommun på remissidan",
+     "url": "https://www.regeringen.se/contentassets/1cd1f5b869914d788d7c4c8a0b9d8874/ale-kommun.pdf"
+    },
+    "anm": "Rubricerat \"Yttrande\"; övrig text är ett referat av betänkandet (\"Ärendet\")."
+   },
+   {
+    "avsandare": "Ystad kommun",
+    "fokusgrupp": "kommuner",
+    "forteckning": "ej_svarat (förklarat sig avstå eller inte inkommit med yttrande)",
+    "klassning": "avstående",
+    "sidor": 1,
+    "citat": "Barn- och utbildningsnämnden i Ystads kommun avstår från att yttra sig i Remiss av förbättrat stöd i skolan (SOU 2025:44)",
+    "kalla": {
+     "text": "Dokument från Ystad kommun på remissidan",
+     "url": "https://www.regeringen.se/contentassets/1cd1f5b869914d788d7c4c8a0b9d8874/ystad-kommun.pdf"
+    }
+   }
+  ]
+ },
+ "begransningar": [
+  "Prop. 2025/26:195 behandlar även delar av SOU 2025:19 och SOU 2024:16; de delarna ingår inte.",
+  "Förordningsförslag (skolförordningen) jämförs inte maskinellt: ingen textmarkör finns; status null med förklaring.",
+  "Spontana yttranden publiceras inte på regeringen.se; enskilda huvudmän som yttrat sig spontant saknas därför i korpusen."
+ ]
 }

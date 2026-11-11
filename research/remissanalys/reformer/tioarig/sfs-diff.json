@@ -5,11 +5,11 @@
   "statusregler": {
    "oförändrad": "SOU:ns föreslagna paragraf = beslutad lydelse (normaliserad textlikhet ≥ 0,999)",
    "ändrad": "beslutad lydelse finns men skiljer sig; ordagrann ord-diff sparas",
-   "ej med": "ingen version införd genom SFS skollagen: 2025:729; offentlighets- och sekretesslagen: 2025:737 för paragrafen",
+   "ej med": "ingen version införd genom SFS skollagen: 2025:729/730; offentlighets- och sekretesslagen: 2025:737 för paragrafen (lydelser från andra SFS-nummer används inte)",
    "ej lagtext": "förslaget är inte författningstext (uppdrag/ansvar)",
    "ej i SFS per 2026-11-10": "förslaget avser förordning som ännu inte finns i SFS"
   },
-  "matchning": "Paragrafer matchas på kapitel + nummer; saknas samma nummer används högst textlikhet inom kapitlet. Likhet < 0,80 ⇒ manuell_granskning: true.",
+  "matchning": "Paragrafer matchas på kapitel + nummer bland lydelser införda genom reformens ändrings-SFS; saknas paragrafnumret helt i den konsoliderade texten används högst textlikhet inom kapitlet (bland samma lydelser). Likhet < 0,80 ⇒ manuell_granskning: true.",
   "forslag_till_paragraf": "Paragrafer knyts till förslag via SOU:ns författningskommentar (\"Bestämmelsen behandlas i avsnitt …\"), dvs. på avsnittsnivå — flera förslag i samma avsnitt delar paragrafer."
  },
  "forslag": [

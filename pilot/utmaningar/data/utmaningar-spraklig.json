@@ -98,6 +98,90 @@
     ]
    }
   },
+  "publicerade_avstaenden": [
+   {
+    "avsandare": "Almega Utbildning",
+    "fokusgrupp": "almega",
+    "forteckning": "ej_svarat (förklarat sig avstå eller inte inkommit med yttrande)",
+    "klassning": "avstående",
+    "sidor": 1,
+    "citat": "Jag får härmed meddela att Almega Utbildning avstår från att lämna synpunkter på utredningens förslag i detta betänkande.",
+    "kalla": {
+     "text": "Dokument från Almega Utbildning på remissidan",
+     "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/almega-utbildning.pdf"
+    }
+   },
+   {
+    "avsandare": "Mullsjö kommun",
+    "fokusgrupp": "kommuner",
+    "forteckning": "ej_svarat (förklarat sig avstå eller inte inkommit med yttrande)",
+    "klassning": "avstående",
+    "sidor": 1,
+    "citat": "Barn- och utbildningsnämnden i Mullsjö kommun har inga synpunkter på remissen och kommer därmed inte inkomma med något yttrande.",
+    "kalla": {
+     "text": "Dokument från Mullsjö kommun på remissidan",
+     "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/mullsjo-kommun.pdf"
+    }
+   }
+  ],
+  "remissida_kontroll": {
+   "datum": "2026-11-11",
+   "regel": "Sprint 17 A2: yttranden från fokusgrupper som är publicerade på remissidan men inte ingår i korpusen enligt förteckningen har lästs. Ett yttrande med sakinnehåll ska ingå även om förteckningen anger att instansen avstått; rena avståendebrev ingår inte."
+  },
+  "organisationer": [
+   {
+    "id": "skr",
+    "namn": "Sveriges Kommuner och Regioner",
+    "status": "svarat",
+    "kalla": {
+     "text": "Prop. 2025/26:194 bilaga 12 (förteckning över remissinstanserna)",
+     "url": "https://www.regeringen.se/contentassets/42c1e2e4596b4f8682e3d8283b91a138/nya-laroplaner--for-en-stark-kunskapsskola-prop.-202526194.pdf"
+    }
+   },
+   {
+    "id": "almega",
+    "namn": "Almega Utbildning",
+    "status": "avstått",
+    "kalla": {
+     "text": "Prop. 2025/26:194 bilaga 12 (förteckning över remissinstanserna)",
+     "url": "https://www.regeringen.se/contentassets/42c1e2e4596b4f8682e3d8283b91a138/nya-laroplaner--for-en-stark-kunskapsskola-prop.-202526194.pdf"
+    },
+    "avstaende": {
+     "citat": "Jag får härmed meddela att Almega Utbildning avstår från att lämna synpunkter på utredningens förslag i detta betänkande.",
+     "kalla": {
+      "text": "Dokument från Almega Utbildning på remissidan",
+      "url": "https://www.regeringen.se/contentassets/498cf0a53b4a4d4a8779c598fd84830c/almega-utbildning.pdf"
+     }
+    }
+   },
+   {
+    "id": "ideburna",
+    "namn": "Idéburna skolors riksförbund",
+    "status": "på remisslistan utan svar",
+    "kalla": {
+     "text": "Prop. 2025/26:194 bilaga 12 (förteckning över remissinstanserna)",
+     "url": "https://www.regeringen.se/contentassets/42c1e2e4596b4f8682e3d8283b91a138/nya-laroplaner--for-en-stark-kunskapsskola-prop.-202526194.pdf"
+    },
+    "anm": "Förteckningen anger \"har förklarat sig avstå eller har inte inkommit med yttrande\" och skiljer inte mellan de två."
+   }
+  ],
+  "kodning": {
+   "samstammighet_identifiering": {
+    "overens": 38,
+    "antal": 40
+   },
+   "samstammighet_typning": {
+    "overens": 38,
+    "antal": 40
+   },
+   "instruktion": "research/remissanalys/kedja/KODINSTRUKTION.md"
+  },
+  "begransningar": [
+   "Bland huvudmannaorganisationerna lämnade bara SKR ett publicerat remissvar; Almega Utbildning och Idéburna skolors riksförbund avstod.",
+   "Prop. 2025/26:194 behandlar betänkandets avsnitt 8 (grundläggande svenska som andraspråk); förslag om modersmålsundervisning tas inte upp.",
+   "SFS 2026:1243 innehåller även ändringar från andra propositioner (samordnad lag, bet. 2025/26:UbU26).",
+   "Spontana yttranden publiceras inte på regeringen.se; enskilda huvudmän som yttrat sig spontant saknas därför i korpusen."
+  ],
   "tolkning": "Fält med tolkning: true är tolkning (utmaningstyp; koppling med nivå \"tolkad\"). Kopplingen mellan utredningsförslag och propositionsavsnitt är redaktionell: true. Övrigt är mekaniskt härlett ur källtext.",
   "ingen_bedomning": "Inget fält anger om en utmaning har lösts eller om propositionen har bemött den i sak.",
   "kopplingsnivaer": {
@@ -9430,7 +9514,7 @@
    "proposition": "Prop. 2025/26:194",
    "avsnitt": "7.2",
    "rubrik": "Betyg ska inte sättas i grundläggande svenska",
-   "overensstammelse": null,
+   "overensstammelse": "överensstämmer i sak",
    "avvikelse_beskriven": true,
    "avvikelsetext": "Utredningens förslag överensstämmer i sak med regeringens. Utredningen föreslår dock lagtekniskt att det ska införas upplysningsbestämmelser i skollagen om att regeringen eller den myndighet som regeringen bestämmer kan meddela föreskrifter som innebär undantag från att betyg ska sättas i ämnen.",
    "sida": [
@@ -9542,23 +9626,23 @@
     "redaktionell": true
    },
    "sfs": {
-    "status": "i beslutad lag",
+    "status": null,
     "paragrafer": [
      {
       "paragraf": "10 kap. 15 §",
-      "textlikhet_procent": 60.0
+      "textlikhet_procent": null
      },
      {
       "paragraf": "11 kap. 19 §",
-      "textlikhet_procent": 32.9
+      "textlikhet_procent": null
      },
      {
       "paragraf": "12 kap. 15 §",
-      "textlikhet_procent": 30.1
+      "textlikhet_procent": null
      },
      {
       "paragraf": "13 kap. 16 §",
-      "textlikhet_procent": 31.0
+      "textlikhet_procent": null
      },
      {
       "paragraf": "15 kap. 22 §",
@@ -9569,10 +9653,7 @@
       "textlikhet_procent": 81.5
      }
     ],
-    "kalla": {
-     "text": "Skollag (2010:800) konsoliderad, riksdagens öppna data, hämtad 2026-11-10 (lydelser enligt SFS 2026:1243)",
-     "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
-    }
+    "forklaring": "Minst en paragraf saknar beslutad lydelse; se diff."
    }
   },
   {
@@ -9828,57 +9909,9 @@
     "matchning": "textlikhet",
     "manuell_granskning": true
    },
-   "beslutad": {
-    "text": "Om betyg sätts i årskurs 5 och 6 ska betyg sättas i slutet av varje termin i de årskurserna i de ämnen som eleven har fått undervisning i under terminen. Om undervisningen i naturorienterande ämnen och samhällsorienterande ämnen i huvudsak varit ämnesövergripande fram till och med slutet av aktuell årskurs, får rektorn dock besluta att ett sammanfattande betyg ska sättas för dessa respektive ämnen i den årskursen. Lag (2025:729). 16 a /Träder i kraft I:2028-07-02/ § Betyg ska inte sättas för en elev i ämnet svenska som andraspråk när det gäller undervisning som eleven har fått enligt kursplanen för grundläggande svenska.",
-    "paragraf": "10 kap. 16 §",
-    "sfs": "2026:1243",
-    "ikraft": null,
-    "likhet_mot_sou": 0.6,
-    "kalla": {
-     "text": "Skollag (2010:800) 10 kap. 16 § i lydelse enligt SFS 2026:1243; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
-     "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
-    },
-    "matchning": "textlikhet",
-    "manuell_granskning": true
-   },
-   "textlikhet_procent": 60.0,
-   "diff_sou_mot_beslutad": [
-    {
-     "op": "ersatt",
-     "fore": "Betyg",
-     "efter": "Om betyg sätts i årskurs 5 och 6"
-    },
-    {
-     "op": "tillagd",
-     "fore": null,
-     "efter": "betyg"
-    },
-    {
-     "op": "struken",
-     "fore": "i grundskolans ämnen",
-     "efter": null
-    },
-    {
-     "op": "ersatt",
-     "fore": "från och med årskurs 6",
-     "efter": "i de årskurserna"
-    },
-    {
-     "op": "struken",
-     "fore": "Regeringen eller den myndighet som regeringen bestämmer kan med stöd av 8 kap. 7 § regeringsformen meddela föreskrifter som innebär undantag från första stycket för ämnet svenska som andraspråk.",
-     "efter": null
-    },
-    {
-     "op": "ersatt",
-     "fore": "årskurs 6,",
-     "efter": "aktuell årskurs,"
-    },
-    {
-     "op": "ersatt",
-     "fore": "årskurs 6.",
-     "efter": "den årskursen. Lag (2025:729). 16 a /Träder i kraft I:2028-07-02/ § Betyg ska inte sättas för en elev i ämnet svenska som andraspråk när det gäller undervisning som eleven har fått enligt kursplanen för grundläggande svenska."
-    }
-   ],
+   "beslutad": null,
+   "textlikhet_procent": null,
+   "diff_sou_mot_beslutad": [],
    "manuell_granskning": true,
    "belagg": "research/remissanalys/reformer/spraklig/sfs-diff.json#/forslag/2/paragrafer/0"
   },
@@ -9902,72 +9935,9 @@
     "matchning": "textlikhet",
     "manuell_granskning": true
    },
-   "beslutad": {
-    "text": "För varje ämne och ämnesområde ska en eller i vissa fall flera kursplaner gälla. Varje kursplan ska innehålla 1. syfte, 2. ämnets eller ämnesområdets bidrag till skolans mål, 3. mål och innehåll, 4. undervisningsstrategier, och 5. betygs- och bedömningskriterier eller bedömningskriterier. För ämnet svenska som andraspråk ska det finnas två kursplaner och den ena av dessa, kursplanen för grundläggande svenska, ska endast innehålla det som anges i andra stycket 1-4. Av 1 kap. 11 § framgår att kursplanerna ska ingå i läroplanen för anpassade grundskolan.",
-    "paragraf": "11 kap. 11 §",
-    "sfs": "2026:1243",
-    "ikraft": "2028-07-02",
-    "likhet_mot_sou": 0.329,
-    "kalla": {
-     "text": "Skollag (2010:800) 11 kap. 11 § i lydelse enligt SFS 2026:1243, träder i kraft 2028-07-02; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
-     "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
-    },
-    "matchning": "textlikhet",
-    "manuell_granskning": true
-   },
-   "textlikhet_procent": 32.9,
-   "diff_sou_mot_beslutad": [
-    {
-     "op": "ersatt",
-     "fore": "Om",
-     "efter": "För varje ämne och ämnesområde ska"
-    },
-    {
-     "op": "struken",
-     "fore": "elev",
-     "efter": null
-    },
-    {
-     "op": "ersatt",
-     "fore": "elevens vårdnadshavare begär det,",
-     "efter": "i vissa fall flera kursplaner gälla. Varje kursplan"
-    },
-    {
-     "op": "ersatt",
-     "fore": "betyg sättas i anpassade grundskolans ämnen. Betyg ska sättas i slutet av varje termin från",
-     "efter": "innehålla 1. syfte, 2. ämnets eller ämnesområdets bidrag till skolans mål, 3. mål"
-    },
-    {
-     "op": "ersatt",
-     "fore": "med årskurs 6 i de ämnen som eleven har fått undervisning i under terminen. Regeringen",
-     "efter": "innehåll, 4. undervisningsstrategier, och 5. betygs- och bedömningskriterier"
-    },
-    {
-     "op": "ersatt",
-     "fore": "den myndighet som regeringen bestämmer kan med stöd av 8 kap. 7 § regeringsformen meddela föreskrifter som innebär undantag från första stycket för",
-     "efter": "bedömningskriterier. För"
-    },
-    {
-     "op": "ersatt",
-     "fore": "andraspråk. Om betyg sätts",
-     "efter": "andraspråk ska det finnas två kursplaner och den ena av dessa, kursplanen för grundläggande svenska, ska endast innehålla det som anges"
-    },
-    {
-     "op": "ersatt",
-     "fore": "årskurs 4 och 5",
-     "efter": "andra stycket 1-4. Av 1 kap. 11 § framgår att kursplanerna"
-    },
-    {
-     "op": "ersatt",
-     "fore": "betyg sättas",
-     "efter": "ingå"
-    },
-    {
-     "op": "ersatt",
-     "fore": "slutet av varje termin i de årskurserna i de ämnen som eleven har fått undervisning i under terminen.",
-     "efter": "läroplanen för anpassade grundskolan."
-    }
-   ],
+   "beslutad": null,
+   "textlikhet_procent": null,
+   "diff_sou_mot_beslutad": [],
    "manuell_granskning": true,
    "belagg": "research/remissanalys/reformer/spraklig/sfs-diff.json#/forslag/2/paragrafer/1"
   },
@@ -9991,32 +9961,9 @@
     "matchning": "textlikhet",
     "manuell_granskning": true
    },
-   "beslutad": {
-    "text": "Vid betygssättning i årskurs 11 ska det inom varje skolenhet genomföras bedömningssamråd mellan lärare som undervisar i samma ämne. Bedömningssamråd ska även genomföras i tidigare årskurser mellan lärare som undervisar i samma ämne om ett ämne avslutas i en tidigare årskurs. Syftet med sådana samråd är att öka betygens likvärdighet inom respektive ämne. Rektorn ansvarar för att bedömningssamråd genomförs.",
-    "paragraf": "12 kap. 20a §",
-    "sfs": "2026:1243",
-    "ikraft": "2028-07-02",
-    "likhet_mot_sou": 0.301,
-    "kalla": {
-     "text": "Skollag (2010:800) 12 kap. 20a § i lydelse enligt SFS 2026:1243, träder i kraft 2028-07-02; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
-     "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
-    },
-    "matchning": "textlikhet",
-    "manuell_granskning": true
-   },
-   "textlikhet_procent": 30.1,
-   "diff_sou_mot_beslutad": [
-    {
-     "op": "ersatt",
-     "fore": "Betyg ska sättas i specialskolans ämnen i slutet av varje termin från och med årskurs 7 i de ämnen som eleven har fått undervisning i under terminen. Regeringen eller den myndighet som regeringen bestämmer kan med stöd av 8 kap. 7 § regeringsformen meddela föreskrifter som innebär undantag från första stycket för ämnet svenska som andraspråk. Om undervisningen i naturorienterande ämnen och samhällsorienterande ämnen i huvudsak varit ämnesövergripande fram till och med slutet av årskurs 7, får rektorn dock besluta att ett sammanfattande betyg ska sättas för dessa respektive ämnen",
-     "efter": "Vid betygssättning"
-    },
-    {
-     "op": "ersatt",
-     "fore": "7.",
-     "efter": "11 ska det inom varje skolenhet genomföras bedömningssamråd mellan lärare som undervisar i samma ämne. Bedömningssamråd ska även genomföras i tidigare årskurser mellan lärare som undervisar i samma ämne om ett ämne avslutas i en tidigare årskurs. Syftet med sådana samråd är att öka betygens likvärdighet inom respektive ämne. Rektorn ansvarar för att bedömningssamråd genomförs."
-    }
-   ],
+   "beslutad": null,
+   "textlikhet_procent": null,
+   "diff_sou_mot_beslutad": [],
    "manuell_granskning": true,
    "belagg": "research/remissanalys/reformer/spraklig/sfs-diff.json#/forslag/2/paragrafer/2"
   },
@@ -10040,57 +9987,9 @@
     "matchning": "textlikhet",
     "manuell_granskning": true
    },
-   "beslutad": {
-    "text": "Den totala undervisningstiden för varje elev i sameskolan ska vara minst 5 007 timmar. För en nyanländ elev och för en elev som avses i 3 kap. 12 c § andra stycket 2 ska den totala undervisningstiden efter ett beslut om placering i årskurs enligt 3 kap. 12 e § motsvara minst den tid som återstår för övriga elever i den årskursen under den kvarvarande skoltiden.",
-    "paragraf": "13 kap. 5 §",
-    "sfs": "2026:1243",
-    "ikraft": "2028-07-02",
-    "likhet_mot_sou": 0.31,
-    "kalla": {
-     "text": "Skollag (2010:800) 13 kap. 5 § i lydelse enligt SFS 2026:1243, träder i kraft 2028-07-02; konsoliderad text hämtad 2026-11-10 (t.o.m. SFS 2026:1636)",
-     "url": "https://data.riksdagen.se/dokument/sfs-2010-800.text"
-    },
-    "matchning": "textlikhet",
-    "manuell_granskning": true
-   },
-   "textlikhet_procent": 31.0,
-   "diff_sou_mot_beslutad": [
-    {
-     "op": "ersatt",
-     "fore": "Betyg",
-     "efter": "Den totala undervisningstiden för varje elev i sameskolan"
-    },
-    {
-     "op": "ersatt",
-     "fore": "sättas",
-     "efter": "vara minst 5 007 timmar. För en nyanländ elev och för en elev som avses"
-    },
-    {
-     "op": "ersatt",
-     "fore": "sameskolans ämnen. Regeringen eller",
-     "efter": "3 kap. 12 c § andra stycket 2 ska"
-    },
-    {
-     "op": "ersatt",
-     "fore": "myndighet",
-     "efter": "totala undervisningstiden efter ett beslut om placering i årskurs enligt 3 kap. 12 e § motsvara minst den tid"
-    },
-    {
-     "op": "ersatt",
-     "fore": "regeringen bestämmer kan med stöd av 8 kap. 7 § regeringsformen meddela föreskrifter som innebär undantag från första stycket",
-     "efter": "återstår"
-    },
-    {
-     "op": "ersatt",
-     "fore": "ämnet svenska som andraspråk. Om undervisningen",
-     "efter": "övriga elever"
-    },
-    {
-     "op": "ersatt",
-     "fore": "naturorienterande ämnen och samhällsorienterande ämnen i huvudsak varit ämnesövergripande fram till och med slutet av årskurs 6, får rektorn dock besluta att ett sammanfattande betyg ska sättas för dessa respektive ämnen.",
-     "efter": "den årskursen under den kvarvarande skoltiden."
-    }
-   ],
+   "beslutad": null,
+   "textlikhet_procent": null,
+   "diff_sou_mot_beslutad": [],
    "manuell_granskning": true,
    "belagg": "research/remissanalys/reformer/spraklig/sfs-diff.json#/forslag/2/paragrafer/3"
   },

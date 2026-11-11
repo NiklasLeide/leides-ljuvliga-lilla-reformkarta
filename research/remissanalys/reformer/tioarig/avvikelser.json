@@ -1,7 +1,7 @@
 {
  "_meta": {
   "beskrivning": "Propositionens stycke \"Utredningens förslag\" per avsnitt med regeringens förslags-/bedömningsruta, ordagrant fram till nästa underrubrik.",
-  "overensstammelse": "propositionens exakta fras",
+  "overensstammelse": "propositionens exakta fras (verbet stämmer/överensstämmer med bestämningar, som det står)",
   "avvikelse_beskriven": "true om stycket innehåller fler meningar än den inledande om överensstämmelse (mekaniskt)"
  },
  "avsnitt": [
@@ -16,7 +16,7 @@
    ],
    "rubrik_i_propositionen": "Utredningens förslag",
    "text": "Överensstämmer med regeringens förslag.",
-   "overensstammelse": null,
+   "overensstammelse": "Överensstämmer",
    "avvikelse_beskriven": false,
    "kalla": {
     "text": "Prop. 2024/25:143 s. 72, avsnitt 6.1 ”Utredningens förslag”",
@@ -41,7 +41,7 @@
    ],
    "rubrik_i_propositionen": "Utredningens förslag",
    "text": "Överensstämmer med regeringens förslag.",
-   "overensstammelse": null,
+   "overensstammelse": "Överensstämmer",
    "avvikelse_beskriven": false,
    "kalla": {
     "text": "Prop. 2024/25:143 s. 79, avsnitt 6.2 ”Utredningens förslag”",
@@ -75,7 +75,7 @@
    ],
    "rubrik_i_propositionen": "Utredningens förslag",
    "text": "Överensstämmer med regeringens förslag.",
-   "overensstammelse": null,
+   "overensstammelse": "Överensstämmer",
    "avvikelse_beskriven": false,
    "kalla": {
     "text": "Prop. 2024/25:143 s. 82, avsnitt 6.3 ”Utredningens förslag”",
@@ -104,7 +104,7 @@
    ],
    "rubrik_i_propositionen": "Utredningens förslag",
    "text": "Överensstämmer i huvudsak med regeringens förslag. Utredningens förslag bygger dock på dåvarande gällande rätt då garantin för tidiga stödinsatser inte omfattade den anpassade grundskolan.",
-   "overensstammelse": null,
+   "overensstammelse": "Överensstämmer i huvudsak",
    "avvikelse_beskriven": true,
    "kalla": {
     "text": "Prop. 2024/25:143 s. 95, avsnitt 6.4.2 ”Utredningens förslag”",
@@ -130,7 +130,7 @@
    ],
    "rubrik_i_propositionen": "Utredningens förslag",
    "text": "Överensstämmer delvis med regeringens förslag. Utredningen föreslår till skillnad från regeringen ändringar i lagen (2010:801) om införande av skollagen (2010:800), men inte några ändringar i socialförsäkringsbalken, arbetsmiljölagen (1977:1160), föräldraledighetslagen (1995:584), lagen (2004:773) om kommunalekonomisk utjämning, diskrimineringslagen (2008:567) och smittskyddslagen (2004:168).",
-   "overensstammelse": null,
+   "overensstammelse": "Överensstämmer delvis",
    "avvikelse_beskriven": true,
    "kalla": {
     "text": "Prop. 2024/25:143 s. 100, avsnitt 6.5 ”Utredningens förslag”",
@@ -156,7 +156,7 @@
    ],
    "rubrik_i_propositionen": "Utredningens förslag",
    "text": "Överensstämmer huvudsakligen med regeringens förslag. Utredningen har föreslagit ordet ”När” i stället för formuleringen ”Inför eller i samband med att”. Utredningen har inte heller föreslagit att följdändringar ska göras i en av de befintliga bestämmelserna.",
-   "overensstammelse": null,
+   "overensstammelse": "Överensstämmer huvudsakligen",
    "avvikelse_beskriven": true,
    "kalla": {
     "text": "Prop. 2024/25:143 s. 108, avsnitt 7.2 ”Utredningens förslag”",
@@ -204,7 +204,7 @@
    ],
    "rubrik_i_propositionen": "Utredningens förslag",
    "text": "Överensstämmer delvis med regeringens förslag. Utredningen föreslår att ändringarna i skollagen ska träda i kraft den 1 augusti 2024 och tillämpas första gången på utbildning och annan verksamhet som påbörjas efter den 30 juni 2026. Bestämmelserna i 3 kap. 12 j § om skyldighet att lämna över viss information om barn och elever vid övergångar föreslås dock tillämpas från den 1 januari 2026. Utredningen föreslår inte några bestämmelser om hur elever som påbörjat sin skolgång i det gamla systemet ska fortsätta skolgången i det nya systemet. Utredningen föreslår en övergångsbestämmelse som bl.a. innebär att en enskild huvudman som har godkännande för förskoleklass och grundskola eller anpassad grundskola efter ansökan till Statens skolinspektion och en förenklad prövning ska få godkännande för nya årskurs 1 och att regeringen ska bemyndigas att meddela föreskrifter om den förenklade prövningen. Vidare föreslår utredningen att det i övergångsbestämmelser till skollagen ska regleras vad som ska gälla för befintliga lärarlegitimationer med behörighet att undervisa i grundskolan, anpassade grundskolan, specialskolan eller sameskolan. Utredningen föreslår inte någon övergångsbestämmelse i fråga om överlämning av uppgifter om en elev som ska övergå från förskoleklassen till skolan när reformen införs. Utredningen föreslår inte heller några övergångsbestämmelser som reglerar vad som ska gälla för beslut som har fattats enligt äldre bestämmelser om att betyg ska sättas redan i årskurs 4 och 5 vid en skolenhet inom grundskolan, anpassade grundskolan eller sameskolan eller i årskurs 5 och 6 vid en skolenhet inom specialskolan eller vad som ska gälla för befintliga tillstånd att använda färdighetsprov i musik i förskoleklassen eller i årskurs 1, 2 eller 3 i grundskolan. Utredningens förslag innehåller inte heller någon övergångsbestämmelse som innebär att äldre bestämmelser om minsta totala undervisningstid ska fortsätta att gälla för elever som höstterminen 2028 påbörjar årskurs 2 eller en högre årskurs i grundskolan eller i en motsvarande skolform. Utredningen föreslår i vissa fall även en annan utformning av ikraftträdande- och övergångsbestämmelserna till skollagen. Ändringarna i offentlighets- och sekretesslagen (2009:400) föreslås träda i kraft den 1 juli 2026.",
-   "overensstammelse": null,
+   "overensstammelse": "Överensstämmer delvis",
    "avvikelse_beskriven": true,
    "kalla": {
     "text": "Prop. 2024/25:143 s. 119, 120, avsnitt 10 ”Utredningens förslag”",

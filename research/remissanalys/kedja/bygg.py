@@ -13,7 +13,7 @@ Steg i byggningen:
 Användning: python3 research/remissanalys/kedja/bygg.py <reform-id>   (utdata deterministisk, inga körningstidsstämplar)"""
 import collections, json, os, re, sys
 sys.path.insert(0, os.path.dirname(__file__))
-from gemensamt import ROT, reform_id, config, gemensamt, las, kravs, fokusgrupper
+from gemensamt import N, ROT, reform_id, config, gemensamt, las, kravs, fokusgrupper
 
 ALIAS = {'SKR': 'Sveriges Kommuner och Regioner'}     # kortformer som propositioner använder om avsändare
 FORK = ('bl.a.', 'm.fl.', 't.ex.', 'dvs.', 's.k.', 'prop.', 'bet.', 'rskr.', 'jfr.', 'kap.', 'resp.', 'ca.', 'm.m.', 'o.d.', 'p.g.a.', 'fr.o.m.', 't.o.m.')
@@ -204,6 +204,38 @@ if __name__ == '__main__':
                 'per_kombination': [dict(utmaningstyp=n, sakomrade=s, **rakna(sel)) for n, _ in TYPER for s in SAKNAMN
                                     if (sel := [u for u in utmaningar if u['utmaningstyp']['primar'] == n and har_sak(u, s)])]}
 
+    # ---------- organisationernas status och kodningsmått (Sprint 17 B5/B6) ----------
+    def organisationer():
+        """Fokusorganisationerna som hör till reformens remiss (config fokusorganisationer, null = inte med), med status ur
+        propositionens förteckning: svarat (remissinstans), spontant yttrande, avstått (publicerat avståendebrev, A2),
+        på remisslistan utan svar (förteckningen skiljer inte mellan avstått och inte inkommit), inte på remisslistan."""
+        f = rv['forteckning']; ut_ = []
+        avst = {N(x['avsandare']): x for x in ((c.get('remissida_kontroll') or {}).get('ej_med_avstaenden') or [])}
+        for gid, namn in (c.get('fokusorganisationer') or {}).items():
+            if not namn: continue
+            i = lambda lst: N(namn).lower() in {N(x).lower() for x in (lst or [])}
+            if i(f.get('svarat')): st = 'svarat'
+            elif i(f.get('spontant')): st = 'spontant yttrande'
+            elif i(f.get('ej_svarat')): st = 'avstått' if N(namn) in avst else 'på remisslistan utan svar'
+            else: st = 'inte på remisslistan'
+            o = {'id': gid, 'namn': namn, 'status': st, 'kalla': rv['_meta']['kalla_forteckning']}
+            if st == 'avstått': o['avstaende'] = {'citat': avst[N(namn)]['citat'], 'kalla': avst[N(namn)]['kalla']}
+            if st == 'på remisslistan utan svar': o['anm'] = 'Förteckningen anger "har förklarat sig avstå eller har inte inkommit med yttrande" och skiljer inte mellan de två.'
+            ut_.append(o)
+        return ut_
+    def kodningsmatt():
+        def fil(namn):
+            p_ = os.path.join(ROT, 'research/remissanalys/reformer', rid, 'kodning', namn)
+            return json.load(open(p_, encoding='utf-8')) if os.path.exists(p_) else None
+        di = fil('dubbelidentifiering.json'); dk = fil('dubbelkodning.json'); de = fil('dubbelkodning-efter-regelprovning.json')
+        KODT = {x['id']: x['primar'] for x in (fil('utmaningstyp.json') or {}).get('kodning', [])}
+        m = {'samstammighet_identifiering': {'overens': sum(x['overens'] for x in di['passager']), 'antal': len(di['passager'])} if di else None,
+             'samstammighet_typning': {'overens': sum(1 for x in dk['kodning'] if KODT.get(x['id']) == x['primar']), 'antal': len(dk['kodning'])} if dk else None,
+             'instruktion': 'research/remissanalys/kedja/KODINSTRUKTION.md'}
+        if de: m['samstammighet_typning_efter_regelprovning'] = {'overens': de['_meta']['overens'], 'antal': de['_meta']['antal']}
+        if not di: m['anm'] = 'Ingen oberoende identifiering finns för denna kodning.'
+        return m
+
     # ---------- meta ----------
     publ = rv['publicerade']
     grp_i_korpus = []
@@ -223,6 +255,9 @@ if __name__ == '__main__':
                                       + ''.join(f" {FG[g][0]} är fokusgrupp för denna reform men har inget publicerat remissvar." for g in FOKUS
                                                 if g not in g0['fokusgrupper'] and not any(d['kategori'] == g for d in publ)),
                        'opublicerade_remissvar_som_saknas': {'antal': len(saknade), 'per_grupp': dict(collections.Counter(s['fokusgrupp'] for s in saknade)), 'avsandare': saknade}},
+            'publicerade_avstaenden': [dict(x, kalla=x['kalla']) for x in ((c.get('remissida_kontroll') or {}).get('ej_med_avstaenden') or [])],
+            'remissida_kontroll': ({k: v for k, v in c['remissida_kontroll'].items() if k in ('datum', 'regel')} if c.get('remissida_kontroll') else None),
+            'organisationer': organisationer(), 'kodning': kodningsmatt(), 'begransningar': c.get('begransningar') or [],
             'tolkning': 'Fält med tolkning: true är tolkning (utmaningstyp; koppling med nivå "tolkad"). Kopplingen mellan utredningsförslag och propositionsavsnitt är redaktionell: true. Övrigt är mekaniskt härlett ur källtext.',
             'ingen_bedomning': 'Inget fält anger om en utmaning har lösts eller om propositionen har bemött den i sak.',
             'kopplingsnivaer': {'förslag': 'remissvarets hänvisning pekar ut exakt ett utredningsförslag', 'avsnitt': 'remissvarets hänvisning pekar ut ett SOU-avsnitt med flera förslag',

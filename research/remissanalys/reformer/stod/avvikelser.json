@@ -1,7 +1,7 @@
 {
  "_meta": {
   "beskrivning": "Propositionens stycke \"Utredningen om en förbättrad elevhälsas förslag\" per avsnitt med regeringens förslags-/bedömningsruta, ordagrant fram till nästa underrubrik.",
-  "overensstammelse": "propositionens exakta fras",
+  "overensstammelse": "propositionens exakta fras (verbet stämmer/överensstämmer med bestämningar, som det står)",
   "avvikelse_beskriven": "true om stycket innehåller fler meningar än den inledande om överensstämmelse (mekaniskt)"
  },
  "avsnitt": [
@@ -217,7 +217,7 @@
    ],
    "rubrik_i_propositionen": "Utredningen om en förbättrad elevhälsas förslag",
    "text": "Förslaget från utredningen stämmer inte överens med regeringens förslag. Utredningen föreslår att ändringarna i skollagen ska träda i kraft den 1 juli 2026 och tillämpas första gången på utbildning som påbörjas höstterminen 2028.",
-   "overensstammelse": null,
+   "overensstammelse": "stämmer inte överens",
    "avvikelse_beskriven": true,
    "kalla": {
     "text": "Prop. 2025/26:195 s. 124, avsnitt 8 ”Utredningen om en förbättrad elevhälsas förslag”",

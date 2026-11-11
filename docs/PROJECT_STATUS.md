@@ -21,7 +21,8 @@
 | 5 | Kunskap för alla (SOU 2025:19) | Klar — 24 publicerade remissvar, 284 utmaningar, Övrigt 7,7 %, samstämmighet identifiering 39/40, typning 36/40 |
 | 6 | På språklig grund (SOU 2025:9) | Klar — 20 publicerade remissvar (bland organisationerna bara SKR), 140 utmaningar, Övrigt 3,6 %, samstämmighet identifiering 38/40, typning 38/40 |
 | 7 | Tioårig grundskola (SOU 2021:33) | Klar — 22 publicerade remissvar (Friskolornas riksförbund egen fokusgrupp, avstod), 166 utmaningar, Övrigt 0 %, samstämmighet identifiering 36/40, typning 34/40 |
-| 7b | Omkodning av betyg med gemensam kodinstruktion | Stoppad — samstämmighet för typning 31/40 (77,5 %) < 80 %. Omkodningens M1–M2 incheckad under research/remissanalys/reformer/betyg/omkodning-sprint17/ (jämförelse i jamforelse.json); betygs datafil och kodning oförändrade (Sprint 16) |
+| 7b | Omkodning av betyg med gemensam kodinstruktion | Klar — omkodningen används (regel A4): M1–M3 fullföljda, samstämmighet för typning efter regelprövning 71/80 (88,8 %, gräns 75 %); före regelprövning 31/40. 490 utmaningar (Sprint 16: 440). Sprint 16-filen sparad i research/remissanalys/reformer/betyg/fore-omkodning/ med jamforelse.json |
+| 7c | Datarättningar | Klar |
 | 8 | Pilotsidan: reformväljare, jämförelse mellan reformer, förslag som propositionen inte tar upp, klickytor | Ej påbörjad |
 | 9 | Granskningsunderlag för alla reformer | Ej påbörjad |
 | 10 | Dokumentation och hygien | Ej påbörjad |

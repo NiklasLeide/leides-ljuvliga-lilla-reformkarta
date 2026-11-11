@@ -185,10 +185,55 @@
     "2026:1096",
     "2026:1242",
     "2026:1243",
-    "2026:1636"
+    "2026:1245"
    ],
    "bestamd_form": "skollagen",
-   "anm": "Ändringslagar verifierade med \"Lag (…)\" i den konsoliderade texten (ändrad t.o.m. SFS 2026:1636) för paragrafer som utredningens författningskommentar tar upp: 2026:1243 (i kraft 2028-07-02; samlad ändringslag med prop. 2025/26:194 lagförslag 2.1, även ändringar från andra propositioner): 1 kap. 11 §, 3 kap. 7, 10, 12 i §§, 7 kap. 5, 14, 15 §§, 10–13 kap. (alla kommenterade paragrafer). 2026:1242 (prop. 2025/26:195, i kraft 2028-07-01): 1 kap. 4 § (med prop. 194:s formulering \"förmedla och förankra kunskaper och värden\"), 3 kap. 1, 2, 4, 5, 7 §§ och 5 kap. 4 a § (SOU 2025:19 avsnitt 4.2.3). 2026:1096 (prop. 2025/26:196 lagförslag 2.1, i kraft 2026-08-01): 1 kap. 5 § (avsnitt 4.2.2); kränkande behandling flyttades till 6 kap. 10 § i stället för utredningens nya 6 kap. 5 a §. 2026:1636 (i kraft 2028-07-01): 1 kap. 3 § med prop. 194:s definition av undervisning (\"bestäms och leds av lärare eller förskollärare\"); 2026:1634 (samma paragraf, i kraft 2027-07-01, gammal definition) tas inte med. 2026:1245 (prop. 194 lagförslag 2.2, 20 kap. komvux, i kraft 2031-01-01) tas inte med: utredningens författningskommentar berör inte 20 kap. Övergångsblock finns bara för 2026:1243. 6 kap. 5 a § och 9 kap. 17 § (utredningens förslag) finns inte i den konsoliderade texten."
+   "anm": "Ändrat i Sprint 17 A1: 2026:1636 är borttagen och 2026:1245 tillagd. 1 kap. 3 § får därför ingen beslutad lydelse i jämförelsen (se andringar_anm). 6 kap. 5 a § och 9 kap. 17 § (utredningens förslag) finns inte i den konsoliderade texten.",
+   "andringar_kalla": [
+    {
+     "sfs": "2026:1096",
+     "prop": "Prop. 2025/26:196 (lagförslag 2.1; avsnitt 8, Läroplansutredningens förslag om 1 kap. 5 § och 6 kap. 10 §)",
+     "text": "Bet. 2025/26:UbU25 punkt 1 a) 1 antar prop. 2025/26:196 lagförslag 1. Skollag (2010:800) konsoliderad, riksdagens öppna data (Ändrad: t.o.m. SFS 2026:1636), hämtad 2026-11-11: 1 kap. 5 § och 6 kap. 10 § har \"Lag (2026:1096)\"; de sex paragrafversionerna med \"Lag (2026:1096)\" är exakt paragraferna i lagförslag 2.1 (i kraft 1 augusti 2026). Ändrings-SFS i original (svenskforfattningssamling.se) och SFS-registret (rkrattsbaser.gov.se) nåddes inte från miljön (proxy 403); riksdagens dokumentstatus för betänkandena anger inga SFS-nummer. Kopplingen SFS-nummer → lag i riksdagsbeslutet bygger därför på ikraftträdandedag, övergångsblock och paragrafuppsättning i den konsoliderade texten jämförda med betänkandets och propositionens text.",
+     "url": "https://data.riksdagen.se/dokumentstatus/HD01UbU25",
+     "ovriga_urler": [
+      "https://data.riksdagen.se/dokument/sfs-2010-800.text",
+      "https://data.riksdagen.se/dokument/HD03196"
+     ]
+    },
+    {
+     "sfs": "2026:1242",
+     "prop": "Prop. 2025/26:194 (lagförslag 2.1: 1 kap. 3 och 4 §§, 3 kap. 2 §); Prop. 2025/26:195 (avsnitt 6.4: 1 kap. 4 §)",
+     "text": "Skollag (2010:800) konsoliderad, riksdagens öppna data (Ändrad: t.o.m. SFS 2026:1636), hämtad 2026-11-11: 31 paragrafversioner har \"Lag (2026:1242)\", alla med /Träder i kraft I:2028-07-01/, och övergångsbestämmelserna har inget block för 2026:1242 = den lag \"som träder i kraft den 1 juli 2028 och saknar övergångsbestämmelser\" i Bet. 2025/26:UbU26 (Utskottets överväganden): \"Det innebär att utskottet föreslår att samordningen av lagstiftningen sker i en lag som träder i kraft den 1 juli 2028 och saknar övergångsbestämmelser, en lag som träder i kraft den 2 juli 2028 och har ett flertal övergångsbestämmelser samt en lag som träder i kraft den 1 januari 2031 och har en övergångsbestämmelse.\". Prop. 2025/26:292 (lagförslag 2.3, antaget genom bet. 2025/26:UbU30): \"Härigenom föreskrivs att 1 kap. 3 § skollagen (2010:800) i stället för lydelsen enligt lagen (2026:1242) om ändring i den lagen ska ha följande lydelse.\" med kolumnen \"Lydelse enligt SFS 2026:1242\" (dvs. 2026:1242 innehöll prop. 2025/26:194:s nya 1 kap. 3 §). Prop. 2025/26:195 återger 1 kap. 4 § och 3 kap. 2 § under rubriken \"Lydelse enligt förslaget i avsnitt 2.1 i prop. 2025/26:194\"; 1 kap. 4 § i lydelse \"Lag (2026:1242)\" är identisk med prop. 2025/26:195:s föreslagna lydelse. Ändrings-SFS i original (svenskforfattningssamling.se) och SFS-registret (rkrattsbaser.gov.se) nåddes inte från miljön (proxy 403); riksdagens dokumentstatus för betänkandena anger inga SFS-nummer. Kopplingen SFS-nummer → lag i riksdagsbeslutet bygger därför på ikraftträdandedag, övergångsblock och paragrafuppsättning i den konsoliderade texten jämförda med betänkandets och propositionens text.",
+     "url": "https://data.riksdagen.se/dokument/HD01UbU26",
+     "ovriga_urler": [
+      "https://data.riksdagen.se/dokument/HD03292",
+      "https://data.riksdagen.se/dokument/HD03195",
+      "https://data.riksdagen.se/dokumentstatus/HD01UbU26",
+      "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+     ]
+    },
+    {
+     "sfs": "2026:1243",
+     "prop": "Prop. 2025/26:194 (lagförslag 2.1)",
+     "text": "Skollag (2010:800) konsoliderad, riksdagens öppna data (Ändrad: t.o.m. SFS 2026:1636), hämtad 2026-11-11: 94 paragrafversioner har \"Lag (2026:1243)\" (90 med /Träder i kraft I:2028-07-02/) och övergångsbestämmelserna har ett block 2026:1243 med nio punkter (\"1. Denna lag träder i kraft den 2 juli 2028.\") = den lag \"som träder i kraft den 2 juli 2028 och har ett flertal övergångsbestämmelser\" i Bet. 2025/26:UbU26 (Utskottets överväganden): \"Det innebär att utskottet föreslår att samordningen av lagstiftningen sker i en lag som träder i kraft den 1 juli 2028 och saknar övergångsbestämmelser, en lag som träder i kraft den 2 juli 2028 och har ett flertal övergångsbestämmelser samt en lag som träder i kraft den 1 januari 2031 och har en övergångsbestämmelse.\". 58 av de 66 extraherade paragraferna (prop-lagtext.json) i prop. 2025/26:194 lagförslag 2.1 har lydelse \"Lag (2026:1243)\" (lagförslaget: \"1. Denna lag träder i kraft den 1 juli 2028.\" med övergångsbestämmelser). Beslut (dokumentstatus, utskottsförslag punkt 1, BES 2026-06-09): \"a) antar utskottets förslag i bilaga 3 till 1. lag om ändring i skollagen (2010:800), 2. lag om ändring i skollagen (2010:800), 3. lag om ändring i skollagen (2010:800), b) antar regeringens förslag till lag om ändring i skollagen (2010:800) (proposition 2025/26:197 lagförslag 2) [...] Därmed bifaller riksdagen propositionerna 2025/26:194 punkterna 1.2 och 2.2, 2025/26:195 delpunkt 2, 2025/26:196 punkt 3.2, 2025/26:197 punkterna 1-4 och 2025/26:198 punkterna 2.2 och 3.2.\" Ändrings-SFS i original (svenskforfattningssamling.se) och SFS-registret (rkrattsbaser.gov.se) nåddes inte från miljön (proxy 403); riksdagens dokumentstatus för betänkandena anger inga SFS-nummer. Kopplingen SFS-nummer → lag i riksdagsbeslutet bygger därför på ikraftträdandedag, övergångsblock och paragrafuppsättning i den konsoliderade texten jämförda med betänkandets och propositionens text.",
+     "url": "https://data.riksdagen.se/dokument/HD01UbU26",
+     "ovriga_urler": [
+      "https://data.riksdagen.se/dokumentstatus/HD01UbU26",
+      "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+     ]
+    },
+    {
+     "sfs": "2026:1245",
+     "prop": "Prop. 2025/26:194 (lagförslag 2.2)",
+     "text": "Skollag (2010:800) konsoliderad, riksdagens öppna data (Ändrad: t.o.m. SFS 2026:1636), hämtad 2026-11-11: 9 paragrafversioner (20 kap. och 29 kap. 19 c §) har \"Lag (2026:1245)\" med /Träder i kraft I:2031-01-01/, och övergångsblocket 2026:1245 lyder \"1. Denna lag träder i kraft den 1 januari 2031. 2. Äldre bestämmelser gäller fortfarande [...]\" = den lag \"som träder i kraft den 1 januari 2031 och har en övergångsbestämmelse\" i Bet. 2025/26:UbU26 (Utskottets överväganden): \"Det innebär att utskottet föreslår att samordningen av lagstiftningen sker i en lag som träder i kraft den 1 juli 2028 och saknar övergångsbestämmelser, en lag som träder i kraft den 2 juli 2028 och har ett flertal övergångsbestämmelser samt en lag som träder i kraft den 1 januari 2031 och har en övergångsbestämmelse.\". alla 3 extraherade paragrafer (prop-lagtext.json) i prop. 2025/26:194 lagförslag 2.2 (20 kap., \"1. Denna lag träder i kraft den 1 januari 2031.\") har lydelse \"Lag (2026:1245)\". Utredningens författningskommentar berör inte 20 kap., så lagen ger inga paragrafversioner i jämförelsen, bara sitt övergångsblock. Ändrings-SFS i original (svenskforfattningssamling.se) och SFS-registret (rkrattsbaser.gov.se) nåddes inte från miljön (proxy 403); riksdagens dokumentstatus för betänkandena anger inga SFS-nummer. Kopplingen SFS-nummer → lag i riksdagsbeslutet bygger därför på ikraftträdandedag, övergångsblock och paragrafuppsättning i den konsoliderade texten jämförda med betänkandets och propositionens text.",
+     "url": "https://data.riksdagen.se/dokument/HD01UbU26",
+     "ovriga_urler": [
+      "https://data.riksdagen.se/dokumentstatus/HD01UbU26",
+      "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+     ]
+    }
+   ],
+   "andringar_anm": "2026:1636 tas inte med: den enda versionen med \"Lag (2026:1636)\" är 1 kap. 3 § /Träder i kraft I:2028-07-01/, och den lagen är (av paragraf och ikraftträdande att döma) prop. 2025/26:292:s \"lag om ändring i lagen (2026:1242) om ändring i skollagen (2010:800)\" (bet. 2025/26:UbU30, beslut 2026-08-13), alltså ett annat riksdagsbeslut än läroplansreformens. Kopplingen 2026:1636 → prop. 2025/26:292 står inte uttryckligen i någon nåbar källa. Prop. 2025/26:194:s lydelse av 1 kap. 3 § infördes genom 2026:1242 men den versionen finns inte kvar i den konsoliderade texten (ersatt av 2026:1636 före ikraftträdandet), så 1 kap. 3 § får beslutad = null."
   }
  ],
  "forordningar": [
@@ -271,5 +316,17 @@
  },
  "forordning_markor_beskrivning": null,
  "forordning_markor_anm": "Ingen markör: utredningens förordningsförslag 1.2 (skolförordningen, \"tillgodogöra sig de kunskaper som anges i …\") finns inte i den konsoliderade skolförordningen (0 träffar per 2026-11-10), men de flesta förslagen (3.2, 4.3, 5.2, 5.4, 6.2, 7.5, 8.2, 9.2, 10.1) avser läroplaner i SKOLFS som inte finns i riksdagens öppna data; en markör skulle ge sfs_diff.py:s \"ej i SFS … innehåller inte\" även för dem, vilket vore missvisande.",
- "forteckning_korrigeringar": {}
+ "forteckning_korrigeringar": {},
+ "remissida_kontroll": {
+  "datum": "2026-11-11",
+  "regel": "Sprint 17 A2: yttranden från fokusgrupper som är publicerade på remissidan men inte ingår i korpusen enligt förteckningen har lästs. Ett yttrande med sakinnehåll ska ingå även om förteckningen anger att instansen avstått; rena avståendebrev ingår inte.",
+  "tillagda_yttranden": [],
+  "ej_med_avstaenden": []
+ },
+ "begransningar": [
+  "Delad proposition: Läroplansutredningens delar av prop. 2025/26:194 samt prop. 2025/26:195 och 196 för SOU-avsnitt 4.2.",
+  "Läroplaner och kursplaner beslutas i SKOLFS och finns inte i riksdagens öppna data; de jämförs inte.",
+  "1 kap. 3 § skollagen saknar beslutad lydelse från reformens SFS-nummer i den konsoliderade texten (se konfigurationens andringar_anm).",
+  "Spontana yttranden publiceras inte på regeringen.se; enskilda huvudmän som yttrat sig spontant saknas därför i korpusen."
+ ]
 }

@@ -139,6 +139,69 @@
     ]
    }
   },
+  "publicerade_avstaenden": [
+   {
+    "avsandare": "Bromölla kommun",
+    "fokusgrupp": "kommuner",
+    "forteckning": "ej_svarat (förklarat sig avstå eller inte inkommit med yttrande)",
+    "klassning": "avstående",
+    "sidor": 1,
+    "citat": "Kommunstyrelsen beslutar att Bromölla kommun avstår från att besvara remissen.",
+    "kalla": {
+     "text": "Dokument från Bromölla kommun på remissidan",
+     "url": "https://www.regeringen.se/contentassets/71983b04ad68455a913b800227c99598/bromolla-kommun.pdf"
+    }
+   }
+  ],
+  "remissida_kontroll": {
+   "datum": "2026-11-11",
+   "regel": "Sprint 17 A2: yttranden från fokusgrupper som är publicerade på remissidan men inte ingår i korpusen enligt förteckningen har lästs. Ett yttrande med sakinnehåll ska ingå även om förteckningen anger att instansen avstått; rena avståendebrev ingår inte."
+  },
+  "organisationer": [
+   {
+    "id": "skr",
+    "namn": "Sveriges Kommuner och Regioner",
+    "status": "svarat",
+    "kalla": {
+     "text": "Prop. 2025/26:196 bilaga 3 (förteckning över remissinstanserna)",
+     "url": "https://www.regeringen.se/contentassets/7bfa7c951ef54678981bfdb82f028b93/tid-for-undervisningsuppdraget-prop.-202526196.pdf"
+    }
+   },
+   {
+    "id": "almega",
+    "namn": "Almega Utbildning",
+    "status": "svarat",
+    "kalla": {
+     "text": "Prop. 2025/26:196 bilaga 3 (förteckning över remissinstanserna)",
+     "url": "https://www.regeringen.se/contentassets/7bfa7c951ef54678981bfdb82f028b93/tid-for-undervisningsuppdraget-prop.-202526196.pdf"
+    }
+   },
+   {
+    "id": "ideburna",
+    "namn": "Idéburna Skolors Riksförbund",
+    "status": "svarat",
+    "kalla": {
+     "text": "Prop. 2025/26:196 bilaga 3 (förteckning över remissinstanserna)",
+     "url": "https://www.regeringen.se/contentassets/7bfa7c951ef54678981bfdb82f028b93/tid-for-undervisningsuppdraget-prop.-202526196.pdf"
+    }
+   }
+  ],
+  "kodning": {
+   "samstammighet_identifiering": {
+    "overens": 37,
+    "antal": 40
+   },
+   "samstammighet_typning": {
+    "overens": 35,
+    "antal": 40
+   },
+   "instruktion": "research/remissanalys/kedja/KODINSTRUKTION.md"
+  },
+  "begransningar": [
+   "Två lagar (skollagen och diskrimineringslagen); utredningens förslag om diskrimineringslagen 2 kap. 7 § genomfördes inte.",
+   "Förslag som genomförs i förordning (2026:1487) eller i läroplaner (SKOLFS, inte i riksdagens öppna data) jämförs inte maskinellt; status null med förklaring.",
+   "Spontana yttranden publiceras inte på regeringen.se; enskilda huvudmän som yttrat sig spontant saknas därför i korpusen."
+  ],
   "tolkning": "Fält med tolkning: true är tolkning (utmaningstyp; koppling med nivå \"tolkad\"). Kopplingen mellan utredningsförslag och propositionsavsnitt är redaktionell: true. Övrigt är mekaniskt härlett ur källtext.",
   "ingen_bedomning": "Inget fält anger om en utmaning har lösts eller om propositionen har bemött den i sak.",
   "kopplingsnivaer": {

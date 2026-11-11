@@ -1,0 +1,58 @@
+{
+ "_meta": {
+  "beskrivning": "Sprint 17 A4: betyg omkodat (M1–M3) med gemensam kodinstruktion jämfört med Sprint 16. Båda fördelningarna efter regelprövning (publicerade datafiler)."
+ },
+ "antal": {
+  "utmaningar_sprint16": 440,
+  "utmaningar_omkodning": 490,
+  "avsandare_sprint16": 28,
+  "avsandare_omkodning": 28
+ },
+ "per_typ": [
+  {
+   "typ": "Kostnader och finansiering",
+   "sprint16": 43,
+   "omkodning": 39
+  },
+  {
+   "typ": "Tidplan och reformtakt",
+   "sprint16": 70,
+   "omkodning": 78
+  },
+  {
+   "typ": "Personal, kompetens och arbetsbelastning",
+   "sprint16": 63,
+   "omkodning": 63
+  },
+  {
+   "typ": "System och teknik",
+   "sprint16": 29,
+   "omkodning": 26
+  },
+  {
+   "typ": "Organisation och planering",
+   "sprint16": 105,
+   "omkodning": 125
+  },
+  {
+   "typ": "Otydlighet i förslaget",
+   "sprint16": 77,
+   "omkodning": 85
+  },
+  {
+   "typ": "Likvärdighet och konsekvenser för elever",
+   "sprint16": 44,
+   "omkodning": 70
+  },
+  {
+   "typ": "Övrigt",
+   "sprint16": 9,
+   "omkodning": 4
+  }
+ ],
+ "samstammighet": {
+  "identifiering": "35/40",
+  "typning_fore_regelprovning": "31/40",
+  "typning_efter_regelprovning": "71/80 (regel A4: minst 75 %)"
+ }
+}

@@ -3,7 +3,7 @@
  "namn": "Ett likvärdigt betygssystem",
  "namn_i_brief": "Betygsuppdraget",
  "reforms_json_id": "betyg",
- "status": "klar (pilot Sprint 16)",
+ "status": "klar (omkodad med gemensam kodinstruktion, Sprint 17 A4)",
  "sou": {
   "nr": "SOU 2025:18",
   "titel": "Ett likvärdigt betygssystem",
@@ -103,9 +103,54 @@
    "andringar": [
     "2026:1242",
     "2026:1243",
+    "2026:1244",
     "2026:1245"
    ],
-   "bestamd_form": "skollagen"
+   "bestamd_form": "skollagen",
+   "andringar_kalla": [
+    {
+     "sfs": "2026:1242",
+     "prop": "Prop. 2025/26:194 (lagförslag 2.1, avsnitt 6.7)",
+     "text": "Skollag (2010:800) konsoliderad, riksdagens öppna data (Ändrad: t.o.m. SFS 2026:1636), hämtad 2026-11-11: 31 paragrafversioner har \"Lag (2026:1242)\", alla med /Träder i kraft I:2028-07-01/, och övergångsbestämmelserna har inget block för 2026:1242 = den lag \"som träder i kraft den 1 juli 2028 och saknar övergångsbestämmelser\" i Bet. 2025/26:UbU26 (Utskottets överväganden): \"Det innebär att utskottet föreslår att samordningen av lagstiftningen sker i en lag som träder i kraft den 1 juli 2028 och saknar övergångsbestämmelser, en lag som träder i kraft den 2 juli 2028 och har ett flertal övergångsbestämmelser samt en lag som träder i kraft den 1 januari 2031 och har en övergångsbestämmelse.\". Lagen innehåller främst prop. 2025/26:195 (25 av 31 paragrafer finns i dess lagförslag), men också prop. 2025/26:194:s ändring av 3 kap. 2 § i betygsreformens del: prop. 2025/26:195 återger 3 kap. 2 § under rubriken \"Lydelse enligt förslaget i avsnitt 2.1 i prop. 2025/26:194\", prop. 2025/26:194:s författningskommentar till 3 kap. 2 § säger att lydelsen \"lätt uppfyller de betygskriterier eller kriterier för bedömning av kunskaper som minst ska uppfyllas\" byts mot \"lätt tillgodogör sig de kunskaper som anges i kurs-, ämnes- eller ämnesområdesplanerna\" och \"Övervägandena finns i avsnitt 6.7.\", och 3 kap. 2 § i lydelse \"Lag (2026:1242)\" innehåller \"tillgodogör sig de kunskaper som anges i kurs-, ämnes- eller ämnesområdesplanerna\". Prop. 2025/26:197:s egna ändringar finns inte i 2026:1242: 3 kap. 7 § och 20 kap. 35 a och 40 b §§ har i lydelse 2026:1242 kvar \"E\"/\"godkänt\", medan lydelserna 2026:1243 respektive 2026:1245 har propositionens \"4\". Ändrings-SFS i original (svenskforfattningssamling.se) och SFS-registret (rkrattsbaser.gov.se) nåddes inte från miljön (proxy 403); riksdagens dokumentstatus för betänkandena anger inga SFS-nummer. Kopplingen SFS-nummer → lag i riksdagsbeslutet bygger därför på ikraftträdandedag, övergångsblock och paragrafuppsättning i den konsoliderade texten jämförda med betänkandets och propositionens text.",
+     "url": "https://data.riksdagen.se/dokument/HD01UbU26",
+     "ovriga_urler": [
+      "https://data.riksdagen.se/dokument/sfs-2010-800.text",
+      "https://data.riksdagen.se/dokument/HD03195",
+      "https://data.riksdagen.se/dokument/HD03194"
+     ]
+    },
+    {
+     "sfs": "2026:1243",
+     "prop": "Prop. 2025/26:197 (lagförslag 2.1); Prop. 2025/26:194 (lagförslag 2.1, avsnitt 6.7–6.8)",
+     "text": "Skollag (2010:800) konsoliderad, riksdagens öppna data (Ändrad: t.o.m. SFS 2026:1636), hämtad 2026-11-11: 94 paragrafversioner har \"Lag (2026:1243)\" (90 med /Träder i kraft I:2028-07-02/) och övergångsbestämmelserna har ett block 2026:1243 med nio punkter (\"1. Denna lag träder i kraft den 2 juli 2028.\") = den lag \"som träder i kraft den 2 juli 2028 och har ett flertal övergångsbestämmelser\" i Bet. 2025/26:UbU26 (Utskottets överväganden): \"Det innebär att utskottet föreslår att samordningen av lagstiftningen sker i en lag som träder i kraft den 1 juli 2028 och saknar övergångsbestämmelser, en lag som träder i kraft den 2 juli 2028 och har ett flertal övergångsbestämmelser samt en lag som träder i kraft den 1 januari 2031 och har en övergångsbestämmelse.\". alla 41 paragrafer som K3 (prop-lagtext.json) har extraherat ur prop. 2025/26:197 lagförslag 2.1 (i kraft enligt propositionen \"1. Denna lag träder i kraft den 1 juli 2028.\") tar upp har lydelse \"Lag (2026:1243)\", liksom 58 av de 66 extraherade paragraferna i prop. 2025/26:194 lagförslag 2.1. Beslut (dokumentstatus, utskottsförslag punkt 1, BES 2026-06-09): \"a) antar utskottets förslag i bilaga 3 till 1. lag om ändring i skollagen (2010:800), 2. lag om ändring i skollagen (2010:800), 3. lag om ändring i skollagen (2010:800), b) antar regeringens förslag till lag om ändring i skollagen (2010:800) (proposition 2025/26:197 lagförslag 2) [...] Därmed bifaller riksdagen propositionerna 2025/26:194 punkterna 1.2 och 2.2, 2025/26:195 delpunkt 2, 2025/26:196 punkt 3.2, 2025/26:197 punkterna 1-4 och 2025/26:198 punkterna 2.2 och 3.2.\" Ändrings-SFS i original (svenskforfattningssamling.se) och SFS-registret (rkrattsbaser.gov.se) nåddes inte från miljön (proxy 403); riksdagens dokumentstatus för betänkandena anger inga SFS-nummer. Kopplingen SFS-nummer → lag i riksdagsbeslutet bygger därför på ikraftträdandedag, övergångsblock och paragrafuppsättning i den konsoliderade texten jämförda med betänkandets och propositionens text.",
+     "url": "https://data.riksdagen.se/dokument/HD01UbU26",
+     "ovriga_urler": [
+      "https://data.riksdagen.se/dokumentstatus/HD01UbU26",
+      "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+     ]
+    },
+    {
+     "sfs": "2026:1244",
+     "prop": "Prop. 2025/26:197 (lagförslag 2.2)",
+     "text": "Beslut (dokumentstatus, utskottsförslag punkt 1, BES 2026-06-09): \"a) antar utskottets förslag i bilaga 3 till 1. lag om ändring i skollagen (2010:800), 2. lag om ändring i skollagen (2010:800), 3. lag om ändring i skollagen (2010:800), b) antar regeringens förslag till lag om ändring i skollagen (2010:800) (proposition 2025/26:197 lagförslag 2) [...] Därmed bifaller riksdagen propositionerna 2025/26:194 punkterna 1.2 och 2.2, 2025/26:195 delpunkt 2, 2025/26:196 punkt 3.2, 2025/26:197 punkterna 1-4 och 2025/26:198 punkterna 2.2 och 3.2.\" Skollag (2010:800) konsoliderad, riksdagens öppna data (Ändrad: t.o.m. SFS 2026:1636), hämtad 2026-11-11: 27 paragrafversioner (15, 17, 22 och 28 kap.) har \"Lag (2026:1244)\" med /Träder i kraft I:2030-07-01/; alla 27 finns bland paragraferna i prop. 2025/26:197 lagförslag 2.2, som enligt propositionen har \"1. Denna lag träder i kraft den 1 juli 2030.\"; övergångsblocket 2026:1244 lyder \"1. Denna lag träder i kraft den 1 juli 2030.\" Ändrings-SFS i original (svenskforfattningssamling.se) och SFS-registret (rkrattsbaser.gov.se) nåddes inte från miljön (proxy 403); riksdagens dokumentstatus för betänkandena anger inga SFS-nummer. Kopplingen SFS-nummer → lag i riksdagsbeslutet bygger därför på ikraftträdandedag, övergångsblock och paragrafuppsättning i den konsoliderade texten jämförda med betänkandets och propositionens text.",
+     "url": "https://data.riksdagen.se/dokumentstatus/HD01UbU26",
+     "ovriga_urler": [
+      "https://data.riksdagen.se/dokument/sfs-2010-800.text",
+      "https://data.riksdagen.se/dokument/HD03197"
+     ]
+    },
+    {
+     "sfs": "2026:1245",
+     "prop": "Prop. 2025/26:197 (lagförslag 2.3); Prop. 2025/26:194 (lagförslag 2.2, avsnitt 6.7–6.8)",
+     "text": "Skollag (2010:800) konsoliderad, riksdagens öppna data (Ändrad: t.o.m. SFS 2026:1636), hämtad 2026-11-11: 9 paragrafversioner (20 kap. och 29 kap. 19 c §) har \"Lag (2026:1245)\" med /Träder i kraft I:2031-01-01/, och övergångsblocket 2026:1245 lyder \"1. Denna lag träder i kraft den 1 januari 2031. 2. Äldre bestämmelser gäller fortfarande [...]\" = den lag \"som träder i kraft den 1 januari 2031 och har en övergångsbestämmelse\" i Bet. 2025/26:UbU26 (Utskottets överväganden): \"Det innebär att utskottet föreslår att samordningen av lagstiftningen sker i en lag som träder i kraft den 1 juli 2028 och saknar övergångsbestämmelser, en lag som träder i kraft den 2 juli 2028 och har ett flertal övergångsbestämmelser samt en lag som träder i kraft den 1 januari 2031 och har en övergångsbestämmelse.\". alla 7 extraherade paragrafer (prop-lagtext.json) i prop. 2025/26:197 lagförslag 2.3 och alla 3 i prop. 2025/26:194 lagförslag 2.2 har lydelse \"Lag (2026:1245)\"; båda lagförslagen har enligt propositionerna \"1. Denna lag träder i kraft den 1 januari 2031.\" Ändrings-SFS i original (svenskforfattningssamling.se) och SFS-registret (rkrattsbaser.gov.se) nåddes inte från miljön (proxy 403); riksdagens dokumentstatus för betänkandena anger inga SFS-nummer. Kopplingen SFS-nummer → lag i riksdagsbeslutet bygger därför på ikraftträdandedag, övergångsblock och paragrafuppsättning i den konsoliderade texten jämförda med betänkandets och propositionens text.",
+     "url": "https://data.riksdagen.se/dokument/HD01UbU26",
+     "ovriga_urler": [
+      "https://data.riksdagen.se/dokumentstatus/HD01UbU26",
+      "https://data.riksdagen.se/dokument/sfs-2010-800.text"
+     ]
+    }
+   ],
+   "anm": "Ändrat i Sprint 17 A1: 2026:1244 (prop. 2025/26:197 lagförslag 2.2, meritvärde, i kraft 2030-07-01) har lagts till. 2026:1242 är kvar: lagen är i huvudsak prop. 2025/26:195 (stöd), men innehåller prop. 2025/26:194:s ändring av 3 kap. 2 § (avsnitt 6.7, SOU 2025:18 avsnitt 9.4.2); se andringar_kalla."
   }
  ],
  "forordningar": [
@@ -207,31 +252,22 @@
  },
  "hamtningsdatum": "2026-11-10",
  "korrigeringar": {
-  "ocr_citat_manuellt_kontrollerade": [
-   "U287",
-   "U288",
-   "U289",
-   "U290",
-   "U291",
-   "U292",
-   "U293",
-   "U294",
-   "U295",
-   "U296"
-  ],
-  "motivering_omformulerad": {
-   "U338": [
-    "lokal hantering kvarstår",
-    "lokal hantering finns kvar"
-   ]
-  }
+  "ocr_citat_manuellt_kontrollerade": [],
+  "motivering_omformulerad": {},
+  "_anm": "Sprint 17 A4: betyg omkodat med gemensam kodinstruktion; listorna från Sprint 16 (gamla id) gäller inte längre, se fore-omkodning/."
  },
  "forteckning_korrigeringar": {},
  "forordning_markor_beskrivning": "den nya betygsskalan",
- "legacy_sokvagar": {
-  "_anm": "Sökvägar som betygsfilen från Sprint 16 refererar till (belagg, byggd_av). Behålls för identisk regression; nya reformer pekar på reformer/<id>/sfs-diff.json och kedja/bygg.py.",
-  "sfs_diff_belagg": "research/remissanalys/sfs-diff-betyg.json",
-  "byggd_av": "research/remissanalys/skript/bygg-pilot.py"
+ "sfs_urval": "alla",
+ "remissida_kontroll": {
+  "datum": "2026-11-11",
+  "regel": "Sprint 17 A2: yttranden från fokusgrupper som är publicerade på remissidan men inte ingår i korpusen enligt förteckningen har lästs. Ett yttrande med sakinnehåll ska ingå även om förteckningen anger att instansen avstått; rena avståendebrev ingår inte.",
+  "tillagda_yttranden": [],
+  "ej_med_avstaenden": []
  },
- "sfs_urval": "kodade"
+ "begransningar": [
+  "Omkodad med den gemensamma kodinstruktionen (Sprint 17). Samstämmighet för typning var 31/40 före regelprövningen och 71/80 efter; regeln för betyg är minst 75 % efter regelprövningen.",
+  "Delad proposition: SOU 2025:18 behandlas i prop. 2025/26:197 och i prop. 2025/26:194 avsnitt 6.7–6.8.",
+  "Spontana yttranden publiceras inte på regeringen.se; enskilda huvudmän som yttrat sig spontant saknas därför i korpusen."
+ ]
 }
